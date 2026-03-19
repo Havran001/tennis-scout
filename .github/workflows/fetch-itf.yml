@@ -1,0 +1,70 @@
+name: Fetch ITF Data Daily
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-itf:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch ITF data
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request, urllib.parse
+          from datetime import datetime
+
+          BASE = "https://www.itftennis.com/tennis/api/TournamentApi/GetCalendar"
+          year = datetime.now().year
+          months = [
+            (f"{year}-01-01", f"{year}-01-31"), (f"{year}-02-01", f"{year}-02-28"),
+            (f"{year}-03-01", f"{year}-03-31"), (f"{year}-04-01", f"{year}-04-30"),
+            (f"{year}-05-01", f"{year}-05-31"), (f"{year}-06-01", f"{year}-06-30"),
+            (f"{year}-07-01", f"{year}-07-31"), (f"{year}-08-01", f"{year}-08-31"),
+            (f"{year}-09-01", f"{year}-09-30"), (f"{year}-10-01", f"{year}-10-31"),
+            (f"{year}-11-01", f"{year}-11-30"), (f"{year}-12-01", f"{year}-12-31"),
+          ]
+          all_items, seen = [], set()
+          headers = {"User-Agent": "Mozilla/5.0", "Accept": "application/json",
+                     "Referer": "https://www.itftennis.com/en/tournament-calendar/"}
+          for circuit in ["MT", "WT"]:
+            for date_from, date_to in months:
+              params = {"circuitCode": circuit, "skip": "0", "take": "500",
+                        "dateFrom": date_from, "dateTo": date_to,
+                        "isOrderAscending": "true", "orderField": "startDate"}
+              url = BASE + "?" + urllib.parse.urlencode(params)
+              try:
+                with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=15) as r:
+                  for item in (json.loads(r.read()).get("items") or []):
+                    start = (item.get("startDate") or "")[:10]
+                    if not start or start < f"{year}-01-01": continue
+                    name = item.get("promotionalName") or item.get("tournamentName") or ""
+                    if not name or f"{name}|{start}" in seen: continue
+                    seen.add(f"{name}|{start}")
+                    all_items.append({"name": name, "loc": item.get("venue") or "",
+                      "country": item.get("hostNationCode") or "",
+                      "cat": "ITF", "tier": item.get("category") or "",
+                      "surf": item.get("surfaceDesc") or "",
+                      "start": start, "end": (item.get("endDate") or "")[:10]})
+              except Exception as e:
+                print(f"ERROR {circuit} {date_from}: {e}")
+          all_items.sort(key=lambda x: x["start"])
+          out = {"updated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                 "year": year, "count": len(all_items), "items": all_items}
+          open("itf_data.json","w").write(__import__("json").dumps(out, ensure_ascii=False, indent=2))
+          print(f"Done: {len(all_items)} tournaments")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add itf_data.json
+          git diff --staged --quiet || git commit -m "ITF data $(date -u +'%Y-%m-%d')"
+          git push
