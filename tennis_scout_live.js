@@ -957,29 +957,25 @@ function buildUI(){
 
   // ── NAVIGACE ──
   function goView(view){
+    // Update sidebar
     sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
     sh.getElementById('nav-'+view)?.classList.add('active');
+    // Topbar title
     const titles={home:'Rozcestník',tournaments:'Turnaje 2026',players:'Hráči ATP'};
     sh.getElementById('topbar-title').textContent=titles[view]||view;
-    const homeView=sh.getElementById('home-view');
-    const filterbar=sh.getElementById('filterbar');
-    const mnav=sh.getElementById('mnav');
-    const pw=sh.getElementById('pw');
-    if(homeView) homeView.style.display=view==='home'?'block':'none';
-    if(filterbar) filterbar.style.display=view==='tournaments'?'flex':'none';
-    if(filterbar) filterbar.style.flexDirection='column';
-    if(mnav) mnav.style.display=view==='tournaments'?'flex':'none';
-    if(pw) pw.style.display=view==='players'?'block':'none';
-    if(view==='tournaments'){
-      const mgs=sh.querySelectorAll('.mg');
-      mgs.forEach(m=>m.style.display='');
-      if(mgs.length===0&&window._tsData&&window._tsData.length>0){
-        if(window._tsRender){window._tsRender();setTimeout(()=>sh.querySelectorAll('.mg').forEach(m=>m.style.display=''),50);}
-      }
-    }else{
-      sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
-    }
-    if(view==='players'&&pw&&pw.render)pw.render();
+    // Visibility
+    homeView.style.display=view==='home'?'block':'none';
+    filterbar.style.display=view==='tournaments'?'flex':'none';
+    filterbar.style.flexDirection='column';
+    mnav.style.display=view==='tournaments'?'flex':'none';
+    _pw.style.display=view==='players'?'block':'none';
+    // Turnaje - vyčisti/zobraz
+    const mgs=sh.querySelectorAll('.mg');
+    mgs.forEach(m=>m.style.display=view==='tournaments'?'':'none');
+    if(view==='players'&&_pw.render)_pw.render();
+    // btn-p styl
+    const bp=sh.getElementById('nav-players');
+    if(bp)bp.classList.toggle('active',view==='players');
   }
 
   // Nav item clicks
@@ -1070,12 +1066,12 @@ function setupRender({sh,body,mnav}){
     return render;
 }
 
-// ── MAIN ──────────────────────────────────────────────────────
+// ── MAIN ────────────────────────────────────────────────────
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
-const render=setupRender({sh,body,mnav});window._tsRender=render;
-// Players panel — absolute overlay, sibling of body, not inside it
-const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;const m=t.match(/(\d+)\/(\d+)/);if(m){const b=sh.getElementById('itfb');if(b)b.style.width=(+m[1]/+m[2]*100)+'%';}};
+const render=setupRender({sh,body,mnav});
+window._tsRender=render;
+const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;};
 const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textContent?e.textContent+' | ':'')+m;e.style.display='block';}};
 
 // Players tab
@@ -1085,32 +1081,37 @@ body.appendChild(_pw);
 // 1. Statická data — okamžitě
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
 sh.getElementById('load')?.remove();
+sh.getElementById('itfs')?.remove();
 render();
-// Nastav home view — skryj .mg elementy
+// .mg jsou nyní v DOM — skryj je, home view je aktivní
 sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
-// Aktualizuj count na home
-const hcT=sh.getElementById('hc-count-t');
-if(hcT){const total=(window._tsData||[]).length;hcT.textContent=total+' turnajů';}
-const ncEl=sh.getElementById('nav-count');
-if(ncEl)ncEl.textContent=(window._tsData||[]).length;
+// Update home counts
+const _hcT=sh.getElementById('hc-count-t');
+if(_hcT)_hcT.textContent=window._tsData.length+' turnájů';
+const _ncEl=sh.getElementById('nav-count');
+if(_ncEl)_ncEl.textContent=window._tsData.length;
 
-// 2. ITF live API — funguje pouze z itftennis.com
-// Načti hráče a ITF paralelně
-fetchPlayers(txt => console.log('Players:', txt)).then(count => {
-  console.log(`✅ ATP hráči načteni: ${count}`);
-}).catch(e => console.warn('ATP players:', e.message));
+// 2. ITF + Players paralelně na pozadí
+fetchPlayers(txt=>console.log('Players:',txt)).then(count=>{
+  console.log('✅ ATP hráči načteni:',count);
+}).catch(e=>console.warn('ATP players:',e.message));
 
-console.log('🎾 Spouštím ITF fetch z GitHub cache...');
-// loader skrytý, jen status bar
-fetchITF(txt=>{
-  setP(txt);
-}).then(itfItems=>{
+fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   window._tsData.push(...itfItems);
-  render();
-  const s=sh.getElementById('itfs');if(s)s.style.display='none';
-  const total=window._tsData.length;
-  console.log(`%c🎾 Tennis Scout v${VERSION} — ${total} turnajů`,'color:#c8f135;font-weight:bold;font-size:14px;');
-  console.table({ATP:ATP.length,WTA:WTA.length,Challenger:CHALL.length,'ITF M+W':itfItems.length,CELKEM:total});
+  // Re-render jen pokud jsme na turnaje view
+  const activeNav=sh.querySelector('.nav-item.active');
+  if(activeNav&&activeNav.dataset.view==='tournaments'){
+    render();
+  }else{
+    render();
+    sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
+  }
+  // Update counts
+  const hcT=sh.getElementById('hc-count-t');
+  if(hcT)hcT.textContent=window._tsData.length+' turnájů';
+  const ncEl=sh.getElementById('nav-count');
+  if(ncEl)ncEl.textContent=window._tsData.length;
+  console.log('🎾 Tennis Scout v'+VERSION+' — '+window._tsData.length+' turnájů');
 }).catch(e=>{addErr('ITF: '+e.message);});
 
 })();
