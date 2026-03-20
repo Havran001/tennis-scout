@@ -315,7 +315,6 @@ function buildPlayersTab(sh, bodyEl) {
   wrap.id='pw';wrap.style.display='none';
   function rP(){
     const ATP_PLAYERS=window.ATP_PLAYERS||[];
-    const ATP_PLAYERS=window.ATP_PLAYERS||[];
     const ATP=window.ATP_PLAYERS||[];
     const sq=pS.toLowerCase();
     let f=ATP.filter(([r,n,c])=>{
@@ -472,7 +471,6 @@ function buildUI(){
   const btnR=el('button','btn-r');btnR.textContent='↻ Reload';top.appendChild(btnR);
   const btnC=el('button','btn-c');btnC.textContent='✕ Zavřít';top.appendChild(btnC);
   const btnP=el('button','btn-p');btnP.textContent='\uD83D\uDC64 Hr\u00E1\u010Di';btnP.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';top.appendChild(btnP);
-  const btnP=el('button','btn-p');btnP.textContent='👤 Hráči';btnP.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';top.appendChild(btnP);
   hdr.appendChild(top);
   const fr1=el('div',null,'fr');
   const fl1=el('span',null,'fl');fl1.textContent='Okruh';fr1.appendChild(fl1);
@@ -594,7 +592,6 @@ const _pw=buildPlayersTab(sh);
 sh.getElementById('w').appendChild(_pw);
 
 // Players panel
-const _pw=buildPlayersTab(sh);
 body.appendChild(_pw);
 
 // 1. Statická data — okamžitě
