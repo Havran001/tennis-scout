@@ -957,25 +957,29 @@ function buildUI(){
 
   // ── NAVIGACE ──
   function goView(view){
-    // Update sidebar
     sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
     sh.getElementById('nav-'+view)?.classList.add('active');
-    // Topbar title
     const titles={home:'Rozcestník',tournaments:'Turnaje 2026',players:'Hráči ATP'};
     sh.getElementById('topbar-title').textContent=titles[view]||view;
-    // Visibility
-    homeView.style.display=view==='home'?'block':'none';
-    filterbar.style.display=view==='tournaments'?'flex':'none';
-    filterbar.style.flexDirection='column';
-    mnav.style.display=view==='tournaments'?'flex':'none';
-    _pw.style.display=view==='players'?'block':'none';
-    // Turnaje - vyčisti/zobraz
-    const mgs=sh.querySelectorAll('.mg');
-    mgs.forEach(m=>m.style.display=view==='tournaments'?'':'none');
-    if(view==='players'&&_pw.render)_pw.render();
-    // btn-p styl
-    const bp=sh.getElementById('nav-players');
-    if(bp)bp.classList.toggle('active',view==='players');
+    const homeView=sh.getElementById('home-view');
+    const filterbar=sh.getElementById('filterbar');
+    const mnav=sh.getElementById('mnav');
+    const pw=sh.getElementById('pw');
+    if(homeView) homeView.style.display=view==='home'?'block':'none';
+    if(filterbar) filterbar.style.display=view==='tournaments'?'flex':'none';
+    if(filterbar) filterbar.style.flexDirection='column';
+    if(mnav) mnav.style.display=view==='tournaments'?'flex':'none';
+    if(pw) pw.style.display=view==='players'?'block':'none';
+    if(view==='tournaments'){
+      const mgs=sh.querySelectorAll('.mg');
+      mgs.forEach(m=>m.style.display='');
+      if(mgs.length===0&&window._tsData&&window._tsData.length>0){
+        if(window._tsRender){window._tsRender();setTimeout(()=>sh.querySelectorAll('.mg').forEach(m=>m.style.display=''),50);}
+      }
+    }else{
+      sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
+    }
+    if(view==='players'&&pw&&pw.render)pw.render();
   }
 
   // Nav item clicks
