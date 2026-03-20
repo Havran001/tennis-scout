@@ -917,20 +917,19 @@ function buildUI(){
         </div>
         <div style="padding:18px 22px 20px;">
           <div class="hc-title">Turnaje 2026</div>
-          <div class="hc-desc">ATP, WTA, Challenger a ITF turnaje s detailními informacemi o povrchu, losování a prize money.</div>
+          <div class="hc-desc">ATP, WTA, Challenger a ITF turnaje s detailn\u00EDmi informacemi o povrchu, losov\u00E1n\u00ED a prize money.</div>
           <div class="hc-meta"><span class="hc-count" id="hc-count-t">795 turnaj\u016F</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
       <div class="home-card blue" data-goto="players" style="padding:0;overflow:hidden;">
-        <div style="position:relative;height:160px;overflow:hidden;background:linear-gradient(135deg,#0a1628,#0d2040,#0a3060);">
-          <img id="player-photo" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;opacity:0.85;" src="" />
-          <svg style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:100px;height:140px;opacity:0.9" viewBox="0 0 100 140"><ellipse cx="50" cy="14" rx="11" ry="12" fill="#e8c49a"/><ellipse cx="50" cy="8" rx="11" ry="7" fill="#8B6914"/><path d="M 32 35 Q 50 28 68 35 L 72 75 Q 50 80 28 75 Z" fill="#fff"/><path d="M 28 75 Q 50 82 72 75 L 70 100 Q 50 105 30 100 Z" fill="#2060e0"/><path d="M 32 38 L 14 55 L 10 52" stroke="#e8c49a" stroke-width="7" stroke-linecap="round" fill="none"/><ellipse cx="7" cy="50" rx="8" ry="10" fill="none" stroke="#c8a020" stroke-width="2.5"/><line x1="7" y1="40" x2="7" y2="60" stroke="#c8a020" stroke-width="1"/><line x1="-1" y1="50" x2="15" y2="50" stroke="#c8a020" stroke-width="1"/><path d="M 68 38 L 78 55" stroke="#e8c49a" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M 38 100 L 34 130 L 30 130" stroke="#e8c49a" stroke-width="8" stroke-linecap="round" fill="none"/><path d="M 57 100 L 61 130 L 65 130" stroke="#e8c49a" stroke-width="8" stroke-linecap="round" fill="none"/><ellipse cx="29" cy="132" rx="8" ry="4" fill="#333"/><ellipse cx="65" cy="132" rx="8" ry="4" fill="#333"/></svg>
-          <div style="position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(transparent,rgba(0,200,83,0.07));"></div>
-          <div style="position:absolute;bottom:10px;left:0;right:0;text-align:center;font-size:9px;color:rgba(255,255,255,0.4);font-family:monospace;letter-spacing:2px;">C. ALCARAZ \u00B7 #1 ATP \u00B7 13 550 PTS</div>
+        <div style="position:relative;height:160px;overflow:hidden;background:#050d1a;">
+          <img id="player-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;" />
+          <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 45%,rgba(5,13,26,0.88));"></div>
+          <div style="position:absolute;bottom:10px;left:0;right:0;text-align:center;font-size:9px;color:rgba(255,255,255,0.55);font-family:monospace;letter-spacing:2px;text-shadow:0 1px 3px rgba(0,0,0,0.9);">N. DJOKOVIC &middot; 24&times; GRAND SLAM</div>
         </div>
         <div style="padding:18px 22px 20px;">
           <div class="hc-title">Hr\u00E1\u010Di ATP</div>
-          <div class="hc-desc">Aktu\u00E1ln\u00ED ATP ranking s filtrováním podle zem\u011B, \u0159azen\u00EDm podle bod\u016F a odkazem na ATP profil.</div>
+          <div class="hc-desc">Aktu\u00E1ln\u00ED ATP ranking s filtrova\u00EDm podle zem\u011B, \u0159azen\u00EDm podle bod\u016F a odkazem na ATP profil.</div>
           <div class="hc-meta"><span class="hc-count">998 hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
@@ -1076,6 +1075,15 @@ function setupRender({sh,body,mnav}){
 // ── MAIN ────────────────────────────────────────────────────
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
+// Djokovic photo from Wikipedia API
+(async()=>{try{
+  const _wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Novak_Djokovic');
+  const _wd=await _wr.json();
+  const _tu=_wd.thumbnail?.source;if(!_tu)return;
+  const _ir=await fetch(_tu);const _blob=await _ir.blob();
+  const _du=await new Promise(_r=>{const _fr=new FileReader();_fr.onload=()=>_r(_fr.result);_fr.readAsDataURL(_blob);});
+  const _pi=sh.getElementById('player-photo');if(_pi)_pi.src=_du;
+}catch(_e){}})();
 // Přidej homeView do body
 const _homeViewEl=sh.getElementById('home-view');
 if(_homeViewEl&&!_homeViewEl.parentElement)body.insertBefore(_homeViewEl,body.firstChild);
@@ -1094,21 +1102,6 @@ render();
 sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
 // Update home counts
 const _hcT=sh.getElementById('hc-count-t');
-
-// Načti fotku hráče pro home kartu přes Wikipedia API
-(async()=>{
-  try{
-    const wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Novak_Djokovic');
-    const wd=await wr.json();
-    const thumbUrl=wd.thumbnail?.source;
-    if(!thumbUrl)return;
-    const ir=await fetch(thumbUrl);
-    const blob=await ir.blob();
-    const dataUrl=await new Promise(res=>{const fr=new FileReader();fr.onload=()=>res(fr.result);fr.readAsDataURL(blob);});
-    const playerImg=sh.getElementById('player-photo');
-    if(playerImg){playerImg.src=dataUrl;playerImg.style.objectPosition='center 15%';}
-  }catch(e){console.log('player photo:',e.message);}
-})();
 if(_hcT)_hcT.textContent=window._tsData.length+' turnájů';
 const _ncEl=sh.getElementById('nav-count');
 if(_ncEl)_ncEl.textContent=window._tsData.length;
