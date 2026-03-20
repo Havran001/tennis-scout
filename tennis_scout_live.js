@@ -589,7 +589,7 @@ const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textCon
 
 // Players overlay — absolutní panel přes body
 const _pw=buildPlayersTab(sh);
-sh.getElementById('w').appendChild(_pw);
+sh.getElementById('body').appendChild(_pw);
 
 // Players panel
 body.appendChild(_pw);
