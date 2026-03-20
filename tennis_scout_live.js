@@ -16,8 +16,9 @@
 (async function TENNIS_SCOUT() {
 'use strict';
 const VERSION = '5.3';
-window.ATP_PLAYERS = window.ATP_PLAYERS || [];
-window.ATP_PLAYERS = window.ATP_PLAYERS || [];
+
+// ATP Rankings - načítáno z GitHubu (stejně jako ITF data)
+let ATP_PLAYERS = [];
 
 // Kontrola CSP
 {
@@ -262,22 +263,17 @@ function mkChall(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,
 // ── ITF API ───────────────────────────────────────────────────
 
 async function fetchPlayers(onProg) {
-  const r = await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json',{cache:'no-store'});
-  if(!r.ok) throw new Error('HTTP '+r.status);
-  const d = await r.json();
-  window.ATP_PLAYERS = (d.items||[]).map(p=>[p.rank,p.name,p.country,p.pts,p.id]);
-  onProg&&onProg('ATP: '+window.ATP_PLAYERS.length+' hráčů');
-  return window.ATP_PLAYERS.length;
+  const GH_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json';
+  onProg('Načítám ATP hráče z GitHub cache...');
+  const resp = await fetch(GH_URL);
+  if (!resp.ok) throw new Error(`ATP players cache: HTTP ${resp.status}`);
+  const data = await resp.json();
+  // Převeď objekty na arrays pro efektivitu
+  ATP_PLAYERS = (data.items || []).map(p => [p.rank, p.name, p.country, p.pts, p.id]);
+  onProg(`ATP hráči: ${ATP_PLAYERS.length} (aktualizováno ${data.updated?.slice(0,10)||'?'})`);
+  return ATP_PLAYERS.length;
 }
 
-async function fetchPlayers(onProg) {
-  const r = await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json',{cache:'no-store'});
-  if(!r.ok) throw new Error('HTTP '+r.status);
-  const d = await r.json();
-  window.ATP_PLAYERS = (d.items||[]).map(p=>[p.rank,p.name,p.country,p.pts,p.id]);
-  onProg&&onProg('ATP: '+window.ATP_PLAYERS.length+' hráčů');
-  return window.ATP_PLAYERS.length;
-}
 async function fetchITF(onProg){
   // Data jsou každý den automaticky aktualizována GitHub Actions
   // z itftennis.com a uložena do raw.githubusercontent.com (prochází sítí)
@@ -309,146 +305,80 @@ function surfSp(s){return s==='Antuka'?'sA':s==='Tráva'?'sT':s==='Krytý'?'sK':
 function tierCls(t){if(!t)return'';if(t==='Grand Slam')return'tGS';if(t==='Masters1000'||t==='WTA1000')return'tM1';if(t==='ATP500'||t==='WTA500')return't5';if(t==='CH175')return'tCH175';if(t==='CH125')return'tCH125';return'';}
 
 
-function buildPlayersTab(sh, bodyEl) {
-  let pS='',pC='ALL',pO='rank',pP=0;
-  const PG=50,wrap=document.createElement('div');
-  wrap.id='pw';wrap.style.display='none';
+// ── HRÁČI ──────────────────────────────────────────────────────────────────
+function buildPlayersTab(sh) {
+  var pS="",pC="ALL",pO="rank",pP=0;
+  var PG=50, wrap=document.createElement("div");
+  wrap.id="pw";
+  wrap.style.cssText="display:none;color:#e8eaf0;font-family:\"DM Sans\",\"Segoe UI\",sans-serif;font-size:14px;";
   function rP(){
-    const ATP_PLAYERS=window.ATP_PLAYERS||[];
-    const ATP=window.ATP_PLAYERS||[];
-    const sq=pS.toLowerCase();
-    let f=ATP.filter(([r,n,c])=>{
-      if(pC!=='ALL'&&c!==pC)return false;
-      if(sq&&!n.toLowerCase().includes(sq)&&!c.toLowerCase().includes(sq))return false;
+    var ATP=window.ATP_PLAYERS||[];
+    var sq=pS.toLowerCase();
+    var f=ATP.filter(function(p){
+      var c=p[2],n=p[1];
+      if(pC!=="ALL"&&c!==pC)return false;
+      if(sq&&n.toLowerCase().indexOf(sq)===-1&&c.toLowerCase().indexOf(sq)===-1)return false;
       return true;
     });
-    if(pO==='name')f.sort((a,b)=>a[1].localeCompare(b[1]));
-    else if(pO==='pts')f.sort((a,b)=>b[3]-a[3]);
-    else f.sort((a,b)=>a[0]-b[0]);
-    const tot=f.length,pg=f.slice(pP*PG,(pP+1)*PG),mxP=Math.ceil(tot/PG)-1;
-    const cc={};ATP.forEach(([,,c])=>{cc[c]=(cc[c]||0)+1;});
-    const tops=Object.entries(cc).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([c])=>c);
-    wrap.innerHTML='';
-    const tb=document.createElement('div');
-    tb.style.cssText='padding:10px 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center;border-bottom:1px solid #1e2330;margin-bottom:6px;';
-    const si=document.createElement('input');si.placeholder='\uD83D\uDD0D Hledat...';si.value=pS;
-    si.style.cssText='background:#181c23;border:1px solid #1e2330;color:#e8eaf0;font-size:12px;padding:4px 10px;border-radius:14px;outline:none;width:160px;';
-    si.oninput=e=>{pS=e.target.value;pP=0;rP();};tb.appendChild(si);
-    ['ALL',...tops].forEach(c=>{
-      const on=pC===c,b=document.createElement('button');
-      b.textContent=c==='ALL'?'V\u0161e':c;
-      b.style.cssText='background:'+(on?'#c8f135':'none')+';color:'+(on?'#0a0c0f':'#5a6070')+';border:1px solid '+(on?'#c8f135':'#1e2330')+';font-size:10px;padding:2px 7px;border-radius:3px;cursor:pointer;font-weight:'+(on?700:400)+';';
-      b.onclick=()=>{pC=c;pP=0;rP();};tb.appendChild(b);
+    if(pO==="name")f.sort(function(a,b){return a[1].localeCompare(b[1]);});
+    else if(pO==="pts")f.sort(function(a,b){return b[3]-a[3];});
+    else f.sort(function(a,b){return a[0]-b[0];});
+    var tot=f.length,pg=f.slice(pP*PG,(pP+1)*PG),mxP=Math.ceil(tot/PG)-1;
+    var cc={};ATP.forEach(function(p){var c=p[2];cc[c]=(cc[c]||0)+1;});
+    var tops=Object.entries(cc).sort(function(a,b){return b[1]-a[1];}).slice(0,10).map(function(e){return e[0];});
+    wrap.innerHTML="";
+    var tb=document.createElement("div");
+    tb.style.cssText="padding:10px 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center;border-bottom:1px solid #1e2330;margin-bottom:6px;";
+    var si=document.createElement("input");
+    si.placeholder="\uD83D\uDD0D Hledat hr\u00E1\u010De...";si.value=pS;
+    si.style.cssText="background:#181c23;border:1px solid #1e2330;color:#e8eaf0;font-size:12px;padding:4px 10px;border-radius:14px;outline:none;width:170px;";
+    si.oninput=function(e){pS=e.target.value;pP=0;rP();};tb.appendChild(si);
+    ["ALL"].concat(tops).forEach(function(c){
+      var on=pC===c,b=document.createElement("button");
+      b.textContent=c==="ALL"?"V\u0161e":c;
+      b.style.cssText="background:"+(on?"#c8f135":"none")+";color:"+(on?"#0a0c0f":"#5a6070")+";border:1px solid "+(on?"#c8f135":"#1e2330")+";font-size:10px;padding:2px 7px;border-radius:3px;cursor:pointer;font-weight:"+(on?700:400)+";";
+      b.onclick=function(){pC=c;pP=0;rP();};tb.appendChild(b);
     });
-    const ss=document.createElement('select');
-    ss.style.cssText='margin-left:auto;background:#181c23;border:1px solid #1e2330;color:#5a6070;font-size:10px;padding:2px 6px;border-radius:3px;';
-    [['rank','Ranking'],['pts','Body'],['name','Jm\u00E9no']].forEach(([v,t])=>{
-      const o=document.createElement('option');o.value=v;o.textContent=t;if(pO===v)o.selected=true;ss.appendChild(o);
+    var ss=document.createElement("select");
+    ss.style.cssText="margin-left:auto;background:#181c23;border:1px solid #1e2330;color:#5a6070;font-size:10px;padding:2px 6px;border-radius:3px;";
+    [["rank","Ranking"],["pts","Body"],["name","Jm\u00E9no"]].forEach(function(vt){
+      var o=document.createElement("option");o.value=vt[0];o.textContent=vt[1];if(pO===vt[0])o.selected=true;ss.appendChild(o);
     });
-    ss.onchange=e=>{pO=e.target.value;rP();};tb.appendChild(ss);
-    const sc=document.createElement('span');sc.style.cssText='font-size:9px;color:#5a6070;font-family:monospace;';
-    sc.textContent=tot+' hr\u00E1\u010D\u016F';tb.appendChild(sc);wrap.appendChild(tb);
-    const tbl=document.createElement('table');tbl.style.cssText='width:100%;border-collapse:collapse;';
-    const thead=document.createElement('thead');
-    thead.innerHTML='<tr><th style="width:40px;text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">#</th><th style="text-align:left;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">HR\u00C1\u010C</th><th style="padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">ZEM\u011a</th><th style="text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">BODY</th><th style="padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">ATP</th></tr>';
-    tbl.appendChild(thead);
-    const tb2=document.createElement('tbody');
-    pg.forEach(([rank,name,country,pts,id])=>{
-      const rc=rank<=10?'#c8a020':rank<=50?'#c8f135':rank<=100?'#35c8f1':'#5a6070';
-      const slug=name.toLowerCase().replace(/\\s+/g,'-').replace(/[^a-z0-9-]/g,'');
-      const tr=document.createElement('tr');
-      tr.style.cssText='cursor:pointer;transition:background .08s;';
-      tr.onmouseover=()=>tr.style.background='#111318';
-      tr.onmouseout=()=>tr.style.background='';
-      tr.onclick=()=>window.open('https://www.atptour.com/en/players/'+slug+'/'+id+'/overview','_blank');
-      tr.innerHTML='<td style="text-align:right;padding:5px 8px;font-family:monospace;font-size:11px;color:'+rc+';font-weight:'+(rank<=10?700:400)+'">'+rank+'</td><td style="padding:5px 8px;font-size:12px;font-weight:600;color:#e8eaf0">'+name+'</td><td style="padding:5px 8px"><span style="font-size:9px;padding:1px 5px;border:1px solid #1e2330;border-radius:3px;color:#5a6070;font-family:monospace">'+country+'</span></td><td style="padding:5px 8px;text-align:right;font-family:monospace;font-size:11px;color:#e8eaf0">'+pts.toLocaleString()+'</td><td style="padding:5px 8px"><a href="https://www.atptour.com/en/players/'+slug+'/'+id+'/overview" target="_blank" onclick="event.stopPropagation()" style="color:#c8f135;font-size:10px;font-family:monospace;text-decoration:none">ATP \u2192</a></td>';
+    ss.onchange=function(e){pO=e.target.value;rP();};tb.appendChild(ss);
+    var sc=document.createElement("span");sc.style.cssText="font-size:9px;color:#5a6070;font-family:monospace;";
+    sc.textContent=tot+" hr\u00E1\u010D\u016F";tb.appendChild(sc);wrap.appendChild(tb);
+    var tbl=document.createElement("table");tbl.style.cssText="width:100%;border-collapse:collapse;";
+    tbl.innerHTML="<thead><tr><th style=\"width:40px;text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330\">#</th><th style=\"text-align:left;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330\">HR\u00C1\u010C</th><th style=\"padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330\">ZEM\u011a</th><th style=\"text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330\">BODY</th><th style=\"padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330\">ATP</th></tr></thead>";
+    var tb2=document.createElement("tbody");
+    pg.forEach(function(item){
+      var rank=item[0],name=item[1],country=item[2],pts=item[3],id=item[4];
+      var rc=rank<=10?"#c8a020":rank<=50?"#c8f135":rank<=100?"#35c8f1":"#5a6070";
+      var slug=name.toLowerCase().replace(/[\s]+/g,"-").replace(/[^a-z0-9-]/g,"");
+      var tr=document.createElement("tr");tr.style.cssText="cursor:pointer;";
+      tr.onmouseover=function(){tr.style.background="#111318";};tr.onmouseout=function(){tr.style.background="";};
+      tr.onclick=function(){window.open("https://www.atptour.com/en/players/"+slug+"/"+id+"/overview","_blank");};
+      tr.innerHTML="<td style=\"text-align:right;padding:5px 8px;font-family:monospace;font-size:11px;color:"+rc+";font-weight:"+(rank<=10?700:400)+"\">" +rank+"</td>"
+        +"<td style=\"padding:5px 8px;font-size:12px;font-weight:600;color:#e8eaf0\">"+name+"</td>"
+        +"<td style=\"padding:5px 8px\"><span style=\"font-size:9px;padding:1px 5px;border:1px solid #1e2330;border-radius:3px;color:#5a6070;font-family:monospace\">"+country+"</span></td>"
+        +"<td style=\"padding:5px 8px;text-align:right;font-family:monospace;font-size:11px;color:#e8eaf0\">"+pts.toLocaleString()+"</td>"
+        +"<td style=\"padding:5px 8px\"><a href=\"https://www.atptour.com/en/players/"+slug+"/"+id+"/overview\" target=\"_blank\" onclick=\"event.stopPropagation()\" style=\"color:#c8f135;font-size:10px;font-family:monospace;text-decoration:none\">ATP \u2192</a></td>";
       tb2.appendChild(tr);
     });
     tbl.appendChild(tb2);wrap.appendChild(tbl);
     if(mxP>0){
-      const pv=document.createElement('div');pv.style.cssText='display:flex;gap:8px;justify-content:center;padding:12px 0;align-items:center;';
-      const mkB=(txt,en,fn)=>{const b=document.createElement('button');b.textContent=txt;b.style.cssText='background:none;border:1px solid #1e2330;color:'+(en?'#5a6070':'#2a2f3a')+';font-size:10px;padding:3px 10px;border-radius:3px;cursor:'+(en?'pointer':'default')+';';if(en)b.onclick=fn;return b;};
-      pv.appendChild(mkB('\u2190 P\u0159edchoz\u00ED',pP>0,()=>{pP--;rP();bodyEl.scrollTop=0;}));
-      const pi=document.createElement('span');pi.style.cssText='font-size:10px;color:#5a6070;font-family:monospace;';
-      pi.textContent=(pP*PG+1)+'\u2013'+Math.min((pP+1)*PG,tot)+' z '+tot;
-      pv.appendChild(pi);
-      pv.appendChild(mkB('Dal\u0161\u00ED \u2192',pP<mxP,()=>{pP++;rP();bodyEl.scrollTop=0;}));
+      var pv=document.createElement("div");pv.style.cssText="display:flex;gap:8px;justify-content:center;padding:12px 0;align-items:center;";
+      function mkB(txt,en,fn){var b=document.createElement("button");b.textContent=txt;b.style.cssText="background:none;border:1px solid #1e2330;color:"+(en?"#5a6070":"#2a2f3a")+";font-size:10px;padding:3px 10px;border-radius:3px;cursor:"+(en?"pointer":"default")+";";if(en)b.onclick=fn;return b;}
+      pv.appendChild(mkB("\u2190 P\u0159edchoz\u00ED",pP>0,function(){pP--;rP();wrap.scrollTop=0;}));
+      var pi=document.createElement("span");pi.style.cssText="font-size:10px;color:#5a6070;font-family:monospace;";
+      pi.textContent=(pP*PG+1)+"\u2013"+Math.min((pP+1)*PG,tot)+" z "+tot;pv.appendChild(pi);
+      pv.appendChild(mkB("Dal\u0161\u00ED \u2192",pP<mxP,function(){pP++;rP();wrap.scrollTop=0;}));
       wrap.appendChild(pv);
     }
   }
-  wrap._render=rP;
+  wrap.render=rP;
   return wrap;
 }
 
-function buildPlayersTab(sh, bodyEl) {
-  const wrap=document.createElement('div');
-  wrap.id='pw'; wrap.style.display='none';
-  wrap._s=''; wrap._c='ALL'; wrap._o='rank'; wrap._p=0;
-  const PG=50;
-  wrap.render = function() {
-    const ATP=window.ATP_PLAYERS||[], sq=wrap._s.toLowerCase();
-    let f=ATP.filter(([r,n,c])=>{
-      if(wrap._c!=='ALL'&&c!==wrap._c)return false;
-      if(sq&&!n.toLowerCase().includes(sq)&&!c.toLowerCase().includes(sq))return false;
-      return true;
-    });
-    if(wrap._o==='name')f.sort((a,b)=>a[1].localeCompare(b[1]));
-    else if(wrap._o==='pts')f.sort((a,b)=>b[3]-a[3]);
-    else f.sort((a,b)=>a[0]-b[0]);
-    const tot=f.length, pg=f.slice(wrap._p*PG,(wrap._p+1)*PG), mxP=Math.ceil(tot/PG)-1;
-    const cc={};ATP.forEach(([,,c])=>{cc[c]=(cc[c]||0)+1;});
-    const tops=Object.entries(cc).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([c])=>c);
-    wrap.innerHTML='';
-    const tb=document.createElement('div');
-    tb.style.cssText='padding:10px 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center;border-bottom:1px solid #1e2330;margin-bottom:6px;';
-    const si=document.createElement('input');si.placeholder='\uD83D\uDD0D Hledat hráče...';si.value=wrap._s;
-    si.style.cssText='background:#181c23;border:1px solid #1e2330;color:#e8eaf0;font-size:12px;padding:4px 10px;border-radius:14px;outline:none;width:170px;';
-    si.oninput=e=>{wrap._s=e.target.value;wrap._p=0;wrap.render();};tb.appendChild(si);
-    ['ALL',...tops].forEach(c=>{
-      const on=wrap._c===c, b=document.createElement('button');
-      b.textContent=c==='ALL'?'V\u0161e':c;
-      b.style.cssText='background:'+(on?'#c8f135':'none')+';color:'+(on?'#0a0c0f':'#5a6070')+';border:1px solid '+(on?'#c8f135':'#1e2330')+';font-size:10px;padding:2px 7px;border-radius:3px;cursor:pointer;font-weight:'+(on?700:400);
-      b.onclick=()=>{wrap._c=c;wrap._p=0;wrap.render();};tb.appendChild(b);
-    });
-    const ss=document.createElement('select');
-    ss.style.cssText='margin-left:auto;background:#181c23;border:1px solid #1e2330;color:#5a6070;font-size:10px;padding:2px 6px;border-radius:3px;';
-    [['rank','Ranking'],['pts','Body'],['name','Jm\u00E9no']].forEach(([v,t])=>{
-      const o=document.createElement('option');o.value=v;o.textContent=t;if(wrap._o===v)o.selected=true;ss.appendChild(o);
-    });
-    ss.onchange=e=>{wrap._o=e.target.value;wrap.render();};tb.appendChild(ss);
-    const sc=document.createElement('span');sc.style.cssText='font-size:9px;color:#5a6070;font-family:monospace;';
-    sc.textContent=tot+' hr\u00E1\u010D\u016F';tb.appendChild(sc);wrap.appendChild(tb);
-    const tbl=document.createElement('table');tbl.style.cssText='width:100%;border-collapse:collapse;';
-    tbl.innerHTML='<thead><tr><th style="width:40px;text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">#</th><th style="text-align:left;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">HR\u00C1\u010C</th><th style="padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">ZEM\u011a</th><th style="text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">BODY</th><th style="padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">ATP</th></tr></thead>';
-    const tb2=document.createElement('tbody');
-    pg.forEach(([rank,name,country,pts,id])=>{
-      const rc=rank<=10?'#c8a020':rank<=50?'#c8f135':rank<=100?'#35c8f1':'#5a6070';
-      const slug=name.toLowerCase().replace(/\\s+/g,'-').replace(/[^a-z0-9-]/g,'');
-      const tr=document.createElement('tr');tr.style.cssText='cursor:pointer;';
-      tr.onmouseover=()=>tr.style.background='#111318';tr.onmouseout=()=>tr.style.background='';
-      tr.onclick=()=>window.open('https://www.atptour.com/en/players/'+slug+'/'+id+'/overview','_blank');
-      tr.innerHTML='<td style="text-align:right;padding:5px 8px;font-family:monospace;font-size:11px;color:'+rc+';font-weight:'+(rank<=10?700:400)+'">'+rank+'</td>'
-        +'<td style="padding:5px 8px;font-size:12px;font-weight:600;color:#e8eaf0">'+name+'</td>'
-        +'<td style="padding:5px 8px"><span style="font-size:9px;padding:1px 5px;border:1px solid #1e2330;border-radius:3px;color:#5a6070;font-family:monospace">'+country+'</span></td>'
-        +'<td style="padding:5px 8px;text-align:right;font-family:monospace;font-size:11px;color:#e8eaf0">'+pts.toLocaleString()+'</td>'
-        +'<td style="padding:5px 8px"><a href="https://www.atptour.com/en/players/'+slug+'/'+id+'/overview" target="_blank" onclick="event.stopPropagation()" style="color:#c8f135;font-size:10px;font-family:monospace;text-decoration:none">ATP \u2192</a></td>';
-      tb2.appendChild(tr);
-    });
-    tbl.appendChild(tb2);wrap.appendChild(tbl);
-    if(mxP>0){
-      const pv=document.createElement('div');pv.style.cssText='display:flex;gap:8px;justify-content:center;padding:12px 0;align-items:center;';
-      const mkB=(txt,en,fn)=>{const b=document.createElement('button');b.textContent=txt;b.style.cssText='background:none;border:1px solid #1e2330;color:'+(en?'#5a6070':'#2a2f3a')+';font-size:10px;padding:3px 10px;border-radius:3px;cursor:'+(en?'pointer':'default');if(en)b.onclick=fn;return b;};
-      pv.appendChild(mkB('\u2190 P\u0159edchoz\u00ED',wrap._p>0,()=>{wrap._p--;wrap.render();bodyEl.scrollTop=0;}));
-      const pi=document.createElement('span');pi.style.cssText='font-size:10px;color:#5a6070;font-family:monospace;';
-      pi.textContent=(wrap._p*PG+1)+'\u2013'+Math.min((wrap._p+1)*PG,tot)+' z '+tot;
-      pv.appendChild(pi);
-      pv.appendChild(mkB('Dal\u0161\u00ED \u2192',wrap._p<mxP,()=>{wrap._p++;wrap.render();bodyEl.scrollTop=0;}));
-      wrap.appendChild(pv);
-    }
-  };
-  return wrap;
-}
-// ── UI ────────────────────────────────────────────────────────
 function buildUI(){
   document.getElementById('ts-host')?.remove();
   const host=document.createElement('div');
@@ -470,7 +400,7 @@ function buildUI(){
   const stats=el('div','stats');stats.innerHTML=`<div><b id="nt">—</b>Celkem</div><div><b id="ns">—</b>Zobrazeno</div>`;top.appendChild(stats);
   const btnR=el('button','btn-r');btnR.textContent='↻ Reload';top.appendChild(btnR);
   const btnC=el('button','btn-c');btnC.textContent='✕ Zavřít';top.appendChild(btnC);
-  const btnP=el('button','btn-p');btnP.textContent='\uD83D\uDC64 Hr\u00E1\u010Di';btnP.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';top.appendChild(btnP);
+  const btnP=el('button','btn-p');btnP.textContent='👤 Hráči';btnP.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';top.appendChild(btnP);
   hdr.appendChild(top);
   const fr1=el('div',null,'fr');
   const fl1=el('span',null,'fl');fl1.textContent='Okruh';fr1.appendChild(fl1);
@@ -530,7 +460,7 @@ function setupRender({sh,body,mnav}){
       mnav.appendChild(b);
     });
 
-    if(!ts.length){[...body.children].forEach(el=>{if(el.id!=='pw')el.remove();});const e=document.createElement('div');e.style.cssText='text-align:center;padding:60px;color:#5a6070;';e.textContent='Žádné turnaje.';body.appendChild(e);return;}
+    if(!ts.length){[...body.children].forEach(el=>{if(el.id!=='pw')el.remove()});const e=document.createElement('div');e.style.cssText='text-align:center;padding:60px;color:#5a6070;';e.textContent='Žádné turnaje.';body.appendChild(e);return;}
 
     let html='';
     Object.keys(byM).sort((a,b)=>+a-+b).forEach(m=>{
@@ -552,7 +482,7 @@ function setupRender({sh,body,mnav}){
     const tmp=new DOMParser().parseFromString(`<div>${html}</div>`,'text/html');
     const frag=document.createDocumentFragment();
     [...tmp.body.firstChild.childNodes].forEach(n=>frag.appendChild(document.adoptNode(n)));
-    [...body.children].forEach(el=>{if(el.id!=='pw')el.remove();});body.appendChild(frag);
+    [...body.children].forEach(el=>{if(el.id!=='pw')el.remove()});body.appendChild(frag);
     body.querySelectorAll('tr.r').forEach(row=>row.addEventListener('click',()=>{exId=exId===row.dataset.uid?null:row.dataset.uid;render();}));
   }
 
@@ -561,38 +491,40 @@ function setupRender({sh,body,mnav}){
   sh.getElementById('srch').addEventListener('input',e=>{sq=e.target.value;exId=null;render();});
   sh.getElementById('btn-c').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
   sh.getElementById('btn-r').addEventListener('click',()=>{document.getElementById('ts-host')?.remove();TENNIS_SCOUT();});
-const pw=buildPlayersTab(sh,body);body.appendChild(pw);
-let shP=false;
-sh.getElementById('btn-p')?.addEventListener('click',()=>{
+  sh.getElementById('btn-p')?.addEventListener('click',()=>{
+    // Players panel je mimo body — přepínáme viditelnost
     const pw=sh.getElementById('pw');
     const bp=sh.getElementById('btn-p');
     if(!pw)return;
-    if(pw.style.display==='none'){
+    const showing=pw.style.display!=='none';
+    if(!showing){
       pw.style.display='block';
       pw._render&&pw._render();
       if(bp)bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
-      pw.scrollIntoView({block:'start'});
     } else {
       pw.style.display='none';
       if(bp)bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
     }
   });
-  // btn-p: toggle players tab
-  const _bpEl = sh.getElementById('btn-p');
-  if (_bpEl) {
-    _bpEl.onclick = () => {
-      const pw = sh.getElementById('pw');
-      if (!pw) return;
-      const open = pw.style.display !== 'none';
-      if (!open) {
-        pw.style.display = 'block';
-        if (pw._render) pw._render();
-        _bpEl.style.cssText = 'background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
-      } else {
-        pw.style.display = 'none';
-        _bpEl.style.cssText = 'background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
+
+  var _bpBtn=sh.getElementById("btn-p");
+  if(_bpBtn){
+    _bpBtn.addEventListener("click",function(){
+      var pw=sh.getElementById("pw");
+      if(!pw)return;
+      var open=pw.style.display!=="none";
+      if(!open){
+        Array.from(body.children).forEach(function(el){if(el.id!=="pw")el.style.display="none";});
+        pw.style.display="block";
+        if(pw.render)pw.render();
+        body.scrollTop=0;
+        _bpBtn.style.cssText="background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;";
+      }else{
+        pw.style.display="none";
+        Array.from(body.children).forEach(function(el){if(el.id!=="pw")el.style.display="";});
+        _bpBtn.style.cssText="background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;";
       }
-    };
+    });
   }
   return render;
 }
@@ -601,14 +533,12 @@ sh.getElementById('btn-p')?.addEventListener('click',()=>{
 window._tsData=[];
 const{host,sh,body,mnav}=buildUI();
 const render=setupRender({sh,body,mnav});
+// Players panel — absolute overlay, sibling of body, not inside it
 const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;const m=t.match(/(\d+)\/(\d+)/);if(m){const b=sh.getElementById('itfb');if(b)b.style.width=(+m[1]/+m[2]*100)+'%';}};
 const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textContent?e.textContent+' | ':'')+m;e.style.display='block';}};
 
-// Players overlay — absolutní panel přes body
-const _pw=buildPlayersTab(sh);
-sh.getElementById('w').appendChild(_pw);
-
-// Players panel
+// Players tab
+var _pw=buildPlayersTab(sh);
 body.appendChild(_pw);
 
 // 1. Statická data — okamžitě
@@ -617,8 +547,11 @@ sh.getElementById('load')?.remove();
 render();
 
 // 2. ITF live API — funguje pouze z itftennis.com
-fetchPlayers(t=>console.log('👤',t)).catch(e=>console.warn(e.message));
-fetchPlayers(t=>console.log('👤',t)).catch(e=>console.warn(e.message));
+// Načti hráče a ITF paralelně
+fetchPlayers(txt => console.log('Players:', txt)).then(count => {
+  console.log(`✅ ATP hráči načteni: ${count}`);
+}).catch(e => console.warn('ATP players:', e.message));
+
 console.log('🎾 Spouštím ITF fetch z GitHub cache...');
 setP('Načítám ITF data...');
 fetchITF(txt=>{
