@@ -971,7 +971,16 @@ function buildUI(){
     _pw.style.display=view==='players'?'block':'none';
     // Turnaje - vyčisti/zobraz
     const mgs=sh.querySelectorAll('.mg');
-    mgs.forEach(m=>m.style.display=view==='tournaments'?'':'none');
+    if(view==='tournaments'){
+      mgs.forEach(m=>m.style.display='');
+      if(mgs.length===0&&window._tsData&&window._tsData.length>0){
+        // render ještě neproběhl nebo .mg jsou skryté — zavolej render
+        if(typeof render==='function')render();
+        setTimeout(()=>sh.querySelectorAll('.mg').forEach(m=>m.style.display=''),50);
+      }
+    }else{
+      mgs.forEach(m=>m.style.display='none');
+    }
     if(view==='players'&&_pw.render)_pw.render();
     // btn-p styl
     const bp=sh.getElementById('nav-players');
