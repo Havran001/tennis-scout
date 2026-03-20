@@ -923,9 +923,9 @@ function buildUI(){
       </div>
       <div class="home-card blue" data-goto="players" style="padding:0;overflow:hidden;">
         <div style="position:relative;height:160px;overflow:hidden;background:#050d1a;">
-          <img id="player-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;" />
-          <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 45%,rgba(5,13,26,0.88));"></div>
-          <div style="position:absolute;bottom:10px;left:0;right:0;text-align:center;font-size:9px;color:rgba(255,255,255,0.55);font-family:monospace;letter-spacing:2px;text-shadow:0 1px 3px rgba(0,0,0,0.9);">N. DJOKOVIC &middot; 24&times; GRAND SLAM</div>
+          <img id="player-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:center top;" />
+
+
         </div>
         <div style="padding:18px 22px 20px;">
           <div class="hc-title">Hr\u00E1\u010Di ATP</div>
