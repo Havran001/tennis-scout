@@ -17,6 +17,7 @@
 'use strict';
 const VERSION = '5.3';
 window.ATP_PLAYERS = window.ATP_PLAYERS || [];
+window.ATP_PLAYERS = window.ATP_PLAYERS || [];
 
 // Kontrola CSP
 {
@@ -268,6 +269,15 @@ async function fetchPlayers(onProg) {
   onProg&&onProg('ATP: '+window.ATP_PLAYERS.length+' hráčů');
   return window.ATP_PLAYERS.length;
 }
+
+async function fetchPlayers(onProg) {
+  const r = await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json',{cache:'no-store'});
+  if(!r.ok) throw new Error('HTTP '+r.status);
+  const d = await r.json();
+  window.ATP_PLAYERS = (d.items||[]).map(p=>[p.rank,p.name,p.country,p.pts,p.id]);
+  onProg&&onProg('ATP: '+window.ATP_PLAYERS.length+' hráčů');
+  return window.ATP_PLAYERS.length;
+}
 async function fetchITF(onProg){
   // Data jsou každý den automaticky aktualizována GitHub Actions
   // z itftennis.com a uložena do raw.githubusercontent.com (prochází sítí)
@@ -367,6 +377,75 @@ function buildPlayersTab(sh, bodyEl) {
   }
   return{el:wrap,show:()=>{wrap.style.display='block';rP();},hide:()=>{wrap.style.display='none';}};
 }
+
+function buildPlayersTab(sh, bodyEl) {
+  const wrap=document.createElement('div');
+  wrap.id='pw'; wrap.style.display='none';
+  wrap._s=''; wrap._c='ALL'; wrap._o='rank'; wrap._p=0;
+  const PG=50;
+  wrap.render = function() {
+    const ATP=window.ATP_PLAYERS||[], sq=wrap._s.toLowerCase();
+    let f=ATP.filter(([r,n,c])=>{
+      if(wrap._c!=='ALL'&&c!==wrap._c)return false;
+      if(sq&&!n.toLowerCase().includes(sq)&&!c.toLowerCase().includes(sq))return false;
+      return true;
+    });
+    if(wrap._o==='name')f.sort((a,b)=>a[1].localeCompare(b[1]));
+    else if(wrap._o==='pts')f.sort((a,b)=>b[3]-a[3]);
+    else f.sort((a,b)=>a[0]-b[0]);
+    const tot=f.length, pg=f.slice(wrap._p*PG,(wrap._p+1)*PG), mxP=Math.ceil(tot/PG)-1;
+    const cc={};ATP.forEach(([,,c])=>{cc[c]=(cc[c]||0)+1;});
+    const tops=Object.entries(cc).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([c])=>c);
+    wrap.innerHTML='';
+    const tb=document.createElement('div');
+    tb.style.cssText='padding:10px 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center;border-bottom:1px solid #1e2330;margin-bottom:6px;';
+    const si=document.createElement('input');si.placeholder='\uD83D\uDD0D Hledat hráče...';si.value=wrap._s;
+    si.style.cssText='background:#181c23;border:1px solid #1e2330;color:#e8eaf0;font-size:12px;padding:4px 10px;border-radius:14px;outline:none;width:170px;';
+    si.oninput=e=>{wrap._s=e.target.value;wrap._p=0;wrap.render();};tb.appendChild(si);
+    ['ALL',...tops].forEach(c=>{
+      const on=wrap._c===c, b=document.createElement('button');
+      b.textContent=c==='ALL'?'V\u0161e':c;
+      b.style.cssText='background:'+(on?'#c8f135':'none')+';color:'+(on?'#0a0c0f':'#5a6070')+';border:1px solid '+(on?'#c8f135':'#1e2330')+';font-size:10px;padding:2px 7px;border-radius:3px;cursor:pointer;font-weight:'+(on?700:400);
+      b.onclick=()=>{wrap._c=c;wrap._p=0;wrap.render();};tb.appendChild(b);
+    });
+    const ss=document.createElement('select');
+    ss.style.cssText='margin-left:auto;background:#181c23;border:1px solid #1e2330;color:#5a6070;font-size:10px;padding:2px 6px;border-radius:3px;';
+    [['rank','Ranking'],['pts','Body'],['name','Jm\u00E9no']].forEach(([v,t])=>{
+      const o=document.createElement('option');o.value=v;o.textContent=t;if(wrap._o===v)o.selected=true;ss.appendChild(o);
+    });
+    ss.onchange=e=>{wrap._o=e.target.value;wrap.render();};tb.appendChild(ss);
+    const sc=document.createElement('span');sc.style.cssText='font-size:9px;color:#5a6070;font-family:monospace;';
+    sc.textContent=tot+' hr\u00E1\u010D\u016F';tb.appendChild(sc);wrap.appendChild(tb);
+    const tbl=document.createElement('table');tbl.style.cssText='width:100%;border-collapse:collapse;';
+    tbl.innerHTML='<thead><tr><th style="width:40px;text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">#</th><th style="text-align:left;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">HR\u00C1\u010C</th><th style="padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">ZEM\u011a</th><th style="text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">BODY</th><th style="padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">ATP</th></tr></thead>';
+    const tb2=document.createElement('tbody');
+    pg.forEach(([rank,name,country,pts,id])=>{
+      const rc=rank<=10?'#c8a020':rank<=50?'#c8f135':rank<=100?'#35c8f1':'#5a6070';
+      const slug=name.toLowerCase().replace(/\\s+/g,'-').replace(/[^a-z0-9-]/g,'');
+      const tr=document.createElement('tr');tr.style.cssText='cursor:pointer;';
+      tr.onmouseover=()=>tr.style.background='#111318';tr.onmouseout=()=>tr.style.background='';
+      tr.onclick=()=>window.open('https://www.atptour.com/en/players/'+slug+'/'+id+'/overview','_blank');
+      tr.innerHTML='<td style="text-align:right;padding:5px 8px;font-family:monospace;font-size:11px;color:'+rc+';font-weight:'+(rank<=10?700:400)+'">'+rank+'</td>'
+        +'<td style="padding:5px 8px;font-size:12px;font-weight:600;color:#e8eaf0">'+name+'</td>'
+        +'<td style="padding:5px 8px"><span style="font-size:9px;padding:1px 5px;border:1px solid #1e2330;border-radius:3px;color:#5a6070;font-family:monospace">'+country+'</span></td>'
+        +'<td style="padding:5px 8px;text-align:right;font-family:monospace;font-size:11px;color:#e8eaf0">'+pts.toLocaleString()+'</td>'
+        +'<td style="padding:5px 8px"><a href="https://www.atptour.com/en/players/'+slug+'/'+id+'/overview" target="_blank" onclick="event.stopPropagation()" style="color:#c8f135;font-size:10px;font-family:monospace;text-decoration:none">ATP \u2192</a></td>';
+      tb2.appendChild(tr);
+    });
+    tbl.appendChild(tb2);wrap.appendChild(tbl);
+    if(mxP>0){
+      const pv=document.createElement('div');pv.style.cssText='display:flex;gap:8px;justify-content:center;padding:12px 0;align-items:center;';
+      const mkB=(txt,en,fn)=>{const b=document.createElement('button');b.textContent=txt;b.style.cssText='background:none;border:1px solid #1e2330;color:'+(en?'#5a6070':'#2a2f3a')+';font-size:10px;padding:3px 10px;border-radius:3px;cursor:'+(en?'pointer':'default');if(en)b.onclick=fn;return b;};
+      pv.appendChild(mkB('\u2190 P\u0159edchoz\u00ED',wrap._p>0,()=>{wrap._p--;wrap.render();bodyEl.scrollTop=0;}));
+      const pi=document.createElement('span');pi.style.cssText='font-size:10px;color:#5a6070;font-family:monospace;';
+      pi.textContent=(wrap._p*PG+1)+'\u2013'+Math.min((wrap._p+1)*PG,tot)+' z '+tot;
+      pv.appendChild(pi);
+      pv.appendChild(mkB('Dal\u0161\u00ED \u2192',wrap._p<mxP,()=>{wrap._p++;wrap.render();bodyEl.scrollTop=0;}));
+      wrap.appendChild(pv);
+    }
+  };
+  return wrap;
+}
 // ── UI ────────────────────────────────────────────────────────
 function buildUI(){
   document.getElementById('ts-host')?.remove();
@@ -389,6 +468,7 @@ function buildUI(){
   const stats=el('div','stats');stats.innerHTML=`<div><b id="nt">—</b>Celkem</div><div><b id="ns">—</b>Zobrazeno</div>`;top.appendChild(stats);
   const btnR=el('button','btn-r');btnR.textContent='↻ Reload';top.appendChild(btnR);
   const btnC=el('button','btn-c');btnC.textContent='✕ Zavřít';top.appendChild(btnC);
+  const btnP=el('button','btn-p');btnP.textContent='\uD83D\uDC64 Hr\u00E1\u010Di';btnP.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';top.appendChild(btnP);
   const btnP=el('button','btn-p');btnP.textContent='👤 Hráči';btnP.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';top.appendChild(btnP);
   hdr.appendChild(top);
   const fr1=el('div',null,'fr');
@@ -480,6 +560,22 @@ function setupRender({sh,body,mnav}){
   sh.getElementById('srch').addEventListener('input',e=>{sq=e.target.value;exId=null;render();});
   sh.getElementById('btn-c').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
   sh.getElementById('btn-r').addEventListener('click',()=>{document.getElementById('ts-host')?.remove();TENNIS_SCOUT();});
+const pw=buildPlayersTab(sh,body);body.appendChild(pw);
+let shP=false;
+sh.getElementById('btn-p')?.addEventListener('click',()=>{
+  shP=!shP;
+  const bp=sh.getElementById('btn-p');
+  if(shP){
+    body.querySelectorAll('.mg').forEach(e=>e.style.display='none');
+    pw.style.display='block';pw.render();
+    bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
+    body.scrollTop=0;
+  } else {
+    pw.style.display='none';
+    body.querySelectorAll('.mg').forEach(e=>e.style.display='');
+    bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
+  }
+});
 const pTab=buildPlayersTab(sh,body);body.appendChild(pTab.el);let shP=false;
 sh.getElementById('btn-p')?.addEventListener('click',()=>{shP=!shP;const bp=sh.getElementById('btn-p');if(shP){pTab.show();bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';body.querySelectorAll('.mg').forEach(e=>e.style.display='none');body.scrollTop=0;}else{pTab.hide();bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';body.querySelectorAll('.mg').forEach(e=>e.style.display='');}});
   return render;
@@ -498,6 +594,7 @@ sh.getElementById('load')?.remove();
 render();
 
 // 2. ITF live API — funguje pouze z itftennis.com
+fetchPlayers(t=>console.log('👤',t)).catch(e=>console.warn(e.message));
 fetchPlayers(t=>console.log('👤',t)).catch(e=>console.warn(e.message));
 console.log('🎾 Spouštím ITF fetch z GitHub cache...');
 setP('Načítám ITF data...');
