@@ -301,100 +301,418 @@ async function fetchITF(onProg){
 // ── CSS ───────────────────────────────────────────────────────
 const CSS=`
 :host{all:initial;}
-#w{background:#07080d;color:#e2e8f0;font-family:'Inter','DM Sans','Segoe UI',sans-serif;font-size:13px;width:100vw;height:100vh;display:flex;flex-direction:column;overflow:hidden;}
 *{box-sizing:border-box;margin:0;padding:0;}
-#hdr{background:rgba(10,11,18,0.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(167,139,250,0.15);box-shadow:0 1px 40px rgba(167,139,250,0.04);padding:12px 28px 0;flex-shrink:0;}
-#top{display:flex;align-items:center;gap:14px;margin-bottom:12px;}
-#logo{font-family:'Inter',sans-serif;font-size:17px;font-weight:800;letter-spacing:-0.5px;color:#fff;}
-#logo span{background:linear-gradient(135deg,#a78bfa,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
-.badge{font-size:9px;font-weight:700;letter-spacing:1px;padding:2px 7px;border-radius:20px;background:rgba(167,139,250,0.12);color:#a78bfa;border:1px solid rgba(167,139,250,0.25);}
-#stats{margin-left:auto;display:flex;gap:20px;font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1.5px;}
-#stats b{display:block;font-size:20px;font-weight:800;color:#fff;letter-spacing:-1px;line-height:1;margin-bottom:2px;}
-#btn-r{background:linear-gradient(135deg,#8b5cf6,#6366f1);box-shadow:0 2px 12px rgba(139,92,246,0.3);color:#fff;border:none;cursor:pointer;padding:7px 16px;border-radius:8px;font-size:11px;font-weight:700;letter-spacing:0.3px;transition:opacity .15s,transform .1s;}
-#btn-r:hover{opacity:0.85;transform:translateY(-1px);}
-#btn-c{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.4);cursor:pointer;padding:7px 12px;border-radius:8px;font-size:11px;transition:all .15s;}
-#btn-c:hover{background:rgba(255,255,255,0.1);color:#fff;}
-#btn-p{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.4);cursor:pointer;padding:7px 12px;border-radius:8px;font-size:11px;transition:all .15s;}
-#btn-p:hover{background:rgba(167,139,250,0.1);color:#a78bfa;border-color:rgba(167,139,250,0.3);}
-.fr{display:flex;gap:5px;padding-bottom:10px;flex-wrap:wrap;align-items:center;}
-.fl{font-size:8px;color:rgba(255,255,255,0.2);text-transform:uppercase;letter-spacing:2px;margin-right:4px;flex-shrink:0;}
-.fb{background:transparent;border:1px solid rgba(255,255,255,0.07);color:rgba(255,255,255,0.35);font-size:10px;font-weight:600;padding:4px 12px;border-radius:6px;cursor:pointer;transition:all .12s;letter-spacing:0.2px;}
-.fb:hover{border-color:rgba(255,255,255,0.2);color:rgba(255,255,255,0.7);}
-.fb.on{color:#07080d!important;font-weight:700;}
-.fb[data-c=ALL].on{background:#fff;border-color:#fff;}
-.fb[data-c=ATP].on{background:#a3e635;border-color:#a3e635;}
+
+/* ── SHELL ── */
+#w{
+  display:flex;flex-direction:row;
+  width:100vw;height:100vh;overflow:hidden;
+  background:#0d1117;
+  font-family:'Söhne','Helvetica Neue','Arial',sans-serif;
+  color:#e6edf3;font-size:13px;
+}
+
+/* ── SIDEBAR ── */
+#sidebar{
+  width:220px;flex-shrink:0;
+  background:#161b22;
+  border-right:1px solid rgba(255,255,255,0.06);
+  display:flex;flex-direction:column;
+  overflow:hidden;
+}
+#sb-logo{
+  padding:20px 20px 16px;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  display:flex;align-items:center;gap:10px;
+}
+#sb-logo-icon{
+  width:32px;height:32px;
+  background:linear-gradient(135deg,#00C853,#00897B);
+  border-radius:8px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:16px;flex-shrink:0;
+}
+#sb-logo-text{
+  font-size:15px;font-weight:700;
+  color:#fff;letter-spacing:-0.3px;
+}
+#sb-logo-text span{color:#00C853;}
+#sb-badge{
+  font-size:8px;padding:1px 5px;
+  background:rgba(0,200,83,0.15);
+  color:#00C853;border-radius:3px;
+  font-weight:700;letter-spacing:1px;
+  margin-left:auto;
+}
+
+/* NAV */
+#sb-nav{
+  flex:1;overflow-y:auto;
+  padding:8px 0;
+  scrollbar-width:none;
+}
+.nav-section{
+  padding:14px 16px 4px;
+  font-size:9px;font-weight:700;
+  letter-spacing:2px;text-transform:uppercase;
+  color:rgba(255,255,255,0.2);
+}
+.nav-item{
+  display:flex;align-items:center;gap:10px;
+  padding:9px 16px;margin:1px 8px;
+  border-radius:8px;cursor:pointer;
+  color:rgba(255,255,255,0.5);
+  font-size:12px;font-weight:500;
+  transition:all .12s;
+  position:relative;
+}
+.nav-item:hover{
+  background:rgba(255,255,255,0.05);
+  color:#e6edf3;
+}
+.nav-item.active{
+  background:rgba(0,200,83,0.12);
+  color:#00C853;font-weight:600;
+}
+.nav-item.active::before{
+  content:'';position:absolute;
+  left:-8px;top:50%;transform:translateY(-50%);
+  width:3px;height:16px;border-radius:2px;
+  background:#00C853;
+}
+.nav-icon{font-size:15px;width:20px;text-align:center;flex-shrink:0;}
+.nav-badge{
+  margin-left:auto;font-size:8px;
+  background:rgba(0,200,83,0.2);
+  color:#00C853;padding:1px 6px;
+  border-radius:10px;font-weight:700;
+}
+.nav-soon{
+  margin-left:auto;font-size:8px;
+  background:rgba(255,255,255,0.06);
+  color:rgba(255,255,255,0.25);padding:1px 6px;
+  border-radius:10px;
+}
+
+/* SIDEBAR FOOTER */
+#sb-footer{
+  padding:12px 16px;
+  border-top:1px solid rgba(255,255,255,0.06);
+}
+#sb-reload{
+  width:100%;padding:8px;
+  background:rgba(0,200,83,0.1);
+  border:1px solid rgba(0,200,83,0.2);
+  color:#00C853;border-radius:8px;
+  font-size:11px;font-weight:700;
+  cursor:pointer;transition:all .12s;
+  letter-spacing:0.3px;
+}
+#sb-reload:hover{background:rgba(0,200,83,0.2);}
+#sb-close{
+  width:100%;padding:6px;margin-top:6px;
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.07);
+  color:rgba(255,255,255,0.3);border-radius:8px;
+  font-size:11px;cursor:pointer;transition:all .12s;
+}
+#sb-close:hover{color:rgba(255,255,255,0.7);border-color:rgba(255,255,255,0.15);}
+
+/* ── MAIN PANEL ── */
+#main{
+  flex:1;display:flex;flex-direction:column;
+  overflow:hidden;background:#0d1117;
+}
+
+/* TOP BAR */
+#topbar{
+  height:52px;flex-shrink:0;
+  background:#161b22;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  display:flex;align-items:center;
+  padding:0 24px;gap:16px;
+}
+#topbar-title{
+  font-size:14px;font-weight:700;color:#fff;
+}
+#topbar-sub{
+  font-size:11px;color:rgba(255,255,255,0.3);
+  margin-left:4px;
+}
+#topbar-stats{
+  margin-left:auto;
+  display:flex;gap:24px;align-items:center;
+}
+.ts-stat{
+  text-align:right;
+}
+.ts-stat-val{
+  font-size:16px;font-weight:800;color:#fff;
+  letter-spacing:-0.5px;line-height:1;
+}
+.ts-stat-val.green{color:#00C853;}
+.ts-stat-lbl{
+  font-size:8px;color:rgba(255,255,255,0.25);
+  letter-spacing:1.5px;text-transform:uppercase;
+}
+
+/* FILTER BAR */
+#filterbar{
+  flex-shrink:0;
+  background:#161b22;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  padding:8px 24px;
+  display:flex;gap:6px;align-items:center;
+}
+.fl{
+  font-size:8px;color:rgba(255,255,255,0.2);
+  text-transform:uppercase;letter-spacing:2px;
+  margin-right:4px;flex-shrink:0;
+}
+.fb{
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.08);
+  color:rgba(255,255,255,0.4);
+  font-size:10px;font-weight:600;
+  padding:4px 12px;border-radius:6px;
+  cursor:pointer;transition:all .1s;
+}
+.fb:hover{border-color:rgba(255,255,255,0.2);color:#e6edf3;}
+.fb.on{color:#0d1117!important;font-weight:700;}
+.fb[data-c=ALL].on{background:#e6edf3;border-color:#e6edf3;}
+.fb[data-c=ATP].on{background:#00C853;border-color:#00C853;}
 .fb[data-c=WTA].on{background:#f472b6;border-color:#f472b6;}
 .fb[data-c=CHALL].on{background:#38bdf8;border-color:#38bdf8;}
 .fb[data-c=ITF].on{background:#fb923c;border-color:#fb923c;}
-.sb{background:transparent;border:1px solid rgba(255,255,255,0.07);color:rgba(255,255,255,0.3);font-size:9px;letter-spacing:1.5px;text-transform:uppercase;padding:3px 10px;border-radius:5px;cursor:pointer;transition:all .12s;}
-.sb:hover{color:rgba(255,255,255,0.6);border-color:rgba(255,255,255,0.15);}
+.sb{
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.08);
+  color:rgba(255,255,255,0.3);
+  font-size:9px;letter-spacing:1px;text-transform:uppercase;
+  padding:3px 10px;border-radius:5px;cursor:pointer;transition:all .1s;
+}
+.sb:hover{color:#e6edf3;border-color:rgba(255,255,255,0.15);}
 .sb.on[data-s=Antuka]{background:#c2410c;border-color:#c2410c;color:#fff!important;}
 .sb.on[data-s=Tr\u00E1va]{background:#15803d;border-color:#15803d;color:#fff!important;}
 .sb.on[data-s=Tvrd\u00FD]{background:#1d4ed8;border-color:#1d4ed8;color:#fff!important;}
-.sb.on[data-s=Kryt\u00FD]{background:#7e22ce;border-color:#7e22ce;color:#fff!important;}
-.sb.on[data-s=V\u0161echny]{background:rgba(255,255,255,0.12);border-color:rgba(255,255,255,0.2);color:#fff!important;}
-#srch{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);color:#e2e8f0;font-size:11px;padding:5px 14px;border-radius:8px;outline:none;width:220px;margin-left:auto;transition:border-color .15s;}
-#srch:focus{border-color:rgba(167,139,250,0.4);}
+.sb.on[data-s=Kryt\u00FD]{background:#6d28d9;border-color:#6d28d9;color:#fff!important;}
+.sb.on[data-s=V\u0161echny]{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.2);color:#fff!important;}
+#srch{
+  margin-left:auto;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.08);
+  color:#e6edf3;font-size:11px;
+  padding:5px 12px 5px 28px;
+  border-radius:8px;outline:none;width:200px;
+  transition:border-color .15s;
+}
+#srch:focus{border-color:rgba(0,200,83,0.4);}
 #srch::placeholder{color:rgba(255,255,255,0.2);}
-#mnav{display:flex;gap:2px;padding:8px 28px;background:rgba(7,8,13,0.8);border-bottom:1px solid rgba(255,255,255,0.04);overflow-x:auto;flex-shrink:0;scrollbar-width:none;}
-.mb{background:none;border:none;color:rgba(255,255,255,0.25);font-size:9px;letter-spacing:2px;text-transform:uppercase;padding:4px 10px;border-radius:5px;cursor:pointer;transition:all .12s;white-space:nowrap;}
-.mb:hover{color:rgba(255,255,255,0.7);background:rgba(255,255,255,0.05);}
-#body{flex:1;overflow-y:auto;padding:0 28px 60px;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.08) transparent;position:relative;}
-.mg{margin-top:28px;}
-.mh{display:flex;align-items:baseline;gap:10px;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.04);}
-.mn{font-size:22px;font-weight:800;background:linear-gradient(135deg,#fff 40%,rgba(167,139,250,0.8));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+
+/* MONTH NAV */
+#mnav{
+  display:flex;gap:2px;
+  padding:6px 24px;
+  background:#0d1117;
+  border-bottom:1px solid rgba(255,255,255,0.04);
+  overflow-x:auto;flex-shrink:0;
+  scrollbar-width:none;
+}
+.mb{
+  background:none;border:none;
+  color:rgba(255,255,255,0.2);
+  font-size:9px;letter-spacing:2px;
+  text-transform:uppercase;
+  padding:4px 10px;border-radius:5px;
+  cursor:pointer;transition:all .1s;white-space:nowrap;
+}
+.mb:hover{color:#e6edf3;background:rgba(255,255,255,0.04);}
+
+/* CONTENT AREA */
+#body{
+  flex:1;overflow-y:auto;
+  padding:0 24px 60px;
+  scrollbar-width:thin;
+  scrollbar-color:rgba(255,255,255,0.08) transparent;
+  position:relative;
+}
+
+/* ── HOME VIEW ── */
+#home-view{padding:28px 0;}
+#home-greeting{
+  font-size:22px;font-weight:800;
+  color:#fff;letter-spacing:-0.5px;
+  margin-bottom:4px;
+}
+#home-greeting span{color:#00C853;}
+#home-sub{
+  font-size:12px;color:rgba(255,255,255,0.3);
+  margin-bottom:28px;
+}
+#home-cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:16px;
+}
+.home-card{
+  background:#161b22;
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:12px;
+  padding:20px 22px 22px;
+  cursor:pointer;
+  transition:all .15s;
+  position:relative;
+  overflow:hidden;
+}
+.home-card::before{
+  content:'';position:absolute;
+  top:0;left:0;right:0;height:2px;
+  opacity:0;transition:opacity .15s;
+}
+.home-card:hover{
+  border-color:rgba(255,255,255,0.12);
+  background:#1c2128;
+  transform:translateY(-2px);
+  box-shadow:0 8px 32px rgba(0,0,0,0.4);
+}
+.home-card:hover::before{opacity:1;}
+.home-card.green::before{background:linear-gradient(90deg,#00C853,#00897B);}
+.home-card.blue::before{background:linear-gradient(90deg,#38bdf8,#6366f1);}
+.home-card.pink::before{background:linear-gradient(90deg,#f472b6,#a855f7);}
+.home-card.orange::before{background:linear-gradient(90deg,#fb923c,#f59e0b);}
+.home-card.disabled{opacity:0.4;cursor:default;}
+.home-card.disabled:hover{transform:none;box-shadow:none;}
+.hc-icon{
+  width:40px;height:40px;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;margin-bottom:14px;
+}
+.hc-icon.green{background:rgba(0,200,83,0.12);}
+.hc-icon.blue{background:rgba(56,189,248,0.12);}
+.hc-icon.pink{background:rgba(244,114,182,0.12);}
+.hc-icon.orange{background:rgba(251,146,60,0.12);}
+.hc-title{
+  font-size:14px;font-weight:700;color:#fff;
+  margin-bottom:4px;
+}
+.hc-desc{
+  font-size:11px;color:rgba(255,255,255,0.35);
+  line-height:1.5;margin-bottom:14px;
+}
+.hc-meta{
+  display:flex;gap:8px;align-items:center;
+}
+.hc-count{
+  font-size:11px;font-weight:700;color:#00C853;
+  font-variant-numeric:tabular-nums;
+}
+.hc-arrow{
+  margin-left:auto;
+  font-size:14px;color:rgba(255,255,255,0.2);
+  transition:transform .12s;
+}
+.home-card:hover .hc-arrow{transform:translateX(3px);color:#00C853;}
+.hc-tag{
+  font-size:9px;padding:2px 7px;border-radius:4px;
+  font-weight:700;letter-spacing:0.5px;
+}
+.hc-tag.soon{background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.25);}
+
+/* ── TABLES ── */
+.mg{margin-top:24px;}
+.mh{
+  display:flex;align-items:baseline;gap:10px;
+  margin-bottom:10px;padding-bottom:8px;
+  border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.mn{font-size:20px;font-weight:800;color:#fff;letter-spacing:-0.3px;}
 .mc{font-size:9px;color:rgba(255,255,255,0.2);letter-spacing:1px;text-transform:uppercase;}
 table{width:100%;border-collapse:collapse;}
-th{font-size:8px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.2);text-align:left;padding:6px 10px;border-bottom:1px solid rgba(255,255,255,0.04);font-weight:600;}
-td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:middle;}
-.ct{font-size:8px;padding:2px 6px;border-radius:4px;font-weight:800;display:inline-block;letter-spacing:0.5px;}
-.cATP{background:rgba(163,230,53,0.12);color:#a3e635;}
+th{
+  font-size:8px;letter-spacing:2px;text-transform:uppercase;
+  color:rgba(255,255,255,0.2);text-align:left;
+  padding:6px 10px;
+  border-bottom:1px solid rgba(255,255,255,0.04);font-weight:600;
+}
+td{padding:7px 10px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:middle;}
+.ct{font-size:8px;padding:2px 5px;border-radius:4px;font-weight:800;display:inline-block;}
+.cATP{background:rgba(0,200,83,0.12);color:#00C853;}
 .cWTA{background:rgba(244,114,182,0.12);color:#f472b6;}
 .cCHALL{background:rgba(56,189,248,0.12);color:#38bdf8;}
 .cITF{background:rgba(251,146,60,0.12);color:#fb923c;}
-.tr{font-size:8px;color:rgba(255,255,255,0.2);padding:1px 6px;border:1px solid rgba(255,255,255,0.08);border-radius:4px;margin-left:4px;}
+.tr{
+  font-size:8px;color:rgba(255,255,255,0.2);
+  padding:1px 5px;border:1px solid rgba(255,255,255,0.08);
+  border-radius:3px;margin-left:3px;
+}
 .tGS{border-color:rgba(250,204,21,0.3);color:#fcd34d;}
 .tM1{border-color:rgba(239,68,68,0.3);color:#f87171;}
 .t5{border-color:rgba(99,102,241,0.3);color:#818cf8;}
 .tCH175{border-color:rgba(34,211,238,0.3);color:#22d3ee;}
 .tCH125{border-color:rgba(34,211,238,0.15);color:rgba(34,211,238,0.6);}
-.nm{font-weight:600;font-size:12px;color:#f1f5f9;display:block;margin-top:2px;line-height:1.3;}
+.nm{font-weight:600;font-size:12px;color:#e6edf3;display:block;margin-top:2px;line-height:1.3;}
 .lc{font-size:10px;color:rgba(255,255,255,0.25);display:block;}
-.dt{font-family:'Inter',monospace;font-size:10px;color:rgba(255,255,255,0.4);white-space:nowrap;}
-.sp{font-size:9px;font-weight:600;padding:2px 8px;border-radius:20px;display:inline-block;letter-spacing:0.3px;}
-.sA{background:rgba(194,65,12,0.2);color:#fb923c;}
-.sT{background:rgba(21,128,61,0.2);color:#4ade80;}
-.sH{background:rgba(29,78,216,0.2);color:#60a5fa;}
-.sK{background:rgba(126,34,206,0.2);color:#c084fc;}
-tr.r{cursor:pointer;transition:background .08s;}
-tr.r:hover td,tr.r.ex td{background:rgba(255,255,255,0.03);}
-tr.r.ex td:first-child{box-shadow:inset 3px 0 0 #a78bfa;}
-.tGS+.nm{color:#fcd34d;}
-.live{display:inline-block;width:5px;height:5px;background:#f87171;border-radius:50%;animation:p 1.2s infinite;margin-right:4px;vertical-align:middle;}
+.dt{font-size:10px;color:rgba(255,255,255,0.35);white-space:nowrap;}
+.sp{font-size:9px;font-weight:600;padding:2px 8px;border-radius:20px;display:inline-block;}
+.sA{background:rgba(194,65,12,0.15);color:#fb923c;}
+.sT{background:rgba(21,128,61,0.15);color:#4ade80;}
+.sH{background:rgba(29,78,216,0.15);color:#60a5fa;}
+.sK{background:rgba(109,40,217,0.15);color:#c084fc;}
+tr.r{cursor:pointer;transition:background .07s;}
+tr.r:hover td,tr.r.ex td{background:rgba(255,255,255,0.025);}
+.cv{color:rgba(255,255,255,0.12);font-size:10px;transition:transform .15s;display:inline-block;width:14px;}
+tr.ex .cv{transform:rotate(90deg);color:#00C853;}
+.live{display:inline-block;width:5px;height:5px;background:#00C853;border-radius:50%;animation:p 1.2s infinite;margin-right:4px;vertical-align:middle;}
 @keyframes p{0%,100%{opacity:1}50%{opacity:.2}}
-.cv{color:rgba(255,255,255,0.15);font-size:10px;transition:transform .15s;display:inline-block;width:14px;}
-tr.ex .cv{transform:rotate(90deg);color:#a78bfa;}
-tr.xr td{padding:0;background:rgba(167,139,250,0.03)!important;}
-.xc{padding:16px 20px 20px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:16px;border-bottom:2px solid rgba(167,139,250,0.2);animation:sd .15s ease;background:rgba(167,139,250,0.03);}
-@keyframes sd{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
-.xc h4{font-size:7px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.2);margin-bottom:8px;padding-bottom:5px;border-bottom:1px solid rgba(255,255,255,0.05);}
-.ig{display:grid;grid-template-columns:1fr 1fr;gap:6px;}
-.ig label{display:block;font-size:7px;letter-spacing:1.5px;color:rgba(255,255,255,0.2);text-transform:uppercase;margin-bottom:2px;}
-.ig span{font-size:11px;color:#f1f5f9;font-weight:500;}
-#err{display:none;background:rgba(239,68,68,0.1);border-bottom:1px solid rgba(239,68,68,0.2);padding:6px 28px;font-size:10px;color:#f87171;flex-shrink:0;}
-#itfs{position:absolute;bottom:0;left:0;right:0;background:rgba(7,8,13,0.95);backdrop-filter:blur(10px);border-top:1px solid rgba(255,255,255,0.04);padding:5px 28px;font-size:9px;color:rgba(255,255,255,0.2);display:flex;align-items:center;gap:10px;letter-spacing:1px;}
-#itfb{height:2px;background:linear-gradient(90deg,#a78bfa,#60a5fa);transition:width .4s;flex-shrink:0;}
+tr.xr td{padding:0;background:rgba(0,200,83,0.02)!important;}
+.xc{
+  padding:14px 18px 18px;
+  display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:14px;
+  border-bottom:2px solid rgba(0,200,83,0.15);
+  animation:sd .12s ease;
+}
+@keyframes sd{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:translateY(0)}}
+.xc h4{
+  font-size:7px;letter-spacing:2px;text-transform:uppercase;
+  color:rgba(255,255,255,0.15);margin-bottom:8px;
+  padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.ig{display:grid;grid-template-columns:1fr 1fr;gap:5px;}
+.ig label{display:block;font-size:7px;letter-spacing:1px;color:rgba(255,255,255,0.2);text-transform:uppercase;margin-bottom:2px;}
+.ig span{font-size:11px;color:#e6edf3;font-weight:500;}
+
+/* ── PLAYERS VIEW ── */
+#pw{
+  display:none;
+  color:#e6edf3;
+}
+
+/* ── ERR / ITF STATUS / LOAD ── */
+#err{display:none;background:rgba(239,68,68,0.08);border-bottom:1px solid rgba(239,68,68,0.15);padding:6px 24px;font-size:10px;color:#f87171;flex-shrink:0;}
+#itfs{
+  position:absolute;bottom:0;left:0;right:0;
+  background:rgba(13,17,23,0.97);
+  border-top:1px solid rgba(255,255,255,0.04);
+  padding:5px 24px;font-size:9px;
+  color:rgba(255,255,255,0.2);
+  display:flex;align-items:center;gap:10px;letter-spacing:1px;
+}
+#itfb{height:2px;background:linear-gradient(90deg,#00C853,#00897B);transition:width .4s;flex-shrink:0;}
 #itft{flex:1;}
-#load{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:#07080d;color:rgba(255,255,255,0.3);}
-.spin{width:36px;height:36px;border:2px solid rgba(255,255,255,0.05);border-top-color:#a78bfa;border-radius:50%;animation:spin 1s linear infinite;}
+#load{
+  position:absolute;inset:0;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  background:#0d1117;color:rgba(255,255,255,0.25);
+}
+.spin{width:32px;height:32px;border:2px solid rgba(255,255,255,0.05);border-top-color:#00C853;border-radius:50%;animation:spin 1s linear infinite;}
 @keyframes spin{to{transform:rotate(360deg)}}
-#prog{font-size:11px;color:#a78bfa;font-weight:600;max-width:400px;text-align:center;line-height:1.6;}
+#prog{font-size:11px;color:#00C853;font-weight:600;max-width:360px;text-align:center;line-height:1.6;}
+
+/* ── SCROLLBARS ── */
 ::-webkit-scrollbar{width:3px;height:3px;}
 ::-webkit-scrollbar-track{background:transparent;}
-::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.06);border-radius:3px;}
-::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,0.15);}
-`;
-function surfSp(s){return s==='Antuka'?'sA':s==='Tráva'?'sT':s==='Krytý'?'sK':'sH';}
+::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.07);border-radius:3px;}
+`;function surfSp(s){return s==='Antuka'?'sA':s==='Tráva'?'sT':s==='Krytý'?'sK':'sH';}
 function tierCls(t){if(!t)return'';if(t==='Grand Slam')return'tGS';if(t==='Masters1000'||t==='WTA1000')return'tM1';if(t==='ATP500'||t==='WTA500')return't5';if(t==='CH175')return'tCH175';if(t==='CH125')return'tCH125';return'';}
 
 
@@ -474,55 +792,216 @@ function buildPlayersTab(sh) {
 
 function buildUI(){
   document.getElementById('ts-host')?.remove();
-  const host=document.createElement('div');
-  host.id='ts-host';
+  const host=document.createElement('div');host.id='ts-host';
   host.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:2147483647;';
   document.body.appendChild(host);
   const sh=host.attachShadow({mode:'open'});
-  const style=document.createElement('style');
-  style.textContent=CSS;
-  sh.appendChild(style);
-  const w=document.createElement('div');w.id='w';sh.appendChild(w);
+  const style=document.createElement('style');style.textContent=CSS;sh.appendChild(style);
 
+  const w=document.createElement('div');w.id='w';sh.appendChild(w);
   function el(tag,id,cls,html){const e=document.createElement(tag);if(id)e.id=id;if(cls)e.className=cls;if(html)e.innerHTML=html;return e;}
 
-  const hdr=el('div','hdr');w.appendChild(hdr);
-  const top=el('div','top');
-  const logo=el('div','logo');logo.innerHTML=`Tennis<span>Scout</span>`;top.appendChild(logo);
-  const ver=el('span',null,'badge');ver.textContent=`v${VERSION}`;top.appendChild(ver);
-  const stats=el('div','stats');stats.innerHTML=`<div><b id="nt">—</b>Celkem</div><div><b id="ns">—</b>Zobrazeno</div>`;top.appendChild(stats);
-  const btnR=el('button','btn-r');btnR.textContent='↻ Reload';top.appendChild(btnR);
-  const btnC=el('button','btn-c');btnC.textContent='✕ Zavřít';top.appendChild(btnC);
-  const btnP=el('button','btn-p');btnP.textContent='👤 Hráči';btnP.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';top.appendChild(btnP);
-  hdr.appendChild(top);
+  // ── SIDEBAR ──
+  const sidebar=el('div','sidebar');
+  sidebar.innerHTML=`
+    <div id="sb-logo">
+      <div id="sb-logo-icon">🎾</div>
+      <div id="sb-logo-text">Tennis<span>Scout</span></div>
+      <div id="sb-badge">v${VERSION}</div>
+    </div>
+    <nav id="sb-nav">
+      <div class="nav-section">Přehled</div>
+      <div class="nav-item active" data-view="home" id="nav-home">
+        <span class="nav-icon">⊞</span> Rozcestník
+      </div>
+      <div class="nav-section">Moduly</div>
+      <div class="nav-item" data-view="tournaments" id="nav-tournaments">
+        <span class="nav-icon">🏆</span> Turnaje
+        <span class="nav-badge" id="nav-count">795</span>
+      </div>
+      <div class="nav-item" data-view="players" id="nav-players">
+        <span class="nav-icon">👤</span> Hráči ATP
+        <span class="nav-badge">998</span>
+      </div>
+      <div class="nav-item disabled">
+        <span class="nav-icon">📊</span> Kurzy
+        <span class="nav-soon">brzy</span>
+      </div>
+      <div class="nav-item disabled">
+        <span class="nav-icon">⚡</span> Live zápasy
+        <span class="nav-soon">brzy</span>
+      </div>
+      <div class="nav-item disabled">
+        <span class="nav-icon">📈</span> Statistiky
+        <span class="nav-soon">brzy</span>
+      </div>
+    </nav>
+    <div id="sb-footer">
+      <button id="sb-reload">↻ Reload dat</button>
+      <button id="sb-close">✕ Zavřít</button>
+    </div>
+  `;
+  w.appendChild(sidebar);
+
+  // ── MAIN PANEL ──
+  const main=el('div','main');
+
+  // TOP BAR
+  const topbar=el('div','topbar');
+  topbar.innerHTML=`
+    <div id="topbar-title">Rozcestník</div>
+    <div id="topbar-sub">Tennis Scout</div>
+    <div id="topbar-stats">
+      <div class="ts-stat">
+        <div class="ts-stat-val" id="nt">–</div>
+        <div class="ts-stat-lbl">Turnajů</div>
+      </div>
+      <div class="ts-stat">
+        <div class="ts-stat-val green" id="ns">–</div>
+        <div class="ts-stat-lbl">Zobrazeno</div>
+      </div>
+    </div>
+  `;
+  main.appendChild(topbar);
+
+  // FILTER BAR (turnaje view)
+  const filterbar=el('div','filterbar');
+  filterbar.style.display='none';
   const fr1=el('div',null,'fr');
-  const fl1=el('span',null,'fl');fl1.textContent='Okruh';fr1.appendChild(fl1);
+  fr1.innerHTML=`<span class="fl">Okruh</span>`;
   [['ALL','Vše',true],['ATP','ATP'],['WTA','WTA'],['CHALL','Challenger'],['ITF','ITF']].forEach(([c,t,on])=>{
     const b=el('button',null,'fb'+(on?' on':''));b.dataset.c=c;b.textContent=t;fr1.appendChild(b);
   });
-  const srch=el('input','srch');srch.placeholder='🔍 Hledat...';fr1.appendChild(srch);
-  hdr.appendChild(fr1);
-  const fr2=el('div',null,'fr');fr2.style.paddingBottom='10px';
-  const fl2=el('span',null,'fl');fl2.textContent='Povrch';fr2.appendChild(fl2);
+  const srch=el('input','srch');srch.placeholder='🔍  Hledat...';fr1.appendChild(srch);
+  filterbar.appendChild(fr1);
+  const fr2=el('div',null,'fr');
+  fr2.style.paddingBottom='10px';
+  fr2.innerHTML=`<span class="fl">Povrch</span>`;
   [['Všechny',true],['Tvrdý'],['Antuka'],['Tráva'],['Krytý']].forEach(([s,on])=>{
     const b=el('button',null,'sb'+(on?' on':''));b.dataset.s=s;b.textContent=s;fr2.appendChild(b);
   });
-  hdr.appendChild(fr2);
+  filterbar.appendChild(fr2);
+  main.appendChild(filterbar);
 
-  w.appendChild(el('div','err'));
-  const mnav=el('nav','mnav');w.appendChild(mnav);
-  const body=el('div','body');w.appendChild(body);
+  // ERR
+  main.appendChild(el('div','err'));
+
+  // MONTH NAV
+  const mnav=el('nav','mnav');mnav.style.display='none';main.appendChild(mnav);
+
+  // BODY
+  const body=el('div','body');
+  // ITF status
   const itfs=el('div','itfs');
   const itfb=el('div','itfb');itfb.style.width='0';itfs.appendChild(itfb);
   const itft=el('div','itft');itft.textContent='Načítám ITF data...';itfs.appendChild(itft);
-  w.appendChild(itfs);
-
+  body.appendChild(itfs);
+  // Loader
   const load=el('div','load');
-  const spin=el('div',null,'spin');load.appendChild(spin);
-  const loadTxt=el('div');loadTxt.style.cssText='font-size:13px;color:#e8eaf0';loadTxt.textContent='Načítám ITF data...';load.appendChild(loadTxt);
-  const prog=el('div','prog');prog.textContent='ATP/WTA/Challenger: načteno ✓ — čekám na ITF API...';load.appendChild(prog);
+  load.innerHTML=`<div class="spin"></div><div id="prog">ATP/WTA/Challenger: načteno ✓ – čekám na ITF API...</div>`;
   body.appendChild(load);
-  return{host,sh,body,mnav};
+  main.appendChild(body);
+
+  // PLAYERS TAB
+  const _pw=buildPlayersTab(sh);
+  body.appendChild(_pw);
+
+  w.appendChild(main);
+
+  // ── HOME VIEW ──
+  const homeView=el('div','home-view');
+  homeView.innerHTML=`
+    <div id="home-greeting">Vítej, <span>Scoute</span> 👋</div>
+    <div id="home-sub">Tenisový analytický nástroj pro profesionální sázení</div>
+    <div id="home-cards">
+      <div class="home-card green" data-goto="tournaments">
+        <div class="hc-icon green">🏆</div>
+        <div class="hc-title">Turnaje 2026</div>
+        <div class="hc-desc">Kompletní kalendář ATP, WTA, Challenger a ITF turnajů s detailními informacemi.</div>
+        <div class="hc-meta">
+          <span class="hc-count" id="hc-count-t">795 turnajů</span>
+          <span class="hc-arrow">→</span>
+        </div>
+      </div>
+      <div class="home-card blue" data-goto="players">
+        <div class="hc-icon blue">👤</div>
+        <div class="hc-title">Hráči ATP</div>
+        <div class="hc-desc">Aktuální ATP ranking s 998 hráči, filtrování podle země, řazení podle bodů.</div>
+        <div class="hc-meta">
+          <span class="hc-count">998 hráčů</span>
+          <span class="hc-arrow">→</span>
+        </div>
+      </div>
+      <div class="home-card orange disabled">
+        <div class="hc-icon orange">📊</div>
+        <div class="hc-title">Kurzy</div>
+        <div class="hc-desc">Kurzy z Tipsportu a Pinnacle pro tenisové zápasy v reálném čase.</div>
+        <div class="hc-meta">
+          <span class="hc-tag soon">Připravujeme</span>
+          <span class="hc-arrow">→</span>
+        </div>
+      </div>
+      <div class="home-card pink disabled">
+        <div class="hc-icon pink">⚡</div>
+        <div class="hc-title">Live zápasy</div>
+        <div class="hc-desc">Výsledky a statistiky živých zápasů s kurzy a predikci vítěze.</div>
+        <div class="hc-meta">
+          <span class="hc-tag soon">Připravujeme</span>
+          <span class="hc-arrow">→</span>
+        </div>
+      </div>
+    </div>
+  `;
+  body.appendChild(homeView);
+
+  // ── NAVIGACE ──
+  function goView(view){
+    // Update sidebar
+    sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+    sh.getElementById('nav-'+view)?.classList.add('active');
+    // Topbar title
+    const titles={home:'Rozcestník',tournaments:'Turnaje 2026',players:'Hráči ATP'};
+    sh.getElementById('topbar-title').textContent=titles[view]||view;
+    // Visibility
+    homeView.style.display=view==='home'?'block':'none';
+    filterbar.style.display=view==='tournaments'?'flex':'none';
+    filterbar.style.flexDirection='column';
+    mnav.style.display=view==='tournaments'?'flex':'none';
+    _pw.style.display=view==='players'?'block':'none';
+    // Turnaje - vyčisti/zobraz
+    const mgs=sh.querySelectorAll('.mg');
+    mgs.forEach(m=>m.style.display=view==='tournaments'?'':'none');
+    if(view==='players'&&_pw.render)_pw.render();
+    // btn-p styl
+    const bp=sh.getElementById('nav-players');
+    if(bp)bp.classList.toggle('active',view==='players');
+  }
+
+  // Nav item clicks
+  sh.querySelectorAll('.nav-item[data-view]').forEach(item=>{
+    item.addEventListener('click',()=>{
+      if(item.classList.contains('disabled'))return;
+      goView(item.dataset.view);
+    });
+  });
+
+  // Home cards
+  sh.querySelectorAll('.home-card[data-goto]').forEach(card=>{
+    card.addEventListener('click',()=>{
+      if(card.classList.contains('disabled'))return;
+      goView(card.dataset.goto);
+    });
+  });
+
+  // Reload + Close
+  sh.getElementById('sb-reload').addEventListener('click',()=>{document.getElementById('ts-host')?.remove();TENNIS_SCOUT();});
+  sh.getElementById('sb-close').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
+
+  // Players toggle pro zpětnou kompatibilitu
+  var _bp=sh.getElementById('nav-players');
+  if(_bp){_bp.onclick=function(){goView('players');};}
+
+  return{host,sh,body,mnav,goView};
 }
 
 // ── RENDER ────────────────────────────────────────────────────
@@ -583,26 +1062,12 @@ function setupRender({sh,body,mnav}){
   sh.querySelectorAll('.sb[data-s]').forEach(b=>b.addEventListener('click',()=>{sh.querySelectorAll('.sb[data-s]').forEach(x=>x.classList.remove('on'));b.classList.add('on');aS=b.dataset.s;exId=null;render();}));
   sh.getElementById('srch').addEventListener('input',e=>{sq=e.target.value;exId=null;render();});
   sh.getElementById('btn-c').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
-  sh.getElementById('btn-r').addEventListener('click',()=>{document.getElementById('ts-host')?.remove();TENNIS_SCOUT();});
-  var _bp=sh.getElementById('btn-p');
-  if(_bp){_bp.onclick=function(){
-    var pw=sh.getElementById('pw');if(!pw)return;
-    if(pw.style.display==='none'){
-      [...body.children].forEach(function(el){if(el.id!=='pw')el.style.display='none';});
-      pw.style.display='block';if(pw.render)pw.render();body.scrollTop=0;
-      _bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
-    }else{
-      pw.style.display='none';
-      [...body.children].forEach(function(el){if(el.id!=='pw')el.style.display='';});
-      _bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
-    }
-  };}
-  return render;
+    return render;
 }
 
 // ── MAIN ──────────────────────────────────────────────────────
 window._tsData=[];
-const{host,sh,body,mnav}=buildUI();
+const{host,sh,body,mnav,goView}=buildUI();
 const render=setupRender({sh,body,mnav});
 // Players panel — absolute overlay, sibling of body, not inside it
 const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;const m=t.match(/(\d+)\/(\d+)/);if(m){const b=sh.getElementById('itfb');if(b)b.style.width=(+m[1]/+m[2]*100)+'%';}};
@@ -616,6 +1081,13 @@ body.appendChild(_pw);
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
 sh.getElementById('load')?.remove();
 render();
+// Nastav home view — skryj .mg elementy
+sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
+// Aktualizuj count na home
+const hcT=sh.getElementById('hc-count-t');
+if(hcT){const total=(window._tsData||[]).length;hcT.textContent=total+' turnajů';}
+const ncEl=sh.getElementById('nav-count');
+if(ncEl)ncEl.textContent=(window._tsData||[]).length;
 
 // 2. ITF live API — funguje pouze z itftennis.com
 // Načti hráče a ITF paralelně
