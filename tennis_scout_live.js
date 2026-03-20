@@ -491,7 +491,7 @@ function setupRender({sh,body,mnav}){
   sh.getElementById('srch').addEventListener('input',e=>{sq=e.target.value;exId=null;render();});
   sh.getElementById('btn-c').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
   sh.getElementById('btn-r').addEventListener('click',()=>{document.getElementById('ts-host')?.remove();TENNIS_SCOUT();});
-    var _bp=sh.getElementById('btn-p');
+  var _bp=sh.getElementById('btn-p');
   if(_bp){_bp.onclick=function(){
     var pw=sh.getElementById('pw');if(!pw)return;
     if(pw.style.display==='none'){
