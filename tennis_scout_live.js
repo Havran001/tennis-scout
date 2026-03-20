@@ -269,7 +269,7 @@ async function fetchPlayers(onProg) {
   if (!resp.ok) throw new Error(`ATP players cache: HTTP ${resp.status}`);
   const data = await resp.json();
   // Převeď objekty na arrays pro efektivitu
-  window.ATP_PLAYERS = (data.items || []).map(p => [p.rank, p.name, p.country, p.pts, p.id]);
+  window.ATP_PLAYERS = (data.items || []).map(function(p){return Array.isArray(p)?{rank:p[0],name:p[1],country:(p[2]||"").toUpperCase(),pts:p[3],id:p[4]}:{rank:p.rank,name:p.name,country:(p.country||"").toUpperCase(),pts:p.pts,id:p.id};});
   onProg(`ATP hráči: ${ATP_PLAYERS.length} (aktualizováno ${data.updated?.slice(0,10)||'?'})`);
   return ATP_PLAYERS.length;
 }
