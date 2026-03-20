@@ -577,6 +577,23 @@ sh.getElementById('btn-p')?.addEventListener('click',()=>{
       if(bp)bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
     }
   });
+  // btn-p: toggle players tab
+  const _bpEl = sh.getElementById('btn-p');
+  if (_bpEl) {
+    _bpEl.onclick = () => {
+      const pw = sh.getElementById('pw');
+      if (!pw) return;
+      const open = pw.style.display !== 'none';
+      if (!open) {
+        pw.style.display = 'block';
+        if (pw._render) pw._render();
+        _bpEl.style.cssText = 'background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
+      } else {
+        pw.style.display = 'none';
+        _bpEl.style.cssText = 'background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
+      }
+    };
+  }
   return render;
 }
 
@@ -589,7 +606,7 @@ const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textCon
 
 // Players overlay — absolutní panel přes body
 const _pw=buildPlayersTab(sh);
-sh.getElementById('body').appendChild(_pw);
+sh.getElementById('w').appendChild(_pw);
 
 // Players panel
 body.appendChild(_pw);
