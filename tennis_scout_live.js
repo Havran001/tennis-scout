@@ -1081,6 +1081,12 @@ body.appendChild(_pw);
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
 sh.getElementById('load')?.remove();
 render();
+// HOME: skryj .mg, ukaž home
+sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
+const _hcT=sh.getElementById('hc-count-t');
+if(_hcT)_hcT.textContent=(window._tsData||[]).length+' turnajů';
+const _ncEl=sh.getElementById('nav-count');
+if(_ncEl)_ncEl.textContent=(window._tsData||[]).length;
 // Nastav home view — skryj .mg elementy
 sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
 // Aktualizuj count na home
