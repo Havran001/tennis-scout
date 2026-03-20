@@ -949,6 +949,7 @@ function buildUI(){
       </div>
     </div>
   `;
+  body.insertBefore(homeView, body.firstChild);
   // Insert homeView FIRST in body (before load)
   body.insertBefore(homeView, body.firstChild);
   // PLAYERS TAB
