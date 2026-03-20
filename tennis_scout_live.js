@@ -898,13 +898,10 @@ function buildUI(){
   body.appendChild(itfs);
   // Loader
   const load=el('div','load');
+  load.style.display='none';
   load.innerHTML=`<div class="spin"></div><div id="prog">ATP/WTA/Challenger: načteno ✓ – čekám na ITF API...</div>`;
   body.appendChild(load);
   main.appendChild(body);
-
-  // PLAYERS TAB
-  const _pw=buildPlayersTab(sh);
-  body.appendChild(_pw);
 
   w.appendChild(main);
 
@@ -952,7 +949,11 @@ function buildUI(){
       </div>
     </div>
   `;
-  body.appendChild(homeView);
+  // Insert homeView FIRST in body (before load)
+  body.insertBefore(homeView, body.firstChild);
+  // PLAYERS TAB
+  const _pw=buildPlayersTab(sh);
+  body.appendChild(_pw);
 
   // ── NAVIGACE ──
   function goView(view){
@@ -1080,7 +1081,6 @@ body.appendChild(_pw);
 // 1. Statická data — okamžitě
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
 sh.getElementById('load')?.remove();
-sh.getElementById('itfs')?.remove();
 render();
 // Nastav home view — skryj .mg elementy
 sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
@@ -1097,13 +1097,13 @@ fetchPlayers(txt => console.log('Players:', txt)).then(count => {
 }).catch(e => console.warn('ATP players:', e.message));
 
 console.log('🎾 Spouštím ITF fetch z GitHub cache...');
-setP('Načítám ITF data...');
+// loader skrytý, jen status bar
 fetchITF(txt=>{
   setP(txt);
 }).then(itfItems=>{
   window._tsData.push(...itfItems);
   render();
-  // itfs already removed
+  const s=sh.getElementById('itfs');if(s)s.style.display='none';
   const total=window._tsData.length;
   console.log(`%c🎾 Tennis Scout v${VERSION} — ${total} turnajů`,'color:#c8f135;font-weight:bold;font-size:14px;');
   console.table({ATP:ATP.length,WTA:WTA.length,Challenger:CHALL.length,'ITF M+W':itfItems.length,CELKEM:total});
