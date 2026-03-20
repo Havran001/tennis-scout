@@ -908,43 +908,50 @@ function buildUI(){
   // ── HOME VIEW ──
   const homeView=el('div','home-view');
   homeView.innerHTML=`
-    <div id="home-greeting">Vítej, <span>Scoute</span> 👋</div>
-    <div id="home-sub">Tenisový analytický nástroj pro profesionální sázení</div>
+    <div id="home-greeting">V\u00EDtej, <span>Scoute</span> \uD83D\uDC4B</div>
+    <div id="home-sub">Tenisov\u00FD analytick\u00FD n\u00E1stroj pro profesion\u00E1ln\u00ED s\u00E1zen\u00ED</div>
     <div id="home-cards">
-      <div class="home-card green" data-goto="tournaments">
-        <div class="hc-icon green">🏆</div>
-        <div class="hc-title">Turnaje 2026</div>
-        <div class="hc-desc">Kompletní kalendář ATP, WTA, Challenger a ITF turnajů s detailními informacemi.</div>
-        <div class="hc-meta">
-          <span class="hc-count" id="hc-count-t">795 turnajů</span>
-          <span class="hc-arrow">→</span>
+      <div class="home-card green" data-goto="tournaments" style="padding:0;overflow:hidden;">
+        <div style="background:linear-gradient(135deg,rgba(0,200,83,0.12),rgba(0,200,83,0.04));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(0,200,83,0.12);">
+          <span style="font-size:72px;line-height:1;filter:drop-shadow(0 4px 16px rgba(0,200,83,0.35))">\uD83C\uDFC6</span>
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Turnaje 2026</div>
+          <div class="hc-desc">ATP, WTA, Challenger a ITF turnaje s detailními informacemi o povrchu, losování a prize money.</div>
+          <div class="hc-meta"><span class="hc-count" id="hc-count-t">795 turnaj\u016F</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
-      <div class="home-card blue" data-goto="players">
-        <div class="hc-icon blue">👤</div>
-        <div class="hc-title">Hráči ATP</div>
-        <div class="hc-desc">Aktuální ATP ranking s 998 hráči, filtrování podle země, řazení podle bodů.</div>
-        <div class="hc-meta">
-          <span class="hc-count">998 hráčů</span>
-          <span class="hc-arrow">→</span>
+      <div class="home-card blue" data-goto="players" style="padding:0;overflow:hidden;">
+        <div style="position:relative;height:160px;overflow:hidden;background:linear-gradient(135deg,#0a1628,#0d2040,#0a3060);">
+          <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:0.07" viewBox="0 0 300 160"><rect x="30" y="20" width="240" height="120" fill="none" stroke="#00C853" stroke-width="1.5"/><line x1="150" y1="20" x2="150" y2="140" stroke="#00C853" stroke-width="1"/><line x1="30" y1="80" x2="270" y2="80" stroke="#00C853" stroke-width="1"/><line x1="90" y1="20" x2="90" y2="140" stroke="#00C853" stroke-width="0.8"/><line x1="210" y1="20" x2="210" y2="140" stroke="#00C853" stroke-width="0.8"/></svg>
+          <svg style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:100px;height:140px;opacity:0.9" viewBox="0 0 100 140"><ellipse cx="50" cy="14" rx="11" ry="12" fill="#e8c49a"/><ellipse cx="50" cy="8" rx="11" ry="7" fill="#8B6914"/><path d="M 32 35 Q 50 28 68 35 L 72 75 Q 50 80 28 75 Z" fill="#fff"/><path d="M 28 75 Q 50 82 72 75 L 70 100 Q 50 105 30 100 Z" fill="#2060e0"/><path d="M 32 38 L 14 55 L 10 52" stroke="#e8c49a" stroke-width="7" stroke-linecap="round" fill="none"/><ellipse cx="7" cy="50" rx="8" ry="10" fill="none" stroke="#c8a020" stroke-width="2.5"/><line x1="7" y1="40" x2="7" y2="60" stroke="#c8a020" stroke-width="1"/><line x1="-1" y1="50" x2="15" y2="50" stroke="#c8a020" stroke-width="1"/><path d="M 68 38 L 78 55" stroke="#e8c49a" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M 38 100 L 34 130 L 30 130" stroke="#e8c49a" stroke-width="8" stroke-linecap="round" fill="none"/><path d="M 57 100 L 61 130 L 65 130" stroke="#e8c49a" stroke-width="8" stroke-linecap="round" fill="none"/><ellipse cx="29" cy="132" rx="8" ry="4" fill="#333"/><ellipse cx="65" cy="132" rx="8" ry="4" fill="#333"/></svg>
+          <div style="position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(transparent,rgba(0,200,83,0.07));"></div>
+          <div style="position:absolute;bottom:10px;left:0;right:0;text-align:center;font-size:9px;color:rgba(255,255,255,0.4);font-family:monospace;letter-spacing:2px;">C. ALCARAZ \u00B7 #1 ATP \u00B7 13 550 PTS</div>
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Hr\u00E1\u010Di ATP</div>
+          <div class="hc-desc">Aktu\u00E1ln\u00ED ATP ranking s filtrováním podle zem\u011B, \u0159azen\u00EDm podle bod\u016F a odkazem na ATP profil.</div>
+          <div class="hc-meta"><span class="hc-count">998 hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
-      <div class="home-card orange disabled">
-        <div class="hc-icon orange">📊</div>
-        <div class="hc-title">Kurzy</div>
-        <div class="hc-desc">Kurzy z Tipsportu a Pinnacle pro tenisové zápasy v reálném čase.</div>
-        <div class="hc-meta">
-          <span class="hc-tag soon">Připravujeme</span>
-          <span class="hc-arrow">→</span>
+      <div class="home-card orange disabled" style="padding:0;overflow:hidden;opacity:0.4;">
+        <div style="background:linear-gradient(135deg,rgba(251,146,60,0.1),rgba(251,146,60,0.03));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(251,146,60,0.1);">
+          <span style="font-size:72px;line-height:1;">\uD83D\uDCCA</span>
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Kurzy</div>
+          <div class="hc-desc">Kurzy z Tipsportu a Pinnacle pro tenis v re\u00E1ln\u00E9m \u010Dase.</div>
+          <div class="hc-meta"><span class="hc-tag soon">P\u0159ipravujeme</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
-      <div class="home-card pink disabled">
-        <div class="hc-icon pink">⚡</div>
-        <div class="hc-title">Live zápasy</div>
-        <div class="hc-desc">Výsledky a statistiky živých zápasů s kurzy a predikci vítěze.</div>
-        <div class="hc-meta">
-          <span class="hc-tag soon">Připravujeme</span>
-          <span class="hc-arrow">→</span>
+      <div class="home-card pink disabled" style="padding:0;overflow:hidden;opacity:0.4;">
+        <div style="background:linear-gradient(135deg,rgba(244,114,182,0.1),rgba(244,114,182,0.03));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(244,114,182,0.1);">
+          <span style="font-size:72px;line-height:1;">\u26A1</span>
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Live z\u00E1pasy</div>
+          <div class="hc-desc">V\u00FDsledky a statistiky \u017Eiv\u00FDch z\u00E1pas\u016F s kurzy a predikc\u00ED.</div>
+          <div class="hc-meta"><span class="hc-tag soon">P\u0159ipravujeme</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
     </div>
