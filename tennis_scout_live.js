@@ -15,7 +15,9 @@
 
 (async function TENNIS_SCOUT() {
 'use strict';
-const VERSION = '5.2';
+const VERSION = '5.3';
+
+let ATP_PLAYERS = []; // ATP Rankings, načítáno z GitHub
 
 // Kontrola CSP
 {
@@ -258,6 +260,18 @@ function mkWta(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wi
 function mkChall(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'CHALL',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'—',winners:wins?.w||[],src:'atptour.com'}));}
 
 // ── ITF API ───────────────────────────────────────────────────
+
+async function fetchPlayers(onProg) {
+  const URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json';
+  onProg('Načítám ATP hráče...');
+  const r = await fetch(URL);
+  if (!r.ok) throw new Error('ATP players: HTTP ' + r.status);
+  const d = await r.json();
+  ATP_PLAYERS = (d.items||[]).map(p=>[p.rank,p.name,p.country,p.pts,p.id]);
+  onProg('ATP hráči: ' + ATP_PLAYERS.length + ' (' + (d.updated||'').slice(0,10) + ')');
+  return ATP_PLAYERS.length;
+}
+
 async function fetchITF(onProg){
   // Data jsou každý den automaticky aktualizována GitHub Actions
   // z itftennis.com a uložena do raw.githubusercontent.com (prochází sítí)
@@ -288,6 +302,78 @@ const CSS=`:host{all:initial;}#w{background:#0a0c0f;color:#e8eaf0;font-family:"D
 function surfSp(s){return s==='Antuka'?'sA':s==='Tráva'?'sT':s==='Krytý'?'sK':'sH';}
 function tierCls(t){if(!t)return'';if(t==='Grand Slam')return'tGS';if(t==='Masters1000'||t==='WTA1000')return'tM1';if(t==='ATP500'||t==='WTA500')return't5';if(t==='CH175')return'tCH175';if(t==='CH125')return'tCH125';return'';}
 
+
+function buildPlayersTab(sh) {
+  let pSrch='',pCtry='ALL',pSort='rank',pPage=0;
+  const PG=100,wrap=document.createElement('div');
+  wrap.id='pw';wrap.style.display='none';
+  function renderP(){
+    const sq=pSrch.toLowerCase();
+    let f=ATP_PLAYERS.filter(([r,n,c])=>{
+      if(pCtry!=='ALL'&&c!==pCtry)return false;
+      if(sq&&!n.toLowerCase().includes(sq)&&!c.toLowerCase().includes(sq))return false;
+      return true;
+    });
+    if(pSort==='name')f.sort((a,b)=>a[1].localeCompare(b[1]));
+    else if(pSort==='pts')f.sort((a,b)=>b[3]-a[3]);
+    else f.sort((a,b)=>a[0]-b[0]);
+    const tot=f.length,pg=f.slice(pPage*PG,(pPage+1)*PG),maxP=Math.ceil(tot/PG)-1;
+    const cc={};ATP_PLAYERS.forEach(([,,c])=>{cc[c]=(cc[c]||0)+1;});
+    const tops=Object.entries(cc).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([c])=>c);
+    wrap.textContent='';
+    // Toolbar
+    const tb=document.createElement('div');
+    tb.style.cssText='padding:10px 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center;border-bottom:1px solid #1e2330;margin-bottom:6px;';
+    const si=document.createElement('input');
+    si.placeholder='🔍 Hledat hráče...';si.value=pSrch;
+    si.style.cssText='background:#181c23;border:1px solid #1e2330;color:#e8eaf0;font-size:12px;padding:4px 10px;border-radius:14px;outline:none;width:160px;';
+    si.oninput=e=>{pSrch=e.target.value;pPage=0;renderP();};tb.appendChild(si);
+    ['ALL',...tops].forEach(c=>{
+      const on=pCtry===c,b=document.createElement('button');
+      b.textContent=c==='ALL'?'Vše':c;
+      b.style.cssText='background:'+(on?'#c8f135':'none')+';color:'+(on?'#0a0c0f':'#5a6070')+';border:1px solid '+(on?'#c8f135':'#1e2330')+';font-size:10px;padding:2px 7px;border-radius:3px;cursor:pointer;font-weight:'+(on?700:400)+';';
+      b.onclick=()=>{pCtry=c;pPage=0;renderP();};tb.appendChild(b);
+    });
+    const ss=document.createElement('select');
+    ss.style.cssText='margin-left:auto;background:#181c23;border:1px solid #1e2330;color:#5a6070;font-size:10px;padding:2px 6px;border-radius:3px;';
+    [['rank','Ranking'],['pts','Body'],['name','Jméno']].forEach(([v,t])=>{
+      const o=document.createElement('option');o.value=v;o.textContent=t;if(pSort===v)o.selected=true;ss.appendChild(o);
+    });
+    ss.onchange=e=>{pSort=e.target.value;renderP();};tb.appendChild(ss);
+    const sc=document.createElement('span');sc.style.cssText='font-size:9px;color:#5a6070;font-family:monospace;';
+    sc.textContent=tot+' hráčů';tb.appendChild(sc);wrap.appendChild(tb);
+    // Tabulka
+    const tbl=document.createElement('table');tbl.style.cssText='width:100%;border-collapse:collapse;';
+    const thead=document.createElement('thead');
+    thead.innerHTML='<tr><th style="width:44px;text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">#</th><th style="text-align:left;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">HRÁČ</th><th style="padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">ZEMĚ</th><th style="text-align:right;padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">BODY</th><th style="padding:4px 8px;font-size:9px;color:#5a6070;font-family:monospace;border-bottom:1px solid #1e2330">ATP</th></tr>';
+    tbl.appendChild(thead);
+    const tb2=document.createElement('tbody');
+    pg.forEach(([rank,name,country,pts,id])=>{
+      const rc=rank<=10?'#c8a020':rank<=50?'#c8f135':rank<=100?'#35c8f1':'#5a6070';
+      const slug=name.toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'');
+      const tr=document.createElement('tr');
+      tr.style.cssText='cursor:pointer;transition:background .08s;';
+      tr.onmouseover=()=>tr.style.background='#111318';
+      tr.onmouseout=()=>tr.style.background='';
+      tr.onclick=()=>window.open('https://www.atptour.com/en/players/'+slug+'/'+id+'/overview','_blank');
+      tr.innerHTML='<td style="text-align:right;padding:5px 8px;font-family:monospace;font-size:11px;color:'+rc+';font-weight:'+(rank<=10?700:400)+'">'+rank+'</td><td style="padding:5px 8px;font-size:12px;font-weight:600;color:#e8eaf0">'+name+'</td><td style="padding:5px 8px;"><span style="font-size:9px;padding:1px 5px;border:1px solid #1e2330;border-radius:3px;color:#5a6070;font-family:monospace">'+country+'</span></td><td style="padding:5px 8px;text-align:right;font-family:monospace;font-size:11px;color:#e8eaf0">'+pts.toLocaleString()+'</td><td style="padding:5px 8px;"><a href="https://www.atptour.com/en/players/'+slug+'/'+id+'/overview" target="_blank" onclick="event.stopPropagation()" style="color:#c8f135;font-size:10px;font-family:monospace;text-decoration:none">→</a></td>';
+      tb2.appendChild(tr);
+    });
+    tbl.appendChild(tb2);wrap.appendChild(tbl);
+    if(maxP>0){
+      const pv=document.createElement('div');pv.style.cssText='display:flex;gap:8px;justify-content:center;padding:12px 0;align-items:center;';
+      const mkB=(txt,en,fn)=>{const b=document.createElement('button');b.textContent=txt;b.style.cssText='background:none;border:1px solid #1e2330;color:'+(en?'#5a6070':'#2a2f3a')+';font-size:10px;padding:3px 10px;border-radius:3px;cursor:'+(en?'pointer':'default')+';';if(en)b.onclick=fn;return b;};
+      pv.appendChild(mkB('← Předchozí',pPage>0,()=>{pPage--;renderP();wrap.scrollIntoView({behavior:'smooth'});}));
+      const pi=document.createElement('span');pi.style.cssText='font-size:10px;color:#5a6070;font-family:monospace;';
+      pi.textContent=(pPage*PG+1)+'–'+Math.min((pPage+1)*PG,tot)+' z '+tot;
+      pv.appendChild(pi);
+      pv.appendChild(mkB('Další →',pPage<maxP,()=>{pPage++;renderP();wrap.scrollIntoView({behavior:'smooth'});}));
+      wrap.appendChild(pv);
+    }
+  }
+  return{el:wrap,show:()=>{wrap.style.display='block';renderP();},hide:()=>{wrap.style.display='none';}};
+}
+
 // ── UI ────────────────────────────────────────────────────────
 function buildUI(){
   document.getElementById('ts-host')?.remove();
@@ -310,6 +396,7 @@ function buildUI(){
   const stats=el('div','stats');stats.innerHTML=`<div><b id="nt">—</b>Celkem</div><div><b id="ns">—</b>Zobrazeno</div>`;top.appendChild(stats);
   const btnR=el('button','btn-r');btnR.textContent='↻ Reload';top.appendChild(btnR);
   const btnC=el('button','btn-c');btnC.textContent='✕ Zavřít';top.appendChild(btnC);
+  const btnP=el('button','btn-p');btnP.textContent='👤 Hráči';btnP.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';top.appendChild(btnP);
   hdr.appendChild(top);
   const fr1=el('div',null,'fr');
   const fl1=el('span',null,'fl');fl1.textContent='Okruh';fr1.appendChild(fl1);
@@ -400,6 +487,16 @@ function setupRender({sh,body,mnav}){
   sh.getElementById('srch').addEventListener('input',e=>{sq=e.target.value;exId=null;render();});
   sh.getElementById('btn-c').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
   sh.getElementById('btn-r').addEventListener('click',()=>{document.getElementById('ts-host')?.remove();TENNIS_SCOUT();});
+// Players tab
+const playersTab=buildPlayersTab(sh);
+sh.getElementById('body').appendChild(playersTab.el);
+let showP=false;
+sh.getElementById('btn-p')?.addEventListener('click',()=>{
+  showP=!showP;
+  const bp=sh.getElementById('btn-p');
+  if(showP){playersTab.show();if(bp)bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';}
+  else{playersTab.hide();if(bp)bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';}
+});
   return render;
 }
 
@@ -416,6 +513,8 @@ sh.getElementById('load')?.remove();
 render();
 
 // 2. ITF live API — funguje pouze z itftennis.com
+fetchPlayers(t=>console.log('Players:',t)).then(n=>console.log('✅ ATP hráči:',n)).catch(e=>console.warn('ATP players:',e.message));
+
 console.log('🎾 Spouštím ITF fetch z GitHub cache...');
 setP('Načítám ITF data...');
 fetchITF(txt=>{
