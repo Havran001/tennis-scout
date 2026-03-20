@@ -950,6 +950,7 @@ function buildUI(){
     </div>
   `;
   // Insert homeView FIRST in body (before load)
+  body.appendChild(homeView);
   // PLAYERS TAB
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
