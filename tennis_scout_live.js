@@ -1061,8 +1061,8 @@ function setupRender({sh,body,mnav}){
 
   sh.querySelectorAll('.fb[data-c]').forEach(b=>b.addEventListener('click',()=>{sh.querySelectorAll('.fb[data-c]').forEach(x=>x.classList.remove('on'));b.classList.add('on');aC=b.dataset.c;exId=null;render();}));
   sh.querySelectorAll('.sb[data-s]').forEach(b=>b.addEventListener('click',()=>{sh.querySelectorAll('.sb[data-s]').forEach(x=>x.classList.remove('on'));b.classList.add('on');aS=b.dataset.s;exId=null;render();}));
-  sh.getElementById('srch').addEventListener('input',e=>{sq=e.target.value;exId=null;render();});
-  sh.getElementById('btn-c').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
+  sh.getElementById('srch')?.addEventListener('input',e=>{sq=e.target.value;exId=null;render();});
+  sh.getElementById('btn-c')?.addEventListener('click',()=>document.getElementById('ts-host')?.remove());
     return render;
 }
 
