@@ -18,7 +18,7 @@
 const VERSION = '5.3';
 
 // ATP Rankings - načítáno z GitHubu (stejně jako ITF data)
-let ATP_PLAYERS = [];
+window.ATP_PLAYERS = window.ATP_PLAYERS || [];
 
 // Kontrola CSP
 {
@@ -269,7 +269,7 @@ async function fetchPlayers(onProg) {
   if (!resp.ok) throw new Error(`ATP players cache: HTTP ${resp.status}`);
   const data = await resp.json();
   // Převeď objekty na arrays pro efektivitu
-  ATP_PLAYERS = (data.items || []).map(p => [p.rank, p.name, p.country, p.pts, p.id]);
+  window.ATP_PLAYERS = (data.items || []).map(p => [p.rank, p.name, p.country, p.pts, p.id]);
   onProg(`ATP hráči: ${ATP_PLAYERS.length} (aktualizováno ${data.updated?.slice(0,10)||'?'})`);
   return ATP_PLAYERS.length;
 }
