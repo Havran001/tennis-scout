@@ -1080,13 +1080,8 @@ body.appendChild(_pw);
 // 1. Statická data — okamžitě
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
 sh.getElementById('load')?.remove();
+sh.getElementById('itfs')?.remove();
 render();
-// HOME: skryj .mg, ukaž home
-sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
-const _hcT=sh.getElementById('hc-count-t');
-if(_hcT)_hcT.textContent=(window._tsData||[]).length+' turnajů';
-const _ncEl=sh.getElementById('nav-count');
-if(_ncEl)_ncEl.textContent=(window._tsData||[]).length;
 // Nastav home view — skryj .mg elementy
 sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
 // Aktualizuj count na home
@@ -1108,7 +1103,7 @@ fetchITF(txt=>{
 }).then(itfItems=>{
   window._tsData.push(...itfItems);
   render();
-  const s=sh.getElementById('itfs');if(s)s.style.display='none';
+  // itfs already removed
   const total=window._tsData.length;
   console.log(`%c🎾 Tennis Scout v${VERSION} — ${total} turnajů`,'color:#c8f135;font-weight:bold;font-size:14px;');
   console.table({ATP:ATP.length,WTA:WTA.length,Challenger:CHALL.length,'ITF M+W':itfItems.length,CELKEM:total});
