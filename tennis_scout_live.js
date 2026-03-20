@@ -18,7 +18,7 @@
 const VERSION = '5.3';
 
 // ATP Rankings - načítáno z GitHubu (stejně jako ITF data)
-window.ATP_PLAYERS = window.ATP_PLAYERS || [];
+let ATP_PLAYERS = [];
 
 // Kontrola CSP
 {
@@ -269,7 +269,7 @@ async function fetchPlayers(onProg) {
   if (!resp.ok) throw new Error(`ATP players cache: HTTP ${resp.status}`);
   const data = await resp.json();
   // Převeď objekty na arrays pro efektivitu
-  window.ATP_PLAYERS = (data.items || []).map(p => [p.rank, p.name, p.country, p.pts, p.id]);
+  ATP_PLAYERS = (data.items || []).map(p => [p.rank, p.name, p.country, p.pts, p.id]);
   onProg(`ATP hráči: ${ATP_PLAYERS.length} (aktualizováno ${data.updated?.slice(0,10)||'?'})`);
   return ATP_PLAYERS.length;
 }
@@ -491,41 +491,19 @@ function setupRender({sh,body,mnav}){
   sh.getElementById('srch').addEventListener('input',e=>{sq=e.target.value;exId=null;render();});
   sh.getElementById('btn-c').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
   sh.getElementById('btn-r').addEventListener('click',()=>{document.getElementById('ts-host')?.remove();TENNIS_SCOUT();});
-  sh.getElementById('btn-p')?.addEventListener('click',()=>{
-    // Players panel je mimo body — přepínáme viditelnost
-    const pw=sh.getElementById('pw');
-    const bp=sh.getElementById('btn-p');
-    if(!pw)return;
-    const showing=pw.style.display!=='none';
-    if(!showing){
-      pw.style.display='block';
-      pw._render&&pw._render();
-      if(bp)bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
-    } else {
+    var _bp=sh.getElementById('btn-p');
+  if(_bp){_bp.onclick=function(){
+    var pw=sh.getElementById('pw');if(!pw)return;
+    if(pw.style.display==='none'){
+      [...body.children].forEach(function(el){if(el.id!=='pw')el.style.display='none';});
+      pw.style.display='block';if(pw.render)pw.render();body.scrollTop=0;
+      _bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
+    }else{
       pw.style.display='none';
-      if(bp)bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
+      [...body.children].forEach(function(el){if(el.id!=='pw')el.style.display='';});
+      _bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
     }
-  });
-
-  var _bpBtn=sh.getElementById("btn-p");
-  if(_bpBtn){
-    _bpBtn.addEventListener("click",function(){
-      var pw=sh.getElementById("pw");
-      if(!pw)return;
-      var open=pw.style.display!=="none";
-      if(!open){
-        Array.from(body.children).forEach(function(el){if(el.id!=="pw")el.style.display="none";});
-        pw.style.display="block";
-        if(pw.render)pw.render();
-        body.scrollTop=0;
-        _bpBtn.style.cssText="background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;";
-      }else{
-        pw.style.display="none";
-        Array.from(body.children).forEach(function(el){if(el.id!=="pw")el.style.display="";});
-        _bpBtn.style.cssText="background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;";
-      }
-    });
-  }
+  };}
   return render;
 }
 
