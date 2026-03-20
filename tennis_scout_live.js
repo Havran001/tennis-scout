@@ -262,19 +262,16 @@ function mkChall(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,
 
 // ── ITF API ───────────────────────────────────────────────────
 
-async function fetchPlayers(onProgress){
-  try{
-    onProgress && onProgress('Načítám hráče ATP...');
-    const r=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json',{cache:'no-store'});
-    const data=await r.json();
-    const items = data.items || data;
-    window.ATP_PLAYERS = items.map(p=>({rank:p.rank,name:p.name,country:(p.country||'').toUpperCase(),pts:p.pts,id:p.id}));
-    onProgress && onProgress('Hráči ATP načteni: '+window.ATP_PLAYERS.length);
-    return window.ATP_PLAYERS.length;
-  }catch(e){
-    console.warn('fetchPlayers:',e.message);
-    return 0;
-  }
+async function fetchPlayers(onProg) {
+  const GH_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json';
+  onProg('Načítám ATP hráče z GitHub cache...');
+  const resp = await fetch(GH_URL);
+  if (!resp.ok) throw new Error(`ATP players cache: HTTP ${resp.status}`);
+  const data = await resp.json();
+  // Převeď objekty na arrays pro efektivitu
+  window.ATP_PLAYERS = (data.items || []).map(p => [p.rank, p.name, p.country, p.pts, p.id]);
+  onProg(`ATP hráči: ${ATP_PLAYERS.length} (aktualizováno ${data.updated?.slice(0,10)||'?'})`);
+  return ATP_PLAYERS.length;
 }
 
 async function fetchITF(onProg){
@@ -727,8 +724,8 @@ function buildPlayersTab(sh) {
   wrap.style.cssText="display:none;color:#e8eaf0;font-family:\"DM Sans\",\"Segoe UI\",sans-serif;font-size:14px;";
   function rP(){
     var ATP=window.ATP_PLAYERS||[];
-    var sq=pS.toLowerCase();
-    var f=ATP.filter(function(p){
+    var sq=(pS||"").toLowerCase();
+    var f=ATP.filter(function(p){if(!p||!p.name)return false;
       var c=p[2],n=p[1];
       if(pC!=="ALL"&&c!==pC)return false;
       if(sq&&n.toLowerCase().indexOf(sq)===-1&&c.toLowerCase().indexOf(sq)===-1)return false;
@@ -824,7 +821,7 @@ function buildUI(){
       </div>
       <div class="nav-item" data-view="players" id="nav-players">
         <span class="nav-icon">👤</span> Hráči ATP
-        <span class="nav-badge" id="nav-players-count">4466</span>
+        <span class="nav-badge">998</span>
       </div>
       <div class="nav-item disabled">
         <span class="nav-icon">📊</span> Kurzy
