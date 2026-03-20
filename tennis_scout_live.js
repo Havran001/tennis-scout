@@ -949,9 +949,7 @@ function buildUI(){
       </div>
     </div>
   `;
-  body.insertBefore(homeView, body.firstChild);
   // Insert homeView FIRST in body (before load)
-  body.insertBefore(homeView, body.firstChild);
   // PLAYERS TAB
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
@@ -1070,6 +1068,9 @@ function setupRender({sh,body,mnav}){
 // ── MAIN ────────────────────────────────────────────────────
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
+// Přidej homeView do body
+const _homeViewEl=sh.getElementById('home-view');
+if(_homeViewEl&&!_homeViewEl.parentElement)body.insertBefore(_homeViewEl,body.firstChild);
 const render=setupRender({sh,body,mnav});
 window._tsRender=render;
 const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;};
