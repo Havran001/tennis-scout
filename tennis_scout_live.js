@@ -971,16 +971,7 @@ function buildUI(){
     _pw.style.display=view==='players'?'block':'none';
     // Turnaje - vyčisti/zobraz
     const mgs=sh.querySelectorAll('.mg');
-    if(view==='tournaments'){
-      mgs.forEach(m=>m.style.display='');
-      if(mgs.length===0&&window._tsData&&window._tsData.length>0){
-        // render ještě neproběhl nebo .mg jsou skryté — zavolej render
-        if(typeof render==='function')render();
-        setTimeout(()=>sh.querySelectorAll('.mg').forEach(m=>m.style.display=''),50);
-      }
-    }else{
-      mgs.forEach(m=>m.style.display='none');
-    }
+    mgs.forEach(m=>m.style.display=view==='tournaments'?'':'none');
     if(view==='players'&&_pw.render)_pw.render();
     // btn-p styl
     const bp=sh.getElementById('nav-players');
@@ -1078,7 +1069,7 @@ function setupRender({sh,body,mnav}){
 // ── MAIN ──────────────────────────────────────────────────────
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
-const render=setupRender({sh,body,mnav});
+const render=setupRender({sh,body,mnav});window._tsRender=render;
 // Players panel — absolute overlay, sibling of body, not inside it
 const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;const m=t.match(/(\d+)\/(\d+)/);if(m){const b=sh.getElementById('itfb');if(b)b.style.width=(+m[1]/+m[2]*100)+'%';}};
 const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textContent?e.textContent+' | ':'')+m;e.style.display='block';}};
