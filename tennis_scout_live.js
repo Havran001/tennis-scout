@@ -18,7 +18,7 @@
 const VERSION = '5.3';
 
 // ATP Rankings - načítáno z GitHubu (stejně jako ITF data)
-window.ATP_PLAYERS = window.ATP_PLAYERS || [];
+window.ATP_PLAYERS = [];
 
 // Kontrola CSP
 {
