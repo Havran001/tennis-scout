@@ -922,8 +922,8 @@ function buildUI(){
         </div>
       </div>
       <div class="home-card blue" data-goto="players" style="padding:0;overflow:hidden;">
-        <div style="position:relative;height:160px;overflow:hidden;background:#050d1a;">
-          <img id="player-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:center top;" />
+        <div style="position:relative;height:200px;overflow:hidden;background:#050d1a;">
+          <img id="player-photo" src="" style="width:100%;height:100%;object-fit:contain;object-position:center center;background:#050d1a;" />
 
 
         </div>
