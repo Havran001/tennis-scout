@@ -822,7 +822,7 @@ function buildUI(){
       </div>
       <div class="nav-item" data-view="players" id="nav-players">
         <span class="nav-icon">👤</span> Hráči ATP
-        <span class="nav-badge" id="nav-players-count">4466</span>
+        <span class="nav-badge" id="nav-players-count">1454</span>
       </div>
       <div class="nav-item disabled">
         <span class="nav-icon">📊</span> Kurzy
