@@ -1077,7 +1077,7 @@ window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
 // Djokovic photo from Wikipedia API
 (async()=>{try{
-  const _wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Novak_Djokovic');
+  const _wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Rafael_Nadal');
   const _wd=await _wr.json();
   const _tu=_wd.thumbnail?.source;if(!_tu)return;
   const _ir=await fetch(_tu);const _blob=await _ir.blob();
