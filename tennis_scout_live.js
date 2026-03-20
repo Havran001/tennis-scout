@@ -1077,9 +1077,6 @@ window._tsRender=render;
 const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;};
 const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textContent?e.textContent+' | ':'')+m;e.style.display='block';}};
 
-// Players tab
-var _pw=buildPlayersTab(sh);
-body.appendChild(_pw);
 
 // 1. Statická data — okamžitě
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
