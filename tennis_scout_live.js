@@ -1033,7 +1033,7 @@ function setupRender({sh,body,mnav}){
       mnav.appendChild(b);
     });
 
-    if(!ts.length){[...body.children].forEach(el=>{if(el.id!=='pw')el.remove()});const e=document.createElement('div');e.style.cssText='text-align:center;padding:60px;color:#5a6070;';e.textContent='Žádné turnaje.';body.appendChild(e);return;}
+    if(!ts.length){[...body.children].forEach(el=>{if(el.id!=='pw'&&el.id!=='home-view')el.remove()});const e=document.createElement('div');e.style.cssText='text-align:center;padding:60px;color:#5a6070;';e.textContent='Žádné turnaje.';body.appendChild(e);return;}
 
     let html='';
     Object.keys(byM).sort((a,b)=>+a-+b).forEach(m=>{
@@ -1055,7 +1055,7 @@ function setupRender({sh,body,mnav}){
     const tmp=new DOMParser().parseFromString(`<div>${html}</div>`,'text/html');
     const frag=document.createDocumentFragment();
     [...tmp.body.firstChild.childNodes].forEach(n=>frag.appendChild(document.adoptNode(n)));
-    [...body.children].forEach(el=>{if(el.id!=='pw')el.remove()});body.appendChild(frag);
+    [...body.children].forEach(el=>{if(el.id!=='pw'&&el.id!=='home-view')el.remove()});body.appendChild(frag);
     body.querySelectorAll('tr.r').forEach(row=>row.addEventListener('click',()=>{exId=exId===row.dataset.uid?null:row.dataset.uid;render();}));
   }
 
