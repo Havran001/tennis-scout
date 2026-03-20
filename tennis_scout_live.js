@@ -313,7 +313,8 @@ function buildPlayersTab(sh, bodyEl) {
   let pS='',pC='ALL',pO='rank',pP=0;
   const PG=50,wrap=document.createElement('div');
   wrap.id='pw';wrap.style.display='none';
-  function rP(){
+  function rP() {
+    const ATP_PLAYERS=window.ATP_PLAYERS||[];
     const ATP=window.ATP_PLAYERS||[];
     const sq=pS.toLowerCase();
     let f=ATP.filter(([r,n,c])=>{
@@ -375,7 +376,8 @@ function buildPlayersTab(sh, bodyEl) {
       wrap.appendChild(pv);
     }
   }
-  return{el:wrap,show:()=>{wrap.style.display='block';rP();},hide:()=>{wrap.style.display='none';}};
+  wrap._render=rP;
+  return wrap;
 }
 
 function buildPlayersTab(sh, bodyEl) {
@@ -563,21 +565,18 @@ function setupRender({sh,body,mnav}){
 const pw=buildPlayersTab(sh,body);body.appendChild(pw);
 let shP=false;
 sh.getElementById('btn-p')?.addEventListener('click',()=>{
-  shP=!shP;
-  const bp=sh.getElementById('btn-p');
-  if(shP){
-    body.querySelectorAll('.mg').forEach(e=>e.style.display='none');
-    pw.style.display='block';pw.render();
-    bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
-    body.scrollTop=0;
-  } else {
-    pw.style.display='none';
-    body.querySelectorAll('.mg').forEach(e=>e.style.display='');
-    bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
-  }
-});
-const pTab=buildPlayersTab(sh,body);body.appendChild(pTab.el);let shP=false;
-sh.getElementById('btn-p')?.addEventListener('click',()=>{shP=!shP;const bp=sh.getElementById('btn-p');if(shP){pTab.show();bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';body.querySelectorAll('.mg').forEach(e=>e.style.display='none');body.scrollTop=0;}else{pTab.hide();bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';body.querySelectorAll('.mg').forEach(e=>e.style.display='');}});
+    const pw=sh.getElementById('pw');
+    const bp=sh.getElementById('btn-p');
+    if(!pw)return;
+    if(pw.style.display==='none'){
+      pw.style.display='block';
+      if(!pw._rendered){pw._render&&pw._render();pw._rendered=true;}
+      if(bp)bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
+    } else {
+      pw.style.display='none';
+      if(bp)bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
+    }
+  });
   return render;
 }
 
@@ -587,6 +586,10 @@ const{host,sh,body,mnav}=buildUI();
 const render=setupRender({sh,body,mnav});
 const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;const m=t.match(/(\d+)\/(\d+)/);if(m){const b=sh.getElementById('itfb');if(b)b.style.width=(+m[1]/+m[2]*100)+'%';}};
 const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textContent?e.textContent+' | ':'')+m;e.style.display='block';}};
+
+// Players overlay — absolutní panel přes body
+const _pw=buildPlayersTab(sh);
+sh.getElementById('w').appendChild(_pw);
 
 // 1. Statická data — okamžitě
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
