@@ -923,7 +923,7 @@ function buildUI(){
       </div>
       <div class="home-card blue" data-goto="players" style="padding:0;overflow:hidden;">
         <div style="position:relative;height:160px;overflow:hidden;background:linear-gradient(135deg,#0a1628,#0d2040,#0a3060);">
-          <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:0.07" viewBox="0 0 300 160"><rect x="30" y="20" width="240" height="120" fill="none" stroke="#00C853" stroke-width="1.5"/><line x1="150" y1="20" x2="150" y2="140" stroke="#00C853" stroke-width="1"/><line x1="30" y1="80" x2="270" y2="80" stroke="#00C853" stroke-width="1"/><line x1="90" y1="20" x2="90" y2="140" stroke="#00C853" stroke-width="0.8"/><line x1="210" y1="20" x2="210" y2="140" stroke="#00C853" stroke-width="0.8"/></svg>
+          <img id="player-photo" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;opacity:0.85;" src="" />
           <svg style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:100px;height:140px;opacity:0.9" viewBox="0 0 100 140"><ellipse cx="50" cy="14" rx="11" ry="12" fill="#e8c49a"/><ellipse cx="50" cy="8" rx="11" ry="7" fill="#8B6914"/><path d="M 32 35 Q 50 28 68 35 L 72 75 Q 50 80 28 75 Z" fill="#fff"/><path d="M 28 75 Q 50 82 72 75 L 70 100 Q 50 105 30 100 Z" fill="#2060e0"/><path d="M 32 38 L 14 55 L 10 52" stroke="#e8c49a" stroke-width="7" stroke-linecap="round" fill="none"/><ellipse cx="7" cy="50" rx="8" ry="10" fill="none" stroke="#c8a020" stroke-width="2.5"/><line x1="7" y1="40" x2="7" y2="60" stroke="#c8a020" stroke-width="1"/><line x1="-1" y1="50" x2="15" y2="50" stroke="#c8a020" stroke-width="1"/><path d="M 68 38 L 78 55" stroke="#e8c49a" stroke-width="7" stroke-linecap="round" fill="none"/><path d="M 38 100 L 34 130 L 30 130" stroke="#e8c49a" stroke-width="8" stroke-linecap="round" fill="none"/><path d="M 57 100 L 61 130 L 65 130" stroke="#e8c49a" stroke-width="8" stroke-linecap="round" fill="none"/><ellipse cx="29" cy="132" rx="8" ry="4" fill="#333"/><ellipse cx="65" cy="132" rx="8" ry="4" fill="#333"/></svg>
           <div style="position:absolute;bottom:0;left:0;right:0;height:60px;background:linear-gradient(transparent,rgba(0,200,83,0.07));"></div>
           <div style="position:absolute;bottom:10px;left:0;right:0;text-align:center;font-size:9px;color:rgba(255,255,255,0.4);font-family:monospace;letter-spacing:2px;">C. ALCARAZ \u00B7 #1 ATP \u00B7 13 550 PTS</div>
@@ -1094,6 +1094,21 @@ render();
 sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
 // Update home counts
 const _hcT=sh.getElementById('hc-count-t');
+
+// Načti fotku hráče pro home kartu přes Wikipedia API
+(async()=>{
+  try{
+    const wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Novak_Djokovic');
+    const wd=await wr.json();
+    const thumbUrl=wd.thumbnail?.source;
+    if(!thumbUrl)return;
+    const ir=await fetch(thumbUrl);
+    const blob=await ir.blob();
+    const dataUrl=await new Promise(res=>{const fr=new FileReader();fr.onload=()=>res(fr.result);fr.readAsDataURL(blob);});
+    const playerImg=sh.getElementById('player-photo');
+    if(playerImg){playerImg.src=dataUrl;playerImg.style.objectPosition='center 15%';}
+  }catch(e){console.log('player photo:',e.message);}
+})();
 if(_hcT)_hcT.textContent=window._tsData.length+' turnájů';
 const _ncEl=sh.getElementById('nav-count');
 if(_ncEl)_ncEl.textContent=window._tsData.length;
