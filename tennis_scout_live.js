@@ -794,7 +794,15 @@ function buildPlayersTab(sh){
     wrap.innerHTML=h;
     var inp=wrap.querySelector("#ps-i");
     if(inp){
-      inp.addEventListener("input",function(e){pS=e.target.value;pP=0;rP();});
+      inp.addEventListener("input",function(e){
+      pS=e.target.value;
+      var pos=e.target.selectionStart;
+      pP=0;
+      rP();
+      // Vrať focus a pozici kurzoru po re-renderu
+      var ni=wrap.querySelector("#ps-i");
+      if(ni){ni.focus();try{ni.setSelectionRange(pos,pos);}catch(x){}}
+    });
       inp.addEventListener("focus",function(){this.style.borderColor="rgba(0,200,83,0.5)";this.style.boxShadow="0 0 0 3px rgba(0,200,83,0.1)";});
       inp.addEventListener("blur",function(){this.style.borderColor="rgba(255,255,255,0.12)";this.style.boxShadow="none";});
     }
