@@ -313,7 +313,8 @@ function buildPlayersTab(sh, bodyEl) {
   let pS='',pC='ALL',pO='rank',pP=0;
   const PG=50,wrap=document.createElement('div');
   wrap.id='pw';wrap.style.display='none';
-  function rP() {
+  function rP(){
+    const ATP_PLAYERS=window.ATP_PLAYERS||[];
     const ATP_PLAYERS=window.ATP_PLAYERS||[];
     const ATP=window.ATP_PLAYERS||[];
     const sq=pS.toLowerCase();
@@ -531,7 +532,7 @@ function setupRender({sh,body,mnav}){
       mnav.appendChild(b);
     });
 
-    if(!ts.length){body.textContent='';const e=document.createElement('div');e.style.cssText='text-align:center;padding:60px;color:#5a6070;';e.textContent='Žádné turnaje.';body.appendChild(e);return;}
+    if(!ts.length){[...body.children].forEach(el=>{if(el.id!=='pw')el.remove();});const e=document.createElement('div');e.style.cssText='text-align:center;padding:60px;color:#5a6070;';e.textContent='Žádné turnaje.';body.appendChild(e);return;}
 
     let html='';
     Object.keys(byM).sort((a,b)=>+a-+b).forEach(m=>{
@@ -553,7 +554,7 @@ function setupRender({sh,body,mnav}){
     const tmp=new DOMParser().parseFromString(`<div>${html}</div>`,'text/html');
     const frag=document.createDocumentFragment();
     [...tmp.body.firstChild.childNodes].forEach(n=>frag.appendChild(document.adoptNode(n)));
-    body.textContent='';body.appendChild(frag);
+    [...body.children].forEach(el=>{if(el.id!=='pw')el.remove();});body.appendChild(frag);
     body.querySelectorAll('tr.r').forEach(row=>row.addEventListener('click',()=>{exId=exId===row.dataset.uid?null:row.dataset.uid;render();}));
   }
 
@@ -570,8 +571,9 @@ sh.getElementById('btn-p')?.addEventListener('click',()=>{
     if(!pw)return;
     if(pw.style.display==='none'){
       pw.style.display='block';
-      if(!pw._rendered){pw._render&&pw._render();pw._rendered=true;}
+      pw._render&&pw._render();
       if(bp)bp.style.cssText='background:#c8f135;color:#0a0c0f;border:1px solid #c8f135;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;font-weight:700;';
+      pw.scrollIntoView({block:'start'});
     } else {
       pw.style.display='none';
       if(bp)bp.style.cssText='background:none;border:1px solid #1e2330;color:#5a6070;cursor:pointer;padding:5px 10px;border-radius:5px;font-size:11px;';
@@ -590,6 +592,10 @@ const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textCon
 // Players overlay — absolutní panel přes body
 const _pw=buildPlayersTab(sh);
 sh.getElementById('w').appendChild(_pw);
+
+// Players panel
+const _pw=buildPlayersTab(sh);
+body.appendChild(_pw);
 
 // 1. Statická data — okamžitě
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
