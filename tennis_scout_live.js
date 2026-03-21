@@ -1030,36 +1030,17 @@ function buildMatchesTab(sh){
   }
 
   async function loadFromGitHub(){
-    // Použij api.github.com/contents pro čerstvá data (bez CDN cache)
-    // Fallback na raw.githubusercontent.com
+    // GitHub API endpoint — max 60s cache (oproti CDN která může cachovat 5-10min)
     var url='https://api.github.com/repos/Havran001/tennis-scout/contents/matches.json';
-    try{
-      var r=await fetch(url,{
-        headers:{'Accept':'application/vnd.github.raw','Cache-Control':'no-cache'},
-        cache:'no-store'
+    var d=await(await fetch(url,{headers:{'Accept':'application/vnd.github.raw'},cache:'no-store'})).json();
+    var all=[];
+    [-1,0,1].forEach(function(day){
+      ((d.days||{})[String(day)]||[]).forEach(function(m){
+        m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;
+        all.push(m);
       });
-      if(!r.ok)throw new Error('api '+r.status);
-      var d=await r.json();
-      var all=[];
-      [-1,0,1].forEach(function(day){
-        ((d.days||{})[String(day)]||[]).forEach(function(m){
-          m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;
-          all.push(m);
-        });
-      });
-      return {updated:d.updated,src:'github',matches:all};
-    }catch(e){
-      // Fallback na CDN
-      var d2=await(await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/matches.json?t='+Date.now(),{cache:'no-store'})).json();
-      var all2=[];
-      [-1,0,1].forEach(function(day){
-        ((d2.days||{})[String(day)]||[]).forEach(function(m){
-          m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;
-          all2.push(m);
-        });
-      });
-      return {updated:d2.updated,src:'github-cdn',matches:all2};
-    }
+    });
+    return {updated:d.updated,src:'github',matches:all};
   }
 
   async function loadData(){
@@ -1086,7 +1067,7 @@ function buildMatchesTab(sh){
       h+='<button data-day="'+x.d+'" style="padding:5px 16px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.1)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.4)')+';font-size:12px;cursor:pointer;font-weight:'+(on?700:400)+';">'+x.l+'</button>';
     });
     h+='<div style="margin-left:auto;display:flex;align-items:center;gap:6px;">';
-    if(data.src==='github')h+='<span style="font-size:9px;color:rgba(255,140,0,.7);">⚠️ Pro live spusť na flashscore.com</span>';
+    if(data.src==='github'){var age=Math.round((Date.now()-new Date(data.updated).getTime())/1000);h+='<span style="font-size:9px;color:rgba(255,140,0,.7);">⚠️ '+age+'s stará data — live na flashscore.com</span>';}
     if(_lastUpdated)h+='<span style="font-size:9px;color:rgba(255,255,255,.2);">♥ '+_lastUpdated.slice(11,16)+'</span>';
     h+='<span style="width:6px;height:6px;background:#00C853;border-radius:50%;display:inline-block;"></span>';
     h+='</div></div>';
@@ -1170,7 +1151,7 @@ function buildMatchesTab(sh){
     }
   }
   function render(){wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
-  wrap.render=function(){if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,isFS?1000:10000);};
+  wrap.render=function(){if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,isFS?1000:30000);};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
   return wrap;
 }
