@@ -1190,7 +1190,7 @@ function buildUI(){
   // PLAYERS TAB
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
-  var _mwEl=buildMatchesTab(sh);if(_mwEl)body.appendChild(_mwEl);
+  var _mwEl=buildMatchesTab(sh);if(_mwEl){var _mainBody=sh.getElementById('body')||body;_mainBody.appendChild(_mwEl);}
   var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
 
   // ââ NAVIGACE ââ
