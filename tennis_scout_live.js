@@ -986,8 +986,8 @@ function buildMatchesTab(sh){
   }
 
   function getMatches(data){
-    if(data.src==='flashscore')return data.matches||[];
-    return(data.matches||[]).filter(function(m){return m.day===activeDay;});
+    // Worker a flashscore vrací data pro konkrétní den přímo
+    return data.matches||[];
   }
 
   function renderMatches(data){
