@@ -15,7 +15,6 @@ def pb(b):
     return o
 
 def get_live_scores():
-    """r_2_1: live game scores. AA = same ID as f_2_0_1"""
     try:
         r = requests.get('https://2.flashscore.ninja/2/x/feed/r_2_1', headers=HEADERS, timeout=10)
         r.encoding = 'utf-8'
@@ -27,16 +26,14 @@ def get_live_scores():
             for k1, k2 in [('BA','BB'),('BC','BD'),('BE','BF'),('BG','BH'),('BI','BJ')]:
                 v1, v2 = b.get(k1,''), b.get(k2,'')
                 if v1 != '' or v2 != '':
-                    sets1.append(v1 or '0')
-                    sets2.append(v2 or '0')
-                else:
-                    break
+                    sets1.append(v1 or '0'); sets2.append(v2 or '0')
+                else: break
             scores[mid] = {
                 'sets1': sets1, 'sets2': sets2,
                 'game1': b.get('WA',''), 'game2': b.get('WB',''),
                 'serving': int(b.get('WC', 0))
             }
-        print(f'r_2_1: {len(scores)} live scores')
+        print(f'r_2_1: {len(scores)} scores, IDs: {list(scores.keys())[:5]}')
         return scores
     except Exception as e:
         print(f'r_2_1 err: {e}')
@@ -63,67 +60,52 @@ def parse_day(txt, live_scores):
         if 'AA' not in b or 'AE' not in b or 'AF' not in b:
             continue
         mid = b['AA']
-        if mid in seen:
-            continue
-        p1 = b.get('AE', '')
-        p2 = b.get('AF', '')
-        if not p1 or not p2:
-            continue
+        if mid in seen: continue
+        p1, p2 = b.get('AE',''), b.get('AF','')
+        if not p1 or not p2: continue
         seen.add(mid)
 
         ts = int(b.get('AD', 0)) * 1000
-        st = int(b.get('AB', 0))
-        is_live = 0 < st < 3
+        # AB STATUS: 1=napláno, 2=LIVE (probíhá), 3=dokončený
+        ab = int(b.get('AB', 0))
+        is_live = ab == 2
+        is_fin = ab == 3
 
-        # Sety z hlavniho feedu - BA=s1p1, BB=s1p2, BC=s2p1, BD=s2p2...
         sets1, sets2 = [], []
         for k1, k2 in [('BA','BB'),('BC','BD'),('BE','BF'),('BG','BH'),('BI','BJ')]:
             v1, v2 = b.get(k1,''), b.get(k2,'')
             if v1 != '' or v2 != '':
-                sets1.append(v1 or '0')
-                sets2.append(v2 or '0')
-            else:
-                break
+                sets1.append(v1 or '0'); sets2.append(v2 or '0')
+            else: break
 
         game1, game2, serving = '', '', 0
-
         if is_live:
-            if mid in live_scores:
-                ls = live_scores[mid]
-                # Preloz live sety (presnejsi pro probiha set)
-                if ls['sets1']:
-                    sets1 = ls['sets1']
-                if ls['sets2']:
-                    sets2 = ls['sets2']
+            ls = live_scores.get(mid)
+            if ls:
+                if ls['sets1']: sets1 = ls['sets1']
+                if ls['sets2']: sets2 = ls['sets2']
                 game1 = ls['game1']
                 game2 = ls['game2']
                 serving = ls['serving']
-            # Pokud zadne sety -> zapas v 1. setu 0:0
-            if not sets1:
-                sets1 = ['0']
-                sets2 = ['0']
-                if game1 == '': game1 = '0'
-                if game2 == '': game2 = '0'
+            if not sets1: sets1 = ['0']; sets2 = ['0']
+            if game1 == '': game1 = '0'
+            if game2 == '': game2 = '0'
 
-        ag = b.get('AG', '')
+        ag = b.get('AG','')
         winner = 1 if ag == '0' else 2 if ag == '1' else 0
 
         matches.append({
-            'id': mid,
-            'tournament': tournament,
-            'tournament_country': t_country,
-            'tournament_surface': t_surface,
+            'id': mid, 'tournament': tournament,
+            'tournament_country': t_country, 'tournament_surface': t_surface,
             'ts': ts, 'p1': p1, 'p2': p2,
-            'status': st,
+            'status': ab,  # Ukládáme přesné AB číslo
             'sets1': sets1, 'sets2': sets2,
             'game1': game1, 'game2': game2,
             'serving': serving, 'winner': winner,
             'url': 'https://www.flashscore.com/match/' + mid + '/#/match-summary'
         })
-
     return matches
 
-# Main
 live_scores = get_live_scores()
 all_matches = {}
 for day in [-1, 0, 1]:
@@ -135,20 +117,18 @@ for day in [-1, 0, 1]:
         r.encoding = 'utf-8'
         matches = parse_day(r.text, live_scores)
         all_matches[str(day)] = matches
-        live = [m for m in matches if 0 < m['status'] < 3]
+        live = [m for m in matches if m['status'] == 2]
         fin = [m for m in matches if m['status'] == 3]
-        print(f'Day {day}: {len(matches)} | live:{len(live)} | fin:{len(fin)}')
+        sch = [m for m in matches if m['status'] == 1]
+        print(f'Day {day}: live={len(live)} sch={len(sch)} fin={len(fin)}')
         if live:
             m = live[0]
-            print(f'  Live: {m["p1"]} {m["sets1"]} g={m["game1"]} vs {m["p2"]} {m["sets2"]} g={m["game2"]} srv={m["serving"]}')
-        if fin:
-            m = fin[0]
-            print(f'  Fin: {m["p1"]} {m["sets1"]} vs {m["p2"]} {m["sets2"]} w={m["winner"]}')
+            print(f'  Live: {m["p1"]} {m["sets1"]} {m["game1"]}:{m["game2"]} vs {m["p2"]} {m["sets2"]}')
     except Exception as e:
         import traceback; traceback.print_exc()
         all_matches[str(day)] = []
 
-result = {'updated': datetime.utcnow().isoformat() + 'Z', 'days': all_matches}
-with open('matches.json', 'w', encoding='utf-8') as f:
+result = {'updated': datetime.utcnow().isoformat()+'Z', 'days': all_matches}
+with open('matches.json','w',encoding='utf-8') as f:
     json.dump(result, f, ensure_ascii=False)
 print('Done.')
