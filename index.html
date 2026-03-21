@@ -2,87 +2,27 @@
 <html lang="cs">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Tennis Scout</title>
 <style>
-  *{margin:0;padding:0;box-sizing:border-box;}
-  body{background:#0d1117;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#e6edf3;}
-  .logo{display:flex;align-items:center;gap:12px;margin-bottom:12px;}
-  .logo-icon{width:48px;height:48px;background:linear-gradient(135deg,#00C853,#00a844);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:26px;}
-  .logo-text{font-size:28px;font-weight:800;letter-spacing:-0.5px;}
-  .logo-text span{color:#00C853;}
-  .subtitle{font-size:14px;color:rgba(255,255,255,0.4);margin-bottom:48px;}
-  .card{background:#161b22;border:1px solid rgba(255,255,255,0.08);border-radius:16px;padding:32px;width:420px;max-width:95vw;}
-  .card h2{font-size:16px;font-weight:700;margin-bottom:6px;}
-  .card p{font-size:13px;color:rgba(255,255,255,0.4);margin-bottom:24px;line-height:1.5;}
-  .btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:14px;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer;border:none;transition:all .15s;text-decoration:none;}
-  .btn-primary{background:#00C853;color:#000;}
-  .btn-primary:hover{background:#00a844;transform:translateY(-1px);}
-  .btn-secondary{background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.1);margin-top:10px;}
-  .btn-secondary:hover{background:rgba(255,255,255,0.08);}
-  .divider{display:flex;align-items:center;gap:12px;margin:20px 0;}
-  .divider hr{flex:1;border:none;border-top:1px solid rgba(255,255,255,0.07);}
-  .divider span{font-size:11px;color:rgba(255,255,255,0.25);}
-  .info{font-size:11px;color:rgba(255,255,255,0.25);text-align:center;margin-top:10px;line-height:1.6;}
-  .info b{color:#00C853;}
-  .features{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;}
-  .feat{font-size:11px;padding:4px 10px;background:rgba(0,200,83,0.08);border:1px solid rgba(0,200,83,0.15);border-radius:20px;color:rgba(0,200,83,0.8);}
-  .status{width:8px;height:8px;background:#00C853;border-radius:50%;display:inline-block;margin-right:6px;animation:pulse 2s infinite;}
-  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#0d1117;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;}
+#status{color:rgba(255,255,255,0.3);font-size:13px;text-align:center;}
+#status b{color:#00C853;}
 </style>
 </head>
 <body>
-<div class="logo">
-  <div class="logo-icon">🎾</div>
-  <div class="logo-text">Tennis<span>Scout</span></div>
-</div>
-<p class="subtitle">Tenisový analytický nástroj pro profesionální sázení</p>
-
-<div class="card">
-  <h2>🏆 Turnaje, hráči &amp; zápasy</h2>
-  <p>ATP/WTA/Challenger turnaje 2026, ranking hráčů s detaily, živé výsledky.</p>
-  <div class="features">
-    <span class="feat">795 turnajů</span>
-    <span class="feat">1454 hráčů ATP</span>
-    <span class="feat"><span class="status"></span>Live skóre</span>
-    <span class="feat">Věk · Ruka · Výška</span>
-  </div>
-
-  <!-- Tlačítko 1: Spustit na Flashscore (pro zápasy) -->
-  <a class="btn btn-primary" href="https://www.flashscore.com/tennis/" id="btn-fs" onclick="localStorage.setItem('ts_autorun','1')">
-    ⚡ Spustit na Flashscore (Live zápasy)
-  </a>
-
-  <div class="divider"><hr><span>nebo</span><hr></div>
-
-  <!-- Tlačítko 2: Spustit na Wikipedii (bez zápasů) -->
-  <a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Main_Page" id="btn-wiki" onclick="localStorage.setItem('ts_autorun','1')">
-    📖 Spustit na Wikipedii (bez živých zápasů)
-  </a>
-
-  <p class="info" style="margin-top:16px;">
-    Po kliknutí se otevře stránka. Pak vlož do konzole (F12):<br>
-    <b>fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js',{cache:'no-store'}).then(r=>r.text()).then(eval)</b>
-  </p>
-</div>
-
-<p style="margin-top:24px;font-size:11px;color:rgba(255,255,255,0.15);">
-  <a href="https://github.com/Havran001/tennis-scout" style="color:rgba(255,255,255,0.25);text-decoration:none;">GitHub</a>
-  &nbsp;·&nbsp; v5.3 &nbsp;·&nbsp; Data: ATP Tour, Flashscore, Jeff Sackmann
-</p>
-
+<div id="status">&#127934; <b>Tennis Scout</b> se spou&#353;t&#237;...</div>
 <script>
-// Pokud přijdeme z autorun odkazu, zkopíruj příkaz do schránky
-if(localStorage.getItem('ts_autorun')){
-  localStorage.removeItem('ts_autorun');
-}
-// Kliknutí zkopíruje příkaz
-document.querySelectorAll('.btn').forEach(btn=>{
-  btn.addEventListener('click',e=>{
-    const cmd="fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js',{cache:'no-store'}).then(r=>r.text()).then(eval)";
-    navigator.clipboard?.writeText(cmd).catch(()=>{});
-  });
-});
+(async function(){
+  try{
+    var r=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?v='+Date.now(),{cache:'no-store'});
+    var code=await r.text();
+    eval(code);
+    document.getElementById('status').style.display='none';
+  }catch(e){
+    document.getElementById('status').innerHTML='&#10060; Chyba: '+e.message;
+  }
+})();
 </script>
 </body>
 </html>
