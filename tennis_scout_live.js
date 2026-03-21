@@ -969,83 +969,20 @@ function buildMatchesTab(sh){
   }
 
   async function loadFromFS(day){
-    var H={'x-fsign':'SW9D1eZo'};
-    var feedTxt=await fetch('https://2.flashscore.ninja/2/x/feed/f_2_'+day+'_1_en_1',{headers:H}).then(function(r){return r.text();});
-    var matches=parseFeed(feedTxt);
-    var liveMatches=matches.filter(function(m){return m.isLive;});
-    if(liveMatches.length){
-      var dcs=await Promise.all(liveMatches.map(function(m){
-        return fetch('https://2.flashscore.ninja/2/x/feed/dc_1_'+m.id,{headers:H})
-          .then(function(r){return r.text();})
-          .then(function(txt){
-            var o={};
-            txt.split('~')[0].split('¬').forEach(function(f){
-              var i=f.indexOf('÷');if(i>0)o[f.slice(0,i)]=f.slice(i+1);
-            });
-            // DL=aktualni set (1-based)
-            // DN=gamy p1 v aktualnim setu, DO=gamy p2
-            // DP=game score p1, DQ=game score p2
-            // DR=kdo servuje (1=p1, 2=p2)
-            // DE,DF,DG,DH = vysledky predchozich setu (strida se p1,p2,p1,p2...)
-            return {
-              id: m.id,
-              setNum: parseInt(o.DL||1),
-              curGames_p1: o.DN||'0',
-              curGames_p2: o.DO||'0',
-              game_p1: o.DP||'0',
-              game_p2: o.DQ||'0',
-              serving: parseInt(o.DR||0),
-              // Dokoncene sety z dc_1_ (presnejsi nez feed)
-              prevSets_p1: [o.DE,o.DG,o.DI].filter(function(v){return v!==undefined&&v!==''&&v!=='-1';}),
-              prevSets_p2: [o.DF,o.DH,o.DJ].filter(function(v){return v!==undefined&&v!==''&&v!=='-1';})
-            };
-          }).catch(function(){return null;});
-      }));
-
-      dcs.forEach(function(dc){
-        if(!dc)return;
-        var m=matches.find(function(x){return x.id===dc.id;});
-        if(!m)return;
-
-        // Sestav sety: dokoncene sety (z feedu BA/BB...) + aktualni set z dc_1_
-        // Feed ma dokoncene sety spravne, dc_1_ ma aktualni set
-        var sn=dc.setNum; // cislo aktualniho setu (1-based)
-        
-        // Vezmi dokoncene sety z feedu (prvnich sn-1 setu)
-        var finSets1=m.sets1.slice(0,sn-1);
-        var finSets2=m.sets2.slice(0,sn-1);
-        
-        // Pridej aktualni set z dc_1_
-        finSets1.push(dc.curGames_p1);
-        finSets2.push(dc.curGames_p2);
-        
-        m.sets1=finSets1;
-        m.sets2=finSets2;
-        m.game1=dc.game_p1;
-        m.game2=dc.game_p2;
-        m.serving=dc.serving;
-      });
-    }
-    return {updated:new Date().toISOString(),src:'flashscore',matches:matches};
-  }
-
-  async function loadFromGitHub(){
-    // GitHub API endpoint — max 60s cache (oproti CDN která může cachovat 5-10min)
-    var url='https://api.github.com/repos/Havran001/tennis-scout/contents/matches.json';
-    var d=await(await fetch(url,{headers:{'Accept':'application/vnd.github.raw'},cache:'no-store'})).json();
-    var all=[];
-    [-1,0,1].forEach(function(day){
-      ((d.days||{})[String(day)]||[]).forEach(function(m){
-        m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;
-        all.push(m);
-      });
+    var r=await fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+day+'&t='+Date.now());
+    var d=await r.json();
+    var matches=(d.matches||[]).map(function(m){
+      m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;return m;
     });
-    return {updated:d.updated,src:'github',matches:all};
+    return {updated:d.updated,src:'worker',matches:matches};
   }
-
+  async function loadFromGitHub(){return loadFromFS(activeDay);}
   async function loadData(){
-    if(isFS){try{return await loadFromFS(activeDay);}catch(e){}}
-    return loadFromGitHub();
+    try{return await loadFromFS(activeDay);}catch(e){
+      var d2=await(await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/matches.json',{headers:{'Accept':'application/vnd.github.raw'},cache:'no-store'})).json();
+      var all=[];[-1,0,1].forEach(function(day){((d2.days||{})[String(day)]||[]).forEach(function(m){m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;all.push(m);});});
+      return {updated:d2.updated,src:'github',matches:all};
+    }
   }
 
   function getMatches(data){
@@ -1151,7 +1088,7 @@ function buildMatchesTab(sh){
     }
   }
   function render(){wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
-  wrap.render=function(){if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,isFS?1000:30000);};
+  wrap.render=function(){if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,1000);};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
   return wrap;
 }
