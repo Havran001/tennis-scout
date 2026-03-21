@@ -1528,17 +1528,17 @@ window._tsData=[];
     }catch(e){addErr('ITF: '+e.message);}
   });
 
-  // Matches listener — přidán po všech DOM appendech
-  (function(){
-    var nm=sh.getElementById('nav-matches');
-    if(!nm) return;
-    nm.addEventListener('click',function(){
-      sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
-      ['pw','home-view','filterbar','mnav'].forEach(function(id){var e=sh.getElementById(id);if(e)e.style.display='none';});
-      var mwx=sh.getElementById('mw');
-      if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}
-      sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
-      nm.classList.add('active');
+  // Matches nav listener (opraveno — přes host.shadowRoot)
+  var _nmFinal=host.shadowRoot.getElementById('nav-matches');
+  if(_nmFinal){
+    _nmFinal.addEventListener('click',function(){
+      var _sh=host.shadowRoot;
+      _sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
+      ['pw','home-view','filterbar','mnav'].forEach(function(id){var e=_sh.getElementById(id);if(e)e.style.display='none';});
+      var _mwx=_sh.getElementById('mw');
+      if(_mwx){_mwx.style.display='block';if(_mwx.render)_mwx.render();}
+      _sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
+      _nmFinal.classList.add('active');
     });
-  })();
+  }
   })();
