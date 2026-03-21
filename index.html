@@ -3,21 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Tennis Scout</title>
-<style>*{margin:0;padding:0;box-sizing:border-box;}body{background:#0d1117;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;}#status{color:rgba(255,255,255,0.3);font-size:13px;text-align:center;}#status b{color:#00C853;}</style>
+<style>*{margin:0;padding:0;}body{background:#0d1117;}</style>
 </head>
 <body>
-<div id="status">&#127934; <b>Tennis Scout</b> se spou&#353;t&#237;...</div>
 <script>
 (async function(){
-  try{
-    // Cache-bust URL aby se vždy načetl nejnovější skript
-    var r=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?t='+Date.now(),{cache:'no-store'});
-    var code=await r.text();
-    eval(code);
-    document.getElementById('status').style.display='none';
-  }catch(e){
-    document.getElementById('status').innerHTML='&#10060; Chyba: '+e.message;
-  }
+  var r=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?t='+Date.now(),{cache:'no-store'});
+  var code=await r.text();
+  eval(code);
+  // Po načtení automaticky otevři záložku Zápasy
+  setTimeout(function(){
+    var sh=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;
+    if(sh){
+      var btn=sh.getElementById('nav-matches');
+      if(btn)btn.click();
+    }
+  },1500);
 })();
 </script>
 </body>
