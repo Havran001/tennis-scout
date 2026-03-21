@@ -2,12 +2,11 @@ import requests, json
 from datetime import datetime
 
 HEADERS = {'x-fsign': 'SW9D1eZo', 'User-Agent': 'Mozilla/5.0'}
-
 SEP_RECORD = '~'
-SEP_FIELD = '\u00ac'   # ¬
-SEP_VALUE = '\u00f7'   # ÷
+SEP_FIELD = '\u00ac'
+SEP_VALUE = '\u00f7'
 
-def parse_block(b):
+def pb(b):
     o = {}
     for f in b.split(SEP_FIELD):
         i = f.find(SEP_VALUE)
@@ -15,8 +14,25 @@ def parse_block(b):
             o[f[:i]] = f[i+1:]
     return o
 
+def extract_sets(b1, b2):
+    # Sety jsou v BA,BC,BE,BG,BI (hrac1) a BB,BD,BF,BH,BJ (hrac2)
+    sets1, sets2 = [], []
+    pairs = [('BA','BB'),('BC','BD'),('BE','BF'),('BG','BH'),('BI','BJ')]
+    for k1,k2 in pairs:
+        v1 = b1.get(k1,'')
+        v2 = b2.get(k2,'')
+        # Pouzij data z b1 pro oba hrace (oba bloky maji cela data)
+        if not v2:
+            v2 = b1.get(k2,'')
+        if v1 != '' or v2 != '':
+            sets1.append(v1 if v1 != '' else '0')
+            sets2.append(v2 if v2 != '' else '0')
+        else:
+            break
+    return sets1, sets2
+
 def parse(txt):
-    blocks = [parse_block(b) for b in txt.split(SEP_RECORD)]
+    blocks = [pb(b) for b in txt.split(SEP_RECORD)]
     tournament = ''
     matches = []
     i = 0
@@ -31,10 +47,18 @@ def parse(txt):
             if 'CX' in b2 and 'ZA' not in b2:
                 ts = int(b.get('AD', 0)) * 1000
                 st = int(b.get('AB', 0))
-                sets1 = [b.get(k, '') for k in ['DE','DF','DG','DH','DI']]
-                sets2 = [b2.get(k, '') for k in ['DE','DF','DG','DH','DI']]
-                sets1 = [x for x in sets1 if x != '']
-                sets2 = [x for x in sets2 if x != '']
+                sets1, sets2 = extract_sets(b, b2)
+                # Game score pro live
+                game1 = b.get('DA', '')
+                game2 = b2.get('DA', '')
+                # Vítěz: AG=0 znamená p1 vyhrál, AG=1 p2 vyhrál
+                ag = b.get('AG', '')
+                winner = 1 if ag == '0' else 2 if ag == '1' else 0
+                # Servis
+                serving = 1 if b.get('IB') == '1' else 2 if b2.get('IB') == '1' else 0
+                # Aktualni gem score pro live (CR=cislo setu)
+                cur_set = int(b.get('CR', 0))
+                
                 matches.append({
                     'id': b['AA'],
                     'tournament': tournament,
@@ -44,10 +68,10 @@ def parse(txt):
                     'status': st,
                     'sets1': sets1,
                     'sets2': sets2,
-                    'game1': b.get('DA', ''),
-                    'game2': b2.get('DA', ''),
-                    'serving': 1 if b.get('IB') == '1' else 2 if b2.get('IB') == '1' else 0,
-                    'winner': 1 if b.get('BX') == '1' else 2 if b2.get('BX') == '1' else 0,
+                    'game1': game1,
+                    'game2': game2,
+                    'serving': serving,
+                    'winner': winner,
                     'url': 'https://www.flashscore.com/match/' + b['AA'] + '/#/match-summary'
                 })
                 i += 2
@@ -65,11 +89,19 @@ for day in [-1, 0, 1]:
         r.encoding = 'utf-8'
         matches = parse(r.text)
         all_matches[str(day)] = matches
-        if matches:
-            m = matches[0]
-            print(f'Day {day}: {len(matches)} matches | sample: {m["p1"]} {m["sets1"]} vs {m["p2"]} {m["sets2"]} game={m["game1"]}:{m["game2"]}')
+        finished = [m for m in matches if m['status'] == 3]
+        live = [m for m in matches if 0 < m['status'] < 3]
+        print(f'Day {day}: {len(matches)} total, {len(live)} live, {len(finished)} finished')
+        if finished:
+            m = finished[0]
+            print(f'  Finished: {m["p1"]} {m["sets1"]} vs {m["p2"]} {m["sets2"]} winner={m["winner"]}')
+        if live:
+            m = live[0]
+            print(f'  Live: {m["p1"]} {m["sets1"]}:{m["game1"]} vs {m["p2"]} {m["sets2"]}:{m["game2"]}')
     except Exception as e:
+        import traceback
         print(f'Day {day} error: {e}')
+        traceback.print_exc()
         all_matches[str(day)] = []
 
 result = {
