@@ -1005,9 +1005,8 @@ function buildMatchesTab(sh){
             h+='</div>';
           }
           h+='</div>';
-          // FS tlačítko - Flashscore favicon přes CSS background
-          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:6px;background:linear-gradient(145deg,#FF6A00,#EE0979);display:flex;align-items:center;justify-content:center;text-decoration:none;"><span style="font-size:16px;font-weight:900;color:#fff;font-family:Arial Black,sans-serif;line-height:1;">f</span></a>';
-
+          // FS ikona - Flashscore zelena s bilym play/sipka
+          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;background:#01a160;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 1px 4px rgba(0,0,0,.4);"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"14\" viewBox=\"0 0 12 14\"><path d=\"M1 1 L11 7 L1 13 Z\" fill=\"white\"/></svg></a>';
           h+='</div></div>';
         });
       });
