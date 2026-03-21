@@ -1527,4 +1527,18 @@ window._tsData=[];
       if(window._tsRender)window._tsRender();
     }catch(e){addErr('ITF: '+e.message);}
   });
-})();
+
+  // Zápasy nav listener
+  var _nmFinal=sh.getElementById('nav-matches');
+  if(_nmFinal){
+    _nmFinal.addEventListener('click',function(evt){
+      evt.stopImmediatePropagation();
+      sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
+      ['pw','home-view','filterbar','mnav'].forEach(function(id){var e=sh.getElementById(id);if(e)e.style.display='none';});
+      var mwx=sh.getElementById('mw');
+      if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}
+      sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
+      _nmFinal.classList.add('active');
+    },true);
+  }
+  })();
