@@ -1308,7 +1308,13 @@ function setupRender({sh,body,mnav}){
 // ââ MAIN ââââââââââââââââââââââââââââââââââââââââââââââââââââ
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
-  var _mwEl=buildMatchesTab(sh);if(_mwEl)(sh.getElementById('body')||body).appendChild(_mwEl);
+  var _mwEl=buildMatchesTab(sh);
+  setTimeout(function(){
+    if(_mwEl){
+      var _b=sh.getElementById('body')||body;
+      if(_b&&!sh.getElementById('mw'))_b.appendChild(_mwEl);
+    }
+  },0);
 // Djokovic photo from Wikipedia API
 (async()=>{try{
   const _wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Rafael_Nadal');
