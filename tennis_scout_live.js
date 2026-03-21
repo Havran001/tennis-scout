@@ -970,11 +970,8 @@ function buildMatchesTab(sh){
 
   async function loadFromFS(day){
     var H={'x-fsign':'SW9D1eZo'};
-    // 1. Stáhni základní feed
     var feedTxt=await fetch('https://2.flashscore.ninja/2/x/feed/f_2_'+day+'_1_en_1',{headers:H}).then(function(r){return r.text();});
     var matches=parseFeed(feedTxt);
-
-    // 2. Pro každý LIVE zápas (AB=2) zavolej dc_1_ pro real-time data
     var liveMatches=matches.filter(function(m){return m.isLive;});
     if(liveMatches.length){
       var dcs=await Promise.all(liveMatches.map(function(m){
@@ -983,13 +980,13 @@ function buildMatchesTab(sh){
           .then(function(txt){
             var o={};
             txt.split('~')[0].split('¬').forEach(function(f){
-              var i=f.indexOf('÷');
-              if(i>0)o[f.slice(0,i)]=f.slice(i+1);
+              var i=f.indexOf('÷');if(i>0)o[f.slice(0,i)]=f.slice(i+1);
             });
-            // DP/DQ = game score aktuálního gemu
-            // DN/DO = games v aktuálním setu
-            // DL = číslo aktuálního setu (1,2,3...)
-            // DR = kdo servuje (1=p1, 2=p2)
+            // DL=aktualni set (1-based)
+            // DN=gamy p1 v aktualnim setu, DO=gamy p2
+            // DP=game score p1, DQ=game score p2
+            // DR=kdo servuje (1=p1, 2=p2)
+            // DE,DF,DG,DH = vysledky predchozich setu (strida se p1,p2,p1,p2...)
             return {
               id: m.id,
               setNum: parseInt(o.DL||1),
@@ -997,7 +994,10 @@ function buildMatchesTab(sh){
               curGames_p2: o.DO||'0',
               game_p1: o.DP||'0',
               game_p2: o.DQ||'0',
-              serving: parseInt(o.DR||0)
+              serving: parseInt(o.DR||0),
+              // Dokoncene sety z dc_1_ (presnejsi nez feed)
+              prevSets_p1: [o.DE,o.DG,o.DI].filter(function(v){return v!==undefined&&v!==''&&v!=='-1';}),
+              prevSets_p2: [o.DF,o.DH,o.DJ].filter(function(v){return v!==undefined&&v!==''&&v!=='-1';})
             };
           }).catch(function(){return null;});
       }));
@@ -1007,22 +1007,23 @@ function buildMatchesTab(sh){
         var m=matches.find(function(x){return x.id===dc.id;});
         if(!m)return;
 
-        // Oprav game score a serving
+        // Sestav sety: dokoncene sety (z feedu BA/BB...) + aktualni set z dc_1_
+        // Feed ma dokoncene sety spravne, dc_1_ ma aktualni set
+        var sn=dc.setNum; // cislo aktualniho setu (1-based)
+        
+        // Vezmi dokoncene sety z feedu (prvnich sn-1 setu)
+        var finSets1=m.sets1.slice(0,sn-1);
+        var finSets2=m.sets2.slice(0,sn-1);
+        
+        // Pridej aktualni set z dc_1_
+        finSets1.push(dc.curGames_p1);
+        finSets2.push(dc.curGames_p2);
+        
+        m.sets1=finSets1;
+        m.sets2=finSets2;
         m.game1=dc.game_p1;
         m.game2=dc.game_p2;
         m.serving=dc.serving;
-
-        // Oprav sety — dc_1_ ví o aktuálním setu
-        // sets1 z f_2_0_1 mají dokončené sety, dc_1_ má aktuální set
-        var sn=dc.setNum; // 1-based
-        // Zajisti délku pole
-        while(m.sets1.length<sn){m.sets1.push('0');m.sets2.push('0');}
-        // Přepiš AKTUÁLNÍ set hodnotami z dc_1_
-        m.sets1[sn-1]=dc.curGames_p1;
-        m.sets2[sn-1]=dc.curGames_p2;
-        // Zkrať pokud máme víc setů než aktuální (artifact z feed)
-        m.sets1=m.sets1.slice(0,sn);
-        m.sets2=m.sets2.slice(0,sn);
       });
     }
     return {updated:new Date().toISOString(),src:'flashscore',matches:matches};
