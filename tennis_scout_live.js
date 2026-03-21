@@ -1030,15 +1030,36 @@ function buildMatchesTab(sh){
   }
 
   async function loadFromGitHub(){
-    var d=await(await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/matches.json?t='+Date.now(),{cache:'no-store'})).json();
-    var all=[];
-    [-1,0,1].forEach(function(day){
-      ((d.days||{})[String(day)]||[]).forEach(function(m){
-        m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;
-        all.push(m);
+    // Použij api.github.com/contents pro čerstvá data (bez CDN cache)
+    // Fallback na raw.githubusercontent.com
+    var url='https://api.github.com/repos/Havran001/tennis-scout/contents/matches.json';
+    try{
+      var r=await fetch(url,{
+        headers:{'Accept':'application/vnd.github.raw','Cache-Control':'no-cache'},
+        cache:'no-store'
       });
-    });
-    return {updated:d.updated,src:'github',matches:all};
+      if(!r.ok)throw new Error('api '+r.status);
+      var d=await r.json();
+      var all=[];
+      [-1,0,1].forEach(function(day){
+        ((d.days||{})[String(day)]||[]).forEach(function(m){
+          m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;
+          all.push(m);
+        });
+      });
+      return {updated:d.updated,src:'github',matches:all};
+    }catch(e){
+      // Fallback na CDN
+      var d2=await(await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/matches.json?t='+Date.now(),{cache:'no-store'})).json();
+      var all2=[];
+      [-1,0,1].forEach(function(day){
+        ((d2.days||{})[String(day)]||[]).forEach(function(m){
+          m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;
+          all2.push(m);
+        });
+      });
+      return {updated:d2.updated,src:'github-cdn',matches:all2};
+    }
   }
 
   async function loadData(){
@@ -1149,7 +1170,7 @@ function buildMatchesTab(sh){
     }
   }
   function render(){wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
-  wrap.render=function(){if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,1000);};
+  wrap.render=function(){if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,isFS?1000:10000);};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
   return wrap;
 }
