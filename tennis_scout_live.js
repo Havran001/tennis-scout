@@ -1315,6 +1315,18 @@ body.appendChild(_mw);
 
   // ── NAVIGACE ──
   function goView(view){
+    if(view==='matches'){
+      sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
+      var _pw2=sh.getElementById('pw');if(_pw2)_pw2.style.display='none';
+      var _hv=sh.getElementById('home-view');if(_hv)_hv.style.display='none';
+      var _fb=sh.getElementById('filterbar');if(_fb)_fb.style.display='none';
+      var _mn=sh.getElementById('mnav');if(_mn)_mn.style.display='none';
+      var _mwx=sh.getElementById('mw');
+      if(_mwx){_mwx.style.display='block';if(_mwx.render)_mwx.render();}
+      sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
+      var _nm=sh.getElementById('nav-matches');if(_nm)_nm.classList.add('active');
+      return;
+    }
     // Update sidebar
     sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
     sh.getElementById('nav-'+view)?.classList.add('active');
