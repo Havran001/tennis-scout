@@ -899,7 +899,7 @@ function buildPlayersTab(sh){
   wrap.render=rP;
   return wrap;
 }
-function buildMatchesTab(sh){
+var buildMatchesTab=function(sh){
   var wrap=document.createElement('div');
   wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
   var activeDay=0; // -1=včera, 0=dnes, 1=zítra
@@ -1133,7 +1133,7 @@ function buildMatchesTab(sh){
 
   wrap.render=render;
   return wrap;
-}
+};
 
 function buildUI(){
   document.getElementById('ts-host')?.remove();
