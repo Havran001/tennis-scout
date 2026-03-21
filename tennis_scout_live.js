@@ -899,6 +899,242 @@ function buildPlayersTab(sh){
   wrap.render=rP;
   return wrap;
 }
+function buildMatchesTab(sh){
+  var wrap=document.createElement('div');
+  wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
+  var activeDay=0; // -1=včera, 0=dnes, 1=zítra
+  var activeFilter='all'; // all, live, scheduled, finished
+  var _data={'-1':null,'0':null,'1':null};
+  var _loading=false;
+
+  function parseFlashscore(txt){
+    function pb(b){var o={};b.split('\u00ac').forEach(function(f){var i=f.indexOf('\u00f7');if(i>0)o[f.slice(0,i)]=f.slice(i+1);});return o;}
+    var blocks=txt.split('~').map(pb);
+    var tournament='',matches=[],i=0;
+    while(i<blocks.length){
+      var b=blocks[i];
+      if(b.ZA){tournament=b.ZA;i++;continue;}
+      if(b.AA&&b.CX){
+        var b2=blocks[i+1];
+        if(b2&&b2.CX&&!b2.ZA){
+          var ts=parseInt(b.AD)*1000;
+          var d=new Date(ts);
+          var status=parseInt(b.AB)||0;
+          // Skóre setů
+          var sets1=[b.DE,b.DF,b.DG,b.DH,b.DI].filter(Boolean);
+          var sets2=[b2.DE,b2.DF,b2.DG,b2.DH,b2.DI].filter(Boolean);
+          // Servis
+          var serving=b.IB==='1'?1:b2.IB==='1'?2:0;
+          matches.push({
+            id:b.AA,
+            tournament:tournament,
+            ts:ts,
+            time:isNaN(ts)?'':d.toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'}),
+            date:isNaN(ts)?'':d.toLocaleDateString('cs-CZ',{day:'2-digit',month:'2-digit'}),
+            p1:b.CX,p2:b2.CX,
+            status:status,
+            sets1:sets1,sets2:sets2,
+            game1:b.DA||'',game2:b2.DA||'',
+            serving:serving,
+            winner:b.BX==='1'?1:b2.BX==='1'?2:0,
+            round:b.ED||b.EL||'',
+            url:'https://www.flashscore.com/match/'+b.AA+'/#/match-summary',
+          });
+          i+=2;continue;
+        }
+      }
+      i++;
+    }
+    return matches;
+  }
+
+  async function loadDay(day){
+    if(_data[day])return _data[day];
+    var url='https://2.flashscore.ninja/2/x/feed/f_2_'+day+'_1_en_1';
+    var r=await fetch(url,{headers:{'x-fsign':'SW9D1eZo'}});
+    var txt=await r.text();
+    _data[day]=parseFlashscore(txt);
+    return _data[day];
+  }
+
+  function statusLabel(s){
+    if(s===0)return {text:'Naplánován',cls:'scheduled'};
+    if(s===3)return {text:'Konec',cls:'finished'};
+    if(s===6)return {text:'Přerušen',cls:'interrupted'};
+    if(s===7)return {text:'Odložen',cls:'postponed'};
+    return {text:'LIVE',cls:'live'};
+  }
+
+  function scoreStr(sets1,sets2,game1,game2,serving,status){
+    if(!sets1.length&&!sets2.length)return '';
+    var parts=[];
+    for(var i=0;i<Math.max(sets1.length,sets2.length);i++){
+      parts.push((sets1[i]||'0')+':'+(sets2[i]||'0'));
+    }
+    var score=parts.join(' ');
+    if(status>0&&status<3&&(game1||game2)){
+      score+=' <span style="color:rgba(255,255,255,0.4);font-size:10px;">('+game1+':'+game2+')</span>';
+    }
+    return score;
+  }
+
+  function render(){
+    wrap.innerHTML='<div style="padding:0 24px 60px;">'
+      +'<div style="padding:12px 0 0;" id="mw-loading" style="text-align:center;color:rgba(255,255,255,0.2);">⏳ Načítám zápasy...</div>'
+      +'</div>';
+    loadDay(activeDay).then(function(matches){
+      if(!matches){wrap.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,0.3);">Chyba při načtání</div>';return;}
+      renderMatches(matches);
+    }).catch(function(e){
+      wrap.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,0.3);">Chyba: '+e.message+'</div>';
+    });
+  }
+
+  function renderMatches(allMatches){
+    var live=allMatches.filter(function(m){return m.status>0&&m.status<3;});
+    var finished=allMatches.filter(function(m){return m.status===3;});
+    var scheduled=allMatches.filter(function(m){return m.status===0;});
+
+    var shown=activeFilter==='live'?live:activeFilter==='finished'?finished:activeFilter==='scheduled'?scheduled:allMatches;
+
+    var dayLabels={'-1':'Včera','0':'Dnes','1':'Zítra'};
+
+    var h='<div style="padding:0 24px 60px;">';
+    // Navigace dní
+    h+='<div style="display:flex;gap:6px;padding:14px 0 12px;border-bottom:1px solid rgba(255,255,255,0.06);">';
+    ['-1','0','1'].forEach(function(d){
+      var on=activeDay===parseInt(d);
+      h+='<button data-day="'+d+'" style="padding:6px 18px;border-radius:8px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,0.1)')+';background:'+(on?'rgba(0,200,83,0.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,0.4)')+';font-size:12px;cursor:pointer;font-weight:'+(on?'700':'400')+';">'+dayLabels[d]+'</button>';
+    });
+    // Filter badges
+    h+='<div style="margin-left:auto;display:flex;gap:4px;">';
+    var filters=[['all','Vše',allMatches.length],['live','LIVE 🔴',live.length],['finished','Konec',finished.length],['scheduled','Napřím.',scheduled.length]];
+    filters.forEach(function(f){
+      var on=activeFilter===f[0];
+      h+='<button data-filter="'+f[0]+'" style="padding:4px 10px;border-radius:12px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,0.08)')+';background:'+(on?'rgba(0,200,83,0.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,0.35)')+';font-size:9px;cursor:pointer;font-weight:'+(on?'700':'400')+';">'+f[1]+' <span style="opacity:0.6;">'+f[2]+'</span></button>';
+    });
+    h+='</div></div>';
+
+    if(!shown.length){
+      h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,0.2);font-size:13px;">Žádné zápasy</div>';
+      h+='</div>';wrap.innerHTML=h;attachListeners();return;
+    }
+
+    // Seskup podle turnaje
+    var byTournament={};
+    shown.forEach(function(m){
+      if(!byTournament[m.tournament])byTournament[m.tournament]=[];
+      byTournament[m.tournament].push(m);
+    });
+
+    Object.entries(byTournament).forEach(function(entry){
+      var tName=entry[0],tMatches=entry[1];
+      // Tournament header
+      h+='<div style="padding:10px 0 6px;margin-top:8px;">';
+      h+='<span style="font-size:10px;font-weight:700;color:rgba(255,255,255,0.3);letter-spacing:1px;text-transform:uppercase;">'+tName+'</span>';
+      h+='</div>';
+
+      tMatches.forEach(function(m){
+        var sl=statusLabel(m.status);
+        var isLive=m.status>0&&m.status<3;
+        var isFinished=m.status===3;
+        var score=scoreStr(m.sets1,m.sets2,m.game1,m.game2,m.serving,m.status);
+        var bg=isLive?'rgba(0,200,83,0.03)':'transparent';
+        var border=isLive?'border-left:2px solid #00C853;':'border-left:2px solid transparent;';
+
+        h+='<div class="match-row" data-url="'+m.url+'" style="'+border+'background:'+bg+';padding:8px 12px;margin-bottom:2px;border-radius:0 6px 6px 0;cursor:pointer;transition:background .1s;">';
+        h+='<div style="display:flex;align-items:center;gap:10px;">';
+
+        // Čas / status
+        h+='<div style="min-width:52px;text-align:center;">';
+        if(isLive){
+          h+='<span style="font-size:9px;font-weight:700;color:#00C853;background:rgba(0,200,83,0.15);padding:2px 6px;border-radius:4px;">LIVE</span>';
+        }else if(isFinished){
+          h+='<span style="font-size:10px;color:rgba(255,255,255,0.25);">'+m.time+'</span>';
+        }else{
+          h+='<span style="font-size:11px;color:rgba(255,255,255,0.5);font-weight:600;">'+m.time+'</span>';
+        }
+        h+='</div>';
+
+        // Hráči + skóre
+        h+='<div style="flex:1;min-width:0;">';
+        // Hráč 1
+        h+='<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">';
+        h+='<span style="font-size:12px;font-weight:'+(m.winner===1||m.serving===1?'700':'500')+';color:'+(m.winner===1?'#e6edf3':m.winner===2?'rgba(255,255,255,0.35)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px;">'+m.p1+'</span>';
+        if(m.serving===1&&isLive)h+='<span style="color:#00C853;font-size:8px;">●</span>';
+        h+='</div>';
+        // Hráč 2
+        h+='<div style="display:flex;align-items:center;gap:6px;">';
+        h+='<span style="font-size:12px;font-weight:'+(m.winner===2||m.serving===2?'700':'500')+';color:'+(m.winner===2?'#e6edf3':m.winner===1?'rgba(255,255,255,0.35)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px;">'+m.p2+'</span>';
+        if(m.serving===2&&isLive)h+='<span style="color:#00C853;font-size:8px;">●</span>';
+        h+='</div>';
+        h+='</div>';
+
+        // Skóre
+        if(score){
+          h+='<div style="text-align:right;min-width:80px;">';
+          var setArr1=m.sets1,setArr2=m.sets2;
+          var nSets=Math.max(setArr1.length,setArr2.length);
+          h+='<div style="display:flex;gap:6px;justify-content:flex-end;">';
+          for(var si=0;si<nSets;si++){
+            var v1=setArr1[si]||'0',v2=setArr2[si]||'0';
+            var bold1=parseInt(v1)>parseInt(v2);
+            var bold2=parseInt(v2)>parseInt(v1);
+            h+='<div style="text-align:center;min-width:16px;">';
+            h+='<div style="font-size:11px;font-weight:'+(bold1?'700':'400')+';color:'+(bold1?'#e6edf3':'rgba(255,255,255,0.35)')+';">'+v1+'</div>';
+            h+='<div style="font-size:11px;font-weight:'+(bold2?'700':'400')+';color:'+(bold2?'#e6edf3':'rgba(255,255,255,0.35)')+';">'+v2+'</div>';
+            h+='</div>';
+          }
+          if(isLive&&(m.game1||m.game2)){
+            h+='<div style="text-align:center;min-width:20px;opacity:0.5;">';
+            h+='<div style="font-size:10px;color:#00C853;">'+m.game1+'</div>';
+            h+='<div style="font-size:10px;color:#00C853;">'+m.game2+'</div>';
+            h+='</div>';
+          }
+          h+='</div>';
+          h+='</div>';
+        }
+
+        // Odkaz + kolo
+        h+='<div style="min-width:28px;text-align:right;">';
+        h+='<span style="font-size:11px;color:rgba(0,200,83,0.4);">↗</span>';
+        h+='</div>';
+
+        h+='</div>'; // flex row
+        if(m.round){h+='<div style="font-size:9px;color:rgba(255,255,255,0.2);padding-left:62px;margin-top:1px;">'+m.round+'</div>';}
+        h+='</div>'; // match-row
+      });
+    });
+
+    h+='</div>';
+    wrap.innerHTML=h;
+    attachListeners();
+  }
+
+  function attachListeners(){
+    wrap.querySelectorAll('[data-day]').forEach(function(btn){
+      btn.addEventListener('click',function(){
+        activeDay=parseInt(btn.dataset.day);
+        render();
+      });
+    });
+    wrap.querySelectorAll('[data-filter]').forEach(function(btn){
+      btn.addEventListener('click',function(){
+        activeFilter=btn.dataset.filter;
+        loadDay(activeDay).then(renderMatches);
+      });
+    });
+    wrap.querySelectorAll('.match-row').forEach(function(row){
+      row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,0.03)';});
+      row.addEventListener('mouseout',function(){row.style.background=row.style.background==='rgba(0,200,83,0.03)'?'rgba(0,200,83,0.03)':'transparent';});
+      row.addEventListener('click',function(){if(row.dataset.url)window.open(row.dataset.url,'_blank');});
+    });
+  }
+
+  wrap.render=render;
+  return wrap;
+}
+
 function buildUI(){
   document.getElementById('ts-host')?.remove();
   const host=document.createElement('div');host.id='ts-host';
@@ -1069,6 +1305,7 @@ function buildUI(){
   // PLAYERS TAB
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
+var _mw=buildMatchesTab(sh);body.appendChild(_mw);
 
   // ── NAVIGACE ──
   function goView(view){
