@@ -1311,6 +1311,11 @@ function buildUI(){
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
 var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
+  sh.querySelectorAll('.nav-item[data-view]').forEach(item=>{
+    item.addEventListener('click',()=>{
+      if(item.classList.contains('disabled'))return;
+      goView(item.dataset.view);
+    });
 body.appendChild(_mw);
 
   // ── NAVIGACE ──
@@ -1349,11 +1354,7 @@ body.appendChild(_mw);
   }
 
   // Nav item clicks
-  sh.querySelectorAll('.nav-item[data-view]').forEach(item=>{
-    item.addEventListener('click',()=>{
-      if(item.classList.contains('disabled'))return;
-      goView(item.dataset.view);
-    });
+  
   });
 
   // Home cards
