@@ -1527,4 +1527,18 @@ window._tsData=[];
       if(window._tsRender)window._tsRender();
     }catch(e){addErr('ITF: '+e.message);}
   });
-})();
+
+  // Matches listener — přidán po všech DOM appendech
+  (function(){
+    var nm=sh.getElementById('nav-matches');
+    if(!nm) return;
+    nm.addEventListener('click',function(){
+      sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
+      ['pw','home-view','filterbar','mnav'].forEach(function(id){var e=sh.getElementById(id);if(e)e.style.display='none';});
+      var mwx=sh.getElementById('mw');
+      if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}
+      sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
+      nm.classList.add('active');
+    });
+  })();
+  })();
