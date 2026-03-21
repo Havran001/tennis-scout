@@ -1042,15 +1042,25 @@ function buildMatchesTab(sh){
           h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span style="font-size:12px;font-weight:'+(w1||m.serving===1?700:500)+';color:'+(w2?'rgba(255,255,255,.3)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+m.p1+'</span>'+(m.serving===1&&isLive?'<span style="color:#00C853;font-size:9px;">●</span>':'')+'</div>';
           h+='<div style="display:flex;align-items:center;gap:4px;"><span style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w1?'rgba(255,255,255,.3)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+m.p2+'</span>'+(m.serving===2&&isLive?'<span style="color:#00C853;font-size:9px;">●</span>':'')+'</div>';
           h+='</div>';
-          h+='<div style="display:flex;gap:3px;align-items:center;flex-shrink:0;">';
+          h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
           for(var si=0;si<ns;si++){
             var v1=(m.sets1||[])[si]||'0',v2=(m.sets2||[])[si]||'0';
             var b1=parseInt(v1)>parseInt(v2),b2v=parseInt(v2)>parseInt(v1);
             var isCur=isLive&&si===ns-1;
-            h+='<div style="text-align:center;min-width:18px;'+(isCur?'background:rgba(0,200,83,.08);border-radius:3px;':'')+'padding:1px 2px;">';
-            h+='<div style="font-size:13px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#fff':'rgba(255,255,255,.22)')+';">'+v1+'</div>';
-            h+='<div style="font-size:13px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#fff':'rgba(255,255,255,.22)')+';">'+v2+'</div>';
-            h+='</div>';
+            if(isCur&&si>0)h+='<div style="width:1px;background:rgba(255,255,255,.2);align-self:stretch;margin:0 1px;flex-shrink:0;"></div>';
+            if(isCur){
+              // Aktualni set — velky, bile cislo, zelene pozadi
+              h+='<div style="text-align:center;min-width:22px;background:rgba(0,200,83,.15);border:1px solid rgba(0,200,83,.3);border-radius:4px;padding:2px 4px;">';
+              h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ffffff;">'+v1+'</div>';
+              h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ffffff;">'+v2+'</div>';
+              h+='</div>';
+            } else {
+              // Dokonceny set — maly, sedy, bez pozadi
+              h+='<div style="text-align:center;min-width:14px;padding:1px 2px;opacity:0.55;">';
+              h+='<div style="font-size:11px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#ccc':'rgba(255,255,255,.35)')+';">'+v1+'</div>';
+              h+='<div style="font-size:11px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#ccc':'rgba(255,255,255,.35)')+';">'+v2+'</div>';
+              h+='</div>';
+            }
           }
           if(isLive&&m.game1!==''&&m.game2!==''){
             var isZero=m.game1==='0'&&m.game2==='0';
