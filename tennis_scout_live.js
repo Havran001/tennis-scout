@@ -1311,11 +1311,6 @@ function buildUI(){
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
 var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
-  sh.querySelectorAll('.nav-item[data-view]').forEach(item=>{
-    item.addEventListener('click',()=>{
-      if(item.classList.contains('disabled'))return;
-      goView(item.dataset.view);
-    });
 body.appendChild(_mw);
 
   // ── NAVIGACE ──
@@ -1354,7 +1349,11 @@ body.appendChild(_mw);
   }
 
   // Nav item clicks
-  
+  sh.querySelectorAll('.nav-item[data-view]').forEach(item=>{
+    item.addEventListener('click',()=>{
+      if(item.classList.contains('disabled'))return;
+      goView(item.dataset.view);
+    });
   });
 
   // Home cards
@@ -1439,59 +1438,93 @@ function setupRender({sh,body,mnav}){
 
 // ── MAIN ────────────────────────────────────────────────────
 window._tsData=[];
-const{host,sh,body,mnav,goView}=buildUI();
-// Djokovic photo from Wikipedia API
-(async()=>{try{
-  const _wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Rafael_Nadal');
-  const _wd=await _wr.json();
-  const _tu=_wd.thumbnail?.source;if(!_tu)return;
-  const _ir=await fetch(_tu);const _blob=await _ir.blob();
-  const _du=await new Promise(_r=>{const _fr=new FileReader();_fr.onload=()=>_r(_fr.result);_fr.readAsDataURL(_blob);});
-  const _pi=sh.getElementById('player-photo');if(_pi)_pi.src=_du;
-}catch(_e){}})();
-// Přidej homeView do body
-const _homeViewEl=sh.getElementById('home-view');
-if(_homeViewEl&&!_homeViewEl.parentElement)body.insertBefore(_homeViewEl,body.firstChild);
-const render=setupRender({sh,body,mnav});
-window._tsRender=render;
-const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;};
-const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textContent?e.textContent+' | ':'')+m;e.style.display='block';}};
+  const{host,sh,body,mnav,goView}=buildUI();
+  
+  // Načti foto hráče async
+  (async()=>{
+    try{
+      const wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Rafael_Nadal');
+      const wd=await wr.json();
+      const tu=wd.thumbnail?.source;
+      if(tu){
+        const ir=await fetch(tu);
+        const blob=await ir.blob();
+        const du=await new Promise(r=>{const fr=new FileReader();fr.onload=()=>r(fr.result);fr.readAsDataURL(blob);});
+        const pi=sh.getElementById('player-photo');
+        if(pi){pi.src=du;pi.style.objectFit='contain';pi.style.objectPosition='center center';pi.style.background='#050d1a';}
+      }
+    }catch(e){}
+  })();
 
+  // Vybuduj záložky
+  const _pw=buildPlayersTab(sh);
+  body.appendChild(_pw);
+  const _mwEl=buildMatchesTab(sh);
+  if(_mwEl) body.appendChild(_mwEl);
 
-// 1. Statická data — okamžitě
-window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
-sh.getElementById('load')?.remove();
-sh.getElementById('itfs')?.remove();
-render();
-// .mg jsou nyní v DOM — skryj je, home view je aktivní
-sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
-// Update home counts
-const _hcT=sh.getElementById('hc-count-t');
-if(_hcT)_hcT.textContent=window._tsData.length+' turnájů';
-const _ncEl=sh.getElementById('nav-count');
-if(_ncEl)_ncEl.textContent=window._tsData.length;
+  // Statická data
+  window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
+  sh.getElementById('load')?.remove();
+  sh.getElementById('itfs')?.remove();
 
-// 2. ITF + Players paralelně na pozadí
-fetchPlayers(txt=>console.log('Players:',txt)).then(count=>{
-  console.log('✅ ATP hráči načteni:',count);
-}).catch(e=>console.warn('ATP players:',e.message));
+  // *** Nav listenery — registruj PO přidání všech elementů ***
+  sh.querySelectorAll('.nav-item[data-view]').forEach(item=>{
+    item.addEventListener('click',()=>{
+      if(item.classList.contains('disabled'))return;
+      // Skryj vše
+      sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
+      ['pw','home-view','filterbar','mnav','mw'].forEach(id=>{
+        var e=sh.getElementById(id);if(e)e.style.display='none';
+      });
+      // Aktivní nav
+      sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+      item.classList.add('active');
+      // Zobraz správný panel
+      var view=item.dataset.view;
+      if(view==='home'){
+        var hv=sh.getElementById('home-view');if(hv)hv.style.display='block';
+        sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
+      } else if(view==='tournaments'){
+        sh.getElementById('filterbar').style.display='flex';
+        sh.getElementById('mnav').style.display='flex';
+        sh.querySelectorAll('.mg').forEach(m=>m.style.display='block');
+        if(window._tsRender)window._tsRender();
+      } else if(view==='players'){
+        _pw.style.display='block';
+        if(window.ATP_PLAYERS&&window.ATP_PLAYERS.length>0){
+          if(_pw.render)_pw.render();
+        } else {
+          _pw.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,0.2);">\u23F3 Na\u010d\u00edt\u00e1m hr\u00e1\u010de...</div>';
+        }
+      } else if(view==='matches'){
+        if(_mwEl){_mwEl.style.display='block';if(_mwEl.render)_mwEl.render();}
+      }
+    });
+  });
 
-fetchITF(txt=>{setP(txt);}).then(itfItems=>{
-  window._tsData.push(...itfItems);
-  // Re-render jen pokud jsme na turnaje view
-  const activeNav=sh.querySelector('.nav-item.active');
-  if(activeNav&&activeNav.dataset.view==='tournaments'){
-    render();
-  }else{
-    render();
-    sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
-  }
-  // Update counts
-  const hcT=sh.getElementById('hc-count-t');
-  if(hcT)hcT.textContent=window._tsData.length+' turnájů';
-  const ncEl=sh.getElementById('nav-count');
-  if(ncEl)ncEl.textContent=window._tsData.length;
-  console.log('🎾 Tennis Scout v'+VERSION+' — '+window._tsData.length+' turnájů');
-}).catch(e=>{addErr('ITF: '+e.message);});
+  // Render turnajů
+  const render=setupRender({sh,body,mnav});
+  window._tsRender=render;
+  render();
+  sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
 
+  // Async: hráči + ITF
+  fetchPlayers(txt=>console.log('Players:',txt)).then(count=>{
+    try{
+      var nb=sh.getElementById('nav-players-count');if(nb)nb.textContent=count;
+      if(_pw.style.display==='block'&&_pw.render)_pw.render();
+    }catch(e){}
+  });
+
+  fetchITF(
+    txt=>{try{var el=sh.getElementById('load');if(el){el.textContent=txt;el.style.display='block';}}catch(e){}},
+    items=>{window._tsData.push(...items);}
+  ).then(itfItems=>{
+    try{
+      sh.getElementById('load')?.remove();
+      var nb2=sh.querySelector('#nav-tournaments .nav-badge');
+      if(nb2)nb2.textContent=window._tsData.length;
+      if(window._tsRender)window._tsRender();
+    }catch(e){addErr('ITF: '+e.message);}
+  });
 })();
