@@ -1527,18 +1527,4 @@ window._tsData=[];
       if(window._tsRender)window._tsRender();
     }catch(e){addErr('ITF: '+e.message);}
   });
-
-  // Matches nav listener (opraveno — přes host.shadowRoot)
-  var _nmFinal=host.shadowRoot.getElementById('nav-matches');
-  if(_nmFinal){
-    _nmFinal.addEventListener('click',function(){
-      var _sh=host.shadowRoot;
-      _sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
-      ['pw','home-view','filterbar','mnav'].forEach(function(id){var e=_sh.getElementById(id);if(e)e.style.display='none';});
-      var _mwx=_sh.getElementById('mw');
-      if(_mwx){_mwx.style.display='block';if(_mwx.render)_mwx.render();}
-      _sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
-      _nmFinal.classList.add('active');
-    });
-  }
-  })();
+})();
