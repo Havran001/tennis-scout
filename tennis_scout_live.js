@@ -1047,9 +1047,11 @@ function buildMatchesTab(sh){
             var v1=(m.sets1||[])[si]||'0',v2=(m.sets2||[])[si]||'0';
             var b1=parseInt(v1)>parseInt(v2),b2v=parseInt(v2)>parseInt(v1);
             var isCur=isLive&&si===ns-1;
+            // Oddelovac pred aktualnim setem (jen live a vic nez 1 set)
+            if(isCur&&si>0) h+='<div style="width:1px;background:rgba(255,255,255,.1);align-self:stretch;margin:0 1px;"></div>';
             h+='<div style="text-align:center;min-width:18px;'+(isCur?'background:rgba(0,200,83,.08);border-radius:3px;':'')+'padding:1px 2px;">';
-            h+='<div style="font-size:13px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#fff':'rgba(255,255,255,.22)')+';">'+v1+'</div>';
-            h+='<div style="font-size:13px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#fff':'rgba(255,255,255,.22)')+';">'+v2+'</div>';
+            h+='<div style="font-size:13px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#fff':(isCur?'rgba(255,255,255,.5)':'rgba(255,255,255,.22)'))+';">'+v1+'</div>';
+            h+='<div style="font-size:13px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#fff':(isCur?'rgba(255,255,255,.5)':'rgba(255,255,255,.22)'))+';">'+v2+'</div>';
             h+='</div>';
           }
           if(isLive&&m.game1!==''&&m.game2!==''){
