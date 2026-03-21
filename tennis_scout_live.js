@@ -1527,8 +1527,8 @@ window._tsData=[];
       if(window._tsRender)window._tsRender();
     }catch(e){addErr('ITF: '+e.message);}
   });
-
-  // Zápasy nav listener
+ 
+  // Zápasy nav listener — na správném místě
   var _nmFinal=sh.getElementById('nav-matches');
   if(_nmFinal){
     _nmFinal.addEventListener('click',function(evt){
