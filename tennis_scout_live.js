@@ -262,16 +262,51 @@ function mkChall(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,
 
 // ── ITF API ───────────────────────────────────────────────────
 
-async function fetchPlayers(onProg) {
-  const GH_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json';
-  onProg('Načítám ATP hráče z GitHub cache...');
-  const resp = await fetch(GH_URL);
-  if (!resp.ok) throw new Error(`ATP players cache: HTTP ${resp.status}`);
-  const data = await resp.json();
-  // Převeď objekty na arrays pro efektivitu
-  window.ATP_PLAYERS = (data.items || []).map(function(p){return Array.isArray(p)?{rank:p[0],name:p[1],country:(p[2]||"").toUpperCase(),pts:p[3],id:p[4]}:{rank:p.rank,name:p.name,country:(p.country||"").toUpperCase(),pts:p.pts,id:p.id};});
-  onProg(`ATP hráči: ${ATP_PLAYERS.length} (aktualizováno ${data.updated?.slice(0,10)||'?'})`);
-  return ATP_PLAYERS.length;
+async function fetchPlayers(onProgress){
+  try{
+    onProgress&&onProgress('Načítám hráče ATP...');
+    // Načti hráče s cache-bust
+    const pr=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json?v='+Date.now(),{cache:'no-store'});
+    const pd=await pr.json();
+    const players=(pd.items||pd);
+
+    // Načti Sackmann CSV pro age/hand/height
+    onProgress&&onProgress('Načítám statistiky...');
+    const sr=await fetch('https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/atp_players.csv');
+    const stxt=await sr.text();
+    const slines=stxt.trim().split('\n');
+    const shdr=slines[0].split(',');
+    const smap={};
+    for(const line of slines.slice(1)){
+      const cols=line.split(',');
+      const obj=Object.fromEntries(shdr.map((h,i)=>[h,cols[i]||'']));
+      const key=(obj.name_first+' '+obj.name_last).toLowerCase().trim();
+      smap[key]={hand:obj.hand||'',dob:obj.dob||'',height:obj.height?parseInt(obj.height):null};
+    }
+
+    const today=new Date();
+    window.ATP_PLAYERS=players.map(function(p){
+      const sack=smap[(p.name||'').toLowerCase().trim()];
+      let age=null;
+      if(sack&&sack.dob&&sack.dob.length===8){
+        const y=parseInt(sack.dob.slice(0,4)),m=parseInt(sack.dob.slice(4,6))-1,d=parseInt(sack.dob.slice(6,8));
+        age=today.getFullYear()-y-(today<new Date(today.getFullYear(),m,d)?1:0);
+      }
+      return {
+        rank:p.rank,name:p.name,
+        country:(p.country||'').toUpperCase(),
+        pts:p.pts,id:p.id,
+        age:age,
+        hand:(sack&&sack.hand&&sack.hand!=='U')?sack.hand:null,
+        height:(sack&&sack.height)||null
+      };
+    });
+    onProgress&&onProgress('Hráči ATP načteni: '+window.ATP_PLAYERS.length);
+    return window.ATP_PLAYERS.length;
+  }catch(e){
+    console.warn('fetchPlayers:',e.message);
+    return 0;
+  }
 }
 
 async function fetchITF(onProg){
