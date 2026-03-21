@@ -1,6 +1,7 @@
-import requests, json
+import requests, json, base64, os
 from bs4 import BeautifulSoup
 from datetime import date
+import urllib.request
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
@@ -31,7 +32,7 @@ for rng in ranges:
             if flag:
                 fh = flag.get('href') or flag.get('xlink:href', '')
                 country = fh.split('#')[-1].replace('flag-', '').upper()
-            try: pts = int(tds[2].get_text(strip=True).replace(',','').replace('.','')
+            try: pts = int(tds[2].get_text(strip=True).replace(",","").replace(".","")
             )
             except: pts = 0
             all_players[rank] = {'rank':rank,'name':name,'country':country,'pts':pts,'id':player_id}
@@ -43,4 +44,4 @@ players = sorted(all_players.values(), key=lambda p: p['rank'])
 result = {'items':players,'updated':str(date.today()),'total':len(players)}
 with open('atp_players.json','w') as f:
     json.dump(result, f, separators=(',',':'))
-print(f'Done: {len(players)} players')
+print(f'Done: {len(players)} players, updated: {date.today()}')
