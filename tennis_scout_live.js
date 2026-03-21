@@ -970,32 +970,59 @@ function buildMatchesTab(sh){
 
   async function loadFromFS(day){
     var H={'x-fsign':'SW9D1eZo'};
+    // 1. Stáhni základní feed
     var feedTxt=await fetch('https://2.flashscore.ninja/2/x/feed/f_2_'+day+'_1_en_1',{headers:H}).then(function(r){return r.text();});
     var matches=parseFeed(feedTxt);
-    var live=matches.filter(function(m){return m.isLive;});
-    if(live.length>0){
-      var dcs=await Promise.all(live.map(function(m){
+
+    // 2. Pro každý LIVE zápas (AB=2) zavolej dc_1_ pro real-time data
+    var liveMatches=matches.filter(function(m){return m.isLive;});
+    if(liveMatches.length){
+      var dcs=await Promise.all(liveMatches.map(function(m){
         return fetch('https://2.flashscore.ninja/2/x/feed/dc_1_'+m.id,{headers:H})
           .then(function(r){return r.text();})
           .then(function(txt){
             var o={};
-            txt.split('~')[0].split('¬').forEach(function(f){var i=f.indexOf('÷');if(i>0)o[f.slice(0,i)]=f.slice(i+1);});
-            return {id:m.id,dn:o.DN,do_:o.DO,dp:o.DP,dq:o.DQ,dr:parseInt(o.DR||0),dl:parseInt(o.DL||1)};
+            txt.split('~')[0].split('¬').forEach(function(f){
+              var i=f.indexOf('÷');
+              if(i>0)o[f.slice(0,i)]=f.slice(i+1);
+            });
+            // DP/DQ = game score aktuálního gemu
+            // DN/DO = games v aktuálním setu
+            // DL = číslo aktuálního setu (1,2,3...)
+            // DR = kdo servuje (1=p1, 2=p2)
+            return {
+              id: m.id,
+              setNum: parseInt(o.DL||1),
+              curGames_p1: o.DN||'0',
+              curGames_p2: o.DO||'0',
+              game_p1: o.DP||'0',
+              game_p2: o.DQ||'0',
+              serving: parseInt(o.DR||0)
+            };
           }).catch(function(){return null;});
       }));
+
       dcs.forEach(function(dc){
         if(!dc)return;
         var m=matches.find(function(x){return x.id===dc.id;});
         if(!m)return;
-        if(dc.dp!==undefined)m.game1=dc.dp||'0';
-        if(dc.dq!==undefined)m.game2=dc.dq||'0';
-        if(dc.dr)m.serving=dc.dr;
-        if(dc.dn!==undefined&&dc.do_!==undefined){
-          var sn=dc.dl||1;
-          while(m.sets1.length<sn){m.sets1.push('0');m.sets2.push('0');}
-          m.sets1[sn-1]=dc.dn||'0';
-          m.sets2[sn-1]=dc.do_||'0';
-        }
+
+        // Oprav game score a serving
+        m.game1=dc.game_p1;
+        m.game2=dc.game_p2;
+        m.serving=dc.serving;
+
+        // Oprav sety — dc_1_ ví o aktuálním setu
+        // sets1 z f_2_0_1 mají dokončené sety, dc_1_ má aktuální set
+        var sn=dc.setNum; // 1-based
+        // Zajisti délku pole
+        while(m.sets1.length<sn){m.sets1.push('0');m.sets2.push('0');}
+        // Přepiš AKTUÁLNÍ set hodnotami z dc_1_
+        m.sets1[sn-1]=dc.curGames_p1;
+        m.sets2[sn-1]=dc.curGames_p2;
+        // Zkrať pokud máme víc setů než aktuální (artifact z feed)
+        m.sets1=m.sets1.slice(0,sn);
+        m.sets2=m.sets2.slice(0,sn);
       });
     }
     return {updated:new Date().toISOString(),src:'flashscore',matches:matches};
