@@ -969,26 +969,25 @@ function buildMatchesTab(sh){
           h+='<div style="font-size:12px;font-weight:'+(m.winner===2?700:500)+';color:'+(m.winner===1?'rgba(255,255,255,0.3)':'#e6edf3');
           h+=';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+m.p2+(m.serving===2&&isLive?' <span style="color:#00C853;font-size:8px;">●</span>':'')+'</div>';
           h+='</div>';
-          // Sety
+          // Sety + skóre
           var ns=Math.max(m.sets1.length,m.sets2.length);
-          if(ns>0){
-            h+='<div style="display:flex;gap:5px;align-items:center;">';
-            for(var si=0;si<ns;si++){
-              var v1=m.sets1[si]||'0',v2=m.sets2[si]||'0';
-              var b1=parseInt(v1)>parseInt(v2),b2=parseInt(v2)>parseInt(v1);
-              h+='<div style="text-align:center;min-width:14px;">';
-              h+='<div style="font-size:11px;font-weight:'+(b1?700:400)+';color:'+(b1?'#e6edf3':'rgba(255,255,255,0.3)')+';">'+v1+'</div>';
-              h+='<div style="font-size:11px;font-weight:'+(b2?700:400)+';color:'+(b2?'#e6edf3':'rgba(255,255,255,0.3)')+';">'+v2+'</div>';
-              h+='</div>';
-            }
-            if(isLive&&m.game1){
-              h+='<div style="text-align:center;min-width:18px;opacity:.6;">';
-              h+='<div style="font-size:10px;color:#00C853;">'+m.game1+'</div>';
-              h+='<div style="font-size:10px;color:#00C853;">'+m.game2+'</div>';
-              h+='</div>';
-            }
+          h+='<div style="display:flex;gap:4px;align-items:center;min-width:'+(ns>0?(ns*26+(isLive&&m.game1?24:0))+'px':'0px')+'">';
+          for(var si=0;si<ns;si++){
+            var v1=m.sets1[si]||'0',v2=m.sets2[si]||'0';
+            var b1=parseInt(v1)>parseInt(v2),b2=parseInt(v2)>parseInt(v1);
+            var isLastSet=(si===ns-1);
+            h+='<div style="text-align:center;min-width:20px;background:'+(isLastSet&&isLive?'rgba(0,200,83,0.08)':'transparent')+';border-radius:3px;padding:1px 2px;">';
+            h+='<div style="font-size:13px;font-weight:'+(b1?700:400)+';color:'+(b1?'#e6edf3':'rgba(255,255,255,0.25)')+';">'+v1+'</div>';
+            h+='<div style="font-size:13px;font-weight:'+(b2?700:400)+';color:'+(b2?'#e6edf3':'rgba(255,255,255,0.25)')+';">'+v2+'</div>';
             h+='</div>';
           }
+          if(isLive&&(m.game1||m.game2)){
+            h+='<div style="text-align:center;min-width:22px;background:rgba(0,200,83,0.12);border-radius:3px;padding:1px 3px;">';
+            h+='<div style="font-size:12px;font-weight:700;color:#00C853;">'+m.game1+'</div>';
+            h+='<div style="font-size:12px;font-weight:700;color:#00C853;">'+m.game2+'</div>';
+            h+='</div>';
+          }
+          h+='</div>';
           h+='<span style="font-size:11px;color:rgba(0,200,83,0.4);">↗</span>';
           h+='</div></div>';
         });
