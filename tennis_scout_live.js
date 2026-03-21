@@ -1164,7 +1164,7 @@ function buildUI(){
         <span class="nav-icon">🏆</span> Turnaje
         <span class="nav-badge" id="nav-count">795</span>
       </div>
-      <div class="nav-item" data-view="players" id="nav-players">
+      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">⚽</span> Zápasy</div><div class="nav-item" data-view="players" id="nav-players">
         <span class="nav-icon">👤</span> Hráči ATP
         <span class="nav-badge" id="nav-players-count">1454</span>
       </div>
@@ -1305,6 +1305,7 @@ function buildUI(){
   // PLAYERS TAB
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
+var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
 var _mw=buildMatchesTab(sh);body.appendChild(_mw);
 
   // ── NAVIGACE ──
