@@ -986,7 +986,12 @@ var buildMatchesTab=function(sh){
       if(!matches){wrap.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,0.3);">Chyba při načtání</div>';return;}
       renderMatches(matches);
     }).catch(function(e){
-      wrap.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,0.3);">Chyba: '+e.message+'</div>';
+      wrap.innerHTML='<div style="padding:60px 40px;text-align:center;">'
+      +'<div style="font-size:32px;margin-bottom:16px;">🎾</div>'
+      +'<div style="font-size:14px;color:rgba(255,255,255,0.6);margin-bottom:8px;">Pro zápasy spusť Tennis Scout na:</div>'
+      +'<code style="font-size:13px;color:#00C853;background:rgba(0,200,83,0.1);padding:6px 14px;border-radius:6px;">flashscore.com/tennis</code>'
+      +'<div style="font-size:11px;color:rgba(255,255,255,0.25);margin-top:12px;">Flashscore API vyžaduje spouštění na jejich domeně</div>'
+      +'</div>';
     });
   }
 
