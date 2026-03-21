@@ -1308,13 +1308,7 @@ function setupRender({sh,body,mnav}){
 // ââ MAIN ââââââââââââââââââââââââââââââââââââââââââââââââââââ
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
-  var _mwEl=buildMatchesTab(sh);
-  setTimeout(function(){
-    if(_mwEl){
-      var _b=sh.getElementById('body')||body;
-      if(_b&&!sh.getElementById('mw'))_b.appendChild(_mwEl);
-    }
-  },0);
+  
 // Djokovic photo from Wikipedia API
 (async()=>{try{
   const _wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Rafael_Nadal');
@@ -1353,6 +1347,15 @@ fetchPlayers(txt=>console.log('Players:',txt)).then(count=>{
 
 fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   window._tsData.push(...itfItems);
+  // Přidej Zápasy panel — po settlenutí DOM
+  setTimeout(function(){
+    var _sh2=document.getElementById('ts-host')?.shadowRoot;
+    var _body2=_sh2?.getElementById('body');
+    if(_body2&&!_sh2.getElementById('mw')){
+      var _mwEl2=buildMatchesTab(_sh2);
+      if(_mwEl2)_body2.appendChild(_mwEl2);
+    }
+  },500);
   // Re-render jen pokud jsme na turnaje view
   const activeNav=sh.querySelector('.nav-item.active');
   if(activeNav&&activeNav.dataset.view==='tournaments'){
