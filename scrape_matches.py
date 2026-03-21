@@ -14,16 +14,13 @@ def pb(b):
             o[f[:i]] = f[i+1:]
     return o
 
-def extract_sets(b1, b2):
-    # Sety jsou v BA,BC,BE,BG,BI (hrac1) a BB,BD,BF,BH,BJ (hrac2)
+def extract_sets(b):
+    # Kazdy blok ma kompletni data: BA=s1p1, BB=s1p2, BC=s2p1, BD=s2p2, BE=s3p1, BF=s3p2, BG=s4p1, BH=s4p2, BI=s5p1, BJ=s5p2
     sets1, sets2 = [], []
-    pairs = [('BA','BB'),('BC','BD'),('BE','BF'),('BG','BH'),('BI','BJ')]
-    for k1,k2 in pairs:
-        v1 = b1.get(k1,'')
-        v2 = b2.get(k2,'')
-        # Pouzij data z b1 pro oba hrace (oba bloky maji cela data)
-        if not v2:
-            v2 = b1.get(k2,'')
+    pairs = [('BA','BB'), ('BC','BD'), ('BE','BF'), ('BG','BH'), ('BI','BJ')]
+    for k1, k2 in pairs:
+        v1 = b.get(k1, '')
+        v2 = b.get(k2, '')
         if v1 != '' or v2 != '':
             sets1.append(v1 if v1 != '' else '0')
             sets2.append(v2 if v2 != '' else '0')
@@ -35,48 +32,57 @@ def parse(txt):
     blocks = [pb(b) for b in txt.split(SEP_RECORD)]
     tournament = ''
     matches = []
-    i = 0
-    while i < len(blocks):
-        b = blocks[i]
-        if 'ZA' in b:
+    seen_ids = set()
+
+    for b in blocks:
+        # Turnajovy header
+        if 'ZA' in b and 'AA' not in b:
             tournament = b['ZA']
-            i += 1
             continue
-        if 'AA' in b and 'CX' in b and i + 1 < len(blocks):
-            b2 = blocks[i + 1]
-            if 'CX' in b2 and 'ZA' not in b2:
-                ts = int(b.get('AD', 0)) * 1000
-                st = int(b.get('AB', 0))
-                sets1, sets2 = extract_sets(b, b2)
-                # Game score pro live
-                game1 = b.get('DA', '')
-                game2 = b2.get('DA', '')
-                # Vítěz: AG=0 znamená p1 vyhrál, AG=1 p2 vyhrál
-                ag = b.get('AG', '')
-                winner = 1 if ag == '0' else 2 if ag == '1' else 0
-                # Servis
-                serving = 1 if b.get('IB') == '1' else 2 if b2.get('IB') == '1' else 0
-                # Aktualni gem score pro live (CR=cislo setu)
-                cur_set = int(b.get('CR', 0))
-                
-                matches.append({
-                    'id': b['AA'],
-                    'tournament': tournament,
-                    'ts': ts,
-                    'p1': b['CX'],
-                    'p2': b2['CX'],
-                    'status': st,
-                    'sets1': sets1,
-                    'sets2': sets2,
-                    'game1': game1,
-                    'game2': game2,
-                    'serving': serving,
-                    'winner': winner,
-                    'url': 'https://www.flashscore.com/match/' + b['AA'] + '/#/match-summary'
-                })
-                i += 2
-                continue
-        i += 1
+
+        # Match blok: ma AA (match ID), AE (p1 jmeno), AF (p2 jmeno)
+        if 'AA' not in b or 'AE' not in b or 'AF' not in b:
+            continue
+
+        match_id = b['AA']
+        if match_id in seen_ids:
+            continue
+        seen_ids.add(match_id)
+
+        ts = int(b.get('AD', 0)) * 1000
+        st = int(b.get('AB', 0))
+
+        sets1, sets2 = extract_sets(b)
+
+        # Aktualni game score (DA = game score p1, ale nemame p2 samostatne)
+        # CR = cislo aktualniho setu
+        game1 = b.get('DA', '')
+        game2 = b.get('DB', '')  # DB = game score p2 (pokud existuje)
+
+        # Vitez: AG=0 -> AE vyhral, AG=1 -> AF vyhral
+        ag = b.get('AG', '')
+        winner = 1 if ag == '0' else 2 if ag == '1' else 0
+
+        # Servis: IB=1 -> p1 servis (nebo kontroluj WM/WN)
+        serving_code = b.get('IB', '')
+        serving = 1 if serving_code == '1' else 2 if serving_code == '2' else 0
+
+        matches.append({
+            'id': match_id,
+            'tournament': tournament,
+            'ts': ts,
+            'p1': b.get('AE', ''),
+            'p2': b.get('AF', ''),
+            'status': st,
+            'sets1': sets1,
+            'sets2': sets2,
+            'game1': game1,
+            'game2': game2,
+            'serving': serving,
+            'winner': winner,
+            'url': 'https://www.flashscore.com/match/' + match_id + '/#/match-summary'
+        })
+
     return matches
 
 all_matches = {}
@@ -94,10 +100,10 @@ for day in [-1, 0, 1]:
         print(f'Day {day}: {len(matches)} total, {len(live)} live, {len(finished)} finished')
         if finished:
             m = finished[0]
-            print(f'  Finished: {m["p1"]} {m["sets1"]} vs {m["p2"]} {m["sets2"]} winner={m["winner"]}')
+            print(f'  FIN: {m["p1"]} {m["sets1"]} vs {m["p2"]} {m["sets2"]} winner={m["winner"]}')
         if live:
             m = live[0]
-            print(f'  Live: {m["p1"]} {m["sets1"]}:{m["game1"]} vs {m["p2"]} {m["sets2"]}:{m["game2"]}')
+            print(f'  LIVE: {m["p1"]} {m["sets1"]}({m["game1"]}) vs {m["p2"]} {m["sets2"]}({m["game2"]}) serving={m["serving"]}')
     except Exception as e:
         import traceback
         print(f'Day {day} error: {e}')
