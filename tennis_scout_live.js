@@ -896,7 +896,23 @@ function buildPlayersTab(sh){
       tr.addEventListener("click",function(){if(tr.dataset.url&&tr.dataset.url!="#")window.open(tr.dataset.url,"_blank");});
     });
   }
-  wrap.render=rP;
+  // Registruj nav listener z buildMatchesTab kde je sh dostupné
+  setTimeout(function(){
+    var nm=sh.getElementById('nav-matches');
+    if(nm&&!nm._matchesListenerAdded){
+      nm._matchesListenerAdded=true;
+      nm.addEventListener('click',function(e){
+        e.stopImmediatePropagation();
+        sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
+        ['pw','home-view','filterbar','mnav'].forEach(function(id){var el=sh.getElementById(id);if(el)el.style.display='none';});
+        var mwx=sh.getElementById('mw');
+        if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}
+        sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
+        nm.classList.add('active');
+      },true);
+    }
+  },0);
+    wrap.render=rP;
   return wrap;
 }
 var buildMatchesTab=function(sh){
