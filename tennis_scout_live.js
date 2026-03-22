@@ -987,7 +987,7 @@ function buildMatchesTab(sh){
     return data.matches||[];
   }
 
-  function _pf(n){if(!window._pfC){window._pfC={};(window.ATP_PLAYERS||[]).forEach(function(p){var sn=p.name.split(' ').slice(1).join(' ').toLowerCase();if(sn)window._pfC[sn]=FLAGS[p.country]||'';});}var s=(n||'').split(' ')[0].toLowerCase();return window._pfC[s]||'';}
+  function _pf(n){var _key='_pfC_v2';if(!window[_key]){window[_key]={};(window.ATP_PLAYERS||[]).forEach(function(p){var sn=p.name.split(' ').slice(1).join(' ').toLowerCase();if(sn)window[_key][sn]=FLAGS[p.country]||'';});}var s=(n||'').split(' ')[0].toLowerCase();return window[_key][s]||'';}
 function renderMatches(data){
     var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
