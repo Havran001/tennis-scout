@@ -1238,6 +1238,16 @@ function buildUI(){
           <div class="hc-meta"><span class="hc-count" id="hc-count-t">795 turnaj\u016F</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
+      <div class="home-card green" data-goto="matches" style="padding:0;overflow:hidden;">
+        <div style="background:linear-gradient(135deg,rgba(0,200,83,0.12),rgba(0,200,83,0.04));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(0,200,83,0.12);">
+          <span style="font-size:72px;line-height:1;">&#127934;</span>
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Z&#225;pasy</div>
+          <div class="hc-desc">Live v&#253;sledky, dne&#353;n&#237; a pl&#225;novan&#233; z&#225;pasy ATP, WTA, Challenger a ITF.</div>
+          <div class="hc-meta"><span class="hc-count" id="hc-count-m"></span><span class="hc-arrow">&#8594;</span></div>
+        </div>
+      </div>
       <div class="home-card blue" data-goto="players" style="padding:0;overflow:hidden;">
         <div style="position:relative;height:200px;overflow:hidden;background:#050d1a;">
           <img id="player-photo" src="" style="width:100%;height:100%;object-fit:contain;object-position:center center;background:#050d1a;" />
