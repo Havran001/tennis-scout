@@ -1043,9 +1043,11 @@ function buildMatchesTab(sh){
           h+='<div style="display:flex;align-items:center;gap:4px;"><span style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w1?'rgba(255,255,255,.3)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+m.p2+'</span>'+(m.serving===2&&isLive?'<span style="color:#00C853;font-size:9px;">●</span>':'')+'</div>';
           h+='</div>';
           h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
+          function isSetDone(a,b){var x=parseInt(a),y=parseInt(b);if(isNaN(x)||isNaN(y))return false;if(x===7||y===7)return true;return(x>=6||y>=6)&&Math.abs(x-y)>=2;}
           var maxSi=isLive?ns-1:ns;
           for(var si=0;si<maxSi;si++){
             var v1=(m.sets1||[])[si]||'0',v2=(m.sets2||[])[si]||'0';
+            if(isLive&&!isSetDone(v1,v2))continue;
             var b1=parseInt(v1)>parseInt(v2),b2v=parseInt(v2)>parseInt(v1);
             // Dokonceny set — maly, sedy, bez pozadi
             h+='<div style="text-align:center;min-width:14px;padding:1px 2px;opacity:0.55;">';
