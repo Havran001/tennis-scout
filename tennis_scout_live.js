@@ -1030,7 +1030,7 @@ function buildMatchesTab(sh){
         h+='<div style="flex:1;min-width:0;"><div style="font-size:11px;font-weight:700;color:rgba(255,255,255,.8);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+t+'</div>';
         if(surf)h+='<div style="margin-top:2px;"><span style="font-size:8px;font-weight:700;color:#fff;background:'+surfBg(surf)+';padding:1px 5px;border-radius:3px;">'+surf.toUpperCase()+'</span></div>';
         h+='</div>';
-        if(ti.l)h+='<span style="font-size:8px;font-weight:700;color:'+ti.c+';background:'+ti.bg+';border:1px solid '+ti.b+';padding:2px 6px;border-radius:4px;white-space:nowrap;flex-shrink:0;">'+ti.l+'</span>';
+        if(ti.l)h+='<span style="font-size:11px;font-weight:700;color:'+ti.c+';background:'+ti.bg+';border:1px solid '+ti.b+';padding:3px 8px;border-radius:4px;white-space:nowrap;flex-shrink:0;">'+ti.l+'</span>';
         h+='</div>';
         byT[t].forEach(function(m){
           var isLive=m.isLive;
