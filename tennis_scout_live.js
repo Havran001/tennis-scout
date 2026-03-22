@@ -1278,7 +1278,7 @@ function buildUI(){
 
   // ── NAVIGACE ──
   function goView(view){
-    if(view==='matches'){sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');['pw','home-view','filterbar','mnav'].forEach(id=>{var e=sh.getElementById(id);if(e)e.style.display='none';});var mwx=sh.getElementById('mw');if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}return;}
+    if(view==='matches'){sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));sh.getElementById('nav-matches')?.classList.add('active');sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');['pw','home-view','filterbar','mnav'].forEach(id=>{var e=sh.getElementById(id);if(e)e.style.display='none';});var mwx=sh.getElementById('mw');if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}return;}
     // Update sidebar
     sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
     sh.getElementById('nav-'+view)?.classList.add('active');
