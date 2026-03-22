@@ -1071,7 +1071,7 @@ function buildMatchesTab(sh){
             }
           }
           h+='</div>';
-          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:flex;align-items:center;justify-content:center;text-decoration:none;">';
+          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:flex;align-items:center;justify-content:center;text-decoration:none;border:1px solid rgba(255,255,255,.12);transition:opacity .15s;" onmouseover="this.style.opacity='.75'" onmouseout="this.style.opacity='1'">';
           h+='<img src="https://static.flashscore.com/res/_fs/image/4_favicons/_fs/touch-icon-180x180.png?v=8" style="width:28px;height:28px;" alt="Flashscore"/></a>';
           h+='</div></div>';
         });
