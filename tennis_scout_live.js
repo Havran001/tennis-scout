@@ -991,6 +991,8 @@ function buildMatchesTab(sh){
 
   function renderMatches(data){
     var all=getMatches(data);
+    var mcEl=sh.getElementById('nav-matches-count');
+    if(mcEl)mcEl.textContent=all.length;
     var live=all.filter(function(m){return m.isLive;});
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
@@ -1132,7 +1134,9 @@ function buildUI(){
         <span class="nav-icon">🏆</span> Turnaje
         <span class="nav-badge" id="nav-count">795</span>
       </div>
-      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">\u26BD</span> Z\u00e1pasy</div><div class="nav-item" data-view="players" id="nav-players">
+      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">🎾</span> Zápasy
+        <span class="nav-badge" id="nav-matches-count"></span>
+      </div><div class="nav-item" data-view="players" id="nav-players">
         <span class="nav-icon">👤</span> Hráči ATP
         <span class="nav-badge" id="nav-players-count">1454</span>
       </div>
@@ -1422,6 +1426,8 @@ const _hcT=sh.getElementById('hc-count-t');
 if(_hcT)_hcT.textContent=window._tsData.length+' turnájů';
 const _ncEl=sh.getElementById('nav-count');
 if(_ncEl)_ncEl.textContent=window._tsData.length;
+const _mcEl=sh.getElementById('nav-matches-count');
+if(_mcEl){var _mc=((window._lastMatches||{}).matches||[]).length;if(_mc>0)_mcEl.textContent=_mc;}
 
 // 2. ITF + Players paralelně na pozadí
 fetchPlayers(txt=>console.log('Players:',txt)).then(count=>{
@@ -1452,6 +1458,8 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   if(hcT)hcT.textContent=window._tsData.length+' turnájů';
   const ncEl=sh.getElementById('nav-count');
   if(ncEl)ncEl.textContent=window._tsData.length;
+  const mcEl=sh.getElementById('nav-matches-count');
+  if(mcEl){var mc=((window._lastMatches||{}).matches||[]).length;if(mc>0)mcEl.textContent=mc;}
   console.log('🎾 Tennis Scout v'+VERSION+' — '+window._tsData.length+' turnájů');
 }).catch(e=>{addErr('ITF: '+e.message);});
 
