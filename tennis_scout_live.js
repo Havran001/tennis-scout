@@ -968,11 +968,10 @@ function buildMatchesTab(sh){
   }
 
   async function loadFromFS(day){
-    var r=await fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+day+'&t='+Date.now());
-    var d=await r.json();
-    var matches=(d.matches||[]).map(function(m){
-      m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;return m;
-    });
+    var days=Array.isArray(day)?day:[day];
+    var results=await Promise.all(days.map(function(d){return fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+d+'&t='+Date.now()).then(function(r){return r.json();});}));
+    var allMatches=[];results.forEach(function(d){(d.matches||[]).forEach(function(m){m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;allMatches.push(m);});});
+    var merged={matches:allMatches,updated:results[0].updated||''};
     return {updated:d.updated,src:'worker',matches:matches};
   }
   async function loadFromGitHub(){return loadFromFS(activeDay);}
