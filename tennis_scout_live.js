@@ -1,6 +1,6 @@
 // ================================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
-revert: restore clean JS (tennis ball emoji, original green button)// ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
+// ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
 // ITF M15/M25/W15/W35+: live API itftennis.com (načítá se při spuštění)
 //
 // Jak použít:
