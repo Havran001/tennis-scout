@@ -1,7 +1,6 @@
 // ================================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
-// ================================================================
-// ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
+revert: restore clean JS (tennis ball emoji, original green button)// ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
 // ITF M15/M25/W15/W35+: live API itftennis.com (načítá se při spuštění)
 //
 // Jak použít:
@@ -1071,8 +1070,8 @@ function buildMatchesTab(sh){
             }
           }
           h+='</div>';
-          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:opacity .15s;" onmouseover="this.style.opacity='.75'" onmouseout="this.style.opacity='1'">';
-          h+='<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="28" rx="7" fill="#0c1929"/><g transform="translate(4,4)"><path d="M10 2 A8 8 0 0 1 18 10" stroke="white" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M18 10 A8 8 0 0 1 10 18" stroke="white" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="3 2.5"/><path d="M10 18 A8 8 0 0 1 2 10" stroke="white" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M2 10 A8 8 0 0 1 10 2" stroke="white" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="3 2.5"/><circle cx="10" cy="10" r="2.8" fill="white"/><polygon points="13,1 20,8 16,8 19,19 10,10 15,10" fill="#e8193c"/></g></svg></a>';
+          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;background:#00C957;display:flex;align-items:center;justify-content:center;text-decoration:none;">';
+          h+='<span style="width:0;height:0;border-style:solid;border-width:5px 0 5px 9px;border-color:transparent transparent transparent white;margin-left:2px;display:block;"></span></a>';
           h+='</div></div>';
         });
       });
