@@ -841,7 +841,7 @@ function buildPlayersTab(sh){
       var handColor=p.hand==="L"?"#60a5fa":"rgba(255,255,255,0.35)";
       h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'">';
       h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.25);">'+p.rank+'</td>';
-      h+='<td style="padding:7px 8px;font-size:12px;font-weight:600;color:#e6edf3;">'+hl(p.name,q)+'</td>';
+      h+='<td style="padding:7px 8px;font-size:12px;font-weight:600;color:#e6edf3;">'+(flag?flag+' ':'')+hl(p.name,q)+'</td>';
       h+='<td style="padding:7px 8px;text-align:center;font-size:16px;" title="'+(p.country||"")+'">'+flag+'<div style="font-size:8px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(p.country||"-")+'</div></td>';
       h+='<td style="padding:7px 8px;font-size:12px;color:rgba(255,255,255,0.6);text-align:center;">'+(p.age||"-")+'</td>';
       h+='<td style="padding:7px 8px;text-align:center;font-size:11px;color:'+handColor+';font-weight:600;">'+(p.hand||"-")+'</td>';
