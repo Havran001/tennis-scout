@@ -1038,7 +1038,7 @@ function buildMatchesTab(sh){
           var w1=m.winner===1,w2=m.winner===2;
           h+='<div class="mrow" data-url="'+m.url+'" style="border-left:3px solid '+(isLive?'#00C853':'transparent')+';background:'+(isLive?'rgba(0,200,83,.025)':'transparent')+';padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
           h+='<div style="display:flex;align-items:center;gap:8px;">';
-          h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#00C853;background:rgba(0,200,83,.15);padding:2px 5px;border-radius:4px;">LIVE</span>':'<span style="font-size:10px;color:rgba(255,255,255,.25);">'+timeStr(m.ts)+'</span>')+'</div>';
+          h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#00C853;background:rgba(0,200,83,.15);padding:2px 5px;border-radius:4px;">LIVE</span>':'<span style="font-size:13px;font-weight:600;color:rgba(255,255,255,.65);">'+timeStr(m.ts)+'</span>')+'</div>';
           h+='<div style="flex:1;min-width:0;">';
           h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span style="font-size:12px;font-weight:'+(w1||m.serving===1?700:500)+';color:'+(w2?'rgba(255,255,255,.3)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+m.p1+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
           h+='<div style="display:flex;align-items:center;gap:4px;"><span style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w1?'rgba(255,255,255,.3)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+m.p2+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
@@ -1052,8 +1052,8 @@ function buildMatchesTab(sh){
             var b1=parseInt(v1)>parseInt(v2),b2v=parseInt(v2)>parseInt(v1);
             // Dokonceny set — maly, sedy, bez pozadi
             h+='<div style="text-align:center;min-width:14px;padding:1px 2px;opacity:0.55;">';
-            h+='<div style="font-size:11px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#ccc':'rgba(255,255,255,.35)')+';">'+v1+'</div>';
-            h+='<div style="font-size:11px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#ccc':'rgba(255,255,255,.35)')+';">'+v2+'</div>';
+            h+='<div style="font-size:15px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#ccc':'rgba(255,255,255,.35)')+';">'+v1+'</div>';
+            h+='<div style="font-size:15px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#ccc':'rgba(255,255,255,.35)')+';">'+v2+'</div>';
             h+='</div>';
           }
           if(isLive){
