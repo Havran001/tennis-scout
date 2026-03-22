@@ -1071,8 +1071,8 @@ function buildMatchesTab(sh){
             }
           }
           h+='</div>';
-          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;background:#00C957;display:flex;align-items:center;justify-content:center;text-decoration:none;">';
-          h+='<span style="width:0;height:0;border-style:solid;border-width:5px 0 5px 9px;border-color:transparent transparent transparent white;margin-left:2px;display:block;"></span></a>';
+          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:flex;align-items:center;justify-content:center;text-decoration:none;">';
+          h+='<img src="https://static.flashscore.com/res/_fs/image/4_favicons/_fs/favicon-32x32.png?v=8" style="width:28px;height:28px;" alt="Flashscore"/></a>';
           h+='</div></div>';
         });
       });
