@@ -908,14 +908,14 @@ function buildMatchesTab(sh){
 
   function tInfo(t){
     var u=t.toUpperCase();
+    if(u.includes('ITF')) return{i:'🔵',l:'ITF',c:'rgba(255,255,255,.4)',bg:'rgba(255,255,255,.03)',b:'rgba(255,255,255,.1)'};
+    if(u.includes('CHALLENGER')) return{i:'⚡',l:'Challenger',c:'#60a5fa',bg:'rgba(96,165,250,.1)',b:'rgba(96,165,250,.2)'};
     if(u.match(/AUSTRALIAN OPEN|ROLAND GARROS|WIMBLEDON|US OPEN/)) return{i:'🏆',l:'Grand Slam',c:'#FFD700',bg:'rgba(255,215,0,.12)',b:'rgba(255,215,0,.3)'};
     if(u.match(/ATP.*1000|MASTERS 1000|MIAMI|INDIAN WELLS|MADRID OPEN|ROME|MONTREAL|CINCINNATI|SHANGHAI|PARIS MASTERS|CANADIAN|MONTE.CARLO/)) return{i:'🥇',l:'ATP 1000',c:'#C0C0C0',bg:'rgba(192,192,192,.1)',b:'rgba(192,192,192,.2)'};
     if(u.match(/ATP.*500|ROTTERDAM|DUBAI|ACAPULCO|BARCELONA|HAMBURG|WASHINGTON|TOKYO|BEIJING|VIENNA|BASEL/)) return{i:'🥈',l:'ATP 500',c:'#CD7F32',bg:'rgba(205,127,50,.1)',b:'rgba(205,127,50,.2)'};
     if(u.match(/WTA.*1000/)) return{i:'🔴',l:'WTA 1000',c:'#e879f9',bg:'rgba(232,121,249,.1)',b:'rgba(232,121,249,.2)'};
     if(u.match(/WTA.*500/)) return{i:'🟣',l:'WTA 500',c:'#d946ef',bg:'rgba(217,70,239,.1)',b:'rgba(217,70,239,.2)'};
     if(u.match(/WTA.*SINGLES|WTA - /)) return{i:'🟣',l:'WTA 250',c:'#c084fc',bg:'rgba(192,132,252,.08)',b:'rgba(192,132,252,.15)'};
-    if(u.includes('CHALLENGER')) return{i:'⚡',l:'Challenger',c:'#60a5fa',bg:'rgba(96,165,250,.1)',b:'rgba(96,165,250,.2)'};
-    if(u.includes('ITF')) return{i:'🔵',l:'ITF',c:'rgba(255,255,255,.4)',bg:'rgba(255,255,255,.03)',b:'rgba(255,255,255,.1)'};
     return{i:'🎾',l:'ATP 250',c:'rgba(255,255,255,.55)',bg:'rgba(255,255,255,.05)',b:'rgba(255,255,255,.12)'};
   }
   function surfBg(s){if(!s)return '#555';s=s.toLowerCase();if(s.includes('hard'))return '#2563eb';if(s.includes('clay'))return '#ea580c';if(s.includes('grass'))return '#16a34a';return '#555';}
