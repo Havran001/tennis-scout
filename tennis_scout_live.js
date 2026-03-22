@@ -1023,10 +1023,10 @@ function buildMatchesTab(sh){
       tOrd.forEach(function(t){
         var sample=byT[t][0];
         var ti=tInfo(t);
-        var flag=FLAGS[sample.tournament_country||'']||'';
+        var flag=FLAGS[sample.tournament_country||'']||'';if(!flag){var _m=t.match(/\(([A-Z]{2,3})\)/);if(_m)flag=FLAGS[_m[1]]||''};
         var surf=sample.tournament_surface||'';
         h+='<div style="display:flex;align-items:center;gap:8px;padding:7px 12px;margin-top:10px;background:rgba(255,255,255,.045);border-radius:8px;border-left:3px solid '+ti.c+';">';
-        h+='<span style="font-size:15px;">'+flag+'</span><span style="font-size:15px;">'+ti.i+'</span>';
+        h+='<span style="font-size:15px;">'+flag+'</span>';
         h+='<div style="flex:1;min-width:0;"><div style="font-size:11px;font-weight:700;color:rgba(255,255,255,.8);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+t+'</div>';
         if(surf)h+='<div style="margin-top:2px;"><span style="font-size:8px;font-weight:700;color:#fff;background:'+surfBg(surf)+';padding:1px 5px;border-radius:3px;">'+surf.toUpperCase()+'</span></div>';
         h+='</div>';
