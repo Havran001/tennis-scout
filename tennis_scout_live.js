@@ -11,7 +11,7 @@
 //
 //   ATP/WTA/Challenger se zobrazí okamžitě z jakékoli stránky.
 //   ITF data se načtou pouze ze stránky itftennis.com.
-// ================================================================
+// ===============================================================
 
 (async function TENNIS_SCOUT() {
 'use strict';
@@ -1047,27 +1047,27 @@ function buildMatchesTab(sh){
             var v1=(m.sets1||[])[si]||'0',v2=(m.sets2||[])[si]||'0';
             var b1=parseInt(v1)>parseInt(v2),b2v=parseInt(v2)>parseInt(v1);
             var isCur=isLive&&si===ns-1;
-            if(isCur&&si>0)h+='<div style="width:1px;background:rgba(255,255,255,.2);align-self:stretch;margin:0 1px;flex-shrink:0;"></div>';
-            if(isCur){
-              // Aktualni set — velky, bile cislo, zelene pozadi
-              h+='<div style="text-align:center;min-width:22px;background:rgba(0,200,83,.15);border:1px solid rgba(0,200,83,.3);border-radius:4px;padding:2px 4px;">';
-              h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ffffff;">'+v1+'</div>';
-              h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ffffff;">'+v2+'</div>';
-              h+='</div>';
-            } else {
-              // Dokonceny set — maly, sedy, bez pozadi
-              h+='<div style="text-align:center;min-width:14px;padding:1px 2px;opacity:0.55;">';
-              h+='<div style="font-size:11px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#ccc':'rgba(255,255,255,.35)')+';">'+v1+'</div>';
-              h+='<div style="font-size:11px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#ccc':'rgba(255,255,255,.35)')+';">'+v2+'</div>';
+            if(isCur) continue;
+            // Dokonceny set — maly, sedy, bez pozadi
+            h+='<div style="text-align:center;min-width:14px;padding:1px 2px;opacity:0.55;">';
+            h+='<div style="font-size:11px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#ccc':'rgba(255,255,255,.35)')+';">'+v1+'</div>';
+            h+='<div style="font-size:11px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#ccc':'rgba(255,255,255,.35)')+';">'+v2+'</div>';
+            h+='</div>';
+          }
+          if(isLive){
+            var cv1=(m.sets1||[])[ns-1]||'0',cv2=(m.sets2||[])[ns-1]||'0';
+            var isZero=m.game1==='0'&&m.game2==='0'||m.game1===''||m.game2==='';
+            if(ns>1)h+='<div style="width:1px;background:rgba(255,255,255,.2);align-self:stretch;margin:0 1px;flex-shrink:0;"></div>';
+            h+='<div style="text-align:center;min-width:28px;background:rgba(0,200,83,.15);border:1px solid rgba(0,200,83,.3);border-radius:4px;padding:2px 4px;margin-left:1px;">';
+            h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ffffff;">'+cv1+'</div>';
+            h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ffffff;">'+cv2+'</div>';
+            h+='</div>';
+            if(m.game1!==''&&m.game2!==''){
+              h+='<div style="text-align:center;min-width:28px;background:'+(isZero?'rgba(255,255,255,.05)':'rgba(0,200,83,.25)')+';border:1px solid '+(isZero?'rgba(255,255,255,.1)':'rgba(0,200,83,.5)')+';border-radius:4px;padding:1px 4px;margin-left:2px;">';
+              h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#00C853')+';">'+m.game1+'</div>';
+              h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#00C853')+';">'+m.game2+'</div>';
               h+='</div>';
             }
-          }
-          if(isLive&&m.game1!==''&&m.game2!==''){
-            var isZero=m.game1==='0'&&m.game2==='0';
-            h+='<div style="text-align:center;min-width:28px;background:'+(isZero?'rgba(255,255,255,.05)':'rgba(0,200,83,.15)')+';border:1px solid '+(isZero?'rgba(255,255,255,.1)':'rgba(0,200,83,.3)')+';border-radius:4px;padding:1px 4px;margin-left:2px;">';
-            h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#00C853')+';">'+m.game1+'</div>';
-            h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#00C853')+';">'+m.game2+'</div>';
-            h+='</div>';
           }
           h+='</div>';
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;background:#00C957;display:flex;align-items:center;justify-content:center;text-decoration:none;">';
