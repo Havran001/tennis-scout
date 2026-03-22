@@ -987,7 +987,8 @@ function buildMatchesTab(sh){
     return data.matches||[];
   }
 
-  function renderMatches(data){
+  function _pf(n){if(!window._pfC){window._pfC={};(window.ATP_PLAYERS||[]).forEach(function(p){var s=p.name.split(' ').slice(1).join(' ').toLowerCase();if(s)window._pfC[s]=p.country;});}var s=(n||'').split(' ')[0].toLowerCase();return FLAGS[window._pfC[s]||'']||'';}
+function renderMatches(data){
     var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
     if(mcEl)mcEl.textContent=all.length;
@@ -1038,8 +1039,8 @@ function buildMatchesTab(sh){
           h+='<div style="display:flex;align-items:center;gap:8px;">';
           h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#00C853;background:rgba(0,200,83,.15);padding:2px 5px;border-radius:4px;">LIVE</span>':'<span style="font-size:13px;font-weight:600;color:rgba(255,255,255,.65);">'+timeStr(m.ts)+'</span>')+'</div>';
           h+='<div style="flex:1;min-width:0;">';
-          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span style="font-size:12px;font-weight:'+(w1||m.serving===1?700:500)+';color:'+(w2?'rgba(255,255,255,.3)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+(function(){var _ap=(window.ATP_PLAYERS||[]).find(function(x){return x.name===m.p1;});return _ap?FLAGS[_ap.country]||'':'';})()+' '+m.p1+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
-          h+='<div style="display:flex;align-items:center;gap:4px;"><span style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w1?'rgba(255,255,255,.3)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+(function(){var _ap=(window.ATP_PLAYERS||[]).find(function(x){return x.name===m.p2;});return _ap?FLAGS[_ap.country]||'':'';})()+' '+m.p2+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span style="font-size:12px;font-weight:'+(w1||m.serving===1?700:500)+';color:'+(w2?'rgba(255,255,255,.3)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+_pf(m.p1)+' '+m.p1+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;"><span style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w1?'rgba(255,255,255,.3)':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+_pf(m.p2)+' '+m.p2+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
           h+='</div>';
           h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
           function isSetDone(a,b){var x=parseInt(a),y=parseInt(b);if(isNaN(x)||isNaN(y))return false;if(x===7||y===7)return true;return(x>=6||y>=6)&&Math.abs(x-y)>=2;}
