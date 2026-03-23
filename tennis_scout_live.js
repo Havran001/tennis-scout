@@ -903,7 +903,7 @@ function buildPlayersTab(sh){
     var last=row.lastElementChild;
     if(last) row.insertBefore(btn,last); else row.appendChild(btn);
   });
-})();
+})(wrap);
     var inp=wrap.querySelector("#ps-i");
     if(inp){
       inp.addEventListener("input",function(e){
@@ -1322,7 +1322,7 @@ function renderMatches(data){
     var last=row.lastElementChild;
     if(last) row.insertBefore(btn,last); else row.appendChild(btn);
   });
-})();
+})(wrap);
     wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){var _d=parseInt(btn.dataset.day);var _i=activeDay.indexOf(_d);if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}else{activeDay.push(_d);}render();});});
     wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
