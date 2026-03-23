@@ -1140,7 +1140,7 @@ function renderMatches(data){
     var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
     if(mcEl)mcEl.textContent=all.length;
-    var _sh3=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;var hcm=_sh3&&_sh3.getElementById('hc-count-m');if(hcm)hcm.textContent=all.length+' zápasů';
+    var hcm=sh.getElementById('hc-count-m');if(hcm)hcm.textContent=all.length+' zápasů';
     var live=all.filter(function(m){return m.isLive;});
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
@@ -1452,7 +1452,7 @@ function buildUI(){
         <div style="padding:18px 22px 20px;">
           <div class="hc-title">Hr\u00E1\u010Di ATP</div>
           <div class="hc-desc">Aktu\u00E1ln\u00ED ATP ranking s filtrova\u00EDm podle zem\u011B, \u0159azen\u00EDm podle bod\u016F a odkazem na ATP profil.</div>
-          <div class="hc-meta"><span class="hc-count" id="hc-count-pl">998 hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
+          <div class="hc-meta"><span class="hc-count">998 hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
       <div class="home-card orange disabled" style="padding:0;overflow:hidden;opacity:0.4;">
@@ -1622,9 +1622,6 @@ const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textCon
 
 // 1. Statická data — okamžitě
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
-var _plCount=(ATP||[]).length;
-var _plEl=sh.getElementById('nav-players-count');if(_plEl)_plEl.textContent=_plCount;
-var _plEl2=sh.getElementById('hc-count-pl');if(_plEl2)_plEl2.textContent=_plCount+' hráčů';
 sh.getElementById('load')?.remove();
 sh.getElementById('itfs')?.remove();
 goView('home');
