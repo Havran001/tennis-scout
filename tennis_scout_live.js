@@ -908,7 +908,7 @@ function buildPlayersTab(sh){
 function buildMatchesTab(sh){
   var wrap=document.createElement('div');
   wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
-  var activeDay=[0],activeFilter='all',activeSort='tournament',_interval=null,_lastData=null,_lastUpdated='';
+  var activeDay=[0],activeFilter='all',activeSort='tournament',activeTier='all',activeFormat='all',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
   var isFS=location.hostname.includes('flashscore');
 
   var FLAGS={'USA':'🇺🇸','ESP':'🇪🇸','FRA':'🇫🇷','GER':'🇩🇪','ITA':'🇮🇹','GBR':'🇬🇧','AUS':'🇦🇺','ARG':'🇦🇷','JPN':'🇯🇵','CAN':'🇨🇦','BRA':'🇧🇷','NED':'🇳🇱','SUI':'🇨🇭','ROU':'🇷🇴','POL':'🇵🇱','CZE':'🇨🇿','AUT':'🇦🇹','GRE':'🇬🇷','BEL':'🇧🇪','SWE':'🇸🇪','NOR':'🇳🇴','DEN':'🇩🇰','SRB':'🇷🇸','KAZ':'🇰🇿','RUS':'🇷🇺','UKR':'🇺🇦','POR':'🇵🇹','CHI':'🇨🇱','MEX':'🇲🇽','RSA':'🇿🇦','IND':'🇮🇳','KOR':'🇰🇷','MAR':'🇲🇦','COL':'🇨🇴','CRO':'🇭🇷','GEO':'🇬🇪','QAT':'🇶🇦','UAE':'🇦🇪','CHN':'🇨🇳','SVK':'🇸🇰','UZB':'🇺🇿','MON':'🇲🇨','TUR':'🇹🇷','BUL':'🇧🇬','HUN':'🇭🇺','FIN':'🇫🇮','SLO':'🇸🇮','SVK':'🇸🇰','EST':'🇪🇪','LAT':'🇱🇻','LTU':'🇱🇹','NZL':'🇳🇿','AZE':'🇦🇿','ARM':'🇦🇲','GBR':'🇬🇧','MDA':'🇲🇩','BLR':'🇧🇾'};
@@ -1027,6 +1027,14 @@ function renderMatches(data){
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
     var shown=activeFilter==='live'?live:activeFilter==='finished'?fin:activeFilter==='scheduled'?sch:all;
+    // Filter by tier
+    if(activeTier!=='all'){shown=shown.filter(function(m){var ti=tInfo(m.tournament||'');return ti.l===activeTier||(activeTier==='CH'&&ti.l==='Challenger')||(activeTier==='ITF'&&ti.l==='ITF');});}
+    // Filter by format (singles/doubles)
+    if(activeFormat==='singles')shown=shown.filter(function(m){return !(m.tournament||'').includes('DOUBLES');});
+    if(activeFormat==='doubles')shown=shown.filter(function(m){return (m.tournament||'').includes('DOUBLES');});
+    if(activeTier!=='all'){shown=shown.filter(function(m){var u=(m.tournament||'').toUpperCase();if(activeTier==='GS')return !!(u.match(/AUSTRALIAN OPEN|ROLAND GARROS|WIMBLEDON|US OPEN/));if(activeTier==='M1000')return !!(u.match(/ATP.*1000|MASTERS 1000|MIAMI|INDIAN WELLS|MADRID OPEN|ROME|MONTREAL|CINCINNATI|SHANGHAI|PARIS MASTERS|MONTE.CARLO/));if(activeTier==='ATP500')return !!(u.match(/ATP.*500|ROTTERDAM|DUBAI|ACAPULCO|BARCELONA|HAMBURG|WASHINGTON|TOKYO|BEIJING|VIENNA|BASEL/));if(activeTier==='ATP250')return u.includes('ATP - SINGLES')&&!u.match(/AUSTRALIAN OPEN|ROLAND GARROS|WIMBLEDON|US OPEN/)&&!u.match(/MASTERS|1000|500|CHALLENGER|ITF/);if(activeTier==='WTA')return u.includes('WTA');if(activeTier==='CH')return u.includes('CHALLENGER');if(activeTier==='ITF')return u.includes('ITF');return true;});}
+    if(activeFormat==='singles')shown=shown.filter(function(m){return !(m.tournament||'').toUpperCase().includes('DOUBLES');});
+    if(activeFormat==='doubles')shown=shown.filter(function(m){return (m.tournament||'').toUpperCase().includes('DOUBLES');});
     if(activeSort==='time')shown=shown.slice().sort(function(a,b){return (a.ts||0)-(b.ts||0);});
 
     var h='<div style="padding:0 20px 60px;">';
@@ -1045,6 +1053,11 @@ function renderMatches(data){
       var on=activeFilter===f[0];
       h+='<button data-filter="'+f[0]+'" style="padding:3px 9px;border-radius:10px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.35)')+';font-size:9px;cursor:pointer;font-weight:'+(on?700:400)+';">'+f[1]+' <span style="opacity:.6;">'+f[2]+'</span></button>';
     });
+    h+='<div style="display:flex;gap:4px;padding:4px 0 0;flex-wrap:wrap;align-items:center;">';
+    [['all','Vše'],['GS','🏆 GS'],['M1000','● 1000'],['ATP500','▲ 500'],['ATP250','◆ 250'],['WTA','♀ WTA'],['CH','⚡ CH'],['ITF','◉ ITF']].forEach(function(t){var on=activeTier===t[0];h+='<button data-tier="'+t[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#60a5fa':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(96,165,250,.15)':'transparent')+';color:'+(on?'#60a5fa':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+t[1]+'</button>';});
+    h+='<div style="width:1px;height:14px;background:rgba(255,255,255,.1);margin:0 3px;flex-shrink:0;align-self:center;"></div>';
+    [['all','Vše'],['singles','Dvouhra'],['doubles','Čtyřhra']].forEach(function(f){var on=activeFormat===f[0];h+='<button data-fmt="'+f[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#f472b6':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(244,114,182,.15)':'transparent')+';color:'+(on?'#f472b6':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+f[1]+'</button>';});
+    h+="</div>';
     h+='<div style="margin-left:auto;"><button data-sort="1" style="padding:3px 10px;border-radius:10px;border:1px solid '+(activeSort==='time'?'#00C853':'rgba(255,255,255,.15)')+';background:'+(activeSort==='time'?'rgba(0,200,83,.15)':'transparent')+';color:'+(activeSort==='time'?'#00C853':'rgba(255,255,255,.4)')+';font-size:9px;cursor:pointer;">⏱ Čas</button> <button data-sort="0" style="padding:3px 10px;border-radius:10px;border:1px solid '+(activeSort==='tournament'?'#00C853':'rgba(255,255,255,.15)')+';background:'+(activeSort==='tournament'?'rgba(0,200,83,.15)':'transparent')+';color:'+(activeSort==='tournament'?'#00C853':'rgba(255,255,255,.4)')+';font-size:9px;cursor:pointer;">🏆 Turnaj</button></div>';
     h+='</div>';
     if(!shown.length){h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy</div>';}
@@ -1134,7 +1147,11 @@ function renderMatches(data){
     h+='</div>';
     wrap.innerHTML=h;
     wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){var _d=parseInt(btn.dataset.day);var _i=activeDay.indexOf(_d);if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}else{activeDay.push(_d);}render();});});
+    wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-sort]').forEach(function(btn){btn.addEventListener('click',function(){activeSort=btn.dataset.sort==='1'?'time':'tournament';if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-filter]').forEach(function(btn){btn.addEventListener('click',function(){activeFilter=btn.dataset.filter;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('.mrow').forEach(function(row){
       row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,.04)';});
