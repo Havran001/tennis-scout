@@ -1644,7 +1644,6 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   window._tsData.push(...itfItems);
   // PYidej Z�pasy panel  po settlenut� DOM
   setTimeout(function(){
-    var _sh2=document.getElementById('ts-host')?.shadowRoot;
     var _body2=_sh2?.getElementById('body');
     if(_body2&&!_sh2.getElementById('mw')){
       var _mwEl2=buildMatchesTab(_sh2);
