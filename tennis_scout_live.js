@@ -1018,7 +1018,17 @@ function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.
 'cabal':'COL','farah':'COL',
 'tecau':'ROU','copil':'ROU',
 'donskoy':'RUS','krutykh':'UKR',
-'albot':'MDA'};window[_key]={};(window.ATP_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2)window[_key][w.toLowerCase()]=flag;});});(window.WTA_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();if(!window[_key][sn])window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2&&!window[_key][w.toLowerCase()])window[_key][w.toLowerCase()]=flag;});});Object.keys(_ex).forEach(function(k){if(!window[_key][k])window[_key][k]=_ioc2flag(_ex[k]);});Object.keys(window[_key]).forEach(function(k){if(k.includes(' ')){var hk=k.replace(/ /g,'-');if(!window[_key][hk])window[_key][hk]=window[_key][k];}});}var s=(n||'').split(' ')[0].toLowerCase();return window[_key][s]||window[_key][s.replace(/-/g,' ')]||'';}
+'albot':'MDA'
+,'arends':'NED','muhammad':'USA','jiang':'CHN','cash':'AUS'
+,'mihalikova':'SVK','andreozzi':'ARG','kleiman':'ARG'
+,'kittay':'FRA','nys':'BEL','erler':'AUT','arevalo':'ESA'
+,'doumbia':'FRA','frantzen':'FRA','neel':'USA','kato':'JPN'
+,'pinheiro':'BRA','tunas':'BRA','agostini':'ITA','maristany':'ARG'
+,'tosetto':'BRA','braga':'BRA','rengifo':'COL','tammaro':'ITA'
+,'nedic':'BIH','minaur':'AUS','serna':'ARG','alba':'MEX','vela':'ITA'
+,'meli':'ARG','svrcina':'CZE','baez':'ARG','diallo':'FRA'
+,'lhomme':'FRA','banes':'FRA','janvier':'FRA','Pinheiro':'BRA'
+,'benchetrit':'FRA','roger':'FRA','riffice':'USA','schoolkate':'AUS'};window[_key]={};(window.ATP_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2)window[_key][w.toLowerCase()]=flag;});});(window.WTA_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();if(!window[_key][sn])window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2&&!window[_key][w.toLowerCase()])window[_key][w.toLowerCase()]=flag;});});Object.keys(_ex).forEach(function(k){if(!window[_key][k])window[_key][k]=_ioc2flag(_ex[k]);});Object.keys(window[_key]).forEach(function(k){if(k.includes(' ')){var hk=k.replace(/ /g,'-');if(!window[_key][hk])window[_key][hk]=window[_key][k];}});}var parts=(n||'').split(' ');var s=parts[0].toLowerCase();var s2=parts.length>1?parts[1].toLowerCase():'';var s3=parts.length>2?parts[2].toLowerCase():'';return window[_key][s]||window[_key][s.replace(/-/g,' ')]||window[_key][s2]||window[_key][s2.replace(/-/g,' ')]||'';}
 function renderMatches(data){
     var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
