@@ -983,6 +983,12 @@ function buildMatchesTab(sh){
   }
   async function loadFromGitHub(){return loadFromFS(activeDay);}
   async function loadData(){
+    if(activeDay.length===1&&activeDay[0]==='fav'){
+      var _favIds=JSON.parse(localStorage.getItem('ts_favs')||'[]');
+      var _allData=await loadFromFS([-1,0,1]);
+      _allData.matches=(_allData.matches||[]).filter(function(m){return _favIds.indexOf(m.id)>-1;});
+      return _allData;
+    }
     try{return await loadFromFS(activeDay);}catch(e){
       var d2=await(await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/matches.json',{headers:{'Accept':'application/vnd.github.raw'},cache:'no-store'})).json();
       var all=[];[-1,0,1].forEach(function(day){((d2.days||{})[String(day)]||[]).forEach(function(m){m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;all.push(m);});});
@@ -1153,6 +1159,8 @@ function renderMatches(data){
       var on=activeDay.indexOf(x.d)>=0;
       h+='<button data-day="'+x.d+'" style="padding:5px 16px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.1)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.4)')+';font-size:12px;cursor:pointer;font-weight:'+(on?700:400)+';">'+x.l+'</button>';
     });
+    var _fo=(activeDay.indexOf('fav')>=0);
+    h+='<button data-day="fav" style="padding:5px 16px;border-radius:7px;border:1px solid '+(_fo?'#FFD700':'rgba(255,255,255,.1)')+';background:'+(_fo?'rgba(255,215,0,.12)':'transparent')+';color:'+(_fo?'#FFD700':'rgba(255,255,255,.4)')+';font-size:12px;cursor:pointer;margin-left:4px;font-weight:'+(_fo?700:400)+';">&#9733; Obl&#237;ben&#233;</button>';
     h+='<div style="margin-left:auto;display:flex;align-items:center;gap:6px;">';
     if(data.src==='github'){var age=Math.round((Date.now()-new Date(data.updated).getTime())/1000);h+='<span style="font-size:9px;color:rgba(255,140,0,.7);">⚠️ '+age+'s stará data — live na flashscore.com</span>';}
     if(_lastUpdated)h+='<span style="font-size:9px;color:rgba(255,255,255,.2);">♥ '+_lastUpdated.slice(11,16)+'</span>';
@@ -1260,7 +1268,7 @@ function renderMatches(data){
     h+='</div>';
     wrap.innerHTML=h;
 var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1)_b.style.color='#FFD700';});}
-    wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){var _d=parseInt(btn.dataset.day);var _i=activeDay.indexOf(_d);if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}else{activeDay.push(_d);}render();});});
+    wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){var _dv=btn.dataset.day,_d=(_dv==='fav'?'fav':parseInt(_dv));var _i=activeDay.indexOf(_d);if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}else{if(_dv==='fav'){activeDay=['fav'];}else{var _fi=activeDay.indexOf('fav');if(_fi>=0)activeDay.splice(_fi,1);activeDay.push(_d);}}render();});});
     wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-sort]').forEach(function(btn){btn.addEventListener('click',function(){activeSort=btn.dataset.sort==='1'?'time':'tournament';if(_lastData)renderMatches(_lastData);});});
