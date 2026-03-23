@@ -1076,22 +1076,7 @@ function renderMatches(data){
           h+='<div style="display:flex;align-items:center;gap:4px;"><span style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w2?'#e6edf3':'rgba(255,255,255,.35)')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
           h+='</div>';
           // Score
-          var scoreH='';if(ns>0){
-  scoreH='<div style="display:flex;flex-direction:column;gap:3px;margin-left:8px;align-items:flex-end;">';
-  // Summary: počet vyhraných setů (tučně bílá) — jen u dohraných zápasů
-  if(m.isFin){
-    scoreH+='<div style="font-size:13px;font-weight:700;color:#fff;letter-spacing:0.5px;">'+_s1+':'+_s2+'</div>';
-  }
-  // Jednotlivé sety (menší, šedé)
-  var setsStr='';
-  for(var si=0;si<ns;si++){
-    if(setsStr)setsStr+=' ';
-    setsStr+=(m.sets1[si]||'0')+':'+(m.sets2[si]||'0');
-  }
-  scoreH+='<div style="font-size:10px;color:rgba(255,255,255,.35);white-space:nowrap;">'+setsStr+'</div>';
-  scoreH+='</div>';
-  h+=scoreH;
-}
+          var scoreH='';if(ns>0){var setsStr='';for(var si=0;si<ns;si++){if(setsStr)setsStr+=' ';setsStr+=(m.sets1[si]||'0')+':'+(m.sets2[si]||'0');}scoreH='<div style="display:flex;flex-direction:column;gap:2px;margin-left:8px;align-items:flex-end;">'+(m.isFin?'<div style="font-size:13px;font-weight:700;color:#fff;letter-spacing:0.5px;line-height:1.2;">'+_s1+':'+_s2+'</div>':'')+'<div style="font-size:10px;color:rgba(255,255,255,.35);white-space:nowrap;">'+setsStr+'</div></div>';h+=scoreH;}
           if(isLive&&m.game1!=='')h+='<div style="display:flex;flex-direction:column;gap:1px;margin-left:2px;"><div style="font-size:11px;color:#00C853;font-weight:700;line-height:1.3;">'+m.game1+'</div><div style="font-size:11px;color:#00C853;font-weight:700;line-height:1.3;">'+m.game2+'</div></div>';
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" style="margin-left:6px;flex-shrink:0;display:block;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block;border-radius:7px"><rect width="100" height="100" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
           h+='</div></div>';
