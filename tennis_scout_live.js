@@ -1065,7 +1065,7 @@ function renderMatches(data){
       if(activeSort==='time'){
         // Flat list sorted by time
         shown.forEach(function(m){
-          var isLive=m.isLive;var ns=Math.max((m.sets1||[]).length,(m.sets2||[]).length);var w1=m.winner===1,w2=m.winner===2;
+          var isLive=m.isLive;var ns=Math.max((m.sets1||[]).length,(m.sets2||[]).length);var _s1=(m.sets1||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets2||[])[i]||0)?1:0);},0),_s2=(m.sets2||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets1||[])[i]||0)?1:0);},0);var w1=m.isFin&&(_s1>_s2||m.winner===1&&m.winner!==2),w2=m.isFin&&(_s2>_s1||m.winner===2&&m.winner!==1);
           var ti=tInfo(m.tournament||'');
           h+='<div class="mrow" data-url="'+m.url+'" style="border-left:3px solid '+(isLive?'#00C853':ti.c)+';background:'+(isLive?'rgba(0,200,83,.025)':'transparent')+';padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
           h+='<div style="display:flex;align-items:center;gap:8px;">';
@@ -1100,7 +1100,7 @@ function renderMatches(data){
         byT[t].forEach(function(m){
           var isLive=m.isLive;
           var ns=Math.max((m.sets1||[]).length,(m.sets2||[]).length);
-          var w1=m.winner===1,w2=m.winner===2;
+          var _s1=(m.sets1||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets2||[])[i]||0)?1:0);},0),_s2=(m.sets2||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets1||[])[i]||0)?1:0);},0);var w1=m.isFin&&(_s1>_s2||m.winner===1&&m.winner!==2),w2=m.isFin&&(_s2>_s1||m.winner===2&&m.winner!==1);
           h+='<div class="mrow" data-url="'+m.url+'" style="border-left:3px solid '+(isLive?'#00C853':'transparent')+';background:'+(isLive?'rgba(0,200,83,.025)':'transparent')+';padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
           h+='<div style="display:flex;align-items:center;gap:8px;">';
           h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#00C853;background:rgba(0,200,83,.15);padding:2px 5px;border-radius:4px;">LIVE</span>':'<span style="font-size:13px;font-weight:600;color:'+(m.isFin?'rgba(255,255,255,.35)':'rgba(255,255,255,.65)')+';">'+(m.isFin?'Konec':timeStr(m.ts))+'</span>')+'</div>';
