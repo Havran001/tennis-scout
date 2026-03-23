@@ -1035,6 +1035,21 @@ function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.
 ,'sieg':'GER','fullana':'ESP','topalova':'BUL','feistel':'GER'
 ,'quevedo':'COL','charaeva':'RUS','gjorcheska':'MKD','romero':'ESP','cristobal':'CHI','neos':'GRE'
 ,'toth':'HUN','noha':'GER','mdlulwa':'RSA','korpanec':'GER'
+// doubles specialists & challengers
+,'tracy':'USA','galloway':'USA','guinard':'FRA','rikl':'CZE'
+,'withrow':'USA','lammons':'USA','nakashima':'USA','smith':'GBR'
+,'behar':'ISR','bhambri':'IND','verbeek':'NED','jacq':'FRA'
+,'miedler':'AUT','cabral':'POR','pavlasek':'CZE','schwartzman':'ARG'
+,'vavassori':'ITA','bolelli':'ITA','johnson':'USA','king':'USA'
+,'harrison':'USA','skupski':'GBR','glasspool':'GBR','peers':'AUS'
+,'ebden':'AUS','purcell':'AUS','hijikata':'AUS','rinderknech':'FRA'
+,'olivetti':'FRA','reboul':'FRA','jeanjean':'FRA','burel':'FRA'
+,'wu':'CHN','zhang':'CHN','sun':'CHN','jiang':'CHN'
+,'luz':'BRA','matos':'BRA','melo':'BRA','faria':'BRA'
+,'perez':'AUS','sanders':'AUS','bolt':'AUS','duckworth':'AUS'
+,'krajicek':'USA','sock':'USA','withrow':'USA','lammons':'USA'
+,'behar':'ISR','gonzalez':'MEX','molteni':'ARG','zeballos':'ARG'
+,'granollers':'ESP','puetz':'GER','krawietz':'GER'
 };window[_key]={};(window.ATP_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2)window[_key][w.toLowerCase()]=flag;});});(window.WTA_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();if(!window[_key][sn])window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2&&!window[_key][w.toLowerCase()])window[_key][w.toLowerCase()]=flag;});});Object.keys(_ex).forEach(function(k){if(!window[_key][k])window[_key][k]=_ioc2flag(_ex[k]);});Object.keys(window[_key]).forEach(function(k){if(k.includes(' ')){var hk=k.replace(/ /g,'-');if(!window[_key][hk])window[_key][hk]=window[_key][k];}});}var parts=(n||'').split(' ');var s=parts[0].toLowerCase();var s2=parts.length>1?parts[1].toLowerCase():'';var s3=parts.length>2?parts[2].toLowerCase():'';return window[_key][s]||window[_key][s.replace(/-/g,' ')]||window[_key][s2]||window[_key][s2.replace(/-/g,' ')]||'';}
 function renderMatches(data){
     var all=getMatches(data);
