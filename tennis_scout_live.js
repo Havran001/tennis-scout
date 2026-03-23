@@ -1643,6 +1643,7 @@ fetchPlayers(txt=>console.log('Players:',txt)).then(count=>{
 fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   window._tsData.push(...itfItems);
   // PYidej Z�pasy panel  po settlenut� DOM
+  var _sh2=document.getElementById('ts-host')?.shadowRoot;
   setTimeout(function(){
     var _body2=_sh2?.getElementById('body');
     if(_body2&&!_sh2.getElementById('mw')){
