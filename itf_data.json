@@ -1,8 +1,88 @@
 {
-  "updated": "2026-03-22T06:35:37Z",
+  "updated": "2026-03-23T07:49:00Z",
   "year": 2026,
-  "count": 606,
+  "count": 627,
   "items": [
+    {
+      "name": "Haz Master Tour 2026",
+      "loc": "Hazebrouck",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-01-05",
+      "end": "2026-01-11"
+    },
+    {
+      "name": "$25,000 Winston-Salem",
+      "loc": "Winston-Salem",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-01-05",
+      "end": "2026-01-11"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-01-05",
+      "end": "2026-01-11"
+    },
+    {
+      "name": "ANTALYA SERIES",
+      "loc": "Antalya",
+      "country": "TUR",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-01-05",
+      "end": "2026-01-11"
+    },
+    {
+      "name": "M25 Chapel Hill, NC",
+      "loc": "Chapel Hill, NC",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-01-05",
+      "end": "2026-01-11"
+    },
+    {
+      "name": "Santander Men’s Series Rafa Nadal Academy by Movistar",
+      "loc": "Manacor",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-05",
+      "end": "2026-01-11"
+    },
+    {
+      "name": "Oslo Open",
+      "loc": "Oslo",
+      "country": "NOR",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-05",
+      "end": "2026-01-11"
+    },
+    {
+      "name": "Egypt 1 Somabay Men's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-05",
+      "end": "2026-01-11"
+    },
     {
       "name": "ITF World Tennis Tour Presented by SAT (1)",
       "loc": "Nonthaburi",
@@ -17,16 +97,6 @@
       "name": "W35 Nairobi",
       "loc": "Nairobi",
       "country": "KEN",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-01-05",
-      "end": "2026-01-11"
-    },
-    {
-      "name": "ANTALYA SERIES",
-      "loc": "ANTALYA",
-      "country": "TUR",
       "cat": "ITF",
       "tier": "W35",
       "surf": "Clay",
@@ -54,16 +124,6 @@
       "end": "2026-01-11"
     },
     {
-      "name": "Oslo Open",
-      "loc": "Oslo",
-      "country": "NOR",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-01-05",
-      "end": "2026-01-11"
-    },
-    {
       "name": "Open Cayenne 2026 W15",
       "loc": "Cayenne",
       "country": "FRA",
@@ -72,6 +132,96 @@
       "surf": "Hard",
       "start": "2026-01-05",
       "end": "2026-01-11"
+    },
+    {
+      "name": "ANTALYA SERIES",
+      "loc": "Antalya",
+      "country": "TUR",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-01-12",
+      "end": "2026-01-18"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-01-12",
+      "end": "2026-01-18"
+    },
+    {
+      "name": " ADITYAN ITF M25 MEN'S INTERNATIONAL TENNIS CHAMPIONSHIP 2026",
+      "loc": "Chennai",
+      "country": "IND",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-01-12",
+      "end": "2026-01-18"
+    },
+    {
+      "name": "Copa FETECH",
+      "loc": "Santiago",
+      "country": "CHI",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-01-12",
+      "end": "2026-01-18"
+    },
+    {
+      "name": "$25,000 Winston-Salem",
+      "loc": "Winston-Salem, NC",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-01-12",
+      "end": "2026-01-18"
+    },
+    {
+      "name": "Cadolzburg Open",
+      "loc": "Cadolzburg",
+      "country": "GER",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Carpet",
+      "start": "2026-01-12",
+      "end": "2026-01-18"
+    },
+    {
+      "name": "Internationaux de Bressuire 79 2026",
+      "loc": "Bressuire",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-12",
+      "end": "2026-01-18"
+    },
+    {
+      "name": "Santander Men’s Series Rafa Nadal Academy by Movistar",
+      "loc": "Manacor",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-12",
+      "end": "2026-01-18"
+    },
+    {
+      "name": "Egypt 2 Somabay Men's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-12",
+      "end": "2026-01-18"
     },
     {
       "name": "ITF World Tennis Tour Presented by SAT (2)",
@@ -114,16 +264,6 @@
       "end": "2026-01-18"
     },
     {
-      "name": "ANTALYA SERIES",
-      "loc": "ANTALYA",
-      "country": "TUR",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-01-12",
-      "end": "2026-01-18"
-    },
-    {
       "name": "Solid Rock Construction presented by Reel Coastal Properties ",
       "loc": "Bradenton, FL",
       "country": "USA",
@@ -152,6 +292,76 @@
       "surf": "Hard",
       "start": "2026-01-12",
       "end": "2026-01-18"
+    },
+    {
+      "name": "ANTALYA SERIES",
+      "loc": "Antalya",
+      "country": "TUR",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-01-19",
+      "end": "2026-01-25"
+    },
+    {
+      "name": "Copa FETECH",
+      "loc": "Santiago",
+      "country": "CHI",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-01-19",
+      "end": "2026-01-25"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-19",
+      "end": "2026-01-25"
+    },
+    {
+      "name": "M15 Hyderabad",
+      "loc": "hyderabad",
+      "country": "IND",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-19",
+      "end": "2026-01-25"
+    },
+    {
+      "name": "17e Internationaux masculins de tennis de Bagnoles de l'Orne Normandie",
+      "loc": "Bagnoles de l'Orne",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-01-19",
+      "end": "2026-01-25"
+    },
+    {
+      "name": "Santander Men’s Series Rafa Nadal Academy by Movistar",
+      "loc": "Manacor",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-19",
+      "end": "2026-01-25"
+    },
+    {
+      "name": "Egypt 3 Somabay Men's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-19",
+      "end": "2026-01-25"
     },
     {
       "name": "W75 Leszno",
@@ -214,16 +424,6 @@
       "end": "2026-01-25"
     },
     {
-      "name": "ANTALYA SERIES",
-      "loc": "ANTALYA",
-      "country": "TUR",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Clay",
-      "start": "2026-01-19",
-      "end": "2026-01-25"
-    },
-    {
       "name": "Egypt 3 Somabay Women's Future",
       "loc": "Hurghada",
       "country": "EGY",
@@ -232,16 +432,6 @@
       "surf": "Hard",
       "start": "2026-01-19",
       "end": "2026-01-25"
-    },
-    {
-      "name": "Lexus British Pro Series Glasgow",
-      "loc": "Glasgow",
-      "country": "GBR",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-01-26",
-      "end": "2026-02-01"
     },
     {
       "name": "MLP-Cup 2025",
@@ -254,22 +444,12 @@
       "end": "2026-02-01"
     },
     {
-      "name": "1st M15 Zahra",
-      "loc": "Zahra",
-      "country": "KUW",
+      "name": "Lexus British Pro Series Glasgow",
+      "loc": "Glasgow",
+      "country": "GBR",
       "cat": "ITF",
-      "tier": "M15",
+      "tier": "M25",
       "surf": "Hard",
-      "start": "2026-01-26",
-      "end": "2026-02-01"
-    },
-    {
-      "name": "ANTALYA SERIES",
-      "loc": "Antalya",
-      "country": "TUR",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
       "start": "2026-01-26",
       "end": "2026-02-01"
     },
@@ -302,6 +482,36 @@
       "surf": "Hard",
       "start": "2026-01-26",
       "end": "2026-02-01"
+    },
+    {
+      "name": "1st M15 Zahra",
+      "loc": "Zahra",
+      "country": "KUW",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-26",
+      "end": "2026-02-01"
+    },
+    {
+      "name": "ANTALYA SERIES",
+      "loc": "Antalya",
+      "country": "TUR",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-01-26",
+      "end": "2026-02-01"
+    },
+    {
+      "name": "Soltepec Tennis Tour",
+      "loc": "Huamantla",
+      "country": "MEX",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-01-26",
+      "end": "2026-01-31"
     },
     {
       "name": "M15 Emilio Sanchez Academy Presented by Germain BMW of Naples",
