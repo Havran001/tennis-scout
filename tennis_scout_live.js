@@ -14,6 +14,15 @@
 
 (async function TENNIS_SCOUT() {
 'use strict';
+function _starBtn(id){
+  var favs=JSON.parse(localStorage.getItem('ts_favs')||'[]');
+  var on=favs.indexOf(id)>-1;
+  var svgFill=on?'#FFD700':'none';
+  var svgStroke=on?'#FFD700':'rgba(255,255,255,0.28)';
+  return '<button class="ts-fav" data-fid="'+id+'" title="Oblíbený zápas" onclick="event.stopPropagation();(function(b){var f=JSON.parse(localStorage.getItem(\'ts_favs\')||\' []\'  );var i=f.indexOf(\''+id+'\');if(i>-1)f.splice(i,1);else f.push(\''+id+'\');localStorage.setItem(\'ts_favs\',JSON.stringify(f));var on2=f.indexOf(\''+id+'\')>-1;b.innerHTML=\'<svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" style=\"display:block\"><polygon points=\"12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26\" fill=\"\'+(on2?\'#FFD700\':\'none\')+\'\"\'+ \'stroke=\"\'+(on2?\'#FFD700\':\'rgba(255,255,255,0.28)\')+\'\"\'+ \' stroke-width=\"1.8\" stroke-linejoin=\"round\"/></svg>\';b.style.opacity=on2?\'1\':\'0.45\'})(this)" style="background:none;border:none;padding:3px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;opacity:'+(on?'1':'0.45')+';transition:opacity .15s" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=('+(on?'1':'0.45')+')">'
+    +'<svg viewBox="0 0 24 24" width="18" height="18" style="display:block"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="'+svgFill+'" stroke="'+svgStroke+'" stroke-width="1.8" stroke-linejoin="round"/></svg>'
+    +'</button>';
+}
 const VERSION = '5.3';
 
 // ATP Rankings - načítáno z GitHubu (stejně jako ITF data)
@@ -1187,7 +1196,7 @@ function renderMatches(data){
           // Score
           var scoreH='';if(ns>0){var setsStr='';var _sc1=0,_sc2=0;for(var si=0;si<ns;si++){var sv1=parseInt(m.sets1[si]||0),sv2=parseInt(m.sets2[si]||0);if(sv1>sv2)_sc1++;else if(sv2>sv1)_sc2++;if(setsStr)setsStr+=' ';setsStr+=sv1+':'+sv2;}if(m.isFin&&(_sc1>0||_sc2>0)){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-left:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2+'</span></div>';}}
           if(isLive&&m.game1!=='')h+='<div style="display:flex;flex-direction:column;gap:1px;margin-left:2px;"><div style="font-size:11px;color:#00C853;font-weight:700;line-height:1.3;">'+m.game1+'</div><div style="font-size:11px;color:#00C853;font-weight:700;line-height:1.3;">'+m.game2+'</div></div>';
-          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" style="margin-left:6px;flex-shrink:0;display:block;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block;border-radius:7px"><rect width="100" height="100" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
+          h+=_starBtn(m.id);h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" style="margin-left:6px;flex-shrink:0;display:block;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block;border-radius:7px"><rect width="100" height="100" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
           h+='</div></div>';
         });
       } else {
@@ -1247,7 +1256,7 @@ function renderMatches(data){
             }
           }
           h+='</div>';
-          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;text-decoration:none;">';
+          h+=_starBtn(m.id);h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;text-decoration:none;">';
           h+='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block"><rect width="100" height="100" rx="16" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
           h+='</div></div>';
         });
