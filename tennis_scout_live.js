@@ -1140,7 +1140,7 @@ function renderMatches(data){
     var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
     if(mcEl)mcEl.textContent=all.length;
-    var hcm=sh.getElementById('hc-count-m');if(hcm)hcm.textContent=all.length+' zápasů';
+    var _sh3=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;var hcm=_sh3&&_sh3.getElementById('hc-count-m');if(hcm)hcm.textContent=all.length+' zápasů';
     var live=all.filter(function(m){return m.isLive;});
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
