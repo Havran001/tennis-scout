@@ -1620,7 +1620,7 @@ const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textCon
 
 // 1. Statická data — okamžitě
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
-var _plCount=(ATP||[]).length+(WTA||[]).length;
+var _plCount=(ATP||[]).length;
 var _plEl=sh.getElementById('nav-players-count');if(_plEl)_plEl.textContent=_plCount;
 var _plEl2=sh.getElementById('hc-count-pl');if(_plEl2)_plEl2.textContent=_plCount+' hráčů';
 sh.getElementById('load')?.remove();
