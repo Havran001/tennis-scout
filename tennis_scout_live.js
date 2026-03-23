@@ -1137,6 +1137,7 @@ function renderMatches(data){
             }
           }
           h+='</div>';
+          var scoreH='';if(ns>0){var setsStr='';var _sc1=0,_sc2=0;for(var si=0;si<ns;si++){var sv1=parseInt(m.sets1[si]||0),sv2=parseInt(m.sets2[si]||0);if(sv1>sv2)_sc1++;else if(sv2>sv1)_sc2++;if(setsStr)setsStr+=' ';setsStr+=sv1+':'+sv2;}scoreH='<div style="display:flex;flex-direction:column;gap:2px;margin-left:8px;align-items:flex-end;">'+(m.isFin&&(_sc1>0||_sc2>0)?'<div style="font-size:13px;font-weight:700;color:#fff;letter-spacing:0.5px;line-height:1.2;">'+_sc1+':'+_sc2+'</div>':'')+'<div style="font-size:10px;color:rgba(255,255,255,.35);white-space:nowrap;">'+setsStr+'</div></div>';h+=scoreH;}
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;text-decoration:none;">';
           h+='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block"><rect width="100" height="100" rx="16" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
           h+='</div></div>';
