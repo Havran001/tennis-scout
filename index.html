@@ -11,14 +11,6 @@
   var r=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?t='+Date.now(),{cache:'no-store'});
   var code=await r.text();
   eval(code);
-  // Po načtení automaticky otevři záložku Zápasy
-  setTimeout(function(){
-    var sh=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;
-    if(sh){
-      var btn=sh.getElementById('nav-matches');
-      if(btn)btn.click();
-    }
-  },1500);
 })();
 </script>
 </body>
