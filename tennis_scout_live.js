@@ -287,7 +287,7 @@ async function fetchPlayers(onProgress){
     window.ATP_PLAYERS=players.map(function(p){
       const sack=smap[(p.name||'').toLowerCase().trim()];
 
-  var _sh2=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;if(_sh2){var _nb=_sh2.getElementById('nav-players-count');if(_nb)_nb.textContent=window.ATP_PLAYERS.length;var _db=_sh2.getElementById('hc-count-pl');if(_db)_db.textContent=window.ATP_PLAYERS.length+' hráčů';}      let age=null;
+  var _sh2=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;if(_sh2){var _nb=_sh2.getElementById('nav-players-count');if(_nb)_nb.textContent=window.ATP_PLAYERS.length;var _db=_sh2.ge<span class="hc-count">;if(_db)_db.textContent=window.ATP_PLAYERS.length+' hráčů';}      let age=null;
       if(sack&&sack.dob&&sack.dob.length===8){
         const y=parseInt(sack.dob.slice(0,4)),m=parseInt(sack.dob.slice(4,6))-1,d=parseInt(sack.dob.slice(6,8));
         age=today.getFullYear()-y-(today<new Date(today.getFullYear(),m,d)?1:0);
