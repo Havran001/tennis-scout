@@ -1451,7 +1451,7 @@ function buildUI(){
         <div style="padding:18px 22px 20px;">
           <div class="hc-title">Hr\u00E1\u010Di ATP</div>
           <div class="hc-desc">Aktu\u00E1ln\u00ED ATP ranking s filtrova\u00EDm podle zem\u011B, \u0159azen\u00EDm podle bod\u016F a odkazem na ATP profil.</div>
-          <div class="hc-meta"><span class="hc-count" id="hc-pl">998hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
+          <div class="hc-meta"><span class="hc-count" id="hc-pl">998 hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
       <div class="home-card orange disabled" style="padding:0;overflow:hidden;opacity:0.4;">
