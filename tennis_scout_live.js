@@ -1451,7 +1451,7 @@ function buildUI(){
         <div style="padding:18px 22px 20px;">
           <div class="hc-title">Hr\u00E1\u010Di ATP</div>
           <div class="hc-desc">Aktu\u00E1ln\u00ED ATP ranking s filtrova\u00EDm podle zem\u011B, \u0159azen\u00EDm podle bod\u016F a odkazem na ATP profil.</div>
-          <div class="hc-meta"><span class="hc-count">998 hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
+          <div class="hc-meta"><span class="hc-count" id="hc-pl">998hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
       <div class="home-card orange disabled" style="padding:0;overflow:hidden;opacity:0.4;">
@@ -1625,6 +1625,7 @@ sh.getElementById('load')?.remove();
 sh.getElementById('itfs')?.remove();
 goView('home');
 render();
+(function _syncPl(){var _s=document.getElementById('ts-host')?.shadowRoot;if(!_s)return setTimeout(_syncPl,300);var _upd=function(){var c=(window.ATP_PLAYERS||[]).length;if(c>0){var n=_s.getElementById('nav-players-count');if(n)n.textContent=c;var d=_s.getElementById('hc-pl');if(d)d.textContent=c+' hráčů';}else setTimeout(_upd,300);};_upd();})();
 // .mg jsou nyní v DOM — skryj je, home view je aktivní
 sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
 // Update home counts
@@ -1643,7 +1644,6 @@ fetchPlayers(txt=>console.log('Players:',txt)).then(count=>{
 fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   window._tsData.push(...itfItems);
   // PYidej Z�pasy panel  po settlenut� DOM
-  var _sh2=document.getElementById('ts-host')?.shadowRoot;
   setTimeout(function(){
     var _body2=_sh2?.getElementById('body');
     if(_body2&&!_sh2.getElementById('mw')){
