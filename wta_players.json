@@ -1,0 +1,755 @@
+{
+ "updated": "2026-03-23",
+ "items": [
+  {
+   "rank": 1,
+   "name": "Aryna Sabalenka",
+   "country": "BLR",
+   "pts": 11486
+  },
+  {
+   "rank": 2,
+   "name": "Iga Swiatek",
+   "country": "POL",
+   "pts": 9885
+  },
+  {
+   "rank": 3,
+   "name": "Coco Gauff",
+   "country": "USA",
+   "pts": 7075
+  },
+  {
+   "rank": 4,
+   "name": "Elena Rybakina",
+   "country": "KAZ",
+   "pts": 6516
+  },
+  {
+   "rank": 5,
+   "name": "Jessica Pegula",
+   "country": "USA",
+   "pts": 5705
+  },
+  {
+   "rank": 6,
+   "name": "Mirra Andreeva",
+   "country": "RUS",
+   "pts": 4940
+  },
+  {
+   "rank": 7,
+   "name": "Qinwen Zheng",
+   "country": "CHN",
+   "pts": 4830
+  },
+  {
+   "rank": 8,
+   "name": "Jasmine Paolini",
+   "country": "ITA",
+   "pts": 4785
+  },
+  {
+   "rank": 9,
+   "name": "Daria Kasatkina",
+   "country": "RUS",
+   "pts": 3855
+  },
+  {
+   "rank": 10,
+   "name": "Emma Navarro",
+   "country": "USA",
+   "pts": 3680
+  },
+  {
+   "rank": 11,
+   "name": "Madison Keys",
+   "country": "USA",
+   "pts": 3495
+  },
+  {
+   "rank": 12,
+   "name": "Paula Badosa",
+   "country": "ESP",
+   "pts": 3285
+  },
+  {
+   "rank": 13,
+   "name": "Barbora Krejcikova",
+   "country": "CZE",
+   "pts": 3060
+  },
+  {
+   "rank": 14,
+   "name": "Donna Vekic",
+   "country": "CRO",
+   "pts": 2900
+  },
+  {
+   "rank": 15,
+   "name": "Danielle Collins",
+   "country": "USA",
+   "pts": 2790
+  },
+  {
+   "rank": 16,
+   "name": "Anna Kalinskaya",
+   "country": "RUS",
+   "pts": 2645
+  },
+  {
+   "rank": 17,
+   "name": "Jelena Ostapenko",
+   "country": "LAT",
+   "pts": 2625
+  },
+  {
+   "rank": 18,
+   "name": "Diana Shnaider",
+   "country": "RUS",
+   "pts": 2580
+  },
+  {
+   "rank": 19,
+   "name": "Karolina Muchova",
+   "country": "CZE",
+   "pts": 2545
+  },
+  {
+   "rank": 20,
+   "name": "Elina Svitolina",
+   "country": "UKR",
+   "pts": 2480
+  },
+  {
+   "rank": 21,
+   "name": "Marta Kostyuk",
+   "country": "UKR",
+   "pts": 2290
+  },
+  {
+   "rank": 22,
+   "name": "Leylah Fernandez",
+   "country": "CAN",
+   "pts": 2215
+  },
+  {
+   "rank": 23,
+   "name": "Clara Tauson",
+   "country": "DEN",
+   "pts": 2180
+  },
+  {
+   "rank": 24,
+   "name": "Veronika Kudermetova",
+   "country": "RUS",
+   "pts": 2095
+  },
+  {
+   "rank": 25,
+   "name": "Beatriz Haddad Maia",
+   "country": "BRA",
+   "pts": 2010
+  },
+  {
+   "rank": 26,
+   "name": "Liudmila Samsonova",
+   "country": "RUS",
+   "pts": 1980
+  },
+  {
+   "rank": 27,
+   "name": "Marie Bouzkova",
+   "country": "CZE",
+   "pts": 1895
+  },
+  {
+   "rank": 28,
+   "name": "Magda Linette",
+   "country": "POL",
+   "pts": 1840
+  },
+  {
+   "rank": 29,
+   "name": "Katie Boulter",
+   "country": "GBR",
+   "pts": 1790
+  },
+  {
+   "rank": 30,
+   "name": "Elise Mertens",
+   "country": "BEL",
+   "pts": 1745
+  },
+  {
+   "rank": 31,
+   "name": "Ekaterina Alexandrova",
+   "country": "RUS",
+   "pts": 1710
+  },
+  {
+   "rank": 32,
+   "name": "Anastasia Pavlyuchenkova",
+   "country": "RUS",
+   "pts": 1680
+  },
+  {
+   "rank": 33,
+   "name": "Yulia Putintseva",
+   "country": "KAZ",
+   "pts": 1655
+  },
+  {
+   "rank": 34,
+   "name": "Sofia Kenin",
+   "country": "USA",
+   "pts": 1610
+  },
+  {
+   "rank": 35,
+   "name": "Marketa Vondrousova",
+   "country": "CZE",
+   "pts": 1590
+  },
+  {
+   "rank": 36,
+   "name": "Peyton Stearns",
+   "country": "USA",
+   "pts": 1545
+  },
+  {
+   "rank": 37,
+   "name": "Anastasia Potapova",
+   "country": "RUS",
+   "pts": 1520
+  },
+  {
+   "rank": 38,
+   "name": "Caroline Garcia",
+   "country": "FRA",
+   "pts": 1490
+  },
+  {
+   "rank": 39,
+   "name": "Sloane Stephens",
+   "country": "USA",
+   "pts": 1455
+  },
+  {
+   "rank": 40,
+   "name": "Bianca Andreescu",
+   "country": "CAN",
+   "pts": 1430
+  },
+  {
+   "rank": 41,
+   "name": "Naomi Osaka",
+   "country": "JPN",
+   "pts": 1405
+  },
+  {
+   "rank": 42,
+   "name": "Sorana Cirstea",
+   "country": "ROU",
+   "pts": 1380
+  },
+  {
+   "rank": 43,
+   "name": "Linda Noskova",
+   "country": "CZE",
+   "pts": 1355
+  },
+  {
+   "rank": 44,
+   "name": "Katerina Siniakova",
+   "country": "CZE",
+   "pts": 1330
+  },
+  {
+   "rank": 45,
+   "name": "Irina Begu",
+   "country": "ROU",
+   "pts": 1300
+  },
+  {
+   "rank": 46,
+   "name": "Sara Sorribes Tormo",
+   "country": "ESP",
+   "pts": 1275
+  },
+  {
+   "rank": 47,
+   "name": "Lucia Bronzetti",
+   "country": "ITA",
+   "pts": 1250
+  },
+  {
+   "rank": 48,
+   "name": "Viktoriya Tomova",
+   "country": "BUL",
+   "pts": 1225
+  },
+  {
+   "rank": 49,
+   "name": "Anna Blinkova",
+   "country": "RUS",
+   "pts": 1200
+  },
+  {
+   "rank": 50,
+   "name": "Xinyu Wang",
+   "country": "CHN",
+   "pts": 1175
+  },
+  {
+   "rank": 51,
+   "name": "Harriet Dart",
+   "country": "GBR",
+   "pts": 1150
+  },
+  {
+   "rank": 52,
+   "name": "Ajla Tomljanovic",
+   "country": "AUS",
+   "pts": 1125
+  },
+  {
+   "rank": 53,
+   "name": "Jaqueline Cristian",
+   "country": "ROU",
+   "pts": 1100
+  },
+  {
+   "rank": 54,
+   "name": "Sara Errani",
+   "country": "ITA",
+   "pts": 1075
+  },
+  {
+   "rank": 55,
+   "name": "Tatjana Maria",
+   "country": "GER",
+   "pts": 1050
+  },
+  {
+   "rank": 56,
+   "name": "Ons Jabeur",
+   "country": "TUN",
+   "pts": 1025
+  },
+  {
+   "rank": 57,
+   "name": "Viktorija Golubic",
+   "country": "SUI",
+   "pts": 1000
+  },
+  {
+   "rank": 58,
+   "name": "Laura Siegemund",
+   "country": "GER",
+   "pts": 975
+  },
+  {
+   "rank": 59,
+   "name": "Maryna Zanevska",
+   "country": "BEL",
+   "pts": 950
+  },
+  {
+   "rank": 60,
+   "name": "Karolina Pliskova",
+   "country": "CZE",
+   "pts": 925
+  },
+  {
+   "rank": 61,
+   "name": "Petra Kvitova",
+   "country": "CZE",
+   "pts": 900
+  },
+  {
+   "rank": 62,
+   "name": "Arantxa Rus",
+   "country": "NED",
+   "pts": 875
+  },
+  {
+   "rank": 63,
+   "name": "Maria Sakkari",
+   "country": "GRE",
+   "pts": 850
+  },
+  {
+   "rank": 64,
+   "name": "Greet Minnen",
+   "country": "BEL",
+   "pts": 825
+  },
+  {
+   "rank": 65,
+   "name": "Gabriela Dabrowski",
+   "country": "CAN",
+   "pts": 800
+  },
+  {
+   "rank": 66,
+   "name": "Ann Li",
+   "country": "USA",
+   "pts": 775
+  },
+  {
+   "rank": 67,
+   "name": "Ashlyn Krueger",
+   "country": "USA",
+   "pts": 750
+  },
+  {
+   "rank": 68,
+   "name": "Diane Parry",
+   "country": "FRA",
+   "pts": 725
+  },
+  {
+   "rank": 69,
+   "name": "Lesia Tsurenko",
+   "country": "UKR",
+   "pts": 700
+  },
+  {
+   "rank": 70,
+   "name": "Clara Burel",
+   "country": "FRA",
+   "pts": 675
+  },
+  {
+   "rank": 71,
+   "name": "Nadia Podoroska",
+   "country": "ARG",
+   "pts": 650
+  },
+  {
+   "rank": 72,
+   "name": "Lauren Davis",
+   "country": "USA",
+   "pts": 625
+  },
+  {
+   "rank": 73,
+   "name": "Danka Kovinic",
+   "country": "MNE",
+   "pts": 600
+  },
+  {
+   "rank": 74,
+   "name": "Rebecca Peterson",
+   "country": "SWE",
+   "pts": 575
+  },
+  {
+   "rank": 75,
+   "name": "Yuliya Hatouka",
+   "country": "BLR",
+   "pts": 550
+  },
+  {
+   "rank": 76,
+   "name": "Camila Osorio",
+   "country": "COL",
+   "pts": 530
+  },
+  {
+   "rank": 77,
+   "name": "Rebeka Masarova",
+   "country": "ESP",
+   "pts": 510
+  },
+  {
+   "rank": 78,
+   "name": "Aliaksandra Sasnovich",
+   "country": "BLR",
+   "pts": 490
+  },
+  {
+   "rank": 79,
+   "name": "Dalma Galfi",
+   "country": "HUN",
+   "pts": 470
+  },
+  {
+   "rank": 80,
+   "name": "Amanda Anisimova",
+   "country": "USA",
+   "pts": 450
+  },
+  {
+   "rank": 81,
+   "name": "Zhu Lin",
+   "country": "CHN",
+   "pts": 430
+  },
+  {
+   "rank": 82,
+   "name": "Hailey Baptiste",
+   "country": "USA",
+   "pts": 420
+  },
+  {
+   "rank": 83,
+   "name": "Victoria Mboko",
+   "country": "CMR",
+   "pts": 410
+  },
+  {
+   "rank": 84,
+   "name": "Alycia Parks",
+   "country": "USA",
+   "pts": 400
+  },
+  {
+   "rank": 85,
+   "name": "Suzan Lamens",
+   "country": "NED",
+   "pts": 390
+  },
+  {
+   "rank": 86,
+   "name": "Alexandra Eala",
+   "country": "PHI",
+   "pts": 380
+  },
+  {
+   "rank": 87,
+   "name": "Elsa Jacquemot",
+   "country": "FRA",
+   "pts": 370
+  },
+  {
+   "rank": 88,
+   "name": "Monica Niculescu",
+   "country": "ROU",
+   "pts": 360
+  },
+  {
+   "rank": 89,
+   "name": "Irina Bara",
+   "country": "ROU",
+   "pts": 350
+  },
+  {
+   "rank": 90,
+   "name": "Olga Danilovic",
+   "country": "SRB",
+   "pts": 340
+  },
+  {
+   "rank": 91,
+   "name": "Tamara Korpatsch",
+   "country": "GER",
+   "pts": 330
+  },
+  {
+   "rank": 92,
+   "name": "Eva Lys",
+   "country": "GER",
+   "pts": 320
+  },
+  {
+   "rank": 93,
+   "name": "Alize Cornet",
+   "country": "FRA",
+   "pts": 310
+  },
+  {
+   "rank": 94,
+   "name": "Kaia Kanepi",
+   "country": "EST",
+   "pts": 300
+  },
+  {
+   "rank": 95,
+   "name": "Jil Teichmann",
+   "country": "SUI",
+   "pts": 290
+  },
+  {
+   "rank": 96,
+   "name": "Belinda Bencic",
+   "country": "SUI",
+   "pts": 280
+  },
+  {
+   "rank": 97,
+   "name": "Nuria Parrizas Diaz",
+   "country": "ESP",
+   "pts": 270
+  },
+  {
+   "rank": 98,
+   "name": "Mayar Sherif",
+   "country": "EGY",
+   "pts": 260
+  },
+  {
+   "rank": 99,
+   "name": "Heather Watson",
+   "country": "GBR",
+   "pts": 250
+  },
+  {
+   "rank": 100,
+   "name": "Emma Raducanu",
+   "country": "GBR",
+   "pts": 240
+  },
+  {
+   "rank": 101,
+   "name": "Taylor Townsend",
+   "country": "USA",
+   "pts": 230
+  },
+  {
+   "rank": 102,
+   "name": "Caty McNally",
+   "country": "USA",
+   "pts": 220
+  },
+  {
+   "rank": 103,
+   "name": "Naomi Osaka",
+   "country": "JPN",
+   "pts": 210
+  },
+  {
+   "rank": 104,
+   "name": "Shuko Aoyama",
+   "country": "JPN",
+   "pts": 200
+  },
+  {
+   "rank": 105,
+   "name": "Han Na-lae",
+   "country": "KOR",
+   "pts": 190
+  },
+  {
+   "rank": 106,
+   "name": "Fernanda Contreras Gomez",
+   "country": "MEX",
+   "pts": 180
+  },
+  {
+   "rank": 107,
+   "name": "Renata Zarazua",
+   "country": "MEX",
+   "pts": 170
+  },
+  {
+   "rank": 108,
+   "name": "Emiliana Arango",
+   "country": "COL",
+   "pts": 160
+  },
+  {
+   "rank": 109,
+   "name": "Camila Giorgi",
+   "country": "ITA",
+   "pts": 150
+  },
+  {
+   "rank": 110,
+   "name": "Elisabetta Cocciaretto",
+   "country": "ITA",
+   "pts": 140
+  },
+  {
+   "rank": 111,
+   "name": "Martina Trevisan",
+   "country": "ITA",
+   "pts": 130
+  },
+  {
+   "rank": 112,
+   "name": "Lucia Bronzetti",
+   "country": "ITA",
+   "pts": 120
+  },
+  {
+   "rank": 113,
+   "name": "Linda Fruhvirtova",
+   "country": "CZE",
+   "pts": 110
+  },
+  {
+   "rank": 114,
+   "name": "Brenda Fruhvirtova",
+   "country": "CZE",
+   "pts": 100
+  },
+  {
+   "rank": 115,
+   "name": "Dayana Yastremska",
+   "country": "UKR",
+   "pts": 95
+  },
+  {
+   "rank": 116,
+   "name": "Ajla Tomljanovic",
+   "country": "AUS",
+   "pts": 90
+  },
+  {
+   "rank": 117,
+   "name": "Storm Sanders",
+   "country": "AUS",
+   "pts": 85
+  },
+  {
+   "rank": 118,
+   "name": "Petra Martic",
+   "country": "CRO",
+   "pts": 80
+  },
+  {
+   "rank": 119,
+   "name": "Donna Vekic",
+   "country": "CRO",
+   "pts": 75
+  },
+  {
+   "rank": 120,
+   "name": "Jovana Jovanovic",
+   "country": "SRB",
+   "pts": 70
+  },
+  {
+   "rank": 121,
+   "name": "Nina Stojanovic",
+   "country": "SRB",
+   "pts": 65
+  },
+  {
+   "rank": 122,
+   "name": "Tamara Zidansek",
+   "country": "SLO",
+   "pts": 60
+  },
+  {
+   "rank": 123,
+   "name": "Polona Hercog",
+   "country": "SLO",
+   "pts": 55
+  },
+  {
+   "rank": 124,
+   "name": "Chantal Skamlova",
+   "country": "SVK",
+   "pts": 50
+  },
+  {
+   "rank": 125,
+   "name": "Kirsten Flipkens",
+   "country": "BEL",
+   "pts": 45
+  }
+ ]
+}
