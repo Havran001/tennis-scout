@@ -1622,6 +1622,7 @@ const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textCon
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
 sh.getElementById('load')?.remove();
 sh.getElementById('itfs')?.remove();
+goView('home');
 render();
 // .mg jsou nyní v DOM — skryj je, home view je aktivní
 sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
