@@ -872,7 +872,7 @@ function buildPlayersTab(sh){
     h+='</div>';
     wrap.innerHTML=h;
     
-;(function(){
+;(function(wrap){
   var favs=JSON.parse(localStorage.getItem('ts_favs')||'[]');
   var starON='<svg viewBox="0 0 24 24" width="19" height="19" style="display:block;pointer-events:none"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="#FFD700" stroke="#e6b800" stroke-width="1.5" stroke-linejoin="round"/></svg>';
   var starOFF='<svg viewBox="0 0 24 24" width="19" height="19" style="display:block;pointer-events:none"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.8" stroke-linejoin="round"/></svg>';
@@ -882,7 +882,7 @@ function buildPlayersTab(sh){
     var btn=document.createElement('button');
     btn.className='ts-fav';
     btn.dataset.mid=mid;
-    btn.title='Oblíbený zápas';
+    btn.title='Oblibeny zapas';
     btn.innerHTML=on?starON:starOFF;
     btn.style.cssText='background:none;border:none;padding:2px 3px;cursor:pointer;display:flex;align-items:center;flex-shrink:0;opacity:'+(on?'1':'0.35')+';transition:opacity .2s';
     btn.onmouseenter=function(){this.style.opacity='1';};
@@ -1291,7 +1291,7 @@ function renderMatches(data){
     h+='</div>';
     wrap.innerHTML=h;
     
-;(function(){
+;(function(wrap){
   var favs=JSON.parse(localStorage.getItem('ts_favs')||'[]');
   var starON='<svg viewBox="0 0 24 24" width="19" height="19" style="display:block;pointer-events:none"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="#FFD700" stroke="#e6b800" stroke-width="1.5" stroke-linejoin="round"/></svg>';
   var starOFF='<svg viewBox="0 0 24 24" width="19" height="19" style="display:block;pointer-events:none"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.8" stroke-linejoin="round"/></svg>';
@@ -1301,7 +1301,7 @@ function renderMatches(data){
     var btn=document.createElement('button');
     btn.className='ts-fav';
     btn.dataset.mid=mid;
-    btn.title='Oblíbený zápas';
+    btn.title='Oblibeny zapas';
     btn.innerHTML=on?starON:starOFF;
     btn.style.cssText='background:none;border:none;padding:2px 3px;cursor:pointer;display:flex;align-items:center;flex-shrink:0;opacity:'+(on?'1':'0.35')+';transition:opacity .2s';
     btn.onmouseenter=function(){this.style.opacity='1';};
