@@ -843,6 +843,16 @@ function buildPlayersTab(sh){
     h+='<select id="ps-s" style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.5);font-size:10px;padding:4px 8px;border-radius:6px;cursor:pointer;outline:none;">';
     [["rank","Ranking"],["pts","Body"],["age","Věk"],["height","Výška"],["name","Jméno"]].forEach(function(x){h+='<option value="'+x[0]+'"'+(pO===x[0]?" selected":"")+'>'+x[1]+'</option>';});
     h+='</select><span style="font-size:9px;color:rgba(255,255,255,0.2);">'+(q?total+"/":"")+ATP.length+' hráčů</span></div></div>';
+    // Vlajkové filtry — top 20 zemí
+    h+='<div style="display:flex;gap:5px;align-items:center;padding:8px 0 10px;border-bottom:1px solid rgba(255,255,255,0.06);flex-wrap:wrap;">';
+    var top20=['USA','ITA','FRA','ESP','GER','ARG','GBR','JPN','RUS','AUS','BRA','CHN','SUI','IND','CZE','NED','ROU','POL','SRB','KOR'];
+    h+='<button data-cf="ALL" style="padding:3px 10px;border-radius:12px;font-size:10px;font-weight:700;cursor:pointer;transition:all .1s;border:1px solid '+(pC==="ALL"?"#00C853":"rgba(255,255,255,0.1)")+';background:'+(pC==="ALL"?"rgba(0,200,83,0.15)":"transparent")+';color:'+(pC==="ALL"?"#00C853":"rgba(255,255,255,0.4)")+';">Vše</button>';
+    top20.forEach(function(c){
+      var on=pC===c;
+      var fl=countryFlag(c);
+      h+='<button data-cf="'+c+'" title="'+c+'" style="padding:3px 8px;border-radius:12px;font-size:13px;cursor:pointer;transition:all .1s;border:1px solid '+(on?"#00C853":"rgba(255,255,255,0.08)")+';background:'+(on?"rgba(0,200,83,0.12)":"transparent")+';color:'+(on?"#00C853":"rgba(255,255,255,0.7)")+';min-width:34px;text-align:center;">'+fl+'</button>';
+    });
+    h+='</div>';
     // Tabulka — nové sloupce
     h+='<table style="width:100%;border-collapse:collapse;margin-top:4px;"><thead><tr style="background:rgba(255,255,255,0.02);">';
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:left;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:40px;">#</th>';
@@ -1039,6 +1049,16 @@ function buildPlayersTab(sh){
   // Country dropdown handler
   var ccEl=wrap.querySelector('#ps-cc');
   if(ccEl)ccEl.addEventListener('change',function(){pC=ccEl.value;pP=0;rP();});
+  // Flag button handlers
+  wrap.querySelectorAll('button[data-cf]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      pC=btn.dataset.cf;
+      // Also sync the country dropdown
+      var ccEl2=wrap.querySelector('#ps-cc');
+      if(ccEl2)ccEl2.value=pC;
+      pP=0;rP();
+    });
+  });
 
 var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1)_b.style.color='#FFD700';});}
     var inp=wrap.querySelector("#ps-i");
@@ -1443,6 +1463,16 @@ function renderMatches(data){
   // Country dropdown handler
   var ccEl=wrap.querySelector('#ps-cc');
   if(ccEl)ccEl.addEventListener('change',function(){pC=ccEl.value;pP=0;rP();});
+  // Flag button handlers
+  wrap.querySelectorAll('button[data-cf]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      pC=btn.dataset.cf;
+      // Also sync the country dropdown
+      var ccEl2=wrap.querySelector('#ps-cc');
+      if(ccEl2)ccEl2.value=pC;
+      pP=0;rP();
+    });
+  });
 
 var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1)_b.style.color='#FFD700';});}
     wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){var _dv=btn.dataset.day,_d=(_dv==='fav'?'fav':parseInt(_dv));var _i=activeDay.indexOf(_d);if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}else{if(_dv==='fav'){activeDay=['fav'];}else{var _fi=activeDay.indexOf('fav');if(_fi>=0)activeDay.splice(_fi,1);activeDay.push(_d);}}render();});});
