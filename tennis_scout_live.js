@@ -1648,20 +1648,22 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     });
   }
 
+  var _fetching=false;
   async function tick(){
+    if(_fetching)return;
+    _fetching=true;
     try{
       var data=await loadData();
       _lastUpdated=data.updated||new Date().toISOString();
       _lastData=data;
       renderMatches(data);
     }catch(e){
-      // On error: keep showing last good data, don't blank the screen
       if(_lastData){renderMatches(_lastData);}
       else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⚠️ '+e.message+'</div>';}
-    }
+    }finally{_fetching=false;}
   }
   function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
-  wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,1000);};
+  wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
   return wrap;
 }
