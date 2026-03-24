@@ -292,12 +292,14 @@ async function fetchPlayers(onProgress){
         age=today.getFullYear()-y-(today<new Date(today.getFullYear(),m,d)?1:0);
       }
       return {
-        rank:p.rank,name:p.name,
+        rank:p.rank,name:p.name,full_name:p.full_name||p.name,
         country:(p.country||'').toUpperCase(),
         pts:p.pts,id:p.id,
         age:age,
         hand:(sack&&sack.hand&&sack.hand!=='U')?sack.hand:null,
-        height:(sack&&sack.height)||null
+        height:(sack&&sack.height)||null,
+        ch:p.ch||null,
+        ch_date:p.ch_date||null
       };
     });
     onProgress&&onProgress('Hráči ATP načteni: '+window.ATP_PLAYERS.length);
