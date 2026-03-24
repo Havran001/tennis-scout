@@ -108,13 +108,27 @@ except Exception as e:
     print(f'  Error loading atp_players.csv: {e}')
 
 # ── STEP 4: Apply Career High to players ──────────────────────
+# Also include 20s file (has more recent data up to ~2024)
 matched = 0
+today = str(date.today())
 for p in all_players:
     full_lower = (p.get('full_name') or p['name']).lower()
     sack_id = sack_players.get(full_lower)
     if sack_id and sack_id in career_high:
-        p['ch'], p['ch_date'] = career_high[sack_id]
+        sack_ch, sack_date = career_high[sack_id]
+        # Compare with current rank — current rank may be better (Sackmann may be outdated)
+        current_rank = p['rank']
+        if current_rank <= sack_ch:
+            p['ch'] = current_rank
+            p['ch_date'] = today
+        else:
+            p['ch'] = sack_ch
+            p['ch_date'] = sack_date
         matched += 1
+    else:
+        # No Sackmann match — use current rank as best known
+        p['ch'] = p['rank']
+        p['ch_date'] = today
 
 print(f'Career High matched: {matched}/{len(all_players)}')
 
