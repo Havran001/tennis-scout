@@ -862,6 +862,7 @@ function buildPlayersTab(sh){
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:50px;">RUKA</th>';
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:60px;">VÝŠKA</th>';
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:right;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:80px;">BODY</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:90px;">CAREER HIGH</th>';
     h+='</tr></thead><tbody>';
     if(!pg.length)h+='<tr><td colspan="8" style="padding:40px;text-align:center;color:rgba(255,255,255,0.2);">Nic nenalezeno</td></tr>';
     pg.forEach(function(p,idx){
@@ -870,7 +871,7 @@ function buildPlayersTab(sh){
       var flag=countryFlag(p.country||"");
       var handIcon=p.hand==="L"?'🤚 L':'R';
       var handColor=p.hand==="L"?"#60a5fa":"rgba(255,255,255,0.35)";
-      h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'" data-pid="'+p.id+'" data-pname="'+p.name+'" data-country="'+p.country+'" data-rank="'+p.rank+'" data-pts="'+p.pts+'" data-age="'+(p.age||'')+'" data-hand="'+(p.hand||'')+'" data-height="'+(p.height||'')+'">';
+      h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'" data-pid="'+p.id+'" data-pname="'+p.name+'" data-country="'+p.country+'" data-rank="'+p.rank+'" data-pts="'+p.pts+'" data-age="'+(p.age||'')+'" data-hand="'+(p.hand||'')+'" data-height="'+(p.height||'')+'" data-ch="'+(p.ch||'')+'" data-ch-date="'+(p.ch_date||'')+'">';
       h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.25);">'+p.rank+'</td>';
       h+='<td style="padding:7px 8px;font-size:12px;font-weight:600;color:#e6edf3;display:flex;align-items:center;gap:6px;">'+(flag?flag+' ':'')+hl(p.name,q)+(url&&url!='#'?' <a href="'+url+'" target="_blank" onclick="event.stopPropagation()" title="ATP profil" style="display:inline-flex;align-items:center;flex-shrink:0;opacity:0.5;text-decoration:none;transition:opacity .15s;""><img src="https://www.atptour.com/favicon.ico" width="13" height="13" style="display:block;border-radius:2px;"/></a>':'')+'</td>';
       h+='<td style="padding:7px 8px;text-align:center;font-size:16px;" title="'+(p.country||"")+'">'+flag+'<div style="font-size:8px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(p.country||"-")+'</div></td>';
@@ -878,6 +879,12 @@ function buildPlayersTab(sh){
       h+='<td style="padding:7px 8px;text-align:center;font-size:11px;color:'+handColor+';font-weight:600;">'+(p.hand||"-")+'</td>';
       h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.5);text-align:center;">'+(p.height?p.height+" cm":"-")+'</td>';
       h+='<td style="padding:7px 8px;font-size:12px;color:#00C853;text-align:right;font-weight:700;">'+(p.pts?p.pts.toLocaleString("cs-CZ"):"-")+'</td>';
+      var chVal=p.ch?'#'+p.ch:'—';
+      var chDate=p.ch_date?p.ch_date.substring(0,7):'';
+      h+='<td style="padding:7px 8px;text-align:center;font-size:11px;">'
+        +(p.ch?'<span style="color:#f59e0b;font-weight:700;">'+chVal+'</span><div style="font-size:9px;color:rgba(255,255,255,0.25);margin-top:1px;">'+chDate+'</div>'
+          :'<span style="color:rgba(255,255,255,0.2);">—</span>')
+        +'</td>';
       
       h+='</tr>';
     });
