@@ -8,10 +8,8 @@
 <body>
 <script>
 (async function(){
-  var r=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js',{cache:'no-store'});
-  var d=await r.json();
-  var bytes=Uint8Array.from(atob(d.content.replace(/\n/g,'')),function(c){return c.charCodeAt(0);});
-  var code=new TextDecoder('utf-8').decode(bytes);
+  var r=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?v='+Date.now(),{cache:'no-store'});
+  var code=await r.text();
   eval(code);
 })();
 </script>
