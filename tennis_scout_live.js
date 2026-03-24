@@ -1511,7 +1511,7 @@ function renderMatches(data){
     var _fo=(activeDay.indexOf('fav')>=0);
     h+='<button data-day="fav" style="padding:5px 16px;border-radius:7px;border:1px solid '+(_fo?'#FFD700':'rgba(255,255,255,.1)')+';background:'+(_fo?'rgba(255,215,0,.12)':'transparent')+';color:'+(_fo?'#FFD700':'rgba(255,255,255,.4)')+';font-size:12px;cursor:pointer;margin-left:4px;font-weight:'+(_fo?700:400)+';">&#9733; Obl&#237;ben&#233;</button>';
     h+='<div style="margin-left:auto;display:flex;align-items:center;gap:6px;">';
-    if(data.src==='github'){var _upd=data.updated?new Date(data.updated).getTime():NaN;var age=isNaN(_upd)?null:Math.round((Date.now()-_upd)/1000);if(age!==null&&age>120)h+='<span style="font-size:9px;color:rgba(255,140,0,.7);">⚠️ '+age+'s stará data — live na flashscore.com</span>';}
+    if(data.src==='github'){var _upd=data.updated?new Date(data.updated).getTime():NaN;var age=isNaN(_upd)?null:Math.round((Date.now()-_upd)/60);if(age!==null&&age>60)h+='<span style="font-size:9px;color:rgba(255,140,0,.7);">⚠️ data '+age+'min stará — spusť skript na flashscore.com</span>';}
     if(_lastUpdated)h+='<span style="font-size:9px;color:rgba(255,255,255,.2);">♥ '+_lastUpdated.slice(11,16)+'</span>';
     h+='<span style="width:6px;height:6px;background:#00C853;border-radius:50%;display:inline-block;"></span>';
     h+='</div></div>';
