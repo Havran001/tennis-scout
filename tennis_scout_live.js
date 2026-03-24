@@ -1,4 +1,4 @@
-// ================================================================
+==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
 // ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
 // ITF M15/M25/W15/W35+: live API itftennis.com (načítá se při spuštění)
@@ -838,7 +838,7 @@ function buildPlayersTab(sh){
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:50px;">RUKA</th>';
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:60px;">VÝŠKA</th>';
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:right;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:80px;">BODY</th>';
-    h+='<th style="width:24px;border-bottom:1px solid rgba(255,255,255,0.06);"></th></tr></thead><tbody>';
+    h+='</tr></thead><tbody>';
     if(!pg.length)h+='<tr><td colspan="8" style="padding:40px;text-align:center;color:rgba(255,255,255,0.2);">Nic nenalezeno</td></tr>';
     pg.forEach(function(p,idx){
       var url=p.id?"https://www.atptour.com/en/players/p/"+p.id+"/overview":"#";
@@ -848,7 +848,7 @@ function buildPlayersTab(sh){
       var handColor=p.hand==="L"?"#60a5fa":"rgba(255,255,255,0.35)";
       h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'" data-pid="'+p.id+'" data-pname="'+p.name+'" data-country="'+p.country+'" data-rank="'+p.rank+'" data-pts="'+p.pts+'" data-age="'+(p.age||'')+'" data-hand="'+(p.hand||'')+'" data-height="'+(p.height||'')+'">';
       h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.25);">'+p.rank+'</td>';
-      h+='<td style="padding:7px 8px;font-size:12px;font-weight:600;color:#e6edf3;">'+(flag?flag+' ':'')+hl(p.name,q)+'</td>';
+      h+='<td style="padding:7px 8px;font-size:12px;font-weight:600;color:#e6edf3;display:flex;align-items:center;gap:6px;">'+(flag?flag+' ':'')+hl(p.name,q)+(url&&url!='#'?' <a href="'+url+'" target="_blank" onclick="event.stopPropagation()" title="ATP profil" style="display:inline-flex;align-items:center;flex-shrink:0;opacity:0.5;text-decoration:none;transition:opacity .15s;" onmouseover="this.style.opacity=\'1\'" onmouseout="this.style.opacity=\'0.5\'"><img src="https://www.atptour.com/favicon.ico" width="13" height="13" style="display:block;border-radius:2px;"/></a>':'')+'</td>';
       h+='<td style="padding:7px 8px;text-align:center;font-size:16px;" title="'+(p.country||"")+'">'+flag+'<div style="font-size:8px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(p.country||"-")+'</div></td>';
       h+='<td style="padding:7px 8px;font-size:12px;color:rgba(255,255,255,0.6);text-align:center;">'+(p.age||"-")+'</td>';
       h+='<td style="padding:7px 8px;text-align:center;font-size:11px;color:'+handColor+';font-weight:600;">'+(p.hand||"-")+'</td>';
