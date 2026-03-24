@@ -1034,10 +1034,7 @@ function buildPlayersTab(sh){
       // ── MATCHES SECTION ────────────────────────────────────
       var matchesHTML='<div id="pp-matches-section" style="display:none;flex:1;padding:28px 32px;">'
         +'<div style="text-align:center;padding:60px;color:rgba(255,255,255,0.2);">'
-          +'<div style="font-size:36px;margin-bottom:12px;">&#127955;</div>'
-          +'<div style="font-size:14px;font-weight:600;color:rgba(255,255,255,0.3);">Historie zápasů</div>'
-          +'<div style="font-size:12px;color:rgba(255,255,255,0.15);margin-top:6px;">Data budou doplňena později</div>'
-        +'</div>'
+          +'<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; Načítám historii zápasů...</div>'
       +'</div>';
 
       pg.innerHTML=headerHTML+notesHTML+matchesHTML;
@@ -1075,9 +1072,96 @@ function buildPlayersTab(sh){
           var which=tab.dataset.tab;
           sh.getElementById('pp-notes-section').style.display=which==='notes'?'block':'none';
           sh.getElementById('pp-matches-section').style.display=which==='matches'?'block':'none';
+          if(which==='matches'){_loadMatchHistory(pid,pname,sh);}
         });
       });
 
+      // ── MATCH HISTORY ───────────────────────────────────────────
+      function _loadMatchHistory(pid,pname,sh){
+        var sec=sh.getElementById('pp-matches-section');
+        if(!sec)return;
+        if(sec.dataset.loaded===pid)return; // already loaded for this player
+        sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; Načítám...</div>';
+        var RAW='https://raw.githubusercontent.com/Havran001/tennis-scout/main/';
+        fetch(RAW+'player_history/'+pid+'.json?v='+Date.now())
+        .then(function(r){return r.ok?r.json():null;})
+        .then(function(hist){
+          // Also get live matches from _lastData
+          var liveMatches=[];
+          if(window._matchesData){
+            var days=window._matchesData.days||{};
+            [-1,0,1].forEach(function(d){
+              (days[d]||[]).forEach(function(m){
+                var p1=(m.p1||'').toLowerCase(),p2=(m.p2||'').toLowerCase();
+                var pn=(pname||'').toLowerCase().split(' ').pop();
+                if(p1.includes(pn)||p2.includes(pn)){
+                  var isW=(p1.includes(pn)&&(m.sets1||0)>(m.sets2||0))||(p2.includes(pn)&&(m.sets2||0)>(m.sets1||0));
+                  var opp=p1.includes(pn)?m.p2:m.p1;
+                  var score=(p1.includes(pn)?(m.sets1+'-'+m.sets2):(m.sets2+'-'+m.sets1));
+                  var d2=new Date();d2.setDate(d2.getDate()+d);
+                  var ds=d2.toISOString().slice(0,10).replace(/-/g,'');
+                  liveMatches.push({date:ds,tournament:m.tournament||'',surface:m.surface||'',level:'live',round:m.round||'',result:(m.status==='ended'?(isW?'W':'L'):'Live'),opponent:opp,score:score,best_of:'3',rank:'',opp_rank:''});
+                }
+              });
+            });
+          }
+          var all=(hist?hist.matches:[]).concat(liveMatches);
+          all.sort(function(a,b){return b.date.localeCompare(a.date);});
+          if(all.length===0){
+            sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy k dispozici</div>';
+            sec.dataset.loaded=pid;return;
+          }
+          // Surface colors
+          var SC={Hard:'#2196F3',Clay:'#FF7043',Grass:'#4CAF50',Carpet:'#9C27B0',Indoor:'#607D8B'};
+          // Round abbreviations
+          var RC={F:'F',SF:'SF',QF:'QF',R16:'R16',R32:'R32',R64:'R64',R128:'R128',RR:'RR',BR:'BR'};
+          // Level labels
+          var LC={G:'Grand Slam',M:'Masters 1000',A:'ATP 500',B:'ATP 250',D:'Davis Cup',F:'Finals',C:'Challenger',S:'Satellite',live:'LIVE'};
+          var h='<div style="padding:0 20px 40px;">';
+          var lastYear='',lastTournKey='';
+          all.forEach(function(m){
+            var year=m.date?m.date.substring(0,4):'';
+            var dateStr=m.date?m.date.substring(0,4)+'-'+m.date.substring(4,6)+'-'+m.date.substring(6,8):'';
+            if(year!==lastYear){
+              if(lastYear)h+='</div>';
+              h+='<div style="margin-top:20px;padding:6px 0;font-size:11px;font-weight:700;color:rgba(255,255,255,.3);letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,.05);">'+year+'</div><div>';
+              lastYear=year;
+            }
+            var tournKey=m.date+m.tournament;
+            var isNewTourn=tournKey!==lastTournKey;
+            lastTournKey=tournKey;
+            if(isNewTourn){
+              var sc=SC[m.surface]||'#555';
+              var lv=LC[m.level]||m.level||'';
+              h+='<div style="margin-top:10px;display:flex;align-items:center;gap:6px;margin-bottom:4px;">'
+               +'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:'+sc+';flex-shrink:0;"></span>'
+               +'<span style="font-size:11px;font-weight:600;color:rgba(255,255,255,.6);">'+m.tournament+'</span>'
+               +(lv?'<span style="font-size:9px;color:rgba(255,255,255,.25);margin-left:2px;">'+lv+'</span>':'')
+               +'</div>';
+            }
+            var isW=m.result==='W',isL=m.result==='L',isLive=m.result==='Live';
+            var badge=isW?'<span style="color:#00C853;font-size:10px;font-weight:700;min-width:16px;">W</span>'
+                     :isL?'<span style="color:#F44336;font-size:10px;font-weight:700;min-width:16px;">L</span>'
+                     :'<span style="color:#FF9800;font-size:10px;font-weight:700;min-width:16px;">●</span>';
+            var rankStr=m.rank?'<span style="font-size:9px;color:rgba(255,255,255,.2);">#'+m.rank+'</span>':'';
+            var oppRankStr=m.opp_rank?'<span style="font-size:9px;color:rgba(255,255,255,.2);">#'+m.opp_rank+'</span>':'';
+            h+='<div style="display:flex;align-items:center;gap:8px;padding:4px 0 4px 14px;border-bottom:1px solid rgba(255,255,255,.03);">'
+             +badge
+             +'<span style="font-size:9px;color:rgba(255,255,255,.25);min-width:28px;">'+( RC[m.round]||m.round||'')+'</span>'
+             +'<span style="font-size:11px;color:rgba(255,255,255,.7);flex:1;">'+m.opponent+'</span>'
+             +oppRankStr
+             +'<span style="font-size:11px;color:rgba(255,255,255,.5);font-family:monospace;">'+m.score+'</span>'
+             +rankStr
+             +'</div>';
+          });
+          if(lastYear)h+='</div>';
+          h+='</div>';
+          sec.innerHTML=h;
+          sec.dataset.loaded=pid;
+        }).catch(function(){
+          sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Nepodařilo se načíst historii zápasů</div>';
+        });
+      }
       // ── SAVE NOTES ────────────────────────────────────────
       // ── NOTES SYSTEM ────────────────────────────────────────────
       function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
