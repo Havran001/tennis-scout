@@ -170,7 +170,24 @@ with ThreadPoolExecutor(max_workers=15) as executor:
         if done % 200 == 0:
             print(f'  ATP fetch: {done}/{len(all_players)}')
 
-# ── STEP 6: Save ──────────────────────────────────────────────
+# ── STEP 6: Apply manual overrides ───────────────────────────
+OVERRIDES_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/career_high_overrides.json'
+try:
+    r = requests.get(OVERRIDES_URL, timeout=10)
+    overrides_data = r.json().get('overrides', {})
+    override_count = 0
+    for p in all_players:
+        pid = p.get('id', '')
+        if pid in overrides_data:
+            ov = overrides_data[pid]
+            p['ch'] = ov['ch']
+            p['ch_date'] = ov['ch_date']
+            override_count += 1
+    print(f'Applied {override_count} manual overrides')
+except Exception as e:
+    print(f'Overrides not loaded: {e}')
+
+# ── STEP 7: Save ──────────────────────────────────────────────
 players = sorted(all_players, key=lambda p: (p['rank'], p['name']))
 result = {'items': players, 'updated': today, 'total': len(players)}
 with open('atp_players.json', 'w') as f:
