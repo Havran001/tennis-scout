@@ -148,7 +148,8 @@ for sid, player in active_sack_ids.items():
         'total': len(matches),
         'matches': matches
     }
-    fname = f'{OUT_DIR}/{sid}.json'
+    atp_id = player.get('id','')
+    fname = f'{OUT_DIR}/{atp_id}.json' if atp_id else f'{OUT_DIR}/{sid}.json'
     with open(fname, 'w') as f:
         json.dump(out, f, separators=(',', ':'))
     saved += 1
