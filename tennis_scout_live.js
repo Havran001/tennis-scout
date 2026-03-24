@@ -913,7 +913,14 @@ function buildPlayersTab(sh){
       var handTxt=hand==='L'?'Levák ✋':'Pravák';
       var handColor=hand==='L'?'#60a5fa':'rgba(255,255,255,0.5)';
       var notesKey='ts_notes_'+pid;
-      var notes=localStorage.getItem(notesKey)||'';
+      var notesRaw=localStorage.getItem(notesKey);
+      var notesList=[];
+      try{
+        var parsed=JSON.parse(notesRaw);
+        if(Array.isArray(parsed))notesList=parsed;
+        else if(typeof parsed==='string'&&parsed)notesList=[{id:Date.now(),text:parsed,date:new Date().toISOString().slice(0,10),source:''}];
+        else if(notesRaw&&typeof notesRaw==='string')notesList=[{id:Date.now(),text:notesRaw,date:new Date().toISOString().slice(0,10),source:''}];
+      }catch(e){if(notesRaw)notesList=[{id:Date.now(),text:notesRaw,date:new Date().toISOString().slice(0,10),source:''}];}
 
       // Remove existing player page
       var existing=sh.getElementById('player-page');
@@ -976,13 +983,49 @@ function buildPlayersTab(sh){
       +'</div>';
 
       // ── NOTES SECTION ─────────────────────────────────────
-      var notesHTML='<div id="pp-notes-section" style="flex:1;padding:28px 32px;">'
-        +'<div style="max-width:700px;">'
-          +'<div style="font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;">Mé poznámky</div>'
-          +'<textarea id="pp-notes-ta" placeholder="Zapiš si poznámky k hráči... (taktika, forma, sázení...)" style="width:100%;min-height:220px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:10px;color:#e6edf3;font-size:13px;line-height:1.7;padding:14px 16px;resize:vertical;outline:none;font-family:inherit;box-sizing:border-box;">'+notes+'</textarea>'
-          +'<div style="display:flex;align-items:center;gap:10px;margin-top:10px;">'
-            +'<button id="pp-save-btn" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;border-radius:8px;padding:8px 20px;font-size:12px;font-weight:700;cursor:pointer;letter-spacing:0.5px;">Uložit</button>'
-            +'<span id="pp-save-status" style="font-size:11px;color:rgba(255,255,255,0.25);"></span>'
+      var notesHTML='<div id="pp-notes-section" style="flex:1;padding:28px 32px;overflow-y:auto;">'
+        +'<div style="max-width:720px;">'
+          // Header + Add button
+          +'<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">'
+            +'<div style="font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:2px;text-transform:uppercase;">Mé poznámky</div>'
+            +'<button id="pp-add-note-btn" style="background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.3);color:#00C853;border-radius:8px;padding:6px 14px;font-size:11px;font-weight:700;cursor:pointer;">+ Přidat poznámku</button>'
+          +'</div>'
+          // New note form (hidden by default)
+          +'<div id="pp-note-form" style="display:none;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:16px;margin-bottom:16px;">'
+            +'<div style="display:flex;gap:8px;margin-bottom:8px;">'
+              +'<div style="flex:1;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Datum</div>'
+                +'<input id="pp-note-date" type="date" value="'+new Date().toISOString().slice(0,10)+'" style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;outline:none;width:100%;box-sizing:border-box;"/>'
+              +'</div>'
+              +'<div style="flex:2;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Zdroj</div>'
+                +'<input id="pp-note-source" type="text" placeholder="např. flashscore, vlastní pozorování..." style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;outline:none;width:100%;box-sizing:border-box;"/>'
+              +'</div>'
+            +'</div>'
+            +'<textarea id="pp-note-text" placeholder="Text poznámky..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:8px;color:#e6edf3;font-size:13px;line-height:1.6;padding:10px 12px;resize:vertical;outline:none;font-family:inherit;box-sizing:border-box;"></textarea>'
+            +'<div style="display:flex;gap:8px;margin-top:8px;">'
+              +'<button id="pp-note-save-btn" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;border-radius:8px;padding:7px 18px;font-size:12px;font-weight:700;cursor:pointer;">Uložit</button>'
+              +'<button id="pp-note-cancel-btn" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:8px;padding:7px 14px;font-size:12px;cursor:pointer;">Zrušit</button>'
+              +'<span id="pp-note-edit-id" style="display:none;"></span>'
+            +'</div>'
+          +'</div>'
+          // Notes list
+          +'<div id="pp-notes-list">'
+            +(notesList.length===0?'<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>':
+              notesList.slice().reverse().map(function(n){
+                return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
+                  +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
+                    +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
+                    +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+                    +'<div style="margin-left:auto;display:flex;gap:6px;">'
+                      +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
+                      +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
+                    +'</div>'
+                  +'</div>'
+                  +'<div style="font-size:13px;color:#e6edf3;line-height:1.6;white-space:pre-wrap;">'+n.text+'</div>'
+                +'</div>';
+              }).join('')
+            )
           +'</div>'
         +'</div>'
       +'</div>';
@@ -1035,22 +1078,85 @@ function buildPlayersTab(sh){
       });
 
       // ── SAVE NOTES ────────────────────────────────────────
-      sh.getElementById('pp-save-btn').onclick=function(){
-        var txt=sh.getElementById('pp-notes-ta').value;
-        localStorage.setItem(notesKey,txt);
-        var st=sh.getElementById('pp-save-status');
-        st.textContent='✓ Uloženo';
-        st.style.color='#00C853';
-        setTimeout(function(){st.textContent='';},2000);
+      // ── NOTES SYSTEM ────────────────────────────────────────────
+      function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
+      function _renderNotes(){
+        var list=sh.getElementById('pp-notes-list');
+        if(!list)return;
+        if(notesList.length===0){list.innerHTML='<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>';return;}
+        list.innerHTML=notesList.slice().reverse().map(function(n){
+          return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
+            +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
+              +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
+              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+              +'<div style="margin-left:auto;display:flex;gap:6px;">'
+                +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
+                +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
+              +'</div>'
+            +'</div>'
+            +'<div style="font-size:13px;color:#e6edf3;line-height:1.6;white-space:pre-wrap;">'+n.text+'</div>'
+          +'</div>';
+        }).join('');
+        _bindNoteActions();
+      }
+      function _bindNoteActions(){
+        sh.querySelectorAll('.pp-del-note').forEach(function(btn){
+          btn.onclick=function(e){
+            e.stopPropagation();
+            if(!confirm('Smazat tuto poznámku?'))return;
+            var nid=parseInt(btn.dataset.nid);
+            notesList=notesList.filter(function(n){return n.id!==nid;});
+            _saveNotes();_renderNotes();
+          };
+        });
+        sh.querySelectorAll('.pp-edit-note').forEach(function(btn){
+          btn.onclick=function(e){
+            e.stopPropagation();
+            var nid=parseInt(btn.dataset.nid);
+            var n=notesList.find(function(x){return x.id===nid;});
+            if(!n)return;
+            var form=sh.getElementById('pp-note-form');
+            form.style.display='block';
+            sh.getElementById('pp-note-date').value=n.date||'';
+            sh.getElementById('pp-note-source').value=n.source||'';
+            sh.getElementById('pp-note-text').value=n.text||'';
+            sh.getElementById('pp-note-edit-id').textContent=nid;
+            sh.getElementById('pp-note-text').focus();
+          };
+        });
+      }
+      sh.getElementById('pp-add-note-btn').onclick=function(){
+        var form=sh.getElementById('pp-note-form');
+        form.style.display='block';
+        sh.getElementById('pp-note-date').value=new Date().toISOString().slice(0,10);
+        sh.getElementById('pp-note-source').value='';
+        sh.getElementById('pp-note-text').value='';
+        sh.getElementById('pp-note-edit-id').textContent='';
+        sh.getElementById('pp-note-text').focus();
       };
-
-      // Auto-save on Ctrl+S
-      sh.getElementById('pp-notes-ta').addEventListener('keydown',function(e){
-        if((e.ctrlKey||e.metaKey)&&e.key==='s'){
-          e.preventDefault();
-          sh.getElementById('pp-save-btn').click();
+      sh.getElementById('pp-note-cancel-btn').onclick=function(){
+        sh.getElementById('pp-note-form').style.display='none';
+      };
+      sh.getElementById('pp-note-save-btn').onclick=function(){
+        var txt=sh.getElementById('pp-note-text').value.trim();
+        if(!txt)return;
+        var date=sh.getElementById('pp-note-date').value;
+        var source=sh.getElementById('pp-note-source').value.trim();
+        var editId=sh.getElementById('pp-note-edit-id').textContent;
+        if(editId){
+          var nid=parseInt(editId);
+          var n=notesList.find(function(x){return x.id===nid;});
+          if(n){n.text=txt;n.date=date;n.source=source;}
+        }else{
+          notesList.push({id:Date.now(),text:txt,date:date,source:source});
         }
+        _saveNotes();_renderNotes();
+        sh.getElementById('pp-note-form').style.display='none';
+      };
+      sh.getElementById('pp-note-text').addEventListener('keydown',function(e){
+        if((e.ctrlKey||e.metaKey)&&e.key==='Enter'){sh.getElementById('pp-note-save-btn').click();}
       });
+      _bindNoteActions();
     });
   });
   // Rank range handler
