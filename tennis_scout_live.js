@@ -907,7 +907,7 @@ function buildPlayersTab(sh){
   wrap.querySelectorAll('tr.pr').forEach(function(row){
     row.addEventListener('click',function(){
       var pid=row.dataset.pid,pname=row.dataset.pname,pfull=row.dataset.fullname||row.dataset.pname,country=row.dataset.country;
-      var rank=row.dataset.rank,pts=row.dataset.pts,age=row.dataset.age;
+      var rank=row.dataset.rank,pts=row.dataset.pts,age=row.dataset.age,pch=row.dataset.ch,pchDate=row.dataset.chDate;
       var hand=row.dataset.hand,height=row.dataset.height,url=row.dataset.url;
       var flag=countryFlag(country);
       var handTxt=hand==='L'?'Levák ✋':'Pravák';
@@ -960,7 +960,12 @@ function buildPlayersTab(sh){
                 +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Hraje</div>'
                 +'<div style="font-size:15px;font-weight:600;color:'+handColor+';">'+handTxt+'</div>'
               +'</div>':'')
-              +(url&&url!='#'?'<a href="'+url+'" target="_blank" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;">'
+              +(pch?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Career High</div>'
+                +'<div style="font-size:20px;font-weight:700;color:#f59e0b;">#'+'+pch+'</div>'
+                +(pchDate?'<div style="font-size:9px;color:rgba(255,255,255,0.3);margin-top:1px;">'+pchDate.substring(0,7)+'</div>':'')
+              +'</div>':'')
+              ++(url&&url!='#'?'<a href="'+url+'" target="_blank" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;">'
                 +'<img src="https://www.atptour.com/favicon.ico" width="16" height="16" style="border-radius:2px;"/>'
                 +'<div style="font-size:9px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-transform:uppercase;">ATP</div>'
               +'</a>':'')
