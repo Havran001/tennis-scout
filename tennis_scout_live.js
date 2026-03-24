@@ -937,7 +937,6 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     wrap.querySelectorAll("tr.pr").forEach(function(tr){
       tr.addEventListener("mouseover",function(){tr.style.background="rgba(0,200,83,0.05)";});
       tr.addEventListener("mouseout",function(){tr.style.background="";});
-      tr.addEventListener("click",function(){if(tr.dataset.url&&tr.dataset.url!="#")window.open(tr.dataset.url,"_blank");});
     });
   }
   wrap.render=rP;
