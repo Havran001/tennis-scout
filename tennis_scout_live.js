@@ -846,7 +846,7 @@ function buildPlayersTab(sh){
       var flag=countryFlag(p.country||"");
       var handIcon=p.hand==="L"?'🤚 L':'R';
       var handColor=p.hand==="L"?"#60a5fa":"rgba(255,255,255,0.35)";
-      h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'">';
+      h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'" data-pid="'+p.id+'" data-pname="'+p.name+'" data-country="'+p.country+'" data-rank="'+p.rank+'" data-pts="'+p.pts+'" data-age="'+(p.age||'')+'" data-hand="'+(p.hand||'')+'" data-height="'+(p.height||'')+'">';
       h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.25);">'+p.rank+'</td>';
       h+='<td style="padding:7px 8px;font-size:12px;font-weight:600;color:#e6edf3;">'+(flag?flag+' ':'')+hl(p.name,q)+'</td>';
       h+='<td style="padding:7px 8px;text-align:center;font-size:16px;" title="'+(p.country||"")+'">'+flag+'<div style="font-size:8px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(p.country||"-")+'</div></td>';
@@ -870,6 +870,43 @@ function buildPlayersTab(sh){
     }
     h+='</div>';
     wrap.innerHTML=h;
+  // Player card click handler
+  wrap.querySelectorAll('tr.pr').forEach(function(row){
+    row.addEventListener('click',function(){
+      var pname=row.dataset.pname,country=row.dataset.country;
+      var rank=row.dataset.rank,pts=row.dataset.pts;
+      var age=row.dataset.age,hand=row.dataset.hand,height=row.dataset.height;
+      var url=row.dataset.url;
+      var flag=countryFlag(country);
+      var existing=sh.getElementById('player-card-overlay');
+      if(existing)existing.remove();
+      var ov=document.createElement('div');
+      ov.id='player-card-overlay';
+      ov.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:9999;display:flex;align-items:center;justify-content:center;';
+      var tiles='';
+      tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Rank</div><div style="font-size:24px;font-weight:700;color:#00C853;">#'+rank+'</div></div>';
+      tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Body</div><div style="font-size:24px;font-weight:700;color:#e6edf3;">'+Number(pts).toLocaleString()+'</div></div>';
+      if(age)tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Věk</div><div style="font-size:20px;font-weight:600;color:#e6edf3;">'+age+' let</div></div>';
+      if(height)tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Výška</div><div style="font-size:20px;font-weight:600;color:#e6edf3;">'+height+' cm</div></div>';
+      if(hand)tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Hraje</div><div style="font-size:16px;font-weight:600;color:'+(hand==='L'?'#60a5fa':'rgba(255,255,255,0.6)')+'">'+(hand==='L'?'Levák ✋':'Pravák')+'</div></div>';
+      ov.innerHTML='<div style="background:#161b22;border:1px solid rgba(255,255,255,0.12);border-radius:16px;padding:28px 32px;min-width:320px;max-width:420px;width:90%;position:relative;box-shadow:0 24px 64px rgba(0,0,0,0.6);">'
+        +'<button id="pc-close" style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,0.4);font-size:24px;cursor:pointer;line-height:1;">×</button>'
+        +'<div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">'
+          +(flag?'<div style="font-size:44px;line-height:1;">'+flag+'</div>':'')
+          +'<div>'
+            +'<div style="font-size:21px;font-weight:700;color:#e6edf3;">'+pname+'</div>'
+            +'<div style="font-size:12px;color:rgba(255,255,255,0.4);margin-top:3px;">'+country+'</div>'
+          +'</div>'
+        +'</div>'
+        +'<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px;">'+tiles+'</div>'
+        +(url?'<a href="'+url+'" target="_blank" style="display:block;text-align:center;background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.35);color:#00C853;border-radius:8px;padding:11px;text-decoration:none;font-size:13px;font-weight:600;">ATP profil →</a>':'')
+      +'</div>';
+      sh.appendChild(ov);
+      sh.getElementById('pc-close').onclick=function(){ov.remove();};
+      ov.addEventListener('click',function(e){if(e.target===ov)ov.remove();});
+      document.addEventListener('keydown',function _esc(e){if(e.key==='Escape'){ov.remove();document.removeEventListener('keydown',_esc);}});
+    });
+  });
 var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1)_b.style.color='#FFD700';});}
     var inp=wrap.querySelector("#ps-i");
     if(inp){
