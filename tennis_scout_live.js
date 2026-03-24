@@ -761,7 +761,7 @@ function tierCls(t){if(!t)return'';if(t==='Grand Slam')return'tGS';if(t==='Maste
 function buildPlayersTab(sh){
   var wrap=document.createElement("div");
   wrap.id="pw";wrap.style.cssText="display:none;padding:0;";
-  var pS="",pC="ALL",pO="rank",pP=0,PAGE=100;
+  var pS="",pC="ALL",pO="rank",pP=0,PAGE=100,pR="all";
   
   function countryFlag(cc){
     if(!cc||cc.length!==3)return '';
@@ -799,6 +799,7 @@ function buildPlayersTab(sh){
     var f=ATP.filter(function(p){
       if(!p||!p.name)return false;
       if(pC!=="ALL"&&(p.country||"").toUpperCase()!==pC)return false;
+      if(pR!=="all"){var pts=pR.split("-");var lo=parseInt(pts[0]),hi=parseInt(pts[1]);if(p.rank<lo||p.rank>hi)return false;}
       if(q){var n=(p.name||"").toLowerCase();var c=(p.country||"").toLowerCase();var rk=String(p.rank||"");if(!n.includes(q)&&!c.includes(q)&&!rk.startsWith(q))return false;}
       return true;
     });
@@ -822,9 +823,22 @@ function buildPlayersTab(sh){
     if(q&&total>0)h+='<div style="margin-top:5px;font-size:11px;color:#00C853;">✓ Nalezeno '+total+' hráčů</div>';
     if(q&&total===0)h+='<div style="margin-top:5px;font-size:11px;color:rgba(255,100,100,0.7);">✗ Nic pro "'+pS+'"</div>';
     h+='</div>';
-    h+='<div style="display:flex;gap:5px;align-items:center;padding:0 0 10px;border-bottom:1px solid rgba(255,255,255,0.06);flex-wrap:wrap;">';
-    h+='<button data-cf="ALL" style="padding:4px 12px;border-radius:14px;border:1px solid '+(pC==="ALL"?"#00C853":"rgba(255,255,255,0.12)")+';background:'+(pC==="ALL"?"#00C853":"transparent")+';color:'+(pC==="ALL"?"#000":"rgba(255,255,255,0.5)")+';font-size:10px;cursor:pointer;font-weight:700;">Vše</button>';
-    top10.forEach(function(c){var on=pC===c;h+='<button data-cf="'+c+'" style="padding:4px 10px;border-radius:14px;border:1px solid '+(on?"#00C853":"rgba(255,255,255,0.08)")+';background:'+(on?"rgba(0,200,83,0.15)":"transparent")+';color:'+(on?"#00C853":"rgba(255,255,255,0.35)")+';font-size:9px;cursor:pointer;font-weight:600;">'+countryFlag(c)+' '+c+'</button>';});
+    h+='<div style="display:flex;gap:8px;align-items:center;padding:0 0 10px;border-bottom:1px solid rgba(255,255,255,0.06);flex-wrap:wrap;">';
+    // Rank range dropdown
+    h+='<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">';
+    h+='<span style="font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1.5px;">Pořadí</span>';
+    h+='<select id="ps-rr" style="background:#161b22;border:1px solid rgba(255,255,255,0.12);color:#e6edf3;font-size:11px;padding:5px 10px;border-radius:8px;cursor:pointer;outline:none;">';
+    [["all","Všichni hráči"],["1-100","1 - 100"],["101-200","101 - 200"],["201-300","201 - 300"],["301-400","301 - 400"],["401-500","401 - 500"],["1-500","Top 500"],["1-1000","Top 1000"],["1-2500","Top 2500"]].forEach(function(x){h+='<option value="'+x[0]+'"'+(pR===x[0]?" selected":"")+'>'+x[1]+'</option>';});
+    h+='</select></div>';
+    // Country dropdown — all countries alphabetically
+    var allCountries=[...new Set(ATP.map(function(p){return (p.country||"").toUpperCase();}).filter(Boolean))].sort();
+    h+='<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">';
+    h+='<span style="font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1.5px;">Země</span>';
+    h+='<select id="ps-cc" style="background:#161b22;border:1px solid rgba(255,255,255,0.12);color:#e6edf3;font-size:11px;padding:5px 10px;border-radius:8px;cursor:pointer;outline:none;">';
+    h+='<option value="ALL"'+(pC==="ALL"?" selected":"")+'>Všechny země</option>';
+    allCountries.forEach(function(c){var fl=countryFlag(c);h+='<option value="'+c+'"'+(pC===c?" selected":"")+'>'+( fl?fl+" ":"")+c+'</option>';});
+    h+='</select></div>';
+    
     h+='<div style="margin-left:auto;display:flex;align-items:center;gap:8px;">';
     h+='<select id="ps-s" style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.5);font-size:10px;padding:4px 8px;border-radius:6px;cursor:pointer;outline:none;">';
     [["rank","Ranking"],["pts","Body"],["age","Věk"],["height","Výška"],["name","Jméno"]].forEach(function(x){h+='<option value="'+x[0]+'"'+(pO===x[0]?" selected":"")+'>'+x[1]+'</option>';});
@@ -1019,6 +1033,13 @@ function buildPlayersTab(sh){
       });
     });
   });
+  // Rank range handler
+  var rrEl=wrap.querySelector('#ps-rr');
+  if(rrEl)rrEl.addEventListener('change',function(){pR=rrEl.value;pP=0;rP();});
+  // Country dropdown handler
+  var ccEl=wrap.querySelector('#ps-cc');
+  if(ccEl)ccEl.addEventListener('change',function(){pC=ccEl.value;pP=0;rP();});
+
 var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1)_b.style.color='#FFD700';});}
     var inp=wrap.querySelector("#ps-i");
     if(inp){
@@ -1416,6 +1437,13 @@ function renderMatches(data){
     }
     h+='</div>';
     wrap.innerHTML=h;
+  // Rank range handler
+  var rrEl=wrap.querySelector('#ps-rr');
+  if(rrEl)rrEl.addEventListener('change',function(){pR=rrEl.value;pP=0;rP();});
+  // Country dropdown handler
+  var ccEl=wrap.querySelector('#ps-cc');
+  if(ccEl)ccEl.addEventListener('change',function(){pC=ccEl.value;pP=0;rP();});
+
 var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1)_b.style.color='#FFD700';});}
     wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){var _dv=btn.dataset.day,_d=(_dv==='fav'?'fav':parseInt(_dv));var _i=activeDay.indexOf(_d);if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}else{if(_dv==='fav'){activeDay=['fav'];}else{var _fi=activeDay.indexOf('fav');if(_fi>=0)activeDay.splice(_fi,1);activeDay.push(_d);}}render();});});
     wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
