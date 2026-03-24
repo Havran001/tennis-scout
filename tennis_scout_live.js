@@ -1211,9 +1211,52 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
   wrap.render=rP;
   return wrap;
 }
+function _openAtpPlayer(nameRaw,sh){
+  var players=window.ATP_PLAYERS||[];
+  if(!players.length)return;
+  var clean=nameRaw.replace(/\/.*$/,'').trim();
+  var parts=clean.split(/\s+/);
+  var surname=parts[0].toLowerCase().replace(/[^a-zÀ-ɏ]/gi,'');
+  var initial=parts.length>1?parts[parts.length-1].replace('.','').toLowerCase():'';
+  var best=null,bestScore=0;
+  players.forEach(function(p){
+    var fn=(p.full_name||p.name||'').toLowerCase();
+    var sc=0;
+    if(fn.indexOf(surname)>-1)sc=surname.length;
+    if(initial&&fn.split(' ').some(function(w){return w.indexOf(initial)===0;}))sc+=2;
+    if(sc>bestScore){bestScore=sc;best=p;}
+  });
+  if(!best||bestScore<3){
+    var t=document.createElement('div');
+    t.textContent='Hráč "'+nameRaw+'" nenalezen v ATP žebříčku';
+    t.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:rgba(20,20,20,0.95);color:rgba(255,255,255,.7);padding:10px 20px;border-radius:10px;font-size:12px;z-index:99999;pointer-events:none;border:1px solid rgba(255,255,255,.15);';
+    document.body.appendChild(t);setTimeout(function(){t.remove();},2500);
+    return;
+  }
+  var navP=sh.getElementById('nav-players');
+  if(navP)navP.click();
+  function tryOpen(n){
+    var si=sh.querySelector('#ps-i');
+    if(!si){if(n<15)setTimeout(function(){tryOpen(n+1);},100);return;}
+    si.value=best.name||'';
+    si.dispatchEvent(new Event('input',{bubbles:true}));
+    setTimeout(function(){
+      var row=sh.querySelector('tr.pr[data-pid="'+best.id+'"]');
+      if(row){row.click();return;}
+      si.value=(best.full_name||best.name||'').split(' ').slice(-1)[0];
+      si.dispatchEvent(new Event('input',{bubbles:true}));
+      setTimeout(function(){
+        var r2=sh.querySelector('tr.pr[data-pid="'+best.id+'"]');
+        if(r2)r2.click();
+      },350);
+    },350);
+  }
+  tryOpen(0);
+}
 function buildMatchesTab(sh){
   var wrap=document.createElement('div');
   wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
+  wrap.addEventListener('click',function(e){var t=e.target.closest('.mc-plink');if(t){e.stopPropagation();_openAtpPlayer(t.dataset.pname,sh);}});
   var activeDay=[0],activeFilter='all',activeSort='tournament',activeTier='all',activeFormat='all',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
   var isFS=location.hostname.includes('flashscore');
 
@@ -1497,8 +1540,8 @@ function renderMatches(data){
           h+='<button onclick="var f=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27);var id=\x27'+m.id+'\x27;var i=f.indexOf(id);if(i>-1)f.splice(i,1);else f.push(id);localStorage.setItem(\x27ts_favs\x27,JSON.stringify(f));var on=f.indexOf(id)>-1;this.style.color=on?\x27#FFD700\x27:\x27rgba(255,255,255,0.3)\x27;event.stopPropagation()" style="background:none;border:none;cursor:pointer;padding:0 5px;flex-shrink:0;color:rgba(255,255,255,0.3);align-self:stretch;display:flex;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" style="display:block;fill:currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></button>';
           h+='<div style="flex:1;min-width:0;">';
           h+='<div style="font-size:9px;color:'+ti.c+';margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.8;">'+m.tournament+'</div>';
-          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span style="font-size:12px;font-weight:'+(w1||m.serving===1?700:500)+';color:'+(w1?'#e6edf3':'rgba(255,255,255,.35)')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
-          h+='<div style="display:flex;align-items:center;gap:4px;"><span style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w2?'#e6edf3':'rgba(255,255,255,.35)')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:'+(w1||m.serving===1?700:500)+';color:'+(w1?'#e6edf3':'rgba(255,255,255,.35)')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w2?'#e6edf3':'rgba(255,255,255,.35)')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
           h+='</div>';
           // Score
           var scoreH='';if(ns>0){var setsStr='';var _sc1=0,_sc2=0;for(var si=0;si<ns;si++){var sv1=parseInt(m.sets1[si]||0),sv2=parseInt(m.sets2[si]||0);if(sv1>sv2)_sc1++;else if(sv2>sv1)_sc2++;if(setsStr)setsStr+=' ';setsStr+=sv1+':'+sv2;}if(m.isFin&&(_sc1>0||_sc2>0)){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-left:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2+'</span></div>';}}
@@ -1531,8 +1574,8 @@ function renderMatches(data){
           h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#00C853;background:rgba(0,200,83,.15);padding:2px 5px;border-radius:4px;">LIVE</span>':'<span style="font-size:13px;font-weight:600;color:'+('rgba(255,255,255,.35)')+';">'+(m.isFin?'Konec':timeStr(m.ts))+'</span>')+'</div>';
           h+='<button onclick="var f=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27);var id=\x27'+m.id+'\x27;var i=f.indexOf(id);if(i>-1)f.splice(i,1);else f.push(id);localStorage.setItem(\x27ts_favs\x27,JSON.stringify(f));var on=f.indexOf(id)>-1;this.style.color=on?\x27#FFD700\x27:\x27rgba(255,255,255,0.3)\x27;event.stopPropagation()" style="background:none;border:none;cursor:pointer;padding:0 5px;flex-shrink:0;color:rgba(255,255,255,0.3);align-self:stretch;display:flex;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" style="display:block;fill:currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></button>';
           h+='<div style="flex:1;min-width:0;">';
-          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span style="font-size:12px;font-weight:'+(w1||m.serving===1?700:500)+';color:'+(w1?'#e6edf3':'rgba(255,255,255,.35)')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
-          h+='<div style="display:flex;align-items:center;gap:4px;"><span style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w2?'#e6edf3':'rgba(255,255,255,.35)')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:'+(w1||m.serving===1?700:500)+';color:'+(w1?'#e6edf3':'rgba(255,255,255,.35)')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:'+(w2||m.serving===2?700:500)+';color:'+(w2?'#e6edf3':'rgba(255,255,255,.35)')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
           h+='</div>';
           if(m.isFin){var _sc1t=0,_sc2t=0;for(var sit=0;sit<ns;sit++){var sv1t=parseInt((m.sets1||[])[sit]||0),sv2t=parseInt((m.sets2||[])[sit]||0);if(sv1t>sv2t)_sc1t++;else if(sv2t>sv1t)_sc2t++;}if(_sc1t>0||_sc2t>0){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-right:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1t+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2t+'</span></div>';}}
           h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
