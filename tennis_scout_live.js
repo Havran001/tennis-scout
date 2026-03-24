@@ -870,41 +870,153 @@ function buildPlayersTab(sh){
     }
     h+='</div>';
     wrap.innerHTML=h;
-  // Player card click handler
+  // Player page — full screen view
   wrap.querySelectorAll('tr.pr').forEach(function(row){
     row.addEventListener('click',function(){
-      var pname=row.dataset.pname,country=row.dataset.country;
-      var rank=row.dataset.rank,pts=row.dataset.pts;
-      var age=row.dataset.age,hand=row.dataset.hand,height=row.dataset.height;
-      var url=row.dataset.url;
+      var pid=row.dataset.pid,pname=row.dataset.pname,country=row.dataset.country;
+      var rank=row.dataset.rank,pts=row.dataset.pts,age=row.dataset.age;
+      var hand=row.dataset.hand,height=row.dataset.height,url=row.dataset.url;
       var flag=countryFlag(country);
-      var existing=sh.getElementById('player-card-overlay');
+      var handTxt=hand==='L'?'Levák ✋':'Pravák';
+      var handColor=hand==='L'?'#60a5fa':'rgba(255,255,255,0.5)';
+      var notesKey='ts_notes_'+pid;
+      var notes=localStorage.getItem(notesKey)||'';
+
+      // Remove existing player page
+      var existing=sh.getElementById('player-page');
       if(existing)existing.remove();
-      var ov=document.createElement('div');
-      ov.id='player-card-overlay';
-      ov.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:9999;display:flex;align-items:center;justify-content:center;';
-      var tiles='';
-      tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Rank</div><div style="font-size:24px;font-weight:700;color:#00C853;">#'+rank+'</div></div>';
-      tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Body</div><div style="font-size:24px;font-weight:700;color:#e6edf3;">'+Number(pts).toLocaleString()+'</div></div>';
-      if(age)tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Věk</div><div style="font-size:20px;font-weight:600;color:#e6edf3;">'+age+' let</div></div>';
-      if(height)tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Výška</div><div style="font-size:20px;font-weight:600;color:#e6edf3;">'+height+' cm</div></div>';
-      if(hand)tiles+='<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 14px;"><div style="font-size:10px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;">Hraje</div><div style="font-size:16px;font-weight:600;color:'+(hand==='L'?'#60a5fa':'rgba(255,255,255,0.6)')+'">'+(hand==='L'?'Levák ✋':'Pravák')+'</div></div>';
-      ov.innerHTML='<div style="background:#161b22;border:1px solid rgba(255,255,255,0.12);border-radius:16px;padding:28px 32px;min-width:320px;max-width:420px;width:90%;position:relative;box-shadow:0 24px 64px rgba(0,0,0,0.6);">'
-        +'<button id="pc-close" style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,0.4);font-size:24px;cursor:pointer;line-height:1;">×</button>'
-        +'<div style="display:flex;align-items:center;gap:14px;margin-bottom:22px;">'
-          +(flag?'<div style="font-size:44px;line-height:1;">'+flag+'</div>':'')
-          +'<div>'
-            +'<div style="font-size:21px;font-weight:700;color:#e6edf3;">'+pname+'</div>'
-            +'<div style="font-size:12px;color:rgba(255,255,255,0.4);margin-top:3px;">'+country+'</div>'
+
+      // Build full-page container
+      var pg=document.createElement('div');
+      pg.id='player-page';
+      pg.style.cssText='position:fixed;inset:0;background:#0d1117;z-index:9999;display:flex;flex-direction:column;overflow-y:auto;';
+
+      // ── HEADER ────────────────────────────────────────────
+      var photoId=pname.toLowerCase().replace(/ /g,'_');
+      var headerHTML='<div style="background:linear-gradient(180deg,#161b22 0%,#0d1117 100%);border-bottom:1px solid rgba(255,255,255,0.06);padding:20px 32px 0;flex-shrink:0;">'
+        // Back button
+        +'<button id="pp-back" style="background:none;border:none;color:rgba(255,255,255,0.4);font-size:13px;cursor:pointer;padding:0;margin-bottom:16px;display:flex;align-items:center;gap:6px;">&#8592; Zpět na herníče</button>'
+        +'<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'
+          // Photo
+          +'<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'
+            +'<img id="pp-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;" onerror="this.style.display='none';this.nextSibling.style.display='flex';"/>'
+            +'<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:40px;">'+( flag||'👤')+'</div>'
+          +'</div>'
+          // Info
+          +'<div style="flex:1;padding-bottom:20px;">'
+            +'<div style="font-size:11px;color:rgba(255,255,255,0.3);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;">'+country+(flag?' '+flag:'')+'</div>'
+            +'<div style="font-size:28px;font-weight:800;color:#fff;letter-spacing:-0.5px;margin-bottom:14px;">'+pname+'</div>'
+            +'<div style="display:flex;gap:10px;flex-wrap:wrap;">'
+              +'<div style="background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(0,200,83,0.6);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Rank</div>'
+                +'<div style="font-size:22px;font-weight:800;color:#00C853;">#'+rank+'</div>'
+              +'</div>'
+              +'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 16px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Body</div>'
+                +'<div style="font-size:22px;font-weight:700;color:#e6edf3;">'+Number(pts).toLocaleString()+'</div>'
+              +'</div>'
+              +(age?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Věk</div>'
+                +'<div style="font-size:20px;font-weight:700;color:#e6edf3;">'+age+'</div>'
+              +'</div>':'')
+              +(height?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Výška</div>'
+                +'<div style="font-size:20px;font-weight:700;color:#e6edf3;">'+height+' cm</div>'
+              +'</div>':'')
+              +(hand?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Hraje</div>'
+                +'<div style="font-size:15px;font-weight:600;color:'+handColor+';">'+handTxt+'</div>'
+              +'</div>':'')
+              +(url&&url!='#'?'<a href="'+url+'" target="_blank" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;">'
+                +'<img src="https://www.atptour.com/favicon.ico" width="16" height="16" style="border-radius:2px;"/>'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-transform:uppercase;">ATP</div>'
+              +'</a>':'')
+            +'</div>'
           +'</div>'
         +'</div>'
-        +'<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px;">'+tiles+'</div>'
-        +(url?'<a href="'+url+'" target="_blank" style="display:block;text-align:center;background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.35);color:#00C853;border-radius:8px;padding:11px;text-decoration:none;font-size:13px;font-weight:600;">ATP profil →</a>':'')
+        // Tab bar
+        +'<div style="display:flex;gap:0;margin-top:16px;">'
+          +'<div class="pp-tab pp-tab-active" data-tab="notes" style="padding:10px 20px;font-size:12px;font-weight:600;color:#00C853;border-bottom:2px solid #00C853;cursor:pointer;">&#128221; Poznámky</div>'
+          +'<div class="pp-tab" data-tab="matches" style="padding:10px 20px;font-size:12px;font-weight:500;color:rgba(255,255,255,0.4);border-bottom:2px solid transparent;cursor:pointer;">&#127955; Historie zápasů</div>'
+        +'</div>'
       +'</div>';
-      sh.appendChild(ov);
-      sh.getElementById('pc-close').onclick=function(){ov.remove();};
-      ov.addEventListener('click',function(e){if(e.target===ov)ov.remove();});
-      document.addEventListener('keydown',function _esc(e){if(e.key==='Escape'){ov.remove();document.removeEventListener('keydown',_esc);}});
+
+      // ── NOTES SECTION ─────────────────────────────────────
+      var notesHTML='<div id="pp-notes-section" style="flex:1;padding:28px 32px;">'
+        +'<div style="max-width:700px;">'
+          +'<div style="font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;">Mé poznámky</div>'
+          +'<textarea id="pp-notes-ta" placeholder="Zapiš si poznámky k hráči... (taktika, forma, sázení...)" style="width:100%;min-height:220px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:10px;color:#e6edf3;font-size:13px;line-height:1.7;padding:14px 16px;resize:vertical;outline:none;font-family:inherit;box-sizing:border-box;">'+notes+'</textarea>'
+          +'<div style="display:flex;align-items:center;gap:10px;margin-top:10px;">'
+            +'<button id="pp-save-btn" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;border-radius:8px;padding:8px 20px;font-size:12px;font-weight:700;cursor:pointer;letter-spacing:0.5px;">Uložit</button>'
+            +'<span id="pp-save-status" style="font-size:11px;color:rgba(255,255,255,0.25);"></span>'
+          +'</div>'
+        +'</div>'
+      +'</div>';
+
+      // ── MATCHES SECTION ────────────────────────────────────
+      var matchesHTML='<div id="pp-matches-section" style="display:none;flex:1;padding:28px 32px;">'
+        +'<div style="text-align:center;padding:60px;color:rgba(255,255,255,0.2);">'
+          +'<div style="font-size:36px;margin-bottom:12px;">&#127955;</div>'
+          +'<div style="font-size:14px;font-weight:600;color:rgba(255,255,255,0.3);">Historie zápasů</div>'
+          +'<div style="font-size:12px;color:rgba(255,255,255,0.15);margin-top:6px;">Data budou doplňena později</div>'
+        +'</div>'
+      +'</div>';
+
+      pg.innerHTML=headerHTML+notesHTML+matchesHTML;
+      sh.appendChild(pg);
+
+      // ── FETCH PHOTO ───────────────────────────────────────
+      (function(){
+        var wikiName=pname.replace(/ /g,'_');
+        fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(wikiName))
+        .then(function(r){return r.json();})
+        .then(function(data){
+          var imgSrc=data.thumbnail&&data.thumbnail.source;
+          if(imgSrc){
+            var imgEl=sh.getElementById('pp-photo');
+            if(imgEl)imgEl.src=imgSrc;
+          }
+        }).catch(function(){});
+      })();
+
+      // ── BACK BUTTON ───────────────────────────────────────
+      sh.getElementById('pp-back').onclick=function(){pg.remove();};
+      document.addEventListener('keydown',function _esc(e){
+        if(e.key==='Escape'){pg.remove();document.removeEventListener('keydown',_esc);}
+      });
+
+      // ── TABS ──────────────────────────────────────────────
+      pg.querySelectorAll('.pp-tab').forEach(function(tab){
+        tab.addEventListener('click',function(){
+          pg.querySelectorAll('.pp-tab').forEach(function(t){
+            t.style.color='rgba(255,255,255,0.4)';
+            t.style.borderBottomColor='transparent';
+          });
+          tab.style.color='#00C853';
+          tab.style.borderBottomColor='#00C853';
+          var which=tab.dataset.tab;
+          sh.getElementById('pp-notes-section').style.display=which==='notes'?'block':'none';
+          sh.getElementById('pp-matches-section').style.display=which==='matches'?'block':'none';
+        });
+      });
+
+      // ── SAVE NOTES ────────────────────────────────────────
+      sh.getElementById('pp-save-btn').onclick=function(){
+        var txt=sh.getElementById('pp-notes-ta').value;
+        localStorage.setItem(notesKey,txt);
+        var st=sh.getElementById('pp-save-status');
+        st.textContent='✓ Uloženo';
+        st.style.color='#00C853';
+        setTimeout(function(){st.textContent='';},2000);
+      };
+
+      // Auto-save on Ctrl+S
+      sh.getElementById('pp-notes-ta').addEventListener('keydown',function(e){
+        if((e.ctrlKey||e.metaKey)&&e.key==='s'){
+          e.preventDefault();
+          sh.getElementById('pp-save-btn').click();
+        }
+      });
     });
   });
 var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1)_b.style.color='#FFD700';});}
