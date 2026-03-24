@@ -854,7 +854,7 @@ function buildPlayersTab(sh){
       h+='<td style="padding:7px 8px;text-align:center;font-size:11px;color:'+handColor+';font-weight:600;">'+(p.hand||"-")+'</td>';
       h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.5);text-align:center;">'+(p.height?p.height+" cm":"-")+'</td>';
       h+='<td style="padding:7px 8px;font-size:12px;color:#00C853;text-align:right;font-weight:700;">'+(p.pts?p.pts.toLocaleString("cs-CZ"):"-")+'</td>';
-      h+='<td style="padding:4px 8px;text-align:center;">'+(url&&url!='#'?'<a href="'+url+'" target="_blank" onclick="event.stopPropagation()" title="ATP profil" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:5px;background:rgba(0,200,83,0.1);border:1px solid rgba(0,200,83,0.25);color:#00C853;font-size:11px;text-decoration:none;opacity:0.6;" class="atp-link"><img src="https://www.atptour.com/favicon.ico" width="14" height="14" style="display:block;border-radius:2px;" onerror="this.replaceWith(document.createTextNode('↗'))"/></a>':'')+'</td>';
+      h+='<td style="padding:4px 8px;text-align:center;">'+(url&&url!='#'?'<a href="'+url+'" target="_blank" onclick="event.stopPropagation()" title="ATP profil" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:5px;background:rgba(0,200,83,0.1);border:1px solid rgba(0,200,83,0.25);color:#00C853;font-size:11px;text-decoration:none;opacity:0.6;" class="atp-link"><img src="https://www.atptour.com/favicon.ico" width="14" height="14" style="display:block;border-radius:2px;"/></a>':'')+'</td>';
       h+='</tr>';
     });
     h+='</tbody></table>';
