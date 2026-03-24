@@ -899,7 +899,7 @@ function buildPlayersTab(sh){
         +'<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'
           // Photo
           +'<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'
-            +'<img id="pp-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;" onerror="this.style.display='none';this.nextSibling.style.display='flex';"/>'
+            +'<img id="pp-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'
             +'<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:40px;">'+( flag||'👤')+'</div>'
           +'</div>'
           // Info
