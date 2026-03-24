@@ -1644,7 +1644,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     wrap.querySelectorAll('.mrow').forEach(function(row){
       row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,.04)';});
       row.addEventListener('mouseout',function(){row.style.background='transparent';});
-      row.addEventListener('click',function(){if(row.dataset.url)window.open(row.dataset.url,'_blank');});
+      row.addEventListener('click',function(e){if(e.target.closest('.mc-plink'))return;if(row.dataset.url)window.open(row.dataset.url,'_blank');});
     });
   }
 
