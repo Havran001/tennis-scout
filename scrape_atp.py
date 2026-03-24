@@ -56,7 +56,6 @@ for rng in ranges:
         print(f'Error {rng}: {e}')
 
 # ── STEP 2: Career High from Sackmann historical rankings ─────
-# Build map: sackmann_player_id -> (best_rank, best_date)
 print('Loading Sackmann ranking files for Career High...')
 SACK_BASE = 'https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/'
 ranking_files = [
@@ -65,13 +64,12 @@ ranking_files = [
     'atp_rankings_current.csv'
 ]
 
-# career_high[player_id] = (best_rank, best_date_str)
 career_high = {}
 for fname in ranking_files:
     try:
         r = requests.get(SACK_BASE + fname, timeout=30)
         reader = csv.reader(io.StringIO(r.text))
-        next(reader, None)  # skip header: ranking_date,rank,player,points
+        next(reader, None)
         for row in reader:
             if len(row) < 4: continue
             try:
@@ -79,7 +77,6 @@ for fname in ranking_files:
             except:
                 continue
             if pid not in career_high or rnk < career_high[pid][0]:
-                # Format date: 20220912 -> 2022-09-12
                 try:
                     d = rdate.replace('-','')
                     fmt_date = f'{d[:4]}-{d[4:6]}-{d[6:8]}' if len(d) == 8 else rdate
@@ -91,9 +88,8 @@ for fname in ranking_files:
         print(f'  Error loading {fname}: {e}')
 
 # ── STEP 3: Match ATP players to Sackmann IDs ─────────────────
-# Sackmann players CSV: player_id, name_first, name_last, hand, dob, ioc, height
 print('Loading Sackmann player list...')
-sack_players = {}  # full_name_lower -> sackmann_id
+sack_players = {}
 try:
     r = requests.get(SACK_BASE + 'atp_players.csv', timeout=30)
     reader = csv.reader(io.StringIO(r.text))
@@ -107,34 +103,76 @@ try:
 except Exception as e:
     print(f'  Error loading atp_players.csv: {e}')
 
-# ── STEP 4: Apply Career High to players ──────────────────────
-# Also include 20s file (has more recent data up to ~2024)
-matched = 0
+# ── STEP 4: Apply Sackmann Career High ────────────────────────
 today = str(date.today())
+matched_sack = 0
 for p in all_players:
     full_lower = (p.get('full_name') or p['name']).lower()
     sack_id = sack_players.get(full_lower)
     if sack_id and sack_id in career_high:
         sack_ch, sack_date = career_high[sack_id]
-        # Compare with current rank — current rank may be better (Sackmann may be outdated)
-        current_rank = p['rank']
-        if current_rank <= sack_ch:
-            p['ch'] = current_rank
+        # Current rank might be better than outdated Sackmann data
+        if p['rank'] <= sack_ch:
+            p['ch'] = p['rank']
             p['ch_date'] = today
         else:
             p['ch'] = sack_ch
             p['ch_date'] = sack_date
-        matched += 1
+        matched_sack += 1
     else:
-        # No Sackmann match — use current rank as best known
+        # No Sackmann match — use current rank as placeholder
         p['ch'] = p['rank']
         p['ch_date'] = today
+print(f'Sackmann matched: {matched_sack}/{len(all_players)}')
 
-print(f'Career High matched: {matched}/{len(all_players)}')
+# ── STEP 5: Fetch ATP rankings-history to fix post-2024 gaps ──
+# Only fetch for players where current rank < ch (possible improvement)
+# or where we have no Sackmann match
+# rankings-history page has Career High in div.stat SSR-rendered
+print(f'Fetching ATP rankings-history for career high verification...')
 
-# ── STEP 5: Save ──────────────────────────────────────────────
+def fetch_atp_career_high(player):
+    pid = player.get('id','')
+    slug = (player.get('full_name') or '').lower().replace(' ','-')
+    if not pid or not slug:
+        return player
+    try:
+        url = f'https://www.atptour.com/en/players/{slug}/{pid}/rankings-history?year=all'
+        r = requests.get(url, headers=headers, timeout=15)
+        soup = BeautifulSoup(r.text, 'lxml')
+        for stat in soup.select('div.stat'):
+            label = stat.select_one('.stat-label')
+            if label and 'Career High Rank' in label.get_text():
+                # Text node before label = rank number
+                raw = stat.get_text(separator='|').split('|')
+                rank_str = raw[0].strip()
+                try:
+                    ch_rank = int(rank_str)
+                except:
+                    continue
+                # Extract date: "Career High Rank (2022.09.12)"
+                m = re.search(r'\((\d{4})\.(\d{2})\.(\d{2})\)', label.get_text())
+                ch_date = f'{m.group(1)}-{m.group(2)}-{m.group(3)}' if m else today
+                # Only update if ATP says it's better than what we have
+                if player['ch'] is None or ch_rank < player['ch']:
+                    player['ch'] = ch_rank
+                    player['ch_date'] = ch_date
+                break
+    except Exception:
+        pass
+    return player
+
+with ThreadPoolExecutor(max_workers=15) as executor:
+    futures = {executor.submit(fetch_atp_career_high, p): p for p in all_players}
+    done = 0
+    for future in as_completed(futures):
+        done += 1
+        if done % 200 == 0:
+            print(f'  ATP fetch: {done}/{len(all_players)}')
+
+# ── STEP 6: Save ──────────────────────────────────────────────
 players = sorted(all_players, key=lambda p: (p['rank'], p['name']))
-result = {'items': players, 'updated': str(date.today()), 'total': len(players)}
+result = {'items': players, 'updated': today, 'total': len(players)}
 with open('atp_players.json', 'w') as f:
     json.dump(result, f, separators=(',', ':'))
-print(f'Done: {len(players)} players, updated: {date.today()}')
+print(f'Done: {len(players)} players, updated: {today}')
