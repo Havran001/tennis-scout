@@ -873,7 +873,7 @@ function buildPlayersTab(sh){
       var flag=countryFlag(p.country||"");
       var handIcon=p.hand==="L"?'🤚 L':'R';
       var handColor=p.hand==="L"?"#60a5fa":"rgba(255,255,255,0.35)";
-      h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'" data-pid="'+p.id+'" data-pname="'+p.name+'" data-country="'+p.country+'" data-rank="'+p.rank+'" data-pts="'+p.pts+'" data-age="'+(p.age||'')+'" data-hand="'+(p.hand||'')+'" data-height="'+(p.height||'')+'" data-ch="'+(p.ch||'')+'" data-ch-date="'+(p.ch_date||'')+'">';
+      h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'" data-pid="'+p.id+'" data-pname="'+p.name+'" data-fullname="'+(p.full_name||p.name)+'" data-country="'+p.country+'" data-rank="'+p.rank+'" data-pts="'+p.pts+'" data-age="'+(p.age||'')+'" data-hand="'+(p.hand||'')+'" data-height="'+(p.height||'')+'" data-ch="'+(p.ch||'')+'" data-ch-date="'+(p.ch_date||'')+'">';
       h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.25);">'+p.rank+'</td>';
       h+='<td style="padding:7px 8px;font-size:12px;font-weight:600;color:#e6edf3;display:flex;align-items:center;gap:6px;">'+(flag?flag+' ':'')+hl(p.name,q)+(url&&url!='#'?' <a href="'+url+'" target="_blank" onclick="event.stopPropagation()" title="ATP profil" style="display:inline-flex;align-items:center;flex-shrink:0;opacity:0.5;text-decoration:none;transition:opacity .15s;""><img src="https://www.atptour.com/favicon.ico" width="13" height="13" style="display:block;border-radius:2px;"/></a>':'')+'</td>';
       h+='<td style="padding:7px 8px;text-align:center;font-size:16px;" title="'+(p.country||"")+'">'+flag+'<div style="font-size:8px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(p.country||"-")+'</div></td>';
@@ -906,7 +906,7 @@ function buildPlayersTab(sh){
   // Player page — full screen view
   wrap.querySelectorAll('tr.pr').forEach(function(row){
     row.addEventListener('click',function(){
-      var pid=row.dataset.pid,pname=row.dataset.pname,country=row.dataset.country;
+      var pid=row.dataset.pid,pname=row.dataset.pname,pfull=row.dataset.fullname||row.dataset.pname,country=row.dataset.country;
       var rank=row.dataset.rank,pts=row.dataset.pts,age=row.dataset.age;
       var hand=row.dataset.hand,height=row.dataset.height,url=row.dataset.url;
       var flag=countryFlag(country);
@@ -1000,7 +1000,7 @@ function buildPlayersTab(sh){
 
       // ── FETCH PHOTO ───────────────────────────────────────
       (function(){
-        var wikiName=pname.replace(/ /g,'_');
+        var wikiName=pfull.replace(/ /g,'_');
         fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(wikiName))
         .then(function(r){return r.json();})
         .then(function(data){
