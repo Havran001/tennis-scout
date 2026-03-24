@@ -1,4 +1,4 @@
-import requests, json, re
+import requests, json, re, csv, io
 from bs4 import BeautifulSoup
 from datetime import date
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -8,11 +8,11 @@ headers = {
     'Accept-Language': 'en-US,en;q=0.9'
 }
 
+# ── STEP 1: Scrape ATP rankings ───────────────────────────────
 ranges = ['0-100','101-200','201-300','301-400','401-500','501-600','601-700','701-800','801-900','901-1000','1001-1100','1101-1200','1201-1300','1301-1400','1401-1500','1501-5000']
 all_players = []
 seen_ids = set()
 
-# Step 1: Scrape rankings pages
 for rng in ranges:
     try:
         r = requests.get(f'https://www.atptour.com/en/rankings/singles?rankRange={rng}', headers=headers, timeout=20)
@@ -55,46 +55,70 @@ for rng in ranges:
     except Exception as e:
         print(f'Error {rng}: {e}')
 
-# Step 2: Fetch career high from player profiles (parallel, max 10 workers)
-def fetch_career_high(player):
-    pid = player.get('id')
-    slug = player.get('full_name','').lower().replace(' ','-')
-    if not pid or not slug:
-        return player
+# ── STEP 2: Career High from Sackmann historical rankings ─────
+# Build map: sackmann_player_id -> (best_rank, best_date)
+print('Loading Sackmann ranking files for Career High...')
+SACK_BASE = 'https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/'
+ranking_files = [
+    'atp_rankings_70s.csv', 'atp_rankings_80s.csv', 'atp_rankings_90s.csv',
+    'atp_rankings_00s.csv', 'atp_rankings_10s.csv', 'atp_rankings_20s.csv',
+    'atp_rankings_current.csv'
+]
+
+# career_high[player_id] = (best_rank, best_date_str)
+career_high = {}
+for fname in ranking_files:
     try:
-        url = f'https://www.atptour.com/en/players/{slug}/{pid}/overview'
-        r = requests.get(url, headers=headers, timeout=15)
-        soup = BeautifulSoup(r.text, 'lxml')
-        for stat in soup.select('div.stat'):
-            label = stat.select_one('.stat-label')
-            if label and 'Career High Rank' in label.text:
-                # Rank value is text node before the span
-                val = stat.childNodes[0].strip() if hasattr(stat, 'childNodes') else ''
-                # Use BeautifulSoup approach
-                raw = stat.get_text(separator='|').split('|')
-                rank_val = raw[0].strip() if raw else ''
-                # Extract date from label: "Career High Rank (YYYY.MM.DD)"
-                m = re.search(r'\((\d{4}\.\d{2}\.\d{2})\)', label.text)
-                ch_date = m.group(1).replace('.','-') if m else None
+        r = requests.get(SACK_BASE + fname, timeout=30)
+        reader = csv.reader(io.StringIO(r.text))
+        next(reader, None)  # skip header: ranking_date,rank,player,points
+        for row in reader:
+            if len(row) < 4: continue
+            try:
+                rdate, rnk, pid = row[0].strip(), int(row[1].strip()), row[2].strip()
+            except:
+                continue
+            if pid not in career_high or rnk < career_high[pid][0]:
+                # Format date: 20220912 -> 2022-09-12
                 try:
-                    player['ch'] = int(rank_val)
-                    player['ch_date'] = ch_date
+                    d = rdate.replace('-','')
+                    fmt_date = f'{d[:4]}-{d[4:6]}-{d[6:8]}' if len(d) == 8 else rdate
                 except:
-                    pass
-                break
+                    fmt_date = rdate
+                career_high[pid] = (rnk, fmt_date)
+        print(f'  {fname}: {len(career_high)} players with career high')
     except Exception as e:
-        pass
-    return player
+        print(f'  Error loading {fname}: {e}')
 
-print(f'Fetching career high for {len(all_players)} players...')
-with ThreadPoolExecutor(max_workers=10) as executor:
-    futures = {executor.submit(fetch_career_high, p): p for p in all_players}
-    done = 0
-    for future in as_completed(futures):
-        done += 1
-        if done % 100 == 0:
-            print(f'  Career high: {done}/{len(all_players)}')
+# ── STEP 3: Match ATP players to Sackmann IDs ─────────────────
+# Sackmann players CSV: player_id, name_first, name_last, hand, dob, ioc, height
+print('Loading Sackmann player list...')
+sack_players = {}  # full_name_lower -> sackmann_id
+try:
+    r = requests.get(SACK_BASE + 'atp_players.csv', timeout=30)
+    reader = csv.reader(io.StringIO(r.text))
+    next(reader, None)
+    for row in reader:
+        if len(row) < 3: continue
+        pid, first, last = row[0].strip(), row[1].strip(), row[2].strip()
+        full = (first + ' ' + last).strip().lower()
+        sack_players[full] = pid
+    print(f'  Sackmann players: {len(sack_players)}')
+except Exception as e:
+    print(f'  Error loading atp_players.csv: {e}')
 
+# ── STEP 4: Apply Career High to players ──────────────────────
+matched = 0
+for p in all_players:
+    full_lower = (p.get('full_name') or p['name']).lower()
+    sack_id = sack_players.get(full_lower)
+    if sack_id and sack_id in career_high:
+        p['ch'], p['ch_date'] = career_high[sack_id]
+        matched += 1
+
+print(f'Career High matched: {matched}/{len(all_players)}')
+
+# ── STEP 5: Save ──────────────────────────────────────────────
 players = sorted(all_players, key=lambda p: (p['rank'], p['name']))
 result = {'items': players, 'updated': str(date.today()), 'total': len(players)}
 with open('atp_players.json', 'w') as f:
