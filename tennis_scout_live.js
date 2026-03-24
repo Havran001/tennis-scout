@@ -1185,7 +1185,7 @@ function buildMatchesTab(sh){
     if(activeDay.length===1&&activeDay[0]==='fav'){
       var _favIds=JSON.parse(localStorage.getItem('ts_favs')||'[]');
       var _allData=await loadFromFS([-1,0,1]);
-      _allData.matches=(_allData.matches||[]).filter(function(m){return _favIds.indexOf(m.id)>-1;});
+      var _seenIds={};_allData.matches=(_allData.matches||[]).filter(function(m){if(_favIds.indexOf(m.id)<0)return false;if(_seenIds[m.id])return false;_seenIds[m.id]=true;return true;});
       return _allData;
     }
     try{return await loadFromFS(activeDay);}catch(e){
