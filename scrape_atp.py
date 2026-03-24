@@ -1,4 +1,4 @@
-import requests, json, base64, os
+import requests, json
 from bs4 import BeautifulSoup
 from datetime import date
 
@@ -19,7 +19,7 @@ for rng in ranges:
             tds = row.select('td')
             if len(tds) < 3: continue
 
-            # Parse rank — handle "1651T" (tied) by stripping trailing letters
+            # Parse rank — handle "1651T" (tied) by stripping T
             rank_raw = tds[0].get_text(strip=True).replace('T','').replace('t','').strip()
             try:
                 rank = int(rank_raw)
@@ -28,12 +28,18 @@ for rng in ranges:
 
             name_a = tds[1].select_one('li.name a')
             if not name_a: continue
+
+            # Short display name (e.g. "C. Alcaraz")
             name = name_a.get_text(strip=True)
+
+            # Full name from URL slug (e.g. /en/players/carlos-alcaraz/a0e2/overview -> "Carlos Alcaraz")
             href = name_a.get('href', '')
             parts = [p for p in href.split('/') if p]
-            player_id = parts[3] if len(parts) > 3 else ""
+            player_id = parts[3] if len(parts) > 3 else ''
+            slug = parts[2] if len(parts) > 2 else ''
+            full_name = ' '.join(w.capitalize() for w in slug.replace('-', ' ').split()) if slug else name
 
-            # Skip exact duplicate (same id) but allow tied ranks
+            # Skip exact duplicate by player_id
             if player_id and player_id in seen_ids:
                 continue
             if player_id:
@@ -49,13 +55,19 @@ for rng in ranges:
             except:
                 pts = 0
 
-            all_players.append({'rank': rank, 'name': name, 'country': country, 'pts': pts, 'id': player_id})
+            all_players.append({
+                'rank': rank,
+                'name': name,
+                'full_name': full_name,
+                'country': country,
+                'pts': pts,
+                'id': player_id
+            })
 
         print(f'{rng}: {len(all_players)} total')
     except Exception as e:
         print(f'Error {rng}: {e}')
 
-# Sort by rank then name (for tied ranks, maintain alphabetical order as on ATP)
 players = sorted(all_players, key=lambda p: (p['rank'], p['name']))
 result = {'items': players, 'updated': str(date.today()), 'total': len(players)}
 with open('atp_players.json', 'w') as f:
