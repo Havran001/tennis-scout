@@ -1655,10 +1655,12 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       _lastData=data;
       renderMatches(data);
     }catch(e){
-      if(!_lastUpdated)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⚠️ '+e.message+'</div>';
+      // On error: keep showing last good data, don't blank the screen
+      if(_lastData){renderMatches(_lastData);}
+      else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⚠️ '+e.message+'</div>';}
     }
   }
-  function render(){if(_lastData){renderMatches(_lastData);tick();}else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}}
+  function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
   wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,1000);};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
   return wrap;
