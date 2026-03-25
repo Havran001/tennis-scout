@@ -1,9 +1,31 @@
 {
   "player_id": "s0ja",
   "player_name": "Eliot Spizzirri",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:43.618Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:43:16.293Z",
   "matches": [
+    {
+      "date": "20260212",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "J. Pinnington Jones",
+      "score": "6(5)-7(7) 6-4 6(4)-7(7)"
+    },
+    {
+      "date": "20260211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Duckworth",
+      "score": "2-6 4-6"
+    },
     {
       "date": "20260115",
       "tournament": "Auckland",
@@ -269,6 +291,28 @@
       "score": "6-4 6(4)-7(7) 6-2"
     },
     {
+      "date": "20250709",
+      "tournament": "Newport",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Mayo",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250707",
+      "tournament": "Newport",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "E. Zhu",
+      "score": "5-7 2-6"
+    },
+    {
       "date": "20250616",
       "tournament": "Nottingham",
       "surface": "Hard",
@@ -311,6 +355,17 @@
       "result": "L",
       "opponent": "L. Tu",
       "score": "6-4 7-5"
+    },
+    {
+      "date": "20250603",
+      "tournament": "Birmingham",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "L. Tu",
+      "score": "6-3 6-3"
     },
     {
       "date": "20250522",
@@ -377,6 +432,39 @@
       "result": "W",
       "opponent": "L. Harris",
       "score": "6-4 6-3"
+    },
+    {
+      "date": "20250228",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. Daniel",
+      "score": "6(2)-7(7) 6-0 6-4"
+    },
+    {
+      "date": "20250227",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Martin",
+      "score": "6-1 1-6 4-6"
+    },
+    {
+      "date": "20250225",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Hernandez",
+      "score": "3-6 1-6"
     },
     {
       "date": "20250202",
@@ -500,6 +588,28 @@
       "score": "4-6 3-6"
     },
     {
+      "date": "20241023",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "B. Holt",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20241022",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Martin",
+      "score": "6-0 6-3"
+    },
+    {
       "date": "20240922",
       "tournament": "Charleston",
       "surface": "Hard",
@@ -531,6 +641,28 @@
       "result": "W",
       "opponent": "J. De Loore",
       "score": "5-7 6(5)-7(7)"
+    },
+    {
+      "date": "20240805",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "Y. Takahashi",
+      "score": "7(9)-6(7) 7(7)-6(2)"
+    },
+    {
+      "date": "20240804",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Nefve",
+      "score": "6-3 7(7)-6(1)"
     },
     {
       "date": "20240717",
