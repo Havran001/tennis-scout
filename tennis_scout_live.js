@@ -1121,7 +1121,7 @@ function buildPlayersTab(sh){
           // Sestav unikátní hodnoty pro filtry
           var _allTournaments=[...new Set(all.map(function(m){return m.tournament||'';}).filter(Boolean))].sort();
           var _allSurfaces=[...new Set(all.map(function(m){return m.surface||'';}).filter(Boolean))].sort();
-          var _allOpponents=[...new Set(all.map(function(m){return m.opponent||'';}).filter(Boolean))].sort();
+          var _allOpponents=[...new Set(all.map(function(m){return m.opponent||'';}).filter(Boolean))].sort(function(a,b){var _la=a.split(' ').pop()||a;var _lb=b.split(' ').pop()||b;return _la.localeCompare(_lb);});
 
           // Filtrační stav
           var _fTournament='',_fSurface='',_fOpponent='',_fResult='';
