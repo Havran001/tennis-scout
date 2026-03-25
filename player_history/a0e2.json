@@ -1,8 +1,8 @@
 {
   "player_id": "a0e2",
   "player_name": "Carlos Alcaraz",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:21:39.495Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:40:36.790Z",
   "matches": [
     {
       "date": "20251116",
@@ -25,6 +25,17 @@
       "result": "W",
       "opponent": "F. Auger-Aliassime",
       "score": "6-2 6-4"
+    },
+    {
+      "date": "20251016",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. Fritz",
+      "score": "6-4 6-2"
     },
     {
       "date": "20250930",
@@ -102,6 +113,39 @@
       "result": "W",
       "opponent": "B. Van De Zandschulp",
       "score": "7(7)-6(3) 3-6 6-1"
+    },
+    {
+      "date": "20241019",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "F",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "J. Sinner",
+      "score": "7(7)-6(5) 3-6 3-6"
+    },
+    {
+      "date": "20241017",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "R. Nadal",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20241016",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "H. Rune",
+      "score": "4-6 2-6"
     },
     {
       "date": "20241002",
