@@ -1,8 +1,8 @@
 {
   "player_id": "d0f6",
   "player_name": "Gabriel Diallo",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:22:35.808Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:41:51.287Z",
   "matches": [
     {
       "date": "20260217",
@@ -14,6 +14,17 @@
       "result": "L",
       "opponent": "A. Walton",
       "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20260210",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "B. Shelton",
+      "score": "6-4 6-4"
     },
     {
       "date": "20260113",
@@ -938,6 +949,39 @@
       "result": "L",
       "opponent": "Y. Shimizu",
       "score": "6-4 3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20230208",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "E. Gomez",
+      "score": "4-6 7(7)-6(5) 6(5)-7(7)"
+    },
+    {
+      "date": "20230206",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "B. Holt",
+      "score": "6(8)-7(10) 6(5)-7(7)"
+    },
+    {
+      "date": "20230205",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Muniz Hidalgo",
+      "score": "4-6 3-6"
     },
     {
       "date": "20230101",
