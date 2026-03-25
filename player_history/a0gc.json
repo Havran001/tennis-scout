@@ -1,8 +1,8 @@
 {
   "player_id": "a0gc",
   "player_name": "Terence Atmane",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:00.982Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:42:23.285Z",
   "matches": [
     {
       "date": "20260218",
@@ -25,6 +25,17 @@
       "result": "W",
       "opponent": "P. Kypson",
       "score": "3-6 6-2 4-6"
+    },
+    {
+      "date": "20260210",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "F. Tiafoe",
+      "score": "4-6 6-2 6-2"
     },
     {
       "date": "20260112",
@@ -159,6 +170,17 @@
       "score": "7(7)-6(4) 6-3"
     },
     {
+      "date": "20250601",
+      "tournament": "Birmingham",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "G. Hussey",
+      "score": "3-6 6-4 6-3"
+    },
+    {
       "date": "20250430",
       "tournament": "Guangzhou",
       "surface": "Hard",
@@ -256,6 +278,17 @@
       "result": "L",
       "opponent": "J. Duckworth",
       "score": "6(5)-7(7) 6(4)-7(7)"
+    },
+    {
+      "date": "20250224",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "G. Nanda",
+      "score": "7(7)-6(5) 4-6 7-5"
     },
     {
       "date": "20250215",
@@ -542,6 +575,28 @@
       "result": "L",
       "opponent": "R. Albot",
       "score": "5-7 4-6"
+    },
+    {
+      "date": "20240205",
+      "tournament": "ATP Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "S. Johnson",
+      "score": "6-3 6(4)-7(7) 6-4"
+    },
+    {
+      "date": "20240204",
+      "tournament": "ATP Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. S. Kwiatkowski",
+      "score": "4-6 7(7)-6(2) 6-2"
     },
     {
       "date": "20240109",
