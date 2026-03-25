@@ -1,8 +1,8 @@
 {
   "player_id": "s0gd",
   "player_name": "Dalibor Svrcina",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:24:14.275Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:43:59.317Z",
   "matches": [
     {
       "date": "20260316",
@@ -14,6 +14,28 @@
       "result": "L",
       "opponent": "D. Merida Aguilar",
       "score": "7(7)-6(1) 4-6 6(6)-7(8)"
+    },
+    {
+      "date": "20260312",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Blockx",
+      "score": "7(7)-6(3) 6(8)-7(10) 6-3"
+    },
+    {
+      "date": "20260311",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Garin",
+      "score": "4-6 4-6"
     },
     {
       "date": "20260303",
@@ -267,6 +289,28 @@
       "result": "W",
       "opponent": "S. Shin",
       "score": "6-3 6-0"
+    },
+    {
+      "date": "20240918",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "D. Yevseyev",
+      "score": "0-6 6-4 6-4"
+    },
+    {
+      "date": "20240917",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "R. Albot",
+      "score": "6-3 1-6 1-6"
     },
     {
       "date": "20240730",
