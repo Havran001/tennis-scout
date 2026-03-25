@@ -1,8 +1,8 @@
 {
   "player_id": "pl56",
   "player_name": "Tommy Paul",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:22:13.302Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:41:23.285Z",
   "matches": [
     {
       "date": "20260222",
@@ -58,6 +58,28 @@
       "result": "W",
       "opponent": "C. Moutet",
       "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20260213",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "M. Kecmanovic",
+      "score": "5-7 6-4 6-4"
+    },
+    {
+      "date": "20260211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Brooksby",
+      "score": "4-6 6-4 7(7)-6(4)"
     },
     {
       "date": "20260116",
@@ -124,6 +146,28 @@
       "result": "W",
       "opponent": "G. Diallo",
       "score": "2-6 2-6"
+    },
+    {
+      "date": "20250207",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "E. Quinn",
+      "score": "6-4 5-7 6-4"
+    },
+    {
+      "date": "20250204",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Brooksby",
+      "score": "6(6)-7(8) 6-3 6-4"
     },
     {
       "date": "20241023",
