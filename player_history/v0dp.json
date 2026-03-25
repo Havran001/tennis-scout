@@ -1,1 +1,112 @@
-{"player_id":"v0dp","sack_id":"209226","name":"Adolfo Daniel Vallejo","total":0,"matches":[]}
+{
+  "player_id": "v0dp",
+  "player_name": "Adolfo Daniel Vallejo",
+  "source": "sackmann+goalserve",
+  "updated": "2026-03-25T18:56:36.901Z",
+  "matches": [
+    {
+      "date": "20260115",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "result": "L",
+      "opponent": "A. Gea",
+      "score": "2-6 2-6",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260114",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "result": "W",
+      "opponent": "F. Cina",
+      "score": "4-6 6-2 6-3",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "result": "W",
+      "opponent": "R. Pacheco Mendez",
+      "score": "6-1 6-2",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20250107",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "result": "L",
+      "opponent": "Y. Uchiyama",
+      "score": "6-4 3-6 4-6",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20210917",
+      "tournament": "Davis Cup WG2 R1: SLO vs PAR",
+      "surface": "Clay",
+      "level": "B",
+      "round": "RR",
+      "result": "L",
+      "opponent": "T. Kocevar Desman",
+      "score": "2-6 2-6",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "688"
+    },
+    {
+      "date": "20200306",
+      "tournament": "Davis Cup WG2 PO: PAR vs SRI",
+      "surface": "Clay",
+      "level": "B",
+      "round": "RR",
+      "result": "W",
+      "opponent": "S. Dissanayake",
+      "score": "6-4 6-4",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20200306",
+      "tournament": "Davis Cup WG2 PO: PAR vs SRI",
+      "surface": "Clay",
+      "level": "B",
+      "round": "RR",
+      "result": "W",
+      "opponent": "T. Sanjaya Wijemanne",
+      "score": "6-1 6-1",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20190914",
+      "tournament": "Davis Cup G2 R1: MEX vs PAR",
+      "surface": "Clay",
+      "level": "B",
+      "round": "RR",
+      "result": "L",
+      "opponent": "M. Sanchez",
+      "score": "3-6 2-6",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "830"
+    }
+  ]
+}
