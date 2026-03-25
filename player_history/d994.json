@@ -1,8 +1,8 @@
 {
   "player_id": "d994",
   "player_name": "James Duckworth",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:44.916Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:43:18.288Z",
   "matches": [
     {
       "date": "20260319",
@@ -14,6 +14,17 @@
       "result": "L",
       "opponent": "R. Bautista-Agut",
       "score": "7(7)-6(3) 7(7)-6(4)"
+    },
+    {
+      "date": "20260211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "E. Spizzirri",
+      "score": "6-2 6-4"
     },
     {
       "date": "20260113",
@@ -146,6 +157,17 @@
       "result": "W",
       "opponent": "J. Boulais",
       "score": "6-3 6-1"
+    },
+    {
+      "date": "20250707",
+      "tournament": "Newport",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "P. Maloney",
+      "score": "2-6 6(5)-7(7)"
     },
     {
       "date": "20250625",
@@ -289,6 +311,39 @@
       "result": "L",
       "opponent": "N. Basavareddy",
       "score": "4-6 2-6"
+    },
+    {
+      "date": "20250205",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "C. Ruud",
+      "score": "7-5 4-6 6-2"
+    },
+    {
+      "date": "20250202",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "E. Quinn",
+      "score": "7(7)-6(4) 7-5"
+    },
+    {
+      "date": "20250201",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "E. Hadigian",
+      "score": "6-1 6-1"
     },
     {
       "date": "20241228",
