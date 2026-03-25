@@ -1145,8 +1145,10 @@ function buildPlayersTab(sh){
                      :'<span style="color:#FF9800;font-size:10px;font-weight:700;min-width:16px;">●</span>';
             var rankStr=m.rank?'<span style="font-size:9px;color:rgba(255,255,255,.2);">#'+m.rank+'</span>':'';
             var oppRankStr=m.opp_rank?'<span style="font-size:9px;color:rgba(255,255,255,.2);">#'+m.opp_rank+'</span>':'';
+            var _dd=m.date&&m.date.length>=8?m.date.slice(6,8)+'.'+m.date.slice(4,6)+'.'+m.date.slice(0,4):'';
             h+='<div style="display:flex;align-items:center;gap:8px;padding:4px 0 4px 14px;border-bottom:1px solid rgba(255,255,255,.03);">'
              +badge
+             +'<span style="font-size:9px;color:rgba(255,255,255,.18);min-width:66px;flex-shrink:0;letter-spacing:0.3px;">'+_dd+'</span>'
              +'<span style="font-size:9px;color:rgba(255,255,255,.25);min-width:28px;">'+( RC[m.round]||m.round||'')+'</span>'
              +'<span style="font-size:11px;color:rgba(255,255,255,.7);flex:1;">'+m.opponent+'</span>'
              +oppRankStr
