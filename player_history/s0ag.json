@@ -1,8 +1,8 @@
 {
   "player_id": "s0ag",
   "player_name": "Jannik Sinner",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:21:41.092Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:40:39.287Z",
   "matches": [
     {
       "date": "20251116",
@@ -82,6 +82,28 @@
       "score": "6-0 6-2"
     },
     {
+      "date": "20251016",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "N. Djokovic",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20251015",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "S. Tsitsipas",
+      "score": "2-6 3-6"
+    },
+    {
       "date": "20250619",
       "tournament": "Halle",
       "surface": "Hard",
@@ -124,6 +146,39 @@
       "result": "W",
       "opponent": "C. Ruud",
       "score": "6-1 6-2"
+    },
+    {
+      "date": "20241019",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "F",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Alcaraz",
+      "score": "6(5)-7(7) 6-3 6-3"
+    },
+    {
+      "date": "20241017",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "N. Djokovic",
+      "score": "2-6 7(7)-6(0) 4-6"
+    },
+    {
+      "date": "20241016",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Medvedev",
+      "score": "0-6 3-6"
     },
     {
       "date": "20241002",
