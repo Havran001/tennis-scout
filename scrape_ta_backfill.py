@@ -35,10 +35,22 @@ def scrape_player(slug, player_last_name):
     url = f'https://www.tennisabstract.com/cgi-bin/player.cgi?p={slug}'
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
+        if slug == 'CarlosAlcaraz':
+            print(f'  TA_STATUS:{r.status_code} LEN:{len(r.text)}')
+            # Find first date-like string in HTML
+            import re as _re
+            dates = _re.findall(r'\d{2}-[A-Za-z]{3}-20\d{2}', r.text[:5000])
+            print(f'  TA_DATES_SAMPLE:{dates[:5]}')
+            # Show first 200 chars of a table row
+            row_sample = _re.search(r'<tr[^>]*>.*?</tr>', r.text, _re.DOTALL)
+            if row_sample:
+                print(f'  TA_ROW_SAMPLE:{row_sample.group()[:200]}')
         if r.status_code != 200 or len(r.text) < 2000:
             return []
         html = r.text
-    except Exception:
+    except Exception as e:
+        if slug == 'CarlosAlcaraz':
+            print(f'  TA_ERROR:{e}')
         return []
 
     matches = []
