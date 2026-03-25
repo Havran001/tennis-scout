@@ -1,8 +1,8 @@
 {
   "player_id": "z355",
   "player_name": "Alexander Zverev",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:21:44.275Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:40:43.285Z",
   "matches": [
     {
       "date": "20251026",
@@ -58,6 +58,17 @@
       "result": "W",
       "opponent": "J. Fearnley",
       "score": "4-6 6-1 6(5)-7(7)"
+    },
+    {
+      "date": "20251015",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": "3-6 4-6"
     },
     {
       "date": "20250621",
