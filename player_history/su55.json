@@ -1,8 +1,8 @@
 {
   "player_id": "su55",
   "player_name": "Denis Shapovalov",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:22:37.267Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:41:53.285Z",
   "matches": [
     {
       "date": "20260319",
@@ -25,6 +25,50 @@
       "result": "L",
       "opponent": "P. Carreno-Busta",
       "score": "2-6 4-6"
+    },
+    {
+      "date": "20260214",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Davidovich Fokina",
+      "score": "5-7 6-4 6-3"
+    },
+    {
+      "date": "20260214",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "B. Shelton",
+      "score": "4-6 6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20260212",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Kovacevic",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20260211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "R. Jodar",
+      "score": "6-1 6-2"
     },
     {
       "date": "20251023",
@@ -124,6 +168,28 @@
       "result": "W",
       "opponent": "N. Basavareddy",
       "score": "7-5 6-2"
+    },
+    {
+      "date": "20250207",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. Fritz",
+      "score": "6-2 3-6 6(2)-7(7)"
+    },
+    {
+      "date": "20250206",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Kecmanovic",
+      "score": "3-6 7(7)-6(5) 3-6"
     },
     {
       "date": "20241231",
@@ -421,6 +487,17 @@
       "result": "W",
       "opponent": "M. Kecmanovic",
       "score": "6(4)-7(7) 6-0 7-5"
+    },
+    {
+      "date": "20230209",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "Y. Wu",
+      "score": "7(7)-6(1) 6-4"
     },
     {
       "date": "20221030",
