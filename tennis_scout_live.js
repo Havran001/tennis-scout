@@ -979,7 +979,7 @@ function buildPlayersTab(sh){
         // Tab bar
         +'<div style="display:flex;gap:0;margin-top:16px;">'
           +'<div class="pp-tab pp-tab-active" data-tab="notes" style="padding:10px 20px;font-size:12px;font-weight:600;color:#00C853;border-bottom:2px solid #00C853;cursor:pointer;">&#128221; Poznámky</div>'
-          +'<div class="pp-tab" data-tab="matches" style="padding:10px 20px;font-size:12px;font-weight:500;color:rgba(255,255,255,0.4);border-bottom:2px solid transparent;cursor:pointer;">&#127955; Historie zápasů</div>'
+          +'<div class="pp-tab" data-tab="matches" style="padding:10px 20px;font-size:12px;font-weight:500;color:rgba(255,255,255,0.4);border-bottom:2px solid transparent;cursor:pointer;">&#127934; Historie zápasů</div>'
         +'</div>'
       +'</div>';
 
