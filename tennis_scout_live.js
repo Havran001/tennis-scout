@@ -1118,62 +1118,125 @@ function buildPlayersTab(sh){
           // Level labels
           var LC={G:'Grand Slam',M:'Masters 1000',A:'ATP 500',B:'ATP 250',D:'Davis Cup',F:'Finals',C:'Challenger',S:'Satellite',live:'LIVE'};
           var h='<div style="padding:0 20px 40px;">';
-          var lastYear='',lastTournKey='';
-          all.forEach(function(m){
-            var year=m.date?m.date.substring(0,4):'';
-            var dateStr=m.date?m.date.substring(0,4)+'-'+m.date.substring(4,6)+'-'+m.date.substring(6,8):'';
-            if(year!==lastYear){
-              if(lastYear)h+='</div>';
-              h+='<div style="margin-top:20px;padding:6px 0;font-size:11px;font-weight:700;color:rgba(255,255,255,.3);letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,.05);">'+year+'</div><div>';
-              lastYear=year;
-            }
-            var tournKey=m.date+m.tournament;
-            var isNewTourn=tournKey!==lastTournKey;
-            lastTournKey=tournKey;
-            if(isNewTourn){
-              var sc=SC[m.surface]||'#555';
-              var lv=LC[m.level]||m.level||'';
-              h+='<div style="margin-top:10px;display:flex;align-items:center;gap:6px;margin-bottom:4px;">'
-               +'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:'+sc+';flex-shrink:0;"></span>'
-               +'<span style="font-size:11px;font-weight:600;color:rgba(255,255,255,.6);">'+m.tournament+'</span>'
-               +(lv?'<span style="font-size:9px;color:rgba(255,255,255,.25);margin-left:2px;">'+lv+'</span>':'')
-               +'</div>';
-            }
-            var isW=m.result==='W',isL=m.result==='L',isLive=m.result==='Live';
-            var badge=isW?'<span style="color:#00C853;font-size:10px;font-weight:700;min-width:16px;">W</span>'
-                     :isL?'<span style="color:#F44336;font-size:10px;font-weight:700;min-width:16px;">L</span>'
-                     :'<span style="color:#FF9800;font-size:10px;font-weight:700;min-width:16px;">●</span>';
-            var rankStr=m.rank?'<span style="font-size:9px;color:rgba(255,255,255,.2);">#'+m.rank+'</span>':'';
-            var oppRankStr=m.opp_rank?'<span style="font-size:9px;color:rgba(255,255,255,.2);">#'+m.opp_rank+'</span>':'';
-            var _dd=m.date&&m.date.length>=8?m.date.slice(6,8)+'.'+m.date.slice(4,6)+'.'+m.date.slice(0,4):'';
-            var _sc=m.surface||'';
-            var _scColor=_sc==='Clay'?'#fb923c':_sc==='Grass'?'#4ade80':_sc==='Indoor'?'#c084fc':'#60a5fa';
-            var _scBg=_sc==='Clay'?'rgba(194,65,12,0.15)':_sc==='Grass'?'rgba(21,128,61,0.15)':_sc==='Indoor'?'rgba(109,40,217,0.15)':'rgba(29,78,216,0.15)';
-            var _isW=m.result==='W';
-            h+='<div data-surface="'+_sc+'" style="display:flex;align-items:center;gap:10px;padding:7px 10px 7px 14px;border-bottom:1px solid rgba(255,255,255,.04);border-left:3px solid '+(_isW?'rgba(0,200,83,0.5)':'rgba(239,68,68,0.4)')+';margin-bottom:1px;border-radius:0 4px 4px 0;transition:background .08s;">'
-             +'<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;flex-shrink:0;background:'+(_isW?'rgba(0,200,83,0.15)':'rgba(239,68,68,0.12)')+';border:1px solid '+(_isW?'rgba(0,200,83,0.3)':'rgba(239,68,68,0.25)')+';">'
-               +'<span style="font-size:11px;font-weight:800;color:'+(_isW?'#00C853':'#f87171')+';">'+m.result+'</span>'
-             +'</div>'
-             +'<div style="flex:1;min-width:0;">'
-               +'<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">'
-                 +'<span style="font-size:13px;font-weight:700;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:200px;">'+m.opponent+'</span>'
-                 +(m.opp_rank?'<span style="font-size:9px;color:rgba(255,255,255,.3);background:rgba(255,255,255,.06);padding:1px 5px;border-radius:3px;">#'+m.opp_rank+'</span>':'')
-               +'</div>'
-               +'<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">'
-                 +(_dd?'<span style="font-size:10px;color:rgba(255,255,255,.3);">'+_dd+'</span>':'')
-                 +'<span style="font-size:9px;color:rgba(255,255,255,.2);">·</span>'
-                 +'<span style="font-size:10px;font-weight:600;color:rgba(255,255,255,.45);">'+(RC[m.round]||m.round||'')+'</span>'
-                 +(_sc?'<span style="font-size:9px;color:rgba(255,255,255,.2);">·</span><span data-surface="'+_sc+'" style="font-size:9px;font-weight:700;color:'+_scColor+';background:'+_scBg+';padding:1px 6px;border-radius:3px;">'+_sc.toUpperCase()+'</span>':'')
-               +'</div>'
-             +'</div>'
-             +'<div style="text-align:right;flex-shrink:0;">'
-               +'<span style="font-size:12px;font-weight:600;color:rgba(255,255,255,.6);font-family:monospace;letter-spacing:0.5px;">'+m.score+'</span>'
-             +'</div>'
-             +'</div>';
-          });
-          if(lastYear)h+='</div>';
+          // Sestav unikátní hodnoty pro filtry
+          var _allTournaments=[...new Set(all.map(function(m){return m.tournament||'';}).filter(Boolean))].sort();
+          var _allSurfaces=[...new Set(all.map(function(m){return m.surface||'';}).filter(Boolean))].sort();
+          var _allOpponents=[...new Set(all.map(function(m){return m.opponent||'';}).filter(Boolean))].sort();
+
+          // Filtrační stav
+          var _fTournament='',_fSurface='',_fOpponent='',_fResult='';
+
+          function _renderMatches(){
+            var filtered=all.filter(function(m){
+              if(_fTournament&&m.tournament!==_fTournament)return false;
+              if(_fSurface&&m.surface!==_fSurface)return false;
+              if(_fOpponent&&m.opponent!==_fOpponent)return false;
+              if(_fResult&&m.result!==_fResult)return false;
+              return true;
+            });
+            var hm='';
+            var lastYear='',lastTournKey='';
+            filtered.forEach(function(m){
+              var year=m.date?m.date.substring(0,4):'';
+              if(year!==lastYear){
+                if(lastYear)hm+='</div>';
+                hm+='<div style="margin-top:16px;padding:5px 0;font-size:10px;font-weight:700;color:rgba(255,255,255,.3);letter-spacing:1.5px;text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,.05);">'+year+'</div><div>';
+                lastYear=year;
+              }
+              var tournKey=m.date+m.tournament;
+              if(tournKey!==lastTournKey){
+                var _sc2=m.surface||'';
+                var _scC2=_sc2==='Clay'?'#fb923c':_sc2==='Grass'?'#4ade80':_sc2==='Indoor'?'#c084fc':'#60a5fa';
+                hm+='<div style="margin-top:10px;display:flex;align-items:center;gap:6px;margin-bottom:4px;opacity:0.7;">'
+                  +'<span style="font-size:11px;font-weight:600;color:rgba(255,255,255,.6);">'+m.tournament+'</span>'
+                  +(_sc2?'<span style="font-size:8px;font-weight:700;color:'+_scC2+';background:rgba(255,255,255,.06);padding:1px 6px;border-radius:3px;">'+_sc2.toUpperCase()+'</span>':'')
+                  +'</div>';
+                lastTournKey=tournKey;
+              }
+              var _dd2=m.date&&m.date.length>=8?m.date.slice(6,8)+'.'+m.date.slice(4,6)+'.'+m.date.slice(0,4):'';
+              var _sc=m.surface||'';
+              var _scColor=_sc==='Clay'?'#fb923c':_sc==='Grass'?'#4ade80':_sc==='Indoor'?'#c084fc':'#60a5fa';
+              var _scBg=_sc==='Clay'?'rgba(194,65,12,0.15)':_sc==='Grass'?'rgba(21,128,61,0.15)':_sc==='Indoor'?'rgba(109,40,217,0.15)':'rgba(29,78,216,0.15)';
+              var _isW=m.result==='W';
+              hm+='<div data-surface="'+_sc+'" style="display:flex;align-items:center;gap:10px;padding:7px 10px 7px 14px;border-bottom:1px solid rgba(255,255,255,.04);border-left:3px solid '+(_isW?'rgba(0,200,83,0.5)':'rgba(239,68,68,0.4)')+';margin-bottom:1px;border-radius:0 4px 4px 0;">'
+                +'<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;flex-shrink:0;background:'+(_isW?'rgba(0,200,83,0.15)':'rgba(239,68,68,0.12)')+';border:1px solid '+(_isW?'rgba(0,200,83,0.3)':'rgba(239,68,68,0.25)')+';">'
+                  +'<span style="font-size:11px;font-weight:800;color:'+(_isW?'#00C853':'#f87171')+';">'+m.result+'</span>'
+                +'</div>'
+                +'<div style="flex:1;min-width:0;">'
+                  +'<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">'
+                    +'<span style="font-size:13px;font-weight:700;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:200px;">'+m.opponent+'</span>'
+                    +(m.opp_rank?'<span style="font-size:9px;color:rgba(255,255,255,.3);background:rgba(255,255,255,.06);padding:1px 5px;border-radius:3px;">#'+m.opp_rank+'</span>':'')
+                  +'</div>'
+                  +'<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">'
+                    +(_dd2?'<span style="font-size:10px;color:rgba(255,255,255,.3);">'+_dd2+'</span>':'')
+                    +'<span style="font-size:9px;color:rgba(255,255,255,.2);">·</span>'
+                    +'<span style="font-size:10px;font-weight:600;color:rgba(255,255,255,.45);">'+(RC[m.round]||m.round||'')+'</span>'
+                  +'</div>'
+                +'</div>'
+                +'<div style="text-align:right;flex-shrink:0;">'
+                  +'<span style="font-size:12px;font-weight:600;color:rgba(255,255,255,.6);font-family:monospace;letter-spacing:0.5px;">'+m.score+'</span>'
+                +'</div>'
+                +'</div>';
+            });
+            if(lastYear)hm+='</div>';
+            if(!filtered.length)hm='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);font-size:13px;">Žádné zápasy pro tento filtr</div>';
+            var listEl=sec.querySelector('#mh-list');
+            if(listEl)listEl.innerHTML=hm;
+            // Update počítadlo
+            var cntEl=sec.querySelector('#mh-count');
+            if(cntEl)cntEl.textContent=filtered.length+' zápasů';
+          }
+
+          // Filtry HTML
+          var selStyle='background:#161b22;border:1px solid rgba(255,255,255,.1);color:#e6edf3;font-size:11px;padding:6px 10px;border-radius:8px;cursor:pointer;outline:none;max-width:160px;';
+          h+='<div style="display:flex;gap:8px;align-items:center;padding:12px 0 14px;border-bottom:1px solid rgba(255,255,255,.06);flex-wrap:wrap;">'
+            +'<span style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:1.5px;text-transform:uppercase;flex-shrink:0;">Filtr</span>'
+            // Povrch
+            +'<select id="mh-f-surface" style="'+selStyle+'">'
+              +'<option value="">Všechny povrchy</option>'
+              +_allSurfaces.map(function(s){
+                var col=s==='Clay'?'#fb923c':s==='Grass'?'#4ade80':s==='Indoor'?'#c084fc':'#60a5fa';
+                return '<option value="'+s+'">'+s+'</option>';
+              }).join('')
+            +'</select>'
+            // Výsledek
+            +'<select id="mh-f-result" style="'+selStyle+'">'
+              +'<option value="">W + L</option>'
+              +'<option value="W">✅ Výhry</option>'
+              +'<option value="L">❌ Prohry</option>'
+            +'</select>'
+            // Turnaj
+            +'<select id="mh-f-tournament" style="'+selStyle+'">'
+              +'<option value="">Všechny turnaje</option>'
+              +_allTournaments.map(function(t){return '<option value="'+t+'">'+t+'</option>';}).join('')
+            +'</select>'
+            // Soupeř
+            +'<select id="mh-f-opponent" style="'+selStyle+'">'
+              +'<option value="">Všichni soupeři</option>'
+              +_allOpponents.map(function(o){return '<option value="'+o+'">'+o+'</option>';}).join('')
+            +'</select>'
+            // Reset
+            +'<button id="mh-f-reset" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:6px 12px;border-radius:8px;cursor:pointer;">✕ Reset</button>'
+            +'<span id="mh-count" style="margin-left:auto;font-size:10px;color:rgba(255,255,255,.25);"></span>'
+          +'</div>';
+          h+='<div id="mh-list"></div>';
           h+='</div>';
           sec.innerHTML=h;
+
+          // Event listenery na filtry
+          sec.querySelector('#mh-f-surface').addEventListener('change',function(e){_fSurface=e.target.value;_renderMatches();});
+          sec.querySelector('#mh-f-result').addEventListener('change',function(e){_fResult=e.target.value;_renderMatches();});
+          sec.querySelector('#mh-f-tournament').addEventListener('change',function(e){_fTournament=e.target.value;_renderMatches();});
+          sec.querySelector('#mh-f-opponent').addEventListener('change',function(e){_fOpponent=e.target.value;_renderMatches();});
+          sec.querySelector('#mh-f-reset').addEventListener('click',function(){
+            _fSurface='';_fTournament='';_fOpponent='';_fResult='';
+            sec.querySelector('#mh-f-surface').value='';
+            sec.querySelector('#mh-f-result').value='';
+            sec.querySelector('#mh-f-tournament').value='';
+            sec.querySelector('#mh-f-opponent').value='';
+            _renderMatches();
+          });
+          _renderMatches();
           sec.dataset.loaded=pid;
         }).catch(function(){
           sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Nepodařilo se načíst historii zápasů</div>';
