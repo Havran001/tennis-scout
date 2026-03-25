@@ -1,8 +1,8 @@
 {
   "player_id": "me82",
   "player_name": "Adrian Mannarino",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:22:45.314Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:42:03.290Z",
   "matches": [
     {
       "date": "20260319",
@@ -14,6 +14,28 @@
       "result": "W",
       "opponent": "Z. Zhang",
       "score": "3-6 2-6"
+    },
+    {
+      "date": "20260213",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "B. Shelton",
+      "score": "7(7)-6(2) 6(4)-7(7) 6-3"
+    },
+    {
+      "date": "20260211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Walton",
+      "score": "4-6 2-6"
     },
     {
       "date": "20260202",
@@ -124,6 +146,28 @@
       "result": "W",
       "opponent": "C. M. Aguilar J.",
       "score": "6-3 6-1"
+    },
+    {
+      "date": "20250711",
+      "tournament": "Newport",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. Zink",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20250708",
+      "tournament": "Newport",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "Y. Uchiyama",
+      "score": "3-6 4-6"
     },
     {
       "date": "20250617",
@@ -322,6 +366,17 @@
       "result": "L",
       "opponent": "A. Walton",
       "score": "6-4 6-0"
+    },
+    {
+      "date": "20250203",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "R. Hijikata",
+      "score": "5-7 3-6"
     },
     {
       "date": "20250122",
@@ -806,6 +861,39 @@
       "result": "L",
       "opponent": "A. Kovacevic",
       "score": "7-5 7(7)-6(4)"
+    },
+    {
+      "date": "20230211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "Y. Wu",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230209",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Thompson",
+      "score": "2-6 6(3)-7(7)"
+    },
+    {
+      "date": "20230207",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "S. Johnson",
+      "score": "6(6)-7(8) 2-6"
     },
     {
       "date": "20230109",
