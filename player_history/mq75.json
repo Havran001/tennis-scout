@@ -1,8 +1,8 @@
 {
   "player_id": "mq75",
   "player_name": "Kamil Majchrzak",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:06.870Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:42:32.286Z",
   "matches": [
     {
       "date": "20260224",
@@ -203,6 +203,28 @@
       "score": "3-6 1-6"
     },
     {
+      "date": "20250226",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Mmoh",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20250225",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Smith",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
       "date": "20250107",
       "tournament": "Australian Open",
       "surface": "Hard",
@@ -333,6 +355,83 @@
       "result": "L",
       "opponent": "J. Cui",
       "score": "2-6 3-6"
+    },
+    {
+      "date": "20240422",
+      "tournament": "Shenzhen 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Celikbilek",
+      "score": "6(7)-7(9) 4-6"
+    },
+    {
+      "date": "20240303",
+      "tournament": "Kigali 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Hakizumwami",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20240302",
+      "tournament": "Kigali Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Trungelliti",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240301",
+      "tournament": "Kigali Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Houkes",
+      "score": "6-4 4-6 3-6"
+    },
+    {
+      "date": "20240229",
+      "tournament": "Kigali Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Hemery",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20240228",
+      "tournament": "Kigali Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. P. Paz",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20240227",
+      "tournament": "Kigali Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "B. Bobrov",
+      "score": "3-6 2-6"
     },
     {
       "date": "20221101",
