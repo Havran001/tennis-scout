@@ -1213,7 +1213,11 @@ function buildPlayersTab(sh){
             // Soupeř
             +'<select id="mh-f-opponent" style="'+selStyle+'">'
               +'<option value="">Všichni soupeři</option>'
-              +_allOpponents.map(function(o){return '<option value="'+o+'">'+o+'</option>';}).join('')
+              +_allOpponents.map(function(o){
+                var _parts=o.trim().split(' ');
+                var _label=_parts.length>=2?_parts.slice(1).join(' ')+', '+_parts[0]:o;
+                return '<option value="'+o+'">'+_label+'</option>';
+              }).join('')
             +'</select>'
             // Reset
             +'<button id="mh-f-reset" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:6px 12px;border-radius:8px;cursor:pointer;">✕ Reset</button>'
