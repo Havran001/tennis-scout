@@ -1,8 +1,8 @@
 {
   "player_id": "f724",
   "player_name": "Marton Fucsovics",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:02.206Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:42:25.286Z",
   "matches": [
     {
       "date": "20260211",
@@ -181,6 +181,28 @@
       "score": "6-2 6-3"
     },
     {
+      "date": "20250501",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "N. Borges",
+      "score": "7(8)-6(6) 6(4)-7(7) 6-4"
+    },
+    {
+      "date": "20250430",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "G. Zeppieri",
+      "score": "6-2 6(3)-7(7) 1-6"
+    },
+    {
       "date": "20250421",
       "tournament": "Madrid",
       "surface": "Hard",
@@ -278,6 +300,28 @@
       "result": "W",
       "opponent": "J. Kovalik",
       "score": "6-0 6-1"
+    },
+    {
+      "date": "20250123",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Galarneau",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250121",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Moro Canas",
+      "score": "6-4 6(3)-7(7) 6-3"
     },
     {
       "date": "20250107",
