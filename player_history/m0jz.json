@@ -1,8 +1,8 @@
 {
   "player_id": "m0jz",
   "player_name": "Filip Misolic",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:55.402Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:43:33.290Z",
   "matches": [
     {
       "date": "20260112",
@@ -390,6 +390,17 @@
       "score": "3-6 1-6"
     },
     {
+      "date": "20250303",
+      "tournament": "Kigali 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "G. Den Ouden",
+      "score": "2-6 2-6"
+    },
+    {
       "date": "20250209",
       "tournament": "Tenerife 2",
       "surface": "Hard",
@@ -421,6 +432,39 @@
       "result": "L",
       "opponent": "S. Kozlov",
       "score": "3-6 4-6"
+    },
+    {
+      "date": "20250108",
+      "tournament": "Nottingham 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "V. Durasovic",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250107",
+      "tournament": "Nottingham 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Vrbensky",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20241013",
+      "tournament": "ATP Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Karatsev",
+      "score": "2-6 5-7"
     },
     {
       "date": "20240903",
