@@ -1,8 +1,8 @@
 {
   "player_id": "c977",
   "player_name": "Marin Cilic",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:22:54.639Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:42:15.286Z",
   "matches": [
     {
       "date": "20260319",
@@ -25,6 +25,50 @@
       "result": "L",
       "opponent": "B. Nakashima",
       "score": "6(4)-7(7) 6(5)-7(7)"
+    },
+    {
+      "date": "20260214",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": "6(5)-7(7) 6(3)-7(7)"
+    },
+    {
+      "date": "20260213",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Pinnington Jones",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20260212",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "E. Quinn",
+      "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20260210",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "L. Tien",
+      "score": "7-5 7(7)-6(4)"
     },
     {
       "date": "20260107",
@@ -289,6 +333,17 @@
       "result": "L",
       "opponent": "K. Nishikori",
       "score": "6-4 3-6 6-3"
+    },
+    {
+      "date": "20240918",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "Z. Svajda",
+      "score": "5-7 6-3 6-0"
     },
     {
       "date": "20240906",
