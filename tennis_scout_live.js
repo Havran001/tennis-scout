@@ -1146,15 +1146,29 @@ function buildPlayersTab(sh){
             var rankStr=m.rank?'<span style="font-size:9px;color:rgba(255,255,255,.2);">#'+m.rank+'</span>':'';
             var oppRankStr=m.opp_rank?'<span style="font-size:9px;color:rgba(255,255,255,.2);">#'+m.opp_rank+'</span>':'';
             var _dd=m.date&&m.date.length>=8?m.date.slice(6,8)+'.'+m.date.slice(4,6)+'.'+m.date.slice(0,4):'';
-            h+='<div style="display:flex;align-items:center;gap:8px;padding:4px 0 4px 14px;border-bottom:1px solid rgba(255,255,255,.03);">'
-             +badge
-             +'<span style="font-size:9px;color:rgba(255,255,255,.18);min-width:66px;flex-shrink:0;letter-spacing:0.3px;">'+_dd+'</span>'
-             +(function(){var _sc=m.surface||'';var _scC=_sc==='Clay'?'background:rgba(194,65,12,0.2);color:#fb923c;':_sc==='Grass'?'background:rgba(21,128,61,0.2);color:#4ade80;':_sc==='Indoor'?'background:rgba(109,40,217,0.2);color:#c084fc;':'background:rgba(29,78,216,0.2);color:#60a5fa;';return _sc?'<span data-surface="'+_sc+'" style="font-size:8px;font-weight:700;padding:1px 6px;border-radius:3px;flex-shrink:0;margin-right:2px;'+_scC+'">'+_sc.toUpperCase()+'</span>':'';}())
-             +'<span style="font-size:9px;color:rgba(255,255,255,.25);min-width:28px;">'+( RC[m.round]||m.round||'')+'</span>'
-             +'<span style="font-size:11px;color:rgba(255,255,255,.7);flex:1;">'+m.opponent+'</span>'
-             +oppRankStr
-             +'<span style="font-size:11px;color:rgba(255,255,255,.5);font-family:monospace;">'+m.score+'</span>'
-             +rankStr
+            var _sc=m.surface||'';
+            var _scColor=_sc==='Clay'?'#fb923c':_sc==='Grass'?'#4ade80':_sc==='Indoor'?'#c084fc':'#60a5fa';
+            var _scBg=_sc==='Clay'?'rgba(194,65,12,0.15)':_sc==='Grass'?'rgba(21,128,61,0.15)':_sc==='Indoor'?'rgba(109,40,217,0.15)':'rgba(29,78,216,0.15)';
+            var _isW=m.result==='W';
+            h+='<div data-surface="'+_sc+'" style="display:flex;align-items:center;gap:10px;padding:7px 10px 7px 14px;border-bottom:1px solid rgba(255,255,255,.04);border-left:3px solid '+(_isW?'rgba(0,200,83,0.5)':'rgba(239,68,68,0.4)')+';margin-bottom:1px;border-radius:0 4px 4px 0;transition:background .08s;">'
+             +'<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;flex-shrink:0;background:'+(_isW?'rgba(0,200,83,0.15)':'rgba(239,68,68,0.12)')+';border:1px solid '+(_isW?'rgba(0,200,83,0.3)':'rgba(239,68,68,0.25)')+';">'
+               +'<span style="font-size:11px;font-weight:800;color:'+(_isW?'#00C853':'#f87171')+';">'+m.result+'</span>'
+             +'</div>'
+             +'<div style="flex:1;min-width:0;">'
+               +'<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">'
+                 +'<span style="font-size:13px;font-weight:700;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:200px;">'+m.opponent+'</span>'
+                 +(m.opp_rank?'<span style="font-size:9px;color:rgba(255,255,255,.3);background:rgba(255,255,255,.06);padding:1px 5px;border-radius:3px;">#'+m.opp_rank+'</span>':'')
+               +'</div>'
+               +'<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">'
+                 +(_dd?'<span style="font-size:10px;color:rgba(255,255,255,.3);">'+_dd+'</span>':'')
+                 +'<span style="font-size:9px;color:rgba(255,255,255,.2);">·</span>'
+                 +'<span style="font-size:10px;font-weight:600;color:rgba(255,255,255,.45);">'+(RC[m.round]||m.round||'')+'</span>'
+                 +(_sc?'<span style="font-size:9px;color:rgba(255,255,255,.2);">·</span><span data-surface="'+_sc+'" style="font-size:9px;font-weight:700;color:'+_scColor+';background:'+_scBg+';padding:1px 6px;border-radius:3px;">'+_sc.toUpperCase()+'</span>':'')
+               +'</div>'
+             +'</div>'
+             +'<div style="text-align:right;flex-shrink:0;">'
+               +'<span style="font-size:12px;font-weight:600;color:rgba(255,255,255,.6);font-family:monospace;letter-spacing:0.5px;">'+m.score+'</span>'
+             +'</div>'
              +'</div>';
           });
           if(lastYear)h+='</div>';
