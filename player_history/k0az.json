@@ -1,8 +1,8 @@
 {
   "player_id": "k0az",
   "player_name": "Aleksandar Kovacevic",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:24:02.159Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:43:43.288Z",
   "matches": [
     {
       "date": "20260217",
@@ -14,6 +14,28 @@
       "result": "L",
       "opponent": "Z. Svajda",
       "score": "7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20260212",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "D. Shapovalov",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20260211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "P. Kypson",
+      "score": "6-4 7(7)-6(1)"
     },
     {
       "date": "20260129",
@@ -170,6 +192,72 @@
       "score": "7(7)-6(4) 6-4"
     },
     {
+      "date": "20250429",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "L. Nardi",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250316",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Dzumhur",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250315",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Muller",
+      "score": "4-6 6-2 6(5)-7(7)"
+    },
+    {
+      "date": "20250314",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Altmaier",
+      "score": "6-4 4-6 3-6"
+    },
+    {
+      "date": "20250313",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Wong",
+      "score": "2-6 6(6)-7(8)"
+    },
+    {
+      "date": "20250311",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Bellucci",
+      "score": "6-4 6-4"
+    },
+    {
       "date": "20250306",
       "tournament": "Indian Wells",
       "surface": "Hard",
@@ -245,6 +333,28 @@
       "result": "L",
       "opponent": "C. Eubanks",
       "score": "3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20241120",
+      "tournament": "Sao Paulo 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "G. Heide",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20241119",
+      "tournament": "Sao Paulo 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Pucinelli de Almeida",
+      "score": "6-2 7(7)-6(4)"
     },
     {
       "date": "20241105",
