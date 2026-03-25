@@ -1,8 +1,8 @@
 {
   "player_id": "ae14",
   "player_name": "Daniel Altmaier",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:03.856Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:42:27.286Z",
   "matches": [
     {
       "date": "20260216",
@@ -157,6 +157,39 @@
       "result": "W",
       "opponent": "J. Munar",
       "score": "5-7 6-3 5-7"
+    },
+    {
+      "date": "20250314",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Kovacevic",
+      "score": "4-6 6-4 6-3"
+    },
+    {
+      "date": "20250313",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Goffin",
+      "score": "2-6 7(14)-6(12) 3-6"
+    },
+    {
+      "date": "20250312",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Lajovic",
+      "score": "2-6 7(7)-6(4) 2-6"
     },
     {
       "date": "20250303",
@@ -729,6 +762,28 @@
       "result": "W",
       "opponent": "B. Holt",
       "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20230209",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "J. Isner",
+      "score": "3-6 6(1)-7(7)"
+    },
+    {
+      "date": "20230208",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "Z. Svajda",
+      "score": "2-6 4-6"
     },
     {
       "date": "20230107",
