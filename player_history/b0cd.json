@@ -1,8 +1,8 @@
 {
   "player_id": "b0cd",
   "player_name": "Jenson Brooksby",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:22:43.441Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:42:01.285Z",
   "matches": [
     {
       "date": "20260319",
@@ -47,6 +47,17 @@
       "result": "W",
       "opponent": "Z. Bergs",
       "score": "3-6 4-6"
+    },
+    {
+      "date": "20260211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "T. Paul",
+      "score": "6-4 4-6 6(4)-7(7)"
     },
     {
       "date": "20260114",
@@ -300,6 +311,39 @@
       "result": "W",
       "opponent": "B. Bonzi",
       "score": "6-1 5-7 5-7"
+    },
+    {
+      "date": "20250227",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "E. Quinn",
+      "score": "6-3 5-7 7(7)-6(5)"
+    },
+    {
+      "date": "20250225",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Wong",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20250204",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "T. Paul",
+      "score": "7(8)-6(6) 3-6 4-6"
     },
     {
       "date": "20250129",
