@@ -1,9 +1,64 @@
 {
   "player_id": "s0s1",
   "player_name": "Ben Shelton",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:21:51.723Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:40:54.285Z",
   "matches": [
+    {
+      "date": "20260215",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. Fritz",
+      "score": "6-3 3-6 5-7"
+    },
+    {
+      "date": "20260214",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Kecmanovic",
+      "score": "7-5 3-6 4-6"
+    },
+    {
+      "date": "20260214",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Shapovalov",
+      "score": "6-4 4-6 6(4)-7(7)"
+    },
+    {
+      "date": "20260213",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Mannarino",
+      "score": "6(2)-7(7) 7(7)-6(4) 3-6"
+    },
+    {
+      "date": "20260210",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "G. Diallo",
+      "score": "4-6 4-6"
+    },
     {
       "date": "20260115",
       "tournament": "Auckland",
@@ -102,6 +157,28 @@
       "result": "W",
       "opponent": "F. Cobolli",
       "score": "6(4)-7(7) 6(4)-7(7)"
+    },
+    {
+      "date": "20250206",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "J. Munar",
+      "score": "2-6 6(3)-7(7)"
+    },
+    {
+      "date": "20250205",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Vukic",
+      "score": "3-6 3-6"
     },
     {
       "date": "20240927",
