@@ -1,8 +1,8 @@
 {
   "player_id": "k0ah",
   "player_name": "Sebastian Korda",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:22:33.946Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:41:49.288Z",
   "matches": [
     {
       "date": "20260222",
@@ -57,6 +57,94 @@
       "best_of": "3",
       "result": "W",
       "opponent": "M. McDonald",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20260213",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": "7(7)-6(2) 4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20260212",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "F. Tiafoe",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20260210",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Zheng",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20260201",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "Z. Svajda",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20260131",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "P. Kypson",
+      "score": "7(7)-6(4) 6-2"
+    },
+    {
+      "date": "20260130",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "L. Draxl",
+      "score": "7(7)-6(4) 6-4"
+    },
+    {
+      "date": "20260129",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Ilagan",
+      "score": "6-2 4-6 6-3"
+    },
+    {
+      "date": "20260128",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Milavsky",
       "score": "6-4 7-5"
     },
     {
