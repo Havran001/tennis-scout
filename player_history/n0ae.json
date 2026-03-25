@@ -1,8 +1,8 @@
 {
   "player_id": "n0ae",
   "player_name": "Brandon Nakashima",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:22:25.667Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:41:37.286Z",
   "matches": [
     {
       "date": "20260218",
@@ -25,6 +25,28 @@
       "result": "W",
       "opponent": "M. Cilic",
       "score": "7(7)-6(4) 7(7)-6(5)"
+    },
+    {
+      "date": "20260212",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20260209",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Bellucci",
+      "score": "6-3 6-4"
     },
     {
       "date": "20251022",
@@ -124,6 +146,17 @@
       "result": "W",
       "opponent": "B. Bonzi",
       "score": "6(6)-7(8) 5-7"
+    },
+    {
+      "date": "20250205",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "Y. Nishioka",
+      "score": "4-6 6(6)-7(8)"
     },
     {
       "date": "20241230",
@@ -410,6 +443,61 @@
       "result": "W",
       "opponent": "A. Muller",
       "score": "5-7 7(9)-6(7) 7(7)-6(5)"
+    },
+    {
+      "date": "20231119",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "M. Marterer",
+      "score": "2-6 6-4 6-3"
+    },
+    {
+      "date": "20231118",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Blockx",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20231117",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Goffin",
+      "score": "2-6 6(2)-7(7)"
+    },
+    {
+      "date": "20231116",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Yevseyev",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20231114",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Choinski",
+      "score": "4-6 2-6"
     },
     {
       "date": "20231104",
