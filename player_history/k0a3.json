@@ -1,8 +1,8 @@
 {
   "player_id": "k0a3",
   "player_name": "Patrick Kypson",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:24:09.738Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:43:53.285Z",
   "matches": [
     {
       "date": "20260316",
@@ -38,6 +38,83 @@
       "score": "6-3 2-6 6-4"
     },
     {
+      "date": "20260211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Kovacevic",
+      "score": "4-6 6(1)-7(7)"
+    },
+    {
+      "date": "20260208",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "J. Pinnington Jones",
+      "score": "7(7)-6(4) 5-7 7-5"
+    },
+    {
+      "date": "20260207",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "P. Sakamoto",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20260131",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "S. Korda",
+      "score": "6(4)-7(7) 2-6"
+    },
+    {
+      "date": "20260130",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Smith",
+      "score": "7(7)-6(5) 6-0"
+    },
+    {
+      "date": "20260129",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "G. Johns",
+      "score": "7(7)-6(4) 6-2"
+    },
+    {
+      "date": "20260128",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. Zink",
+      "score": "7(7)-6(5) 6-1"
+    },
+    {
       "date": "20260110",
       "tournament": "Auckland",
       "surface": "Hard",
@@ -69,6 +146,28 @@
       "result": "W",
       "opponent": "V. Sachko",
       "score": "2-6 3-6"
+    },
+    {
+      "date": "20251021",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "O. Tarvet",
+      "score": "6-2 4-6 6-3"
+    },
+    {
+      "date": "20251014",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Rosenkranz",
+      "score": "6-2 6-4"
     },
     {
       "date": "20251001",
@@ -135,6 +234,17 @@
       "result": "W",
       "opponent": "N. Nakagawa",
       "score": "6-3 6-1"
+    },
+    {
+      "date": "20250708",
+      "tournament": "Newport",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Ghibaudo",
+      "score": "7(7)-6(1) 7-5"
     },
     {
       "date": "20250705",
@@ -322,6 +432,39 @@
       "result": "W",
       "opponent": "B. Tomic",
       "score": "6-3 6-0"
+    },
+    {
+      "date": "20241025",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "M. Lajal",
+      "score": "7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20241024",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Mayo",
+      "score": "7(7)-6(5) 6-2"
+    },
+    {
+      "date": "20241021",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "E. Quinn",
+      "score": "6-3 6(5)-7(7) 6-3"
     },
     {
       "date": "20241008",
