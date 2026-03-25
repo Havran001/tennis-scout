@@ -1,8 +1,8 @@
 {
   "player_id": "c0jp",
   "player_name": "Raphael Collignon",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:28.799Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:43:02.285Z",
   "matches": [
     {
       "date": "20260319",
@@ -14,6 +14,39 @@
       "result": "W",
       "opponent": "G. Dimitrov",
       "score": "7(7)-6(3) 4-6 7(8)-6(6)"
+    },
+    {
+      "date": "20260313",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "M. Bellucci",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20260312",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "L. van Assche",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20260310",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. Barrios Vera",
+      "score": "6(4)-7(7) 3-6"
     },
     {
       "date": "20260111",
@@ -137,6 +170,39 @@
       "score": "6-2 7(7)-6(2)"
     },
     {
+      "date": "20250808",
+      "tournament": "Bonn",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Reis Da Silva",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20250807",
+      "tournament": "Bonn",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Kym",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20250805",
+      "tournament": "Bonn",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "P. Fajta",
+      "score": "5-7 4-6"
+    },
+    {
       "date": "20250720",
       "tournament": "Umag",
       "surface": "Hard",
@@ -201,6 +267,17 @@
       "result": "W",
       "opponent": "P. Zahraj",
       "score": "6-3 7(7)-6(3)"
+    },
+    {
+      "date": "20250121",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "D. Popko",
+      "score": "6-3 6-2"
     },
     {
       "date": "20241230",
