@@ -2,8 +2,190 @@
   "player_id": "a0e2",
   "player_name": "Carlos Alcaraz",
   "source": "goalserve.com",
-  "updated": "2026-03-25T15:23:59.394Z",
+  "updated": "2026-03-25T15:53:10.147Z",
   "matches": [
+    {
+      "date": "20260322",
+      "tournament": "Miami Open",
+      "surface": "Hard",
+      "level": "M",
+      "round": "R32",
+      "result": "L",
+      "opponent": "S. Korda",
+      "score": "3-6 7-5 4-6",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260321",
+      "tournament": "Miami Open",
+      "surface": "Hard",
+      "level": "M",
+      "round": "R64",
+      "result": "W",
+      "opponent": "J. Fonseca",
+      "score": "6-4 6-4",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260314",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "M",
+      "round": "SF",
+      "result": "L",
+      "opponent": "D. Medvedev",
+      "score": "3-6 6(3)-7(7)",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260313",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "M",
+      "round": "QF",
+      "result": "W",
+      "opponent": "C. Norrie",
+      "score": "6-3 6-4",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260311",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "M",
+      "round": "R16",
+      "result": "W",
+      "opponent": "C. Ruud",
+      "score": "6-1 7(7)-6(2)",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260310",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "M",
+      "round": "R32",
+      "result": "W",
+      "opponent": "A. Rinderknech",
+      "score": "6(6)-7(8) 6-3 6-2",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260308",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "M",
+      "round": "R64",
+      "result": "W",
+      "opponent": "G. Dimitrov",
+      "score": "6-2 6-3",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260201",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "result": "W",
+      "opponent": "N. Djokovic",
+      "score": "2-6 6-2 6-3 7-5",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260130",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "result": "W",
+      "opponent": "A. Zverev",
+      "score": "6-4 7(7)-6(5) 6(3)-7(7) 6(4)-7(7) 7-5",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260127",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "result": "W",
+      "opponent": "A. De Minaur",
+      "score": "7-5 6-2 6-1",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260125",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R16",
+      "result": "W",
+      "opponent": "T. Paul",
+      "score": "7(8)-6(6) 6-4 7-5",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260123",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R32",
+      "result": "W",
+      "opponent": "C. Moutet",
+      "score": "6-2 6-4 6-1",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260121",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "result": "W",
+      "opponent": "Y. Hanfmann",
+      "score": "7(7)-6(4) 6-3 6-2",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
+    {
+      "date": "20260118",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "result": "W",
+      "opponent": "A. Walton",
+      "score": "6-3 7(7)-6(2) 6-2",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": ""
+    },
     {
       "date": "20251028",
       "tournament": "Paris Masters",
@@ -103,7 +285,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "N. Djokovic",
-      "score": "6-4 7.7-6.4 6-2",
+      "score": "6-4 7(7)-6(4) 6-2",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -129,7 +311,7 @@
       "round": "R16",
       "result": "W",
       "opponent": "A. Rinderknech",
-      "score": "7.7-6.3 6-3 6-4",
+      "score": "7(7)-6(3) 6-3 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -272,7 +454,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "T. Fritz",
-      "score": "6-4 5-7 6-3 7.8-6.6",
+      "score": "6-4 5-7 6-3 7(8)-6(6)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -298,7 +480,7 @@
       "round": "R16",
       "result": "W",
       "opponent": "A. Rublev",
-      "score": "6.5-7.7 6-3 6-4 6-4",
+      "score": "6(5)-7(7) 6-3 6-4 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -337,7 +519,7 @@
       "round": "R128",
       "result": "W",
       "opponent": "F. Fognini",
-      "score": "7-5 6.5-7.7 7-5 2-6 6-1",
+      "score": "7-5 6(5)-7(7) 7-5 2-6 6-1",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -350,7 +532,7 @@
       "round": "F",
       "result": "W",
       "opponent": "J. Sinner",
-      "score": "4-6 6.4-7.7 6-4 7.7-6.3 7.10-6.2",
+      "score": "4-6 6(4)-7(7) 6-4 7(7)-6(3) 7(10)-6(2)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -363,7 +545,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "L. Musetti",
-      "score": "4-6 7.7-6.3 6-0 2-0 ret.",
+      "score": "4-6 7(7)-6(3) 6-0 2-0 ret.",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -389,7 +571,7 @@
       "round": "R16",
       "result": "W",
       "opponent": "B. Shelton",
-      "score": "7.10-6.8 6-3 4-6 6-4",
+      "score": "7(10)-6(8) 6-3 4-6 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -441,7 +623,7 @@
       "round": "F",
       "result": "W",
       "opponent": "J. Sinner",
-      "score": "7.7-6.5 6-1",
+      "score": "7(7)-6(5) 6-1",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -454,7 +636,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "L. Musetti",
-      "score": "6-3 7.7-6.4",
+      "score": "6-3 7(7)-6(4)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -493,7 +675,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "L. Djere",
-      "score": "7.7-6.2 6-2",
+      "score": "7(7)-6(2) 6-2",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -519,7 +701,7 @@
       "round": "F",
       "result": "L",
       "opponent": "H. Rune",
-      "score": "6.6-7.8 2-6",
+      "score": "6(6)-7(8) 2-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -571,7 +753,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "E. Quinn",
-      "score": "6-2 7.8-6.6",
+      "score": "6-2 7(8)-6(6)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -597,7 +779,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "A. Davidovich Fokina",
-      "score": "7.7-6.2 6-4",
+      "score": "7(7)-6(2) 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -675,7 +857,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "F. Cerundolo",
-      "score": "6-3 7.7-6.4",
+      "score": "6-3 7(7)-6(4)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -753,7 +935,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "N. Borges",
-      "score": "6-2 6-4 6.3-7.7 6-2",
+      "score": "6-2 6-4 6(3)-7(7) 6-2",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -818,7 +1000,7 @@
       "round": "QF",
       "result": "L",
       "opponent": "T. Machac",
-      "score": "6.5-7.7 5-7",
+      "score": "6(5)-7(7) 5-7",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -844,7 +1026,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "Y. Wu",
-      "score": "7.7-6.5 6-3",
+      "score": "7(7)-6(5) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -870,7 +1052,7 @@
       "round": "F",
       "result": "W",
       "opponent": "J. Sinner",
-      "score": "6.6-7.8 6-4 7.7-6.3",
+      "score": "6(6)-7(8) 6-4 7(7)-6(3)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -961,7 +1143,7 @@
       "round": "R32",
       "result": "L",
       "opponent": "G. Monfils",
-      "score": "6-4 6.5-7.7 4-6",
+      "score": "6-4 6(5)-7(7) 4-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -974,7 +1156,7 @@
       "round": "F",
       "result": "W",
       "opponent": "N. Djokovic",
-      "score": "6-2 6-2 7.7-6.4",
+      "score": "6-2 6-2 7(7)-6(4)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -987,7 +1169,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "D. Medvedev",
-      "score": "6.1-7.7 6-3 6-4 6-4",
+      "score": "6(1)-7(7) 6-3 6-4 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1026,7 +1208,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "F. Tiafoe",
-      "score": "5-7 6-2 4-6 7.7-6.2 6-2",
+      "score": "5-7 6-2 4-6 7(7)-6(2) 6-2",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1039,7 +1221,7 @@
       "round": "R64",
       "result": "W",
       "opponent": "A. Vukic",
-      "score": "7.7-6.5 6-2 6-2",
+      "score": "7(7)-6(5) 6-2 6-2",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1052,7 +1234,7 @@
       "round": "R128",
       "result": "W",
       "opponent": "M. Lajal",
-      "score": "7.7-6.3 7-5 6-2",
+      "score": "7(7)-6(3) 7-5 6-2",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1091,7 +1273,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "S. Tsitsipas",
-      "score": "6-3 7.7-6.3 6-4",
+      "score": "6-3 7(7)-6(3) 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1117,7 +1299,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "S. Korda",
-      "score": "6-4 7.7-6.5 6-3",
+      "score": "6-4 7(7)-6(5) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1169,7 +1351,7 @@
       "round": "R16",
       "result": "W",
       "opponent": "J-L. Struff",
-      "score": "6-3 6.5-7.7 7.7-6.4",
+      "score": "6-3 6(5)-7(7) 7(7)-6(4)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1260,7 +1442,7 @@
       "round": "F",
       "result": "W",
       "opponent": "D. Medvedev",
-      "score": "7.7-6.5 6-1",
+      "score": "7(7)-6(5) 6-1",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1325,7 +1507,7 @@
       "round": "R64",
       "result": "W",
       "opponent": "M. Arnaldi",
-      "score": "6.5-7.7 6-0 6-1",
+      "score": "6(5)-7(7) 6-0 6-1",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1338,7 +1520,7 @@
       "round": "SF",
       "result": "L",
       "opponent": "N. Jarry",
-      "score": "6.2-7.7 3-6",
+      "score": "6(2)-7(7) 3-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1351,7 +1533,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "A. Vavassori",
-      "score": "7.7-6.1 6-1",
+      "score": "7(7)-6(1) 6-1",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1377,7 +1559,7 @@
       "round": "QF",
       "result": "L",
       "opponent": "A. Zverev",
-      "score": "1-6 3-6 7.7-6.2 4-6",
+      "score": "1-6 3-6 7(7)-6(2) 4-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1416,7 +1598,7 @@
       "round": "R64",
       "result": "W",
       "opponent": "L. Sonego",
-      "score": "6-4 6.3-7.7 6-3 7.7-6.3",
+      "score": "6-4 6(3)-7(7) 6-3 7(7)-6(3)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1429,7 +1611,7 @@
       "round": "R128",
       "result": "W",
       "opponent": "R. Gasquet",
-      "score": "7.7-6.5 6-1 6-2",
+      "score": "7(7)-6(5) 6-1 6-2",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1468,7 +1650,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "D. Evans",
-      "score": "7.7-6.1 6-4",
+      "score": "7(7)-6(1) 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1494,7 +1676,7 @@
       "round": "SF",
       "result": "L",
       "opponent": "J. Sinner",
-      "score": "6.4-7.7 1-6",
+      "score": "6(4)-7(7) 1-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1546,7 +1728,7 @@
       "round": "SF",
       "result": "L",
       "opponent": "D. Medvedev",
-      "score": "6.3-7.7 1-6 6-3 3-6",
+      "score": "6(3)-7(7) 1-6 6-3 3-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1598,7 +1780,7 @@
       "round": "R64",
       "result": "W",
       "opponent": "L. Harris",
-      "score": "6-3 6-1 7.7-6.4",
+      "score": "6-3 6-1 7(7)-6(4)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1624,7 +1806,7 @@
       "round": "F",
       "result": "L",
       "opponent": "N. Djokovic",
-      "score": "7-5 6.7-7.9 6.4-7.7",
+      "score": "7-5 6(7)-7(9) 6(4)-7(7)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1637,7 +1819,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "H. Hurkacz",
-      "score": "2-6 7.7-6.4 6-3",
+      "score": "2-6 7(7)-6(4) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1663,7 +1845,7 @@
       "round": "R16",
       "result": "W",
       "opponent": "T. Paul",
-      "score": "7.8-6.6 6.0-7.7 6-3",
+      "score": "7(8)-6(6) 6(0)-7(7) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1702,7 +1884,7 @@
       "round": "R16",
       "result": "W",
       "opponent": "H. Hurkacz",
-      "score": "3-6 7.7-6.2 7.7-6.3",
+      "score": "3-6 7(7)-6(2) 7(7)-6(3)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1715,7 +1897,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "B. Shelton",
-      "score": "6-3 7.7-6.3",
+      "score": "6-3 7(7)-6(3)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1728,7 +1910,7 @@
       "round": "F",
       "result": "W",
       "opponent": "N. Djokovic",
-      "score": "1-6 7.8-6.6 6-1 3-6 6-4",
+      "score": "1-6 7(8)-6(6) 6-1 3-6 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1754,7 +1936,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "H. Rune",
-      "score": "7.7-6.3 6-4 6-4",
+      "score": "7(7)-6(3) 6-4 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1780,7 +1962,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "N. Jarry",
-      "score": "6-3 6.6-7.8 6-3 7-5",
+      "score": "6-3 6(6)-7(8) 6-3 7-5",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1793,7 +1975,7 @@
       "round": "R64",
       "result": "W",
       "opponent": "A. Muller",
-      "score": "6-4 7.7-6.2 6-3",
+      "score": "6-4 7(7)-6(2) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1832,7 +2014,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "S. Tsitsipas",
-      "score": "6-2 6-1 7.7-6.5",
+      "score": "6-2 6-1 7(7)-6(5)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -1897,7 +2079,7 @@
       "round": "R32",
       "result": "L",
       "opponent": "F. Marozsan",
-      "score": "3-6 6.4-7.7",
+      "score": "3-6 6(4)-7(7)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2027,7 +2209,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "A. Davidovich Fokina",
-      "score": "7.7-6.5 6-4",
+      "score": "7(7)-6(5) 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2066,7 +2248,7 @@
       "round": "SF",
       "result": "L",
       "opponent": "J. Sinner",
-      "score": "7.7-6.4 4-6 2-6",
+      "score": "7(7)-6(4) 4-6 2-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2105,7 +2287,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "D. Lajovic",
-      "score": "6-0 7.7-6.5",
+      "score": "6-0 7(7)-6(5)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2144,7 +2326,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "J. Sinner",
-      "score": "7.7-6.4 6-3",
+      "score": "7(7)-6(4) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2183,7 +2365,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "T. Griekspoor",
-      "score": "7.7-6.4 6-3",
+      "score": "7(7)-6(4) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2261,7 +2443,7 @@
       "round": "QF",
       "result": "L",
       "opponent": "H. Rune",
-      "score": "3-6 6.1-6.3 ret.",
+      "score": "3-6 6(1)-6(3) ret.",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2352,7 +2534,7 @@
       "round": "F",
       "result": "W",
       "opponent": "C. Ruud",
-      "score": "6-4 2-6 7.7-6.1 6-3",
+      "score": "6-4 2-6 7(7)-6(1) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2365,7 +2547,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "F. Tiafoe",
-      "score": "6.6-7.8 6-3 6-1 6.5-7.7 6-3",
+      "score": "6(6)-7(8) 6-3 6-1 6(5)-7(7) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2378,7 +2560,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "J. Sinner",
-      "score": "6-3 6.7-7.9 6.0-7.7 7-5 6-3",
+      "score": "6-3 6(7)-7(9) 6(0)-7(7) 7-5 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2443,7 +2625,7 @@
       "round": "QF",
       "result": "L",
       "opponent": "C. Norrie",
-      "score": "6.4-7.7 7.7-6.4 4-6",
+      "score": "6(4)-7(7) 7(7)-6(4) 4-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2456,7 +2638,7 @@
       "round": "R16",
       "result": "W",
       "opponent": "M. Cilic",
-      "score": "7.7-6.4 6-1",
+      "score": "7(7)-6(4) 6-1",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2475,58 +2657,6 @@
       "opp_rank": ""
     },
     {
-      "date": "20220731",
-      "tournament": "Umag Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "F",
-      "result": "L",
-      "opponent": "J. Sinner",
-      "score": "7.7-6.5 1-6 1-6",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
-      "date": "20220730",
-      "tournament": "Umag Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "SF",
-      "result": "W",
-      "opponent": "G. Zeppieri",
-      "score": "7-5 4-6 6-3",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
-      "date": "20220729",
-      "tournament": "Umag Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "QF",
-      "result": "W",
-      "opponent": "F. Bagnis",
-      "score": "6-0 6-4",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
-      "date": "20220728",
-      "tournament": "Umag Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "R16",
-      "result": "W",
-      "opponent": "N. Gombos",
-      "score": "6-2 6-3",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
       "date": "20220703",
       "tournament": "Wimbledon",
       "surface": "Grass",
@@ -2534,7 +2664,7 @@
       "round": "R16",
       "result": "L",
       "opponent": "J. Sinner",
-      "score": "1-6 4-6 7.10-6.8 3-6",
+      "score": "1-6 4-6 7(10)-6(8) 3-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2560,7 +2690,7 @@
       "round": "R64",
       "result": "W",
       "opponent": "T. Griekspoor",
-      "score": "6-4 7.7-6.0 6-3",
+      "score": "6-4 7(7)-6(0) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2573,7 +2703,7 @@
       "round": "R128",
       "result": "W",
       "opponent": "J-L. Struff",
-      "score": "4-6 7-5 4-6 7.7-6.3 6-4",
+      "score": "4-6 7-5 4-6 7(7)-6(3) 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2586,7 +2716,7 @@
       "round": "QF",
       "result": "L",
       "opponent": "A. Zverev",
-      "score": "4-6 4-6 6-4 6.7-7.9",
+      "score": "4-6 4-6 6-4 6(7)-7(9)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2625,7 +2755,7 @@
       "round": "R64",
       "result": "W",
       "opponent": "A. Ramos",
-      "score": "6-1 6.7-7.9 5-7 7.7-6.2 6-4",
+      "score": "6-1 6(7)-7(9) 5-7 7(7)-6(2) 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2664,7 +2794,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "N. Djokovic",
-      "score": "6.5-7.7 7-5 7.7-6.5",
+      "score": "6(5)-7(7) 7-5 7(7)-6(5)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2690,7 +2820,7 @@
       "round": "R16",
       "result": "W",
       "opponent": "C. Norrie",
-      "score": "6-4 6.4-7.7 6-3",
+      "score": "6-4 6(4)-7(7) 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2716,7 +2846,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "A. De Minaur",
-      "score": "6.4-7.7 7.7-6.4 6-4",
+      "score": "6(4)-7(7) 7(7)-6(4) 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2781,7 +2911,7 @@
       "round": "R32",
       "result": "L",
       "opponent": "S. Korda",
-      "score": "6.2-7.7 7.7-6.5 3-6",
+      "score": "6(2)-7(7) 7(7)-6(5) 3-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2807,7 +2937,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "H. Hurkacz",
-      "score": "7.7-6.5 7.7-6.2",
+      "score": "7(7)-6(5) 7(7)-6(2)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2820,7 +2950,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "M. Kecmanovic",
-      "score": "6.5-7.7 6-3 7.7-6.5",
+      "score": "6(5)-7(7) 6-3 7(7)-6(5)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2937,7 +3067,7 @@
       "round": "R32",
       "result": "L",
       "opponent": "M. Berrettini",
-      "score": "2-6 6.3-7.7 6-4 6-2 6.5-7.10",
+      "score": "2-6 6(3)-7(7) 6-4 6-2 6(5)-7(10)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -2989,7 +3119,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "J. Sinner",
-      "score": "7.7-6.1 7-5",
+      "score": "7(7)-6(1) 7-5",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3002,7 +3132,7 @@
       "round": "R64",
       "result": "W",
       "opponent": "P. Herbert",
-      "score": "6.4-7.7 7.7-6.2 7-5",
+      "score": "6(4)-7(7) 7(7)-6(2) 7-5",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3028,7 +3158,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "M. Berrettini",
-      "score": "6-1 6.2-7.7 7.7-6.5",
+      "score": "6-1 6(2)-7(7) 7(7)-6(5)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3106,7 +3236,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "S. Tsitsipas",
-      "score": "6-3 4-6 7.7-6.2 0-6 7.7-6.5",
+      "score": "6-3 4-6 7(7)-6(2) 0-6 7(7)-6(5)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3119,7 +3249,7 @@
       "round": "R64",
       "result": "W",
       "opponent": "A. Rinderknech",
-      "score": "7.8-6.6 4-6 6-1 6-4",
+      "score": "7(8)-6(6) 4-6 6-1 6-4",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3158,7 +3288,7 @@
       "round": "QF",
       "result": "W",
       "opponent": "M. Giron",
-      "score": "7.7-6.2 6-2",
+      "score": "7(7)-6(2) 6-2",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3184,7 +3314,7 @@
       "round": "R32",
       "result": "W",
       "opponent": "Al. Popyrin",
-      "score": "6.9-7.11 6-1 7.7-6.1",
+      "score": "6(9)-7(11) 6-1 7(7)-6(1)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3197,7 +3327,7 @@
       "round": "R64",
       "result": "L",
       "opponent": "L. Sonego",
-      "score": "3-6 6.6-7.8",
+      "score": "3-6 6(6)-7(8)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3229,84 +3359,6 @@
       "opp_rank": ""
     },
     {
-      "date": "20210727",
-      "tournament": "Kitzbuhel Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "R32",
-      "result": "L",
-      "opponent": "A. Erler",
-      "score": "5-7 6-1 2-6",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
-      "date": "20210725",
-      "tournament": "Umag Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "F",
-      "result": "W",
-      "opponent": "R. Gasquet",
-      "score": "6-2 6-2",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
-      "date": "20210724",
-      "tournament": "Umag Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "SF",
-      "result": "W",
-      "opponent": "A. Ramos",
-      "score": "6-2 7.7-6.3",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
-      "date": "20210723",
-      "tournament": "Umag Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "QF",
-      "result": "W",
-      "opponent": "F. Krajinovic",
-      "score": "7.7-6.3 2-6 6-1",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
-      "date": "20210722",
-      "tournament": "Umag Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "R16",
-      "result": "W",
-      "opponent": "A. Martin",
-      "score": "6-3 6-1",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
-      "date": "20210720",
-      "tournament": "Umag Open",
-      "surface": "Clay",
-      "level": "B",
-      "round": "R32",
-      "result": "W",
-      "opponent": "L. Pouille",
-      "score": "3-6 6-2 6-2",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
       "date": "20210701",
       "tournament": "Wimbledon",
       "surface": "Grass",
@@ -3327,7 +3379,7 @@
       "round": "R128",
       "result": "W",
       "opponent": "Y. Uchiyama",
-      "score": "6-3 6.4-7.7 6-2 3-6 6-3",
+      "score": "6-3 6(4)-7(7) 6-2 3-6 6-3",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3340,7 +3392,7 @@
       "round": "R32",
       "result": "L",
       "opponent": "J-L. Struff",
-      "score": "4-6 6.3-7.7 2-6",
+      "score": "4-6 6(3)-7(7) 2-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3366,7 +3418,7 @@
       "round": "R128",
       "result": "W",
       "opponent": "B. Zapata Miralles",
-      "score": "6-3 2-6 6-1 7.7-6.4",
+      "score": "6-3 2-6 6-1 7(7)-6(4)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3444,7 +3496,7 @@
       "round": "R64",
       "result": "L",
       "opponent": "F. Tiafoe",
-      "score": "4-6 6.2-7.7",
+      "score": "4-6 6(2)-7(7)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3476,19 +3528,6 @@
       "opp_rank": ""
     },
     {
-      "date": "20210221",
-      "tournament": "Montpellier Open",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "result": "L",
-      "opponent": "T. Griekspoor",
-      "score": "6-4 3-6 1-6",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": ""
-    },
-    {
       "date": "20210211",
       "tournament": "Australian Open",
       "surface": "Hard",
@@ -3496,7 +3535,7 @@
       "round": "R64",
       "result": "L",
       "opponent": "M. Ymer",
-      "score": "6-2 4-6 4-6 6.5-7.7",
+      "score": "6-2 4-6 4-6 6(5)-7(7)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3535,7 +3574,7 @@
       "round": "SF",
       "result": "W",
       "opponent": "E. Karlovskiy",
-      "score": "7.7-6.1 7.7-6.4",
+      "score": "7(7)-6(1) 7(7)-6(4)",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3561,7 +3600,7 @@
       "round": "QF",
       "result": "L",
       "opponent": "A. Vukic",
-      "score": "6-4 6.5-7.7 3-6",
+      "score": "6-4 6(5)-7(7) 3-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
@@ -3574,7 +3613,7 @@
       "round": "SF",
       "result": "L",
       "opponent": "P. Sousa",
-      "score": "7.7-6.5 3-6 1-6",
+      "score": "7(7)-6(5) 3-6 1-6",
       "best_of": "3",
       "rank": "",
       "opp_rank": ""
