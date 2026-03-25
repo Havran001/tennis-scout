@@ -1,9 +1,42 @@
 {
   "player_id": "d643",
   "player_name": "Novak Djokovic",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:21:42.623Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:40:41.283Z",
   "matches": [
+    {
+      "date": "20251016",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "J. Sinner",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20241019",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "SIX KINGS SLAM - 3RD",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "R. Nadal",
+      "score": "6-2 7(7)-6(5)"
+    },
+    {
+      "date": "20241017",
+      "tournament": "Six Kings Slam",
+      "surface": "Hard",
+      "level": "E",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "J. Sinner",
+      "score": "6-2 6(0)-7(7) 6-4"
+    },
     {
       "date": "20240804",
       "tournament": "Olympic Games",
