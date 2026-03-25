@@ -1149,6 +1149,7 @@ function buildPlayersTab(sh){
             h+='<div style="display:flex;align-items:center;gap:8px;padding:4px 0 4px 14px;border-bottom:1px solid rgba(255,255,255,.03);">'
              +badge
              +'<span style="font-size:9px;color:rgba(255,255,255,.18);min-width:66px;flex-shrink:0;letter-spacing:0.3px;">'+_dd+'</span>'
+             +(function(){var _sc=m.surface||'';var _scC=_sc==='Clay'?'background:rgba(194,65,12,0.2);color:#fb923c;':_sc==='Grass'?'background:rgba(21,128,61,0.2);color:#4ade80;':_sc==='Indoor'?'background:rgba(109,40,217,0.2);color:#c084fc;':'background:rgba(29,78,216,0.2);color:#60a5fa;';return _sc?'<span data-surface="'+_sc+'" style="font-size:8px;font-weight:700;padding:1px 6px;border-radius:3px;flex-shrink:0;margin-right:2px;'+_scC+'">'+_sc.toUpperCase()+'</span>':'';}())
              +'<span style="font-size:9px;color:rgba(255,255,255,.25);min-width:28px;">'+( RC[m.round]||m.round||'')+'</span>'
              +'<span style="font-size:11px;color:rgba(255,255,255,.7);flex:1;">'+m.opponent+'</span>'
              +oppRankStr
