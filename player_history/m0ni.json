@@ -1,8 +1,8 @@
 {
   "player_id": "m0ni",
   "player_name": "Jakub Mensik",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:21:58.018Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:41:03.286Z",
   "matches": [
     {
       "date": "20260226",
@@ -146,6 +146,50 @@
       "result": "L",
       "opponent": "Y. Hanfmann",
       "score": "6(4)-7(7) 6-4 3-6"
+    },
+    {
+      "date": "20250315",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. M. Etcheverry",
+      "score": "6-3 6(7)-7(9) 6-3"
+    },
+    {
+      "date": "20250315",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "D. Dzumhur",
+      "score": "7-5 4-6 4-6"
+    },
+    {
+      "date": "20250313",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "R. Sakamoto",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250312",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Garin",
+      "score": "6-3 6-4"
     },
     {
       "date": "20250306",
@@ -476,6 +520,39 @@
       "result": "W",
       "opponent": "B. Hassan",
       "score": "6-3 7-5"
+    },
+    {
+      "date": "20231117",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Blockx",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20231116",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "H. Medjedovic",
+      "score": "4-6 7(7)-6(2) 7(10)-6(8)"
+    },
+    {
+      "date": "20231114",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Dahlin",
+      "score": "6-2 7(7)-6(3)"
     },
     {
       "date": "20231108",
