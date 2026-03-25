@@ -1,8 +1,8 @@
 {
   "player_id": "gc88",
   "player_name": "Marcos Giron",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:25.812Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:42:58.288Z",
   "matches": [
     {
       "date": "20260319",
@@ -36,6 +36,17 @@
       "result": "W",
       "opponent": "S. Shimabukuro",
       "score": "3-6 5-7"
+    },
+    {
+      "date": "20260211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": "4-6 7-5 6(1)-7(7)"
     },
     {
       "date": "20260116",
@@ -190,6 +201,17 @@
       "result": "L",
       "opponent": "A. Zverev",
       "score": "6-2 6-1"
+    },
+    {
+      "date": "20250501",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Vukic",
+      "score": "6-3 6-1"
     },
     {
       "date": "20250414",
@@ -795,6 +817,39 @@
       "result": "L",
       "opponent": "M. Mmoh",
       "score": "7(7)-6(3) 6-1"
+    },
+    {
+      "date": "20230211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": "6(7)-7(9) 6-3 3-6"
+    },
+    {
+      "date": "20230210",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "O. Otte",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230207",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Rybakov",
+      "score": "4-6 7(7)-6(1) 1-6"
     },
     {
       "date": "20230110",
