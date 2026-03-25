@@ -1,8 +1,8 @@
 {
   "player_id": "b0pg",
   "player_name": "Alexander Blockx",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:56.576Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:43:35.289Z",
   "matches": [
     {
       "date": "20260317",
@@ -25,6 +25,50 @@
       "result": "W",
       "opponent": "C. H. Tseng",
       "score": "7(7)-6(5) 6-3"
+    },
+    {
+      "date": "20260314",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "M. Navone",
+      "score": "3-6 6-3 7(7)-6(3)"
+    },
+    {
+      "date": "20260313",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Wong",
+      "score": "4-6 7-5 6-3"
+    },
+    {
+      "date": "20260312",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Svrcina",
+      "score": "6(3)-7(7) 7(10)-6(8) 3-6"
+    },
+    {
+      "date": "20260310",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "R. Cid Subervi",
+      "score": "0-6 5-7"
     },
     {
       "date": "20260302",
@@ -302,6 +346,17 @@
       "score": "2-6 0-6"
     },
     {
+      "date": "20250603",
+      "tournament": "Birmingham",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "Y. Watanuki",
+      "score": "4-6 4-6"
+    },
+    {
       "date": "20250520",
       "tournament": "French Open",
       "surface": "Hard",
@@ -399,6 +454,72 @@
       "result": "W",
       "opponent": "O. Virtanen",
       "score": "3-6 6-4 6-3"
+    },
+    {
+      "date": "20250305",
+      "tournament": "Thionville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "J. Paul",
+      "score": "1-6 6(5)-7(7)"
+    },
+    {
+      "date": "20250126",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "L. Draxl",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250125",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Lajal",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20250124",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "N. Basilashvili",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250123",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Rodionov",
+      "score": "0-6 6-2 3-6"
+    },
+    {
+      "date": "20250121",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Ritschard",
+      "score": "7(7)-6(3) 3-6 6-2"
     },
     {
       "date": "20250107",
@@ -577,6 +698,50 @@
       "score": "3-6 7(8)-6(6) 7-5"
     },
     {
+      "date": "20240210",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "G. Mpetshi Perricard",
+      "score": "7(10)-6(8) 6-2"
+    },
+    {
+      "date": "20240209",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Shelbayh",
+      "score": "7(7)-6(0) 6-3"
+    },
+    {
+      "date": "20240207",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Ritschard",
+      "score": "6(9)-7(11) 6-3 4-6"
+    },
+    {
+      "date": "20240205",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "V. Royer",
+      "score": "7(9)-6(7) 3-6 6(4)-7(7)"
+    },
+    {
       "date": "20240109",
       "tournament": "ATP Australian Open",
       "surface": "Hard",
@@ -597,6 +762,72 @@
       "result": "L",
       "opponent": "D. Rincon",
       "score": "3-6 3-6"
+    },
+    {
+      "date": "20231118",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "B. Nakashima",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20231117",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Mensik",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20231116",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Moutet",
+      "score": "6(6)-7(8) 1-6"
+    },
+    {
+      "date": "20231115",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Neuchrist",
+      "score": "3-6 6-1 7(7)-6(3)"
+    },
+    {
+      "date": "20231113",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "B. Harris",
+      "score": "6(4)-7(7) 7(7)-6(2) 4-6"
+    },
+    {
+      "date": "20231112",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "A. Guerrieri",
+      "score": "5-7 5-7"
     },
     {
       "date": "20231017",
