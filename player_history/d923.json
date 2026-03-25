@@ -1,8 +1,8 @@
 {
   "player_id": "d923",
   "player_name": "Damir Dzumhur",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:38.974Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:43:10.313Z",
   "matches": [
     {
       "date": "20260319",
@@ -14,6 +14,17 @@
       "result": "W",
       "opponent": "I. Buse",
       "score": "7(8)-6(6) 6(6)-7(8) 1-6"
+    },
+    {
+      "date": "20260312",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "C. Wong",
+      "score": "6-3 4-6 2-6"
     },
     {
       "date": "20260217",
@@ -181,6 +192,61 @@
       "score": "2-6 1-6"
     },
     {
+      "date": "20250316",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Kovacevic",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250315",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "J. Mensik",
+      "score": "5-7 6-4 6-4"
+    },
+    {
+      "date": "20250314",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Kecmanovic",
+      "score": "7(7)-6(3) 7(7)-6(5)"
+    },
+    {
+      "date": "20250313",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "B. Bonzi",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20250312",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "T. Boyer",
+      "score": "6-3 4-6 2-6"
+    },
+    {
       "date": "20250305",
       "tournament": "Indian Wells",
       "surface": "Hard",
@@ -335,6 +401,17 @@
       "score": "3-6 4-6"
     },
     {
+      "date": "20240919",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "R. Hijikata",
+      "score": "6-2 6(6)-7(8) 2-6"
+    },
+    {
       "date": "20240820",
       "tournament": "ATP US Open",
       "surface": "Hard",
@@ -465,6 +542,28 @@
       "result": "W",
       "opponent": "A. Rinderknech",
       "score": "6-4 3-6 6-3"
+    },
+    {
+      "date": "20231115",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "M. Cressy",
+      "score": "3-6 7(7)-6(5) 5-7"
+    },
+    {
+      "date": "20231114",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "E. Moller",
+      "score": "4-6 1-6"
     },
     {
       "date": "20231106",
