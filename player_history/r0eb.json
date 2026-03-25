@@ -1,9 +1,31 @@
 {
   "player_id": "r0eb",
   "player_name": "Valentin Royer",
-  "source": "sackmann+goalserve",
-  "updated": "2026-03-25T21:23:24.330Z",
+  "source": "goalserve",
+  "updated": "2026-03-25T21:42:56.286Z",
   "matches": [
+    {
+      "date": "20260313",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "R. Bautista-Agut",
+      "score": "4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20260313",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "M. Navone",
+      "score": "2-6 6(5)-7(7)"
+    },
     {
       "date": "20260224",
       "tournament": "Dubai",
@@ -181,6 +203,17 @@
       "score": "6-1 6-2"
     },
     {
+      "date": "20250916",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "C. Chen",
+      "score": "6-3 7-5"
+    },
+    {
       "date": "20250817",
       "tournament": "Winston-Salem",
       "surface": "Hard",
@@ -278,6 +311,50 @@
       "result": "W",
       "opponent": "N. Hardt",
       "score": "6(5)-7(7) 2-6"
+    },
+    {
+      "date": "20250224",
+      "tournament": "Kigali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "M. Chazal",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250124",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Galarneau",
+      "score": "4-6 6(6)-7(8)"
+    },
+    {
+      "date": "20250123",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "D. Yevseyev",
+      "score": "6-2 2-6 6-4"
+    },
+    {
+      "date": "20250122",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "I. Buse",
+      "score": "6-0 6-2"
     },
     {
       "date": "20250107",
@@ -412,6 +489,28 @@
       "score": "7(7)-6(5) 6(3)-7(7) 7(7)-6(5)"
     },
     {
+      "date": "20240617",
+      "tournament": "Sassuolo Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "R. Seggerman",
+      "score": "6-4 4-6 6-4"
+    },
+    {
+      "date": "20240616",
+      "tournament": "Sassuolo Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "result": "W",
+      "opponent": "G. Cadenasso",
+      "score": "6-4 6-4"
+    },
+    {
       "date": "20240604",
       "tournament": "Prostejov Challenger Men",
       "surface": "Hard",
@@ -465,6 +564,17 @@
       "result": "L",
       "opponent": "B. Nakashima",
       "score": "4-6 4-6"
+    },
+    {
+      "date": "20240205",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "result": "L",
+      "opponent": "A. Blockx",
+      "score": "6(7)-7(9) 6-3 7(7)-6(4)"
     },
     {
       "date": "20240114",
