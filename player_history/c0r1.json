@@ -1,1 +1,61 @@
-{"player_id":"c0r1","sack_id":"213180","name":"Leonardo Cattaneo","total":0,"matches":[]}
+{
+  "player_id": "c0r1",
+  "gs_id": "261757",
+  "player_name": "Leonardo Cattaneo",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:19:49.809Z",
+  "matches": [
+    {
+      "date": "20250807",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Cherie Ligniere",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20250806",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. C. Schinteie",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250508",
+      "tournament": "M15 Heraklion 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Marrero Curbelo",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250507",
+      "tournament": "M15 Heraklion 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Matuszewski",
+      "score": "7-5 7(7)-6(5)"
+    }
+  ]
+}
