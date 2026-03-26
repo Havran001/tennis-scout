@@ -3,11 +3,11 @@
   "gs_id": "40488",
   "player_name": "Igor Gimenez",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:08:10.785Z",
+  "updated": "2026-03-26T20:23:21.819Z",
   "matches": [
     {
-      "date": "20240222",
-      "tournament": "M25 Naples",
+      "date": "20250828",
+      "tournament": "M25 Poznan",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Kodat",
-      "score": "6-1 6-3"
+      "opponent": "A. Vatutin",
+      "score": "2-6 6-4 2-6"
     },
     {
-      "date": "20240220",
-      "tournament": "M25 Naples",
+      "date": "20250826",
+      "tournament": "M25 Poznan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Razeghi",
-      "score": "0-6 6-1 6-4"
+      "opponent": "M. Pawelski",
+      "score": "6(4)-7(7) ret."
     },
     {
-      "date": "20230315",
-      "tournament": "ITF M15 Antalya 7 Men",
+      "date": "20230329",
+      "tournament": "ITF M15 Antalya 9 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Gentzsch",
-      "score": "2-6 7(7)-6(2) 6-3"
+      "opponent": "H. Li",
+      "score": "6-2 7(7)-6(3)"
     },
     {
-      "date": "20230308",
-      "tournament": "ITF M15 Antalya 6 Men",
+      "date": "20230322",
+      "tournament": "ITF M15 Antalya 8 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Speziali",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20230222",
-      "tournament": "ITF M15 Antalya 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Wenger",
-      "score": "0-6 3-6"
+      "opponent": "D. Donders",
+      "score": "6(9)-7(11) 6-2 2-6"
     },
     {
       "date": "20230201",
@@ -82,6 +69,19 @@
       "result": "L",
       "opponent": "M. A. Dellien Velasco",
       "score": "6-4 6-3"
+    },
+    {
+      "date": "20221012",
+      "tournament": "M25 Rio Cuarto",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. De La Fuente",
+      "score": "6-2 4-6 2-6"
     }
   ]
 }
