@@ -3,11 +3,11 @@
   "gs_id": "39030",
   "player_name": "Leonid Sheyngezikht",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:08:29.635Z",
+  "updated": "2026-03-26T15:20:05.678Z",
   "matches": [
     {
-      "date": "20240901",
-      "tournament": "Istanbul Challenger Men",
+      "date": "20240428",
+      "tournament": "Porto Alegre Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,25 +15,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Simakin",
-      "score": "3-6 1-6"
+      "opponent": "W. Leite",
+      "score": "5-7 6(3)-7(7)"
     },
     {
-      "date": "20240506",
-      "tournament": "Santos Challenger Men",
+      "date": "20230910",
+      "tournament": "Rennes Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Zuk",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20230830",
+      "tournament": "Zhangjiagang Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Giustino",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20230828",
+      "tournament": "Zhangjiagang Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. L. Lingua Lavallen",
-      "score": "6(5)-7(7) 2-6"
+      "result": "W",
+      "opponent": "M. C. Romios",
+      "score": "4-6 6-3 4-6"
     },
     {
-      "date": "20240505",
-      "tournament": "Santos Challenger Men",
+      "date": "20230827",
+      "tournament": "Zhangjiagang Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Pinto",
-      "score": "3-6 3-6"
+      "opponent": "X. Wang",
+      "score": "6-4 6-3"
     }
   ]
 }
