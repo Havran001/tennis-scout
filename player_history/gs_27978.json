@@ -3,11 +3,50 @@
   "gs_id": "27978",
   "player_name": "James Storrie Ryan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:54:57.541Z",
+  "updated": "2026-03-26T11:44:54.593Z",
   "matches": [
     {
-      "date": "20170920",
-      "tournament": "London - Roehampton",
+      "date": "20190220",
+      "tournament": "Glasgow",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Dalla Valle",
+      "score": "6(10)-7(12) 6-4 6-3"
+    },
+    {
+      "date": "20170913",
+      "tournament": "Nottingham",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Glasspool",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20170626",
+      "tournament": "Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Halys",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20170215",
+      "tournament": "Shrewsbury",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Kanar",
-      "score": "6-2 6-3"
+      "opponent": "Y. Vandenbulcke",
+      "score": "7(7)-6(5) 4-6 4-6"
     },
     {
-      "date": "20170919",
-      "tournament": "London - Roehampton",
+      "date": "20170214",
+      "tournament": "Shrewsbury",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Hodkin",
-      "score": "6-1 6-2"
+      "opponent": "C. Geens",
+      "score": "4-6 7(7)-6(1) 6-3"
+    },
+    {
+      "date": "20150909",
+      "tournament": "Nottingham",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Whiteford",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20150317",
+      "tournament": "Wirral",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Clayton",
+      "score": "6(9)-7(11) 3-6"
+    },
+    {
+      "date": "20140910",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Caruso",
+      "score": "6-0 6-1"
     }
   ]
 }
