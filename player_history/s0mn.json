@@ -3,11 +3,37 @@
   "gs_id": "84374",
   "player_name": "Marat Sharipov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:09:59.632Z",
+  "updated": "2026-03-26T13:50:09.657Z",
   "matches": [
     {
-      "date": "20250903",
-      "tournament": "Shanghai",
+      "date": "20250430",
+      "tournament": "Guangzhou",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Atmane",
+      "score": "7-5 7(7)-6(3)"
+    },
+    {
+      "date": "20250429",
+      "tournament": "Guangzhou",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Rosenkranz",
+      "score": "3-6 6-3 4-6"
+    },
+    {
+      "date": "20250423",
+      "tournament": "Gwangju",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Crawford",
+      "opponent": "A. Walton",
       "score": "3-6 2-6"
     },
     {
-      "date": "20230807",
-      "tournament": "Banja Luka",
+      "date": "20250421",
+      "tournament": "Gwangju",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ilagan",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250420",
+      "tournament": "Gwangju",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,21 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Tomic",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20230807",
-      "tournament": "Banja Luka",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Topo",
-      "score": "3-6 2-6"
+      "opponent": "H. Jones",
+      "score": "6-1 6(6)-7(8) 6-3"
     }
   ]
 }
