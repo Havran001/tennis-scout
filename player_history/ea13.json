@@ -1,1 +1,35 @@
-{"player_id":"ea13","sack_id":"121411","name":"Moez Echargui","total":0,"matches":[]}
+{
+  "player_id": "ea13",
+  "gs_id": "32340",
+  "player_name": "Moez Echargui",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:07.523Z",
+  "matches": [
+    {
+      "date": "20260223",
+      "tournament": "Dubai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Mpetshi Perricard",
+      "score": "7(7)-6(3) 6(3)-7(7) 7(7)-6(4)"
+    },
+    {
+      "date": "20260112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. van Assche",
+      "score": "4-6 4-6"
+    }
+  ]
+}
