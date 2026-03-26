@@ -3,11 +3,76 @@
   "gs_id": "34695",
   "player_name": "Matteo De Vincentis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:34:38.679Z",
+  "updated": "2026-03-26T19:06:54.794Z",
   "matches": [
     {
-      "date": "20170717",
-      "tournament": "Gubbio",
+      "date": "20230315",
+      "tournament": "ITF M15 Antalya 7 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Chepelev",
+      "score": "6-4 1-6 4-6"
+    },
+    {
+      "date": "20230308",
+      "tournament": "ITF M15 Antalya 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Vallejo",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20230202",
+      "tournament": "ITF M25 Antalya Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Martin Tiffon",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20230131",
+      "tournament": "ITF M25 Antalya Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Compagnucci",
+      "score": "6(6)-7(8) 4-6"
+    },
+    {
+      "date": "20220119",
+      "tournament": "M15 Cairo 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Bosio",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20220112",
+      "tournament": "M15 Cairo 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -16,11 +81,11 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "S. Roncalli",
-      "score": "6-3 6-3"
+      "score": "2-6 3-6"
     },
     {
-      "date": "20170703",
-      "tournament": "Albinea",
+      "date": "20220105",
+      "tournament": "M15 Cairo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Stefanini",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20161109",
-      "tournament": "Latina",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Fortuna",
-      "score": "6-4 6-1"
+      "opponent": "P. R. Scomparin",
+      "score": "6-1 1-6 6-0"
     }
   ]
 }
