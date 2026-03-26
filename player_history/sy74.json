@@ -3,33 +3,111 @@
   "gs_id": "42058",
   "player_name": "Manish Sureshkumar",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:08:50.681Z",
+  "updated": "2026-03-26T13:48:52.641Z",
   "matches": [
     {
-      "date": "20220519",
-      "tournament": "M25 Vic",
+      "date": "20260222",
+      "tournament": "Pune",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Binda",
+      "score": "2-6 6(4)-7(7)"
+    },
+    {
+      "date": "20260217",
+      "tournament": "New Delhi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Sakellaridis",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20260216",
+      "tournament": "New Delhi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "U. Park",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20260215",
+      "tournament": "New Delhi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Carboni",
+      "score": "6-4 2-6 3-6"
+    },
+    {
+      "date": "20230226",
+      "tournament": "Pune Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Lock",
+      "score": "2-6 6-1 6-1"
+    },
+    {
+      "date": "20191114",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Martin Tiffon",
-      "score": "6-2 6-4"
+      "opponent": "J. Duckworth",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20220517",
-      "tournament": "M25 Vic",
+      "date": "20191112",
+      "tournament": "Pune",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Oltra Guiral",
-      "score": "1-6 0-6"
+      "opponent": "R. Noguchi",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20191111",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bendre",
+      "score": "6-2 6-0"
     },
     {
       "date": "20190730",
@@ -43,6 +121,19 @@
       "result": "L",
       "opponent": "T. Matsui",
       "score": "7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20181119",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ymer",
+      "score": "6-4 6-1"
     }
   ]
 }
