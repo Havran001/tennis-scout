@@ -1,1 +1,35 @@
-{"player_id":"b0tl","sack_id":"212462","name":"Evan Burnett","total":0,"matches":[]}
+{
+  "player_id": "b0tl",
+  "gs_id": "216763",
+  "player_name": "Evan Burnett",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:20.624Z",
+  "matches": [
+    {
+      "date": "20231008",
+      "tournament": "Fairfield Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kirchheimer",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20231001",
+      "tournament": "Tiburon Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. A. Gomez",
+      "score": "4-6 7(7)-6(3) 4-6"
+    }
+  ]
+}
