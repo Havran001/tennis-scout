@@ -1,1 +1,61 @@
-{"player_id":"ki71","sack_id":"200070","name":"Kirill Kivattsev","total":2,"matches":[{"id":"2RCg6xEM","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Bosio G.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"UD2h2F4j","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Antonijevic F. L./Sisic F.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "ki71",
+  "gs_id": "32246",
+  "player_name": "Kirill Kivattsev",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:07.520Z",
+  "matches": [
+    {
+      "date": "20180621",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Capalbo",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20180620",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Trocker",
+      "score": "6-0 7-5"
+    },
+    {
+      "date": "20180531",
+      "tournament": "Santa Margarida de Montbui",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Perez Sanz",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20180529",
+      "tournament": "Santa Margarida de Montbui",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Fornell-Mestres",
+      "score": "3-6 6-4 6-1"
+    }
+  ]
+}
