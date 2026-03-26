@@ -3,20 +3,72 @@
   "gs_id": "89982",
   "player_name": "Lukas Pokorny",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:32:27.556Z",
+  "updated": "2026-03-26T13:10:14.627Z",
   "matches": [
     {
-      "date": "20241012",
-      "tournament": "Stockholm",
+      "date": "20240902",
+      "tournament": "Shanghai Challenger Men",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. van Wyk",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20240901",
+      "tournament": "Shanghai Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Lamasine",
+      "score": "6(7)-7(9) 3-6"
+    },
+    {
+      "date": "20230904",
+      "tournament": "Istanbul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Borg",
+      "score": "6(3)-7(7) 6-4 1-6"
+    },
+    {
+      "date": "20230903",
+      "tournament": "Istanbul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. M. Ozdemir",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20220731",
+      "tournament": "Liberec",
+      "surface": "Hard",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Fearnley",
-      "score": "4-6 2-6"
+      "opponent": "D. Yevseyev",
+      "score": "6-3 2-6 5-7"
     }
   ]
 }
