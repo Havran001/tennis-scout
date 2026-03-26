@@ -1,1 +1,22 @@
-{"player_id":"g0of","sack_id":"213141","name":"Georgi Georgiev","total":0,"matches":[]}
+{
+  "player_id": "g0of",
+  "gs_id": "278496",
+  "player_name": "Georgi Georgiev",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T21:14:16.823Z",
+  "matches": [
+    {
+      "date": "20250810",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Paroulek",
+      "score": "2-6 6-4 7(7)-6(4)"
+    }
+  ]
+}
