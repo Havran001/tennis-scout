@@ -1,1 +1,35 @@
-{"player_id":"y0ab","sack_id":"208871","name":"Takeru Yuzuki","total":0,"matches":[]}
+{
+  "player_id": "y0ab",
+  "gs_id": "86992",
+  "player_name": "Takeru Yuzuki",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:05.623Z",
+  "matches": [
+    {
+      "date": "20240506",
+      "tournament": "Santos Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ouakaa",
+      "score": "2-5 ret."
+    },
+    {
+      "date": "20240505",
+      "tournament": "Santos Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Shah",
+      "score": ""
+    }
+  ]
+}
