@@ -3,33 +3,59 @@
   "gs_id": "36244",
   "player_name": "Mikalai Haliak",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:31:32.556Z",
+  "updated": "2026-03-26T12:28:08.606Z",
   "matches": [
     {
-      "date": "20231104",
-      "tournament": "ATP Metz",
+      "date": "20161026",
+      "tournament": "Santa Margherita Di Pula 12",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Brouwer",
-      "score": "3-6 2-6"
+      "opponent": "M. Berrettini",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20231002",
-      "tournament": "ATP Shanghai",
+      "date": "20161024",
+      "tournament": "Santa Margherita Di Pula 12",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Palmese",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20161018",
+      "tournament": "Santa Margherita Di Pula 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Duckworth",
-      "score": "4-6 3-6"
+      "opponent": "C. Fortuna",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20161011",
+      "tournament": "Santa Margherita Di Pula 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Balazs",
+      "score": "6-4 0-6 3-6"
     }
   ]
 }
