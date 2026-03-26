@@ -1,9 +1,23 @@
 {
   "player_id": "h997",
+  "gs_id": "19522",
   "player_name": "Yannick Hanfmann",
   "source": "goalserve-full",
-  "updated": "2026-03-26T07:11:46.459Z",
+  "updated": "2026-03-26T08:44:22.500Z",
   "matches": [
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Llamas Ruiz",
+      "score": "6-1 3-6 4-6"
+    },
     {
       "date": "20250724",
       "tournament": "Kitzbuhel",
@@ -70,6 +84,19 @@
       "score": "6-1 7(9)-6(7)"
     },
     {
+      "date": "20240820",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Napolitano",
+      "score": "6-2 6-1"
+    },
+    {
       "date": "20240726",
       "tournament": "ATP Kitzbuhel",
       "surface": "Hard",
@@ -122,6 +149,32 @@
       "score": "3-6 4-6"
     },
     {
+      "date": "20230829",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sinner",
+      "score": "6-3 6-1 6-1"
+    },
+    {
+      "date": "20230822",
+      "tournament": "ATP Winston-Salem",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. Cerundolo",
+      "score": "7(7)-6(3) 5-7 7(7)-6(4)"
+    },
+    {
       "date": "20230816",
       "tournament": "ATP Cincinnati",
       "surface": "Hard",
@@ -146,6 +199,19 @@
       "result": "L",
       "opponent": "A. Rinderknech",
       "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20220824",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Ofner",
+      "score": "6(7)-7(9) 7-5 4-6"
     },
     {
       "date": "20220730",
@@ -198,6 +264,19 @@
       "result": "W",
       "opponent": "G. Melzer",
       "score": "4-6 1-1 ret."
+    },
+    {
+      "date": "20210831",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bublik",
+      "score": "6-0 4-6 6-2 6-1"
     },
     {
       "date": "20200913",
@@ -291,6 +370,19 @@
       "score": "6(3)-7(7) 1-6"
     },
     {
+      "date": "20190819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Paul",
+      "score": "6-4 4-6 6(3)-7(7)"
+    },
+    {
       "date": "20190728",
       "tournament": "Kitzbuhel",
       "surface": "Hard",
@@ -315,6 +407,19 @@
       "result": "W",
       "opponent": "C. Hsieh",
       "score": "1-6 2-6"
+    },
+    {
+      "date": "20180828",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kohlschreiber",
+      "score": "7(7)-6(3) 5-7 6-4 6-4"
     },
     {
       "date": "20180730",
@@ -354,6 +459,32 @@
       "result": "W",
       "opponent": "T. Seyboth Wild",
       "score": "6-2 7-5"
+    },
+    {
+      "date": "20170824",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Safranek",
+      "score": "6-2 4-6 5-7"
+    },
+    {
+      "date": "20170822",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Gunneswaran",
+      "score": "1-6 4-6"
     },
     {
       "date": "20170801",
