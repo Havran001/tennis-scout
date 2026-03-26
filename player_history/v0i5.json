@@ -3,11 +3,11 @@
   "gs_id": "200560",
   "player_name": "Raphael Vaksmann",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:17:08.833Z",
+  "updated": "2026-03-26T22:15:26.861Z",
   "matches": [
     {
-      "date": "20250114",
-      "tournament": "M15 Bressuire",
+      "date": "20250625",
+      "tournament": "M25 Montauban",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "2-6 4-6"
+      "opponent": "E. J. Werner",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20250424",
+      "tournament": "M25 Angers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Chazal",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250423",
+      "tournament": "M25 Angers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Deflandre",
+      "score": "6(6)-7(8) 1-6"
+    },
+    {
+      "date": "20250305",
+      "tournament": "M15 Poitiers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bertimon",
+      "score": "5-7 1-6"
     }
   ]
 }
