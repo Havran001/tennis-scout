@@ -3,11 +3,11 @@
   "gs_id": "1847",
   "player_name": "Renzo Olivo",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:19:46.808Z",
+  "updated": "2026-03-26T22:04:51.862Z",
   "matches": [
     {
-      "date": "20220720",
-      "tournament": "Trieste",
+      "date": "20250326",
+      "tournament": "Concepcion",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Agamenone",
-      "score": "1-6 7-5 6-1"
+      "opponent": "G. I. Justo",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20220719",
-      "tournament": "Trieste",
+      "date": "20250325",
+      "tournament": "Concepcion",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Vincent Ruggeri",
-      "score": "2-6 4-6"
+      "opponent": "N. Villalon",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20220712",
-      "tournament": "Iasi",
+      "date": "20240423",
+      "tournament": "Concepcion Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Klein",
-      "score": "6-3 3-6 6-4"
+      "opponent": "D. Dutra Da Silva",
+      "score": "5-7 1-5 ret."
+    },
+    {
+      "date": "20230125",
+      "tournament": "Concepcion Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Torres",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220118",
+      "tournament": "Concepcion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Sakamoto",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20210604",
+      "tournament": "Biella 7",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Meligeni Alves",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20210602",
+      "tournament": "Biella 7",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. P. Varillas",
+      "score": "3-6 6(1)-7(7)"
+    },
+    {
+      "date": "20210531",
+      "tournament": "Biella 7",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Menezes",
+      "score": "6-4 6-3"
     }
   ]
 }
