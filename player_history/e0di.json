@@ -1,1 +1,35 @@
-{"player_id":"e0di","sack_id":"211661","name":"Juan Estevez","total":3,"matches":[{"id":"SYP8q6Qb","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Bucaramanga 2 (Colombia), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Janvier M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"4Y94c7o4","date":"20260324","tournament":"CHALLENGER MEN - DOUBLES: Bucaramanga 2 (Colombia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Ambrogi L. E./Rodriguez L. J.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"4Y94c7o4","date":"20260324","tournament":"CHALLENGER MEN - DOUBLES: Bucaramanga 2 (Colombia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Ambrogi L. E./Rodriguez L. J.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "e0di",
+  "gs_id": "168682",
+  "player_name": "Juan Estevez",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:52.626Z",
+  "matches": [
+    {
+      "date": "20250505",
+      "tournament": "Santos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Huertas Del Pino",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20250504",
+      "tournament": "Santos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Cigarran",
+      "score": "6-0 6-2"
+    }
+  ]
+}
