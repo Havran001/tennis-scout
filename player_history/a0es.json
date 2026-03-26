@@ -1,1 +1,48 @@
-{"player_id":"a0es","sack_id":"109694","name":"Pedro Araujo","total":0,"matches":[]}
+{
+  "player_id": "a0es",
+  "gs_id": "76934",
+  "player_name": "Pedro Araujo",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:29:00.611Z",
+  "matches": [
+    {
+      "date": "20240330",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Klein",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20220424",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Cuevas",
+      "score": "7(7)-6(4) 3-6 1-6"
+    },
+    {
+      "date": "20220423",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Mager",
+      "score": "6-1 2-0 ret."
+    }
+  ]
+}
