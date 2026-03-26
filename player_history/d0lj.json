@@ -3,20 +3,72 @@
   "gs_id": "211583",
   "player_name": "Diego Dedura",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:29:35.603Z",
+  "updated": "2026-03-26T13:12:18.624Z",
   "matches": [
     {
-      "date": "20250421",
-      "tournament": "Madrid",
+      "date": "20250910",
+      "tournament": "Szczecin",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Kopriva",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20250908",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Pavlovic",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20250731",
+      "tournament": "Liberec",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Gombos",
+      "score": "6(5)-7(7) 7-5 5-7"
+    },
+    {
+      "date": "20250729",
+      "tournament": "Liberec",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Berrettini",
+      "score": "6-1 5-7 6-3"
+    },
+    {
+      "date": "20240908",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. E. Galan",
-      "score": "6(7)-7(9) 6-4 6-1"
+      "opponent": "M. H. Rehberg",
+      "score": "6-3 3-6 6-2"
     }
   ]
 }
