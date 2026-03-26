@@ -1,13 +1,13 @@
 {
   "player_id": "d0fn",
-  "gs_id": "65424",
-  "player_name": "Ju Kim Dong",
+  "gs_id": "158883",
+  "player_name": "Zhenxiong Dong",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:49:19.651Z",
+  "updated": "2026-03-26T16:13:46.703Z",
   "matches": [
     {
-      "date": "20251026",
-      "tournament": "Seoul",
+      "date": "20241014",
+      "tournament": "Shenzhen 2",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,21 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Isomura",
-      "score": "6-4 6-3"
+      "opponent": "J. R. Statham",
+      "score": "7(9)-6(7) 6-4"
     },
     {
-      "date": "20190429",
-      "tournament": "Seoul",
+      "date": "20240825",
+      "tournament": "Zhangjiagang Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "R64",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. M. Lee",
-      "score": "6-2 6-2"
+      "opponent": "A. Ayeni",
+      "score": "6-3 6(5)-7(7) 2-6"
+    },
+    {
+      "date": "20240818",
+      "tournament": "Jinan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Trongcharoenchaikul",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20230910",
+      "tournament": "Guangzhou Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Castelnuovo",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20230820",
+      "tournament": "Zhuhai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Haliak",
+      "score": "0-6 2-6"
     }
   ]
 }
