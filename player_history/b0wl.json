@@ -3,46 +3,59 @@
   "gs_id": "200557",
   "player_name": "Felix Balshaw",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:50:48.746Z",
+  "updated": "2026-03-26T21:13:48.826Z",
   "matches": [
     {
-      "date": "20260210",
-      "tournament": "Pau",
+      "date": "20241019",
+      "tournament": "ITF M15 Heraklion 5 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Riedi",
-      "score": "7(7)-6(0) 3-6 2-6"
-    },
-    {
-      "date": "20260209",
-      "tournament": "Pau",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Janvier",
-      "score": "5-7 6-3 6-2"
-    },
-    {
-      "date": "20260208",
-      "tournament": "Pau",
-      "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bodmer",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20241018",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "C. Hemery",
-      "score": "6-3 1-6 6(2)-7(7)"
+      "opponent": "N. Jadoun",
+      "score": "6-4 7(7)-6(3)"
+    },
+    {
+      "date": "20241017",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Suarez",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20241016",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Campbell",
+      "score": "6-1 6-2"
     }
   ]
 }
