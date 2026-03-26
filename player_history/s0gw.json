@@ -1,1 +1,22 @@
-{"player_id":"s0gw","sack_id":"207685","name":"Peter Sallay","total":0,"matches":[]}
+{
+  "player_id": "s0gw",
+  "gs_id": "84740",
+  "player_name": "Peter Sallay",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:55:55.779Z",
+  "matches": [
+    {
+      "date": "20200204",
+      "tournament": "M15 Antalya 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Davydov",
+      "score": "4-6 4-6"
+    }
+  ]
+}
