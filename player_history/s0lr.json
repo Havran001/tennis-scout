@@ -3,11 +3,50 @@
   "gs_id": "126752",
   "player_name": "John Sperle",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:56:36.777Z",
+  "updated": "2026-03-26T20:16:59.818Z",
   "matches": [
     {
-      "date": "20251018",
-      "tournament": "M15 Castellon",
+      "date": "20250319",
+      "tournament": "M15 Antalya 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Lalami Laaroussi",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20250314",
+      "tournament": "M15 Antalya 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Andreescu",
+      "score": "6(5)-7(7) 1-6"
+    },
+    {
+      "date": "20250313",
+      "tournament": "M15 Antalya 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Chepelev",
+      "score": "4-6 6-3 6(1)-7(7)"
+    },
+    {
+      "date": "20250312",
+      "tournament": "M15 Antalya 8",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,21 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "X. Palomar",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20251018",
-      "tournament": "M15 Castellon",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Chazal",
-      "score": "7(7)-6(1) 6-4"
+      "opponent": "N. Larwig",
+      "score": "1-6 3-6"
     },
     {
       "date": "20250305",
@@ -45,34 +71,21 @@
       "score": "2-6 6(5)-7(7)"
     },
     {
-      "date": "20250214",
-      "tournament": "M15 Antalya 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Obradovic",
-      "score": "3-6 5-7"
-    },
-    {
-      "date": "20250213",
-      "tournament": "M15 Antalya 4",
+      "date": "20250130",
+      "tournament": "M25 Antalya",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Nagel",
-      "score": "4-6 6-4 4-6"
+      "result": "L",
+      "opponent": "D. Michalski",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20250212",
-      "tournament": "M15 Antalya 4",
+      "date": "20250129",
+      "tournament": "M25 Antalya",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +93,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Fiorentini",
-      "score": "2-6 2-6"
+      "opponent": "S. M. Ozdemir",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M15 Antalya 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zielinski",
+      "score": "5-7 4-6"
     },
     {
       "date": "20240321",
@@ -110,6 +136,58 @@
       "score": "0-6 3-6"
     },
     {
+      "date": "20240229",
+      "tournament": "ITF M15 Monastir 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Carboni",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20240227",
+      "tournament": "ITF M15 Monastir 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Ros Mesas",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20240222",
+      "tournament": "ITF M15 Monastir 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dodig",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20240221",
+      "tournament": "ITF M15 Monastir 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Puskar",
+      "score": "4-6 1-6"
+    },
+    {
       "date": "20240215",
       "tournament": "ITF M15 Monastir 7 Men",
       "surface": "Hard",
@@ -136,47 +214,8 @@
       "score": "3-6 6(5)-7(7)"
     },
     {
-      "date": "20231015",
-      "tournament": "Hamburg Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Lamasine",
-      "score": "6-2 2-6 0-6"
-    },
-    {
-      "date": "20221017",
-      "tournament": "Hamburg",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Kirkin",
-      "score": "7(7)-6(5) 3-6 2-6"
-    },
-    {
-      "date": "20221016",
-      "tournament": "Hamburg",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Krumich",
-      "score": "3-6 7(8)-6(6) 6-4"
-    },
-    {
-      "date": "20220209",
-      "tournament": "M15 Antalya 5",
+      "date": "20230329",
+      "tournament": "ITF M15 Antalya 9 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,8 +223,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Polukhin",
-      "score": "7-5 6-4"
+      "opponent": "N. Zanellato",
+      "score": "7(7)-6(2) 6-3"
+    },
+    {
+      "date": "20220921",
+      "tournament": "M25 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Mensik",
+      "score": "6-4 5-7 6-3"
+    },
+    {
+      "date": "20220406",
+      "tournament": "M15 Antalya 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Baris",
+      "score": "6-3 3-6 6-3"
     }
   ]
 }
