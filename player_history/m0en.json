@@ -3,11 +3,24 @@
   "gs_id": "40192",
   "player_name": "Manuel Mazza",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:17:52.513Z",
+  "updated": "2026-03-26T13:08:36.630Z",
   "matches": [
     {
-      "date": "20170801",
-      "tournament": "Bolzano",
+      "date": "20220731",
+      "tournament": "Cordenons",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Domingues",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20191002",
+      "tournament": "Santa Margherita Di Pula 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +28,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Balzerani",
-      "score": "6-3 6-1"
+      "opponent": "N. Fatic",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20190710",
+      "tournament": "Casinalbo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Chazal",
+      "score": "4-6 6-1 6-3"
+    },
+    {
+      "date": "20180724",
+      "tournament": "Pontedera",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Fatic",
+      "score": "6-2 7(7)-6(3)"
+    },
+    {
+      "date": "20180605",
+      "tournament": "Padova",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Siimar",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20171031",
+      "tournament": "Santa Margherita Di Pula 15",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Loccisano",
+      "score": "5-7 1-6"
     }
   ]
 }
