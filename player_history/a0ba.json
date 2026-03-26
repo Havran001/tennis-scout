@@ -1,1 +1,48 @@
-{"player_id":"a0ba","sack_id":"206467","name":"Federico Arnaboldi","total":0,"matches":[]}
+{
+  "player_id": "a0ba",
+  "gs_id": "57338",
+  "player_name": "Federico Arnaboldi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:12.514Z",
+  "matches": [
+    {
+      "date": "20250719",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Gaubas",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20190801",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Yevseyev",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20190730",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Baldoni",
+      "score": "6-2 6-2"
+    }
+  ]
+}
