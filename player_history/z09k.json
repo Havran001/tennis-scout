@@ -3,8 +3,60 @@
   "gs_id": "34159",
   "player_name": "Michael Zhu",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:06:29.843Z",
+  "updated": "2026-03-26T20:14:34.811Z",
   "matches": [
+    {
+      "date": "20240222",
+      "tournament": "ITF M15 Monastir 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Donald",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20240221",
+      "tournament": "ITF M15 Monastir 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Meduri",
+      "score": "7-5 1-6 6-4"
+    },
+    {
+      "date": "20231116",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kriznik",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20231114",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Kimhi",
+      "score": "4-6 2-6"
+    },
     {
       "date": "20231024",
       "tournament": "ITF M25 Glasgow Men",
@@ -19,6 +71,45 @@
       "score": "3-6 0-6"
     },
     {
+      "date": "20220809",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Jorda Sanchis",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20220308",
+      "tournament": "M15 Monastir 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Basso",
+      "score": "6-3 3-6 6-3"
+    },
+    {
+      "date": "20220302",
+      "tournament": "M15 Monastir 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Erhard",
+      "score": "1-6 2-6"
+    },
+    {
       "date": "20220223",
       "tournament": "M15 Monastir 7",
       "surface": "Hard",
@@ -30,6 +121,19 @@
       "result": "L",
       "opponent": "M. Imamura",
       "score": "3-6 6-3 6-1"
+    },
+    {
+      "date": "20200902",
+      "tournament": "M15 Novomoskovsk",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Orlov",
+      "score": "6-2 6-1"
     }
   ]
 }
