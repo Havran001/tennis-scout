@@ -1,22 +1,87 @@
 {
   "player_id": "k0hz",
-  "gs_id": "42404",
-  "player_name": "Aidan Kim",
+  "gs_id": "162534",
+  "player_name": "Jangjun Kim",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:56:12.540Z",
+  "updated": "2026-03-26T17:47:03.744Z",
   "matches": [
     {
-      "date": "20110723",
-      "tournament": "Los Angeles",
+      "date": "20251113",
+      "tournament": "Drummondville",
       "surface": "Hard",
-      "level": "B",
-      "round": "QF",
+      "level": "C",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. De Voest",
-      "score": "4-6 3-6"
+      "opponent": "D. Glinka",
+      "score": "7(7)-6(5) 3-6 2-6"
+    },
+    {
+      "date": "20251112",
+      "tournament": "Drummondville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Baadi",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20251110",
+      "tournament": "Drummondville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Hilderbrand",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20251110",
+      "tournament": "Drummondville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Kirchheimer",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20251026",
+      "tournament": "Charlottesville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Arutiunian",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20221011",
+      "tournament": "Seoul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Hijikata",
+      "score": "6-1 6-2"
     }
   ]
 }
