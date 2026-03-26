@@ -3,11 +3,24 @@
   "gs_id": "5247",
   "player_name": "Yaraslav Shyla",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:33:20.684Z",
+  "updated": "2026-03-26T15:16:48.700Z",
   "matches": [
     {
-      "date": "20150520",
-      "tournament": "Eskisehir",
+      "date": "20150929",
+      "tournament": "Agri",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Molchanov",
+      "score": "6(2)-7(7) 6(3)-7(7)"
+    },
+    {
+      "date": "20150408",
+      "tournament": "Batman",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bossel",
-      "score": "6-0 6(6)-7(8) 6-4"
+      "opponent": "H. Moriya",
+      "score": "6-3 4-6 6-0"
     },
     {
-      "date": "20150518",
-      "tournament": "Eskisehir",
+      "date": "20150406",
+      "tournament": "Batman",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Cunha",
-      "score": "4-6 7(8)-6(6) 3-6"
+      "opponent": "R. Ghedin",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20140722",
+      "tournament": "Astana 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cipolla",
+      "score": "6(2)-7(7) 0-3 ret."
+    },
+    {
+      "date": "20120410",
+      "tournament": "Shymkent",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Vasiliev",
+      "score": "6-2 ret."
     }
   ]
 }
