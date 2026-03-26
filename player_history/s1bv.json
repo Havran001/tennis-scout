@@ -3,11 +3,11 @@
   "gs_id": "289008",
   "player_name": "Billy Suarez",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:02:12.779Z",
+  "updated": "2026-03-26T23:13:37.891Z",
   "matches": [
     {
-      "date": "20250320",
-      "tournament": "M15 Heraklion",
+      "date": "20250619",
+      "tournament": "M25 Tulsa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Simakin",
-      "score": "4-6 3-6"
+      "opponent": "A. Rybakov",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20250319",
-      "tournament": "M15 Heraklion",
+      "date": "20250618",
+      "tournament": "M25 Tulsa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Kypriotis",
-      "score": "6(5)-7(7) 0-6"
+      "opponent": "R. Falck",
+      "score": "7(7)-6(3) 2-6 6-3"
+    },
+    {
+      "date": "20250402",
+      "tournament": "M15 Heraklion 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nikles",
+      "score": "6-1 7(7)-6(5)"
+    },
+    {
+      "date": "20250305",
+      "tournament": "M15 Torello",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Echeverria",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20250219",
+      "tournament": "M15 Villena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Manzanera Pertusa",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20241017",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Balshaw",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20241016",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Kimhi",
+      "score": "2-6 6-2 1-6"
     }
   ]
 }
