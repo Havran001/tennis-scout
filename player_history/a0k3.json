@@ -1,1 +1,35 @@
-{"player_id":"a0k3","sack_id":"212531","name":"Nicolas Arseneault","total":0,"matches":[]}
+{
+  "player_id": "a0k3",
+  "gs_id": "170710",
+  "player_name": "Nicolas Arseneault",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:57:00.540Z",
+  "matches": [
+    {
+      "date": "20250729",
+      "tournament": "Toronto",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Popyrin",
+      "score": "7(9)-6(7) 6-3"
+    },
+    {
+      "date": "20250727",
+      "tournament": "Toronto",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Royer",
+      "score": "6-3 7(7)-6(4)"
+    }
+  ]
+}
