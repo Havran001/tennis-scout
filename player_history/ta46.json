@@ -3,11 +3,11 @@
   "gs_id": "1016",
   "player_name": "Bernard Tomic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:47:45.760Z",
+  "updated": "2026-03-26T20:19:38.816Z",
   "matches": [
     {
-      "date": "20171108",
-      "tournament": "Bratislava",
+      "date": "20251126",
+      "tournament": "Playford 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Janowicz",
-      "score": "7(7)-6(3) 7(7)-6(2)"
+      "opponent": "P. Sekulic",
+      "score": "3-6 7(7)-6(4) 6-4"
     },
     {
-      "date": "20171106",
-      "tournament": "Bratislava",
+      "date": "20251124",
+      "tournament": "Playford 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,12 +28,90 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Berankis",
-      "score": "7(7)-6(3) 6-2"
+      "opponent": "M. Gengel",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20131106",
-      "tournament": "Bratislava",
+      "date": "20230115",
+      "tournament": "ITF M15 Doha Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Tamm",
+      "score": "4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20230114",
+      "tournament": "ITF M15 Doha Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Erel",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20230113",
+      "tournament": "ITF M15 Doha Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Colson",
+      "score": "3-6 6-3 6(2)-7(7)"
+    },
+    {
+      "date": "20230112",
+      "tournament": "ITF M15 Doha Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Donders",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20230111",
+      "tournament": "ITF M15 Doha Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Nawaf",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20210919",
+      "tournament": "ATP Nur-Sultan",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cressy",
+      "score": "3-6 1-2 ret."
+    },
+    {
+      "date": "20210405",
+      "tournament": "Split 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Marchenko",
-      "score": "4-6 2-6"
+      "opponent": "K. Coppejans",
+      "score": "6-2 4-6 6-3"
     }
   ]
 }
