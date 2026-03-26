@@ -3,63 +3,89 @@
   "gs_id": "77918",
   "player_name": "Abedallah Shelbayh",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:21:46.815Z",
+  "updated": "2026-03-26T21:15:13.827Z",
   "matches": [
     {
-      "date": "20240710",
-      "tournament": "Iasi Challenger Men",
+      "date": "20240623",
+      "tournament": "ATP Mallorca",
       "surface": "Hard",
-      "level": "C",
-      "round": "R16",
+      "level": "B",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Dellien",
-      "score": "6-4 6-4"
+      "opponent": "M. Marterer",
+      "score": "4-6 6-3 2-6"
     },
     {
-      "date": "20240709",
-      "tournament": "Iasi Challenger Men",
+      "date": "20240622",
+      "tournament": "ATP Mallorca",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "B",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Gima",
-      "score": "0-6 6(6)-7(8)"
+      "opponent": "R. Ramanathan",
+      "score": "6(2)-7(7) 6(4)-7(7)"
     },
     {
-      "date": "20221211",
-      "tournament": "ITF M15 Trnava Men",
+      "date": "20230626",
+      "tournament": "ATP Mallorca",
       "surface": "Hard",
-      "level": "I",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Safiullin",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20230625",
+      "tournament": "ATP Mallorca",
+      "surface": "Hard",
+      "level": "B",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Rincon",
-      "score": "6-1 6-4"
+      "opponent": "A. Rinderknech",
+      "score": "6-4 6(5)-7(7) 4-6"
     },
     {
-      "date": "20221210",
-      "tournament": "ITF M15 Trnava Men",
+      "date": "20230624",
+      "tournament": "ATP Mallorca",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Rincon",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230114",
+      "tournament": "ITF M15 Manacor Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Bulitski",
-      "score": "0-6 6-3 4-6"
+      "result": "L",
+      "opponent": "A. Lopez San Martin",
+      "score": "3-6 0-2 ret."
     },
     {
-      "date": "20221209",
-      "tournament": "ITF M15 Trnava Men",
+      "date": "20230113",
+      "tournament": "ITF M15 Manacor Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -67,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Smith",
-      "score": "2-6 2-6"
+      "opponent": "N. Honda",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20221208",
-      "tournament": "ITF M15 Trnava Men",
+      "date": "20230112",
+      "tournament": "ITF M15 Manacor Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Nejedly",
-      "score": "3-6 2-6"
+      "opponent": "M. Damas",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20221207",
-      "tournament": "ITF M15 Trnava Men",
+      "date": "20230111",
+      "tournament": "ITF M15 Manacor Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +119,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Vallejo",
-      "score": "7(9)-6(7) 3-6 2-6"
+      "opponent": "X. Matas Ortega",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20201112",
+      "tournament": "ITF M15 Valldoreix Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Cachin",
+      "score": "4-6 7(8)-6(6) 3-6"
+    },
+    {
+      "date": "20201110",
+      "tournament": "ITF M15 Valldoreix Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Alcala Gurri",
+      "score": "6-3 7-5"
     }
   ]
 }
