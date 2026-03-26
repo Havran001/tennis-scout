@@ -1,1 +1,22 @@
-{"player_id":"gg65","sack_id":"126107","name":"Michael Geerts","total":0,"matches":[]}
+{
+  "player_id": "gg65",
+  "gs_id": "31858",
+  "player_name": "Michael Geerts",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:46:14.504Z",
+  "matches": [
+    {
+      "date": "20220823",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Travaglia",
+      "score": "3-6 4-6"
+    }
+  ]
+}
