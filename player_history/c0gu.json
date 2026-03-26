@@ -3,50 +3,37 @@
   "gs_id": "148961",
   "player_name": "Matyas Cerny",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:13:56.865Z",
+  "updated": "2026-03-26T23:57:11.906Z",
   "matches": [
     {
-      "date": "20260317",
-      "tournament": "Zadar",
+      "date": "20251016",
+      "tournament": "M15 Monastir 39",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Alcala Gurri",
-      "score": "2-6 2-6"
+      "opponent": "S. Cuenin",
+      "score": "6-0 0-0 ret."
     },
     {
-      "date": "20260316",
-      "tournament": "Zadar",
+      "date": "20251015",
+      "tournament": "M15 Monastir 39",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Fiorentini",
-      "score": "7(7)-6(4) 1-6 3-6"
+      "opponent": "E. De Filippo",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20260315",
-      "tournament": "Zadar",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. La Vela",
-      "score": "6-2 6-0"
-    },
-    {
-      "date": "20250429",
-      "tournament": "M15 Shymkent 2",
+      "date": "20251007",
+      "tournament": "M15 Monastir 38",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Klok",
-      "score": "6-4 6(4)-7(7) 2-6"
+      "opponent": "A. Forger",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20250425",
-      "tournament": "M15 Shymkent",
+      "date": "20250711",
+      "tournament": "M15 Lodz",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -67,64 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
+      "opponent": "T. Berkieta",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250710",
+      "tournament": "M15 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Grzegorzewski",
+      "score": "4-6 6-1 6-2"
+    },
+    {
+      "date": "20250708",
+      "tournament": "M15 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
       "opponent": "A. Braynin",
-      "score": "7-5 1-6 6-3"
+      "score": "1-6 2-6"
     },
     {
-      "date": "20250424",
-      "tournament": "M15 Shymkent",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Kukasian",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20250423",
-      "tournament": "M15 Shymkent",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Shebekin",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20250319",
-      "tournament": "M15 Rovinj",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Schlageter",
-      "score": "6-3 6(3)-7(7) 1-6"
-    },
-    {
-      "date": "20250305",
-      "tournament": "M25 Trimbach",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Parizzia",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20230831",
-      "tournament": "M25 Jablonec nad Nisou 2",
+      "date": "20240725",
+      "tournament": "ITF M15 Poprad Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -132,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Barton",
-      "score": "1-6 3-6"
+      "opponent": "A. Martin",
+      "score": "6-2 3-6 7(7)-6(2)"
     },
     {
-      "date": "20230830",
-      "tournament": "M25 Jablonec nad Nisou 2",
+      "date": "20240723",
+      "tournament": "ITF M15 Poprad Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Forejtek",
-      "score": "6-3 6-3"
+      "opponent": "N. Hornitschek",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20230524",
-      "tournament": "M25 Most",
+      "date": "20240508",
+      "tournament": "ITF M15 Doboj Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Santillan",
-      "score": "3-1 ret."
+      "opponent": "R. Faucon",
+      "score": "6(2)-7(7) 0-6"
     },
     {
-      "date": "20220518",
-      "tournament": "M25 Most",
+      "date": "20210901",
+      "tournament": "M25 Ricany",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,8 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Poljak",
-      "score": "6-4 1-6 6-4"
+      "opponent": "R. Stanek",
+      "score": "6(5)-7(7) 6-3 6-1"
     }
   ]
 }
