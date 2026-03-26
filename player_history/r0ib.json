@@ -1,1 +1,74 @@
-{"player_id":"r0ib","sack_id":"212134","name":"Maxence Rivet","total":0,"matches":[]}
+{
+  "player_id": "r0ib",
+  "gs_id": "144081",
+  "player_name": "Maxence Rivet",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:59:20.787Z",
+  "matches": [
+    {
+      "date": "20260225",
+      "tournament": "M15 Monastir 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Branger",
+      "score": "6-4 3-6 6-1"
+    },
+    {
+      "date": "20250218",
+      "tournament": "M15 Monastir 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. De Schepper",
+      "score": "3-6 6-3 2-6"
+    },
+    {
+      "date": "20240218",
+      "tournament": "Pau Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Celikbilek",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20240211",
+      "tournament": "Cherbourg Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Coulibaly",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240117",
+      "tournament": "ITF M15 Monastir 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Vylegzhanin",
+      "score": "6-2 6-2"
+    }
+  ]
+}
