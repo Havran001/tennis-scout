@@ -3,11 +3,11 @@
   "gs_id": "77014",
   "player_name": "Dimitris Azoidis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:55:35.789Z",
+  "updated": "2026-03-26T20:16:06.810Z",
   "matches": [
     {
-      "date": "20260211",
-      "tournament": "M15 Monastir 5",
+      "date": "20250507",
+      "tournament": "M15 Heraklion 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Wallart",
-      "score": "1-6 4-6"
+      "opponent": "M. Efstathiou",
+      "score": "0-6 0-1 ret."
+    },
+    {
+      "date": "20241018",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Kingsley",
+      "score": ""
+    },
+    {
+      "date": "20241017",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Lavizzari",
+      "score": "3-6 7(7)-6(5) 7-5"
+    },
+    {
+      "date": "20241015",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Vales",
+      "score": "5-7 6-0 2-6"
+    },
+    {
+      "date": "20240329",
+      "tournament": "ITF M15 Heraklion 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Matsuda",
+      "score": "3-6 6-2 3-6"
+    },
+    {
+      "date": "20240328",
+      "tournament": "ITF M15 Heraklion 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Crowther",
+      "score": "7(9)-6(7) 3-6 1-6"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M15 Heraklion 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Decamps",
+      "score": "6-2 5-7 6-4"
     }
   ]
 }
