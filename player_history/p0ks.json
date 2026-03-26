@@ -1,1 +1,48 @@
-{"player_id":"p0ks","sack_id":"211322","name":"Lasse Poertner","total":0,"matches":[]}
+{
+  "player_id": "p0ks",
+  "gs_id": "157520",
+  "player_name": "Lasse Poertner",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:23:07.681Z",
+  "matches": [
+    {
+      "date": "20240604",
+      "tournament": "Heilbronn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Blancaneaux",
+      "score": "1-6 6(7)-7(9)"
+    },
+    {
+      "date": "20240603",
+      "tournament": "Heilbronn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Wessels",
+      "score": "3-6 6-3 6-4"
+    },
+    {
+      "date": "20240602",
+      "tournament": "Heilbronn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bourgue",
+      "score": "6-3 3-6 2-6"
+    }
+  ]
+}
