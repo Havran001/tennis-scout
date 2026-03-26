@@ -3,24 +3,37 @@
   "gs_id": "31867",
   "player_name": "Alexander Weis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:06:00.819Z",
+  "updated": "2026-03-26T20:20:45.823Z",
   "matches": [
     {
-      "date": "20250307",
-      "tournament": "M15 Antalya 7",
+      "date": "20250201",
+      "tournament": "M25 Antalya",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Den Ouden",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250131",
+      "tournament": "M25 Antalya",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Fomin",
-      "score": "3-6 2-6"
+      "result": "W",
+      "opponent": "A. Picchione",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20250306",
-      "tournament": "M15 Antalya 7",
+      "date": "20250130",
+      "tournament": "M25 Antalya",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. La Vela",
-      "score": "3-6 6(4)-7(7)"
+      "opponent": "S. Polukhin",
+      "score": "6-4 1-6 6-2"
     },
     {
-      "date": "20250305",
-      "tournament": "M15 Antalya 7",
+      "date": "20250129",
+      "tournament": "M25 Antalya",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,38 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Guna",
-      "score": "4-6 4-6"
+      "opponent": "T. C. Baragiola Mordini",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20220325",
-      "tournament": "M15 Antalya 7",
+      "date": "20240707",
+      "tournament": "Trieste Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "QF",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Kawakami",
-      "score": "7-5 6-2"
+      "opponent": "F. Romano",
+      "score": "2-6 6-3 7-5"
     },
     {
-      "date": "20220324",
-      "tournament": "M15 Antalya 7",
+      "date": "20220623",
+      "tournament": "M25 Klosters",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Yamanaka",
-      "score": "6-2 6-2"
+      "result": "L",
+      "opponent": "N. Hornitschek",
+      "score": "4-6 6(2)-7(7)"
     },
     {
-      "date": "20220323",
-      "tournament": "M15 Antalya 7",
+      "date": "20220621",
+      "tournament": "M25 Klosters",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Arutiunian",
-      "score": "7-5 6-2"
+      "opponent": "M. Brunold",
+      "score": "4-6 6(5)-7(7)"
     },
     {
       "date": "20220217",
@@ -110,6 +123,110 @@
       "score": "6(4)-7(7) 3-6"
     },
     {
+      "date": "20220102",
+      "tournament": "Forli",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Miceli",
+      "score": "6-4 6(2)-7(7) 0-6"
+    },
+    {
+      "date": "20210925",
+      "tournament": "ITF M25 Pardubice Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Squire",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20210924",
+      "tournament": "ITF M25 Pardubice Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Rajski",
+      "score": "6-3 2-0 ret."
+    },
+    {
+      "date": "20210923",
+      "tournament": "ITF M25 Pardubice Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Martin",
+      "score": "6(5)-7(7) 6-3 6-2"
+    },
+    {
+      "date": "20210922",
+      "tournament": "ITF M25 Pardubice Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Haliak",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20200825",
+      "tournament": "M15 Alkmaar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Berrettini",
+      "score": "6(4)-7(7) 6-4 1-6"
+    },
+    {
+      "date": "20200305",
+      "tournament": "M25 Murcia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. E. Esteve",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20200303",
+      "tournament": "M25 Murcia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Ajdukovic",
+      "score": "5-7 3-6"
+    },
+    {
       "date": "20200220",
       "tournament": "M15 Paguera",
       "surface": "Hard",
@@ -134,6 +251,19 @@
       "result": "W",
       "opponent": "I. Marrero Curbelo",
       "score": "6-3 1-6 0-6"
+    },
+    {
+      "date": "20190320",
+      "tournament": "M25 Murcia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sanchez Jover",
+      "score": "2-6 6-4 6(10)-7(12)"
     }
   ]
 }
