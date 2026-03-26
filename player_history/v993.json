@@ -1,13 +1,13 @@
 {
   "player_id": "v993",
-  "gs_id": "31356",
-  "player_name": "Eero Vasa",
+  "gs_id": "78973",
+  "player_name": "Iiro Vasa",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:19:20.696Z",
+  "updated": "2026-03-26T16:12:26.705Z",
   "matches": [
     {
-      "date": "20260106",
-      "tournament": "Bengaluru",
+      "date": "20260203",
+      "tournament": "Tenerife",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Martinez",
-      "score": "6-4 2-6 3-6"
+      "opponent": "A. Moro Canas",
+      "score": "6-3 3-6 5-7"
     },
     {
-      "date": "20260105",
-      "tournament": "Bengaluru",
+      "date": "20260202",
+      "tournament": "Tenerife",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Reymond",
-      "score": "6-2 6-3"
+      "opponent": "O. Weightman",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20260104",
-      "tournament": "Bengaluru",
+      "date": "20260201",
+      "tournament": "Tenerife",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Kalyanpur",
-      "score": "3-6 6-3 6-0"
+      "opponent": "S. Kielan",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20240721",
+      "tournament": "Tampere Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Setodji",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20220717",
+      "tournament": "Tampere",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Mayot",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20210718",
+      "tournament": "Tampere Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Cazaux",
+      "score": "6-2 7(7)-6(4)"
     }
   ]
 }
