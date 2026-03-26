@@ -1,1 +1,35 @@
-{"player_id":"c0c1","sack_id":"206749","name":"Niccolo Catini","total":0,"matches":[]}
+{
+  "player_id": "c0c1",
+  "gs_id": "151074",
+  "player_name": "Niccolo Catini",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:49:31.744Z",
+  "matches": [
+    {
+      "date": "20240811",
+      "tournament": "Todi Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. E. Ambrogi",
+      "score": "4-6 6-1 6-4"
+    },
+    {
+      "date": "20240728",
+      "tournament": "San Marino Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Serafini",
+      "score": "4-6 6-3 7(9)-6(7)"
+    }
+  ]
+}
