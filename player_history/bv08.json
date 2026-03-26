@@ -1,1 +1,22 @@
-{"player_id":"bv08","sack_id":"200197","name":"Boris Butulija","total":0,"matches":[]}
+{
+  "player_id": "bv08",
+  "gs_id": "58690",
+  "player_name": "Boris Butulija",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:28:46.611Z",
+  "matches": [
+    {
+      "date": "20181031",
+      "tournament": "Birmingham",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kirchheimer",
+      "score": "6-2 6-2"
+    }
+  ]
+}
