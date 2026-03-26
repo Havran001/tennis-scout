@@ -3,8 +3,21 @@
   "gs_id": "20817",
   "player_name": "Billy Harris",
   "source": "goalserve-full",
-  "updated": "2026-03-26T08:44:38.501Z",
+  "updated": "2026-03-26T09:16:38.519Z",
   "matches": [
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Rodesch",
+      "score": "6-3 6-4"
+    },
     {
       "date": "20250826",
       "tournament": "US Open",
@@ -58,6 +71,84 @@
       "score": "6-3 1-6 2-6"
     },
     {
+      "date": "20250414",
+      "tournament": "Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Goffin",
+      "score": "6-2 6(2)-7(7) 6-4"
+    },
+    {
+      "date": "20250413",
+      "tournament": "Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. H. Tseng",
+      "score": "6-4 6(5)-7(7) 2-6"
+    },
+    {
+      "date": "20250412",
+      "tournament": "Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Vukic",
+      "score": "3-6 6-3 6-4"
+    },
+    {
+      "date": "20250109",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Majchrzak",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20250108",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Taberner",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20250107",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Shimizu",
+      "score": "7(7)-6(4) 4-6 4-6"
+    },
+    {
       "date": "20240822",
       "tournament": "ATP US Open",
       "surface": "Hard",
@@ -95,6 +186,45 @@
       "result": "W",
       "opponent": "J. M. Cerundolo",
       "score": "6-3 2-6 7-5"
+    },
+    {
+      "date": "20240110",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Goffin",
+      "score": "6-3 3-6 2-6"
+    },
+    {
+      "date": "20240109",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Kuzmanov",
+      "score": "0-6 6-2 6-2"
+    },
+    {
+      "date": "20180710",
+      "tournament": "Getxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Hidalgo",
+      "score": "7-5 5-7 4-6"
     }
   ]
 }
