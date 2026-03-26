@@ -3,63 +3,24 @@
   "gs_id": "58333",
   "player_name": "Alejandro Moro Canas",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:18:20.514Z",
+  "updated": "2026-03-26T10:32:18.554Z",
   "matches": [
     {
-      "date": "20250108",
-      "tournament": "Australian Open",
-      "surface": "Hard",
-      "level": "G",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Eubanks",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20240418",
-      "tournament": "ATP Munich",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Fritz",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20240415",
-      "tournament": "ATP Munich",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Thiem",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20240414",
-      "tournament": "ATP Munich",
+      "date": "20241001",
+      "tournament": "Shanghai",
       "surface": "Hard",
       "level": "B",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Fatic",
-      "score": "4-6 2-6"
+      "result": "L",
+      "opponent": "E. Gerasimov",
+      "score": "7(7)-6(3) 3-6 6(6)-7(8)"
     },
     {
-      "date": "20240413",
-      "tournament": "ATP Munich",
+      "date": "20240930",
+      "tournament": "Shanghai",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -67,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Masur",
-      "score": "7(7)-6(5) 4-6 1-6"
+      "opponent": "A. Kachmazov",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20190731",
+      "tournament": "Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Winter Lopez",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20190724",
+      "tournament": "Denia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Alcaraz",
+      "score": "2-6 4-6"
     }
   ]
 }
