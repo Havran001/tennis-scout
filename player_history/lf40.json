@@ -1,1 +1,74 @@
-{"player_id":"lf40","sack_id":"126630","name":"Ivan Liutarevich","total":1,"matches":[{"id":"hj0QVds2","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Alicante (Spain), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Goldhoff G./Pieczonka F.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "lf40",
+  "gs_id": "76815",
+  "player_name": "Ivan Liutarevich",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:49:40.647Z",
+  "matches": [
+    {
+      "date": "20250706",
+      "tournament": "Braunschweig",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Molleker",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20240707",
+      "tournament": "Braunschweig Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Slump",
+      "score": "4-6 6-2 0-6"
+    },
+    {
+      "date": "20231001",
+      "tournament": "Mouilleron-Le-Captif Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Vesely",
+      "score": "4-6 7(7)-6(5) 1-6"
+    },
+    {
+      "date": "20230709",
+      "tournament": "Braunschweig Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Hassan",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20220918",
+      "tournament": "Genova",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Prihodko",
+      "score": "4-6 3-6"
+    }
+  ]
+}
