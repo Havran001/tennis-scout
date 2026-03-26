@@ -3,46 +3,46 @@
   "gs_id": "82104",
   "player_name": "Leevi Saatela",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:55:46.786Z",
+  "updated": "2026-03-26T22:06:29.877Z",
   "matches": [
     {
-      "date": "20231105",
-      "tournament": "Helsinki Challenger Men",
+      "date": "20220519",
+      "tournament": "M15 Kouvola",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Krutykh",
-      "score": "6-1 6-0"
+      "opponent": "I. Nedelko",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20221115",
-      "tournament": "Helsinki",
+      "date": "20220518",
+      "tournament": "M15 Kouvola",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Seeman",
+      "score": "3-6 7(7)-6(4) 3-6"
+    },
+    {
+      "date": "20210526",
+      "tournament": "ITF M15 Kouvola Men",
+      "surface": "Hard",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Peniston",
-      "score": "6-0 6-4"
-    },
-    {
-      "date": "20191112",
-      "tournament": "Helsinki",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Virtanen",
-      "score": "6-0 6-3"
+      "opponent": "N. Tajima",
+      "score": "6-4 6-2"
     }
   ]
 }
