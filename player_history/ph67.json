@@ -3,11 +3,11 @@
   "gs_id": "23017",
   "player_name": "Nathan Ponwith",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:05:27.867Z",
+  "updated": "2026-03-26T23:02:50.944Z",
   "matches": [
     {
-      "date": "20220622",
-      "tournament": "M25 Tulsa",
+      "date": "20240725",
+      "tournament": "ITF M25 Champaign",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Brumm",
-      "score": "1-6 0-6"
+      "opponent": "C. Bruce",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20220721",
+      "tournament": "M25 Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kypson",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20220720",
+      "tournament": "M25 Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Monday",
+      "score": "6-2 5-7 4-6"
+    },
+    {
+      "date": "20210804",
+      "tournament": "ITF M25 Decatur",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Chung",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20210728",
+      "tournament": "ITF M25 Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Nakagawa",
+      "score": "6-4 5-7 2-6"
+    },
+    {
+      "date": "20210721",
+      "tournament": "M15 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Griffith",
+      "score": "5-7 4-6"
     },
     {
       "date": "20210623",
@@ -30,19 +95,6 @@
       "result": "L",
       "opponent": "J. Kubler",
       "score": "5-7 1-6"
-    },
-    {
-      "date": "20210616",
-      "tournament": "ITF M25 Tulsa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Riffice",
-      "score": "7-5 6-4"
     }
   ]
 }
