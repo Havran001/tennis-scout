@@ -1,1 +1,35 @@
-{"player_id":"v0hm","sack_id":"149268","name":"Gabriele Vulpitta","total":0,"matches":[]}
+{
+  "player_id": "v0hm",
+  "gs_id": "200559",
+  "player_name": "Gabriele Vulpitta",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:13.626Z",
+  "matches": [
+    {
+      "date": "20240901",
+      "tournament": "Genova Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Serafini",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20240825",
+      "tournament": "Como Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vatutin",
+      "score": "6-0 6-4"
+    }
+  ]
+}
