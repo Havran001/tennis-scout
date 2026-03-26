@@ -1,1 +1,22 @@
-{"player_id":"f0i8","sack_id":"212733","name":"Matthew Forbes","total":0,"matches":[]}
+{
+  "player_id": "f0i8",
+  "gs_id": "221563",
+  "player_name": "Matthew Forbes",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:19:16.518Z",
+  "matches": [
+    {
+      "date": "20240827",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Safiullin",
+      "score": "6-4 7(7)-6(2) 6-2"
+    }
+  ]
+}
