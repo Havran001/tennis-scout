@@ -1,1 +1,48 @@
-{"player_id":"gb93","sack_id":"105613","name":"Norbert Gombos","total":0,"matches":[]}
+{
+  "player_id": "gb93",
+  "gs_id": "2627",
+  "player_name": "Norbert Gombos",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:42:51.499Z",
+  "matches": [
+    {
+      "date": "20140721",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cecchinato",
+      "score": "6-4 3-6 7(7)-6(3)"
+    },
+    {
+      "date": "20140720",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Petrovic",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20140719",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Klec",
+      "score": "2-6 6-3 7-5"
+    }
+  ]
+}
