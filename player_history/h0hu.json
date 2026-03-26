@@ -3,11 +3,37 @@
   "gs_id": "256206",
   "player_name": "Samuel Heredia",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:12:26.633Z",
+  "updated": "2026-03-26T15:23:55.680Z",
   "matches": [
     {
-      "date": "20250811",
-      "tournament": "Barranquilla",
+      "date": "20260316",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. F. Rubio Fierros",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20260315",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. S. Gomez",
+      "score": "7-5 4-6 4-6"
+    },
+    {
+      "date": "20251007",
+      "tournament": "Cali",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Bertran",
-      "score": "3-6 6-1 6-3"
+      "opponent": "J. P. Varillas",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250513",
+      "tournament": "Bogota",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Soriano Barrera",
+      "score": "7-5 4-6 0-6"
+    },
+    {
+      "date": "20240917",
+      "tournament": "Cali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. Cerundolo",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20240916",
+      "tournament": "Cali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Farjat",
+      "score": "2-6 6-3 5-7"
+    },
+    {
+      "date": "20240915",
+      "tournament": "Cali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. S. Osorio",
+      "score": "2-6 7(7)-6(2) 4-1 ret."
+    },
+    {
+      "date": "20240804",
+      "tournament": "Bogota Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Claverie",
+      "score": "6-1 6(3)-7(7) 6-4"
     }
   ]
 }
