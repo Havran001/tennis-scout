@@ -1,1 +1,87 @@
-{"player_id":"aa27","sack_id":"106162","name":"Franco Agamenone","total":0,"matches":[]}
+{
+  "player_id": "aa27",
+  "gs_id": "4778",
+  "player_name": "Franco Agamenone",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:43:03.500Z",
+  "matches": [
+    {
+      "date": "20220730",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sinner",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20220729",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cecchinato",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20220728",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Baez",
+      "score": "3-6 6-1 7-5"
+    },
+    {
+      "date": "20220726",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Djere",
+      "score": "7(10)-6(8) 2-6 7-5"
+    },
+    {
+      "date": "20220724",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Gombos",
+      "score": "4-6 6-1 5-7"
+    },
+    {
+      "date": "20220723",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Horansky",
+      "score": "5-7 4-6"
+    }
+  ]
+}
