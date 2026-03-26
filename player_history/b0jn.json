@@ -1,1 +1,48 @@
-{"player_id":"b0jn","sack_id":"209889","name":"Thomas Braithwaite","total":0,"matches":[]}
+{
+  "player_id": "b0jn",
+  "gs_id": "142130",
+  "player_name": "Thomas Braithwaite",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:21:59.695Z",
+  "matches": [
+    {
+      "date": "20240128",
+      "tournament": "Burnie",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Jones",
+      "score": "1-6 6(4)-7(7)"
+    },
+    {
+      "date": "20231029",
+      "tournament": "Sydney Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dellavedova",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230129",
+      "tournament": "Burnie Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. C. Romios",
+      "score": "3-6 6-3 6-2"
+    }
+  ]
+}
