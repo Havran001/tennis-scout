@@ -1,22 +1,61 @@
 {
   "player_id": "o483",
-  "gs_id": "284123",
-  "player_name": "Benjamin O'Connell",
+  "gs_id": "33159",
+  "player_name": "Christopher O'Connell",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:14:20.823Z",
+  "updated": "2026-03-26T21:15:31.838Z",
   "matches": [
     {
-      "date": "20250311",
-      "tournament": "M25 Mildura",
+      "date": "20230625",
+      "tournament": "ATP Mallorca",
       "surface": "Hard",
-      "level": "I",
+      "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Sim",
-      "score": "1-6 6-4 6-4"
+      "opponent": "C. Moutet",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20220927",
+      "tournament": "Seoul",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. H. Tseng",
+      "score": "4-6 0-0 ret."
+    },
+    {
+      "date": "20210203",
+      "tournament": "Melbourne (Great Ocean Road Open)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bublik",
+      "score": "7(7)-6(2) 6(6)-7(8) 6-4"
+    },
+    {
+      "date": "20210201",
+      "tournament": "Melbourne (Great Ocean Road Open)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Koepfer",
+      "score": "7-5 4-6 1-6"
     }
   ]
 }
