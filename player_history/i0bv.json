@@ -1,1 +1,35 @@
-{"player_id":"i0bv","sack_id":"212924","name":"Emanuel Ivanisevic","total":1,"matches":[{"id":"hlXlWUWI","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Poljicak M.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "i0bv",
+  "gs_id": "255975",
+  "player_name": "Emanuel Ivanisevic",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:47:40.743Z",
+  "matches": [
+    {
+      "date": "20250511",
+      "tournament": "Zagreb",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Fatic",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240602",
+      "tournament": "Zagreb Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Taberner",
+      "score": "1-6 1-6"
+    }
+  ]
+}
