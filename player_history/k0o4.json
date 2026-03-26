@@ -3,33 +3,85 @@
   "gs_id": "263931",
   "player_name": "Moise Kouame",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:29:36.618Z",
+  "updated": "2026-03-26T13:52:59.644Z",
   "matches": [
     {
-      "date": "20250520",
-      "tournament": "French Open",
+      "date": "20260225",
+      "tournament": "Saint Brieuc",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Martin Tiffon",
-      "score": "6-2 4-6 3-6"
+      "opponent": "T. Droguet",
+      "score": "7(7)-6(3) 6-4"
     },
     {
-      "date": "20250421",
-      "tournament": "Madrid",
+      "date": "20250512",
+      "tournament": "Bordeaux",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Van De Zandschulp",
-      "score": "3-6 2-6"
+      "opponent": "C. Hemery",
+      "score": "7-5 4-6 4-6"
+    },
+    {
+      "date": "20250430",
+      "tournament": "Aix en Provence",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Buse",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20241021",
+      "tournament": "Brest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vatutin",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20241020",
+      "tournament": "Brest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Yevseyev",
+      "score": "4-6 6-2 4-6"
+    },
+    {
+      "date": "20241014",
+      "tournament": "Saint Brieuc",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Marie",
+      "score": "6-4 6-0"
     }
   ]
 }
