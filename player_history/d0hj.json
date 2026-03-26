@@ -3,20 +3,33 @@
   "gs_id": "148905",
   "player_name": "Branko Djuric",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:51:43.642Z",
+  "updated": "2026-03-26T16:13:29.703Z",
   "matches": [
     {
-      "date": "20240421",
-      "tournament": "Ostrava Challenger Men",
+      "date": "20250811",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Andreescu",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250810",
+      "tournament": "Sofia",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Michalski",
-      "score": "3-6 5-7"
+      "result": "W",
+      "opponent": "J. Bilardo",
+      "score": "7(7)-6(4) 6-2"
     }
   ]
 }
