@@ -3,11 +3,24 @@
   "gs_id": "138518",
   "player_name": "Jaden Weekes",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:22:39.746Z",
+  "updated": "2026-03-26T17:46:22.746Z",
   "matches": [
     {
-      "date": "20241112",
-      "tournament": "Drummondville",
+      "date": "20250126",
+      "tournament": "Cleveland",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. McCormick",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20221108",
+      "tournament": "Calgary",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,34 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. K. Trotter",
-      "score": "3-6 6(4)-7(7)"
-    },
-    {
-      "date": "20221114",
-      "tournament": "Drummondville",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Wehnelt",
+      "opponent": "S. Mansouri",
       "score": "6-2 6-4"
-    },
-    {
-      "date": "20221113",
-      "tournament": "Drummondville",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Poljak",
-      "score": "4-6 6(3)-7(7)"
     }
   ]
 }
