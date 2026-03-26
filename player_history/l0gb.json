@@ -1,1 +1,48 @@
-{"player_id":"l0gb","sack_id":"213075","name":"Alejandro Lopez Escribano","total":0,"matches":[]}
+{
+  "player_id": "l0gb",
+  "gs_id": "210345",
+  "player_name": "Alejandro Lopez Escribano",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:50:04.762Z",
+  "matches": [
+    {
+      "date": "20250714",
+      "tournament": "Pozoblanco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Pereira",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240716",
+      "tournament": "Pozoblanco Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Picchione",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20230716",
+      "tournament": "Pozoblanco Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Cukierman",
+      "score": "1-6 1-6"
+    }
+  ]
+}
