@@ -1,1 +1,22 @@
-{"player_id":"l0g8","sack_id":"210098","name":"Victor Lilov","total":0,"matches":[]}
+{
+  "player_id": "l0g8",
+  "gs_id": "75834",
+  "player_name": "Victor Lilov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:31.515Z",
+  "matches": [
+    {
+      "date": "20220212",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Gomez",
+      "score": "1-6 3-6"
+    }
+  ]
+}
