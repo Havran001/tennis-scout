@@ -1,1 +1,35 @@
-{"player_id":"b0ot","sack_id":"210553","name":"Jacob Bradshaw","total":1,"matches":[{"id":"2irdbvNE","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Hooper L.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "b0ot",
+  "gs_id": "147901",
+  "player_name": "Jacob Bradshaw",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:05:52.588Z",
+  "matches": [
+    {
+      "date": "20241228",
+      "tournament": "Brisbane",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Hanfmann",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20231230",
+      "tournament": "ATP Brisbane",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Schwartzman",
+      "score": "6-2 6-4"
+    }
+  ]
+}
