@@ -1,1 +1,35 @@
-{"player_id":"f0cj","sack_id":"208189","name":"Gianmarco Ferrari","total":0,"matches":[]}
+{
+  "player_id": "f0cj",
+  "gs_id": "57664",
+  "player_name": "Gianmarco Ferrari",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:20.593Z",
+  "matches": [
+    {
+      "date": "20190904",
+      "tournament": "Trieste",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Dalla Valle",
+      "score": "6(6)-7(8) 6-4 7-5"
+    },
+    {
+      "date": "20180731",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Santanna",
+      "score": "7-5 6-1"
+    }
+  ]
+}
