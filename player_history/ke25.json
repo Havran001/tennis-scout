@@ -1,1 +1,22 @@
-{"player_id":"ke25","sack_id":"127195","name":"Hamza Karmoussi","total":0,"matches":[]}
+{
+  "player_id": "ke25",
+  "gs_id": "143126",
+  "player_name": "Hamza Karmoussi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:19.627Z",
+  "matches": [
+    {
+      "date": "20240331",
+      "tournament": "ATP Marrakech",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Hassan",
+      "score": "6-3 6-4"
+    }
+  ]
+}
