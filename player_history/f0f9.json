@@ -1,1 +1,100 @@
-{"player_id":"f0f9","sack_id":"210092","name":"Filiberto Fumagalli","total":0,"matches":[]}
+{
+  "player_id": "f0f9",
+  "gs_id": "177453",
+  "player_name": "Filiberto Fumagalli",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T23:12:44.893Z",
+  "matches": [
+    {
+      "date": "20240626",
+      "tournament": "ITF M15 Bergamo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Otegui",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20231029",
+      "tournament": "Bergamo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Martineau",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20230810",
+      "tournament": "ITF M15 Curtea de Arges Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Nesterov",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230809",
+      "tournament": "ITF M15 Curtea de Arges Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. G. Bara",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20230627",
+      "tournament": "ITF M15 Bergamo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Montes-De La Torre",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20221030",
+      "tournament": "Bergamo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bellier",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20220629",
+      "tournament": "M15 Bergamo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Lipovsek Puches",
+      "score": "6-1 6-1"
+    }
+  ]
+}
