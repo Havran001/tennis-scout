@@ -1,1 +1,48 @@
-{"player_id":"j0er","sack_id":"212758","name":"Jarrod Joyce","total":0,"matches":[]}
+{
+  "player_id": "j0er",
+  "gs_id": "240980",
+  "player_name": "Jarrod Joyce",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:19:39.826Z",
+  "matches": [
+    {
+      "date": "20250312",
+      "tournament": "M25 Mildura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Ja. Delaney",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240314",
+      "tournament": "ITF M25 Mildura Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Liu",
+      "score": "6-3 6(7)-7(9) 2-6"
+    },
+    {
+      "date": "20240313",
+      "tournament": "ITF M25 Mildura Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Oster",
+      "score": "6-3 5-7 6-3"
+    }
+  ]
+}
