@@ -1,22 +1,35 @@
 {
   "player_id": "l0cu",
-  "gs_id": "258342",
-  "player_name": "Augusto Miguel Luis",
+  "gs_id": "90393",
+  "player_name": "Tomas Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:22:56.683Z",
+  "updated": "2026-03-26T16:12:45.714Z",
   "matches": [
     {
-      "date": "20250429",
-      "tournament": "Porto Alegre",
+      "date": "20251102",
+      "tournament": "Knoxville",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. A. Dellien Velasco",
-      "score": "6-2 3-6 6-3"
+      "opponent": "S. Mitsui",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20250921",
+      "tournament": "Lisbon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Moro Canas",
+      "score": "2-6 4-6"
     }
   ]
 }
