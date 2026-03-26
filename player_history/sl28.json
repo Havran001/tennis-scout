@@ -3,8 +3,34 @@
   "gs_id": "2713",
   "player_name": "Jan-Lennard Struff",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:12:25.807Z",
+  "updated": "2026-03-26T21:12:44.827Z",
   "matches": [
+    {
+      "date": "20220618",
+      "tournament": "Mallorca",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Verdasco",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20210620",
+      "tournament": "ATP Mallorca",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Mannarino",
+      "score": "7(7)-6(3) 6-3"
+    },
     {
       "date": "20201022",
       "tournament": "Cologne 2",
@@ -43,32 +69,6 @@
       "result": "L",
       "opponent": "O. Otte",
       "score": "6-4 6-3"
-    },
-    {
-      "date": "20200717",
-      "tournament": "Bett1 Aces Berlin 2",
-      "surface": "Hard",
-      "level": "E",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Haas",
-      "score": "7(7)-6(5) 7(7)-6(3)"
-    },
-    {
-      "date": "20200713",
-      "tournament": "Bett1 Aces Berlin",
-      "surface": "Hard",
-      "level": "E",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Bautista-Agut",
-      "score": "3-6 6-3 7-10"
     }
   ]
 }
