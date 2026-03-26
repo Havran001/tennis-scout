@@ -3,37 +3,24 @@
   "gs_id": "115703",
   "player_name": "Nishesh Basavareddy",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:07:18.566Z",
+  "updated": "2026-03-26T11:45:53.584Z",
   "matches": [
     {
-      "date": "20260317",
-      "tournament": "ATP Miami",
+      "date": "20250630",
+      "tournament": "Wimbledon",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Barrios Vera",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20250305",
-      "tournament": "Indian Wells",
-      "surface": "Hard",
-      "level": "B",
+      "level": "G",
       "round": "R128",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Bu",
-      "score": "5-7 4-6"
+      "opponent": "L. Tien",
+      "score": "6(5)-7(7) 3-6 2-6"
     },
     {
-      "date": "20241231",
-      "tournament": "Brisbane",
+      "date": "20250609",
+      "tournament": "Hertogenbosch",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -41,25 +28,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Monfils",
-      "score": "6-4 4-6 6-1"
+      "opponent": "N. Borges",
+      "score": "6(2)-7(7) 2-6"
     },
     {
-      "date": "20241229",
-      "tournament": "Brisbane",
+      "date": "20250506",
+      "tournament": "Rome",
       "surface": "Hard",
       "level": "B",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Pouille",
-      "score": "4-6 4-6"
+      "result": "L",
+      "opponent": "V. Kopriva",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20241228",
-      "tournament": "Brisbane",
+      "date": "20250505",
+      "tournament": "Rome",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -67,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Gojo",
-      "score": "6-4 6(4)-7(7) 4-6"
+      "opponent": "M. Krueger",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250421",
+      "tournament": "Madrid",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Moller",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20250331",
+      "tournament": "Bucharest",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. C. Jianu",
+      "score": "6-3 6-4"
     }
   ]
 }
