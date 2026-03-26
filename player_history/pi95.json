@@ -1,1 +1,22 @@
-{"player_id":"pi95","sack_id":"126536","name":"David Pichler","total":0,"matches":[]}
+{
+  "player_id": "pi95",
+  "gs_id": "36191",
+  "player_name": "David Pichler",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:32.517Z",
+  "matches": [
+    {
+      "date": "20170718",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Wehnelt",
+      "score": "5-7 6-0 6-1"
+    }
+  ]
+}
