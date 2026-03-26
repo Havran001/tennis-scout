@@ -3,24 +3,37 @@
   "gs_id": "89953",
   "player_name": "Vladan Tadic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:07:42.880Z",
+  "updated": "2026-03-26T23:51:04.903Z",
   "matches": [
     {
-      "date": "20260319",
-      "tournament": "M15 Rovinj",
+      "date": "20250530",
+      "tournament": "M15 Doboj",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Khoeblal",
-      "score": "6(6)-7(8) 3-6"
+      "result": "W",
+      "opponent": "M. Hopp",
+      "score": "7-5 6-1"
     },
     {
-      "date": "20260318",
-      "tournament": "M15 Rovinj",
+      "date": "20250530",
+      "tournament": "M15 Doboj",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Bieldiugin",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M15 Doboj",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Mikovic",
-      "score": "7-5 4-6 6-4"
+      "opponent": "J. Loge",
+      "score": "2-4 ret."
     },
     {
-      "date": "20250611",
-      "tournament": "M25 Kiseljak",
+      "date": "20220511",
+      "tournament": "M15 Doboj",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Ruehl",
-      "score": "0-6 6(4)-7(7)"
+      "opponent": "P. Nad",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20240530",
-      "tournament": "ITF M25 Kiseljak Men",
+      "date": "20210715",
+      "tournament": "ITF M15 Doboj Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Soto",
-      "score": "3-6 3-6"
+      "opponent": "A. Fenty",
+      "score": "6(4)-7(7) 7-5 3-6"
     },
     {
-      "date": "20240529",
-      "tournament": "ITF M25 Kiseljak Men",
+      "date": "20210714",
+      "tournament": "ITF M15 Doboj Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,34 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Klok",
-      "score": "3-6 6-4 2-6"
-    },
-    {
-      "date": "20230524",
-      "tournament": "ITF M15 Brcko Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. B. Privara",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20220518",
-      "tournament": "M15 Prijedor",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Sharipov",
-      "score": "0-6 3-6"
+      "opponent": "A. Ouakaa",
+      "score": "7-5 6-4"
     }
   ]
 }
