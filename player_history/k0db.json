@@ -3,37 +3,24 @@
   "gs_id": "57015",
   "player_name": "Cannon Kingsley",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:18:08.518Z",
+  "updated": "2026-03-26T11:04:55.565Z",
   "matches": [
     {
-      "date": "20250816",
-      "tournament": "Winston-Salem",
+      "date": "20190410",
+      "tournament": "Sunrise",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Schoolkate",
-      "score": "7(7)-6(5) 4-6 1-6"
+      "opponent": "A. Ritschard",
+      "score": "3-6 7(7)-6(4) 2-6"
     },
     {
-      "date": "20230823",
-      "tournament": "ATP US Open",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Shimizu",
-      "score": "5-7 6-3 6(7)-7(10)"
-    },
-    {
-      "date": "20190418",
-      "tournament": "Orange Park",
+      "date": "20181108",
+      "tournament": "Niceville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Velotti",
-      "score": "7-5 2-6 3-6"
+      "opponent": "S. Kirchheimer",
+      "score": "6-2 1-6 6-3"
     },
     {
-      "date": "20190417",
-      "tournament": "Orange Park",
+      "date": "20181107",
+      "tournament": "Niceville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Nunez",
-      "score": "6-2 7-5"
+      "opponent": "T. Zink",
+      "score": "1-6 6-4 6-3"
+    },
+    {
+      "date": "20181030",
+      "tournament": "Birmingham",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. P. Grassi Mazzuchi",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20180621",
+      "tournament": "Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kalovelonis",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20180620",
+      "tournament": "Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Krainik",
+      "score": "6(7)-7(9) 6-2 6-2"
     }
   ]
 }
