@@ -1,1 +1,61 @@
-{"player_id":"s0r7","sack_id":"209948","name":"Jan Sebesta","total":0,"matches":[]}
+{
+  "player_id": "s0r7",
+  "gs_id": "115651",
+  "player_name": "Jan Sebesta",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:16:41.830Z",
+  "matches": [
+    {
+      "date": "20230824",
+      "tournament": "M15 Caslano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Chepelev",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20230823",
+      "tournament": "M15 Caslano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Ferrarolli",
+      "score": "6-4 0-6 6(3)-7(7)"
+    },
+    {
+      "date": "20230704",
+      "tournament": "ITF M25 Klosters Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dietrich",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20220621",
+      "tournament": "M25 Klosters",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Vrbensky",
+      "score": "6-3 6-4"
+    }
+  ]
+}
