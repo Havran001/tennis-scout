@@ -1,1 +1,35 @@
-{"player_id":"m0hd","sack_id":"209246","name":"Alan Magadan","total":2,"matches":[{"id":"0f8MNQmI","date":"20260325","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Pavlovic L.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"CYudEC6T","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Rubio Fierros A. F.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "m0hd",
+  "gs_id": "57793",
+  "player_name": "Alan Magadan",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:28:41.614Z",
+  "matches": [
+    {
+      "date": "20260221",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Hijikata",
+      "score": "6(0)-7(7) 3-6"
+    },
+    {
+      "date": "20250223",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kovacevic",
+      "score": "2-6 6-3 3-6"
+    }
+  ]
+}
