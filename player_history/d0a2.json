@@ -1,1 +1,35 @@
-{"player_id":"d0a2","sack_id":"202354","name":"Matthew Dellavedova","total":2,"matches":[{"id":"dYgDlvDO","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Maanshan 4 (China), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Zhu M.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"l6y2QbwJ","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Maanshan 4 (China), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Chen X. D.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "d0a2",
+  "gs_id": "37632",
+  "player_name": "Matthew Dellavedova",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:38.517Z",
+  "matches": [
+    {
+      "date": "20250107",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Atmane",
+      "score": "6-4 3-6 3-6"
+    },
+    {
+      "date": "20170719",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Lenz",
+      "score": "6-3 6-4"
+    }
+  ]
+}
