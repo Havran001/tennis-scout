@@ -3,11 +3,24 @@
   "gs_id": "39333",
   "player_name": "Sergey Fomin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:08:31.631Z",
+  "updated": "2026-03-26T13:48:43.651Z",
   "matches": [
     {
-      "date": "20250901",
-      "tournament": "Shanghai",
+      "date": "20251021",
+      "tournament": "Suzhou",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Tokuda",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20251020",
+      "tournament": "Suzhou",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Huang",
-      "score": "3-6 2-6"
+      "opponent": "Y. Takahashi",
+      "score": "5-7 6-3 4-6"
     },
     {
-      "date": "20250831",
-      "tournament": "Shanghai",
+      "date": "20251019",
+      "tournament": "Suzhou",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Zhang",
-      "score": "2-6 0-6"
+      "opponent": "B. Bayldon",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240901",
-      "tournament": "Istanbul Challenger Men",
+      "date": "20230822",
+      "tournament": "Zhuhai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Berankis",
+      "score": "6-3 0-6 3-6"
+    },
+    {
+      "date": "20230212",
+      "tournament": "Cherbourg Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,21 +67,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. M. Ozdemir",
-      "score": "6-1 4-6 3-6"
+      "opponent": "J. S. Tatlot",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20230903",
-      "tournament": "Istanbul Challenger Men",
+      "date": "20190617",
+      "tournament": "Fergana",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R64",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Oliel",
-      "score": "3-6 6-3 6-2"
+      "opponent": "A. Zhurbin",
+      "score": "7-5 4-6 2-6"
+    },
+    {
+      "date": "20190515",
+      "tournament": "Samarkand",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Ortega-Olmedo",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20190513",
+      "tournament": "Samarkand",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Sultanov",
+      "score": "6(3)-7(7) 6-3 2-6"
+    },
+    {
+      "date": "20180515",
+      "tournament": "Samarkand",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Milojevic",
+      "score": "6-0 6-0"
+    },
+    {
+      "date": "20180507",
+      "tournament": "Karshi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "U. Ignatik",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20170621",
+      "tournament": "Fergana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Schnur",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20170619",
+      "tournament": "Fergana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Iakovlev",
+      "score": "3-6 1-6"
     }
   ]
 }
