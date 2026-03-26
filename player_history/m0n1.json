@@ -3,24 +3,37 @@
   "gs_id": "89960",
   "player_name": "Luka Mikrut",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:10:11.624Z",
+  "updated": "2026-03-26T13:50:23.649Z",
   "matches": [
     {
-      "date": "20250831",
-      "tournament": "Como",
+      "date": "20260104",
+      "tournament": "Canberra",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Ajdukovic",
-      "score": "6-3 7-5"
+      "result": "L",
+      "opponent": "L. Neumayer",
+      "score": "6-4 3-6 6-3"
     },
     {
-      "date": "20250830",
-      "tournament": "Como",
+      "date": "20250913",
+      "tournament": "Biella",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Feldbausch",
+      "score": "3-6 6-3 4-6"
+    },
+    {
+      "date": "20250912",
+      "tournament": "Biella",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -28,25 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Squire",
-      "score": "3-6 4-6"
+      "opponent": "Z. Kolar",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20250830",
-      "tournament": "Como",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Budkov Kjaer",
-      "score": "6-4 1-6 4-6"
-    },
-    {
-      "date": "20250829",
-      "tournament": "Como",
+      "date": "20250911",
+      "tournament": "Biella",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. A. Caniato",
-      "score": "1-6 6-3 6-2"
+      "opponent": "O. Prihodko",
+      "score": "4-6 0-0 ret."
     },
     {
-      "date": "20250826",
-      "tournament": "Como",
+      "date": "20250909",
+      "tournament": "Biella",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,73 +67,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Montes-De La Torre",
-      "score": "0-6 6-4 3-6"
+      "opponent": "L. Carboni",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20240826",
-      "tournament": "Como Challenger Men",
+      "date": "20250626",
+      "tournament": "Milan",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Pucinelli de Almeida",
-      "score": "2-6 6(7)-7(9)"
+      "opponent": "J. Vasami",
+      "score": "6-3 6(4)-7(7) 2-6"
     },
     {
-      "date": "20240825",
-      "tournament": "Como Challenger Men",
+      "date": "20250625",
+      "tournament": "Milan",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. E. Ambrogi",
-      "score": "6(5)-7(7) 1-6"
+      "opponent": "O. Prihodko",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240806",
-      "tournament": "Cordenons Challenger Men",
+      "date": "20250623",
+      "tournament": "Milan",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Collarini",
-      "score": "5-7 1-6"
-    },
-    {
-      "date": "20240805",
-      "tournament": "Cordenons Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "M. Serafini",
-      "score": "6-4 3-0 ret."
+      "opponent": "K. Coppejans",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20240804",
-      "tournament": "Cordenons Challenger Men",
+      "date": "20240211",
+      "tournament": "Cherbourg Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Oberleitner",
-      "score": "5-7 6-3 6-3"
+      "result": "L",
+      "opponent": "N. Vylegzhanin",
+      "score": "1-6 2-6"
     }
   ]
 }
