@@ -3,11 +3,89 @@
   "gs_id": "57557",
   "player_name": "Florent Bax",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:18:13.517Z",
+  "updated": "2026-03-26T13:09:05.626Z",
   "matches": [
     {
-      "date": "20180711",
-      "tournament": "Getxo",
+      "date": "20250923",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Blockx",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250922",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Janvier",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250921",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Agwi",
+      "score": "3-6 6-1 3-6"
+    },
+    {
+      "date": "20190410",
+      "tournament": "Reus",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Martin Tiffon",
+      "score": "4-6 0-2 ret."
+    },
+    {
+      "date": "20190327",
+      "tournament": "Santa Margherita Di Pula",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sinner",
+      "score": "7(7)-6(4) 4-6 0-6"
+    },
+    {
+      "date": "20181001",
+      "tournament": "Santa Margherita Di Pula 12",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Torebko",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20180926",
+      "tournament": "Santa Margherita Di Pula 11",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Perchicot",
-      "score": "7(7)-6(2) 6-1"
+      "opponent": "M. N. Martinez",
+      "score": "6-0 6-3"
     },
     {
-      "date": "20180709",
-      "tournament": "Getxo",
+      "date": "20180924",
+      "tournament": "Santa Margherita Di Pula 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Garcia",
-      "score": "3-6 3-6"
+      "opponent": "F. Campana",
+      "score": "2-6 4-6"
     }
   ]
 }
