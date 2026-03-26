@@ -1,1 +1,22 @@
-{"player_id":"b0uz","sack_id":"212860","name":"Dakotah Bobo","total":1,"matches":[{"id":"KWGPz4od","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Bordoni F./Juszczak D.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "b0uz",
+  "gs_id": "244176",
+  "player_name": "Dakotah Bobo",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:01:43.822Z",
+  "matches": [
+    {
+      "date": "20251116",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Aguilar Cardozo",
+      "score": "7-5 6-3"
+    }
+  ]
+}
