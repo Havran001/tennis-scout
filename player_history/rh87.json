@@ -1,1 +1,61 @@
-{"player_id":"rh87","sack_id":"205941","name":"Rishi Reddy","total":1,"matches":[{"id":"fcuGzSBO","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Ahmedabad (India), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Sureshkumar M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "rh87",
+  "gs_id": "76875",
+  "player_name": "Rishi Reddy",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T16:12:19.701Z",
+  "matches": [
+    {
+      "date": "20250223",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sasikumar",
+      "score": "6-3 4-6 6-3"
+    },
+    {
+      "date": "20230212",
+      "tournament": "Chennai Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Orlov",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20220208",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Couacaud",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20200212",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Rawat",
+      "score": "2-6 2-6"
+    }
+  ]
+}
