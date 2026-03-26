@@ -1,1 +1,35 @@
-{"player_id":"p0ht","sack_id":"209957","name":"Jack Pinnington Jones","total":0,"matches":[]}
+{
+  "player_id": "p0ht",
+  "gs_id": "71346",
+  "player_name": "Jack Pinnington Jones",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:30.517Z",
+  "matches": [
+    {
+      "date": "20260111",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Bailly",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Zhukayev",
+      "score": "6-3 6(6)-7(8) 6(12)-7(14)"
+    }
+  ]
+}
