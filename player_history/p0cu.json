@@ -1,1 +1,22 @@
-{"player_id":"p0cu","sack_id":"207547","name":"Bruno Pujol Navarro","total":2,"matches":[{"id":"t00qABeE","date":"20260325","tournament":"ITF WOMEN - SINGLES: W35 Junin (Argentina), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Alves C.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"E1OD1t9e","date":"20260325","tournament":"ITF WOMEN - DOUBLES: W35 Junin (Argentina), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"E'Halli Obeid M./Sosa C. C.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "p0cu",
+  "gs_id": "67385",
+  "player_name": "Bruno Pujol Navarro",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:24.529Z",
+  "matches": [
+    {
+      "date": "20190515",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Martin Tiffon",
+      "score": "4-6 1-6"
+    }
+  ]
+}
