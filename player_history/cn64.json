@@ -3,24 +3,11 @@
   "gs_id": "28650",
   "player_name": "Alexis Canter",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:58:00.881Z",
+  "updated": "2026-03-26T23:48:33.900Z",
   "matches": [
     {
-      "date": "20210818",
-      "tournament": "M15 Oldenzaal",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Moraing",
-      "score": "7(7)-6(3) 6-2"
-    },
-    {
-      "date": "20210812",
-      "tournament": "M15 Gdynia",
+      "date": "20250612",
+      "tournament": "M15 Monastir 23",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Marozsan",
-      "score": "6-4 6-2"
+      "opponent": "P. Y. Bailly",
+      "score": "0-6 5-7"
     },
     {
-      "date": "20210811",
-      "tournament": "M15 Gdynia",
+      "date": "20250611",
+      "tournament": "M15 Monastir 23",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Fery",
-      "score": "3-6 6-4 6-4"
+      "opponent": "A. Mouhan",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20210803",
-      "tournament": "ITF M25 Guayaquil Men",
+      "date": "20211020",
+      "tournament": "ITF M15 Doha 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Pujol Navarro",
-      "score": "2-6 3-6"
+      "opponent": "J. Yang",
+      "score": "7(7)-6(5) 2-6 5-7"
     },
     {
-      "date": "20210727",
-      "tournament": "ITF M25 Portoviejo Men",
+      "date": "20211014",
+      "tournament": "ITF M15 Doha 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Kocevar-Desman",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20211013",
+      "tournament": "ITF M15 Doha 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Andrade",
-      "score": "3-6 6-2 6-3"
+      "result": "W",
+      "opponent": "B. Butulija",
+      "score": "6(5)-7(7) 6(9)-7(11)"
     }
   ]
 }
