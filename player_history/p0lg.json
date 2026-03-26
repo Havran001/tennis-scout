@@ -3,11 +3,50 @@
   "gs_id": "182955",
   "player_name": "Salvador Price",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:12:10.624Z",
+  "updated": "2026-03-26T13:52:33.644Z",
   "matches": [
     {
-      "date": "20250811",
-      "tournament": "Barranquilla",
+      "date": "20251118",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Habib",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20251117",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Camargo Lima",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20251116",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Castro",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20251005",
+      "tournament": "Cali",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Kumar",
-      "score": "6-3 4-6 0-6"
+      "opponent": "M. Alves",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250512",
+      "tournament": "Bogota",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Sakamoto",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240915",
+      "tournament": "Cali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. S. Gomez",
+      "score": "6-3 0-6 4-6"
+    },
+    {
+      "date": "20240805",
+      "tournament": "Bogota Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. A. Rodriguez",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20230924",
+      "tournament": "Bogota Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Pereira",
+      "score": "6-3 6-2"
     }
   ]
 }
