@@ -1,1 +1,48 @@
-{"player_id":"o674","sack_id":"200075","name":"Yshai Oliel","total":0,"matches":[]}
+{
+  "player_id": "o674",
+  "gs_id": "34398",
+  "player_name": "Yshai Oliel",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:19.514Z",
+  "matches": [
+    {
+      "date": "20160623",
+      "tournament": "Palma Del Rio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. P. Vivero",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20160622",
+      "tournament": "Palma Del Rio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Lescure",
+      "score": "1-6 ret."
+    },
+    {
+      "date": "20160621",
+      "tournament": "Palma Del Rio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Fermosell",
+      "score": "2-6 4-6"
+    }
+  ]
+}
