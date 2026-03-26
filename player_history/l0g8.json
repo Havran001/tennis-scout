@@ -3,20 +3,59 @@
   "gs_id": "75834",
   "player_name": "Victor Lilov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:45:45.586Z",
+  "updated": "2026-03-26T13:09:37.623Z",
   "matches": [
     {
-      "date": "20211005",
-      "tournament": "ATP Indian Wells",
+      "date": "20250811",
+      "tournament": "Barranquilla",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Kuzuhara",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250810",
+      "tournament": "Barranquilla",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Robledo Hoyos",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20240714",
+      "tournament": "Granby Challenger Men",
+      "surface": "Hard",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Sousa",
-      "score": "6-2 6-0"
+      "opponent": "S. Kozlov",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20230625",
+      "tournament": "Medellin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. S. Gomez",
+      "score": "6-3 7(7)-6(3)"
     }
   ]
 }
