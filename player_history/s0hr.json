@@ -3,11 +3,11 @@
   "gs_id": "62748",
   "player_name": "Kasidit Samrej",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:19:22.698Z",
+  "updated": "2026-03-26T20:15:43.809Z",
   "matches": [
     {
-      "date": "20251008",
-      "tournament": "Jinan",
+      "date": "20260324",
+      "tournament": "Yokkaichi",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Jacquet",
-      "score": "5-7 2-6"
+      "opponent": "P. Jubb",
+      "score": "7-5 6-0"
     },
     {
-      "date": "20251007",
-      "tournament": "Jinan",
+      "date": "20260323",
+      "tournament": "Yokkaichi",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Uchiyama",
-      "score": "6-4 6-1"
+      "opponent": "T. Huang",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20251006",
-      "tournament": "Jinan",
+      "date": "20260322",
+      "tournament": "Yokkaichi",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,99 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Kubler",
-      "score": "4-6 6(5)-7(7)"
+      "opponent": "S. Motoyama",
+      "score": "4-6 7(9)-6(7) 6-1"
     },
     {
-      "date": "20250824",
-      "tournament": "Zhangjiagang",
+      "date": "20200205",
+      "tournament": "M25 Nonthaburi 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Chen",
-      "score": "1-6 6-4 4-0 ret."
-    },
-    {
-      "date": "20250413",
-      "tournament": "Busan",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Bar Biryukov",
-      "score": "6-4 6(10)-7(12) 7-5"
-    },
-    {
-      "date": "20250225",
-      "tournament": "Bengaluru",
-      "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Clarke",
-      "score": "6-1 6-0"
+      "opponent": "D. Yevseyev",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20250224",
-      "tournament": "Bengaluru",
+      "date": "20200129",
+      "tournament": "M25 Nonthaburi",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Berrettini",
-      "score": "2-6 6-2 6(3)-7(7)"
-    },
-    {
-      "date": "20250223",
-      "tournament": "Bengaluru",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "W. K. Leong M.",
-      "score": "4-6 6(5)-7(7)"
-    },
-    {
-      "date": "20241014",
-      "tournament": "Shenzhen 2",
-      "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Harris",
-      "score": "4-6 7(7)-6(1) 3-6"
+      "opponent": "S. Sekiguchi",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20200112",
-      "tournament": "Bangkok",
+      "date": "20200110",
+      "tournament": "M15 Hong Kong",
       "surface": "Hard",
-      "level": "C",
-      "round": "R64",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. H. Tseng",
-      "score": "6-1 6-2"
+      "opponent": "Y. Shimizu",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20200109",
+      "tournament": "M15 Hong Kong",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Yamasaki",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20200108",
+      "tournament": "M15 Hong Kong",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Vanshelboim",
+      "score": "6(5)-7(7) 2-6"
     }
   ]
 }
