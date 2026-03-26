@@ -1,1 +1,35 @@
-{"player_id":"lg37","sack_id":"200441","name":"Grigoriy Lomakin","total":2,"matches":[{"id":"E9OvvByh","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Ahmedabad (India), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Karthik P.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"0disZEzK","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Ahmedabad (India), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Javia D.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "lg37",
+  "gs_id": "39782",
+  "player_name": "Grigoriy Lomakin",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:08:34.627Z",
+  "matches": [
+    {
+      "date": "20230507",
+      "tournament": "Prague 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Molleker",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220605",
+      "tournament": "Lyon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Fils",
+      "score": "0-6 2-6"
+    }
+  ]
+}
