@@ -1,1 +1,22 @@
-{"player_id":"r0es","sack_id":"209880","name":"Carl Roothman","total":0,"matches":[]}
+{
+  "player_id": "r0es",
+  "gs_id": "87012",
+  "player_name": "Carl Roothman",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:16:23.809Z",
+  "matches": [
+    {
+      "date": "20200304",
+      "tournament": "M25 Potchefstroom",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Ortega-Olmedo",
+      "score": "6-2 6-0"
+    }
+  ]
+}
