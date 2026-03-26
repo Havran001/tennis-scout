@@ -1,1 +1,74 @@
-{"player_id":"mn20","sack_id":"109054","name":"Daniel Masur","total":0,"matches":[]}
+{
+  "player_id": "mn20",
+  "gs_id": "20550",
+  "player_name": "Daniel Masur",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:44:32.500Z",
+  "matches": [
+    {
+      "date": "20220825",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Maestrelli",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220824",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Ymer",
+      "score": "7(7)-6(4) 2-6 7(10)-6(6)"
+    },
+    {
+      "date": "20210825",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Bonzi",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20210718",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Collarini",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20170822",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Safranek",
+      "score": "6(5)-7(7) 6-3 3-6"
+    }
+  ]
+}
