@@ -1,1 +1,22 @@
-{"player_id":"r0fp","sack_id":"209405","name":"Daniel Rincon","total":1,"matches":[{"id":"fij1LDI0","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Mrva M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "r0fp",
+  "gs_id": "83662",
+  "player_name": "Daniel Rincon",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:23.551Z",
+  "matches": [
+    {
+      "date": "20240110",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Harris",
+      "score": "6-2 6-2"
+    }
+  ]
+}
