@@ -3,20 +3,33 @@
   "gs_id": "292091",
   "player_name": "Yoshka Sborowsky",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:13:38.888Z",
+  "updated": "2026-03-26T23:55:40.907Z",
   "matches": [
     {
-      "date": "20250820",
-      "tournament": "M15 Huy",
+      "date": "20250626",
+      "tournament": "M15 Monastir 25",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Summers",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M15 Monastir 25",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Loge",
-      "score": "5-7 2-6"
+      "result": "W",
+      "opponent": "V. Ahti",
+      "score": "6-3 7-5"
     }
   ]
 }
