@@ -3,50 +3,37 @@
   "gs_id": "34461",
   "player_name": "Pavel Kotov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:43:51.750Z",
+  "updated": "2026-03-26T17:48:40.767Z",
   "matches": [
     {
-      "date": "20260210",
-      "tournament": "Pau",
+      "date": "20210224",
+      "tournament": "Nur-Sultan Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Ferreira Silva",
+      "score": "1-6 6-3 4-6"
+    },
+    {
+      "date": "20210223",
+      "tournament": "Nur-Sultan Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. van Assche",
-      "score": "6-3 3-0 ret."
+      "result": "W",
+      "opponent": "B. Rola",
+      "score": "6-4 7(9)-6(7)"
     },
     {
-      "date": "20250312",
-      "tournament": "Phoenix",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Fonseca",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20230316",
-      "tournament": "Phoenix Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J-L. Struff",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20230314",
-      "tournament": "Phoenix Challenger Men",
+      "date": "20210222",
+      "tournament": "Nur-Sultan Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Bellucci",
-      "score": "6-4 6-3"
+      "opponent": "A. Zakharov",
+      "score": "7-5 1-6 6-3"
     },
     {
-      "date": "20230313",
-      "tournament": "Phoenix Challenger Men",
+      "date": "20210221",
+      "tournament": "Nur-Sultan Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,51 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Lawson",
-      "score": "6-1 6-0"
+      "opponent": "Y. Bondarevskiy",
+      "score": "7(7)-6(2) 7(7)-6(3)"
     },
     {
-      "date": "20211117",
-      "tournament": "Pau Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Gombos",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20211116",
-      "tournament": "Pau Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Arnaboldi",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20210617",
-      "tournament": "Almaty 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Barrios Vera",
-      "score": "6-3 2-6 6-4"
-    },
-    {
-      "date": "20210616",
-      "tournament": "Almaty 2",
+      "date": "20200312",
+      "tournament": "Nur-Sultan Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -119,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Z. Bergs",
-      "score": "6-3 4-6 6-2"
+      "opponent": "M. Moraing",
+      "score": ""
     },
     {
-      "date": "20210615",
-      "tournament": "Almaty 2",
+      "date": "20200310",
+      "tournament": "Nur-Sultan Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -132,38 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Giustino",
-      "score": "6(3)-7(7) 4-6"
+      "opponent": "D. Popko",
+      "score": "6-3 7(7)-6(4)"
     },
     {
-      "date": "20200227",
-      "tournament": "Pau",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bonzi",
-      "score": "4-6 0-6"
-    },
-    {
-      "date": "20200225",
-      "tournament": "Pau",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Hoang",
-      "score": "6-4 5-7 6-2"
-    },
-    {
-      "date": "20200224",
-      "tournament": "Pau",
+      "date": "20200309",
+      "tournament": "Nur-Sultan Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R64",
@@ -171,47 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Lamasine",
-      "score": "2-6 7(9)-6(7) 6-4"
-    },
-    {
-      "date": "20190930",
-      "tournament": "Barcelona",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Kavcic",
-      "score": "6-0 5-7 6-4"
-    },
-    {
-      "date": "20190822",
-      "tournament": "L'Aquila",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Vukic",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20190821",
-      "tournament": "L'Aquila",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Vavassori",
-      "score": "6-2 7(10)-6(8)"
+      "opponent": "D. Tashbulatov",
+      "score": "4-6 2-6"
     },
     {
       "date": "20190611",
@@ -227,17 +110,43 @@
       "score": "6-4 4-2 ret."
     },
     {
-      "date": "20190522",
-      "tournament": "Jerusalem",
+      "date": "20180720",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Al. Popyrin",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20180719",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. H. Lee",
+      "score": "7-5 6(4)-7(7) 5-7"
+    },
+    {
+      "date": "20180717",
+      "tournament": "Nur-Sultan",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Ruusuvuori",
-      "score": "6(3)-7(7) 4-6"
+      "result": "W",
+      "opponent": "R. Ortega-Olmedo",
+      "score": "6(8)-7(10) 6-4 5-7"
     }
   ]
 }
