@@ -1,1 +1,61 @@
-{"player_id":"w660","sack_id":"136648","name":"Jefferson Wendler Filho","total":0,"matches":[]}
+{
+  "player_id": "w660",
+  "gs_id": "219631",
+  "player_name": "Jefferson Wendler Filho",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:52:46.647Z",
+  "matches": [
+    {
+      "date": "20251013",
+      "tournament": "Curitiba",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hernandez",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20251012",
+      "tournament": "Curitiba",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Vervoort",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20231002",
+      "tournament": "Campinas Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Pereira",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20231001",
+      "tournament": "Campinas Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Boscardin Dias",
+      "score": "6-0 5-7 2-6"
+    }
+  ]
+}
