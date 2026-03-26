@@ -1,9 +1,75 @@
 {
   "player_id": "ae14",
+  "gs_id": "22098",
   "player_name": "Daniel Altmaier",
   "source": "goalserve-full",
-  "updated": "2026-03-26T07:11:28.459Z",
+  "updated": "2026-03-26T08:44:55.501Z",
   "matches": [
+    {
+      "date": "20250926",
+      "tournament": "Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vukic",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20250924",
+      "tournament": "Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Shapovalov",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20250830",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. De Minaur",
+      "score": "6(7)-7(9) 6-3 6-4 2-0 ret."
+    },
+    {
+      "date": "20250828",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Tsitsipas",
+      "score": "6(5)-7(7) 6-1 6-4 3-6 5-7"
+    },
+    {
+      "date": "20250826",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Medjedovic",
+      "score": "7-5 6(3)-7(7) 7(9)-6(7) 6(5)-7(7) 6-4"
+    },
     {
       "date": "20250808",
       "tournament": "Cincinnati",
@@ -16,6 +82,19 @@
       "result": "L",
       "opponent": "R. Bautista-Agut",
       "score": "7(7)-6(5) 7(7)-6(1)"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Navone",
+      "score": "6-1 2-6 4-6 1-6"
     },
     {
       "date": "20240811",
@@ -42,6 +121,45 @@
       "result": "L",
       "opponent": "H. Gaston",
       "score": "4-6 7(7)-6(5) 4-6"
+    },
+    {
+      "date": "20231016",
+      "tournament": "ATP Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Paul",
+      "score": "6-3 1-6 3-6"
+    },
+    {
+      "date": "20230831",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Zverev",
+      "score": "6(1)-7(7) 6-3 4-6 3-6"
+    },
+    {
+      "date": "20230829",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Lestienne",
+      "score": "6(5)-7(7) 6-3 6-1 6-2"
     },
     {
       "date": "20230815",
@@ -107,6 +225,32 @@
       "result": "W",
       "opponent": "M. Huesler",
       "score": "7(7)-6(5) 2-6 4-6"
+    },
+    {
+      "date": "20220830",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sinner",
+      "score": "5-7 6-2 6-1 3-6 6-1"
+    },
+    {
+      "date": "20220821",
+      "tournament": "Winston-Salem",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kwon",
+      "score": "1-6 4-6"
     },
     {
       "date": "20220813",
