@@ -1,1 +1,35 @@
-{"player_id":"w0a4","sack_id":"207186","name":"Arthur Weber","total":0,"matches":[]}
+{
+  "player_id": "w0a4",
+  "gs_id": "81291",
+  "player_name": "Arthur Weber",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:21.551Z",
+  "matches": [
+    {
+      "date": "20231003",
+      "tournament": "ATP Shanghai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Sekulic",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20231002",
+      "tournament": "ATP Shanghai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Shimabukuro",
+      "score": "2-6 7(7)-6(3) 4-6"
+    }
+  ]
+}
