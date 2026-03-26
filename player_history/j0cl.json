@@ -1,1 +1,48 @@
-{"player_id":"j0cl","sack_id":"209956","name":"Dev Javia","total":1,"matches":[{"id":"0disZEzK","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Ahmedabad (India), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Lomakin G.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "j0cl",
+  "gs_id": "84371",
+  "player_name": "Dev Javia",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T16:12:32.700Z",
+  "matches": [
+    {
+      "date": "20260104",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Palan",
+      "score": "6-3 5-7 6(5)-7(7)"
+    },
+    {
+      "date": "20250203",
+      "tournament": "Chennai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Agafonov",
+      "score": "6-4 5-7 3-6"
+    },
+    {
+      "date": "20250202",
+      "tournament": "Chennai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Suresh",
+      "score": "4-6 2-6"
+    }
+  ]
+}
