@@ -3,85 +3,46 @@
   "gs_id": "40305",
   "player_name": "Joshua Peck",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:18:41.680Z",
+  "updated": "2026-03-26T17:44:29.740Z",
   "matches": [
     {
-      "date": "20251109",
-      "tournament": "Drummondville",
+      "date": "20200224",
+      "tournament": "Calgary",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R64",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Baadi",
-      "score": "4-6 3-6"
+      "opponent": "N. Chappell",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20190813",
-      "tournament": "Memphis",
+      "date": "20190718",
+      "tournament": "Iowa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20190717",
+      "tournament": "Iowa City",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Nguyen",
-      "score": "5-3 ret."
-    },
-    {
-      "date": "20190725",
-      "tournament": "Granby",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Pospisil",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20190723",
-      "tournament": "Granby",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "T. Simon",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20190708",
-      "tournament": "Winnipeg",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Novikov",
-      "score": "4-6 6(3)-7(7)"
-    },
-    {
-      "date": "20190311",
-      "tournament": "Drummondville",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Millot",
-      "score": "3-6 3-6"
+      "opponent": "J. Findel-Hawkins",
+      "score": "4-6 6(4)-7(7)"
     }
   ]
 }
