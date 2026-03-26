@@ -1,22 +1,48 @@
 {
   "player_id": "s0tm",
-  "gs_id": "257134",
-  "player_name": "Alejandro Linde Palacios Samuel",
+  "gs_id": "71345",
+  "player_name": "Toby Samuel",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:14:22.707Z",
+  "updated": "2026-03-26T17:48:33.750Z",
   "matches": [
     {
-      "date": "20260315",
-      "tournament": "Morelos",
+      "date": "20260203",
+      "tournament": "Tenerife",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Colson",
-      "score": "0-6 1-6"
+      "opponent": "D. Merida Aguilar",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20231109",
+      "tournament": "Calgary Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Martin",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20231108",
+      "tournament": "Calgary Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Seggerman",
+      "score": "7(8)-6(6) 7(10)-6(8)"
     }
   ]
 }
