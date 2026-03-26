@@ -2,7 +2,7 @@
   "player_id": "bt72",
   "player_name": "Nuno Borges",
   "source": "goalserve",
-  "updated": "2026-03-26T00:21:08.347Z",
+  "updated": "2026-03-26T03:35:03.400Z",
   "matches": [
     {
       "date": "20260319",
@@ -4438,6 +4438,45 @@
       "score": "3-6 1-6"
     },
     {
+      "date": "20181019",
+      "tournament": "Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Watson",
+      "score": "7(7)-6(3) 7(7)-6(5)"
+    },
+    {
+      "date": "20181018",
+      "tournament": "Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Findel-Hawkins",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20181017",
+      "tournament": "Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Craig",
+      "score": "3-6 6-3 6-4"
+    },
+    {
       "date": "20171118",
       "tournament": "Pensacola",
       "surface": "Hard",
@@ -4490,6 +4529,32 @@
       "score": "1-6 7(8)-6(6) 2-6"
     },
     {
+      "date": "20171019",
+      "tournament": "Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Al. Popyrin",
+      "score": "4-6 6-3 3-6"
+    },
+    {
+      "date": "20171018",
+      "tournament": "Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Rodriguez",
+      "score": "1-6 1-6"
+    },
+    {
       "date": "20161115",
       "tournament": "Pensacola",
       "surface": "Hard",
@@ -4527,6 +4592,19 @@
       "result": "W",
       "opponent": "E. Guell Bartrina",
       "score": "6-1 6-1"
+    },
+    {
+      "date": "20150811",
+      "tournament": "Bejar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Halys",
+      "score": "2-6 2-6"
     }
   ]
 }
