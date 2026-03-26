@@ -1,61 +1,61 @@
 {
   "player_id": "f0gd",
-  "gs_id": "151059",
-  "player_name": "Jakub Filip",
+  "gs_id": "177313",
+  "player_name": "Jeff Planinsek Filip",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:13:35.706Z",
+  "updated": "2026-03-26T16:14:00.726Z",
   "matches": [
     {
-      "date": "20250601",
-      "tournament": "Prostejov",
+      "date": "20250803",
+      "tournament": "Cordenons",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Kolar",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20240917",
+      "tournament": "Sibiu",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "S. Travaglia",
-      "score": "3-6 6(3)-7(7)"
+      "score": "2-6 3-6"
     },
     {
-      "date": "20250504",
-      "tournament": "Prague",
+      "date": "20240826",
+      "tournament": "Como Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Yevseyev",
-      "score": "6-3 7-5"
+      "opponent": "F. Passaro",
+      "score": "2-6 6-4 4-6"
     },
     {
-      "date": "20250427",
-      "tournament": "Ostrava",
+      "date": "20240806",
+      "tournament": "Cordenons Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Sachko",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20230507",
-      "tournament": "Prague 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Stodder",
-      "score": "3-6 6-4 6-4"
+      "opponent": "A. Paulson",
+      "score": "7(12)-6(10) 2-6 6-1"
     }
   ]
 }
