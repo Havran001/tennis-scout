@@ -1,1 +1,35 @@
-{"player_id":"k0nu","sack_id":"213198","name":"Kacper Knitter","total":1,"matches":[{"id":"f3CJdo8F","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Primucci L.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "k0nu",
+  "gs_id": "282369",
+  "player_name": "Kacper Knitter",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:31.625Z",
+  "matches": [
+    {
+      "date": "20250907",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Moeller",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240908",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Berrettini",
+      "score": "1-6 3-6"
+    }
+  ]
+}
