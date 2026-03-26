@@ -1,1 +1,74 @@
-{"player_id":"sx77","sack_id":"200598","name":"Isaiah Strode","total":0,"matches":[]}
+{
+  "player_id": "sx77",
+  "gs_id": "33433",
+  "player_name": "Isaiah Strode",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:11.522Z",
+  "matches": [
+    {
+      "date": "20180418",
+      "tournament": "Orange Park",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Bryde",
+      "score": "3-6 7(8)-6(6) 4-6"
+    },
+    {
+      "date": "20170505",
+      "tournament": "Tampa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Uchida",
+      "score": "6-4 6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20170504",
+      "tournament": "Tampa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. D. Trombetta",
+      "score": "6-2 3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20170503",
+      "tournament": "Tampa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Nakagawa",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20160505",
+      "tournament": "Tampa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Bangoura",
+      "score": "3-6 6-1 6-1"
+    }
+  ]
+}
