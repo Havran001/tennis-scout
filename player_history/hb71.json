@@ -3,24 +3,11 @@
   "gs_id": "29614",
   "player_name": "Hubert Hurkacz",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:20:36.809Z",
+  "updated": "2026-03-26T22:04:32.863Z",
   "matches": [
     {
-      "date": "20221007",
-      "tournament": "Astana",
-      "surface": "Hard",
-      "level": "B",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Tsitsipas",
-      "score": "6(8)-7(10) 3-6"
-    },
-    {
-      "date": "20221006",
-      "tournament": "Astana",
+      "date": "20210205",
+      "tournament": "Melbourne (Great Ocean Road Open)",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -28,12 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Bublik",
-      "score": "4-6 4-6"
+      "opponent": "P. Cuevas",
+      "score": "7-5 7-5"
     },
     {
-      "date": "20221003",
-      "tournament": "Astana",
+      "date": "20210205",
+      "tournament": "Melbourne (Great Ocean Road Open)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Travaglia",
+      "score": "3-6 6-3 7-5"
+    },
+    {
+      "date": "20210203",
+      "tournament": "Melbourne (Great Ocean Road Open)",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -41,47 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Cerundolo",
-      "score": "2-6 6(2)-7(7)"
-    },
-    {
-      "date": "20201016",
-      "tournament": "Cologne",
-      "surface": "Hard",
-      "level": "B",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Bautista-Agut",
-      "score": "7(7)-6(4) 5-7 6-0"
-    },
-    {
-      "date": "20201014",
-      "tournament": "Cologne",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Zverev",
+      "opponent": "M. Torpegaard",
       "score": "6-4 6-3"
-    },
-    {
-      "date": "20201012",
-      "tournament": "Cologne",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Polmans",
-      "score": "6-2 7-5"
     }
   ]
 }
