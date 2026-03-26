@@ -1,1 +1,35 @@
-{"player_id":"j0ei","sack_id":"149115","name":"Adam Jilly","total":0,"matches":[]}
+{
+  "player_id": "j0ei",
+  "gs_id": "222985",
+  "player_name": "Adam Jilly",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:52:48.644Z",
+  "matches": [
+    {
+      "date": "20251112",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Martinez",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20251111",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Smith",
+      "score": "4-6 2-6"
+    }
+  ]
+}
