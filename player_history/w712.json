@@ -1,1 +1,87 @@
-{"player_id":"w712","sack_id":"132999","name":"Kai Wehnelt","total":0,"matches":[]}
+{
+  "player_id": "w712",
+  "gs_id": "27456",
+  "player_name": "Kai Wehnelt",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:16:52.514Z",
+  "matches": [
+    {
+      "date": "20190718",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Luz",
+      "score": "6(4)-7(7) 6-1 6-2"
+    },
+    {
+      "date": "20190717",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Hardt",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20180719",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Santanna",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20180718",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Reymond",
+      "score": "5-7 6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20170720",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Zopp",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20170718",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Pichler",
+      "score": "7-5 0-6 1-6"
+    }
+  ]
+}
