@@ -1,1 +1,35 @@
-{"player_id":"r0bf","sack_id":"202305","name":"Franco Ribero","total":0,"matches":[]}
+{
+  "player_id": "r0bf",
+  "gs_id": "142288",
+  "player_name": "Franco Ribero",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:07:24.572Z",
+  "matches": [
+    {
+      "date": "20180321",
+      "tournament": "Reus",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rosol",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20180320",
+      "tournament": "Reus",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Pla Malfeito",
+      "score": "6-3 2-6 3-6"
+    }
+  ]
+}
