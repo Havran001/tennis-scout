@@ -3,50 +3,24 @@
   "gs_id": "280983",
   "player_name": "Jacopo Vasami",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:53:00.647Z",
+  "updated": "2026-03-26T15:23:46.683Z",
   "matches": [
     {
-      "date": "20250627",
-      "tournament": "Milan",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Cecchinato",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20250626",
-      "tournament": "Milan",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Mikrut",
-      "score": "3-6 7(7)-6(4) 6-2"
-    },
-    {
-      "date": "20250625",
-      "tournament": "Milan",
+      "date": "20250813",
+      "tournament": "Todi",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Poljicak",
-      "score": "6-3 1-6 5-7"
+      "result": "L",
+      "opponent": "S. Travaglia",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20250624",
-      "tournament": "Milan",
+      "date": "20250812",
+      "tournament": "Todi",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Santamarta Roig",
-      "score": "3-6 5-7"
+      "opponent": "G. M. Noce",
+      "score": "7(7)-6(5) 6-4"
     },
     {
-      "date": "20250422",
-      "tournament": "Rome",
+      "date": "20250402",
+      "tournament": "Barletta",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Pellegrino",
-      "score": "7-5 4-6 4-6"
+      "opponent": "V. Sachko",
+      "score": "3-6 6-1 6(6)-7(8)"
+    },
+    {
+      "date": "20250331",
+      "tournament": "Barletta",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Pecci",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20250330",
+      "tournament": "Barletta",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Mager",
+      "score": "6-4 4-6 6-1"
     }
   ]
 }
