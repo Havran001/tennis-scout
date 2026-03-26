@@ -3,11 +3,11 @@
   "gs_id": "31442",
   "player_name": "Patrik Niklas-Salminen",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:15:27.832Z",
+  "updated": "2026-03-26T22:04:36.860Z",
   "matches": [
     {
-      "date": "20211105",
-      "tournament": "ITF M15 Torello Men",
+      "date": "20220520",
+      "tournament": "M15 Kouvola",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Dussin",
-      "score": "3-6 6(3)-7(7)"
+      "opponent": "A. Lofman",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20211104",
-      "tournament": "ITF M15 Torello Men",
+      "date": "20220519",
+      "tournament": "M15 Kouvola",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Rodenas",
-      "score": "5-7 6(4)-7(7)"
+      "opponent": "P. Pohjola",
+      "score": "7(8)-6(6) 6-1"
     },
     {
-      "date": "20211103",
-      "tournament": "ITF M15 Torello Men",
+      "date": "20220518",
+      "tournament": "M15 Kouvola",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Utrilla",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20210804",
-      "tournament": "ITF M15 Parnu Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Sabanin",
-      "score": "6-3 7(7)-6(4)"
+      "opponent": "O. Eerola",
+      "score": "6-0 6-4"
     },
     {
       "date": "20210204",
@@ -82,136 +69,6 @@
       "result": "W",
       "opponent": "F. Maestrelli",
       "score": "3-6 2-6"
-    },
-    {
-      "date": "20201107",
-      "tournament": "ITF M15 Parnu Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Virtanen",
-      "score": "6-2 7(8)-6(6)"
-    },
-    {
-      "date": "20201106",
-      "tournament": "ITF M15 Parnu Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Veldheer",
-      "score": "6(3)-7(7) 6-3 7-5"
-    },
-    {
-      "date": "20201105",
-      "tournament": "ITF M15 Parnu Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Whitehouse",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20201104",
-      "tournament": "ITF M15 Parnu Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Raisma",
-      "score": "7(7)-6(3) 6-3"
-    },
-    {
-      "date": "20201027",
-      "tournament": "M15 Sarreguemines",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Strombachs",
-      "score": "4-6 6(4)-7(7)"
-    },
-    {
-      "date": "20201009",
-      "tournament": "M15 Setubal",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Forti",
-      "score": "7(7)-6(3) 6-4"
-    },
-    {
-      "date": "20201008",
-      "tournament": "M15 Setubal",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "W. Leite",
-      "score": "4-6 6-2 4-6"
-    },
-    {
-      "date": "20201006",
-      "tournament": "M15 Setubal",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. J. Gutierrez",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20201001",
-      "tournament": "M25 Porto",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Sekiguchi",
-      "score": "6-3 2-6 3-6"
-    },
-    {
-      "date": "20200930",
-      "tournament": "M25 Porto",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Peniston",
-      "score": "6-4 6-2"
     }
   ]
 }
