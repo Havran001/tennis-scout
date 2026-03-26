@@ -1,1 +1,22 @@
-{"player_id":"a0in","sack_id":"210417","name":"Adrian Arcon","total":2,"matches":[{"id":"dbgxacYa","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"W","opponent":"Charlton J.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"dbgxacYa","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"W","opponent":"Charlton J.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "a0in",
+  "gs_id": "144140",
+  "player_name": "Adrian Arcon",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:46:41.742Z",
+  "matches": [
+    {
+      "date": "20241229",
+      "tournament": "Noumea",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cabral",
+      "score": "6-1 6-2"
+    }
+  ]
+}
