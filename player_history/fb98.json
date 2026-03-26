@@ -3,33 +3,46 @@
   "gs_id": "22930",
   "player_name": "Taylor Fritz",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:15:11.837Z",
+  "updated": "2026-03-26T23:02:44.886Z",
   "matches": [
     {
-      "date": "20210205",
-      "tournament": "Melbourne (Murray River Open)",
+      "date": "20210410",
+      "tournament": "Cagliari",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Sonego",
+      "score": "4-6 7-5 1-6"
+    },
+    {
+      "date": "20210409",
+      "tournament": "Cagliari",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bedene",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20210407",
+      "tournament": "Cagliari",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Chardy",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20210203",
-      "tournament": "Melbourne (Murray River Open)",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "F. Coria",
-      "score": "2-6 1-6"
+      "opponent": "A. Martin",
+      "score": "2-6 6(4)-7(7)"
     }
   ]
 }
