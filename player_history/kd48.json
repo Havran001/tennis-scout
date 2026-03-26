@@ -3,24 +3,24 @@
   "gs_id": "10385",
   "player_name": "Markos Kalovelonis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:12:50.824Z",
+  "updated": "2026-03-26T22:04:04.867Z",
   "matches": [
     {
-      "date": "20241016",
-      "tournament": "ITF M15 Heraklion 5 Men",
+      "date": "20220403",
+      "tournament": "Oeiras 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Jadoun",
-      "score": "3-6 0-6"
+      "opponent": "A. Rybakov",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20200227",
-      "tournament": "M15 Heraklion 3",
+      "date": "20210603",
+      "tournament": "M15 Shymkent 4",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Correia",
-      "score": "5-7 0-6"
+      "opponent": "V. Manafov",
+      "score": "1-6 6-3 3-6"
     },
     {
-      "date": "20200226",
-      "tournament": "M15 Heraklion 3",
+      "date": "20210602",
+      "tournament": "M15 Shymkent 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Keisidis",
-      "score": "5-7 6-4 6-4"
+      "opponent": "S. Purtseladze",
+      "score": "0-6 3-6"
     },
     {
-      "date": "20200220",
-      "tournament": "M15 Heraklion 2",
+      "date": "20210527",
+      "tournament": "ITF M15 Shymkent 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Musialek",
-      "score": "6-2 6-3"
+      "opponent": "I. Liutarevich",
+      "score": "6-4 3-6 7(7)-6(3)"
     },
     {
-      "date": "20200219",
-      "tournament": "M15 Heraklion 2",
+      "date": "20210526",
+      "tournament": "ITF M15 Shymkent 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Pichler",
-      "score": "3-6 6-4 3-6"
+      "opponent": "V. Manafov",
+      "score": "2-6 6-3 3-6"
+    },
+    {
+      "date": "20210520",
+      "tournament": "ITF M15 Tbilisi Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Lock",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20210519",
+      "tournament": "ITF M15 Tbilisi Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Mayo",
+      "score": "4-6 7(7)-6(5) 3-6"
+    },
+    {
+      "date": "20201118",
+      "tournament": "M15 Heraklion 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Furness",
+      "score": "3-6 4-6"
     }
   ]
 }
