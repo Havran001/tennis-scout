@@ -1,1 +1,22 @@
-{"player_id":"h0dc","sack_id":"208144","name":"Giles Hussey","total":0,"matches":[]}
+{
+  "player_id": "h0dc",
+  "gs_id": "58695",
+  "player_name": "Giles Hussey",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:06.551Z",
+  "matches": [
+    {
+      "date": "20181031",
+      "tournament": "Birmingham",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Roberto",
+      "score": "4-6 5-7"
+    }
+  ]
+}
