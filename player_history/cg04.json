@@ -1,1 +1,22 @@
-{"player_id":"cg04","sack_id":"106398","name":"Pedro Cachin","total":0,"matches":[]}
+{
+  "player_id": "cg04",
+  "gs_id": "5492",
+  "player_name": "Pedro Cachin",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:43:10.499Z",
+  "matches": [
+    {
+      "date": "20220725",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Zeppieri",
+      "score": "6-3 1-6 4-6"
+    }
+  ]
+}
