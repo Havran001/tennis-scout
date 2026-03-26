@@ -1,1 +1,35 @@
-{"player_id":"r0ay","sack_id":"202190","name":"Gregor Ramskogler","total":0,"matches":[]}
+{
+  "player_id": "r0ay",
+  "gs_id": "160122",
+  "player_name": "Gregor Ramskogler",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:43.625Z",
+  "matches": [
+    {
+      "date": "20250907",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nicod",
+      "score": "6-3 3-6 3-6"
+    },
+    {
+      "date": "20250727",
+      "tournament": "Liberec",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krumich",
+      "score": "4-6 5-7"
+    }
+  ]
+}
