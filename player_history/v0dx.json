@@ -3,11 +3,11 @@
   "gs_id": "83413",
   "player_name": "Bautista Vilicich",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:09:55.635Z",
+  "updated": "2026-03-26T17:45:32.750Z",
   "matches": [
     {
-      "date": "20250112",
-      "tournament": "Buenos Aires 2",
+      "date": "20250622",
+      "tournament": "Lima",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +15,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
+      "opponent": "I. Gimenez",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250512",
+      "tournament": "Bogota",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Barreiros Reyes",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20250511",
+      "tournament": "Bogota",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Robledo Hoyos",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20250310",
+      "tournament": "Santiago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
       "opponent": "J. Reis Da Silva",
-      "score": "1-6 3-6"
+      "score": "6-2 3-6 2-6"
+    },
+    {
+      "date": "20250309",
+      "tournament": "Santiago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Andrew Mathews",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20240610",
+      "tournament": "Lima Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Adams",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20240609",
+      "tournament": "Lima Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. S. Gomez",
+      "score": "6-0 3-6 6-3"
+    },
+    {
+      "date": "20220613",
+      "tournament": "Corrientes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Farjat",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20220612",
+      "tournament": "Corrientes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Labuckas",
+      "score": "2-6 2-6"
     }
   ]
 }
