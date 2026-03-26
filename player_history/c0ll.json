@@ -3,24 +3,37 @@
   "gs_id": "123364",
   "player_name": "Charlelie Cosnet",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:16:52.815Z",
+  "updated": "2026-03-26T23:03:16.886Z",
   "matches": [
     {
-      "date": "20220127",
-      "tournament": "M15 Monastir 3",
+      "date": "20250620",
+      "tournament": "M15 Monastir 24",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. A. Saraiva Dos Santos",
+      "score": "5-7 0-2 ret."
+    },
+    {
+      "date": "20250619",
+      "tournament": "M15 Monastir 24",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Fajta",
-      "score": "6-3 3-6 6-3"
+      "result": "W",
+      "opponent": "R. De Alba",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20220126",
-      "tournament": "M15 Monastir 3",
+      "date": "20250617",
+      "tournament": "M15 Monastir 24",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Deckers",
-      "score": "6-4 7(7)-6(4)"
+      "opponent": "P. Marinkov",
+      "score": "6-4 6-1"
     }
   ]
 }
