@@ -1,22 +1,35 @@
 {
   "player_id": "l0cu",
-  "gs_id": "133501",
-  "player_name": "Felipe Miguel Luis",
+  "gs_id": "138527",
+  "player_name": "Carlos Alvarez Valdes Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:56:02.904Z",
+  "updated": "2026-03-26T23:56:21.917Z",
   "matches": [
     {
-      "date": "20211103",
-      "tournament": "ITF M15 Brasilia Men",
+      "date": "20240620",
+      "tournament": "ITF M25 Tulsa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Braswell",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240619",
+      "tournament": "ITF M25 Tulsa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Heide",
-      "score": "6-3 6-3"
+      "result": "W",
+      "opponent": "K. Pearson",
+      "score": "6-0 7-5"
     }
   ]
 }
