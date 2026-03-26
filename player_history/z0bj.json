@@ -1,1 +1,22 @@
-{"player_id":"z0bj","sack_id":"209199","name":"Ilias Zimmermann","total":0,"matches":[]}
+{
+  "player_id": "z0bj",
+  "gs_id": "90327",
+  "player_name": "Ilias Zimmermann",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:16:28.824Z",
+  "matches": [
+    {
+      "date": "20250924",
+      "tournament": "M25 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Moeller",
+      "score": "6-0 6-3"
+    }
+  ]
+}
