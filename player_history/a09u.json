@@ -1,1 +1,61 @@
-{"player_id":"a09u","sack_id":"200374","name":"Nicolas Alvarez Varona","total":0,"matches":[]}
+{
+  "player_id": "a09u",
+  "gs_id": "32039",
+  "player_name": "Nicolas Alvarez Varona",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:11.543Z",
+  "matches": [
+    {
+      "date": "20160907",
+      "tournament": "Oviedo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Marti",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20160905",
+      "tournament": "Oviedo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Villacorta-Alonso",
+      "score": "3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20150909",
+      "tournament": "Oviedo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Roca Batalla",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20150907",
+      "tournament": "Oviedo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. J. Lopez Perez",
+      "score": "6-3 1-6 3-6"
+    }
+  ]
+}
