@@ -3,20 +3,59 @@
   "gs_id": "169588",
   "player_name": "Ruslan Tiukaev",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:00:36.778Z",
+  "updated": "2026-03-26T22:14:44.866Z",
   "matches": [
     {
-      "date": "20250727",
-      "tournament": "Astana",
+      "date": "20250501",
+      "tournament": "M15 Shymkent 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Tkemaladze",
-      "score": "1-6 6-4 6-4"
+      "opponent": "A. Oetzbach",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250430",
+      "tournament": "M15 Shymkent 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. A. Rehman",
+      "score": "6-3 ret."
+    },
+    {
+      "date": "20240502",
+      "tournament": "M15 Antalya 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alcala Gurri",
+      "score": "7-5 4-0 ret."
+    },
+    {
+      "date": "20240430",
+      "tournament": "M15 Antalya 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Dinev",
+      "score": "6-4 3-6 7-5"
     }
   ]
 }
