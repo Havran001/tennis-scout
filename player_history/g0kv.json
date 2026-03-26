@@ -1,1 +1,61 @@
-{"player_id":"g0kv","sack_id":"212834","name":"Nicolas Garcia Longo","total":0,"matches":[]}
+{
+  "player_id": "g0kv",
+  "gs_id": "166714",
+  "player_name": "Nicolas Garcia Longo",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:52:12.648Z",
+  "matches": [
+    {
+      "date": "20260111",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Aboian",
+      "score": "7-5 5-7 1-4 ret."
+    },
+    {
+      "date": "20251117",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Huertas Del Pino Cordova",
+      "score": "6-3 3-6 2-6"
+    },
+    {
+      "date": "20251116",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Maldonado",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20220925",
+      "tournament": "Buenos Aires 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Reis Da Silva",
+      "score": "6-2 6-2"
+    }
+  ]
+}
