@@ -1,1 +1,100 @@
-{"player_id":"i426","sack_id":"201987","name":"Masamichi Imamura","total":3,"matches":[{"id":"SnPi9meE","date":"20260326","tournament":"CHALLENGER MEN - SINGLES: Yokkaichi (Japan), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Sun F.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"zH8xe6lm","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Yokkaichi (Japan), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Shin S.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"fXi1A35e","date":"20260324","tournament":"CHALLENGER MEN - DOUBLES: Yokkaichi (Japan), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Jung J./Uesugi K.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "i426",
+  "gs_id": "59604",
+  "player_name": "Masamichi Imamura",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:19.622Z",
+  "matches": [
+    {
+      "date": "20250901",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Samrej",
+      "score": "7(7)-6(4) 2-6 4-6"
+    },
+    {
+      "date": "20250831",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Liu",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20250714",
+      "tournament": "Granby",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Arseneault",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250714",
+      "tournament": "Granby",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. van Wyk",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20250710",
+      "tournament": "Winnipeg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Andrade",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20250709",
+      "tournament": "Winnipeg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Glinka",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250701",
+      "tournament": "Cary",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kypson",
+      "score": "6-3 6-4"
+    }
+  ]
+}
