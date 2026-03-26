@@ -1,39 +1,13 @@
 {
   "player_id": "f0go",
-  "gs_id": "4772",
-  "player_name": "Pablo Paz Juan",
+  "gs_id": "92471",
+  "player_name": "Sebastian Osorio Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:59:37.902Z",
+  "updated": "2026-03-26T23:00:37.905Z",
   "matches": [
     {
-      "date": "20220526",
-      "tournament": "M15 Ulcinj 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Serafini",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20220525",
-      "tournament": "M15 Ulcinj 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Samardzic",
-      "score": "2-6 0-6"
-    },
-    {
-      "date": "20210910",
-      "tournament": "ITF M15 Ulcinj 2 Men",
+      "date": "20251030",
+      "tournament": "M15 Ibague",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Navone",
-      "score": "6-4 6-3"
+      "opponent": "B. Fernandez",
+      "score": "7-5 2-6 6-4"
     },
     {
-      "date": "20210909",
-      "tournament": "ITF M15 Ulcinj 2 Men",
+      "date": "20251029",
+      "tournament": "M15 Ibague",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Liutarevich",
-      "score": "6-2 6(2)-7(7) 6-1"
+      "opponent": "S. Heredia",
+      "score": "6-3 3-6 6-3"
     },
     {
-      "date": "20210907",
-      "tournament": "ITF M15 Ulcinj 2 Men",
+      "date": "20251028",
+      "tournament": "M15 Ibague",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Jovanovic",
-      "score": "7(7)-6(5) 1-6 6-2"
+      "opponent": "C. F. Sanchez Rojas",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230620",
+      "tournament": "ITF M15 Santo Domingo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Lapadat",
+      "score": "5-7 6-1 4-6"
+    },
+    {
+      "date": "20230222",
+      "tournament": "ITF M25 Santo Domingo 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Rahman",
+      "score": "6-0 7-5"
     }
   ]
 }
