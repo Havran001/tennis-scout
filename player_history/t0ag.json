@@ -1,1 +1,48 @@
-{"player_id":"t0ag","sack_id":"206600","name":"Zura Tkemaladze","total":0,"matches":[]}
+{
+  "player_id": "t0ag",
+  "gs_id": "55931",
+  "player_name": "Zura Tkemaladze",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:49:01.645Z",
+  "matches": [
+    {
+      "date": "20250901",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Nedelko",
+      "score": "6-4 6(3)-7(7) 6(3)-7(7)"
+    },
+    {
+      "date": "20250831",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bakshi",
+      "score": "7(7)-6(5) 7-5"
+    },
+    {
+      "date": "20250720",
+      "tournament": "Segovia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Pieczkowski",
+      "score": "6-2 6-2"
+    }
+  ]
+}
