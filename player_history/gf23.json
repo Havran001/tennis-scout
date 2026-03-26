@@ -3,11 +3,37 @@
   "gs_id": "20495",
   "player_name": "Lucas Gerch",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:33:52.664Z",
+  "updated": "2026-03-26T15:17:19.691Z",
   "matches": [
     {
-      "date": "20230815",
-      "tournament": "Todi Challenger Men",
+      "date": "20240603",
+      "tournament": "Heilbronn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Gill",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240602",
+      "tournament": "Heilbronn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Naw",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20230606",
+      "tournament": "Heilbronn Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,25 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Darderi",
-      "score": "2-6 3-6"
+      "opponent": "M. Janvier",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20220412",
-      "tournament": "Barletta",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Pellegrino",
-      "score": "2-6 6-3 6-3"
-    },
-    {
-      "date": "20220411",
-      "tournament": "Barletta",
+      "date": "20230605",
+      "tournament": "Heilbronn Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Vatutin",
-      "score": "1-6 1-6"
+      "opponent": "M. Janvier",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20220410",
-      "tournament": "Barletta",
+      "date": "20230604",
+      "tournament": "Heilbronn Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,12 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Contento",
-      "score": "0-3 ret."
+      "opponent": "J. Pereira",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20210328",
-      "tournament": "Marbella Challenger Men",
+      "date": "20230130",
+      "tournament": "Koblenz Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Grenier",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20220925",
+      "tournament": "Lisbon",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,8 +93,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Skatov",
-      "score": "7-5 7-5"
+      "opponent": "J. Jahn",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20210927",
+      "tournament": "Lisbon Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Michalski",
+      "score": "7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20210926",
+      "tournament": "Lisbon Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Heyman",
+      "score": "4-6 7(7)-6(4) 5-7"
+    },
+    {
+      "date": "20200219",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Griekspoor",
+      "score": "4-6 6-2 6(3)-7(7)"
+    },
+    {
+      "date": "20200218",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Dalla Valle",
+      "score": "1-6 4-6"
     }
   ]
 }
