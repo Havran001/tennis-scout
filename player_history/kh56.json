@@ -3,8 +3,21 @@
   "gs_id": "30414",
   "player_name": "Zdenek Kolar",
   "source": "goalserve-full",
-  "updated": "2026-03-26T08:45:48.502Z",
+  "updated": "2026-03-26T09:55:02.541Z",
   "matches": [
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gea",
+      "score": "6-2 6-3"
+    },
     {
       "date": "20230826",
       "tournament": "ATP US Open",
@@ -71,6 +84,32 @@
       "score": "2-6 6-4 6(6)-7(8)"
     },
     {
+      "date": "20230416",
+      "tournament": "ATP Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cobolli",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20230415",
+      "tournament": "ATP Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Durasovic",
+      "score": "6-4 6(5)-7(7) 6-3"
+    },
+    {
       "date": "20220824",
       "tournament": "US Open",
       "surface": "Hard",
@@ -82,6 +121,45 @@
       "result": "L",
       "opponent": "T. Machac",
       "score": "7-5 4-6 6-1"
+    },
+    {
+      "date": "20220205",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. M. Etcheverry",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20220112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cobolli",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20220111",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Collarini",
+      "score": "6(7)-7(9) 2-6"
     },
     {
       "date": "20210826",
@@ -110,6 +188,32 @@
       "score": "2-6 3-6"
     },
     {
+      "date": "20210111",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Barrere",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20200115",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Wolf",
+      "score": "6-4 6-2"
+    },
+    {
       "date": "20190821",
       "tournament": "US Open",
       "surface": "Hard",
@@ -136,6 +240,19 @@
       "score": "2-6 6-1 7(7)-6(1)"
     },
     {
+      "date": "20190108",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Harris",
+      "score": "2-6 1-6"
+    },
+    {
       "date": "20180821",
       "tournament": "US Open",
       "surface": "Hard",
@@ -147,6 +264,58 @@
       "result": "L",
       "opponent": "N. Mahut",
       "score": "6-1 6-3"
+    },
+    {
+      "date": "20180111",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. King",
+      "score": "6-1 7(7)-6(2)"
+    },
+    {
+      "date": "20180109",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Uchiyama",
+      "score": "7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20170111",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Krstin",
+      "score": "6-3 1-6 5-7"
+    },
+    {
+      "date": "20150713",
+      "tournament": "Modena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Stefanini",
+      "score": "4-6 3-6"
     }
   ]
 }
