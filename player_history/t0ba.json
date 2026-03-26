@@ -3,20 +3,33 @@
   "gs_id": "147889",
   "player_name": "Taketo Takamisawa",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:23:01.683Z",
+  "updated": "2026-03-26T22:13:53.863Z",
   "matches": [
     {
-      "date": "20221030",
-      "tournament": "Yokohama",
+      "date": "20220505",
+      "tournament": "M15 Monastir 17",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Kawakami",
-      "score": "2-6 4-6"
+      "opponent": "P. Florig",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20220504",
+      "tournament": "M15 Monastir 17",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Abderrahman",
+      "score": "6-2 6-4"
     }
   ]
 }
