@@ -1,1 +1,35 @@
-{"player_id":"d0mf","sack_id":"212883","name":"Andres Delgadillo","total":0,"matches":[]}
+{
+  "player_id": "d0mf",
+  "gs_id": "253089",
+  "player_name": "Andres Delgadillo",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:23:53.683Z",
+  "matches": [
+    {
+      "date": "20250413",
+      "tournament": "San Luis Potosi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Orlov",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240407",
+      "tournament": "Morelos Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ejupovic",
+      "score": "0-6 6(8)-7(10)"
+    }
+  ]
+}
