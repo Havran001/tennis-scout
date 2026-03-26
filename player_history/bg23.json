@@ -3,24 +3,63 @@
   "gs_id": "2065",
   "player_name": "Nikoloz Basilashvili",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:12:20.807Z",
+  "updated": "2026-03-26T21:14:33.835Z",
   "matches": [
     {
-      "date": "20250709",
-      "tournament": "Trieste",
+      "date": "20251016",
+      "tournament": "Brussels",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "B",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Mrva",
-      "score": "6-3 2-6 0-6"
+      "opponent": "G. Mpetshi Perricard",
+      "score": "7-5 0-0 ret."
     },
     {
-      "date": "20240223",
-      "tournament": "ITF M25 Trento Men",
+      "date": "20251015",
+      "tournament": "Brussels",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Q. Halys",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20251013",
+      "tournament": "Brussels",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Herbert",
+      "score": "3-6 6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20251012",
+      "tournament": "Brussels",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Basile",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240308",
+      "tournament": "ITF M15 Torello Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Gueymard Wayenburg",
-      "score": "4-6 6-1 4-6"
+      "opponent": "E. Kirkin",
+      "score": "4-6 6-1 6-0"
     },
     {
-      "date": "20240222",
-      "tournament": "ITF M25 Trento Men",
+      "date": "20240307",
+      "tournament": "ITF M15 Torello Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Bondioli",
-      "score": "5-7 1-6"
+      "opponent": "A. Knaff",
+      "score": "4-6 6(4)-7(7)"
     },
     {
-      "date": "20240221",
-      "tournament": "ITF M25 Trento Men",
+      "date": "20240306",
+      "tournament": "ITF M15 Torello Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,34 +93,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Ejupovic",
-      "score": "6(6)-7(8) 6-0 7-5"
+      "opponent": "Ni. Regas Luis",
+      "score": "6-2 6-0"
     },
     {
-      "date": "20240118",
-      "tournament": "ITF M25 Sunderland Men",
+      "date": "20220618",
+      "tournament": "Mallorca",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "B",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "6-0 3-6 6(4)-7(7)"
+      "opponent": "M. Rosenkranz",
+      "score": "7(7)-6(5) 7(7)-6(4)"
     },
     {
-      "date": "20240116",
-      "tournament": "ITF M25 Sunderland Men",
+      "date": "20210203",
+      "tournament": "Melbourne (Great Ocean Road Open)",
       "surface": "Hard",
-      "level": "I",
+      "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Foley",
-      "score": "7(7)-6(2) 6-4"
+      "result": "L",
+      "opponent": "M. M. Vilella",
+      "score": "5-7 3-6"
     }
   ]
 }
