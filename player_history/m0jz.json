@@ -1,9 +1,36 @@
 {
   "player_id": "m0jz",
+  "gs_id": "78975",
   "player_name": "Filip Misolic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T07:12:32.459Z",
+  "updated": "2026-03-26T09:18:37.516Z",
   "matches": [
+    {
+      "date": "20260119",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Davidovich Fokina",
+      "score": "6-2 6-3 6-3"
+    },
+    {
+      "date": "20250922",
+      "tournament": "Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Fucsovics",
+      "score": "3-6 1-6"
+    },
     {
       "date": "20250818",
       "tournament": "Winston-Salem",
@@ -81,6 +108,19 @@
       "result": "W",
       "opponent": "J. Kovalik",
       "score": "4-6 7(8)-6(6) 3-6"
+    },
+    {
+      "date": "20240110",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Huesler",
+      "score": "3-6 6-4 6-3"
     },
     {
       "date": "20230825",
