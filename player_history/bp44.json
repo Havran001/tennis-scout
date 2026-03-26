@@ -1,1 +1,22 @@
-{"player_id":"bp44","sack_id":"111569","name":"Gage Brymer","total":0,"matches":[]}
+{
+  "player_id": "bp44",
+  "gs_id": "21027",
+  "player_name": "Gage Brymer",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:44:45.539Z",
+  "matches": [
+    {
+      "date": "20130820",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Petzschner",
+      "score": "4-6 2-6"
+    }
+  ]
+}
