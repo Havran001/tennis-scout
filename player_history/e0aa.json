@@ -1,1 +1,22 @@
-{"player_id":"e0aa","sack_id":"207129","name":"Yanki Erel","total":0,"matches":[]}
+{
+  "player_id": "e0aa",
+  "gs_id": "39570",
+  "player_name": "Yanki Erel",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:04:40.575Z",
+  "matches": [
+    {
+      "date": "20240224",
+      "tournament": "ATP Dubai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Marterer",
+      "score": "6-3 6-4"
+    }
+  ]
+}
