@@ -1,22 +1,35 @@
 {
   "player_id": "te51",
-  "gs_id": "34244",
-  "player_name": "Petros Tsitsipas",
+  "gs_id": "27579",
+  "player_name": "Stefanos Tsitsipas",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:10:10.702Z",
+  "updated": "2026-03-26T17:43:25.746Z",
   "matches": [
     {
-      "date": "20260201",
-      "tournament": "Tenerife",
+      "date": "20170103",
+      "tournament": "Noumea",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Clezar",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20170103",
+      "tournament": "Noumea",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Pujol Navarro",
-      "score": "6-4 1-6 6-2"
+      "opponent": "T. Lamasine",
+      "score": "6-4 6-3"
     }
   ]
 }
