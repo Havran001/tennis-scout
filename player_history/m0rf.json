@@ -3,20 +3,46 @@
   "gs_id": "156067",
   "player_name": "Viktor Markov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:51:54.643Z",
+  "updated": "2026-03-26T17:46:56.742Z",
   "matches": [
     {
-      "date": "20241110",
-      "tournament": "Champaign",
+      "date": "20250812",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20250811",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Fomin",
+      "score": "6-4 2-6 7-5"
+    },
+    {
+      "date": "20250810",
+      "tournament": "Sofia",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Hilderbrand",
-      "score": "6-1 6-2"
+      "result": "W",
+      "opponent": "P. Nesterov",
+      "score": "1-6 3-6"
     }
   ]
 }
