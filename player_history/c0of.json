@@ -1,1 +1,35 @@
-{"player_id":"c0of","sack_id":"211673","name":"Duncan Chan","total":0,"matches":[]}
+{
+  "player_id": "c0of",
+  "gs_id": "169103",
+  "player_name": "Duncan Chan",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:53.624Z",
+  "matches": [
+    {
+      "date": "20250929",
+      "tournament": "Tiburon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Pinnington Jones",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250706",
+      "tournament": "Winnipeg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. van Wyk",
+      "score": "6-3 1-6 2-6"
+    }
+  ]
+}
