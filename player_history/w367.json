@@ -3,11 +3,11 @@
   "gs_id": "1020",
   "player_name": "Stan Wawrinka",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:06:16.682Z",
+  "updated": "2026-03-26T14:32:42.716Z",
   "matches": [
     {
-      "date": "20250513",
-      "tournament": "Bordeaux",
+      "date": "20250610",
+      "tournament": "Perugia",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,77 +15,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Harris",
-      "score": "3-6 6-2 6-1"
+      "opponent": "R. Albot",
+      "score": "6-4 7(7)-6(3)"
     },
     {
-      "date": "20240516",
-      "tournament": "Bordeaux Challenger Men",
+      "date": "20250504",
+      "tournament": "Aix en Provence",
       "surface": "Hard",
       "level": "C",
-      "round": "R16",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Martinez",
+      "opponent": "B. Coric",
+      "score": "6(5)-7(7) 6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20250503",
+      "tournament": "Aix en Provence",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Gojo",
       "score": "6-4 6-4"
     },
     {
-      "date": "20240515",
-      "tournament": "Bordeaux Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Zapata Miralles",
-      "score": "7-5 6-3"
-    },
-    {
-      "date": "20240404",
-      "tournament": "ATP Marrakech",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Navone",
-      "score": "6-3 5-7 2-6"
-    },
-    {
-      "date": "20240402",
-      "tournament": "ATP Marrakech",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Ramos",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20230518",
-      "tournament": "Bordeaux Challenger Men",
+      "date": "20250502",
+      "tournament": "Aix en Provence",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "U. Humbert",
-      "score": "5-7 1-6"
+      "result": "W",
+      "opponent": "N. Basavareddy",
+      "score": "7(10)-6(8) 6-3"
     },
     {
-      "date": "20230517",
-      "tournament": "Bordeaux Challenger Men",
+      "date": "20250501",
+      "tournament": "Aix en Provence",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -93,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Murray",
-      "score": "6-3 6-0"
+      "opponent": "A. Popyrin",
+      "score": "3-6 6-3 1-6"
     },
     {
-      "date": "20230516",
-      "tournament": "Bordeaux Challenger Men",
+      "date": "20250429",
+      "tournament": "Aix en Provence",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -107,37 +81,76 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "U. Blanchet",
-      "score": "6-3 6-1"
+      "score": "6-4 6-3"
     },
     {
-      "date": "20221017",
-      "tournament": "Antwerp",
+      "date": "20240430",
+      "tournament": "Aix en Provence Challenger Men",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Gasquet",
-      "score": "2-6 7(7)-6(4) 6-4"
+      "opponent": "A. Ramos",
+      "score": "6-3 6(3)-7(7) 6-4"
     },
     {
-      "date": "20200828",
-      "tournament": "Prague 2",
+      "date": "20220329",
+      "tournament": "Marbella",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ymer",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20200822",
+      "tournament": "Prague",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Karatsev",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20200821",
+      "tournament": "Prague",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Vrbensky",
+      "score": "5-7 6-3 6-3"
+    },
+    {
+      "date": "20200820",
+      "tournament": "Prague",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Karatsev",
-      "score": ""
+      "result": "W",
+      "opponent": "S. Nagal",
+      "score": "2-6 6-0 6-1"
     },
     {
-      "date": "20200827",
-      "tournament": "Prague 2",
+      "date": "20200819",
+      "tournament": "Prague",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -145,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Van De Zandschulp",
-      "score": "6-3 6-3"
+      "opponent": "O. Otte",
+      "score": "3-6 7-5 6-1"
     },
     {
-      "date": "20200825",
-      "tournament": "Prague 2",
+      "date": "20200817",
+      "tournament": "Prague",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -158,38 +171,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Oliveira",
-      "score": "6-3 6-4"
+      "opponent": "R. Safiullin",
+      "score": "6-1 4-6 6-1"
     },
     {
-      "date": "20191020",
-      "tournament": "Antwerp",
-      "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Murray",
-      "score": "3-6 6-4 6-4"
-    },
-    {
-      "date": "20191019",
-      "tournament": "Antwerp",
+      "date": "20100508",
+      "tournament": "Belgrade",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Sinner",
-      "score": "3-6 2-6"
+      "result": "L",
+      "opponent": "J. Isner",
+      "score": "7-5 7-5"
     },
     {
-      "date": "20191018",
-      "tournament": "Antwerp",
+      "date": "20100507",
+      "tournament": "Belgrade",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
@@ -197,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Simon",
-      "score": "6-3 6(6)-7(8) 6-2"
+      "opponent": "V. Troicki",
+      "score": "5-7 7-6 6-7"
     },
     {
-      "date": "20191016",
-      "tournament": "Antwerp",
+      "date": "20100505",
+      "tournament": "Belgrade",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -210,8 +210,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Lopez",
-      "score": "6(4)-7(7) 6-4 7(7)-6(4)"
+      "opponent": "A. Di Mauro",
+      "score": "1-6 4-6"
     }
   ]
 }
