@@ -1,1 +1,61 @@
-{"player_id":"le38","sack_id":"125848","name":"Niels Lootsma","total":0,"matches":[]}
+{
+  "player_id": "le38",
+  "gs_id": "141957",
+  "player_name": "Niels Lootsma",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:05:48.566Z",
+  "matches": [
+    {
+      "date": "20190205",
+      "tournament": "Kaarst",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Svrcina",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20150319",
+      "tournament": "Wirral",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Mertens",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20150318",
+      "tournament": "Wirral",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bettles",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20150317",
+      "tournament": "Wirral",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Gabb",
+      "score": "3-6 6-4 6-4"
+    }
+  ]
+}
