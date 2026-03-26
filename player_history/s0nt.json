@@ -1,1 +1,22 @@
-{"player_id":"s0nt","sack_id":"209394","name":"Anton Shepp","total":0,"matches":[]}
+{
+  "player_id": "s0nt",
+  "gs_id": "175727",
+  "player_name": "Anton Shepp",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:19:12.563Z",
+  "matches": [
+    {
+      "date": "20260110",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J-L. Struff",
+      "score": "7-5 6-2"
+    }
+  ]
+}
