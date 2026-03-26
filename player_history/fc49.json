@@ -1,1 +1,35 @@
-{"player_id":"fc49","sack_id":"200216","name":"Giovanni Fonio","total":0,"matches":[]}
+{
+  "player_id": "fc49",
+  "gs_id": "31061",
+  "player_name": "Giovanni Fonio",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:16:59.518Z",
+  "matches": [
+    {
+      "date": "20180801",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Souza",
+      "score": "7(7)-6(4) 6(6)-7(8) 6-3"
+    },
+    {
+      "date": "20180731",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Iannaccone",
+      "score": "6-3 6-0"
+    }
+  ]
+}
