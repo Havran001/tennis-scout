@@ -1,9 +1,23 @@
 {
   "player_id": "k0a3",
+  "gs_id": "32931",
   "player_name": "Patrick Kypson",
   "source": "goalserve-full",
-  "updated": "2026-03-26T07:12:54.462Z",
+  "updated": "2026-03-26T08:46:28.501Z",
   "matches": [
+    {
+      "date": "20260110",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Nava",
+      "score": "6-3 6-4"
+    },
     {
       "date": "20250819",
       "tournament": "US Open",
@@ -81,6 +95,32 @@
       "result": "W",
       "opponent": "E. Ymer",
       "score": "7(8)-6(6) 7(7)-6(3)"
+    },
+    {
+      "date": "20240106",
+      "tournament": "ATP Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Tabilo",
+      "score": "7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20240105",
+      "tournament": "ATP Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Ja. Delaney",
+      "score": "1-6 4-6"
     },
     {
       "date": "20230824",
