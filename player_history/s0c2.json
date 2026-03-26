@@ -3,11 +3,11 @@
   "gs_id": "41553",
   "player_name": "Hikaru Shiraishi",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:44:37.751Z",
+  "updated": "2026-03-26T18:54:38.795Z",
   "matches": [
     {
-      "date": "20251120",
-      "tournament": "Yokohama",
+      "date": "20251126",
+      "tournament": "Playford 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Oberleitner",
-      "score": "7-5 4-6 6-3"
+      "opponent": "D. Sweeny",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20251118",
-      "tournament": "Yokohama",
+      "date": "20251125",
+      "tournament": "Playford 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Basing",
-      "score": "6-2 2-6 3-6"
+      "opponent": "R. Matsuda",
+      "score": "4-6 6-3 5-7"
     },
     {
-      "date": "20251110",
-      "tournament": "Kobe",
+      "date": "20241125",
+      "tournament": "Yokkaichi",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Takahashi",
-      "score": "6-2 3-6 3-6"
+      "opponent": "R. Taguchi",
+      "score": "6-3 6-0"
     },
     {
-      "date": "20251109",
-      "tournament": "Kobe",
+      "date": "20241124",
+      "tournament": "Yokkaichi",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,12 +54,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Kusuhara",
-      "score": "4-6 6-4 3-6"
+      "opponent": "H. Matsuoka",
+      "score": "7(8)-6(6) 3-6 6-4"
     },
     {
-      "date": "20241117",
-      "tournament": "Yokohama",
+      "date": "20241022",
+      "tournament": "Playford 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Mochizuki",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20231126",
+      "tournament": "Yokkaichi Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,125 +80,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Cina",
-      "score": "1-6 6-3 4-6"
+      "opponent": "T. Ito",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20241110",
-      "tournament": "Kobe",
+      "date": "20220217",
+      "tournament": "M15 Monastir 6",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Ymer",
-      "score": "4-6 5-7"
+      "opponent": "S. Mansouri",
+      "score": "6-1 1-0 ret."
     },
     {
-      "date": "20241101",
-      "tournament": "Sydney",
+      "date": "20220216",
+      "tournament": "M15 Monastir 6",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Manzanera Pertusa",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20220211",
+      "tournament": "M15 Monastir 5",
+      "surface": "Hard",
+      "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Kokkinakis",
-      "score": "6-2 6-1"
+      "opponent": "G. Den Ouden",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20241030",
-      "tournament": "Sydney",
+      "date": "20220210",
+      "tournament": "M15 Monastir 5",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Polmans",
-      "score": "6-3 1-6 2-6"
+      "opponent": "M. Spec",
+      "score": "3-6 6-3 6-4"
     },
     {
-      "date": "20241028",
-      "tournament": "Sydney",
+      "date": "20220209",
+      "tournament": "M15 Monastir 5",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Bouzige",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20240514",
-      "tournament": "Taipei",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. K. Trotter",
-      "score": "6-4 3-6 1-6"
-    },
-    {
-      "date": "20240512",
-      "tournament": "Taipei",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. C. Chen",
-      "score": "4-6 6(6)-7(8)"
-    },
-    {
-      "date": "20221113",
-      "tournament": "Kobe",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Polmans",
-      "score": "5-7 6-4 0-6"
-    },
-    {
-      "date": "20221031",
-      "tournament": "Yokohama",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Mridha",
-      "score": "4-6 6-2 7-5"
-    },
-    {
-      "date": "20221030",
-      "tournament": "Yokohama",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Ochi",
-      "score": "1-6 6-4 5-7"
+      "opponent": "A. Manzanera Pertusa",
+      "score": "2-6 2-6"
     }
   ]
 }
