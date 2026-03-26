@@ -3,11 +3,50 @@
   "gs_id": "35694",
   "player_name": "Nikita Mashtakov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:28:05.615Z",
+  "updated": "2026-03-26T16:10:25.698Z",
   "matches": [
     {
-      "date": "20190410",
-      "tournament": "Reus",
+      "date": "20250810",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Wallin",
+      "score": "6-4 1-6 3-6"
+    },
+    {
+      "date": "20250511",
+      "tournament": "Zagreb",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Oberleitner",
+      "score": "6-4 7(11)-6(9)"
+    },
+    {
+      "date": "20240602",
+      "tournament": "Zagreb Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Bonadio",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20180627",
+      "tournament": "Kamen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. E. Esteve",
-      "score": "3-6 1-6"
+      "opponent": "T. Ruehl",
+      "score": "5-7 6-4 5-7"
     }
   ]
 }
