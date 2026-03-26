@@ -1,1 +1,48 @@
-{"player_id":"g09c","sack_id":"200309","name":"Marek Gengel","total":1,"matches":[{"id":"EDzrkzp1","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Ibrahim K.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g09c",
+  "gs_id": "31817",
+  "player_name": "Marek Gengel",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:06.516Z",
+  "matches": [
+    {
+      "date": "20190718",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Guenther",
+      "score": "6(3)-7(7) 6-2 6-4"
+    },
+    {
+      "date": "20190717",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Echazu",
+      "score": "6-2 3-6 6-3"
+    },
+    {
+      "date": "20170620",
+      "tournament": "Palma Del Rio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Nielsen",
+      "score": "5-7 5-7"
+    }
+  ]
+}
