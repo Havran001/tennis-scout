@@ -3,11 +3,11 @@
   "gs_id": "177340",
   "player_name": "Matteo Fondriest",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:19:01.814Z",
+  "updated": "2026-03-26T23:12:41.888Z",
   "matches": [
     {
-      "date": "20260218",
-      "tournament": "M25 Trento",
+      "date": "20250729",
+      "tournament": "M25 Bolzano",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Masur",
-      "score": "1-6 2-6"
+      "opponent": "J. C. Prado Angelo",
+      "score": "6-3 1-6 4-6"
     },
     {
-      "date": "20260204",
-      "tournament": "M15 Monastir 4",
+      "date": "20250624",
+      "tournament": "M25 Montauban",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Tepmahc",
-      "score": "6-4 6-1"
+      "opponent": "M. Damas",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20250307",
-      "tournament": "M15 Monastir 9",
+      "date": "20250612",
+      "tournament": "M25 Kiseljak",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Vylegzhanin",
-      "score": "6-4 6(6)-7(8) 0-6"
+      "opponent": "A. Nedic",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20250305",
-      "tournament": "M15 Monastir 9",
+      "date": "20250611",
+      "tournament": "M25 Kiseljak",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Paolini",
-      "score": "0-6 0-6"
+      "opponent": "V. Radjenovic",
+      "score": "6-1 4-6 4-6"
     },
     {
-      "date": "20250219",
-      "tournament": "M25 Trento",
+      "date": "20250522",
+      "tournament": "M15 Brcko",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,60 +67,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Rosenkranz",
-      "score": "6(5)-7(7) 1-6"
+      "opponent": "J. Kupcic",
+      "score": "6-1 7-5"
     },
     {
-      "date": "20250123",
-      "tournament": "M15 Monastir 3",
+      "date": "20250402",
+      "tournament": "M15 Monastir 13",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Cuenin",
+      "opponent": "P. Marino",
+      "score": "6-2 4-6 5-7"
+    },
+    {
+      "date": "20250316",
+      "tournament": "Zadar",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Vrbensky",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20240619",
+      "tournament": "ITF M25 Montauban Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Lagarrigue",
+      "score": "7-5 4-6 6-1"
+    },
+    {
+      "date": "20240508",
+      "tournament": "ITF M15 Doboj Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Madarasz",
       "score": "6-4 6-4"
-    },
-    {
-      "date": "20250122",
-      "tournament": "M15 Monastir 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Djuric",
-      "score": "4-6 6(5)-7(7)"
-    },
-    {
-      "date": "20240306",
-      "tournament": "ITF M15 Porec Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Baroni",
-      "score": "6-0 6-3"
-    },
-    {
-      "date": "20230329",
-      "tournament": "ITF M25 Trento Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Oradini",
-      "score": "1-6 3-6"
     }
   ]
 }
