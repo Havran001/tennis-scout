@@ -3,11 +3,11 @@
   "gs_id": "57430",
   "player_name": "Filippo Speziali",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:19:05.685Z",
+  "updated": "2026-03-26T20:15:25.815Z",
   "matches": [
     {
-      "date": "20180821",
-      "tournament": "Cuneo",
+      "date": "20240221",
+      "tournament": "ITF M25 Trento Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Bertola",
-      "score": "5-7 5-7"
+      "opponent": "F. Bondioli",
+      "score": "6-2 6(4)-7(7) 6-4"
+    },
+    {
+      "date": "20230309",
+      "tournament": "ITF M15 Antalya 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Reymond",
+      "score": "2-6 7(7)-6(4) 5-7"
+    },
+    {
+      "date": "20230308",
+      "tournament": "ITF M15 Antalya 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Gimenez",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20220623",
+      "tournament": "M25 Klosters",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Wenger",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20220621",
+      "tournament": "M25 Klosters",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Gruenig",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20220302",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Moeller",
+      "score": "6-0 6-3"
     }
   ]
 }
