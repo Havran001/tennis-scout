@@ -1,1 +1,35 @@
-{"player_id":"d0fn","sack_id":"211317","name":"Chen Dong","total":0,"matches":[]}
+{
+  "player_id": "d0fn",
+  "gs_id": "65424",
+  "player_name": "Ju Kim Dong",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:49:19.651Z",
+  "matches": [
+    {
+      "date": "20251026",
+      "tournament": "Seoul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Isomura",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20190429",
+      "tournament": "Seoul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. Lee",
+      "score": "6-2 6-2"
+    }
+  ]
+}
