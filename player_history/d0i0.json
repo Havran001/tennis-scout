@@ -3,24 +3,50 @@
   "gs_id": "124949",
   "player_name": "Sebastian Dominko",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:12:08.826Z",
+  "updated": "2026-03-26T23:03:55.019Z",
   "matches": [
     {
-      "date": "20231102",
-      "tournament": "ITF M15 Fayetteville",
+      "date": "20250531",
+      "tournament": "M15 Doboj",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Bieldiugin",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250530",
+      "tournament": "M15 Doboj",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Johns",
-      "score": "6-4 6-1"
+      "result": "W",
+      "opponent": "S. Sorger",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20231101",
-      "tournament": "ITF M15 Fayetteville",
+      "date": "20250530",
+      "tournament": "M15 Doboj",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. A. Caniato",
+      "score": "6-2 7(9)-6(7)"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M15 Doboj",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Bigun",
-      "score": "6-3 7(7)-6(5)"
+      "opponent": "T. Berkieta",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230726",
+      "tournament": "ITF M25+H Bacau Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Pavel",
+      "score": "2-6 4-6"
     }
   ]
 }
