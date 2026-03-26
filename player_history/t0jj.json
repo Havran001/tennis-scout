@@ -1,1 +1,35 @@
-{"player_id":"t0jj","sack_id":"212770","name":"Timeo Trufelli","total":1,"matches":[{"id":"0zQRB06j","date":"20260324","tournament":"ITF MEN - SINGLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Stricker D.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "t0jj",
+  "gs_id": "232999",
+  "player_name": "Timeo Trufelli",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:52:52.643Z",
+  "matches": [
+    {
+      "date": "20260223",
+      "tournament": "Saint Brieuc",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ghibaudo",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20260222",
+      "tournament": "Saint Brieuc",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Vasa",
+      "score": "6-3 3-6 6-3"
+    }
+  ]
+}
