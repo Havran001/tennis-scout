@@ -1,1 +1,35 @@
-{"player_id":"w719","sack_id":"126971","name":"Marcus Walters","total":0,"matches":[]}
+{
+  "player_id": "w719",
+  "gs_id": "142179",
+  "player_name": "Marcus Walters",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:54.542Z",
+  "matches": [
+    {
+      "date": "20190731",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Crepaldi",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20190731",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Draper",
+      "score": "6-0 1-6 6-1"
+    }
+  ]
+}
