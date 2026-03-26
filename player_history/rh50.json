@@ -1,1 +1,22 @@
-{"player_id":"rh50","sack_id":"205842","name":"Arthur Reymond","total":2,"matches":[{"id":"G6hHTVRa","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Delaney Ja./Polmans M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"G6hHTVRa","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Delaney Ja./Polmans M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "rh50",
+  "gs_id": "57681",
+  "player_name": "Arthur Reymond",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:15.513Z",
+  "matches": [
+    {
+      "date": "20180718",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Wehnelt",
+      "score": "7-5 4-6 6(4)-7(7)"
+    }
+  ]
+}
