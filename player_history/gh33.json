@@ -1,1 +1,61 @@
-{"player_id":"gh33","sack_id":"131905","name":"Manuel Guinard","total":0,"matches":[]}
+{
+  "player_id": "gh33",
+  "gs_id": "41690",
+  "player_name": "Manuel Guinard",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:02.514Z",
+  "matches": [
+    {
+      "date": "20230110",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pellegrino",
+      "score": "6(7)-7(9) 7-5 6(4)-7(10)"
+    },
+    {
+      "date": "20220824",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Maestrelli",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20220723",
+      "tournament": "Kitzbuhel",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Casanova",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20220111",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sousa",
+      "score": "6-3 6-2"
+    }
+  ]
+}
