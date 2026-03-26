@@ -1,1 +1,22 @@
-{"player_id":"s0fs","sack_id":"207367","name":"Bora Sengul","total":0,"matches":[]}
+{
+  "player_id": "s0fs",
+  "gs_id": "142304",
+  "player_name": "Bora Sengul",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:20.626Z",
+  "matches": [
+    {
+      "date": "20250831",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Azkara",
+      "score": "6-1 6-3"
+    }
+  ]
+}
