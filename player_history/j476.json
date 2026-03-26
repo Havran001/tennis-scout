@@ -3,50 +3,37 @@
   "gs_id": "8529",
   "player_name": "David Jorda Sanchis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:05:12.865Z",
+  "updated": "2026-03-26T23:48:08.903Z",
   "matches": [
     {
-      "date": "20250403",
-      "tournament": "M25 Reus",
+      "date": "20251102",
+      "tournament": "Lima 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Gill",
-      "score": "6-4 6(7)-7(9) 7(7)-6(3)"
-    },
-    {
-      "date": "20250402",
-      "tournament": "M25 Reus",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Juan Mano",
-      "score": "4-6 6-4 7(7)-6(5)"
-    },
-    {
-      "date": "20240622",
-      "tournament": "ATP Mallorca",
-      "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Walton",
-      "score": "6(3)-7(7) 3-6"
+      "opponent": "F. Mena",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20230112",
-      "tournament": "ITF M15 Manacor Men",
+      "date": "20230822",
+      "tournament": "Prague 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Vrbensky",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20230330",
+      "tournament": "ITF M25 Saint Dizier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Vallejo",
-      "score": "5-7 7(7)-6(5) 2-6"
+      "opponent": "M. Martineau",
+      "score": "4-6 7(12)-6(10) 4-6"
     },
     {
-      "date": "20230111",
-      "tournament": "ITF M15 Manacor Men",
+      "date": "20230329",
+      "tournament": "ITF M25 Saint Dizier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,51 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Loof",
-      "score": "4-6 3-6"
+      "opponent": "B. Fassbender",
+      "score": "3-6 6-3 4-6"
     },
     {
-      "date": "20221108",
-      "tournament": "M15 Benicarlo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Chepelev",
-      "score": "0-6 7-5 6-4"
-    },
-    {
-      "date": "20220908",
-      "tournament": "M15 Madrid",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zukas",
-      "score": "2-6 7(7)-6(5) 4-6"
-    },
-    {
-      "date": "20220907",
-      "tournament": "M15 Madrid",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Francisco",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20220514",
-      "tournament": "M15 Valldoreix",
+      "date": "20220916",
+      "tournament": "M25 Madrid",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -119,12 +67,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
+      "opponent": "N. Moreno De Alboran",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20220915",
+      "tournament": "M25 Madrid",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Heller",
+      "score": "7(7)-6(2) 6-2"
+    },
+    {
+      "date": "20220914",
+      "tournament": "M25 Madrid",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
       "opponent": "D. Merida Aguilar",
-      "score": "3-6 6-0 6-3"
+      "score": "7-5 2-6 5-7"
     },
     {
-      "date": "20220513",
-      "tournament": "M15 Valldoreix",
+      "date": "20220913",
+      "tournament": "M25 Madrid",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. R. Goldberg Alviani",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20220816",
+      "tournament": "M15 Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Dalla Valle",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20220723",
+      "tournament": "M25 Gandia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Barranco Cosano",
+      "score": "6-3 1-6 2-6"
+    },
+    {
+      "date": "20220722",
+      "tournament": "M25 Gandia",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -132,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Naw",
-      "score": "3-6 6-3 6(2)-7(7)"
+      "opponent": "J. F. Vidal Azorin",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20220512",
-      "tournament": "M15 Valldoreix",
+      "date": "20220721",
+      "tournament": "M25 Gandia",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -145,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Wong",
-      "score": "0-6 6-4 5-7"
+      "opponent": "M. Perchicot",
+      "score": "7-5 1-6 3-6"
     },
     {
-      "date": "20220510",
-      "tournament": "M15 Valldoreix",
+      "date": "20220720",
+      "tournament": "M25 Gandia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,25 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Lopez San Martin",
-      "score": "6-4 7-5"
+      "opponent": "P. A. Saraiva Dos Santos",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20220405",
-      "tournament": "M25 Reus",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Neumayer",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20220304",
-      "tournament": "M15 Torello",
+      "date": "20220715",
+      "tournament": "M25 Uriage",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -184,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Lopez Morillo",
-      "score": "6-3 7(7)-6(5)"
+      "opponent": "U. Blanchet",
+      "score": "6-2 7(7)-6(4)"
     },
     {
-      "date": "20220303",
-      "tournament": "M15 Torello",
+      "date": "20220714",
+      "tournament": "M25 Uriage",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -197,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Cohen",
-      "score": "6-2 7-5"
+      "opponent": "A. Boureau",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20220301",
-      "tournament": "M15 Torello",
+      "date": "20220713",
+      "tournament": "M25 Uriage",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -210,12 +210,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Mertens",
-      "score": "4-6 6-3 5-7"
+      "opponent": "M. Martinez",
+      "score": "5-7 1-6"
     },
     {
-      "date": "20211027",
-      "tournament": "ITF M15 Madrid Men",
+      "date": "20211013",
+      "tournament": "M15 Platja D'Aro 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -223,12 +223,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Metreveli",
-      "score": "6(4)-7(7) 7(7)-6(4) ret."
+      "opponent": "M. Houkes",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20201208",
-      "tournament": "ITF M15 Torello Men",
+      "date": "20211006",
+      "tournament": "M15 Platja D'Aro",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -236,12 +236,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Zhurbin",
-      "score": "6-4 0-6 7(7)-6(5)"
+      "opponent": "C. Sanchez Jover",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20201119",
-      "tournament": "ITF M15 Villena Men",
+      "date": "20210924",
+      "tournament": "ITF M15 Pirot Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -249,12 +249,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Cachin",
-      "score": "6-3 7(7)-6(4)"
+      "opponent": "A. Setkic",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20201118",
-      "tournament": "ITF M15 Villena Men",
+      "date": "20210923",
+      "tournament": "ITF M15 Pirot Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -262,8 +262,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Patael",
-      "score": "6-3 3-6 1-6"
+      "opponent": "M. Zugic",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20210907",
+      "tournament": "M25 Eupen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Pauwels",
+      "score": "7(8)-6(6) 7-5"
+    },
+    {
+      "date": "20210904",
+      "tournament": "ITF M15 Allershausen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Veldheer",
+      "score": "3-6 7(7)-6(4) 1-6"
+    },
+    {
+      "date": "20210903",
+      "tournament": "ITF M15 Allershausen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Handel",
+      "score": "7(7)-6(4) 5-7 6-4"
+    },
+    {
+      "date": "20210902",
+      "tournament": "ITF M15 Allershausen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Whitehouse",
+      "score": "6-3 3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20210831",
+      "tournament": "ITF M15 Allershausen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Sabanin",
+      "score": "6-4 1-6 3-6"
+    },
+    {
+      "date": "20210707",
+      "tournament": "M15 Almada",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Niki",
+      "score": "6-2 6-2"
     }
   ]
 }
