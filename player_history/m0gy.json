@@ -1,1 +1,61 @@
-{"player_id":"m0gy","sack_id":"208421","name":"Lilian Marmousez","total":0,"matches":[]}
+{
+  "player_id": "m0gy",
+  "gs_id": "56986",
+  "player_name": "Lilian Marmousez",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:08:58.624Z",
+  "matches": [
+    {
+      "date": "20251019",
+      "tournament": "Brest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Jorda Sanchis",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250609",
+      "tournament": "Lyon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Alvarez Varona",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250608",
+      "tournament": "Lyon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Reymond",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20231022",
+      "tournament": "Brest Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Ferreira Silva",
+      "score": "6-4 6-1"
+    }
+  ]
+}
