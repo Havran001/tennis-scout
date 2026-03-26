@@ -3,20 +3,33 @@
   "gs_id": "95492",
   "player_name": "Lewie Lane",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:23:34.817Z",
+  "updated": "2026-03-26T22:12:27.864Z",
   "matches": [
     {
-      "date": "20201020",
-      "tournament": "M25 Hamburg",
+      "date": "20230316",
+      "tournament": "ITF M25 Trimbach Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Zuk",
+      "score": "6(5)-7(7) 6-3 6-2"
+    },
+    {
+      "date": "20230315",
+      "tournament": "ITF M25 Trimbach Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Squire",
-      "score": "1-6 1-6"
+      "result": "W",
+      "opponent": "A. Casanova",
+      "score": "6-4 6-3"
     }
   ]
 }
