@@ -1,1 +1,74 @@
-{"player_id":"l0db","sack_id":"208153","name":"Giuseppe La Vela","total":0,"matches":[]}
+{
+  "player_id": "l0db",
+  "gs_id": "142106",
+  "player_name": "Giuseppe La Vela",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:13.637Z",
+  "matches": [
+    {
+      "date": "20190808",
+      "tournament": "Appiano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. De Rossi",
+      "score": "7(7)-6(3) 6(6)-7(8) 4-6"
+    },
+    {
+      "date": "20190808",
+      "tournament": "Appiano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Guerrieri",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20190718",
+      "tournament": "Gubbio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Ricca",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20190716",
+      "tournament": "Gubbio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Furlanetto",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20190508",
+      "tournament": "Vercelli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Petit",
+      "score": "3-6 6-3 0-6"
+    }
+  ]
+}
