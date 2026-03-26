@@ -1,1 +1,48 @@
-{"player_id":"bd82","sack_id":"105029","name":"Sergey Betov","total":1,"matches":[{"id":"zct2rOpL","date":"20260325","tournament":"ITF MEN - DOUBLES: M15 Maanshan 4 (China), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Santillan A./Wang Y.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "bd82",
+  "gs_id": "175270",
+  "player_name": "Sergey Betov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:57:02.542Z",
+  "matches": [
+    {
+      "date": "20120802",
+      "tournament": "Moscow 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Reynet",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20120801",
+      "tournament": "Moscow 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Krotiouk",
+      "score": "3-6 6-4 3-6"
+    },
+    {
+      "date": "20120731",
+      "tournament": "Moscow 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Marfinsky",
+      "score": "4-6 6-7"
+    }
+  ]
+}
