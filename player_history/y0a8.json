@@ -1,1 +1,35 @@
-{"player_id":"y0a8","sack_id":"208277","name":"Taiyo Yamanaka","total":1,"matches":[{"id":"GKqfCMQ6","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Tsukuba (Japan), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Kim G. J.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "y0a8",
+  "gs_id": "59158",
+  "player_name": "Taiyo Yamanaka",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:19:17.686Z",
+  "matches": [
+    {
+      "date": "20251117",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Matsuoka",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20251116",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Sumizawa",
+      "score": "3-6 0-6"
+    }
+  ]
+}
