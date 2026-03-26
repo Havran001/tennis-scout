@@ -1,1 +1,87 @@
-{"player_id":"bv24","sack_id":"134840","name":"Raul Brancaccio","total":1,"matches":[{"id":"UkM9J2BL","date":"20260324","tournament":"CHALLENGER WOMEN - SINGLES: Dubrovnik (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Pigato L.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "bv24",
+  "gs_id": "31547",
+  "player_name": "Raul Brancaccio",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:46:08.501Z",
+  "matches": [
+    {
+      "date": "20230824",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Skatov",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20230822",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Sachko",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20230722",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. De Jong",
+      "score": "6-4 2-6 3-6"
+    },
+    {
+      "date": "20220826",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Eubanks",
+      "score": "6-4 1-6 4-6"
+    },
+    {
+      "date": "20220825",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Moraing",
+      "score": "7-5 0-0 ret."
+    },
+    {
+      "date": "20220823",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Koepfer",
+      "score": "7(7)-6(4) 6-4"
+    }
+  ]
+}
