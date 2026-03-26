@@ -1,1 +1,48 @@
-{"matches":[{"id":"Mqod5vft","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Konduri T.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"Mqod5vft","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Konduri T.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"total":2,"updated":"2026-03-26"}
+{
+  "player_id": "g0oq",
+  "gs_id": "280998",
+  "player_name": "Gus Grumet",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:31.625Z",
+  "matches": [
+    {
+      "date": "20251006",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. King",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20251005",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Quan",
+      "score": "6-4 3-6 6-2"
+    },
+    {
+      "date": "20240929",
+      "tournament": "Tiburon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sheehy",
+      "score": "6-3 4-6 3-6"
+    }
+  ]
+}
