@@ -3,20 +3,85 @@
   "gs_id": "200557",
   "player_name": "Felix Balshaw",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:52:36.646Z",
+  "updated": "2026-03-26T16:14:07.704Z",
   "matches": [
     {
-      "date": "20250309",
-      "tournament": "Cherbourg",
+      "date": "20260216",
+      "tournament": "Lille",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Coppejans",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20260215",
+      "tournament": "Lille",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Squire",
+      "score": "7(7)-6(5) 7(9)-6(7)"
+    },
+    {
+      "date": "20260107",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "T. Gentzsch",
-      "score": "6-1 6-4"
+      "opponent": "D. Suresh",
+      "score": "6-3 1-6 7(7)-6(4)"
+    },
+    {
+      "date": "20260106",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Hassan",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20260105",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Yamasaki",
+      "score": "2-6 6-3 2-6"
+    },
+    {
+      "date": "20260104",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Kukasian",
+      "score": "3-6 4-6"
     }
   ]
 }
