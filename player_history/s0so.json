@@ -1,1 +1,48 @@
-{"player_id":"s0so","sack_id":"210190","name":"Timofey Stepanov","total":0,"matches":[]}
+{
+  "player_id": "s0so",
+  "gs_id": "147907",
+  "player_name": "Timofey Stepanov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T21:12:47.823Z",
+  "matches": [
+    {
+      "date": "20240626",
+      "tournament": "ITF M25 Klosters Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Brunold",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20230705",
+      "tournament": "ITF M25 Klosters Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Poljicak",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20230305",
+      "tournament": "Lugano Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Sachko",
+      "score": "6-1 6-0"
+    }
+  ]
+}
