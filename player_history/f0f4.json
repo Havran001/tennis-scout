@@ -1,1 +1,22 @@
-{"player_id":"f0f4","sack_id":"210005","name":"Kilian Feldbausch","total":1,"matches":[{"id":"2Hg9JimD","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Dodig M.","score":"0-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "f0f4",
+  "gs_id": "120417",
+  "player_name": "Kilian Feldbausch",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:51.519Z",
+  "matches": [
+    {
+      "date": "20230729",
+      "tournament": "ATP Kitzbuhel",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Gakhov",
+      "score": "6-4 7(7)-6(0)"
+    }
+  ]
+}
