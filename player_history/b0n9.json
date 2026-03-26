@@ -1,23 +1,10 @@
 {
   "player_id": "b0n9",
-  "gs_id": "242433",
-  "player_name": "Victor Braga",
+  "gs_id": "242432",
+  "player_name": "Breno Braga",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:12:23.629Z",
+  "updated": "2026-03-26T13:52:55.646Z",
   "matches": [
-    {
-      "date": "20250810",
-      "tournament": "Barranquilla",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Perez",
-      "score": "6-3 6-4"
-    },
     {
       "date": "20250330",
       "tournament": "Campinas",
@@ -28,8 +15,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Ogura",
-      "score": "6-4 6-3"
+      "opponent": "Y. Mochizuki",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20241020",
+      "tournament": "Curitiba Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Nijboer",
+      "score": "6-2 6-1"
     }
   ]
 }
