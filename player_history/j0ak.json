@@ -1,22 +1,35 @@
 {
   "player_id": "j0ak",
-  "gs_id": "84344",
-  "player_name": "Jeremy Jin",
+  "gs_id": "76018",
+  "player_name": "Yuquan Jin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:56:44.544Z",
+  "updated": "2026-03-26T15:21:50.679Z",
   "matches": [
     {
-      "date": "20240110",
-      "tournament": "ATP Australian Open",
+      "date": "20240819",
+      "tournament": "Jinan",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Cobolli",
-      "score": "2-6 2-6"
+      "opponent": "Y. Shimizu",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20190903",
+      "tournament": "Jinan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Ferreira Silva",
+      "score": "6-3 6-1"
     }
   ]
 }
