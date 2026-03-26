@@ -1,1 +1,35 @@
-{"player_id":"g0ci","sack_id":"207408","name":"Niklas Guttau","total":1,"matches":[{"id":"YcRLxUA6","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Jong S.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g0ci",
+  "gs_id": "39412",
+  "player_name": "Niklas Guttau",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:48.543Z",
+  "matches": [
+    {
+      "date": "20210710",
+      "tournament": "ATP Hamburg",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Taberner",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20180721",
+      "tournament": "Hamburg",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kovalik",
+      "score": "0-6 1-6"
+    }
+  ]
+}
