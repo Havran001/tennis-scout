@@ -1,1 +1,87 @@
-{"player_id":"s0bt","sack_id":"202075","name":"Adria Soriano Barrera","total":4,"matches":[{"id":"MRRLaKw8","date":"20260325","tournament":"ITF WOMEN - DOUBLES: W35 Junin (Argentina), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Giovannini L./Gomez Pezuela Cano M.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"UuBkvBlJ","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Bucaramanga 2 (Colombia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Kingsley C.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"tpxL9pfA","date":"20260324","tournament":"ITF WOMEN - SINGLES: W35 Junin (Argentina), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Bonardi B.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"UuBkvBlJ","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Bucaramanga 2 (Colombia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Kingsley C.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "s0bt",
+  "gs_id": "34301",
+  "player_name": "Adria Soriano Barrera",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:27:56.624Z",
+  "matches": [
+    {
+      "date": "20240515",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Moeller",
+      "score": "6-3 6(12)-7(14) 6-3"
+    },
+    {
+      "date": "20220519",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Moro Canas",
+      "score": "6(4)-7(7) 5-7"
+    },
+    {
+      "date": "20220517",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. P. Toledo",
+      "score": "1-6 0-0 ret."
+    },
+    {
+      "date": "20190704",
+      "tournament": "Bakio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Boluda-Purkiss",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20190703",
+      "tournament": "Bakio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Aranzabal",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20160517",
+      "tournament": "Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Korovin",
+      "score": "6-2 6-3"
+    }
+  ]
+}
