@@ -1,1 +1,22 @@
-{"player_id":"b0ll","sack_id":"209907","name":"Viacheslav Bielinskyi","total":1,"matches":[{"id":"UDEo8bqA","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Biletic I.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "b0ll",
+  "gs_id": "84355",
+  "player_name": "Viacheslav Bielinskyi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:50:06.650Z",
+  "matches": [
+    {
+      "date": "20240618",
+      "tournament": "Poznan Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Majchrzak",
+      "score": "6-3 6-4"
+    }
+  ]
+}
