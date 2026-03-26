@@ -3,11 +3,11 @@
   "gs_id": "37526",
   "player_name": "Yurii Dzhavakian",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:34:55.662Z",
+  "updated": "2026-03-26T15:20:58.679Z",
   "matches": [
     {
-      "date": "20250216",
-      "tournament": "Pune",
+      "date": "20260104",
+      "tournament": "Bengaluru",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Geerts",
-      "score": "0-6 2-6"
+      "opponent": "A. Gautier",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20250209",
-      "tournament": "New Delhi",
+      "date": "20250223",
+      "tournament": "Bengaluru",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,8 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Couacaud",
-      "score": "2-6 6-2 4-6"
+      "opponent": "K. Singh",
+      "score": "5-7 3-6"
     },
     {
       "date": "20250204",
@@ -71,43 +71,30 @@
       "score": "4-6 3-6"
     },
     {
-      "date": "20240226",
-      "tournament": "New Delhi Challenger Men",
+      "date": "20240603",
+      "tournament": "Heilbronn Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Masur",
+      "score": "2-6 7(7)-6(5) 3-6"
+    },
+    {
+      "date": "20240211",
+      "tournament": "Bengaluru Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "J. Forejtek",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20240225",
-      "tournament": "New Delhi Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Fanselow",
-      "score": "4-6 6(2)-7(7)"
-    },
-    {
-      "date": "20240218",
-      "tournament": "Pune Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Donskoy",
-      "score": "7(7)-6(5) 1-6 0-6"
+      "score": "6-3 6-0"
     },
     {
       "date": "20240205",
@@ -136,17 +123,43 @@
       "score": "6-3 6-1"
     },
     {
-      "date": "20190925",
-      "tournament": "Melilla",
+      "date": "20111126",
+      "tournament": "Antalya 9",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Zhurbin",
-      "score": "6-2 6-2"
+      "opponent": "Y. Vandenbulcke",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20111120",
+      "tournament": "Antalya 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Vidojevic",
+      "score": "6-4 1-6 6-4"
+    },
+    {
+      "date": "20111119",
+      "tournament": "Antalya 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Plattes",
+      "score": "3-6 4-6"
     }
   ]
 }
