@@ -1,12 +1,12 @@
 {
   "player_id": "a0k3",
-  "gs_id": "170709",
-  "player_name": "Mikael Arseneault",
+  "gs_id": "170710",
+  "player_name": "Nicolas Arseneault",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:52:19.649Z",
+  "updated": "2026-03-26T13:52:21.653Z",
   "matches": [
     {
-      "date": "20251112",
+      "date": "20251110",
       "tournament": "Drummondville",
       "surface": "Hard",
       "level": "C",
@@ -15,47 +15,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Draxl",
-      "score": "6-3 6(5)-7(7) 0-6"
+      "opponent": "A. Ilagan",
+      "score": "6-3 3-6 0-6"
     },
     {
-      "date": "20251110",
+      "date": "20241111",
       "tournament": "Drummondville",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Dalmasso",
-      "score": "6-3 4-6 3-6"
-    },
-    {
-      "date": "20251109",
-      "tournament": "Drummondville",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Jones",
-      "score": "5-7 6-3 6-2"
-    },
-    {
-      "date": "20241110",
-      "tournament": "Drummondville",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Jones",
-      "score": "6-0 4-6 2-6"
+      "opponent": "J. J. Schwaerzler",
+      "score": "6-2 6-4"
     }
   ]
 }
