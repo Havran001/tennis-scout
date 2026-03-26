@@ -3,20 +3,85 @@
   "gs_id": "158732",
   "player_name": "Filippo Romano",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:00:01.775Z",
+  "updated": "2026-03-26T20:18:16.814Z",
   "matches": [
     {
-      "date": "20260222",
-      "tournament": "Lugano",
+      "date": "20260324",
+      "tournament": "Split",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Oetzbach",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20260323",
+      "tournament": "Split",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. La Vela",
+      "score": "3-6 6-3 7(8)-6(6)"
+    },
+    {
+      "date": "20260322",
+      "tournament": "Split",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Bilozertsev",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20260220",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "J. Forejtek",
-      "score": "4-6 1-6"
+      "opponent": "M. Topo",
+      "score": "3-6 6(6)-7(8)"
+    },
+    {
+      "date": "20260219",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Potenza",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20260218",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Morolli",
+      "score": "7(7)-6(3) 6-4"
     },
     {
       "date": "20260212",
@@ -45,8 +110,34 @@
       "score": "4-6 4-6"
     },
     {
-      "date": "20250929",
-      "tournament": "Braga",
+      "date": "20250706",
+      "tournament": "Trieste",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Paul",
+      "score": "7(7)-6(4) 6-2"
+    },
+    {
+      "date": "20250129",
+      "tournament": "M25 Glasgow",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Hooper",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20240708",
+      "tournament": "Trieste Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -54,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Squire",
-      "score": "6-1 3-6 2-6"
+      "opponent": "A. Guerrieri",
+      "score": "2-6 7-5 6-0"
     },
     {
-      "date": "20250928",
-      "tournament": "Braga",
+      "date": "20240707",
+      "tournament": "Trieste Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,51 +158,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Cacao",
-      "score": "6(1)-7(7) 6(4)-7(7)"
+      "opponent": "A. Weis",
+      "score": "6-2 3-6 5-7"
     },
     {
-      "date": "20240203",
-      "tournament": "M15 Veigy-Foncenex",
+      "date": "20240221",
+      "tournament": "ITF M25 Trento Men",
       "surface": "Hard",
       "level": "I",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bouquier",
-      "score": "4-6 3-6"
+      "opponent": "F. Broska",
+      "score": "2-6 6-1 3-6"
     },
     {
-      "date": "20240202",
-      "tournament": "M15 Veigy-Foncenex",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Salle",
-      "score": "7-5 5-7 4-6"
-    },
-    {
-      "date": "20240201",
-      "tournament": "M15 Veigy-Foncenex",
+      "date": "20230928",
+      "tournament": "M15 Forbach",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Jong",
-      "score": "2-6 3-6"
+      "result": "L",
+      "opponent": "A. Moundir",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20240130",
-      "tournament": "M15 Veigy-Foncenex",
+      "date": "20230927",
+      "tournament": "M15 Forbach",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +197,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Gueymard Wayenburg",
-      "score": "6-4 6-4"
+      "opponent": "F. Bertuccioli",
+      "score": "3-6 4-6"
     }
   ]
 }
