@@ -1,1 +1,22 @@
-{"player_id":"bv25","sack_id":"200266","name":"Javier Barranco Cosano","total":1,"matches":[{"id":"MJwuBox1","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Tarragona (Spain), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Cordoba C.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "bv25",
+  "gs_id": "31357",
+  "player_name": "Javier Barranco Cosano",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:46:02.521Z",
+  "matches": [
+    {
+      "date": "20190714",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Napolitano",
+      "score": "7(7)-6(1) 3-6 6-2"
+    }
+  ]
+}
