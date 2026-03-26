@@ -1,1 +1,61 @@
-{"player_id":"mo76","sack_id":"124001","name":"Gergely Madarasz","total":0,"matches":[]}
+{
+  "player_id": "mo76",
+  "gs_id": "21210",
+  "player_name": "Gergely Madarasz",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:54:46.539Z",
+  "matches": [
+    {
+      "date": "20130906",
+      "tournament": "Trieste",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Donati",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20130905",
+      "tournament": "Trieste",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Razborsek",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20130904",
+      "tournament": "Trieste",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Baldi",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20130903",
+      "tournament": "Trieste",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Ghedin",
+      "score": "6-4 6-2"
+    }
+  ]
+}
