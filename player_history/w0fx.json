@@ -1,1 +1,35 @@
-{"matches":[{"id":"dKAF3Zbf","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Strombachs R.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"total":1,"updated":"2026-03-25"}
+{
+  "player_id": "w0fx",
+  "gs_id": "326266",
+  "player_name": "Jan Wygona",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T22:16:15.866Z",
+  "matches": [
+    {
+      "date": "20250926",
+      "tournament": "M25 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Mrva",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250924",
+      "tournament": "M25 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Heinrich",
+      "score": "7(7)-6(2) 2-6 6-2"
+    }
+  ]
+}
