@@ -1,1 +1,74 @@
-{"player_id":"l09d","sack_id":"200455","name":"Aliaksandr Liaonenka","total":0,"matches":[]}
+{
+  "player_id": "l09d",
+  "gs_id": "76867",
+  "player_name": "Aliaksandr Liaonenka",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:45:22.745Z",
+  "matches": [
+    {
+      "date": "20230827",
+      "tournament": "Zhangjiagang Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Bai",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20230824",
+      "tournament": "Zhuhai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Weber",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20230823",
+      "tournament": "Zhuhai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Sinclair",
+      "score": "7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20230822",
+      "tournament": "Zhuhai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Saville",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20230820",
+      "tournament": "Zhuhai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Ho",
+      "score": "4-6 2-6"
+    }
+  ]
+}
