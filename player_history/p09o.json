@@ -3,20 +3,59 @@
   "gs_id": "34391",
   "player_name": "Zsombor Piros",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:00:18.895Z",
+  "updated": "2026-03-26T23:48:54.901Z",
   "matches": [
     {
-      "date": "20240903",
-      "tournament": "Tulln Challenger Men",
+      "date": "20211002",
+      "tournament": "M25 Budapest",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Topo",
-      "score": "6-4 7(7)-6(5)"
+      "opponent": "P. Juszczak",
+      "score": "3-6 7-5 6-3"
+    },
+    {
+      "date": "20211001",
+      "tournament": "M25 Budapest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Duda",
+      "score": "6-2 3-6 6-3"
+    },
+    {
+      "date": "20210930",
+      "tournament": "M25 Budapest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Boros",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20210929",
+      "tournament": "M25 Budapest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Pecci",
+      "score": "6-1 6-3"
     }
   ]
 }
