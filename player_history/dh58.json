@@ -1,8 +1,9 @@
 {
   "player_id": "dh58",
+  "gs_id": "31548",
   "player_name": "Alex De Minaur",
-  "source": "goalserve",
-  "updated": "2026-03-26T03:33:22.401Z",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:47:51.651Z",
   "matches": [
     {
       "date": "20260321",
@@ -185,19 +186,6 @@
       "result": "W",
       "opponent": "M. McDonald",
       "score": "2-6 2-6 3-6"
-    },
-    {
-      "date": "20251115",
-      "tournament": "Finals - Turin",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Sinner",
-      "score": "5-7 2-6"
     },
     {
       "date": "20251031",
@@ -3203,45 +3191,6 @@
       "score": "6-4 2-6 3-6 6-0 6(4)-7(10)"
     },
     {
-      "date": "20220520",
-      "tournament": "Lyon",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Molcan",
-      "score": "7(7)-6(2) 6-2"
-    },
-    {
-      "date": "20220519",
-      "tournament": "Lyon",
-      "surface": "Hard",
-      "level": "B",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Watanuki",
-      "score": "4-6 ret."
-    },
-    {
-      "date": "20220517",
-      "tournament": "Lyon",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "U. Humbert",
-      "score": "6-1 3-6 2-6"
-    },
-    {
       "date": "20220512",
       "tournament": "Rome",
       "surface": "Hard",
@@ -4087,71 +4036,6 @@
       "score": "5-7 1-6 1-6"
     },
     {
-      "date": "20210113",
-      "tournament": "Antalya",
-      "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Bublik",
-      "score": "0-2 ret."
-    },
-    {
-      "date": "20210112",
-      "tournament": "Antalya",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Goffin",
-      "score": "6-4 3-6 6-2"
-    },
-    {
-      "date": "20210111",
-      "tournament": "Antalya",
-      "surface": "Hard",
-      "level": "B",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Basilashvili",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20210109",
-      "tournament": "Antalya",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Andreev",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20210108",
-      "tournament": "Antalya",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Jaziri",
-      "score": "2-6 1-6"
-    },
-    {
       "date": "20201112",
       "tournament": "ATP Sofia",
       "surface": "Hard",
@@ -4399,32 +4283,6 @@
       "score": "3-6 6-4 6-3"
     },
     {
-      "date": "20191109",
-      "tournament": "Next Gen Finals - Milan",
-      "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Sinner",
-      "score": "4-2 4-1 4-2"
-    },
-    {
-      "date": "20191108",
-      "tournament": "Next Gen Finals - Milan",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Tiafoe",
-      "score": "4-2 4-1 0-4 4-2"
-    },
-    {
       "date": "20191031",
       "tournament": "ATP Paris",
       "surface": "Hard",
@@ -4553,71 +4411,6 @@
       "result": "L",
       "opponent": "G. Harris",
       "score": "6-3 6(6)-7(8) 7(10)-6(8)"
-    },
-    {
-      "date": "20190929",
-      "tournament": "Zhuhai",
-      "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Mannarino",
-      "score": "6(4)-7(7) 4-6"
-    },
-    {
-      "date": "20190928",
-      "tournament": "Zhuhai",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Bautista-Agut",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20190927",
-      "tournament": "Zhuhai",
-      "surface": "Hard",
-      "level": "B",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Coric",
-      "score": "6-2 4-6 6-4"
-    },
-    {
-      "date": "20190926",
-      "tournament": "Zhuhai",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Murray",
-      "score": "4-6 6-2 6-4"
-    },
-    {
-      "date": "20190924",
-      "tournament": "Zhuhai",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Millman",
-      "score": "6-1 6-3"
     },
     {
       "date": "20190901",
@@ -5114,32 +4907,6 @@
       "score": "2-6 2-6"
     },
     {
-      "date": "20181110",
-      "tournament": "Next Gen Finals - Milan",
-      "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Tsitsipas",
-      "score": "4-2 1-4 3(3)-4(7) 3(3)-4(7)"
-    },
-    {
-      "date": "20181109",
-      "tournament": "Next Gen Finals - Milan",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Munar",
-      "score": "3(5)-4(7) 4-1 4-1 3(4)-4(7) 4-2"
-    },
-    {
       "date": "20181029",
       "tournament": "Paris",
       "surface": "Hard",
@@ -5530,71 +5297,6 @@
       "score": "6-1 6-3"
     },
     {
-      "date": "20180617",
-      "tournament": "Nottingham",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Evans",
-      "score": "6(4)-7(7) 5-7"
-    },
-    {
-      "date": "20180616",
-      "tournament": "Nottingham",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Ivashka",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20180615",
-      "tournament": "Nottingham",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Polansky",
-      "score": "3-6 6-3 2-6"
-    },
-    {
-      "date": "20180614",
-      "tournament": "Nottingham",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Eubanks",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20180612",
-      "tournament": "Nottingham",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Melzer",
-      "score": "4-6 1-6"
-    },
-    {
       "date": "20180610",
       "tournament": "Surbiton",
       "surface": "Hard",
@@ -5673,71 +5375,6 @@
       "score": "6-2 6-4 6-3"
     },
     {
-      "date": "20180515",
-      "tournament": "Lisbon",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Davidovich Fokina",
-      "score": "6(5)-7(7) 4-6"
-    },
-    {
-      "date": "20180512",
-      "tournament": "Braga",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Ruud",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20180511",
-      "tournament": "Braga",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Auger-Aliassime",
-      "score": "6-3 1-6 2-6"
-    },
-    {
-      "date": "20180509",
-      "tournament": "Braga",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Giustino",
-      "score": "5-7 7-5 2-6"
-    },
-    {
-      "date": "20180508",
-      "tournament": "Braga",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Cacao",
-      "score": "6-2 2-6 3-6"
-    },
-    {
       "date": "20180502",
       "tournament": "Estoril",
       "surface": "Hard",
@@ -5803,71 +5440,6 @@
       "score": "6(2)-7(7) 7-5 3-0 ret."
     },
     {
-      "date": "20180407",
-      "tournament": "Alicante",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Andujar-Alba",
-      "score": "7(7)-6(5) 6-1"
-    },
-    {
-      "date": "20180406",
-      "tournament": "Alicante",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Carballes Baena",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20180405",
-      "tournament": "Alicante",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Granollers",
-      "score": "6-4 7(7)-6(4)"
-    },
-    {
-      "date": "20180404",
-      "tournament": "Alicante",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Boluda-Purkiss",
-      "score": "6-2 2-6 6-3"
-    },
-    {
-      "date": "20180402",
-      "tournament": "Alicante",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. R. Ojeda",
-      "score": "6-3 6-3"
-    },
-    {
       "date": "20180322",
       "tournament": "Miami",
       "surface": "Hard",
@@ -5905,45 +5477,6 @@
       "result": "W",
       "opponent": "A. Geller",
       "score": "4-6 0-6"
-    },
-    {
-      "date": "20180316",
-      "tournament": "Irving",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Johnson",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20180315",
-      "tournament": "Irving",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Youzhny",
-      "score": "6-2 2-6 6-2"
-    },
-    {
-      "date": "20180314",
-      "tournament": "Irving",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Marterer",
-      "score": "4-6 3-6"
     },
     {
       "date": "20180312",
@@ -6193,19 +5726,6 @@
       "score": "4-6 2-6"
     },
     {
-      "date": "20171016",
-      "tournament": "Ismaning",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Sijsling",
-      "score": "6-4 6-1"
-    },
-    {
       "date": "20170830",
       "tournament": "US Open",
       "surface": "Hard",
@@ -6349,19 +5869,6 @@
       "score": "6-3 7(7)-6(0)"
     },
     {
-      "date": "20170613",
-      "tournament": "Nottingham",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Klein",
-      "score": "7(7)-6(5) 6-3"
-    },
-    {
       "date": "20170528",
       "tournament": "French Open",
       "surface": "Hard",
@@ -6373,19 +5880,6 @@
       "result": "L",
       "opponent": "R. Haase",
       "score": "2-6 3-6 1-6"
-    },
-    {
-      "date": "20170520",
-      "tournament": "Lyon",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Q. Halys",
-      "score": "6(5)-7(7) 6-2 7(10)-6(8)"
     },
     {
       "date": "20170429",
@@ -6425,19 +5919,6 @@
       "result": "W",
       "opponent": "L. Vanni",
       "score": "7(7)-6(4) 1-6 4-6"
-    },
-    {
-      "date": "20170322",
-      "tournament": "Guadalajara",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Rubin",
-      "score": "5-7 7(7)-6(4) 4-6"
     },
     {
       "date": "20170318",
