@@ -3,11 +3,11 @@
   "gs_id": "157886",
   "player_name": "Rafael Tosetto",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:11:42.634Z",
+  "updated": "2026-03-26T16:13:44.718Z",
   "matches": [
     {
-      "date": "20250330",
-      "tournament": "Campinas",
+      "date": "20251116",
+      "tournament": "Florianopolis",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,38 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Jones",
-      "score": "3-6 6(5)-7(7)"
+      "opponent": "J. Ingildsen",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20240506",
-      "tournament": "Santos Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Roncadelli",
-      "score": "6-1 2-6 0-6"
-    },
-    {
-      "date": "20240505",
-      "tournament": "Santos Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. P. Prudencio",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20231022",
-      "tournament": "Curitiba Challenger Men",
+      "date": "20240428",
+      "tournament": "Porto Alegre Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Roncadelli",
-      "score": "4-6 7(8)-6(6) 6-0"
+      "opponent": "J. C. Prado Angelo",
+      "score": "2-6 6-2 3-6"
     },
     {
-      "date": "20231001",
-      "tournament": "Campinas Challenger Men",
+      "date": "20240324",
+      "tournament": "Sao Leopoldo",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Mena",
-      "score": "1-6 6-4 4-6"
+      "opponent": "G. Villanueva",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20221009",
+      "tournament": "Rio de Janeiro",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Navone",
+      "score": "2-6 6-2 2-6"
     }
   ]
 }
