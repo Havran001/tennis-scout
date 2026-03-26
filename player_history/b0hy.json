@@ -1,1 +1,48 @@
-{"player_id":"b0hy","sack_id":"208653","name":"Isaac Becroft","total":0,"matches":[]}
+{
+  "player_id": "b0hy",
+  "gs_id": "89648",
+  "player_name": "Isaac Becroft",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:46.514Z",
+  "matches": [
+    {
+      "date": "20260109",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Gaston",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250106",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Bergs",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20240105",
+      "tournament": "ATP Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Tabilo",
+      "score": "6-0 6-1"
+    }
+  ]
+}
