@@ -1,1 +1,61 @@
-{"player_id":"kj00","sack_id":"200270","name":"Alex Knaff","total":0,"matches":[]}
+{
+  "player_id": "kj00",
+  "gs_id": "31492",
+  "player_name": "Alex Knaff",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:07.548Z",
+  "matches": [
+    {
+      "date": "20180808",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Furness",
+      "score": "6-0 5-7 6-3"
+    },
+    {
+      "date": "20180807",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Neubau",
+      "score": "4-6 7-5 3-6"
+    },
+    {
+      "date": "20170712",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Choinski",
+      "score": "7(7)-6(1) 6-2"
+    },
+    {
+      "date": "20170711",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Walch",
+      "score": "3-6 3-6"
+    }
+  ]
+}
