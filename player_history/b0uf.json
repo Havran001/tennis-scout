@@ -1,1 +1,35 @@
-{"player_id":"b0uf","sack_id":"212601","name":"Luka Bojicic Ono","total":0,"matches":[]}
+{
+  "player_id": "b0uf",
+  "gs_id": "227802",
+  "player_name": "Luka Bojicic Ono",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:20.627Z",
+  "matches": [
+    {
+      "date": "20241013",
+      "tournament": "Campinas Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Soto",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20231001",
+      "tournament": "Campinas Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alves",
+      "score": "2-6 1-6"
+    }
+  ]
+}
