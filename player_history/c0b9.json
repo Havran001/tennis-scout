@@ -3,20 +3,33 @@
   "gs_id": "40991",
   "player_name": "Kuzey Cekirge",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:04:45.599Z",
+  "updated": "2026-03-26T12:28:24.606Z",
   "matches": [
     {
-      "date": "20180319",
-      "tournament": "Reus",
+      "date": "20220519",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Winter Lopez",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20220518",
+      "tournament": "M25 Vic",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Samper-Montana",
-      "score": "3-6 1-6"
+      "result": "W",
+      "opponent": "O. J. Gutierrez",
+      "score": "3-6 7-5 6-3"
     }
   ]
 }
