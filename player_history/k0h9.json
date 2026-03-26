@@ -1,1 +1,61 @@
-{"player_id":"k0h9","sack_id":"208558","name":"Rafael Kis Balazs","total":0,"matches":[]}
+{
+  "player_id": "k0h9",
+  "gs_id": "129361",
+  "player_name": "Rafael Kis Balazs",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T23:55:55.910Z",
+  "matches": [
+    {
+      "date": "20250716",
+      "tournament": "M15 Poprad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Petak",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20240725",
+      "tournament": "ITF M15 Poprad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Palosi",
+      "score": "7(7)-6(4) 6-0"
+    },
+    {
+      "date": "20240724",
+      "tournament": "ITF M15 Poprad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Katuch",
+      "score": "6-1 1-6 4-6"
+    },
+    {
+      "date": "20210928",
+      "tournament": "M25 Budapest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Marozsan",
+      "score": "6-3 6-2"
+    }
+  ]
+}
