@@ -1,1 +1,22 @@
-{"player_id":"hf80","sack_id":"200273","name":"Hady Habib","total":0,"matches":[]}
+{
+  "player_id": "hf80",
+  "gs_id": "31389",
+  "player_name": "Hady Habib",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:46:04.570Z",
+  "matches": [
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Zeppieri",
+      "score": "6-4 6(7)-7(9) 5-7"
+    }
+  ]
+}
