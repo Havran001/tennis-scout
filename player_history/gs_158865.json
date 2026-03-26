@@ -3,11 +3,11 @@
   "gs_id": "158865",
   "player_name": "Alexandru Coman Mihai",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:00:00.788Z",
+  "updated": "2026-03-26T22:14:17.869Z",
   "matches": [
     {
-      "date": "20250205",
-      "tournament": "M15 Monastir 5",
+      "date": "20250430",
+      "tournament": "M15 Monastir 17",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Sanchez Quilez",
-      "score": "1-4 ret."
+      "opponent": "I. Marcondes",
+      "score": "0-6 4-6"
     },
     {
-      "date": "20250122",
-      "tournament": "M15 Monastir 3",
+      "date": "20240807",
+      "tournament": "ITF M15 Curtea de Arges Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Sakellaridis",
-      "score": "7(9)-6(7) 6-2"
+      "opponent": "D. N. Cazacu",
+      "score": "2-6 7(7)-6(0) 6-4"
+    },
+    {
+      "date": "20240707",
+      "tournament": "Iasi Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. L. Lingua Lavallen",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20240508",
+      "tournament": "ITF M15 Bucharest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bax",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M15 Heraklion 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bakshi",
+      "score": "4-6 6-1 6-3"
     },
     {
       "date": "20240313",
@@ -43,6 +82,32 @@
       "result": "L",
       "opponent": "J. Bradshaw",
       "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20230809",
+      "tournament": "ITF M15 Curtea de Arges Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. C. Breazu",
+      "score": "6-3 3-6 6-3"
+    },
+    {
+      "date": "20220810",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. N. Cazacu",
+      "score": "6-4 6-3"
     }
   ]
 }
