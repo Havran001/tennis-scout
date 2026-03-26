@@ -1,1 +1,126 @@
-{"player_id":"s0tx","sack_id":"211902","name":"Henry Searle","total":0,"matches":[]}
+{
+  "player_id": "s0tx",
+  "gs_id": "156104",
+  "player_name": "Henry Searle",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:46:03.582Z",
+  "matches": [
+    {
+      "date": "20250630",
+      "tournament": "Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Quinn",
+      "score": "6-4 2-6 6(11)-7(13) 2-6"
+    },
+    {
+      "date": "20250621",
+      "tournament": "Eastbourne",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Duckworth",
+      "score": "6-3 5-7 7-5"
+    },
+    {
+      "date": "20250615",
+      "tournament": "London",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. McDonald",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250614",
+      "tournament": "London",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Bu",
+      "score": "6(0)-7(7) 6(6)-7(8)"
+    },
+    {
+      "date": "20240702",
+      "tournament": "ATP Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Giron",
+      "score": "3-6 6-3 6-4 6-4"
+    },
+    {
+      "date": "20240625",
+      "tournament": "ATP Eastbourne",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Sonego",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240623",
+      "tournament": "ATP Eastbourne",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Purcell",
+      "score": "7(8)-6(6) 6-4"
+    },
+    {
+      "date": "20240622",
+      "tournament": "ATP Eastbourne",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Kovacevic",
+      "score": "7(7)-6(4) 6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20240615",
+      "tournament": "ATP London",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Hijikata",
+      "score": "6-4 6-3"
+    }
+  ]
+}
