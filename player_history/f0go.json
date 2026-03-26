@@ -1,12 +1,51 @@
 {
   "player_id": "f0go",
-  "gs_id": "28723",
-  "player_name": "Pablo Ficovich Juan",
+  "gs_id": "41604",
+  "player_name": "Manuel Cerundolo Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:04:30.859Z",
+  "updated": "2026-03-26T22:05:28.859Z",
   "matches": [
     {
-      "date": "20240514",
+      "date": "20250416",
+      "tournament": "Oeiras 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Royer",
+      "score": "6-0 6(5)-7(7) 2-6"
+    },
+    {
+      "date": "20250415",
+      "tournament": "Oeiras 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Houkes",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250413",
+      "tournament": "Oeiras 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Graca",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240513",
       "tournament": "Oeiras 4",
       "surface": "Hard",
       "level": "C",
@@ -15,38 +54,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Kopriva",
-      "score": "2-6 5-7"
+      "opponent": "D. Svrcina",
+      "score": "4-6 7(7)-6(2) 2-0 ret."
     },
     {
-      "date": "20240513",
-      "tournament": "Oeiras 4",
+      "date": "20240415",
+      "tournament": "Oeiras 3 Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Furness",
-      "score": "6(3)-7(7) 6-3 6-4"
+      "result": "L",
+      "opponent": "D. Novak",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20240512",
-      "tournament": "Oeiras 4",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Rocha",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20240428",
-      "tournament": "Concepcion Challenger Men",
+      "date": "20230423",
+      "tournament": "Oeiras 3 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -54,25 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Bueno",
-      "score": "4-6 0-6"
+      "opponent": "Z. Piros",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240427",
-      "tournament": "Concepcion Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Sakellaridis",
-      "score": "2-6 5-7"
-    },
-    {
-      "date": "20240426",
-      "tournament": "Concepcion Challenger Men",
+      "date": "20230422",
+      "tournament": "Oeiras 3 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -80,11 +93,63 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. C. Prado Angelo",
-      "score": "1-6 6-3 6(5)-7(7)"
+      "opponent": "K. Uchida",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240424",
+      "date": "20230422",
+      "tournament": "Oeiras 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Sousa",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230419",
+      "tournament": "Oeiras 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Llamas Ruiz",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230418",
+      "tournament": "Oeiras 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Vale",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20230127",
+      "tournament": "Concepcion Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Dellien",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230126",
       "tournament": "Concepcion Challenger Men",
       "surface": "Hard",
       "level": "C",
@@ -93,11 +158,11 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. B. Torres",
-      "score": "1-6 4-6"
+      "opponent": "H. Casanova",
+      "score": "7-5 6-3"
     },
     {
-      "date": "20240422",
+      "date": "20230125",
       "tournament": "Concepcion Challenger Men",
       "surface": "Hard",
       "level": "C",
@@ -106,11 +171,24 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. I. Justo",
-      "score": "0-6 7(7)-6(5) 3-6"
+      "opponent": "T. Barrios Vera",
+      "score": "1-6 7(7)-6(5) 6-1"
     },
     {
-      "date": "20230124",
+      "date": "20210504",
+      "tournament": "Biella 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. McDonald",
+      "score": "6-3 4-6 3-6"
+    },
+    {
+      "date": "20210216",
       "tournament": "Concepcion Challenger Men",
       "surface": "Hard",
       "level": "C",
@@ -119,8 +197,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Kicker",
-      "score": "6-2 6-2"
+      "opponent": "D. Altmaier",
+      "score": "6-4 2-6 1-6"
     }
   ]
 }
