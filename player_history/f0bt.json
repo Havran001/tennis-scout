@@ -1,1 +1,48 @@
-{"player_id":"f0bt","sack_id":"207797","name":"Jonas Forejtek","total":0,"matches":[]}
+{
+  "player_id": "f0bt",
+  "gs_id": "41609",
+  "player_name": "Jonas Forejtek",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:00.658Z",
+  "matches": [
+    {
+      "date": "20230211",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Borges",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20220823",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Bonadio",
+      "score": "6-4 4-6 6-3"
+    },
+    {
+      "date": "20210710",
+      "tournament": "ATP Hamburg",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. P. Varillas",
+      "score": "5-7 2-6"
+    }
+  ]
+}
