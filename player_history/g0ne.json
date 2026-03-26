@@ -1,1 +1,126 @@
-{"player_id":"g0ne","sack_id":"213680","name":"Javier Guzman","total":0,"matches":[]}
+{
+  "player_id": "g0ne",
+  "gs_id": "42332",
+  "player_name": "Javier Guzman",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:12.536Z",
+  "matches": [
+    {
+      "date": "20070827",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Bjorkman",
+      "score": "6-3 7-6 6-2"
+    },
+    {
+      "date": "20070725",
+      "tournament": "Kitzbuhel",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Luczak",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20070725",
+      "tournament": "Kitzbuhel",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Robredo",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20060728",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Moya",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20060727",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Berlocq",
+      "score": "6-3 3-6 2-6"
+    },
+    {
+      "date": "20060725",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Falla",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20050208",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Puerta",
+      "score": "6-2 7-6"
+    },
+    {
+      "date": "20050202",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "X. Malisse",
+      "score": "4-6 6-3 1-6"
+    },
+    {
+      "date": "20050201",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Karanusic",
+      "score": "2-6 6-3 3-6"
+    }
+  ]
+}
