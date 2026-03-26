@@ -3,11 +3,37 @@
   "gs_id": "21027",
   "player_name": "Gage Brymer",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:33:55.663Z",
+  "updated": "2026-03-26T17:46:22.744Z",
   "matches": [
     {
-      "date": "20220404",
-      "tournament": "Salinas",
+      "date": "20230129",
+      "tournament": "Cleveland Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. A. Kodat",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20220808",
+      "tournament": "Chicago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Sandgren",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20210531",
+      "tournament": "Little Rock Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Corwin",
-      "score": "6-4 6-4"
+      "opponent": "D. Kelly",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20220403",
-      "tournament": "Salinas",
+      "date": "20210530",
+      "tournament": "Little Rock Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,21 +54,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Alvarado",
-      "score": "6-2 6-1"
+      "opponent": "S. Bangoura",
+      "score": "6-4 1-6 5-7"
     },
     {
-      "date": "20210418",
-      "tournament": "Salinas Challenger Men",
+      "date": "20200303",
+      "tournament": "Indian Wells",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R64",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Takahashi",
-      "score": "6-4 6-4"
+      "opponent": "R. Marcora",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20200226",
+      "tournament": "Calgary",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Broady",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20200225",
+      "tournament": "Calgary",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Diallo",
+      "score": "6-2 7(7)-6(2)"
+    },
+    {
+      "date": "20191112",
+      "tournament": "Houston",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Altamirano",
+      "score": "6-2 7(7)-6(5)"
+    },
+    {
+      "date": "20190215",
+      "tournament": "Tucson 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Strode",
+      "score": "6-4 3-6 3-6"
+    },
+    {
+      "date": "20190213",
+      "tournament": "Tucson 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Krainik",
+      "score": "7-5 6-2"
     }
   ]
 }
