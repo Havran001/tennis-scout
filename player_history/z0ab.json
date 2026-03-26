@@ -1,1 +1,48 @@
-{"player_id":"z0ab","sack_id":"207609","name":"Alexey Zakharov","total":0,"matches":[]}
+{
+  "player_id": "z0ab",
+  "gs_id": "37619",
+  "player_name": "Alexey Zakharov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:38.514Z",
+  "matches": [
+    {
+      "date": "20240817",
+      "tournament": "ATP Winston-Salem",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Suresh",
+      "score": "6(5)-7(7) 2-6"
+    },
+    {
+      "date": "20240811",
+      "tournament": "ATP Cincinnati",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Svajda",
+      "score": "6-2 4-6 3-6"
+    },
+    {
+      "date": "20230819",
+      "tournament": "ATP Winston-Salem",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krueger",
+      "score": "4-6 2-6"
+    }
+  ]
+}
