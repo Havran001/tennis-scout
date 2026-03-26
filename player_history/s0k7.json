@@ -3,46 +3,72 @@
   "gs_id": "182600",
   "player_name": "Trevor Svajda",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:07:28.567Z",
+  "updated": "2026-03-26T13:12:08.627Z",
   "matches": [
     {
-      "date": "20260304",
-      "tournament": "Indian Wells",
+      "date": "20250929",
+      "tournament": "Tiburon",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Perez",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250728",
+      "tournament": "Lexington",
+      "surface": "Hard",
+      "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. McDonald",
-      "score": "6-4 6-2"
+      "opponent": "A. Rybakov",
+      "score": "6-4 4-6 1-6"
     },
     {
-      "date": "20260303",
-      "tournament": "Indian Wells",
+      "date": "20250727",
+      "tournament": "Lexington",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Nardi",
-      "score": "6-4 6(2)-7(7) 3-6"
+      "opponent": "T. Huang",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20250303",
-      "tournament": "Indian Wells",
+      "date": "20231002",
+      "tournament": "Tiburon Challenger Men",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Majchrzak",
-      "score": "6-3 6-1"
+      "opponent": "C. Kingsley",
+      "score": "3-6 6-4 1-6"
+    },
+    {
+      "date": "20231001",
+      "tournament": "Tiburon Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. K. Trotter",
+      "score": "6-4 6-1"
     }
   ]
 }
