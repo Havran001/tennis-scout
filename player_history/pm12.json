@@ -1,1 +1,48 @@
-{"player_id":"pm12","sack_id":"144937","name":"Nicolas Parizzia","total":2,"matches":[{"id":"QNEjrUy1","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"De Jonge D.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"MuXnvIzi","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Eriksson Ziverts J./Waterbolk I.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "pm12",
+  "gs_id": "28652",
+  "player_name": "Nicolas Parizzia",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:54:58.538Z",
+  "matches": [
+    {
+      "date": "20190821",
+      "tournament": "Ueberlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. I. Galarza",
+      "score": "6-2 2-6 6(4)-7(7)"
+    },
+    {
+      "date": "20180816",
+      "tournament": "Karlsruher",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Heger",
+      "score": "6(3)-7(7) 6-4 4-6"
+    },
+    {
+      "date": "20180815",
+      "tournament": "Karlsruher",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Brechemier",
+      "score": "6-3 6-1"
+    }
+  ]
+}
