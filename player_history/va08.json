@@ -1,1 +1,74 @@
-{"player_id":"va08","sack_id":"131934","name":"Andrea Vavassori","total":0,"matches":[]}
+{
+  "player_id": "va08",
+  "gs_id": "26279",
+  "player_name": "Andrea Vavassori",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:45:15.500Z",
+  "matches": [
+    {
+      "date": "20240820",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Hemery",
+      "score": "6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20230825",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Nava",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20230823",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Dzumhur",
+      "score": "6(3)-7(7) 4-6"
+    },
+    {
+      "date": "20230722",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Kolar",
+      "score": "6-2 4-6 7(8)-6(6)"
+    },
+    {
+      "date": "20220824",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Lestienne",
+      "score": "3-6 1-6"
+    }
+  ]
+}
