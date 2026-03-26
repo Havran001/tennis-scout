@@ -3,11 +3,11 @@
   "gs_id": "38163",
   "player_name": "Govind Nanda",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:55:44.561Z",
+  "updated": "2026-03-26T11:06:35.578Z",
   "matches": [
     {
-      "date": "20250727",
-      "tournament": "Toronto",
+      "date": "20211006",
+      "tournament": "ATP Indian Wells",
       "surface": "Hard",
       "level": "B",
       "round": "F",
@@ -15,90 +15,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Schoolkate",
-      "score": "3-6 0-6"
+      "opponent": "C. Ilkel",
+      "score": "6-1 2-6 6-4"
     },
     {
-      "date": "20250720",
-      "tournament": "Washington",
+      "date": "20211005",
+      "tournament": "ATP Indian Wells",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Bouzige",
-      "score": "5-7 4-6"
+      "result": "W",
+      "opponent": "M. Krueger",
+      "score": "6-0 6(10)-7(12) 5-7"
     },
     {
-      "date": "20220825",
-      "tournament": "US Open",
+      "date": "20190930",
+      "tournament": "Harlingen",
       "surface": "Hard",
-      "level": "G",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Andreev",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20190928",
+      "tournament": "Harlingen",
+      "surface": "Hard",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Borges",
-      "score": "4-6 4-6"
+      "result": "W",
+      "opponent": "T. Stodder",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20220824",
-      "tournament": "US Open",
+      "date": "20190927",
+      "tournament": "Harlingen",
       "surface": "Hard",
-      "level": "G",
+      "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Arnaboldi",
-      "score": "4-6 7-5 6-3"
+      "opponent": "J. Gray",
+      "score": "6-3 4-6 6-2"
     },
     {
-      "date": "20210825",
-      "tournament": "ATP US Open",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Baez",
-      "score": "6-3 7-5"
-    },
-    {
-      "date": "20190819",
-      "tournament": "US Open",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Otte",
-      "score": "7(7)-6(4) 6-1"
-    },
-    {
-      "date": "20180802",
-      "tournament": "Decatur",
+      "date": "20190926",
+      "tournament": "Harlingen",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Hiltzik",
-      "score": "4-6 3-6"
+      "result": "W",
+      "opponent": "R. Rodriguez",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20180801",
-      "tournament": "Decatur",
+      "date": "20190925",
+      "tournament": "Harlingen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Hovhannisyan",
-      "score": "6-2 6-2"
+      "opponent": "C. Farren",
+      "score": "2-6 6-1 4-6"
     },
     {
-      "date": "20170628",
-      "tournament": "Pittsburgh",
+      "date": "20171115",
+      "tournament": "Pensacola",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. S. Kwiatkowski",
-      "score": "7(7)-6(5) 4-6 6-1"
+      "opponent": "G. Oradini",
+      "score": "6-4 6-1"
     }
   ]
 }
