@@ -1,1 +1,100 @@
-{"player_id":"e0au","sack_id":"208126","name":"John Echeverria","total":1,"matches":[{"id":"z1lIBOWI","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Monastir 11 (Tunisia), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Verwerft L. G.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "e0au",
+  "gs_id": "57191",
+  "player_name": "John Echeverria",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:14.556Z",
+  "matches": [
+    {
+      "date": "20191016",
+      "tournament": "Getafe (Madrid)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Boluda-Purkiss",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20190710",
+      "tournament": "Getxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Martin Tiffon",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20190628",
+      "tournament": "Palma Del Rio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Roelofse",
+      "score": "7(9)-6(7) 4-6 6-3"
+    },
+    {
+      "date": "20190627",
+      "tournament": "Palma Del Rio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Lescure",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20190626",
+      "tournament": "Palma Del Rio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Bothwell",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20180614",
+      "tournament": "Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Geens",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20180613",
+      "tournament": "Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Diaz Argente",
+      "score": "6-3 6-4"
+    }
+  ]
+}
