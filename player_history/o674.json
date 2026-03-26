@@ -3,11 +3,37 @@
   "gs_id": "34398",
   "player_name": "Yshai Oliel",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:34:34.666Z",
+  "updated": "2026-03-26T17:47:41.744Z",
   "matches": [
     {
-      "date": "20240213",
-      "tournament": "Glasgow Challenger Men",
+      "date": "20240901",
+      "tournament": "Cassis Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Reymond",
+      "score": "6-3 3-6 6-3"
+    },
+    {
+      "date": "20240602",
+      "tournament": "Zagreb Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Zakharov",
+      "score": "6(7)-7(9) 6(3)-7(7)"
+    },
+    {
+      "date": "20240116",
+      "tournament": "Indian Wells",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Diez",
-      "score": "6-4 5-7 7(7)-6(5)"
+      "opponent": "M. Trungelliti",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20220503",
-      "tournament": "Prague",
+      "date": "20220517",
+      "tournament": "Shymkent 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,25 +54,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Fabbiano",
-      "score": "2-6 6-3 6-2"
+      "opponent": "E. Nava",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20220502",
-      "tournament": "Prague",
+      "date": "20220509",
+      "tournament": "Shymkent",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "U. Blanch",
+      "score": "5-7 6(5)-7(7)"
+    },
+    {
+      "date": "20220403",
+      "tournament": "Murcia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Damas",
+      "score": "7-5 6(6)-7(8) 7-5"
+    },
+    {
+      "date": "20220221",
+      "tournament": "Pau",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Moeller",
-      "score": ""
+      "result": "L",
+      "opponent": "A. Escoffier",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20220501",
-      "tournament": "Prague",
+      "date": "20220220",
+      "tournament": "Pau",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. De Schepper",
-      "score": "3-6 7-5 5-7"
+      "opponent": "V. Durasovic",
+      "score": "6(3)-7(7) 7(7)-6(1) 6-3"
     },
     {
-      "date": "20220412",
-      "tournament": "Madrid",
+      "date": "20211005",
+      "tournament": "Barcelona Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Ofner",
-      "score": "4-6 4-6"
+      "opponent": "N. Milojevic",
+      "score": "5-7 6-0 4-6"
     },
     {
-      "date": "20220411",
-      "tournament": "Madrid",
+      "date": "20211004",
+      "tournament": "Barcelona Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -80,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Barranco Cosano",
-      "score": "3-6 2-6"
+      "opponent": "O. Krutykh",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20220410",
-      "tournament": "Madrid",
+      "date": "20211003",
+      "tournament": "Barcelona Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -93,60 +145,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Yevseyev",
-      "score": "4-6 3-6"
+      "opponent": "V. Manafov",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20220330",
-      "tournament": "Pereira",
+      "date": "20190521",
+      "tournament": "Jerusalem",
       "surface": "Hard",
       "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Ocleppo",
+      "score": "7(7)-6(4) 6-2"
+    },
+    {
+      "date": "20181025",
+      "tournament": "Waco 2",
+      "surface": "Hard",
+      "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. A. Tirante",
-      "score": "6-4 3-6 7-5"
+      "opponent": "J. Findel-Hawkins",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20220329",
-      "tournament": "Pereira",
+      "date": "20181023",
+      "tournament": "Waco 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Hernandez",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20170403",
+      "tournament": "Sophia Antipolis",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Pucinelli de Almeida",
-      "score": "6-3 3-6 4-6"
-    },
-    {
-      "date": "20220328",
-      "tournament": "Pereira",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Boscardin Dias",
-      "score": "7-5 7(7)-6(4)"
-    },
-    {
-      "date": "20220328",
-      "tournament": "Pereira",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Nakagawa",
-      "score": "7-5 6-3"
+      "result": "L",
+      "opponent": "U. Ignatik",
+      "score": "4-6 4-6"
     }
   ]
 }
