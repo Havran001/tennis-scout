@@ -1,1 +1,35 @@
-{"player_id":"a0li","sack_id":"212493","name":"Ramiro Amarilla","total":0,"matches":[]}
+{
+  "player_id": "a0li",
+  "gs_id": "229029",
+  "player_name": "Ramiro Amarilla",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T22:12:39.864Z",
+  "matches": [
+    {
+      "date": "20240222",
+      "tournament": "ITF M15 Villa Maria Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Guillen Meza",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20240220",
+      "tournament": "ITF M15 Villa Maria Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Farjat",
+      "score": "6-3 7(8)-6(6)"
+    }
+  ]
+}
