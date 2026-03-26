@@ -1,9 +1,62 @@
 {
   "player_id": "b0pg",
+  "gs_id": "177317",
   "player_name": "Alexander Blockx",
   "source": "goalserve-full",
-  "updated": "2026-03-26T07:12:34.460Z",
+  "updated": "2026-03-26T09:19:12.558Z",
   "matches": [
+    {
+      "date": "20260118",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Faria",
+      "score": "6-3 3-6 6-3 6-4"
+    },
+    {
+      "date": "20260115",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kubler",
+      "score": "3-6 6-3 1-0 ret."
+    },
+    {
+      "date": "20260114",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Molcan",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cecchinato",
+      "score": "6-3 6-4"
+    },
     {
       "date": "20250821",
       "tournament": "US Open",
@@ -81,6 +134,32 @@
       "result": "W",
       "opponent": "A. Kachmazov",
       "score": "2-4 ret."
+    },
+    {
+      "date": "20250107",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Spizzirri",
+      "score": "3-6 6-1 7-5"
+    },
+    {
+      "date": "20240109",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Svajda",
+      "score": "4-6 6-3 6-4"
     }
   ]
 }
