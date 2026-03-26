@@ -1,1 +1,61 @@
-{"player_id":"g0dd","sack_id":"207776","name":"William Grant","total":1,"matches":[{"id":"A1ZRw7Ed","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Hohmann R.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g0dd",
+  "gs_id": "40490",
+  "player_name": "William Grant",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:31:45.589Z",
+  "matches": [
+    {
+      "date": "20191001",
+      "tournament": "Sabadell",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Pena Lopez",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20171117",
+      "tournament": "Pensacola",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Cid Subervi",
+      "score": "2-6 6-2 6-1"
+    },
+    {
+      "date": "20171116",
+      "tournament": "Pensacola",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Bangoura",
+      "score": "5-7 1-2 ret."
+    },
+    {
+      "date": "20171114",
+      "tournament": "Pensacola",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Johns",
+      "score": "4-6 3-6"
+    }
+  ]
+}
