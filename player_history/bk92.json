@@ -2,7 +2,7 @@
   "player_id": "bk92",
   "player_name": "Alexander Bublik",
   "source": "goalserve",
-  "updated": "2026-03-26T00:19:43.351Z",
+  "updated": "2026-03-26T03:33:34.403Z",
   "matches": [
     {
       "date": "20260320",
@@ -5309,6 +5309,71 @@
       "score": "6-1 4-6 5-7"
     },
     {
+      "date": "20181111",
+      "tournament": "Bratislava",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Rosol",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20181110",
+      "tournament": "Bratislava",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bachinger",
+      "score": "7-5 7(7)-6(4)"
+    },
+    {
+      "date": "20181109",
+      "tournament": "Bratislava",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Stakhovsky",
+      "score": "3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20181108",
+      "tournament": "Bratislava",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Sonego",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20181107",
+      "tournament": "Bratislava",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Martin",
+      "score": "6-2 3-6 5-7"
+    },
+    {
       "date": "20181101",
       "tournament": "Eckental",
       "surface": "Hard",
@@ -5400,6 +5465,19 @@
       "score": "3-6 6-3 6-4"
     },
     {
+      "date": "20181002",
+      "tournament": "Almaty 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Majchrzak",
+      "score": "6-3 6-3"
+    },
+    {
       "date": "20180922",
       "tournament": "Shenzhen",
       "surface": "Hard",
@@ -5411,6 +5489,19 @@
       "result": "L",
       "opponent": "Y. Nishioka",
       "score": "3-6 4-6"
+    },
+    {
+      "date": "20180918",
+      "tournament": "Kaohsiung",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Gulbis",
+      "score": "3-1 ret."
     },
     {
       "date": "20180914",
@@ -5450,6 +5541,58 @@
       "result": "W",
       "opponent": "Z. Zhang",
       "score": "6-3 5-7 6-4"
+    },
+    {
+      "date": "20180908",
+      "tournament": "Zhangjiagang",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Jung",
+      "score": "6(3)-7(7) 7(7)-6(5) 0-6"
+    },
+    {
+      "date": "20180907",
+      "tournament": "Zhangjiagang",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Chung",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20180906",
+      "tournament": "Zhangjiagang",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Kelly",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20180905",
+      "tournament": "Zhangjiagang",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Takahashi",
+      "score": "3-6 4-6"
     },
     {
       "date": "20180818",
@@ -5504,6 +5647,19 @@
       "score": "6-4 6(6)-7(8) 6(2)-7(7)"
     },
     {
+      "date": "20180806",
+      "tournament": "Jinan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Li",
+      "score": "4-6 6-3 7(7)-6(4)"
+    },
+    {
       "date": "20180801",
       "tournament": "Chengdu",
       "surface": "Hard",
@@ -5528,6 +5684,19 @@
       "result": "W",
       "opponent": "M. Ochi",
       "score": "2-6 5-7"
+    },
+    {
+      "date": "20180717",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Al. Popyrin",
+      "score": "7-5 3-6 4-6"
     },
     {
       "date": "20180703",
@@ -5673,6 +5842,32 @@
       "score": "7-5 6-1"
     },
     {
+      "date": "20180425",
+      "tournament": "Budapest",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J-L. Struff",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20180424",
+      "tournament": "Budapest",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Istomin",
+      "score": "6(6)-7(8) 7(7)-6(5) 7-5"
+    },
+    {
       "date": "20180307",
       "tournament": "Indian Wells",
       "surface": "Hard",
@@ -5777,6 +5972,45 @@
       "score": "1-6 4-6"
     },
     {
+      "date": "20180212",
+      "tournament": "New York",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Fratangelo",
+      "score": "4-6 6-3 6(2)-7(7)"
+    },
+    {
+      "date": "20180211",
+      "tournament": "New York",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Ofner",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20180207",
+      "tournament": "San Francisco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Novikov",
+      "score": "7(12)-6(10) 3-6 6-2"
+    },
+    {
       "date": "20180129",
       "tournament": "Dallas",
       "surface": "Hard",
@@ -5788,6 +6022,32 @@
       "result": "L",
       "opponent": "J. Jung",
       "score": "4-6 4-6"
+    },
+    {
+      "date": "20180124",
+      "tournament": "Newport Beach",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Rubin",
+      "score": "7(8)-6(6) 4-6 6(8)-7(10)"
+    },
+    {
+      "date": "20180123",
+      "tournament": "Newport Beach",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Polansky",
+      "score": "6-3 3-6 0-6"
     },
     {
       "date": "20180111",
@@ -6232,6 +6492,58 @@
       "score": "5-7 6-4 5-7"
     },
     {
+      "date": "20170722",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kukushkin",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20170721",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Soonwoo",
+      "score": "6(1)-7(7) 2-6"
+    },
+    {
+      "date": "20170720",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Sekiguchi",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20170718",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Doumbia",
+      "score": "2-6 2-6"
+    },
+    {
       "date": "20170703",
       "tournament": "Wimbledon",
       "surface": "Hard",
@@ -6375,6 +6687,32 @@
       "score": "7(8)-6(6) 3-6 1-6"
     },
     {
+      "date": "20170518",
+      "tournament": "Heilbronn",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Martin",
+      "score": "4-6 6-3 6-3"
+    },
+    {
+      "date": "20170516",
+      "tournament": "Heilbronn",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Kovalik",
+      "score": "6(0)-7(7) 4-6"
+    },
+    {
       "date": "20170510",
       "tournament": "Rome",
       "surface": "Hard",
@@ -6412,6 +6750,32 @@
       "result": "L",
       "opponent": "Y. Mertens",
       "score": "6-1 6-3"
+    },
+    {
+      "date": "20170426",
+      "tournament": "Francavilla",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Safranek",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20170424",
+      "tournament": "Francavilla",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Jahn",
+      "score": "6(5)-7(7) 3-6"
     },
     {
       "date": "20170409",
@@ -6477,6 +6841,71 @@
       "result": "W",
       "opponent": "E. Gulbis",
       "score": "4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20170225",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Jarry",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20170224",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Struvay",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20170223",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gomez",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20170222",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Hernandez-Fernandez",
+      "score": "6-4 4-6 2-6"
+    },
+    {
+      "date": "20170220",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. P. Paz",
+      "score": "4-6 7(7)-6(5) 1-6"
     },
     {
       "date": "20170201",
@@ -6568,6 +6997,58 @@
       "result": "W",
       "opponent": "A. De Greef",
       "score": "5-7 6-3 8-6"
+    },
+    {
+      "date": "20170103",
+      "tournament": "Happy Valley",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Coppejans",
+      "score": "3-6 6-2 6-3"
+    },
+    {
+      "date": "20161124",
+      "tournament": "Astana 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Ismailov",
+      "score": "7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20161123",
+      "tournament": "Astana 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Masur",
+      "score": "3-6 7(7)-6(3) 6-2"
+    },
+    {
+      "date": "20161122",
+      "tournament": "Astana 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Betov",
+      "score": "6-4 6-4"
     },
     {
       "date": "20161108",
@@ -6700,6 +7181,45 @@
       "score": "4-6 0-6"
     },
     {
+      "date": "20160729",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Ivashka",
+      "score": "6-4 4-6 7-5"
+    },
+    {
+      "date": "20160728",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Gabashvili",
+      "score": "6-4 5-7 4-6"
+    },
+    {
+      "date": "20160726",
+      "tournament": "Nur-Sultan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Barrientos",
+      "score": "6(3)-7(7) 4-6"
+    },
+    {
       "date": "20160721",
       "tournament": "Recanati",
       "surface": "Hard",
@@ -6789,6 +7309,45 @@
       "result": "W",
       "opponent": "A. Setkic",
       "score": "6-4 5-7 4-6"
+    },
+    {
+      "date": "20160120",
+      "tournament": "Kaarst",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Kern",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20160114",
+      "tournament": "Schwieberdingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Ilkel",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20160113",
+      "tournament": "Schwieberdingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Mrose",
+      "score": "2-6 6-4 6-4"
     },
     {
       "date": "20150921",
