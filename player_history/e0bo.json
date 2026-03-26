@@ -3,24 +3,37 @@
   "gs_id": "84030",
   "player_name": "Nino Ehrenschneider",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:50:06.651Z",
+  "updated": "2026-03-26T17:49:44.748Z",
   "matches": [
     {
-      "date": "20210705",
-      "tournament": "Braunschweig Challenger Men",
+      "date": "20250819",
+      "tournament": "Augsburg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Popovic",
+      "score": "6-3 7(9)-6(7)"
+    },
+    {
+      "date": "20250818",
+      "tournament": "Augsburg",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Ehrat",
-      "score": "6-4 6(1)-7(7) 6-1"
+      "result": "W",
+      "opponent": "I. Lopez Morillo",
+      "score": "4-6 6(3)-7(7)"
     },
     {
-      "date": "20210704",
-      "tournament": "Braunschweig Challenger Men",
+      "date": "20250817",
+      "tournament": "Augsburg",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Haerteis",
-      "score": "6-3 3-6 4-6"
+      "opponent": "J. Held",
+      "score": "4-6 6(1)-7(7)"
+    },
+    {
+      "date": "20200217",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "U. Ignatik",
+      "score": "1-6 1-6"
     }
   ]
 }
