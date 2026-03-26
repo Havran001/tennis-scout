@@ -3,11 +3,11 @@
   "gs_id": "41607",
   "player_name": "Dalibor Svrcina",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:31:50.555Z",
+  "updated": "2026-03-26T11:04:47.574Z",
   "matches": [
     {
-      "date": "20251018",
-      "tournament": "Vienna",
+      "date": "20260316",
+      "tournament": "ATP Miami",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Fearnley",
-      "score": "6-4 7-5"
+      "opponent": "D. Merida Aguilar",
+      "score": "7(7)-6(1) 4-6 6(6)-7(8)"
     },
     {
-      "date": "20251004",
-      "tournament": "Shanghai",
+      "date": "20260307",
+      "tournament": "Indian Wells",
       "surface": "Hard",
       "level": "B",
       "round": "R64",
@@ -28,25 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Medvedev",
+      "opponent": "J. Sinner",
       "score": "6-1 6-1"
     },
     {
-      "date": "20251002",
-      "tournament": "Shanghai",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R128",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Wu",
-      "score": "5-7 ret."
-    },
-    {
-      "date": "20250930",
-      "tournament": "Shanghai",
+      "date": "20260304",
+      "tournament": "Indian Wells",
       "surface": "Hard",
       "level": "B",
       "round": "F",
@@ -54,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Watanuki",
-      "score": "6-4 6-0"
+      "opponent": "V. Kopriva",
+      "score": "6(4)-7(7) 4-6"
     },
     {
-      "date": "20250929",
-      "tournament": "Shanghai",
+      "date": "20260304",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Duckworth",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20260303",
+      "tournament": "Indian Wells",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -67,51 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Zeppieri",
-      "score": "6-2 6-4"
+      "opponent": "M. Krueger",
+      "score": "6(6)-7(8) 4-6"
     },
     {
-      "date": "20250729",
-      "tournament": "Toronto",
+      "date": "20250126",
+      "tournament": "Montpellier",
       "surface": "Hard",
       "level": "B",
-      "round": "R64",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Medvedev",
-      "score": "6(3)-7(7) 4-6"
+      "opponent": "P. Carreno-Busta",
+      "score": "6-4 7-5"
     },
     {
-      "date": "20250728",
-      "tournament": "Toronto",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R128",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Blockx",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20250726",
-      "tournament": "Toronto",
-      "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Watanuki",
-      "score": "7(7)-6(2) 1-6 6-4"
-    },
-    {
-      "date": "20250714",
-      "tournament": "Gstaad",
+      "date": "20240131",
+      "tournament": "ATP Montpellier",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -119,34 +93,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. A. Burruchaga",
-      "score": "3-6 1-6"
+      "opponent": "A. Shevchenko",
+      "score": "4-6 6-4 4-6"
     },
     {
-      "date": "20240930",
-      "tournament": "Shanghai",
+      "date": "20240129",
+      "tournament": "ATP Montpellier",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Zeppieri",
+      "score": "6-3 3-6 5-7"
+    },
+    {
+      "date": "20240128",
+      "tournament": "ATP Montpellier",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Krueger",
-      "score": "7-5 7-5"
+      "result": "W",
+      "opponent": "M. Martineau",
+      "score": "2-6 6-3 5-7"
     },
     {
-      "date": "20240713",
-      "tournament": "ATP Hamburg",
+      "date": "20190207",
+      "tournament": "Kaarst",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "U. Blanchet",
-      "score": "7-5 7(7)-6(5)"
+      "opponent": "B. Van De Zandschulp",
+      "score": "6-3 0-6 4-6"
+    },
+    {
+      "date": "20190205",
+      "tournament": "Kaarst",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Lootsma",
+      "score": "1-6 3-6"
     }
   ]
 }
