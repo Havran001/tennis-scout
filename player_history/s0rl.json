@@ -1,1 +1,48 @@
-{"player_id":"s0rl","sack_id":"210011","name":"Aristarkh Safonov","total":0,"matches":[]}
+{
+  "player_id": "s0rl",
+  "gs_id": "141989",
+  "player_name": "Aristarkh Safonov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:17:25.811Z",
+  "matches": [
+    {
+      "date": "20211015",
+      "tournament": "M15 Kazan 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Bobrov",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20211014",
+      "tournament": "M15 Kazan 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Simakin",
+      "score": "3-6 6-4 6-4"
+    },
+    {
+      "date": "20211013",
+      "tournament": "M15 Kazan 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Shchaya-Zubrov",
+      "score": "4-6 3-6"
+    }
+  ]
+}
