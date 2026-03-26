@@ -3,11 +3,24 @@
   "gs_id": "72986",
   "player_name": "Tim Handel",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:36:16.693Z",
+  "updated": "2026-03-26T16:12:06.706Z",
   "matches": [
     {
-      "date": "20240910",
-      "tournament": "Szczecin",
+      "date": "20260201",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cerny",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20250602",
+      "tournament": "Heilbronn",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Barton",
-      "score": "2-6 6(4)-7(7)"
+      "opponent": "F. Broska",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20240908",
-      "tournament": "Szczecin",
+      "date": "20250601",
+      "tournament": "Heilbronn",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Oradini",
-      "score": "6-3 6-3"
+      "opponent": "E. Ymer",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20230910",
-      "tournament": "Szczecin Challenger Men",
+      "date": "20240603",
+      "tournament": "Heilbronn Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,34 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Roca Batalla",
-      "score": "3-6 7(10)-6(8) 6(5)-7(7)"
+      "opponent": "L. Gavrielides",
+      "score": "6-2 4-6 4-6"
     },
     {
-      "date": "20220912",
-      "tournament": "Szczecin",
+      "date": "20240118",
+      "tournament": "Indian Wells",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Choinski",
-      "score": "7-5 3-6 7-5"
+      "opponent": "T. S. Kwiatkowski",
+      "score": "3-6 6(6)-7(8)"
     },
     {
-      "date": "20220911",
-      "tournament": "Szczecin",
+      "date": "20240116",
+      "tournament": "Indian Wells",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Forejtek",
-      "score": "4-6 0-6"
+      "opponent": "J. Tracy",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20231029",
+      "tournament": "Ismaning",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Copil",
+      "score": "4-6 6(12)-7(14)"
+    },
+    {
+      "date": "20231001",
+      "tournament": "Lisbon Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Dalla Valle",
+      "score": "6-4 6-2"
     }
   ]
 }
