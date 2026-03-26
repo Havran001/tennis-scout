@@ -1,1 +1,35 @@
-{"player_id":"y223","sack_id":"126715","name":"Fernando Yamacita","total":0,"matches":[]}
+{
+  "player_id": "y223",
+  "gs_id": "33256",
+  "player_name": "Fernando Yamacita",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:31:17.557Z",
+  "matches": [
+    {
+      "date": "20190206",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Brymer",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20160913",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Daciek",
+      "score": "6(6)-7(8) 6-1 3-6"
+    }
+  ]
+}
