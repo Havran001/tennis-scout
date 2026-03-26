@@ -1,35 +1,87 @@
 {
   "player_id": "a0k3",
-  "gs_id": "170709",
-  "player_name": "Mikael Arseneault",
+  "gs_id": "170710",
+  "player_name": "Nicolas Arseneault",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:13:25.824Z",
+  "updated": "2026-03-26T22:14:49.867Z",
   "matches": [
     {
-      "date": "20241014",
-      "tournament": "Calgary",
+      "date": "20250327",
+      "tournament": "M25 Santo Domingo 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Cassone",
-      "score": "2-6 3-6"
+      "opponent": "A. McHugh",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20241013",
-      "tournament": "Calgary",
+      "date": "20250326",
+      "tournament": "M25 Santo Domingo 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Martin",
-      "score": "6-3 3-0 ret."
+      "opponent": "T. Stice",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20250322",
+      "tournament": "M25 Santo Domingo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Brunclik",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20250321",
+      "tournament": "M25 Santo Domingo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Baker",
+      "score": "6-2 4-6 6-4"
+    },
+    {
+      "date": "20250320",
+      "tournament": "M25 Santo Domingo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Bertran",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250319",
+      "tournament": "M25 Santo Domingo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Klier Junior",
+      "score": "6-4 6-2"
     }
   ]
 }
