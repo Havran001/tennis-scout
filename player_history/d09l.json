@@ -3,11 +3,24 @@
   "gs_id": "34379",
   "player_name": "Louis Dussin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:34:31.663Z",
+  "updated": "2026-03-26T17:47:39.763Z",
   "matches": [
     {
-      "date": "20250512",
-      "tournament": "Bordeaux",
+      "date": "20260106",
+      "tournament": "Noumea",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Diaz Acosta",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250216",
+      "tournament": "Pau",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Evans",
-      "score": "0-6 2-6"
+      "opponent": "L. Pokorny",
+      "score": "6-2 4-6 6-0"
     },
     {
-      "date": "20250310",
-      "tournament": "Cherbourg",
+      "date": "20240909",
+      "tournament": "Rennes",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Vandermeersch",
-      "score": "6-4 3-6 4-6"
+      "opponent": "E. Coulibaly",
+      "score": "4-6 6(5)-7(7)"
     },
     {
-      "date": "20250309",
-      "tournament": "Cherbourg",
+      "date": "20240908",
+      "tournament": "Rennes",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Added",
-      "score": "4-6 6-3 6-4"
+      "opponent": "A. Reymond",
+      "score": "6(2)-7(7) 6-4 6-2"
     },
     {
-      "date": "20240513",
-      "tournament": "Bordeaux Challenger Men",
+      "date": "20240218",
+      "tournament": "Pau Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,47 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Guinard",
-      "score": "6-3 6-1"
+      "opponent": "E. Gerasimov",
+      "score": "4-6 6-3 6-3"
     },
     {
-      "date": "20211024",
-      "tournament": "Brest Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Ajdukovic",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20180829",
-      "tournament": "San Sebastian",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Salman",
-      "score": "6-2 7-5"
-    },
-    {
-      "date": "20180828",
-      "tournament": "San Sebastian",
+      "date": "20190501",
+      "tournament": "Las Palmas",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Briand",
-      "score": "6(3)-7(7) 0-1 ret."
+      "result": "L",
+      "opponent": "A. Peyrot",
+      "score": "3-6 5-7"
     }
   ]
 }
