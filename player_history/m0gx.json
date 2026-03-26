@@ -3,11 +3,37 @@
   "gs_id": "58432",
   "player_name": "Javier Molino",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:32:04.552Z",
+  "updated": "2026-03-26T14:35:56.660Z",
   "matches": [
     {
-      "date": "20190912",
-      "tournament": "Sevilla",
+      "date": "20230904",
+      "tournament": "Seville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Lopez Montagud",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20220518",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "X. Matas Ortega",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20181003",
+      "tournament": "Melilla",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gomez",
-      "score": "1-6 2-6"
+      "opponent": "J. Nikles",
+      "score": "0-6 0-6"
     },
     {
-      "date": "20190911",
-      "tournament": "Sevilla",
+      "date": "20181002",
+      "tournament": "Melilla",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Sanchez",
-      "score": "6-4 7-5"
+      "opponent": "C. O. Mancineiras",
+      "score": "6-4 6-1"
     }
   ]
 }
