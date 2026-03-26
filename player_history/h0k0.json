@@ -1,1 +1,35 @@
-{"player_id":"h0k0","sack_id":"213178","name":"Cruz Hewitt","total":3,"matches":[{"id":"SG6bPkAO","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Luo J. H.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"n5HCrxlJ","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Cripps L.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"n5HCrxlJ","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Cripps L.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "h0k0",
+  "gs_id": "175250",
+  "player_name": "Cruz Hewitt",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:42.558Z",
+  "matches": [
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zheng",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250107",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Basilashvili",
+      "score": "6-1 6-4"
+    }
+  ]
+}
