@@ -3,20 +3,85 @@
   "gs_id": "138369",
   "player_name": "Kenta Miyoshi",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:18:57.519Z",
+  "updated": "2026-03-26T13:10:54.629Z",
   "matches": [
     {
-      "date": "20250816",
-      "tournament": "Winston-Salem",
+      "date": "20251006",
+      "tournament": "Fairfield",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Vandecasteele",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20251005",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Pearson",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20250812",
+      "tournament": "Barranquilla",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Barrios Vera",
+      "score": "6-1 7-5"
+    },
+    {
+      "date": "20250714",
+      "tournament": "Granby",
+      "surface": "Hard",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Royer",
-      "score": "2-6 4-6"
+      "opponent": "L. Riedi",
+      "score": "6-4 5-7 6-3"
+    },
+    {
+      "date": "20250710",
+      "tournament": "Winnipeg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Draxl",
+      "score": "6-1 5-7 6-2"
+    },
+    {
+      "date": "20250708",
+      "tournament": "Winnipeg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Sekulic",
+      "score": "6-4 7-5"
     }
   ]
 }
