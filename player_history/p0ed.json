@@ -3,11 +3,50 @@
   "gs_id": "57708",
   "player_name": "Kiranpal Pannu",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:18:14.517Z",
+  "updated": "2026-03-26T11:06:51.575Z",
   "matches": [
     {
-      "date": "20240817",
-      "tournament": "ATP Winston-Salem",
+      "date": "20230731",
+      "tournament": "ATP Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Karatsev",
+      "score": "6(3)-7(7) 1-6"
+    },
+    {
+      "date": "20230730",
+      "tournament": "ATP Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Kuzuhara",
+      "score": "3-6 6-2 7(8)-6(6)"
+    },
+    {
+      "date": "20230729",
+      "tournament": "ATP Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Kudla",
+      "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20180721",
+      "tournament": "Atlanta",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -15,47 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Mejia",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20240109",
-      "tournament": "ATP Auckland",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Purcell",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20230109",
-      "tournament": "Auckland",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Gasquet",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20200111",
-      "tournament": "Auckland",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Pospisil",
-      "score": "6-2 6-4"
+      "opponent": "T. Kokkinakis",
+      "score": "6-3 6-4"
     }
   ]
 }
