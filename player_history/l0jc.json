@@ -3,11 +3,11 @@
   "gs_id": "173354",
   "player_name": "Matteo Lavizzari",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:16:48.830Z",
+  "updated": "2026-03-26T22:14:50.863Z",
   "matches": [
     {
-      "date": "20230907",
-      "tournament": "ITF M15 Madrid Men",
+      "date": "20250619",
+      "tournament": "M15 Monastir 24",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Martinez Martinez",
-      "score": "2-6 4-6"
+      "opponent": "P. Photiadis",
+      "score": "7(8)-6(6) 3-0 ret."
     },
     {
-      "date": "20230906",
-      "tournament": "ITF M15 Madrid Men",
+      "date": "20250618",
+      "tournament": "M15 Monastir 24",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Sanchez Quilez",
-      "score": "3-6 4-6"
+      "opponent": "A. Elsayed",
+      "score": "6-4 3-6 2-6"
+    },
+    {
+      "date": "20240425",
+      "tournament": "ITF M15 Antalya 12 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Milev",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20240424",
+      "tournament": "ITF M15 Antalya 12 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Jin",
+      "score": "6-4 4-6 6-4"
+    },
+    {
+      "date": "20240313",
+      "tournament": "ITF M25 Trimbach Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Rispoli",
+      "score": "6-3 4-6 6-4"
     }
   ]
 }
