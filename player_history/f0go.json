@@ -1,26 +1,65 @@
 {
   "player_id": "f0go",
-  "gs_id": "213511",
-  "player_name": "Cruz Martin Manzano Juan",
+  "gs_id": "68082",
+  "player_name": "Bautista Torres Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:23:43.683Z",
+  "updated": "2026-03-26T16:12:02.715Z",
   "matches": [
     {
-      "date": "20260111",
-      "tournament": "Buenos Aires",
+      "date": "20250123",
+      "tournament": "Punta Del Este",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. B. Otegui",
-      "score": "2-6 1-6"
+      "opponent": "M. Trungelliti",
+      "score": "6(5)-7(7) 5-7"
     },
     {
-      "date": "20250907",
-      "tournament": "Biella",
+      "date": "20250121",
+      "tournament": "Punta Del Este",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Roncadelli",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20250120",
+      "tournament": "Punta Del Este",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. J. Schwaerzler",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250119",
+      "tournament": "Punta Del Este",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Aguilar Cardozo",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240121",
+      "tournament": "Punta Del Este Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Wenger",
-      "score": "5-7 6-1 4-6"
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "7-5 3-6 4-6"
     }
   ]
 }
