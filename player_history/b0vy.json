@@ -1,1 +1,35 @@
-{"player_id":"b0vy","sack_id":"213004","name":"Arthur Bellegy","total":0,"matches":[]}
+{
+  "player_id": "b0vy",
+  "gs_id": "267460",
+  "player_name": "Arthur Bellegy",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:19:54.810Z",
+  "matches": [
+    {
+      "date": "20260226",
+      "tournament": "M15 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alcala Gurri",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20260225",
+      "tournament": "M15 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Manukyan",
+      "score": "4-6 4-6"
+    }
+  ]
+}
