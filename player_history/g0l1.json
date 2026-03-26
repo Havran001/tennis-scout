@@ -1,1 +1,35 @@
-{"player_id":"g0l1","sack_id":"211635","name":"Segundo Goity Zapico","total":0,"matches":[]}
+{
+  "player_id": "g0l1",
+  "gs_id": "167831",
+  "player_name": "Segundo Goity Zapico",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T22:14:39.869Z",
+  "matches": [
+    {
+      "date": "20231103",
+      "tournament": "ITF M15 Villa Maria Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. E. Ambrogi",
+      "score": "4-6 7-5 4-6"
+    },
+    {
+      "date": "20231031",
+      "tournament": "ITF M15 Villa Maria Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. A. Falabella",
+      "score": "6(3)-7(7) 3-6"
+    }
+  ]
+}
