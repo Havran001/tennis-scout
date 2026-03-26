@@ -3,24 +3,50 @@
   "gs_id": "12343",
   "player_name": "Cameron Norrie",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:04:11.856Z",
+  "updated": "2026-03-26T23:52:04.908Z",
   "matches": [
     {
-      "date": "20220930",
-      "tournament": "Seoul",
+      "date": "20211003",
+      "tournament": "ATP San Diego",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Ruud",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20211002",
+      "tournament": "ATP San Diego",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Rublev",
+      "score": "6-3 3-6 4-6"
+    },
+    {
+      "date": "20211001",
+      "tournament": "ATP San Diego",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Brooksby",
-      "score": ""
+      "result": "W",
+      "opponent": "D. Shapovalov",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20220929",
-      "tournament": "Seoul",
+      "date": "20210930",
+      "tournament": "ATP San Diego",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -28,34 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Uchida",
-      "score": "2-6 2-6"
+      "opponent": "D. Evans",
+      "score": "7(7)-6(3) 6-3"
     },
     {
-      "date": "20210201",
-      "tournament": "Melbourne (Murray River Open)",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Paul",
-      "score": "6-4 6(2)-7(7) 3-6"
-    },
-    {
-      "date": "20201026",
-      "tournament": "Nur-Sultan",
+      "date": "20210928",
+      "tournament": "ATP San Diego",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Thompson",
-      "score": "5-7 7(8)-6(6) 6-2"
+      "result": "W",
+      "opponent": "D. Koepfer",
+      "score": "2-6 5-7"
     }
   ]
 }
