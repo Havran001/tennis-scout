@@ -3,11 +3,11 @@
   "gs_id": "161531",
   "player_name": "Pablo Trochu",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:52:04.648Z",
+  "updated": "2026-03-26T19:00:12.786Z",
   "matches": [
     {
-      "date": "20241013",
-      "tournament": "Saint Brieuc",
+      "date": "20250907",
+      "tournament": "Rennes",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Poullain",
-      "score": "6-3 6-4"
+      "opponent": "R. Catry",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240908",
+      "tournament": "Rennes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Pichler",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20240207",
+      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Hudd",
+      "score": "6-2 1-0 ret."
+    },
+    {
+      "date": "20240104",
+      "tournament": "ITF M15 Monastir Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Taguchi",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20240102",
+      "tournament": "ITF M15 Monastir Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Ferrari",
+      "score": "3-6 6-1 6-3"
     }
   ]
 }
