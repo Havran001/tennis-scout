@@ -3,7 +3,7 @@
   "gs_id": "177429",
   "player_name": "Philip Hjorth",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:00:58.795Z",
+  "updated": "2026-03-26T21:13:35.841Z",
   "matches": [
     {
       "date": "20250213",
@@ -32,8 +32,8 @@
       "score": "3-6 4-6"
     },
     {
-      "date": "20240110",
-      "tournament": "ITF M15 Monastir 2 Men",
+      "date": "20241113",
+      "tournament": "M25 Vale do Lobo 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. B. Privara",
-      "score": "4-6 2-6"
+      "opponent": "V. Durasovic",
+      "score": "6-2 1-6 6-3"
+    },
+    {
+      "date": "20240627",
+      "tournament": "ITF M15 Alkmaar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Deckers",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20240626",
+      "tournament": "ITF M15 Alkmaar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Donders",
+      "score": "6-3 7(7)-6(4)"
     }
   ]
 }
