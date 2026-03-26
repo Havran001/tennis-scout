@@ -3,33 +3,72 @@
   "gs_id": "280983",
   "player_name": "Jacopo Vasami",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:50:38.750Z",
+  "updated": "2026-03-26T21:14:16.825Z",
   "matches": [
     {
-      "date": "20260204",
-      "tournament": "Tenerife",
+      "date": "20260222",
+      "tournament": "M25 Trento",
       "surface": "Hard",
-      "level": "C",
-      "round": "R16",
+      "level": "I",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Loffhagen",
-      "score": "7-5 6-3"
+      "opponent": "A. Guerrieri",
+      "score": "6(3)-7(7) 6(3)-7(7)"
     },
     {
-      "date": "20260203",
-      "tournament": "Tenerife",
+      "date": "20260221",
+      "tournament": "M25 Trento",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Forti",
+      "score": "7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20260220",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Basic",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20260219",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Gengel",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20260217",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Blanch",
-      "score": "6(5)-7(7) 6-3 6(5)-7(7)"
+      "opponent": "G. Hausberger",
+      "score": "7(7)-6(4) 6-1"
     }
   ]
 }
