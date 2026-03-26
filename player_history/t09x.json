@@ -1,1 +1,48 @@
-{"player_id":"t09x","sack_id":"202127","name":"Clement Tabur","total":0,"matches":[]}
+{
+  "player_id": "t09x",
+  "gs_id": "34381",
+  "player_name": "Clement Tabur",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:17.521Z",
+  "matches": [
+    {
+      "date": "20260112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Glinka",
+      "score": "7-5 3-6 4-6"
+    },
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Landaluce",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240109",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ritschard",
+      "score": "6(5)-7(7) 3-6"
+    }
+  ]
+}
