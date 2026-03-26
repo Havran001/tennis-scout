@@ -1,1 +1,35 @@
-{"player_id":"o663","sack_id":"200457","name":"Jannik Opitz","total":2,"matches":[{"id":"AmSlOUeD","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Livet Novkirichka F.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"xzAaQaLq","date":"20260324","tournament":"ITF MEN - DOUBLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Maric M./Radovanovic T.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "o663",
+  "gs_id": "142157",
+  "player_name": "Jannik Opitz",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:51:27.646Z",
+  "matches": [
+    {
+      "date": "20250706",
+      "tournament": "Braunschweig",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Kodat",
+      "score": "4-6 6-4 6-4"
+    },
+    {
+      "date": "20230709",
+      "tournament": "Braunschweig Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Masur",
+      "score": "5-7 4-6"
+    }
+  ]
+}
