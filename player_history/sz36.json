@@ -1,1 +1,48 @@
-{"player_id":"sz36","sack_id":"200276","name":"Niklas Schell","total":1,"matches":[{"id":"ltMBVjhe","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Borrelli L.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "sz36",
+  "gs_id": "31551",
+  "player_name": "Niklas Schell",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:03.517Z",
+  "matches": [
+    {
+      "date": "20190716",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. H. Tseng",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20180717",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Samper-Montana",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20170718",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Lopez-Perez",
+      "score": "7(7)-6(5) 7(8)-6(6)"
+    }
+  ]
+}
