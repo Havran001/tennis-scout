@@ -1,1 +1,35 @@
-{"player_id":"p0e9","sack_id":"208158","name":"Dominik Palan","total":0,"matches":[]}
+{
+  "player_id": "p0e9",
+  "gs_id": "76871",
+  "player_name": "Dominik Palan",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:15.558Z",
+  "matches": [
+    {
+      "date": "20231003",
+      "tournament": "ATP Shanghai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Zhukayev",
+      "score": "7(8)-6(6) 3-6 6-3"
+    },
+    {
+      "date": "20231002",
+      "tournament": "ATP Shanghai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Harris",
+      "score": "6-3 3-6 6(4)-7(7)"
+    }
+  ]
+}
