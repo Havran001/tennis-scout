@@ -1,1 +1,22 @@
-{"player_id":"b0ls","sack_id":"210733","name":"Arthur Bonnaud","total":0,"matches":[]}
+{
+  "player_id": "b0ls",
+  "gs_id": "155077",
+  "player_name": "Arthur Bonnaud",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:38.625Z",
+  "matches": [
+    {
+      "date": "20251019",
+      "tournament": "Brest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Butvilas",
+      "score": "6-0 6-2"
+    }
+  ]
+}
