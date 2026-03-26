@@ -1,22 +1,35 @@
 {
   "player_id": "l0cu",
-  "gs_id": "8585",
-  "player_name": "David Martinez Luis",
+  "gs_id": "90393",
+  "player_name": "Tomas Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:12:47.809Z",
+  "updated": "2026-03-26T20:16:32.818Z",
   "matches": [
     {
-      "date": "20170315",
-      "tournament": "M25 Bakersfield",
+      "date": "20251123",
+      "tournament": "Maia",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Margaroli",
-      "score": "6-3 6(4)-7(7) 3-6"
+      "opponent": "A. Vatutin",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20200706",
+      "tournament": "FPT Portugal Series 3",
+      "surface": "Hard",
+      "level": "E",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Stoliar",
+      "score": "6-3 4-6 1-6"
     }
   ]
 }
