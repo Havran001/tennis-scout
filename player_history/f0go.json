@@ -1,26 +1,13 @@
 {
   "player_id": "f0go",
-  "gs_id": "59477",
-  "player_name": "Bautista Otegui Juan",
+  "gs_id": "2492",
+  "player_name": "Sebastian Gomez Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:16:30.831Z",
+  "updated": "2026-03-26T22:03:36.863Z",
   "matches": [
     {
-      "date": "20230305",
-      "tournament": "Antalya",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Travaglia",
-      "score": "6-3 7(7)-6(2)"
-    },
-    {
-      "date": "20210514",
-      "tournament": "ITF M15 Valldoreix Men",
+      "date": "20210611",
+      "tournament": "ITF M25 Santo Domingo 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Lopez San Martin",
-      "score": "3-6 6-1 2-6"
+      "opponent": "N. Kicker",
+      "score": "6-0 6-1"
     },
     {
-      "date": "20210513",
-      "tournament": "ITF M15 Valldoreix Men",
+      "date": "20210610",
+      "tournament": "ITF M25 Santo Domingo 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Hamou",
-      "score": "6-3 7-5"
+      "opponent": "B. Bicknell",
+      "score": "6-2 7(7)-6(3)"
     },
     {
-      "date": "20210512",
-      "tournament": "ITF M15 Valldoreix Men",
+      "date": "20210609",
+      "tournament": "ITF M25 Santo Domingo 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Fernandez-Gonzalez",
-      "score": "6-4 6-3"
+      "opponent": "S. Mochizuki",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20210604",
+      "tournament": "ITF M25 Santo Domingo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Kicker",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20210603",
+      "tournament": "ITF M25 Santo Domingo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gonzalez",
+      "score": "6-2 3-6 0-0 ret."
+    },
+    {
+      "date": "20210602",
+      "tournament": "ITF M25 Santo Domingo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Hoyos Franco",
+      "score": "5-7 4-6"
     }
   ]
 }
