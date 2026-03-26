@@ -1,1 +1,113 @@
-{"player_id":"pm20","sack_id":"145008","name":"Hugo Pierre","total":0,"matches":[]}
+{
+  "player_id": "pm20",
+  "gs_id": "83824",
+  "player_name": "Hugo Pierre",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:55:49.838Z",
+  "matches": [
+    {
+      "date": "20260212",
+      "tournament": "M15 Monastir 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Rapagnetta",
+      "score": "7(7)-6(5) 6-1"
+    },
+    {
+      "date": "20260210",
+      "tournament": "M15 Monastir 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Caillat",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20260205",
+      "tournament": "M15 Monastir 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Larue",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20260204",
+      "tournament": "M15 Monastir 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. La Vela",
+      "score": "5-7 6-2 6-1"
+    },
+    {
+      "date": "20200122",
+      "tournament": "M15 Bressuire",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "U. Blanchet",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20200117",
+      "tournament": "M15 Bagnoles-de-l'Orne",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Folliot",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20200116",
+      "tournament": "M15 Bagnoles-de-l'Orne",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Davydov",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20200115",
+      "tournament": "M15 Bagnoles-de-l'Orne",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Rosenkranz",
+      "score": "7(7)-6(4) 4-6 6-4"
+    }
+  ]
+}
