@@ -1,1 +1,48 @@
-{"player_id":"p0k5","sack_id":"210494","name":"Theo Papamalamis","total":0,"matches":[]}
+{
+  "player_id": "p0k5",
+  "gs_id": "123368",
+  "player_name": "Theo Papamalamis",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:05:44.570Z",
+  "matches": [
+    {
+      "date": "20250303",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kukushkin",
+      "score": "6-4 6(4)-7(7) 7-5"
+    },
+    {
+      "date": "20241104",
+      "tournament": "Metz",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Halys",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20241102",
+      "tournament": "Metz",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. De Jong",
+      "score": "2-6 3-6"
+    }
+  ]
+}
