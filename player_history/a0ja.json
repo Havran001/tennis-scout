@@ -1,1 +1,22 @@
-{"player_id":"a0ja","sack_id":"210686","name":"Michael Agwi","total":1,"matches":[{"id":"StIDZ3bc","date":"20260324","tournament":"ITF MEN - SINGLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Sorger S.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "a0ja",
+  "gs_id": "153237",
+  "player_name": "Michael Agwi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:35.623Z",
+  "matches": [
+    {
+      "date": "20250921",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bax",
+      "score": "6-3 1-6 6-3"
+    }
+  ]
+}
