@@ -1,1 +1,126 @@
-{"player_id":"pj74","sack_id":"131911","name":"Lucas Poullain","total":1,"matches":[{"id":"6iJTVLcM","date":"20260324","tournament":"ITF MEN - SINGLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Brouwer G.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "pj74",
+  "gs_id": "36769",
+  "player_name": "Lucas Poullain",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:04:33.566Z",
+  "matches": [
+    {
+      "date": "20191016",
+      "tournament": "Getafe (Madrid)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Moreno De Alboran",
+      "score": "4-6 6-1 7(7)-6(5)"
+    },
+    {
+      "date": "20190211",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sinclair",
+      "score": "3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20190209",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Arconada",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20190208",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Pervolarakis",
+      "score": "4-6 6-4 6-2"
+    },
+    {
+      "date": "20190207",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Chappell",
+      "score": "5-7 0-2 ret."
+    },
+    {
+      "date": "20190206",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Spec",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20181016",
+      "tournament": "Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. M. Aguilar J.",
+      "score": "4-6 6-1 2-6"
+    },
+    {
+      "date": "20180808",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Ch. Negritu",
+      "score": "6-2 5-7 6-3"
+    },
+    {
+      "date": "20180807",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Ianakiev",
+      "score": "6-3 6-2"
+    }
+  ]
+}
