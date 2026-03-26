@@ -1,1 +1,22 @@
-{"player_id":"w0ed","sack_id":"211767","name":"James Watt","total":0,"matches":[]}
+{
+  "player_id": "w0ed",
+  "gs_id": "175687",
+  "player_name": "James Watt",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:57:02.543Z",
+  "matches": [
+    {
+      "date": "20260112",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Brooksby",
+      "score": "4-6 3-6"
+    }
+  ]
+}
