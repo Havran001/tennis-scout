@@ -3,11 +3,37 @@
   "gs_id": "76842",
   "player_name": "Daisuke Sumizawa",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:49:37.747Z",
+  "updated": "2026-03-26T18:55:30.781Z",
   "matches": [
     {
-      "date": "20260103",
-      "tournament": "Noumea",
+      "date": "20240613",
+      "tournament": "ITF M15 Hong Kong Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Dev S D",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240612",
+      "tournament": "ITF M15 Hong Kong Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Zhang",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20221120",
+      "tournament": "Yokkaichi",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,21 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Watt",
-      "score": "3-6 4-6"
+      "opponent": "Y. Mochizuki",
+      "score": "6-2 5-7 6-3"
     },
     {
-      "date": "20230102",
-      "tournament": "Noumea Challenger Men",
+      "date": "20210204",
+      "tournament": "M15 Sharm El Sheikh",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Jin",
-      "score": "6(2)-7(7) 6-3 7-5"
+      "opponent": "A. Bovy",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20210203",
+      "tournament": "M15 Sharm El Sheikh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Satral",
+      "score": "6(4)-7(7) 6-3 6-3"
     }
   ]
 }
