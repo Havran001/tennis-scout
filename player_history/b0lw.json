@@ -1,1 +1,48 @@
-{"player_id":"b0lw","sack_id":"209983","name":"Mika Brunold","total":1,"matches":[{"id":"C8CFbBXP","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Lagarrigue L.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "b0lw",
+  "gs_id": "144057",
+  "player_name": "Mika Brunold",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:56.541Z",
+  "matches": [
+    {
+      "date": "20250712",
+      "tournament": "Gstaad",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Passaro",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240713",
+      "tournament": "ATP Gstaad",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Heide",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230715",
+      "tournament": "ATP Gstaad",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Rodionov",
+      "score": "1-6 6(1)-7(7)"
+    }
+  ]
+}
