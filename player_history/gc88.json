@@ -3,8 +3,34 @@
   "gs_id": "7021",
   "player_name": "Marcos Giron",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:18:43.819Z",
+  "updated": "2026-03-26T22:07:41.869Z",
   "matches": [
+    {
+      "date": "20251015",
+      "tournament": "Brussels",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Davidovich Fokina",
+      "score": "6(5)-7(7) 6-1 6-4"
+    },
+    {
+      "date": "20251013",
+      "tournament": "Brussels",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bellucci",
+      "score": "6-3 6-4"
+    },
     {
       "date": "20230930",
       "tournament": "Astana",
@@ -32,8 +58,8 @@
       "score": "7(8)-6(6) 6(4)-7(7) 6(6)-7(8)"
     },
     {
-      "date": "20201013",
-      "tournament": "Cologne",
+      "date": "20230625",
+      "tournament": "ATP Mallorca",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -41,86 +67,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Cilic",
-      "score": "6-2 4-6 6-3"
+      "opponent": "G. Pella",
+      "score": "6-3 2-6 6(3)-7(7)"
     },
     {
-      "date": "20201011",
-      "tournament": "Cologne",
+      "date": "20220623",
+      "tournament": "Mallorca",
       "surface": "Hard",
       "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Harris",
-      "score": "6-2 4-6 2-6"
-    },
-    {
-      "date": "20201010",
-      "tournament": "Cologne",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Molleker",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20170317",
-      "tournament": "M25 Bakersfield",
-      "surface": "Hard",
-      "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Popko",
-      "score": "6-2 6-4"
+      "opponent": "S. Tsitsipas",
+      "score": "7(7)-6(5) 4-6 6-3"
     },
     {
-      "date": "20170316",
-      "tournament": "M25 Bakersfield",
+      "date": "20220622",
+      "tournament": "Mallorca",
       "surface": "Hard",
-      "level": "I",
+      "level": "B",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Lamble",
-      "score": "6-4 6-2"
+      "opponent": "M. McDonald",
+      "score": "4-6 7(7)-6(5) 6-4"
     },
     {
-      "date": "20170315",
-      "tournament": "M25 Bakersfield",
+      "date": "20220621",
+      "tournament": "Mallorca",
       "surface": "Hard",
-      "level": "I",
+      "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Craig",
-      "score": "6-3 7(8)-6(6)"
+      "opponent": "B. Van De Zandschulp",
+      "score": "7(8)-6(6) 4-6 6(2)-7(7)"
     },
     {
-      "date": "20150317",
-      "tournament": "M25 Bakersfield",
+      "date": "20210523",
+      "tournament": "Parma",
       "surface": "Hard",
-      "level": "I",
+      "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. King",
-      "score": "6-4 1-4 ret."
+      "opponent": "F. Cobolli",
+      "score": "6-3 6(6)-7(8) 6(4)-7(7)"
+    },
+    {
+      "date": "20210205",
+      "tournament": "Melbourne (Murray River Open)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Evans",
+      "score": "6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20210202",
+      "tournament": "Melbourne (Murray River Open)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Mmoh",
+      "score": "6-1 7-5"
+    },
+    {
+      "date": "20210202",
+      "tournament": "Melbourne (Murray River Open)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Mannarino",
+      "score": "3-6 4-6"
     }
   ]
 }
