@@ -1,1 +1,100 @@
-{"player_id":"ea27","sack_id":"134329","name":"Blake Ellis","total":1,"matches":[{"id":"Op15pMUg","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Yokkaichi (Japan), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Kwon S.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "ea27",
+  "gs_id": "34432",
+  "player_name": "Blake Ellis",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:22.521Z",
+  "matches": [
+    {
+      "date": "20260112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Travaglia",
+      "score": "6-3 4-6 6-1"
+    },
+    {
+      "date": "20250109",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Koepfer",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20250108",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Watanuki",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20250107",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Escoffier",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20190108",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Koepfer",
+      "score": "6-3 0-6 3-6"
+    },
+    {
+      "date": "20180109",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kozlov",
+      "score": "6(3)-7(7) 6-4 6(3)-7(7)"
+    },
+    {
+      "date": "20160613",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Meis",
+      "score": "3-6 3-6"
+    }
+  ]
+}
