@@ -3,46 +3,85 @@
   "gs_id": "142015",
   "player_name": "Moon Lee Jea",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:45:58.583Z",
+  "updated": "2026-03-26T16:13:19.736Z",
   "matches": [
     {
-      "date": "20130612",
-      "tournament": "Gimcheon",
+      "date": "20241027",
+      "tournament": "Seoul",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Isomura",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20240416",
+      "tournament": "Gwangju Challenger Men",
+      "surface": "Hard",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "W. Jun",
-      "score": "6-2 6-4"
+      "opponent": "S. Shimabukuro",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20130530",
-      "tournament": "Changwon",
+      "date": "20240407",
+      "tournament": "Busan Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Propoggia",
-      "score": "6-1 7-6"
+      "opponent": "P. Jubb",
+      "score": "6-3 4-6 7(7)-6(2)"
     },
     {
-      "date": "20130529",
-      "tournament": "Changwon",
+      "date": "20230508",
+      "tournament": "Busan Challenger Men",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rai",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20230426",
+      "tournament": "Seoul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Oh Dae",
-      "score": "3-6 7-5 3-6"
+      "result": "L",
+      "opponent": "M. Polmans",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20221016",
+      "tournament": "Busan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Shimizu",
+      "score": "7(7)-6(5) 6-4"
     }
   ]
 }
