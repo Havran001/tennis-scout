@@ -3,50 +3,89 @@
   "gs_id": "58082",
   "player_name": "Alexander Bernard",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:55:01.793Z",
+  "updated": "2026-03-26T21:16:23.831Z",
   "matches": [
     {
-      "date": "20220918",
-      "tournament": "Columbus 2",
+      "date": "20220605",
+      "tournament": "M15 Cancun 7",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Mbithi",
+      "score": "7(7)-6(3) 1-6 10-5"
+    },
+    {
+      "date": "20220605",
+      "tournament": "M15 Cancun 7",
+      "surface": "Hard",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Anthrop",
-      "score": "3-6 5-7"
+      "opponent": "L. Patino",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20220517",
-      "tournament": "M15 Cancun 5",
+      "date": "20220604",
+      "tournament": "M15 Cancun 7",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bicknell",
-      "score": "6-4 6-3"
+      "result": "W",
+      "opponent": "L. Esquici",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20220513",
-      "tournament": "M15 Cancun 4",
+      "date": "20220604",
+      "tournament": "M15 Cancun 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Hsu",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20220528",
+      "tournament": "M15 Cancun 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Holt",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20220527",
+      "tournament": "M15 Cancun 6",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Bertran",
-      "score": "6-4 2-6 3-6"
+      "result": "W",
+      "opponent": "E. Clark",
+      "score": "7-5 4-6 6(8)-7(10)"
     },
     {
-      "date": "20220512",
-      "tournament": "M15 Cancun 4",
+      "date": "20220526",
+      "tournament": "M15 Cancun 6",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Chappell",
-      "score": "6-3 7(7)-6(4)"
+      "opponent": "L. Esquici",
+      "score": "6-2 6-0"
     },
     {
-      "date": "20220510",
-      "tournament": "M15 Cancun 4",
+      "date": "20220525",
+      "tournament": "M15 Cancun 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Ogura",
-      "score": "5-7 2-6"
+      "opponent": "S. Donarski",
+      "score": "6-1 6(4)-7(7) 4-6"
     },
     {
-      "date": "20211019",
-      "tournament": "ITF M15 Cancun 5 Men",
+      "date": "20211202",
+      "tournament": "ITF M15 Cancun 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,51 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. A. Gomez",
-      "score": "3-6 0-6"
+      "opponent": "T. Handel",
+      "score": "7-5 3-6 7(7)-6(5)"
     },
     {
-      "date": "20211015",
-      "tournament": "ITF M15 Cancun 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Langmo",
-      "score": "6-4 5-7 6-4"
-    },
-    {
-      "date": "20211014",
-      "tournament": "ITF M15 Cancun 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Flores",
-      "score": "4-6 6-4 5-7"
-    },
-    {
-      "date": "20211012",
-      "tournament": "ITF M15 Cancun 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Yamacita",
-      "score": "7-6 6-2"
-    },
-    {
-      "date": "20211006",
-      "tournament": "ITF M15 Cancun 3 Men",
+      "date": "20211124",
+      "tournament": "ITF M15 Cancun 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,38 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. A. Gomez",
-      "score": "6-2 5-7 3-6"
+      "opponent": "H. Ly Nam",
+      "score": "6(6)-7(8) 6-1 6-3"
     },
     {
-      "date": "20211001",
-      "tournament": "ITF M15 Cancun 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Kirchheimer",
-      "score": "5-7 6-4 3-6"
-    },
-    {
-      "date": "20210929",
-      "tournament": "ITF M15 Cancun 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Gomez",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20190619",
-      "tournament": "Orlando",
+      "date": "20201103",
+      "tournament": "ITF M15 Fayetteville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,8 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Zapp",
-      "score": "1-6 3-6"
+      "opponent": "P. Kypson",
+      "score": "6-1 6-2"
     }
   ]
 }
