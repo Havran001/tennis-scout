@@ -1,1 +1,35 @@
-{"player_id":"sx90","sack_id":"111806","name":"Fajing Sun","total":2,"matches":[{"id":"SnPi9meE","date":"20260326","tournament":"CHALLENGER MEN - SINGLES: Yokkaichi (Japan), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Imamura M.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"bXbJkBC7","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Yokkaichi (Japan), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Uchida K.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "sx90",
+  "gs_id": "28761",
+  "player_name": "Fajing Sun",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:45:36.501Z",
+  "matches": [
+    {
+      "date": "20250821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Harris",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Martin Tiffon",
+      "score": "6-3 6(5)-7(7) 1-4 ret."
+    }
+  ]
+}
