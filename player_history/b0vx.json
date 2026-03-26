@@ -1,26 +1,52 @@
 {
   "player_id": "b0vx",
-  "gs_id": "138520",
-  "player_name": "Alessio Basile",
+  "gs_id": "267294",
+  "player_name": "Pierluigi Basile",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:12:25.826Z",
+  "updated": "2026-03-26T21:18:38.831Z",
   "matches": [
     {
-      "date": "20251012",
-      "tournament": "Brussels",
+      "date": "20260129",
+      "tournament": "M25 Glasgow",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Basilashvili",
-      "score": "4-6 4-6"
+      "opponent": "G. Hussey",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20220920",
-      "tournament": "M15 Fayetteville",
+      "date": "20260128",
+      "tournament": "M25 Glasgow",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Massard",
+      "score": "6(2)-7(7) 6(5)-7(7)"
+    },
+    {
+      "date": "20260127",
+      "tournament": "M25 Glasgow",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Wallin",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250312",
+      "tournament": "M15 Monastir 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. M. Papoe",
-      "score": "6-0 6-0"
+      "opponent": "L. Rottoli",
+      "score": "3-6 6-4 6-3"
     }
   ]
 }
