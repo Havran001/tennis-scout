@@ -3,24 +3,37 @@
   "gs_id": "87179",
   "player_name": "Thomas Deschamps",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:10:08.622Z",
+  "updated": "2026-03-26T13:50:19.643Z",
   "matches": [
     {
-      "date": "20241020",
-      "tournament": "Brest",
+      "date": "20220328",
+      "tournament": "Saint Brieuc",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Shelbayh",
-      "score": "3-6 2-6"
+      "opponent": "Z. Bergs",
+      "score": "2-6 6-4 5-7"
     },
     {
-      "date": "20221023",
-      "tournament": "Brest",
+      "date": "20220327",
+      "tournament": "Saint Brieuc",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Mansouri",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20220206",
+      "tournament": "Cherbourg",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Ajdukovic",
-      "score": "0-6 4-6"
+      "opponent": "Z. Zhang",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20220123",
+      "tournament": "Quimper",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Furness",
+      "score": "3-6 6(6)-7(8)"
     }
   ]
 }
