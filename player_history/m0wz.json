@@ -1,1 +1,74 @@
-{"player_id":"m0wz","sack_id":"212841","name":"Lucas Marionneau","total":0,"matches":[]}
+{
+  "player_id": "m0wz",
+  "gs_id": "257095",
+  "player_name": "Lucas Marionneau",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:50:36.744Z",
+  "matches": [
+    {
+      "date": "20250217",
+      "tournament": "Pau",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Beauge",
+      "score": "6-3 3-6 6(6)-7(8)"
+    },
+    {
+      "date": "20250216",
+      "tournament": "Pau",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Damas",
+      "score": "7-5 4-6 6-3"
+    },
+    {
+      "date": "20250204",
+      "tournament": "Lille",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Hemery",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250203",
+      "tournament": "Lille",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Poullain",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250202",
+      "tournament": "Lille",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Masur",
+      "score": "3-6 6(4)-7(7)"
+    }
+  ]
+}
