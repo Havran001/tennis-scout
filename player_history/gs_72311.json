@@ -3,20 +3,46 @@
   "gs_id": "72311",
   "player_name": "Ivan Justo Guido",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:45:43.593Z",
+  "updated": "2026-03-26T13:09:31.626Z",
   "matches": [
     {
-      "date": "20190910",
-      "tournament": "Sevilla",
+      "date": "20250401",
+      "tournament": "Campinas",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Gutierrez-Ferrol",
-      "score": "6-1 6-2"
+      "opponent": "M. Kestelboim",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20240507",
+      "tournament": "Santos Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Popko",
+      "score": "0-6 5-7"
+    },
+    {
+      "date": "20210314",
+      "tournament": "ATP Acapulco",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Velotti",
+      "score": "6-0 6-1"
     }
   ]
 }
