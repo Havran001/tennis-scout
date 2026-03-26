@@ -1,1 +1,35 @@
-{"player_id":"j476","sack_id":"122554","name":"David Jorda Sanchis","total":1,"matches":[{"id":"WzfSZzE8","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Naples (Italy), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Sakellaridis S.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "j476",
+  "gs_id": "8529",
+  "player_name": "David Jorda Sanchis",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:43:24.507Z",
+  "matches": [
+    {
+      "date": "20240721",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Misolic",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240720",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Hardt",
+      "score": "7(7)-6(3) 5-7 7(7)-6(5)"
+    }
+  ]
+}
