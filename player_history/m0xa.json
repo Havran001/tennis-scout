@@ -1,1 +1,61 @@
-{"player_id":"m0xa","sack_id":"212930","name":"Mario Martinez Serrano","total":0,"matches":[]}
+{
+  "player_id": "m0xa",
+  "gs_id": "166730",
+  "player_name": "Alvaro Peiro Serrano",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:00:25.782Z",
+  "matches": [
+    {
+      "date": "20260304",
+      "tournament": "M15 Antalya 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vasilev",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20260226",
+      "tournament": "M15 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Andreescu",
+      "score": "6-2 3-6 6-4"
+    },
+    {
+      "date": "20260225",
+      "tournament": "M15 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Yazdani",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20251018",
+      "tournament": "M15 Castellon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Almazan Valiente",
+      "score": "6-4 6-2"
+    }
+  ]
+}
