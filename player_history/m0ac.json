@@ -1,1 +1,61 @@
-{"player_id":"m0ac","sack_id":"200484","name":"Rudolf Molleker","total":0,"matches":[]}
+{
+  "player_id": "m0ac",
+  "gs_id": "32779",
+  "player_name": "Rudolf Molleker",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:46:24.503Z",
+  "matches": [
+    {
+      "date": "20210718",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Giannessi",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20190819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Torpegaard",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20190715",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Balazs",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20190714",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Ornago",
+      "score": "6(3)-7(7) 7-5 6-2"
+    }
+  ]
+}
