@@ -1,1 +1,22 @@
-{"player_id":"m0en","sack_id":"207601","name":"Manuel Mazza","total":0,"matches":[]}
+{
+  "player_id": "m0en",
+  "gs_id": "40192",
+  "player_name": "Manuel Mazza",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:52.513Z",
+  "matches": [
+    {
+      "date": "20170801",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Balzerani",
+      "score": "6-3 6-1"
+    }
+  ]
+}
