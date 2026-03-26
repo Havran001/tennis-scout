@@ -1,1 +1,22 @@
-{"player_id":"b0jf","sack_id":"209417","name":"Alan Bojarski","total":0,"matches":[]}
+{
+  "player_id": "b0jf",
+  "gs_id": "83984",
+  "player_name": "Alan Bojarski",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:50:06.647Z",
+  "matches": [
+    {
+      "date": "20250615",
+      "tournament": "Poznan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alves",
+      "score": "1-6 4-6"
+    }
+  ]
+}
