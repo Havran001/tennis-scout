@@ -1,1 +1,100 @@
-{"player_id":"k0fw","sack_id":"209314","name":"Jan Kupcic","total":0,"matches":[]}
+{
+  "player_id": "k0fw",
+  "gs_id": "140928",
+  "player_name": "Jan Kupcic",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:17:21.810Z",
+  "matches": [
+    {
+      "date": "20260320",
+      "tournament": "M15 Monastir 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Walters",
+      "score": "7(15)-6(13) 4-6 6-0"
+    },
+    {
+      "date": "20260319",
+      "tournament": "M15 Monastir 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Bianchi",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20260311",
+      "tournament": "M15 Monastir 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Wiedenmann",
+      "score": "4-6 6-1 6-4"
+    },
+    {
+      "date": "20250314",
+      "tournament": "M15 Porec",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Fatic",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20250313",
+      "tournament": "M15 Porec",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Vrbensky",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250312",
+      "tournament": "M15 Porec",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. R. Scomparin",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20221207",
+      "tournament": "ITF M15 Trnava Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Guerrieri",
+      "score": "6-1 6-2"
+    }
+  ]
+}
