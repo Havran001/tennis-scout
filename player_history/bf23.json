@@ -1,1 +1,35 @@
-{"player_id":"bf23","sack_id":"105487","name":"Facundo Bagnis","total":0,"matches":[]}
+{
+  "player_id": "bf23",
+  "gs_id": "3225",
+  "player_name": "Facundo Bagnis",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:42:53.499Z",
+  "matches": [
+    {
+      "date": "20150720",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Trevisan",
+      "score": "7(7)-6(3) 1-6 6-1"
+    },
+    {
+      "date": "20150719",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Leonardi",
+      "score": "6-3 6-3"
+    }
+  ]
+}
