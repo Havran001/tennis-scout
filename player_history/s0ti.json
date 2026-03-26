@@ -3,37 +3,24 @@
   "gs_id": "84363",
   "player_name": "Philip Sekulic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:00:14.895Z",
+  "updated": "2026-03-26T23:50:51.899Z",
   "matches": [
     {
-      "date": "20220722",
-      "tournament": "M25 Gandia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Lopez Montagud",
-      "score": "6-1 4-1 ret."
-    },
-    {
-      "date": "20220721",
-      "tournament": "M25 Gandia",
+      "date": "20230526",
+      "tournament": "ITF M15 Monastir 21 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Nijboer",
-      "score": "6-3 4-6 6-2"
+      "result": "L",
+      "opponent": "N. Jadoun",
+      "score": "7(7)-6(5) 4-6 7(7)-6(2)"
     },
     {
-      "date": "20220720",
-      "tournament": "M25 Gandia",
+      "date": "20230524",
+      "tournament": "ITF M15 Monastir 21 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Martinez Arjona",
-      "score": "6-2 6-1"
+      "opponent": "L. Tessa",
+      "score": "5-7 6-1 6-3"
     },
     {
-      "date": "20220706",
-      "tournament": "M25 Marburg",
+      "date": "20230518",
+      "tournament": "ITF M15 Monastir 20 Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Heyman",
-      "score": "1-4 ret."
+      "opponent": "A. Gobat",
+      "score": "5-7 7(7)-6(5) 2-6"
+    },
+    {
+      "date": "20230517",
+      "tournament": "ITF M15 Monastir 20 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Reco",
+      "score": "3-6 4-6"
     }
   ]
 }
