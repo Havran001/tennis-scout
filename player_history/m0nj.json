@@ -1,1 +1,87 @@
-{"player_id":"m0nj","sack_id":"210747","name":"Lui Maxted","total":0,"matches":[]}
+{
+  "player_id": "m0nj",
+  "gs_id": "157437",
+  "player_name": "Lui Maxted",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:51:58.643Z",
+  "matches": [
+    {
+      "date": "20260113",
+      "tournament": "Glasgow",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Squire",
+      "score": "1-6 6-3 3-6"
+    },
+    {
+      "date": "20251111",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Azkara",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20251110",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Latak",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20251109",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Brown",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20250928",
+      "tournament": "Mouilleron-Le-Captif",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sels",
+      "score": "6-3 3-6 2-6"
+    },
+    {
+      "date": "20250608",
+      "tournament": "Ilkley",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Gojo",
+      "score": "7(7)-6(3) 6-2"
+    }
+  ]
+}
