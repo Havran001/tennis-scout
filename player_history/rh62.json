@@ -1,1 +1,35 @@
-{"player_id":"rh62","sack_id":"200346","name":"Mats Rosenkranz","total":0,"matches":[]}
+{
+  "player_id": "rh62",
+  "gs_id": "35123",
+  "player_name": "Mats Rosenkranz",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:26.515Z",
+  "matches": [
+    {
+      "date": "20190718",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. H. Tseng",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20190717",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Antonescu",
+      "score": "7-5 6-4"
+    }
+  ]
+}
