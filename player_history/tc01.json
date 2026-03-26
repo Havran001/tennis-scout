@@ -3,8 +3,21 @@
   "gs_id": "19155",
   "player_name": "Li Tu",
   "source": "goalserve-full",
-  "updated": "2026-03-26T08:44:18.500Z",
+  "updated": "2026-03-26T09:16:33.519Z",
   "matches": [
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Jodar",
+      "score": "6-2 6-1"
+    },
     {
       "date": "20250806",
       "tournament": "Cincinnati",
@@ -30,6 +43,97 @@
       "result": "W",
       "opponent": "J. Duckworth",
       "score": "6(4)-7(7) 4-6"
+    },
+    {
+      "date": "20250112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Lehecka",
+      "score": "1-6 6-3 3-6 6(1)-7(7)"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Alcaraz",
+      "score": "2-6 6-4 3-6 1-6"
+    },
+    {
+      "date": "20240822",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. De Jong",
+      "score": "6-3 1-6 5-7"
+    },
+    {
+      "date": "20240821",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Trungelliti",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20230111",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Lokoli",
+      "score": "1-6 7(8)-6(6) 2-6"
+    },
+    {
+      "date": "20230110",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Kovalik",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20210209",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Lopez",
+      "score": "6(1)-7(7) 6-4 7(7)-6(4) 6-4"
     }
   ]
 }
