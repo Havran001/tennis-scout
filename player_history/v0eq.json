@@ -3,11 +3,11 @@
   "gs_id": "119053",
   "player_name": "Edouard Villoslada",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:15:45.828Z",
+  "updated": "2026-03-26T22:07:11.861Z",
   "matches": [
     {
-      "date": "20260304",
-      "tournament": "M15 Torello",
+      "date": "20220621",
+      "tournament": "M25 Montauban",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Chen",
-      "score": "3-6 1-6"
+      "opponent": "T. Arribage",
+      "score": "7(9)-6(7) 6-4"
+    },
+    {
+      "date": "20210527",
+      "tournament": "ITF M15 Antalya 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Moreno De Alboran",
+      "score": "6-0 6-0"
+    },
+    {
+      "date": "20210526",
+      "tournament": "ITF M15 Antalya 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. E. Cetin",
+      "score": "6-0 6-0"
+    },
+    {
+      "date": "20210304",
+      "tournament": "ITF M25 Faro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Neuchrist",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20210303",
+      "tournament": "ITF M25 Faro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Roumane",
+      "score": "6-4 4-6 7(12)-6(10)"
     }
   ]
 }
