@@ -3,11 +3,37 @@
   "gs_id": "34428",
   "player_name": "Constantin Bittoun Kouzmine",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:08:00.626Z",
+  "updated": "2026-03-26T13:48:07.653Z",
   "matches": [
     {
-      "date": "20251019",
-      "tournament": "Brest",
+      "date": "20260223",
+      "tournament": "Saint Brieuc",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Broska",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20260222",
+      "tournament": "Saint Brieuc",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Vandermeersch",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20240707",
+      "tournament": "Braunschweig Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Faria",
-      "score": "2-6 2-6"
+      "opponent": "M. Geerts",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20240728",
-      "tournament": "Liberec Challenger Men",
+      "date": "20240505",
+      "tournament": "Prague Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Kucera",
-      "score": "3-6 4-6"
+      "opponent": "O. Krutykh",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20240721",
-      "tournament": "Tampere Challenger Men",
+      "date": "20240225",
+      "tournament": "New Delhi Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,12 +67,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Tamm",
-      "score": "6(4)-7(7) 6-4 6-3"
+      "opponent": "S. Vincent Ruggeri",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20230802",
-      "tournament": "Liberec Challenger Men",
+      "date": "20230724",
+      "tournament": "Segovia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Damas",
+      "score": "6-3 5-7 7(7)-6(2)"
+    },
+    {
+      "date": "20230723",
+      "tournament": "Segovia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Kadhe",
+      "score": "6-3 4-6 6-3"
+    },
+    {
+      "date": "20230711",
+      "tournament": "Braunschweig Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Comesana",
-      "score": "1-6 3-6"
+      "opponent": "T. Skatov",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20230731",
-      "tournament": "Liberec Challenger Men",
+      "date": "20230710",
+      "tournament": "Braunschweig Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Recek",
-      "score": "5-7 7(8)-6(6) 6-0"
+      "opponent": "L. Lane",
+      "score": "6(3)-7(7) 6-4 5-7"
     },
     {
-      "date": "20230730",
-      "tournament": "Liberec Challenger Men",
+      "date": "20230709",
+      "tournament": "Braunschweig Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -80,8 +132,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Rikl",
-      "score": "6-1 4-3 ret."
+      "opponent": "A. Reymond",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20230321",
+      "tournament": "Saint Brieuc Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kachmazov",
+      "score": "7-5 1-6 6-4"
+    },
+    {
+      "date": "20230320",
+      "tournament": "Saint Brieuc Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Olivetti",
+      "score": "6(8)-7(10) 6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20230319",
+      "tournament": "Saint Brieuc Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Pozzi",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20230212",
+      "tournament": "Cherbourg Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Yevseyev",
+      "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20190128",
+      "tournament": "Quimper",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Evans",
+      "score": "6-3 6-0"
     }
   ]
 }
