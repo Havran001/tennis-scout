@@ -1,1 +1,48 @@
-{"player_id":"n0cj","sack_id":"209318","name":"Petr Nesterov","total":0,"matches":[]}
+{
+  "player_id": "n0cj",
+  "gs_id": "116254",
+  "player_name": "Petr Nesterov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:26.625Z",
+  "matches": [
+    {
+      "date": "20250331",
+      "tournament": "Campinas",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. C. Prado Angelo",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20220926",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Madaras",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20220925",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Caruso",
+      "score": "7(7)-6(4) 6-4"
+    }
+  ]
+}
