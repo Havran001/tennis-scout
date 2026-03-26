@@ -3,11 +3,37 @@
   "gs_id": "56979",
   "player_name": "Lorenzo Lingua Lavallen Alejo",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:48:53.650Z",
+  "updated": "2026-03-26T16:11:37.709Z",
   "matches": [
     {
-      "date": "20250310",
-      "tournament": "Santiago",
+      "date": "20250429",
+      "tournament": "Porto Alegre",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Aboian",
+      "score": "3-6 0-0 ret."
+    },
+    {
+      "date": "20250119",
+      "tournament": "Punta Del Este",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Boscardin Dias",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240429",
+      "tournament": "Porto Alegre Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Feldbausch",
-      "score": "6-0 1-2 ret."
+      "opponent": "K. Uchida",
+      "score": "6(5)-7(7) 5-7"
     },
     {
-      "date": "20250309",
-      "tournament": "Santiago",
+      "date": "20240428",
+      "tournament": "Porto Alegre Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,38 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. De La Pena",
-      "score": "6-2 6-1"
+      "opponent": "N. Oliveira",
+      "score": "0-6 4-6"
     },
     {
-      "date": "20241110",
-      "tournament": "Montevideo",
+      "date": "20220617",
+      "tournament": "Corrientes",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. P. Paz",
-      "score": "6-3 6-2"
+      "opponent": "R. A. Burruchaga",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20240613",
-      "tournament": "Lima Challenger Men",
+      "date": "20220616",
+      "tournament": "Corrientes",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Sell",
-      "score": "6-2 6-4"
+      "result": "W",
+      "opponent": "F. Juarez",
+      "score": "7(8)-6(6) 6(5)-7(7) 5-7"
     },
     {
-      "date": "20240611",
-      "tournament": "Lima Challenger Men",
+      "date": "20220613",
+      "tournament": "Corrientes",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,34 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Zanellato",
-      "score": "6(3)-7(7) 3-6"
-    },
-    {
-      "date": "20230425",
-      "tournament": "Buenos Aires Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Navone",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20220620",
-      "tournament": "Buenos Aires",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Meligeni Alves",
-      "score": "6-2 7(8)-6(6)"
+      "opponent": "A. Huertas Del Pino Cordova",
+      "score": "1-6 1-6"
     }
   ]
 }
