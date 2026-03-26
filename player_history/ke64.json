@@ -3,11 +3,24 @@
   "gs_id": "7328",
   "player_name": "Stefan Kozlov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:59:20.881Z",
+  "updated": "2026-03-26T23:51:55.908Z",
   "matches": [
     {
-      "date": "20210906",
-      "tournament": "Kyiv",
+      "date": "20220920",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J.J. Wolf",
+      "score": "2-6 6(6)-7(8)"
+    },
+    {
+      "date": "20210914",
+      "tournament": "Cary 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Agamenone",
-      "score": "4-6 5-7"
+      "opponent": "Z. Svajda",
+      "score": "7-5 2-0 ret."
     }
   ]
 }
