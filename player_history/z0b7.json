@@ -1,1 +1,22 @@
-{"player_id":"z0b7","sack_id":"208890","name":"Richard Zusman","total":0,"matches":[]}
+{
+  "player_id": "z0b7",
+  "gs_id": "62803",
+  "player_name": "Richard Zusman",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:24.528Z",
+  "matches": [
+    {
+      "date": "20190515",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. De Krom",
+      "score": "2-6 2-6"
+    }
+  ]
+}
