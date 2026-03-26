@@ -3,20 +3,46 @@
   "gs_id": "8433",
   "player_name": "Bogdan Bobrov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:54:30.539Z",
+  "updated": "2026-03-26T10:30:33.553Z",
   "matches": [
     {
-      "date": "20120828",
-      "tournament": "Kenn",
+      "date": "20190913",
+      "tournament": "Sevilla",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Gutierrez-Ferrol",
+      "score": "6-1 3-6 6-3"
+    },
+    {
+      "date": "20190912",
+      "tournament": "Sevilla",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Skatov",
+      "score": "6-3 3-6 6-3"
+    },
+    {
+      "date": "20190911",
+      "tournament": "Sevilla",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Bartels",
-      "score": "6-4 6-3"
+      "result": "W",
+      "opponent": "B. Mardones",
+      "score": "7-5 6-2"
     }
   ]
 }
