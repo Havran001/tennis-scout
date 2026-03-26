@@ -1,1 +1,35 @@
-{"player_id":"s1bv","sack_id":"213591","name":"Billy Suarez","total":0,"matches":[]}
+{
+  "player_id": "s1bv",
+  "gs_id": "289008",
+  "player_name": "Billy Suarez",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:31.625Z",
+  "matches": [
+    {
+      "date": "20250721",
+      "tournament": "Tampere",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Kicker",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250720",
+      "tournament": "Tampere",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. N. Cazacu",
+      "score": "6-4 3-6 6-2"
+    }
+  ]
+}
