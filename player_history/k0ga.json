@@ -1,1 +1,100 @@
-{"player_id":"k0ga","sack_id":"209517","name":"Igor Kudriashov","total":0,"matches":[]}
+{
+  "player_id": "k0ga",
+  "gs_id": "84514",
+  "player_name": "Igor Kudriashov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:55:54.781Z",
+  "matches": [
+    {
+      "date": "20250131",
+      "tournament": "M15 Monastir 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Djuric",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250130",
+      "tournament": "M15 Monastir 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Petak",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20250129",
+      "tournament": "M15 Monastir 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Neuchrist",
+      "score": "6-3 5-7 6-4"
+    },
+    {
+      "date": "20240201",
+      "tournament": "ITF M15 Monastir 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Tabacco",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240131",
+      "tournament": "ITF M15 Monastir 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gobat",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20210309",
+      "tournament": "ITF M15 Kazan Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Zakharov",
+      "score": "6-4 2-6 3-6"
+    },
+    {
+      "date": "20200129",
+      "tournament": "M15 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dima",
+      "score": "2-6 4-6"
+    }
+  ]
+}
