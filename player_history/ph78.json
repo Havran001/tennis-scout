@@ -1,1 +1,22 @@
-{"player_id":"ph78","sack_id":"126106","name":"Ryan Peniston","total":0,"matches":[]}
+{
+  "player_id": "ph78",
+  "gs_id": "20897",
+  "player_name": "Ryan Peniston",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:44:40.535Z",
+  "matches": [
+    {
+      "date": "20220824",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Arnaldi",
+      "score": "2-6 6-2 2-6"
+    }
+  ]
+}
