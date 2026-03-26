@@ -1,1 +1,22 @@
-{"player_id":"h0bf","sack_id":"202475","name":"Philip Henning","total":0,"matches":[]}
+{
+  "player_id": "h0bf",
+  "gs_id": "37576",
+  "player_name": "Philip Henning",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:08:17.638Z",
+  "matches": [
+    {
+      "date": "20240901",
+      "tournament": "Shanghai Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Gombos",
+      "score": "6-3 1-6 5-7"
+    }
+  ]
+}
