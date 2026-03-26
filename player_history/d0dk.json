@@ -1,1 +1,74 @@
-{"player_id":"d0dk","sack_id":"208099","name":"Santiago De La Fuente","total":1,"matches":[{"id":"x0mUqB5D","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Remondy Pagotto V. H.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "d0dk",
+  "gs_id": "120687",
+  "player_name": "Santiago De La Fuente",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:50:46.645Z",
+  "matches": [
+    {
+      "date": "20251109",
+      "tournament": "Montevideo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20250622",
+      "tournament": "Lima",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Barreto Sanchez",
+      "score": "6-0 7(7)-6(2)"
+    },
+    {
+      "date": "20230423",
+      "tournament": "Buenos Aires Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Huertas Del Pino",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20220620",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Andreozzi",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20220619",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Baker",
+      "score": "6-3 6-3"
+    }
+  ]
+}
