@@ -3,11 +3,24 @@
   "gs_id": "31442",
   "player_name": "Patrik Niklas-Salminen",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:17:43.680Z",
+  "updated": "2026-03-26T17:43:32.740Z",
   "matches": [
     {
-      "date": "20200121",
-      "tournament": "Rennes",
+      "date": "20220320",
+      "tournament": "Lille",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Galarneau",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20200227",
+      "tournament": "Calgary",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Kamke",
-      "score": "6-4 6-1"
+      "opponent": "M. Cressy",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20200120",
-      "tournament": "Rennes",
+      "date": "20200224",
+      "tournament": "Calgary",
       "surface": "Hard",
       "level": "C",
       "round": "R64",
@@ -28,21 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Vanni",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20170516",
-      "tournament": "Vigevano",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "W. Trusendi",
-      "score": "6-1 6-0"
+      "opponent": "J. Grills",
+      "score": "2-6 4-6"
     }
   ]
 }
