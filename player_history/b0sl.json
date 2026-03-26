@@ -1,1 +1,35 @@
-{"player_id":"b0sl","sack_id":"212123","name":"Sergio Badini","total":0,"matches":[]}
+{
+  "player_id": "b0sl",
+  "gs_id": "195313",
+  "player_name": "Sergio Badini",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T22:15:19.863Z",
+  "matches": [
+    {
+      "date": "20250129",
+      "tournament": "M25 Antalya",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Martinez",
+      "score": "6(2)-7(7) 1-6"
+    },
+    {
+      "date": "20230716",
+      "tournament": "Trieste Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Voisin",
+      "score": "6-2 6-2"
+    }
+  ]
+}
