@@ -3,24 +3,37 @@
   "gs_id": "34880",
   "player_name": "Anton Matusevich",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:55:26.541Z",
+  "updated": "2026-03-26T10:31:48.557Z",
   "matches": [
     {
-      "date": "20190831",
-      "tournament": "Piombino",
+      "date": "20191020",
+      "tournament": "Getafe (Madrid)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Alvarez Varona",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20191019",
+      "tournament": "Getafe (Madrid)",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Gaston",
-      "score": "6-3 6(1)-7(7) 5-7"
+      "result": "W",
+      "opponent": "A. Garcia",
+      "score": "6-2 3-6 5-7"
     },
     {
-      "date": "20190830",
-      "tournament": "Piombino",
+      "date": "20191018",
+      "tournament": "Getafe (Madrid)",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Mertens",
-      "score": "6-3 6-2"
+      "opponent": "C. Boluda-Purkiss",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20190829",
-      "tournament": "Piombino",
+      "date": "20191017",
+      "tournament": "Getafe (Madrid)",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Furness",
-      "score": "2-6 6-4 6(3)-7(7)"
+      "opponent": "N. Moreno De Alboran",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20190827",
-      "tournament": "Piombino",
+      "date": "20191016",
+      "tournament": "Getafe (Madrid)",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,60 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Trocker",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20190731",
-      "tournament": "London - Roehampton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Moore",
-      "score": "7(7)-6(3) 6-4"
-    },
-    {
-      "date": "20190731",
-      "tournament": "London - Roehampton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Whitehouse",
-      "score": "6(6)-7(8) 6(6)-7(8)"
-    },
-    {
-      "date": "20180919",
-      "tournament": "London - Roehampton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Paris",
-      "score": "7-5 7-5"
-    },
-    {
-      "date": "20180918",
-      "tournament": "London - Roehampton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Ollert",
-      "score": "4-6 5-7"
+      "opponent": "A. Blanco Damea",
+      "score": "6-4 6-3"
     }
   ]
 }
