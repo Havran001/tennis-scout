@@ -1,1 +1,22 @@
-{"player_id":"e0ci","sack_id":"210569","name":"Sebastian Eriksson","total":1,"matches":[{"id":"MuXnvIzi","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Parizzia N./Thomas F.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "e0ci",
+  "gs_id": "177477",
+  "player_name": "Sebastian Eriksson",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:44.558Z",
+  "matches": [
+    {
+      "date": "20231014",
+      "tournament": "ATP Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Broady",
+      "score": "6-4 3-6 4-6"
+    }
+  ]
+}
