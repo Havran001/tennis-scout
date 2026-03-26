@@ -1,1 +1,35 @@
-{"player_id":"b0c7","sack_id":"202269","name":"Justin Barki","total":0,"matches":[]}
+{
+  "player_id": "b0c7",
+  "gs_id": "128218",
+  "player_name": "Justin Barki",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:51:00.645Z",
+  "matches": [
+    {
+      "date": "20230911",
+      "tournament": "Guangzhou Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. S. Yin",
+      "score": "6(3)-7(7) 5-7"
+    },
+    {
+      "date": "20230910",
+      "tournament": "Guangzhou Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Dong",
+      "score": "4-6 2-6"
+    }
+  ]
+}
