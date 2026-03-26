@@ -3,24 +3,50 @@
   "gs_id": "8171",
   "player_name": "Stefano Travaglia",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:05:10.895Z",
+  "updated": "2026-03-26T23:48:07.908Z",
   "matches": [
     {
-      "date": "20240731",
-      "tournament": "Luedenscheid",
+      "date": "20210925",
+      "tournament": "Bucharest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Lehecka",
+      "score": "6-3 7(7)-6(3)"
+    },
+    {
+      "date": "20210924",
+      "tournament": "Bucharest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Sachko",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20210922",
+      "tournament": "Bucharest",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Tabur",
-      "score": "5-7 6-2 6-1"
+      "result": "W",
+      "opponent": "F. Cobolli",
+      "score": "2-6 6-4 6-2"
     },
     {
-      "date": "20240730",
-      "tournament": "Luedenscheid",
+      "date": "20210920",
+      "tournament": "Bucharest",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,60 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Rodionov",
-      "score": "6-4 4-6 0-6"
-    },
-    {
-      "date": "20240723",
-      "tournament": "Verona",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Dellien",
-      "score": "7(7)-6(2) 5-7 1-6"
-    },
-    {
-      "date": "20230801",
-      "tournament": "Luedenscheid Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Squire",
-      "score": "7(7)-6(3) 1-0 ret."
-    },
-    {
-      "date": "20221013",
-      "tournament": "St. Tropez",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "U. Humbert",
-      "score": "4-6 7-5 3-6"
-    },
-    {
-      "date": "20221012",
-      "tournament": "St. Tropez",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Andreev",
-      "score": "6-4 6(6)-7(8) 6-4"
+      "opponent": "L. Rosol",
+      "score": "6-4 6-3"
     }
   ]
 }
