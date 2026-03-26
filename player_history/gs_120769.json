@@ -3,11 +3,11 @@
   "gs_id": "120769",
   "player_name": "Andre Saraiva Dos Santos Paulo",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:10:30.622Z",
+  "updated": "2026-03-26T13:50:46.646Z",
   "matches": [
     {
-      "date": "20251013",
-      "tournament": "Curitiba",
+      "date": "20260309",
+      "tournament": "Santiago",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Boscardin Dias",
-      "score": "3-6 3-6"
+      "opponent": "P. Sakamoto",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20251012",
-      "tournament": "Curitiba",
+      "date": "20260308",
+      "tournament": "Santiago",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,12 +28,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Milani",
-      "score": "1-6 1-6"
+      "opponent": "A. Huertas Del Pino Cordova",
+      "score": "6-4 3-6 4-6"
     },
     {
-      "date": "20250812",
-      "tournament": "Barranquilla",
+      "date": "20251119",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. A. Gomez",
+      "score": "6-1 7(8)-6(6)"
+    },
+    {
+      "date": "20251118",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Yunez",
+      "score": "6-4 1-6 7-5"
+    },
+    {
+      "date": "20250311",
+      "tournament": "Santiago",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,25 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. P. Ficovich",
-      "score": "6(3)-7(7) 0-6"
+      "opponent": "R. Olivo",
+      "score": "3-6 6-3 6(5)-7(7)"
     },
     {
-      "date": "20250505",
-      "tournament": "Santos",
+      "date": "20250310",
+      "tournament": "Santiago",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Pereira",
-      "score": "0-6 1-6"
+      "result": "W",
+      "opponent": "L. Aboian",
+      "score": "6-4 4-6 6-3"
     },
     {
-      "date": "20250504",
-      "tournament": "Santos",
+      "date": "20250309",
+      "tournament": "Santiago",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,38 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Camargo Lima",
-      "score": "6(3)-7(7) 6(5)-7(7)"
+      "opponent": "L. J. Rodriguez",
+      "score": "2-6 6-4 6(4)-7(7)"
     },
     {
-      "date": "20250331",
-      "tournament": "Campinas",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Mochizuki",
-      "score": "6-4 5-7 2-6"
-    },
-    {
-      "date": "20250330",
-      "tournament": "Campinas",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Pinto",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20231022",
-      "tournament": "Curitiba Challenger Men",
+      "date": "20241027",
+      "tournament": "Guayaquil",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -106,34 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Zanellato",
-      "score": "6-3 4-6 2-6"
+      "opponent": "G. Campana Lee",
+      "score": "6-4 4-6 5-7"
     },
     {
-      "date": "20231002",
-      "tournament": "Campinas Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Dutra Da Silva",
-      "score": "4-6 5-7"
-    },
-    {
-      "date": "20231001",
-      "tournament": "Campinas Challenger Men",
+      "date": "20231029",
+      "tournament": "Guayaquil Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Klier Junior",
-      "score": "2-6 6-4 6-4"
+      "result": "L",
+      "opponent": "N. Mejia",
+      "score": "2-6 6(5)-7(7)"
     }
   ]
 }
