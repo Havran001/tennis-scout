@@ -1,1 +1,100 @@
-{"player_id":"g0a0","sack_id":"200462","name":"Andrea Guerrieri","total":1,"matches":[{"id":"42Fhsy6S","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Naples (Italy), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Travaglia S.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g0a0",
+  "gs_id": "32599",
+  "player_name": "Andrea Guerrieri",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:10.515Z",
+  "matches": [
+    {
+      "date": "20190731",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ejupovic",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20180623",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Heller",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20180622",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ceppellini",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20180621",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Martin",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20180619",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Miceli",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20160615",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Eriksson",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20160614",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Baldi",
+      "score": "1-6 6-4 6-3"
+    }
+  ]
+}
