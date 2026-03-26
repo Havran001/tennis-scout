@@ -3,20 +3,59 @@
   "gs_id": "141533",
   "player_name": "Benjamin Torrealba",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:49:46.744Z",
+  "updated": "2026-03-26T22:13:25.859Z",
   "matches": [
     {
-      "date": "20260221",
-      "tournament": "Santiago",
+      "date": "20260128",
+      "tournament": "Concepcion",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. I. Justo",
+      "score": "2-6 6(4)-7(7)"
+    },
+    {
+      "date": "20250324",
+      "tournament": "Concepcion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Boscardin Dias",
+      "score": "6(4)-7(7) 7(7)-6(5) 4-6"
+    },
+    {
+      "date": "20250323",
+      "tournament": "Concepcion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Ribero",
+      "score": "7-5 7(7)-6(5)"
+    },
+    {
+      "date": "20240421",
+      "tournament": "Concepcion Challenger Men",
+      "surface": "Hard",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Dellien",
-      "score": "6-1 6-1"
+      "opponent": "L. Aboian",
+      "score": "0-6 3-6"
     }
   ]
 }
