@@ -1,1 +1,35 @@
-{"player_id":"f0fh","sack_id":"210153","name":"David Fix","total":0,"matches":[]}
+{
+  "player_id": "f0fh",
+  "gs_id": "162560",
+  "player_name": "David Fix",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:50:32.750Z",
+  "matches": [
+    {
+      "date": "20230820",
+      "tournament": "Augsburg Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Lamasine",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20221009",
+      "tournament": "Ismaning",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Zuk",
+      "score": "1-6 3-6"
+    }
+  ]
+}
