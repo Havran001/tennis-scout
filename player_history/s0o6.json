@@ -1,1 +1,100 @@
-{"player_id":"s0o6","sack_id":"209899","name":"Ilia Simakin","total":0,"matches":[]}
+{
+  "player_id": "s0o6",
+  "gs_id": "87409",
+  "player_name": "Ilia Simakin",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:07.628Z",
+  "matches": [
+    {
+      "date": "20250904",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Uchiyama",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20250903",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Zhukayev",
+      "score": "4-6 7(9)-6(7) 5-7"
+    },
+    {
+      "date": "20240906",
+      "tournament": "Istanbul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. De Jong",
+      "score": "7(7)-6(3) 5-7 3-6"
+    },
+    {
+      "date": "20240905",
+      "tournament": "Istanbul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Brouwer",
+      "score": "6-0 4-6 6-3"
+    },
+    {
+      "date": "20240903",
+      "tournament": "Istanbul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Vesely",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20240902",
+      "tournament": "Istanbul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. M. Ozdemir",
+      "score": "4-6 6-1 6-2"
+    },
+    {
+      "date": "20240901",
+      "tournament": "Istanbul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Sheyngezikht",
+      "score": "6-3 6-1"
+    }
+  ]
+}
