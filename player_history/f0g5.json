@@ -3,20 +3,46 @@
   "gs_id": "140094",
   "player_name": "Alexander Frusina",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:58:57.783Z",
+  "updated": "2026-03-26T21:12:27.826Z",
   "matches": [
     {
-      "date": "20240421",
-      "tournament": "Savannah Challenger Men",
+      "date": "20240918",
+      "tournament": "M15 Fayetteville",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. A. Gomez",
-      "score": "4-6 4-6"
+      "opponent": "M. Kuhar",
+      "score": "7-5 4-6 1-2 ret."
+    },
+    {
+      "date": "20240321",
+      "tournament": "ITF M15 Heraklion 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Butvilas",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240319",
+      "tournament": "ITF M15 Heraklion 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Phillips",
+      "score": "3-6 3-6"
     },
     {
       "date": "20240312",
@@ -32,30 +58,17 @@
       "score": "6(2)-7(7) 4-6"
     },
     {
-      "date": "20240307",
-      "tournament": "ITF M15 Heraklion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Skorilas",
-      "score": "7(10)-6(8) 6-3"
-    },
-    {
-      "date": "20240306",
-      "tournament": "ITF M15 Heraklion Men",
+      "date": "20220921",
+      "tournament": "M15 Melilla",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Puskar",
-      "score": "6-3 5-7 6(3)-7(7)"
+      "result": "L",
+      "opponent": "G. Elicha Navas",
+      "score": "6-2 6-0"
     }
   ]
 }
