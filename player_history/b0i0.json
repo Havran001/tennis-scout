@@ -1,1 +1,22 @@
-{"player_id":"b0i0","sack_id":"209060","name":"Alexander Bernard","total":0,"matches":[]}
+{
+  "player_id": "b0i0",
+  "gs_id": "58082",
+  "player_name": "Alexander Bernard",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:28:43.613Z",
+  "matches": [
+    {
+      "date": "20190605",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. De La Bassetiere",
+      "score": "2-6 4-6"
+    }
+  ]
+}
