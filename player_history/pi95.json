@@ -3,20 +3,33 @@
   "gs_id": "36191",
   "player_name": "David Pichler",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:17:32.517Z",
+  "updated": "2026-03-26T09:55:35.541Z",
   "matches": [
     {
-      "date": "20170718",
-      "tournament": "Kassel",
+      "date": "20180718",
+      "tournament": "Gandia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Giner",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20180717",
+      "tournament": "Gandia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Wehnelt",
-      "score": "5-7 6-0 6-1"
+      "result": "W",
+      "opponent": "B. Harris",
+      "score": "3-6 6-4 6-1"
     }
   ]
 }
