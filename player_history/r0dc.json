@@ -1,1 +1,87 @@
-{"player_id":"r0dc","sack_id":"208055","name":"Ajeet Rai","total":0,"matches":[]}
+{
+  "player_id": "r0dc",
+  "gs_id": "37631",
+  "player_name": "Ajeet Rai",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:42.606Z",
+  "matches": [
+    {
+      "date": "20250104",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Diaz Acosta",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20230108",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Monteiro",
+      "score": "7(7)-6(5) 3-6 4-6"
+    },
+    {
+      "date": "20230107",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Daniel",
+      "score": "7-5 0-6 6-3"
+    },
+    {
+      "date": "20200111",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Monteiro",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20190105",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Marcora",
+      "score": "3-6 7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20180105",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Daniel",
+      "score": "6-1 6-2"
+    }
+  ]
+}
