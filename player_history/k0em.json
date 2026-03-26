@@ -1,1 +1,48 @@
-{"player_id":"k0em","sack_id":"208386","name":"Matt Kuhar","total":2,"matches":[{"id":"IF4zrjuI","date":"20260324","tournament":"ITF MEN - SINGLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Petrovic A.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"IF4zrjuI","date":"20260324","tournament":"ITF MEN - SINGLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Petrovic A.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "k0em",
+  "gs_id": "77032",
+  "player_name": "Matt Kuhar",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:49:50.651Z",
+  "matches": [
+    {
+      "date": "20251110",
+      "tournament": "Drummondville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Poljak",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20251109",
+      "tournament": "Drummondville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ayeni",
+      "score": "7(8)-6(6) 2-6 0-3 ret."
+    },
+    {
+      "date": "20251005",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Vandecasteele",
+      "score": "6-2 6-3"
+    }
+  ]
+}
