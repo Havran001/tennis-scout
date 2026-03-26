@@ -3,24 +3,76 @@
   "gs_id": "40511",
   "player_name": "Matheus Pucinelli de Almeida",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:17:55.517Z",
+  "updated": "2026-03-26T12:28:35.661Z",
   "matches": [
     {
-      "date": "20230110",
-      "tournament": "Australian Open",
+      "date": "20240218",
+      "tournament": "ATP Rio de Janeiro",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "B",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Paire",
-      "score": "6-4 6(5)-7(7) 7-5"
+      "opponent": "C. Moutet",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20220824",
-      "tournament": "US Open",
+      "date": "20240217",
+      "tournament": "ATP Rio de Janeiro",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Martinez",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230218",
+      "tournament": "Rio de Janeiro",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. Cerundolo",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20220622",
+      "tournament": "Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Piros",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20220620",
+      "tournament": "Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. A. Olivieri",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20220516",
+      "tournament": "French Open",
       "surface": "Hard",
       "level": "G",
       "round": "QF",
@@ -28,8 +80,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Couacaud",
-      "score": "3-6 2-6"
+      "opponent": "R. Albot",
+      "score": "6-3 3-6 3-6"
+    },
+    {
+      "date": "20220213",
+      "tournament": "Rio de Janeiro",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. E. Galan",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220212",
+      "tournament": "Rio de Janeiro",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cecchinato",
+      "score": "7(7)-6(5) 2-6 4-6"
     }
   ]
 }
