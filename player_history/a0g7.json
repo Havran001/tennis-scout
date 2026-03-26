@@ -1,26 +1,52 @@
 {
   "player_id": "a0g7",
-  "gs_id": "76857",
-  "player_name": "Leonardo Aboian",
+  "gs_id": "79751",
+  "player_name": "Valerio Aboian",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:01:33.888Z",
+  "updated": "2026-03-26T23:53:57.913Z",
   "matches": [
     {
-      "date": "20240802",
-      "tournament": "ITF M25 Pitesti Men",
+      "date": "20251101",
+      "tournament": "M15 Ibague",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Fernandez",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20251031",
+      "tournament": "M15 Ibague",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Ratti",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20251030",
+      "tournament": "M15 Ibague",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. D. Ionel",
-      "score": "7(7)-6(4) 6-3"
+      "result": "W",
+      "opponent": "T. Martinez",
+      "score": "6-3 3-6 6-3"
     },
     {
-      "date": "20240801",
-      "tournament": "ITF M25 Pitesti Men",
+      "date": "20251029",
+      "tournament": "M15 Ibague",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Haliak",
-      "score": "3-6 2-6"
+      "opponent": "D. Pontoglio",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20240730",
-      "tournament": "ITF M25 Pitesti Men",
+      "date": "20251028",
+      "tournament": "M15 Ibague",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,177 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Ferrari",
-      "score": "6-2 7(7)-6(4)"
+      "opponent": "D. Salazar",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250327",
+      "tournament": "Concepcion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Soto",
+      "score": "6(5)-7(7) 6-3 1-6"
+    },
+    {
+      "date": "20250325",
+      "tournament": "Concepcion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Mena",
+      "score": "6-3 5-7 6-1"
+    },
+    {
+      "date": "20250324",
+      "tournament": "Concepcion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. A. Saraiva Dos Santos",
+      "score": "7(7)-6(5) 6-0"
+    },
+    {
+      "date": "20250323",
+      "tournament": "Concepcion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cossu",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20240731",
+      "tournament": "ITF M25 Pitesti Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Marti Pujolras",
+      "score": "6(4)-7(7) 7(7)-6(5) 7(7)-6(4)"
+    },
+    {
+      "date": "20240725",
+      "tournament": "ITF M25+H Bacau Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. M. Papoe",
+      "score": "6(6)-7(8) 4-6"
+    },
+    {
+      "date": "20240724",
+      "tournament": "ITF M25+H Bacau Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. R. Marinescu",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20240424",
+      "tournament": "Concepcion Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Olivieri",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240423",
+      "tournament": "Concepcion Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Uchida",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240220",
+      "tournament": "ITF M15 Villa Maria Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Otegui",
+      "score": "5-7 6-0 6-1"
+    },
+    {
+      "date": "20231103",
+      "tournament": "ITF M15 Villa Maria Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. F. Rubio Fierros",
+      "score": "6-1 7(9)-6(7)"
+    },
+    {
+      "date": "20231031",
+      "tournament": "ITF M15 Villa Maria Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Del Pino",
+      "score": "6-1 6(5)-7(7) 6-3"
+    },
+    {
+      "date": "20230728",
+      "tournament": "M15 Novi Sad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Artnak",
+      "score": "6-2 6-4"
     },
     {
       "date": "20230727",
@@ -53,9 +248,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Jovic",
-      "score": "5-7 4-6"
+      "result": "W",
+      "opponent": "T. Paris",
+      "score": "7-5 6-3"
     },
     {
       "date": "20230726",
@@ -67,12 +262,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Fomin",
-      "score": "0-6 0-6"
+      "opponent": "D. Obradovic",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20230707",
-      "tournament": "ITF M15 Sofia Men",
+      "date": "20230721",
+      "tournament": "ITF M25 Gandia Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -80,12 +275,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Dodig",
-      "score": "3-6 4-6"
+      "opponent": "M. A. Dellien Velasco",
+      "score": "6-1 7-5"
     },
     {
-      "date": "20230706",
-      "tournament": "ITF M15 Sofia Men",
+      "date": "20230720",
+      "tournament": "ITF M25 Gandia Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +288,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Pisaric",
-      "score": "1-6 4-6"
+      "opponent": "A. Garcia",
+      "score": "5-7 7-5 6-1"
     },
     {
-      "date": "20230704",
-      "tournament": "ITF M15 Sofia Men",
+      "date": "20230719",
+      "tournament": "ITF M25 Gandia Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,51 +301,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Sorger",
-      "score": "6-2 4-6 3-6"
+      "opponent": "R. Mazon-Hernandez",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20220904",
-      "tournament": "M15 Cairo 12",
+      "date": "20230713",
+      "tournament": "ITF M25 Uriage Men",
       "surface": "Hard",
       "level": "I",
-      "round": "F",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Wiedenmann",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20230711",
+      "tournament": "ITF M25 Uriage Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Safwat",
-      "score": "7(7)-6(4) 6-2"
+      "opponent": "L. Massard",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20220903",
-      "tournament": "M15 Cairo 12",
+      "date": "20230701",
+      "tournament": "ITF M15 Bergamo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. M. Noce",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20230701",
+      "tournament": "ITF M15 Bergamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. F. Vidal Azorin",
-      "score": "6-3 5-7 3-6"
+      "result": "L",
+      "opponent": "M. Kestelboim",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20220902",
-      "tournament": "M15 Cairo 12",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Elsayed",
-      "score": "6-3 4-6 6-3"
-    },
-    {
-      "date": "20220901",
-      "tournament": "M15 Cairo 12",
+      "date": "20230629",
+      "tournament": "ITF M15 Bergamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -158,12 +366,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Vojinovic",
-      "score": "6-2 6-4"
+      "opponent": "N. Catini",
+      "score": "6-1 3-0 ret."
     },
     {
-      "date": "20220831",
-      "tournament": "M15 Cairo 12",
+      "date": "20230628",
+      "tournament": "ITF M15 Bergamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,25 +379,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. El Sallaly",
-      "score": "7(9)-6(7) 6-4"
+      "opponent": "F. Speziali",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20220819",
-      "tournament": "M15 Cairo 10",
+      "date": "20230613",
+      "tournament": "ITF M25 Grasse Men",
+      "surface": "Grass",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Marmousez",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20221112",
+      "tournament": "M15 Cordoba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Lama",
+      "score": "3-6 6-4 1-6"
+    },
+    {
+      "date": "20221111",
+      "tournament": "M15 Cordoba",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. F. Vidal Azorin",
-      "score": "4-6 6-1 7-5"
+      "result": "W",
+      "opponent": "I. Monzon",
+      "score": "6-3 5-7 6-4"
     },
     {
-      "date": "20220818",
-      "tournament": "M15 Cairo 10",
+      "date": "20221110",
+      "tournament": "M15 Cordoba",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -197,12 +431,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Safwat",
+      "opponent": "F. De Dios",
       "score": "6-3 6-2"
     },
     {
-      "date": "20220817",
-      "tournament": "M15 Cairo 10",
+      "date": "20221109",
+      "tournament": "M15 Cordoba",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -210,51 +444,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Fantini",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20220812",
-      "tournament": "M25 Guayaquil",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. F. Descotte",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20220811",
-      "tournament": "M25 Guayaquil",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Rodriguez",
-      "score": "4-6 6-3 6-3"
-    },
-    {
-      "date": "20220809",
-      "tournament": "M25 Guayaquil",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Buitrago",
-      "score": "6-4 6(6)-7(8) 6-3"
+      "opponent": "M. Mouilleron Salvo",
+      "score": "6-4 6-3"
     },
     {
       "date": "20220805",
-      "tournament": "M25 Portoviejo",
+      "tournament": "M25 Pitesti",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -262,12 +457,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Soto",
-      "score": "3-6 6-3 4-6"
+      "opponent": "M. Echargui",
+      "score": "3-6 7-5 6-3"
     },
     {
       "date": "20220804",
-      "tournament": "M25 Portoviejo",
+      "tournament": "M25 Pitesti",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -275,12 +470,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Ribeiro",
-      "score": "3-6 6-3 1-6"
+      "opponent": "O. Crawford",
+      "score": "6-1 1-6 6(4)-7(7)"
     },
     {
       "date": "20220803",
-      "tournament": "M25 Portoviejo",
+      "tournament": "M25 Pitesti",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -288,8 +483,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Buitrago",
-      "score": "3-6 5-7"
+      "opponent": "A. M. Bejenaru",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20220729",
+      "tournament": "M25+H Bacau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Weis",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20220728",
+      "tournament": "M25+H Bacau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Madaras",
+      "score": "3-6 6-0 6-1"
+    },
+    {
+      "date": "20220727",
+      "tournament": "M25+H Bacau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. A. Andreescu",
+      "score": "2-6 6-2 2-6"
+    },
+    {
+      "date": "20220506",
+      "tournament": "M15 Cairo 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Schoolkate",
+      "score": "2-6 6-3 6-3"
     },
     {
       "date": "20220505",
@@ -300,9 +547,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Llanes",
-      "score": "6-3 5-7 3-6"
+      "result": "W",
+      "opponent": "S. Prechtel",
+      "score": "1-6 7-5 6-0"
     },
     {
       "date": "20220504",
@@ -314,8 +561,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Elsayed",
-      "score": "3-6 4-6"
+      "opponent": "G. Tresca",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20211104",
+      "tournament": "ITF M15 Brasilia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Huertas Del Pino",
+      "score": "3-6 7(8)-6(6) 2-6"
+    },
+    {
+      "date": "20211103",
+      "tournament": "ITF M15 Brasilia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Roveri Sidney",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20210924",
+      "tournament": "M15 Cairo 15",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. M. Noce",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20210923",
+      "tournament": "M15 Cairo 15",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Picchione",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20210922",
+      "tournament": "M15 Cairo 15",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Galoppini",
+      "score": "6-2 2-6 4-6"
+    },
+    {
+      "date": "20210916",
+      "tournament": "M15 Cairo 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tomasetto",
+      "score": "6-3 1-6 6-2"
+    },
+    {
+      "date": "20210915",
+      "tournament": "M15 Cairo 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Galoppini",
+      "score": "4-6 7(7)-6(1) 1-6"
+    },
+    {
+      "date": "20210909",
+      "tournament": "M15 Cairo 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tomasetto",
+      "score": "3-6 3-6"
     },
     {
       "date": "20210908",
@@ -326,9 +677,35 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Del Pino",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20210904",
+      "tournament": "ITF M15 Cairo 12 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "F. Tenti",
-      "score": "7-5 6-4"
+      "opponent": "A. Ragazzi",
+      "score": "4-6 6-1 6-4"
+    },
+    {
+      "date": "20210903",
+      "tournament": "ITF M15 Cairo 12 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K.M. Maamoun",
+      "score": "1-6 6-4 1-6"
     },
     {
       "date": "20210902",
@@ -339,9 +716,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Aboian",
-      "score": "6(4)-7(7) 6-3 6-3"
+      "result": "W",
+      "opponent": "L. Aboian",
+      "score": "7(7)-6(4) 3-6 3-6"
     },
     {
       "date": "20210901",
@@ -353,8 +730,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Bertuccioli",
-      "score": "3-6 4-6"
+      "opponent": "N. K. Sinha",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20210819",
+      "tournament": "ITF M15 Lodz Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Marcondes",
+      "score": "3-6 1-6"
     },
     {
       "date": "20210818",
@@ -365,13 +755,13 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Cias",
-      "score": "6-2 2-6 6-3"
+      "result": "W",
+      "opponent": "M. Mikula",
+      "score": "6-4 6-3"
     },
     {
       "date": "20210804",
-      "tournament": "ITF M15 Cairo 11 Men",
+      "tournament": "ITF M15 Novi Sad 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -379,12 +769,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Zakaryia",
-      "score": "4-6 2-6"
+      "opponent": "C. Broom",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20210729",
-      "tournament": "ITF M15 Cairo 10 Men",
+      "date": "20210408",
+      "tournament": "ITF M15 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -392,12 +782,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. L. Lingua Lavallen",
-      "score": "3-6 2-6"
+      "opponent": "L. Darderi",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20210728",
-      "tournament": "ITF M15 Cairo 10 Men",
+      "date": "20210407",
+      "tournament": "ITF M15 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -406,11 +796,11 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "I. Carou",
-      "score": "7(9)-6(7) 6-4"
+      "score": "6-2 6-0"
     },
     {
-      "date": "20210721",
-      "tournament": "ITF M15 Cairo 9 Men",
+      "date": "20210330",
+      "tournament": "ITF M15 Villa Maria Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -418,8 +808,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Perchicot",
-      "score": "2-6 4-6"
+      "opponent": "H. Casanova",
+      "score": "6-4 6-3"
     }
   ]
 }
