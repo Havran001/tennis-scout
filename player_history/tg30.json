@@ -1,1 +1,87 @@
-{"player_id":"tg30","sack_id":"144751","name":"Rigele Te","total":0,"matches":[]}
+{
+  "player_id": "tg30",
+  "gs_id": "26855",
+  "player_name": "Rigele Te",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:54:53.541Z",
+  "matches": [
+    {
+      "date": "20190818",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. J. Gutierrez",
+      "score": "7(7)-6(2) 7(7)-6(0)"
+    },
+    {
+      "date": "20190817",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Vives Marcos",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20190816",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Winter Lopez",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20190815",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. O. Mancineiras",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20190814",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Muniz Hidalgo",
+      "score": "6-4 3-6 1-6"
+    },
+    {
+      "date": "20190724",
+      "tournament": "Denia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. E. Esteve",
+      "score": "6-3 7(7)-6(5)"
+    }
+  ]
+}
