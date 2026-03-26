@@ -3,11 +3,11 @@
   "gs_id": "312535",
   "player_name": "Damien Wenger",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:18:48.830Z",
+  "updated": "2026-03-26T22:13:18.863Z",
   "matches": [
     {
-      "date": "20250620",
-      "tournament": "M25 Klosters",
+      "date": "20250502",
+      "tournament": "M15 Monastir 17",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. J. Schwaerzler",
-      "score": "6-1 6-4"
+      "opponent": "A. Ouakaa",
+      "score": "7(9)-6(7) 0-6 6-2"
     },
     {
-      "date": "20250619",
-      "tournament": "M25 Klosters",
+      "date": "20250501",
+      "tournament": "M15 Monastir 17",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Denolly",
-      "score": "7(7)-6(2) 6(2)-7(7) 5-7"
+      "opponent": "E. Wallart",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20250618",
-      "tournament": "M25 Klosters",
+      "date": "20250430",
+      "tournament": "M15 Monastir 17",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Wehnelt",
-      "score": "6-4 6-2"
+      "opponent": "N. Schell",
+      "score": "6(4)-7(7) 6-4 6-1"
+    },
+    {
+      "date": "20250305",
+      "tournament": "M25 Trimbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Colson",
+      "score": "6(8)-7(10) 2-6"
+    },
+    {
+      "date": "20240531",
+      "tournament": "M25 La Nucia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Sakamoto",
+      "score": "6-4 4-6 7(7)-6(3)"
+    },
+    {
+      "date": "20240530",
+      "tournament": "M25 La Nucia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Nikles",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240529",
+      "tournament": "M25 La Nucia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Avcibasi",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20210603",
+      "tournament": "M15 Shymkent 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Shevchenko",
+      "score": "6-2 2-6 7(8)-6(6)"
+    },
+    {
+      "date": "20210601",
+      "tournament": "M15 Shymkent 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Fomin",
+      "score": "6-0 2-0 ret."
     }
   ]
 }
