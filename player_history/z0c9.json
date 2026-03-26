@@ -1,1 +1,22 @@
-{"player_id":"z0c9","sack_id":"210505","name":"Marcel Zielinski","total":1,"matches":[{"id":"xx5bBfWq","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Tarragona (Spain), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Radulov I.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "z0c9",
+  "gs_id": "143030",
+  "player_name": "Marcel Zielinski",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:51:31.646Z",
+  "matches": [
+    {
+      "date": "20240616",
+      "tournament": "Poznan Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. A. Jecan",
+      "score": "4-6 6-3 3-6"
+    }
+  ]
+}
