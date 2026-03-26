@@ -1,1 +1,35 @@
-{"player_id":"h0cx","sack_id":"208069","name":"Max Houkes","total":1,"matches":[{"id":"tno3pLiT","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Alicante (Spain), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Merida Aguilar D.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "h0cx",
+  "gs_id": "76811",
+  "player_name": "Max Houkes",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:07:07.566Z",
+  "matches": [
+    {
+      "date": "20250201",
+      "tournament": "Rotterdam",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Brouwer",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230211",
+      "tournament": "Rotterdam",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Basilashvili",
+      "score": "6-4 6-4"
+    }
+  ]
+}
