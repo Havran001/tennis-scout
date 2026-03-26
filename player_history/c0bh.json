@@ -1,1 +1,48 @@
-{"player_id":"c0bh","sack_id":"206889","name":"Clement Chidekh","total":0,"matches":[]}
+{
+  "player_id": "c0bh",
+  "gs_id": "78970",
+  "player_name": "Clement Chidekh",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:43.539Z",
+  "matches": [
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J-L. Struff",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20250109",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Habib",
+      "score": "4-6 6-3 6(8)-7(10)"
+    },
+    {
+      "date": "20250107",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Kym",
+      "score": "6(0)-7(7) 6-3 6-2"
+    }
+  ]
+}
