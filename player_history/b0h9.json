@@ -1,1 +1,35 @@
-{"player_id":"b0h9","sack_id":"209967","name":"Antoine Berger","total":0,"matches":[]}
+{
+  "player_id": "b0h9",
+  "gs_id": "169610",
+  "player_name": "Antoine Berger",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:00:33.961Z",
+  "matches": [
+    {
+      "date": "20250827",
+      "tournament": "M15 Hong Kong",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Hazawa",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20230207",
+      "tournament": "ITF M15 Grenoble Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Colson",
+      "score": "6-2 6-2"
+    }
+  ]
+}
