@@ -1,1 +1,35 @@
-{"player_id":"o0d2","sack_id":"211489","name":"Maximilian Oezcelik","total":0,"matches":[]}
+{
+  "player_id": "o0d2",
+  "gs_id": "162539",
+  "player_name": "Maximilian Oezcelik",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:18:24.810Z",
+  "matches": [
+    {
+      "date": "20250925",
+      "tournament": "M15 Forbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gautier",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250924",
+      "tournament": "M15 Forbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Binet",
+      "score": "6(5)-7(7) 6-2 6-2"
+    }
+  ]
+}
