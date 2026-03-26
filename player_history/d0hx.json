@@ -3,50 +3,24 @@
   "gs_id": "126724",
   "player_name": "Dylan Dietrich",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:17:01.817Z",
+  "updated": "2026-03-26T23:04:14.191Z",
   "matches": [
     {
-      "date": "20240628",
-      "tournament": "ITF M25 Klosters Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Dellavedova",
-      "score": "6-4 3-6 6-4"
-    },
-    {
-      "date": "20240627",
-      "tournament": "ITF M25 Klosters Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Wenger",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20240625",
-      "tournament": "ITF M25 Klosters Men",
+      "date": "20240710",
+      "tournament": "ITF M25 The Hague Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Baltensperger",
-      "score": "0-6 2-6"
+      "result": "L",
+      "opponent": "N. Visker",
+      "score": "6-4 6-0"
     },
     {
-      "date": "20230706",
-      "tournament": "ITF M25 Klosters Men",
+      "date": "20230525",
+      "tournament": "M25 Most",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Kym",
-      "score": "6-1 3-6 6-0"
+      "opponent": "T. Stodder",
+      "score": "6-3 2-6 5-7"
     },
     {
-      "date": "20230704",
-      "tournament": "ITF M25 Klosters Men",
+      "date": "20230524",
+      "tournament": "M25 Most",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Sebesta",
-      "score": "4-6 6(5)-7(7)"
+      "opponent": "J. Pleva",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20230216",
-      "tournament": "ITF M15 Oberhaching Men",
+      "date": "20230427",
+      "tournament": "ITF M15 Antalya 13 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Gueymard Wayenburg",
-      "score": "3-6 4-6"
+      "opponent": "N. Madaras",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20230215",
-      "tournament": "ITF M15 Oberhaching Men",
+      "date": "20230425",
+      "tournament": "ITF M15 Antalya 13 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Jahn",
-      "score": "7-5 3-6 7(12)-6(10)"
+      "opponent": "A. Binda",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20221013",
-      "tournament": "M15 Heraklion 5",
+      "date": "20230315",
+      "tournament": "ITF M25 Trimbach Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Brunold",
+      "score": "7(9)-6(7) 6-3"
+    },
+    {
+      "date": "20220825",
+      "tournament": "M25 Caslano",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "4-6 1-6"
+      "opponent": "M. Echargui",
+      "score": "6-0 6-4"
     },
     {
-      "date": "20221012",
-      "tournament": "M15 Heraklion 5",
+      "date": "20220823",
+      "tournament": "M25 Caslano",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Simeunovic",
-      "score": "6(4)-7(7) 3-6"
+      "opponent": "F. Lucini",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20210817",
+      "tournament": "ITF M25 Muttenz Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Martin Tiffon",
+      "score": "6-2 6-0"
     }
   ]
 }
