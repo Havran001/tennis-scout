@@ -3,11 +3,37 @@
   "gs_id": "133403",
   "player_name": "Alessandro Spadola",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:58:45.779Z",
+  "updated": "2026-03-26T20:17:10.810Z",
   "matches": [
     {
-      "date": "20260304",
-      "tournament": "M15 Antalya 5",
+      "date": "20250805",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Palosi",
+      "score": "3-6 6(2)-7(7)"
+    },
+    {
+      "date": "20250220",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Castagnola",
+      "score": "5-7 6-3 6-3"
+    },
+    {
+      "date": "20250219",
+      "tournament": "M25 Trento",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -16,11 +42,11 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "M. Tammaro",
-      "score": "6(1)-7(7) 6-2 7(8)-6(6)"
+      "score": "3-6 6-3 6-3"
     },
     {
-      "date": "20260225",
-      "tournament": "M15 Antalya 4",
+      "date": "20230524",
+      "tournament": "ITF M15 Bucharest Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. C. Martin Manzano",
-      "score": "6-1 6-1"
+      "opponent": "P. Iamachkine",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20211104",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Thanos",
+      "score": "5-7 6-2 3-6"
+    },
+    {
+      "date": "20211103",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Cuceu",
+      "score": "2-6 3-6"
     }
   ]
 }
