@@ -3,7 +3,7 @@
   "gs_id": "59202",
   "player_name": "Natan Rodrigues",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:01:11.893Z",
+  "updated": "2026-03-26T23:53:48.918Z",
   "matches": [
     {
       "date": "20251030",
@@ -45,8 +45,21 @@
       "score": "7-5 7-5"
     },
     {
-      "date": "20240627",
-      "tournament": "ITF M15 Monastir 26 Men",
+      "date": "20241105",
+      "tournament": "M15 Recife",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. I. Justo",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20240620",
+      "tournament": "ITF M15 Monastir 25 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Poljicak",
-      "score": "6-4 6-2"
+      "opponent": "T. Pereira",
+      "score": "7(7)-6(2) 6-3"
     },
     {
-      "date": "20240626",
-      "tournament": "ITF M15 Monastir 26 Men",
+      "date": "20240618",
+      "tournament": "ITF M15 Monastir 25 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,51 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Boschmans",
-      "score": "6-1 6-1"
+      "opponent": "E. Kohlmann de Freitas",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20240614",
-      "tournament": "ITF M15 Monastir 24 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Donnet",
-      "score": "6(8)-7(10) 1-6"
-    },
-    {
-      "date": "20240613",
-      "tournament": "ITF M15 Monastir 24 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Sroka",
-      "score": "0-6 1-6"
-    },
-    {
-      "date": "20240612",
-      "tournament": "ITF M15 Monastir 24 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Ouakaa",
-      "score": "4-6 6-3 6-2"
-    },
-    {
-      "date": "20210720",
-      "tournament": "ITF M25 Idanha-a-Nova 2 Men",
+      "date": "20210921",
+      "tournament": "ITF M15 Recife Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,47 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Faria",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20210713",
-      "tournament": "ITF M25 Idanha-a-Nova Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Niki",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20210707",
-      "tournament": "M15 Almada",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Batista",
-      "score": "5-7 1-1 ret."
-    },
-    {
-      "date": "20201117",
-      "tournament": "M15 Heraklion 10",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Andreev",
-      "score": "0-6 1-6"
+      "opponent": "G. Heide",
+      "score": "6-1 6-3"
     }
   ]
 }
