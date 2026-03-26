@@ -1,1 +1,35 @@
-{"player_id":"p0g5","sack_id":"209251","name":"Stefan Popovic","total":1,"matches":[{"id":"6usndafE","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Ajdukovic D./Kalender A.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "p0g5",
+  "gs_id": "79754",
+  "player_name": "Stefan Popovic",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:51.654Z",
+  "matches": [
+    {
+      "date": "20230807",
+      "tournament": "Banja Luka",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Oberleitner",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230807",
+      "tournament": "Banja Luka",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zekic",
+      "score": "3-6 0-6"
+    }
+  ]
+}
