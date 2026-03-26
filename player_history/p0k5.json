@@ -3,24 +3,89 @@
   "gs_id": "123368",
   "player_name": "Theo Papamalamis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:15:50.832Z",
+  "updated": "2026-03-26T23:03:40.788Z",
   "matches": [
     {
-      "date": "20250628",
-      "tournament": "M15 Alkmaar",
+      "date": "20250827",
+      "tournament": "M15 Monastir 32",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Molder",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20250821",
+      "tournament": "M15 Monastir 31",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Maxted",
+      "score": "6-1 6(3)-7(7) 6(6)-7(8)"
+    },
+    {
+      "date": "20250819",
+      "tournament": "M15 Monastir 31",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Naydenov",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20241211",
+      "tournament": "M15 Antalya 19",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Ujvary",
+      "score": "4-6 6(3)-7(7)"
+    },
+    {
+      "date": "20240310",
+      "tournament": "ITF M15 Poitiers Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Salle",
+      "score": "6(7)-7(9) 6-4 6-2"
+    },
+    {
+      "date": "20240309",
+      "tournament": "ITF M15 Poitiers Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Marmousez",
-      "score": "6-4 6-1"
+      "result": "W",
+      "opponent": "S. Gueymard Wayenburg",
+      "score": "7-5 3-6 6-4"
     },
     {
-      "date": "20250627",
-      "tournament": "M15 Alkmaar",
+      "date": "20240308",
+      "tournament": "ITF M15 Poitiers Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Forger",
-      "score": "4-6 4-6"
+      "opponent": "A. McHugh",
+      "score": "5-7 1-6"
     },
     {
-      "date": "20250626",
-      "tournament": "M15 Alkmaar",
+      "date": "20240307",
+      "tournament": "ITF M15 Poitiers Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Bastiaansen",
-      "score": "3-6 4-6"
+      "opponent": "A. Aubriot",
+      "score": "3-6 6-1 6-2"
     },
     {
-      "date": "20250624",
-      "tournament": "M15 Alkmaar",
+      "date": "20240305",
+      "tournament": "ITF M15 Poitiers Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,51 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Albieri",
-      "score": "2-6 4-6"
+      "opponent": "N. Oberleitner",
+      "score": "5-7 2-6"
     },
     {
-      "date": "20240213",
-      "tournament": "ITF M15 Oberhaching Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Poljicak",
-      "score": "6-3 6(5)-7(7) 6-2"
-    },
-    {
-      "date": "20240207",
-      "tournament": "M15 Grenoble",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bouquier",
-      "score": "4-6 7-5 7(7)-6(4)"
-    },
-    {
-      "date": "20230913",
-      "tournament": "ITF M25+H Plaisir Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Little",
-      "score": "4-6 6-4 7(7)-6(3)"
-    },
-    {
-      "date": "20220929",
-      "tournament": "M15 Forbach",
+      "date": "20220714",
+      "tournament": "M25 Uriage",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Kym",
-      "score": "6(3)-7(7) 3-6"
+      "opponent": "L. Bouquet",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20220927",
-      "tournament": "M15 Forbach",
+      "date": "20220712",
+      "tournament": "M25 Uriage",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Zima",
-      "score": "6(5)-7(7) 6-3 3-6"
+      "opponent": "A. Gea",
+      "score": "6-1 1-6 4-6"
     },
     {
-      "date": "20220913",
-      "tournament": "M25+H Plaisir",
+      "date": "20220316",
+      "tournament": "M15 Poitiers",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,8 +158,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gautier",
-      "score": "3-6 2-6"
+      "opponent": "P. Delage",
+      "score": "6-3 6-3"
     }
   ]
 }
