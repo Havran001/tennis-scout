@@ -3,11 +3,11 @@
   "gs_id": "140094",
   "player_name": "Alexander Frusina",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:51:14.654Z",
+  "updated": "2026-03-26T18:58:57.783Z",
   "matches": [
     {
-      "date": "20240414",
-      "tournament": "Tallahassee Challenger Men",
+      "date": "20240421",
+      "tournament": "Savannah Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,21 +15,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Melzer",
-      "score": "6-2 6-4"
+      "opponent": "F. A. Gomez",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20240407",
-      "tournament": "Sarasota Challenger Men",
+      "date": "20240312",
+      "tournament": "ITF M15 Heraklion 2 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. A. Boitan",
-      "score": "6-3 6-4"
+      "opponent": "O. Shimanov",
+      "score": "6(2)-7(7) 4-6"
+    },
+    {
+      "date": "20240307",
+      "tournament": "ITF M15 Heraklion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Skorilas",
+      "score": "7(10)-6(8) 6-3"
+    },
+    {
+      "date": "20240306",
+      "tournament": "ITF M15 Heraklion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Puskar",
+      "score": "6-3 5-7 6(3)-7(7)"
     }
   ]
 }
