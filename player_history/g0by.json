@@ -3,11 +3,24 @@
   "gs_id": "57472",
   "player_name": "Daniil Glinka",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:35:50.674Z",
+  "updated": "2026-03-26T15:21:30.767Z",
   "matches": [
     {
-      "date": "20250714",
-      "tournament": "Pozoblanco",
+      "date": "20240407",
+      "tournament": "Morelos Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hernandez",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20230417",
+      "tournament": "Morelos Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Shah",
-      "score": "6-4 6-3"
+      "opponent": "M. Copil",
+      "score": "6(7)-7(9) 6-4 5-7"
     },
     {
-      "date": "20250713",
-      "tournament": "Pozoblanco",
+      "date": "20230416",
+      "tournament": "Morelos Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Barroso Campos",
-      "score": "6-4 6-4"
+      "opponent": "A. Rai",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20230423",
-      "tournament": "Savannah Challenger Men",
+      "date": "20210606",
+      "tournament": "Almaty",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Jacquet",
-      "score": "4-6 7(7)-6(4) 7-5"
+      "opponent": "J. De Jong",
+      "score": "3-6 3-6"
     }
   ]
 }
