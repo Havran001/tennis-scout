@@ -1,1 +1,61 @@
-{"player_id":"m0wl","sack_id":"212748","name":"Anas Mazdrashki","total":0,"matches":[]}
+{
+  "player_id": "m0wl",
+  "gs_id": "240988",
+  "player_name": "Anas Mazdrashki",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:47:38.743Z",
+  "matches": [
+    {
+      "date": "20250928",
+      "tournament": "Villena",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Potenza",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250812",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20250811",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Agamenone",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250810",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Chazal",
+      "score": "6-3 ret."
+    }
+  ]
+}
