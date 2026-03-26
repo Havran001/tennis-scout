@@ -1,1 +1,126 @@
-{"player_id":"n561","sack_id":"104729","name":"Ivan Nedelko","total":0,"matches":[]}
+{
+  "player_id": "n561",
+  "gs_id": "2037",
+  "player_name": "Ivan Nedelko",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:15:34.515Z",
+  "matches": [
+    {
+      "date": "20180821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Gerasimov",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20120704",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Minar",
+      "score": "2-0 ret."
+    },
+    {
+      "date": "20120518",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Samper-Montana",
+      "score": "6(6)-7(8) 6-3 6-4"
+    },
+    {
+      "date": "20120517",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Vivanco-Guzman",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20120515",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Zaitcev",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20120511",
+      "tournament": "Lleida",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Diez",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20120510",
+      "tournament": "Lleida",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Shatskiy",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20120508",
+      "tournament": "Lleida",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Poch-Gradin",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20120428",
+      "tournament": "Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sieber",
+      "score": "4-6 0-2 ret."
+    }
+  ]
+}
