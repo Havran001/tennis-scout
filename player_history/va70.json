@@ -1,1 +1,22 @@
-{"player_id":"va70","sack_id":"200218","name":"Mate Valkusz","total":0,"matches":[]}
+{
+  "player_id": "va70",
+  "gs_id": "31115",
+  "player_name": "Mate Valkusz",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:45:56.500Z",
+  "matches": [
+    {
+      "date": "20230822",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Atmane",
+      "score": "2-6 7(8)-6(6) 3-6"
+    }
+  ]
+}
