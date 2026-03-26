@@ -3,33 +3,72 @@
   "gs_id": "173351",
   "player_name": "Rudy Quan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:05:58.568Z",
+  "updated": "2026-03-26T13:11:58.624Z",
   "matches": [
     {
-      "date": "20250304",
-      "tournament": "Indian Wells",
+      "date": "20251005",
+      "tournament": "Fairfield",
       "surface": "Hard",
-      "level": "B",
-      "round": "F",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Watanuki",
-      "score": "3-6 2-6"
+      "opponent": "G. Grumet",
+      "score": "4-6 6-3 2-6"
     },
     {
-      "date": "20250303",
-      "tournament": "Indian Wells",
+      "date": "20241010",
+      "tournament": "Fairfield",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Quinn",
+      "score": "3-6 6-2 2-6"
+    },
+    {
+      "date": "20241008",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Den Ouden",
+      "score": "6-3 3-6 4-6"
+    },
+    {
+      "date": "20241007",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Smith",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20241006",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. A. Gomez",
-      "score": "6-4 7-5"
+      "opponent": "P. Zahraj",
+      "score": "7-5 6-1"
     }
   ]
 }
