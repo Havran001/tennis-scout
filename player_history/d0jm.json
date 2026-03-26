@@ -1,1 +1,35 @@
-{"player_id":"d0jm","sack_id":"208908","name":"Rafael De Alba","total":0,"matches":[]}
+{
+  "player_id": "d0jm",
+  "gs_id": "151909",
+  "player_name": "Rafael De Alba",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:32.636Z",
+  "matches": [
+    {
+      "date": "20260221",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Shimabukuro",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250223",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Diallo",
+      "score": "6-1 6-1"
+    }
+  ]
+}
