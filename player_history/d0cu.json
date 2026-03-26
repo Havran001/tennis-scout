@@ -1,1 +1,48 @@
-{"player_id":"d0cu","sack_id":"207893","name":"Daniel De Jonge","total":1,"matches":[{"id":"QNEjrUy1","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Parizzia N.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "d0cu",
+  "gs_id": "59405",
+  "player_name": "Daniel De Jonge",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:08.551Z",
+  "matches": [
+    {
+      "date": "20191011",
+      "tournament": "Bad Salzdetfurth",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Konecny",
+      "score": "6-3 3-6 7-5"
+    },
+    {
+      "date": "20191010",
+      "tournament": "Bad Salzdetfurth",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Rosenkranz",
+      "score": "6(9)-7(11) 4-6"
+    },
+    {
+      "date": "20191009",
+      "tournament": "Bad Salzdetfurth",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Patzanovsky",
+      "score": "6(5)-7(7) 6-4 6-4"
+    }
+  ]
+}
