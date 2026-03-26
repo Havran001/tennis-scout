@@ -1,13 +1,13 @@
 {
   "player_id": "p0ht",
-  "gs_id": "3516",
-  "player_name": "Scott Jones",
+  "gs_id": "76917",
+  "player_name": "Maximus Jones",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:33:07.667Z",
+  "updated": "2026-03-26T15:19:41.713Z",
   "matches": [
     {
-      "date": "20240130",
-      "tournament": "Burnie",
+      "date": "20251118",
+      "tournament": "Yokohama",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,34 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Jasika",
-      "score": "6-4 6-4"
+      "opponent": "R. Taguchi",
+      "score": "7(7)-6(3) 6-2"
     },
     {
-      "date": "20240128",
-      "tournament": "Burnie",
+      "date": "20251113",
+      "tournament": "Kobe",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Shimabukuro",
+      "score": "3-6 6-3 6-4"
+    },
+    {
+      "date": "20251111",
+      "tournament": "Kobe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Braithwaite",
-      "score": "6-1 7(7)-6(4)"
+      "opponent": "W. K. Leong M.",
+      "score": "6(6)-7(8) 6-3 1-6"
     },
     {
-      "date": "20240128",
-      "tournament": "Burnie",
+      "date": "20250625",
+      "tournament": "Lima",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. C. Prado Angelo",
+      "score": "3-6 7-5 3-6"
+    },
+    {
+      "date": "20250623",
+      "tournament": "Lima",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Ichikawa",
-      "score": "5-7 1-6"
+      "opponent": "R. Olivo",
+      "score": "7(7)-6(2) 6-4"
     }
   ]
 }
