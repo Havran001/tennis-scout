@@ -3,11 +3,11 @@
   "gs_id": "127528",
   "player_name": "Noel Larwig",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:56:35.784Z",
+  "updated": "2026-03-26T21:12:19.827Z",
   "matches": [
     {
-      "date": "20260128",
-      "tournament": "M25 Nussloch",
+      "date": "20260106",
+      "tournament": "M15 Manacor",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,64 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Masur",
-      "score": "3-6 2-6"
+      "opponent": "I. Ivanov",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20250213",
-      "tournament": "M15 Antalya 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Santillan",
-      "score": "6-2 4-6 6-1"
-    },
-    {
-      "date": "20250212",
-      "tournament": "M15 Antalya 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Lipp",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20231015",
-      "tournament": "Hamburg Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Jorda Sanchis",
-      "score": "6-3 3-6 4-6"
-    },
-    {
-      "date": "20221016",
-      "tournament": "Hamburg",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Kym",
-      "score": "6-0 6-2"
-    },
-    {
-      "date": "20220126",
-      "tournament": "M15 Monastir 3",
+      "date": "20250312",
+      "tournament": "M15 Antalya 8",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +28,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Tajima",
-      "score": "6-3 6-1"
+      "opponent": "J. Sperle",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20230920",
+      "tournament": "M25 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Vanshelboim",
+      "score": "2-6 3-6"
     }
   ]
 }
