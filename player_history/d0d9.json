@@ -3,11 +3,37 @@
   "gs_id": "90054",
   "player_name": "Stefano D'Agostino",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:02:52.885Z",
+  "updated": "2026-03-26T23:51:06.898Z",
   "matches": [
     {
-      "date": "20250729",
-      "tournament": "M25 Bolzano",
+      "date": "20250605",
+      "tournament": "M15 Monastir 22",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Fernandez Flores",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20250604",
+      "tournament": "M15 Monastir 22",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Blaydes",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M15 Monastir 21",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Guerrieri",
-      "score": "6(8)-7(10) 6(4)-7(7)"
+      "opponent": "G. Elicha Navas",
+      "score": "7(7)-6(3) 6(7)-7(9) 4-6"
     },
     {
-      "date": "20250625",
-      "tournament": "M15 Bergamo",
+      "date": "20250520",
+      "tournament": "M15 Monastir 20",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,51 +54,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Rottgering",
-      "score": "5-7 3-6"
+      "opponent": "L. Poertner",
+      "score": "7(7)-6(3) 6-3"
     },
     {
-      "date": "20240730",
-      "tournament": "ITF M25 Bolzano Men",
+      "date": "20241030",
+      "tournament": "M15 Selva Gardena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Morolli",
+      "score": "6(4)-7(7) 7-5 6-2"
+    },
+    {
+      "date": "20241028",
+      "tournament": "M15 Selva Gardena",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Malgaroli",
-      "score": "6-0 6-4"
+      "result": "W",
+      "opponent": "L. Rossi",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20240717",
-      "tournament": "M25 Telfs",
+      "date": "20240824",
+      "tournament": "ITF M15 Pirot Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Alves",
-      "score": "2-6 2-6"
+      "opponent": "G. K. Bonsach",
+      "score": "2-6 6-2 3-6"
     },
     {
-      "date": "20240628",
-      "tournament": "ITF M15 Bergamo Men",
+      "date": "20240823",
+      "tournament": "ITF M15 Pirot Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. P. Paz",
-      "score": "6(3)-7(7) 3-6"
+      "result": "W",
+      "opponent": "V. Radjenovic",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20240627",
-      "tournament": "ITF M15 Bergamo Men",
+      "date": "20240822",
+      "tournament": "ITF M15 Pirot Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Virgili Berini",
-      "score": "6-2 4-1 ret."
+      "opponent": "I. Kazakov",
+      "score": "6(4)-7(7) 3-6"
     },
     {
-      "date": "20240625",
-      "tournament": "ITF M15 Bergamo Men",
+      "date": "20240820",
+      "tournament": "ITF M15 Pirot Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Bosio",
-      "score": "6(5)-7(7) 6-0 4-6"
+      "opponent": "M. Stanisavljevic",
+      "score": "0-6 2-6"
     },
     {
-      "date": "20240320",
-      "tournament": "ITF M15 Opatija Men",
+      "date": "20231031",
+      "tournament": "ITF M15 Selva Gardena Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +145,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Bielinskyi",
-      "score": "4-6 2-6"
+      "opponent": "G. Oradini",
+      "score": "6-2 6-0"
     },
     {
-      "date": "20240314",
-      "tournament": "ITF M15 Rovinj Men",
+      "date": "20231018",
+      "tournament": "ITF M15 Monastir 42 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Mansouri",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20231011",
+      "tournament": "ITF M15 Monastir 41 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ouakaa",
+      "score": "1-6 6-1 3-6"
+    },
+    {
+      "date": "20221102",
+      "tournament": "M15 Selva Gardena",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -119,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Arnaboldi",
-      "score": "1-6 2-6"
+      "opponent": "M. Veldheer",
+      "score": "3-6 6-3 6(4)-7(7)"
     },
     {
-      "date": "20240313",
-      "tournament": "ITF M15 Rovinj Men",
+      "date": "20221101",
+      "tournament": "M15 Selva Gardena",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Kupcic",
-      "score": "7(7)-6(5) 6-2"
+      "opponent": "D. Langmajer",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20230731",
-      "tournament": "ITF M25 Bolzano Men",
+      "date": "20220510",
+      "tournament": "M15 Antalya 14",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,12 +210,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Ricca",
-      "score": "7(7)-6(4) 5-7 3-6"
+      "opponent": "J. Kym",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20230627",
-      "tournament": "ITF M15 Bergamo Men",
+      "date": "20211020",
+      "tournament": "ITF M15 Monastir 40 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,34 +223,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Ragazzi",
-      "score": "4-6 6-4 6(4)-7(7)"
-    },
-    {
-      "date": "20220504",
-      "tournament": "M15 Antalya 13",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Heller",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20220427",
-      "tournament": "M15 Antalya 12",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Heller",
-      "score": "6-4 6-2"
+      "opponent": "S. Rawat",
+      "score": "3-6 6-1 6-4"
     }
   ]
 }
