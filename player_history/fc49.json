@@ -3,11 +3,24 @@
   "gs_id": "31061",
   "player_name": "Giovanni Fonio",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:16:59.518Z",
+  "updated": "2026-03-26T09:55:03.540Z",
   "matches": [
     {
-      "date": "20180801",
-      "tournament": "Bolzano",
+      "date": "20240713",
+      "tournament": "ATP Gstaad",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Halys",
+      "score": "1-6 7(8)-6(6) 6-2"
+    },
+    {
+      "date": "20190904",
+      "tournament": "Trieste",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Souza",
-      "score": "7(7)-6(4) 6(6)-7(8) 6-3"
+      "opponent": "S. Doumbia",
+      "score": ""
     },
     {
-      "date": "20180731",
-      "tournament": "Bolzano",
+      "date": "20190903",
+      "tournament": "Trieste",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Iannaccone",
-      "score": "6-3 6-0"
+      "opponent": "L. Tomasetto",
+      "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20150825",
+      "tournament": "Piombino",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Borgo",
+      "score": "6-4 6-4"
     }
   ]
 }
