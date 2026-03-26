@@ -1,1 +1,35 @@
-{"player_id":"k0np","sack_id":"213605","name":"Jack Kennedy","total":0,"matches":[]}
+{
+  "player_id": "k0np",
+  "gs_id": "263930",
+  "player_name": "Jack Kennedy",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:48.578Z",
+  "matches": [
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. A. Tirante",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240820",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Marterer",
+      "score": "3-6 4-6"
+    }
+  ]
+}
