@@ -1,1 +1,35 @@
-{"player_id":"f0g5","sack_id":"210474","name":"Alexander Frusina","total":0,"matches":[]}
+{
+  "player_id": "f0g5",
+  "gs_id": "140094",
+  "player_name": "Alexander Frusina",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:51:14.654Z",
+  "matches": [
+    {
+      "date": "20240414",
+      "tournament": "Tallahassee Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Melzer",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20240407",
+      "tournament": "Sarasota Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Boitan",
+      "score": "6-3 6-4"
+    }
+  ]
+}
