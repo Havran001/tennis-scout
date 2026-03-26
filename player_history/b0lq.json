@@ -3,11 +3,24 @@
   "gs_id": "115760",
   "player_name": "Petr Bar Biryukov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:10:26.626Z",
+  "updated": "2026-03-26T13:50:42.642Z",
   "matches": [
     {
-      "date": "20250904",
-      "tournament": "Shanghai",
+      "date": "20260224",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Ferreira Silva",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20260219",
+      "tournament": "New Delhi",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Zeppieri",
-      "score": "4-6 1-6"
+      "opponent": "F. Gill",
+      "score": "3-6 6(3)-7(7)"
     },
     {
-      "date": "20250903",
-      "tournament": "Shanghai",
+      "date": "20260217",
+      "tournament": "New Delhi",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Shimabukuro",
-      "score": "6-4 6-4"
+      "opponent": "D. Singh",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20250901",
-      "tournament": "Shanghai",
+      "date": "20250421",
+      "tournament": "Gwangju",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Isomura",
-      "score": "7(7)-6(3) 7-5"
+      "opponent": "U. Park",
+      "score": "4-6 6-3 5-7"
     },
     {
-      "date": "20250831",
-      "tournament": "Shanghai",
+      "date": "20250420",
+      "tournament": "Gwangju",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,8 +67,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Ramanathan",
-      "score": "7(8)-6(6) 7(7)-6(3)"
+      "opponent": "S. Nam Ji",
+      "score": "7(7)-6(2) 1-5 ret."
+    },
+    {
+      "date": "20250218",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Gueymard Wayenburg",
+      "score": "7(8)-6(6) 5-7 6-3"
+    },
+    {
+      "date": "20250217",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. van Wyk",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250216",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Ovcharenko",
+      "score": "3-6 6(6)-7(8)"
+    },
+    {
+      "date": "20250120",
+      "tournament": "Quimper",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Poljicak",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20241118",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Jasika",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20241117",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Saitoh",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20240122",
+      "tournament": "Quimper Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bourgue",
+      "score": "6(5)-7(7) 4-6"
     }
   ]
 }
