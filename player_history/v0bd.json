@@ -1,1 +1,61 @@
-{"player_id":"v0bd","sack_id":"207239","name":"Nikolay Vylegzhanin","total":0,"matches":[]}
+{
+  "player_id": "v0bd",
+  "gs_id": "37639",
+  "player_name": "Nikolay Vylegzhanin",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:08:21.649Z",
+  "matches": [
+    {
+      "date": "20251020",
+      "tournament": "Brest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Poullain",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20251019",
+      "tournament": "Brest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Blancaneaux",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250921",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Huesler",
+      "score": "3-6 6(7)-7(9)"
+    },
+    {
+      "date": "20240728",
+      "tournament": "Liberec Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Torres",
+      "score": "2-6 0-6"
+    }
+  ]
+}
