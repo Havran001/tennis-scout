@@ -1,1 +1,22 @@
-{"player_id":"g0kw","sack_id":"211600","name":"Carlos Giraldi","total":0,"matches":[]}
+{
+  "player_id": "g0kw",
+  "gs_id": "166753",
+  "player_name": "Carlos Giraldi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T21:18:00.828Z",
+  "matches": [
+    {
+      "date": "20250903",
+      "tournament": "M15 Madrid",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Mazdrashki",
+      "score": "3-6 3-6"
+    }
+  ]
+}
