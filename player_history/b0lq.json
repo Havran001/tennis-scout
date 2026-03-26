@@ -1,1 +1,61 @@
-{"player_id":"b0lq","sack_id":"209951","name":"Petr Bar Biryukov","total":0,"matches":[]}
+{
+  "player_id": "b0lq",
+  "gs_id": "115760",
+  "player_name": "Petr Bar Biryukov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:26.626Z",
+  "matches": [
+    {
+      "date": "20250904",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Zeppieri",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20250903",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Shimabukuro",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250901",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Isomura",
+      "score": "7(7)-6(3) 7-5"
+    },
+    {
+      "date": "20250831",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Ramanathan",
+      "score": "7(8)-6(6) 7(7)-6(3)"
+    }
+  ]
+}
