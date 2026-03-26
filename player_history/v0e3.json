@@ -1,1 +1,48 @@
-{"player_id":"v0e3","sack_id":"209882","name":"Jeffrey Von Der Schulenburg","total":0,"matches":[]}
+{
+  "player_id": "v0e3",
+  "gs_id": "84375",
+  "player_name": "Jeffrey Von der Schulenburg",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:50:11.654Z",
+  "matches": [
+    {
+      "date": "20241028",
+      "tournament": "Charlottesville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Edmund",
+      "score": "4-6 6(4)-7(7)"
+    },
+    {
+      "date": "20221030",
+      "tournament": "Charlottesville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Smith",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20211101",
+      "tournament": "Charlottesville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kubler",
+      "score": "7(7)-6(5) 7-5"
+    }
+  ]
+}
