@@ -3,11 +3,11 @@
   "gs_id": "13589",
   "player_name": "Nerman Fatic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:54:39.545Z",
+  "updated": "2026-03-26T11:05:49.566Z",
   "matches": [
     {
-      "date": "20240713",
-      "tournament": "ATP Gstaad",
+      "date": "20220212",
+      "tournament": "Doha",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -15,47 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Misolic",
-      "score": "3-6 6-3 5-7"
+      "opponent": "P. Kotov",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20190830",
-      "tournament": "Piombino",
+      "date": "20120408",
+      "tournament": "Antalya-Belconti",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Faber",
+      "score": "6-2 7(9)-6(7) 3-6"
+    },
+    {
+      "date": "20120407",
+      "tournament": "Antalya-Belconti",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Martineau",
-      "score": "6(5)-7(7) 1-0 ret."
-    },
-    {
-      "date": "20190829",
-      "tournament": "Piombino",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "D. Jorda Sanchis",
-      "score": "6-1 6-3"
-    },
-    {
-      "date": "20190827",
-      "tournament": "Piombino",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Roncalli",
-      "score": "6-1 6-2"
+      "opponent": "J. S. Karic",
+      "score": "4-6 6-7"
     }
   ]
 }
