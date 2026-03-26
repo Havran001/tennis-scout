@@ -1,1 +1,87 @@
-{"player_id":"bu53","sack_id":"144970","name":"Constantin Bittoun Kouzmine","total":0,"matches":[]}
+{
+  "player_id": "bu53",
+  "gs_id": "34428",
+  "player_name": "Constantin Bittoun Kouzmine",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:08:00.626Z",
+  "matches": [
+    {
+      "date": "20251019",
+      "tournament": "Brest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Faria",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240728",
+      "tournament": "Liberec Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kucera",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240721",
+      "tournament": "Tampere Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Tamm",
+      "score": "6(4)-7(7) 6-4 6-3"
+    },
+    {
+      "date": "20230802",
+      "tournament": "Liberec Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Comesana",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20230731",
+      "tournament": "Liberec Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Recek",
+      "score": "5-7 7(8)-6(6) 6-0"
+    },
+    {
+      "date": "20230730",
+      "tournament": "Liberec Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Rikl",
+      "score": "6-1 4-3 ret."
+    }
+  ]
+}
