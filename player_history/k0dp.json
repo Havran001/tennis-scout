@@ -1,1 +1,61 @@
-{"player_id":"k0dp","sack_id":"208071","name":"Oleksii Krutykh","total":1,"matches":[{"id":"UT28YuzP","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Coppejans K.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "k0dp",
+  "gs_id": "41546",
+  "player_name": "Oleksii Krutykh",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:59.541Z",
+  "matches": [
+    {
+      "date": "20230822",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Anderson",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20230117",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Schwartzman",
+      "score": "4-6 7(8)-6(6) 3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20230112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Kudla",
+      "score": "6-3 4-6 4-6"
+    },
+    {
+      "date": "20230111",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Mager",
+      "score": "6-2 7(7)-6(3)"
+    }
+  ]
+}
