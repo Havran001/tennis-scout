@@ -1,1 +1,61 @@
-{"player_id":"e0d4","sack_id":"210570","name":"Kevin Edengren","total":0,"matches":[]}
+{
+  "player_id": "e0d4",
+  "gs_id": "148953",
+  "player_name": "Kevin Edengren",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T23:57:09.904Z",
+  "matches": [
+    {
+      "date": "20250730",
+      "tournament": "M15 Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Miletich",
+      "score": "6-3 3-6 6-1"
+    },
+    {
+      "date": "20250515",
+      "tournament": "M15 Monastir 19",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zhukov",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250514",
+      "tournament": "M15 Monastir 19",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Schaer",
+      "score": "6-4 4-6 4-6"
+    },
+    {
+      "date": "20230726",
+      "tournament": "M15 Vejle",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rivet",
+      "score": "6-3 4-6 5-7"
+    }
+  ]
+}
