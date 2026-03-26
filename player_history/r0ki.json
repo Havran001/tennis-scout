@@ -1,1 +1,48 @@
-{"player_id":"r0ki","sack_id":"148673","name":"Dominique Rolland","total":0,"matches":[]}
+{
+  "player_id": "r0ki",
+  "gs_id": "208774",
+  "player_name": "Dominique Rolland",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:16.630Z",
+  "matches": [
+    {
+      "date": "20251010",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ilagan",
+      "score": "6(5)-7(7) 6(1)-7(7)"
+    },
+    {
+      "date": "20251008",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Zink",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20251007",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. McKennon",
+      "score": "6-2 6-0"
+    }
+  ]
+}
