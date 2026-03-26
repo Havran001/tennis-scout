@@ -1,87 +1,48 @@
 {
   "player_id": "p0ht",
-  "gs_id": "71346",
-  "player_name": "Jack Pinnington Jones",
+  "gs_id": "41933",
+  "player_name": "Ben Jones",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:44:51.582Z",
+  "updated": "2026-03-26T12:28:40.611Z",
   "matches": [
     {
-      "date": "20250703",
-      "tournament": "Wimbledon",
+      "date": "20190924",
+      "tournament": "Shrewsbury",
       "surface": "Hard",
-      "level": "G",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Cobolli",
-      "score": "1-6 6(6)-7(8) 2-6"
-    },
-    {
-      "date": "20250701",
-      "tournament": "Wimbledon",
-      "surface": "Hard",
-      "level": "G",
-      "round": "R128",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. M. Etcheverry",
-      "score": "6(4)-7(7) 3-6 5-7"
-    },
-    {
-      "date": "20250624",
-      "tournament": "Eastbourne",
-      "surface": "Hard",
-      "level": "B",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Borges",
-      "score": "6-4 3-6 3-6"
+      "opponent": "T. Simon",
+      "score": "7-5 6-1"
     },
     {
-      "date": "20240624",
-      "tournament": "ATP Wimbledon",
+      "date": "20180911",
+      "tournament": "Nottingham",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Pouille",
-      "score": "6-0 6-3"
+      "opponent": "N. Pauffley",
+      "score": "3-6 6-3 7(7)-6(4)"
     },
     {
-      "date": "20210623",
-      "tournament": "ATP Wimbledon",
+      "date": "20180206",
+      "tournament": "Loughborough",
       "surface": "Hard",
-      "level": "G",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Rinderknech",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20210622",
-      "tournament": "ATP Wimbledon",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Menezes",
-      "score": "4-6 3-6"
+      "opponent": "C. Denolly",
+      "score": "7(7)-6(3) 2-6 4-6"
     }
   ]
 }
