@@ -3,46 +3,46 @@
   "gs_id": "123368",
   "player_name": "Theo Papamalamis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:05:44.570Z",
+  "updated": "2026-03-26T15:22:30.724Z",
   "matches": [
     {
-      "date": "20250303",
-      "tournament": "Indian Wells",
+      "date": "20250923",
+      "tournament": "Las Vegas",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Kukushkin",
-      "score": "6-4 6(4)-7(7) 7-5"
-    },
-    {
-      "date": "20241104",
-      "tournament": "Metz",
-      "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Q. Halys",
-      "score": "3-6 1-6"
+      "opponent": "M. Bouzige",
+      "score": "3-6 4-1 ret."
     },
     {
-      "date": "20241102",
-      "tournament": "Metz",
+      "date": "20250916",
+      "tournament": "Columbus",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. De Jong",
-      "score": "2-6 3-6"
+      "opponent": "J. Boulais",
+      "score": "6-1 7-5"
+    },
+    {
+      "date": "20240521",
+      "tournament": "ATP French Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Barrere",
+      "score": "3-6 1-6"
     }
   ]
 }
