@@ -3,8 +3,21 @@
   "gs_id": "89981",
   "player_name": "Michal Novansky",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:56:10.777Z",
+  "updated": "2026-03-26T20:25:22.813Z",
   "matches": [
+    {
+      "date": "20221207",
+      "tournament": "ITF M15 Trnava Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Brunold",
+      "score": "6(2)-7(7) 6-3 6-4"
+    },
     {
       "date": "20220223",
       "tournament": "M15 Monastir 7",
@@ -17,6 +30,45 @@
       "result": "L",
       "opponent": "M. Pawelski",
       "score": "7-5 6-4"
+    },
+    {
+      "date": "20200730",
+      "tournament": "Zilina Open",
+      "surface": "Hard",
+      "level": "E",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Horansky",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20200723",
+      "tournament": "HSC CUP Piestany",
+      "surface": "Hard",
+      "level": "E",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Molcan",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20200709",
+      "tournament": "Privatbanka Open",
+      "surface": "Hard",
+      "level": "E",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Horansky",
+      "score": "6-2 6-2"
     }
   ]
 }
