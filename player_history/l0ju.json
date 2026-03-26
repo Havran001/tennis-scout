@@ -3,20 +3,33 @@
   "gs_id": "190297",
   "player_name": "Noah Lopez Cherubino",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:50:47.745Z",
+  "updated": "2026-03-26T19:01:08.776Z",
   "matches": [
     {
-      "date": "20250202",
-      "tournament": "Tenerife",
+      "date": "20251018",
+      "tournament": "M15 Castellon",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Cesar Porras",
+      "score": "6-1 3-6 10-8"
+    },
+    {
+      "date": "20251018",
+      "tournament": "M15 Castellon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Mikrut",
-      "score": "6-4 6-0"
+      "opponent": "P. Marino",
+      "score": "3-6 5-7"
     }
   ]
 }
