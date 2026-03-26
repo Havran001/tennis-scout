@@ -3,7 +3,7 @@
   "gs_id": "33593",
   "player_name": "Adil Kalyanpur",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:36:20.666Z",
+  "updated": "2026-03-26T19:06:11.875Z",
   "matches": [
     {
       "date": "20260209",
@@ -32,8 +32,8 @@
       "score": "5-7 6-4 1-6"
     },
     {
-      "date": "20250511",
-      "tournament": "Tunis",
+      "date": "20260104",
+      "tournament": "Bengaluru",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Picchione",
-      "score": "6-0 6-1"
+      "opponent": "E. Vasa",
+      "score": "6-3 3-6 0-6"
+    },
+    {
+      "date": "20250504",
+      "tournament": "Francavilla",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Berrettini",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20250223",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Isomura",
+      "score": "7(7)-6(2) 6-0"
+    },
+    {
+      "date": "20240612",
+      "tournament": "ITF M15 Hong Kong Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Masabayashi",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240211",
+      "tournament": "Bengaluru Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Chung",
+      "score": "6-4 6-3"
     },
     {
       "date": "20240204",
@@ -56,6 +108,110 @@
       "result": "L",
       "opponent": "K. van Wyk",
       "score": "1-6 4-6"
+    },
+    {
+      "date": "20230125",
+      "tournament": "M15 Cairo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Madaras",
+      "score": "3-6 0-2 ret."
+    },
+    {
+      "date": "20220206",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sasikumar",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20200210",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Kaliyanda Poonacha",
+      "score": "4-6 7(7)-6(5) 6(4)-7(7)"
+    },
+    {
+      "date": "20190116",
+      "tournament": "M15 Manacor (Mallorca) 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Martos Gornes",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20190108",
+      "tournament": "M15 Manacor (Mallorca)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Lopez San Martin",
+      "score": "4-6 6(4)-7(7)"
+    },
+    {
+      "date": "20180122",
+      "tournament": "M15 Manacor (Mallorca) 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Gakhov",
+      "score": "5-7 6-1 6-2"
+    },
+    {
+      "date": "20170120",
+      "tournament": "M15 Manacor (Mallorca)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Giacalone",
+      "score": "6-0 7(9)-6(7)"
+    },
+    {
+      "date": "20170118",
+      "tournament": "M15 Manacor (Mallorca)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Caleguer",
+      "score": "3-6 6-2 6-1"
     }
   ]
 }
