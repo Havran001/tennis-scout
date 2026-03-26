@@ -1,1 +1,35 @@
-{"player_id":"f0dp","sack_id":"209302","name":"Peter Fajta","total":1,"matches":[{"id":"nJIHxQGq","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Mecarelli M.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "f0dp",
+  "gs_id": "81283",
+  "player_name": "Peter Fajta",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:53.655Z",
+  "matches": [
+    {
+      "date": "20220822",
+      "tournament": "Banja Luka",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Hassan",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20220821",
+      "tournament": "Banja Luka",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Royer",
+      "score": "6-3 7(7)-6(3)"
+    }
+  ]
+}
