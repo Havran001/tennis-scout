@@ -3,33 +3,59 @@
   "gs_id": "232999",
   "player_name": "Timeo Trufelli",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:52:52.643Z",
+  "updated": "2026-03-26T20:19:35.819Z",
   "matches": [
     {
-      "date": "20260223",
-      "tournament": "Saint Brieuc",
+      "date": "20260115",
+      "tournament": "M15 Bressuire",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Ghibaudo",
-      "score": "4-6 4-6"
+      "opponent": "C. Kingsley",
+      "score": "4-6 6-3 2-6"
     },
     {
-      "date": "20260222",
-      "tournament": "Saint Brieuc",
+      "date": "20260113",
+      "tournament": "M15 Bressuire",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Vasa",
-      "score": "6-3 3-6 6-3"
+      "opponent": "J. O. Lien",
+      "score": "4-6 6-4 6-1"
+    },
+    {
+      "date": "20250911",
+      "tournament": "M25+H Plaisir",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Wendelken",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20250910",
+      "tournament": "M25+H Plaisir",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Ponchet",
+      "score": "6-4 2-6 5-7"
     }
   ]
 }
