@@ -1,1 +1,35 @@
-{"player_id":"kc29","sack_id":"106044","name":"Nicolas Kicker","total":0,"matches":[]}
+{
+  "player_id": "kc29",
+  "gs_id": "7194",
+  "player_name": "Nicolas Kicker",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:43:16.500Z",
+  "matches": [
+    {
+      "date": "20170720",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Fognini",
+      "score": "4-6 6-1 2-6"
+    },
+    {
+      "date": "20170718",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Youzhny",
+      "score": "3-6 5-7"
+    }
+  ]
+}
