@@ -3,46 +3,59 @@
   "gs_id": "173933",
   "player_name": "Mae Malige",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:22:27.685Z",
+  "updated": "2026-03-26T16:13:57.705Z",
   "matches": [
     {
-      "date": "20260202",
-      "tournament": "Koblenz",
+      "date": "20250205",
+      "tournament": "Lille",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Royer",
+      "score": "6-4 4-6 6-2"
+    },
+    {
+      "date": "20250204",
+      "tournament": "Lille",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Colson",
-      "score": "7(7)-6(2) 2-6 6-4"
+      "result": "W",
+      "opponent": "H. Squire",
+      "score": "6-2 3-6 7(7)-6(5)"
     },
     {
-      "date": "20250910",
-      "tournament": "Rennes",
+      "date": "20250203",
+      "tournament": "Lille",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "6-4 6-3"
+      "opponent": "J. Paul",
+      "score": "3-6 6-3 2-6"
     },
     {
-      "date": "20250713",
-      "tournament": "Pozoblanco",
+      "date": "20250202",
+      "tournament": "Lille",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Reymond",
-      "score": "6-3 6-4"
+      "result": "W",
+      "opponent": "K. Uchida",
+      "score": "6-2 6-3"
     }
   ]
 }
