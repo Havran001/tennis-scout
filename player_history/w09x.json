@@ -1,13 +1,39 @@
 {
   "player_id": "w09x",
-  "gs_id": "39239",
-  "player_name": "Benjamin Winter Lopez",
+  "gs_id": "89871",
+  "player_name": "Noah Lopez",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:16:02.827Z",
+  "updated": "2026-03-26T21:17:04.831Z",
   "matches": [
     {
-      "date": "20250307",
+      "date": "20260304",
       "tournament": "M15 Torello",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Hurrion",
+      "score": "6-4 4-6 3-6"
+    },
+    {
+      "date": "20240306",
+      "tournament": "ITF M15 Torello Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Blanch",
+      "score": "2-6 6-3 3-6"
+    },
+    {
+      "date": "20221110",
+      "tournament": "M15 Benicarlo",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Barroso Campos",
-      "score": "6-4 1-6 4-6"
+      "opponent": "A. Marti Pujolras",
+      "score": "6-4 7-5"
     },
     {
-      "date": "20250305",
-      "tournament": "M15 Torello",
+      "date": "20221109",
+      "tournament": "M15 Benicarlo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Mosejczuk",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20231115",
-      "tournament": "ITF M25 Vale do Lobo Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Edmund",
-      "score": "6-3 3-6 6-3"
-    },
-    {
-      "date": "20220512",
-      "tournament": "M15 Valldoreix",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. McCabe",
-      "score": "7-5 2-6 1-6"
+      "opponent": "E. Butvilas",
+      "score": "6(4)-7(7) 2-6"
     },
     {
       "date": "20220511",
@@ -66,12 +66,51 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "I. De Rueda De Genover",
-      "score": "0-6 4-6"
+      "result": "L",
+      "opponent": "I. Lopez Morillo",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20220301",
+      "date": "20220305",
+      "tournament": "M15 Torello",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Lopez Morillo",
+      "score": "3-0 ret."
+    },
+    {
+      "date": "20220304",
+      "tournament": "M15 Torello",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Wojcik",
+      "score": "6-1 7(7)-6(3)"
+    },
+    {
+      "date": "20220303",
+      "tournament": "M15 Torello",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Briand",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20220302",
       "tournament": "M15 Torello",
       "surface": "Hard",
       "level": "I",
@@ -79,13 +118,13 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Wallart",
-      "score": "4-6 6-2 7-6"
+      "result": "W",
+      "opponent": "O. Kimhi",
+      "score": "6-2 5-7 6-3"
     },
     {
-      "date": "20210203",
-      "tournament": "M25 Villena",
+      "date": "20211103",
+      "tournament": "ITF M15 Torello Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,21 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Lopez Morillo",
-      "score": "6-3 6(2)-7(7) 3-6"
-    },
-    {
-      "date": "20201118",
-      "tournament": "ITF M15 Villena Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. J. Barranco",
-      "score": "6-1 6-4"
+      "opponent": "V. Gaubas",
+      "score": "6-1 5-7 6(5)-7(7)"
     }
   ]
 }
