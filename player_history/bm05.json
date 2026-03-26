@@ -1,1 +1,35 @@
-{"player_id":"bm05","sack_id":"123847","name":"Bogdan Bobrov","total":0,"matches":[]}
+{
+  "player_id": "bm05",
+  "gs_id": "8433",
+  "player_name": "Bogdan Bobrov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:16:14.521Z",
+  "matches": [
+    {
+      "date": "20180614",
+      "tournament": "Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Sabanin",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20180612",
+      "tournament": "Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Roglan",
+      "score": "2-3 ret."
+    }
+  ]
+}
