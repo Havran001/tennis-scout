@@ -3,33 +3,46 @@
   "gs_id": "218340",
   "player_name": "Henry Bernet",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:47:35.743Z",
+  "updated": "2026-03-26T21:18:24.829Z",
   "matches": [
     {
-      "date": "20260223",
-      "tournament": "Lugano",
+      "date": "20260219",
+      "tournament": "M25 Trento",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Budkov Kjaer",
-      "score": "1-6 4-6"
+      "opponent": "M. Topo",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20260105",
-      "tournament": "Noumea",
+      "date": "20260217",
+      "tournament": "M25 Trento",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Kumstat",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250618",
+      "tournament": "M25 Klosters",
+      "surface": "Hard",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Rodionov",
-      "score": "6-4 3-6 6-0"
+      "opponent": "R. Bertola",
+      "score": "6-4 6(8)-7(10) 6-1"
     }
   ]
 }
