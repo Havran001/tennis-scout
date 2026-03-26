@@ -2,7 +2,7 @@
   "player_id": "o522",
   "player_name": "Reilly Opelka",
   "source": "goalserve",
-  "updated": "2026-03-26T00:21:43.344Z",
+  "updated": "2026-03-26T03:35:39.403Z",
   "matches": [
     {
       "date": "20260322",
@@ -3489,6 +3489,71 @@
       "score": "6(11)-7(13) 4-6"
     },
     {
+      "date": "20180909",
+      "tournament": "Chicago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Istomin",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20180908",
+      "tournament": "Chicago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Koepfer",
+      "score": "3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20180907",
+      "tournament": "Chicago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Young",
+      "score": "6-3 2-6 6(5)-7(7)"
+    },
+    {
+      "date": "20180906",
+      "tournament": "Chicago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Mmoh",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20180904",
+      "tournament": "Chicago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Quiroz",
+      "score": "3-6 2-6"
+    },
+    {
       "date": "20180822",
       "tournament": "US Open",
       "surface": "Hard",
@@ -3788,6 +3853,19 @@
       "score": "6-4 6(6)-7(8) 4-6"
     },
     {
+      "date": "20180228",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krueger",
+      "score": "3-6 4-6"
+    },
+    {
       "date": "20180223",
       "tournament": "Delray Beach",
       "surface": "Hard",
@@ -3827,6 +3905,58 @@
       "score": "7(7)-6(5) 7(8)-6(6)"
     },
     {
+      "date": "20180127",
+      "tournament": "Newport Beach",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": "6-3 7(8)-6(6)"
+    },
+    {
+      "date": "20180126",
+      "tournament": "Newport Beach",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bachinger",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20180125",
+      "tournament": "Newport Beach",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Novikov",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20180123",
+      "tournament": "Newport Beach",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Kudla",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
       "date": "20180110",
       "tournament": "Australian Open",
       "surface": "Hard",
@@ -3838,6 +3968,58 @@
       "result": "L",
       "opponent": "C. Harrison",
       "score": "6(0)-7(7) 6(8)-7(10)"
+    },
+    {
+      "date": "20180105",
+      "tournament": "Playford",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Jasika",
+      "score": "7(7)-6(5) 5-7 6-4"
+    },
+    {
+      "date": "20180105",
+      "tournament": "Playford",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kubler",
+      "score": "7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20180103",
+      "tournament": "Playford",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Majchrzak",
+      "score": "7(11)-6(9) 7(10)-6(8)"
+    },
+    {
+      "date": "20180102",
+      "tournament": "Playford",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Berankis",
+      "score": "7(9)-6(7) 6(6)-7(8) 5-7"
     },
     {
       "date": "20171107",
@@ -4334,6 +4516,32 @@
       "score": "6-1 7-5"
     },
     {
+      "date": "20170210",
+      "tournament": "San Francisco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Pospisil",
+      "score": "6(5)-7(7) 6-1 6-3"
+    },
+    {
+      "date": "20170207",
+      "tournament": "San Francisco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Bangoura",
+      "score": "3-6 4-6"
+    },
+    {
       "date": "20170202",
       "tournament": "Dallas",
       "surface": "Hard",
@@ -4685,6 +4893,71 @@
       "score": "7(7)-6(3) 6(4)-7(7) 6-0"
     },
     {
+      "date": "20160630",
+      "tournament": "Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Bangoura",
+      "score": "7(6)-6(4) 7(6)-6(2)"
+    },
+    {
+      "date": "20160629",
+      "tournament": "Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Clark",
+      "score": "7(7)-6(3) 4-6 4-6"
+    },
+    {
+      "date": "20160621",
+      "tournament": "Tulsa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Norrie",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20160616",
+      "tournament": "Winston-Salem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Quigley",
+      "score": "3-6 6-3 5-7"
+    },
+    {
+      "date": "20160614",
+      "tournament": "Winston-Salem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Jones",
+      "score": "6(2)-7(7) 6(0)-7(7)"
+    },
+    {
       "date": "20160405",
       "tournament": "Houston",
       "surface": "Hard",
@@ -4724,6 +4997,45 @@
       "score": "4-6 3-6"
     },
     {
+      "date": "20160302",
+      "tournament": "Boca Raton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Eysseric",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20160218",
+      "tournament": "Plantation 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Uchida",
+      "score": "7(8)-6(6) 6-2"
+    },
+    {
+      "date": "20160217",
+      "tournament": "Plantation 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Levine",
+      "score": "6-3 6-4"
+    },
+    {
       "date": "20150827",
       "tournament": "US Open",
       "surface": "Hard",
@@ -4750,6 +5062,45 @@
       "score": "6(2)-7(7) 4-6"
     },
     {
+      "date": "20150814",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Shane",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20150813",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Vukic",
+      "score": "3-6 6(6)-7(8)"
+    },
+    {
+      "date": "20150812",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Q. Monaghan",
+      "score": "6-3 4-6 3-6"
+    },
+    {
       "date": "20150725",
       "tournament": "Atlanta",
       "surface": "Hard",
@@ -4774,6 +5125,19 @@
       "result": "L",
       "opponent": "S. Bangoura",
       "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20150518",
+      "tournament": "Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Saito",
+      "score": "1-4 ret."
     },
     {
       "date": "20150513",
@@ -4930,6 +5294,45 @@
       "result": "L",
       "opponent": "G. Ouellette",
       "score": "6-2 4-6 6-2"
+    },
+    {
+      "date": "20131114",
+      "tournament": "Bradenton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Rubin",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20131113",
+      "tournament": "Bradenton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Crowley",
+      "score": "6-3 3-1 ret."
+    },
+    {
+      "date": "20130115",
+      "tournament": "Sunrise",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Ginepri",
+      "score": "6-0 6-1"
     }
   ]
 }
