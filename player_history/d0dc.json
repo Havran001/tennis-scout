@@ -1,1 +1,22 @@
-{"player_id":"d0dc","sack_id":"208044","name":"Etienne Donnet","total":0,"matches":[]}
+{
+  "player_id": "d0dc",
+  "gs_id": "175708",
+  "player_name": "Etienne Donnet",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:02.629Z",
+  "matches": [
+    {
+      "date": "20250608",
+      "tournament": "Lyon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dellavedova",
+      "score": "3-6 5-7"
+    }
+  ]
+}
