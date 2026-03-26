@@ -3,24 +3,37 @@
   "gs_id": "141996",
   "player_name": "Sho Katayama",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:18:59.520Z",
+  "updated": "2026-03-26T10:32:37.552Z",
   "matches": [
     {
-      "date": "20130622",
-      "tournament": "Tokyo-Akishima",
+      "date": "20121021",
+      "tournament": "Oarai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Kondo",
+      "score": "7-6 6-3"
+    },
+    {
+      "date": "20121020",
+      "tournament": "Oarai",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Saito",
-      "score": "4-6 6-3 6-4"
+      "result": "W",
+      "opponent": "S. Tagawa",
+      "score": "6-7 6-3 1-6"
     },
     {
-      "date": "20130621",
-      "tournament": "Tokyo-Akishima",
+      "date": "20121019",
+      "tournament": "Oarai",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Takeshima",
-      "score": "2-6 4-6"
+      "opponent": "M. Shiga",
+      "score": "6-4 3-6 3-6"
     },
     {
-      "date": "20130620",
-      "tournament": "Tokyo-Akishima",
+      "date": "20121018",
+      "tournament": "Oarai",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -42,11 +55,11 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "Y. Watanuki",
-      "score": "2-6 2-6"
+      "score": "3-6 1-6"
     },
     {
-      "date": "20130618",
-      "tournament": "Tokyo-Akishima",
+      "date": "20121016",
+      "tournament": "Oarai",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,38 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Leeder",
-      "score": "2-6 1-6"
+      "opponent": "A. Onozawa",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20130607",
-      "tournament": "Bangkok 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Isaro",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20130606",
-      "tournament": "Bangkok 3",
+      "date": "20121012",
+      "tournament": "Kashiwa",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "Ch. Kaewsuto",
-      "score": "2-6 6-2 6-3"
+      "result": "L",
+      "opponent": "Y-K. Lim",
+      "score": "5-7 2-6"
     },
     {
-      "date": "20130605",
-      "tournament": "Bangkok 3",
+      "date": "20121011",
+      "tournament": "Kashiwa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Kadchapanan",
-      "score": "6-1 6-3"
+      "opponent": "Y. Watanuki",
+      "score": "6-0 6-3"
     },
     {
-      "date": "20130603",
-      "tournament": "Bangkok 3",
+      "date": "20121009",
+      "tournament": "Kashiwa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,21 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Siriluethaiwattana",
-      "score": "6-4 3-6 6-0"
-    },
-    {
-      "date": "20130527",
-      "tournament": "Bangkok 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Leeder",
-      "score": "6-3 6-4"
+      "opponent": "A. Onozawa",
+      "score": "4-6 3-6"
     }
   ]
 }
