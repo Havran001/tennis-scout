@@ -1,1 +1,35 @@
-{"player_id":"td47","sack_id":"126185","name":"Evgenii Tiurnev","total":1,"matches":[{"id":"K8IRtKNa","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Maanshan 4 (China), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Agafonov E.","score":"0-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "td47",
+  "gs_id": "58289",
+  "player_name": "Evgenii Tiurnev",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:26.547Z",
+  "matches": [
+    {
+      "date": "20190904",
+      "tournament": "Oviedo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Martos Gornes",
+      "score": "6-1 3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20190903",
+      "tournament": "Oviedo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Ribeiro",
+      "score": "3-6 2-6"
+    }
+  ]
+}
