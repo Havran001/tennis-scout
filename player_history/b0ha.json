@@ -3,20 +3,59 @@
   "gs_id": "59308",
   "player_name": "Daniel Bagnolini",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:19:20.706Z",
+  "updated": "2026-03-26T20:15:15.812Z",
   "matches": [
     {
-      "date": "20240505",
-      "tournament": "Francavilla Challenger Men",
+      "date": "20240305",
+      "tournament": "ITF M15 Porec Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "6-1 4-6 6-2"
+      "opponent": "S. Kopp",
+      "score": "5-7 6-3 6-4"
+    },
+    {
+      "date": "20200212",
+      "tournament": "M15 Palmanova",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Perchicot",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20190130",
+      "tournament": "ITF M15 Palmanova 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Carr",
+      "score": "5-7 0-4 ret."
+    },
+    {
+      "date": "20190123",
+      "tournament": "M15 Palmanova",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Gennaro",
+      "score": "3-6 6(1)-7(7)"
     }
   ]
 }
