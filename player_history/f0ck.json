@@ -3,37 +3,37 @@
   "gs_id": "39023",
   "player_name": "Andrew Fenty",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:14:59.839Z",
+  "updated": "2026-03-26T21:16:00.828Z",
   "matches": [
     {
-      "date": "20240227",
-      "tournament": "ITF M15 Monastir 9 Men",
+      "date": "20250919",
+      "tournament": "M15 Fayetteville",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gobat",
-      "score": "6-2 6-2"
+      "opponent": "R. Perot",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20240222",
-      "tournament": "ITF M15 Monastir 8 Men",
+      "date": "20250918",
+      "tournament": "M15 Fayetteville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. J. Schwarzler",
-      "score": "1-6 4-6"
+      "result": "W",
+      "opponent": "A. Magadan",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20240221",
-      "tournament": "ITF M15 Monastir 8 Men",
+      "date": "20250916",
+      "tournament": "M15 Fayetteville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Kudriashov",
-      "score": "6(4)-7(7) 6-1 1-0 ret."
+      "opponent": "B. Sanchez Martinez",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240110",
+      "tournament": "ITF M15 Manacor Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Marrero Curbelo",
+      "score": "1-6 6-0 4-6"
     }
   ]
 }
