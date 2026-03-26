@@ -3,37 +3,11 @@
   "gs_id": "40871",
   "player_name": "Sho Shimabukuro",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:55:58.537Z",
+  "updated": "2026-03-26T11:06:43.569Z",
   "matches": [
     {
-      "date": "20230802",
-      "tournament": "ATP Washington",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Eubanks",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20230801",
-      "tournament": "ATP Washington",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Harris",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20230730",
-      "tournament": "ATP Washington",
+      "date": "20260317",
+      "tournament": "ATP Miami",
       "surface": "Hard",
       "level": "B",
       "round": "F",
@@ -41,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Klahn",
-      "score": "7-5 6-4"
+      "opponent": "N. Basilashvili",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20230729",
-      "tournament": "ATP Washington",
+      "date": "20260316",
+      "tournament": "ATP Miami",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -54,8 +28,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Young",
-      "score": "6-3 6-4"
+      "opponent": "A. Bolt",
+      "score": "2-6 7(7)-6(3) 3-6"
+    },
+    {
+      "date": "20260305",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Shevchenko",
+      "score": "4-6 6-3 2-6"
+    },
+    {
+      "date": "20260303",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Landaluce",
+      "score": "2-6 7(7)-6(3) 5-7"
+    },
+    {
+      "date": "20260302",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Smith",
+      "score": "6(5)-7(7) 5-7"
+    },
+    {
+      "date": "20241001",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Shapovalov",
+      "score": "6-4 1-3 ret."
+    },
+    {
+      "date": "20240930",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Yevseyev",
+      "score": "7(8)-6(6) 4-6 1-6"
+    },
+    {
+      "date": "20231002",
+      "tournament": "ATP Shanghai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Weber",
+      "score": "6-2 6(3)-7(7) 6-4"
     }
   ]
 }
