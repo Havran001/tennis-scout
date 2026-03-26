@@ -3,11 +3,11 @@
   "gs_id": "58432",
   "player_name": "Javier Molino",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:24:24.814Z",
+  "updated": "2026-03-26T21:16:25.833Z",
   "matches": [
     {
-      "date": "20200923",
-      "tournament": "M15 Melilla",
+      "date": "20260218",
+      "tournament": "M15 Villena",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Alemany",
-      "score": "6(5)-7(7) 3-6"
+      "opponent": "D. Blanch",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20221109",
+      "tournament": "M15 Benicarlo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Manzanera Pertusa",
+      "score": "4-6 6-1 7-5"
+    },
+    {
+      "date": "20220512",
+      "tournament": "M15 Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Roca Batalla",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220511",
+      "tournament": "M15 Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Planelles Ripoll",
+      "score": "6-1 4-6 6-3"
+    },
+    {
+      "date": "20210203",
+      "tournament": "M25 Villena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sels",
+      "score": "1-6 4-6"
     }
   ]
 }
