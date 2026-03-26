@@ -1,1 +1,48 @@
-{"player_id":"k0l1","sack_id":"211756","name":"Michal Krajci","total":0,"matches":[]}
+{
+  "player_id": "k0l1",
+  "gs_id": "169579",
+  "player_name": "Michal Krajci",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:54.628Z",
+  "matches": [
+    {
+      "date": "20250902",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Karol",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250901",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Alkaya",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20250831",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Wiskandt",
+      "score": "6-3 1-6 1-6"
+    }
+  ]
+}
