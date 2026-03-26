@@ -3,7 +3,7 @@
   "gs_id": "208825",
   "player_name": "Nicolai Budkov Kjaer",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:50:50.748Z",
+  "updated": "2026-03-26T20:19:22.810Z",
   "matches": [
     {
       "date": "20250803",
@@ -71,30 +71,82 @@
       "score": "3-6 4-6"
     },
     {
-      "date": "20250320",
-      "tournament": "Murcia",
+      "date": "20240403",
+      "tournament": "ITF M15 Antalya 9 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "R16",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Gakhov",
-      "score": "6-4 7(7)-6(2)"
+      "opponent": "E. Vasa",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250319",
-      "tournament": "Murcia",
+      "date": "20240331",
+      "tournament": "ITF M15 Antalya 8 Men",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Visker",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240330",
+      "tournament": "ITF M15 Antalya 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Slump",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20240329",
+      "tournament": "ITF M15 Antalya 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Barnat",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20240328",
+      "tournament": "ITF M15 Antalya 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Tessa",
+      "score": "3-6 1-2 ret."
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M15 Antalya 8 Men",
+      "surface": "Hard",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Barranco Cosano",
-      "score": "2-6 1-6"
+      "opponent": "K. Yilmaz",
+      "score": "5-7 1-6"
     }
   ]
 }
