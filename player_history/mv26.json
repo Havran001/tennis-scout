@@ -1,1 +1,48 @@
-{"player_id":"mv26","sack_id":"132804","name":"Jordi Mas De Ugarte","total":0,"matches":[]}
+{
+  "player_id": "mv26",
+  "gs_id": "142217",
+  "player_name": "Jordi Mas De Ugarte",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:17.624Z",
+  "matches": [
+    {
+      "date": "20180731",
+      "tournament": "Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Chavez Luis",
+      "score": "7(7)-6(1) 4-6 6-1"
+    },
+    {
+      "date": "20180531",
+      "tournament": "Santa Margarida de Montbui",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Luque Rico",
+      "score": "7(9)-6(7) 4-6 6-3"
+    },
+    {
+      "date": "20180529",
+      "tournament": "Santa Margarida de Montbui",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Boltz",
+      "score": "3-6 3-6"
+    }
+  ]
+}
