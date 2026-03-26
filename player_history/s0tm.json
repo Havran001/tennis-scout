@@ -1,13 +1,13 @@
 {
   "player_id": "s0tm",
-  "gs_id": "257134",
-  "player_name": "Alejandro Linde Palacios Samuel",
+  "gs_id": "71345",
+  "player_name": "Toby Samuel",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:01:51.779Z",
+  "updated": "2026-03-26T20:20:44.336Z",
   "matches": [
     {
-      "date": "20260130",
-      "tournament": "M15 Antalya",
+      "date": "20250130",
+      "tournament": "M25 Glasgow",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Popovic",
-      "score": "6-2 6-4"
+      "opponent": "F. Bondioli",
+      "score": "6-4 3-6 6-4"
     },
     {
-      "date": "20260128",
-      "tournament": "M15 Antalya",
+      "date": "20250129",
+      "tournament": "M25 Glasgow",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Celik",
-      "score": "6-1 6-2"
+      "opponent": "D. Poljak",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20231027",
+      "tournament": "ITF M25 Glasgow Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Blockx",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20231026",
+      "tournament": "ITF M25 Glasgow Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Bass",
+      "score": "7(7)-6(3) 4-6 1-6"
+    },
+    {
+      "date": "20231024",
+      "tournament": "ITF M25 Glasgow Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Weightman",
+      "score": "5-7 6-3 2-6"
     }
   ]
 }
