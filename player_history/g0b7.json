@@ -1,1 +1,22 @@
-{"player_id":"g0b7","sack_id":"202244","name":"Jeremy Gschwendtner","total":2,"matches":[{"id":"GlaCBXk2","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Fuele M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"6e9kMFvP","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Fiorentini A./Furlanetto M.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g0b7",
+  "gs_id": "223541",
+  "player_name": "Jeremy Gschwendtner",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T16:14:15.720Z",
+  "matches": [
+    {
+      "date": "20250525",
+      "tournament": "Vicenza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Fonio",
+      "score": "6-1 6-1"
+    }
+  ]
+}
