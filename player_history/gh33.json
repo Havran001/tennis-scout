@@ -3,24 +3,11 @@
   "gs_id": "41690",
   "player_name": "Manuel Guinard",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:06:44.569Z",
+  "updated": "2026-03-26T11:44:31.581Z",
   "matches": [
     {
-      "date": "20250211",
-      "tournament": "Marseille",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J-L. Struff",
-      "score": "5-7 6(4)-7(7)"
-    },
-    {
-      "date": "20250210",
-      "tournament": "Marseille",
+      "date": "20240715",
+      "tournament": "ATP Bastad",
       "surface": "Hard",
       "level": "B",
       "round": "F",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Herbert",
-      "score": "3-6 6-4 6-3"
+      "opponent": "D. Yevseyev",
+      "score": "4-6 6-4 6-3"
     },
     {
-      "date": "20250209",
-      "tournament": "Marseille",
+      "date": "20240714",
+      "tournament": "ATP Bastad",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -41,34 +28,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Majchrzak",
-      "score": "5-7 6(7)-7(9)"
+      "opponent": "R. A. Burruchaga",
+      "score": "2-6 6-1 6(5)-7(7)"
     },
     {
-      "date": "20230219",
-      "tournament": "Marseille",
+      "date": "20240624",
+      "tournament": "ATP Wimbledon",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "G",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Piros",
+      "opponent": "A. Galarneau",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20220620",
+      "tournament": "Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Moreno De Alboran",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220419",
+      "tournament": "Barcelona",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Dellien",
       "score": "4-6 5-7"
     },
     {
-      "date": "20230205",
-      "tournament": "Montpellier",
+      "date": "20220417",
+      "tournament": "Barcelona",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Zapata Miralles",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20220416",
+      "tournament": "Barcelona",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bellier",
-      "score": "4-6 6(5)-7(7)"
+      "result": "W",
+      "opponent": "V. Sachko",
+      "score": "3-6 3-6"
     }
   ]
 }
