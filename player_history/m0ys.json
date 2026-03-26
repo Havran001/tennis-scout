@@ -1,1 +1,35 @@
-{"player_id":"m0ys","sack_id":"213582","name":"Andrea Motta","total":1,"matches":[{"id":"SOtGkvAN","date":"20260324","tournament":"ITF MEN - DOUBLES: M25 Tarragona (Spain), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Bieldiugin T./Senn N.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "m0ys",
+  "gs_id": "287848",
+  "player_name": "Andrea Motta",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T21:14:20.825Z",
+  "matches": [
+    {
+      "date": "20260204",
+      "tournament": "M15 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Wagner",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250806",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Ciobotaru",
+      "score": "4-6 6(6)-7(8)"
+    }
+  ]
+}
