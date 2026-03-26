@@ -1,1 +1,35 @@
-{"player_id":"a714","sack_id":"105419","name":"Patricio Alvarado","total":0,"matches":[]}
+{
+  "player_id": "a714",
+  "gs_id": "144683",
+  "player_name": "Patricio Alvarado",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:51:39.644Z",
+  "matches": [
+    {
+      "date": "20251116",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Martinez",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20221031",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Alvarez",
+      "score": "4-6 2-6"
+    }
+  ]
+}
