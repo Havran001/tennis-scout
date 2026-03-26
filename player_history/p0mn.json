@@ -1,1 +1,74 @@
-{"player_id":"p0mn","sack_id":"212285","name":"Albert Pedrico Kravtsov","total":0,"matches":[]}
+{
+  "player_id": "p0mn",
+  "gs_id": "210310",
+  "player_name": "Albert Pedrico Kravtsov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:16.630Z",
+  "matches": [
+    {
+      "date": "20240519",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Buse",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240518",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. De Krom",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240517",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Alcala Gurri",
+      "score": "5-7 6-1 4-6"
+    },
+    {
+      "date": "20240516",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Martin Tiffon",
+      "score": "4-6 6-4 6-2"
+    },
+    {
+      "date": "20240515",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Lopez",
+      "score": "6-4 6-3"
+    }
+  ]
+}
