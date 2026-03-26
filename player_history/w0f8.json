@@ -1,1 +1,35 @@
-{"player_id":"w0f8","sack_id":"213048","name":"Alan Wazny","total":0,"matches":[]}
+{
+  "player_id": "w0f8",
+  "gs_id": "271725",
+  "player_name": "Alan Wazny",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:29.628Z",
+  "matches": [
+    {
+      "date": "20250908",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kuzmanov",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20250720",
+      "tournament": "Tampere",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Reis Da Silva",
+      "score": "4-6 3-6"
+    }
+  ]
+}
