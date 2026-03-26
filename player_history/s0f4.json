@@ -3,59 +3,46 @@
   "gs_id": "85172",
   "player_name": "Damien Salvestre",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:45:36.745Z",
+  "updated": "2026-03-26T18:55:57.777Z",
   "matches": [
     {
-      "date": "20250831",
-      "tournament": "Cassis",
+      "date": "20260129",
+      "tournament": "M15 Monastir 3",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Robert",
+      "score": "6(3)-7(7) 6-1 6-3"
+    },
+    {
+      "date": "20260129",
+      "tournament": "M15 Monastir 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Engel",
-      "score": "4-6 4-6"
+      "opponent": "T. Berkieta",
+      "score": ""
     },
     {
-      "date": "20240903",
-      "tournament": "Cassis Challenger Men",
+      "date": "20200211",
+      "tournament": "M15 Grenoble",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20240902",
-      "tournament": "Cassis Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Reymond",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20240901",
-      "tournament": "Cassis Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Bittoun",
-      "score": "7-5 7(7)-6(4)"
+      "opponent": "M. Arnaldi",
+      "score": "4-6 3-6"
     }
   ]
 }
