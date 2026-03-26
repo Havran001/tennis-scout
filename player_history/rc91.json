@@ -2,7 +2,7 @@
   "player_id": "rc91",
   "player_name": "Arthur Rinderknech",
   "source": "goalserve",
-  "updated": "2026-03-26T00:20:18.346Z",
+  "updated": "2026-03-26T03:34:10.400Z",
   "matches": [
     {
       "date": "20260321",
@@ -5270,6 +5270,32 @@
       "score": "3-6 6(4)-7(7)"
     },
     {
+      "date": "20180904",
+      "tournament": "Cassis",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Menendez-Maceiras",
+      "score": "6(7)-7(9) 3-6"
+    },
+    {
+      "date": "20180703",
+      "tournament": "Bakio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Gutierrez-Ferrol",
+      "score": "6-4 2-6 3-6"
+    },
+    {
       "date": "20180627",
       "tournament": "Palma Del Rio",
       "surface": "Hard",
@@ -5320,6 +5346,123 @@
       "result": "W",
       "opponent": "O. Ram Harel",
       "score": "3-6 7-5 6-4"
+    },
+    {
+      "date": "20171128",
+      "tournament": "Waco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Schorsch",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20171011",
+      "tournament": "Houston",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Rodriguez",
+      "score": "6-4 6(2)-7(7) 3-6"
+    },
+    {
+      "date": "20170929",
+      "tournament": "Fountain Valley",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Craig",
+      "score": "2-6 7(7)-6(4) 6-0"
+    },
+    {
+      "date": "20170928",
+      "tournament": "Fountain Valley",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Holt",
+      "score": "2-6 6-4 6-3"
+    },
+    {
+      "date": "20170927",
+      "tournament": "Fountain Valley",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Song",
+      "score": "6(5)-7(7) 6-3 4-6"
+    },
+    {
+      "date": "20161130",
+      "tournament": "Waco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Nakagawa",
+      "score": "6-4 6(1)-7(7) 2-6"
+    },
+    {
+      "date": "20151125",
+      "tournament": "Waco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Nevolo",
+      "score": ""
+    },
+    {
+      "date": "20151124",
+      "tournament": "Waco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Rios",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20130129",
+      "tournament": "Feucherolles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Guez",
+      "score": "7-5 6-2"
     }
   ]
 }
