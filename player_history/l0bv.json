@@ -2,6 +2,33 @@
   "player_id": "l0bv",
   "player_name": "Jiri Lehecka",
   "source": "goalserve-full",
-  "updated": "2026-03-26T07:10:16.460Z",
-  "matches": []
+  "updated": "2026-03-26T07:10:23.459Z",
+  "matches": [
+    {
+      "date": "20230728",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Arnaldi",
+      "score": "3-6 6-2 6-4"
+    },
+    {
+      "date": "20230727",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Thiem",
+      "score": "6-3 7-5"
+    }
+  ]
 }
