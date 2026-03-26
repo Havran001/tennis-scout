@@ -1,1 +1,61 @@
-{"player_id":"ad04","sack_id":"124126","name":"Sarp Agabigun","total":0,"matches":[]}
+{
+  "player_id": "ad04",
+  "gs_id": "30382",
+  "player_name": "Sarp Agabigun",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:27:33.625Z",
+  "matches": [
+    {
+      "date": "20180428",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Hurkacz",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20170205",
+      "tournament": "Sofia",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Tepavac",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20160423",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rublev",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20150425",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Chervyakov",
+      "score": "6(6)-7(8) 7-5 6-0"
+    }
+  ]
+}
