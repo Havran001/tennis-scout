@@ -3,63 +3,50 @@
   "gs_id": "90081",
   "player_name": "Olaf Pieczkowski",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:50:25.643Z",
+  "updated": "2026-03-26T16:12:44.702Z",
   "matches": [
     {
-      "date": "20250721",
-      "tournament": "Segovia",
+      "date": "20250713",
+      "tournament": "Pozoblanco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Winter",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20250203",
+      "tournament": "Chennai",
       "surface": "Hard",
       "level": "C",
       "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Soriano Barrera",
-      "score": "6(4)-7(7) 6-3 3-6"
-    },
-    {
-      "date": "20250720",
-      "tournament": "Segovia",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Z. Tkemaladze",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20250209",
-      "tournament": "New Delhi",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gueymard Wayenburg",
-      "score": "1-6 1-6"
-    },
-    {
-      "date": "20240618",
-      "tournament": "Poznan Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "H. Barton",
-      "score": "5-7 0-6"
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240225",
-      "tournament": "New Delhi Challenger Men",
+      "date": "20250202",
+      "tournament": "Chennai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. N. Kumaran",
+      "score": "6(1)-7(7) 0-6"
+    },
+    {
+      "date": "20240211",
+      "tournament": "Bengaluru Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,51 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Echargui",
-      "score": "3-6 6-3 6(4)-7(7)"
+      "opponent": "K. van Wyk",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20231116",
-      "tournament": "Drummondville Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Koepfer",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20231114",
-      "tournament": "Drummondville Challenger Men",
+      "date": "20240206",
+      "tournament": "Chennai Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Paulson",
-      "score": "4-6 6-3 6-1"
+      "result": "L",
+      "opponent": "B. Tomic",
+      "score": "2-6 6-4 7(7)-6(2)"
     },
     {
-      "date": "20231113",
-      "tournament": "Drummondville Challenger Men",
+      "date": "20240205",
+      "tournament": "Chennai Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Kotzen",
-      "score": "6-1 6-4"
+      "result": "W",
+      "opponent": "K. van Wyk",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20231112",
-      "tournament": "Drummondville Challenger Men",
+      "date": "20240204",
+      "tournament": "Chennai Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -119,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Stakusic",
-      "score": "7(7)-6(5) 5-7 6-2"
+      "opponent": "N. K. Sinha",
+      "score": "3-6 1-6"
     }
   ]
 }
