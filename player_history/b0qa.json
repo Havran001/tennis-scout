@@ -1,1 +1,61 @@
-{"player_id":"b0qa","sack_id":"212668","name":"Tyler Bowers","total":0,"matches":[]}
+{
+  "player_id": "b0qa",
+  "gs_id": "169920",
+  "player_name": "Tyler Bowers",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:52:17.645Z",
+  "matches": [
+    {
+      "date": "20241111",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Corwin",
+      "score": "3-6 7(7)-6(4) 2-6"
+    },
+    {
+      "date": "20241110",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Ozolins",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20231112",
+      "tournament": "Champaign Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Zhu",
+      "score": "6(5)-7(7) 6(3)-7(7)"
+    },
+    {
+      "date": "20221113",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kypson",
+      "score": "6-2 6-2"
+    }
+  ]
+}
