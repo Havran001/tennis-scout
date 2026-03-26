@@ -3,11 +3,11 @@
   "gs_id": "1842",
   "player_name": "Richard Gasquet",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:32:54.661Z",
+  "updated": "2026-03-26T15:18:14.691Z",
   "matches": [
     {
-      "date": "20220418",
-      "tournament": "Belgrade",
+      "date": "20240519",
+      "tournament": "Lyon",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Kecmanovic",
-      "score": "6-0 6-3"
+      "opponent": "A. Muller",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20210619",
-      "tournament": "Nottingham 2",
+      "date": "20230915",
+      "tournament": "Rennes Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bolt",
-      "score": "6-3 6(9)-7(11) 1-0 ret."
+      "opponent": "B. Bonzi",
+      "score": "7(7)-6(5) 6-0"
     },
     {
-      "date": "20210616",
-      "tournament": "Nottingham 2",
+      "date": "20230913",
+      "tournament": "Rennes Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Clarke",
-      "score": "6-2 6-3"
+      "opponent": "M. Guinard",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20210614",
-      "tournament": "Nottingham 2",
+      "date": "20230911",
+      "tournament": "Rennes Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,12 +54,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Soeda",
-      "score": "6-4 6-2"
+      "opponent": "J. Marie",
+      "score": "7-5 6-3"
     },
     {
-      "date": "20100507",
-      "tournament": "Belgrade",
+      "date": "20230522",
+      "tournament": "ATP Lyon",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Ymer",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20210918",
+      "tournament": "Rennes Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Moraing",
+      "score": "6-4 5-7 6-2"
+    },
+    {
+      "date": "20210917",
+      "tournament": "Rennes Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Safiullin",
+      "score": "7(8)-6(6) 7-5"
+    },
+    {
+      "date": "20210915",
+      "tournament": "Rennes Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Chidekh",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20210913",
+      "tournament": "Rennes Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Jacquet",
+      "score": "7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20210521",
+      "tournament": "ATP Lyon",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
@@ -67,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Isner",
-      "score": "2-6 7-6 6-3"
+      "opponent": "K. Khachanov",
+      "score": "6-1 7(7)-6(3)"
     },
     {
-      "date": "20100506",
-      "tournament": "Belgrade",
+      "date": "20210520",
+      "tournament": "ATP Lyon",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -80,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Seppi",
-      "score": "6-4 2-6 5-7"
+      "opponent": "D. Schwartzman",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20100504",
-      "tournament": "Belgrade",
+      "date": "20210518",
+      "tournament": "ATP Lyon",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -93,8 +158,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Rochus",
-      "score": "0-6 1-6"
+      "opponent": "G. Barrere",
+      "score": "5-7 6-4 6-3"
+    },
+    {
+      "date": "20190522",
+      "tournament": "Lyon",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": ""
+    },
+    {
+      "date": "20190520",
+      "tournament": "Lyon",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Janvier",
+      "score": "6(5)-7(7) 6-2 7(7)-6(2)"
+    },
+    {
+      "date": "20180425",
+      "tournament": "Budapest",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Sonego",
+      "score": "6-4 7(7)-6(4)"
     }
   ]
 }
