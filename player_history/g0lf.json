@@ -1,1 +1,22 @@
-{"player_id":"g0lf","sack_id":"212864","name":"Valentin Garay","total":0,"matches":[]}
+{
+  "player_id": "g0lf",
+  "gs_id": "173349",
+  "player_name": "Valentin Garay",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:00:38.797Z",
+  "matches": [
+    {
+      "date": "20230423",
+      "tournament": "Buenos Aires Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Aboian",
+      "score": "2-6 1-6"
+    }
+  ]
+}
