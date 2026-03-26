@@ -3,11 +3,11 @@
   "gs_id": "163493",
   "player_name": "Vito Dell'Elba",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:14:30.865Z",
+  "updated": "2026-03-26T23:12:16.884Z",
   "matches": [
     {
-      "date": "20230425",
-      "tournament": "ITF M15 Monastir 17 Men",
+      "date": "20250924",
+      "tournament": "M15 Monastir 36",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Cias",
-      "score": "6-0 6(4)-7(7) 6(3)-7(7)"
+      "opponent": "A. Shepp",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20230412",
-      "tournament": "ITF M15 Monastir 15 Men",
+      "date": "20230906",
+      "tournament": "ITF M15 Monastir 36 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Bouzige",
-      "score": "6-4 7-5"
+      "opponent": "C. Vandermeersch",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230816",
+      "tournament": "ITF M15 Monastir 33 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Wallart",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20220830",
+      "tournament": "M15 Pescara",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Bocchi",
+      "score": "4-6 2-6"
     }
   ]
 }
