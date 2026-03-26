@@ -2,7 +2,7 @@
   "player_id": "b0gg",
   "player_name": "Mattia Bellucci",
   "source": "goalserve",
-  "updated": "2026-03-26T00:22:04.345Z",
+  "updated": "2026-03-26T03:36:02.400Z",
   "matches": [
     {
       "date": "20260320",
@@ -3476,6 +3476,32 @@
       "score": "3-6 5-7"
     },
     {
+      "date": "20190807",
+      "tournament": "Chiswick",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Jubb",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20190724",
+      "tournament": "Pontedera",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Zeppieri",
+      "score": "6-1 6-2"
+    },
+    {
       "date": "20190718",
       "tournament": "Gandia",
       "surface": "Hard",
@@ -3500,6 +3526,32 @@
       "result": "W",
       "opponent": "G. Planelles Ripoll",
       "score": "4-6 6-4 0-6"
+    },
+    {
+      "date": "20190502",
+      "tournament": "Santa Margherita Di Pula 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Prevosto",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20190430",
+      "tournament": "Santa Margherita Di Pula 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Tortora",
+      "score": "2-6 2-6"
     }
   ]
 }
