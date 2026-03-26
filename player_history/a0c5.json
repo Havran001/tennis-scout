@@ -1,1 +1,35 @@
-{"matches":[],"total":0}
+{
+  "player_id": "a0c5",
+  "gs_id": "77014",
+  "player_name": "Dimitris Azoidis",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:17.553Z",
+  "matches": [
+    {
+      "date": "20191121",
+      "tournament": "Austin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Habib",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20191120",
+      "tournament": "Austin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ruiz-Rosales",
+      "score": "6-2 6-3"
+    }
+  ]
+}
