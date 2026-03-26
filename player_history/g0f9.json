@@ -1,1 +1,48 @@
-{"player_id":"g0f9","sack_id":"208835","name":"Rafael Giotis","total":0,"matches":[]}
+{
+  "player_id": "g0f9",
+  "gs_id": "59051",
+  "player_name": "Rafael Giotis",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:47:42.741Z",
+  "matches": [
+    {
+      "date": "20230828",
+      "tournament": "Mallorca Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Langmo",
+      "score": "6-3 7(7)-6(0)"
+    },
+    {
+      "date": "20210831",
+      "tournament": "Mallorca Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Chappell",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20210830",
+      "tournament": "Mallorca Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Bellucci",
+      "score": "6(4)-7(7) 2-6"
+    }
+  ]
+}
