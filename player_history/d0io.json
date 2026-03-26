@@ -1,1 +1,48 @@
-{"player_id":"d0io","sack_id":"210513","name":"Tuncay Duran","total":2,"matches":[{"id":"0tiqb4cR","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Yilmaz K.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"O6C75eUs","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Anavatan M.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "d0io",
+  "gs_id": "144688",
+  "player_name": "Tuncay Duran",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:49:26.750Z",
+  "matches": [
+    {
+      "date": "20240902",
+      "tournament": "Istanbul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dodig",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230905",
+      "tournament": "Istanbul Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dzumhur",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20220911",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Palan",
+      "score": "6(3)-7(7) 2-6"
+    }
+  ]
+}
