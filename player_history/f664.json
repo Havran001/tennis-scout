@@ -3,8 +3,47 @@
   "gs_id": "4435",
   "player_name": "Sebastian Fanselow",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:03:13.567Z",
+  "updated": "2026-03-26T11:44:27.592Z",
   "matches": [
+    {
+      "date": "20180410",
+      "tournament": "Little Rock",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Strode",
+      "score": "0-6 6(4)-7(7)"
+    },
+    {
+      "date": "20170413",
+      "tournament": "Little Rock",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Hiltzik",
+      "score": "6-3 5-7 2-6"
+    },
+    {
+      "date": "20170411",
+      "tournament": "Little Rock",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Watanuki",
+      "score": "2-6 0-6"
+    },
     {
       "date": "20170326",
       "tournament": "Calabasas",
@@ -71,21 +110,8 @@
       "score": "6-4 7-5"
     },
     {
-      "date": "20161019",
-      "tournament": "Harlingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "W. Spencer",
-      "score": "4-6 6-3 6-2"
-    },
-    {
-      "date": "20160324",
-      "tournament": "Calabasas",
+      "date": "20160414",
+      "tournament": "Little Rock",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Laaksonen",
-      "score": "6(3)-7(7) 1-6"
+      "opponent": "S. Kozlov",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20160322",
-      "tournament": "Calabasas",
+      "date": "20160413",
+      "tournament": "Little Rock",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Spencer",
-      "score": "6-0 6-1"
+      "opponent": "L. Bambridge",
+      "score": "4-6 6-3 6-4"
     }
   ]
 }
