@@ -3,46 +3,33 @@
   "gs_id": "208808",
   "player_name": "Markus Molder",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:13:54.825Z",
+  "updated": "2026-03-26T22:15:34.864Z",
   "matches": [
     {
-      "date": "20250115",
-      "tournament": "M15 Bressuire",
+      "date": "20250306",
+      "tournament": "M15 Poitiers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Massard",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20250304",
+      "tournament": "M15 Poitiers",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Lamasine",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20241103",
-      "tournament": "Helsinki",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Sels",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20231105",
-      "tournament": "Helsinki Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Onclin",
-      "score": "0-6 4-6"
+      "result": "W",
+      "opponent": "C. Camus",
+      "score": "6-4 6-4"
     }
   ]
 }
