@@ -3,11 +3,11 @@
   "gs_id": "37565",
   "player_name": "Melios Efstathiou",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:05:09.884Z",
+  "updated": "2026-03-26T23:49:07.899Z",
   "matches": [
     {
-      "date": "20240731",
-      "tournament": "ITF M15 Monastir 31 Men",
+      "date": "20240821",
+      "tournament": "ITF M15 Pirot Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Bertimon",
-      "score": "3-6 6-0 6-0"
+      "opponent": "A. Pisaric",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20240709",
-      "tournament": "ITF M15 Monastir 28 Men",
+      "date": "20231011",
+      "tournament": "ITF M15 Monastir 41 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,64 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Fomba",
-      "score": "7(7)-6(2) 6-3"
+      "opponent": "K. Wehnelt",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20240703",
-      "tournament": "ITF M15 Monastir 27 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Silva",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20240625",
-      "tournament": "ITF M15 Monastir 26 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Elsayed",
-      "score": "4-6 6-1 6-4"
-    },
-    {
-      "date": "20230720",
-      "tournament": "ITF M15 Monastir 29 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Wallart",
-      "score": "6(7)-7(9) 6-1 1-6"
-    },
-    {
-      "date": "20230719",
-      "tournament": "ITF M15 Monastir 29 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Thanos",
-      "score": "7(10)-6(8) 1-6 4-6"
-    },
-    {
-      "date": "20230714",
-      "tournament": "ITF M15 Monastir 28 Men",
+      "date": "20231006",
+      "tournament": "ITF M15 Monastir 40 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -93,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gautier",
-      "score": "6-2 4-6 6-4"
+      "opponent": "C. Bittoun",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20230713",
-      "tournament": "ITF M15 Monastir 28 Men",
+      "date": "20231005",
+      "tournament": "ITF M15 Monastir 40 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Agafonov",
-      "score": "6-4 3-6 0-3 ret."
+      "opponent": "A. Skorilas",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20230711",
-      "tournament": "ITF M15 Monastir 28 Men",
+      "date": "20231003",
+      "tournament": "ITF M15 Monastir 40 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,12 +67,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Degabriele",
-      "score": "4-6 2-6"
+      "opponent": "A. Lobanov",
+      "score": "5-7 7-5 6-2"
     },
     {
-      "date": "20230705",
-      "tournament": "ITF M15 Sofia Men",
+      "date": "20211029",
+      "tournament": "M15 Sharm El Sheikh 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K.M. Maamoun",
+      "score": "4-6 6-4 0-6"
+    },
+    {
+      "date": "20211028",
+      "tournament": "M15 Sharm El Sheikh 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Krainer",
+      "score": "6-3 5-7 6-4"
+    },
+    {
+      "date": "20211027",
+      "tournament": "M15 Sharm El Sheikh 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Habib",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20210929",
+      "tournament": "M25 Pretoria",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,21 +119,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. B. Privara",
-      "score": "3-6 6-2 7(7)-6(3)"
+      "opponent": "R. Nijboer",
+      "score": "3-6 0-6"
     },
     {
-      "date": "20210630",
-      "tournament": "M15 Antalya 26",
+      "date": "20210923",
+      "tournament": "M25 Johannesburg / Ellispark",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Beckley",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20210922",
+      "tournament": "M25 Johannesburg / Ellispark",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Sheyngezikht",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20210916",
+      "tournament": "M25 Johannesburg / Markspark",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "N. Frunza",
-      "score": "6-3 7-5"
+      "opponent": "D. Salton",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20210915",
+      "tournament": "M25 Johannesburg / Markspark",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Koenig",
+      "score": "6-2 4-6 6-2"
     }
   ]
 }
