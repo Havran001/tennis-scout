@@ -3,20 +3,46 @@
   "gs_id": "76901",
   "player_name": "Bogdan Pavel",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:44:56.595Z",
+  "updated": "2026-03-26T13:49:47.650Z",
   "matches": [
     {
-      "date": "20240414",
-      "tournament": "ATP Bucharest",
+      "date": "20241014",
+      "tournament": "Saint Brieuc",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Edmund",
+      "score": "7(7)-6(5) 6(3)-7(7) 2-6"
+    },
+    {
+      "date": "20241013",
+      "tournament": "Saint Brieuc",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gautier",
+      "score": "6(3)-7(7) 6-4 7-5"
+    },
+    {
+      "date": "20240915",
+      "tournament": "Sibiu",
+      "surface": "Hard",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Vacherot",
-      "score": "1-6 4-6"
+      "opponent": "A. Gea",
+      "score": "6(3)-7(7) 3-6"
     }
   ]
 }
