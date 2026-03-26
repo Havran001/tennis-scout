@@ -1,1 +1,22 @@
-{"player_id":"fc50","sack_id":"200187","name":"Luc Fomba","total":0,"matches":[]}
+{
+  "player_id": "fc50",
+  "gs_id": "35121",
+  "player_name": "Luc Fomba",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:28.540Z",
+  "matches": [
+    {
+      "date": "20160712",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Meulemans",
+      "score": "6-4 6-1"
+    }
+  ]
+}
