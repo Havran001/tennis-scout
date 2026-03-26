@@ -3,20 +3,85 @@
   "gs_id": "58695",
   "player_name": "Giles Hussey",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:32:06.551Z",
+  "updated": "2026-03-26T11:45:36.582Z",
   "matches": [
     {
-      "date": "20181031",
-      "tournament": "Birmingham",
+      "date": "20250623",
+      "tournament": "Wimbledon",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "G",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Roberto",
-      "score": "4-6 5-7"
+      "opponent": "A. Holmgren",
+      "score": "4-6 6-3 7-5"
+    },
+    {
+      "date": "20240626",
+      "tournament": "ATP Eastbourne",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cobolli",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20240625",
+      "tournament": "ATP Eastbourne",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Navone",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240623",
+      "tournament": "ATP Eastbourne",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Shang",
+      "score": "7-5 7(7)-6(5)"
+    },
+    {
+      "date": "20240622",
+      "tournament": "ATP Eastbourne",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Cazaux",
+      "score": "6-3 2-6 1-6"
+    },
+    {
+      "date": "20230624",
+      "tournament": "ATP Eastbourne",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Choinski",
+      "score": "6-3 4-6 6-2"
     }
   ]
 }
