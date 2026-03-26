@@ -1,1 +1,22 @@
-{"player_id":"f09j","sack_id":"200418","name":"Karl Friberg","total":0,"matches":[]}
+{
+  "player_id": "f09j",
+  "gs_id": "41011",
+  "player_name": "Karl Friberg",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:57.539Z",
+  "matches": [
+    {
+      "date": "20180918",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. McHugh",
+      "score": "4-6 6-4 7(7)-6(3)"
+    }
+  ]
+}
