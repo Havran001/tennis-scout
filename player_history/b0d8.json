@@ -3,11 +3,11 @@
   "gs_id": "38238",
   "player_name": "Jacob Brumm",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:18:27.681Z",
+  "updated": "2026-03-26T17:44:16.777Z",
   "matches": [
     {
-      "date": "20240428",
-      "tournament": "Porto Alegre Challenger Men",
+      "date": "20240128",
+      "tournament": "Cleveland Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Gimenez",
+      "opponent": "P. Maloney",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20240114",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Vandecasteele",
       "score": "6-2 6-2"
+    },
+    {
+      "date": "20221106",
+      "tournament": "Calgary",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Pervolarakis",
+      "score": "4-6 4-6"
     }
   ]
 }
