@@ -1,1 +1,35 @@
-{"player_id":"k0c5","sack_id":"207256","name":"Admir Kalender","total":0,"matches":[]}
+{
+  "player_id": "k0c5",
+  "gs_id": "41612",
+  "player_name": "Admir Kalender",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:08:47.637Z",
+  "matches": [
+    {
+      "date": "20190714",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Balazs",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20180715",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. R. Silva",
+      "score": "3-6 2-6"
+    }
+  ]
+}
