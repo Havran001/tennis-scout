@@ -1,1 +1,48 @@
-{"player_id":"g0g2","sack_id":"208605","name":"Mario Gonzalez Fernandez","total":0,"matches":[]}
+{
+  "player_id": "g0g2",
+  "gs_id": "126963",
+  "player_name": "Mario Gonzalez Fernandez",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:39.880Z",
+  "matches": [
+    {
+      "date": "20250831",
+      "tournament": "Seville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alcala Gurri",
+      "score": "3-6 0-3 ret."
+    },
+    {
+      "date": "20230904",
+      "tournament": "Seville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Romboli",
+      "score": "1-2 ret."
+    },
+    {
+      "date": "20230904",
+      "tournament": "Seville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Royer",
+      "score": "3-6 6(4)-7(7)"
+    }
+  ]
+}
