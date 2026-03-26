@@ -3,20 +3,46 @@
   "gs_id": "41780",
   "player_name": "Oleg Prihodko",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:44:31.583Z",
+  "updated": "2026-03-26T12:28:29.603Z",
   "matches": [
     {
-      "date": "20250330",
-      "tournament": "Bucharest",
+      "date": "20180424",
+      "tournament": "Majadahonda",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Skatov",
-      "score": "4-6 3-6"
+      "opponent": "Z. Bergs",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20180131",
+      "tournament": "Paguera (Mallorca)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Giustino",
+      "score": "4-4 ret."
+    },
+    {
+      "date": "20180130",
+      "tournament": "Paguera (Mallorca)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Mertens",
+      "score": "7(7)-6(3) 4-6 6-2"
     }
   ]
 }
