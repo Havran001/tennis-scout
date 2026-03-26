@@ -1,1 +1,48 @@
-{"player_id":"p0gq","sack_id":"209890","name":"Mili Poljicak","total":2,"matches":[{"id":"2aKb5COq","date":"20260325","tournament":"CHALLENGER MEN - SINGLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Gill F.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"hlXlWUWI","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Ivanisevic E.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "p0gq",
+  "gs_id": "87551",
+  "player_name": "Mili Poljicak",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:44.525Z",
+  "matches": [
+    {
+      "date": "20250722",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. De Jong",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240722",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Sonego",
+      "score": "6-2 6(1)-7(7) 7(11)-6(9)"
+    },
+    {
+      "date": "20220725",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cecchinato",
+      "score": "1-6 7-5 2-6"
+    }
+  ]
+}
