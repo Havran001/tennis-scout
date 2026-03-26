@@ -1,1 +1,61 @@
-{"player_id":"d0db","sack_id":"208265","name":"Pierre Delage","total":1,"matches":[{"id":"MmBwAKEc","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Voljavec A.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "d0db",
+  "gs_id": "65461",
+  "player_name": "Pierre Delage",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:18.628Z",
+  "matches": [
+    {
+      "date": "20250513",
+      "tournament": "Bordeaux",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ramos",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20250512",
+      "tournament": "Bordeaux",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Martineau",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20220508",
+      "tournament": "Bordeaux",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Ramanathan",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20190429",
+      "tournament": "Bordeaux",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Moroni",
+      "score": "6-3 6-4"
+    }
+  ]
+}
