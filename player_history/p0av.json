@@ -1,48 +1,48 @@
 {
   "player_id": "p0av",
-  "gs_id": "175240",
-  "player_name": "Seungmin Park",
+  "gs_id": "35198",
+  "player_name": "Uisung Park",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:18:54.816Z",
+  "updated": "2026-03-26T20:21:39.835Z",
   "matches": [
     {
-      "date": "20240124",
-      "tournament": "ITF M15 Monastir 4 Men",
+      "date": "20250729",
+      "tournament": "Astana",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Fernandez Canovas",
-      "score": "7-5 6-3"
+      "opponent": "L. Castelnuovo",
+      "score": "6(3)-7(7) 3-6"
     },
     {
-      "date": "20240117",
-      "tournament": "ITF M15 Monastir 3 Men",
+      "date": "20250728",
+      "tournament": "Astana",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zhu",
+      "result": "W",
+      "opponent": "T. Ichikawa",
       "score": "3-6 3-6"
     },
     {
-      "date": "20240109",
-      "tournament": "ITF M15 Monastir 2 Men",
+      "date": "20250727",
+      "tournament": "Astana",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Castagnola",
-      "score": "0-6 2-6"
+      "result": "W",
+      "opponent": "E. Bakhtiyar",
+      "score": "4-6 2-6"
     }
   ]
 }
