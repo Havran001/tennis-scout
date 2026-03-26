@@ -1,1 +1,126 @@
-{"player_id":"p0b2","sack_id":"206553","name":"Luca Potenza","total":0,"matches":[]}
+{
+  "player_id": "p0b2",
+  "gs_id": "73086",
+  "player_name": "Luca Potenza",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:33.624Z",
+  "matches": [
+    {
+      "date": "20250906",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Mejia",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20250905",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Hemery",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20250904",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Gombos",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20250902",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Kirci",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20250901",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Azkara",
+      "score": "6-2 7(7)-6(4)"
+    },
+    {
+      "date": "20250831",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Dhamne",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20190924",
+      "tournament": "Santa Margherita Di Pula 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cobolli",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20190725",
+      "tournament": "Pontedera",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Basso",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20190724",
+      "tournament": "Pontedera",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Virgili",
+      "score": "4-6 6-4 7(9)-6(7)"
+    }
+  ]
+}
