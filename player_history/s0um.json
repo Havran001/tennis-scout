@@ -1,1 +1,22 @@
-{"player_id":"s0um","sack_id":"210537","name":"Josip Simundza","total":1,"matches":[{"id":"MwhgNZml","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Coulibaly E.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "s0um",
+  "gs_id": "143392",
+  "player_name": "Josip Simundza",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T16:13:26.703Z",
+  "matches": [
+    {
+      "date": "20250907",
+      "tournament": "Biella",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Miletich",
+      "score": "6-4 6-4"
+    }
+  ]
+}
