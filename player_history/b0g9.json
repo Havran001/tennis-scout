@@ -1,1 +1,48 @@
-{"player_id":"b0g9","sack_id":"208216","name":"Alberto Bronzetti","total":1,"matches":[{"id":"UVVFcLl2","date":"20260324","tournament":"CHALLENGER WOMEN - SINGLES: Dubrovnik (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Kalinina A.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "b0g9",
+  "gs_id": "86990",
+  "player_name": "Alberto Bronzetti",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:56:00.790Z",
+  "matches": [
+    {
+      "date": "20250810",
+      "tournament": "Todi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. de Marchi",
+      "score": "6-0 2-6 3-6"
+    },
+    {
+      "date": "20250713",
+      "tournament": "San Marino",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Karol",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240728",
+      "tournament": "San Marino Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alves",
+      "score": "4-6 6(3)-7(7)"
+    }
+  ]
+}
