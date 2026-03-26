@@ -1,1 +1,48 @@
-{"player_id":"n786","sack_id":"125843","name":"Ren Nakamura","total":3,"matches":[{"id":"EmPkLwEE","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Jones S.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"b1ClltKs","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Jovic P.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"b1ClltKs","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Jovic P.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "n786",
+  "gs_id": "73964",
+  "player_name": "Ren Nakamura",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T14:36:18.678Z",
+  "matches": [
+    {
+      "date": "20251116",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Matsuda",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20251102",
+      "tournament": "Taipei",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Nam Ji",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20191104",
+      "tournament": "Kobe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Hazawa",
+      "score": "7(7)-6(4) 6-0"
+    }
+  ]
+}
