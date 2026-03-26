@@ -1,1 +1,22 @@
-{"player_id":"pl64","sack_id":"144716","name":"Oleg Prihodko","total":0,"matches":[]}
+{
+  "player_id": "pl64",
+  "gs_id": "41780",
+  "player_name": "Oleg Prihodko",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:44:31.583Z",
+  "matches": [
+    {
+      "date": "20250330",
+      "tournament": "Bucharest",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Skatov",
+      "score": "4-6 3-6"
+    }
+  ]
+}
