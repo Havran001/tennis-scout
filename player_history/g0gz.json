@@ -1,1 +1,35 @@
-{"player_id":"g0gz","sack_id":"209887","name":"Liam Gavrielides","total":0,"matches":[]}
+{
+  "player_id": "g0gz",
+  "gs_id": "126758",
+  "player_name": "Liam Gavrielides",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:39.878Z",
+  "matches": [
+    {
+      "date": "20240608",
+      "tournament": "ATP Stuttgart",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cressy",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230807",
+      "tournament": "Meerbusch",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Den Ouden",
+      "score": "6-4 3-6 3-6"
+    }
+  ]
+}
