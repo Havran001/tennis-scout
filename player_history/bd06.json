@@ -2,7 +2,7 @@
   "player_id": "bd06",
   "player_name": "Roberto Bautista Agut",
   "source": "goalserve",
-  "updated": "2026-03-26T00:22:29.349Z",
+  "updated": "2026-03-26T03:36:27.404Z",
   "matches": [
     {
       "date": "20260320",
@@ -5125,6 +5125,58 @@
       "result": "W",
       "opponent": "M. Venus",
       "score": "2-6 1-6"
+    },
+    {
+      "date": "20180103",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Simon",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20171230",
+      "tournament": "Abu Dhabi",
+      "surface": "Hard",
+      "level": "E",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Anderson",
+      "score": "4-6 6(0)-7(7)"
+    },
+    {
+      "date": "20171229",
+      "tournament": "Abu Dhabi",
+      "surface": "Hard",
+      "level": "E",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Murray",
+      "score": "6-2"
+    },
+    {
+      "date": "20171228",
+      "tournament": "Abu Dhabi",
+      "surface": "Hard",
+      "level": "E",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Rublev",
+      "score": "7-5 6-2"
     },
     {
       "date": "20171102",
@@ -10522,6 +10574,58 @@
       "score": "1-6 3-6"
     },
     {
+      "date": "20111015",
+      "tournament": "Rennes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Benneteau",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20111014",
+      "tournament": "Rennes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Mahut",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20111013",
+      "tournament": "Rennes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Mannarino",
+      "score": "4-6 7-5 6-3"
+    },
+    {
+      "date": "20111012",
+      "tournament": "Rennes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Beck",
+      "score": "4-6 6-3 7(9)-6(7)"
+    },
+    {
       "date": "20110928",
       "tournament": "Madrid",
       "surface": "Hard",
@@ -10546,6 +10650,32 @@
       "result": "W",
       "opponent": "R. Jouan",
       "score": "2-6 4-6"
+    },
+    {
+      "date": "20110922",
+      "tournament": "Ljubljana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Mayer",
+      "score": "7(10)-6(8) 7-5"
+    },
+    {
+      "date": "20110920",
+      "tournament": "Ljubljana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Basic",
+      "score": "6-3 2-6 6-3"
     },
     {
       "date": "20110914",
@@ -10598,6 +10728,45 @@
       "result": "L",
       "opponent": "S. Rieschick",
       "score": "3-6 2-6"
+    },
+    {
+      "date": "20110819",
+      "tournament": "San Sebastian",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ramos",
+      "score": "6-1 4-6 1-6"
+    },
+    {
+      "date": "20110817",
+      "tournament": "San Sebastian",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Fraile",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20110816",
+      "tournament": "San Sebastian",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Navarro",
+      "score": "3-6 4-6"
     },
     {
       "date": "20110804",
@@ -10663,6 +10832,19 @@
       "result": "W",
       "opponent": "L. Walter",
       "score": "6-1 7(7)-6(5)"
+    },
+    {
+      "date": "20110712",
+      "tournament": "Sopot",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Munoz-De La Nava",
+      "score": "6-4 6-4"
     },
     {
       "date": "20110708",
@@ -10754,6 +10936,71 @@
       "result": "L",
       "opponent": "D. Gremelmayr",
       "score": "5-7 5-7"
+    },
+    {
+      "date": "20110529",
+      "tournament": "Alessandria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Carreno-Busta",
+      "score": "3-6 6-3 7-5"
+    },
+    {
+      "date": "20110528",
+      "tournament": "Alessandria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Bagnis",
+      "score": "4-6 7-5 6-3"
+    },
+    {
+      "date": "20110527",
+      "tournament": "Alessandria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Junqueira",
+      "score": "6(6)-7(8) 2-6"
+    },
+    {
+      "date": "20110526",
+      "tournament": "Alessandria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ungur",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20110524",
+      "tournament": "Alessandria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Naso",
+      "score": "6-4 6(5)-7(7) 2-6"
     },
     {
       "date": "20110519",
@@ -11120,6 +11367,19 @@
       "score": "5-7 5-7"
     },
     {
+      "date": "20101116",
+      "tournament": "Bratislava",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Gabashvili",
+      "score": "3-6 6-7"
+    },
+    {
       "date": "20101106",
       "tournament": "Paris",
       "surface": "Hard",
@@ -11183,6 +11443,58 @@
       "result": "W",
       "opponent": "P. Oswald",
       "score": "6-3 7-6"
+    },
+    {
+      "date": "20101016",
+      "tournament": "Rennes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gicquel",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20101015",
+      "tournament": "Rennes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Niland",
+      "score": "6-3 1-6 5-7"
+    },
+    {
+      "date": "20101013",
+      "tournament": "Rennes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Mahut",
+      "score": "6-4 6-7 6-4"
+    },
+    {
+      "date": "20101012",
+      "tournament": "Rennes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gensse",
+      "score": "5-7 6-7"
     },
     {
       "date": "20101004",
@@ -11393,6 +11705,19 @@
       "score": "6-2 6-1"
     },
     {
+      "date": "20100524",
+      "tournament": "Alessandria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kukushkin",
+      "score": "4-6 7-6 3-6"
+    },
+    {
       "date": "20100519",
       "tournament": "French Open",
       "surface": "Hard",
@@ -11417,6 +11742,32 @@
       "result": "W",
       "opponent": "J. Eysseric",
       "score": "6-4 2-6 4-6"
+    },
+    {
+      "date": "20100506",
+      "tournament": "San Remo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ramos",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20100505",
+      "tournament": "San Remo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Decoud",
+      "score": "4-6 6-4 6-7"
     },
     {
       "date": "20100430",
@@ -11482,6 +11833,45 @@
       "result": "W",
       "opponent": "I. Minar",
       "score": "6-7 2-6"
+    },
+    {
+      "date": "20100326",
+      "tournament": "Jersey",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Minar",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20100325",
+      "tournament": "Jersey",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. De Chaunac",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20100324",
+      "tournament": "Jersey",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Grigelis",
+      "score": "7-5 7-6"
     },
     {
       "date": "20100204",
@@ -11560,6 +11950,19 @@
       "result": "L",
       "opponent": "A. Montanes",
       "score": "1-6 6-3 4-6"
+    },
+    {
+      "date": "20090810",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Navarro",
+      "score": "4-6 2-6"
     },
     {
       "date": "20090807",
