@@ -1,1 +1,22 @@
-{"player_id":"d09v","sack_id":"200474","name":"Ivan Denisov","total":0,"matches":[]}
+{
+  "player_id": "d09v",
+  "gs_id": "32613",
+  "player_name": "Ivan Denisov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:31:15.552Z",
+  "matches": [
+    {
+      "date": "20151017",
+      "tournament": "Moscow",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Kravchuk",
+      "score": "1-6 1-6"
+    }
+  ]
+}
