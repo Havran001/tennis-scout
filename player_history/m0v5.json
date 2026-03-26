@@ -3,8 +3,21 @@
   "gs_id": "200561",
   "player_name": "Marc Majdandzic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:01:17.778Z",
+  "updated": "2026-03-26T20:25:59.812Z",
   "matches": [
+    {
+      "date": "20260311",
+      "tournament": "M15 Porec",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. T. Alexandrescou",
+      "score": "2-6 2-6"
+    },
     {
       "date": "20260212",
       "tournament": "M15 Oberhaching",
@@ -56,6 +69,58 @@
       "result": "W",
       "opponent": "N. McDonald",
       "score": "4-6 7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20240627",
+      "tournament": "ITF M15 Alkmaar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sigsgaard",
+      "score": "6-2 3-6 6-1"
+    },
+    {
+      "date": "20240625",
+      "tournament": "ITF M15 Alkmaar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. T. van d.",
+      "score": "7(7)-6(4) 7-5"
+    },
+    {
+      "date": "20240307",
+      "tournament": "ITF M15 Porec Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Compagnucci",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20240305",
+      "tournament": "ITF M15 Porec Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Martinovic",
+      "score": "6-1 6-2"
     }
   ]
 }
