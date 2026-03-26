@@ -3,11 +3,11 @@
   "gs_id": "165094",
   "player_name": "Braden Shick",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:52:10.648Z",
+  "updated": "2026-03-26T21:13:16.826Z",
   "matches": [
     {
-      "date": "20251116",
-      "tournament": "Yokohama",
+      "date": "20260322",
+      "tournament": "Yokkaichi",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Matsuda",
-      "score": "6(4)-7(7) 4-6"
+      "opponent": "T. Sach",
+      "score": "6-4 3-6 7-5"
+    },
+    {
+      "date": "20250918",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Smith",
+      "score": "6-0 7(7)-6(5)"
+    },
+    {
+      "date": "20250916",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Sekachov",
+      "score": "6(3)-7(7) 5-7"
     }
   ]
 }
