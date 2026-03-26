@@ -3,50 +3,50 @@
   "gs_id": "19842",
   "player_name": "Renta Tokuda",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:04:15.863Z",
+  "updated": "2026-03-26T23:02:31.888Z",
   "matches": [
     {
-      "date": "20230309",
-      "tournament": "ITF M15 Monastir 10 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Mu",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20230308",
-      "tournament": "ITF M15 Monastir 10 Men",
+      "date": "20210908",
+      "tournament": "ITF M25 Sintra Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "Z. Ludoski",
-      "score": "0-6 2-6"
+      "result": "L",
+      "opponent": "G. Nanda",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20230304",
-      "tournament": "ITF M15 Monastir 9 Men",
+      "date": "20210905",
+      "tournament": "ITF M15 Monastir 35 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Seelig",
+      "score": "5-7 0-6"
+    },
+    {
+      "date": "20210904",
+      "tournament": "ITF M15 Monastir 35 Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Echargui",
-      "score": "3-6 1-6"
+      "result": "W",
+      "opponent": "Y. Mochizuki",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20230303",
-      "tournament": "ITF M15 Monastir 9 Men",
+      "date": "20210903",
+      "tournament": "ITF M15 Monastir 35 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Ch. Negritu",
-      "score": "1-6 1-6"
+      "opponent": "H. Habib",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20230302",
-      "tournament": "ITF M15 Monastir 9 Men",
+      "date": "20210902",
+      "tournament": "ITF M15 Monastir 35 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Bax",
-      "score": "6-4 6-1"
+      "opponent": "B. Ellis",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20230301",
-      "tournament": "ITF M15 Monastir 9 Men",
+      "date": "20210901",
+      "tournament": "ITF M15 Monastir 35 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,21 +80,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Ho",
-      "score": "3-6 6-3 6-4"
+      "opponent": "L. Claverie",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20200226",
-      "tournament": "M25 Antalya",
+      "date": "20210828",
+      "tournament": "ITF M15 Monastir 34 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. N. Martinez",
+      "score": "3-6 7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20210827",
+      "tournament": "ITF M15 Monastir 34 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Clark",
+      "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20210826",
+      "tournament": "ITF M15 Monastir 34 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Lemstra",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20210825",
+      "tournament": "ITF M15 Monastir 34 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Patael",
-      "score": "3-6 1-6"
+      "result": "W",
+      "opponent": "H. Habib",
+      "score": "4-6 4-6"
     }
   ]
 }
