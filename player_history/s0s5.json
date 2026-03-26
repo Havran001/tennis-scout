@@ -1,1 +1,61 @@
-{"player_id":"s0s5","sack_id":"211711","name":"Braden Shick","total":0,"matches":[]}
+{
+  "player_id": "s0s5",
+  "gs_id": "165094",
+  "player_name": "Braden Shick",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:50.627Z",
+  "matches": [
+    {
+      "date": "20250713",
+      "tournament": "Los Cabos",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Wu",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20250629",
+      "tournament": "Cary",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Glinka",
+      "score": "3-6 6-2 6-4"
+    },
+    {
+      "date": "20240811",
+      "tournament": "Cary Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Eubanks",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20220913",
+      "tournament": "Cary",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "6-3 7-5"
+    }
+  ]
+}
