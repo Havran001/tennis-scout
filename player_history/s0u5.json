@@ -3,11 +3,11 @@
   "gs_id": "41550",
   "player_name": "Tai Sach",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:00:32.879Z",
+  "updated": "2026-03-26T23:49:31.909Z",
   "matches": [
     {
-      "date": "20240611",
-      "tournament": "ITF M15 Monastir 24 Men",
+      "date": "20240619",
+      "tournament": "ITF M15 Monastir 25 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Alam",
-      "score": "4-6 6-4 6-2"
+      "opponent": "T. Pereira",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20240424",
-      "tournament": "ITF M15 Monastir 17 Men",
+      "date": "20240604",
+      "tournament": "ITF M15 Monastir 23 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. van Wyk",
-      "score": "3-6 4-6"
+      "opponent": "M. Sureshkumar",
+      "score": "3-6 6-3 3-6"
     },
     {
-      "date": "20220510",
-      "tournament": "M15 Monastir 18",
+      "date": "20240510",
+      "tournament": "ITF M15 Monastir 19 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rossi",
+      "score": "6-4 3-6 1-6"
+    },
+    {
+      "date": "20240508",
+      "tournament": "ITF M15 Monastir 19 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
+      "result": "W",
       "opponent": "K. Kawachi",
-      "score": "2-6 6-3 6-1"
+      "score": "3-6 4-6"
     }
   ]
 }
