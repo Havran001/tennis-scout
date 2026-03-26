@@ -1,1 +1,22 @@
-{"player_id":"p0kj","sack_id":"210613","name":"Derek Pham","total":0,"matches":[]}
+{
+  "player_id": "p0kj",
+  "gs_id": "84372",
+  "player_name": "Derek Pham",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:00.624Z",
+  "matches": [
+    {
+      "date": "20241228",
+      "tournament": "Brisbane",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Gasquet",
+      "score": "6-1 6-2"
+    }
+  ]
+}
