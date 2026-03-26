@@ -3,20 +3,46 @@
   "gs_id": "182600",
   "player_name": "Trevor Svajda",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:19:12.560Z",
+  "updated": "2026-03-26T11:07:28.567Z",
   "matches": [
     {
-      "date": "20230822",
-      "tournament": "ATP US Open",
+      "date": "20260304",
+      "tournament": "Indian Wells",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "B",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Duckworth",
-      "score": "6(12)-7(14) 2-6"
+      "opponent": "M. McDonald",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20260303",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Nardi",
+      "score": "6-4 6(2)-7(7) 3-6"
+    },
+    {
+      "date": "20250303",
+      "tournament": "Indian Wells",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Majchrzak",
+      "score": "6-3 6-1"
     }
   ]
 }
