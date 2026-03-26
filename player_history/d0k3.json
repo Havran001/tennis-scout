@@ -1,1 +1,48 @@
-{"player_id":"d0k3","sack_id":"211409","name":"Guillaume Dalmasso","total":3,"matches":[{"id":"AmjKazOH","date":"20260325","tournament":"ITF MEN - DOUBLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Cox T./Snitari I.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"AmjKazOH","date":"20260325","tournament":"ITF MEN - DOUBLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Cox T./Snitari I.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"G8JgmoHc","date":"20260324","tournament":"ITF MEN - SINGLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Winter E.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "d0k3",
+  "gs_id": "160110",
+  "player_name": "Guillaume Dalmasso",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:52:01.650Z",
+  "matches": [
+    {
+      "date": "20251110",
+      "tournament": "Drummondville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Arseneault",
+      "score": "3-6 6-4 6-3"
+    },
+    {
+      "date": "20251109",
+      "tournament": "Drummondville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Farag-Cao",
+      "score": "7(7)-6(5) 6-1"
+    },
+    {
+      "date": "20250928",
+      "tournament": "Mouilleron-Le-Captif",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Bertola",
+      "score": "3-6 4-6"
+    }
+  ]
+}
