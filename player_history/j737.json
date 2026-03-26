@@ -1,1 +1,35 @@
-{"player_id":"j737","sack_id":"200030","name":"Facundo Juarez","total":0,"matches":[]}
+{
+  "player_id": "j737",
+  "gs_id": "56023",
+  "player_name": "Facundo Juarez",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:28:30.621Z",
+  "matches": [
+    {
+      "date": "20180522",
+      "tournament": "Napoli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Lazov",
+      "score": "6-1 1-6 6-2"
+    },
+    {
+      "date": "20180410",
+      "tournament": "Santa Margherita Di Pula 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Casanova",
+      "score": "6-3 7-5"
+    }
+  ]
+}
