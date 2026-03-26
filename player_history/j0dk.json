@@ -1,1 +1,35 @@
-{"player_id":"j0dk","sack_id":"210742","name":"Phillip Jordan","total":0,"matches":[]}
+{
+  "player_id": "j0dk",
+  "gs_id": "156064",
+  "player_name": "Phillip Jordan",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:59:49.776Z",
+  "matches": [
+    {
+      "date": "20241024",
+      "tournament": "ITF M25 Glasgow Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Masur",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20241023",
+      "tournament": "ITF M25 Glasgow Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Beauge",
+      "score": "6-2 0-6 1-6"
+    }
+  ]
+}
