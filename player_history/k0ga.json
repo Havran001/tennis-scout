@@ -3,76 +3,11 @@
   "gs_id": "84514",
   "player_name": "Igor Kudriashov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:55:54.781Z",
+  "updated": "2026-03-26T20:16:19.818Z",
   "matches": [
     {
-      "date": "20250131",
-      "tournament": "M15 Monastir 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Djuric",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20250130",
-      "tournament": "M15 Monastir 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Petak",
-      "score": "5-7 3-6"
-    },
-    {
-      "date": "20250129",
-      "tournament": "M15 Monastir 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Neuchrist",
-      "score": "6-3 5-7 6-4"
-    },
-    {
-      "date": "20240201",
-      "tournament": "ITF M15 Monastir 5 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Tabacco",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20240131",
-      "tournament": "ITF M15 Monastir 5 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Gobat",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20210309",
-      "tournament": "ITF M15 Kazan Men",
+      "date": "20250909",
+      "tournament": "M25+H Plaisir",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Zakharov",
-      "score": "6-4 2-6 3-6"
+      "opponent": "A. Freire Da Silva",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20200129",
-      "tournament": "M15 Antalya 4",
+      "date": "20240306",
+      "tournament": "ITF M15 Monastir 10 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Dima",
-      "score": "2-6 4-6"
+      "opponent": "N. Makhlouf",
+      "score": "2-6 0-2 ret."
+    },
+    {
+      "date": "20240228",
+      "tournament": "ITF M15 Monastir 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gorokhov",
+      "score": "7-5 3-1 ret."
+    },
+    {
+      "date": "20240221",
+      "tournament": "ITF M15 Monastir 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Fenty",
+      "score": "7(7)-6(4) 1-6 0-1 ret."
+    },
+    {
+      "date": "20211013",
+      "tournament": "M15 Kazan 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Agafonov",
+      "score": "7(7)-6(5) 6(5)-7(7) 6-4"
     }
   ]
 }
