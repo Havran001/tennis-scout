@@ -1,1 +1,74 @@
-{"player_id":"s0tu","sack_id":"210664","name":"Bjorn Swenson","total":0,"matches":[]}
+{
+  "player_id": "s0tu",
+  "gs_id": "151911",
+  "player_name": "Bjorn Swenson",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T23:57:23.899Z",
+  "matches": [
+    {
+      "date": "20250618",
+      "tournament": "M25 Tulsa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. N. Gadecki",
+      "score": "6-2 3-6 6-4"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Chung",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20220804",
+      "tournament": "M25 Decatur",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Johns",
+      "score": "7(7)-6(2) 6-2"
+    },
+    {
+      "date": "20220803",
+      "tournament": "M25 Decatur",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. A. Boitan",
+      "score": "6-3 4-6 0-1 ret."
+    },
+    {
+      "date": "20220622",
+      "tournament": "M25 Tulsa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sheehy",
+      "score": "6-4 6-2"
+    }
+  ]
+}
