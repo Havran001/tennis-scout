@@ -1,10 +1,49 @@
 {
   "player_id": "s09p",
-  "gs_id": "116563",
-  "player_name": "Woobin Shin",
+  "gs_id": "141993",
+  "player_name": "Sanhui Shin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:22:25.699Z",
+  "updated": "2026-03-26T17:49:47.750Z",
   "matches": [
+    {
+      "date": "20251006",
+      "tournament": "Jinan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kotov",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20250829",
+      "tournament": "Zhangjiagang",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Isomura",
+      "score": "2-6 6-2 6-4"
+    },
+    {
+      "date": "20250827",
+      "tournament": "Zhangjiagang",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Sun",
+      "score": "3-6 1-6"
+    },
     {
       "date": "20250826",
       "tournament": "Zhangjiagang",
@@ -14,22 +53,74 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Shin",
-      "score": "5-7 6(4)-7(7)"
+      "result": "W",
+      "opponent": "W. Shin",
+      "score": "7-5 7(7)-6(4)"
     },
     {
-      "date": "20240822",
-      "tournament": "Jinan",
+      "date": "20250729",
+      "tournament": "Astana",
       "surface": "Hard",
       "level": "C",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Noguchi",
-      "score": "6-3 6-2"
+      "opponent": "C. Chidekh",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250417",
+      "tournament": "Busan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. H. Hsu",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20250416",
+      "tournament": "Busan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Monday",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250415",
+      "tournament": "Busan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Nakagawa",
+      "score": "6-1 7(7)-6(5)"
+    },
+    {
+      "date": "20250413",
+      "tournament": "Busan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Bai",
+      "score": "3-6 2-6"
     },
     {
       "date": "20240821",
@@ -40,9 +131,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Rai",
-      "score": "3-6 6-1 6-4"
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "2-6 3-6"
     },
     {
       "date": "20240820",
@@ -54,8 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Peniston",
-      "score": "5-7 3-6"
+      "opponent": "J. Cui",
+      "score": "6-0 6-2"
     },
     {
       "date": "20240819",
@@ -67,8 +158,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Bouzige",
-      "score": "6(5)-7(7) 1-6"
+      "opponent": "C. Chen",
+      "score": "7-5 6-3"
     },
     {
       "date": "20240818",
@@ -80,8 +171,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Winter",
+      "opponent": "A. Wang",
       "score": "6-3 6-4"
+    },
+    {
+      "date": "20240408",
+      "tournament": "Busan Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Celikbilek",
+      "score": "6-4 6-2"
     },
     {
       "date": "20240407",
@@ -92,35 +196,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Noguchi",
-      "score": "6-3 6(4)-7(7) 4-6"
-    },
-    {
-      "date": "20230508",
-      "tournament": "Busan Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "D. Sumizawa",
-      "score": "6-2 3-6 2-6"
-    },
-    {
-      "date": "20230508",
-      "tournament": "Busan Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Saville",
-      "score": "6-1 6-3"
+      "opponent": "M. Echargui",
+      "score": "6(3)-7(7) 5-7"
     }
   ]
 }
