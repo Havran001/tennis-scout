@@ -3,20 +3,85 @@
   "gs_id": "240979",
   "player_name": "Mika Petkovic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:57:07.536Z",
+  "updated": "2026-03-26T15:23:50.684Z",
   "matches": [
     {
-      "date": "20250517",
-      "tournament": "Hamburg",
+      "date": "20260203",
+      "tournament": "Koblenz",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Gojo",
-      "score": "6-3 6-2"
+      "opponent": "M. Schoenhaus",
+      "score": "7-5 5-7 3-6"
+    },
+    {
+      "date": "20260202",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cerny",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20260201",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Catry",
+      "score": "4-6 6-3 5-7"
+    },
+    {
+      "date": "20250708",
+      "tournament": "Braunschweig",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Houkes",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250707",
+      "tournament": "Braunschweig",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Berankis",
+      "score": "7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20250706",
+      "tournament": "Braunschweig",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. A. Olivieri",
+      "score": "7-5 2-6 4-6"
     }
   ]
 }
