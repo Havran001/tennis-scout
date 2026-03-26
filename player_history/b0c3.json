@@ -3,50 +3,102 @@
   "gs_id": "40990",
   "player_name": "Simon Beaupain",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:54:37.793Z",
+  "updated": "2026-03-26T20:23:35.815Z",
   "matches": [
     {
-      "date": "20230717",
-      "tournament": "Amersfoort Challenger Men",
+      "date": "20240307",
+      "tournament": "ITF M15 Monastir 10 Men",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Buldorini",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20240306",
+      "tournament": "ITF M15 Monastir 10 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Freire Da Silva",
+      "score": "6-3 1-6 6-2"
+    },
+    {
+      "date": "20240303",
+      "tournament": "ITF M15 Monastir 9 Men",
+      "surface": "Hard",
+      "level": "I",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Vrbensky",
-      "score": "4-6 6-2 6(4)-7(7)"
+      "opponent": "J. Nicod",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230716",
-      "tournament": "Amersfoort Challenger Men",
+      "date": "20240302",
+      "tournament": "ITF M15 Monastir 9 Men",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Van Sambeek",
-      "score": "4-6 2-6"
+      "opponent": "M. Karol",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20220918",
-      "tournament": "Braga",
+      "date": "20240301",
+      "tournament": "ITF M15 Monastir 9 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Ajdukovic",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "F. Simonsson",
+      "score": "7(7)-6(3) 6-2"
     },
     {
-      "date": "20201202",
-      "tournament": "ITF M15 Cairo Men",
+      "date": "20240229",
+      "tournament": "ITF M15 Monastir 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Shin",
+      "score": "6-4 7(7)-6(2)"
+    },
+    {
+      "date": "20240227",
+      "tournament": "ITF M15 Monastir 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Lane",
+      "score": "2-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240221",
+      "tournament": "ITF M15 Monastir 8 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Rawat",
-      "score": "6-3 4-6 2-6"
+      "opponent": "Ch. Negritu",
+      "score": "7-5 3-6 7(7)-6(5)"
     },
     {
-      "date": "20201125",
-      "tournament": "ITF M15 Cairo Men",
+      "date": "20240110",
+      "tournament": "ITF M15 Doha Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +119,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Nikles",
-      "score": "6-2 6-3"
+      "opponent": "V. Bielinskyi",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20200211",
-      "tournament": "ITF M15 Heraklion Men",
+      "date": "20230525",
+      "tournament": "ITF M15 Bucharest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Nesterov",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20230524",
+      "tournament": "ITF M15 Bucharest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. F. Pop",
+      "score": "6-0 4-6 6-1"
+    },
+    {
+      "date": "20200826",
+      "tournament": "M15 Alkmaar",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. M. Noce",
-      "score": "4-6 6-2 6-0"
+      "opponent": "S. Mochizuki",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20200107",
-      "tournament": "ITF M15 Monastir Men",
+      "date": "20200819",
+      "tournament": "M25 Vogau",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +171,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. F. Angele",
-      "score": "7-5 6-4"
+      "opponent": "S. Doumbia",
+      "score": "6(1)-7(7) 2-6"
     }
   ]
 }
