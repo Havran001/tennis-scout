@@ -1,1 +1,22 @@
-{"player_id":"cc79","sack_id":"130247","name":"Anton Chekhov","total":0,"matches":[]}
+{
+  "player_id": "cc79",
+  "gs_id": "142091",
+  "player_name": "Anton Chekhov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:52.541Z",
+  "matches": [
+    {
+      "date": "20180822",
+      "tournament": "Ueberlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Ch. Negritu",
+      "score": "6-4 6(6)-7(8) 6-2"
+    }
+  ]
+}
