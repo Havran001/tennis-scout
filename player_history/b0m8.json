@@ -1,1 +1,48 @@
-{"player_id":"b0m8","sack_id":"212606","name":"Leonardo Borrelli","total":1,"matches":[{"id":"ltMBVjhe","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Schell N.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "b0m8",
+  "gs_id": "169105",
+  "player_name": "Leonardo Borrelli",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:21:20.697Z",
+  "matches": [
+    {
+      "date": "20251116",
+      "tournament": "Bergamo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. S. Callejon",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20231029",
+      "tournament": "Bergamo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Marchenko",
+      "score": "2-6 6(0)-7(7)"
+    },
+    {
+      "date": "20221030",
+      "tournament": "Bergamo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vavassori",
+      "score": "1-6 1-6"
+    }
+  ]
+}
