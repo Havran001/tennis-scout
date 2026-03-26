@@ -1,1 +1,100 @@
-{"player_id":"rh73","sack_id":"212563","name":"Frazier Rengifo","total":1,"matches":[{"id":"ADLefNvH","date":"20260323","tournament":"CHALLENGER MEN - SINGLES: Bucaramanga 2 (Colombia), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Zarate C. M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "rh73",
+  "gs_id": "134910",
+  "player_name": "Frazier Rengifo",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:51:07.690Z",
+  "matches": [
+    {
+      "date": "20251005",
+      "tournament": "Cali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hernandez",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240917",
+      "tournament": "Cali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. A. Tirante",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20240805",
+      "tournament": "Bogota Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Farjat",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20240804",
+      "tournament": "Bogota Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Huertas Del Pino",
+      "score": "7(7)-6(2) 6-2"
+    },
+    {
+      "date": "20230924",
+      "tournament": "Bogota Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Farjat",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230619",
+      "tournament": "Cali Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hoyos Franco",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20230618",
+      "tournament": "Cali Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Nam Ji",
+      "score": "6-4 6-2"
+    }
+  ]
+}
