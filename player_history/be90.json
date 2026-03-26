@@ -1,1 +1,22 @@
-{"player_id":"be90","sack_id":"105575","name":"Ricardas Berankis","total":0,"matches":[]}
+{
+  "player_id": "be90",
+  "gs_id": "4212",
+  "player_name": "Ricardas Berankis",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:42:55.500Z",
+  "matches": [
+    {
+      "date": "20080714",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Fognini",
+      "score": "6-3 6-2"
+    }
+  ]
+}
