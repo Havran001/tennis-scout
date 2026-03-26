@@ -1,1 +1,48 @@
-{"player_id":"r0iu","sack_id":"212478","name":"William Rejchtman Vinciguerra","total":0,"matches":[]}
+{
+  "player_id": "r0iu",
+  "gs_id": "177513",
+  "player_name": "William Rejchtman Vinciguerra",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:29:32.608Z",
+  "matches": [
+    {
+      "date": "20251011",
+      "tournament": "Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Misolic",
+      "score": "7(7)-6(4) 4-6 4-6"
+    },
+    {
+      "date": "20250714",
+      "tournament": "Bastad",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. De Jong",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240714",
+      "tournament": "ATP Bastad",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Virtanen",
+      "score": "4-6 6-1 4-6"
+    }
+  ]
+}
