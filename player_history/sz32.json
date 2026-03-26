@@ -1,1 +1,22 @@
-{"player_id":"sz32","sack_id":"202363","name":"Fabien Salle","total":0,"matches":[]}
+{
+  "player_id": "sz32",
+  "gs_id": "205893",
+  "player_name": "Fabien Salle",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:47:29.768Z",
+  "matches": [
+    {
+      "date": "20240901",
+      "tournament": "Cassis Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "3-6 1-6"
+    }
+  ]
+}
