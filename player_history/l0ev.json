@@ -3,11 +3,11 @@
   "gs_id": "84268",
   "player_name": "Valentin Lapalu",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:55:51.791Z",
+  "updated": "2026-03-26T21:16:56.829Z",
   "matches": [
     {
-      "date": "20230118",
-      "tournament": "ITF M15 Monastir 3 Men",
+      "date": "20260319",
+      "tournament": "M15 Monastir 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Perez Sanz",
-      "score": "6-2 6-3"
+      "opponent": "S. Mansouri",
+      "score": "7(7)-6(2) 3-6 6(6)-7(8)"
     },
     {
-      "date": "20220120",
-      "tournament": "M15 Monastir 2",
+      "date": "20230920",
+      "tournament": "ITF M15 Melilla Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Mora",
+      "score": "6-2 3-6 6-3"
+    },
+    {
+      "date": "20220908",
+      "tournament": "M15 Madrid",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Brugnerotto",
-      "score": "3-6 3-6"
+      "opponent": "X. Matas Ortega",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20220119",
-      "tournament": "M15 Monastir 2",
+      "date": "20220906",
+      "tournament": "M15 Madrid",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,38 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Battaglino",
-      "score": "1-6 6-3 3-6"
+      "opponent": "J. B. Badon",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20220114",
-      "tournament": "M15 Monastir",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Atmane",
-      "score": "6-1 6-0"
-    },
-    {
-      "date": "20220112",
-      "tournament": "M15 Monastir",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. A. Oueslati",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20210217",
-      "tournament": "ITF M15 Monastir Men",
+      "date": "20210120",
+      "tournament": "M15+H Bressuire",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,34 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. F. Vidal Azorin",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20210202",
-      "tournament": "ITF M15 Monastir Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Ghorbel",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20200122",
-      "tournament": "ITF M15 Antalya 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Erel",
-      "score": "6-3 6-3"
+      "opponent": "Z. Bergs",
+      "score": "6-4 6-2"
     }
   ]
 }
