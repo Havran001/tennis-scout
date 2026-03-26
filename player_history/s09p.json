@@ -1,22 +1,22 @@
 {
   "player_id": "s09p",
-  "gs_id": "146522",
-  "player_name": "Maxim Shin",
+  "gs_id": "116563",
+  "player_name": "Woobin Shin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:59:24.779Z",
+  "updated": "2026-03-26T20:16:45.809Z",
   "matches": [
     {
-      "date": "20260122",
-      "tournament": "M15 Monastir 2",
+      "date": "20250731",
+      "tournament": "Astana",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Kumstat",
-      "score": "1-6 4-6"
+      "opponent": "A. Shelbayh",
+      "score": "4-6 6-3 0-0 ret."
     },
     {
       "date": "20250729",
@@ -27,39 +27,13 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "W. K. Leong M.",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20240112",
-      "tournament": "ITF M15 Antalya Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Gimeno Valero",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20240111",
-      "tournament": "ITF M15 Antalya Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "Q. Folliot",
-      "score": "1-6 6-3 3-6"
+      "opponent": "A. Azkara",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20230124",
-      "tournament": "ITF M15 Antalya 3 Men",
+      "date": "20211006",
+      "tournament": "ITF M15 Doha Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,34 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Barrena",
-      "score": "5-7 3-6"
-    },
-    {
-      "date": "20230113",
-      "tournament": "ITF M15 Antalya Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Woerner",
-      "score": "6-3 1-6 10-7"
-    },
-    {
-      "date": "20220717",
-      "tournament": "Astana",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Arutiunian",
-      "score": "6-2 6-4"
+      "opponent": "R. J. Storrie",
+      "score": "1-6 0-4 ret."
     }
   ]
 }
