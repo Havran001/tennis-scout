@@ -1,1 +1,100 @@
-{"player_id":"f0ck","sack_id":"208649","name":"Andrew Fenty","total":0,"matches":[]}
+{
+  "player_id": "f0ck",
+  "gs_id": "39023",
+  "player_name": "Andrew Fenty",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:45.547Z",
+  "matches": [
+    {
+      "date": "20250719",
+      "tournament": "Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Smith",
+      "score": "3-6 6-3 4-6"
+    },
+    {
+      "date": "20240727",
+      "tournament": "ATP Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Mochizuki",
+      "score": "3-6 7(7)-6(4) 0-0 ret."
+    },
+    {
+      "date": "20230729",
+      "tournament": "ATP Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Holt",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20220730",
+      "tournament": "Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Watanuki",
+      "score": "7-5 1-0 ret."
+    },
+    {
+      "date": "20210731",
+      "tournament": "ATP Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krueger",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20190727",
+      "tournament": "Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Troicki",
+      "score": "6-4 1-6 5-7"
+    },
+    {
+      "date": "20180728",
+      "tournament": "Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krueger",
+      "score": "7(7)-6(4) 6-1"
+    }
+  ]
+}
