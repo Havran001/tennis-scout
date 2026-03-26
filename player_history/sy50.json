@@ -1,1 +1,35 @@
-{"player_id":"sy50","sack_id":"144925","name":"Nitin Kumar Sinha","total":0,"matches":[]}
+{
+  "player_id": "sy50",
+  "gs_id": "142266",
+  "player_name": "Adit Sinha",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T16:13:24.705Z",
+  "matches": [
+    {
+      "date": "20231105",
+      "tournament": "Knoxville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rosenkranz",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20231029",
+      "tournament": "Charlottesville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kozlov",
+      "score": "2-6 4-6"
+    }
+  ]
+}
