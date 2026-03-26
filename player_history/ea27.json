@@ -3,11 +3,50 @@
   "gs_id": "34432",
   "player_name": "Blake Ellis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:04:29.561Z",
+  "updated": "2026-03-26T23:52:58.915Z",
   "matches": [
     {
-      "date": "20210908",
-      "tournament": "ITF M15 Monastir 36 Men",
+      "date": "20211105",
+      "tournament": "ITF M25 Saint Dizier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tu",
+      "score": "7(7)-6(5) 7(7)-6(2)"
+    },
+    {
+      "date": "20211104",
+      "tournament": "ITF M25 Saint Dizier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Beauge",
+      "score": "3-6 6(7)-7(9)"
+    },
+    {
+      "date": "20211102",
+      "tournament": "ITF M25 Saint Dizier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Legout",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20211026",
+      "tournament": "ITF M25 Sarreguemines Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Sweeny",
-      "score": "6(3)-7(7) 4-6"
+      "opponent": "H. Mayot",
+      "score": "4-6 6(2)-7(7)"
+    },
+    {
+      "date": "20211006",
+      "tournament": "ITF M25 Nevers Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Mpetshi Perricard",
+      "score": "4-6 6-3 7(9)-6(7)"
+    },
+    {
+      "date": "20210928",
+      "tournament": "ITF M25 Falun Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. McHugh",
+      "score": "7-5 6-3"
     }
   ]
 }
