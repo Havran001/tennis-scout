@@ -1,35 +1,74 @@
 {
   "player_id": "f0go",
-  "gs_id": "4772",
-  "player_name": "Pablo Paz Juan",
+  "gs_id": "28723",
+  "player_name": "Pablo Ficovich Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T08:43:01.500Z",
+  "updated": "2026-03-26T08:45:34.501Z",
   "matches": [
     {
-      "date": "20160717",
-      "tournament": "Umag",
+      "date": "20250819",
+      "tournament": "US Open",
       "surface": "Hard",
-      "level": "B",
-      "round": "F",
+      "level": "G",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Lopez-Perez",
-      "score": "5-7 4-6"
+      "opponent": "Y. Wu",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20160716",
-      "tournament": "Umag",
+      "date": "20250805",
+      "tournament": "Cincinnati",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Royer",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20220823",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Moraing",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20210826",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cerundolo",
+      "score": "6(2)-7(7) 6-4 4-6"
+    },
+    {
+      "date": "20210824",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "D. Petrovic",
-      "score": "0-6 6(5)-7(7)"
+      "opponent": "S. Nagal",
+      "score": "5-7 6-4 3-6"
     }
   ]
 }
