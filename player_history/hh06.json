@@ -3,11 +3,24 @@
   "gs_id": "30460",
   "player_name": "Marc-Andrea Huesler",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:03:10.881Z",
+  "updated": "2026-03-26T23:48:37.898Z",
   "matches": [
     {
-      "date": "20250729",
-      "tournament": "Porto",
+      "date": "20220921",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. E. Galan",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20220322",
+      "tournament": "Biel",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,25 +28,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Ferreira Silva",
-      "score": "7-5 4-6 6-3"
+      "opponent": "K. Feldbausch",
+      "score": "5-7 0-6"
     },
     {
-      "date": "20210909",
-      "tournament": "Tulln Challenger Men",
+      "date": "20210926",
+      "tournament": "Biel Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Broady",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20210925",
+      "tournament": "Biel Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Van Rijthoven",
+      "score": "3-6 7(12)-6(10) 6-4"
+    },
+    {
+      "date": "20210924",
+      "tournament": "Biel Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Majchrzak",
-      "score": "6(5)-7(7) 5-7"
+      "result": "W",
+      "opponent": "A. Escoffier",
+      "score": "7-5 1-6 2-6"
     },
     {
-      "date": "20210908",
-      "tournament": "Tulln Challenger Men",
+      "date": "20210923",
+      "tournament": "Biel Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Horansky",
-      "score": "6-2 1-6 4-6"
+      "opponent": "E. Couacaud",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20210906",
-      "tournament": "Tulln Challenger Men",
+      "date": "20210922",
+      "tournament": "Biel Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Dzumhur",
-      "score": "6(5)-7(7) 6-2 6-3"
+      "opponent": "R. Bemelmans",
+      "score": "3-6 6-3 6(5)-7(7)"
     }
   ]
 }
