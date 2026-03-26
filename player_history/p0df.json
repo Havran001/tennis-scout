@@ -1,1 +1,35 @@
-{"player_id":"p0df","sack_id":"207799","name":"Matheus Pucinelli De Almeida","total":0,"matches":[]}
+{
+  "player_id": "p0df",
+  "gs_id": "40511",
+  "player_name": "Matheus Pucinelli de Almeida",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:55.517Z",
+  "matches": [
+    {
+      "date": "20230110",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Paire",
+      "score": "6-4 6(5)-7(7) 7-5"
+    },
+    {
+      "date": "20220824",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Couacaud",
+      "score": "3-6 2-6"
+    }
+  ]
+}
