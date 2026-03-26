@@ -1,1 +1,113 @@
-{"player_id":"fc00","sack_id":"200608","name":"Andres Fernandez Canovas","total":0,"matches":[]}
+{
+  "player_id": "fc00",
+  "gs_id": "175690",
+  "player_name": "Andres Fernandez Canovas",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:07:27.569Z",
+  "matches": [
+    {
+      "date": "20190619",
+      "tournament": "Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Barroso Campos",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20180904",
+      "tournament": "Oviedo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Semmler",
+      "score": "2-6 6-2 6-3"
+    },
+    {
+      "date": "20180802",
+      "tournament": "Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Roca Batalla",
+      "score": "6-4 3-6 2-6"
+    },
+    {
+      "date": "20180731",
+      "tournament": "Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Ross",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20180726",
+      "tournament": "Denia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Barranco Cosano",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20180724",
+      "tournament": "Denia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Mardones",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20180529",
+      "tournament": "Santa Margarida de Montbui",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Artunedo Martinavarro",
+      "score": "4-6 6-4 6-4"
+    },
+    {
+      "date": "20170502",
+      "tournament": "Lleida",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Musialek",
+      "score": "6-4 6-4"
+    }
+  ]
+}
