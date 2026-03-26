@@ -3,11 +3,63 @@
   "gs_id": "153288",
   "player_name": "Leo Vithoontien",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:11:37.629Z",
+  "updated": "2026-03-26T15:23:08.686Z",
   "matches": [
     {
-      "date": "20250629",
-      "tournament": "Cary",
+      "date": "20251117",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Polmans",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20251116",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Walkin",
+      "score": "7(7)-6(5) 1-5 ret."
+    },
+    {
+      "date": "20251103",
+      "tournament": "Taipei",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Hazawa",
+      "score": "5-7 6-3 6-4"
+    },
+    {
+      "date": "20251102",
+      "tournament": "Taipei",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Wang",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20241110",
+      "tournament": "Drummondville",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Chung",
-      "score": "2-6 4-6"
+      "opponent": "J. Boulais",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20231113",
+      "tournament": "Drummondville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Pannu",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20231112",
+      "tournament": "Drummondville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Sigouin",
+      "score": "4-6 3-6"
     }
   ]
 }
