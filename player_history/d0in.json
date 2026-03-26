@@ -1,1 +1,61 @@
-{"player_id":"d0in","sack_id":"210599","name":"Ryan Dickerson","total":0,"matches":[]}
+{
+  "player_id": "d0in",
+  "gs_id": "149982",
+  "player_name": "Ryan Dickerson",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:23:03.691Z",
+  "matches": [
+    {
+      "date": "20260308",
+      "tournament": "Santiago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Villalon",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20251118",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20251006",
+      "tournament": "Cali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. I. Justo",
+      "score": "6-4 0-6 3-6"
+    },
+    {
+      "date": "20251005",
+      "tournament": "Cali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Ribero",
+      "score": "3-6 2-6"
+    }
+  ]
+}
