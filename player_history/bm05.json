@@ -3,8 +3,34 @@
   "gs_id": "8433",
   "player_name": "Bogdan Bobrov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:35:38.098Z",
+  "updated": "2026-03-26T15:18:49.700Z",
   "matches": [
+    {
+      "date": "20240825",
+      "tournament": "Zhangjiagang Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Liu",
+      "score": "6-4 4-1 ret."
+    },
+    {
+      "date": "20240819",
+      "tournament": "Jinan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Noguchi",
+      "score": "7-5 6-4"
+    },
     {
       "date": "20240206",
       "tournament": "Chennai Challenger Men",
@@ -43,6 +69,71 @@
       "result": "W",
       "opponent": "I. Eqbal",
       "score": "6-4 6-4"
+    },
+    {
+      "date": "20221009",
+      "tournament": "Ismaning",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Parker",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220508",
+      "tournament": "Shymkent",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Vanshelboim",
+      "score": "3-6 7-5 2-6"
+    },
+    {
+      "date": "20210927",
+      "tournament": "Lisbon Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Hassan",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20210926",
+      "tournament": "Lisbon Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Uchida",
+      "score": "6(3)-7(7) 4-6"
+    },
+    {
+      "date": "20200211",
+      "tournament": "Bengaluru",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Fanselow",
+      "score": "6-2 6-3"
     }
   ]
 }
