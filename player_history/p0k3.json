@@ -1,1 +1,61 @@
-{"player_id":"p0k3","sack_id":"212837","name":"Roger Pascual Ferra","total":0,"matches":[]}
+{
+  "player_id": "p0k3",
+  "gs_id": "141363",
+  "player_name": "Roger Pascual Ferra",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:55.627Z",
+  "matches": [
+    {
+      "date": "20251009",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Shelbayh",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20251007",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. van Loben Sels",
+      "score": "7-5 2-6 5-7"
+    },
+    {
+      "date": "20251006",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Kirchheimer",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20251005",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Godsick",
+      "score": "3-6 6(3)-7(7)"
+    }
+  ]
+}
