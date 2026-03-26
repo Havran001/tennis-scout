@@ -1,1 +1,61 @@
-{"player_id":"bk43","sack_id":"109732","name":"Enrique Bogo","total":0,"matches":[]}
+{
+  "player_id": "bk43",
+  "gs_id": "1961",
+  "player_name": "Enrique Bogo",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:06:29.630Z",
+  "matches": [
+    {
+      "date": "20240505",
+      "tournament": "Santos Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Watanabe",
+      "score": "6-1 6(5)-7(7) 6-3"
+    },
+    {
+      "date": "20120918",
+      "tournament": "Campinas",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bogomolov",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20120424",
+      "tournament": "Sao Paulo 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Andreozzi",
+      "score": "6-0 6-0"
+    },
+    {
+      "date": "20120417",
+      "tournament": "Santos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. R. Silva",
+      "score": "0-6 0-6"
+    }
+  ]
+}
