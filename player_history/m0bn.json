@@ -3,11 +3,24 @@
   "gs_id": "34395",
   "player_name": "Marvin Moeller",
   "source": "goalserve-full",
-  "updated": "2026-03-26T14:34:35.659Z",
+  "updated": "2026-03-26T15:18:00.688Z",
   "matches": [
     {
-      "date": "20240408",
-      "tournament": "Madrid Challenger Men",
+      "date": "20260204",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Molleker",
+      "score": "6-2 5-7 3-6"
+    },
+    {
+      "date": "20240129",
+      "tournament": "Koblenz Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Rincon",
-      "score": "3-6 6(5)-7(7)"
+      "opponent": "M. Klizan",
+      "score": "2-6 6-3 3-6"
     },
     {
-      "date": "20240407",
-      "tournament": "Madrid Challenger Men",
+      "date": "20240128",
+      "tournament": "Koblenz Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Gulin",
-      "score": "6-1 6(2)-7(7) 6(3)-7(7)"
+      "opponent": "T. Colson",
+      "score": "3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20180515",
+      "tournament": "Heilbronn",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Vesely",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20180116",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Uchiyama",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20171026",
+      "tournament": "Hamburg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Altmaier",
+      "score": "7(9)-6(7) 2-6 5-7"
+    },
+    {
+      "date": "20171025",
+      "tournament": "Hamburg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Added",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20171024",
+      "tournament": "Hamburg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Simon",
+      "score": "7-5 6-2"
     }
   ]
 }
