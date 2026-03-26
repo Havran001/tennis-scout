@@ -3,24 +3,24 @@
   "gs_id": "31489",
   "player_name": "Denis Shapovalov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:13:37.825Z",
+  "updated": "2026-03-26T23:03:17.880Z",
   "matches": [
     {
-      "date": "20221002",
-      "tournament": "Seoul",
+      "date": "20241109",
+      "tournament": "Belgrade 2",
       "surface": "Hard",
       "level": "B",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Nishioka",
-      "score": "4-6 6(5)-7(7)"
+      "result": "W",
+      "opponent": "H. Medjedovic",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20221001",
-      "tournament": "Seoul",
+      "date": "20241108",
+      "tournament": "Belgrade 2",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Brooksby",
-      "score": "7-5 6-4"
+      "opponent": "J. Lehecka",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20220930",
-      "tournament": "Seoul",
+      "date": "20241107",
+      "tournament": "Belgrade 2",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Albot",
+      "opponent": "C. O&apos;Connell",
       "score": "2-6 2-6"
     },
     {
-      "date": "20220928",
-      "tournament": "Seoul",
+      "date": "20241106",
+      "tournament": "Belgrade 2",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -54,21 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Munar",
-      "score": "5-7 4-6"
+      "opponent": "N. Borges",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20220622",
-      "tournament": "Mallorca",
+      "date": "20241104",
+      "tournament": "Belgrade 2",
       "surface": "Hard",
       "level": "B",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bonzi",
-      "score": "4-6 1-6"
+      "result": "W",
+      "opponent": "M. Fucsovics",
+      "score": "7(8)-6(6) 5-7 1-6"
+    },
+    {
+      "date": "20241103",
+      "tournament": "Belgrade 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Grenier",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20241102",
+      "tournament": "Belgrade 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Lestienne",
+      "score": "7(7)-6(4) 6-4"
     }
   ]
 }
