@@ -1,48 +1,35 @@
 {
   "player_id": "te51",
-  "gs_id": "27579",
-  "player_name": "Stefanos Tsitsipas",
+  "gs_id": "160238",
+  "player_name": "Pavlos Tsitsipas",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:53:35.772Z",
+  "updated": "2026-03-26T19:00:05.778Z",
   "matches": [
     {
-      "date": "20260113",
-      "tournament": "Adelaide",
+      "date": "20250319",
+      "tournament": "M15 Heraklion",
       "surface": "Hard",
-      "level": "B",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Vukic",
-      "score": "7(7)-6(3) 7(7)-6(5)"
+      "opponent": "T. Duran",
+      "score": "7(7)-6(3) 7(7)-6(0)"
     },
     {
-      "date": "20221208",
-      "tournament": "Diriyah Tennis Cup",
+      "date": "20250219",
+      "tournament": "M15 Monastir 7",
       "surface": "Hard",
-      "level": "E",
-      "round": "QF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Norrie",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20190926",
-      "tournament": "Zhuhai",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Mannarino",
-      "score": "3-6 7-5 ret."
+      "opponent": "A. Barroso Campos",
+      "score": "1-6 4-6"
     }
   ]
 }
