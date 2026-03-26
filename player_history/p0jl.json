@@ -3,33 +3,46 @@
   "gs_id": "145945",
   "player_name": "Luca Pow",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:45:59.582Z",
+  "updated": "2026-03-26T13:51:39.649Z",
   "matches": [
     {
-      "date": "20230626",
-      "tournament": "ATP Wimbledon",
+      "date": "20251102",
+      "tournament": "Knoxville",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Brouwer",
-      "score": "3-6 1-6"
+      "opponent": "D. Suresh",
+      "score": "2-6 6-2 6(4)-7(7)"
     },
     {
-      "date": "20220620",
-      "tournament": "Wimbledon",
+      "date": "20230617",
+      "tournament": "Ilkley Challenger Men",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Krueger",
-      "score": "6-1 6-4"
+      "opponent": "A. Escoffier",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20220612",
+      "tournament": "Ilkley",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Masur",
+      "score": "6-2 6-1"
     }
   ]
 }
