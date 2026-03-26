@@ -3,11 +3,11 @@
   "gs_id": "8433",
   "player_name": "Bogdan Bobrov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:30:33.553Z",
+  "updated": "2026-03-26T12:27:03.639Z",
   "matches": [
     {
-      "date": "20190913",
-      "tournament": "Sevilla",
+      "date": "20190705",
+      "tournament": "Saarlouis",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Gutierrez-Ferrol",
-      "score": "6-1 3-6 6-3"
+      "opponent": "F. Ornago",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20190912",
-      "tournament": "Sevilla",
+      "date": "20190704",
+      "tournament": "Saarlouis",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Skatov",
-      "score": "6-3 3-6 6-3"
+      "opponent": "S. Prechtel",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20190911",
-      "tournament": "Sevilla",
+      "date": "20190703",
+      "tournament": "Saarlouis",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Mardones",
-      "score": "7-5 6-2"
+      "opponent": "E. Dischinger",
+      "score": "7(7)-6(2) 6-0"
+    },
+    {
+      "date": "20140723",
+      "tournament": "Essen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Torebko",
+      "score": "6-3 6-4"
     }
   ]
 }
