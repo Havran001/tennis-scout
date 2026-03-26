@@ -3,33 +3,46 @@
   "gs_id": "156075",
   "player_name": "Iliyan Radulov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:11:41.627Z",
+  "updated": "2026-03-26T15:23:11.687Z",
   "matches": [
     {
-      "date": "20250515",
-      "tournament": "M25 Vic",
+      "date": "20240723",
+      "tournament": "Segovia Challenger Men",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Escoffier",
+      "score": "6(2)-7(7) 1-6"
+    },
+    {
+      "date": "20240718",
+      "tournament": "Pozoblanco Challenger Men",
+      "surface": "Hard",
+      "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Alcala Gurri",
-      "score": "6-1 4-6 1-6"
+      "opponent": "A. Escoffier",
+      "score": "7-5 4-6 1-6"
     },
     {
-      "date": "20250514",
-      "tournament": "M25 Vic",
+      "date": "20240716",
+      "tournament": "Pozoblanco Challenger Men",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Jorda Sanchis",
-      "score": "6-3 3-6 1-6"
+      "opponent": "P. Buldorini",
+      "score": "3-6 3-6"
     }
   ]
 }
