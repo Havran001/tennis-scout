@@ -1,1 +1,48 @@
-{"player_id":"b0qe","sack_id":"211471","name":"Henrik Bladelius","total":0,"matches":[]}
+{
+  "player_id": "b0qe",
+  "gs_id": "161535",
+  "player_name": "Henrik Bladelius",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:00:12.787Z",
+  "matches": [
+    {
+      "date": "20250123",
+      "tournament": "M15 Antalya 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Wagner",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250116",
+      "tournament": "M15 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Feldbausch",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20240124",
+      "tournament": "ITF M25 Nussloch Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Poljak",
+      "score": "2-6 1-6"
+    }
+  ]
+}
