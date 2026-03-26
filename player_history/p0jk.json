@@ -3,47 +3,8 @@
   "gs_id": "138493",
   "player_name": "Noah Perfetti",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:58:56.775Z",
+  "updated": "2026-03-26T20:24:26.809Z",
   "matches": [
-    {
-      "date": "20260304",
-      "tournament": "M15 Antalya 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Cretu",
-      "score": "2-6 5-3 ret."
-    },
-    {
-      "date": "20260225",
-      "tournament": "M15 Antalya 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. T. Alexandrescou",
-      "score": "6(5)-7(7) 7(7)-6(3) 4-6"
-    },
-    {
-      "date": "20260204",
-      "tournament": "M15 Antalya 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Boros",
-      "score": "1-6 6-4 3-6"
-    },
     {
       "date": "20250305",
       "tournament": "M15 Antalya 7",
@@ -58,17 +19,30 @@
       "score": "4-6 6-3 3-6"
     },
     {
-      "date": "20250226",
-      "tournament": "M15 Antalya 6",
+      "date": "20240307",
+      "tournament": "ITF M15 Porec Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Popovic",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240306",
+      "tournament": "ITF M15 Porec Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Lopez Montagud",
-      "score": "7-5 6(13)-7(15) 6-4"
+      "result": "W",
+      "opponent": "P. Pampanin",
+      "score": "0-6 5-7"
     },
     {
       "date": "20230214",
@@ -82,45 +56,6 @@
       "result": "L",
       "opponent": "L. Rottoli",
       "score": "3-6 4-6"
-    },
-    {
-      "date": "20230211",
-      "tournament": "ITF M15 Monastir 6 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Iannaccone",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20230207",
-      "tournament": "ITF M15 Monastir 6 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Vuletic",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20220119",
-      "tournament": "M15 Cairo 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Klok",
-      "score": "6-1 6-1"
     }
   ]
 }
