@@ -3,11 +3,11 @@
   "gs_id": "71344",
   "player_name": "Arthur Fery",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:24:43.818Z",
+  "updated": "2026-03-26T21:15:00.842Z",
   "matches": [
     {
-      "date": "20230725",
-      "tournament": "ITF M25 Porto Men",
+      "date": "20210120",
+      "tournament": "M15+H Bressuire",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Lilov",
-      "score": "2-6 3-6"
+      "opponent": "J. De Jong",
+      "score": "4-6 6-3 7-5"
+    },
+    {
+      "date": "20201126",
+      "tournament": "ITF M15 Bratislava Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Bergs",
+      "score": "7(7)-6(1) 6-1"
+    },
+    {
+      "date": "20201125",
+      "tournament": "ITF M15 Bratislava Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Minarik",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20201107",
+      "tournament": "M15 Quinta Do Lago",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Escoffier",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20201104",
+      "tournament": "M15 Quinta Do Lago",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Baltensperger",
+      "score": "2-6 1-1 ret."
     }
   ]
 }
