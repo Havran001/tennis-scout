@@ -1,1 +1,48 @@
-{"player_id":"hg94","sack_id":"133975","name":"Benjamin Hassan","total":1,"matches":[{"id":"6qVWkHvm","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Alicante (Spain), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Bertola R.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "hg94",
+  "gs_id": "27031",
+  "player_name": "Benjamin Hassan",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:45:20.500Z",
+  "matches": [
+    {
+      "date": "20250821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Damm",
+      "score": "5-7 6(5)-7(7)"
+    },
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Barrios Vera",
+      "score": "6-2 7(7)-6(3)"
+    },
+    {
+      "date": "20240820",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Herbert",
+      "score": "6(1)-7(7) 7(7)-6(3) 6-3"
+    }
+  ]
+}
