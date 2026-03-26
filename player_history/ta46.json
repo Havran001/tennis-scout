@@ -3,50 +3,76 @@
   "gs_id": "1016",
   "player_name": "Bernard Tomic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:19:38.816Z",
+  "updated": "2026-03-26T21:12:30.835Z",
   "matches": [
     {
-      "date": "20251126",
-      "tournament": "Playford 2",
+      "date": "20250625",
+      "tournament": "Mallorca",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Sekulic",
-      "score": "3-6 7(7)-6(4) 6-4"
+      "opponent": "R. Bautista-Agut",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20251124",
-      "tournament": "Playford 2",
+      "date": "20250624",
+      "tournament": "Mallorca",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Gengel",
-      "score": "6-2 6-3"
+      "opponent": "R. Hijikata",
+      "score": "3-6 7-5 6-2"
     },
     {
-      "date": "20230115",
-      "tournament": "ITF M15 Doha Men",
+      "date": "20250622",
+      "tournament": "Mallorca",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Kovacevic",
+      "score": "6(2)-7(7) 3-6"
+    },
+    {
+      "date": "20250621",
+      "tournament": "Mallorca",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. De Jong",
+      "score": "5-7 6-4 6-4"
+    },
+    {
+      "date": "20221127",
+      "tournament": "M15 Santo Domingo",
       "surface": "Hard",
       "level": "I",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Tamm",
-      "score": "4-6 6(5)-7(7)"
+      "result": "W",
+      "opponent": "D. King",
+      "score": "3-6 6-4 3-6"
     },
     {
-      "date": "20230114",
-      "tournament": "ITF M15 Doha Men",
+      "date": "20221126",
+      "tournament": "M15 Santo Domingo",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Erel",
-      "score": "3-6 3-6"
+      "opponent": "P. Bertran",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230113",
-      "tournament": "ITF M15 Doha Men",
+      "date": "20221125",
+      "tournament": "M15 Santo Domingo",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -67,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Colson",
-      "score": "3-6 6-3 6(2)-7(7)"
+      "opponent": "J. Flores",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20230112",
-      "tournament": "ITF M15 Doha Men",
+      "date": "20221124",
+      "tournament": "M15 Santo Domingo",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Donders",
-      "score": "4-6 5-7"
+      "opponent": "M. Kiger",
+      "score": "7-5 3-6 1-6"
     },
     {
-      "date": "20230111",
-      "tournament": "ITF M15 Doha Men",
+      "date": "20221123",
+      "tournament": "M15 Santo Domingo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,34 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Nawaf",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20210919",
-      "tournament": "ATP Nur-Sultan",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Cressy",
-      "score": "3-6 1-2 ret."
-    },
-    {
-      "date": "20210405",
-      "tournament": "Split 2 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Coppejans",
-      "score": "6-2 4-6 6-3"
+      "opponent": "A. Petrov",
+      "score": "2-6 4-6"
     }
   ]
 }
