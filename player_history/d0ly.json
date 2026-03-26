@@ -3,11 +3,24 @@
   "gs_id": "175213",
   "player_name": "Emilien Demanet",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:14:56.862Z",
+  "updated": "2026-03-26T23:12:34.890Z",
   "matches": [
     {
-      "date": "20250904",
-      "tournament": "M25 Meerbusch",
+      "date": "20251023",
+      "tournament": "M25 Sintra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Torres",
+      "score": "7(7)-6(3) 4-6 6-1"
+    },
+    {
+      "date": "20250821",
+      "tournament": "M15 Huy",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Schlageter",
-      "score": "7(7)-6(2) 7(7)-6(5)"
+      "opponent": "M. Bobichon",
+      "score": "3-6 7(7)-6(4) 2-6"
     },
     {
-      "date": "20250902",
-      "tournament": "M25 Meerbusch",
+      "date": "20250820",
+      "tournament": "M15 Huy",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,38 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Djonov",
+      "opponent": "F. Bidan",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20250813",
+      "tournament": "M25 Koksijde",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Bailly",
       "score": "6-1 6-1"
     },
     {
-      "date": "20250522",
-      "tournament": "M15 Brcko",
+      "date": "20250530",
+      "tournament": "M15 Doboj",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. M. Zarate",
-      "score": "6(5)-7(7) 2-6"
+      "result": "W",
+      "opponent": "J. Hallquist Lithen",
+      "score": "3-6 0-6"
     },
     {
-      "date": "20250422",
-      "tournament": "M25 Angers",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Matsuoka",
-      "score": "1-6 0-6"
-    },
-    {
-      "date": "20241122",
-      "tournament": "M15 Heraklion 7",
+      "date": "20250530",
+      "tournament": "M15 Doboj",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -67,25 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Efstathiou",
-      "score": "1-6 6-2 6-3"
+      "opponent": "D. Kellovsky",
+      "score": "6-3 4-6 6(2)-7(7)"
     },
     {
-      "date": "20241121",
-      "tournament": "M15 Heraklion 7",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Carboni",
-      "score": "1-6 6-3 6-4"
-    },
-    {
-      "date": "20241120",
-      "tournament": "M15 Heraklion 7",
+      "date": "20250528",
+      "tournament": "M15 Doboj",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +93,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Corsaro",
-      "score": "6-1 1-0 ret."
+      "opponent": "M. Vetrih",
+      "score": "2-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240813",
+      "tournament": "ITF M25 Koksijde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Blockx",
+      "score": "7-5 6-1"
     },
     {
       "date": "20240711",
@@ -121,32 +134,6 @@
       "result": "W",
       "opponent": "P. De Lange",
       "score": "6-1 6-4"
-    },
-    {
-      "date": "20240307",
-      "tournament": "ITF M15 Poitiers Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gueymard Wayenburg",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20240305",
-      "tournament": "ITF M15 Poitiers Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Barreira Bonzom",
-      "score": "1-6 3-6"
     }
   ]
 }
