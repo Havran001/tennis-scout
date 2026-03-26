@@ -1,1 +1,126 @@
-{"player_id":"j0az","sack_id":"208021","name":"Kyrian Jacquet","total":1,"matches":[{"id":"40bwMaR1","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Naples (Italy), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Giustino L.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "j0az",
+  "gs_id": "56980",
+  "player_name": "Kyrian Jacquet",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:07.514Z",
+  "matches": [
+    {
+      "date": "20260118",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Nava",
+      "score": "2-6 5-7 7(7)-6(5) 6-4 6(6)-7(10)"
+    },
+    {
+      "date": "20250821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kubler",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Draxl",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20250719",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Llamas Ruiz",
+      "score": "6-3 3-6 6(2)-7(7)"
+    },
+    {
+      "date": "20240826",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Dimitrov",
+      "score": "6-3 6-4 6-2"
+    },
+    {
+      "date": "20240822",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Rodionov",
+      "score": "7(8)-6(6) 6-1"
+    },
+    {
+      "date": "20240821",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. C. Hong",
+      "score": "6-4 3-6 5-7"
+    },
+    {
+      "date": "20240111",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Harris",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20240110",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Couacaud",
+      "score": "3-6 6-2 2-6"
+    }
+  ]
+}
