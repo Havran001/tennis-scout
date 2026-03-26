@@ -1,1 +1,48 @@
-{"player_id":"p0it","sack_id":"210142","name":"Olaf Pieczkowski","total":0,"matches":[]}
+{
+  "player_id": "p0it",
+  "gs_id": "90081",
+  "player_name": "Olaf Pieczkowski",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:14.627Z",
+  "matches": [
+    {
+      "date": "20240916",
+      "tournament": "Sibiu",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gea",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20240915",
+      "tournament": "Sibiu",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Zhukov",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240910",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Coria",
+      "score": "6-0 6-3"
+    }
+  ]
+}
