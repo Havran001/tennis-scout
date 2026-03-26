@@ -1,1 +1,48 @@
-{"player_id":"cg94","sack_id":"111505","name":"Enzo Couacaud","total":0,"matches":[]}
+{
+  "player_id": "cg94",
+  "gs_id": "6904",
+  "player_name": "Enzo Couacaud",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:43:14.499Z",
+  "matches": [
+    {
+      "date": "20240722",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dodig",
+      "score": "3-6 6-3 6-2"
+    },
+    {
+      "date": "20240721",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Olivo",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20240720",
+      "tournament": "ATP Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Faria",
+      "score": "6-0 4-6 6-2"
+    }
+  ]
+}
