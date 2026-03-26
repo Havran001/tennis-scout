@@ -3,11 +3,37 @@
   "gs_id": "162138",
   "player_name": "Andrin Casanova",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:13:10.824Z",
+  "updated": "2026-03-26T22:14:26.862Z",
   "matches": [
     {
-      "date": "20251111",
-      "tournament": "M25 Vale do Lobo 2",
+      "date": "20251016",
+      "tournament": "M15 Heraklion 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Kravchenko",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20251014",
+      "tournament": "M15 Heraklion 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Anderson",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20251008",
+      "tournament": "M15 Heraklion 9",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,38 +41,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Stewart",
-      "score": "7-5 7(7)-6(4)"
+      "opponent": "R. Faucon",
+      "score": "2-6 7(7)-6(4) 6(4)-7(7)"
     },
     {
-      "date": "20241117",
-      "tournament": "M25 Vale do Lobo 2",
+      "date": "20250423",
+      "tournament": "M15 Monastir 16",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Beauge",
+      "score": "6-2 4-6 6-3"
+    },
+    {
+      "date": "20250305",
+      "tournament": "M25 Trimbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pecci",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20240503",
+      "tournament": "M15 Antalya 13",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Marques",
-      "score": "3-6 6-3 10-2"
-    },
-    {
-      "date": "20241117",
-      "tournament": "M25 Vale do Lobo 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "F. Ferreira Silva",
-      "score": "6-1 6-2"
+      "opponent": "M. Agwi",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20241116",
-      "tournament": "M25 Vale do Lobo 2",
+      "date": "20240502",
+      "tournament": "M15 Antalya 13",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "3-6 7(8)-6(6) 4-6"
+      "opponent": "N. Tajima",
+      "score": "3-6 6(3)-7(7)"
     },
     {
-      "date": "20241112",
-      "tournament": "M25 Vale do Lobo 2",
+      "date": "20240501",
+      "tournament": "M15 Antalya 13",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Turriziani Alvarez",
-      "score": "3-6 6-4 6(4)-7(7)"
+      "opponent": "S. Beaupain",
+      "score": "3-6 6-3 6-4"
+    },
+    {
+      "date": "20240313",
+      "tournament": "ITF M25 Trimbach Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Whitehouse",
+      "score": "4-6 6(4)-7(7)"
+    },
+    {
+      "date": "20230315",
+      "tournament": "ITF M25 Trimbach Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Lane",
+      "score": "4-6 3-6"
     }
   ]
 }
