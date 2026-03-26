@@ -3,11 +3,37 @@
   "gs_id": "89953",
   "player_name": "Vladan Tadic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:16:22.813Z",
+  "updated": "2026-03-26T22:07:42.880Z",
   "matches": [
     {
-      "date": "20230322",
-      "tournament": "ITF M15 Antalya 8 Men",
+      "date": "20260319",
+      "tournament": "M15 Rovinj",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Khoeblal",
+      "score": "6(6)-7(8) 3-6"
+    },
+    {
+      "date": "20260318",
+      "tournament": "M15 Rovinj",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Mikovic",
+      "score": "7-5 4-6 6-4"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Kiseljak",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. A. Andreescu",
+      "opponent": "T. Ruehl",
+      "score": "0-6 6(4)-7(7)"
+    },
+    {
+      "date": "20240530",
+      "tournament": "ITF M25 Kiseljak Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Soto",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240529",
+      "tournament": "ITF M25 Kiseljak Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Klok",
+      "score": "3-6 6-4 2-6"
+    },
+    {
+      "date": "20230524",
+      "tournament": "ITF M15 Brcko Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. B. Privara",
       "score": "3-6 4-6"
+    },
+    {
+      "date": "20220518",
+      "tournament": "M15 Prijedor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sharipov",
+      "score": "0-6 3-6"
     }
   ]
 }
