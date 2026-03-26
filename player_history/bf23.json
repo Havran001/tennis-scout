@@ -3,11 +3,11 @@
   "gs_id": "3225",
   "player_name": "Facundo Bagnis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:12:26.837Z",
+  "updated": "2026-03-26T21:12:45.824Z",
   "matches": [
     {
-      "date": "20190705",
-      "tournament": "Ludwigshafen",
+      "date": "20210205",
+      "tournament": "Antalya 2",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Molcan",
-      "score": "4-6 3-6"
+      "opponent": "C. Taberner",
+      "score": "3-6 6(0)-7(7)"
     },
     {
-      "date": "20190704",
-      "tournament": "Ludwigshafen",
+      "date": "20210204",
+      "tournament": "Antalya 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Martin",
-      "score": "6-1 6-3"
+      "opponent": "D. Popko",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20190703",
-      "tournament": "Ludwigshafen",
+      "date": "20210202",
+      "tournament": "Antalya 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,21 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Z. Piros",
-      "score": "6-4 4-6 6-1"
+      "opponent": "M. Ilhan",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20190702",
-      "tournament": "Ludwigshafen",
+      "date": "20210129",
+      "tournament": "Antalya Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "R64",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Grigelis",
-      "score": "6-4 6-1"
+      "result": "L",
+      "opponent": "B. Kavcic",
+      "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20101012",
+      "tournament": "Asuncion Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ramos",
+      "score": "3-6 1-6"
     }
   ]
 }
