@@ -3,20 +3,33 @@
   "gs_id": "173348",
   "player_name": "Maximo Zeitune",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:11:57.625Z",
+  "updated": "2026-03-26T13:52:22.644Z",
   "matches": [
     {
-      "date": "20250114",
-      "tournament": "Buenos Aires 2",
+      "date": "20260114",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "0-6 6-3 1-6"
+    },
+    {
+      "date": "20260113",
+      "tournament": "Buenos Aires",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. A. Dellien Velasco",
-      "score": "4-6 6-1 6-4"
+      "result": "W",
+      "opponent": "A. Gurmendi",
+      "score": "6-3 2-6 2-3 ret."
     }
   ]
 }
