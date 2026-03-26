@@ -3,8 +3,34 @@
   "gs_id": "10541",
   "player_name": "Issei Okamura",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:07:04.623Z",
+  "updated": "2026-03-26T14:33:40.671Z",
   "matches": [
+    {
+      "date": "20230129",
+      "tournament": "Burnie Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Puttergill",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20230129",
+      "tournament": "Burnie Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Takahashi",
+      "score": "4-6 2-6"
+    },
     {
       "date": "20190729",
       "tournament": "Chengdu",
@@ -17,58 +43,6 @@
       "result": "L",
       "opponent": "Y. Takahashi",
       "score": "6-1 6-2"
-    },
-    {
-      "date": "20190722",
-      "tournament": "Granby",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Garanganga",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20190708",
-      "tournament": "Winnipeg",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Boulais",
-      "score": "6-2 7-5"
-    },
-    {
-      "date": "20160516",
-      "tournament": "Vic",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Tanuma",
-      "score": "6-0 6-3"
-    },
-    {
-      "date": "20150224",
-      "tournament": "Kyoto",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Kondo",
-      "score": "6-1 6-3"
     }
   ]
 }
