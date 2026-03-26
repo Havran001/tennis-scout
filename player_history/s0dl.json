@@ -1,1 +1,35 @@
-{"player_id":"s0dl","sack_id":"202342","name":"Ryan Seggerman","total":0,"matches":[]}
+{
+  "player_id": "s0dl",
+  "gs_id": "153217",
+  "player_name": "Ryan Seggerman",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:19:06.517Z",
+  "matches": [
+    {
+      "date": "20250208",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. K. Trotter",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20240817",
+      "tournament": "ATP Winston-Salem",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Kumar",
+      "score": "1-6 4-6"
+    }
+  ]
+}
