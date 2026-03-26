@@ -3,20 +3,72 @@
   "gs_id": "200582",
   "player_name": "Alejo Sanchez Quilez",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:29:33.603Z",
+  "updated": "2026-03-26T13:52:36.647Z",
   "matches": [
     {
-      "date": "20240515",
-      "tournament": "ITF M25 Vic Men",
+      "date": "20250720",
+      "tournament": "Segovia",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Echeverria",
+      "score": "4-2 ret."
+    },
+    {
+      "date": "20240903",
+      "tournament": "Seville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Merida Aguilar",
-      "score": "6-2 4-6 4-6"
+      "opponent": "R. Brancaccio",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20240902",
+      "tournament": "Seville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Marti Pujolras",
+      "score": "6-3 4-6 4-6"
+    },
+    {
+      "date": "20240901",
+      "tournament": "Seville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Alcala Gurri",
+      "score": "6-2 4-6 7(7)-6(5)"
+    },
+    {
+      "date": "20240722",
+      "tournament": "Segovia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Alvarez Varona",
+      "score": "6-1 6-1"
     }
   ]
 }
