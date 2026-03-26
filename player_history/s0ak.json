@@ -1,1 +1,74 @@
-{"player_id":"s0ak","sack_id":"202260","name":"Henri Squire","total":0,"matches":[]}
+{
+  "player_id": "s0ak",
+  "gs_id": "35568",
+  "player_name": "Henri Squire",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:28.519Z",
+  "matches": [
+    {
+      "date": "20250412",
+      "tournament": "Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tien",
+      "score": "5-7 6-2 0-6"
+    },
+    {
+      "date": "20250107",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Rocha",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240414",
+      "tournament": "ATP Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Gakhov",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240413",
+      "tournament": "ATP Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Naw",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20190716",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Gerch",
+      "score": "6-4 3-6 4-6"
+    }
+  ]
+}
