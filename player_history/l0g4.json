@@ -1,1 +1,22 @@
-{"player_id":"l0g4","sack_id":"210047","name":"Lorenzo Lorusso","total":1,"matches":[{"id":"SGARfPxS","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Figl M.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "l0g4",
+  "gs_id": "148918",
+  "player_name": "Lorenzo Lorusso",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:49:27.758Z",
+  "matches": [
+    {
+      "date": "20250504",
+      "tournament": "Francavilla",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Campana Lee",
+      "score": "6-1 6-0"
+    }
+  ]
+}
