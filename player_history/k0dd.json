@@ -1,1 +1,35 @@
-{"player_id":"k0dd","sack_id":"208007","name":"Karlo Kajin","total":1,"matches":[{"id":"xvWdQRjt","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Stankovic S.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "k0dd",
+  "gs_id": "271245",
+  "player_name": "Karlo Kajin",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T21:14:12.842Z",
+  "matches": [
+    {
+      "date": "20260312",
+      "tournament": "M15 Porec",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Compagnucci",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20260311",
+      "tournament": "M15 Porec",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Bosio",
+      "score": "6-3 2-6 6-3"
+    }
+  ]
+}
