@@ -3,8 +3,99 @@
   "gs_id": "30609",
   "player_name": "Yibing Wu",
   "source": "goalserve-full",
-  "updated": "2026-03-26T08:45:54.501Z",
+  "updated": "2026-03-26T09:16:59.516Z",
   "matches": [
+    {
+      "date": "20260215",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Svajda",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20260214",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Smith",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20260122",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Spizzirri",
+      "score": "2-6 4-6 7(7)-6(4) 6-4 3-6"
+    },
+    {
+      "date": "20260120",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Nardi",
+      "score": "5-7 6-4 4-6 2-6"
+    },
+    {
+      "date": "20260115",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Boyer",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20260114",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Mejia",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Krueger",
+      "score": "7-5 6-4"
+    },
     {
       "date": "20250822",
       "tournament": "US Open",
@@ -69,6 +160,19 @@
       "result": "W",
       "opponent": "D. Lajovic",
       "score": "3-6 6-4 2-6 6-4 6-2"
+    },
+    {
+      "date": "20230116",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Moutet",
+      "score": "4-6 7-5 2-6 6-4 5-7"
     },
     {
       "date": "20220903",
@@ -160,6 +264,19 @@
       "result": "L",
       "opponent": "D. Ferrer",
       "score": "6(7)-7(9) 4-6"
+    },
+    {
+      "date": "20170502",
+      "tournament": "Lleida",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Ortega-Olmedo",
+      "score": "4-6 3-6"
     }
   ]
 }
