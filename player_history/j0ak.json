@@ -1,26 +1,78 @@
 {
   "player_id": "j0ak",
-  "gs_id": "76018",
-  "player_name": "Yuquan Jin",
+  "gs_id": "84344",
+  "player_name": "Jeremy Jin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:50:25.895Z",
+  "updated": "2026-03-26T23:50:50.898Z",
   "matches": [
     {
-      "date": "20240508",
-      "tournament": "M15 Antalya 14",
+      "date": "20231029",
+      "tournament": "ITF M15 Tallahassee",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Saritas",
-      "score": "4-6 7(7)-6(4) 6-2"
+      "result": "W",
+      "opponent": "F. Corwin",
+      "score": "7-5 6-3"
     },
     {
-      "date": "20240424",
-      "tournament": "ITF M15 Antalya 12 Men",
+      "date": "20231028",
+      "tournament": "ITF M15 Tallahassee",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Maloney",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20231027",
+      "tournament": "ITF M15 Tallahassee",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Donnet",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20231026",
+      "tournament": "ITF M15 Tallahassee",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Murgett",
+      "score": "2-6 6-4 6-3"
+    },
+    {
+      "date": "20231024",
+      "tournament": "ITF M15 Tallahassee",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Pena",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230516",
+      "tournament": "ITF M15 Monastir 20 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Lavizzari",
-      "score": "4-6 6-4 4-6"
+      "opponent": "D. Glinka",
+      "score": "2-6 6(5)-7(7)"
+    },
+    {
+      "date": "20230510",
+      "tournament": "ITF M15 Monastir 19 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Mansouri",
+      "score": "2-6 3-6"
     }
   ]
 }
