@@ -3,33 +3,46 @@
   "gs_id": "263930",
   "player_name": "Jack Kennedy",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:32:48.578Z",
+  "updated": "2026-03-26T13:52:58.643Z",
   "matches": [
     {
-      "date": "20250819",
-      "tournament": "US Open",
+      "date": "20251103",
+      "tournament": "Knoxville",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. A. Tirante",
-      "score": "6-4 6-4"
+      "opponent": "P. Makk",
+      "score": "4-6 6-3 6-2"
     },
     {
-      "date": "20240820",
-      "tournament": "ATP US Open",
+      "date": "20251102",
+      "tournament": "Knoxville",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Brown",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250413",
+      "tournament": "Tallahassee",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Marterer",
-      "score": "3-6 4-6"
+      "opponent": "T. Zink",
+      "score": "6-3 6-4"
     }
   ]
 }
