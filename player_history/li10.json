@@ -1,1 +1,126 @@
-{"player_id":"li10","sack_id":"132052","name":"Christian Langmo","total":1,"matches":[{"id":"8b0nVv9s","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Dodig M.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "li10",
+  "gs_id": "33254",
+  "player_name": "Christian Langmo",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:06:12.578Z",
+  "matches": [
+    {
+      "date": "20190925",
+      "tournament": "Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20190808",
+      "tournament": "Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Ponwith",
+      "score": "5-7 7-5 4-6"
+    },
+    {
+      "date": "20190807",
+      "tournament": "Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Pervolarakis",
+      "score": "2-6 7-5 6-2"
+    },
+    {
+      "date": "20190803",
+      "tournament": "Decatur",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Rodriguez Taverna",
+      "score": "3-6 6-2 6(6)-7(8)"
+    },
+    {
+      "date": "20190802",
+      "tournament": "Decatur",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Caruana",
+      "score": "5-7 6-4 7(7)-6(1)"
+    },
+    {
+      "date": "20190801",
+      "tournament": "Decatur",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. M. Aguilar J.",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20190731",
+      "tournament": "Decatur",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Kessler",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20160114",
+      "tournament": "Plantation",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Echazu",
+      "score": "7(10)-6(8) 6-1"
+    },
+    {
+      "date": "20160113",
+      "tournament": "Plantation",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gozun",
+      "score": "7-5 3-6 2-6"
+    }
+  ]
+}
