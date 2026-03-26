@@ -1,1 +1,22 @@
-{"player_id":"t0de","sack_id":"208329","name":"Maximilian Todorov","total":0,"matches":[]}
+{
+  "player_id": "t0de",
+  "gs_id": "58630",
+  "player_name": "Maximilian Todorov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T16:11:55.700Z",
+  "matches": [
+    {
+      "date": "20181023",
+      "tournament": "Hamburg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Matuszewski",
+      "score": "3-6 6-1 6-3"
+    }
+  ]
+}
