@@ -3,11 +3,11 @@
   "gs_id": "20004",
   "player_name": "Jumpei Yamasaki",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:07:15.625Z",
+  "updated": "2026-03-26T13:47:27.670Z",
   "matches": [
     {
-      "date": "20190911",
-      "tournament": "Shanghai",
+      "date": "20251118",
+      "tournament": "Yokohama",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +15,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Lopez-Perez",
-      "score": "6-4 3-6 6-2"
+      "opponent": "Y. Mochizuki",
+      "score": "6-4 7(7)-6(5)"
     },
     {
-      "date": "20190910",
-      "tournament": "Shanghai",
+      "date": "20251117",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Nakagawa",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20251116",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "U. Park",
+      "score": "6-4 ret."
+    },
+    {
+      "date": "20221030",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Saitoh",
+      "score": "6-2 4-2 ret."
+    },
+    {
+      "date": "20191105",
+      "tournament": "Kobe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Ramanathan",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20191104",
+      "tournament": "Kobe",
       "surface": "Hard",
       "level": "C",
       "round": "R64",
@@ -28,38 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Nishiwaki",
-      "score": "3-6 2-6"
+      "opponent": "B. Mousley",
+      "score": "2-6 3-4 ret."
     },
     {
-      "date": "20170928",
-      "tournament": "Fountain Valley",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Craig",
-      "score": "6-3 4-6 3-6"
-    },
-    {
-      "date": "20170926",
-      "tournament": "Fountain Valley",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Hovhannisyan",
-      "score": "4-6 5-7"
-    },
-    {
-      "date": "20170221",
-      "tournament": "Kyoto",
+      "date": "20180227",
+      "tournament": "Yokohama",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +93,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Soonwoo",
-      "score": "1-6 1-6"
+      "opponent": "S. Robert",
+      "score": "3-6 6-1 6-3"
+    },
+    {
+      "date": "20171113",
+      "tournament": "Toyota",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Shimizu",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20131119",
+      "tournament": "Toyota",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Kibi",
+      "score": "6-4 6-2"
     }
   ]
 }
