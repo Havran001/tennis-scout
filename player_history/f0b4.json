@@ -1,1 +1,22 @@
-{"player_id":"f0b4","sack_id":"207167","name":"Barney Fitzpatrick","total":0,"matches":[]}
+{
+  "player_id": "f0b4",
+  "gs_id": "57475",
+  "player_name": "Barney Fitzpatrick",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:54:57.782Z",
+  "matches": [
+    {
+      "date": "20190115",
+      "tournament": "M15 Manacor (Mallorca) 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Diep",
+      "score": "6-1 6-0"
+    }
+  ]
+}
