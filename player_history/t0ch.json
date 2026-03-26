@@ -1,1 +1,74 @@
-{"player_id":"t0ch","sack_id":"208006","name":"Rafael Tosetto","total":1,"matches":[{"id":"Ee7gdF7d","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Sao Paulo (Brazil), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Nava E.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "t0ch",
+  "gs_id": "157886",
+  "player_name": "Rafael Tosetto",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:42.634Z",
+  "matches": [
+    {
+      "date": "20250330",
+      "tournament": "Campinas",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Jones",
+      "score": "3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240506",
+      "tournament": "Santos Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Roncadelli",
+      "score": "6-1 2-6 0-6"
+    },
+    {
+      "date": "20240505",
+      "tournament": "Santos Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. P. Prudencio",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20231022",
+      "tournament": "Curitiba Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Roncadelli",
+      "score": "4-6 7(8)-6(6) 6-0"
+    },
+    {
+      "date": "20231001",
+      "tournament": "Campinas Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Mena",
+      "score": "1-6 6-4 4-6"
+    }
+  ]
+}
