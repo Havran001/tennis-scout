@@ -1,1 +1,35 @@
-{"player_id":"e0d6","sack_id":"210601","name":"Oskari Eerola","total":0,"matches":[]}
+{
+  "player_id": "e0d6",
+  "gs_id": "150063",
+  "player_name": "Oskari Eerola",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:59:31.780Z",
+  "matches": [
+    {
+      "date": "20251102",
+      "tournament": "Helsinki",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Blancaneaux",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20250720",
+      "tournament": "Tampere",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sels",
+      "score": "2-6 2-6"
+    }
+  ]
+}
