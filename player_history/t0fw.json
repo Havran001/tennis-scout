@@ -1,1 +1,35 @@
-{"player_id":"t0fw","sack_id":"212705","name":"Nathan Trouve","total":0,"matches":[]}
+{
+  "player_id": "t0fw",
+  "gs_id": "177492",
+  "player_name": "Nathan Trouve",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:23:27.682Z",
+  "matches": [
+    {
+      "date": "20251116",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Nam Ji",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20251109",
+      "tournament": "Kobe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Ajdukovic",
+      "score": "6(4)-7(7) 3-6"
+    }
+  ]
+}
