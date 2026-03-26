@@ -1,1 +1,74 @@
-{"player_id":"ci14","sack_id":"126652","name":"Jay Clarke","total":0,"matches":[]}
+{
+  "player_id": "ci14",
+  "gs_id": "21111",
+  "player_name": "Jay Clarke",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:44:47.501Z",
+  "matches": [
+    {
+      "date": "20250821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Cazaux",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Satterfield",
+      "score": "7(7)-6(5) 6-1"
+    },
+    {
+      "date": "20220823",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Gombos",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20190820",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krueger",
+      "score": "6(2)-7(7) 6-4 6-4"
+    },
+    {
+      "date": "20180822",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Broady",
+      "score": "3-6 1-6"
+    }
+  ]
+}
