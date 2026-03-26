@@ -1,1 +1,61 @@
-{"player_id":"k0e6","sack_id":"208230","name":"Alibek Kachmazov","total":0,"matches":[]}
+{
+  "player_id": "k0e6",
+  "gs_id": "68077",
+  "player_name": "Alibek Kachmazov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:26.515Z",
+  "matches": [
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Droguet",
+      "score": "1-6 2-4 ret."
+    },
+    {
+      "date": "20250805",
+      "tournament": "Cincinnati",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Blockx",
+      "score": "4-2 ret."
+    },
+    {
+      "date": "20250108",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Basilashvili",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20250107",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Mochizuki",
+      "score": "6-3 7(7)-6(1)"
+    }
+  ]
+}
