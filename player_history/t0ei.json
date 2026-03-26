@@ -1,1 +1,87 @@
-{"player_id":"t0ei","sack_id":"209362","name":"Aristotelis Thanos","total":0,"matches":[]}
+{
+  "player_id": "t0ei",
+  "gs_id": "87171",
+  "player_name": "Aristotelis Thanos",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:06.624Z",
+  "matches": [
+    {
+      "date": "20251014",
+      "tournament": "Curitiba",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dutra Da Silva",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20251013",
+      "tournament": "Curitiba",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Gima",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20251013",
+      "tournament": "Curitiba",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Dutra Da Silva",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250722",
+      "tournament": "Tampere",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Onclin",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250721",
+      "tournament": "Tampere",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Karol",
+      "score": "2-6 6-3 1-6"
+    },
+    {
+      "date": "20250720",
+      "tournament": "Tampere",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Fondriest",
+      "score": "2-6 6(6)-7(8)"
+    }
+  ]
+}
