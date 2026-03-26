@@ -1,13 +1,13 @@
 {
   "player_id": "mw75",
-  "gs_id": "131928",
-  "player_name": "Felipe Meligeni Alves",
+  "gs_id": "56983",
+  "player_name": "Mateus Alves",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:05:46.574Z",
+  "updated": "2026-03-26T11:44:36.585Z",
   "matches": [
     {
-      "date": "20240318",
-      "tournament": "ATP Miami",
+      "date": "20230729",
+      "tournament": "ATP Washington",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -15,73 +15,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Bergs",
-      "score": "2-6 6-1 6-4"
+      "opponent": "S. Mochizuki",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240304",
-      "tournament": "ATP Indian Wells",
+      "date": "20190410",
+      "tournament": "Sunrise",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Moreno De Alboran",
+      "opponent": "S. Kozlov",
       "score": "3-6 1-6"
-    },
-    {
-      "date": "20230322",
-      "tournament": "ATP Miami",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R128",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Bagnis",
-      "score": "6-3 1-6 6-4"
-    },
-    {
-      "date": "20230321",
-      "tournament": "ATP Miami",
-      "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Skatov",
-      "score": "4-6 6(5)-7(7)"
-    },
-    {
-      "date": "20230320",
-      "tournament": "ATP Miami",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Basilashvili",
-      "score": "6-4 1-6 6-1"
-    },
-    {
-      "date": "20230307",
-      "tournament": "ATP Indian Wells",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Hijikata",
-      "score": "6-4 4-0 ret."
     }
   ]
 }
