@@ -2,7 +2,7 @@
   "player_id": "d0c1",
   "player_name": "Jesper De Jong",
   "source": "goalserve",
-  "updated": "2026-03-26T00:22:33.347Z",
+  "updated": "2026-03-26T03:36:32.399Z",
   "matches": [
     {
       "date": "20260325",
@@ -4178,6 +4178,19 @@
       "score": "5-7 6(4)-7(7)"
     },
     {
+      "date": "20191016",
+      "tournament": "Waco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Carr",
+      "score": "6-1 5-7 6-4"
+    },
+    {
       "date": "20190717",
       "tournament": "Amersfoort",
       "surface": "Hard",
@@ -4202,6 +4215,32 @@
       "result": "W",
       "opponent": "S. Griekspoor",
       "score": "6-4 4-6 6(7)-7(9)"
+    },
+    {
+      "date": "20190530",
+      "tournament": "Majadahonda",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Diaz Acosta",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20190529",
+      "tournament": "Majadahonda",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. De Krom",
+      "score": "0-6 6-4 2-6"
     }
   ]
 }
