@@ -3,11 +3,24 @@
   "gs_id": "40990",
   "player_name": "Simon Beaupain",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:31:48.558Z",
+  "updated": "2026-03-26T13:48:46.644Z",
   "matches": [
     {
-      "date": "20180911",
-      "tournament": "Sevilla",
+      "date": "20230904",
+      "tournament": "Seville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Barreto Sanchez",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20180919",
+      "tournament": "Madrid 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Diaz-Figueroa",
-      "score": "4-6 3-6"
+      "opponent": "Romero De Avila",
+      "score": "5-7 7-5 6-4"
     }
   ]
 }
