@@ -3,20 +3,33 @@
   "gs_id": "78976",
   "player_name": "Arthur Bouquier",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:05:23.569Z",
+  "updated": "2026-03-26T11:45:46.584Z",
   "matches": [
     {
-      "date": "20251101",
-      "tournament": "Metz",
+      "date": "20250625",
+      "tournament": "Wimbledon",
       "surface": "Hard",
-      "level": "B",
+      "level": "G",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Passaro",
-      "score": "6-1 6-1"
+      "opponent": "D. Lajovic",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20250623",
+      "tournament": "Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gray",
+      "score": "7-5 3-6 4-6"
     }
   ]
 }
