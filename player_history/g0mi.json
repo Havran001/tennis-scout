@@ -3,33 +3,46 @@
   "gs_id": "175249",
   "player_name": "Adhithya Ganesan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:12:00.629Z",
+  "updated": "2026-03-26T13:52:26.642Z",
   "matches": [
     {
-      "date": "20250813",
-      "tournament": "Barranquilla",
+      "date": "20251112",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rosenkranz",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20251111",
+      "tournament": "Champaign",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Mejia",
-      "score": "6(3)-7(7) 0-3 ret."
+      "result": "W",
+      "opponent": "O. Okonkwo",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20240714",
-      "tournament": "Newport",
+      "date": "20251026",
+      "tournament": "Charlottesville",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Polmans",
-      "score": "6-2 6-2"
+      "opponent": "A. Shah",
+      "score": "3-6 0-1 ret."
     }
   ]
 }
