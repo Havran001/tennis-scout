@@ -3,11 +3,102 @@
   "gs_id": "57184",
   "player_name": "Eliot Spizzirri",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:11:41.728Z",
+  "updated": "2026-03-26T17:44:50.753Z",
   "matches": [
     {
-      "date": "20250205",
-      "tournament": "Tenerife",
+      "date": "20250313",
+      "tournament": "Phoenix",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cobolli",
+      "score": "6-3 5-7 7-5"
+    },
+    {
+      "date": "20250312",
+      "tournament": "Phoenix",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Tu",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20250202",
+      "tournament": "Cleveland",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Smith",
+      "score": "6-4 6(6)-7(8) 6-3"
+    },
+    {
+      "date": "20250201",
+      "tournament": "Cleveland",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Zink",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250131",
+      "tournament": "Cleveland",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. K. Trotter",
+      "score": "7-5 3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20250129",
+      "tournament": "Cleveland",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Mmoh",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20250127",
+      "tournament": "Cleveland",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Escobedo",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230710",
+      "tournament": "Chicago Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Monday",
-      "score": "2-6 4-6"
+      "opponent": "A. Walton",
+      "score": "6-2 6-2"
     }
   ]
 }
