@@ -1,1 +1,22 @@
-{"player_id":"f0hi","sack_id":"212160","name":"Ryan Fishback","total":2,"matches":[{"id":"UZqMoXz1","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"De Dios F.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"dG4Fbppf","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Gallego J. I./Lopez G.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "f0hi",
+  "gs_id": "198419",
+  "player_name": "Ryan Fishback",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:19:14.520Z",
+  "matches": [
+    {
+      "date": "20240817",
+      "tournament": "ATP Winston-Salem",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kirchheimer",
+      "score": "6-1 7-5"
+    }
+  ]
+}
