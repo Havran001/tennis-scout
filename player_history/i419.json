@@ -1,1 +1,22 @@
-{"player_id":"i419","sack_id":"205905","name":"Sergio Ingles Garre","total":0,"matches":[]}
+{
+  "player_id": "i419",
+  "gs_id": "303364",
+  "player_name": "Sergio Ingles Garre",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T22:16:11.864Z",
+  "matches": [
+    {
+      "date": "20250316",
+      "tournament": "Murcia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Damas",
+      "score": "6-1 6-4"
+    }
+  ]
+}
