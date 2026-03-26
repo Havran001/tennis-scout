@@ -1,13 +1,13 @@
 {
   "player_id": "mo44",
-  "gs_id": "84351",
-  "player_name": "Benito Sanchez Martinez",
+  "gs_id": "146504",
+  "player_name": "Tomas Martinez",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:50:06.650Z",
+  "updated": "2026-03-26T13:51:41.643Z",
   "matches": [
     {
-      "date": "20250706",
-      "tournament": "Braunschweig",
+      "date": "20260111",
+      "tournament": "Buenos Aires",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +15,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Bueno",
-      "score": "5-7 6-4 3-6"
+      "opponent": "B. Kuzuhara",
+      "score": "6(4)-7(7) 0-6"
+    },
+    {
+      "date": "20251118",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. A. Gomez",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20251117",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. M. Aguilar J.",
+      "score": "6-1 5-7 2-6"
+    },
+    {
+      "date": "20251116",
+      "tournament": "Guayaquil",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Alvarado",
+      "score": "2-6 3-6"
     }
   ]
 }
