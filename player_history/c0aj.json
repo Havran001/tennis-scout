@@ -1,1 +1,61 @@
-{"player_id":"c0aj","sack_id":"200666","name":"Jie Cui","total":4,"matches":[{"id":"EeH1OYI8","date":"20260326","tournament":"ITF WOMEN - SINGLES: W15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Tiutrina E.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"GGDTDe6l","date":"20260326","tournament":"ITF WOMEN - SINGLES: W15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Stevens A.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"j7eBiXse","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Yokkaichi (Japan), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Shimizu Y.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"Wtw9ywxi","date":"20260324","tournament":"ITF WOMEN - DOUBLES: W15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"W","opponent":"Cilek M./Nishikawa K.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "c0aj",
+  "gs_id": "42302",
+  "player_name": "Jie Cui",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:31:52.557Z",
+  "matches": [
+    {
+      "date": "20250929",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Tabilo",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20240930",
+      "tournament": "Shanghai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Trungelliti",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230926",
+      "tournament": "ATP Beijing",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Garin",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20190928",
+      "tournament": "Beijing",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Evans",
+      "score": "3-6 1-6"
+    }
+  ]
+}
