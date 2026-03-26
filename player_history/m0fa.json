@@ -3,115 +3,37 @@
   "gs_id": "34880",
   "player_name": "Anton Matusevich",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:44:04.581Z",
+  "updated": "2026-03-26T12:27:56.608Z",
   "matches": [
     {
-      "date": "20240624",
-      "tournament": "ATP Wimbledon",
+      "date": "20191208",
+      "tournament": "Tallahassee",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Barrios Vera",
-      "score": "6-3 4-6 3-6"
-    },
-    {
-      "date": "20220620",
-      "tournament": "Wimbledon",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Harrison",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20210624",
-      "tournament": "ATP Wimbledon",
-      "surface": "Hard",
-      "level": "G",
+      "level": "I",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Zapata Miralles",
-      "score": "2-6 6-3 6(3)-7(7) 7(8)-6(6) 3-6"
-    },
-    {
-      "date": "20210623",
-      "tournament": "ATP Wimbledon",
-      "surface": "Hard",
-      "level": "G",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "C. Taberner",
-      "score": "6-4 6-1"
+      "opponent": "G. Iradukunda",
+      "score": "6-3 1-6 5-7"
     },
     {
-      "date": "20210622",
-      "tournament": "ATP Wimbledon",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "W. Jansen",
-      "score": "4-6 6-0 6-4"
-    },
-    {
-      "date": "20190925",
-      "tournament": "Shrewsbury",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Johnson",
-      "score": "6(3)-7(7) 4-6"
-    },
-    {
-      "date": "20190924",
-      "tournament": "Shrewsbury",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. E. Kivanda",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20190810",
-      "tournament": "Chiswick",
+      "date": "20191207",
+      "tournament": "Tallahassee",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Sijsling",
-      "score": "4-6 6-1 6-4"
+      "result": "W",
+      "opponent": "A. Galarneau",
+      "score": "4-6 1-2 ret."
     },
     {
-      "date": "20190809",
-      "tournament": "Chiswick",
+      "date": "20191206",
+      "tournament": "Tallahassee",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -119,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Ocleppo",
-      "score": "6-4 6-2"
+      "opponent": "D. Novikov",
+      "score": "6-4 3-6 6-3"
     },
     {
-      "date": "20190808",
-      "tournament": "Chiswick",
+      "date": "20191205",
+      "tournament": "Tallahassee",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -132,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Peniston",
-      "score": "5-7 1-6"
+      "opponent": "P. Kypson",
+      "score": "4-6 6-4 7-5"
     },
     {
-      "date": "20190806",
-      "tournament": "Chiswick",
+      "date": "20191203",
+      "tournament": "Tallahassee",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Watson",
-      "score": "4-6 6-2 4-6"
+      "opponent": "A. Knight",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20190219",
-      "tournament": "Glasgow",
+      "date": "20180206",
+      "tournament": "Loughborough",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,21 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Shane",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20180625",
-      "tournament": "Wimbledon",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Z. Kolar",
-      "score": "1-6 6(1)-7(7)"
+      "opponent": "S. Hodkin",
+      "score": "1-6 2-6"
     }
   ]
 }
