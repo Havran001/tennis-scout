@@ -3,11 +3,24 @@
   "gs_id": "13589",
   "player_name": "Nerman Fatic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:05:49.566Z",
+  "updated": "2026-03-26T11:43:20.589Z",
   "matches": [
     {
-      "date": "20220212",
-      "tournament": "Doha",
+      "date": "20240624",
+      "tournament": "ATP Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Droguet",
+      "score": "6-3 6(5)-7(7) 6-3"
+    },
+    {
+      "date": "20240506",
+      "tournament": "ATP Rome",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -15,34 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Kotov",
-      "score": "6-2 7-5"
-    },
-    {
-      "date": "20120408",
-      "tournament": "Antalya-Belconti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Faber",
-      "score": "6-2 7(9)-6(7) 3-6"
-    },
-    {
-      "date": "20120407",
-      "tournament": "Antalya-Belconti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. S. Karic",
-      "score": "4-6 6-7"
+      "opponent": "B. Nakashima",
+      "score": "6(5)-7(7) 5-7"
     }
   ]
 }
