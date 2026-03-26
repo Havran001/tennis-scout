@@ -3,11 +3,11 @@
   "gs_id": "10196",
   "player_name": "Alejandro Dellien Velasco Murkel",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:04:50.822Z",
+  "updated": "2026-03-26T20:12:50.821Z",
   "matches": [
     {
-      "date": "20240719",
-      "tournament": "Amersfoort",
+      "date": "20250711",
+      "tournament": "Iasi",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Houkes",
-      "score": "6-4 7-5"
+      "opponent": "D. Ajdukovic",
+      "score": "6-4 1-6 6-1"
     },
     {
-      "date": "20240718",
-      "tournament": "Amersfoort",
+      "date": "20250709",
+      "tournament": "Iasi",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Vesely",
-      "score": "3-6 4-6"
+      "opponent": "C. Taberner",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20240717",
-      "tournament": "Amersfoort",
+      "date": "20250708",
+      "tournament": "Iasi",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,25 +41,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Deckers",
-      "score": "4-6 7(8)-6(6) 6-4"
+      "opponent": "S. Gima",
+      "score": "7(7)-6(3) 6-3"
     },
     {
-      "date": "20240211",
-      "tournament": "ITF M25 Punta del Este Men",
+      "date": "20240709",
+      "tournament": "Iasi Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Popko",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20230602",
+      "tournament": "M25 Jablonec nad Nisou",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Paulson",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20230601",
+      "tournament": "M25 Jablonec nad Nisou",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Kellovsky",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20230531",
+      "tournament": "M25 Jablonec nad Nisou",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Barnat",
+      "score": "7(7)-6(5) 6-3"
+    },
+    {
+      "date": "20230312",
+      "tournament": "M25 Rio Cuarto",
       "surface": "Hard",
       "level": "I",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Bueno",
-      "score": "6-4 3-6 7-5"
+      "result": "L",
+      "opponent": "P. Martin Tiffon",
+      "score": "7(9)-6(7) 3-6 7-5"
     },
     {
-      "date": "20240210",
-      "tournament": "ITF M25 Punta del Este Men",
+      "date": "20230311",
+      "tournament": "M25 Rio Cuarto",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Vallejo",
-      "score": "6-4 4-6 6-4"
+      "opponent": "F. Comesana",
+      "score": "6-3 3-6 6-1"
     },
     {
-      "date": "20240209",
-      "tournament": "ITF M25 Punta del Este Men",
+      "date": "20230310",
+      "tournament": "M25 Rio Cuarto",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -80,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. B. Torres",
-      "score": "2-6 6-2 6-2"
+      "opponent": "S. Rodriguez Taverna",
+      "score": "3-6 6-3 4-6"
     },
     {
-      "date": "20240208",
-      "tournament": "ITF M25 Punta del Este Men",
+      "date": "20230309",
+      "tournament": "M25 Rio Cuarto",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Cigarran",
-      "score": "6-4 6-1"
+      "opponent": "L. E. Ambrogi",
+      "score": "5-7 2-6"
     },
     {
-      "date": "20240207",
-      "tournament": "ITF M25 Punta del Este Men",
+      "date": "20230308",
+      "tournament": "M25 Rio Cuarto",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,38 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Bruna",
-      "score": "6-1 6-1"
+      "opponent": "G. A. Hidalgo",
+      "score": "1-6 6(3)-7(7)"
     },
     {
-      "date": "20211014",
-      "tournament": "M25 Lima 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Huertas Del Pino",
-      "score": "7(7)-6(4) 6-3"
-    },
-    {
-      "date": "20211012",
-      "tournament": "M25 Lima 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Reis Da Silva",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20211008",
-      "tournament": "M25 Lima",
+      "date": "20230203",
+      "tournament": "ITF M25 Antalya Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -145,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Dutra Da Silva",
-      "score": "6-2 6-1"
+      "opponent": "M. Erhard",
+      "score": "7-5 1-6 3-6"
     },
     {
-      "date": "20211007",
-      "tournament": "M25 Lima",
+      "date": "20230202",
+      "tournament": "ITF M25 Antalya Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -158,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Huertas Del Pino Cordova",
-      "score": "3-6 3-6"
+      "opponent": "J. Martinez Martinez",
+      "score": "4-6 6-3 1-6"
     },
     {
-      "date": "20211005",
-      "tournament": "M25 Lima",
+      "date": "20230201",
+      "tournament": "ITF M25 Antalya Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,73 +197,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Vallebuona",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20210923",
-      "tournament": "ITF M15 Cancun Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. A. Gomez",
-      "score": "0-6 3-6"
-    },
-    {
-      "date": "20210922",
-      "tournament": "ITF M15 Cancun Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Moceanu",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20190920",
-      "tournament": "Fayetteville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Soderlund",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20190919",
-      "tournament": "Fayetteville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Roberts",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20190918",
-      "tournament": "Fayetteville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Wallart",
-      "score": "6-3 5-7 6-2"
+      "opponent": "I. Gimenez",
+      "score": "4-6 3-6"
     }
   ]
 }
