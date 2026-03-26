@@ -1,1 +1,48 @@
-{"player_id":"p0l6","sack_id":"212900","name":"Andrea Paolini","total":0,"matches":[]}
+{
+  "player_id": "p0l6",
+  "gs_id": "163443",
+  "player_name": "Andrea Paolini",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:00:17.804Z",
+  "matches": [
+    {
+      "date": "20260219",
+      "tournament": "M15 Antalya 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20260218",
+      "tournament": "M15 Antalya 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Orlov",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20250504",
+      "tournament": "Francavilla",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Travaglia",
+      "score": "0-6 3-6"
+    }
+  ]
+}
