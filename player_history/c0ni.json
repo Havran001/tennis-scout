@@ -1,1 +1,61 @@
-{"player_id":"c0ni","sack_id":"211480","name":"Aleksander Chayka","total":0,"matches":[]}
+{
+  "player_id": "c0ni",
+  "gs_id": "162536",
+  "player_name": "Aleksander Chayka",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:18:23.809Z",
+  "matches": [
+    {
+      "date": "20240808",
+      "tournament": "ITF M15 Curtea de Arges Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. M. Papoe",
+      "score": "7(7)-6(1) 6-2"
+    },
+    {
+      "date": "20240807",
+      "tournament": "ITF M15 Curtea de Arges Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. C. Breazu",
+      "score": "6-3 3-6 6-4"
+    },
+    {
+      "date": "20240221",
+      "tournament": "ITF M15 Monastir 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Paul",
+      "score": "4-6 6-2 5-7"
+    },
+    {
+      "date": "20230920",
+      "tournament": "M25 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Barnat",
+      "score": "6-1 6-4"
+    }
+  ]
+}
