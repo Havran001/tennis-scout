@@ -1,1 +1,22 @@
-{"player_id":"s0gv","sack_id":"207669","name":"Robert Strombachs","total":2,"matches":[{"id":"dKAF3Zbf","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Wygona J.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"EFkFphSQ","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Horst P./Roeder P.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "s0gv",
+  "gs_id": "57266",
+  "player_name": "Robert Strombachs",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:17.539Z",
+  "matches": [
+    {
+      "date": "20180815",
+      "tournament": "Karlsruher",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Bangratz",
+      "score": "6-2 7-5"
+    }
+  ]
+}
