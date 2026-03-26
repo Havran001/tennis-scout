@@ -3,8 +3,60 @@
   "gs_id": "28032",
   "player_name": "Corentin Moutet",
   "source": "goalserve-full",
-  "updated": "2026-03-26T08:45:28.501Z",
+  "updated": "2026-03-26T09:16:53.537Z",
   "matches": [
+    {
+      "date": "20260218",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Paul",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20260123",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Alcaraz",
+      "score": "2-6 4-6 1-6"
+    },
+    {
+      "date": "20260121",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Zheng",
+      "score": "6-3 1-6 3-6 0-2 ret."
+    },
+    {
+      "date": "20260118",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Schoolkate",
+      "score": "4-6 6(1)-7(7) 3-6"
+    },
     {
       "date": "20250824",
       "tournament": "US Open",
@@ -43,6 +95,71 @@
       "result": "W",
       "opponent": "M. McDonald",
       "score": "7-5 6-3"
+    },
+    {
+      "date": "20250213",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Musetti",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250212",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Nagal",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20250118",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tien",
+      "score": "7(12)-6(10) 6-3 6-3"
+    },
+    {
+      "date": "20250116",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Krueger",
+      "score": "4-6 6-4 7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20250114",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Popyrin",
+      "score": "6-4 3-6 4-6 4-6"
     },
     {
       "date": "20240827",
@@ -123,6 +240,19 @@
       "score": "1-6 4-6"
     },
     {
+      "date": "20240210",
+      "tournament": "ATP Buenos Aires",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Navone",
+      "score": "5-7 6-2 6-2"
+    },
+    {
       "date": "20230829",
       "tournament": "ATP US Open",
       "surface": "Hard",
@@ -173,6 +303,32 @@
       "result": "W",
       "opponent": "M. Arnaldi",
       "score": "4-6 6-0 6-2"
+    },
+    {
+      "date": "20230118",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cerundolo",
+      "score": "6-3 4-6 2-6 5-7"
+    },
+    {
+      "date": "20230116",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Wu",
+      "score": "6-4 5-7 6-2 4-6 7-5"
     },
     {
       "date": "20220904",
@@ -318,6 +474,32 @@
       "score": "6-3 6-3"
     },
     {
+      "date": "20220119",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Korda",
+      "score": "6-3 4-6 7(7)-6(2) 5-7 6(6)-7(10)"
+    },
+    {
+      "date": "20220117",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Pouille",
+      "score": "3-6 6-3 6-4 6-3"
+    },
+    {
       "date": "20210902",
       "tournament": "ATP US Open",
       "surface": "Hard",
@@ -396,6 +578,32 @@
       "score": "7-5 1-6 0-0 ret."
     },
     {
+      "date": "20210210",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Raonic",
+      "score": "6(1)-7(7) 6-1 6-1 6-4"
+    },
+    {
+      "date": "20210208",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Millman",
+      "score": "6-4 6(4)-7(7) 3-6 6-2 6-3"
+    },
+    {
       "date": "20200905",
       "tournament": "US Open",
       "surface": "Hard",
@@ -433,6 +641,32 @@
       "result": "W",
       "opponent": "J. Vesely",
       "score": "6-4 6-4 7-5"
+    },
+    {
+      "date": "20200211",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kovalik",
+      "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20200120",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cilic",
+      "score": "3-6 2-6 4-6"
     },
     {
       "date": "20190826",
@@ -474,6 +708,58 @@
       "score": "7-5 6-0"
     },
     {
+      "date": "20190226",
+      "tournament": "Dubai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Hurkacz",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20190224",
+      "tournament": "Dubai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Ivashka",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20190223",
+      "tournament": "Dubai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K.M. Maamoun",
+      "score": "3-6 6(0)-7(7)"
+    },
+    {
+      "date": "20190108",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Eubanks",
+      "score": "6-2 1-6 4-6"
+    },
+    {
       "date": "20180828",
       "tournament": "US Open",
       "surface": "Hard",
@@ -511,6 +797,19 @@
       "result": "L",
       "opponent": "M. Kukushkin",
       "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20180115",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Seppi",
+      "score": "6-3 4-6 2-6 2-6"
     }
   ]
 }
