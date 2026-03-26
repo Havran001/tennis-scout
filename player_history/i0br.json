@@ -3,11 +3,37 @@
   "gs_id": "234598",
   "player_name": "Nicolas Ifi",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:17:23.828Z",
+  "updated": "2026-03-26T22:12:42.863Z",
   "matches": [
     {
-      "date": "20260319",
-      "tournament": "M15 Monastir 10",
+      "date": "20260305",
+      "tournament": "M15 Poitiers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Beauge",
+      "score": "7(7)-6(4) 7(7)-6(5)"
+    },
+    {
+      "date": "20260303",
+      "tournament": "M15 Poitiers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gautier",
+      "score": "3-6 7(8)-6(6) 2-6"
+    },
+    {
+      "date": "20250423",
+      "tournament": "M15 Monastir 16",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,25 +41,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Hernandez",
-      "score": "4-6 1-6"
+      "opponent": "M. Summers",
+      "score": "4-6 6-1 6-4"
     },
     {
-      "date": "20260308",
-      "tournament": "Cherbourg",
+      "date": "20250402",
+      "tournament": "M15 Monastir 13",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Visker",
-      "score": "3-6 3-6"
+      "opponent": "C. Bertimon",
+      "score": "6-2 7(10)-6(8)"
     },
     {
-      "date": "20250912",
-      "tournament": "M25+H Plaisir",
+      "date": "20250304",
+      "tournament": "M15 Poitiers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rossi",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240612",
+      "tournament": "ITF M15 Monastir 24 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Elsayed",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240329",
+      "tournament": "ITF M15 Monastir 13 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Reveniau",
-      "score": "4-6 7(7)-6(4) 5-7"
+      "opponent": "T. Browning",
+      "score": "4-6 7(7)-6(4) 6-2"
     },
     {
-      "date": "20250911",
-      "tournament": "M25+H Plaisir",
+      "date": "20240328",
+      "tournament": "ITF M15 Monastir 13 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. De Loore",
-      "score": "7(9)-6(7) 6-4"
+      "opponent": "L. Lestir",
+      "score": "7-5 6-0"
     },
     {
-      "date": "20250909",
-      "tournament": "M25+H Plaisir",
+      "date": "20240327",
+      "tournament": "ITF M15 Monastir 13 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,21 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Renard",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20250211",
-      "tournament": "M15 Oberhaching",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Schell",
-      "score": "4-6 2-6"
+      "opponent": "M. Rivet",
+      "score": "6-1 6(6)-7(8) 5-7"
     }
   ]
 }
