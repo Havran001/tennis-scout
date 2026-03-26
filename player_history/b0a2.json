@@ -3,37 +3,37 @@
   "gs_id": "37621",
   "player_name": "Siddhant Banthia",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:48:27.644Z",
+  "updated": "2026-03-26T14:35:00.177Z",
   "matches": [
     {
-      "date": "20260222",
-      "tournament": "Pune",
+      "date": "20260209",
+      "tournament": "Chennai",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Takahashi",
-      "score": "7(7)-6(2) 6-4"
+      "opponent": "I. Eqbal",
+      "score": "5-7 0-1 ret."
     },
     {
-      "date": "20250216",
-      "tournament": "Pune",
+      "date": "20260208",
+      "tournament": "Chennai",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Vesely",
-      "score": "6-2 6-3"
+      "result": "W",
+      "opponent": "K. Suresh",
+      "score": "6(1)-7(7) 1-6"
     },
     {
-      "date": "20240218",
-      "tournament": "Pune Challenger Men",
+      "date": "20250202",
+      "tournament": "Chennai",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Bonzi",
-      "score": "3-6 4-6"
+      "opponent": "M. Zhukov",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20240618",
+      "tournament": "Blois",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Iannaccone",
+      "score": "3-6 6-3 5-7"
+    },
+    {
+      "date": "20240617",
+      "tournament": "Blois",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. J. Fancutt",
+      "score": "6-3 5-7 6(0)-7(7)"
     }
   ]
 }
