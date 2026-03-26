@@ -3,20 +3,72 @@
   "gs_id": "83823",
   "player_name": "Romain Gales",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:55:48.776Z",
+  "updated": "2026-03-26T23:50:49.895Z",
   "matches": [
     {
-      "date": "20200114",
-      "tournament": "M15 Bagnoles-de-l'Orne",
+      "date": "20250703",
+      "tournament": "M15 Monastir 26",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Potenza",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250702",
+      "tournament": "M15 Monastir 26",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "A. De Gabriele",
+      "score": "7(10)-6(8) 6(5)-7(7) 7(7)-6(2)"
+    },
+    {
+      "date": "20250626",
+      "tournament": "M15 Monastir 25",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "A. Ceppellini",
-      "score": "2-6 6-2 6-4"
+      "opponent": "C. Bouchelaghem",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M15 Monastir 25",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Pow",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20210829",
+      "tournament": "St. Tropez Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Briand",
+      "score": "6-0 6-1"
     }
   ]
 }
