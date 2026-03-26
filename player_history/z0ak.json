@@ -1,1 +1,61 @@
-{"player_id":"z0ak","sack_id":"208342","name":"Tyler Zink","total":1,"matches":[{"id":"v9Hw0qI0","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Young G.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "z0ak",
+  "gs_id": "40486",
+  "player_name": "Tyler Zink",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:55.537Z",
+  "matches": [
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Sakamoto",
+      "score": "4-6 7-5 7(10)-6(8)"
+    },
+    {
+      "date": "20250805",
+      "tournament": "Cincinnati",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Shevchenko",
+      "score": "6(2)-7(7) 7(10)-6(8) 3-6"
+    },
+    {
+      "date": "20250720",
+      "tournament": "Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Smith",
+      "score": "6-4 4-6 3-6"
+    },
+    {
+      "date": "20250719",
+      "tournament": "Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Daniel",
+      "score": "7(7)-6(5) 6-4"
+    }
+  ]
+}
