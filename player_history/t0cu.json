@@ -1,1 +1,74 @@
-{"player_id":"t0cu","sack_id":"208285","name":"Fausto Tabacco","total":0,"matches":[]}
+{
+  "player_id": "t0cu",
+  "gs_id": "76954",
+  "player_name": "Fausto Tabacco",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:46.651Z",
+  "matches": [
+    {
+      "date": "20230903",
+      "tournament": "Genova Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "6-3 4-6 3-6"
+    },
+    {
+      "date": "20230808",
+      "tournament": "Cordenons Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sanchez Jover",
+      "score": "6-1 5-7 6-4"
+    },
+    {
+      "date": "20230807",
+      "tournament": "Cordenons Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Braynin",
+      "score": "6-2 5-7 3-6"
+    },
+    {
+      "date": "20230807",
+      "tournament": "Cordenons Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Barrena",
+      "score": "7-5 4-6 4-6"
+    },
+    {
+      "date": "20220731",
+      "tournament": "Cordenons",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Moreno De Alboran",
+      "score": "2-6 4-6"
+    }
+  ]
+}
