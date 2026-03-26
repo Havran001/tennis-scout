@@ -3,24 +3,50 @@
   "gs_id": "11669",
   "player_name": "Shintaro Imai",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:16:22.522Z",
+  "updated": "2026-03-26T11:05:41.572Z",
   "matches": [
     {
-      "date": "20221001",
-      "tournament": "Tokyo",
+      "date": "20130322",
+      "tournament": "Nishi Tokyo",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Purcell",
-      "score": "4-6 7(7)-6(5) 7-5"
+      "opponent": "T. Endo",
+      "score": "7-6 6-1"
     },
     {
-      "date": "20130619",
-      "tournament": "Tokyo-Akishima",
+      "date": "20130320",
+      "tournament": "Nishi Tokyo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Takeuchi",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20130318",
+      "tournament": "Nishi Tokyo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Kim",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20120320",
+      "tournament": "Nishi Tokyo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Onozawa",
-      "score": "1-6 5-7"
+      "opponent": "T. Niki",
+      "score": "7(7)-6(3) 6(7)-7(9) 6(10)-7(12)"
     }
   ]
 }
