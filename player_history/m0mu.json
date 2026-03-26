@@ -3,11 +3,37 @@
   "gs_id": "89981",
   "player_name": "Michal Novansky",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:25:22.813Z",
+  "updated": "2026-03-26T21:15:32.833Z",
   "matches": [
     {
-      "date": "20221207",
-      "tournament": "ITF M15 Trnava Men",
+      "date": "20250918",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Perot",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20250917",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Grant",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20210303",
+      "tournament": "M15 Bratislava",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Brunold",
-      "score": "6(2)-7(7) 6-3 6-4"
+      "opponent": "B. Crepatte",
+      "score": "6-3 2-6 2-6"
     },
     {
-      "date": "20220223",
-      "tournament": "M15 Monastir 7",
+      "date": "20201125",
+      "tournament": "ITF M15 Bratislava Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,47 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Pawelski",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20200730",
-      "tournament": "Zilina Open",
-      "surface": "Hard",
-      "level": "E",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Horansky",
-      "score": "6-0 6-1"
-    },
-    {
-      "date": "20200723",
-      "tournament": "HSC CUP Piestany",
-      "surface": "Hard",
-      "level": "E",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Molcan",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20200709",
-      "tournament": "Privatbanka Open",
-      "surface": "Hard",
-      "level": "E",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Horansky",
-      "score": "6-2 6-2"
+      "opponent": "B. Bobrov",
+      "score": "6-3 4-6 6(4)-7(7)"
     }
   ]
 }
