@@ -3,20 +3,72 @@
   "gs_id": "78976",
   "player_name": "Arthur Bouquier",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:29:04.910Z",
+  "updated": "2026-03-26T13:09:52.628Z",
   "matches": [
     {
-      "date": "20250519",
-      "tournament": "French Open",
+      "date": "20251023",
+      "tournament": "Brest",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "C",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Coria",
-      "score": "7-5 3-6 6-3"
+      "opponent": "A. Galarneau",
+      "score": "6-3 5-7 6-4"
+    },
+    {
+      "date": "20251021",
+      "tournament": "Brest",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Echargui",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20250922",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Rodesch",
+      "score": "6-1 2-6 6-4"
+    },
+    {
+      "date": "20240923",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Lamasine",
+      "score": "7-5 3-6 7-5"
+    },
+    {
+      "date": "20240922",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Ymer",
+      "score": "6-1 6(4)-7(7) 3-6"
     }
   ]
 }
