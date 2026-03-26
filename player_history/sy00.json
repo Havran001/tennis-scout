@@ -3,11 +3,50 @@
   "gs_id": "32802",
   "player_name": "Christian Sigsgaard",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:07:50.645Z",
+  "updated": "2026-03-26T13:47:29.652Z",
   "matches": [
     {
-      "date": "20250831",
-      "tournament": "Genova",
+      "date": "20250415",
+      "tournament": "Tallahassee",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Nava",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250414",
+      "tournament": "Tallahassee",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Rybakov",
+      "score": "3-6 7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20250413",
+      "tournament": "Tallahassee",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Sakamoto",
+      "score": "7(10)-6(8) 4-6 0-3 ret."
+    },
+    {
+      "date": "20250406",
+      "tournament": "Sarasota",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Oradini",
-      "score": "3-6 2-6"
+      "opponent": "G. A. Olivieri",
+      "score": "2-6 4-6"
     }
   ]
 }
