@@ -1,1 +1,22 @@
-{"player_id":"m0v5","sack_id":"212269","name":"Marc Majdandzic","total":1,"matches":[{"id":"IHXCMqj5","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Misasi G.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "m0v5",
+  "gs_id": "200561",
+  "player_name": "Marc Majdandzic",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:23:38.685Z",
+  "matches": [
+    {
+      "date": "20230709",
+      "tournament": "Braunschweig Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Yevseyev",
+      "score": "6-3 6-4"
+    }
+  ]
+}
