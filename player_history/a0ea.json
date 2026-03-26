@@ -1,1 +1,35 @@
-{"player_id":"a0ea","sack_id":"208024","name":"Max Alcala Gurri","total":1,"matches":[{"id":"8OXRLWmR","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Tarragona (Spain), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Naharro D.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "a0ea",
+  "gs_id": "42322",
+  "player_name": "Max Alcala Gurri",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:02.517Z",
+  "matches": [
+    {
+      "date": "20190516",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Roca Batalla",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20190515",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Fernandez Horta",
+      "score": "5-7 3-6"
+    }
+  ]
+}
