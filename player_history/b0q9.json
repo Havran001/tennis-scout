@@ -1,1 +1,74 @@
-{"player_id":"b0q9","sack_id":"211407","name":"Andrea Bacaloni","total":0,"matches":[]}
+{
+  "player_id": "b0q9",
+  "gs_id": "160182",
+  "player_name": "Andrea Bacaloni",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:00:07.776Z",
+  "matches": [
+    {
+      "date": "20250227",
+      "tournament": "M15 Antalya 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Gulin",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250226",
+      "tournament": "M15 Antalya 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Jovic",
+      "score": "7-5 7(7)-6(1)"
+    },
+    {
+      "date": "20230302",
+      "tournament": "ITF M15 Antalya 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Reymond",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20230301",
+      "tournament": "ITF M15 Antalya 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Nikles",
+      "score": "7(7)-6(5) 4-6 0-0 ret."
+    },
+    {
+      "date": "20230222",
+      "tournament": "ITF M15 Antalya 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. D. Ionel",
+      "score": "3-6 3-6"
+    }
+  ]
+}
