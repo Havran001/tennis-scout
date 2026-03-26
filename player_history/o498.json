@@ -3,20 +3,98 @@
   "gs_id": "10541",
   "player_name": "Issei Okamura",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:05:42.568Z",
+  "updated": "2026-03-26T11:44:41.583Z",
   "matches": [
     {
-      "date": "20130318",
-      "tournament": "Nishi Tokyo",
+      "date": "20130407",
+      "tournament": "Tsukuba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Ito",
+      "score": "3-6 6-3 2-6"
+    },
+    {
+      "date": "20130406",
+      "tournament": "Tsukuba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Niki",
+      "score": "7-6 2-6 6-4"
+    },
+    {
+      "date": "20130405",
+      "tournament": "Tsukuba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Kikuchi",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20130404",
+      "tournament": "Tsukuba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Koyama",
+      "score": "6-7 6-7"
+    },
+    {
+      "date": "20130403",
+      "tournament": "Tsukuba",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Katayama",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20130328",
+      "tournament": "Kofu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "J. Na",
-      "score": "4-6 2-6"
+      "opponent": "H. Ehara",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20130327",
+      "tournament": "Kofu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Oku",
+      "score": "7-6 6-7 7-6"
     }
   ]
 }
