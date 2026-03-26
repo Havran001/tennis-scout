@@ -3,89 +3,63 @@
   "gs_id": "57359",
   "player_name": "Fabian Marozsan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:11:45.708Z",
+  "updated": "2026-03-26T17:44:52.742Z",
   "matches": [
     {
-      "date": "20260105",
-      "tournament": "Hong Kong",
+      "date": "20230301",
+      "tournament": "Pau Challenger Men",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Wu",
-      "score": "4-6 2-6"
+      "opponent": "V. Royer",
+      "score": "7(9)-6(7) 6-4"
     },
     {
-      "date": "20250103",
-      "tournament": "Hong Kong",
+      "date": "20221008",
+      "tournament": "Alicante",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Klein",
+      "score": "4-6 6(2)-7(7)"
+    },
+    {
+      "date": "20221007",
+      "tournament": "Alicante",
+      "surface": "Hard",
+      "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Shang",
-      "score": "1-6 6-3 6-4"
-    },
-    {
-      "date": "20250102",
-      "tournament": "Hong Kong",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "A. Rublev",
-      "score": "5-7 6-3 3-6"
+      "opponent": "D. Kuzmanov",
+      "score": "6-3 5-7 5-7"
     },
     {
-      "date": "20241230",
-      "tournament": "Hong Kong",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Safiullin",
-      "score": "1-6 6(9)-7(11)"
-    },
-    {
-      "date": "20240102",
-      "tournament": "ATP Hong Kong",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Bautista-Agut",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20230118",
-      "tournament": "Tenerife Challenger Men",
+      "date": "20221005",
+      "tournament": "Alicante",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Ofner",
-      "score": "4-6 4-6"
+      "result": "W",
+      "opponent": "L. Giustino",
+      "score": "2-6 6-3 1-6"
     },
     {
-      "date": "20230116",
-      "tournament": "Tenerife Challenger Men",
+      "date": "20221004",
+      "tournament": "Alicante",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -93,25 +67,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Moro Canas",
-      "score": "7(11)-6(9) 3-6 6-4"
+      "opponent": "H. Habib",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20220510",
-      "tournament": "Zagreb",
+      "date": "20220609",
+      "tournament": "Bratislava",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "R. Bonadio",
-      "score": "5-7 6-1 3-0 ret."
+      "score": "5-7 7-5 2-6"
     },
     {
-      "date": "20220509",
-      "tournament": "Zagreb",
+      "date": "20220607",
+      "tournament": "Bratislava",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Klein",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20220606",
+      "tournament": "Bratislava",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -119,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Setkic",
-      "score": "4-6 6-4 6-1"
+      "opponent": "L. Wessels",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20220508",
-      "tournament": "Zagreb",
+      "date": "20220605",
+      "tournament": "Bratislava",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -132,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Jurina",
-      "score": "6-1 6-3"
+      "opponent": "L. Palovic",
+      "score": "3-6 0-6"
     }
   ]
 }
