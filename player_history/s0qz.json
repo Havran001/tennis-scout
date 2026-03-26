@@ -1,1 +1,35 @@
-{"player_id":"s0qz","sack_id":"210285","name":"Sebastian Sorger","total":1,"matches":[{"id":"StIDZ3bc","date":"20260324","tournament":"ITF MEN - SINGLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Agwi M.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "s0qz",
+  "gs_id": "146557",
+  "player_name": "Sebastian Sorger",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:23.628Z",
+  "matches": [
+    {
+      "date": "20250804",
+      "tournament": "Cordenons",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Nijboer",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250803",
+      "tournament": "Cordenons",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Couacaud",
+      "score": "6-4 6-2"
+    }
+  ]
+}
