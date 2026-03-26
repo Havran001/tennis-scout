@@ -1,1 +1,61 @@
-{"player_id":"b0u4","sack_id":"149282","name":"Nicolai Budkov Kjaer","total":0,"matches":[]}
+{
+  "player_id": "b0u4",
+  "gs_id": "208825",
+  "player_name": "Nicolai Budkov Kjaer",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:19:14.525Z",
+  "matches": [
+    {
+      "date": "20260119",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Opelka",
+      "score": "6-4 6-3 6-4"
+    },
+    {
+      "date": "20260115",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Herbert",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20260114",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. McCabe",
+      "score": "6-4 3-6 6(6)-7(10)"
+    },
+    {
+      "date": "20260112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Watanuki",
+      "score": "7(7)-6(5) 5-7 4-6"
+    }
+  ]
+}
