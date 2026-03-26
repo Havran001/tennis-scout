@@ -1,1 +1,22 @@
-{"player_id":"r0k9","sack_id":"212127","name":"Charlie Robertson","total":0,"matches":[]}
+{
+  "player_id": "r0k9",
+  "gs_id": "195269",
+  "player_name": "Charlie Robertson",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:11.625Z",
+  "matches": [
+    {
+      "date": "20250831",
+      "tournament": "Seville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Perez Contri",
+      "score": "6-2 2-6 6-3"
+    }
+  ]
+}
