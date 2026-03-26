@@ -1,1 +1,61 @@
-{"player_id":"r09v","sack_id":"200495","name":"Eduardo Ribeiro","total":1,"matches":[{"id":"QmzF8YGO","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Sao Paulo (Brazil), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Cadenasso G.","score":"1-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "r09v",
+  "gs_id": "40373",
+  "player_name": "Eduardo Ribeiro",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:54.538Z",
+  "matches": [
+    {
+      "date": "20190903",
+      "tournament": "Oviedo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Tiurnev",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20190814",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. J. Miranda Cisneros",
+      "score": "6-4 1-6 3-6"
+    },
+    {
+      "date": "20170822",
+      "tournament": "Santander",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Mas Mascolo",
+      "score": "7(7)-6(4) 6-4"
+    },
+    {
+      "date": "20170815",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. E. Esteve",
+      "score": "6-3 6-1"
+    }
+  ]
+}
