@@ -3,11 +3,11 @@
   "gs_id": "40991",
   "player_name": "Kuzey Cekirge",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:08:14.788Z",
+  "updated": "2026-03-26T20:14:38.808Z",
   "matches": [
     {
-      "date": "20191023",
-      "tournament": "Benicarlo",
+      "date": "20240724",
+      "tournament": "ITF M25 Porto Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Mendez",
-      "score": "6-4 6-0"
+      "opponent": "A. Magadan",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20220728",
+      "tournament": "M15 Castelo Branco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Lambling",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20220726",
+      "tournament": "M15 Castelo Branco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Yu",
+      "score": "6-3 6-3"
     }
   ]
 }
