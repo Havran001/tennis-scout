@@ -3,11 +3,11 @@
   "gs_id": "174649",
   "player_name": "Ivan Ivanov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:13:57.707Z",
+  "updated": "2026-03-26T19:00:41.782Z",
   "matches": [
     {
-      "date": "20250812",
-      "tournament": "Sofia",
+      "date": "20250826",
+      "tournament": "Mallorca",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Sharipov",
-      "score": "6-2 6-2"
+      "opponent": "J. Engel",
+      "score": "6(6)-7(8) 5-7"
+    },
+    {
+      "date": "20241017",
+      "tournament": "M15 Castellon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Cesar Porras",
+      "score": "1-6 6(5)-7(7)"
+    },
+    {
+      "date": "20241016",
+      "tournament": "M15 Castellon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Fita Juan",
+      "score": "6-3 6-3"
     }
   ]
 }
