@@ -2,8 +2,21 @@
   "player_id": "d994",
   "player_name": "James Duckworth",
   "source": "goalserve",
-  "updated": "2026-03-26T00:22:11.351Z",
+  "updated": "2026-03-26T03:36:08.404Z",
   "matches": [
+    {
+      "date": "20260326",
+      "tournament": "Morelia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Pacheco Mendez",
+      "score": "7(7)-6(4) 6-3"
+    },
     {
       "date": "20260324",
       "tournament": "Morelia",
@@ -7675,6 +7688,19 @@
       "score": "6-2 6-4"
     },
     {
+      "date": "20150127",
+      "tournament": "Hong Kong",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Eysseric",
+      "score": "6-3 6-1"
+    },
+    {
       "date": "20150121",
       "tournament": "Australian Open",
       "surface": "Hard",
@@ -8323,6 +8349,19 @@
       "result": "W",
       "opponent": "I. Marchenko",
       "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20140513",
+      "tournament": "Heilbronn 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Zverev",
+      "score": "6-4 6-3"
     },
     {
       "date": "20140502",
@@ -9053,6 +9092,71 @@
       "score": "3-6 4-6"
     },
     {
+      "date": "20130504",
+      "tournament": "Santiago 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Garin",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20130503",
+      "tournament": "Santiago 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Lama",
+      "score": "7-6 6-2"
+    },
+    {
+      "date": "20130502",
+      "tournament": "Santiago 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Duran",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20130501",
+      "tournament": "Santiago 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. E. Severino",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20130429",
+      "tournament": "Santiago 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Sborowitz",
+      "score": "6-3 6-4"
+    },
+    {
       "date": "20130423",
       "tournament": "Sao Paulo 2",
       "surface": "Hard",
@@ -9129,6 +9233,71 @@
       "result": "W",
       "opponent": "G. Hadlich",
       "score": "6-1 6-2"
+    },
+    {
+      "date": "20130331",
+      "tournament": "Bundaberg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Kubler",
+      "score": "7-6 6-2"
+    },
+    {
+      "date": "20130330",
+      "tournament": "Bundaberg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Propoggia",
+      "score": "6-0 5-7 6-3"
+    },
+    {
+      "date": "20130329",
+      "tournament": "Bundaberg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Thompson",
+      "score": "4-6 6-3 6-1"
+    },
+    {
+      "date": "20130327",
+      "tournament": "Bundaberg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Zelba",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20130326",
+      "tournament": "Bundaberg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Barclay",
+      "score": "7-6 6-1"
     },
     {
       "date": "20130306",
