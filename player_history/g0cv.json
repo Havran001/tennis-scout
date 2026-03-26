@@ -1,1 +1,48 @@
-{"player_id":"g0cv","sack_id":"207527","name":"Buvaysar Gadamauri","total":1,"matches":[{"id":"d2HyqjFk","date":"20260324","tournament":"ITF MEN - DOUBLES: M25 Heraklion (Greece), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Neos E./Tsitsipas Pe.","score":"0-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g0cv",
+  "gs_id": "71827",
+  "player_name": "Buvaysar Gadamauri",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:30.629Z",
+  "matches": [
+    {
+      "date": "20240901",
+      "tournament": "Genova Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dellavedova",
+      "score": "6-4 4-6 1-6"
+    },
+    {
+      "date": "20240722",
+      "tournament": "Tampere Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Barton",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240721",
+      "tournament": "Tampere Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Barnat",
+      "score": "4-6 3-6"
+    }
+  ]
+}
