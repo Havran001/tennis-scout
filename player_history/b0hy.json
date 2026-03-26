@@ -3,24 +3,37 @@
   "gs_id": "89648",
   "player_name": "Isaac Becroft",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:15:29.830Z",
+  "updated": "2026-03-26T22:07:39.875Z",
   "matches": [
     {
-      "date": "20240919",
-      "tournament": "M15 Fayetteville",
+      "date": "20220617",
+      "tournament": "M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Chidekh",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20220616",
+      "tournament": "M25 Wichita",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Legout",
-      "score": "3-6 6(1)-7(7)"
+      "result": "W",
+      "opponent": "R. Dhokia",
+      "score": "3-6 7-5 6-1"
     },
     {
-      "date": "20240918",
-      "tournament": "M15 Fayetteville",
+      "date": "20220615",
+      "tournament": "M25 Wichita",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Panarin",
-      "score": "2-6 7(7)-6(4) 7-5"
+      "opponent": "J. Aragone",
+      "score": "6-1 5-7 1-6"
     }
   ]
 }
