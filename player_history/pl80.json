@@ -3,11 +3,37 @@
   "gs_id": "76901",
   "player_name": "Bogdan Pavel",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:55:31.794Z",
+  "updated": "2026-03-26T20:25:00.814Z",
   "matches": [
     {
-      "date": "20250319",
-      "tournament": "M15 Heraklion",
+      "date": "20250213",
+      "tournament": "M15 Bucharest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20250211",
+      "tournament": "M15 Bucharest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. A. Golescu",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250114",
+      "tournament": "M15 Doha",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Kuhar",
-      "score": "4-6 1-6"
+      "opponent": "C. Ilkel",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20240707",
+      "tournament": "Iasi Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Vrbensky",
+      "score": "3-6 3-6"
     },
     {
       "date": "20240322",
@@ -58,8 +97,21 @@
       "score": "6-4 3-0 ret."
     },
     {
-      "date": "20240229",
-      "tournament": "ITF M15 Antalya 4 Men",
+      "date": "20240130",
+      "tournament": "ITF M25 Antalya Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. N. Turker",
+      "score": "6-3 0-6 7(7)-6(0)"
+    },
+    {
+      "date": "20220526",
+      "tournament": "M15 Bucharest",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Gulin",
-      "score": "4-6 1-6"
+      "opponent": "C. Manda",
+      "score": "5-7 6(4)-7(7)"
     },
     {
-      "date": "20240228",
-      "tournament": "ITF M15 Antalya 4 Men",
+      "date": "20220524",
+      "tournament": "M15 Bucharest",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,34 +132,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Manda",
+      "opponent": "F. G. Bara",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20200918",
+      "tournament": "ITF M15 Curtea de Arges Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Sachko",
+      "score": "6-4 3-6 6-3"
+    },
+    {
+      "date": "20200917",
+      "tournament": "ITF M15 Curtea de Arges Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Palosi",
       "score": "4-6 2-6"
     },
     {
-      "date": "20240124",
-      "tournament": "ITF M15 Antalya 3 Men",
+      "date": "20200916",
+      "tournament": "ITF M15 Curtea de Arges Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Cretu",
-      "score": "7(7)-6(3) 7-5"
-    },
-    {
-      "date": "20240117",
-      "tournament": "ITF M15 Antalya 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K.M. Maamoun",
-      "score": "6-2 7(7)-6(5)"
+      "result": "W",
+      "opponent": "P. Luncanu",
+      "score": "6-4 6-1"
     }
   ]
 }
