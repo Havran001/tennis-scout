@@ -1,1 +1,74 @@
-{"player_id":"a0eu","sack_id":"208147","name":"Alexandre Aubriot","total":0,"matches":[]}
+{
+  "player_id": "a0eu",
+  "gs_id": "77097",
+  "player_name": "Alexandre Aubriot",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T16:12:22.707Z",
+  "matches": [
+    {
+      "date": "20240211",
+      "tournament": "Cherbourg Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. K. Trotter",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240123",
+      "tournament": "Quimper Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20240122",
+      "tournament": "Quimper Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Janvier",
+      "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20230417",
+      "tournament": "Tallahassee Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Jacquet",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230416",
+      "tournament": "Tallahassee Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Pecotic",
+      "score": "7(8)-6(6) 6-3"
+    }
+  ]
+}
