@@ -3,20 +3,72 @@
   "gs_id": "271725",
   "player_name": "Alan Wazny",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:23:56.684Z",
+  "updated": "2026-03-26T19:02:03.780Z",
   "matches": [
     {
-      "date": "20250616",
-      "tournament": "Poznan",
+      "date": "20260206",
+      "tournament": "M15 Antalya 2",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Santillan",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20260205",
+      "tournament": "M15 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Pieri",
+      "score": "6(8)-7(10) 4-6"
+    },
+    {
+      "date": "20260204",
+      "tournament": "M15 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. R. Marinescu",
+      "score": "4-6 7-5 5-7"
+    },
+    {
+      "date": "20260129",
+      "tournament": "M15 Antalya",
+      "surface": "Hard",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Nagal",
-      "score": "6-2 4-6 6-4"
+      "opponent": "A. Boros",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20251018",
+      "tournament": "M15 Castellon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Helguera Casado",
+      "score": "6-4 6-2"
     }
   ]
 }
