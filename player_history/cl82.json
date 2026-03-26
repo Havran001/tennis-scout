@@ -1,1 +1,74 @@
-{"player_id":"cl82","sack_id":"131951","name":"Daniel Cukierman","total":2,"matches":[{"id":"jHfSXDmT","date":"20260324","tournament":"CHALLENGER MEN - DOUBLES: Sao Paulo (Brazil), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Sakamoto P./Schiessl J. E.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"jHfSXDmT","date":"20260324","tournament":"CHALLENGER MEN - DOUBLES: Sao Paulo (Brazil), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Sakamoto P./Schiessl J. E.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "cl82",
+  "gs_id": "33855",
+  "player_name": "Daniel Cukierman",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:17.541Z",
+  "matches": [
+    {
+      "date": "20190803",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Draper",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20190802",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gray",
+      "score": "6-2 4-6 6-4"
+    },
+    {
+      "date": "20190801",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Q. Robert",
+      "score": "4-6 6-4 7-5"
+    },
+    {
+      "date": "20190731",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Cayre",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20190731",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Cornut-Chauvinc",
+      "score": "6(8)-7(10) 1-6"
+    }
+  ]
+}
