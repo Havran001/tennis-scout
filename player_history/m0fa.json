@@ -1,1 +1,113 @@
-{"player_id":"m0fa","sack_id":"207760","name":"Anton Matusevich","total":1,"matches":[{"id":"YwLLXsT9","date":"20260324","tournament":"ITF MEN - SINGLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Moeller M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "m0fa",
+  "gs_id": "34880",
+  "player_name": "Anton Matusevich",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:26.541Z",
+  "matches": [
+    {
+      "date": "20190831",
+      "tournament": "Piombino",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Gaston",
+      "score": "6-3 6(1)-7(7) 5-7"
+    },
+    {
+      "date": "20190830",
+      "tournament": "Piombino",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Mertens",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20190829",
+      "tournament": "Piombino",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Furness",
+      "score": "2-6 6-4 6(3)-7(7)"
+    },
+    {
+      "date": "20190827",
+      "tournament": "Piombino",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Trocker",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20190731",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Moore",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20190731",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Whitehouse",
+      "score": "6(6)-7(8) 6(6)-7(8)"
+    },
+    {
+      "date": "20180919",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Paris",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20180918",
+      "tournament": "London - Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Ollert",
+      "score": "4-6 5-7"
+    }
+  ]
+}
