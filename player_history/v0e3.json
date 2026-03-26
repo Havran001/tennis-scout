@@ -3,20 +3,85 @@
   "gs_id": "84375",
   "player_name": "Jeffrey Von der Schulenburg",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:45:36.741Z",
+  "updated": "2026-03-26T18:55:55.785Z",
   "matches": [
     {
-      "date": "20260222",
-      "tournament": "Lugano",
+      "date": "20201119",
+      "tournament": "ITF M15 Sharm El Sheikh Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Basic",
-      "score": "7(7)-6(3) 4-6 6-4"
+      "opponent": "V. Orlov",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20201118",
+      "tournament": "ITF M15 Sharm El Sheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Borisiouk",
+      "score": "6(5)-7(7) 6-4 4-6"
+    },
+    {
+      "date": "20201112",
+      "tournament": "ITF M15 Sharm El Sheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Bobrov",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20201111",
+      "tournament": "ITF M15 Sharm El Sheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Den Ouden",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20201105",
+      "tournament": "ITF M15 Sharm El Sheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Orlov",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20201104",
+      "tournament": "ITF M15 Sharm El Sheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Khomich",
+      "score": "3-6 7(8)-6(6) 6-1"
     }
   ]
 }
