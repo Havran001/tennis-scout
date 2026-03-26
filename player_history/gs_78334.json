@@ -3,7 +3,7 @@
   "gs_id": "78334",
   "player_name": "Daniel Vallejo Adolfo",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:16:51.829Z",
+  "updated": "2026-03-26T23:00:04.889Z",
   "matches": [
     {
       "date": "20260201",
@@ -84,21 +84,47 @@
       "score": "1-6 1-6"
     },
     {
-      "date": "20230113",
-      "tournament": "ITF M15 Manacor Men",
+      "date": "20240825",
+      "tournament": "ITF M25 Idanha-a-Nova 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gray",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240824",
+      "tournament": "ITF M25 Idanha-a-Nova 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Ferreira Silva",
+      "score": "6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20240823",
+      "tournament": "ITF M25 Idanha-a-Nova 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Rincon",
-      "score": "6-4 6-4"
+      "result": "W",
+      "opponent": "T. Pereira",
+      "score": "7-5 1-6 4-6"
     },
     {
-      "date": "20230112",
-      "tournament": "ITF M15 Manacor Men",
+      "date": "20240822",
+      "tournament": "ITF M25 Idanha-a-Nova 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Jorda Sanchis",
-      "score": "7-5 6(5)-7(7) 6-2"
+      "opponent": "J. Portugal",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20230111",
-      "tournament": "ITF M15 Manacor Men",
+      "date": "20240821",
+      "tournament": "ITF M25 Idanha-a-Nova 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +145,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Snitari",
-      "score": "5-7 1-6"
+      "opponent": "B. Pietri",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230601",
+      "tournament": "ITF M25 La Nucia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Martinez Martinez",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20220916",
+      "tournament": "M15 Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Kikuchi",
+      "score": "6-3 3-6 6-4"
+    },
+    {
+      "date": "20220915",
+      "tournament": "M15 Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Hanzlik",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220914",
+      "tournament": "M15 Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Bryde",
+      "score": "6-3 6-1"
     }
   ]
 }
