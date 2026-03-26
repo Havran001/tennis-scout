@@ -3,20 +3,85 @@
   "gs_id": "205300",
   "player_name": "Fryderyk Lechno-Wasiutynski",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:21:42.697Z",
+  "updated": "2026-03-26T20:19:14.815Z",
   "matches": [
     {
-      "date": "20240616",
-      "tournament": "Poznan Challenger Men",
+      "date": "20250831",
+      "tournament": "M25 Poznan",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Erhard",
+      "score": "6-4 2-6 5-7"
+    },
+    {
+      "date": "20250830",
+      "tournament": "M25 Poznan",
+      "surface": "Hard",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Donald",
+      "score": "4-6 6-4 6-1"
+    },
+    {
+      "date": "20250829",
+      "tournament": "M25 Poznan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Kasnikowski",
+      "score": "7-5 3-6 6-4"
+    },
+    {
+      "date": "20250828",
+      "tournament": "M25 Poznan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Hrazdil",
+      "score": "6(6)-7(8) 1-6"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M25 Poznan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Guttau",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20230823",
+      "tournament": "ITF M25 Poznan Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Alves",
-      "score": "6(4)-7(7) 6-2 6-4"
+      "opponent": "T. Compagnucci",
+      "score": "6-3 6-2"
     }
   ]
 }
