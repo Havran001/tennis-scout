@@ -3,11 +3,11 @@
   "gs_id": "173348",
   "player_name": "Maximo Zeitune",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:52:22.644Z",
+  "updated": "2026-03-26T15:23:28.682Z",
   "matches": [
     {
-      "date": "20260114",
-      "tournament": "Buenos Aires",
+      "date": "20251120",
+      "tournament": "Florianopolis",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,21 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. A. Dellien Velasco",
-      "score": "0-6 6-3 1-6"
+      "opponent": "A. Collarini",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20260113",
-      "tournament": "Buenos Aires",
+      "date": "20251117",
+      "tournament": "Florianopolis",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Gurmendi",
-      "score": "6-3 2-6 2-3 ret."
+      "opponent": "S. De La Fuente",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20251116",
+      "tournament": "Florianopolis",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Arias",
+      "score": "2-6 6-4 3-6"
     }
   ]
 }
