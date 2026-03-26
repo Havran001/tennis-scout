@@ -3,37 +3,50 @@
   "gs_id": "5567",
   "player_name": "Denis Yevseyev",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:16:00.522Z",
+  "updated": "2026-03-26T09:54:21.536Z",
   "matches": [
     {
-      "date": "20240821",
-      "tournament": "ATP US Open",
+      "date": "20250517",
+      "tournament": "Hamburg",
       "surface": "Hard",
-      "level": "G",
+      "level": "B",
       "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. De Jong",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20240110",
-      "tournament": "ATP Australian Open",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "V. Sachko",
-      "score": "6-2 7-5"
+      "score": "6-2 6-1"
     },
     {
-      "date": "20190802",
-      "tournament": "Bolzano",
+      "date": "20240727",
+      "tournament": "ATP Washington",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krueger",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240720",
+      "tournament": "Atlanta",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bellucci",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20120823",
+      "tournament": "Ourense",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Ejupovic",
-      "score": "7(7)-6(5) 6-0"
+      "opponent": "M. Fornell-Mestres",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20190801",
-      "tournament": "Bolzano",
+      "date": "20120822",
+      "tournament": "Ourense",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Arnaboldi",
-      "score": "6-4 7-5"
+      "opponent": "O. Roca Batalla",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20190730",
-      "tournament": "Bolzano",
+      "date": "20120821",
+      "tournament": "Ourense",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Bosio",
-      "score": "6-2 6-1"
+      "opponent": "M. Roy",
+      "score": "6-3 5-7 4-6"
     },
     {
-      "date": "20180629",
-      "tournament": "Palma Del Rio",
+      "date": "20120817",
+      "tournament": "Vigo",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -80,12 +93,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Durasovic",
-      "score": "6-3 3-0 ret."
+      "opponent": "J. Checa-Calvo",
+      "score": "2-6 6-7"
     },
     {
-      "date": "20180628",
-      "tournament": "Palma Del Rio",
+      "date": "20120816",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Rodriguez-Manzano",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20120816",
+      "tournament": "Vigo",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -93,25 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Uchida",
-      "score": "2-6 6-3 4-6"
+      "opponent": "B. P. Toledo",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20180627",
-      "tournament": "Palma Del Rio",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Kalyanpur",
-      "score": "5-7 5-7"
-    },
-    {
-      "date": "20180625",
-      "tournament": "Palma Del Rio",
+      "date": "20120815",
+      "tournament": "Vigo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,99 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. J. Barranco",
-      "score": "5-7 7-5 2-6"
-    },
-    {
-      "date": "20130704",
-      "tournament": "Kassel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Mecir",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20130703",
-      "tournament": "Kassel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Choinski",
-      "score": "6-7 1-6"
-    },
-    {
-      "date": "20120712",
-      "tournament": "Almaty",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Bulitski",
-      "score": "1-6 6-1 6-1"
-    },
-    {
-      "date": "20120712",
-      "tournament": "Almaty",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Marchenko",
-      "score": "6-4 6-0"
-    },
-    {
-      "date": "20120710",
-      "tournament": "Almaty",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Shyla",
-      "score": "6-0 6-2"
-    },
-    {
-      "date": "20120627",
-      "tournament": "De Haan",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Sabry",
-      "score": "0-6 2-6"
-    },
-    {
-      "date": "20120626",
-      "tournament": "De Haan",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Baltogiannis",
-      "score": "6-3 6-2"
+      "opponent": "A. Sanjurjo Hermida",
+      "score": "2-6 4-6"
     }
   ]
 }
