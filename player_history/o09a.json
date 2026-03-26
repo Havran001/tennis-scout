@@ -3,11 +3,11 @@
   "gs_id": "55975",
   "player_name": "Aziz Ouakaa",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:08:53.627Z",
+  "updated": "2026-03-26T15:20:20.679Z",
   "matches": [
     {
-      "date": "20240507",
-      "tournament": "Santos Challenger Men",
+      "date": "20260106",
+      "tournament": "Bengaluru",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Casanova",
-      "score": "6-2 7-5"
+      "opponent": "W. K. Leong M.",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20240506",
-      "tournament": "Santos Challenger Men",
+      "date": "20260105",
+      "tournament": "Bengaluru",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Takeru",
-      "score": "5-2 ret."
+      "opponent": "R. Taguchi",
+      "score": "6-2 4-6 3-6"
     },
     {
-      "date": "20240505",
-      "tournament": "Santos Challenger Men",
+      "date": "20260104",
+      "tournament": "Bengaluru",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. T. Vargas",
-      "score": "7-5 6-3"
+      "opponent": "A. Vishal Balsekar",
+      "score": "4-6 6(3)-7(7)"
+    },
+    {
+      "date": "20250513",
+      "tournament": "Tunis",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Coria",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20240514",
+      "tournament": "Tunis Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Crawford",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240428",
+      "tournament": "Porto Alegre Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Sell",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20230516",
+      "tournament": "Tunis Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dzumhur",
+      "score": "6-1 0-6 2-6"
+    },
+    {
+      "date": "20220516",
+      "tournament": "Tunis",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Geerts",
+      "score": "6-2 4-6 1-6"
     }
   ]
 }
