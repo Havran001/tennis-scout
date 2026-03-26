@@ -1,1 +1,113 @@
-{"player_id":"i416","sack_id":"144955","name":"Yuichiro Inui","total":4,"matches":[{"id":"CtpO2QwC","date":"20260326","tournament":"ITF MEN - DOUBLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Baker N./Ibraimi Y.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"ry7Jg2dK","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"W","opponent":"Stringer T.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"lzZPn3cJ","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Aguiard E./Storch S.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"ry7Jg2dK","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"W","opponent":"Stringer T.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "i416",
+  "gs_id": "76944",
+  "player_name": "Yuichiro Inui",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:45:24.743Z",
+  "matches": [
+    {
+      "date": "20231029",
+      "tournament": "Sydney Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Mott",
+      "score": "5-7 7(10)-6(8) 2-6"
+    },
+    {
+      "date": "20230910",
+      "tournament": "Guangzhou Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Zeng",
+      "score": "7-5 4-6 1-6"
+    },
+    {
+      "date": "20230102",
+      "tournament": "Noumea Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Mott",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20221102",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. H. Hsu",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20221101",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Tu",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20221030",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Smith",
+      "score": "3-6 6-4 1-6"
+    },
+    {
+      "date": "20221029",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. C. Romios",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20221024",
+      "tournament": "Playford Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Van Rensburg",
+      "score": "5-7 4-6"
+    }
+  ]
+}
