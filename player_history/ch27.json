@@ -3,33 +3,72 @@
   "gs_id": "18861",
   "player_name": "Yunseong Chung",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:05:50.576Z",
+  "updated": "2026-03-26T11:43:24.583Z",
   "matches": [
     {
-      "date": "20210821",
-      "tournament": "ATP Winston-Salem",
+      "date": "20230718",
+      "tournament": "ATP Newport",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Johnson",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20230717",
+      "tournament": "ATP Newport",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Watanuki",
-      "score": "6-3 7(7)-6(3)"
+      "result": "W",
+      "opponent": "G. Brymer",
+      "score": "3-6 6(8)-7(10)"
     },
     {
-      "date": "20190820",
-      "tournament": "US Open",
+      "date": "20230717",
+      "tournament": "ATP Newport",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Zhukayev",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20130508",
+      "tournament": "Seoul 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Caruso",
-      "score": "0-6 2-6"
+      "opponent": "D. H. Lee",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20130430",
+      "tournament": "Seoul",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Chung",
+      "score": "3-6 1-6"
     }
   ]
 }
