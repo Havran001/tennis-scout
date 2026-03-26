@@ -1,1 +1,48 @@
-{"player_id":"l0jc","sack_id":"211787","name":"Matteo Lavizzari","total":0,"matches":[]}
+{
+  "player_id": "l0jc",
+  "gs_id": "173354",
+  "player_name": "Matteo Lavizzari",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:18:47.813Z",
+  "matches": [
+    {
+      "date": "20241017",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Azoides",
+      "score": "6-3 6(5)-7(7) 5-7"
+    },
+    {
+      "date": "20241016",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Kountourakis",
+      "score": "7(7)-6(3) 6-2"
+    },
+    {
+      "date": "20240918",
+      "tournament": "M15 Melilla",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Garcia Mestre",
+      "score": "3-6 6-2 4-3 ret."
+    }
+  ]
+}
