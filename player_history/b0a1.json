@@ -1,1 +1,22 @@
-{"player_id":"b0a1","sack_id":"200456","name":"Martin Borisiouk","total":0,"matches":[]}
+{
+  "player_id": "b0a1",
+  "gs_id": "76906",
+  "player_name": "Martin Borisiouk",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:35.515Z",
+  "matches": [
+    {
+      "date": "20240817",
+      "tournament": "ATP Winston-Salem",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Svajda",
+      "score": "1-6 1-6"
+    }
+  ]
+}
