@@ -3,24 +3,63 @@
   "gs_id": "29355",
   "player_name": "Vitaliy Sachko",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:54:59.539Z",
+  "updated": "2026-03-26T10:31:04.565Z",
   "matches": [
     {
-      "date": "20250520",
-      "tournament": "Hamburg",
+      "date": "20251107",
+      "tournament": "Metz",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tien",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20251106",
+      "tournament": "Metz",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Tabur",
+      "score": "4-6 6-3 4-6"
+    },
+    {
+      "date": "20251105",
+      "tournament": "Metz",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bublik",
+      "score": "7-5 3-6 7-5"
+    },
+    {
+      "date": "20251103",
+      "tournament": "Metz",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Cobolli",
-      "score": "5-7 6-2 6-2"
+      "result": "W",
+      "opponent": "G. Mpetshi Perricard",
+      "score": "6(10)-7(12) 3-6"
     },
     {
-      "date": "20250518",
-      "tournament": "Hamburg",
+      "date": "20251102",
+      "tournament": "Metz",
       "surface": "Hard",
       "level": "B",
       "round": "F",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Kovacevic",
-      "score": "1-6 3-6"
+      "opponent": "C. Tabur",
+      "score": "5-7 6-3 6-2"
     },
     {
-      "date": "20250517",
-      "tournament": "Hamburg",
+      "date": "20251101",
+      "tournament": "Metz",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Yevseyev",
-      "score": "2-6 1-6"
+      "opponent": "A. Shevchenko",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240713",
-      "tournament": "ATP Hamburg",
+      "date": "20251011",
+      "tournament": "Stockholm",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -54,8 +93,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Meligeni Alves",
-      "score": "6-3 2-6 6(4)-7(7)"
+      "opponent": "G. Zeppieri",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20231021",
+      "tournament": "ATP Vienna",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Sonego",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20231014",
+      "tournament": "ATP Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kotov",
+      "score": "4-6 6(4)-7(7)"
+    },
+    {
+      "date": "20201027",
+      "tournament": "Vienna",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Thiem",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20201025",
+      "tournament": "Vienna",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Gombos",
+      "score": "7-5 4-6 4-6"
+    },
+    {
+      "date": "20201024",
+      "tournament": "Vienna",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Herbert",
+      "score": "1-6 6-4 6-3"
     }
   ]
 }
