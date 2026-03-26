@@ -3,37 +3,37 @@
   "gs_id": "157886",
   "player_name": "Rafael Tosetto",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:13:44.718Z",
+  "updated": "2026-03-26T22:14:15.864Z",
   "matches": [
     {
-      "date": "20251116",
-      "tournament": "Florianopolis",
+      "date": "20240809",
+      "tournament": "ITF M15 Curtea de Arges Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Ingildsen",
-      "score": "6-1 6-4"
+      "opponent": "S. A. Andreescu",
+      "score": "4-6 6-0 6-0"
     },
     {
-      "date": "20240428",
-      "tournament": "Porto Alegre Challenger Men",
+      "date": "20240808",
+      "tournament": "ITF M15 Curtea de Arges Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. C. Prado Angelo",
-      "score": "2-6 6-2 3-6"
+      "result": "W",
+      "opponent": "G. C. Schinteie",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20240324",
-      "tournament": "Sao Leopoldo",
+      "date": "20240421",
+      "tournament": "Concepcion Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,21 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Villanueva",
-      "score": "2-6 0-6"
+      "opponent": "A. Stater",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20221009",
-      "tournament": "Rio de Janeiro",
+      "date": "20240207",
+      "tournament": "ITF M25 Punta del Este Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Navone",
-      "score": "2-6 6-2 2-6"
+      "opponent": "E. Ribeiro",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20230620",
+      "tournament": "ITF M15 Santo Domingo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Nunez",
+      "score": "7(7)-6(5) 0-6 3-6"
     }
   ]
 }
