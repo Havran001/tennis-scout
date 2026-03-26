@@ -1,1 +1,35 @@
-{"player_id":"w0fh","sack_id":"213653","name":"Benjamin Willwerth","total":0,"matches":[]}
+{
+  "player_id": "w0fh",
+  "gs_id": "280999",
+  "player_name": "Benjamin Willwerth",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:19:18.517Z",
+  "matches": [
+    {
+      "date": "20260214",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Shimabukuro",
+      "score": "6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Virtanen",
+      "score": "7(7)-6(5) 3-6 2-6"
+    }
+  ]
+}
