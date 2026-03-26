@@ -3,11 +3,37 @@
   "gs_id": "177394",
   "player_name": "Shuo Yin Bang",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:23:26.684Z",
+  "updated": "2026-03-26T19:00:57.781Z",
   "matches": [
     {
-      "date": "20231028",
-      "tournament": "Sydney Challenger Men",
+      "date": "20240613",
+      "tournament": "ITF M15 Hong Kong Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rai",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240612",
+      "tournament": "ITF M15 Hong Kong Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Je. Delaney",
+      "score": "6-3 1-6 6(6)-7(8)"
+    },
+    {
+      "date": "20231021",
+      "tournament": "Playford 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Takahashi",
-      "score": "2-6 3-6"
+      "opponent": "R. Seggerman",
+      "score": "7(7)-6(5) 6-3"
     }
   ]
 }
