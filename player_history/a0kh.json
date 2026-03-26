@@ -1,1 +1,74 @@
-{"player_id":"a0kh","sack_id":"212286","name":"Rodrigo Alujas","total":1,"matches":[{"id":"fJId91to","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Alves M./Maginley J.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "a0kh",
+  "gs_id": "176105",
+  "player_name": "Rodrigo Alujas",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:23:32.689Z",
+  "matches": [
+    {
+      "date": "20260317",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Shah",
+      "score": "2-6 6-1 3-6"
+    },
+    {
+      "date": "20250418",
+      "tournament": "San Luis Potosi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Wiskandt",
+      "score": "3-6 7-5 7(7)-6(3)"
+    },
+    {
+      "date": "20250415",
+      "tournament": "San Luis Potosi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Oberleitner",
+      "score": "7(7)-6(5) 6-2"
+    },
+    {
+      "date": "20250403",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. P. Ficovich",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250401",
+      "tournament": "Morelos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Napolitano",
+      "score": "6-3 3-6 6-4"
+    }
+  ]
+}
