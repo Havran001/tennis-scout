@@ -1,1 +1,22 @@
-{"player_id":"t0g2","sack_id":"212130","name":"Mariano Tammaro","total":0,"matches":[]}
+{
+  "player_id": "t0g2",
+  "gs_id": "130581",
+  "player_name": "Mariano Tammaro",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:20:32.712Z",
+  "matches": [
+    {
+      "date": "20240331",
+      "tournament": "Barletta Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Rodriguez Taverna",
+      "score": "1-6 3-6"
+    }
+  ]
+}
