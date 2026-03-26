@@ -1,1 +1,87 @@
-{"player_id":"g0k8","sack_id":"210649","name":"Giammarco Gandolfi","total":2,"matches":[{"id":"hEr4EhId","date":"20260325","tournament":"ITF WOMEN - SINGLES: W35 San Gregorio 2 (Italy), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Rame A.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"dxIHfU1l","date":"20260324","tournament":"ITF WOMEN - DOUBLES: W35 San Gregorio 2 (Italy), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"El Jardi D./Munk Mortensen R.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g0k8",
+  "gs_id": "138358",
+  "player_name": "Giammarco Gandolfi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T23:56:14.904Z",
+  "matches": [
+    {
+      "date": "20250716",
+      "tournament": "M15 Poprad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kellovsky",
+      "score": "6(2)-7(7) 3-6"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M25 Kiseljak",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sharipov",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Kiseljak",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Kalender",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Pirot Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. A. Dancu",
+      "score": "6-3 3-6 6-2"
+    },
+    {
+      "date": "20230716",
+      "tournament": "Trieste Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Tabur",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20220830",
+      "tournament": "M15 Pescara",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Di Nicola",
+      "score": "6-2 6-3"
+    }
+  ]
+}
