@@ -1,1 +1,48 @@
-{"player_id":"b0g6","sack_id":"208186","name":"Preston Brown","total":2,"matches":[{"id":"nTTyIHwn","date":"20260325","tournament":"ITF MEN - DOUBLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Hohmann R./Vance J.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"nTTyIHwn","date":"20260325","tournament":"ITF MEN - DOUBLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Hohmann R./Vance J.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "b0g6",
+  "gs_id": "59267",
+  "player_name": "Preston Brown",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:22.515Z",
+  "matches": [
+    {
+      "date": "20240211",
+      "tournament": "ATP Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Atmane",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20200215",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Gomez",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20190216",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Al. Popyrin",
+      "score": "4-6 3-6"
+    }
+  ]
+}
