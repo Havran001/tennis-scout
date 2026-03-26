@@ -1,1 +1,35 @@
-{"player_id":"dc38","sack_id":"117359","name":"Jake Delaney","total":4,"matches":[{"id":"G6hHTVRa","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Reymond A./Sanchez L.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"G6hHTVRa","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Reymond A./Sanchez L.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"8M0eoBwC","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Jovanovski D.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"tza3qk8O","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"McLeod A./Satara H.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "dc38",
+  "gs_id": "108743",
+  "player_name": "Jake Delaney",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:49.541Z",
+  "matches": [
+    {
+      "date": "20240105",
+      "tournament": "ATP Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kypson",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20120912",
+      "tournament": "Happy Valley",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Lemke",
+      "score": "1-6 0-6"
+    }
+  ]
+}
