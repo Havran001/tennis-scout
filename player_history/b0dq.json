@@ -1,1 +1,35 @@
-{"player_id":"b0dq","sack_id":"208178","name":"Samuel Brosset","total":0,"matches":[]}
+{
+  "player_id": "b0dq",
+  "gs_id": "69317",
+  "player_name": "Samuel Brosset",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:27.626Z",
+  "matches": [
+    {
+      "date": "20230924",
+      "tournament": "Orleans Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ymer",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20220925",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Cazaux",
+      "score": "2-6 6-4 2-6"
+    }
+  ]
+}
