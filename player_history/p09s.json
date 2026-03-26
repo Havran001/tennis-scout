@@ -1,1 +1,74 @@
-{"player_id":"p09s","sack_id":"202125","name":"Benjamin Pietri","total":0,"matches":[]}
+{
+  "player_id": "p09s",
+  "gs_id": "35510",
+  "player_name": "Benjamin Pietri",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:30.574Z",
+  "matches": [
+    {
+      "date": "20190829",
+      "tournament": "Piombino",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. P. Vivero",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20190827",
+      "tournament": "Piombino",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Johnson",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20190730",
+      "tournament": "Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sanchez Jover",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20190724",
+      "tournament": "Denia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Andreu Garcia",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20160809",
+      "tournament": "Ourense",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. O. Mancineiras",
+      "score": "6-3 6(2)-7(7) 4-6"
+    }
+  ]
+}
