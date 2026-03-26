@@ -3,24 +3,63 @@
   "gs_id": "1758",
   "player_name": "Cedrik-Marcel Stebe",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:18:16.806Z",
+  "updated": "2026-03-26T21:14:29.830Z",
   "matches": [
     {
-      "date": "20220108",
-      "tournament": "Forli",
+      "date": "20210203",
+      "tournament": "Melbourne (Great Ocean Road Open)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Anderson",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20210202",
+      "tournament": "Melbourne (Great Ocean Road Open)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Dellien",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20201108",
+      "tournament": "Parma 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Broady",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20201107",
+      "tournament": "Parma 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Nardi",
-      "score": ""
+      "result": "W",
+      "opponent": "Q. Halys",
+      "score": "5-7 6-3 6-3"
     },
     {
-      "date": "20220107",
-      "tournament": "Forli",
+      "date": "20201106",
+      "tournament": "Parma 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Potenza",
-      "score": "5-7 3-6"
+      "opponent": "R. Marcora",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20220105",
-      "tournament": "Forli",
+      "date": "20201105",
+      "tournament": "Parma 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Lenz",
-      "score": "2-6 6(2)-7(7)"
+      "opponent": "K. Coppejans",
+      "score": "7(7)-6(3) 6-4"
     },
     {
-      "date": "20220104",
-      "tournament": "Forli",
+      "date": "20201103",
+      "tournament": "Parma 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Lazarov",
-      "score": "6(3)-7(7) 3-6"
+      "opponent": "A. Pellegrino",
+      "score": "3-6 6-4 6-4"
     }
   ]
 }
