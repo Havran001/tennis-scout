@@ -1,1 +1,87 @@
-{"player_id":"g0lg","sack_id":"211901","name":"Yanis Ghazouani Durand","total":1,"matches":[{"id":"MyZZoYmK","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Saint-Dizier (France), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Branger L.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g0lg",
+  "gs_id": "173935",
+  "player_name": "Yanis Ghazouani Durand",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:50:40.748Z",
+  "matches": [
+    {
+      "date": "20260309",
+      "tournament": "Cherbourg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Janvier",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20260308",
+      "tournament": "Cherbourg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Rottoli",
+      "score": "7-5 4-6 4-6"
+    },
+    {
+      "date": "20260128",
+      "tournament": "Quimper",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Basilashvili",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20260127",
+      "tournament": "Quimper",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Gadamauri",
+      "score": "7(7)-6(5) 3-6 7-5"
+    },
+    {
+      "date": "20260126",
+      "tournament": "Quimper",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Coulibaly",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20250309",
+      "tournament": "Cherbourg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Broska",
+      "score": "3-6 6-3 7-5"
+    }
+  ]
+}
