@@ -1,1 +1,100 @@
-{"player_id":"j0dz","sack_id":"212588","name":"Rafael Jodar","total":0,"matches":[]}
+{
+  "player_id": "j0dz",
+  "gs_id": "172281",
+  "player_name": "Rafael Jodar",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:19:10.529Z",
+  "matches": [
+    {
+      "date": "20260220",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": "6(4)-7(7) 4-6"
+    },
+    {
+      "date": "20260217",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Quinn",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20260122",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Mensik",
+      "score": "2-6 4-6 4-6"
+    },
+    {
+      "date": "20260120",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Sakamoto",
+      "score": "6(6)-7(8) 1-6 7-5 6-4 3-6"
+    },
+    {
+      "date": "20260115",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. van Assche",
+      "score": "6-3 0-6 6-1"
+    },
+    {
+      "date": "20260114",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Rodesch",
+      "score": "6(10)-7(12) 3-6"
+    },
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Tu",
+      "score": "2-6 1-6"
+    }
+  ]
+}
