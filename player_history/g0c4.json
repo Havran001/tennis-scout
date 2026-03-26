@@ -3,33 +3,46 @@
   "gs_id": "239577",
   "player_name": "Alexis Gurmendi",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:52:53.648Z",
+  "updated": "2026-03-26T22:15:47.867Z",
   "matches": [
     {
-      "date": "20260113",
-      "tournament": "Buenos Aires",
+      "date": "20250516",
+      "tournament": "M25 Pensacola",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "4-6 6-1 6-2"
+    },
+    {
+      "date": "20250515",
+      "tournament": "M25 Pensacola",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Kirchheimer",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20250514",
+      "tournament": "M25 Pensacola",
+      "surface": "Hard",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zeitune",
-      "score": "3-6 6-2 3-2 ret."
-    },
-    {
-      "date": "20240108",
-      "tournament": "Buenos Aires",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Popko",
-      "score": "6-4 6(1)-7(7) 6-3"
+      "result": "W",
+      "opponent": "A. Thorat",
+      "score": "6-3 6-0"
     }
   ]
 }
