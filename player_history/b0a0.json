@@ -1,1 +1,61 @@
-{"player_id":"b0a0","sack_id":"200445","name":"Maxence Beauge","total":0,"matches":[]}
+{
+  "player_id": "b0a0",
+  "gs_id": "56985",
+  "player_name": "Maxence Beauge",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:28:34.634Z",
+  "matches": [
+    {
+      "date": "20250515",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Damas",
+      "score": "6(4)-7(7) 6-1 6-1"
+    },
+    {
+      "date": "20250514",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bueno Gil",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240516",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alcala Gurri",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20240515",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Giustino",
+      "score": "4-6 4-6"
+    }
+  ]
+}
