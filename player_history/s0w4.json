@@ -1,1 +1,61 @@
-{"player_id":"s0w4","sack_id":"211543","name":"Lorenzo Sciahbasi","total":0,"matches":[]}
+{
+  "player_id": "s0w4",
+  "gs_id": "163642",
+  "player_name": "Lorenzo Sciahbasi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:23:14.687Z",
+  "matches": [
+    {
+      "date": "20251119",
+      "tournament": "Bergamo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Passaro",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20251118",
+      "tournament": "Bergamo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Durasovic",
+      "score": "3-6 7(7)-6(5) 7-5"
+    },
+    {
+      "date": "20250504",
+      "tournament": "Francavilla",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Vincent Ruggeri",
+      "score": "2-6 7(7)-6(5) 6-2"
+    },
+    {
+      "date": "20230507",
+      "tournament": "Francavilla Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Lavagno",
+      "score": "4-6 6(5)-7(7)"
+    }
+  ]
+}
