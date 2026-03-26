@@ -1,1 +1,100 @@
-{"player_id":"s0tt","sack_id":"210475","name":"Preston Stearns","total":0,"matches":[]}
+{
+  "player_id": "s0tt",
+  "gs_id": "41628",
+  "player_name": "Preston Stearns",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:08:49.632Z",
+  "matches": [
+    {
+      "date": "20250917",
+      "tournament": "Columbus",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Masur",
+      "score": "6-4 6(4)-7(7) 7(7)-6(5)"
+    },
+    {
+      "date": "20250915",
+      "tournament": "Columbus",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Bigun",
+      "score": "6-3 6(5)-7(7) 6-4"
+    },
+    {
+      "date": "20250914",
+      "tournament": "Columbus",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. A. Caniato",
+      "score": "4-6 7(8)-6(6) 6(5)-7(7)"
+    },
+    {
+      "date": "20240915",
+      "tournament": "Columbus",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Zahraj",
+      "score": "3-6 6-1 6-4"
+    },
+    {
+      "date": "20230918",
+      "tournament": "Columbus Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Mayo",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230917",
+      "tournament": "Columbus Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Ponwith",
+      "score": "6(2)-7(7) 6-4 6-3"
+    },
+    {
+      "date": "20220123",
+      "tournament": "Columbus",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Watanuki",
+      "score": "3-6 3-6"
+    }
+  ]
+}
