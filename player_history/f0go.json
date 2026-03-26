@@ -1,22 +1,61 @@
 {
   "player_id": "f0go",
-  "gs_id": "40150",
-  "player_name": "Pablo Varillas Juan",
+  "gs_id": "41604",
+  "player_name": "Manuel Cerundolo Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:23:18.810Z",
+  "updated": "2026-03-26T20:23:32.870Z",
   "matches": [
     {
-      "date": "20230928",
-      "tournament": "Astana",
+      "date": "20201008",
+      "tournament": "M15 Setubal",
       "surface": "Hard",
-      "level": "B",
-      "round": "R32",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Thiem",
-      "score": "6-3 7(10)-6(8)"
+      "opponent": "F. Forti",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20201006",
+      "tournament": "M15 Setubal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Pervolarakis",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20201001",
+      "tournament": "M25 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "5-7 6-1 10-3"
+    },
+    {
+      "date": "20201001",
+      "tournament": "M25 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Kopriva",
+      "score": "2-6 2-6"
     }
   ]
 }
