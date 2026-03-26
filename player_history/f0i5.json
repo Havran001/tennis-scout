@@ -1,1 +1,48 @@
-{"player_id":"f0i5","sack_id":"213103","name":"Viktor Frydrych","total":1,"matches":[{"id":"C2VCswUp","date":"20260326","tournament":"ITF MEN - DOUBLES: M15 Heraklion 3 (Greece), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Caripi V./Sakellaridis D.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "f0i5",
+  "gs_id": "155173",
+  "player_name": "Viktor Frydrych",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T23:02:47.880Z",
+  "matches": [
+    {
+      "date": "20250730",
+      "tournament": "M15 Monastir 30",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Makhlouf",
+      "score": "7(8)-6(6) 6(5)-7(7) 0-2 ret."
+    },
+    {
+      "date": "20250724",
+      "tournament": "M15 Monastir 29",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Dlimi",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20250723",
+      "tournament": "M15 Monastir 29",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. N. Turker",
+      "score": "3-6 6(5)-7(7)"
+    }
+  ]
+}
