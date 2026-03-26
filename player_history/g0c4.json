@@ -1,1 +1,35 @@
-{"player_id":"g0c4","sack_id":"206790","name":"Alexis Gurmendi","total":0,"matches":[]}
+{
+  "player_id": "g0c4",
+  "gs_id": "239577",
+  "player_name": "Alexis Gurmendi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:52:53.648Z",
+  "matches": [
+    {
+      "date": "20260113",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zeitune",
+      "score": "3-6 6-2 3-2 ret."
+    },
+    {
+      "date": "20240108",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Popko",
+      "score": "6-4 6(1)-7(7) 6-3"
+    }
+  ]
+}
