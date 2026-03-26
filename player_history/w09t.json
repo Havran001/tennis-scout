@@ -3,11 +3,11 @@
   "gs_id": "165858",
   "player_name": "Luca Wiedenmann",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:13:17.823Z",
+  "updated": "2026-03-26T22:14:35.864Z",
   "matches": [
     {
-      "date": "20260219",
-      "tournament": "M15 Villena",
+      "date": "20240627",
+      "tournament": "ITF M15 Bergamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Makk",
-      "score": "6-2 6-3"
+      "opponent": "J. C. Martin Manzano",
+      "score": "2-6 6-3 3-6"
     },
     {
-      "date": "20260217",
-      "tournament": "M15 Villena",
+      "date": "20240626",
+      "tournament": "ITF M15 Bergamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Slump",
-      "score": "7(7)-6(5) 6(5)-7(7) 4-6"
+      "opponent": "F. Speziali",
+      "score": "6-3 6(2)-7(7) 1-6"
+    },
+    {
+      "date": "20230405",
+      "tournament": "ITF M15 Monastir 14 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Pietri",
+      "score": "6-1 5-7 4-6"
+    },
+    {
+      "date": "20230402",
+      "tournament": "ITF W15 Monastir 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Gadamauri",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230401",
+      "tournament": "ITF W15 Monastir 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Soriano Barrera",
+      "score": "1-6 6-3 6-4"
+    },
+    {
+      "date": "20230331",
+      "tournament": "ITF W15 Monastir 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Reco",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20230330",
+      "tournament": "ITF W15 Monastir 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. McCormick",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20230328",
+      "tournament": "ITF W15 Monastir 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Delicata",
+      "score": "6-2 6-2"
     }
   ]
 }
