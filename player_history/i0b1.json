@@ -3,11 +3,11 @@
   "gs_id": "135735",
   "player_name": "Nikita Ianin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:07:30.867Z",
+  "updated": "2026-03-26T23:04:59.884Z",
   "matches": [
     {
-      "date": "20230503",
-      "tournament": "ITF M15 Monastir 18 Men",
+      "date": "20240821",
+      "tournament": "M15 Monastir 34",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Xiao",
-      "score": "4-6 0-6"
+      "opponent": "M. Gorokhov",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240807",
+      "tournament": "ITF M15 Monastir 32 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Andre",
+      "score": "6-2 7(7)-6(5)"
+    },
+    {
+      "date": "20240710",
+      "tournament": "ITF M15 Monastir 28 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Xilas",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20230824",
+      "tournament": "ITF M15 Monastir 34 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Pokorny",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20230823",
+      "tournament": "ITF M15 Monastir 34 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Khamis",
+      "score": "6-3 3-6 7-5"
+    },
+    {
+      "date": "20230816",
+      "tournament": "ITF M15 Monastir 33 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Tarvet",
+      "score": "1-6 4-6"
     }
   ]
 }
