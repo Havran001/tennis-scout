@@ -3,37 +3,37 @@
   "gs_id": "140094",
   "player_name": "Alexander Frusina",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:12:27.826Z",
+  "updated": "2026-03-26T23:56:25.910Z",
   "matches": [
     {
-      "date": "20240918",
-      "tournament": "M15 Fayetteville",
+      "date": "20250725",
+      "tournament": "M25+H Bacau",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Kuhar",
-      "score": "7-5 4-6 1-2 ret."
+      "opponent": "I. Marcondes",
+      "score": "7(7)-6(3) 6-4"
     },
     {
-      "date": "20240321",
-      "tournament": "ITF M15 Heraklion 3 Men",
+      "date": "20250724",
+      "tournament": "M25+H Bacau",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Butvilas",
-      "score": "6-4 6-4"
+      "result": "W",
+      "opponent": "G. A. Boitan",
+      "score": "4-6 2-5 ret."
     },
     {
-      "date": "20240319",
-      "tournament": "ITF M15 Heraklion 3 Men",
+      "date": "20250723",
+      "tournament": "M25+H Bacau",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Phillips",
-      "score": "3-6 3-6"
+      "opponent": "J. P. Paz",
+      "score": "5-7 3-6"
     },
     {
-      "date": "20240312",
-      "tournament": "ITF M15 Heraklion 2 Men",
+      "date": "20250326",
+      "tournament": "M25 Calabasas",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Shimanov",
-      "score": "6(2)-7(7) 4-6"
+      "opponent": "A. Martin",
+      "score": "0-6 2-6"
     },
     {
-      "date": "20220921",
-      "tournament": "M15 Melilla",
+      "date": "20241120",
+      "tournament": "M15 Tallahassee",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Elicha Navas",
-      "score": "6-2 6-0"
+      "opponent": "E. Cham",
+      "score": "6-4 1-6 6-0"
+    },
+    {
+      "date": "20220209",
+      "tournament": "M15 Naples",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Kang",
+      "score": "6-4 6-4"
     }
   ]
 }
