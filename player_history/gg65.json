@@ -3,8 +3,21 @@
   "gs_id": "31858",
   "player_name": "Michael Geerts",
   "source": "goalserve-full",
-  "updated": "2026-03-26T08:46:14.504Z",
+  "updated": "2026-03-26T09:17:05.514Z",
   "matches": [
+    {
+      "date": "20240413",
+      "tournament": "ATP Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pellegrino",
+      "score": "6(4)-7(7) 4-6"
+    },
     {
       "date": "20220823",
       "tournament": "US Open",
@@ -17,6 +30,71 @@
       "result": "L",
       "opponent": "S. Travaglia",
       "score": "3-6 4-6"
+    },
+    {
+      "date": "20190712",
+      "tournament": "Getxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gomez",
+      "score": "4-6 7-5 1-6"
+    },
+    {
+      "date": "20190711",
+      "tournament": "Getxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Martos Gornes",
+      "score": "4-6 7(9)-6(7) 6-0"
+    },
+    {
+      "date": "20190710",
+      "tournament": "Getxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Pla Malfeito",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20190516",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Pla Malfeito",
+      "score": ""
+    },
+    {
+      "date": "20190514",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Lopez Montagud",
+      "score": "6-4 6-4"
     }
   ]
 }
