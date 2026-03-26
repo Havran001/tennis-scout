@@ -3,8 +3,21 @@
   "gs_id": "1506",
   "player_name": "David Goffin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:12:12.808Z",
+  "updated": "2026-03-26T21:12:34.831Z",
   "matches": [
+    {
+      "date": "20251014",
+      "tournament": "Brussels",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Comesana",
+      "score": "6(5)-7(7) 4-6"
+    },
     {
       "date": "20221005",
       "tournament": "Astana",
@@ -58,17 +71,17 @@
       "score": "6-1 6-4"
     },
     {
-      "date": "20200712",
-      "tournament": "UTS Championship",
+      "date": "20210203",
+      "tournament": "Melbourne (Great Ocean Road Open)",
       "surface": "Hard",
-      "level": "E",
-      "round": "SF",
+      "level": "B",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Tsitsipas",
-      "score": "11-15 11-13 12-13"
+      "opponent": "C. Alcaraz",
+      "score": "6-3 6-3"
     }
   ]
 }
