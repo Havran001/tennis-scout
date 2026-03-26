@@ -3,11 +3,24 @@
   "gs_id": "18861",
   "player_name": "Yunseong Chung",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:57:45.890Z",
+  "updated": "2026-03-26T23:48:19.909Z",
   "matches": [
     {
-      "date": "20220623",
-      "tournament": "M25 Tulsa",
+      "date": "20220320",
+      "tournament": "Biel",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gengel",
+      "score": "3-6 6-4 6-3"
+    },
+    {
+      "date": "20211103",
+      "tournament": "M25 Meitar",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Dostanic",
-      "score": "6(5)-7(7) 1-2 ret."
+      "opponent": "A. Bovy",
+      "score": "4-6 6-3 4-6"
     },
     {
-      "date": "20220622",
-      "tournament": "M25 Tulsa",
+      "date": "20211102",
+      "tournament": "M25 Meitar",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,99 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Clark",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20210806",
-      "tournament": "ITF M25 Decatur",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Spizzirri",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20210805",
-      "tournament": "ITF M25 Decatur",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Yamasaki",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20210804",
-      "tournament": "ITF M25 Decatur",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Ponwith",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20210728",
-      "tournament": "ITF M25 Champaign",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Shelton",
-      "score": "7-5 6-0"
-    },
-    {
-      "date": "20210719",
-      "tournament": "Nur-Sultan 4",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Grenier",
-      "score": "6(5)-7(7) 6-3 6-1"
-    },
-    {
-      "date": "20210715",
-      "tournament": "Nur-Sultan 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Safiullin",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20210713",
-      "tournament": "Nur-Sultan 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Bondarevskiy",
-      "score": "6-3 6-4"
+      "opponent": "J. Luck",
+      "score": "3-6 1-6"
     }
   ]
 }
