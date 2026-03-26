@@ -1,1 +1,22 @@
-{"player_id":"t0jo","sack_id":"212725","name":"Alaa Trifi","total":1,"matches":[{"id":"rmeN7FVp","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Monastir 11 (Tunisia), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Poulsen Brostrom O.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "t0jo",
+  "gs_id": "239825",
+  "player_name": "Alaa Trifi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:23:39.682Z",
+  "matches": [
+    {
+      "date": "20250511",
+      "tournament": "Tunis",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Travaglia",
+      "score": "3-6 4-6"
+    }
+  ]
+}
