@@ -1,1 +1,74 @@
-{"player_id":"s0lr","sack_id":"210145","name":"John Sperle","total":0,"matches":[]}
+{
+  "player_id": "s0lr",
+  "gs_id": "126752",
+  "player_name": "John Sperle",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:39.883Z",
+  "matches": [
+    {
+      "date": "20250901",
+      "tournament": "Seville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Jorda Sanchis",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250831",
+      "tournament": "Seville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Iannaccone",
+      "score": "6-4 7(7)-6(1)"
+    },
+    {
+      "date": "20230807",
+      "tournament": "Meerbusch",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Kirkin",
+      "score": "6(2)-7(7) 3-6"
+    },
+    {
+      "date": "20230806",
+      "tournament": "Meerbusch",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Compagnucci",
+      "score": "6-2 4-6 6-4"
+    },
+    {
+      "date": "20220807",
+      "tournament": "Meerbusch",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Gerch",
+      "score": "7-5 6-2"
+    }
+  ]
+}
