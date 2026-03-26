@@ -1,1 +1,48 @@
-{"player_id":"b0iz","sack_id":"209280","name":"Devin Badenhorst","total":0,"matches":[]}
+{
+  "player_id": "b0iz",
+  "gs_id": "87182",
+  "player_name": "Devin Badenhorst",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:16:17.809Z",
+  "matches": [
+    {
+      "date": "20230301",
+      "tournament": "ITF M15 Monastir 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gobat",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20210207",
+      "tournament": "Potchefstroom",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Draper",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20200304",
+      "tournament": "M25 Potchefstroom",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kalenichenko",
+      "score": "6-3 6-2"
+    }
+  ]
+}
