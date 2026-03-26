@@ -3,11 +3,11 @@
   "gs_id": "1042",
   "player_name": "Mikhail Kukushkin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:03:25.857Z",
+  "updated": "2026-03-26T22:59:24.894Z",
   "matches": [
     {
-      "date": "20260128",
-      "tournament": "Oeiras 2",
+      "date": "20250917",
+      "tournament": "St. Tropez",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Glinka",
-      "score": "3-6 4-6"
+      "opponent": "T. Paris",
+      "score": "7(7)-6(5) 6-4"
     },
     {
-      "date": "20260127",
-      "tournament": "Oeiras 2",
+      "date": "20250916",
+      "tournament": "St. Tropez",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,51 +28,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Landaluce",
-      "score": "6-2 6-1"
+      "opponent": "P. Herbert",
+      "score": "7-5 6(4)-7(7) 5-7"
     },
     {
-      "date": "20260126",
-      "tournament": "Oeiras 2",
+      "date": "20250730",
+      "tournament": "Porto",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ymer",
+      "score": "3-6 6-3 4-6"
+    },
+    {
+      "date": "20250729",
+      "tournament": "Porto",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Yevseyev",
-      "score": "6-4 6-1"
+      "opponent": "A. Karatsev",
+      "score": "6(7)-7(9) 4-6"
     },
     {
-      "date": "20260125",
-      "tournament": "Oeiras 2",
+      "date": "20240803",
+      "tournament": "Porto Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Batista",
-      "score": "6-1 6-0"
+      "result": "L",
+      "opponent": "A. Holmgren",
+      "score": "6(6)-7(8) 7-5 7(7)-6(5)"
     },
     {
-      "date": "20260123",
-      "tournament": "Oeiras",
+      "date": "20240802",
+      "tournament": "Porto Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Gaubas",
-      "score": "4-6 3-6"
+      "result": "W",
+      "opponent": "A. Martinez",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20260121",
-      "tournament": "Oeiras",
+      "date": "20240801",
+      "tournament": "Porto Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -80,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Lajal",
-      "score": "6(4)-7(7) 6-2 7-5"
+      "opponent": "J. De Loore",
+      "score": "6(4)-7(7) 3-6"
     },
     {
-      "date": "20260120",
-      "tournament": "Oeiras",
+      "date": "20240730",
+      "tournament": "Porto Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -93,64 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Elias",
-      "score": "2-6 3-6"
+      "opponent": "J. Cui",
+      "score": "6-3 2-6 1-6"
     },
     {
-      "date": "20260119",
-      "tournament": "Oeiras",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Kozlov",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20260118",
-      "tournament": "Oeiras",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Molleker",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20250418",
-      "tournament": "Oeiras 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Moller",
-      "score": ""
-    },
-    {
-      "date": "20250415",
-      "tournament": "Oeiras 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Gigante",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20230125",
-      "tournament": "Concepcion Challenger Men",
+      "date": "20221011",
+      "tournament": "St. Tropez",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -158,47 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Dellien",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20210406",
-      "tournament": "Marbella",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Mager",
-      "score": "7-5 6-3"
-    },
-    {
-      "date": "20210203",
-      "tournament": "Melbourne (Murray River Open)",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Wawrinka",
-      "score": "6-4 3-6 1-6"
-    },
-    {
-      "date": "20210202",
-      "tournament": "Melbourne (Murray River Open)",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. I. Londero",
-      "score": "6-4 5-7 2-6"
+      "opponent": "J. Rodionov",
+      "score": "3-6 5-7"
     }
   ]
 }
