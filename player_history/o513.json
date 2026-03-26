@@ -2,8 +2,21 @@
   "player_id": "o513",
   "player_name": "Sebastian Ofner",
   "source": "goalserve-full",
-  "updated": "2026-03-26T07:12:24.460Z",
+  "updated": "2026-03-26T07:12:30.461Z",
   "matches": [
+    {
+      "date": "20250825",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Ruud",
+      "score": "6-1 6-2 7(7)-6(5)"
+    },
     {
       "date": "20250817",
       "tournament": "Winston-Salem",
@@ -70,6 +83,32 @@
       "score": "6-4 4-6 7(7)-6(3)"
     },
     {
+      "date": "20230830",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Tiafoe",
+      "score": "6-3 6-1 6-4"
+    },
+    {
+      "date": "20230828",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Borges",
+      "score": "7(7)-6(5) 3-6 7(9)-6(7) 6-4"
+    },
+    {
       "date": "20230822",
       "tournament": "ATP Winston-Salem",
       "surface": "Hard",
@@ -107,6 +146,32 @@
       "result": "L",
       "opponent": "A. Popyrin",
       "score": "6-4 6-1"
+    },
+    {
+      "date": "20220825",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kotov",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220824",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Hanfmann",
+      "score": "7(9)-6(7) 5-7 6-4"
     },
     {
       "date": "20220727",
