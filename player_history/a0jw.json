@@ -1,10 +1,23 @@
 {
   "player_id": "a0jw",
-  "gs_id": "169584",
-  "player_name": "Federico Aguilar Cardozo",
+  "gs_id": "169582",
+  "player_name": "Joaquin Aguilar Cardozo",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:25:33.815Z",
+  "updated": "2026-03-26T21:18:02.830Z",
   "matches": [
+    {
+      "date": "20260126",
+      "tournament": "Concepcion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Mena",
+      "score": "7(8)-6(6) 3-6 2-6"
+    },
     {
       "date": "20250213",
       "tournament": "M25 Punta del Este",
@@ -15,50 +28,24 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Vazquez",
-      "score": "3-6 4-6"
+      "opponent": "A. F. Rubio Fierros",
+      "score": "6(5)-7(7) 0-1 ret."
     },
     {
-      "date": "20250119",
+      "date": "20250121",
       "tournament": "Punta Del Este",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. B. Torres",
-      "score": "4-6 3-6"
+      "opponent": "F. Mena",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20240209",
-      "tournament": "ITF M25 Punta del Este Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Villanueva",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20240208",
-      "tournament": "ITF M25 Punta del Este Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Zanellato",
-      "score": "3-6 6-3 6-4"
-    },
-    {
-      "date": "20240206",
+      "date": "20240207",
       "tournament": "ITF M25 Punta del Este Men",
       "surface": "Hard",
       "level": "I",
@@ -66,22 +53,22 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. E. Ambrogi",
-      "score": "2-6 2-6"
+      "result": "L",
+      "opponent": "G. Bueno",
+      "score": "6-2 6-0"
     },
     {
-      "date": "20240121",
+      "date": "20240122",
       "tournament": "Punta Del Este Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Guillen Meza",
-      "score": "6-2 6-3"
+      "opponent": "S. Rodriguez Taverna",
+      "score": "0-6 6-4 7-5"
     }
   ]
 }
