@@ -3,11 +3,11 @@
   "gs_id": "37629",
   "player_name": "Kody Pearson",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:48:28.668Z",
+  "updated": "2026-03-26T15:19:53.709Z",
   "matches": [
     {
-      "date": "20240804",
-      "tournament": "Bogota Challenger Men",
+      "date": "20250810",
+      "tournament": "Todi",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +15,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Urrea",
+      "opponent": "F. Juarez",
       "score": "3-6 2-6"
+    },
+    {
+      "date": "20240128",
+      "tournament": "Burnie",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Je. Delaney",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20231029",
+      "tournament": "Sydney Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Seggerman",
+      "score": "6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20221030",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Whitehouse",
+      "score": "2-6 2-6"
     }
   ]
 }
