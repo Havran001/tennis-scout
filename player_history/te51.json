@@ -1,35 +1,48 @@
 {
   "player_id": "te51",
-  "gs_id": "34244",
-  "player_name": "Petros Tsitsipas",
+  "gs_id": "27579",
+  "player_name": "Stefanos Tsitsipas",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:48:37.762Z",
+  "updated": "2026-03-26T18:53:35.772Z",
   "matches": [
     {
-      "date": "20220516",
-      "tournament": "Shymkent 2",
+      "date": "20260113",
+      "tournament": "Adelaide",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "B",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Gakhov",
-      "score": "1-6 5-7"
+      "opponent": "A. Vukic",
+      "score": "7(7)-6(3) 7(7)-6(5)"
     },
     {
-      "date": "20220515",
-      "tournament": "Shymkent 2",
+      "date": "20221208",
+      "tournament": "Diriyah Tennis Cup",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "E",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Mossur",
-      "score": "2-6 4-6"
+      "result": "L",
+      "opponent": "C. Norrie",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20190926",
+      "tournament": "Zhuhai",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Mannarino",
+      "score": "3-6 7-5 ret."
     }
   ]
 }
