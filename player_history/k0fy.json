@@ -1,1 +1,22 @@
-{"player_id":"k0fy","sack_id":"209322","name":"Martin Krumich","total":0,"matches":[]}
+{
+  "player_id": "k0fy",
+  "gs_id": "81459",
+  "player_name": "Martin Krumich",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:44:59.593Z",
+  "matches": [
+    {
+      "date": "20240714",
+      "tournament": "ATP Bastad",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pellegrino",
+      "score": "4-6 7-5 6-1"
+    }
+  ]
+}
