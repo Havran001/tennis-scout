@@ -3,24 +3,50 @@
   "gs_id": "10385",
   "player_name": "Markos Kalovelonis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:16:20.519Z",
+  "updated": "2026-03-26T11:44:43.581Z",
   "matches": [
     {
-      "date": "20180629",
-      "tournament": "Pittsburgh",
+      "date": "20180624",
+      "tournament": "Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "6-1 7(8)-6(6)"
+    },
+    {
+      "date": "20180623",
+      "tournament": "Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Ross",
+      "score": "6(6)-7(8) 5-7"
+    },
+    {
+      "date": "20180622",
+      "tournament": "Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Gomez",
-      "score": "3-6 6-3 6-4"
+      "result": "W",
+      "opponent": "J. Arconada",
+      "score": "6(4)-7(7) 2-6"
     },
     {
-      "date": "20180628",
-      "tournament": "Pittsburgh",
+      "date": "20180621",
+      "tournament": "Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Goetz",
-      "score": "6-3 6-2"
+      "opponent": "C. Kingsley",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20180627",
-      "tournament": "Pittsburgh",
+      "date": "20180620",
+      "tournament": "Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. J. Gamble",
-      "score": "7(7)-6(4) 6-2"
+      "opponent": "T. Ismailov",
+      "score": "7(7)-6(4) 6-1"
+    },
+    {
+      "date": "20160922",
+      "tournament": "Irvine",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Rodriguez Taverna",
+      "score": "2-6 6-2 3-0 ret."
+    },
+    {
+      "date": "20160921",
+      "tournament": "Irvine",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Brymer",
+      "score": "1-6 7(10)-6(8) 6-3"
+    },
+    {
+      "date": "20121113",
+      "tournament": "Heraklion 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Mikos",
+      "score": "7-5 4-6 4-6"
+    },
+    {
+      "date": "20121030",
+      "tournament": "Heraklion 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Waite",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20121022",
+      "tournament": "Heraklion 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Wagner",
+      "score": "6-7 4-6"
     }
   ]
 }
