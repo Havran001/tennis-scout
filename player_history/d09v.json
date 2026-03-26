@@ -3,33 +3,59 @@
   "gs_id": "32613",
   "player_name": "Ivan Denisov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:19:26.694Z",
+  "updated": "2026-03-26T18:53:49.784Z",
   "matches": [
     {
-      "date": "20250720",
-      "tournament": "Tampere",
+      "date": "20240715",
+      "tournament": "Astana Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Castagnola",
-      "score": "4-6 6-4 6-4"
+      "opponent": "S. Ivanov",
+      "score": "1-6 6(3)-7(7)"
     },
     {
-      "date": "20230827",
-      "tournament": "Zhangjiagang Challenger Men",
+      "date": "20240714",
+      "tournament": "Astana Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Pokotilov",
+      "score": "6(5)-7(7) 6-0 6-3"
+    },
+    {
+      "date": "20220105",
+      "tournament": "M15 Cairo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "H. Liu",
-      "score": "7-5 6-2"
+      "opponent": "B. Lock",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20201209",
+      "tournament": "ITF M15 Cairo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Mashtakov",
+      "score": "4-6 6-1 3-6"
     }
   ]
 }
