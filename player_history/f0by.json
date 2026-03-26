@@ -1,9 +1,49 @@
 {
   "player_id": "f0by",
+  "gs_id": "56982",
   "player_name": "Jacob Fearnley",
   "source": "goalserve-full",
-  "updated": "2026-03-26T07:12:24.459Z",
+  "updated": "2026-03-26T09:18:06.518Z",
   "matches": [
+    {
+      "date": "20260119",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Majchrzak",
+      "score": "6(2)-7(7) 5-7 6-3 6(3)-7(7)"
+    },
+    {
+      "date": "20250828",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Zverev",
+      "score": "4-6 4-6 4-6"
+    },
+    {
+      "date": "20250826",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Bautista-Agut",
+      "score": "5-7 2-6 7-5 4-6"
+    },
     {
       "date": "20250819",
       "tournament": "Winston-Salem",
@@ -29,6 +69,45 @@
       "result": "L",
       "opponent": "Z. Bergs",
       "score": "1-6 4-6"
+    },
+    {
+      "date": "20250117",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Zverev",
+      "score": "6-3 6-4 6-4"
+    },
+    {
+      "date": "20250115",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Cazaux",
+      "score": "6-3 5-7 2-6 3-6"
+    },
+    {
+      "date": "20250113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Kyrgios",
+      "score": "7(7)-6(3) 6-3 7(7)-6(2)"
     }
   ]
 }
