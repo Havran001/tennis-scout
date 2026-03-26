@@ -1,1 +1,35 @@
-{"player_id":"m0ru","sack_id":"212825","name":"Cian Maguire","total":0,"matches":[]}
+{
+  "player_id": "m0ru",
+  "gs_id": "177401",
+  "player_name": "Cian Maguire",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:00:56.782Z",
+  "matches": [
+    {
+      "date": "20250130",
+      "tournament": "M15 Monastir 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Dar. Blanch",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20250129",
+      "tournament": "M15 Monastir 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Castle",
+      "score": "5-7 1-6"
+    }
+  ]
+}
