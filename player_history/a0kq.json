@@ -1,1 +1,48 @@
-{"player_id":"a0kq","sack_id":"212978","name":"Izan Almazan Valiente","total":0,"matches":[]}
+{
+  "player_id": "a0kq",
+  "gs_id": "190299",
+  "player_name": "Izan Almazan Valiente",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T16:14:05.705Z",
+  "matches": [
+    {
+      "date": "20260203",
+      "tournament": "Tenerife",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Giustino",
+      "score": "6(2)-7(7) 5-7"
+    },
+    {
+      "date": "20260202",
+      "tournament": "Tenerife",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Peliwo",
+      "score": "6-3 3-6 4-6"
+    },
+    {
+      "date": "20260201",
+      "tournament": "Tenerife",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Garcia Hernandez",
+      "score": "2-6 1-6"
+    }
+  ]
+}
