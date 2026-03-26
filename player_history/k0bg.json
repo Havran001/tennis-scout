@@ -3,20 +3,33 @@
   "gs_id": "41288",
   "player_name": "Alex Kobelt",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:28:23.608Z",
+  "updated": "2026-03-26T13:48:54.644Z",
   "matches": [
     {
-      "date": "20190605",
+      "date": "20251109",
       "tournament": "Champaign",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Maginley",
-      "score": "6(5)-7(7) 5-7"
+      "opponent": "Q. Vandecasteele",
+      "score": "6-4 3-6 2-6"
+    },
+    {
+      "date": "20191015",
+      "tournament": "Las Vegas",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Pervolarakis",
+      "score": "1-6 3-6"
     }
   ]
 }
