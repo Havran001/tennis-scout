@@ -1,8 +1,8 @@
 {
   "player_id": "s0ag",
   "player_name": "Jannik Sinner",
-  "source": "goalserve",
-  "updated": "2026-03-26T03:33:12.445Z",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T07:09:05.464Z",
   "matches": [
     {
       "date": "20260324",
@@ -6271,6 +6271,97 @@
       "score": "3-6 2-6"
     },
     {
+      "date": "20180822",
+      "tournament": "Cuneo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Petrone",
+      "score": "5-7 6-3 6-1"
+    },
+    {
+      "date": "20180821",
+      "tournament": "Cuneo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gola",
+      "score": "4-6 6-4 6-4"
+    },
+    {
+      "date": "20180818",
+      "tournament": "Santa Cristina val Gardena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Heller",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20180817",
+      "tournament": "Santa Cristina val Gardena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ceppellini",
+      "score": "6(4)-7(7) 6-4 6-4"
+    },
+    {
+      "date": "20180816",
+      "tournament": "Santa Cristina val Gardena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Vigani",
+      "score": "6(3)-7(7) 2-6"
+    },
+    {
+      "date": "20180815",
+      "tournament": "Santa Cristina val Gardena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Frigerio",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20180813",
+      "tournament": "Santa Cristina val Gardena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Acquaroli",
+      "score": "6-1 6-2"
+    },
+    {
       "date": "20180808",
       "tournament": "Cornaiano",
       "surface": "Hard",
@@ -6321,6 +6412,45 @@
       "result": "W",
       "opponent": "F. Iannaccone",
       "score": "6-4 6-0"
+    },
+    {
+      "date": "20180517",
+      "tournament": "Casale Monferrato",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Fonio",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20180516",
+      "tournament": "Casale Monferrato",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Moroni",
+      "score": "7(7)-6(2) 6-3"
+    },
+    {
+      "date": "20180514",
+      "tournament": "Casale Monferrato",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Stefanini",
+      "score": "3-6 1-6"
     }
   ]
 }
