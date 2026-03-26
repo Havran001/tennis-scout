@@ -1,1 +1,35 @@
-{"player_id":"l0kr","sack_id":"212738","name":"Manel Lazaro Juncadella","total":0,"matches":[]}
+{
+  "player_id": "l0kr",
+  "gs_id": "226044",
+  "player_name": "Manel Lazaro Juncadella",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:01:30.777Z",
+  "matches": [
+    {
+      "date": "20241017",
+      "tournament": "M15 Castellon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alcala Gurri",
+      "score": "6-0 7-5"
+    },
+    {
+      "date": "20241016",
+      "tournament": "M15 Castellon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. De Alba",
+      "score": "6(5)-7(7) 2-6"
+    }
+  ]
+}
