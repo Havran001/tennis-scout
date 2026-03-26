@@ -3,11 +3,11 @@
   "gs_id": "135735",
   "player_name": "Nikita Ianin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:04:59.884Z",
+  "updated": "2026-03-26T23:51:49.899Z",
   "matches": [
     {
-      "date": "20240821",
-      "tournament": "M15 Monastir 34",
+      "date": "20251029",
+      "tournament": "M15 Monastir 41",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,38 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Gorokhov",
-      "score": "6-4 6-4"
+      "opponent": "Y. Kelm",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240807",
-      "tournament": "ITF M15 Monastir 32 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Andre",
-      "score": "6-2 7(7)-6(5)"
-    },
-    {
-      "date": "20240710",
-      "tournament": "ITF M15 Monastir 28 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Xilas",
-      "score": "7(7)-6(2) 6-4"
-    },
-    {
-      "date": "20230824",
-      "tournament": "ITF M15 Monastir 34 Men",
+      "date": "20241031",
+      "tournament": "ITF M15 Sharm ElSheikh 14 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Pokorny",
-      "score": "2-6 2-6"
+      "opponent": "M. Bassem Sobhy",
+      "score": "4-6 6(8)-7(10)"
     },
     {
-      "date": "20230823",
-      "tournament": "ITF M15 Monastir 34 Men",
+      "date": "20241030",
+      "tournament": "ITF M15 Sharm ElSheikh 14 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,21 +41,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Khamis",
-      "score": "6-3 3-6 7-5"
+      "opponent": "L. Vojinovic",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20230816",
-      "tournament": "ITF M15 Monastir 33 Men",
+      "date": "20240606",
+      "tournament": "ITF M15 Monastir 23 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sureshkumar",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240604",
+      "tournament": "ITF M15 Monastir 23 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Philibert",
+      "score": "6-2 4-1 ret."
+    },
+    {
+      "date": "20240530",
+      "tournament": "ITF M15 Monastir 22 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "O. Tarvet",
-      "score": "1-6 4-6"
+      "opponent": "P. Schoen",
+      "score": "6-4 3-6 6-3"
+    },
+    {
+      "date": "20240529",
+      "tournament": "ITF M15 Monastir 22 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Rimskii",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20240523",
+      "tournament": "ITF M15 Monastir 21 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bouquier",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20240522",
+      "tournament": "ITF M15 Monastir 21 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. El Amine",
+      "score": "6-3 7-5"
     }
   ]
 }
