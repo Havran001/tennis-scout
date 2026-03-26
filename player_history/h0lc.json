@@ -3,20 +3,33 @@
   "gs_id": "278230",
   "player_name": "Ilan Hediger",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:14:14.834Z",
+  "updated": "2026-03-26T22:16:05.867Z",
   "matches": [
     {
-      "date": "20260107",
-      "tournament": "M15 Manacor",
+      "date": "20260305",
+      "tournament": "M25 Trimbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Masur",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20260304",
+      "tournament": "M25 Trimbach",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Simundza",
-      "score": "7(7)-6(5) 6-4"
+      "result": "W",
+      "opponent": "L. Aregger",
+      "score": "6-2 6-4"
     }
   ]
 }
