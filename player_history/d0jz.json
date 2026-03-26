@@ -1,1 +1,35 @@
-{"player_id":"d0jz","sack_id":"212972","name":"Andrea De Marchi","total":1,"matches":[{"id":"xlmXPEiT","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Monastir 11 (Tunisia), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Schoen P.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "d0jz",
+  "gs_id": "177500",
+  "player_name": "Andrea de Marchi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:22:35.681Z",
+  "matches": [
+    {
+      "date": "20250811",
+      "tournament": "Todi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Vasa",
+      "score": "7-5 3-6 1-6"
+    },
+    {
+      "date": "20250810",
+      "tournament": "Todi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bronzetti",
+      "score": "0-6 6-2 6-3"
+    }
+  ]
+}
