@@ -3,11 +3,11 @@
   "gs_id": "175207",
   "player_name": "Lorenzo Carboni",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:12:01.623Z",
+  "updated": "2026-03-26T13:52:25.643Z",
   "matches": [
     {
-      "date": "20250901",
-      "tournament": "Genova",
+      "date": "20260223",
+      "tournament": "Pune",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +15,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Feldbausch",
-      "score": "3-6 0-6"
+      "opponent": "Y. Shimizu",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20250827",
-      "tournament": "Como",
+      "date": "20260215",
+      "tournament": "New Delhi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sureshkumar",
+      "score": "4-6 6-2 6-3"
+    },
+    {
+      "date": "20250909",
+      "tournament": "Biella",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Mikrut",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250908",
+      "tournament": "Biella",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Miletich",
+      "score": "4-6 7(7)-6(4) 6-2"
+    },
+    {
+      "date": "20250907",
+      "tournament": "Biella",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Roehrich",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20250609",
+      "tournament": "Perugia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Pavlovic",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250423",
+      "tournament": "Rome",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Berrettini",
-      "score": "4-6 4-6"
+      "opponent": "F. Maestrelli",
+      "score": "6-3 4-6 2-6"
     },
     {
-      "date": "20250826",
-      "tournament": "Como",
+      "date": "20250422",
+      "tournament": "Rome",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,34 +106,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Skatov",
-      "score": "0-6 6-1 6-0"
+      "opponent": "D. Ajdukovic",
+      "score": "3-6 6-1 6-4"
     },
     {
-      "date": "20230831",
-      "tournament": "Como Challenger Men",
+      "date": "20240617",
+      "tournament": "Poznan Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "R16",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Paire",
-      "score": "7-5 2-6 0-3 ret."
+      "opponent": "G. Elias",
+      "score": "0-6 1-6"
     },
     {
-      "date": "20230829",
-      "tournament": "Como Challenger Men",
+      "date": "20240616",
+      "tournament": "Poznan Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Erel",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20231024",
+      "tournament": "Ortisei",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Fatic",
-      "score": "2-6 4-6"
+      "result": "L",
+      "opponent": "M. Geerts",
+      "score": "4-6 1-6"
     }
   ]
 }
