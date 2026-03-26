@@ -3,11 +3,11 @@
   "gs_id": "83711",
   "player_name": "Edward Winter",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:12:30.704Z",
+  "updated": "2026-03-26T18:55:48.778Z",
   "matches": [
     {
-      "date": "20250717",
-      "tournament": "Pozoblanco",
+      "date": "20250730",
+      "tournament": "Astana",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Grenier",
-      "score": "2-6 4-6"
+      "opponent": "S. Imai",
+      "score": "7(7)-6(4) 6-3"
     },
     {
-      "date": "20250715",
-      "tournament": "Pozoblanco",
+      "date": "20250729",
+      "tournament": "Astana",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,25 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Alves",
-      "score": "2-6 3-6"
+      "opponent": "M. Bouzige",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20250714",
-      "tournament": "Pozoblanco",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Binda",
-      "score": "3-6 0-6"
-    },
-    {
-      "date": "20250713",
-      "tournament": "Pozoblanco",
+      "date": "20250728",
+      "tournament": "Astana",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Pieczkowski",
-      "score": "7(7)-6(3) 6-3"
+      "opponent": "S. Ivanov",
+      "score": "5-7 7-5 6-3"
     },
     {
-      "date": "20241028",
-      "tournament": "Sydney",
+      "date": "20250728",
+      "tournament": "Astana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Krajci",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20241021",
+      "tournament": "Playford 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,77 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Polmans",
-      "score": "2-6 2-6"
+      "opponent": "T. J. Fancutt",
+      "score": "7-5 7(7)-6(2)"
     },
     {
-      "date": "20240825",
-      "tournament": "Zhangjiagang Challenger Men",
+      "date": "20221231",
+      "tournament": "Adelaide",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Donskoy",
-      "score": "5-7 4-6"
-    },
-    {
-      "date": "20240818",
-      "tournament": "Jinan",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "W. Shin",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20230129",
-      "tournament": "Burnie Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Ryan Ziegann",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20230129",
-      "tournament": "Burnie Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Walkin",
-      "score": "2-6 7(11)-6(9) 6-0"
-    },
-    {
-      "date": "20221030",
-      "tournament": "Sydney",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Mott",
-      "score": "3-6 2-6"
+      "opponent": "T. Daniel",
+      "score": "6-1 6-0"
     },
     {
       "date": "20221025",
-      "tournament": "Playford Challenger Men",
+      "tournament": "Playford 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -147,6 +95,32 @@
       "result": "L",
       "opponent": "D. Sweeny",
       "score": "6-3 3-6 2-6"
+    },
+    {
+      "date": "20220102",
+      "tournament": "Adelaide",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Daniel",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20200110",
+      "tournament": "Adelaide",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Delbonis",
+      "score": "0-6 2-6"
     }
   ]
 }
