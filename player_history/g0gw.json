@@ -1,1 +1,35 @@
-{"player_id":"g0gw","sack_id":"209849","name":"Sascha Gueymard Wayenburg","total":1,"matches":[{"id":"4UDZHG0L","date":"20260325","tournament":"CHALLENGER MEN - SINGLES: Split (Croatia), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Ferreira Silva F.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g0gw",
+  "gs_id": "85174",
+  "player_name": "Sascha Gueymard Wayenburg",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:42.519Z",
+  "matches": [
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Barrios Vera",
+      "score": "2-6 6(6)-7(8)"
+    },
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Pacheco Mendez",
+      "score": "6(2)-7(7) 6-3 6-1"
+    }
+  ]
+}
