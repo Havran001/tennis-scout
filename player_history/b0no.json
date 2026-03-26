@@ -3,11 +3,11 @@
   "gs_id": "142128",
   "player_name": "Darwin Blanch",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:20:50.686Z",
+  "updated": "2026-03-26T17:46:32.743Z",
   "matches": [
     {
-      "date": "20250717",
-      "tournament": "Pozoblanco",
+      "date": "20260312",
+      "tournament": "Phoenix",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Sun",
-      "score": "2-6 7(8)-6(6) 3-6"
+      "opponent": "B. Harris",
+      "score": "3-6 7(7)-6(5) 7(8)-6(6)"
     },
     {
-      "date": "20250715",
-      "tournament": "Pozoblanco",
+      "date": "20260310",
+      "tournament": "Phoenix",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,60 +28,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Martinez",
-      "score": "7(7)-6(4) 6-2"
+      "opponent": "T. Atmane",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250714",
-      "tournament": "Pozoblanco",
+      "date": "20250930",
+      "tournament": "Villena",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Potenza",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20250409",
+      "tournament": "Mexico City",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Meligeni Alves",
+      "score": "7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20250407",
+      "tournament": "Mexico City",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Montes-De La Torre",
-      "score": "4-6 4-6"
+      "opponent": "R. Alujas",
+      "score": "6-3 2-6 3-6"
     },
     {
-      "date": "20250713",
-      "tournament": "Pozoblanco",
+      "date": "20241001",
+      "tournament": "Alicante",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Grenier",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20231003",
+      "tournament": "Alicante Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Ferreira Silva",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20221002",
+      "tournament": "Alicante",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Diaz Ruiz",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20240619",
-      "tournament": "Blois",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "G. Debru",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20240506",
-      "tournament": "Francavilla Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Andreev",
-      "score": "1-6 3-6"
+      "opponent": "A. Santillan",
+      "score": "6-2 6-0"
     }
   ]
 }
