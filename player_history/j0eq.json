@@ -1,1 +1,35 @@
-{"player_id":"j0eq","sack_id":"212782","name":"Saahith Jayaraman","total":0,"matches":[]}
+{
+  "player_id": "j0eq",
+  "gs_id": "248659",
+  "player_name": "Saahith Jayaraman",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:27.624Z",
+  "matches": [
+    {
+      "date": "20250630",
+      "tournament": "Cary",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250629",
+      "tournament": "Cary",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Matsuda",
+      "score": "6-4 6-4"
+    }
+  ]
+}
