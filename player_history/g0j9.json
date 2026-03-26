@@ -1,1 +1,113 @@
-{"player_id":"g0j9","sack_id":"210425","name":"Svyatoslav Gulin","total":1,"matches":[{"id":"E9Yvle9a","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Alicante (Spain), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Carreno-Busta P.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "g0j9",
+  "gs_id": "136535",
+  "player_name": "Svyatoslav Gulin",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:53.627Z",
+  "matches": [
+    {
+      "date": "20250516",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Clarke",
+      "score": "6(2)-7(7) 3-6"
+    },
+    {
+      "date": "20250515",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Matsuoka",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250513",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. A. Bailly",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20240827",
+      "tournament": "Como Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. C. Jianu",
+      "score": "5-7 6-1 4-6"
+    },
+    {
+      "date": "20240826",
+      "tournament": "Como Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Ferrari",
+      "score": "6-3 2-6 2-6"
+    },
+    {
+      "date": "20240825",
+      "tournament": "Como Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Bilardo",
+      "score": "6(3)-7(7) 4-6"
+    },
+    {
+      "date": "20240515",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Lopez Morillo",
+      "score": "6(5)-7(7) 6-4 3-6"
+    },
+    {
+      "date": "20240114",
+      "tournament": "Buenos Aires 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Gill",
+      "score": "7(7)-6(4) 4-6 7(7)-6(4)"
+    }
+  ]
+}
