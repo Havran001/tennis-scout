@@ -1,1 +1,35 @@
-{"player_id":"p0m4","sack_id":"212084","name":"Denis Petak","total":0,"matches":[]}
+{
+  "player_id": "p0m4",
+  "gs_id": "160148",
+  "player_name": "Denis Petak",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:52:01.648Z",
+  "matches": [
+    {
+      "date": "20250727",
+      "tournament": "Liberec",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Vasa",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20240728",
+      "tournament": "Liberec Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Prihodko",
+      "score": "3-6 6-4 6-4"
+    }
+  ]
+}
