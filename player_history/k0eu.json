@@ -3,11 +3,37 @@
   "gs_id": "58102",
   "player_name": "Toby Kodat",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:14:41.825Z",
+  "updated": "2026-03-26T22:06:39.889Z",
   "matches": [
     {
-      "date": "20221125",
-      "tournament": "M15 Santo Domingo",
+      "date": "20240107",
+      "tournament": "Oeiras 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Moeller",
+      "score": "2-6 6-4 6-1"
+    },
+    {
+      "date": "20240101",
+      "tournament": "Oeiras Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bourgue",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20230901",
+      "tournament": "M25 Jablonec nad Nisou 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. King",
-      "score": "6-1 1-6 7-5"
+      "opponent": "M. Safwat",
+      "score": "7(11)-6(9) 3-6 4-6"
     },
     {
-      "date": "20221124",
-      "tournament": "M15 Santo Domingo",
+      "date": "20230831",
+      "tournament": "M25 Jablonec nad Nisou 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. A. Rodriguez",
-      "score": "6-2 6-1"
+      "opponent": "J. Pleva",
+      "score": "1-6 0-6"
     },
     {
-      "date": "20221123",
-      "tournament": "M15 Santo Domingo",
+      "date": "20230829",
+      "tournament": "M25 Jablonec nad Nisou 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. F. Descotte",
-      "score": "6-3 6(4)-7(7) 6(4)-7(7)"
+      "opponent": "D. Recek",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20210604",
+      "tournament": "ITF M15 Antalya 22 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Moreno De Alboran",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20210603",
+      "tournament": "ITF M15 Antalya 22 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Basso",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20210602",
+      "tournament": "ITF M15 Antalya 22 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Ovchinnikov",
+      "score": "6-1 6-0"
     }
   ]
 }
