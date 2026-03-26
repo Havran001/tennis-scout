@@ -3,24 +3,37 @@
   "gs_id": "135430",
   "player_name": "Emanuel Ambrogi Luciano",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:17:11.812Z",
+  "updated": "2026-03-26T21:12:17.831Z",
   "matches": [
     {
-      "date": "20230811",
-      "tournament": "ITF M15 Curtea de Arges Men",
+      "date": "20230909",
+      "tournament": "ITF M15 Madrid Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Masjuan Ginel",
+      "score": "6-1 7(7)-6(5)"
+    },
+    {
+      "date": "20230908",
+      "tournament": "ITF M15 Madrid Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Pennaforti",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "N. Kuhn",
+      "score": "6-4 4-6 5-7"
     },
     {
-      "date": "20230810",
-      "tournament": "ITF M15 Curtea de Arges Men",
+      "date": "20230907",
+      "tournament": "ITF M15 Madrid Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Kolyachev",
-      "score": "1-6 4-6"
+      "opponent": "G. Revelli",
+      "score": "6-3 6(4)-7(7) 4-6"
     },
     {
-      "date": "20230809",
-      "tournament": "ITF M15 Curtea de Arges Men",
+      "date": "20230906",
+      "tournament": "ITF M15 Madrid Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,60 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Donev",
-      "score": "0-6 4-6"
-    },
-    {
-      "date": "20230309",
-      "tournament": "M25 Rio Cuarto",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. A. Dellien Velasco",
-      "score": "7-5 6-2"
-    },
-    {
-      "date": "20230307",
-      "tournament": "M25 Rio Cuarto",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Carnevalle",
-      "score": "7(7)-6(4) 6-2"
-    },
-    {
-      "date": "20221011",
-      "tournament": "M25 Rio Cuarto",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Franco",
-      "score": "7-5 6-2"
-    },
-    {
-      "date": "20211207",
-      "tournament": "ITF M25 Rio Cuarto Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Carou",
-      "score": "3-6 2-6"
+      "opponent": "P. Manzano Lapuerta",
+      "score": "2-6 0-6"
     }
   ]
 }
