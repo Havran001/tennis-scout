@@ -3,37 +3,50 @@
   "gs_id": "158732",
   "player_name": "Filippo Romano",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:23:09.680Z",
+  "updated": "2026-03-26T19:00:01.775Z",
   "matches": [
     {
-      "date": "20250813",
-      "tournament": "Todi",
+      "date": "20260222",
+      "tournament": "Lugano",
       "surface": "Hard",
       "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Forejtek",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20260212",
+      "tournament": "M15 Oberhaching",
+      "surface": "Hard",
+      "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Skatov",
-      "score": "3-6 6-0 6-4"
+      "opponent": "S. Napolitano",
+      "score": "6-4 3-6 6-3"
     },
     {
-      "date": "20250812",
-      "tournament": "Todi",
+      "date": "20260210",
+      "tournament": "M15 Oberhaching",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Tabacco",
-      "score": "6-4 6-2"
+      "opponent": "N. Barsukov",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250811",
-      "tournament": "Todi",
+      "date": "20250929",
+      "tournament": "Braga",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Guerrieri",
-      "score": "3-6 6-4 3-6"
+      "opponent": "H. Squire",
+      "score": "6-1 3-6 2-6"
     },
     {
-      "date": "20250810",
-      "tournament": "Todi",
+      "date": "20250928",
+      "tournament": "Braga",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,47 +67,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Umena",
-      "score": "0-6 0-6"
+      "opponent": "T. Cacao",
+      "score": "6(1)-7(7) 6(4)-7(7)"
     },
     {
-      "date": "20250330",
-      "tournament": "Barletta",
+      "date": "20240203",
+      "tournament": "M15 Veigy-Foncenex",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Sels",
-      "score": "4-6 1-6"
+      "opponent": "A. Bouquier",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20240715",
-      "tournament": "Pozoblanco Challenger Men",
+      "date": "20240202",
+      "tournament": "M15 Veigy-Foncenex",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Buldorini",
-      "score": "6-4 6(6)-7(8) 2-6"
-    },
-    {
-      "date": "20240714",
-      "tournament": "Pozoblanco Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Sibille",
-      "score": "0-6 3-6"
+      "opponent": "F. Salle",
+      "score": "7-5 5-7 4-6"
+    },
+    {
+      "date": "20240201",
+      "tournament": "M15 Veigy-Foncenex",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Jong",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240130",
+      "tournament": "M15 Veigy-Foncenex",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Gueymard Wayenburg",
+      "score": "6-4 6-4"
     }
   ]
 }
