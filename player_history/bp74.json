@@ -3,11 +3,11 @@
   "gs_id": "58391",
   "player_name": "Aleksandre Bakshi",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:49:11.652Z",
+  "updated": "2026-03-26T15:21:33.707Z",
   "matches": [
     {
-      "date": "20250831",
-      "tournament": "Istanbul",
+      "date": "20250713",
+      "tournament": "Pozoblanco",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,38 +15,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Tkemaladze",
-      "score": "6(5)-7(7) 5-7"
+      "opponent": "V. Ursu",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20250720",
-      "tournament": "Segovia",
+      "date": "20241029",
+      "tournament": "Sydney",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Kalyanpur",
-      "score": "4-6 3-6"
+      "opponent": "Y. Mochizuki",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20240902",
-      "tournament": "Istanbul Challenger Men",
+      "date": "20241027",
+      "tournament": "Sydney",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Agafonov",
-      "score": "3-6 7-5 6-1"
+      "result": "W",
+      "opponent": "J. Sheehy",
+      "score": "5-7 7(7)-6(4) 6-3"
     },
     {
-      "date": "20240901",
-      "tournament": "Istanbul Challenger Men",
+      "date": "20241026",
+      "tournament": "Sydney",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,21 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Klok",
-      "score": "6-2 6-0"
+      "opponent": "T. Loof",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20180925",
-      "tournament": "Fountain Valley",
+      "date": "20241014",
+      "tournament": "Shenzhen 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. C. Oosterbaan",
-      "score": "5-7 1-6"
+      "opponent": "Y. Zeng",
+      "score": "6-3 7(10)-6(8)"
+    },
+    {
+      "date": "20241013",
+      "tournament": "Shenzhen 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Lu",
+      "score": "7-5 6-4"
     }
   ]
 }
