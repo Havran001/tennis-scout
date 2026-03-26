@@ -1,1 +1,87 @@
-{"player_id":"i0br","sack_id":"212552","name":"Nicolas Ifi","total":0,"matches":[]}
+{
+  "player_id": "i0br",
+  "gs_id": "234598",
+  "player_name": "Nicolas Ifi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T21:17:23.828Z",
+  "matches": [
+    {
+      "date": "20260319",
+      "tournament": "M15 Monastir 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Hernandez",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20260308",
+      "tournament": "Cherbourg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Visker",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250912",
+      "tournament": "M25+H Plaisir",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Reveniau",
+      "score": "4-6 7(7)-6(4) 5-7"
+    },
+    {
+      "date": "20250911",
+      "tournament": "M25+H Plaisir",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. De Loore",
+      "score": "7(9)-6(7) 6-4"
+    },
+    {
+      "date": "20250909",
+      "tournament": "M25+H Plaisir",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Renard",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250211",
+      "tournament": "M15 Oberhaching",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Schell",
+      "score": "4-6 2-6"
+    }
+  ]
+}
