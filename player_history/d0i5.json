@@ -1,1 +1,22 @@
-{"player_id":"d0i5","sack_id":"211609","name":"Max Dahlin","total":0,"matches":[]}
+{
+  "player_id": "d0i5",
+  "gs_id": "166765",
+  "player_name": "Max Dahlin",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:29:27.608Z",
+  "matches": [
+    {
+      "date": "20230717",
+      "tournament": "ATP Bastad",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kotov",
+      "score": "4-6 4-6"
+    }
+  ]
+}
