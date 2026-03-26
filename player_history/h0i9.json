@@ -1,1 +1,48 @@
-{"player_id":"h0i9","sack_id":"211551","name":"Asahi Harazaki","total":0,"matches":[]}
+{
+  "player_id": "h0i9",
+  "gs_id": "138365",
+  "player_name": "Asahi Harazaki",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:46:21.766Z",
+  "matches": [
+    {
+      "date": "20221113",
+      "tournament": "Kobe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Nakagawa",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20221031",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Mochizuki",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20221030",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Danilov",
+      "score": "6-1 7-5"
+    }
+  ]
+}
