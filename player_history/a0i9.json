@@ -1,1 +1,35 @@
-{"player_id":"a0i9","sack_id":"210514","name":"Edison Ambarzumjan","total":1,"matches":[{"id":"OfSopIXp","date":"20260324","tournament":"ITF MEN - DOUBLES: M25 Tarragona (Spain), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Cuenin S./Erhard M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "a0i9",
+  "gs_id": "145230",
+  "player_name": "Edison Ambarzumjan",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:59:22.783Z",
+  "matches": [
+    {
+      "date": "20250212",
+      "tournament": "M15 Oberhaching",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Stebe",
+      "score": "6(2)-7(7) 4-6"
+    },
+    {
+      "date": "20240124",
+      "tournament": "ITF M25 Nussloch Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Heinonen",
+      "score": "6(10)-7(12) 5-7"
+    }
+  ]
+}
