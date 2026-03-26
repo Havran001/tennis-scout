@@ -3,11 +3,11 @@
   "gs_id": "219438",
   "player_name": "Matteo Covato",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:22:45.690Z",
+  "updated": "2026-03-26T17:50:51.745Z",
   "matches": [
     {
-      "date": "20260315",
-      "tournament": "Morelos",
+      "date": "20250831",
+      "tournament": "Cassis",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,21 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Flores",
-      "score": "6(3)-7(7) 2-6"
+      "opponent": "O. Pieczkowski",
+      "score": "7(10)-6(8) 5-7 3-6"
     },
     {
-      "date": "20250907",
-      "tournament": "Rennes",
+      "date": "20250818",
+      "tournament": "Augsburg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Popovic",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250817",
+      "tournament": "Augsburg",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Gerasimov",
-      "score": "2-6 5-7"
+      "result": "W",
+      "opponent": "V. Uzhylovskyi",
+      "score": "4-6 0-1 ret."
     }
   ]
 }
