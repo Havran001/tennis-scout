@@ -3,24 +3,115 @@
   "gs_id": "34047",
   "player_name": "Corentin Denolly",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:04:18.572Z",
+  "updated": "2026-03-26T11:43:57.582Z",
   "matches": [
     {
-      "date": "20180324",
-      "tournament": "Calabasas",
+      "date": "20250608",
+      "tournament": "Hertogenbosch",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Lajal",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250403",
+      "tournament": "Houston",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kovacevic",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250331",
+      "tournament": "Houston",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Holt",
+      "score": "6(7)-7(9) 6(8)-7(10)"
+    },
+    {
+      "date": "20250330",
+      "tournament": "Houston",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Mannarino",
+      "score": "4-6 7-5 6(5)-7(7)"
+    },
+    {
+      "date": "20250329",
+      "tournament": "Houston",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. K. Trotter",
+      "score": "6-3 2-6 6-3"
+    },
+    {
+      "date": "20190512",
+      "tournament": "Vercelli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Chazal",
+      "score": "2-6 6-4 7-5"
+    },
+    {
+      "date": "20190511",
+      "tournament": "Vercelli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Crepaldi",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20190510",
+      "tournament": "Vercelli",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Giron",
-      "score": "6-4 5-7 1-6"
+      "result": "W",
+      "opponent": "A. Petrone",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20180323",
-      "tournament": "Calabasas",
+      "date": "20190509",
+      "tournament": "Vercelli",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Mi. Redlicki",
-      "score": "6-0 6(5)-7(7) 4-6"
+      "opponent": "G. Petit",
+      "score": "6-0 2-0 ret."
     },
     {
-      "date": "20180321",
-      "tournament": "Calabasas",
+      "date": "20190508",
+      "tournament": "Vercelli",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Krenn",
-      "score": "0-6 2-6"
+      "opponent": "A. Turco",
+      "score": "6-4 6-3"
     }
   ]
 }
