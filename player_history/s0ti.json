@@ -3,11 +3,11 @@
   "gs_id": "84363",
   "player_name": "Philip Sekulic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:18:40.517Z",
+  "updated": "2026-03-26T11:45:49.585Z",
   "matches": [
     {
-      "date": "20260112",
-      "tournament": "Australian Open",
+      "date": "20240624",
+      "tournament": "ATP Wimbledon",
       "surface": "Hard",
       "level": "G",
       "round": "QF",
@@ -15,25 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Trungelliti",
-      "score": "6-2 1-6 6-1"
+      "opponent": "H. Dellien",
+      "score": "3-6 7(7)-6(5) 3-6"
     },
     {
-      "date": "20240109",
-      "tournament": "ATP Australian Open",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Roca Batalla",
-      "score": "7-5 6-1"
-    },
-    {
-      "date": "20231014",
-      "tournament": "ATP Tokyo",
+      "date": "20231230",
+      "tournament": "ATP Brisbane",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -41,34 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Garin",
-      "score": "7(7)-6(3) 6-3"
+      "opponent": "J. Duckworth",
+      "score": "7(7)-6(5) 6-4"
     },
     {
-      "date": "20230110",
-      "tournament": "Australian Open",
+      "date": "20231005",
+      "tournament": "ATP Shanghai",
       "surface": "Hard",
-      "level": "G",
-      "round": "QF",
+      "level": "B",
+      "round": "R128",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Watanuki",
-      "score": "6-4 6-2"
+      "opponent": "L. Sonego",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20220112",
-      "tournament": "Australian Open",
+      "date": "20231003",
+      "tournament": "ATP Shanghai",
       "surface": "Hard",
-      "level": "G",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Weber",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20231002",
+      "tournament": "ATP Shanghai",
+      "surface": "Hard",
+      "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Popko",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "K. Uchida",
+      "score": "6-3 7(7)-6(5)"
     }
   ]
 }
