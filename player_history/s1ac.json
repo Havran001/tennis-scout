@@ -3,8 +3,21 @@
   "gs_id": "300329",
   "player_name": "Dmitry Kopilevich",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:02:39.097Z",
+  "updated": "2026-03-26T21:18:46.828Z",
   "matches": [
+    {
+      "date": "20250402",
+      "tournament": "M15 Heraklion 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Parker",
+      "score": "6-2 6-1"
+    },
     {
       "date": "20250326",
       "tournament": "M15 Heraklion 2",
@@ -17,6 +30,19 @@
       "result": "L",
       "opponent": "S. Parker",
       "score": "6-1 6-0"
+    },
+    {
+      "date": "20250311",
+      "tournament": "M15 Porec",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Mikovic",
+      "score": "5-7 6-1 6-1"
     }
   ]
 }
