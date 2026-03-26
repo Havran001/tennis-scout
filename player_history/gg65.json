@@ -3,11 +3,11 @@
   "gs_id": "31858",
   "player_name": "Michael Geerts",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:17:05.514Z",
+  "updated": "2026-03-26T10:31:12.587Z",
   "matches": [
     {
-      "date": "20240413",
-      "tournament": "ATP Munich",
+      "date": "20231104",
+      "tournament": "ATP Metz",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -15,64 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Pellegrino",
-      "score": "6(4)-7(7) 4-6"
+      "opponent": "C. Hemery",
+      "score": "7(9)-6(7) 6-4"
     },
     {
-      "date": "20220823",
-      "tournament": "US Open",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Travaglia",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20190712",
-      "tournament": "Getxo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Gomez",
-      "score": "4-6 7-5 1-6"
-    },
-    {
-      "date": "20190711",
-      "tournament": "Getxo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Martos Gornes",
-      "score": "4-6 7(9)-6(7) 6-0"
-    },
-    {
-      "date": "20190710",
-      "tournament": "Getxo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Pla Malfeito",
-      "score": "6-4 7-5"
-    },
-    {
-      "date": "20190516",
-      "tournament": "Valldoreix",
+      "date": "20170914",
+      "tournament": "Claremont",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Pla Malfeito",
-      "score": ""
+      "opponent": "E. Dischinger",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20190514",
-      "tournament": "Valldoreix",
+      "date": "20170913",
+      "tournament": "Claremont",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Lopez Montagud",
-      "score": "6-4 6-4"
+      "opponent": "E. Song",
+      "score": "6-2 7(7)-6(2)"
+    },
+    {
+      "date": "20150929",
+      "tournament": "Hambach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Boehler",
+      "score": "5-7 3-6"
     }
   ]
 }
