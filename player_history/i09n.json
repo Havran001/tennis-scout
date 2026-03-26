@@ -1,1 +1,48 @@
-{"player_id":"i09n","sack_id":"200713","name":"Federico Iannaccone","total":0,"matches":[]}
+{
+  "player_id": "i09n",
+  "gs_id": "37637",
+  "player_name": "Federico Iannaccone",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:41.517Z",
+  "matches": [
+    {
+      "date": "20190730",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Forti",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20180731",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Fonio",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20170621",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Leonardi",
+      "score": "3-6 2-6"
+    }
+  ]
+}
