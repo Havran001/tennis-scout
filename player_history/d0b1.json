@@ -1,1 +1,48 @@
-{"matches":[],"total":0}
+{
+  "player_id": "d0b1",
+  "gs_id": "163493",
+  "player_name": "Vito Dell'Elba",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T21:13:12.835Z",
+  "matches": [
+    {
+      "date": "20250806",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. D. Ionel",
+      "score": "4-6 6-2 4-6"
+    },
+    {
+      "date": "20230524",
+      "tournament": "ITF M15 Bucharest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Nijboer",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20230222",
+      "tournament": "ITF M15 Monastir 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Isomura",
+      "score": "6-2 6-4"
+    }
+  ]
+}
