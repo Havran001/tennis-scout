@@ -1,1 +1,22 @@
-{"player_id":"cn64","sack_id":"134545","name":"Alexis Canter","total":0,"matches":[]}
+{
+  "player_id": "cn64",
+  "gs_id": "28650",
+  "player_name": "Alexis Canter",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:31:04.565Z",
+  "matches": [
+    {
+      "date": "20170913",
+      "tournament": "Nottingham",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bass",
+      "score": "3-6 4-6"
+    }
+  ]
+}
