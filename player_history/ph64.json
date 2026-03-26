@@ -1,1 +1,74 @@
-{"player_id":"ph64","sack_id":"126504","name":"Andrea Pellegrino","total":2,"matches":[{"id":"AaU1ewHP","date":"20260325","tournament":"CHALLENGER MEN - SINGLES: Naples (Italy), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Sachko V.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"YBK56tEj","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Naples (Italy), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Gille S./Verbeek S.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "ph64",
+  "gs_id": "20286",
+  "player_name": "Andrea Pellegrino",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:44:26.499Z",
+  "matches": [
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kukushkin",
+      "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20250720",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Llamas Ruiz",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250719",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Sachko",
+      "score": "6-2 2-6 7(7)-6(1)"
+    },
+    {
+      "date": "20220823",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Popko",
+      "score": "4-6 7(7)-6(3) 6-2"
+    },
+    {
+      "date": "20210824",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Lestienne",
+      "score": "5-7 6-4 0-6"
+    }
+  ]
+}
