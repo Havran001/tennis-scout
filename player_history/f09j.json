@@ -3,20 +3,98 @@
   "gs_id": "41011",
   "player_name": "Karl Friberg",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:55:57.539Z",
+  "updated": "2026-03-26T11:04:45.599Z",
   "matches": [
     {
-      "date": "20180918",
-      "tournament": "London - Roehampton",
+      "date": "20231016",
+      "tournament": "ATP Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kecmanovic",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20221016",
+      "tournament": "Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bellier",
+      "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20221015",
+      "tournament": "Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Andujar",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20181014",
+      "tournament": "Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Polansky",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20180912",
+      "tournament": "Nottingham",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Draper",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20180911",
+      "tournament": "Nottingham",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Carter",
+      "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20171015",
+      "tournament": "Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "A. McHugh",
-      "score": "4-6 6-4 7(7)-6(3)"
+      "opponent": "M. Fucsovics",
+      "score": "0-6 3-6"
     }
   ]
 }
