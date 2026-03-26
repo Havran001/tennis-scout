@@ -3,11 +3,89 @@
   "gs_id": "58117",
   "player_name": "Fabrizio Andaloro",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:56:24.566Z",
+  "updated": "2026-03-26T13:49:15.644Z",
   "matches": [
     {
-      "date": "20180904",
-      "tournament": "Trieste",
+      "date": "20240723",
+      "tournament": "Segovia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Gerasimov",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240722",
+      "tournament": "Segovia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Fery",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20240721",
+      "tournament": "Segovia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Reymond",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20230903",
+      "tournament": "Genova Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Oradini",
+      "score": "6-3 3-6 5-7"
+    },
+    {
+      "date": "20221121",
+      "tournament": "Andria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Paulson",
+      "score": "4-6 6-4 6-2"
+    },
+    {
+      "date": "20221120",
+      "tournament": "Andria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Yevseyev",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20190531",
+      "tournament": "Reggio Emilia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Fellin",
-      "score": "6(1)-7(7) 7(7)-6(4) 7-5"
+      "opponent": "G. Beghi",
+      "score": "0-6 1-6"
     }
   ]
 }
