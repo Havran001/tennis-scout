@@ -1,1 +1,87 @@
-{"player_id":"b0jg","sack_id":"209863","name":"Leo Borg","total":2,"matches":[{"id":"pzrFNkiB","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Ahmedabad (India), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Duhan C.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"dSxDThbs","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Ahmedabad (India), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Sahita S.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "b0jg",
+  "gs_id": "71330",
+  "player_name": "Leo Borg",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:32:12.555Z",
+  "matches": [
+    {
+      "date": "20251015",
+      "tournament": "Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Shapovalov",
+      "score": "6-2 5-7 6-1"
+    },
+    {
+      "date": "20251013",
+      "tournament": "Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Ofner",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20241015",
+      "tournament": "Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Muller",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20231017",
+      "tournament": "ATP Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Djere",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20221018",
+      "tournament": "Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Paul",
+      "score": "5-7 6-4 6-1"
+    },
+    {
+      "date": "20211107",
+      "tournament": "ATP Stockholm",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Paul",
+      "score": "6-4 6-2"
+    }
+  ]
+}
