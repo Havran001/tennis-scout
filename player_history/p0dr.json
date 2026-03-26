@@ -1,1 +1,35 @@
-{"player_id":"p0dr","sack_id":"208104","name":"Andrea Picchione","total":0,"matches":[]}
+{
+  "player_id": "p0dr",
+  "gs_id": "71165",
+  "player_name": "Andrea Picchione",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:28:56.603Z",
+  "matches": [
+    {
+      "date": "20240506",
+      "tournament": "ATP Rome",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Marterer",
+      "score": "6-4 3-6 5-7"
+    },
+    {
+      "date": "20190918",
+      "tournament": "Santa Margherita Di Pula 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ejupovic",
+      "score": "6-3 6-3"
+    }
+  ]
+}
