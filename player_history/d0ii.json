@@ -1,1 +1,48 @@
-{"player_id":"d0ii","sack_id":"210454","name":"Jesse De Jager","total":0,"matches":[]}
+{
+  "player_id": "d0ii",
+  "gs_id": "96342",
+  "player_name": "Jesse De Jager",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:23:37.990Z",
+  "matches": [
+    {
+      "date": "20250625",
+      "tournament": "M15 Alkmaar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Martin",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20220204",
+      "tournament": "M15 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Ilhan",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20220114",
+      "tournament": "M15 Antalya",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Winter Lopez",
+      "score": "6-1 6-1"
+    }
+  ]
+}
