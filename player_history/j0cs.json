@@ -3,11 +3,11 @@
   "gs_id": "147894",
   "player_name": "Petar Jovanovic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:12:45.830Z",
+  "updated": "2026-03-26T23:57:18.899Z",
   "matches": [
     {
-      "date": "20240920",
-      "tournament": "M15 Fayetteville",
+      "date": "20230609",
+      "tournament": "M15 Sarajevo",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Legout",
-      "score": "6-3 4-6 5-7"
+      "opponent": "J. Paul",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20240919",
-      "tournament": "M15 Fayetteville",
+      "date": "20230608",
+      "tournament": "M15 Sarajevo",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. C. Alvarez Valdes",
-      "score": "2-6 4-6"
+      "opponent": "M. Stakusic",
+      "score": "6-1 6-3"
     },
     {
-      "date": "20240918",
-      "tournament": "M15 Fayetteville",
+      "date": "20230607",
+      "tournament": "M15 Sarajevo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Chopra",
-      "score": "2-6 5-7"
+      "opponent": "S. Popovic",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20220922",
-      "tournament": "M15 Fayetteville",
+      "date": "20210922",
+      "tournament": "M15 Ulcinj 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. M. Jong",
-      "score": "6-3 0-6 2-6"
+      "opponent": "T. Legout",
+      "score": "6-0 2-6 6-2"
+    },
+    {
+      "date": "20210914",
+      "tournament": "M15 Ulcinj 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Friberg",
+      "score": "3-6 0-6"
     }
   ]
 }
