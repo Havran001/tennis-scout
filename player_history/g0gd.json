@@ -1,1 +1,113 @@
-{"player_id":"g0gd","sack_id":"209263","name":"Matteo Gigante","total":0,"matches":[]}
+{
+  "player_id": "g0gd",
+  "gs_id": "78662",
+  "player_name": "Matteo Gigante",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:36.517Z",
+  "matches": [
+    {
+      "date": "20250821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Wong",
+      "score": "4-6 6-3 7-5"
+    },
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Butvilas",
+      "score": "3-6 6-4 6-2"
+    },
+    {
+      "date": "20250805",
+      "tournament": "Cincinnati",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kypson",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "U. Humbert",
+      "score": "6(5)-7(7) 5-7 4-6"
+    },
+    {
+      "date": "20250109",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Rocha",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20250108",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Neumayer",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240820",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. E. Galan",
+      "score": "7(9)-6(7) 6-4"
+    },
+    {
+      "date": "20230823",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Spizzirri",
+      "score": "4-6 7(7)-6(3) 1-6"
+    }
+  ]
+}
