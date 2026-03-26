@@ -1,1 +1,48 @@
-{"player_id":"s0zh","sack_id":"212289","name":"Tom Sickenberger","total":0,"matches":[]}
+{
+  "player_id": "s0zh",
+  "gs_id": "208447",
+  "player_name": "Tom Sickenberger",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T21:17:12.830Z",
+  "matches": [
+    {
+      "date": "20260226",
+      "tournament": "M15 Monastir 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. de Marchi",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20260225",
+      "tournament": "M15 Monastir 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Donnet",
+      "score": "6(2)-7(7) 2-6"
+    },
+    {
+      "date": "20260128",
+      "tournament": "M25 Nussloch",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Steiner",
+      "score": "4-6 5-7"
+    }
+  ]
+}
