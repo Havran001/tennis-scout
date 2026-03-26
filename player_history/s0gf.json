@@ -1,1 +1,87 @@
-{"player_id":"s0gf","sack_id":"207557","name":"Maik Steiner","total":0,"matches":[]}
+{
+  "player_id": "s0gf",
+  "gs_id": "57783",
+  "player_name": "Maik Steiner",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:22.538Z",
+  "matches": [
+    {
+      "date": "20190822",
+      "tournament": "Ueberlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Wessels",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20190821",
+      "tournament": "Ueberlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Hoffmann",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20190815",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Welte",
+      "score": "7-5 6(6)-7(8) 1-6"
+    },
+    {
+      "date": "20190814",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Bergevi",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20190813",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Gelhardt",
+      "score": "5-0 ret."
+    },
+    {
+      "date": "20180724",
+      "tournament": "Wetzlar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Gigounon",
+      "score": "1-6 0-6"
+    }
+  ]
+}
