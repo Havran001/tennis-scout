@@ -3,11 +3,11 @@
   "gs_id": "41612",
   "player_name": "Admir Kalender",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:00:34.892Z",
+  "updated": "2026-03-26T23:49:34.901Z",
   "matches": [
     {
-      "date": "20250611",
-      "tournament": "M25 Kiseljak",
+      "date": "20240821",
+      "tournament": "ITF M15 Pirot Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,51 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Gandolfi",
-      "score": "6-2 6-4"
+      "opponent": "L. Tessa",
+      "score": "5-7 5-3 ret."
     },
     {
-      "date": "20220320",
-      "tournament": "Zadar",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Kirkin",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20210825",
-      "tournament": "ITF M15 Bad Waltersdorf Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Krainer",
-      "score": "4-6 6-3 2-6"
-    },
-    {
-      "date": "20210610",
-      "tournament": "M15 Skopje 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. D. Ionel",
-      "score": "6-2 3-6 6-0"
-    },
-    {
-      "date": "20210603",
-      "tournament": "ITF M15 Skopje Men",
+      "date": "20221020",
+      "tournament": "M15 Sozopol 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Lazarov",
-      "score": "1-6 3-6"
+      "opponent": "S. Terziev",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20210602",
-      "tournament": "ITF M15 Skopje Men",
+      "date": "20221018",
+      "tournament": "M15 Sozopol 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Danilov",
-      "score": "6-1 6-4"
+      "opponent": "C. Manda",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20210323",
-      "tournament": "ITF M15 Opatija Men",
+      "date": "20221012",
+      "tournament": "M15 Sozopol 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Galoppini",
-      "score": "6-2 6-0"
+      "opponent": "M. Kasnikowski",
+      "score": "1-6 6-4 1-6"
     },
     {
-      "date": "20210317",
-      "tournament": "ITF M15 Rovinj Men",
+      "date": "20221004",
+      "tournament": "M15 Sozopol",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Rondoni",
-      "score": "5-7 4-6"
+      "opponent": "V. Vanta",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20211017",
+      "tournament": "Losinj",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Reboul",
+      "score": "7(7)-6(4) 6-0"
     }
   ]
 }
