@@ -1,1 +1,100 @@
-{"player_id":"sy72","sack_id":"134256","name":"Reese Stalder","total":0,"matches":[]}
+{
+  "player_id": "sy72",
+  "gs_id": "57268",
+  "player_name": "Reese Stalder",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:28:37.611Z",
+  "matches": [
+    {
+      "date": "20191203",
+      "tournament": "Tallahassee",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Blumberg",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20190612",
+      "tournament": "Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Dunbar",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20190606",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Fawcett",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20190605",
+      "tournament": "Champaign",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Brown",
+      "score": "7-5 7(7)-6(3)"
+    },
+    {
+      "date": "20180707",
+      "tournament": "Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Peniston",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20180705",
+      "tournament": "Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Altamirano",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20180704",
+      "tournament": "Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Strode",
+      "score": "7(7)-6(5) 6-2"
+    }
+  ]
+}
