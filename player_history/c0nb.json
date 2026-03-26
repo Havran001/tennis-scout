@@ -1,1 +1,61 @@
-{"player_id":"c0nb","sack_id":"210748","name":"Federico Cina","total":2,"matches":[{"id":"MN3iVugS","date":"20260325","tournament":"CHALLENGER MEN - SINGLES: Naples (Italy), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Forti F.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"YZv3xLBr","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Naples (Italy), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Piraino G.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "c0nb",
+  "gs_id": "157424",
+  "player_name": "Federico Cina",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:19:08.519Z",
+  "matches": [
+    {
+      "date": "20260114",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Vallejo",
+      "score": "4-6 6-2 6-3"
+    },
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Harris",
+      "score": "4-6 7(7)-6(4) 3-6"
+    },
+    {
+      "date": "20250821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. A. Gomez",
+      "score": "3-6 6-2 5-7"
+    },
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Stricker",
+      "score": "2-6 2-6"
+    }
+  ]
+}
