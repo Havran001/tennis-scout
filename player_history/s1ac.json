@@ -3,37 +3,37 @@
   "gs_id": "300329",
   "player_name": "Dmitry Kopilevich",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:18:46.828Z",
+  "updated": "2026-03-26T23:13:39.892Z",
   "matches": [
     {
-      "date": "20250402",
-      "tournament": "M15 Heraklion 3",
+      "date": "20250807",
+      "tournament": "M15 Sofia",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Parker",
-      "score": "6-2 6-1"
+      "opponent": "N. Mashtakov",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20250326",
-      "tournament": "M15 Heraklion 2",
+      "date": "20250805",
+      "tournament": "M15 Sofia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Parker",
-      "score": "6-1 6-0"
+      "result": "W",
+      "opponent": "M. Tammaro",
+      "score": "7(7)-6(3) 6-2"
     },
     {
-      "date": "20250311",
-      "tournament": "M15 Porec",
+      "date": "20250513",
+      "tournament": "M15 Prijedor",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Mikovic",
-      "score": "5-7 6-1 6-1"
+      "opponent": "S. Pieri",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20250304",
+      "tournament": "M15 Poitiers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sabas",
+      "score": "7-5 7-5"
     }
   ]
 }
