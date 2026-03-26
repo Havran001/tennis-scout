@@ -1,1 +1,61 @@
-{"player_id":"m0i0","sack_id":"208297","name":"Maxwell Mckennon","total":0,"matches":[]}
+{
+  "player_id": "m0i0",
+  "gs_id": "177333",
+  "player_name": "Maxwell McKennon",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:06.633Z",
+  "matches": [
+    {
+      "date": "20251007",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Rolland",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20250928",
+      "tournament": "Tiburon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Winter",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250921",
+      "tournament": "Las Vegas",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sheehy",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20180925",
+      "tournament": "Fountain Valley",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Bryde",
+      "score": "6-4 6-4"
+    }
+  ]
+}
