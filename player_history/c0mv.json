@@ -3,20 +3,33 @@
   "gs_id": "150070",
   "player_name": "Jiri Cizek",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:51:45.647Z",
+  "updated": "2026-03-26T18:59:32.775Z",
   "matches": [
     {
-      "date": "20250427",
-      "tournament": "Ostrava",
+      "date": "20250212",
+      "tournament": "M15 Antalya 4",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Houkes",
-      "score": "4-6 3-6"
+      "opponent": "N. Oberleitner",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250115",
+      "tournament": "M15 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Fita Juan",
+      "score": "5-7 0-2 ret."
     }
   ]
 }
