@@ -1,1 +1,48 @@
-{"player_id":"n0eg","sack_id":"211621","name":"Arthur Nagel","total":2,"matches":[{"id":"YmIbt86D","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Verno P.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"WhDnrngM","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Baldini M./Gammariello A.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "n0eg",
+  "gs_id": "169143",
+  "player_name": "Arthur Nagel",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T15:22:24.699Z",
+  "matches": [
+    {
+      "date": "20260222",
+      "tournament": "Saint Brieuc",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Poullain",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20260127",
+      "tournament": "Quimper",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Martineau",
+      "score": "7(7)-6(3) 5-7 2-6"
+    },
+    {
+      "date": "20260126",
+      "tournament": "Quimper",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Martinez",
+      "score": "2-6 6-2 6-4"
+    }
+  ]
+}
