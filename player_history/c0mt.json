@@ -1,1 +1,100 @@
-{"player_id":"c0mt","sack_id":"212122","name":"Edoardo Cherie Ligniere","total":0,"matches":[]}
+{
+  "player_id": "c0mt",
+  "gs_id": "149932",
+  "player_name": "Edoardo Cherie Ligniere",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:17:49.809Z",
+  "matches": [
+    {
+      "date": "20250809",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. M. Papoe",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250808",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Rottoli",
+      "score": "6-3 3-6 0-4 ret."
+    },
+    {
+      "date": "20250807",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Cattaneo",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20250806",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. R. Marinescu",
+      "score": "7(7)-6(4) 6-0"
+    },
+    {
+      "date": "20230528",
+      "tournament": "Vicenza Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Serdarusic",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20220523",
+      "tournament": "Vicenza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. De Schepper",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20220522",
+      "tournament": "Vicenza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Viola",
+      "score": ""
+    }
+  ]
+}
