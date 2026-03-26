@@ -1,13 +1,65 @@
 {
   "player_id": "l0cu",
-  "gs_id": "163542",
-  "player_name": "Noah Regas Luis",
+  "gs_id": "138527",
+  "player_name": "Carlos Alvarez Valdes Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:18:31.808Z",
+  "updated": "2026-03-26T21:12:26.826Z",
   "matches": [
     {
-      "date": "20251018",
-      "tournament": "M15 Castellon",
+      "date": "20250921",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Smith",
+      "score": "6-3 4-6 6-3"
+    },
+    {
+      "date": "20250920",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Perot",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250919",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Kotzen",
+      "score": "1-6 7(8)-6(6) 7-5"
+    },
+    {
+      "date": "20250918",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Kimhi",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20250917",
+      "tournament": "M15 Fayetteville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Liu",
-      "score": "6-2 6-1"
+      "opponent": "T. Legout",
+      "score": "7(7)-6(4) 6-0"
     },
     {
-      "date": "20251018",
-      "tournament": "M15 Castellon",
+      "date": "20240919",
+      "tournament": "M15 Fayetteville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,8 +80,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Lopez Montagud",
-      "score": "3-6 2-6"
+      "opponent": "P. Jovanovic",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20240918",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Vasser",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20240607",
+      "tournament": "M15 Santo Domingo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Cid Subervi",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20240606",
+      "tournament": "M15 Santo Domingo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Faucon",
+      "score": "6(4)-7(7) 0-3 ret."
+    },
+    {
+      "date": "20231101",
+      "tournament": "ITF M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Stice",
+      "score": "7(7)-6(5) 6(6)-7(8) 6-2"
     }
   ]
 }
