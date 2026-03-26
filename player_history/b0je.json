@@ -1,1 +1,61 @@
-{"player_id":"b0je","sack_id":"209407","name":"Max Basing","total":0,"matches":[]}
+{
+  "player_id": "b0je",
+  "gs_id": "83702",
+  "player_name": "Max Basing",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:57.628Z",
+  "matches": [
+    {
+      "date": "20241009",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Tomic",
+      "score": "6-4 6(1)-7(7) 1-6"
+    },
+    {
+      "date": "20241008",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Pinnington Jones",
+      "score": "6-2 1-6 6-3"
+    },
+    {
+      "date": "20241007",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Baris",
+      "score": "6(5)-7(7) 7(7)-6(2) 3-6"
+    },
+    {
+      "date": "20241006",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Smith",
+      "score": "6-3 1-6 6-3"
+    }
+  ]
+}
