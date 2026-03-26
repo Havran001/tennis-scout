@@ -1,1 +1,48 @@
-{"player_id":"u176","sack_id":"134068","name":"Vadym Ursu","total":0,"matches":[]}
+{
+  "player_id": "u176",
+  "gs_id": "27143",
+  "player_name": "Vadym Ursu",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:16:49.529Z",
+  "matches": [
+    {
+      "date": "20180718",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Pena Lopez",
+      "score": "6-1 7-5"
+    },
+    {
+      "date": "20140710",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Marterer",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20140709",
+      "tournament": "Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Rath",
+      "score": "6-2 6-4"
+    }
+  ]
+}
