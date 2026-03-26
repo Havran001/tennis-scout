@@ -1,13 +1,13 @@
 {
   "player_id": "f0cj",
-  "gs_id": "143134",
-  "player_name": "Francesco Ferrari",
+  "gs_id": "57664",
+  "player_name": "Gianmarco Ferrari",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:56:56.544Z",
+  "updated": "2026-03-26T12:28:41.613Z",
   "matches": [
     {
-      "date": "20180808",
-      "tournament": "Edwardsville",
+      "date": "20250513",
+      "tournament": "M25 Vic",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Caruana",
-      "score": "6-4 6-1"
+      "opponent": "J. Clarke",
+      "score": "1-6 6(3)-7(7)"
+    },
+    {
+      "date": "20230508",
+      "tournament": "ATP Rome",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Muller",
+      "score": "6-2 6(4)-7(7) 4-6"
+    },
+    {
+      "date": "20220507",
+      "tournament": "Rome",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Giron",
+      "score": "7(9)-6(7) 3-6 2-6"
+    },
+    {
+      "date": "20190917",
+      "tournament": "Santa Margherita Di Pula 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Petrone",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20190910",
+      "tournament": "Santa Margherita Di Pula 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Fellin",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20181008",
+      "tournament": "Santa Margherita Di Pula 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Santanna",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20180926",
+      "tournament": "Santa Margherita Di Pula 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rajski",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20180924",
+      "tournament": "Santa Margherita Di Pula 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Hampel",
+      "score": "0-2 ret."
     }
   ]
 }
