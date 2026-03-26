@@ -3,20 +3,33 @@
   "gs_id": "154586",
   "player_name": "Laurin Aerne",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:29:21.606Z",
+  "updated": "2026-03-26T20:18:02.810Z",
   "matches": [
     {
-      "date": "20181002",
-      "tournament": "Oberhaching",
+      "date": "20250925",
+      "tournament": "M15 Forbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Zick",
+      "score": "6(2)-7(7) 6(3)-7(7)"
+    },
+    {
+      "date": "20250924",
+      "tournament": "M15 Forbach",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Semjan",
-      "score": "3-6 3-6"
+      "result": "W",
+      "opponent": "L. Van Herck",
+      "score": "6-2 3-6 3-6"
     }
   ]
 }
