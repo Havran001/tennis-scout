@@ -3,50 +3,63 @@
   "gs_id": "87149",
   "player_name": "Edward Papac Tomislav",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:49:23.748Z",
+  "updated": "2026-03-26T20:16:15.811Z",
   "matches": [
     {
-      "date": "20240127",
-      "tournament": "Burnie",
+      "date": "20250313",
+      "tournament": "M25 Mildura",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Walkin",
-      "score": "4-6 0-6"
+      "opponent": "C. Langmo",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230129",
-      "tournament": "Burnie Challenger Men",
+      "date": "20250311",
+      "tournament": "M25 Mildura",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Harper",
-      "score": "6(5)-7(7) 6-3 2-6"
+      "opponent": "Y. Inui",
+      "score": "2-6 6-4 2-6"
     },
     {
-      "date": "20230129",
-      "tournament": "Burnie Challenger Men",
+      "date": "20240313",
+      "tournament": "ITF M25 Mildura Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Shin",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240313",
+      "tournament": "ITF M25 Mildura Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Camus",
-      "score": "6-2 2-6 6-3"
+      "opponent": "M. Hulme",
+      "score": "7(7)-6(3) 4-6 4-6"
     },
     {
       "date": "20221024",
-      "tournament": "Playford Challenger Men",
+      "tournament": "Playford 2",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -59,7 +72,7 @@
     },
     {
       "date": "20221024",
-      "tournament": "Playford Challenger Men",
+      "tournament": "Playford 2",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -69,6 +82,32 @@
       "result": "L",
       "opponent": "Y. Takahashi",
       "score": "2-6 1-6"
+    },
+    {
+      "date": "20220525",
+      "tournament": "M15 Cancun 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Sarkar",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20200304",
+      "tournament": "M25 Mildura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Hsu Yu",
+      "score": "6-1 6-2"
     }
   ]
 }
