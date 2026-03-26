@@ -1,13 +1,13 @@
 {
   "player_id": "sx77",
-  "gs_id": "148946",
-  "player_name": "Elijah Strode",
+  "gs_id": "33433",
+  "player_name": "Isaiah Strode",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:17:41.832Z",
+  "updated": "2026-03-26T22:58:13.879Z",
   "matches": [
     {
-      "date": "20220604",
-      "tournament": "M15 Cancun 7",
+      "date": "20250617",
+      "tournament": "M25 Tulsa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Nordquist",
-      "score": "7(11)-6(9) 4-6 10-7"
+      "opponent": "A. Ghibaudo",
+      "score": "1-6 6(1)-7(7)"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Mejia",
+      "score": "3-6 6-4 3-6"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Bracks",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20230518",
+      "tournament": "ITF M25 Pensacola",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Popko",
+      "score": "3-6 4-6"
     }
   ]
 }
