@@ -3,11 +3,37 @@
   "gs_id": "77598",
   "player_name": "Prajwal Dev S D",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:09:49.626Z",
+  "updated": "2026-03-26T13:49:55.643Z",
   "matches": [
     {
-      "date": "20250727",
-      "tournament": "Liberec",
+      "date": "20260223",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Kumasaka",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20260222",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Castelnuovo",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20260215",
+      "tournament": "New Delhi",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Castagnola",
-      "score": "6-3 6-1"
+      "opponent": "A. Donski",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20251103",
+      "tournament": "Taipei",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Trongcharoenchaikul",
+      "score": "3-1 ret."
+    },
+    {
+      "date": "20251102",
+      "tournament": "Taipei",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Fu",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20251019",
+      "tournament": "Suzhou",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Wu Tung-Lin",
+      "score": "6-1 7-5"
+    },
+    {
+      "date": "20230226",
+      "tournament": "Pune Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sinclair",
+      "score": "3-6 4-6"
     }
   ]
 }
