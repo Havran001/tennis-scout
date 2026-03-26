@@ -3,24 +3,50 @@
   "gs_id": "40787",
   "player_name": "Miguel Damas",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:06:41.570Z",
+  "updated": "2026-03-26T12:28:23.611Z",
   "matches": [
     {
-      "date": "20191017",
-      "tournament": "Getafe (Madrid)",
+      "date": "20250517",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Giustino",
+      "score": "1-6 6-3 4-6"
+    },
+    {
+      "date": "20250516",
+      "tournament": "M25 Vic",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Alcala Gurri",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20250515",
+      "tournament": "M25 Vic",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Zhurbin",
-      "score": "4-6 6(6)-7(8)"
+      "result": "W",
+      "opponent": "M. Beauge",
+      "score": "7(7)-6(4) 1-6 1-6"
     },
     {
-      "date": "20191016",
-      "tournament": "Getafe (Madrid)",
+      "date": "20250514",
+      "tournament": "M25 Vic",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Martinez",
-      "score": "1-6 2-6"
+      "opponent": "O. Crawford",
+      "score": "6(5)-7(7) 6-3 6-2"
     },
     {
-      "date": "20190911",
-      "tournament": "Sevilla",
+      "date": "20240516",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Buse",
+      "score": "6-0 2-6 2-6"
+    },
+    {
+      "date": "20240515",
+      "tournament": "ITF M25 Vic Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Kuhn",
+      "score": "1-6 0-1 ret."
+    },
+    {
+      "date": "20190529",
+      "tournament": "Majadahonda",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +93,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Luz",
-      "score": "2-6 1-6"
+      "opponent": "X. Gabarro",
+      "score": "7-5 0-6 6-3"
+    },
+    {
+      "date": "20170919",
+      "tournament": "Madrid 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Marcora",
+      "score": "3-6 2-6"
     }
   ]
 }
