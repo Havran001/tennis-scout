@@ -3,11 +3,24 @@
   "gs_id": "59406",
   "player_name": "Martin Van Der Meerschen",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:06:52.862Z",
+  "updated": "2026-03-26T23:01:12.884Z",
   "matches": [
     {
-      "date": "20251106",
-      "tournament": "M15 Antalya 13",
+      "date": "20250820",
+      "tournament": "M15 Huy",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Schlageter",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250814",
+      "tournament": "M25 Koksijde",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Madaras",
-      "score": "6-0 3-6 6-3"
+      "opponent": "R. Faucon",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20251105",
-      "tournament": "M15 Antalya 13",
+      "date": "20250812",
+      "tournament": "M25 Koksijde",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,60 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Yilmaz",
-      "score": "0-2 ret."
-    },
-    {
-      "date": "20250502",
-      "tournament": "M15 Shymkent 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Vanshelboim",
-      "score": "7-5 6-3"
-    },
-    {
-      "date": "20250501",
-      "tournament": "M15 Shymkent 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Kunitsyn",
-      "score": "6-3 7-5"
-    },
-    {
-      "date": "20250429",
-      "tournament": "M15 Shymkent 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Ivanov",
-      "score": "2-6 6-2 6-3"
-    },
-    {
-      "date": "20250423",
-      "tournament": "M15 Shymkent",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Kukasian",
-      "score": "6-2 6-1"
+      "opponent": "M. De Boes",
+      "score": "0-6 6-3 6-3"
     },
     {
       "date": "20241118",
@@ -147,6 +108,19 @@
       "result": "W",
       "opponent": "C. Ilkel",
       "score": "6-3 3-6 3-6"
+    },
+    {
+      "date": "20240813",
+      "tournament": "ITF M25 Koksijde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Den Ouden",
+      "score": "7-5 7(7)-6(2)"
     }
   ]
 }
