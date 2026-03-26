@@ -3,24 +3,37 @@
   "gs_id": "5247",
   "player_name": "Yaraslav Shyla",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:05:05.865Z",
+  "updated": "2026-03-26T23:48:00.894Z",
   "matches": [
     {
-      "date": "20210603",
-      "tournament": "M15 Shymkent 4",
+      "date": "20241101",
+      "tournament": "ITF M15 Sharm ElSheikh 14 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Borg",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20241031",
+      "tournament": "ITF M15 Sharm ElSheikh 14 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Lavagno",
-      "score": "7(7)-6(3) 6-4"
+      "result": "W",
+      "opponent": "A. Abdullin",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20210602",
-      "tournament": "M15 Shymkent 4",
+      "date": "20241030",
+      "tournament": "ITF M15 Sharm ElSheikh 14 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,47 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Fayziev",
-      "score": "3-6 0-6"
-    },
-    {
-      "date": "20210526",
-      "tournament": "ITF M15 Shymkent 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Fufygin",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20210414",
-      "tournament": "ITF M15 Shymkent Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Lomakin",
-      "score": "6-2 7-5"
-    },
-    {
-      "date": "20210407",
-      "tournament": "ITF M15 Shymkent Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. F. Vidal Azorin",
-      "score": "6-1 2-6 6-3"
+      "opponent": "P. Bertran",
+      "score": "6-2 6(4)-7(7) 4-6"
     }
   ]
 }
