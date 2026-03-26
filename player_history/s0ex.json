@@ -1,1 +1,61 @@
-{"player_id":"s0ex","sack_id":"207171","name":"Hamish Stewart","total":0,"matches":[]}
+{
+  "player_id": "s0ex",
+  "gs_id": "162524",
+  "player_name": "Hamish Stewart",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:46.626Z",
+  "matches": [
+    {
+      "date": "20250626",
+      "tournament": "Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Riedi",
+      "score": "6-3 4-6 6-3 6-4"
+    },
+    {
+      "date": "20250625",
+      "tournament": "Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. van Assche",
+      "score": "6(3)-7(7) 6-4 6(9)-7(11)"
+    },
+    {
+      "date": "20250623",
+      "tournament": "Wimbledon",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Vacherot",
+      "score": "4-6 5-6 ret."
+    },
+    {
+      "date": "20240922",
+      "tournament": "Orleans",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Janvier",
+      "score": "3-6 7-5 4-6"
+    }
+  ]
+}
