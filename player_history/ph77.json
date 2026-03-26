@@ -3,11 +3,24 @@
   "gs_id": "27158",
   "player_name": "David Poljak",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:20:20.839Z",
+  "updated": "2026-03-26T21:15:18.825Z",
   "matches": [
     {
-      "date": "20250926",
-      "tournament": "M25 Pardubice",
+      "date": "20231115",
+      "tournament": "ITF M25 Vale do Lobo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Faria",
+      "score": "3-6 6(6)-7(8)"
+    },
+    {
+      "date": "20201126",
+      "tournament": "ITF M15 Bratislava Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Moeller",
-      "score": "6-1 6-4"
+      "opponent": "D. Kalenichenko",
+      "score": "6-4 2-6 6(3)-7(7)"
     },
     {
-      "date": "20250924",
-      "tournament": "M25 Pardubice",
+      "date": "20201124",
+      "tournament": "ITF M15 Bratislava Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Marsik",
-      "score": "1-6 0-6"
-    },
-    {
-      "date": "20201001",
-      "tournament": "M25 Pardubice",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Kopriva",
-      "score": "6(3)-7(7) 3-6"
+      "opponent": "P. Nejedly",
+      "score": "3-6 6(5)-7(7)"
     }
   ]
 }
