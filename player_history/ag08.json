@@ -1,1 +1,61 @@
-{"player_id":"ag08","sack_id":"200748","name":"Andres Andrade","total":2,"matches":[{"id":"U50GWk7T","date":"20260326","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Schoolkate T.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"6ZwmdDpo","date":"20260325","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Hernandez A.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "ag08",
+  "gs_id": "34205",
+  "player_name": "Andres Andrade",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:17:13.542Z",
+  "matches": [
+    {
+      "date": "20180629",
+      "tournament": "Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Broom",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20180628",
+      "tournament": "Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. A. Hernandez",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20180627",
+      "tournament": "Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Perez",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20160505",
+      "tournament": "Tampa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Sandgren",
+      "score": "2-6 3-6"
+    }
+  ]
+}
