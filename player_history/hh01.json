@@ -3,20 +3,59 @@
   "gs_id": "141976",
   "player_name": "Benjamin Hannestad",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:11:08.629Z",
+  "updated": "2026-03-26T13:51:19.642Z",
   "matches": [
     {
-      "date": "20220717",
-      "tournament": "Tampere",
+      "date": "20161028",
+      "tournament": "Burlingame",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Fils",
+      "opponent": "R. Sarmiento",
       "score": "4-6 1-6"
+    },
+    {
+      "date": "20161027",
+      "tournament": "Burlingame",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Kobelt",
+      "score": "0-6 6-4 6-4"
+    },
+    {
+      "date": "20161026",
+      "tournament": "Burlingame",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Iftikhar",
+      "score": "7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20161018",
+      "tournament": "Berkeley",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Gomez",
+      "score": "6(5)-7(7) 2-6"
     }
   ]
 }
