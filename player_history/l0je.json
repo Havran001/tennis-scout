@@ -1,1 +1,48 @@
-{"player_id":"l0je","sack_id":"212023","name":"Oscar Lacides","total":0,"matches":[]}
+{
+  "player_id": "l0je",
+  "gs_id": "175223",
+  "player_name": "Oscar Lacides",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:00:44.786Z",
+  "matches": [
+    {
+      "date": "20240207",
+      "tournament": "M15 Grenoble",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Garcian",
+      "score": "6-4 1-6 3-6"
+    },
+    {
+      "date": "20240118",
+      "tournament": "ITF M15 Bressuire Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Picchione",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240117",
+      "tournament": "ITF M15 Bressuire Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Loge",
+      "score": "6-1 2-6 6(5)-7(7)"
+    }
+  ]
+}
