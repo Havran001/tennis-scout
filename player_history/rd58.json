@@ -3,11 +3,11 @@
   "gs_id": "37743",
   "player_name": "Dominik Recek",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:17:43.517Z",
+  "updated": "2026-03-26T10:31:39.558Z",
   "matches": [
     {
-      "date": "20190731",
-      "tournament": "Bolzano",
+      "date": "20191009",
+      "tournament": "Bad Salzdetfurth",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Aichhorn",
-      "score": "3-6 4-6"
+      "opponent": "M. Huesler",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20190807",
+      "tournament": "Wetzlar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Tchoutakian",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20190806",
+      "tournament": "Wetzlar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. S. Hain",
+      "score": "6-3 7(8)-6(6)"
     }
   ]
 }
