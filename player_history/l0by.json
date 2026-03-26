@@ -1,1 +1,22 @@
-{"player_id":"l0by","sack_id":"207431","name":"Lewie Lane","total":0,"matches":[]}
+{
+  "player_id": "l0by",
+  "gs_id": "95492",
+  "player_name": "Lewie Lane",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:48.538Z",
+  "matches": [
+    {
+      "date": "20210710",
+      "tournament": "ATP Hamburg",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Nagal",
+      "score": "6-3 6-1"
+    }
+  ]
+}
