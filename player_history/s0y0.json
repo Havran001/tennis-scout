@@ -3,33 +3,46 @@
   "gs_id": "170645",
   "player_name": "Andres Santamarta Roig",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:29:28.605Z",
+  "updated": "2026-03-26T13:52:20.642Z",
   "matches": [
     {
-      "date": "20250515",
-      "tournament": "M25 Vic",
+      "date": "20250624",
+      "tournament": "Milan",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Diez",
-      "score": "3-6 5-7"
-    },
-    {
-      "date": "20250514",
-      "tournament": "M25 Vic",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Vasami",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20250623",
+      "tournament": "Milan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "N. Sanchez Izquierdo",
-      "score": "4-0 ret."
+      "opponent": "T. Pereira",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250622",
+      "tournament": "Milan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Kopp",
+      "score": "6-2 4-1 ret."
     }
   ]
 }
