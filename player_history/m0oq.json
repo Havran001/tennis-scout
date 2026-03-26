@@ -1,1 +1,100 @@
-{"player_id":"m0oq","sack_id":"210317","name":"James Mccabe","total":2,"matches":[{"id":"GQ02Mkso","date":"20260326","tournament":"CHALLENGER MEN - SINGLES: Yokkaichi (Japan), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Matsuoka H.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"WA4Dr0a6","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Yokkaichi (Japan), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Ilagan A.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "m0oq",
+  "gs_id": "84369",
+  "player_name": "James McCabe",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:42.515Z",
+  "matches": [
+    {
+      "date": "20260114",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Budkov Kjaer",
+      "score": "4-6 6-3 7(10)-6(6)"
+    },
+    {
+      "date": "20260112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Marinkov",
+      "score": "2-6 6(5)-7(7)"
+    },
+    {
+      "date": "20250821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Duckworth",
+      "score": "5-7 7-5 6(5)-7(10)"
+    },
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Maestrelli",
+      "score": "3-6 7(7)-6(2) 4-6"
+    },
+    {
+      "date": "20250116",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Michelsen",
+      "score": "5-7 3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20250113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Landaluce",
+      "score": "6-4 6-3 6-4"
+    },
+    {
+      "date": "20240116",
+      "tournament": "ATP Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Michelsen",
+      "score": "7(7)-6(5) 3-6 6-1 6-2"
+    }
+  ]
+}
