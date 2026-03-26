@@ -1,1 +1,61 @@
-{"player_id":"n679","sack_id":"109303","name":"Stefano Napolitano","total":0,"matches":[]}
+{
+  "player_id": "n679",
+  "gs_id": "6488",
+  "player_name": "Stefano Napolitano",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:43:12.499Z",
+  "matches": [
+    {
+      "date": "20190715",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Trungelliti",
+      "score": "7(7)-6(4) 2-6 3-6"
+    },
+    {
+      "date": "20190714",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. J. Barranco",
+      "score": "6(1)-7(7) 6-3 2-6"
+    },
+    {
+      "date": "20170717",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zekic",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20170716",
+      "tournament": "Umag",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Brkic",
+      "score": "6-3 7-5"
+    }
+  ]
+}
