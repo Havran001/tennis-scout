@@ -1,22 +1,35 @@
 {
   "player_id": "a0k3",
-  "gs_id": "170710",
-  "player_name": "Nicolas Arseneault",
+  "gs_id": "170709",
+  "player_name": "Mikael Arseneault",
   "source": "goalserve-full",
-  "updated": "2026-03-26T11:46:05.587Z",
+  "updated": "2026-03-26T13:11:54.628Z",
   "matches": [
     {
-      "date": "20240804",
-      "tournament": "Montreal",
+      "date": "20250714",
+      "tournament": "Granby",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Nakashima",
+      "opponent": "M. Imamura",
       "score": "3-6 2-6"
+    },
+    {
+      "date": "20250706",
+      "tournament": "Winnipeg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Moriya",
+      "score": "4-6 3-6"
     }
   ]
 }
