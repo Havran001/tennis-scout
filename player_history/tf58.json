@@ -1,1 +1,113 @@
-{"player_id":"tf58","sack_id":"126208","name":"Yusuke Takahashi","total":0,"matches":[]}
+{
+  "player_id": "tf58",
+  "gs_id": "11613",
+  "player_name": "Yusuke Takahashi",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:30:38.557Z",
+  "matches": [
+    {
+      "date": "20221002",
+      "tournament": "Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Noguchi",
+      "score": "6-0 2-6 0-6"
+    },
+    {
+      "date": "20221001",
+      "tournament": "Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Dougaz",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20171002",
+      "tournament": "Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Harrison",
+      "score": "6-4 4-6 6-4"
+    },
+    {
+      "date": "20171001",
+      "tournament": "Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Pospisil",
+      "score": "6(1)-7(7) 2-6"
+    },
+    {
+      "date": "20170930",
+      "tournament": "Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Menendez-Maceiras",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20150929",
+      "tournament": "Sabadell",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Roca Batalla",
+      "score": "6(8)-7(10) 2-6"
+    },
+    {
+      "date": "20140927",
+      "tournament": "Tokyo",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Ram",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20121113",
+      "tournament": "Bujumbura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Melzer",
+      "score": "0-6 1-6"
+    }
+  ]
+}
