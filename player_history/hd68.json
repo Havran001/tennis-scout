@@ -1,1 +1,100 @@
-{"player_id":"hd68","sack_id":"126129","name":"Billy Harris","total":0,"matches":[]}
+{
+  "player_id": "hd68",
+  "gs_id": "20817",
+  "player_name": "Billy Harris",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:44:38.501Z",
+  "matches": [
+    {
+      "date": "20250826",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Auger-Aliassime",
+      "score": "6-4 7(10)-6(8) 6-4"
+    },
+    {
+      "date": "20250822",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Wong",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Kukushkin",
+      "score": "6(5)-7(7) 6-3 6-2"
+    },
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. K. Trotter",
+      "score": "6-3 1-6 2-6"
+    },
+    {
+      "date": "20240822",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Skatov",
+      "score": "4-6 6-0 6-3"
+    },
+    {
+      "date": "20240821",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20240820",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. M. Cerundolo",
+      "score": "6-3 2-6 7-5"
+    }
+  ]
+}
