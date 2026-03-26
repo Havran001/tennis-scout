@@ -1,1 +1,48 @@
-{"player_id":"k0k5","sack_id":"213092","name":"Jonas Kucera","total":0,"matches":[]}
+{
+  "player_id": "k0k5",
+  "gs_id": "158827",
+  "player_name": "Jonas Kucera",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:42.632Z",
+  "matches": [
+    {
+      "date": "20250729",
+      "tournament": "Liberec",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Barrena",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240729",
+      "tournament": "Liberec Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Forejtek",
+      "score": "1-6 6(3)-7(7)"
+    },
+    {
+      "date": "20240728",
+      "tournament": "Liberec Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Bittoun",
+      "score": "6-3 6-4"
+    }
+  ]
+}
