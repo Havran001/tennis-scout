@@ -1,1 +1,48 @@
-{"player_id":"i09u","sack_id":"202258","name":"Rafael Izquierdo Luque","total":0,"matches":[]}
+{
+  "player_id": "i09u",
+  "gs_id": "35550",
+  "player_name": "Rafael Izquierdo Luque",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:32.539Z",
+  "matches": [
+    {
+      "date": "20180814",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bellier",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20180612",
+      "tournament": "Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Sarkar",
+      "score": "4-6 6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20160815",
+      "tournament": "Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Pla Malfeito",
+      "score": "2-6 1-6"
+    }
+  ]
+}
