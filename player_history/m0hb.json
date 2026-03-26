@@ -3,24 +3,24 @@
   "gs_id": "142220",
   "player_name": "Francois Musitelli",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:59:10.778Z",
+  "updated": "2026-03-26T20:17:34.808Z",
   "matches": [
     {
-      "date": "20250116",
-      "tournament": "M15 Bressuire",
+      "date": "20240911",
+      "tournament": "M25+H Plaisir",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Q. Vandecasteele",
-      "score": "6-2 7(7)-6(4)"
+      "opponent": "C. Chidekh",
+      "score": "6(7)-7(9) 1-6"
     },
     {
-      "date": "20250115",
-      "tournament": "M15 Bressuire",
+      "date": "20230706",
+      "tournament": "ITF M25 Klosters Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Glinka",
-      "score": "4-6 2-6"
+      "opponent": "J. Von der Schulenburg",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20240208",
-      "tournament": "M15 Grenoble",
+      "date": "20230706",
+      "tournament": "ITF M25 Klosters Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,21 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Gueymard Wayenburg",
-      "score": "7(7)-6(5) 6-2"
-    },
-    {
-      "date": "20240207",
-      "tournament": "M15 Grenoble",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Freire Da Silva",
-      "score": "3-6 4-6"
+      "opponent": "M. Brunold",
+      "score": "3-6 7(7)-6(3) 6-4"
     },
     {
       "date": "20230324",
@@ -97,82 +84,30 @@
       "score": "6-3 6-4"
     },
     {
-      "date": "20230319",
-      "tournament": "ITF M15 Heraklion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Catarina",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20230318",
-      "tournament": "ITF M15 Heraklion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Lemstra",
-      "score": "7(7)-6(2) 2-6 7(7)-6(2)"
-    },
-    {
-      "date": "20230318",
-      "tournament": "ITF M15 Heraklion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Andrade",
-      "score": "4-6 6-4 6-2"
-    },
-    {
-      "date": "20230316",
-      "tournament": "ITF M15 Heraklion Men",
+      "date": "20220929",
+      "tournament": "M15 Forbach",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Carr",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20230315",
-      "tournament": "ITF M15 Heraklion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Nedelchev",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20230208",
-      "tournament": "ITF M15 Grenoble Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "T. Lamasine",
-      "score": "3-6 2-6"
+      "opponent": "B. Fassbender",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20220927",
+      "tournament": "M15 Forbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Chidekh",
+      "score": "6-1 6-3"
     }
   ]
 }
