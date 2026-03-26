@@ -3,11 +3,11 @@
   "gs_id": "116452",
   "player_name": "Daniil Golubev",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:25:35.813Z",
+  "updated": "2026-03-26T22:12:39.867Z",
   "matches": [
     {
-      "date": "20220216",
-      "tournament": "M25 Antalya",
+      "date": "20210413",
+      "tournament": "M15 St. Petersburg 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,7 +15,33 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Chazal",
+      "opponent": "S. Danilov",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20210307",
+      "tournament": "St. Petersburg 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Nedovyesov",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20210228",
+      "tournament": "St. Petersburg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Nedelko",
       "score": "0-6 0-6"
     }
   ]
