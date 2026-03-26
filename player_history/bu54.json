@@ -1,1 +1,87 @@
-{"player_id":"bu54","sack_id":"144972","name":"Geoffrey Blancaneaux","total":1,"matches":[{"id":"zZTBH6Mi","date":"20260324","tournament":"CHALLENGER MEN - DOUBLES: Naples (Italy), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Grevelius E./Heinonen A.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "bu54",
+  "gs_id": "29372",
+  "player_name": "Geoffrey Blancaneaux",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T08:45:42.501Z",
+  "matches": [
+    {
+      "date": "20260110",
+      "tournament": "Auckland",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bellucci",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230822",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Paire",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20220826",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Couacaud",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20220825",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Lestienne",
+      "score": "4-6 7(7)-6(4) 3-6"
+    },
+    {
+      "date": "20220824",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Crawford",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20170830",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "R128",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Sugita",
+      "score": "2-6 2-6 0-6"
+    }
+  ]
+}
