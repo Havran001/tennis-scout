@@ -1,1 +1,61 @@
-{"player_id":"z09b","sack_id":"200310","name":"Alexander Zgirovsky","total":0,"matches":[]}
+{
+  "player_id": "z09b",
+  "gs_id": "58635",
+  "player_name": "Alexander Zgirovsky",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:49:13.641Z",
+  "matches": [
+    {
+      "date": "20230917",
+      "tournament": "Sibiu Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Kivattsev",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20230910",
+      "tournament": "Szczecin Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Nouza",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230823",
+      "tournament": "Zhuhai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Weber",
+      "score": "7(7)-6(2) 7(7)-6(4)"
+    },
+    {
+      "date": "20230821",
+      "tournament": "Zhuhai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Takahashi",
+      "score": "6-4 4-6 0-1 ret."
+    }
+  ]
+}
