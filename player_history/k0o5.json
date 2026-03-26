@@ -1,1 +1,22 @@
-{"player_id":"k0o5","sack_id":"213579","name":"Jan Klimas","total":0,"matches":[]}
+{
+  "player_id": "k0o5",
+  "gs_id": "213676",
+  "player_name": "Jan Klimas",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:19.623Z",
+  "matches": [
+    {
+      "date": "20250727",
+      "tournament": "Liberec",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nicod",
+      "score": "3-6 6-0 4-6"
+    }
+  ]
+}
