@@ -3,11 +3,11 @@
   "gs_id": "96342",
   "player_name": "Jesse De Jager",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:23:37.990Z",
+  "updated": "2026-03-26T23:51:16.895Z",
   "matches": [
     {
-      "date": "20250625",
-      "tournament": "M15 Alkmaar",
+      "date": "20250812",
+      "tournament": "M25 Koksijde",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Martin",
-      "score": "6-3 7(7)-6(5)"
+      "opponent": "J. Loge",
+      "score": "4-6 7(7)-6(4) 0-5 ret."
     },
     {
-      "date": "20220204",
-      "tournament": "M15 Antalya 4",
+      "date": "20250730",
+      "tournament": "M25 Wetzlar",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Ilhan",
-      "score": "6-3 6-0"
+      "opponent": "V. Marysko",
+      "score": "2-6 6-3 5-7"
     },
     {
-      "date": "20220114",
-      "tournament": "M15 Antalya",
+      "date": "20240801",
+      "tournament": "ITF M25 Wetzlar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vasquez Gehrke",
+      "score": "4-6 6-4 6-3"
+    },
+    {
+      "date": "20240731",
+      "tournament": "ITF M25 Wetzlar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Popovic",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20220525",
+      "tournament": "M15 Antalya 16",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Winter Lopez",
-      "score": "6-1 6-1"
+      "opponent": "S. Agabigun",
+      "score": "6-4 6-0"
     }
   ]
 }
