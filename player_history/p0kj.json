@@ -3,20 +3,33 @@
   "gs_id": "84372",
   "player_name": "Derek Pham",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:10:00.624Z",
+  "updated": "2026-03-26T20:16:18.816Z",
   "matches": [
     {
-      "date": "20241228",
-      "tournament": "Brisbane",
+      "date": "20230130",
+      "tournament": "Burnie Challenger Men",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Gasquet",
-      "score": "6-1 6-2"
+      "opponent": "D. Sumizawa",
+      "score": "4-6 6-3 3-6"
+    },
+    {
+      "date": "20230129",
+      "tournament": "Burnie Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Searant",
+      "score": "3-6 3-6"
     }
   ]
 }
