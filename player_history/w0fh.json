@@ -3,20 +3,46 @@
   "gs_id": "280999",
   "player_name": "Benjamin Willwerth",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:29:39.632Z",
+  "updated": "2026-03-26T15:23:57.681Z",
   "matches": [
     {
-      "date": "20260316",
-      "tournament": "ATP Miami",
+      "date": "20251102",
+      "tournament": "Knoxville",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. van Assche",
-      "score": "6-3 6-1"
+      "opponent": "M. Wiskandt",
+      "score": "7(7)-6(3) 6(1)-7(7) 6(5)-7(7)"
+    },
+    {
+      "date": "20250413",
+      "tournament": "Tallahassee",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Polmans",
+      "score": "7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20250406",
+      "tournament": "Sarasota",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Denolly",
+      "score": "6-4 1-6 3-6"
     }
   ]
 }
