@@ -1,22 +1,35 @@
 {
   "player_id": "te51",
-  "gs_id": "160238",
-  "player_name": "Pavlos Tsitsipas",
+  "gs_id": "34244",
+  "player_name": "Petros Tsitsipas",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:47:01.750Z",
+  "updated": "2026-03-26T17:48:37.762Z",
   "matches": [
     {
-      "date": "20250825",
-      "tournament": "Mallorca",
+      "date": "20220516",
+      "tournament": "Shymkent 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Gakhov",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20220515",
+      "tournament": "Shymkent 2",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Parker",
-      "score": "2-6 1-6"
+      "result": "W",
+      "opponent": "M. Mossur",
+      "score": "2-6 4-6"
     }
   ]
 }
