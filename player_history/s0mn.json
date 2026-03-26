@@ -3,11 +3,11 @@
   "gs_id": "84374",
   "player_name": "Marat Sharipov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:22:22.999Z",
+  "updated": "2026-03-26T21:16:58.832Z",
   "matches": [
     {
-      "date": "20240913",
-      "tournament": "M25+H Plaisir",
+      "date": "20210416",
+      "tournament": "M15 St. Petersburg 4",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,25 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
+      "opponent": "S. Danilov",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20210415",
+      "tournament": "M15 St. Petersburg 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
       "opponent": "D. Glinka",
-      "score": "6-4 0-0 ret."
+      "score": "2-6 3-6"
     },
     {
-      "date": "20240912",
-      "tournament": "M25+H Plaisir",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Hoang",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20240911",
-      "tournament": "M25+H Plaisir",
+      "date": "20210413",
+      "tournament": "M15 St. Petersburg 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,99 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Malige",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20230113",
-      "tournament": "ITF M15 Doha Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Sultanov",
-      "score": "7-5 5-7 0-6"
-    },
-    {
-      "date": "20230112",
-      "tournament": "ITF M15 Doha Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Feldbausch",
-      "score": "6-3 1-6 6-4"
-    },
-    {
-      "date": "20230111",
-      "tournament": "ITF M15 Doha Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Podorozhnyi",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20211014",
-      "tournament": "M15 Kazan 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bobrov",
-      "score": "6-4 4-6 6-4"
-    },
-    {
-      "date": "20211013",
-      "tournament": "M15 Kazan 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Tashbulatov",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20200312",
-      "tournament": "ITF M15 Kazan 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Ratniuk",
-      "score": "6-1 7(7)-6(5)"
-    },
-    {
-      "date": "20200311",
-      "tournament": "ITF M15 Kazan 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Spasibo",
-      "score": "6-1 7(7)-6(5)"
+      "opponent": "M. Lorens",
+      "score": "6-3 6-4"
     }
   ]
 }
