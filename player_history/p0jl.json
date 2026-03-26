@@ -1,1 +1,35 @@
-{"player_id":"p0jl","sack_id":"210523","name":"Luca Pow","total":0,"matches":[]}
+{
+  "player_id": "p0jl",
+  "gs_id": "145945",
+  "player_name": "Luca Pow",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:56.545Z",
+  "matches": [
+    {
+      "date": "20250816",
+      "tournament": "Winston-Salem",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vukic",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240817",
+      "tournament": "ATP Winston-Salem",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Schoolkate",
+      "score": "0-6 1-6"
+    }
+  ]
+}
