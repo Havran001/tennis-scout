@@ -3,20 +3,59 @@
   "gs_id": "57488",
   "player_name": "Savriyan Danilov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:56:20.594Z",
+  "updated": "2026-03-26T13:09:06.622Z",
   "matches": [
     {
-      "date": "20190724",
-      "tournament": "Denia",
+      "date": "20190909",
+      "tournament": "Istanbul",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gengel",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20190601",
+      "tournament": "Reggio Emilia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Rondoni",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20190531",
+      "tournament": "Reggio Emilia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Boluda-Purkiss",
-      "score": "6-3 7(7)-6(4)"
+      "result": "W",
+      "opponent": "G. Dambrosi",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20190531",
+      "tournament": "Reggio Emilia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Ramazzotti",
+      "score": "7-5 6-2"
     }
   ]
 }
