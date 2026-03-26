@@ -3,7 +3,7 @@
   "gs_id": "1945",
   "player_name": "Novak Djokovic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:12:16.810Z",
+  "updated": "2026-03-26T23:03:59.885Z",
   "matches": [
     {
       "date": "20221009",
@@ -71,6 +71,110 @@
       "score": "1-6 1-6"
     },
     {
+      "date": "20221002",
+      "tournament": "Tel Aviv",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cilic",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20221001",
+      "tournament": "Tel Aviv",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Safiullin",
+      "score": "6-1 7(7)-6(3)"
+    },
+    {
+      "date": "20220930",
+      "tournament": "Tel Aviv",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Pospisil",
+      "score": "7(7)-6(5) 6-3"
+    },
+    {
+      "date": "20220929",
+      "tournament": "Tel Aviv",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Andujar",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20210529",
+      "tournament": "Belgrade 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Molcan",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20210528",
+      "tournament": "Belgrade 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Martin",
+      "score": "6-1 4-6 6-0"
+    },
+    {
+      "date": "20210527",
+      "tournament": "Belgrade 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Coria",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20210525",
+      "tournament": "Belgrade 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Moraing",
+      "score": "6-2 7(7)-6(4)"
+    },
+    {
       "date": "20060723",
       "tournament": "Amersfoort",
       "surface": "Hard",
@@ -134,6 +238,32 @@
       "result": "W",
       "opponent": "B. Pashanski",
       "score": "6-0 6-3"
+    },
+    {
+      "date": "20051026",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Rochus",
+      "score": "7(7)-6(4) 7-5"
+    },
+    {
+      "date": "20051024",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Mello",
+      "score": "7-6 6-4"
     }
   ]
 }
