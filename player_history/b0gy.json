@@ -1,1 +1,48 @@
-{"player_id":"b0gy","sack_id":"209875","name":"Alex Barrena","total":4,"matches":[{"id":"nmtbSiBj","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Sao Paulo (Brazil), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Oliveira B./Zormann Da Silva M.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"nmtbSiBj","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Sao Paulo (Brazil), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Oliveira B./Zormann Da Silva M.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"UJgRcH26","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Sao Paulo (Brazil), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Marcondes I.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"UJgRcH26","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Sao Paulo (Brazil), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Marcondes I.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "b0gy",
+  "gs_id": "87222",
+  "player_name": "Alex Barrena",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:43.518Z",
+  "matches": [
+    {
+      "date": "20260209",
+      "tournament": "Buenos Aires",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Kopriva",
+      "score": "6-4 3-6 6-4"
+    },
+    {
+      "date": "20260112",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Boyer",
+      "score": "2-6 7(7)-6(4) 2-6"
+    },
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Coppejans",
+      "score": "6-4 6(4)-7(7) 6-3"
+    }
+  ]
+}
