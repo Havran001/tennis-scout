@@ -1,91 +1,26 @@
 {
   "player_id": "f0go",
-  "gs_id": "213511",
-  "player_name": "Cruz Martin Manzano Juan",
+  "gs_id": "2492",
+  "player_name": "Sebastian Gomez Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:19:27.808Z",
+  "updated": "2026-03-26T20:19:47.841Z",
   "matches": [
     {
-      "date": "20260324",
-      "tournament": "Split",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Neumayer",
-      "score": "6(4)-7(7) 3-6"
-    },
-    {
-      "date": "20260323",
-      "tournament": "Split",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Basic",
-      "score": "6-4 1-6 0-6"
-    },
-    {
-      "date": "20260322",
-      "tournament": "Split",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Bass",
-      "score": "2-6 5-7"
-    },
-    {
-      "date": "20260304",
-      "tournament": "M15 Antalya 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Torcq",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20260228",
-      "tournament": "M15 Antalya 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Chepelev",
-      "score": "6-2 2-6 1-6"
-    },
-    {
-      "date": "20260227",
-      "tournament": "M15 Antalya 4",
+      "date": "20220527",
+      "tournament": "M15 Cancun 6",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Cordoba",
-      "score": "6-3 6-0"
+      "result": "L",
+      "opponent": "A. Knaff",
+      "score": "0-6 7(7)-6(4) 5-7"
     },
     {
-      "date": "20260226",
-      "tournament": "M15 Antalya 4",
+      "date": "20220526",
+      "tournament": "M15 Cancun 6",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Obradovic",
-      "score": "6-4 6(3)-7(7) 2-6"
+      "opponent": "T. Baadi",
+      "score": "2-6 7(7)-6(5) 2-6"
     },
     {
-      "date": "20260225",
-      "tournament": "M15 Antalya 4",
+      "date": "20220524",
+      "tournament": "M15 Cancun 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Spadola",
-      "score": "1-6 1-6"
+      "opponent": "A.J. Catanzariti",
+      "score": "7-5 5-7 4-6"
+    },
+    {
+      "date": "20211202",
+      "tournament": "ITF M15 Cancun 7 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. R. Statham",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20140218",
+      "tournament": "M25 Murcia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. S. Tatlot",
+      "score": "6-4 6-4"
     }
   ]
 }
