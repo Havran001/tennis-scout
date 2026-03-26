@@ -3,8 +3,34 @@
   "gs_id": "11845",
   "player_name": "Sung Nam Ji",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:05:18.864Z",
+  "updated": "2026-03-26T22:57:42.878Z",
   "matches": [
+    {
+      "date": "20230730",
+      "tournament": "Porto Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Faria",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20210630",
+      "tournament": "ITF M15 Monastir 26 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Echargui",
+      "score": "6-3 6-4"
+    },
     {
       "date": "20210622",
       "tournament": "ITF M15 Monastir 25 Men",
@@ -17,71 +43,6 @@
       "result": "L",
       "opponent": "R. Hijikata",
       "score": "6-3 6-1"
-    },
-    {
-      "date": "20210616",
-      "tournament": "ITF M15 Monastir 24 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Mayo",
-      "score": "4-6 6-3 6-2"
-    },
-    {
-      "date": "20210611",
-      "tournament": "ITF M15 Monastir 23 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Beale",
-      "score": "6-1 1-6 7(10)-6(8)"
-    },
-    {
-      "date": "20210610",
-      "tournament": "ITF M15 Monastir 23 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Crepaldi",
-      "score": "6-4 7-5"
-    },
-    {
-      "date": "20210609",
-      "tournament": "ITF M15 Monastir 23 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Badenhorst",
-      "score": "6(2)-7(7) 6-2 7(7)-6(0)"
-    },
-    {
-      "date": "20210202",
-      "tournament": "Melbourne (Great Ocean Road Open)",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Sweeny",
-      "score": "7(7)-6(4) 7-5"
     }
   ]
 }
