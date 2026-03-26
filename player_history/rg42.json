@@ -3,7 +3,7 @@
   "gs_id": "22404",
   "player_name": "Alex Rybakov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T08:44:57.501Z",
+  "updated": "2026-03-26T09:16:43.526Z",
   "matches": [
     {
       "date": "20250816",
@@ -17,6 +17,19 @@
       "result": "L",
       "opponent": "N. Basavareddy",
       "score": "6-2 6-0"
+    },
+    {
+      "date": "20230211",
+      "tournament": "Delray Beach",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vukic",
+      "score": "7(7)-6(5) 4-6 6-1"
     },
     {
       "date": "20220824",
@@ -43,6 +56,58 @@
       "result": "L",
       "opponent": "F. Bagnis",
       "score": "4-6 6-1 6-2"
+    },
+    {
+      "date": "20150702",
+      "tournament": "Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Uspensky",
+      "score": "6-2 4-6 3-6"
+    },
+    {
+      "date": "20150701",
+      "tournament": "Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Lin",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20150514",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Samper-Montana",
+      "score": "2-6 6(3)-7(7)"
+    },
+    {
+      "date": "20150513",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Munar",
+      "score": "2-6 6-0 6-2"
     }
   ]
 }
