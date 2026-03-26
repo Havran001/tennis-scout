@@ -1,22 +1,22 @@
 {
   "player_id": "s09p",
-  "gs_id": "116563",
-  "player_name": "Woobin Shin",
+  "gs_id": "141993",
+  "player_name": "Sanhui Shin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:16:45.809Z",
+  "updated": "2026-03-26T20:17:27.807Z",
   "matches": [
     {
-      "date": "20250731",
-      "tournament": "Astana",
+      "date": "20260324",
+      "tournament": "Yokkaichi",
       "surface": "Hard",
       "level": "C",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Shelbayh",
-      "score": "4-6 6-3 0-0 ret."
+      "opponent": "M. Imamura",
+      "score": "6-4 6-1"
     },
     {
       "date": "20250729",
@@ -27,13 +27,13 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Azkara",
-      "score": "3-6 5-7"
+      "result": "L",
+      "opponent": "C. Chidekh",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20211006",
-      "tournament": "ITF M15 Doha Men",
+      "date": "20240313",
+      "tournament": "ITF M25 Mildura Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. J. Storrie",
-      "score": "1-6 0-4 ret."
+      "opponent": "T. E. Papac",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20240130",
+      "tournament": "ITF M15 Monastir 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Eriksson",
+      "score": "5-7 6(4)-7(7)"
     }
   ]
 }
