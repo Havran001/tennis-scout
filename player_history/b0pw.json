@@ -1,1 +1,22 @@
-{"player_id":"b0pw","sack_id":"210744","name":"Kaylan Bigun","total":1,"matches":[{"id":"GbMD1A63","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Stephens Z.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "b0pw",
+  "gs_id": "156069",
+  "player_name": "Kaylan Bigun",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:58.540Z",
+  "matches": [
+    {
+      "date": "20240820",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Vacherot",
+      "score": "6(4)-7(7) 4-6"
+    }
+  ]
+}
