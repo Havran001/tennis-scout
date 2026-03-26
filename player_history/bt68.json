@@ -3,37 +3,63 @@
   "gs_id": "33735",
   "player_name": "Elliot Benchetrit",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:31:43.553Z",
+  "updated": "2026-03-26T11:06:19.581Z",
   "matches": [
     {
-      "date": "20201031",
-      "tournament": "ATP Paris",
+      "date": "20200217",
+      "tournament": "Marseille",
       "surface": "Hard",
       "level": "B",
-      "round": "SF",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Pospisil",
-      "score": "6-0 6-1"
+      "opponent": "N. Gombos",
+      "score": "6-4 6(7)-7(9) 6-4"
     },
     {
-      "date": "20191026",
-      "tournament": "ATP Paris",
+      "date": "20200216",
+      "tournament": "Marseille",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Querrey",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "G. Harris",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20191012",
-      "tournament": "Moscow",
+      "date": "20200203",
+      "tournament": "Montpellier",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dzumhur",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20200202",
+      "tournament": "Montpellier",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Lacko",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20180204",
+      "tournament": "Montpellier",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -41,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Gerasimov",
-      "score": "0-6 3-6"
+      "opponent": "Y. Maden",
+      "score": "2-6 0-6"
     }
   ]
 }
