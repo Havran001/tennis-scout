@@ -3,37 +3,50 @@
   "gs_id": "89962",
   "player_name": "Dino Prizmic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:56:09.790Z",
+  "updated": "2026-03-26T20:16:29.812Z",
   "matches": [
     {
-      "date": "20241102",
-      "tournament": "Bratislava 2",
+      "date": "20230720",
+      "tournament": "Trieste Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Collignon",
-      "score": "3-6 6-3 7(7)-6(4)"
+      "opponent": "F. Passaro",
+      "score": "4-6 6-4 6-2"
     },
     {
-      "date": "20241101",
-      "tournament": "Bratislava 2",
+      "date": "20230717",
+      "tournament": "Trieste Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Polmans",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230415",
+      "tournament": "Split Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Fearnley",
-      "score": "3-6 6-4 6-3"
+      "result": "L",
+      "opponent": "C. O&apos;Connell",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20241031",
-      "tournament": "Bratislava 2",
+      "date": "20230413",
+      "tournament": "Split Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Wawrinka",
-      "score": "6-2 4-6 6-3"
+      "opponent": "A. Cazaux",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20241030",
-      "tournament": "Bratislava 2",
+      "date": "20230411",
+      "tournament": "Split Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,12 +67,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Nardi",
-      "score": "3-6 4-6"
+      "opponent": "S. Rodriguez Taverna",
+      "score": "6-4 3-6 4-6"
     },
     {
-      "date": "20231010",
-      "tournament": "Bratislava 2 Challenger Men",
+      "date": "20230312",
+      "tournament": "ITF M15 Porec Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Martinez",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230311",
+      "tournament": "ITF M15 Porec Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Prechtel",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20230311",
+      "tournament": "ITF M15 Porec Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Capecchi",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20230309",
+      "tournament": "ITF M15 Porec Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Nejedly",
+      "score": "6-1 3-6 6-3"
+    },
+    {
+      "date": "20230307",
+      "tournament": "ITF M15 Porec Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Mikrut",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20220419",
+      "tournament": "Split",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +145,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Klein",
-      "score": "6-0 6-3"
+      "opponent": "A. Arnaboldi",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20210310",
+      "tournament": "ITF M15 Porec Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Prechtel",
+      "score": "7-5 6-1"
     }
   ]
 }
