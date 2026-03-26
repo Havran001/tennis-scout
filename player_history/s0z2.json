@@ -1,1 +1,35 @@
-{"player_id":"s0z2","sack_id":"213274","name":"Eli Stephenson","total":0,"matches":[]}
+{
+  "player_id": "s0z2",
+  "gs_id": "198705",
+  "player_name": "Eli Stephenson",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:12.630Z",
+  "matches": [
+    {
+      "date": "20250727",
+      "tournament": "Lexington",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230730",
+      "tournament": "Lexington Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zheng",
+      "score": "6-4 6-2"
+    }
+  ]
+}
