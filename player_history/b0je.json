@@ -3,59 +3,72 @@
   "gs_id": "83702",
   "player_name": "Max Basing",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:19:53.710Z",
+  "updated": "2026-03-26T22:12:24.865Z",
   "matches": [
     {
-      "date": "20251118",
-      "tournament": "Yokohama",
+      "date": "20210113",
+      "tournament": "ITF M15 Manacor Men",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Shiraishi",
-      "score": "2-6 6-2 6-3"
+      "opponent": "D. Rincon",
+      "score": "4-6 6-3 6-4"
     },
     {
-      "date": "20251111",
-      "tournament": "Kobe",
+      "date": "20200116",
+      "tournament": "M15 Manacor (Mallorca) 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Sakamoto",
-      "score": "7(8)-6(6) 6(4)-7(7) 6-3"
+      "opponent": "J. Monteiro",
+      "score": ""
     },
     {
-      "date": "20251110",
-      "tournament": "Kobe",
+      "date": "20200114",
+      "tournament": "M15 Manacor (Mallorca) 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Santillan",
-      "score": "2-6 3-6"
+      "opponent": "P. Amoros Ramos",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20251109",
-      "tournament": "Kobe",
+      "date": "20200109",
+      "tournament": "M15 Manacor (Mallorca)",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Niklas-Salminen",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20200108",
+      "tournament": "M15 Manacor (Mallorca)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Imamura",
-      "score": "6-4 3-6 6(5)-7(7)"
+      "opponent": "B. Pietri",
+      "score": "6-2 6-3"
     }
   ]
 }
