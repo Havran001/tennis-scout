@@ -3,20 +3,33 @@
   "gs_id": "160179",
   "player_name": "Iannis Miletich",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:11:44.627Z",
+  "updated": "2026-03-26T15:23:17.683Z",
   "matches": [
     {
-      "date": "20250803",
-      "tournament": "Cordenons",
+      "date": "20250908",
+      "tournament": "Biella",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Carboni",
+      "score": "6-4 6(4)-7(7) 2-6"
+    },
+    {
+      "date": "20250907",
+      "tournament": "Biella",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Vanshelboim",
-      "score": "7(7)-6(5) 7(10)-6(8)"
+      "result": "W",
+      "opponent": "J. Simundza",
+      "score": "4-6 4-6"
     }
   ]
 }
