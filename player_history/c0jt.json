@@ -1,1 +1,22 @@
-{"player_id":"c0jt","sack_id":"210714","name":"Robin Catry","total":1,"matches":[{"id":"6yoz6dS0","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Schoolkate T.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "c0jt",
+  "gs_id": "177312",
+  "player_name": "Robin Catry",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:12:03.625Z",
+  "matches": [
+    {
+      "date": "20250608",
+      "tournament": "Lyon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Damas",
+      "score": "6-2 6-3"
+    }
+  ]
+}
