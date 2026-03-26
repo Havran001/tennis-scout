@@ -3,11 +3,24 @@
   "gs_id": "151959",
   "player_name": "Alejandro Juan Mano",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:17:58.817Z",
+  "updated": "2026-03-26T21:17:45.828Z",
   "matches": [
     {
-      "date": "20250918",
-      "tournament": "M15 Melilla",
+      "date": "20250219",
+      "tournament": "M15 Villena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Lopez Morillo",
+      "score": "7-5 4-6 4-6"
+    },
+    {
+      "date": "20250109",
+      "tournament": "M15 Manacor",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. C. Loureiro J.",
-      "score": "4-6 3-6"
+      "opponent": "D. Dedura",
+      "score": "3-6 0-6"
     },
     {
-      "date": "20250917",
-      "tournament": "M15 Melilla",
+      "date": "20250108",
+      "tournament": "M15 Manacor",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Mazdrashki",
-      "score": "6-1 6-1"
+      "opponent": "I. Almazan Valiente",
+      "score": "6-4 3-6 6-1"
+    },
+    {
+      "date": "20240109",
+      "tournament": "ITF M15 Manacor Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kym",
+      "score": "6-4 7(8)-6(6)"
     }
   ]
 }
