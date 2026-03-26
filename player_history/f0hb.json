@@ -3,11 +3,24 @@
   "gs_id": "90295",
   "player_name": "Rodrigo Fernandes",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:23:20.816Z",
+  "updated": "2026-03-26T22:12:16.868Z",
   "matches": [
     {
-      "date": "20240724",
-      "tournament": "ITF M25 Porto Men",
+      "date": "20240512",
+      "tournament": "Oeiras 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Andreev",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20240228",
+      "tournament": "ITF M25 Faro Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,34 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Paris",
-      "score": "6-2 6-4"
+      "opponent": "A. Donski",
+      "score": "7(7)-6(4) 7(7)-6(4)"
     },
     {
-      "date": "20231127",
-      "tournament": "Maia Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Araujo",
-      "score": "3-6 7(7)-6(1) 5-7"
-    },
-    {
-      "date": "20231126",
-      "tournament": "Maia Challenger Men",
+      "date": "20240107",
+      "tournament": "Oeiras 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Basilashvili",
-      "score": "6-2 5-7 7(7)-6(5)"
+      "result": "L",
+      "opponent": "A. McHugh",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20231231",
+      "tournament": "Oeiras Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Vincent Ruggeri",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20231115",
+      "tournament": "ITF M25 Vale do Lobo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Rocha",
+      "score": "6-0 6-1"
     }
   ]
 }
