@@ -3,11 +3,11 @@
   "gs_id": "31061",
   "player_name": "Giovanni Fonio",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:55:03.540Z",
+  "updated": "2026-03-26T11:44:57.582Z",
   "matches": [
     {
-      "date": "20240713",
-      "tournament": "ATP Gstaad",
+      "date": "20220507",
+      "tournament": "Rome",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
@@ -15,38 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Q. Halys",
-      "score": "1-6 7(8)-6(6) 6-2"
+      "opponent": "E. Ruusuvuori",
+      "score": "6-4 6(7)-7(9) 6-3"
     },
     {
-      "date": "20190904",
-      "tournament": "Trieste",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Doumbia",
-      "score": ""
-    },
-    {
-      "date": "20190903",
-      "tournament": "Trieste",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Tomasetto",
-      "score": "6-3 7(7)-6(4)"
-    },
-    {
-      "date": "20150825",
-      "tournament": "Piombino",
+      "date": "20190807",
+      "tournament": "Appiano",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +28,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Borgo",
-      "score": "6-4 6-4"
+      "opponent": "A. Basso",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20150817",
+      "tournament": "Este",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Neuchrist",
+      "score": "6-3 6-3"
     }
   ]
 }
