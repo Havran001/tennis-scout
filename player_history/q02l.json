@@ -3,20 +3,59 @@
   "gs_id": "123363",
   "player_name": "Ethan Quinn",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:25:38.814Z",
+  "updated": "2026-03-26T21:17:17.829Z",
   "matches": [
     {
-      "date": "20260113",
-      "tournament": "Adelaide",
+      "date": "20250624",
+      "tournament": "Mallorca",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Griekspoor",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20250623",
+      "tournament": "Mallorca",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Fucsovics",
-      "score": "6-4 6-4"
+      "result": "W",
+      "opponent": "C. Ugo Carabelli",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250622",
+      "tournament": "Mallorca",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Kopriva",
+      "score": "7-5 5-7 6(5)-7(7)"
+    },
+    {
+      "date": "20250621",
+      "tournament": "Mallorca",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Crawford",
+      "score": "6-4 6(5)-7(7) 6(3)-7(7)"
     }
   ]
 }
