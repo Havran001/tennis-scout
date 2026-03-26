@@ -1,1 +1,100 @@
-{"player_id":"x01c","sack_id":"209354","name":"Ioannis Xilas","total":0,"matches":[]}
+{
+  "player_id": "x01c",
+  "gs_id": "87172",
+  "player_name": "Ioannis Xilas",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T17:45:43.742Z",
+  "matches": [
+    {
+      "date": "20260217",
+      "tournament": "New Delhi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cina",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20260216",
+      "tournament": "New Delhi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Vanshelboim",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20260215",
+      "tournament": "New Delhi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Eqbal",
+      "score": "6(6)-7(8) 6-2 6-3"
+    },
+    {
+      "date": "20260213",
+      "tournament": "Chennai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Ferreira Silva",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20260212",
+      "tournament": "Chennai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Vanshelboim",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20260211",
+      "tournament": "Chennai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Clarke",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250127",
+      "tournament": "Cleveland",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Zhu",
+      "score": "2-6 6-1 4-6"
+    }
+  ]
+}
