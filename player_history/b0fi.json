@@ -1,1 +1,35 @@
-{"player_id":"b0fi","sack_id":"208046","name":"Pedro Boscardin Dias","total":0,"matches":[]}
+{
+  "player_id": "b0fi",
+  "gs_id": "68046",
+  "player_name": "Pedro Boscardin Dias",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T12:28:51.604Z",
+  "matches": [
+    {
+      "date": "20260214",
+      "tournament": "Rio de Janeiro",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Barrios Vera",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20200215",
+      "tournament": "Rio de Janeiro",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kovalik",
+      "score": "6-3 6-1"
+    }
+  ]
+}
