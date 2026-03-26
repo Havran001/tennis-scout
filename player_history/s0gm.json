@@ -1,13 +1,26 @@
 {
   "player_id": "s0gm",
-  "gs_id": "177319",
-  "player_name": "Daniel Salazar",
+  "gs_id": "94814",
+  "player_name": "Amador Salazar",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:12:04.626Z",
+  "updated": "2026-03-26T13:50:36.645Z",
   "matches": [
     {
-      "date": "20230806",
-      "tournament": "Meerbusch",
+      "date": "20260309",
+      "tournament": "Santiago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Boscardin Dias",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250309",
+      "tournament": "Santiago",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Sakellaridis",
-      "score": "6(4)-7(7) 4-6"
+      "opponent": "Y. Mochizuki",
+      "score": "6-1 7(7)-6(4)"
     }
   ]
 }
