@@ -1,1 +1,22 @@
-{"player_id":"z09g","sack_id":"206216","name":"Tom Zeuch","total":1,"matches":[{"id":"dQFDkCqR","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Braynin A.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "z09g",
+  "gs_id": "205520",
+  "player_name": "Tom Zeuch",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:52:41.644Z",
+  "matches": [
+    {
+      "date": "20250706",
+      "tournament": "Braunschweig",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kovalik",
+      "score": "6-1 6-0"
+    }
+  ]
+}
