@@ -3,11 +3,11 @@
   "gs_id": "27031",
   "player_name": "Benjamin Hassan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T15:20:23.691Z",
+  "updated": "2026-03-26T16:09:44.703Z",
   "matches": [
     {
-      "date": "20260106",
-      "tournament": "Bengaluru",
+      "date": "20250226",
+      "tournament": "Lugano",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +15,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Balshaw",
-      "score": "6-4 6-1"
+      "opponent": "V. Durasovic",
+      "score": "4-6 6-1 4-6"
+    },
+    {
+      "date": "20250207",
+      "tournament": "Tenerife",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Moro Canas",
+      "score": "4-6 6-3 3-6"
+    },
+    {
+      "date": "20250205",
+      "tournament": "Tenerife",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Montes-De La Torre",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20250204",
+      "tournament": "Tenerife",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Sakamoto",
+      "score": "4-6 6-2 6-4"
+    },
+    {
+      "date": "20240228",
+      "tournament": "Lille Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Harris",
+      "score": "4-6 6-4 3-6"
+    },
+    {
+      "date": "20240227",
+      "tournament": "Lille Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Squire",
+      "score": "7(7)-6(3) 6(8)-7(10) 3-6"
+    },
+    {
+      "date": "20220320",
+      "tournament": "Lille",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Squire",
+      "score": "2-6 7(7)-6(4) 7(7)-6(5)"
+    },
+    {
+      "date": "20210321",
+      "tournament": "Lille Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Martineau",
+      "score": "6-1 6-2"
     }
   ]
 }
