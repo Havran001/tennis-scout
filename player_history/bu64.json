@@ -1,1 +1,48 @@
-{"player_id":"bu64","sack_id":"202220","name":"Nicolas Bruna","total":2,"matches":[{"id":"d67ZC9Za","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Monferrer E.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"I3vzJEV8","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Cavallo F./De Dios F.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "bu64",
+  "gs_id": "81293",
+  "player_name": "Nicolas Bruna",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:50:03.641Z",
+  "matches": [
+    {
+      "date": "20240310",
+      "tournament": "Santiago Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. I. Justo",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20220306",
+      "tournament": "Santiago",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Jubb",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20211003",
+      "tournament": "Santiago 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Perchicot",
+      "score": "6-0 6-2"
+    }
+  ]
+}
