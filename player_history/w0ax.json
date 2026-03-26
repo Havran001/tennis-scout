@@ -3,33 +3,59 @@
   "gs_id": "58274",
   "player_name": "Oscar Weightman",
   "source": "goalserve-full",
-  "updated": "2026-03-26T10:32:02.554Z",
+  "updated": "2026-03-26T14:35:55.681Z",
   "matches": [
     {
-      "date": "20180912",
-      "tournament": "Nottingham",
+      "date": "20241111",
+      "tournament": "Champaign",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Harris",
-      "score": "4-6 2-6"
+      "opponent": "M. Braswell",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20180911",
-      "tournament": "Nottingham",
+      "date": "20241110",
+      "tournament": "Champaign",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Green",
-      "score": "7-5 6-3"
+      "opponent": "Q. Vandecasteele",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20220605",
+      "tournament": "Nottingham",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Gill",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20220529",
+      "tournament": "Surbiton",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Copil",
+      "score": "6-3 6-4"
     }
   ]
 }
