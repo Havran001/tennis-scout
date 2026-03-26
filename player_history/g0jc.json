@@ -1,1 +1,74 @@
-{"player_id":"g0jc","sack_id":"210486","name":"Nicholas Godsick","total":0,"matches":[]}
+{
+  "player_id": "g0jc",
+  "gs_id": "124948",
+  "player_name": "Nicholas Godsick",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:50:54.649Z",
+  "matches": [
+    {
+      "date": "20251005",
+      "tournament": "Fairfield",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Pascual Ferra",
+      "score": "6-3 7(7)-6(3)"
+    },
+    {
+      "date": "20250929",
+      "tournament": "Tiburon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Wallin",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20250928",
+      "tournament": "Tiburon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. McCormick",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20240929",
+      "tournament": "Tiburon",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Boitan",
+      "score": "2-6 6-3 1-6"
+    },
+    {
+      "date": "20240908",
+      "tournament": "Las Vegas",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Kumar",
+      "score": "3-6 4-6"
+    }
+  ]
+}
