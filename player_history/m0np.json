@@ -3,24 +3,50 @@
   "gs_id": "2484",
   "player_name": "Toby Martin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:52:51.778Z",
+  "updated": "2026-03-26T19:02:48.777Z",
   "matches": [
     {
-      "date": "20211216",
-      "tournament": "ITF M15 Antalya 36 Men",
+      "date": "20260127",
+      "tournament": "M25 Glasgow",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Petrovic",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250131",
+      "tournament": "M25 Glasgow",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Searle",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250130",
+      "tournament": "M25 Glasgow",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. I. Apostol",
-      "score": "5-7 2-6"
+      "result": "W",
+      "opponent": "K. Poling",
+      "score": "6-3 3-6 6-4"
     },
     {
-      "date": "20211215",
-      "tournament": "ITF M15 Antalya 36 Men",
+      "date": "20250129",
+      "tournament": "M25 Glasgow",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Galimardanov",
-      "score": "3-6 0-6"
+      "opponent": "N. Visker",
+      "score": "2-6 6-3 6-3"
     }
   ]
 }
