@@ -1,10 +1,49 @@
 {
   "player_id": "s09p",
-  "gs_id": "116563",
-  "player_name": "Woobin Shin",
+  "gs_id": "141993",
+  "player_name": "Sanhui Shin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:50:41.644Z",
+  "updated": "2026-03-26T13:51:20.645Z",
   "matches": [
+    {
+      "date": "20260223",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Ajdukovic",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20260217",
+      "tournament": "New Delhi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Ivashka",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20251120",
+      "tournament": "Yokohama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Nishikori",
+      "score": "4-6 1-6"
+    },
     {
       "date": "20251118",
       "tournament": "Yokohama",
@@ -14,9 +53,22 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "L. R. Jones",
+      "score": "6-3 1-6 2-6"
+    },
+    {
+      "date": "20251109",
+      "tournament": "Kobe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Vrbensky",
-      "score": "6-3 6-3"
+      "opponent": "W. K. Leong M.",
+      "score": "6-3 6-2"
     },
     {
       "date": "20251028",
@@ -28,24 +80,24 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Huesler",
-      "score": "6-4 6-2"
+      "opponent": "Y. Zhou",
+      "score": "7(7)-6(0) 6-0"
     },
     {
-      "date": "20250420",
-      "tournament": "Gwangju",
+      "date": "20241029",
+      "tournament": "Seoul",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Durasovic",
-      "score": "7(7)-6(3) 6(3)-7(7) 0-6"
+      "opponent": "D. Svrcina",
+      "score": "3-6 0-6"
     },
     {
-      "date": "20230430",
+      "date": "20240414",
       "tournament": "Gwangju Challenger Men",
       "surface": "Hard",
       "level": "C",
@@ -54,8 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Saville",
-      "score": "6-2 6-0"
+      "opponent": "E. Gerasimov",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20231112",
+      "tournament": "Kobe Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Chung",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230502",
+      "tournament": "Gwangju Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Bu",
+      "score": "4-6 1-6"
     },
     {
       "date": "20230423",
@@ -67,21 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. K. Mukund",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20221009",
-      "tournament": "Seoul",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Kovacevic",
-      "score": "0-6 1-6"
+      "opponent": "D. Kelly",
+      "score": "6-2 6-2"
     }
   ]
 }
