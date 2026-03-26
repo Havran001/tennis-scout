@@ -1,1 +1,35 @@
-{"player_id":"s0vd","sack_id":"211662","name":"Gabriel Schenekenberg","total":1,"matches":[{"id":"EJNeKisQ","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Malla B.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "s0vd",
+  "gs_id": "151158",
+  "player_name": "Gabriel Schenekenberg",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:11:32.638Z",
+  "matches": [
+    {
+      "date": "20251012",
+      "tournament": "Curitiba",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Tobon",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20241020",
+      "tournament": "Curitiba Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Reis Da Silva",
+      "score": "1-6 6-4 2-6"
+    }
+  ]
+}
