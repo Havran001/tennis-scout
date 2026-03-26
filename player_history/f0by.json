@@ -3,37 +3,37 @@
   "gs_id": "56982",
   "player_name": "Jacob Fearnley",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:48:57.653Z",
+  "updated": "2026-03-26T15:19:00.679Z",
   "matches": [
     {
-      "date": "20260223",
-      "tournament": "Saint Brieuc",
+      "date": "20240915",
+      "tournament": "Rennes",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bouquier",
-      "score": "6-3 6-2"
+      "result": "W",
+      "opponent": "Q. Halys",
+      "score": "0-6 7(7)-6(5) 6-3"
     },
     {
-      "date": "20250103",
-      "tournament": "Canberra",
+      "date": "20240914",
+      "tournament": "Rennes",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Fonseca",
-      "score": "6-3 6-3"
+      "result": "W",
+      "opponent": "H. Mayot",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20250102",
-      "tournament": "Canberra",
+      "date": "20240913",
+      "tournament": "Rennes",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Eubanks",
-      "score": "4-6 6-2 7(7)-6(3)"
+      "opponent": "A. Mannarino",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20241231",
-      "tournament": "Canberra",
+      "date": "20240912",
+      "tournament": "Rennes",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. K. Trotter",
-      "score": "6-2 6-4"
+      "opponent": "S. Gueymard Wayenburg",
+      "score": "6-1 2-6 4-6"
     },
     {
-      "date": "20241230",
-      "tournament": "Canberra",
+      "date": "20240911",
+      "tournament": "Rennes",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +67,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Dellavedova",
-      "score": "3-6 6-4 7-5"
+      "opponent": "B. Paire",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20240616",
+      "tournament": "Nottingham Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bellucci",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20240616",
+      "tournament": "Nottingham Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Broom",
+      "score": "4-6 6-4 6-3"
+    },
+    {
+      "date": "20240615",
+      "tournament": "Nottingham Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Shang",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20240612",
+      "tournament": "Nottingham Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Jubb",
+      "score": "6-1 6(14)-7(16) 6-3"
+    },
+    {
+      "date": "20240611",
+      "tournament": "Nottingham Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Bu",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20240610",
+      "tournament": "Nottingham Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Lajal",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240609",
+      "tournament": "Nottingham Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Chidekh",
+      "score": "2-6 6-3 7(7)-6(4)"
     }
   ]
 }
