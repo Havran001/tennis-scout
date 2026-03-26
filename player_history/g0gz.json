@@ -3,50 +3,102 @@
   "gs_id": "126758",
   "player_name": "Liam Gavrielides",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:50:58.642Z",
+  "updated": "2026-03-26T15:22:34.697Z",
   "matches": [
     {
-      "date": "20240721",
-      "tournament": "Segovia Challenger Men",
+      "date": "20260203",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. H. Rehberg",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20260202",
+      "tournament": "Koblenz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Sperle",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20260201",
+      "tournament": "Koblenz",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Marrero Curbelo",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "K. De Schepper",
+      "score": "2-6 6-4 6-4"
     },
     {
-      "date": "20240708",
-      "tournament": "Braunschweig Challenger Men",
+      "date": "20240603",
+      "tournament": "Heilbronn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Handel",
+      "score": "2-6 6-4 6-4"
+    },
+    {
+      "date": "20240603",
+      "tournament": "Heilbronn Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dutra Da Silva",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240128",
+      "tournament": "Koblenz Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "M. Geerts",
-      "score": "4-6 4-6"
+      "score": "6(7)-7(9) 6-3 4-6"
     },
     {
-      "date": "20240707",
-      "tournament": "Braunschweig Challenger Men",
+      "date": "20231029",
+      "tournament": "Ismaning",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Naw",
-      "score": "6-1 6-4"
+      "result": "L",
+      "opponent": "J. Sousa",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20230710",
-      "tournament": "Braunschweig Challenger Men",
+      "date": "20230605",
+      "tournament": "Heilbronn Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -54,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Taberner",
-      "score": "7(7)-6(2) 6-0"
+      "opponent": "A. Santillan",
+      "score": "6-0 6-4"
     },
     {
-      "date": "20230709",
-      "tournament": "Braunschweig Challenger Men",
+      "date": "20230604",
+      "tournament": "Heilbronn Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Janvier",
-      "score": "3-6 5-7"
+      "opponent": "B. Hassan",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20220703",
-      "tournament": "Braunschweig",
+      "date": "20221009",
+      "tournament": "Ismaning",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -80,8 +132,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Fils",
-      "score": "2-6 2-6"
+      "opponent": "B. Harris",
+      "score": "3-6 6-3 3-6"
+    },
+    {
+      "date": "20220508",
+      "tournament": "Heilbronn",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "6(4)-7(7) 3-6"
     }
   ]
 }
