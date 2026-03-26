@@ -1,1 +1,126 @@
-{"player_id":"m0ea","sack_id":"207546","name":"Pol Martin Tiffon","total":0,"matches":[]}
+{
+  "player_id": "m0ea",
+  "gs_id": "42272",
+  "player_name": "Pol Martin Tiffon",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:18:03.514Z",
+  "matches": [
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Sun",
+      "score": "3-6 7(7)-6(5) 4-1 ret."
+    },
+    {
+      "date": "20190713",
+      "tournament": "Getxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Boluda-Purkiss",
+      "score": "4-6 6(6)-7(8)"
+    },
+    {
+      "date": "20190712",
+      "tournament": "Getxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Malla",
+      "score": "7(7)-6(4) 6-4"
+    },
+    {
+      "date": "20190711",
+      "tournament": "Getxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Gaston",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20190710",
+      "tournament": "Getxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Echeverria",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20190516",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Luz",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20190515",
+      "tournament": "Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Pujol Navarro",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20180531",
+      "tournament": "Santa Margarida de Montbui",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. P. Vivero",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20180529",
+      "tournament": "Santa Margarida de Montbui",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Ferrer",
+      "score": "1-6 2-6"
+    }
+  ]
+}
