@@ -3,24 +3,11 @@
   "gs_id": "37632",
   "player_name": "Matthew Dellavedova",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:17:38.517Z",
+  "updated": "2026-03-26T09:55:42.601Z",
   "matches": [
     {
-      "date": "20250107",
-      "tournament": "Australian Open",
-      "surface": "Hard",
-      "level": "G",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Atmane",
-      "score": "6-4 3-6 3-6"
-    },
-    {
-      "date": "20170719",
-      "tournament": "Kassel",
+      "date": "20190806",
+      "tournament": "Wetzlar",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Lenz",
-      "score": "6-3 6-4"
+      "opponent": "A. Kalyanpur",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20180807",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Furness",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20180724",
+      "tournament": "Wetzlar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Michon",
+      "score": "2-6 3-6"
     }
   ]
 }
