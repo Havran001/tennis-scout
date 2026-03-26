@@ -3,24 +3,76 @@
   "gs_id": "34205",
   "player_name": "Andres Andrade",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:17:13.542Z",
+  "updated": "2026-03-26T09:55:19.543Z",
   "matches": [
     {
-      "date": "20180629",
-      "tournament": "Pittsburgh",
+      "date": "20180809",
+      "tournament": "Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Boltz",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20180808",
+      "tournament": "Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Zhu",
+      "score": "2-6 6-3 6-4"
+    },
+    {
+      "date": "20180801",
+      "tournament": "Decatur",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Clark",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20180623",
+      "tournament": "Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20180622",
+      "tournament": "Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Broom",
-      "score": "2-6 0-6"
+      "result": "W",
+      "opponent": "R. Goetz",
+      "score": "6-3 3-6 6-3"
     },
     {
-      "date": "20180628",
-      "tournament": "Pittsburgh",
+      "date": "20180621",
+      "tournament": "Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. A. Hernandez",
-      "score": "7-5 6-0"
+      "opponent": "H. Godamanna",
+      "score": "6-1 6-3"
     },
     {
-      "date": "20180627",
-      "tournament": "Pittsburgh",
+      "date": "20180620",
+      "tournament": "Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Perez",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20160505",
-      "tournament": "Tampa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Sandgren",
-      "score": "2-6 3-6"
+      "opponent": "L. Gomez",
+      "score": "4-6 5-7"
     }
   ]
 }
