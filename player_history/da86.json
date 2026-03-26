@@ -3,24 +3,37 @@
   "gs_id": "18300",
   "player_name": "Joris De Loore",
   "source": "goalserve-full",
-  "updated": "2026-03-26T09:54:41.541Z",
+  "updated": "2026-03-26T10:31:19.558Z",
   "matches": [
     {
-      "date": "20120802",
-      "tournament": "Oostende",
+      "date": "20130412",
+      "tournament": "Doha 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Bhambri",
+      "score": "6-4 7-6"
+    },
+    {
+      "date": "20130411",
+      "tournament": "Doha 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Coppejans",
-      "score": "6-3 4-6 6-2"
+      "result": "W",
+      "opponent": "J. Marsalek",
+      "score": "3-6 7-5 7-6"
     },
     {
-      "date": "20120801",
-      "tournament": "Oostende",
+      "date": "20130410",
+      "tournament": "Doha 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Bouras",
-      "score": "6-2 4-6 6-2"
+      "opponent": "E. Couacaud",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20120730",
-      "tournament": "Oostende",
+      "date": "20130409",
+      "tournament": "Doha 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Dubail",
-      "score": "2-6 3-6"
+      "opponent": "S. Khaledan",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20121024",
+      "tournament": "Cardiff",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Mertens",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20121023",
+      "tournament": "Cardiff",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Hewitt",
+      "score": "3-6 7-6 1-6"
     }
   ]
 }
