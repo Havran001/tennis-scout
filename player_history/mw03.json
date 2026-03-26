@@ -1,1 +1,48 @@
-{"player_id":"mw03","sack_id":"132433","name":"Stefan Menichella","total":0,"matches":[]}
+{
+  "player_id": "mw03",
+  "gs_id": "153284",
+  "player_name": "Stefan Menichella",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T23:57:28.907Z",
+  "matches": [
+    {
+      "date": "20240829",
+      "tournament": "M15 Monastir 35",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Radulov",
+      "score": "6-2 7(8)-6(6)"
+    },
+    {
+      "date": "20240828",
+      "tournament": "M15 Monastir 35",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Forcano",
+      "score": "3-6 6-3 4-6"
+    },
+    {
+      "date": "20240320",
+      "tournament": "ITF M25 Calabasas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Holt",
+      "score": "7-5 6-4"
+    }
+  ]
+}
