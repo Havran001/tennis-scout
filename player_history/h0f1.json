@@ -3,11 +3,11 @@
   "gs_id": "43101",
   "player_name": "James Hopper",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:48:47.644Z",
+  "updated": "2026-03-26T18:54:45.786Z",
   "matches": [
     {
-      "date": "20231029",
-      "tournament": "Charlottesville Challenger Men",
+      "date": "20260201",
+      "tournament": "Cleveland",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Quinn",
-      "score": "0-6 3-6"
+      "opponent": "M. Kuhar",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20230129",
+      "tournament": "Cleveland Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Pecotic",
+      "score": "7(8)-6(6) 6-2"
+    },
+    {
+      "date": "20220130",
+      "tournament": "Cleveland",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Nava",
+      "score": "4-6 6-0 6-1"
+    },
+    {
+      "date": "20210314",
+      "tournament": "Cleveland Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Song",
+      "score": "6-1 6(3)-7(7) 6-1"
+    },
+    {
+      "date": "20200211",
+      "tournament": "Cleveland",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Rodionov",
+      "score": "2-6 1-6"
     }
   ]
 }
