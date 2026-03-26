@@ -1,1 +1,87 @@
-{"player_id":"pl38","sack_id":"134384","name":"Sebastian Prechtel","total":0,"matches":[]}
+{
+  "player_id": "pl38",
+  "gs_id": "23016",
+  "player_name": "Sebastian Prechtel",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:16:45.525Z",
+  "matches": [
+    {
+      "date": "20170623",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Frigerio",
+      "score": "7(7)-6(5) 6-2"
+    },
+    {
+      "date": "20170622",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Zormann Da Silva",
+      "score": "6-3 7(7)-6(3)"
+    },
+    {
+      "date": "20170620",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Luz",
+      "score": "3-6 6-3 4-6"
+    },
+    {
+      "date": "20160802",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Ch. Lindell",
+      "score": "7(7)-6(5) 2-6 5-7"
+    },
+    {
+      "date": "20150804",
+      "tournament": "Bolzano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bortolotti",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20150425",
+      "tournament": "Munich",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zverev",
+      "score": "2-6 4-6"
+    }
+  ]
+}
