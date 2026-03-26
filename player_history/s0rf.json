@@ -1,1 +1,113 @@
-{"player_id":"s0rf","sack_id":"209997","name":"Marcello Serafini","total":0,"matches":[]}
+{
+  "player_id": "s0rf",
+  "gs_id": "120182",
+  "player_name": "Marcello Serafini",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:10:27.632Z",
+  "matches": [
+    {
+      "date": "20240902",
+      "tournament": "Genova Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Echargui",
+      "score": "3-6 6-1 3-6"
+    },
+    {
+      "date": "20240901",
+      "tournament": "Genova Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Vulpitta",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240805",
+      "tournament": "Cordenons Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Mikrut",
+      "score": "4-6 0-3 ret."
+    },
+    {
+      "date": "20240804",
+      "tournament": "Cordenons Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Guerrieri",
+      "score": "6-4 5-7 4-6"
+    },
+    {
+      "date": "20230905",
+      "tournament": "Genova Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Shevchenko",
+      "score": "6-2 6(7)-7(9) 3-6"
+    },
+    {
+      "date": "20230807",
+      "tournament": "Cordenons Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Villanueva",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20230806",
+      "tournament": "Cordenons Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Roncalli",
+      "score": "2-6 6-3 6-2"
+    },
+    {
+      "date": "20210829",
+      "tournament": "Como Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Erler",
+      "score": "6-1 3-6 7(8)-6(6)"
+    }
+  ]
+}
