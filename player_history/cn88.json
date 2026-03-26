@@ -3,11 +3,11 @@
   "gs_id": "31748",
   "player_name": "Tiago Cacao",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:09:59.700Z",
+  "updated": "2026-03-26T17:43:33.740Z",
   "matches": [
     {
-      "date": "20250921",
-      "tournament": "Lisbon",
+      "date": "20250928",
+      "tournament": "Braga",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,12 +15,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Cecchinato",
-      "score": "4-6 5-7"
+      "opponent": "F. Romano",
+      "score": "7(7)-6(1) 7(7)-6(4)"
     },
     {
-      "date": "20210928",
-      "tournament": "Lisbon Challenger Men",
+      "date": "20210922",
+      "tournament": "Braga Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Monteiro",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20210920",
+      "tournament": "Braga Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Ortega-Olmedo",
+      "score": "4-6 6-1 6-1"
+    },
+    {
+      "date": "20190508",
+      "tournament": "Braga",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,25 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Domingues",
-      "score": "4-6 4-6"
+      "opponent": "J. Zopp",
+      "score": "5-7 2-6"
     },
     {
-      "date": "20190514",
-      "tournament": "Lisbon",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Lopez-Perez",
-      "score": "6(5)-7(7) 4-6"
-    },
-    {
-      "date": "20190513",
-      "tournament": "Lisbon",
+      "date": "20190506",
+      "tournament": "Braga",
       "surface": "Hard",
       "level": "C",
       "round": "R64",
@@ -54,12 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Arguello",
-      "score": "2-6 6-2 6-1"
+      "opponent": "F. Cabral",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20180514",
-      "tournament": "Lisbon",
+      "date": "20190416",
+      "tournament": "Madrid",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Meligeni Rodrigues Alves",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20180508",
+      "tournament": "Braga",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Ofner",
-      "score": "0-6 3-6"
+      "opponent": "A. De Minaur",
+      "score": "2-6 6-2 6-3"
     }
   ]
 }
