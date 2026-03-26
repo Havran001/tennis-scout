@@ -3,20 +3,72 @@
   "gs_id": "72986",
   "player_name": "Tim Handel",
   "source": "goalserve-full",
-  "updated": "2026-03-26T12:28:56.615Z",
+  "updated": "2026-03-26T14:36:16.693Z",
   "matches": [
     {
-      "date": "20250513",
-      "tournament": "M25 Vic",
+      "date": "20240910",
+      "tournament": "Szczecin",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Tabur",
-      "score": "6(2)-7(7) 2-6"
+      "opponent": "H. Barton",
+      "score": "2-6 6(4)-7(7)"
+    },
+    {
+      "date": "20240908",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Oradini",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230910",
+      "tournament": "Szczecin Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Roca Batalla",
+      "score": "3-6 7(10)-6(8) 6(5)-7(7)"
+    },
+    {
+      "date": "20220912",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Choinski",
+      "score": "7-5 3-6 7-5"
+    },
+    {
+      "date": "20220911",
+      "tournament": "Szczecin",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Forejtek",
+      "score": "4-6 0-6"
     }
   ]
 }
