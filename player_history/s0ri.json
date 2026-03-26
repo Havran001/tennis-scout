@@ -1,10 +1,49 @@
 {
   "player_id": "s0ri",
-  "gs_id": "6945",
-  "player_name": "Karan Singh",
+  "gs_id": "141974",
+  "player_name": "Digvijaypratap Singh",
   "source": "goalserve-full",
-  "updated": "2026-03-26T16:09:08.703Z",
+  "updated": "2026-03-26T16:13:17.719Z",
   "matches": [
+    {
+      "date": "20260223",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Wu Tung-Lin",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20260222",
+      "tournament": "Pune",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Sasikumar",
+      "score": "7-5 7(7)-6(1)"
+    },
+    {
+      "date": "20260217",
+      "tournament": "New Delhi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Bar Biryukov",
+      "score": "3-6 4-6"
+    },
     {
       "date": "20260210",
       "tournament": "Chennai",
@@ -15,51 +54,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Ferreira Silva",
-      "score": "6-4 6-4"
+      "opponent": "O. Crawford",
+      "score": "7(8)-6(6) 3-6 7-5"
     },
     {
-      "date": "20260106",
-      "tournament": "Bengaluru",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Gojo",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20250225",
-      "tournament": "Bengaluru",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Rodionov",
-      "score": "6-4 4-6 7(7)-6(3)"
-    },
-    {
-      "date": "20250224",
-      "tournament": "Bengaluru",
+      "date": "20251103",
+      "tournament": "Taipei",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Shah",
-      "score": "4-6 6(6)-7(8)"
+      "result": "L",
+      "opponent": "U. Park",
+      "score": "7(7)-6(5) 0-6 2-6"
     },
     {
-      "date": "20250223",
-      "tournament": "Bengaluru",
+      "date": "20251102",
+      "tournament": "Taipei",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,24 +80,24 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Dzhavakian",
-      "score": "7-5 6-3"
+      "opponent": "G. Lomakin",
+      "score": "7(7)-6(5) 6-4"
     },
     {
-      "date": "20250204",
-      "tournament": "Chennai",
+      "date": "20230226",
+      "tournament": "Pune Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Jacquet",
-      "score": "3-6 3-6"
+      "opponent": "N. Milojevic",
+      "score": "1-6 5-7"
     },
     {
-      "date": "20240211",
+      "date": "20230219",
       "tournament": "Bengaluru Challenger Men",
       "surface": "Hard",
       "level": "C",
@@ -93,11 +106,24 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "6(3)-7(7) 7-5 6(9)-7(11)"
+      "opponent": "J. McCabe",
+      "score": "6-1 7-5"
     },
     {
-      "date": "20240204",
+      "date": "20230213",
+      "tournament": "Chennai Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. McCabe",
+      "score": "2-6 6(2)-7(7)"
+    },
+    {
+      "date": "20230212",
       "tournament": "Chennai Challenger Men",
       "surface": "Hard",
       "level": "C",
@@ -105,22 +131,35 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Castelnuovo",
-      "score": "6-4 7(7)-6(4)"
+      "result": "W",
+      "opponent": "A. Santillan",
+      "score": "2-6 6-4 6-1"
     },
     {
-      "date": "20220206",
-      "tournament": "Bengaluru",
+      "date": "20191017",
+      "tournament": "Getafe (Madrid)",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Noguchi",
-      "score": "4-6 6-1 6-3"
+      "opponent": "A. Garcia",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20191016",
+      "tournament": "Getafe (Madrid)",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Fabre",
+      "score": "1-6 1-6"
     }
   ]
 }
