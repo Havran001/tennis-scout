@@ -1,1 +1,61 @@
-{"player_id":"v0dg","sack_id":"209088","name":"Quinn Vandecasteele","total":2,"matches":[{"id":"A7vLPIwP","date":"20260325","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Gojo B.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"0z6OOo7E","date":"20260324","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Zhukayev B.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "v0dg",
+  "gs_id": "71271",
+  "player_name": "Quinn Vandecasteele",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T11:45:41.589Z",
+  "matches": [
+    {
+      "date": "20230822",
+      "tournament": "ATP US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bagnis",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20191120",
+      "tournament": "Austin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Brown",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20190704",
+      "tournament": "Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Tikhomirov",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20190703",
+      "tournament": "Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Cash",
+      "score": "6(6)-7(8) 7-5 6-1"
+    }
+  ]
+}
