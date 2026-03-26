@@ -3,59 +3,72 @@
   "gs_id": "126724",
   "player_name": "Dylan Dietrich",
   "source": "goalserve-full",
-  "updated": "2026-03-26T18:56:33.783Z",
+  "updated": "2026-03-26T20:17:01.817Z",
   "matches": [
     {
-      "date": "20260225",
-      "tournament": "Lugano",
+      "date": "20240628",
+      "tournament": "ITF M25 Klosters Men",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dellavedova",
+      "score": "6-4 3-6 6-4"
+    },
+    {
+      "date": "20240627",
+      "tournament": "ITF M25 Klosters Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Wenger",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240625",
+      "tournament": "ITF M25 Klosters Men",
+      "surface": "Hard",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Glinka",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20260223",
-      "tournament": "Lugano",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "A. Rybakov",
-      "score": "5-7 4-6"
+      "opponent": "R. Baltensperger",
+      "score": "0-6 2-6"
     },
     {
-      "date": "20260222",
-      "tournament": "Lugano",
+      "date": "20230706",
+      "tournament": "ITF M25 Klosters Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Potenza",
-      "score": "7(7)-6(5) 6-4"
-    },
-    {
-      "date": "20230305",
-      "tournament": "Lugano Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Onclin",
-      "score": "4-6 2-6"
+      "opponent": "J. Kym",
+      "score": "6-1 3-6 6-0"
+    },
+    {
+      "date": "20230704",
+      "tournament": "ITF M25 Klosters Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Sebesta",
+      "score": "4-6 6(5)-7(7)"
     },
     {
       "date": "20230216",
@@ -84,17 +97,30 @@
       "score": "7-5 3-6 7(12)-6(10)"
     },
     {
-      "date": "20230207",
-      "tournament": "ITF M15 Monastir 6 Men",
+      "date": "20221013",
+      "tournament": "M15 Heraklion 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gonzalez Fernandez",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20221012",
+      "tournament": "M15 Heraklion 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Iannaccone",
-      "score": "2-6 2-6"
+      "result": "W",
+      "opponent": "S. Simeunovic",
+      "score": "6(4)-7(7) 3-6"
     }
   ]
 }
