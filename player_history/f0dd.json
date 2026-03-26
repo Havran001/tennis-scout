@@ -1,1 +1,22 @@
-{"player_id":"f0dd","sack_id":"209117","name":"Marco Furlanetto","total":0,"matches":[]}
+{
+  "player_id": "f0dd",
+  "gs_id": "72232",
+  "player_name": "Marco Furlanetto",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T13:09:31.625Z",
+  "matches": [
+    {
+      "date": "20190716",
+      "tournament": "Gubbio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. La Vela",
+      "score": "6-4 6-4"
+    }
+  ]
+}
