@@ -3,11 +3,11 @@
   "gs_id": "148918",
   "player_name": "Lorenzo Lorusso",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:13:54.864Z",
+  "updated": "2026-03-26T23:57:07.905Z",
   "matches": [
     {
-      "date": "20260303",
-      "tournament": "M15 Poitiers",
+      "date": "20250729",
+      "tournament": "M25 Bolzano",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Couturier",
-      "score": "7(7)-6(5) 2-6 0-6"
+      "opponent": "A. Weis",
+      "score": "7-5 6-1"
     },
     {
-      "date": "20210512",
-      "tournament": "M15 Jerusalem",
+      "date": "20240515",
+      "tournament": "ITF M15 Monastir 20 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Gengel",
-      "score": "7(7)-6(5) 6-4"
+      "opponent": "J. Flores",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20240510",
+      "tournament": "ITF M15 Monastir 19 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Ifi",
+      "score": "7(7)-6(5) 7(7)-6(4)"
+    },
+    {
+      "date": "20240508",
+      "tournament": "ITF M15 Monastir 19 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Yamanaka",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20230809",
+      "tournament": "ITF M15 Monastir 32 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Mansouri",
+      "score": "7(17)-6(15) 3-6 2-6"
     }
   ]
 }
