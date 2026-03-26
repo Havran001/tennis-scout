@@ -1,1 +1,48 @@
-{"player_id":"s0cv","sack_id":"134423","name":"Leevi Saatela","total":0,"matches":[]}
+{
+  "player_id": "s0cv",
+  "gs_id": "82104",
+  "player_name": "Leevi Saatela",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:55:46.786Z",
+  "matches": [
+    {
+      "date": "20231105",
+      "tournament": "Helsinki Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Krutykh",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20221115",
+      "tournament": "Helsinki",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Peniston",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20191112",
+      "tournament": "Helsinki",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Virtanen",
+      "score": "6-0 6-3"
+    }
+  ]
+}
