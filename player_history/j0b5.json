@@ -1,1 +1,61 @@
-{"player_id":"j0b5","sack_id":"208143","name":"Garrett Johns","total":3,"matches":[{"id":"YFlmDqam","date":"20260325","tournament":"CHALLENGER MEN - SINGLES: Bucaramanga 2 (Colombia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Rodriguez L. J.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"vkROpU1b","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Bucaramanga 2 (Colombia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Osorio J. S./Urrea A.","score":"0-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"vkROpU1b","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Bucaramanga 2 (Colombia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Osorio J. S./Urrea A.","score":"0-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "j0b5",
+  "gs_id": "40483",
+  "player_name": "Garrett Johns",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:55:54.542Z",
+  "matches": [
+    {
+      "date": "20250822",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Riedi",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20250821",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Crawford",
+      "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20250819",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Smith",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20180721",
+      "tournament": "Atlanta",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bolt",
+      "score": "6-1 6-4"
+    }
+  ]
+}
