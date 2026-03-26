@@ -1,36 +1,10 @@
 {
   "player_id": "te51",
-  "gs_id": "34244",
-  "player_name": "Petros Tsitsipas",
+  "gs_id": "160238",
+  "player_name": "Pavlos Tsitsipas",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:13:45.809Z",
+  "updated": "2026-03-26T20:18:20.807Z",
   "matches": [
-    {
-      "date": "20260326",
-      "tournament": "M15 Heraklion 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Searle",
-      "score": "0-4 ret."
-    },
-    {
-      "date": "20250515",
-      "tournament": "M15 Heraklion 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Poullain",
-      "score": "6-2 6-0"
-    },
     {
       "date": "20250514",
       "tournament": "M15 Heraklion 5",
@@ -40,61 +14,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Host",
-      "score": "6-1 3-6 6-3"
-    },
-    {
-      "date": "20250511",
-      "tournament": "M15 Heraklion 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "L. Wessels",
-      "score": "3-6 7-5 6-2"
-    },
-    {
-      "date": "20250510",
-      "tournament": "M15 Heraklion 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Summers",
-      "score": "7-5 6(5)-7(7) 7(7)-6(1)"
-    },
-    {
-      "date": "20250509",
-      "tournament": "M15 Heraklion 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Kountourakis",
-      "score": "6(6)-7(8) 4-6"
-    },
-    {
-      "date": "20250508",
-      "tournament": "M15 Heraklion 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Crowther",
-      "score": "6-4 6-4"
+      "opponent": "A. Perez",
+      "score": "2-6 3-6"
     },
     {
       "date": "20250507",
@@ -105,9 +27,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "Pa. Tsitsipas",
-      "score": "4-6 4-6"
+      "result": "L",
+      "opponent": "Pe. Tsitsipas",
+      "score": "6-4 6-4"
     },
     {
       "date": "20250402",
@@ -119,38 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Rivera",
-      "score": "3-6 7-5 3-6"
+      "opponent": "E. Khoeblal",
+      "score": "6-1 3-6 7(7)-6(4)"
     },
     {
-      "date": "20220717",
-      "tournament": "Trieste",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. van Assche",
-      "score": "0-6 1-6"
-    },
-    {
-      "date": "20220710",
-      "tournament": "Iasi",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Prihodko",
-      "score": "6(4)-7(7) 1-6"
-    },
-    {
-      "date": "20200311",
-      "tournament": "ITF M15 Heraklion 5 Men",
+      "date": "20250219",
+      "tournament": "M15 Monastir 7",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. H. Boyer",
-      "score": "5-7 5-2 ret."
+      "opponent": "A. Barroso Campos",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20241017",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nikles",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20241016",
+      "tournament": "ITF M15 Heraklion 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Chatziavraam",
+      "score": "6-3 6-1"
     }
   ]
 }
