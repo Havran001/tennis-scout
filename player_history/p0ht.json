@@ -1,13 +1,13 @@
 {
   "player_id": "p0ht",
-  "gs_id": "136893",
-  "player_name": "Hayden Jones",
+  "gs_id": "3516",
+  "player_name": "Scott Jones",
   "source": "goalserve-full",
-  "updated": "2026-03-26T17:49:43.747Z",
+  "updated": "2026-03-26T18:52:55.779Z",
   "matches": [
     {
-      "date": "20250527",
-      "tournament": "Little Rock",
+      "date": "20241019",
+      "tournament": "Playford 2",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Takahashi",
-      "score": "3-6 2-6"
+      "opponent": "R. Matsuda",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20231022",
+      "tournament": "Playford 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bouzige",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20231022",
+      "tournament": "Playford 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Wehnelt",
+      "score": "3-6 7(8)-6(6) 6(6)-7(8)"
     }
   ]
 }
