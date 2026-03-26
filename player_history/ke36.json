@@ -1,1 +1,35 @@
-{"player_id":"ke36","sack_id":"125806","name":"Dominik Kellovsky","total":0,"matches":[]}
+{
+  "player_id": "ke36",
+  "gs_id": "30413",
+  "player_name": "Dominik Kellovsky",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T10:31:33.551Z",
+  "matches": [
+    {
+      "date": "20180913",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Holt",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20180911",
+      "tournament": "Claremont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Mercier",
+      "score": "1-6 4-6"
+    }
+  ]
+}
