@@ -3,24 +3,50 @@
   "gs_id": "224956",
   "player_name": "Tudor Batin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:55:18.926Z",
+  "updated": "2026-03-27T03:55:13.970Z",
   "matches": [
     {
-      "date": "20251204",
-      "tournament": "M15 Monastir 44",
+      "date": "20251105",
+      "tournament": "M15 Sharm ElSheikh 16",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Anavatan",
+      "score": "4-6 6-1 6-4"
+    },
+    {
+      "date": "20251010",
+      "tournament": "M15 Sharm ElSheikh 12",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Dzhavakian",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20251009",
+      "tournament": "M15 Sharm ElSheikh 12",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Sakellaridis",
-      "score": "7-5 4-6 3-6"
+      "result": "W",
+      "opponent": "R. Tiukaev",
+      "score": "6-4 2-6 1-6"
     },
     {
-      "date": "20251203",
-      "tournament": "M15 Monastir 44",
+      "date": "20251008",
+      "tournament": "M15 Sharm ElSheikh 12",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Dell&apos;Elba",
-      "score": "4-6 6-3 6-1"
+      "opponent": "Y. A. Wageh",
+      "score": "4-6 0-6"
     },
     {
-      "date": "20251127",
-      "tournament": "M15 Monastir 43",
+      "date": "20251003",
+      "tournament": "M25 Sharm ElSheikh 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Elsayed",
+      "score": "4-6 6-0 4-6"
+    },
+    {
+      "date": "20251002",
+      "tournament": "M25 Sharm ElSheikh 4",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Duhan",
-      "score": "3-6 6-2 6-4"
+      "result": "W",
+      "opponent": "F. Zakaria",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20251126",
-      "tournament": "M15 Monastir 43",
+      "date": "20251001",
+      "tournament": "M25 Sharm ElSheikh 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Mbithi",
-      "score": "6-0 1-6 4-6"
+      "opponent": "O. Kandil",
+      "score": "3-6 2-6"
     }
   ]
 }
