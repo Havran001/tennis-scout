@@ -3,24 +3,63 @@
   "gs_id": "68078",
   "player_name": "Giovanni Mpetshi Perricard",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:02:14.008Z",
+  "updated": "2026-03-27T07:08:53.071Z",
   "matches": [
     {
-      "date": "20230706",
-      "tournament": "Bloomfield Hills Challenger Men",
+      "date": "20240211",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Martineau",
+      "score": "6(2)-7(7) 4-6"
+    },
+    {
+      "date": "20240210",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Blockx",
+      "score": "6(8)-7(10) 2-6"
+    },
+    {
+      "date": "20240209",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Stewart",
+      "score": "7(9)-6(7) 7(7)-6(3)"
+    },
+    {
+      "date": "20240207",
+      "tournament": "Nottingham 3 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Kukushkin",
-      "score": "6-3 3-6 2-6"
+      "result": "W",
+      "opponent": "M. Guinard",
+      "score": "6-3 3-6 7(7)-6(3)"
     },
     {
-      "date": "20230704",
-      "tournament": "Bloomfield Hills Challenger Men",
+      "date": "20240206",
+      "tournament": "Nottingham 3 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Basavareddy",
-      "score": "6-3 3-6 3-6"
+      "opponent": "R. Peniston",
+      "score": "3-6 2-6"
     }
   ]
 }
