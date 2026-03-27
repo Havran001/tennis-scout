@@ -3,11 +3,11 @@
   "gs_id": "162538",
   "player_name": "Teodor Stirbu Calin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:48:47.986Z",
+  "updated": "2026-03-27T06:10:18.015Z",
   "matches": [
     {
-      "date": "20240625",
-      "tournament": "M15 Wroclaw",
+      "date": "20250618",
+      "tournament": "M15 Cluj Napoca",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Zuk",
+      "opponent": "S. Palosi",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240817",
+      "tournament": "ITF M15 Targu Jiu Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Tomescu",
       "score": "6-1 6-3"
     },
     {
-      "date": "20220817",
-      "tournament": "M15 Craiova",
+      "date": "20240816",
+      "tournament": "ITF M15 Targu Jiu Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. C. Breazu",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240815",
+      "tournament": "ITF M15 Targu Jiu Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. De Vincentis",
+      "score": "6-3 6(7)-7(9) 6-1"
+    },
+    {
+      "date": "20240813",
+      "tournament": "ITF M15 Targu Jiu Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Mouilleron Salvo",
+      "score": "3-6 7(7)-6(1) 2-6"
+    },
+    {
+      "date": "20230815",
+      "tournament": "ITF M15 Targu Jiu Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Milev",
-      "score": "7-5 3-6 2-6"
+      "opponent": "D. A. Tomescu",
+      "score": "6-1 6-2"
     }
   ]
 }
