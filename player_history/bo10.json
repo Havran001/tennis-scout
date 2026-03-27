@@ -3,24 +3,37 @@
   "gs_id": "36287",
   "player_name": "Gijs Brouwer",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:58:20.127Z",
+  "updated": "2026-03-27T11:48:30.145Z",
   "matches": [
     {
-      "date": "20260108",
-      "tournament": "M15 Oslo",
+      "date": "20201127",
+      "tournament": "M15 Heraklion 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Peniston",
+      "score": "7-5 2-6 1-6"
+    },
+    {
+      "date": "20201126",
+      "tournament": "M15 Heraklion 11",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. H. Rehberg",
-      "score": "6-4 6-2"
+      "result": "W",
+      "opponent": "C. Denolly",
+      "score": "7(7)-6(5) 6-2"
     },
     {
-      "date": "20260106",
-      "tournament": "M15 Oslo",
+      "date": "20201125",
+      "tournament": "M15 Heraklion 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,20 +41,7 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. O. Lien",
-      "score": "7-5 7-5"
-    },
-    {
-      "date": "20240806",
-      "tournament": "Lincoln",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Fearnley",
+      "opponent": "H. Li",
       "score": "1-6 1-6"
     }
   ]
