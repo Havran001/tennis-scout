@@ -3,20 +3,98 @@
   "gs_id": "39023",
   "player_name": "Andrew Fenty",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:09:00.977Z",
+  "updated": "2026-03-27T09:26:21.095Z",
   "matches": [
     {
-      "date": "20260104",
-      "tournament": "Nottingham 3",
+      "date": "20251023",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ghibaudo",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20251021",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Smith",
+      "score": "4-6 7(7)-6(4) 7(7)-6(3)"
+    },
+    {
+      "date": "20251020",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ganesan",
+      "score": "7(7)-6(3) 6-1"
+    },
+    {
+      "date": "20251019",
+      "tournament": "Sioux Falls",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Brumm",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20251014",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "F. Murgett",
-      "score": "0-6 5-7"
+      "opponent": "A. Martin",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20251013",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Poling",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20251012",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Schachter",
+      "score": "6-4 6-4"
     },
     {
       "date": "20250613",
@@ -123,34 +201,47 @@
       "score": "3-6 4-6"
     },
     {
-      "date": "20241122",
-      "tournament": "M15 Santo Domingo 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Cid Subervi",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20241121",
-      "tournament": "M15 Santo Domingo 3",
+      "date": "20241212",
+      "tournament": "M15 Huamantla 7",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ayeni",
+      "score": "7(8)-6(6) 7-5"
+    },
+    {
+      "date": "20241210",
+      "tournament": "M15 Huamantla 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "I. Forcano",
-      "score": "2-6 1-6"
+      "opponent": "M. Mbithi",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20241203",
+      "tournament": "ITF M15 Huamantla 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ejupovic",
+      "score": "4-6 6(5)-7(7)"
     },
     {
       "date": "20241119",
-      "tournament": "M15 Santo Domingo 3",
+      "tournament": "ITF M15 Santo Domingo 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -162,8 +253,34 @@
       "score": "1-6 1-6"
     },
     {
-      "date": "20240806",
-      "tournament": "ITF M25 Southaven",
+      "date": "20241114",
+      "tournament": "M15 Guatemala 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Peck",
+      "score": "4-6 6-3 6(4)-7(7)"
+    },
+    {
+      "date": "20241113",
+      "tournament": "M15 Guatemala 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Botran Neutze",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Bali Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,8 +288,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Sheehy",
-      "score": "5-7 3-6"
+      "opponent": "J. Bradshaw",
+      "score": "6(4)-7(7) 3-6"
     },
     {
       "date": "20240530",
@@ -251,45 +368,6 @@
       "result": "W",
       "opponent": "I. M. Fahim",
       "score": "6-3 6-3"
-    },
-    {
-      "date": "20240422",
-      "tournament": "Shenzhen 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Berankis",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20230810",
-      "tournament": "ITF M25 Southaven",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zheng",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20230808",
-      "tournament": "ITF M25 Southaven",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Baadi",
-      "score": "6-3 6-4"
     }
   ]
 }
