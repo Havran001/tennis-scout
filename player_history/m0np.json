@@ -1,78 +1,13 @@
 {
   "player_id": "m0np",
-  "gs_id": "2484",
-  "player_name": "Toby Martin",
+  "gs_id": "167342",
+  "player_name": "Benjamin Martin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:04:04.042Z",
+  "updated": "2026-03-27T07:04:06.035Z",
   "matches": [
     {
-      "date": "20250105",
-      "tournament": "Nottingham 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Brancaccio",
-      "score": "4-6 1-6"
-    },
-    {
-      "date": "20241016",
-      "tournament": "M25 Edgbaston",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Matusevich",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20241015",
-      "tournament": "M25 Edgbaston",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Thurner",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20240912",
-      "tournament": "M25 Pozzuoli",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Peliwo",
-      "score": "3-6 0-2 ret."
-    },
-    {
-      "date": "20240911",
-      "tournament": "M25 Pozzuoli",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Calvano",
-      "score": "0-6 6-4 6-4"
-    },
-    {
-      "date": "20230830",
-      "tournament": "ITF M15 Vienna Men",
+      "date": "20250702",
+      "tournament": "M15 Tanger",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Kobierski",
-      "score": "5-7 2-6"
+      "opponent": "W. Ahouda",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20240528",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Lokoli",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230530",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Mora",
+      "score": "6-4 4-6 4-6"
     }
   ]
 }
