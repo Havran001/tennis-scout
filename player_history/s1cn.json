@@ -3,20 +3,33 @@
   "gs_id": "297246",
   "player_name": "Jack Satterfield",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:56:45.945Z",
+  "updated": "2026-03-27T04:51:07.222Z",
   "matches": [
     {
-      "date": "20250429",
-      "tournament": "M15 Orange Park",
+      "date": "20250130",
+      "tournament": "M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Markovic",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250129",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Zink",
-      "score": "6-2 6-3"
+      "result": "W",
+      "opponent": "A. Gurmendi",
+      "score": "6(4)-7(7) 6-3 3-6"
     }
   ]
 }
