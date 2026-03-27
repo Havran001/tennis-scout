@@ -1,48 +1,35 @@
 {
   "player_id": "b0vx",
-  "gs_id": "267294",
-  "player_name": "Pierluigi Basile",
+  "gs_id": "138520",
+  "player_name": "Alessio Basile",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:55:39.924Z",
+  "updated": "2026-03-27T01:55:32.939Z",
   "matches": [
     {
-      "date": "20251031",
-      "tournament": "ITF M15 Sharm ElSheikh 16 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Zakaria",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20251030",
-      "tournament": "ITF M15 Sharm ElSheikh 16 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Gretskiy",
-      "score": "6-3 7-5"
-    },
-    {
-      "date": "20251029",
-      "tournament": "ITF M15 Sharm ElSheikh 16 Men",
+      "date": "20250617",
+      "tournament": "M15 Duffel",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Herman",
-      "score": "6-2 6-4"
+      "result": "L",
+      "opponent": "L. Branger",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20230613",
+      "tournament": "ITF M15 Duffel Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Sperle",
+      "score": "4-6 4-6"
     }
   ]
 }
