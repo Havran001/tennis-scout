@@ -3,33 +3,72 @@
   "gs_id": "57184",
   "player_name": "Eliot Spizzirri",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:15:36.107Z",
+  "updated": "2026-03-27T10:59:05.124Z",
   "matches": [
     {
-      "date": "20250917",
-      "tournament": "Hangzhou",
+      "date": "20250712",
+      "tournament": "Newport",
       "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Royer",
-      "score": "5-7 6-4 3-6"
-    },
-    {
-      "date": "20250916",
-      "tournament": "Hangzhou",
-      "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Svajda",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250711",
+      "tournament": "Newport",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "C. H. Tseng",
-      "score": "2-6 6-1 6-4"
+      "opponent": "T. Schoolkate",
+      "score": "6-4 4-6 4-6"
+    },
+    {
+      "date": "20250709",
+      "tournament": "Newport",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Mayo",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250707",
+      "tournament": "Newport",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Zhu",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20250603",
+      "tournament": "Birmingham",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tu",
+      "score": "6-3 6-3"
     },
     {
       "date": "20250302",
@@ -95,32 +134,6 @@
       "result": "W",
       "opponent": "A. Hernandez",
       "score": "3-6 1-6"
-    },
-    {
-      "date": "20241023",
-      "tournament": "Sioux Falls",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Holt",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20241022",
-      "tournament": "Sioux Falls",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Martin",
-      "score": "6-0 6-3"
     }
   ]
 }
