@@ -3,24 +3,37 @@
   "gs_id": "96668",
   "player_name": "Jagger Leach",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:52:42.920Z",
+  "updated": "2026-03-27T01:58:57.938Z",
   "matches": [
     {
-      "date": "20240919",
-      "tournament": "M15 Fayetteville",
+      "date": "20250321",
+      "tournament": "M25 Bakersfield",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "1-6 6(3)-7(7)"
+    },
+    {
+      "date": "20250320",
+      "tournament": "M25 Bakersfield",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Baroni",
-      "score": "6(7)-7(9) 3-6"
+      "result": "W",
+      "opponent": "A. Nguyen",
+      "score": "5-7 6-2 2-6"
     },
     {
-      "date": "20240918",
-      "tournament": "M15 Fayetteville",
+      "date": "20250319",
+      "tournament": "M25 Bakersfield",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Bellegy",
-      "score": "6-1 6-0"
+      "opponent": "C. Broom",
+      "score": "6-4 3-6 6-3"
     }
   ]
 }
