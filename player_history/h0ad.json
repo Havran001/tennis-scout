@@ -3,11 +3,37 @@
   "gs_id": "34437",
   "player_name": "Toru Horie",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:50:51.982Z",
+  "updated": "2026-03-27T05:41:50.030Z",
   "matches": [
     {
-      "date": "20250903",
-      "tournament": "M25 Sapporo",
+      "date": "20250619",
+      "tournament": "M15 Saarlouis",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Krolo",
+      "score": "4-6 7(13)-6(11) 6-1"
+    },
+    {
+      "date": "20250619",
+      "tournament": "M15 Saarlouis",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Lopez Morillo",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230531",
+      "tournament": "ITF M15 Karuizawa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Kumasaka",
-      "score": "6-2 6-4"
+      "opponent": "H. Shiraishi",
+      "score": "6-4 4-6 6-4"
     }
   ]
 }
