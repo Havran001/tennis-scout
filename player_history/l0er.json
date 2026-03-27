@@ -3,8 +3,60 @@
   "gs_id": "68080",
   "player_name": "Timo Legout",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:54:52.983Z",
+  "updated": "2026-03-27T06:03:15.436Z",
   "matches": [
+    {
+      "date": "20230702",
+      "tournament": "Karlsruhe Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Bielinskyi",
+      "score": "6-3 1-6 3-6"
+    },
+    {
+      "date": "20230601",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bourgue",
+      "score": "7-5 3-6 0-2 ret."
+    },
+    {
+      "date": "20230531",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Seateun",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20230529",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bouquier",
+      "score": "7(7)-6(2) 2-6 0-6"
+    },
     {
       "date": "20230519",
       "tournament": "ITF M25 Kursumlijska Banja 2 Men",
@@ -43,6 +95,32 @@
       "result": "W",
       "opponent": "S. Pogosian",
       "score": "3-6 1-6"
+    },
+    {
+      "date": "20230511",
+      "tournament": "ITF M25 Kursumlijska Banja Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Ivanovski",
+      "score": "2-6 6-1 6-0"
+    },
+    {
+      "date": "20230510",
+      "tournament": "ITF M25 Kursumlijska Banja Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Haliak",
+      "score": "6-2 7(7)-6(4)"
     }
   ]
 }
