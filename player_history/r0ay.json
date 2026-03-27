@@ -3,33 +3,72 @@
   "gs_id": "160122",
   "player_name": "Gregor Ramskogler",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:54:09.970Z",
+  "updated": "2026-03-27T07:02:33.028Z",
   "matches": [
     {
-      "date": "20240821",
-      "tournament": "ITF M25 Maribor 2 Men",
+      "date": "20250914",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Forejtek",
-      "score": "6-3 6-2"
+      "opponent": "G. Piraino",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20230906",
-      "tournament": "ITF M25 Maribor 2 Men",
+      "date": "20250828",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Larwig",
+      "score": "6-1 5-7 6-4"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M15 Vienna",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Krolo",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250522",
+      "tournament": "M15 Kursumlijska Banja 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Topo",
-      "score": "4-6 6-4 6-2"
+      "opponent": "L. A. Falabella",
+      "score": "6-4 5-7 6-3"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M15 Kursumlijska Banja 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Nikolic",
+      "score": "4-6 7(7)-6(4) 4-6"
     }
   ]
 }
