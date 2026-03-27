@@ -3,20 +3,33 @@
   "gs_id": "278496",
   "player_name": "Georgi Georgiev",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:14:16.823Z",
+  "updated": "2026-03-27T00:55:42.918Z",
   "matches": [
     {
-      "date": "20250810",
-      "tournament": "Sofia",
+      "date": "20260207",
+      "tournament": "Dallas",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Paroulek",
-      "score": "2-6 6-4 7(7)-6(4)"
+      "opponent": "Z. Svajda",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250202",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Mmoh",
+      "score": "6(3)-7(7) 3-6"
     }
   ]
 }
