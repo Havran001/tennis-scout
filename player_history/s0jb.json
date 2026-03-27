@@ -3,8 +3,47 @@
   "gs_id": "76924",
   "player_name": "Noah Schachter",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:13.972Z",
+  "updated": "2026-03-27T04:54:28.989Z",
   "matches": [
+    {
+      "date": "20251125",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Kicker",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20251124",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Bruna",
+      "score": "3-6 7-5 6-3"
+    },
+    {
+      "date": "20240124",
+      "tournament": "M25 Wesley Chapel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Andrade",
+      "score": "6-4 7-5"
+    },
     {
       "date": "20231128",
       "tournament": "M15 Santa Cruz 2",
@@ -30,6 +69,19 @@
       "result": "L",
       "opponent": "F. A. Gomez",
       "score": "4-6 6(3)-7(7)"
+    },
+    {
+      "date": "20230105",
+      "tournament": "M25 Malibu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Svajda",
+      "score": "1-6 5-7"
     }
   ]
 }
