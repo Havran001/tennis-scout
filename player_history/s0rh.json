@@ -3,11 +3,11 @@
   "gs_id": "143173",
   "player_name": "Martin Sabas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:59:38.922Z",
+  "updated": "2026-03-27T08:23:47.075Z",
   "matches": [
     {
-      "date": "20260203",
-      "tournament": "M25 Monastir 3",
+      "date": "20250218",
+      "tournament": "M15 Lannion",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Echeverria",
-      "score": "6-2 6-4"
+      "opponent": "N. Ifi",
+      "score": "1-6 6-3 6-2"
+    },
+    {
+      "date": "20240418",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Brosset",
+      "score": "4-6 6-1 7-5"
+    },
+    {
+      "date": "20240416",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Berger",
+      "score": "6-4 4-6 4-6"
     }
   ]
 }
