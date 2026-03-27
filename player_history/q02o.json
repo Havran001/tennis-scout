@@ -3,24 +3,37 @@
   "gs_id": "173351",
   "player_name": "Rudy Quan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:49:10.002Z",
+  "updated": "2026-03-27T06:10:52.013Z",
   "matches": [
     {
-      "date": "20240125",
-      "tournament": "M25 Wesley Chapel",
+      "date": "20250814",
+      "tournament": "M15 Huntsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ciric",
+      "score": "3-6 7(12)-6(10) 3-6"
+    },
+    {
+      "date": "20250813",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. A. Bailly",
-      "score": "6-4 6-1"
+      "result": "W",
+      "opponent": "J. Roberts",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20240124",
-      "tournament": "M25 Wesley Chapel",
+      "date": "20250811",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Sell",
-      "score": "6-4 6-3"
+      "opponent": "N. Heng",
+      "score": "7(7)-6(2) 6(6)-7(8) 1-6"
     },
     {
-      "date": "20231116",
-      "tournament": "ITF M15 Boca Raton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Razeghi",
-      "score": "6-3 3-6 6-10"
-    },
-    {
-      "date": "20230106",
-      "tournament": "M25 Malibu",
+      "date": "20250807",
+      "tournament": "M25 Southaven",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Cozbinov",
-      "score": "6-4 6-1"
+      "opponent": "R. Dickerson",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20230105",
-      "tournament": "M25 Malibu",
+      "date": "20250805",
+      "tournament": "M25 Southaven",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +67,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Gupta",
-      "score": "4-6 6-4 8-10"
+      "opponent": "G. Dalmasso",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240712",
+      "tournament": "M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tien",
+      "score": "4-6 6(4)-7(7)"
+    },
+    {
+      "date": "20240711",
+      "tournament": "M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Stearns",
+      "score": "5-7 6-4 2-6"
+    },
+    {
+      "date": "20240710",
+      "tournament": "M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Dickerson",
+      "score": "6-4 4-6 0-6"
+    },
+    {
+      "date": "20240604",
+      "tournament": "Tyler Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Galarneau",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20230628",
+      "tournament": "M15 Irvine",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tien",
+      "score": "6-3 6-4"
     }
   ]
 }
