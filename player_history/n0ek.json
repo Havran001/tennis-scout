@@ -1,1 +1,48 @@
-{"player_id":"n0ek","gs_id":"169971","player_name":"David Naharro","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"8OXRLWmR","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Tarragona (Spain), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Alcala Gurri M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20251018","tournament":"M15 Castellon","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"P. Marino","score":"6-1 2-6 11-9"},{"date":"20240402","tournament":"Barcelona","surface":"Hard","level":"C","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"N. Sanchez Izquierdo","score":"6-1 6-0"},{"date":"20230920","tournament":"ITF M15 Melilla Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"C. Gimeno Valero","score":"6-2 6-0"}],"total":4}
+{
+  "player_id": "n0ek",
+  "gs_id": "169971",
+  "player_name": "David Naharro",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:18:46.808Z",
+  "matches": [
+    {
+      "date": "20251018",
+      "tournament": "M15 Castellon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Marino",
+      "score": "6-1 2-6 11-9"
+    },
+    {
+      "date": "20240402",
+      "tournament": "Barcelona",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20230920",
+      "tournament": "ITF M15 Melilla Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Gimeno Valero",
+      "score": "6-2 6-0"
+    }
+  ]
+}
