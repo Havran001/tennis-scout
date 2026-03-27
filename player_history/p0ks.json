@@ -3,11 +3,11 @@
   "gs_id": "157520",
   "player_name": "Lasse Poertner",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:48:40.984Z",
+  "updated": "2026-03-27T06:10:00.032Z",
   "matches": [
     {
-      "date": "20241211",
-      "tournament": "M15 Sharm ElSheikh 20",
+      "date": "20250715",
+      "tournament": "M15 Uslar",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Dzhavakian",
-      "score": "6-3 6-1"
+      "opponent": "M. Haliak",
+      "score": "2-6 6-3 5-7"
     },
     {
-      "date": "20241204",
-      "tournament": "M15 Sharm ElSheikh 19",
+      "date": "20240717",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Binda",
-      "score": "3-6 3-6"
+      "opponent": "E. Ejupovic",
+      "score": "6-4 4-6 6-1"
     },
     {
-      "date": "20240905",
-      "tournament": "ITF M15 Haren Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Thurner",
-      "score": "2-6 6-1 6-3"
-    },
-    {
-      "date": "20240905",
-      "tournament": "ITF M15 Haren Men",
+      "date": "20240530",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Pontjodikromo",
-      "score": "6-3 6-0"
+      "opponent": "G. Srbljak",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20240528",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Zhukov",
+      "score": "2-6 6-4 7-5"
+    },
+    {
+      "date": "20240522",
+      "tournament": "ITF M15 Kursumlijska Banja 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Andre",
+      "score": "4-6 6-4 3-6"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bacaloni",
+      "score": "6-2 7(7)-6(4)"
     }
   ]
 }
