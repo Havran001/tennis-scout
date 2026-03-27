@@ -3,20 +3,72 @@
   "gs_id": "35510",
   "player_name": "Benjamin Pietri",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:49:00.900Z",
+  "updated": "2026-03-27T00:50:46.917Z",
   "matches": [
     {
-      "date": "20250813",
-      "tournament": "M15 Pirot",
+      "date": "20231124",
+      "tournament": "ITF M15 Heraklion 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Xilas",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20231123",
+      "tournament": "ITF M15 Heraklion 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bodmer",
+      "score": ""
+    },
+    {
+      "date": "20231122",
+      "tournament": "ITF M15 Heraklion 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Radjenovic",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20230202",
+      "tournament": "ITF M25 Monastir Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "S. Seghetti",
-      "score": "2-6 6-0 6-0"
+      "opponent": "D. Added",
+      "score": "5-7 6-4 6-4"
+    },
+    {
+      "date": "20230131",
+      "tournament": "ITF M25 Monastir Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Simakin",
+      "score": "6-4 6-2"
     }
   ]
 }
