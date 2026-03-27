@@ -3,102 +3,63 @@
   "gs_id": "10385",
   "player_name": "Markos Kalovelonis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:57:23.937Z",
+  "updated": "2026-03-27T04:49:24.000Z",
   "matches": [
     {
-      "date": "20220217",
-      "tournament": "Bengaluru 2",
+      "date": "20250808",
+      "tournament": "M15 Singapore",
       "surface": "Hard",
-      "level": "C",
-      "round": "R16",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Nikles",
-      "score": "6-2 6-3"
+      "opponent": "K. Samrej",
+      "score": "5-7 0-0 ret."
     },
     {
-      "date": "20220215",
-      "tournament": "Bengaluru 2",
+      "date": "20250807",
+      "tournament": "M15 Singapore",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Oh Chan-Yeong",
+      "score": "3-6 6-3 6-4"
+    },
+    {
+      "date": "20250805",
+      "tournament": "M15 Singapore",
+      "surface": "Hard",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. H. Tseng",
-      "score": "2-6 2-6"
+      "opponent": "A. P. Bhat",
+      "score": "1-6 7(7)-6(5) 6(3)-7(7)"
     },
     {
-      "date": "20220214",
-      "tournament": "Bengaluru 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. S. Balaji",
-      "score": "4-6 6-4 4-6"
-    },
-    {
-      "date": "20220213",
-      "tournament": "Bengaluru 2",
+      "date": "20231126",
+      "tournament": "Maspalomas",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Pospisil",
-      "score": "6-4 3-6 6-3"
-    },
-    {
-      "date": "20220126",
-      "tournament": "M25 Cairo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "P. Martin Tiffon",
-      "score": "3-6 2-6"
+      "opponent": "I. Lopez Morillo",
+      "score": "6-4 6(5)-7(7) 6-3"
     },
     {
-      "date": "20211020",
-      "tournament": "ITF M25 Nur-Sultan 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Tashbulatov",
-      "score": "3-6 6-3 6-4"
-    },
-    {
-      "date": "20210929",
-      "tournament": "M25 Pretoria",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Pervolarakis",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20210923",
-      "tournament": "M25 Johannesburg / Ellispark",
+      "date": "20231109",
+      "tournament": "ITF M25 Heraklion 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Montsi",
-      "score": "1-6 3-6"
+      "opponent": "F. Forti",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20210922",
-      "tournament": "M25 Johannesburg / Ellispark",
+      "date": "20231108",
+      "tournament": "ITF M25 Heraklion 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Ochi",
-      "score": "6-4 6-4"
+      "opponent": "C. Antonopoulos",
+      "score": "6-2 7(8)-6(6)"
     },
     {
-      "date": "20210527",
-      "tournament": "M15 Shymkent 3",
+      "date": "20230601",
+      "tournament": "M25 Jakarta 4",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -132,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Liutarevich",
-      "score": "6-4 3-6 7(7)-6(3)"
+      "opponent": "H. Moriya",
+      "score": "6(1)-7(7) 2-6"
     },
     {
-      "date": "20210526",
-      "tournament": "M15 Shymkent 3",
+      "date": "20230531",
+      "tournament": "M25 Jakarta 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,8 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Manafov",
-      "score": "2-6 6-3 3-6"
+      "opponent": "E. Padgham",
+      "score": "7(7)-6(2) 6(5)-7(7) 6-3"
+    },
+    {
+      "date": "20230509",
+      "tournament": "M15 Alaminos-Larnaca 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. A. Dancu",
+      "score": "6-3 1-6 7(7)-6(5)"
     }
   ]
 }
