@@ -3,7 +3,7 @@
   "gs_id": "121612",
   "player_name": "Orel Kimhi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:10:09.032Z",
+  "updated": "2026-03-27T08:21:08.069Z",
   "matches": [
     {
       "date": "20241106",
@@ -19,21 +19,34 @@
       "score": "6-1 6-3"
     },
     {
-      "date": "20240905",
-      "tournament": "M15 Budapest 2",
+      "date": "20240614",
+      "tournament": "ITF M25 Elvas Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Escoffier",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M25 Elvas Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Stice",
-      "score": "1-6 6-4 6-3"
+      "result": "W",
+      "opponent": "F. Rocha",
+      "score": "5-7 1-6"
     },
     {
-      "date": "20240904",
-      "tournament": "M15 Budapest 2",
+      "date": "20240612",
+      "tournament": "ITF M25 Elvas Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +54,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Michalik",
-      "score": "6-2 6-1"
+      "opponent": "O. Shimanov",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20240724",
-      "tournament": "M25 Astana",
+      "date": "20240520",
+      "tournament": "Kachreti",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Jubb",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240515",
+      "tournament": "M25 Kachreti",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bakshi",
-      "score": "1-6 6(1)-7(7)"
+      "opponent": "D. Glinka",
+      "score": "6-2 6-4"
     },
     {
       "date": "20240125",
@@ -199,97 +225,6 @@
       "result": "W",
       "opponent": "R. Zusman",
       "score": "4-6 3-6"
-    },
-    {
-      "date": "20230907",
-      "tournament": "ITF M15 Budapest 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Shimanov",
-      "score": "6-2 7-5"
-    },
-    {
-      "date": "20230905",
-      "tournament": "ITF M15 Budapest 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Knoth",
-      "score": "6-0 6-0"
-    },
-    {
-      "date": "20230813",
-      "tournament": "M25 Herzlia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Guerrieri",
-      "score": "6-2 2-6 6(8)-7(10)"
-    },
-    {
-      "date": "20230812",
-      "tournament": "M25 Herzlia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Peliwo",
-      "score": "6-0 6-4"
-    },
-    {
-      "date": "20230811",
-      "tournament": "M25 Herzlia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Oliel",
-      "score": "6-4 0-6 7(7)-6(4)"
-    },
-    {
-      "date": "20230810",
-      "tournament": "M25 Herzlia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Davis",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20230808",
-      "tournament": "M25 Herzlia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Kawachi",
-      "score": "7(7)-6(2) 6-2"
     }
   ]
 }
