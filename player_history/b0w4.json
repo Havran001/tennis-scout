@@ -3,11 +3,11 @@
   "gs_id": "269869",
   "player_name": "Manvydas Balciunas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:50:02.988Z",
+  "updated": "2026-03-27T07:08:16.033Z",
   "matches": [
     {
-      "date": "20250618",
-      "tournament": "M15 Duffel",
+      "date": "20250514",
+      "tournament": "M15 Bucharest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,25 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. A. Bailly",
-      "score": "6-1 6-1"
+      "opponent": "M. Van Der Meerschen",
+      "score": "5-7 3-6"
     },
     {
-      "date": "20240905",
-      "tournament": "ITF M15 Haren Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Mujakic",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20240829",
-      "tournament": "ITF M25 Oldenzaal Men",
+      "date": "20250206",
+      "tournament": "M15 Zahra 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Khoeblal",
-      "score": "6-1 4-6 6-3"
+      "opponent": "M. Alkaya",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240827",
-      "tournament": "ITF M25 Oldenzaal Men",
+      "date": "20250205",
+      "tournament": "M15 Zahra 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Lootsma",
-      "score": "3-6 6-2 2-6"
+      "opponent": "A. Lobanov",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20250129",
+      "tournament": "M15 Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Van Der Meerschen",
+      "score": "6-4 6(4)-7(7) 3-6"
     }
   ]
 }
