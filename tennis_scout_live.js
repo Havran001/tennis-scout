@@ -2084,6 +2084,88 @@ function buildUI(){
   sh.getElementById('sb-reload').addEventListener('click',()=>{document.getElementById('ts-host')?.remove();TENNIS_SCOUT();});
   sh.getElementById('sb-close').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
 
+  // ── TENNIS ABSTRACT BULK IMPORT ──
+  (function(){
+    var btn=sh.getElementById('sb-ta-import');
+    if(!btn)return;
+    btn.addEventListener('click',function(){
+      var self=this,prog=sh.getElementById('ta-progress');
+      // Token z localStorage
+      var GH=localStorage.getItem('ts_gh_token');
+      if(!GH){GH=prompt('Zadej GitHub token pro import Tennis Abstract:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
+      self.disabled=true;prog.style.display='block';
+      var MO={Jan:'01',Feb:'02',Mar:'03',Apr:'04',May:'05',Jun:'06',Jul:'07',Aug:'08',Sep:'09',Oct:'10',Nov:'11',Dec:'12'};
+      function normName(fn){return(fn||'').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-zA-Zs-]/g,'').trim().split(/s+/).join('');}
+      function parseTA(html,lastName){
+        var parser=new DOMParser(),doc=parser.parseFromString(html,'text/html'),tables=doc.querySelectorAll('table'),mt=null;
+        for(var ti=0;ti<tables.length;ti++){if(tables[ti].rows.length>20&&tables[ti].innerText.includes('Tournament')){mt=tables[ti];break;}}
+        if(!mt)return null;
+        var matches=[];
+        for(var i=1;i<mt.rows.length;i++){
+          var cells=[...mt.rows[i].cells].map(function(c){return c.innerText.trim();});
+          var date=cells[0],tourn=cells[1],surf=cells[2],rnd=cells[3],rnk=cells[4],ornk=cells[5],sc=cells[7]||'';
+          var raw=(cells[6]||'').replace(/ /g,' ');
+          if(!date||date.length<5||!tourn||sc==='Live Scores')continue;
+          var dp=date.replace(/[‑–-]/g,'-').split('-'),ds=date;
+          if(dp.length===3){var mo=MO[dp[1]]||dp[1],yr=dp[2].length===2?'20'+dp[2]:dp[2];ds=yr+'-'+mo+'-'+dp[0].padStart(2,'0');}
+          var res='',opp='';
+          if(raw.includes(' d. ')){var pts=raw.split(' d. ');if(pts[0].includes(lastName)){res='W';opp=pts.slice(1).join(' d. ');}else{res='L';opp=pts[0];}}
+          else if(raw.includes(' vs ')){res='';opp=raw.split(' vs ').find(function(p){return!p.includes(lastName);})||'';}
+          else{opp=raw;}
+          opp=opp.replace(/s*[[A-Z]{3}]s*$/,'').replace(/^(w+)/,'').trim();
+          matches.push({date:ds,tournament:tourn,surface:surf,level:'ta-import',round:rnd,result:res,opponent:opp,score:sc,best_of:'',rank:rnk||'',opp_rank:ornk||''});
+        }
+        return matches;
+      }
+      var players=window.ATP_PLAYERS||window.ATP||[];
+      prog.innerHTML='Start: '+players.length+' hráčů...';
+      var done=0,imported=0,skipped=0,errors=0,total=players.length;
+      function next(idx){
+        if(idx>=total){
+          prog.innerHTML='✅ Hotovo! '+imported+' importováno | '+skipped+' přeskočeno | '+errors+' chyb';
+          self.disabled=false;self.textContent='✅ Import dokončen';return;
+        }
+        var p=players[idx];
+        if(!p||!p.id||!p.full_name){skipped++;done++;next(idx+1);return;}
+        var lastName=(p.full_name||'').split(' ').pop(),taName=normName(p.full_name);
+        fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',
+          {headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}})
+        .then(function(r){return r.ok?r.json():null;})
+        .then(function(curr){
+          var currData=curr?JSON.parse(atob(curr.content.replace(/
+/g,''))):null;
+          var currN=currData&&currData.matches?currData.matches.length:0;
+          if(currData&&currData.source==='tennisabstract'&&currData.updated){
+            var age=(Date.now()-new Date(currData.updated).getTime())/86400000;
+            if(age<7){skipped++;done++;if(done%20===0||done===total)prog.innerHTML=done+'/'+total+' ✅'+imported+' ⏭'+skipped+' ❌'+errors;setTimeout(function(){next(idx+1);},30);return;}
+          }
+          return fetch('https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+taName+'&f=ACareerqq')
+          .then(function(r){return r.ok?r.text():null;})
+          .then(function(html){
+            if(!html){errors++;done++;setTimeout(function(){next(idx+1);},300);return;}
+            var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
+            if(!tm||tm[1].includes('Player Search')){skipped++;done++;setTimeout(function(){next(idx+1);},200);return;}
+            var matches=parseTA(html,lastName);
+            if(!matches||matches.length<5||matches.length<=currN){skipped++;done++;if(done%20===0||done===total)prog.innerHTML=done+'/'+total+' ✅'+imported+' ⏭'+skipped+' ❌'+errors;setTimeout(function(){next(idx+1);},200);return;}
+            var out={player_id:p.id,gs_id:(currData&&currData.gs_id)||'',player_name:p.full_name,source:'tennisabstract',updated:new Date().toISOString(),matches:matches};
+            var enc=new TextEncoder(),bytes=enc.encode(JSON.stringify(out,null,2)),bin='';
+            for(var bi=0;bi<bytes.length;bi++)bin+=String.fromCharCode(bytes[bi]);
+            var body={message:'TA: '+p.full_name+' ('+matches.length+')',content:btoa(bin)};
+            if(curr&&curr.sha)body.sha=curr.sha;
+            return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',
+              {method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(body)})
+            .then(function(pr){
+              if(pr.ok){imported++;prog.innerHTML=done+'/'+total+' ✅'+imported+' ⏭'+skipped+' ❌'+errors+' → '+p.full_name+' ('+matches.length+')';}
+              else errors++;done++;setTimeout(function(){next(idx+1);},800);
+            });
+          });
+        })
+        .catch(function(){errors++;done++;setTimeout(function(){next(idx+1);},300);});
+      }
+      next(0);
+    });
+  })();
+
   // Players toggle pro zpětnou kompatibilitu
   var _bp=sh.getElementById('nav-players');
   if(_bp){_bp.onclick=function(){goView('players');};}
