@@ -3,8 +3,34 @@
   "gs_id": "1643",
   "player_name": "Dusan Lajovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:55:47.256Z",
+  "updated": "2026-03-27T10:56:59.170Z",
   "matches": [
+    {
+      "date": "20260324",
+      "tournament": "Alicante",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cecchinato",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20250814",
+      "tournament": "Cancun 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. A. Burruchaga",
+      "score": "5-3 ret."
+    },
     {
       "date": "20250621",
       "tournament": "Sassuolo",
@@ -69,6 +95,32 @@
       "result": "W",
       "opponent": "R. Nijboer",
       "score": "3-6 2-6"
+    },
+    {
+      "date": "20250430",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pellegrino",
+      "score": "7-5 6(2)-7(7) 6-3"
+    },
+    {
+      "date": "20250312",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Altmaier",
+      "score": "6-2 6(4)-7(7) 6-2"
     }
   ]
 }
