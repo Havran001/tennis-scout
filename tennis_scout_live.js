@@ -1140,9 +1140,10 @@ function buildPlayersTab(sh){
 
           function _fDD(list,q){var ql=(q||'').toLowerCase();list.querySelectorAll('.mh-dd-item').forEach(function(i){i.style.display=(!ql||i.textContent.toLowerCase().indexOf(ql)>=0)?'':'none';});}
 function _posDD(dd){
-  dd.style.left='0';dd.style.right='auto';
-  var r=dd.getBoundingClientRect();
-  if(r.right>window.innerWidth-8){dd.style.left='auto';dd.style.right='0';}
+  var col=dd.getAttribute('data-col');
+  var rightCols=['first_pct','second_pct','bp_saved','match_time','odds','dr','a_pct','df_pct','first_in'];
+  if(rightCols.indexOf(col)>=0){dd.style.left='auto';dd.style.right='0';}
+  else{dd.style.left='0';dd.style.right='auto';}
 }
 function _fmtOpp(name){
   if(!name)return '';
