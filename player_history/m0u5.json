@@ -3,24 +3,37 @@
   "gs_id": "179762",
   "player_name": "Milos Mikovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:54:51.971Z",
+  "updated": "2026-03-27T04:59:58.988Z",
   "matches": [
     {
-      "date": "20251119",
-      "tournament": "M25 Antalya 5",
+      "date": "20250522",
+      "tournament": "M15 Kursumlijska Banja 4",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Ovcharenko",
-      "score": "6-3 6-3"
+      "opponent": "A. Mujakic",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20231018",
-      "tournament": "ITF M15 Sharm ElSheikh 14 Men",
+      "date": "20250521",
+      "tournament": "M15 Kursumlijska Banja 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Reymond",
+      "score": "6-1 6(2)-7(7) 1-6"
+    },
+    {
+      "date": "20240508",
+      "tournament": "ITF M25 Kursumlijska Banja Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Consonni",
-      "score": "6-3 6-4"
+      "opponent": "K. Juhas",
+      "score": "6-4 3-6 6-1"
+    },
+    {
+      "date": "20240501",
+      "tournament": "ITF M15 Kursumlijska Banja 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Gavrielides",
+      "score": "1-6 1-6"
     }
   ]
 }
