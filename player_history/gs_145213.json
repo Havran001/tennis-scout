@@ -3,24 +3,37 @@
   "gs_id": "145213",
   "player_name": "Jun Kim Geun",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:01:33.065Z",
+  "updated": "2026-03-27T08:24:02.068Z",
   "matches": [
     {
-      "date": "20250604",
-      "tournament": "M25 Changwon",
+      "date": "20260327",
+      "tournament": "M15 Tsukuba",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Shin",
-      "score": "6-1 6-1"
+      "opponent": "H. Heck",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M25 Changwon Men",
+      "date": "20260326",
+      "tournament": "M15 Tsukuba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Yamanaka",
+      "score": "3-6 7-5 6-2"
+    },
+    {
+      "date": "20260311",
+      "tournament": "M15 Hinode",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Nakagawa",
+      "opponent": "Y. Oki",
       "score": "2-6 4-6"
     },
     {
-      "date": "20230615",
-      "tournament": "ITF M25 Changwon Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Rai",
-      "score": "4-6 3-2 ret."
-    },
-    {
-      "date": "20230615",
-      "tournament": "ITF M25 Changwon Men",
+      "date": "20250612",
+      "tournament": "M15 Harmon",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,38 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Shin",
-      "score": "0-6 4-6"
+      "opponent": "C. Sinclair",
+      "score": "4-6 0-6"
     },
     {
-      "date": "20230609",
-      "tournament": "M25 Daegu",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. M. Lee",
-      "score": "6-0 6-1"
-    },
-    {
-      "date": "20230608",
-      "tournament": "M25 Daegu",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Jeong",
-      "score": "6-1 2-6 6-4"
-    },
-    {
-      "date": "20230607",
-      "tournament": "M25 Daegu",
+      "date": "20250610",
+      "tournament": "M15 Harmon",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Je. Delaney",
-      "score": "3-6 3-6"
+      "opponent": "R. Tanuma",
+      "score": "6-4 6-2"
     }
   ]
 }
