@@ -3,8 +3,47 @@
   "gs_id": "87171",
   "player_name": "Aristotelis Thanos",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:55:29.992Z",
+  "updated": "2026-03-27T06:05:26.013Z",
   "matches": [
+    {
+      "date": "20250701",
+      "tournament": "Modena",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pellegrino",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250630",
+      "tournament": "Modena",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. A. Caniato",
+      "score": "4-6 6-1 5-7"
+    },
+    {
+      "date": "20250629",
+      "tournament": "Modena",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Nijboer",
+      "score": "6-4 6-2"
+    },
     {
       "date": "20250615",
       "tournament": "M25 Varnamo",
@@ -69,71 +108,6 @@
       "result": "W",
       "opponent": "J. Hallquist Lithen",
       "score": "2-6 5-7"
-    },
-    {
-      "date": "20250531",
-      "tournament": "M25 Heraklion",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Matsuda",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20250530",
-      "tournament": "M25 Heraklion",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Colson",
-      "score": "6(7)-7(9) 6-0 6-3"
-    },
-    {
-      "date": "20250529",
-      "tournament": "M25 Heraklion",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Xilas",
-      "score": "3-6 6-0 6-4"
-    },
-    {
-      "date": "20250528",
-      "tournament": "M25 Heraklion",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Perez",
-      "score": "6-1 2-6 5-7"
-    },
-    {
-      "date": "20230315",
-      "tournament": "M25 Montreal 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Ogura",
-      "score": "4-6 6(7)-7(9)"
     }
   ]
 }
