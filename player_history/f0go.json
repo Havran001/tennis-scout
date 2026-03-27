@@ -1,91 +1,39 @@
 {
   "player_id": "f0go",
-  "gs_id": "68082",
-  "player_name": "Bautista Torres Juan",
+  "gs_id": "92471",
+  "player_name": "Sebastian Osorio Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:03:03.038Z",
+  "updated": "2026-03-27T06:06:31.015Z",
   "matches": [
     {
-      "date": "20250609",
-      "tournament": "Santa Fe",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Bueno",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20240605",
+      "date": "20240602",
       "tournament": "Santa Fe Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Collarini",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20240603",
-      "tournament": "Santa Fe Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. J. Rodriguez",
-      "score": "1-6 1-6"
-    },
-    {
-      "date": "20230820",
-      "tournament": "M25 Bielsko Biala",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Barton",
-      "score": "6-4 7-5"
-    },
-    {
-      "date": "20230819",
-      "tournament": "M25 Bielsko Biala",
-      "surface": "Hard",
-      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Paty",
-      "score": "0-6 2-6"
+      "result": "L",
+      "opponent": "R. Tosetto",
+      "score": "7(7)-6(3) 7(7)-6(3)"
     },
     {
       "date": "20230818",
-      "tournament": "M25 Bielsko Biala",
+      "tournament": "ITF M15 Belem Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Pieczkowski",
-      "score": "6-3 6-2"
+      "result": "L",
+      "opponent": "G. Klier Junior",
+      "score": "6-1 6-1"
     },
     {
       "date": "20230817",
-      "tournament": "M25 Bielsko Biala",
+      "tournament": "ITF M15 Belem Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Troost",
-      "score": "6-2 7-5"
+      "opponent": "I. Gimenez",
+      "score": "3-6 0-6"
     },
     {
       "date": "20230816",
-      "tournament": "M25 Bielsko Biala",
+      "tournament": "ITF M15 Belem Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Cerny",
-      "score": "4-6 6-3 6-3"
+      "opponent": "V. Bini",
+      "score": "6-3 7(8)-6(6)"
     },
     {
-      "date": "20230810",
-      "tournament": "M25 Lodz",
+      "date": "20230720",
+      "tournament": "ITF M15 Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -119,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Pieczonka",
-      "score": "7(7)-6(2) 5-7 6(5)-7(7)"
+      "opponent": "K. Ogura",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20230809",
-      "tournament": "M25 Lodz",
+      "date": "20230719",
+      "tournament": "ITF M15 Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,8 +80,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Kos",
-      "score": "2-6 2-6"
+      "opponent": "D. C. Ignat",
+      "score": "7(9)-6(7) 1-0 ret."
+    },
+    {
+      "date": "20230712",
+      "tournament": "ITF M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. K. Lee",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230522",
+      "tournament": "M15 Tabasco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. F. Rubio Fierros",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20230517",
+      "tournament": "ITF M25 Xalapa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. J. Aramburu Contreras",
+      "score": "7-5 3-6 7(9)-6(7)"
     }
   ]
 }
