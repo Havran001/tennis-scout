@@ -3,11 +3,37 @@
   "gs_id": "175223",
   "player_name": "Oscar Lacides",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:14:55.865Z",
+  "updated": "2026-03-27T01:00:27.921Z",
   "matches": [
     {
-      "date": "20230614",
-      "tournament": "ITF M15 Monastir 24 Men",
+      "date": "20250710",
+      "tournament": "M15 Monastir 27",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Erel",
+      "score": "6(4)-7(7) 1-6"
+    },
+    {
+      "date": "20250709",
+      "tournament": "M15 Monastir 27",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Elsayed",
+      "score": "7(7)-6(1) 6-4"
+    },
+    {
+      "date": "20230329",
+      "tournament": "ITF M25 Saint Dizier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Ouakaa",
-      "score": "1-6 3-6"
+      "opponent": "T. Gentzsch",
+      "score": "6-3 7-5"
     }
   ]
 }
