@@ -1,26 +1,39 @@
 {
   "player_id": "f0gd",
-  "gs_id": "41613",
-  "player_name": "Cristian Jianu Filip",
+  "gs_id": "177313",
+  "player_name": "Jeff Planinsek Filip",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:59:10.025Z",
+  "updated": "2026-03-27T06:11:11.012Z",
   "matches": [
     {
-      "date": "20230706",
-      "tournament": "M25 Brasov",
+      "date": "20250620",
+      "tournament": "M15 Saarlouis",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Raynel",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250619",
+      "tournament": "M15 Saarlouis",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "V. A. Dancu",
-      "score": "5-7 6-2 4-2 ret."
+      "result": "W",
+      "opponent": "J. Pereira",
+      "score": "7(7)-6(4) 6-3"
     },
     {
-      "date": "20230705",
-      "tournament": "M25 Brasov",
+      "date": "20250618",
+      "tournament": "M15 Saarlouis",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Ferrari",
-      "score": "6-1 6-1"
+      "opponent": "O. Otte",
+      "score": "7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20250614",
+      "tournament": "M25 Varnamo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Thanos",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20250613",
+      "tournament": "M25 Varnamo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Vasa",
+      "score": "6-2 3-6 7-5"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M25 Varnamo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Vanshelboim",
+      "score": "6-2 1-6 4-6"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Varnamo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Norlin",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Store Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20230621",
+      "tournament": "ITF M15 Store Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Artnak",
+      "score": "0-6 3-6"
     }
   ]
 }
