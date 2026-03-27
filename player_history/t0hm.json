@@ -3,8 +3,60 @@
   "gs_id": "157881",
   "player_name": "Vito Tonejc",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:10:04.015Z",
+  "updated": "2026-03-27T07:02:25.035Z",
   "matches": [
+    {
+      "date": "20231123",
+      "tournament": "ITF M15 Alcala de Henares Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Stewart",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20231122",
+      "tournament": "ITF M15 Alcala de Henares Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Sheyngezikht",
+      "score": "6-3 2-6 6-3"
+    },
+    {
+      "date": "20231109",
+      "tournament": "ITF M25 Trnava 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Matusevich",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20231108",
+      "tournament": "ITF M25 Trnava 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Mikrut",
+      "score": "4-6 4-6"
+    },
     {
       "date": "20230905",
       "tournament": "ITF M15 Budapest 2 Men",
@@ -17,45 +69,6 @@
       "result": "L",
       "opponent": "N. Nedelchev",
       "score": "2-6 4-6"
-    },
-    {
-      "date": "20230511",
-      "tournament": "ITF M25 Varnamo Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Gola",
-      "score": "2-6 0-6"
-    },
-    {
-      "date": "20230509",
-      "tournament": "ITF M25 Varnamo Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Dahlin",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20230503",
-      "tournament": "ITF M15 Osijek Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Madarasz",
-      "score": "6-2 3-6 6-4"
     }
   ]
 }
