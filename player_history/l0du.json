@@ -3,11 +3,24 @@
   "gs_id": "77035",
   "player_name": "Mikolaj Lorens",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:18.966Z",
+  "updated": "2026-03-27T12:06:31.161Z",
   "matches": [
     {
-      "date": "20250814",
-      "tournament": "M25 Aldershot",
+      "date": "20250730",
+      "tournament": "M25 Gentofte",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Gustafsson",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20241017",
+      "tournament": "ITF M15 Kayseri Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Maxted",
-      "score": "6-2 6-4"
+      "opponent": "M. McKennon",
+      "score": "6-1 1-0 ret."
     },
     {
-      "date": "20250812",
-      "tournament": "M25 Aldershot",
+      "date": "20241015",
+      "tournament": "ITF M15 Kayseri Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Tyler",
-      "score": "6-1 6-0"
-    },
-    {
-      "date": "20210210",
-      "tournament": "M15 Nur-Sultan 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Balzerani",
-      "score": "6-1 6-1"
+      "opponent": "T. Lanik",
+      "score": "6-2 7-5"
     }
   ]
 }
