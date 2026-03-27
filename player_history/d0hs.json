@@ -3,11 +3,11 @@
   "gs_id": "125167",
   "player_name": "Dinko Dinev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:54:44.942Z",
+  "updated": "2026-03-27T03:47:30.968Z",
   "matches": [
     {
-      "date": "20260218",
-      "tournament": "M15 Sharm ElSheikh 4",
+      "date": "20251118",
+      "tournament": "M25 Heraklion 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Yilmaz",
-      "score": "3-6 0-3 ret."
+      "opponent": "D. Sakellaridis",
+      "score": "2-6 6-3 6-4"
     },
     {
-      "date": "20260211",
-      "tournament": "M15 Sharm ElSheikh 3",
+      "date": "20251111",
+      "tournament": "M15 Heraklion 14",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Petrov",
-      "score": "3-6 6-3 6-3"
+      "opponent": "D. Sakellaridis",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20231101",
+      "tournament": "ITF M25 Sharm ElSheikh 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Novak",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20231026",
+      "tournament": "ITF M15 Sharm ElSheikh 15 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bassem Sobhy",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20231025",
+      "tournament": "ITF M15 Sharm ElSheikh 15 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Mossur",
+      "score": "7(9)-6(7) 7-5"
+    },
+    {
+      "date": "20231011",
+      "tournament": "ITF M15 Sharm ElSheikh 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "6-1 6-2"
     }
   ]
 }
