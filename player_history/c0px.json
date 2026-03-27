@@ -3,11 +3,11 @@
   "gs_id": "219438",
   "player_name": "Matteo Covato",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:19:30.807Z",
+  "updated": "2026-03-27T00:55:17.919Z",
   "matches": [
     {
-      "date": "20250923",
-      "tournament": "M15 Forbach",
+      "date": "20251028",
+      "tournament": "M15 Ibague",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,34 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Zick",
-      "score": "6-3 7-5"
+      "opponent": "L. Ratti",
+      "score": "6-3 6-0"
     },
     {
-      "date": "20250818",
-      "tournament": "Augsburg",
+      "date": "20231128",
+      "tournament": "ITF M15 Monastir 48 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Popovic",
-      "score": "3-6 4-6"
+      "opponent": "E. Donnet",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20250817",
-      "tournament": "Augsburg",
+      "date": "20230926",
+      "tournament": "ITF M15 Monastir 39 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Uzhylovskyi",
-      "score": "4-6 0-1 ret."
+      "result": "L",
+      "opponent": "M. Wiskandt",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20230913",
+      "tournament": "ITF M15 Monastir 37 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Weightman",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230829",
+      "tournament": "ITF M15 Monastir 35 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Simakin",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20230822",
+      "tournament": "ITF M15 Monastir 34 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Lalami Laaroussi",
+      "score": "2-6 4-6"
     }
   ]
 }
