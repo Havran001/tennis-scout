@@ -1,1 +1,35 @@
-{"player_id":"k0i7","gs_id":"90406","player_name":"Marcel Kamrowski","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"6NNDxsYR","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Giunta M.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20230823","tournament":"ITF M25 Poznan Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"M. Rajski","score":"3-6 2-6"},{"date":"20200706","tournament":"Poland Tour","surface":"Hard","level":"E","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"J. Zielinski","score":"3-6 2-6"}],"total":3}
+{
+  "player_id": "k0i7",
+  "gs_id": "90406",
+  "player_name": "Marcel Kamrowski",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:16:30.813Z",
+  "matches": [
+    {
+      "date": "20230823",
+      "tournament": "ITF M25 Poznan Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rajski",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20200706",
+      "tournament": "Poland Tour",
+      "surface": "Hard",
+      "level": "E",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Zielinski",
+      "score": "3-6 2-6"
+    }
+  ]
+}
