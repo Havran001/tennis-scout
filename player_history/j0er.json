@@ -3,11 +3,11 @@
   "gs_id": "240980",
   "player_name": "Jarrod Joyce",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:03:49.124Z",
+  "updated": "2026-03-27T09:32:50.090Z",
   "matches": [
     {
-      "date": "20250522",
-      "tournament": "M15 Luan 5",
+      "date": "20250320",
+      "tournament": "M25 Swan Hill",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Yamanaka",
-      "score": "6(1)-7(7) 1-6"
+      "opponent": "J. Kubler",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20250521",
-      "tournament": "M15 Luan 5",
+      "date": "20250318",
+      "tournament": "M25 Swan Hill",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Wang",
-      "score": "6-3 0-0 ret."
+      "opponent": "O. King",
+      "score": "6-4 7(7)-6(3)"
+    },
+    {
+      "date": "20240918",
+      "tournament": "M25 Darwin 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Cook",
+      "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20240911",
+      "tournament": "M25 Darwin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Birrell",
+      "score": "4-6 6-3 5-7"
+    },
+    {
+      "date": "20240319",
+      "tournament": "ITF M25 Swan Hill Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Ellis",
+      "score": "7(7)-6(5) 7-5"
     }
   ]
 }
