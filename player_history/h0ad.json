@@ -3,20 +3,33 @@
   "gs_id": "34437",
   "player_name": "Toru Horie",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:55.052Z",
+  "updated": "2026-03-27T07:49:43.046Z",
   "matches": [
     {
-      "date": "20230920",
-      "tournament": "ITF M25 Takasaki Men",
+      "date": "20250313",
+      "tournament": "M15 Hinode",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Kawahashi",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250312",
+      "tournament": "M15 Hinode",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Matsumura",
-      "score": "0-6 7-5 6(3)-7(7)"
+      "result": "W",
+      "opponent": "A. Setkic",
+      "score": "6-2 2-1 ret."
     }
   ]
 }
