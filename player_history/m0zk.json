@@ -3,11 +3,37 @@
   "gs_id": "175246",
   "player_name": "Lachlan McFadzean",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:12:48.888Z",
+  "updated": "2026-03-27T04:59:40.989Z",
   "matches": [
     {
-      "date": "20250311",
-      "tournament": "M25 Mildura",
+      "date": "20260205",
+      "tournament": "M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Goncalves",
+      "score": "6-2 3-6 6-2"
+    },
+    {
+      "date": "20260204",
+      "tournament": "M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Bynoe",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20250318",
+      "tournament": "M25 Swan Hill",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Klintcharov",
-      "score": "4-6 6-3 6(7)-7(9)"
+      "opponent": "S. Jones",
+      "score": "7-5 6-1"
     }
   ]
 }
