@@ -1,39 +1,39 @@
 {
   "player_id": "f0go",
-  "gs_id": "92471",
-  "player_name": "Sebastian Osorio Juan",
+  "gs_id": "131455",
+  "player_name": "Manuel La Serna Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:07:01.011Z",
+  "updated": "2026-03-27T06:07:46.018Z",
   "matches": [
     {
-      "date": "20230818",
-      "tournament": "ITF M15 Belem Men",
+      "date": "20250609",
+      "tournament": "Santa Fe",
       "surface": "Hard",
-      "level": "I",
-      "round": "QF",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Klier Junior",
-      "score": "6-1 6-1"
+      "opponent": "P. Boscardin Dias",
+      "score": "2-6 0-6"
     },
     {
-      "date": "20230817",
-      "tournament": "ITF M15 Belem Men",
+      "date": "20230824",
+      "tournament": "M15 Sao Paulo",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Gimenez",
-      "score": "3-6 0-6"
+      "result": "L",
+      "opponent": "F. Pini",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20230816",
-      "tournament": "ITF M15 Belem Men",
+      "date": "20230822",
+      "tournament": "M15 Sao Paulo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Bini",
-      "score": "6-3 7(8)-6(6)"
+      "opponent": "L. Ratti",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Trujillo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Huertas Del Pino Cordova",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20230810",
+      "tournament": "M15 Arequipa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Guillen Meza",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20230809",
+      "tournament": "M15 Arequipa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Hess",
+      "score": "6-4 6(9)-7(11) 1-6"
+    },
+    {
+      "date": "20230808",
+      "tournament": "M15 Arequipa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Tenti",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20230703",
+      "tournament": "Santa Fe Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Monzon",
+      "score": "3-6 5-7"
     }
   ]
 }
