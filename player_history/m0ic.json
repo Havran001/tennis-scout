@@ -3,11 +3,76 @@
   "gs_id": "127077",
   "player_name": "Giannicola Misasi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:54:55.936Z",
+  "updated": "2026-03-27T02:54:09.953Z",
   "matches": [
     {
-      "date": "20250430",
-      "tournament": "M25 Santa Margherita di Pula 5",
+      "date": "20250716",
+      "tournament": "M15 Gubbio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Grant",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Ystad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Lane",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230801",
+      "tournament": "M15 Eindhoven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rottgering",
+      "score": "7(11)-6(9) 6-3"
+    },
+    {
+      "date": "20220906",
+      "tournament": "M15 Salerno",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Brigida",
+      "score": "3-6 6(6)-7(8)"
+    },
+    {
+      "date": "20220824",
+      "tournament": "M15 Lambermont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Bailly",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20220721",
+      "tournament": "M15 Gubbio",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Engel",
-      "score": "6-1 6-4"
+      "opponent": "F. Forti",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20250429",
-      "tournament": "M25 Santa Margherita di Pula 5",
+      "date": "20220719",
+      "tournament": "M15 Gubbio",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +93,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Mencaglia",
-      "score": "6-2 6-2"
+      "opponent": "G. Ricca",
+      "score": "4-6 6-4 2-6"
+    },
+    {
+      "date": "20220713",
+      "tournament": "M15 Aprilia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Catini",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20220712",
+      "tournament": "M15 Aprilia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Carnevalle",
+      "score": "6-2 7(14)-6(12)"
     },
     {
       "date": "20220616",
@@ -56,45 +147,6 @@
       "result": "W",
       "opponent": "F. Coelho",
       "score": "3-6 6-0 1-6"
-    },
-    {
-      "date": "20220504",
-      "tournament": "M25 Santa Margherita di Pula 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Lopez Montagud",
-      "score": "0-6 2-6"
-    },
-    {
-      "date": "20220502",
-      "tournament": "M25 Santa Margherita di Pula 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Martin",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20220426",
-      "tournament": "M25 Santa Margherita di Pula 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Neumayer",
-      "score": "6-2 6-0"
     }
   ]
 }
