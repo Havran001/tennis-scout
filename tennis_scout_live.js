@@ -1139,6 +1139,11 @@ function buildPlayersTab(sh){
           var _fTournament='',_fSurface='',_fOpponent='',_fResult='';
 
           function _fDD(list,q){var ql=(q||'').toLowerCase();list.querySelectorAll('.mh-dd-item').forEach(function(i){i.style.display=(!ql||i.textContent.toLowerCase().indexOf(ql)>=0)?'':'none';});}
+function _posDD(dd){
+  dd.style.left='0';dd.style.right='auto';
+  var r=dd.getBoundingClientRect();
+  if(r.right>window.innerWidth-8){dd.style.left='auto';dd.style.right='0';}
+}
 function _fmtOpp(name){
   if(!name)return '';
   var parts=name.trim().split(' ');
@@ -1309,13 +1314,13 @@ function _renderMatches(){
                   if(!ddList)return;
                   var wasOpen=ddList.classList.contains('open');
                   _closeDD();
-                  if(!wasOpen){_fDD(ddList,'');ddList.classList.add('open');}
+                  if(!wasOpen){_fDD(ddList,'');ddList.classList.add('open');_posDD(ddList);}
                 });
                 inp.addEventListener('input',function(e){
                   e.stopPropagation();
                   if(!window._mhColFilter)window._mhColFilter={};
                   window._mhColFilter[col]=inp.value;
-                  if(ddList){_fDD(ddList,inp.value);ddList.classList.add('open');}
+                  if(ddList){_fDD(ddList,inp.value);ddList.classList.add('open');_posDD(ddList);}
                   _renderMatches();
                   var ni=listEl.querySelector('.th-filter[data-col="'+col+'"]');
                   if(ni){var p=ni.value.length;ni.focus();try{ni.setSelectionRange(p,p);}catch(x){}}
