@@ -1,61 +1,61 @@
 {
   "player_id": "f0go",
-  "gs_id": "2492",
-  "player_name": "Sebastian Gomez Juan",
+  "gs_id": "28723",
+  "player_name": "Pablo Ficovich Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:56:25.047Z",
+  "updated": "2026-03-27T07:58:59.334Z",
   "matches": [
     {
-      "date": "20240625",
-      "tournament": "Ibague",
+      "date": "20240619",
+      "tournament": "Sassuolo Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Klizan",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240617",
+      "tournament": "Sassuolo Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Coric",
+      "score": "6-4 6(5)-7(7) 6-4"
+    },
+    {
+      "date": "20240417",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Barreiros Reyes",
-      "score": "6-3 4-6 1-6"
+      "opponent": "M. Cressy",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240624",
-      "tournament": "Ibague",
+      "date": "20240416",
+      "tournament": "Acapulco",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Ogura",
-      "score": "5-7 6-1 6-1"
-    },
-    {
-      "date": "20240623",
-      "tournament": "Ibague",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Britto",
-      "score": "3-2 ret."
-    },
-    {
-      "date": "20231017",
-      "tournament": "ITF M15 Morelia Men",
-      "surface": "Hard",
-      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Sell",
-      "score": "1-6 3-6"
+      "result": "W",
+      "opponent": "B. Tomic",
+      "score": "5-7 3-6"
     }
   ]
 }
