@@ -3,11 +3,11 @@
   "gs_id": "39023",
   "player_name": "Andrew Fenty",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:49:18.899Z",
+  "updated": "2026-03-27T00:57:23.925Z",
   "matches": [
     {
-      "date": "20250425",
-      "tournament": "M15 Vero Beach",
+      "date": "20241108",
+      "tournament": "M15 Guatemala",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "W. Grant",
-      "score": "4-6 5-7"
+      "opponent": "R. Pacheco Mendez",
+      "score": "7(8)-6(6) 0-6 3-6"
     },
     {
-      "date": "20250424",
-      "tournament": "M15 Vero Beach",
+      "date": "20241107",
+      "tournament": "M15 Guatemala",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Flores",
-      "score": "2-6 2-6"
+      "opponent": "R. Rodriguez",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20250423",
-      "tournament": "M15 Vero Beach",
+      "date": "20241105",
+      "tournament": "M15 Guatemala",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Kirchheimer",
-      "score": "6-2 6-1"
+      "opponent": "J. Peck",
+      "score": "3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240124",
+      "tournament": "ITF M15 Manacor 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nadal",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20231005",
+      "tournament": "M15 Ithaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. M. Papoe",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20231004",
+      "tournament": "M15 Ithaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Frusina",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20211118",
+      "tournament": "ITF M15 East Lansing",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kuhar",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20211116",
+      "tournament": "ITF M15 East Lansing",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Banthia",
+      "score": "7-5 6-4"
     }
   ]
 }
