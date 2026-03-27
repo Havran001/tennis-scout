@@ -1,13 +1,26 @@
 {
   "player_id": "l0cu",
-  "gs_id": "296404",
-  "player_name": "Andres Flores Avila Luis",
+  "gs_id": "90393",
+  "player_name": "Tomas Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:08:48.034Z",
+  "updated": "2026-03-27T08:20:04.066Z",
   "matches": [
     {
-      "date": "20260115",
-      "tournament": "M15 Manacor 2",
+      "date": "20251119",
+      "tournament": "M25 Vale do Lobo 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Izquierdo Luque",
+      "score": "6-1 5-7 7-5"
+    },
+    {
+      "date": "20250626",
+      "tournament": "M25 Elvas",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Basing",
-      "score": "0-6 0-6"
+      "opponent": "O. Pieczkowski",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20260114",
-      "tournament": "M15 Manacor 2",
+      "date": "20250625",
+      "tournament": "M25 Elvas",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Alberti",
-      "score": "6(2)-7(7) 4-6"
+      "opponent": "T. Pinho",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M25 Elvas Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Celikbilek",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20240611",
+      "tournament": "ITF M25 Elvas Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Goncalves",
+      "score": "6-2 2-6 2-6"
     }
   ]
 }
