@@ -3,33 +3,72 @@
   "gs_id": "141935",
   "player_name": "Hyeon Chung",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:55:41.932Z",
+  "updated": "2026-03-27T02:54:36.955Z",
   "matches": [
     {
-      "date": "20250612",
-      "tournament": "M25 Wichita",
+      "date": "20260113",
+      "tournament": "Nonthaburi 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. I. Kotzen",
-      "score": "3-6 7(7)-6(5) 6-0"
+      "opponent": "M. Sharipov",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20250611",
-      "tournament": "M25 Wichita",
+      "date": "20260112",
+      "tournament": "Nonthaburi 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Chanta",
+      "score": "6-2 3-6 4-6"
+    },
+    {
+      "date": "20260111",
+      "tournament": "Nonthaburi 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Takahashi",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20260106",
+      "tournament": "Nonthaburi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bax",
+      "score": "3-6 7(7)-6(5) 6-3"
+    },
+    {
+      "date": "20240903",
+      "tournament": "ITF M25 Sapporo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Swenson",
-      "score": "6-3 6-2"
+      "result": "L",
+      "opponent": "H. Koyama",
+      "score": "7-5 6-1"
     }
   ]
 }
