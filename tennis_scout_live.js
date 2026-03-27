@@ -1279,9 +1279,18 @@ function buildPlayersTab(sh){
               });
               listEl.querySelectorAll('.th-filter').forEach(function(inp){
                 var handler=function(e){
+                  var col=e.target.getAttribute('data-col');
+                  var val=e.target.value;
+                  var selStart=e.target.selectionStart;
+                  var selEnd=e.target.selectionEnd;
                   if(!window._mhColFilter)window._mhColFilter={};
-                  window._mhColFilter[e.target.getAttribute('data-col')]=e.target.value;
+                  window._mhColFilter[col]=val;
                   _renderMatches();
+                  var newInp=listEl.querySelector('.th-filter[data-col="'+col+'"]');
+                  if(newInp&&newInp.type==='text'){
+                    newInp.focus();
+                    try{newInp.setSelectionRange(selStart,selEnd);}catch(ex){}
+                  }
                 };
                 inp.addEventListener('input',handler);
                 inp.addEventListener('change',handler);
