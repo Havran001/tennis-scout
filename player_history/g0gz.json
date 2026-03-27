@@ -3,24 +3,50 @@
   "gs_id": "126758",
   "player_name": "Liam Gavrielides",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:20:52.062Z",
+  "updated": "2026-03-27T12:15:49.163Z",
   "matches": [
     {
-      "date": "20260116",
-      "tournament": "M15 Manacor 2",
+      "date": "20241001",
+      "tournament": "M15 Grodzisk Mazowiecki 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Poertner",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240817",
+      "tournament": "M15 Überlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Wehnelt",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20240816",
+      "tournament": "M15 Überlingen",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Loge",
-      "score": "6-3 6-4"
+      "result": "W",
+      "opponent": "J. Engel",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20260115",
-      "tournament": "M15 Manacor 2",
+      "date": "20240815",
+      "tournament": "M15 Überlingen",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Almazan Valiente",
-      "score": "2-6 1-6"
+      "opponent": "D. Fix",
+      "score": "5-7 1-6"
     },
     {
-      "date": "20260113",
-      "tournament": "M15 Manacor 2",
+      "date": "20240814",
+      "tournament": "M15 Überlingen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Mirza",
-      "score": "5-7 0-6"
+      "opponent": "J. Maute",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240805",
+      "tournament": "Bonn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Klizan",
+      "score": "6-3 3-6 4-6"
+    },
+    {
+      "date": "20240804",
+      "tournament": "Bonn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Haliak",
+      "score": "6-1 6-2"
     },
     {
       "date": "20240529",
@@ -56,84 +108,6 @@
       "result": "L",
       "opponent": "S. D&apos;Agostino",
       "score": "4-6 0-0 ret."
-    },
-    {
-      "date": "20240303",
-      "tournament": "ITF M15 Villena 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Tabacco",
-      "score": "6-4 4-6 2-6"
-    },
-    {
-      "date": "20240302",
-      "tournament": "ITF M15 Villena 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Tabacco",
-      "score": "6-3 3-6 6-0"
-    },
-    {
-      "date": "20240301",
-      "tournament": "ITF M15 Villena 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Damas",
-      "score": "7(7)-6(4) 6-4"
-    },
-    {
-      "date": "20240229",
-      "tournament": "ITF M15 Villena 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Iannaccone",
-      "score": "6(7)-7(9) 5-7"
-    },
-    {
-      "date": "20240228",
-      "tournament": "ITF M15 Villena 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Soriano Barrera",
-      "score": "6-0 6-1"
-    },
-    {
-      "date": "20240117",
-      "tournament": "ITF M15 Manacor 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. S. Callejon",
-      "score": "6-3 2-6 2-6"
     }
   ]
 }
