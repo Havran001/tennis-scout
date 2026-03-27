@@ -3,24 +3,37 @@
   "gs_id": "167815",
   "player_name": "Christian Djonov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:59:20.988Z",
+  "updated": "2026-03-27T07:11:29.034Z",
   "matches": [
     {
-      "date": "20251120",
-      "tournament": "M15 Sharm ElSheikh 18",
+      "date": "20250117",
+      "tournament": "M15 Cadolzburg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Funk",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250116",
+      "tournament": "M15 Cadolzburg",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bozemoj",
-      "score": "3-6 0-3 ret."
+      "result": "W",
+      "opponent": "S. Fanselow",
+      "score": "6(0)-7(7) 3-6"
     },
     {
-      "date": "20251119",
-      "tournament": "M15 Sharm ElSheikh 18",
+      "date": "20250115",
+      "tournament": "M15 Cadolzburg",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Kharlamov",
-      "score": "6-4 4-6 6-4"
-    },
-    {
-      "date": "20251113",
-      "tournament": "M15 Sharm ElSheikh 17",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Almazan Valiente",
-      "score": "6-7 3-6"
-    },
-    {
-      "date": "20251112",
-      "tournament": "M15 Sharm ElSheikh 17",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Summers",
-      "score": "7(7)-6(2) 6-2"
+      "opponent": "P. Alam",
+      "score": "6-4 7(7)-6(1)"
     }
   ]
 }
