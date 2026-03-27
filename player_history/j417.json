@@ -3,11 +3,11 @@
   "gs_id": "146582",
   "player_name": "Rodolfo Jauregui Sainz De Rozas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:10.024Z",
+  "updated": "2026-03-27T08:24:10.074Z",
   "matches": [
     {
-      "date": "20250516",
-      "tournament": "M25 Xalapa",
+      "date": "20260205",
+      "tournament": "M15 Huamantla 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Mayo",
-      "score": "3-6 6-3 6-4"
+      "opponent": "B. Shick",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20250514",
-      "tournament": "M25 Xalapa",
+      "date": "20260203",
+      "tournament": "M15 Huamantla 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Gonzalez Fitzmaurice",
-      "score": "2-6 6-2 6-4"
+      "opponent": "N. P. Van Noord",
+      "score": "5-7 7(7)-6(5) 6-3"
     },
     {
-      "date": "20240501",
-      "tournament": "ITF M25 Xalapa Men",
+      "date": "20260127",
+      "tournament": "M15 Huamantla",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Tomic",
-      "score": "1-6 6(3)-7(7)"
+      "opponent": "M. Kumar",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230517",
-      "tournament": "ITF M25 Xalapa Men",
+      "date": "20250509",
+      "tournament": "M15 Villahermosa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hernandez",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20250508",
+      "tournament": "M15 Villahermosa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Ribero",
+      "score": "6(2)-7(7) 0-6"
+    },
+    {
+      "date": "20250507",
+      "tournament": "M15 Villahermosa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Munoz",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20241112",
+      "tournament": "M15 Morelia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +93,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Burdet",
-      "score": "2-6 7-5 7(7)-6(5)"
+      "opponent": "A. Azkara",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240717",
+      "tournament": "ITF M15 Huamantla Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. J. Bianchi",
+      "score": "4-6 6-4 3-6"
+    },
+    {
+      "date": "20240508",
+      "tournament": "ITF M15 Villahermosa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Rodriguez",
+      "score": "6-4 4-6 6-4"
+    },
+    {
+      "date": "20240318",
+      "tournament": "Merida Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Brumm",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240317",
+      "tournament": "Merida Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Delgado",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20231018",
+      "tournament": "ITF M15 Morelia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. S. Osorio",
+      "score": "6-4 3-6 3-6"
+    },
+    {
+      "date": "20231017",
+      "tournament": "ITF M15 Morelia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Roux",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20231010",
+      "tournament": "M25 Zapopan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Alujas",
+      "score": "1-6 6-4 4-6"
     }
   ]
 }
