@@ -3,8 +3,21 @@
   "gs_id": "144081",
   "player_name": "Maxence Rivet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:48:07.992Z",
+  "updated": "2026-03-27T06:09:03.019Z",
   "matches": [
+    {
+      "date": "20250526",
+      "tournament": "M25 Carnac",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sharipov",
+      "score": "1-6 4-6"
+    },
     {
       "date": "20250311",
       "tournament": "ITF M15 Alaminos Men",
@@ -17,6 +30,110 @@
       "result": "L",
       "opponent": "A. Wazny",
       "score": "6-4 6-2"
+    },
+    {
+      "date": "20240628",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Slump",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240627",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Morandais",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240626",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Lalami Laaroussi",
+      "score": "6-1 1-6 1-6"
+    },
+    {
+      "date": "20230806",
+      "tournament": "M15 Hyvinkaa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Vasa",
+      "score": "6-4 4-6 5-7"
+    },
+    {
+      "date": "20230805",
+      "tournament": "M15 Hyvinkaa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Sorrentino",
+      "score": "6-4 3-6 5-7"
+    },
+    {
+      "date": "20230805",
+      "tournament": "M15 Hyvinkaa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Rossi",
+      "score": "6(1)-7(7) 3-6"
+    },
+    {
+      "date": "20230804",
+      "tournament": "M15 Hyvinkaa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Pennaforti",
+      "score": "6-0 6(2)-7(7) 6-4"
+    },
+    {
+      "date": "20230803",
+      "tournament": "M15 Hyvinkaa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Grevelius",
+      "score": "1-6 6-4 1-6"
     }
   ]
 }
