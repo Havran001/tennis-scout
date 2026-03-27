@@ -3,34 +3,8 @@
   "gs_id": "200561",
   "player_name": "Marc Majdandzic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:56:37.959Z",
+  "updated": "2026-03-27T06:11:34.018Z",
   "matches": [
-    {
-      "date": "20250807",
-      "tournament": "M15 Eupen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Bidan",
-      "score": "6(2)-7(7) 6(3)-7(7)"
-    },
-    {
-      "date": "20250806",
-      "tournament": "M15 Eupen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Eriksson",
-      "score": "6-4 6-2"
-    },
     {
       "date": "20240903",
       "tournament": "ITF M15 Haren Men",
@@ -45,8 +19,34 @@
       "score": "0-6 6-4 5-7"
     },
     {
-      "date": "20240820",
-      "tournament": "M15 Lambermont",
+      "date": "20240829",
+      "tournament": "ITF M15 Szczawno Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Filip",
+      "score": "6-2 7(7)-6(3)"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Szczawno Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Filar",
+      "score": "7-5 3-6 4-6"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,51 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Bouquet",
-      "score": "7-5 6(5)-7(7) 6-0"
+      "opponent": "B. Artnak",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20230813",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20240618",
+      "tournament": "ITF M15 Saarlouis Men",
       "surface": "Hard",
       "level": "I",
-      "round": "F",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Vankan",
-      "score": "5-7 6(3)-7(7)"
+      "opponent": "D. Fix",
+      "score": "2-6 6-1 5-7"
     },
     {
-      "date": "20230812",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20230915",
+      "tournament": "M15 Buschhausen",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Wiedenmann",
-      "score": "4-6 7-5 3-6"
+      "result": "L",
+      "opponent": "J. Forejtek",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20230812",
-      "tournament": "ITF M15 Eupen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Heller",
-      "score": "5-7 1-6"
-    },
-    {
-      "date": "20230810",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20230914",
+      "tournament": "M15 Buschhausen",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Y. Bailly",
-      "score": "6-3 4-6 1-6"
+      "opponent": "T. Gentzsch",
+      "score": "3-6 6-4 6-4"
     },
     {
-      "date": "20230809",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20230913",
+      "tournament": "M15 Buschhausen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,34 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Pereira",
-      "score": "4-6 6-1 7(7)-6(4)"
+      "opponent": "T. Carnevale-Miino",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20230629",
-      "tournament": "ITF M15 Kamen Men",
+      "date": "20230816",
+      "tournament": "ITF M15 Targu Jiu Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Gentzsch",
-      "score": "3-6 6-4 6(2)-7(7)"
-    },
-    {
-      "date": "20230627",
-      "tournament": "ITF M15 Kamen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Pearson",
-      "score": "6-4 6-3"
+      "opponent": "S. A. Ivanov",
+      "score": "6-1 6-2"
     }
   ]
 }
