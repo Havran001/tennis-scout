@@ -1,26 +1,65 @@
 {
   "player_id": "f0go",
-  "gs_id": "40150",
-  "player_name": "Pablo Varillas Juan",
+  "gs_id": "41604",
+  "player_name": "Manuel Cerundolo Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:15:15.108Z",
+  "updated": "2026-03-27T10:15:23.110Z",
   "matches": [
     {
-      "date": "20250923",
-      "tournament": "Buenos Aires 3",
+      "date": "20260207",
+      "tournament": "Rosario",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Ugo Carabelli",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20260206",
+      "tournament": "Rosario",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Pellegrino",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20260205",
+      "tournament": "Rosario",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. B. Torres",
+      "score": "3-6 6-4 6-3"
+    },
+    {
+      "date": "20260203",
+      "tournament": "Rosario",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Dellien",
-      "score": "6-2 7(7)-6(3)"
+      "result": "W",
+      "opponent": "G. Villanueva",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20250922",
-      "tournament": "Buenos Aires 3",
+      "date": "20250914",
+      "tournament": "Guangzhou 2",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. M. La Serna",
-      "score": "2-6 7-5 6-2"
+      "opponent": "A. Tabilo",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20250921",
-      "tournament": "Buenos Aires 3",
+      "date": "20250913",
+      "tournament": "Guangzhou 2",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,8 +80,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Monzon",
-      "score": "6-4 6-4"
+      "opponent": "B. Harris",
+      "score": "2-6 6-2 4-6"
+    },
+    {
+      "date": "20250912",
+      "tournament": "Guangzhou 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Evans",
+      "score": "6-4 2-1 ret."
+    },
+    {
+      "date": "20250910",
+      "tournament": "Guangzhou 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Bar Biryukov",
+      "score": "1-6 1-2 ret."
+    },
+    {
+      "date": "20250909",
+      "tournament": "Guangzhou 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Shimizu",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250409",
+      "tournament": "Monza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Arnaboldi",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20250407",
+      "tournament": "Monza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20250308",
+      "tournament": "Cordoba 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. A. Tirante",
+      "score": "4-6 3-4 ret."
     },
     {
       "date": "20250307",
@@ -53,9 +170,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. M. Cerundolo",
-      "score": "6-4 6-2"
+      "result": "W",
+      "opponent": "J. P. Varillas",
+      "score": "4-6 2-6"
     },
     {
       "date": "20250306",
@@ -67,8 +184,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. De La Fuente",
-      "score": "6-3 6-1"
+      "opponent": "M. A. Dellien Velasco",
+      "score": "4-6 3-6"
     },
     {
       "date": "20250304",
@@ -80,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. A. Olivieri",
-      "score": "6-0 7(7)-6(1)"
+      "opponent": "A. Guillen Meza",
+      "score": "6-4 5-7 2-6"
     },
     {
-      "date": "20241004",
-      "tournament": "Buenos Aires 3",
+      "date": "20250207",
+      "tournament": "Rosario",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -93,12 +210,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Comesana",
-      "score": "6-4 6(6)-7(8) 7-5"
+      "opponent": "M. A. Dellien Velasco",
+      "score": "7(8)-6(6) 4-6 7-5"
     },
     {
-      "date": "20241003",
-      "tournament": "Buenos Aires 3",
+      "date": "20250206",
+      "tournament": "Rosario",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -106,8 +223,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. A. Burruchaga",
-      "score": "1-6 3-6"
+      "opponent": "F. Coria",
+      "score": "5-7 6-2 3-6"
+    },
+    {
+      "date": "20250203",
+      "tournament": "Rosario",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. C. Prado Angelo",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20241002",
+      "tournament": "Buenos Aires 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Torres",
+      "score": "3-6 4-6"
     },
     {
       "date": "20241001",
@@ -119,21 +262,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Sakamoto",
-      "score": "6(4)-7(7) 2-6"
-    },
-    {
-      "date": "20240618",
-      "tournament": "Sassuolo Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Bonadio",
-      "score": "2-6 6-4 6-4"
+      "opponent": "F. A. Gomez",
+      "score": "6-3 6-2"
     }
   ]
 }
