@@ -3,24 +3,37 @@
   "gs_id": "146505",
   "player_name": "Nikos Lehmann",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:12.014Z",
+  "updated": "2026-03-27T07:10:47.033Z",
   "matches": [
     {
-      "date": "20240705",
-      "tournament": "ITF M15 Store Men",
+      "date": "20240316",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Estevez",
-      "score": "0-5 ret."
+      "result": "W",
+      "opponent": "F. Tenti",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20240704",
-      "tournament": "ITF M15 Store Men",
+      "date": "20240316",
+      "tournament": "M15 Punta del Este",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Aguilar Cardozo",
+      "score": "6-4 0-6 2-6"
+    },
+    {
+      "date": "20240315",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Pokorny",
-      "score": "5-7 6-3 6-3"
+      "opponent": "J. M. Fumeaux",
+      "score": "4-6 6-4 6(6)-7(8)"
     },
     {
-      "date": "20240703",
-      "tournament": "ITF M15 Store Men",
+      "date": "20240313",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Dimitrijevic",
-      "score": "4-6 3-6"
+      "opponent": "A. Hoyos Franco",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20240613",
-      "tournament": "ITF M15 Nyiregyhaza Men",
+      "date": "20231212",
+      "tournament": "M15 Concepcion 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,34 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Chayka",
-      "score": "6-4 7(8)-6(6)"
+      "opponent": "M. Soto",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20240516",
-      "tournament": "M15 Kalmar",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Trinker",
-      "score": "6-2 1-6 6(4)-7(7)"
-    },
-    {
-      "date": "20240515",
-      "tournament": "M15 Kalmar",
+      "date": "20231206",
+      "tournament": "M15 Concepcion",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Friberg",
-      "score": "5-1 ret."
+      "result": "L",
+      "opponent": "F. Mena",
+      "score": "0-6 5-7"
+    },
+    {
+      "date": "20230920",
+      "tournament": "ITF M15 Punta del Este Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Vilicich",
+      "score": "6-1 6-0"
     },
     {
       "date": "20230908",
@@ -134,32 +147,6 @@
       "result": "W",
       "opponent": "F. De Dios",
       "score": "6-1 3-6 7(7)-6(1)"
-    },
-    {
-      "date": "20230706",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Madaras",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20230705",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Azoidis",
-      "score": "6-4 2-6 1-6"
     }
   ]
 }
