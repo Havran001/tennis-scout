@@ -3,11 +3,11 @@
   "gs_id": "177325",
   "player_name": "Vladimir Bazilevskiy",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:54:46.919Z",
+  "updated": "2026-03-27T01:59:33.947Z",
   "matches": [
     {
-      "date": "20221026",
-      "tournament": "M25 Afula",
+      "date": "20251030",
+      "tournament": "M15 Heraklion 12",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Cukierman",
-      "score": "1-6 0-6"
+      "opponent": "P. Henning",
+      "score": "2-6 0-1 ret."
     },
     {
-      "date": "20221025",
-      "tournament": "M25 Afula",
+      "date": "20251029",
+      "tournament": "M15 Heraklion 12",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Saporta",
-      "score": "6-4 4-6 4-6"
+      "opponent": "J. Cizek",
+      "score": "6(5)-7(7) 6-4 6-2"
+    },
+    {
+      "date": "20230803",
+      "tournament": "M15 Raanana",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Oliel",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20230802",
+      "tournament": "M15 Raanana",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Inui",
+      "score": "6-3 3-0 ret."
+    },
+    {
+      "date": "20230801",
+      "tournament": "M15 Raanana",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Jones",
+      "score": "2-6 6-4 7(7)-6(2)"
     }
   ]
 }
