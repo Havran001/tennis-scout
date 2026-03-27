@@ -3,8 +3,34 @@
   "gs_id": "58918",
   "player_name": "Enzo Wallart",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:52:56.997Z",
+  "updated": "2026-03-27T06:02:16.010Z",
   "matches": [
+    {
+      "date": "20240701",
+      "tournament": "Bloomfield Hills Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Uchida",
+      "score": "5-7 6(4)-7(7)"
+    },
+    {
+      "date": "20240630",
+      "tournament": "Bloomfield Hills Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Chopra",
+      "score": "1-6 6(4)-7(7)"
+    },
     {
       "date": "20240501",
       "tournament": "ITF M25 Nottingham 7 Men",
@@ -17,6 +43,45 @@
       "result": "L",
       "opponent": "T. Martin",
       "score": "6(5)-7(7) 7-5 0-1"
+    },
+    {
+      "date": "20230609",
+      "tournament": "ITF M15 San Diego Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Eriksson Ziverts",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20230608",
+      "tournament": "ITF M15 San Diego Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Rogers",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M15 San Diego Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Nordquist",
+      "score": "4-6 6-3 6-4"
     }
   ]
 }
