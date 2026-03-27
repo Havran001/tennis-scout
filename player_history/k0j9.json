@@ -3,7 +3,7 @@
   "gs_id": "147881",
   "player_name": "Yannik Kelm",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:29:46.089Z",
+  "updated": "2026-03-27T12:21:02.523Z",
   "matches": [
     {
       "date": "20251116",
@@ -71,8 +71,34 @@
       "score": "1-6 0-6"
     },
     {
-      "date": "20250813",
-      "tournament": "M15 Ystad",
+      "date": "20250821",
+      "tournament": "M15 Bastad 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Vankan",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250819",
+      "tournament": "M15 Bastad 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Gannon",
+      "score": "5-7 6-0 4-6"
+    },
+    {
+      "date": "20250723",
+      "tournament": "M25 Metzingen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +106,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Bozemoj",
-      "score": "5-7 1-6"
+      "opponent": "T. Handel",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M15 Kotka",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Vasa",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250515",
+      "tournament": "M15 Bastad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Wallin",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250514",
+      "tournament": "M15 Bastad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Hallquist Lithen",
+      "score": "3-6 6(3)-7(7)"
     },
     {
       "date": "20241129",
@@ -160,32 +225,6 @@
       "result": "L",
       "opponent": "K. Szymkowiak",
       "score": "1-6 4-6"
-    },
-    {
-      "date": "20240815",
-      "tournament": "M15 Ollersbach",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Wiedenmann",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20240814",
-      "tournament": "M15 Ollersbach",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Ujvary",
-      "score": "3-6 6(2)-7(7)"
     }
   ]
 }
