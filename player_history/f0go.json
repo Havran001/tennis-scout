@@ -1,26 +1,52 @@
 {
   "player_id": "f0go",
-  "gs_id": "28723",
-  "player_name": "Pablo Ficovich Juan",
+  "gs_id": "40150",
+  "player_name": "Pablo Varillas Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:55:25.017Z",
+  "updated": "2026-03-27T05:58:31.589Z",
   "matches": [
     {
-      "date": "20230703",
-      "tournament": "Karlsruhe Challenger Men",
+      "date": "20240704",
+      "tournament": "Modena Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Sachko",
-      "score": "6-0 6-3"
+      "opponent": "A. Collarini",
+      "score": "6-4 4-6 7-5"
     },
     {
-      "date": "20230605",
-      "tournament": "Tyler Challenger Men",
+      "date": "20240703",
+      "tournament": "Modena Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cecchinato",
+      "score": "6-4 7(7)-6(1)"
+    },
+    {
+      "date": "20240701",
+      "tournament": "Modena Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Prizmic",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240430",
+      "tournament": "Cagliari",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bolt",
-      "score": "6-1 6-4"
+      "opponent": "Y. Nishioka",
+      "score": "6-2 6-4"
     }
   ]
 }
