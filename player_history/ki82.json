@@ -3,63 +3,24 @@
   "gs_id": "40043",
   "player_name": "Vit Kopriva",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:09:35.297Z",
+  "updated": "2026-03-27T11:54:33.333Z",
   "matches": [
     {
-      "date": "20260324",
-      "tournament": "Naples",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Forti",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20250330",
-      "tournament": "Naples",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Pellegrino",
-      "score": "5-7 3-6"
-    },
-    {
-      "date": "20250330",
-      "tournament": "Naples",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Darderi",
-      "score": "6-3 3-6 6(4)-7(7)"
-    },
-    {
-      "date": "20250328",
-      "tournament": "Naples",
+      "date": "20251113",
+      "tournament": "Lyon 2",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Arnaboldi",
-      "score": "3-6 6-4 3-6"
+      "result": "L",
+      "opponent": "J-L. Struff",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20250326",
-      "tournament": "Naples",
+      "date": "20251112",
+      "tournament": "Lyon 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -67,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Hemery",
-      "score": "1-6 3-6"
+      "opponent": "F. Maestrelli",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20250324",
-      "tournament": "Naples",
+      "date": "20251110",
+      "tournament": "Lyon 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -80,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Collignon",
-      "score": "6-4 6-3"
+      "opponent": "A. Gea",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20251105",
+      "tournament": "Athens",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Hanfmann",
+      "score": "2-6 7-5 5-7"
+    },
+    {
+      "date": "20251103",
+      "tournament": "Athens",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Opelka",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20251102",
+      "tournament": "Athens",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Spizzirri",
+      "score": "4-6 7-5 6-2"
+    },
+    {
+      "date": "20251101",
+      "tournament": "Athens",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Faria",
+      "score": "6-3 6-2"
     }
   ]
 }
