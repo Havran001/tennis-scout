@@ -3,63 +3,37 @@
   "gs_id": "169610",
   "player_name": "Antoine Berger",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:49:06.981Z",
+  "updated": "2026-03-27T07:04:32.031Z",
   "matches": [
     {
-      "date": "20250805",
-      "tournament": "M15 Singapore",
+      "date": "20241116",
+      "tournament": "M15 Morelia",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Matsuoka",
-      "score": "4-6 3-6"
+      "opponent": "J. Brumm",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20250402",
-      "tournament": "M15 Lons-le-Saunier",
+      "date": "20241115",
+      "tournament": "M15 Morelia",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Ghazouani Durand",
-      "score": "5-7 1-6"
+      "result": "W",
+      "opponent": "J. Hendrikx",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20231213",
-      "tournament": "ITF M15 Sharm ElSheikh 20 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Elsayed",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20230406",
-      "tournament": "ITF M15 Lons-le-Saunier Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bouquier",
-      "score": "5-7 4-6"
-    },
-    {
-      "date": "20230405",
-      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "date": "20241114",
+      "tournament": "M15 Morelia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,25 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Ruscica",
-      "score": "6-3 6-4"
+      "opponent": "A. F. Rubio Fierros",
+      "score": "6-4 7(7)-6(4)"
     },
     {
-      "date": "20221201",
-      "tournament": "M25 Monastir 11",
+      "date": "20241114",
+      "tournament": "M15 Morelia",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Lajal",
-      "score": "1-6 2-6"
+      "result": "W",
+      "opponent": "L. A. Lage Castelan",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20221130",
-      "tournament": "M25 Monastir 11",
+      "date": "20231123",
+      "tournament": "M15 Ipoh Perak",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Larwig",
-      "score": "0-6 4-6"
+      "opponent": "W. Trongcharoenchaikul",
+      "score": "6(5)-7(7) 6-3 6-2"
     },
     {
-      "date": "20221102",
-      "tournament": "M25 Monastir 9",
+      "date": "20231123",
+      "tournament": "M15 Ipoh Perak",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Fukuda",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230808",
+      "tournament": "ITF M25 Baotou Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +93,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Zuk",
-      "score": "4-6 2-6"
+      "opponent": "W. Shin",
+      "score": "5-7 6(4)-7(7)"
+    },
+    {
+      "date": "20230712",
+      "tournament": "M15 Shanghai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Jin",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20230705",
+      "tournament": "M15 Tianjin 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Mu",
+      "score": "7(7)-6(4) 4-6 3-6"
+    },
+    {
+      "date": "20230614",
+      "tournament": "ITF M15 Tianjin Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Lee",
+      "score": "6-4 6-0"
     }
   ]
 }
