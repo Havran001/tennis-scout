@@ -3,24 +3,24 @@
   "gs_id": "37629",
   "player_name": "Kody Pearson",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:26:16.085Z",
+  "updated": "2026-03-27T11:50:45.830Z",
   "matches": [
     {
-      "date": "20250114",
-      "tournament": "M15 Kingston 2",
+      "date": "20260201",
+      "tournament": "Brisbane",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bonnaud",
-      "score": "2-6 5-7"
+      "opponent": "N. Nakagawa",
+      "score": "6-0 6-3"
     },
     {
-      "date": "20250108",
-      "tournament": "M15 Kingston",
+      "date": "20250402",
+      "tournament": "M25 Bengaluru",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Zhu",
-      "score": "6-2 6-0"
+      "opponent": "O. Crawford",
+      "score": "4-6 7(7)-6(2) 7-5"
+    },
+    {
+      "date": "20250212",
+      "tournament": "M25 Timaru",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Nakagawa",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20250211",
+      "tournament": "M25 Timaru",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Saitoh",
+      "score": "3-6 1-6"
     },
     {
       "date": "20241127",
@@ -82,19 +108,6 @@
       "result": "W",
       "opponent": "D. Sumizawa",
       "score": "5-7 6-1 6-2"
-    },
-    {
-      "date": "20240508",
-      "tournament": "ITF M15 Villahermosa Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Pacheco Mendez",
-      "score": "2-6 2-6"
     }
   ]
 }
