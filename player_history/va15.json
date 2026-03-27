@@ -3,7 +3,7 @@
   "gs_id": "26005",
   "player_name": "Duarte Vale",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:50:29.931Z",
+  "updated": "2026-03-27T01:57:56.949Z",
   "matches": [
     {
       "date": "20240718",
@@ -32,34 +32,21 @@
       "score": "2-6 1-2 ret."
     },
     {
-      "date": "20220604",
-      "tournament": "M15 Rancho Santa Fe",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Holmgren",
-      "score": "1-6 7(7)-6(4) 3-6"
-    },
-    {
-      "date": "20220603",
-      "tournament": "M15 Rancho Santa Fe",
+      "date": "20220617",
+      "tournament": "M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Rai",
-      "score": "6-3 6-2"
+      "result": "L",
+      "opponent": "A. Holmgren",
+      "score": "4-6 7-5 4-6"
     },
     {
-      "date": "20220602",
-      "tournament": "M15 Rancho Santa Fe",
+      "date": "20220616",
+      "tournament": "M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Al Allaf",
-      "score": "6-3 6-3"
+      "opponent": "F. Scott",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20220601",
-      "tournament": "M15 Rancho Santa Fe",
+      "date": "20220615",
+      "tournament": "M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +67,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Anthrop",
-      "score": "6-4 6-2"
+      "opponent": "C. Farren",
+      "score": "6(5)-7(7) 5-7"
+    },
+    {
+      "date": "20220612",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Ponwith",
+      "score": "6-4 6(7)-7(9) 5-7"
+    },
+    {
+      "date": "20220611",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Z. Li",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20220610",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. A. Boitan",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20220609",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Woldeab",
+      "score": "6-3 3-6 5-7"
+    },
+    {
+      "date": "20220607",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Niranjan",
+      "score": "1-6 1-6"
     }
   ]
 }
