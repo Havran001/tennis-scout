@@ -3,20 +3,33 @@
   "gs_id": "169920",
   "player_name": "Tyler Bowers",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:14:46.865Z",
+  "updated": "2026-03-27T11:02:32.125Z",
   "matches": [
     {
-      "date": "20250514",
-      "tournament": "M25 Pensacola",
+      "date": "20250717",
+      "tournament": "M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Banerjee",
+      "score": "0-6 7-5 1-6"
+    },
+    {
+      "date": "20250716",
+      "tournament": "M25 Louisville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. M. Fahim",
-      "score": "6-4 6-4"
+      "result": "W",
+      "opponent": "A. Kobelt",
+      "score": "3-6 0-6"
     }
   ]
 }
