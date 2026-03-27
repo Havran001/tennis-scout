@@ -3,24 +3,50 @@
   "gs_id": "169129",
   "player_name": "Oliver Ojakaar",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:14:42.866Z",
+  "updated": "2026-03-27T00:54:31.919Z",
   "matches": [
     {
-      "date": "20240308",
-      "tournament": "ITF M15 Poitiers Men",
+      "date": "20240211",
+      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gengel",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240210",
+      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Safwat",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20240209",
+      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Salle",
-      "score": "7(7)-6(2) 3-6 4-6"
+      "result": "W",
+      "opponent": "S. Purtseladze",
+      "score": "6-3 6(2)-7(7) 6-1"
     },
     {
-      "date": "20240307",
-      "tournament": "ITF M15 Poitiers Men",
+      "date": "20240208",
+      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Lagarrigue",
-      "score": "2-6 2-6"
+      "opponent": "K. Tamm",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20240306",
-      "tournament": "ITF M15 Poitiers Men",
+      "date": "20240207",
+      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Sharipov",
-      "score": "4-6 7(7)-6(2) 6-4"
+      "opponent": "A. Elsayed",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20240201",
+      "tournament": "ITF M15 Sharm ElSheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Giacomini",
+      "score": "6(6)-7(8) 3-6"
+    },
+    {
+      "date": "20240131",
+      "tournament": "ITF M15 Sharm ElSheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Ivanov",
+      "score": "6(2)-7(7) 7(7)-6(5) 7(7)-6(3)"
+    },
+    {
+      "date": "20221026",
+      "tournament": "M15 Parnu 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kielan",
+      "score": "6-3 6(3)-7(7) 0-0 ret."
+    },
+    {
+      "date": "20211215",
+      "tournament": "M15 Doha 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. J. Storrie",
+      "score": "6(4)-7(7) 2-6"
     }
   ]
 }
