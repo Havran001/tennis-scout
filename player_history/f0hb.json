@@ -3,20 +3,46 @@
   "gs_id": "90295",
   "player_name": "Rodrigo Fernandes",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:59:01.397Z",
+  "updated": "2026-03-27T08:20:03.067Z",
   "matches": [
     {
-      "date": "20250716",
-      "tournament": "M25 Castelo Branco",
+      "date": "20250627",
+      "tournament": "M25 Elvas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Pieczkowski",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20250626",
+      "tournament": "M25 Elvas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. McKennon",
+      "score": "6-2 0-6 6(0)-7(7)"
+    },
+    {
+      "date": "20250624",
+      "tournament": "M25 Elvas",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "6(5)-7(7) 7(7)-6(5) 6-2"
+      "result": "W",
+      "opponent": "T. Curras Abasolo",
+      "score": "6-1 5-2 ret."
     },
     {
       "date": "20250108",
@@ -32,8 +58,8 @@
       "score": "4-6 1-6"
     },
     {
-      "date": "20240717",
-      "tournament": "ITF M25 Castelo Branco Men",
+      "date": "20240612",
+      "tournament": "ITF M25 Elvas Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Marques",
-      "score": "4-6 6-3 1-6"
+      "opponent": "D. Vale",
+      "score": "6-4 4-6 2-6"
+    },
+    {
+      "date": "20240424",
+      "tournament": "ITF M15 Sanxenxo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Hjorth",
+      "score": "1-6 3-6"
     }
   ]
 }
