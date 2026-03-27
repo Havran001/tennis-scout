@@ -3,11 +3,11 @@
   "gs_id": "82691",
   "player_name": "Joshua Sheehy",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:46:50.971Z",
+  "updated": "2026-03-27T04:55:02.989Z",
   "matches": [
     {
-      "date": "20231011",
-      "tournament": "ITF M15 Sharm ElSheikh 13 Men",
+      "date": "20250218",
+      "tournament": "M25 Burnie",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Ursu",
-      "score": "6-4 3-6 4-6"
+      "opponent": "T. Braithwaite",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20231004",
-      "tournament": "ITF M15 Sharm ElSheikh 12 Men",
+      "date": "20240123",
+      "tournament": "M25 Wesley Chapel",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Christodoulou",
-      "score": "4-6 6-3 7(8)-6(6)"
-    },
-    {
-      "date": "20230928",
-      "tournament": "ITF M15 Sharm ElSheikh 11 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Sada",
-      "score": "6-4 7(9)-6(7)"
-    },
-    {
-      "date": "20230927",
-      "tournament": "ITF M15 Sharm ElSheikh 11 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Jones",
-      "score": "6-4 6-4"
+      "opponent": "G. A. Bailly",
+      "score": "6-2 6-2"
     },
     {
       "date": "20230921",
@@ -82,6 +56,97 @@
       "result": "W",
       "opponent": "M. Bassem Sobhy",
       "score": "6-2 6-1"
+    },
+    {
+      "date": "20230427",
+      "tournament": "M15 Tacarigua 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Rahman",
+      "score": "6-4 5-7 3-6"
+    },
+    {
+      "date": "20230425",
+      "tournament": "M15 Tacarigua 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Mohammed",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20230418",
+      "tournament": "M15 Tacarigua",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Roberts",
+      "score": "2-6 6(1)-7(7)"
+    },
+    {
+      "date": "20230127",
+      "tournament": "M15 Edmond",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Kissell",
+      "score": "6(1)-7(7) 6-4 6-3"
+    },
+    {
+      "date": "20230126",
+      "tournament": "M15 Edmond",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Visser",
+      "score": "6-4 4-6 6-4"
+    },
+    {
+      "date": "20230124",
+      "tournament": "M15 Edmond",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Saye",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20230105",
+      "tournament": "M25 Malibu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Petrov",
+      "score": "1-6 4-6"
     }
   ]
 }
