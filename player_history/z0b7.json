@@ -3,8 +3,60 @@
   "gs_id": "62803",
   "player_name": "Richard Zusman",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:53:15.990Z",
+  "updated": "2026-03-27T06:02:39.029Z",
   "matches": [
+    {
+      "date": "20250716",
+      "tournament": "M25 Kramsach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Buldorini",
+      "score": "6-2 1-6 6-1"
+    },
+    {
+      "date": "20250711",
+      "tournament": "M25 Roda de Bara",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pedrico Kravtsov",
+      "score": "4-6 6-3 0-6"
+    },
+    {
+      "date": "20250710",
+      "tournament": "M25 Roda de Bara",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Andre",
+      "score": "4-6 7(7)-6(3) 2-6"
+    },
+    {
+      "date": "20250709",
+      "tournament": "M25 Roda de Bara",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Rosenkranz",
+      "score": "6-4 6-4"
+    },
     {
       "date": "20250430",
       "tournament": "M25 Sabadell",
@@ -19,17 +71,30 @@
       "score": "4-6 2-6"
     },
     {
-      "date": "20240820",
-      "tournament": "ITF M25 Idanha-a-Nova 3 Men",
+      "date": "20240711",
+      "tournament": "ITF M25 Roda de Bara Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Escoffier",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20240710",
+      "tournament": "ITF M25 Roda de Bara Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Gray",
-      "score": "1-6 1-6"
+      "result": "W",
+      "opponent": "D. Lara Salmeron",
+      "score": "6-0 6-2"
     },
     {
       "date": "20240507",
@@ -58,60 +123,8 @@
       "score": "6-0 6-3"
     },
     {
-      "date": "20240226",
-      "tournament": "Tenerife 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Misolic",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20240219",
-      "tournament": "Tenerife 2 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Kovalik",
-      "score": "6(5)-7(7) 4-6"
-    },
-    {
-      "date": "20231005",
-      "tournament": "ITF M25 Zaragoza Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Cesar Porras",
-      "score": "7(7)-6(5) 6-2"
-    },
-    {
-      "date": "20231003",
-      "tournament": "ITF M25 Zaragoza Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Winter Lopez",
-      "score": "6-3 ret."
-    },
-    {
-      "date": "20230614",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20230711",
+      "tournament": "ITF M25 Roda de Bara Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Winter Lopez",
-      "score": "6-3 3-6 6-4"
+      "opponent": "S. Gueymard Wayenburg",
+      "score": "6-3 2-6 7-5"
     },
     {
       "date": "20230510",
@@ -160,19 +173,6 @@
       "result": "W",
       "opponent": "A. Manzanera Pertusa",
       "score": "4-6 7(7)-6(4) 7-5"
-    },
-    {
-      "date": "20220628",
-      "tournament": "M15 Wroclaw",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Wojcik",
-      "score": "1-6 7(7)-6(3) 2-6"
     }
   ]
 }
