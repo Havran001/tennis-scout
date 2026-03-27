@@ -3,20 +3,33 @@
   "gs_id": "142047",
   "player_name": "Nicaise Muamba",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:33.019Z",
+  "updated": "2026-03-27T07:00:51.028Z",
   "matches": [
     {
-      "date": "20250702",
-      "tournament": "M25 Laval",
+      "date": "20241009",
+      "tournament": "M25 Edmonton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Draxl",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20241008",
+      "tournament": "M25 Edmonton",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Poling",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "S. Matsuoka",
+      "score": "3-6 3-6"
     },
     {
       "date": "20240717",
@@ -32,34 +45,8 @@
       "score": "2-6 0-6"
     },
     {
-      "date": "20230714",
-      "tournament": "ITF M25 Laval Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. McCormick",
-      "score": "5-7 6(8)-7(10)"
-    },
-    {
-      "date": "20230712",
-      "tournament": "ITF M25 Laval Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. St-Hilaire",
-      "score": "4-6 6(5)-7(7)"
-    },
-    {
-      "date": "20230426",
-      "tournament": "M15 Tacarigua 2",
+      "date": "20231031",
+      "tournament": "ITF M25 Edmonton Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,34 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Vithoontien",
-      "score": "6(4)-7(7) 6(3)-7(7)"
-    },
-    {
-      "date": "20230420",
-      "tournament": "M15 Tacarigua",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Rahman",
-      "score": "4-6 6-3 4-6"
-    },
-    {
-      "date": "20230418",
-      "tournament": "M15 Tacarigua",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Jones",
-      "score": "7(7)-6(4) 6-1"
+      "opponent": "K. Pannu",
+      "score": "7-5 6(6)-7(8) 7-5"
     }
   ]
 }
