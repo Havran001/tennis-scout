@@ -3,7 +3,7 @@
   "gs_id": "141958",
   "player_name": "Julio Cesar Porras",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:22:31.070Z",
+  "updated": "2026-03-27T09:29:05.089Z",
   "matches": [
     {
       "date": "20250426",
@@ -58,47 +58,73 @@
       "score": "6-4 2-6 3-6"
     },
     {
-      "date": "20250327",
-      "tournament": "M25 Tarragona",
+      "date": "20241117",
+      "tournament": "Montemar",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Kopp",
-      "score": "6-4 3-6 7-5"
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250326",
-      "tournament": "M25 Tarragona",
+      "date": "20240813",
+      "tournament": "M15 Gijon",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Chazal",
-      "score": "6-1 5-7 2-6"
+      "result": "L",
+      "opponent": "I. Montes-De La Torre",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20250322",
-      "tournament": "M25 Badalona",
+      "date": "20240810",
+      "tournament": "M15+H Tauste",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Andaloro",
+      "score": "5-7 6-1 6-3"
+    },
+    {
+      "date": "20240809",
+      "tournament": "M15+H Tauste",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Echeverria",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20240808",
+      "tournament": "M15+H Tauste",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Martin Tiffon",
-      "score": "3-6 3-6"
+      "result": "W",
+      "opponent": "A. Pedrico Kravtsov",
+      "score": "6-1 6(4)-7(7) 4-6"
     },
     {
-      "date": "20250321",
-      "tournament": "M25 Badalona",
+      "date": "20240807",
+      "tournament": "M15+H Tauste",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Sanchez Izquierdo",
-      "score": "6-4 6-2"
+      "opponent": "I. A. Becerra Otarola",
+      "score": "7-5 5-7 2-6"
     },
     {
-      "date": "20250320",
-      "tournament": "M25 Badalona",
+      "date": "20240805",
+      "tournament": "M15+H Tauste",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,21 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Fita Juan",
-      "score": "2-6 1-6"
-    },
-    {
-      "date": "20250225",
-      "tournament": "M15 Villena 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Marmousez",
-      "score": "6-4 6-2"
+      "opponent": "Y. Demin",
+      "score": "3-6 2-6"
     },
     {
       "date": "20240428",
@@ -199,32 +212,6 @@
       "result": "W",
       "opponent": "T. Curras Abasolo",
       "score": "1-6 7(7)-6(5) 1-0 ret."
-    },
-    {
-      "date": "20240328",
-      "tournament": "ITF M25 Tarragona Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Merida Aguilar",
-      "score": "6-0 7-5"
-    },
-    {
-      "date": "20240327",
-      "tournament": "ITF M25 Tarragona Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Garcia Mestre",
-      "score": "3-6 2-6"
     }
   ]
 }
