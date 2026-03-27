@@ -1,130 +1,26 @@
 {
   "player_id": "v993",
-  "gs_id": "31356",
-  "player_name": "Eero Vasa",
+  "gs_id": "78973",
+  "player_name": "Iiro Vasa",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:39:53.586Z",
+  "updated": "2026-03-27T12:07:27.402Z",
   "matches": [
     {
-      "date": "20250525",
-      "tournament": "M15 Kotka",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Gentzsch",
-      "score": "3-6 5-7"
-    },
-    {
-      "date": "20250524",
-      "tournament": "M15 Kotka",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Vanshelboim",
-      "score": "6-0 6-0"
-    },
-    {
-      "date": "20250523",
-      "tournament": "M15 Kotka",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Raquillet",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20250522",
-      "tournament": "M15 Kotka",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Ciavarella",
-      "score": "0-6 3-6"
-    },
-    {
-      "date": "20250521",
-      "tournament": "M15 Kotka",
+      "date": "20260225",
+      "tournament": "M15 Villena 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Kelm",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20250514",
-      "tournament": "Oeiras 6",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "H. Habib",
-      "score": "7-5 7(7)-6(5)"
+      "opponent": "E. Hudd",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20250513",
-      "tournament": "Oeiras 6",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Domingues",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20250512",
-      "tournament": "Oeiras 6",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Zeppieri",
-      "score": "6-4 2-6 2-6"
-    },
-    {
-      "date": "20250511",
-      "tournament": "Oeiras 6",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Heinonen",
-      "score": "6(4)-7(7) 6(7)-7(9)"
-    },
-    {
-      "date": "20250501",
-      "tournament": "M15 Oegstgeest",
+      "date": "20250813",
+      "tournament": "M15 Turku",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -132,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Ch. Negritu",
-      "score": "6(2)-7(7) 6(4)-7(7)"
+      "opponent": "L. Wessels",
+      "score": "2-6 6-7"
     },
     {
-      "date": "20250429",
-      "tournament": "M15 Oegstgeest",
+      "date": "20250812",
+      "tournament": "M15 Turku",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,99 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Raynel",
-      "score": "3-6 6-2 3-6"
-    },
-    {
-      "date": "20241004",
-      "tournament": "M15 Grodzisk Mazowiecki 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Z. Kolar",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20241003",
-      "tournament": "M15 Grodzisk Mazowiecki 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Rivera",
-      "score": "7(7)-6(5) 0-6 2-6"
-    },
-    {
-      "date": "20241002",
-      "tournament": "M15 Grodzisk Mazowiecki 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Hrazdil",
-      "score": "4-6 5-7"
-    },
-    {
-      "date": "20240816",
-      "tournament": "ITF M15 Ystad Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Durasovic",
-      "score": "6-3 4-6 6-4"
-    },
-    {
-      "date": "20240815",
-      "tournament": "ITF M15 Ystad Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. N. Tudorica",
-      "score": "7-5 6-3"
-    },
-    {
-      "date": "20240814",
-      "tournament": "ITF M15 Ystad Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Grevelius",
-      "score": "6-4 7-5"
-    },
-    {
-      "date": "20240721",
-      "tournament": "ITF M15 Slovenska Bistrica Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Corwin",
-      "score": "5-7 6-3 3-6"
+      "opponent": "V. Iakubenko",
+      "score": "3-6 6-3 6(2)-7(7)"
     },
     {
       "date": "20240719",
@@ -248,9 +53,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Kriznik",
-      "score": "7(8)-6(6) 2-6 6-2"
+      "result": "L",
+      "opponent": "J. Kupcic",
+      "score": "6-2 6-4"
     },
     {
       "date": "20240718",
@@ -262,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Carboni",
-      "score": "3-6 4-6"
+      "opponent": "P. Fajta",
+      "score": "4-1 ret."
     },
     {
       "date": "20240716",
@@ -275,60 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Winter",
-      "score": "7-5 6-4"
+      "opponent": "E. Winter",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20240622",
-      "tournament": "M25 Duffel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Sultanov",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20240621",
-      "tournament": "M25 Duffel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Perot",
-      "score": "4-6 6-3 6(5)-7(7)"
-    },
-    {
-      "date": "20240620",
-      "tournament": "M25 Duffel",
+      "date": "20240606",
+      "tournament": "ITF M15 Grodzisk Mazowiecki Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Safwat",
-      "score": "7(8)-6(6) 2-1 ret."
-    },
-    {
-      "date": "20240619",
-      "tournament": "M25 Duffel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Huysmans",
-      "score": "5-7 3-6"
+      "result": "L",
+      "opponent": "M. Steiner",
+      "score": "4-6 4-6"
     },
     {
       "date": "20240605",
@@ -339,9 +105,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bojarski",
-      "score": "5-7 4-6"
+      "result": "W",
+      "opponent": "F. Kosinski",
+      "score": "6-2 6-3"
     }
   ]
 }
