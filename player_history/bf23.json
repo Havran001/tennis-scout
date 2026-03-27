@@ -3,37 +3,24 @@
   "gs_id": "3225",
   "player_name": "Facundo Bagnis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:56:58.047Z",
+  "updated": "2026-03-27T10:57:09.128Z",
   "matches": [
     {
-      "date": "20250425",
-      "tournament": "San Miguel de Tucuman",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Collarini",
-      "score": "6-3 6(3)-7(7) 5-4 ret."
-    },
-    {
-      "date": "20250424",
-      "tournament": "San Miguel de Tucuman",
+      "date": "20250925",
+      "tournament": "Buenos Aires 3",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Olivo",
-      "score": "7-5 5-7 6-3"
+      "result": "L",
+      "opponent": "N. Kicker",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20250422",
-      "tournament": "San Miguel de Tucuman",
+      "date": "20250923",
+      "tournament": "Buenos Aires 3",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -42,7 +29,46 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "G. Villanueva",
-      "score": "6-4 6-1"
+      "score": "0-6 6-3 3-6"
+    },
+    {
+      "date": "20160923",
+      "tournament": "Santos Open",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Velotti",
+      "score": "6-1 4-6 6-4"
+    },
+    {
+      "date": "20160922",
+      "tournament": "Santos Open",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ghem",
+      "score": "6-2 2-6 6-4"
+    },
+    {
+      "date": "20160920",
+      "tournament": "Santos Open",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Estevez",
+      "score": "6-2 6-2"
     }
   ]
 }
