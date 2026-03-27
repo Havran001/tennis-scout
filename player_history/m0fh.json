@@ -3,20 +3,33 @@
   "gs_id": "39050",
   "player_name": "Tomas Machac",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:51:55.986Z",
+  "updated": "2026-03-27T11:53:13.352Z",
   "matches": [
     {
-      "date": "20230124",
-      "tournament": "Ottignies-Louvain-la-Neuve Challenger Men",
+      "date": "20241017",
+      "tournament": "ATP Almaty",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "B",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Misolic",
-      "score": "2-6 6-3 2-6"
+      "opponent": "B. Zhukayev",
+      "score": "1-3 ret."
+    },
+    {
+      "date": "20241016",
+      "tournament": "ATP Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Skatov",
+      "score": "3-6 4-6"
     }
   ]
 }
