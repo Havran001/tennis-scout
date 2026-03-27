@@ -3,37 +3,76 @@
   "gs_id": "78975",
   "player_name": "Filip Misolic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:15:29.573Z",
+  "updated": "2026-03-27T12:07:34.152Z",
   "matches": [
     {
-      "date": "20250303",
-      "tournament": "Kigali 2",
+      "date": "20251101",
+      "tournament": "Athens",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "B",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Den Ouden",
-      "score": "2-6 2-6"
+      "opponent": "A. Molcan",
+      "score": "6-3 6(3)-7(7) 6-1"
     },
     {
-      "date": "20250108",
-      "tournament": "Nottingham 3",
+      "date": "20250815",
+      "tournament": "Sumter",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Mochizuki",
+      "score": "4-6 6-4 4-6"
+    },
+    {
+      "date": "20250814",
+      "tournament": "Sumter",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Durasovic",
-      "score": "3-6 2-6"
+      "result": "W",
+      "opponent": "J. K. Trotter",
+      "score": "3-6 6(1)-7(7)"
     },
     {
-      "date": "20250107",
-      "tournament": "Nottingham 3",
+      "date": "20250411",
+      "tournament": "Monza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Svrcina",
+      "score": "6-2 3-6 7-5"
+    },
+    {
+      "date": "20250410",
+      "tournament": "Monza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Coria",
+      "score": "0-6 6-4 0-6"
+    },
+    {
+      "date": "20250408",
+      "tournament": "Monza",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,8 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Vrbensky",
-      "score": "3-6 6(4)-7(7)"
+      "opponent": "S. Nagal",
+      "score": "2-6 0-1 ret."
+    },
+    {
+      "date": "20241013",
+      "tournament": "ATP Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Karatsev",
+      "score": "2-6 5-7"
     }
   ]
 }
