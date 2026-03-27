@@ -3,11 +3,11 @@
   "gs_id": "116452",
   "player_name": "Daniil Golubev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:14:16.158Z",
+  "updated": "2026-03-26T22:12:39.867Z",
   "matches": [
     {
-      "date": "20240903",
-      "tournament": "ITF M15 Tashkent 2 Men",
+      "date": "20210413",
+      "tournament": "M15 St. Petersburg 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,21 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Palan",
-      "score": "2-6 0-6"
+      "opponent": "S. Danilov",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20240827",
-      "tournament": "ITF M15 Tashkent Men",
+      "date": "20210307",
+      "tournament": "St. Petersburg 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Kawachi",
-      "score": "0-6 3-6"
+      "opponent": "A. Nedovyesov",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20210228",
+      "tournament": "St. Petersburg",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Nedelko",
+      "score": "0-6 0-6"
     }
   ]
 }
