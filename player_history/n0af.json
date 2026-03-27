@@ -3,8 +3,21 @@
   "gs_id": "77149",
   "player_name": "Arvid Nordquist",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:09:29.058Z",
+  "updated": "2026-03-27T08:15:10.233Z",
   "matches": [
+    {
+      "date": "20250317",
+      "tournament": "Asuncion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Kicker",
+      "score": "6-3 6-2"
+    },
     {
       "date": "20241120",
       "tournament": "M15 Santo Domingo 3",
@@ -19,17 +32,30 @@
       "score": "6-4 4-6 4-1 ret."
     },
     {
-      "date": "20231017",
-      "tournament": "M15 Las Vegas",
+      "date": "20240624",
+      "tournament": "Ibague",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. S. Kwiatkowski",
-      "score": "6-3 7-5"
+      "opponent": "D. Blanch",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20240623",
+      "tournament": "Ibague",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Castaneda",
+      "score": "4-6 3-6"
     }
   ]
 }
