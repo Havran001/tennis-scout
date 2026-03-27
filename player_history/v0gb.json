@@ -3,47 +3,8 @@
   "gs_id": "156068",
   "player_name": "Miha Vetrih",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:30:20.089Z",
+  "updated": "2026-03-27T11:01:56.127Z",
   "matches": [
-    {
-      "date": "20251024",
-      "tournament": "M15 Bol",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Miladinovic",
-      "score": "7(7)-6(4) 4-6 1-6"
-    },
-    {
-      "date": "20251023",
-      "tournament": "M15 Bol",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Popovic",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20251022",
-      "tournament": "M15 Bol",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Oliynykov",
-      "score": "7-5 6-2"
-    },
     {
       "date": "20250925",
       "tournament": "M15 Slovenj Gradec",
@@ -58,6 +19,58 @@
       "score": "4-6 6-1 6-3"
     },
     {
+      "date": "20250730",
+      "tournament": "M15 Wels",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Crivellaro",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20250716",
+      "tournament": "M15 Nova Gorica",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kriznik",
+      "score": "2-6 6-4 6-4"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Ljubljana",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Demanet",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250604",
+      "tournament": "M15 Ljubljana",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Matijasic",
+      "score": "7(7)-6(5) 6-3"
+    },
+    {
       "date": "20240828",
       "tournament": "M15 Slovenj Gradec",
       "surface": "Hard",
@@ -69,32 +82,6 @@
       "result": "L",
       "opponent": "V. Tonejc",
       "score": "6(6)-7(8) 3-6"
-    },
-    {
-      "date": "20240605",
-      "tournament": "M15 Hrastnik",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Iakubenko",
-      "score": "1-6 1-6"
-    },
-    {
-      "date": "20240529",
-      "tournament": "M15 Vrhnika",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Castagnola",
-      "score": "4-6 5-7"
     }
   ]
 }
