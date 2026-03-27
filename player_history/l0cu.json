@@ -1,13 +1,39 @@
 {
   "player_id": "l0cu",
-  "gs_id": "296404",
-  "player_name": "Andres Flores Avila Luis",
+  "gs_id": "90393",
+  "player_name": "Tomas Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:33:34.093Z",
+  "updated": "2026-03-27T11:00:19.123Z",
   "matches": [
     {
-      "date": "20260115",
-      "tournament": "M15 Manacor 2",
+      "date": "20250824",
+      "tournament": "Porto 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alcala Gurri",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20250702",
+      "tournament": "M25 Figueira da Foz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Dar. Blanch",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20250626",
+      "tournament": "M25 Elvas",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Basing",
-      "score": "0-6 0-6"
+      "opponent": "O. Pieczkowski",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20260114",
-      "tournament": "M15 Manacor 2",
+      "date": "20250625",
+      "tournament": "M25 Elvas",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Alberti",
-      "score": "6(2)-7(7) 4-6"
+      "opponent": "T. Pinho",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250513",
+      "tournament": "M15 Orlando",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Bynoe",
+      "score": "6-4 0-6 6-4"
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M25 Elvas Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Celikbilek",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20240611",
+      "tournament": "ITF M25 Elvas Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Goncalves",
+      "score": "6-2 2-6 2-6"
     }
   ]
 }
