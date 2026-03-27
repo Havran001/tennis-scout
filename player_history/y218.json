@@ -1,39 +1,26 @@
 {
   "player_id": "y218",
-  "gs_id": "27034",
-  "player_name": "Mikael Ymer",
+  "gs_id": "10670",
+  "player_name": "Elias Ymer",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:14:25.114Z",
+  "updated": "2026-03-27T11:38:29.139Z",
   "matches": [
     {
-      "date": "20250804",
-      "tournament": "Bonn",
+      "date": "20250825",
+      "tournament": "Porto 2",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Boscardin Dias",
-      "score": ""
+      "opponent": "P. Araujo",
+      "score": "7-5 4-6 5-7"
     },
     {
-      "date": "20250803",
-      "tournament": "Bonn",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Campana Lee",
-      "score": "6-3 7(7)-6(5)"
-    },
-    {
-      "date": "20250219",
-      "tournament": "Brazzaville",
+      "date": "20250514",
+      "tournament": "Oeiras 6",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Hemery",
-      "score": "6(5)-7(7) 6-2 2-6"
+      "opponent": "C. Garin",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20250217",
-      "tournament": "Brazzaville",
+      "date": "20250513",
+      "tournament": "Oeiras 6",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. De Cuyper",
-      "score": "6-3 6-2"
+      "opponent": "F. Meligeni Alves",
+      "score": "1-6 0-3 ret."
+    },
+    {
+      "date": "20250406",
+      "tournament": "Monza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Brunold",
+      "score": "7-5 7(7)-6(5)"
     }
   ]
 }
