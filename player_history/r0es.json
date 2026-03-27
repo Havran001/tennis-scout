@@ -3,20 +3,72 @@
   "gs_id": "87012",
   "player_name": "Carl Roothman",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:07:35.859Z",
+  "updated": "2026-03-27T09:27:46.086Z",
   "matches": [
     {
-      "date": "20210214",
-      "tournament": "Potchefstroom 2",
+      "date": "20250703",
+      "tournament": "M25 Hillcrest",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Miedler",
+      "opponent": "A. Ouakaa",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20250701",
+      "tournament": "M25 Hillcrest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. P. Bhat",
+      "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20241211",
+      "tournament": "M15 Stellenbosch 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20241205",
+      "tournament": "M15 Stellenbosch",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Visker",
       "score": "1-6 1-6"
+    },
+    {
+      "date": "20241203",
+      "tournament": "M15 Stellenbosch",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Stringer",
+      "score": "6-3 6-1"
     }
   ]
 }
