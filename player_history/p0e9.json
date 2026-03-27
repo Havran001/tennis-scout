@@ -3,7 +3,7 @@
   "gs_id": "76871",
   "player_name": "Dominik Palan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:57:09.027Z",
+  "updated": "2026-03-27T08:15:15.059Z",
   "matches": [
     {
       "date": "20260116",
@@ -45,19 +45,6 @@
       "score": "2-6 2-6"
     },
     {
-      "date": "20250916",
-      "tournament": "M25 Takasaki",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Yamasaki",
-      "score": "2-6 ret."
-    },
-    {
       "date": "20250115",
       "tournament": "M25 Chennai",
       "surface": "Hard",
@@ -84,8 +71,8 @@
       "score": "6-1 6-2"
     },
     {
-      "date": "20240815",
-      "tournament": "ITF M25 Yinchuan Men",
+      "date": "20240704",
+      "tournament": "M25 Ajaccio+H",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Nidunjianzan",
-      "score": "5-7 4-6"
+      "opponent": "R. Bertrand",
+      "score": "2-6 7-5 4-6"
     },
     {
-      "date": "20240814",
-      "tournament": "ITF M25 Yinchuan Men",
+      "date": "20240702",
+      "tournament": "M25 Ajaccio+H",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,25 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Xu",
-      "score": "4-6 4-6"
+      "opponent": "M. Cunat",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240724",
-      "tournament": "M25 Astana",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Pokorny",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20240422",
-      "tournament": "Shenzhen 3",
+      "date": "20240505",
+      "tournament": "Wuxi Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -132,8 +106,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Ramanathan",
-      "score": "6-4 6-2"
+      "opponent": "L. Xiao",
+      "score": "7(8)-6(6) 0-4 ret."
+    },
+    {
+      "date": "20240417",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Brouwer",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20240415",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. R. Statham",
+      "score": "6-2 6(3)-7(7) 6-3"
+    },
+    {
+      "date": "20240414",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Clark",
+      "score": "5-7 6-4 6-4"
     },
     {
       "date": "20240125",
@@ -199,84 +212,6 @@
       "result": "W",
       "opponent": "Y. Jang",
       "score": "2-6 4-6"
-    },
-    {
-      "date": "20231019",
-      "tournament": "Shenzhen 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Tu",
-      "score": "6-3 3-6 6-2"
-    },
-    {
-      "date": "20231017",
-      "tournament": "Shenzhen 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. C. Mo",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20230819",
-      "tournament": "ITF M25 Yinchuan Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Cui",
-      "score": "6-3 0-0 ret."
-    },
-    {
-      "date": "20230818",
-      "tournament": "ITF M25 Yinchuan Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. H. Lee",
-      "score": "6-2 4-6 6-2"
-    },
-    {
-      "date": "20230817",
-      "tournament": "ITF M25 Yinchuan Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Castelnuovo",
-      "score": "7(11)-6(9) 3-6 7(12)-6(10)"
-    },
-    {
-      "date": "20230816",
-      "tournament": "ITF M25 Yinchuan Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Liu",
-      "score": "7(7)-6(4) 6-2"
     }
   ]
 }
