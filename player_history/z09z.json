@@ -3,11 +3,24 @@
   "gs_id": "76998",
   "player_name": "Beibit Zhukayev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:46:42.980Z",
+  "updated": "2026-03-27T06:03:40.435Z",
   "matches": [
     {
-      "date": "20221106",
-      "tournament": "Matsuyama",
+      "date": "20230704",
+      "tournament": "Bloomfield Hills Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Duckworth",
+      "score": "6(2)-7(7) 5-7"
+    },
+    {
+      "date": "20230617",
+      "tournament": "Palmas Del Mar",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,8 +28,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Sekiguchi",
-      "score": "4-6 6-3 7(7)-6(3)"
+      "opponent": "M. Zheng",
+      "score": "3-6 6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20230616",
+      "tournament": "Palmas Del Mar",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Draxl",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230614",
+      "tournament": "Palmas Del Mar",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Zhu",
+      "score": "6-4 5-7 2-6"
+    },
+    {
+      "date": "20230613",
+      "tournament": "Palmas Del Mar",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Shimizu",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230606",
+      "tournament": "Tyler Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Dougaz",
+      "score": "5-7 2-6"
     }
   ]
 }
