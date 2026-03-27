@@ -3,50 +3,76 @@
   "gs_id": "90394",
   "player_name": "Jaime Faria",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:52:07.951Z",
+  "updated": "2026-03-27T03:52:41.969Z",
   "matches": [
     {
-      "date": "20230620",
-      "tournament": "M25 Mungia",
+      "date": "20241013",
+      "tournament": "Valencia",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Gulin",
-      "score": "6-2 6-4"
+      "opponent": "P. Martinez",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20230615",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20241012",
+      "tournament": "Valencia",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Moreno De Alboran",
+      "score": "6-4 3-6 6(2)-7(7)"
+    },
+    {
+      "date": "20241011",
+      "tournament": "Valencia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Novak",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20241010",
+      "tournament": "Valencia",
+      "surface": "Hard",
+      "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Vasa",
-      "score": "6-3 3-6 7-5"
+      "result": "W",
+      "opponent": "E. Moller",
+      "score": "6-4 5-7 3-6"
     },
     {
-      "date": "20230613",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20241008",
+      "tournament": "Valencia",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Molino",
-      "score": "6-3 6-2"
+      "opponent": "I. Gakhov",
+      "score": "2-6 6-2 6(3)-7(7)"
     },
     {
-      "date": "20220826",
-      "tournament": "M15 Trier",
+      "date": "20221125",
+      "tournament": "M25 Monastir 10",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Gentzsch",
-      "score": "6-1 3-6 2-6"
+      "opponent": "Y. Bu",
+      "score": "5-7 3-6"
     },
     {
-      "date": "20220825",
-      "tournament": "M15 Trier",
+      "date": "20221124",
+      "tournament": "M25 Monastir 10",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Catani",
-      "score": "1-6 4-6"
+      "opponent": "L. Claverie",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20220823",
-      "tournament": "M15 Trier",
+      "date": "20221122",
+      "tournament": "M25 Monastir 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,34 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Sakellaridis",
-      "score": "2-6 6-2 2-6"
+      "opponent": "R. Bertrand",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20220616",
-      "tournament": "M15 Chieti",
+      "date": "20221026",
+      "tournament": "M25 Monastir 8",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Chepelev",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20220614",
-      "tournament": "M15 Chieti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Gray",
-      "score": "2-6 0-6"
+      "opponent": "C. Tabur",
+      "score": "6-2 6-2"
     }
   ]
 }
