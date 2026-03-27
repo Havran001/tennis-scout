@@ -3,11 +3,11 @@
   "gs_id": "28032",
   "player_name": "Corentin Moutet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:50:32.933Z",
+  "updated": "2026-03-27T05:41:30.019Z",
   "matches": [
     {
-      "date": "20240516",
-      "tournament": "Turin 2 Challenger Men",
+      "date": "20231121",
+      "tournament": "Valencia Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +15,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Huesler",
-      "score": "6(3)-7(7) 6-3 2-6"
+      "opponent": "P. Herbert",
+      "score": "6-3 4-6 1-6"
+    },
+    {
+      "date": "20231009",
+      "tournament": "Malaga",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kuzmanov",
+      "score": "2-6 6-2 6(5)-7(7)"
+    },
+    {
+      "date": "20221020",
+      "tournament": "Napoli",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kecmanovic",
+      "score": "5-3 ret."
+    },
+    {
+      "date": "20221019",
+      "tournament": "Napoli",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Nardi",
+      "score": "7(9)-6(7) 6(3)-7(7) 2-6"
     }
   ]
 }
