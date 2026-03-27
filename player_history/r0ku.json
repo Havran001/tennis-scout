@@ -3,11 +3,24 @@
   "gs_id": "127639",
   "player_name": "Alexander Razeghi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:53:18.126Z",
+  "updated": "2026-03-27T04:47:35.980Z",
   "matches": [
     {
-      "date": "20250731",
-      "tournament": "M25 Edwardsville",
+      "date": "20240214",
+      "tournament": "ITF M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Popko",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20231117",
+      "tournament": "ITF M15 Boca Raton",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Zink",
-      "score": "7-5 3-6 6(9)-7(11)"
+      "opponent": "Al. Colas Sanchez",
+      "score": ""
     },
     {
-      "date": "20250729",
-      "tournament": "M25 Edwardsville",
+      "date": "20231116",
+      "tournament": "ITF M15 Boca Raton",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Bigun",
-      "score": "6-2 2-6 4-6"
+      "opponent": "R. Quan",
+      "score": "3-6 6-3 10-6"
     },
     {
-      "date": "20250709",
-      "tournament": "M25 Dallas",
+      "date": "20231108",
+      "tournament": "ITF M15 Winston-Salem",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Rybakov",
-      "score": "3-6 6(6)-7(8)"
+      "opponent": "M. Borisiouk",
+      "score": "3-6 6-4 6-3"
+    },
+    {
+      "date": "20231027",
+      "tournament": "M15 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Vale",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20231026",
+      "tournament": "M15 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Harazaki",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20231026",
+      "tournament": "M15 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Bigun",
+      "score": "2-6 6(7)-7(9)"
+    },
+    {
+      "date": "20230927",
+      "tournament": "M15 Albuquerque",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Nefve",
+      "score": "6-4 3-6 6-2"
     }
   ]
 }
