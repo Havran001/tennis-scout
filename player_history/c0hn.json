@@ -1,22 +1,48 @@
 {
   "player_id": "c0hn",
-  "gs_id": "79749",
-  "player_name": "Luca Cervantes Tomas",
+  "gs_id": "34460",
+  "player_name": "Martin Etcheverry Tomas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:46:47.968Z",
+  "updated": "2026-03-27T04:50:28.005Z",
   "matches": [
     {
-      "date": "20220928",
-      "tournament": "M15 Sabadell",
+      "date": "20221021",
+      "tournament": "Coquimbo 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Cekirge",
-      "score": "2-6 1-6"
+      "opponent": "J. M. Cerundolo",
+      "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20221019",
+      "tournament": "Coquimbo 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. F. Vidal Azorin",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20221017",
+      "tournament": "Coquimbo 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Fernandez Flores",
+      "score": "3-6 1-6"
     }
   ]
 }
