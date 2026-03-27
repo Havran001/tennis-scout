@@ -3,11 +3,24 @@
   "gs_id": "271245",
   "player_name": "Karlo Kajin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:13:33.887Z",
+  "updated": "2026-03-27T04:50:16.981Z",
   "matches": [
     {
-      "date": "20260324",
-      "tournament": "M15 Opatija",
+      "date": "20250828",
+      "tournament": "M25 Maribor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Basic",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M25 Maribor 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,34 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Stankovic",
-      "score": "6-2 2-6 2-6"
-    },
-    {
-      "date": "20260315",
-      "tournament": "Zadar",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Lokoli",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20250319",
-      "tournament": "M15 Rovinj",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Madarasz",
-      "score": "7(7)-6(2) 6-3"
+      "opponent": "L. Obrul",
+      "score": "2-6 3-6"
     }
   ]
 }
