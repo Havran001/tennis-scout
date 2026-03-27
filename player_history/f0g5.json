@@ -3,11 +3,24 @@
   "gs_id": "140094",
   "player_name": "Alexander Frusina",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:53:20.924Z",
+  "updated": "2026-03-27T01:55:38.941Z",
   "matches": [
     {
-      "date": "20251030",
-      "tournament": "M25 Harlingen",
+      "date": "20240618",
+      "tournament": "ITF M15 Rancho Santa Fe",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Svajda",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240208",
+      "tournament": "ITF M15 Sunrise",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. A. Boitan",
-      "score": "2-6 6(5)-7(7)"
+      "opponent": "T. Kodat",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20251029",
-      "tournament": "M25 Harlingen",
+      "date": "20240207",
+      "tournament": "ITF M15 Sunrise",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. A. Rodriguez",
-      "score": "1-6 6(1)-7(7)"
-    },
-    {
-      "date": "20231004",
-      "tournament": "M15 Ithaca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Fenty",
-      "score": "6-4 7-5"
-    },
-    {
-      "date": "20230314",
-      "tournament": "ITF M15 Monastir 11 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Matsuda",
-      "score": "6-1 6-1"
+      "opponent": "A. Jones",
+      "score": "6-1 6-3"
     }
   ]
 }
