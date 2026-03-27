@@ -3,11 +3,11 @@
   "gs_id": "4021",
   "player_name": "Mohamed Safwat",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:09.055Z",
+  "updated": "2026-03-27T07:57:04.643Z",
   "matches": [
     {
-      "date": "20240926",
-      "tournament": "ITF M25 Kigali Men",
+      "date": "20240620",
+      "tournament": "M25 Duffel",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Plunger",
-      "score": "7-5 6-4"
+      "opponent": "E. Vasa",
+      "score": "6(6)-7(8) 1-2 ret."
     },
     {
-      "date": "20240924",
-      "tournament": "ITF M25 Kigali Men",
+      "date": "20240619",
+      "tournament": "M25 Duffel",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +28,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Reddy",
-      "score": "6-2 7(7)-6(3)"
+      "opponent": "O. Ungerman",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20240829",
-      "tournament": "ITF M15 Vienna Men",
+      "date": "20240613",
+      "tournament": "M25 Villeneuve-Loubet+H",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Oliel",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20240612",
+      "tournament": "M25 Villeneuve-Loubet+H",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Trinker",
-      "score": "6-1 6-3"
+      "result": "W",
+      "opponent": "M. Bobichon",
+      "score": "7-5 2-6 5-7"
     },
     {
-      "date": "20240827",
-      "tournament": "ITF M15 Vienna Men",
+      "date": "20240611",
+      "tournament": "M25 Villeneuve-Loubet+H",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Jozwicki",
-      "score": "6-3 6-2"
+      "opponent": "J. Paul",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240308",
+      "tournament": "Kigali 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Trungelliti",
+      "score": "6-1 2-6 1-6"
+    },
+    {
+      "date": "20240306",
+      "tournament": "Kigali 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. P. Paz",
+      "score": "6(4)-7(7) 2-6"
+    },
+    {
+      "date": "20240305",
+      "tournament": "Kigali 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Houkes",
+      "score": "6-2 6-4"
     },
     {
       "date": "20240227",
