@@ -3,11 +3,37 @@
   "gs_id": "33744",
   "player_name": "Jose Escurra Isnardi Hernando",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:04:09.890Z",
+  "updated": "2026-03-27T00:50:35.917Z",
   "matches": [
     {
-      "date": "20240723",
-      "tournament": "M15 Perugia",
+      "date": "20220818",
+      "tournament": "M15 Recife",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ribeiro",
+      "score": "3-6 6-3 6-4"
+    },
+    {
+      "date": "20220817",
+      "tournament": "M15 Recife",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Salazar",
+      "score": "3-6 6-4 4-6"
+    },
+    {
+      "date": "20211214",
+      "tournament": "M15 Lambare",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Miletich",
-      "score": "6-3 6-1"
+      "opponent": "V. Aboian",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20211110",
+      "tournament": "M25 Aparecida de Goiania",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Gruber",
+      "score": "6-2 3-6 6-4"
     }
   ]
 }
