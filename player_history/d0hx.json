@@ -3,11 +3,37 @@
   "gs_id": "126724",
   "player_name": "Dylan Dietrich",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:20:13.073Z",
+  "updated": "2026-03-27T12:15:40.161Z",
   "matches": [
     {
-      "date": "20230622",
-      "tournament": "ITF M15 Saarlouis Men",
+      "date": "20250707",
+      "tournament": "Nottingham 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Schell",
+      "score": "5-7 6-4 6-3"
+    },
+    {
+      "date": "20250707",
+      "tournament": "Nottingham 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Zahraj",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20250703",
+      "tournament": "M15 Getxo",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Naw",
-      "score": "2-6 0-6"
+      "opponent": "P. Delage",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20230620",
-      "tournament": "ITF M15 Saarlouis Men",
+      "date": "20250701",
+      "tournament": "M15 Getxo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Paroulek",
-      "score": "6-2 5-7 3-6"
+      "opponent": "V. Basel",
+      "score": "6-3 6-1"
     }
   ]
 }
