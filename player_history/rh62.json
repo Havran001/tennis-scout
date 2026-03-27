@@ -3,7 +3,7 @@
   "gs_id": "35123",
   "player_name": "Mats Rosenkranz",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:48:59.901Z",
+  "updated": "2026-03-27T00:50:45.917Z",
   "matches": [
     {
       "date": "20250328",
@@ -45,8 +45,21 @@
       "score": "1-6 3-6"
     },
     {
-      "date": "20241023",
-      "tournament": "M25 Sarreguemines",
+      "date": "20241006",
+      "tournament": "Roanne",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Coulibaly",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240109",
+      "tournament": "M25 Loughborough",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,38 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Freire Da Silva",
-      "score": "3-6 2-2 ret."
+      "opponent": "A. Raynel",
+      "score": "4-6 6-3 6-2"
     },
     {
-      "date": "20230927",
-      "tournament": "ITF M25 Falun Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Blockx",
-      "score": "5-7 4-6"
-    },
-    {
-      "date": "20230926",
-      "tournament": "ITF M25 Falun Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Nordquist",
-      "score": "1-6 1-6"
-    },
-    {
-      "date": "20230607",
-      "tournament": "M25 Skopje",
+      "date": "20230419",
+      "tournament": "ITF M25 Sharm ElSheikh 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,90 +80,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Nesterov",
-      "score": "6(5)-7(7) 2-6"
+      "opponent": "I. Simakin",
+      "score": "1-6 5-7"
     },
     {
-      "date": "20221030",
-      "tournament": "M25 Sarreguemines",
+      "date": "20230412",
+      "tournament": "ITF M25 Sharm ElSheikh Men",
       "surface": "Hard",
       "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. van Wyk",
+      "score": "7(7)-6(5) 6-3"
+    },
+    {
+      "date": "20220228",
+      "tournament": "Turin 2",
+      "surface": "Hard",
+      "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Added",
-      "score": "6-3 3-6 6-3"
+      "result": "L",
+      "opponent": "F. C. Jianu",
+      "score": "3-6 6(2)-7(7)"
     },
     {
-      "date": "20221029",
-      "tournament": "M25 Sarreguemines",
+      "date": "20220227",
+      "tournament": "Turin 2",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Hoang",
-      "score": "2-6 7(7)-6(1) 6-3"
+      "opponent": "E. King",
+      "score": "6-1 7(7)-6(3)"
     },
     {
-      "date": "20221028",
-      "tournament": "M25 Sarreguemines",
+      "date": "20210212",
+      "tournament": "M15 Nur-Sultan 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Geerts",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20221027",
-      "tournament": "M25 Sarreguemines",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Musitelli",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20221025",
-      "tournament": "M25 Sarreguemines",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Cubelic",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20210922",
-      "tournament": "M25 Jonkoping",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "E. Karlovskiy",
-      "score": "4-6 3-6"
+      "opponent": "F. Forti",
+      "score": "3-6 7(10)-6(8) 6-3"
     },
     {
-      "date": "20210920",
-      "tournament": "M25 Jonkoping",
+      "date": "20210211",
+      "tournament": "M15 Nur-Sultan 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Smith",
+      "score": "6-3 4-6 5-7"
+    },
+    {
+      "date": "20210210",
+      "tournament": "M15 Nur-Sultan 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,8 +158,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Ruzgas",
-      "score": "5-7 5-7"
+      "opponent": "B. Usipbekov",
+      "score": "6-3 6-3"
     }
   ]
 }
