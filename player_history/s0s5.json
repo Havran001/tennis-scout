@@ -3,7 +3,7 @@
   "gs_id": "165094",
   "player_name": "Braden Shick",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:25:35.073Z",
+  "updated": "2026-03-27T09:30:53.104Z",
   "matches": [
     {
       "date": "20260208",
@@ -136,17 +136,121 @@
       "score": "1-6 4-6"
     },
     {
-      "date": "20250108",
-      "tournament": "M25 Ithaca",
+      "date": "20251102",
+      "tournament": "M15 Yanagawa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bouzige",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20251101",
+      "tournament": "M15 Yanagawa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Katayama",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20251031",
+      "tournament": "M15 Yanagawa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Suzuki",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20251030",
+      "tournament": "M15 Yanagawa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Takahata",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20251029",
+      "tournament": "M15 Yanagawa City",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Matsumura",
+      "score": "2-6 0-3 ret."
+    },
+    {
+      "date": "20251027",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "K. Smith",
-      "score": "6(1)-7(7) 7(7)-6(5) 3-6"
+      "opponent": "H. Shiraishi",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20251024",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. J. Kim",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20251023",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Kawahashi",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20251021",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Shibano",
+      "score": "2-6 2-6"
     }
   ]
 }
