@@ -3,8 +3,21 @@
   "gs_id": "161518",
   "player_name": "Maxim Mrva",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:25:20.073Z",
+  "updated": "2026-03-27T09:30:41.098Z",
   "matches": [
+    {
+      "date": "20250825",
+      "tournament": "Porto 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Bailly",
+      "score": "1-6 2-6"
+    },
     {
       "date": "20250613",
       "tournament": "M15 Oradea",
@@ -43,6 +56,84 @@
       "result": "W",
       "opponent": "D. F. Pop",
       "score": "6-1 7-5"
+    },
+    {
+      "date": "20241002",
+      "tournament": "M15 Trnava 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nicod",
+      "score": "6(2)-7(7) 2-6"
+    },
+    {
+      "date": "20240922",
+      "tournament": "M15 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Karol",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20240921",
+      "tournament": "M15 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Prihodko",
+      "score": "5-7 6-0 6(6)-7(8)"
+    },
+    {
+      "date": "20240920",
+      "tournament": "M15 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Kupcic",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240919",
+      "tournament": "M15 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Siniakov",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240918",
+      "tournament": "M15 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Fajta",
+      "score": "6-2 2-0 ret."
     }
   ]
 }
