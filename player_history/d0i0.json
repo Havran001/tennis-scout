@@ -3,8 +3,34 @@
   "gs_id": "124949",
   "player_name": "Sebastian Dominko",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:53:04.955Z",
+  "updated": "2026-03-27T03:47:29.974Z",
   "matches": [
+    {
+      "date": "20250828",
+      "tournament": "M25 Maribor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Cuenin",
+      "score": "6-4 7(7)-6(2)"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M25 Maribor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Kovac",
+      "score": "2-6 3-6"
+    },
     {
       "date": "20250821",
       "tournament": "M25 Maribor",
@@ -32,30 +58,17 @@
       "score": "3-6 6-1 7(7)-6(3)"
     },
     {
-      "date": "20250710",
-      "tournament": "M15 Litija",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Balshaw",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20250709",
-      "tournament": "M15 Litija",
+      "date": "20240821",
+      "tournament": "ITF M25 Maribor 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Knaff",
-      "score": "6-4 3-6 4-6"
+      "result": "L",
+      "opponent": "P. R. Scomparin",
+      "score": "6(3)-7(7) 7-5 6(6)-7(8)"
     },
     {
       "date": "20240816",
@@ -95,110 +108,6 @@
       "result": "W",
       "opponent": "L. Vuglar",
       "score": "6-3 6-2"
-    },
-    {
-      "date": "20230613",
-      "tournament": "ITF M15 Litija Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Cias",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20220723",
-      "tournament": "M25 Radomlje",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Ovcharenko",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20220722",
-      "tournament": "M25 Radomlje",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. P. Paz",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20220721",
-      "tournament": "M25 Radomlje",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. D&apos;Agostino",
-      "score": "3-6 6(7)-7(9)"
-    },
-    {
-      "date": "20220720",
-      "tournament": "M25 Radomlje",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Crawford",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20220715",
-      "tournament": "M15 Litija",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Ovcharenko",
-      "score": "6(3)-7(7) 3-6"
-    },
-    {
-      "date": "20220714",
-      "tournament": "M15 Litija",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Jovic",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20220713",
-      "tournament": "M15 Litija",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Biljesko",
-      "score": "6-0 6-4"
     }
   ]
 }
