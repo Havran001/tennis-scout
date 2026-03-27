@@ -3,8 +3,21 @@
   "gs_id": "70546",
   "player_name": "Luca Staeheli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:56:58.029Z",
+  "updated": "2026-03-27T08:15:32.065Z",
   "matches": [
+    {
+      "date": "20260225",
+      "tournament": "M15 Villena 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Juan Mano",
+      "score": "6-2 6-4"
+    },
     {
       "date": "20260207",
       "tournament": "M15 Zahra 2",
@@ -123,21 +136,47 @@
       "score": "6-3 3-6 6-1"
     },
     {
-      "date": "20250829",
-      "tournament": "M25 Sion",
+      "date": "20240623",
+      "tournament": "M15 Koszalin 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Hallquist Lithen",
+      "score": "7(7)-6(0) 5-7 0-6"
+    },
+    {
+      "date": "20240622",
+      "tournament": "M15 Koszalin 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Juszczak",
+      "score": "3-6 7-5 4-6"
+    },
+    {
+      "date": "20240621",
+      "tournament": "M15 Koszalin 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Zahraj",
-      "score": "1-6 6-0 1-6"
+      "result": "W",
+      "opponent": "M. Wiskandt",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20250828",
-      "tournament": "M25 Sion",
+      "date": "20240620",
+      "tournament": "M15 Koszalin 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -145,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Bieldiugin",
-      "score": "6-1 6-4"
+      "opponent": "A. Barrena",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20250826",
-      "tournament": "M25 Sion",
+      "date": "20240619",
+      "tournament": "M15 Koszalin 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,8 +197,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Casanova",
-      "score": "6-4 4-6 4-6"
+      "opponent": "D. De Jonge",
+      "score": "0-6 0-2 ret."
     }
   ]
 }
