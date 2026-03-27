@@ -3,24 +3,11 @@
   "gs_id": "247518",
   "player_name": "Hugo Remondy Pagotto Victor",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:55:57.053Z",
+  "updated": "2026-03-27T11:03:54.128Z",
   "matches": [
     {
-      "date": "20260325",
-      "tournament": "M15 Punta del Este 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. De La Fuente",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20260320",
-      "tournament": "M15 Punta del Este",
+      "date": "20250731",
+      "tournament": "M15 Joinville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. I. Gallego",
-      "score": "5-7 6-1 7-5"
+      "opponent": "J. Pereira",
+      "score": "7-5 2-6 6-3"
     },
     {
-      "date": "20260319",
-      "tournament": "M15 Punta del Este",
+      "date": "20250730",
+      "tournament": "M15 Joinville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +28,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Fernandez Badia",
-      "score": "6(5)-7(7) 3-6"
+      "opponent": "B. Braga",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20241030",
-      "tournament": "M25 Lajeado",
+      "date": "20250724",
+      "tournament": "M25 Sao Paulo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Pa. Tsitsipas",
+      "score": "6(5)-7(7) 6-3 4-6"
+    },
+    {
+      "date": "20250723",
+      "tournament": "M25 Sao Paulo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Ribeiro",
+      "score": "6(4)-7(7) 7(8)-6(6) 0-0 ret."
+    },
+    {
+      "date": "20250715",
+      "tournament": "M15 Bucaramanga",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Simonit",
-      "score": "2-6 4-6"
+      "opponent": "E. Ribeiro",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20240703",
-      "tournament": "M15 Belem",
+      "date": "20250708",
+      "tournament": "M25 Villavicencio",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +80,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Tosetto",
-      "score": "6-1 6-0"
+      "opponent": "Pa. Tsitsipas",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20240403",
-      "tournament": "M15 Bragado 2",
+      "date": "20241212",
+      "tournament": "M15 Stellenbosch 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Visker",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20241211",
+      "tournament": "M15 Stellenbosch 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Volpi",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20241204",
+      "tournament": "M15 Stellenbosch",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,21 +119,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Vilicich",
-      "score": "3-6 3-6"
+      "opponent": "K. van Wyk",
+      "score": "6-4 7(7)-6(5)"
     },
     {
-      "date": "20240306",
-      "tournament": "M25 Recife",
+      "date": "20241128",
+      "tournament": "M15 Luanda 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Szajrych",
+      "score": "7(7)-6(5) 6-1"
+    },
+    {
+      "date": "20241127",
+      "tournament": "M15 Luanda 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Vishnick",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20241121",
+      "tournament": "M15 Luanda",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "L. Ratti",
-      "score": "3-6 7(7)-6(3) 6-3"
+      "opponent": "D. Palan",
+      "score": "6-0 7-5"
+    },
+    {
+      "date": "20241120",
+      "tournament": "M15 Luanda",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Raman",
+      "score": "4-6 4-6"
     }
   ]
 }
