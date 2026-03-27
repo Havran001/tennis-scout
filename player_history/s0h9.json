@@ -3,24 +3,76 @@
   "gs_id": "157426",
   "player_name": "James Story",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:48:38.984Z",
+  "updated": "2026-03-27T08:25:17.071Z",
   "matches": [
     {
-      "date": "20251120",
-      "tournament": "M25 Heraklion 2",
+      "date": "20260105",
+      "tournament": "Nottingham 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Masur",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20260104",
+      "tournament": "Nottingham 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Bass",
+      "score": "6(7)-7(9) 4-6"
+    },
+    {
+      "date": "20250802",
+      "tournament": "M15 Dublin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gray",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250801",
+      "tournament": "M15 Dublin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Jansen",
+      "score": "7(8)-6(6) 6-3"
+    },
+    {
+      "date": "20250731",
+      "tournament": "M15 Dublin",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Preda",
-      "score": "3-6 7-5 7-5"
+      "result": "W",
+      "opponent": "A. Elamin",
+      "score": "7(7)-6(2) 6-3"
     },
     {
-      "date": "20251119",
-      "tournament": "M25 Heraklion 2",
+      "date": "20250729",
+      "tournament": "M15 Dublin",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,38 +80,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Spyrou",
+      "opponent": "P. Jordan",
       "score": "6-1 6-4"
     },
     {
-      "date": "20250529",
-      "tournament": "M25 Heraklion",
+      "date": "20250105",
+      "tournament": "Nottingham 3",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Sach",
-      "score": "6-4 1-6 7(9)-6(7)"
+      "opponent": "B. Mott",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20250528",
-      "tournament": "M25 Heraklion",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Zakaria",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20221111",
-      "tournament": "M15 Winston-Salem",
+      "date": "20241017",
+      "tournament": "M25 Edgbaston",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -67,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Michelsen",
-      "score": "7(10)-6(8) 7-5"
+      "opponent": "F. Bondioli",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20221110",
-      "tournament": "M15 Winston-Salem",
+      "date": "20241016",
+      "tournament": "M25 Edgbaston",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Tacchi",
-      "score": "7(7)-6(3) 4-6 6-1"
+      "opponent": "F. Romano",
+      "score": "6-4 2-6 5-7"
     },
     {
-      "date": "20221109",
-      "tournament": "M15 Winston-Salem",
+      "date": "20241015",
+      "tournament": "M25 Edgbaston",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Johns",
-      "score": "6-3 1-6 2-6"
+      "opponent": "D. Masur",
+      "score": "7-5 6-1"
     }
   ]
 }
