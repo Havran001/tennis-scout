@@ -3,11 +3,24 @@
   "gs_id": "6904",
   "player_name": "Enzo Couacaud",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:50:13.932Z",
+  "updated": "2026-03-27T05:52:28.046Z",
   "matches": [
     {
-      "date": "20220505",
-      "tournament": "Mauthausen",
+      "date": "20250113",
+      "tournament": "Nonthaburi 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Svrcina",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230928",
+      "tournament": "Charleston Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Millman",
-      "score": "2-6 6(2)-7(7)"
+      "opponent": "E. Escobedo",
+      "score": "7(8)-6(6) 7-5"
     },
     {
-      "date": "20220503",
-      "tournament": "Mauthausen",
+      "date": "20230925",
+      "tournament": "Charleston Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,60 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Stebe",
-      "score": "6-2 6-1"
+      "opponent": "M. Poljicak",
+      "score": "6-3 4-6 6-3"
     },
     {
-      "date": "20220219",
-      "tournament": "Bengaluru 2",
+      "date": "20230301",
+      "tournament": "Waco",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Kuzmanov",
-      "score": "4-6 7-5 6-3"
+      "opponent": "G. Elias",
+      "score": "6(4)-7(7) 2-6"
     },
     {
-      "date": "20220218",
-      "tournament": "Bengaluru 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Nikles",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20220217",
-      "tournament": "Bengaluru 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Kadhe",
-      "score": "6(7)-7(9) 5-7"
-    },
-    {
-      "date": "20220215",
-      "tournament": "Bengaluru 2",
+      "date": "20230221",
+      "tournament": "Rome US",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. K. Sinha",
-      "score": "1-6 1-6"
+      "result": "L",
+      "opponent": "T. Kodat",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20220926",
+      "tournament": "Charleston",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Svajda",
+      "score": "7(9)-6(7) 7(7)-6(1)"
+    },
+    {
+      "date": "20220719",
+      "tournament": "Indianapolis",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Koepfer",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20220712",
+      "tournament": "Rome US",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "3-6 5-6 ret."
     }
   ]
 }
