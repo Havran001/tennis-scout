@@ -3,8 +3,34 @@
   "gs_id": "138523",
   "player_name": "Yannik Rahman",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:18.990Z",
+  "updated": "2026-03-27T06:08:17.020Z",
   "matches": [
+    {
+      "date": "20230720",
+      "tournament": "ITF M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Roberts",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20230719",
+      "tournament": "ITF M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Benjamin",
+      "score": "5-7 6-3 7(7)-6(3)"
+    },
     {
       "date": "20230523",
       "tournament": "M15 Tabasco",
@@ -95,71 +121,6 @@
       "result": "W",
       "opponent": "O. O&apos;Hoisin",
       "score": "4-6 5-7"
-    },
-    {
-      "date": "20230207",
-      "tournament": "ITF M15 Palm Coast",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Kiger",
-      "score": "3-6 7-5 6-3"
-    },
-    {
-      "date": "20230126",
-      "tournament": "ITF M25 Wesley Chapel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Vale",
-      "score": "6-0 6-4"
-    },
-    {
-      "date": "20230124",
-      "tournament": "ITF M25 Wesley Chapel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Brymer",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20221117",
-      "tournament": "M15 Boca Raton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Baker",
-      "score": "6-4 2-6 3-6"
-    },
-    {
-      "date": "20221116",
-      "tournament": "M15 Boca Raton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Boika",
-      "score": "6-3 6-1"
     }
   ]
 }
