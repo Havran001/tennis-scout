@@ -1,23 +1,10 @@
 {
   "player_id": "b0n9",
-  "gs_id": "242432",
-  "player_name": "Breno Braga",
+  "gs_id": "242433",
+  "player_name": "Victor Braga",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:07:30.037Z",
+  "updated": "2026-03-27T07:12:34.040Z",
   "matches": [
-    {
-      "date": "20241029",
-      "tournament": "M25 Lajeado",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. E. Schiessl",
-      "score": "6-0 6-1"
-    },
     {
       "date": "20240922",
       "tournament": "Antofagasta",
@@ -28,8 +15,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "W. Leite",
-      "score": "6-3 6-2"
+      "opponent": "M. Zormann Da Silva",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240702",
+      "tournament": "M15 Belem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Lima",
+      "score": "5-7 6-3 3-6"
     }
   ]
 }
