@@ -3,11 +3,11 @@
   "gs_id": "271103",
   "player_name": "Marcin Andrzejczak",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:13:24.891Z",
+  "updated": "2026-03-27T06:12:25.016Z",
   "matches": [
     {
-      "date": "20240710",
-      "tournament": "ITF M15 Lodz Men",
+      "date": "20251203",
+      "tournament": "M15 Sharm ElSheikh 20",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Zuk",
-      "score": "6-2 6-2"
+      "opponent": "V. Ursu",
+      "score": "6-3 2-6 6-4"
+    },
+    {
+      "date": "20251014",
+      "tournament": "M25 Kigali 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Raynel",
+      "score": "5-7 6-2 1-6"
+    },
+    {
+      "date": "20251009",
+      "tournament": "M25 Kigali",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Houkes",
+      "score": "2-6 6-3 5-7"
+    },
+    {
+      "date": "20251008",
+      "tournament": "M25 Kigali",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Dubinin",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20250903",
+      "tournament": "M15 Szczawno",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Szajrych",
+      "score": "1-6 6-3 2-6"
     }
   ]
 }
