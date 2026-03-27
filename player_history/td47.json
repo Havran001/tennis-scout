@@ -3,8 +3,34 @@
   "gs_id": "58289",
   "player_name": "Evgenii Tiurnev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:26:57.095Z",
+  "updated": "2026-03-27T12:00:56.244Z",
   "matches": [
+    {
+      "date": "20260324",
+      "tournament": "M15 Maanshan 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Agafonov",
+      "score": "3-0 ret."
+    },
+    {
+      "date": "20260317",
+      "tournament": "M15 Maanshan 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Samrej",
+      "score": "6(6)-7(8) 4-6"
+    },
     {
       "date": "20250608",
       "tournament": "M15 Tsaghkadzor 2",
@@ -136,6 +162,19 @@
       "score": "4-6 4-6"
     },
     {
+      "date": "20250518",
+      "tournament": "Tbilisi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Arutiunian",
+      "score": "2-6 6(6)-7(8)"
+    },
+    {
       "date": "20241127",
       "tournament": "M25 Antalya 6",
       "surface": "Hard",
@@ -238,110 +277,6 @@
       "result": "W",
       "opponent": "M. Shin",
       "score": "7(7)-6(3) 6-3"
-    },
-    {
-      "date": "20240620",
-      "tournament": "ITF M15 Hong Kong 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Cheng",
-      "score": ""
-    },
-    {
-      "date": "20240618",
-      "tournament": "ITF M15 Hong Kong 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. F. Wong",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20240519",
-      "tournament": "M25 Kachreti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Oliel",
-      "score": "6-3 2-6 2-6"
-    },
-    {
-      "date": "20240519",
-      "tournament": "Kachreti",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Pa. Tsitsipas",
-      "score": "7(11)-6(9) 6-4"
-    },
-    {
-      "date": "20240518",
-      "tournament": "M25 Kachreti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Glinka",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20240517",
-      "tournament": "M25 Kachreti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Erel",
-      "score": "6(4)-7(7) 4-6"
-    },
-    {
-      "date": "20240516",
-      "tournament": "M25 Kachreti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Stewart",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20240515",
-      "tournament": "M25 Kachreti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Philippov",
-      "score": "6-1 6-4"
     }
   ]
 }
