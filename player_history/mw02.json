@@ -3,24 +3,89 @@
   "gs_id": "28032",
   "player_name": "Corentin Moutet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:41:30.019Z",
+  "updated": "2026-03-27T07:58:42.048Z",
   "matches": [
     {
-      "date": "20231121",
-      "tournament": "Valencia Challenger Men",
+      "date": "20240330",
+      "tournament": "Naples 3 Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "P. Herbert",
-      "score": "6-3 4-6 1-6"
+      "score": "4-6 6-3 6-1"
     },
     {
-      "date": "20231009",
-      "tournament": "Malaga",
+      "date": "20240329",
+      "tournament": "Naples 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Basilashvili",
+      "score": "1-6 6-3 6(3)-7(7)"
+    },
+    {
+      "date": "20240329",
+      "tournament": "Naples 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Coria",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20240328",
+      "tournament": "Naples 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bourgue",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20231116",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Blockx",
+      "score": "7(8)-6(6) 6-1"
+    },
+    {
+      "date": "20231115",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Gaston",
+      "score": "6-2 4-6 4-6"
+    },
+    {
+      "date": "20231018",
+      "tournament": "Olbia Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,34 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Kuzmanov",
-      "score": "2-6 6-2 6(5)-7(7)"
-    },
-    {
-      "date": "20221020",
-      "tournament": "Napoli",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Kecmanovic",
-      "score": "5-3 ret."
-    },
-    {
-      "date": "20221019",
-      "tournament": "Napoli",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Nardi",
-      "score": "7(9)-6(7) 6(3)-7(7) 2-6"
+      "opponent": "M. Bourgue",
+      "score": "6(4)-7(7) 6-1 1-6"
     }
   ]
 }
