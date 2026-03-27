@@ -3,37 +3,37 @@
   "gs_id": "199548",
   "player_name": "Yua Taka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:12:04.035Z",
+  "updated": "2026-03-27T01:00:43.917Z",
   "matches": [
     {
-      "date": "20250205",
-      "tournament": "M15 Zahra 2",
+      "date": "20260212",
+      "tournament": "M15 Sharm ElSheikh 3",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Forger",
-      "score": "6-4 1-6 1-6"
+      "opponent": "A. Pecci",
+      "score": "6-0 6-2"
     },
     {
-      "date": "20240917",
-      "tournament": "M25 Takasaki",
+      "date": "20260211",
+      "tournament": "M15 Sharm ElSheikh 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Matsuda",
-      "score": "6-4 6-4"
+      "result": "W",
+      "opponent": "E. Ivanisevic",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20230919",
-      "tournament": "ITF M25 Takasaki Men",
+      "date": "20260204",
+      "tournament": "M15 Sharm ElSheikh 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Koizumi",
-      "score": "6-2 4-6 0-6"
+      "opponent": "L. Rossi",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20241219",
+      "tournament": "M15 Doha 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Summers",
+      "score": "6-3 1-0 ret."
+    },
+    {
+      "date": "20241217",
+      "tournament": "M15 Doha 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Oetzbach",
+      "score": "2-6 4-6"
     }
   ]
 }
