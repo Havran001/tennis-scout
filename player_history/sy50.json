@@ -3,50 +3,11 @@
   "gs_id": "142266",
   "player_name": "Adit Sinha",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:43.994Z",
+  "updated": "2026-03-27T06:08:54.019Z",
   "matches": [
     {
-      "date": "20250613",
-      "tournament": "M25 Santo Domingo 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. M. Aguilar J.",
-      "score": "4-6 2-2 ret."
-    },
-    {
-      "date": "20250612",
-      "tournament": "M25 Santo Domingo 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Lilov",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20250610",
-      "tournament": "M25 Santo Domingo 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Hernandez",
-      "score": "5-7 6-3 6-2"
-    },
-    {
-      "date": "20240801",
-      "tournament": "ITF M25 Edwardsville",
+      "date": "20240808",
+      "tournament": "ITF M25 Southaven",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Young",
-      "score": "4-6 4-6"
+      "opponent": "A. Kotzen",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240731",
-      "tournament": "ITF M25 Edwardsville",
+      "date": "20240807",
+      "tournament": "ITF M25 Southaven",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +28,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Ozolins",
-      "score": "6(5)-7(7) 6-1 4-2 ret."
+      "opponent": "N. Godsick",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20240606",
-      "tournament": "ITF M15 San Diego",
+      "date": "20240717",
+      "tournament": "ITF M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Gaal",
+      "score": "4-6 7(8)-6(6) 6-4"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M25 Laval Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Knaff",
-      "score": "6(2)-7(7) 2-6"
+      "opponent": "L. Draxl",
+      "score": "0-6 5-7"
     },
     {
-      "date": "20240604",
-      "tournament": "ITF M15 San Diego",
+      "date": "20240702",
+      "tournament": "ITF M25 Laval Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,60 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Murali",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20231130",
-      "tournament": "M25 Monastir 10",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Gautier",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20231129",
-      "tournament": "M25 Monastir 10",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Philibert",
-      "score": "6(6)-7(8) 3-6"
-    },
-    {
-      "date": "20231117",
-      "tournament": "ITF M15 Boca Raton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Exsted",
-      "score": "6-2 3-0 ret."
-    },
-    {
-      "date": "20230925",
-      "tournament": "Charleston Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Mansouri",
-      "score": "5-7 7(7)-6(1) 6(7)-7(9)"
+      "opponent": "O. O&apos;Hoisin",
+      "score": "4-6 6-4 1-6"
     }
   ]
 }
