@@ -1,1 +1,61 @@
-{"player_id":"j0fd","sack_id":"213168","name":"Patrick Jozwicki","total":0,"matches":[]}
+{
+  "player_id": "j0fd",
+  "gs_id": "280717",
+  "player_name": "Patrick Jozwicki",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T07:08:28.036Z",
+  "matches": [
+    {
+      "date": "20251014",
+      "tournament": "M25 Kigali 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vishal Balsekar",
+      "score": "7(7)-6(5) 7-5"
+    },
+    {
+      "date": "20250828",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Mujakic",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Statzberger",
+      "score": "1-3 ret."
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Vienna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Safwat",
+      "score": "3-6 2-6"
+    }
+  ]
+}
