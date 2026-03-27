@@ -3,11 +3,50 @@
   "gs_id": "7336",
   "player_name": "Alexander Wagner",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:44:22.966Z",
+  "updated": "2026-03-27T06:55:20.026Z",
   "matches": [
     {
-      "date": "20240820",
-      "tournament": "M15 Kottingbrunn",
+      "date": "20250829",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Simundza",
+      "score": "7(7)-6(3) 2-6 0-6"
+    },
+    {
+      "date": "20250828",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Bataljin",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Goldsteiner",
+      "score": "2-6 6-3 6-3"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Vienna Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Trinker",
-      "score": "7(7)-6(5) 4-6 6-4"
+      "opponent": "A. Martin",
+      "score": "3-6 2-6"
     }
   ]
 }
