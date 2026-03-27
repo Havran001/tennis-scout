@@ -3,11 +3,11 @@
   "gs_id": "77149",
   "player_name": "Arvid Nordquist",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:57:29.944Z",
+  "updated": "2026-03-27T02:52:32.955Z",
   "matches": [
     {
-      "date": "20240503",
-      "tournament": "ITF M15 Orange Park",
+      "date": "20230623",
+      "tournament": "ITF M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Denolly",
-      "score": "6(7)-7(9) 0-2 ret."
+      "opponent": "O. Kumar",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20240502",
-      "tournament": "ITF M15 Orange Park",
+      "date": "20230622",
+      "tournament": "ITF M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Bermejo",
-      "score": "4-6 1-6"
+      "opponent": "G. Brymer",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20240501",
-      "tournament": "ITF M15 Orange Park",
+      "date": "20230621",
+      "tournament": "ITF M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,11 +41,24 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Ponwith",
-      "score": "6-3 6-3"
+      "opponent": "C. Smith",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20230607",
+      "date": "20230615",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Hanzlik",
+      "score": "2-6 7-5 5-7"
+    },
+    {
+      "date": "20230614",
       "tournament": "ITF M15 San Diego",
       "surface": "Hard",
       "level": "I",
@@ -53,61 +66,61 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Wallart",
-      "score": "6-4 3-6 4-6"
+      "result": "W",
+      "opponent": "C. Farren",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20230411",
-      "tournament": "ITF M15 Sunrise",
+      "date": "20220728",
+      "tournament": "M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Ponwith",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220727",
+      "tournament": "M25 Edwardsville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. S. Kwiatkowski",
-      "score": "6-0 6-0"
+      "result": "W",
+      "opponent": "C. Williams",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20230315",
-      "tournament": "ITF M25 Anapoima Men",
+      "date": "20220616",
+      "tournament": "M25 Santo Domingo 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Chung",
+      "score": "7(7)-6(4) 6-4"
+    },
+    {
+      "date": "20220615",
+      "tournament": "M25 Santo Domingo 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Mejia",
-      "score": "2-6 7(7)-6(5) 6-1"
-    },
-    {
-      "date": "20220608",
-      "tournament": "M25 Santo Domingo 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bicknell",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20220309",
-      "tournament": "M15 Sharm ElSheikh 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Metreveli",
-      "score": "2-6 6-3 3-6"
+      "result": "W",
+      "opponent": "M. Foster-Estwick",
+      "score": "6-1 6-1"
     }
   ]
 }
