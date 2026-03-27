@@ -1,10 +1,36 @@
 {
   "player_id": "a0jw",
-  "gs_id": "169584",
-  "player_name": "Federico Aguilar Cardozo",
+  "gs_id": "169582",
+  "player_name": "Joaquin Aguilar Cardozo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:27:38.249Z",
+  "updated": "2026-03-27T12:27:40.159Z",
   "matches": [
+    {
+      "date": "20251026",
+      "tournament": "M15 Santiago 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. M. La Serna",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20251025",
+      "tournament": "M15 Santiago 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. De La Fuente",
+      "score": "6-3 6-1"
+    },
     {
       "date": "20251024",
       "tournament": "M15 Santiago 6",
@@ -14,9 +40,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Monzon",
-      "score": "6-4 3-6 6-3"
+      "result": "W",
+      "opponent": "H. Casanova",
+      "score": "7-5 2-6 4-6"
     },
     {
       "date": "20251023",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. A. Nunez",
-      "score": "4-6 6(6)-7(8)"
+      "opponent": "M. Covato",
+      "score": "0-6 3-6"
     },
     {
       "date": "20251022",
@@ -41,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Gonzalez-Galino",
-      "score": "0-6 1-6"
+      "opponent": "M. Spiering",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20251017",
+      "tournament": "M15 Santiago 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Casanova",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20251016",
+      "tournament": "M15 Santiago 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Torrealba",
+      "score": "1-6 5-7"
     },
     {
       "date": "20251015",
@@ -53,9 +105,48 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Villalon",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250921",
+      "tournament": "Buenos Aires 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "H. Casanova",
-      "score": "6-3 2-6 0-6"
+      "opponent": "J. M. La Serna",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250803",
+      "tournament": "M15 Santiago 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. J. Rodriguez",
+      "score": "6-7 6-3 6-2"
+    },
+    {
+      "date": "20250802",
+      "tournament": "M15 Santiago 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Aboian",
+      "score": "6-4 6-4"
     },
     {
       "date": "20250731",
@@ -66,9 +157,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zeitune",
-      "score": "6-0 6-2"
+      "result": "W",
+      "opponent": "R. Valente",
+      "score": "6-3 6-3"
     },
     {
       "date": "20250730",
@@ -80,34 +171,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. De La Pena",
-      "score": "5-7 0-6"
+      "opponent": "D. A. Nunez",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20250723",
+      "date": "20250725",
       "tournament": "M15 Santiago 3",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. I. Justo",
-      "score": "1-6 4-6"
+      "opponent": "L. Ratti",
+      "score": "7(7)-6(5) 5-7 6-2"
     },
     {
-      "date": "20250710",
-      "tournament": "M15 Salta",
+      "date": "20250724",
+      "tournament": "M15 Santiago 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Ribeiro de Almeida",
-      "score": "6-3 2-0 ret."
+      "result": "W",
+      "opponent": "F. Tenti",
+      "score": "0-6 6-3 6-0"
     },
     {
       "date": "20250709",
@@ -118,22 +209,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Rodrigues",
-      "score": "6(15)-7(17) 0-0 ret."
-    },
-    {
-      "date": "20250704",
-      "tournament": "M15 San Salvador de Jujuy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "T. Cigarran",
-      "score": "7(7)-6(1) 6-1"
+      "opponent": "G. Ribeiro de Almeida",
+      "score": "5-7 6(5)-7(7)"
     },
     {
       "date": "20250703",
@@ -144,9 +222,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Dreycopp",
-      "score": "6-2 7-5"
+      "result": "L",
+      "opponent": "L. J. Rodriguez",
+      "score": "6(5)-7(7) 7-5 6-3"
     },
     {
       "date": "20250702",
@@ -158,8 +236,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Monzon",
-      "score": "1-6 6-2 6(2)-7(7)"
+      "opponent": "M. Berta",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M25 Coquimbo 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Reis Da Silva",
+      "score": "6-3 1-6 6-4"
+    },
+    {
+      "date": "20250527",
+      "tournament": "M25 Coquimbo 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Zanellato",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M25 Coquimbo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Boscardin Dias",
+      "score": "6-3 6-3"
     },
     {
       "date": "20250520",
@@ -170,12 +287,38 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Roncadelli",
-      "score": "6-2 6-1"
+      "result": "W",
+      "opponent": "A. O. Alvarado Berrospi",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20250401",
+      "date": "20250404",
+      "tournament": "M25 Chacabuco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. La Serna",
+      "score": "5-7 7(7)-6(2) 6-3"
+    },
+    {
+      "date": "20250403",
+      "tournament": "M25 Chacabuco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Zeitune",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250402",
       "tournament": "M25 Chacabuco",
       "surface": "Hard",
       "level": "I",
@@ -183,9 +326,48 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Simonit",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250313",
+      "tournament": "M25 Asuncion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "F. Roncadelli",
-      "score": "2-6 1-6"
+      "opponent": "S. Rodriguez Taverna",
+      "score": "7(7)-6(4) 1-6 2-6"
+    },
+    {
+      "date": "20250312",
+      "tournament": "M25 Asuncion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. J. Escurra Isnardi",
+      "score": "6(4)-7(7) 6-1 6-2"
+    },
+    {
+      "date": "20250220",
+      "tournament": "ITF M25 Punta del Este 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Rodriguez Taverna",
+      "score": "6-4 6-2"
     },
     {
       "date": "20250219",
@@ -196,9 +378,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Estevez",
-      "score": "6-1 2-6 1-5 ret."
+      "result": "W",
+      "opponent": "V. Basel",
+      "score": "3-6 1-6"
     },
     {
       "date": "20241121",
@@ -210,8 +392,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Estevez",
-      "score": "6-1 6-2"
+      "opponent": "A. Barrena",
+      "score": "6-3 1-6 1-6"
     },
     {
       "date": "20241119",
@@ -223,12 +405,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. A. Falabella",
-      "score": "6-2 7-5"
+      "opponent": "B. Leguizamon",
+      "score": "6-4 7-5"
     },
     {
-      "date": "20240925",
+      "date": "20240926",
       "tournament": "M15 Asuncion 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Boscardin Dias",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240924",
+      "tournament": "M15 Asuncion 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Lehmann",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20240917",
+      "tournament": "M15 Asuncion",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -237,7 +445,7 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "L. Midon",
-      "score": "6-2 6-3"
+      "score": "3-6 2-6"
     }
   ]
 }
