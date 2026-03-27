@@ -3,11 +3,50 @@
   "gs_id": "153284",
   "player_name": "Stefan Menichella",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:57:28.907Z",
+  "updated": "2026-03-27T06:09:38.013Z",
   "matches": [
     {
-      "date": "20240829",
-      "tournament": "M15 Monastir 35",
+      "date": "20251119",
+      "tournament": "M25 Austin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Johns",
+      "score": "6-1 1-6 3-6"
+    },
+    {
+      "date": "20250319",
+      "tournament": "M25 Bakersfield",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Martin",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20231108",
+      "tournament": "ITF M25 Austin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Dlimi",
+      "score": "6-1 7-5"
+    },
+    {
+      "date": "20230713",
+      "tournament": "ITF M15 Lakewood",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Radulov",
-      "score": "6-2 7(8)-6(6)"
+      "opponent": "K. K. Lee",
+      "score": "7(7)-6(4) 6-3"
     },
     {
-      "date": "20240828",
-      "tournament": "M15 Monastir 35",
+      "date": "20230712",
+      "tournament": "ITF M15 Lakewood",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Forcano",
-      "score": "3-6 6-3 4-6"
+      "opponent": "K. Ogura",
+      "score": "6-4 6(3)-7(7) 2-6"
     },
     {
-      "date": "20240320",
-      "tournament": "ITF M25 Calabasas",
+      "date": "20230705",
+      "tournament": "ITF M15 Lakewood",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +80,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Holt",
-      "score": "7-5 6-4"
+      "opponent": "A. Perez",
+      "score": "6(3)-7(7) 6(6)-7(8)"
+    },
+    {
+      "date": "20230125",
+      "tournament": "ITF M25 Wesley Chapel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Cid Subervi",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20220928",
+      "tournament": "M15 Cancun 16",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Doria",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20220818",
+      "tournament": "M15 Memphis",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Bulus",
+      "score": "7(7)-6(5) 5-7 6-4"
+    },
+    {
+      "date": "20220818",
+      "tournament": "M15 Memphis",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Nidunjianzan",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20220608",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Cozbinov",
+      "score": "0-6 0-6"
     }
   ]
 }
