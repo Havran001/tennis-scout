@@ -3,8 +3,47 @@
   "gs_id": "145230",
   "player_name": "Edison Ambarzumjan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:06.021Z",
+  "updated": "2026-03-27T08:23:11.069Z",
   "matches": [
+    {
+      "date": "20260218",
+      "tournament": "M15 Lannion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Raquillet",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20251016",
+      "tournament": "M25 Kigali 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Houkes",
+      "score": "3-6 0-2 ret."
+    },
+    {
+      "date": "20251014",
+      "tournament": "M25 Kigali 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Serazhetdinov",
+      "score": "5-7 3-6"
+    },
     {
       "date": "20251008",
       "tournament": "M25 Kigali",
@@ -19,60 +58,21 @@
       "score": "4-6 6-3 7(7)-6(2)"
     },
     {
-      "date": "20240618",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. I. Torres Fernandez",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20240518",
-      "tournament": "M15 Addis Ababa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Fantini",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20240517",
-      "tournament": "M15 Addis Ababa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Coulibaly",
-      "score": "7(7)-6(5) 6-4"
-    },
-    {
-      "date": "20240516",
-      "tournament": "M15 Addis Ababa",
+      "date": "20240524",
+      "tournament": "M25 Addis Ababa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Ymer",
-      "score": "6-4 6-4"
+      "result": "L",
+      "opponent": "M. Steiner",
+      "score": "7(9)-6(7) 6(6)-7(8) 2-6"
     },
     {
-      "date": "20240515",
-      "tournament": "M15 Addis Ababa",
+      "date": "20240522",
+      "tournament": "M25 Addis Ababa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Trochu",
-      "score": "2-6 4-6"
+      "opponent": "S. Moghimi",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20231128",
+      "tournament": "ITF M15 San Gregorio di Catania Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ingarao",
+      "score": "3-6 2-6"
     }
   ]
 }
