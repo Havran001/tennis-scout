@@ -1,22 +1,35 @@
 {
   "player_id": "pm20",
-  "gs_id": "141952",
-  "player_name": "Yves Bailly Pierre",
+  "gs_id": "83824",
+  "player_name": "Hugo Pierre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:21.020Z",
+  "updated": "2026-03-27T06:57:22.030Z",
   "matches": [
     {
-      "date": "20230719",
-      "tournament": "ITF M15 Uslar Men",
+      "date": "20240719",
+      "tournament": "M15 Nakhon Si Thammarat 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Shimanov",
+      "score": "3-6 6-1 4-6"
+    },
+    {
+      "date": "20240717",
+      "tournament": "M15 Nakhon Si Thammarat 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Yunis",
-      "score": "6-4 3-6 7(7)-6(4)"
+      "result": "W",
+      "opponent": "S. Park",
+      "score": "4-6 1-6"
     }
   ]
 }
