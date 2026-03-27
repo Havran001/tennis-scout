@@ -3,11 +3,11 @@
   "gs_id": "127512",
   "player_name": "Alen Mujakic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:53:01.924Z",
+  "updated": "2026-03-27T04:56:50.986Z",
   "matches": [
     {
-      "date": "20241029",
-      "tournament": "M15 Monastir 44",
+      "date": "20250806",
+      "tournament": "M15 Frankfurt",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Jadoun",
-      "score": "5-7 6-3 6-1"
+      "opponent": "N. Zanellato",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240905",
+      "tournament": "ITF M15 Haren Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Balciunas",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20240905",
+      "tournament": "ITF M15 Haren Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Gentzsch",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240820",
+      "tournament": "ITF M15 Trier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Raynel",
+      "score": "4-6 6-0 6-4"
     }
   ]
 }
