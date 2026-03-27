@@ -1,104 +1,13 @@
 {
   "player_id": "w09x",
-  "gs_id": "39239",
-  "player_name": "Benjamin Winter Lopez",
+  "gs_id": "89871",
+  "player_name": "Noah Lopez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:56:14.034Z",
+  "updated": "2026-03-27T06:57:57.041Z",
   "matches": [
     {
-      "date": "20251121",
-      "tournament": "M15 Alcala de Henares",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Forger",
-      "score": "7(9)-6(7) 6-1"
-    },
-    {
-      "date": "20251120",
-      "tournament": "M15 Alcala de Henares",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Huens",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20251119",
-      "tournament": "M15 Alcala de Henares",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Turriziani Alvarez",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20241121",
-      "tournament": "ITF M15 Alcala de Henares Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Marrero Curbelo",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20241120",
-      "tournament": "ITF M15 Alcala de Henares Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Masjuan Ginel",
-      "score": "6-4 7(7)-6(3)"
-    },
-    {
-      "date": "20240926",
-      "tournament": "M25 Sabadell 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Mager",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20240925",
-      "tournament": "M25 Sabadell 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Ivanov",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20231122",
-      "tournament": "ITF M15 Alcala de Henares Men",
+      "date": "20240827",
+      "tournament": "ITF M25 Sion Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +15,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Vale",
-      "score": "2-6 0-6"
+      "opponent": "T. Ruehl",
+      "score": "4-6 6-2 3-6"
     },
     {
       "date": "20230927",
@@ -119,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Nijboer",
-      "score": "6(5)-7(7) 1-6"
+      "opponent": "T. Gabashvili",
+      "score": "4-6 6-4 6-1"
+    },
+    {
+      "date": "20230831",
+      "tournament": "ITF M25 Sion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Feldbausch",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M25 Sion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Berrut",
+      "score": "4-6 7(7)-6(3) 3-6"
+    },
+    {
+      "date": "20230719",
+      "tournament": "ITF M25 Castelo Branco Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Freire Da Silva",
+      "score": "5-7 4-6"
     }
   ]
 }
