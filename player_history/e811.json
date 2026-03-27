@@ -3,20 +3,72 @@
   "gs_id": "6119",
   "player_name": "Elmar Ejupovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:52:26.005Z",
+  "updated": "2026-03-27T06:55:16.030Z",
   "matches": [
     {
-      "date": "20250601",
-      "tournament": "Tyler",
+      "date": "20240925",
+      "tournament": "M25 Zlatibor",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Erhard",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20240831",
+      "tournament": "ITF M15 Vienna Men",
+      "surface": "Hard",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. N. Tudorica",
-      "score": "6-3 6-4"
+      "opponent": "M. Karol",
+      "score": "4-6 6-3 6-3"
+    },
+    {
+      "date": "20240830",
+      "tournament": "ITF M15 Vienna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Trinker",
+      "score": "6-4 3-6 1-6"
+    },
+    {
+      "date": "20240829",
+      "tournament": "ITF M15 Vienna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Wallin",
+      "score": "6-4 5-7 0-6"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Vienna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Zakaryia",
+      "score": "3-6 6-4 2-6"
     },
     {
       "date": "20240720",
@@ -71,17 +123,43 @@
       "score": "4-6 6-4 1-6"
     },
     {
-      "date": "20230627",
-      "tournament": "Modena Challenger Men",
+      "date": "20231108",
+      "tournament": "ITF M25 Trnava 2 Men",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Nava",
-      "score": "6(5)-7(7) 6-4 6-3"
+      "opponent": "A. Chayka",
+      "score": "6(5)-7(7) 6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20230831",
+      "tournament": "ITF M25 Sion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Brunold",
+      "score": "6-4 6(4)-7(7) 6(6)-7(8)"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M25 Sion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Casanova",
+      "score": "3-6 0-6"
     }
   ]
 }
