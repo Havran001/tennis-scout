@@ -3,21 +3,8 @@
   "gs_id": "151074",
   "player_name": "Niccolo Catini",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:24:17.064Z",
+  "updated": "2026-03-27T09:29:59.096Z",
   "matches": [
-    {
-      "date": "20260322",
-      "tournament": "Naples",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Jorda Sanchis",
-      "score": "1-6 0-2 ret."
-    },
     {
       "date": "20260205",
       "tournament": "M15 Huamantla 2",
@@ -110,21 +97,8 @@
       "score": "4-6 6-2 5-7"
     },
     {
-      "date": "20241104",
-      "tournament": "M15 San Gregorio di Catania",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Piraino",
-      "score": "6-0 2-6 0-4 ret."
-    },
-    {
-      "date": "20240912",
-      "tournament": "M25 Pozzuoli",
+      "date": "20241115",
+      "tournament": "M15 San Gregorio di Catania 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -132,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Wessels",
-      "score": "6-3 6-4"
+      "opponent": "A. Marti Pujolras",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240910",
-      "tournament": "M25 Pozzuoli",
+      "date": "20241113",
+      "tournament": "M15 San Gregorio di Catania 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,21 +119,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Beraldo",
-      "score": "1-6 5-7"
+      "opponent": "A. Motta",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20240827",
-      "tournament": "ITF M15 Forli Men",
+      "date": "20241017",
+      "tournament": "M15 Bol 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Basile",
+      "score": "3-6 6-2 3-6"
+    },
+    {
+      "date": "20241016",
+      "tournament": "M15 Bol 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Rottoli",
-      "score": "2-6 4-6"
+      "result": "W",
+      "opponent": "R. Kis Balazs",
+      "score": "3-6 6-3 1-6"
     },
     {
       "date": "20240805",
@@ -225,110 +212,6 @@
       "result": "W",
       "opponent": "U. M. Giovannini",
       "score": "6-0 6-1"
-    },
-    {
-      "date": "20240220",
-      "tournament": "M25 Hammamet 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Hamza Reguig",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20231129",
-      "tournament": "ITF M15 San Gregorio di Catania Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Romano",
-      "score": "6(12)-7(14) 6-1 3-6"
-    },
-    {
-      "date": "20231128",
-      "tournament": "ITF M15 San Gregorio di Catania Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Caruso",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20230915",
-      "tournament": "ITF M25 Pozzuoli Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Forti",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20230914",
-      "tournament": "ITF M25 Pozzuoli Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Rottoli",
-      "score": "2-6 1-6"
-    },
-    {
-      "date": "20230912",
-      "tournament": "ITF M25 Pozzuoli Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Pampanin",
-      "score": "6-4 2-6 3-6"
-    },
-    {
-      "date": "20230829",
-      "tournament": "ITF M15 Forli Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Tabacco",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20230802",
-      "tournament": "M15 Hyvinkaa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Heinonen",
-      "score": "1-6 2-6"
     }
   ]
 }
