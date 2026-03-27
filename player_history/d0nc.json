@@ -3,11 +3,11 @@
   "gs_id": "267574",
   "player_name": "Daniel Domingos",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:13:22.887Z",
+  "updated": "2026-03-27T02:49:54.952Z",
   "matches": [
     {
-      "date": "20250903",
-      "tournament": "M15 Monastir 33",
+      "date": "20250527",
+      "tournament": "M15 Monastir 21",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Flores",
-      "score": "0-3 ret."
+      "opponent": "F. Peliwo",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20250827",
-      "tournament": "M15 Monastir 32",
+      "date": "20250520",
+      "tournament": "M15 Monastir 20",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Forcano",
-      "score": "3-6 7(7)-6(4) 1-0 ret."
+      "opponent": "A. Elsayed",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20250820",
-      "tournament": "M15 Monastir 31",
+      "date": "20250319",
+      "tournament": "M25 Loule",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Dlimi",
-      "score": "6-2 6-3"
+      "opponent": "R. Peniston",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20250313",
+      "tournament": "M25 Vale do Lobo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bondioli",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20250306",
+      "tournament": "M25 Quinta Do Lago",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Coppejans",
+      "score": "2-6 2-6"
     }
   ]
 }
