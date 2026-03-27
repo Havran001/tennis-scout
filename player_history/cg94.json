@@ -3,8 +3,21 @@
   "gs_id": "6904",
   "player_name": "Enzo Couacaud",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:58:43.072Z",
+  "updated": "2026-03-27T10:57:24.124Z",
   "matches": [
+    {
+      "date": "20250817",
+      "tournament": "Sofia 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Agamenone",
+      "score": "6-4 5-7 6-2"
+    },
     {
       "date": "20250629",
       "tournament": "M25 Brussels",
@@ -71,21 +84,34 @@
       "score": "2-6 0-6"
     },
     {
-      "date": "20250319",
-      "tournament": "Merida",
+      "date": "20250619",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kuzmanov",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20250618",
+      "tournament": "Royan",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Johns",
-      "score": "6-4 5-7 3-6"
+      "result": "W",
+      "opponent": "C. Hemery",
+      "score": "4-6 6(5)-7(7)"
     },
     {
-      "date": "20250318",
-      "tournament": "Merida",
+      "date": "20250616",
+      "tournament": "Royan",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -93,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Feldbausch",
-      "score": "3-6 2-6"
+      "opponent": "G. A. Boitan",
+      "score": "6-3 3-6 4-6"
     },
     {
-      "date": "20240923",
-      "tournament": "Antofagasta",
+      "date": "20241021",
+      "tournament": "Sioux Falls",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -106,21 +132,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. De Jong",
-      "score": "6-1 7-5"
+      "opponent": "B. Holt",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20240319",
-      "tournament": "Asuncion Challenger Men",
+      "date": "20241002",
+      "tournament": "Buenos Aires 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Heide",
+      "score": "6-4 7(7)-6(3)"
+    },
+    {
+      "date": "20240930",
+      "tournament": "Buenos Aires 3",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. J. Rodriguez",
-      "score": "7-5 4-6 6-3"
+      "result": "W",
+      "opponent": "J. I. Londero",
+      "score": "6-4 6-4"
     }
   ]
 }
