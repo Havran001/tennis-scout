@@ -3,11 +3,11 @@
   "gs_id": "75671",
   "player_name": "Antonio Caruso",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:57:05.045Z",
+  "updated": "2026-03-27T08:14:04.063Z",
   "matches": [
     {
-      "date": "20240903",
-      "tournament": "M15 Constanta 2",
+      "date": "20250604",
+      "tournament": "M15 Caltanissetta",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. T. Pieleanu",
-      "score": "1-6 2-6"
+      "opponent": "A. Oetzbach",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20240607",
+      "tournament": "ITF M15 Caltanissetta Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Ferrari",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240606",
+      "tournament": "ITF M15 Caltanissetta Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Juarez",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20240604",
+      "tournament": "ITF M15 Caltanissetta Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Marino",
+      "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20240529",
+      "tournament": "ITF M15 Gyula Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Salazar",
+      "score": "7(8)-6(6) 1-6 4-6"
     },
     {
       "date": "20231128",
@@ -30,32 +82,6 @@
       "result": "L",
       "opponent": "N. Catini",
       "score": "6-4 6-3"
-    },
-    {
-      "date": "20230906",
-      "tournament": "ITF M15 Constanta 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Vanta",
-      "score": "2-6 6-4 2-6"
-    },
-    {
-      "date": "20230830",
-      "tournament": "ITF M15 Bucharest 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Nesterov",
-      "score": "7(7)-6(2) 7-5"
     }
   ]
 }
