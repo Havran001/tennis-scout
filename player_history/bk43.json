@@ -3,11 +3,11 @@
   "gs_id": "1961",
   "player_name": "Enrique Bogo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:40:50.015Z",
+  "updated": "2026-03-27T07:56:03.064Z",
   "matches": [
     {
-      "date": "20240618",
-      "tournament": "ITF M25 Cattolica Men",
+      "date": "20240828",
+      "tournament": "ITF M15 Szczawno Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Oradini",
-      "score": "6-0 7(7)-6(1)"
+      "opponent": "K. Szymkowiak",
+      "score": "7(7)-6(1) 6-1"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pisaric",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20240321",
+      "tournament": "M25 Maceio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Adams",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240320",
+      "tournament": "M25 Maceio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Roveri Sidney",
+      "score": "6-3 4-6 3-6"
+    },
+    {
+      "date": "20230829",
+      "tournament": "ITF M15 Bucharest 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Campana",
+      "score": "6-1 6-2"
     }
   ]
 }
