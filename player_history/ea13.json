@@ -3,7 +3,7 @@
   "gs_id": "32340",
   "player_name": "Moez Echargui",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:50:29.952Z",
+  "updated": "2026-03-27T03:50:41.976Z",
   "matches": [
     {
       "date": "20250106",
@@ -32,8 +32,34 @@
       "score": "4-6 7-5 2-6"
     },
     {
-      "date": "20231009",
-      "tournament": "Malaga",
+      "date": "20231109",
+      "tournament": "Matsuyama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Daniel",
+      "score": "2-6 6-3 2-6"
+    },
+    {
+      "date": "20231107",
+      "tournament": "Matsuyama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Weber",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20221121",
+      "tournament": "Valencia",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -41,38 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
+      "opponent": "J. Barranco Cosano",
+      "score": "3-6 7-5 1-6"
+    },
+    {
+      "date": "20221120",
+      "tournament": "Valencia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
       "opponent": "A. Moro Canas",
-      "score": "7-5 6(4)-7(7) 1-6"
+      "score": "6-3 6-4"
     },
     {
-      "date": "20231008",
-      "tournament": "Malaga",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Turriziani Alvarez",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20230723",
-      "tournament": "Zug Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Sakamoto",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20230713",
-      "tournament": "ITF M25 Padova Men",
+      "date": "20221019",
+      "tournament": "M25 Santa Margherita di Pula 11",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Kivattsev",
-      "score": "6-2 3-6 6(4)-7(7)"
+      "opponent": "L. Sorrentino",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20230712",
-      "tournament": "ITF M25 Padova Men",
+      "date": "20221017",
+      "tournament": "M25 Santa Margherita di Pula 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,73 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Tammaro",
-      "score": "2-6 2-6"
+      "opponent": "D. Minighini",
+      "score": "0-6 3-6"
     },
     {
-      "date": "20230705",
-      "tournament": "Troyes Challenger Men",
+      "date": "20221014",
+      "tournament": "M25 Santa Margherita di Pula 10",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Fonio",
-      "score": "3-6 2-6"
+      "opponent": "T. Stodder",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20230704",
-      "tournament": "Troyes Challenger Men",
+      "date": "20221011",
+      "tournament": "M25 Santa Margherita di Pula 10",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Purtseladze",
-      "score": "6-4 4-6 7(8)-6(6)"
-    },
-    {
-      "date": "20230111",
-      "tournament": "Tigre 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Collarini",
-      "score": "7(8)-6(6) 7(7)-6(3)"
-    },
-    {
-      "date": "20230109",
-      "tournament": "Tigre 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Droguet",
-      "score": "4-6 6-1 6-0"
-    },
-    {
-      "date": "20230103",
-      "tournament": "Tigre",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Casanova",
-      "score": "5-7 1-6"
+      "opponent": "L. Bresciani",
+      "score": "1-6 6-4 6(6)-7(8)"
     }
   ]
 }
