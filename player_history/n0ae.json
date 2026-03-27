@@ -3,24 +3,37 @@
   "gs_id": "40510",
   "player_name": "Brandon Nakashima",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:51:03.998Z",
+  "updated": "2026-03-27T06:56:20.052Z",
   "matches": [
     {
-      "date": "20240127",
-      "tournament": "Ottignies-Louvain-la-Neuve",
+      "date": "20231119",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Marterer",
+      "score": "2-6 6-4 6-3"
+    },
+    {
+      "date": "20231118",
+      "tournament": "Danderyd",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Riedi",
-      "score": "2-6 4-6"
+      "result": "W",
+      "opponent": "A. Blockx",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20240126",
-      "tournament": "Ottignies-Louvain-la-Neuve",
+      "date": "20231117",
+      "tournament": "Danderyd",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Choinski",
-      "score": "6-1 6(5)-7(7) 7-5"
+      "opponent": "D. Goffin",
+      "score": "2-6 6(2)-7(7)"
     },
     {
-      "date": "20240125",
-      "tournament": "Ottignies-Louvain-la-Neuve",
+      "date": "20231116",
+      "tournament": "Danderyd",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Collignon",
-      "score": "6-3 6-2"
+      "opponent": "D. Yevseyev",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20240124",
-      "tournament": "Ottignies-Louvain-la-Neuve",
+      "date": "20231114",
+      "tournament": "Danderyd",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Hassan",
-      "score": "6-3 6-4"
+      "opponent": "J. Choinski",
+      "score": "4-6 2-6"
     }
   ]
 }
