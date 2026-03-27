@@ -3,20 +3,33 @@
   "gs_id": "153176",
   "player_name": "Thomas Kostka",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:18:00.812Z",
+  "updated": "2026-03-27T07:10:57.036Z",
   "matches": [
     {
-      "date": "20231018",
-      "tournament": "ITF M15 Heraklion 3 Men",
+      "date": "20251127",
+      "tournament": "M25 Heraklion 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Chopra",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20251126",
+      "tournament": "M25 Heraklion 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Pietri",
-      "score": "3-6 2-6"
+      "result": "W",
+      "opponent": "G. Ciocca",
+      "score": "2-6 1-6"
     }
   ]
 }
