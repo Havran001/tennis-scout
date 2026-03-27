@@ -1,13 +1,13 @@
 {
   "player_id": "l0cu",
-  "gs_id": "133501",
-  "player_name": "Felipe Miguel Luis",
+  "gs_id": "138527",
+  "player_name": "Carlos Alvarez Valdes Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:16:25.169Z",
+  "updated": "2026-03-27T12:17:10.159Z",
   "matches": [
     {
-      "date": "20251104",
-      "tournament": "M15 Orlando",
+      "date": "20251022",
+      "tournament": "M25 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,21 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Corwin",
-      "score": "6(3)-7(7) 3-6"
+      "opponent": "A. Harazaki",
+      "score": "7(7)-6(1) 6-3"
     },
     {
-      "date": "20250803",
-      "tournament": "M15 Joinville",
+      "date": "20250812",
+      "tournament": "Cancun 2",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Gimenez",
-      "score": "6-3 7-5"
+      "opponent": "A. Galarneau",
+      "score": "7(7)-6(5) 6(4)-7(7) 0-6"
+    },
+    {
+      "date": "20250811",
+      "tournament": "Cancun 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Frantzen",
+      "score": "2-6 2-6"
     },
     {
       "date": "20250802",
@@ -40,9 +53,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. C. Alvarez Valdes",
-      "score": "7(9)-6(7) 6-4"
+      "result": "L",
+      "opponent": "L. F. Miguel",
+      "score": "6(7)-7(9) 4-6"
     },
     {
       "date": "20250801",
@@ -54,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Fernandez",
-      "score": "7-5 6-3"
+      "opponent": "G. Ribeiro de Almeida",
+      "score": "6-3 7-5"
     },
     {
       "date": "20250731",
@@ -67,11 +80,11 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Rodrigues",
-      "score": "6-1 7(10)-6(8)"
+      "opponent": "R. Augusto dos Santos",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20250730",
+      "date": "20250729",
       "tournament": "M15 Joinville",
       "surface": "Hard",
       "level": "I",
@@ -80,8 +93,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. E. Schiessl",
-      "score": "2-6 0-0 ret."
+      "opponent": "T. Meneo",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20241127",
+      "tournament": "Manzanillo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Draxl",
+      "score": "7(8)-6(6) 5-7 6-1"
+    },
+    {
+      "date": "20241024",
+      "tournament": "M25 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Dostanic",
+      "score": "2-6 6-1 1-6"
+    },
+    {
+      "date": "20241023",
+      "tournament": "M25 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Baadi",
+      "score": "1-6 3-6"
     }
   ]
 }
