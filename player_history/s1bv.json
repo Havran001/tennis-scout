@@ -3,11 +3,37 @@
   "gs_id": "289008",
   "player_name": "Billy Suarez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:50:53.982Z",
+  "updated": "2026-03-27T09:33:26.092Z",
   "matches": [
     {
-      "date": "20260319",
-      "tournament": "M25 Bakersfield",
+      "date": "20250729",
+      "tournament": "M15 Dublin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Robertson",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250715",
+      "tournament": "M15 Hillcrest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Volpi",
+      "score": "5-4 ret."
+    },
+    {
+      "date": "20250710",
+      "tournament": "M15 Hillcrest",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,51 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Pieczkowski",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20260317",
-      "tournament": "M25 Bakersfield",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Petrovic",
+      "opponent": "F. Peliwo",
       "score": "6-4 6-3"
     },
     {
-      "date": "20260204",
-      "tournament": "M15 Sharm ElSheikh 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Makk",
-      "score": "6-3 7-5"
-    },
-    {
-      "date": "20260129",
-      "tournament": "M15 Sharm ElSheikh",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Kivattsev",
-      "score": "4-6 6-1 6-0"
-    },
-    {
-      "date": "20260128",
-      "tournament": "M15 Sharm ElSheikh",
+      "date": "20250708",
+      "tournament": "M15 Hillcrest",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Eerola",
-      "score": "7-5 6-2"
+      "opponent": "A. Aleshchev",
+      "score": "1-6 6-3 4-6"
     },
     {
-      "date": "20251009",
-      "tournament": "M25 Rio de Janeiro",
+      "date": "20250702",
+      "tournament": "M25 Hillcrest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20250115",
+      "tournament": "M15 Kingston 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Garcia",
+      "score": "7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20250109",
+      "tournament": "M15 Kingston",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Gimenez",
-      "score": "6-1 4-3 ret."
+      "opponent": "S. Gima",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20251006",
-      "tournament": "M25 Rio de Janeiro",
+      "date": "20250108",
+      "tournament": "M15 Kingston",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +106,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. E. Lino",
-      "score": "6-2 6(5)-7(7) 6-4"
+      "opponent": "D. Tremblay",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20250604",
-      "tournament": "M25 Santo Domingo 3",
+      "date": "20241129",
+      "tournament": "M15 Santo Domingo 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. M. Aguilar J.",
+      "score": "4-6 7(7)-6(1) 12-10"
+    },
+    {
+      "date": "20241128",
+      "tournament": "M15 Santo Domingo 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. L. Chan Baratau",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20241113",
+      "tournament": "M15 Guatemala 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Ganesan",
-      "score": "6-4 4-6 7-5"
+      "opponent": "R. Rodriguez",
+      "score": "7(7)-6(3) 5-7 6-4"
     }
   ]
 }
