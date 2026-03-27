@@ -3,11 +3,11 @@
   "gs_id": "136384",
   "player_name": "Daniele Minighini",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:53:29.961Z",
+  "updated": "2026-03-27T07:10:24.034Z",
   "matches": [
     {
-      "date": "20240709",
-      "tournament": "ITF M15 Litija Men",
+      "date": "20250513",
+      "tournament": "M25 Reggio Emilia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Hjorth",
-      "score": "6(2)-7(7) 0-6"
+      "opponent": "T. Compagnucci",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20230719",
-      "tournament": "ITF M15 Gubbio Men",
+      "date": "20240617",
+      "tournament": "ITF M25 Cattolica Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Blockx",
-      "score": "7(7)-6(4) 6-2"
+      "opponent": "T. Handel",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20220719",
-      "tournament": "M15 Gubbio",
+      "date": "20240430",
+      "tournament": "ITF M25 Santa Margherita di Pula 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. La Vela",
-      "score": "6-1 6-4"
+      "opponent": "F. Iannaccone",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20220711",
-      "tournament": "M15 Aprilia",
+      "date": "20231128",
+      "tournament": "ITF M15 San Gregorio di Catania Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Vilardo",
-      "score": "6-2 6-3"
+      "opponent": "D. Bagnolini",
+      "score": "6-2 6(4)-7(7) 6-2"
+    },
+    {
+      "date": "20230530",
+      "tournament": "M25 Rome",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Chepelev",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20221017",
+      "tournament": "M25 Santa Margherita di Pula 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Echargui",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20221003",
+      "tournament": "M25 Santa Margherita di Pula 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Parizzia",
+      "score": "6-3 6-4"
     }
   ]
 }
