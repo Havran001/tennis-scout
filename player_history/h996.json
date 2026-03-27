@@ -3,37 +3,11 @@
   "gs_id": "2060",
   "player_name": "Pierre-Hugues Herbert",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:57:08.900Z",
+  "updated": "2026-03-27T00:55:58.926Z",
   "matches": [
     {
-      "date": "20250916",
-      "tournament": "St. Tropez",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Kukushkin",
-      "score": "5-7 7(7)-6(4) 7-5"
-    },
-    {
-      "date": "20240919",
-      "tournament": "St. Tropez",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bonzi",
-      "score": "7(7)-6(4) 7(7)-6(5)"
-    },
-    {
-      "date": "20230804",
-      "tournament": "Porto Challenger Men",
+      "date": "20241011",
+      "tournament": "Roanne",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -41,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Sousa",
-      "score": "7(7)-6(4) 6-2"
+      "opponent": "B. Bonzi",
+      "score": "7(13)-6(11) 4-6 4-6"
     },
     {
-      "date": "20230803",
-      "tournament": "Porto Challenger Men",
+      "date": "20241010",
+      "tournament": "Roanne",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Faria",
-      "score": "7(7)-6(1) 4-6 4-6"
+      "opponent": "V. Royer",
+      "score": "4-6 6(3)-7(7)"
     },
     {
-      "date": "20230801",
-      "tournament": "Porto Challenger Men",
+      "date": "20241009",
+      "tournament": "Roanne",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Lokoli",
-      "score": "6-4 6-4"
+      "opponent": "J. Sels",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220322",
+      "tournament": "Biel",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Gojo",
+      "score": "6(0)-7(7) 6-3 6-3"
     }
   ]
 }
