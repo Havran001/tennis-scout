@@ -3,11 +3,11 @@
   "gs_id": "4205",
   "player_name": "Maximilian Marterer",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:47:46.936Z",
+  "updated": "2026-03-27T03:44:12.971Z",
   "matches": [
     {
-      "date": "20240515",
-      "tournament": "Turin 2 Challenger Men",
+      "date": "20231010",
+      "tournament": "Malaga",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Hanfmann",
-      "score": "4-6 1-0 ret."
+      "opponent": "M. Janvier",
+      "score": "2-6 6-3 3-6"
     },
     {
-      "date": "20220602",
-      "tournament": "Forli 6",
+      "date": "20220815",
+      "tournament": "Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Mayot",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20220728",
+      "tournament": "Zug",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Musetti",
-      "score": "6-3 5-7 2-6"
+      "opponent": "D. Novak",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20220530",
-      "tournament": "Forli 6",
+      "date": "20220726",
+      "tournament": "Zug",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,47 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Lestienne",
-      "score": "3-6 5-7"
-    },
-    {
-      "date": "20220301",
-      "tournament": "Turin 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Peniston",
-      "score": "7(10)-6(8) 7-5"
-    },
-    {
-      "date": "20220216",
-      "tournament": "Forli 4",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Watanuki",
-      "score": "5-7 6-2 6-3"
-    },
-    {
-      "date": "20220214",
-      "tournament": "Forli 4",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Serdarusic",
-      "score": "6(5)-7(7) 6-4 7(7)-6(2)"
+      "opponent": "V. Durasovic",
+      "score": "7(7)-6(5) 6-4"
     }
   ]
 }
