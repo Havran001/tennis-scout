@@ -3,11 +3,11 @@
   "gs_id": "208888",
   "player_name": "Daniel Uta",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:06:44.034Z",
+  "updated": "2026-03-27T09:32:14.096Z",
   "matches": [
     {
-      "date": "20251119",
-      "tournament": "M25 Antalya 5",
+      "date": "20251028",
+      "tournament": "M15 Bol 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,38 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Chepelev",
-      "score": "1-6 7-5 7(8)-6(6)"
+      "opponent": "M. Chazal",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20250820",
-      "tournament": "M15 Arad",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Cretu",
-      "score": "5-7 3-6"
-    },
-    {
-      "date": "20250514",
-      "tournament": "M15 Bucharest 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. D. Turcanu",
-      "score": "6-3 1-6 2-6"
-    },
-    {
-      "date": "20240821",
-      "tournament": "ITF M15 Arad Men",
+      "date": "20251023",
+      "tournament": "M15 Bol",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Bilardo",
-      "score": "6-1 6-2"
+      "opponent": "M. Basic",
+      "score": "5-7 0-6"
     },
     {
-      "date": "20240820",
-      "tournament": "ITF M15 Arad Men",
+      "date": "20251022",
+      "tournament": "M15 Bol",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Volpi",
-      "score": "2-6 7(7)-6(4) 7-5"
+      "opponent": "P. R. Scomparin",
+      "score": "3-6 6-3 4-6"
     },
     {
-      "date": "20240529",
-      "tournament": "M15 Constanta",
+      "date": "20250901",
+      "tournament": "M15 Buzau",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. A. Dancu",
-      "score": "6-0 2-6 6-2"
+      "opponent": "V. Vanta",
+      "score": "6(4)-7(7) 6-3 4-6"
     },
     {
-      "date": "20240514",
-      "tournament": "ITF M15 Bucharest 2 Men",
+      "date": "20250827",
+      "tournament": "M15 Bucharest 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +67,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Dedura-Palomero",
-      "score": "6-3 6-1"
+      "opponent": "R. Giotis",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M15 Bucharest 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Palosi",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20240917",
+      "tournament": "M25 Satu Mare 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bartakovics",
+      "score": "6-4 7(7)-6(3)"
+    },
+    {
+      "date": "20240828",
+      "tournament": "M15 Bucharest 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Cigarran",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20240626",
+      "tournament": "ITF M25 Satu Mare Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Vanshelboim",
+      "score": "6-0 6-0"
+    },
+    {
+      "date": "20240624",
+      "tournament": "ITF M25 Satu Mare Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. C. Spiridon",
+      "score": "0-6 0-0 ret."
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M15 Oradea Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240612",
+      "tournament": "ITF M15 Oradea Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Teszari",
+      "score": "6-4 6-1"
     }
   ]
 }
