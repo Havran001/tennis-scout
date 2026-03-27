@@ -3,11 +3,37 @@
   "gs_id": "41548",
   "player_name": "Mason Naumovski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:59:46.144Z",
+  "updated": "2026-03-27T08:07:25.072Z",
   "matches": [
     {
-      "date": "20230531",
-      "tournament": "M25 Jakarta 4",
+      "date": "20240425",
+      "tournament": "ITF M15 Sanxenxo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Barreto Sanchez",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20240424",
+      "tournament": "ITF M15 Sanxenxo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Dominguez Alvarez",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20240417",
+      "tournament": "M15 Azay-le-Rideau",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Mehrotra",
-      "score": "6-4 6-4"
+      "opponent": "L. Lagarrigue",
+      "score": "1-6 6-3 6-2"
+    },
+    {
+      "date": "20240204",
+      "tournament": "Burnie 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Braithwaite",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20231130",
+      "tournament": "M25 Gold Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Chappell",
+      "score": "4-6 6(8)-7(10)"
+    },
+    {
+      "date": "20231129",
+      "tournament": "M25 Gold Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. E. Papac",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20231122",
+      "tournament": "ITF M25 Brisbane Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Chappell",
+      "score": "6-3 6-3"
     }
   ]
 }
