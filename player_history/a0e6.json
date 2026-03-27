@@ -3,11 +3,11 @@
   "gs_id": "58498",
   "player_name": "Bekkhan Atlangeriev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:00:56.304Z",
+  "updated": "2026-03-27T08:14:18.071Z",
   "matches": [
     {
-      "date": "20230613",
-      "tournament": "M25 Risskov/Aarhus",
+      "date": "20250916",
+      "tournament": "M25 Takasaki",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Borg",
-      "score": "6-2 6-3"
+      "opponent": "T. Kumasaka",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250904",
+      "tournament": "M15 Hong Kong 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "X. D. Chen",
+      "score": "6-3 3-6 1-4 ret."
+    },
+    {
+      "date": "20250903",
+      "tournament": "M15 Hong Kong 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Yam",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240704",
+      "tournament": "M15 Ust-Kamenogorsk 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Borisiouk",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20240703",
+      "tournament": "M15 Ust-Kamenogorsk 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Chepik",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20231018",
+      "tournament": "M25 Telavi 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Denisov",
+      "score": "3-6 3-6"
     }
   ]
 }
