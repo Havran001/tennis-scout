@@ -1,26 +1,78 @@
 {
   "player_id": "d0fn",
-  "gs_id": "65424",
-  "player_name": "Ju Kim Dong",
+  "gs_id": "41610",
+  "player_name": "Chen Dong",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:27:04.106Z",
+  "updated": "2026-03-27T10:15:24.113Z",
   "matches": [
     {
-      "date": "20251024",
-      "tournament": "M15 Tanagura",
+      "date": "20251021",
+      "tournament": "M25 Brisbane",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Ja. Delaney",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M15 Luan 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Fukuda",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20250513",
+      "tournament": "M15 Luan 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Tang",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20241221",
+      "tournament": "M15 Bali 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Tokuda",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20241220",
+      "tournament": "M15 Bali 3",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Shick",
-      "score": "1-6 3-6"
+      "result": "W",
+      "opponent": "S. Sakellaridis",
+      "score": "4-6 7-5 6-2"
     },
     {
-      "date": "20251023",
-      "tournament": "M15 Tanagura",
+      "date": "20241219",
+      "tournament": "M15 Bali 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Karigyo",
-      "score": "1-6 4-6"
+      "opponent": "M. Hurrion",
+      "score": "7(7)-6(2) 7(10)-6(8)"
     },
     {
-      "date": "20251021",
-      "tournament": "M15 Tanagura",
+      "date": "20241218",
+      "tournament": "M15 Bali 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Ichikawa",
-      "score": "6-1 2-6 6-1"
+      "opponent": "R. Te",
+      "score": "3-2 ret."
     }
   ]
 }
