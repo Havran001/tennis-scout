@@ -3,11 +3,37 @@
   "gs_id": "165891",
   "player_name": "Tadija Radovanovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:10:29.022Z",
+  "updated": "2026-03-27T07:04:01.718Z",
   "matches": [
     {
-      "date": "20230517",
-      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
+      "date": "20250925",
+      "tournament": "M25 Zlatibor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Maksimovic",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250924",
+      "tournament": "M25 Zlatibor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Basic",
+      "score": "1-2 ret."
+    },
+    {
+      "date": "20230920",
+      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Zekic",
-      "score": "1-6 1-6"
+      "opponent": "S. Popovic",
+      "score": "6-4 6-2"
     }
   ]
 }
