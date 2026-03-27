@@ -3,11 +3,24 @@
   "gs_id": "142304",
   "player_name": "Bora Sengul",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:56:27.936Z",
+  "updated": "2026-03-27T06:08:57.010Z",
   "matches": [
     {
-      "date": "20260212",
-      "tournament": "M25 Antalya 4",
+      "date": "20250514",
+      "tournament": "M15 Tehran 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Perez",
+      "score": "6-0 6-0"
+    },
+    {
+      "date": "20250508",
+      "tournament": "M15 Tehran",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Martin",
-      "score": "7(7)-6(4) 6-3"
+      "opponent": "P. Dev S D",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20260211",
-      "tournament": "M25 Antalya 4",
+      "date": "20250507",
+      "tournament": "M15 Tehran",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Aytekin",
-      "score": "0-6 2-6"
+      "opponent": "Y. Makzoume",
+      "score": "6-4 5-7 3-6"
+    },
+    {
+      "date": "20230523",
+      "tournament": "M25 Bodrum",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Sakamoto",
+      "score": "4-6 5-7"
     }
   ]
 }
