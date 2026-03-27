@@ -3,11 +3,11 @@
   "gs_id": "120371",
   "player_name": "Zsombor Velcz",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:07:26.014Z",
+  "updated": "2026-03-27T08:18:56.924Z",
   "matches": [
     {
-      "date": "20250612",
-      "tournament": "M15 Nyiregyhaza",
+      "date": "20250619",
+      "tournament": "M15 Nyiregyhaza 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Kellovsky",
-      "score": "6-4 6-2"
+      "opponent": "M. Valkusz",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20250611",
-      "tournament": "M15 Nyiregyhaza",
+      "date": "20250618",
+      "tournament": "M15 Nyiregyhaza 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,64 +28,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Giotis",
-      "score": "7-5 4-6 6-1"
+      "opponent": "P. Fajta",
+      "score": "7(7)-6(2) 1-0 ret."
     },
     {
-      "date": "20240613",
-      "tournament": "ITF M15 Nyiregyhaza Men",
+      "date": "20250530",
+      "tournament": "M15 Gyula",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Valkusz",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M15 Gyula",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Makk",
-      "score": "7(9)-6(7) 6-1"
+      "result": "W",
+      "opponent": "G. Madarasz",
+      "score": "2-6 6-2 7(7)-6(3)"
     },
     {
-      "date": "20240522",
-      "tournament": "ITF M15 Kursumlijska Banja 5 Men",
+      "date": "20240620",
+      "tournament": "ITF M15 Nyiregyháza 2 Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Sharipov",
+      "opponent": "A. Boros",
       "score": "4-6 1-6"
     },
     {
-      "date": "20230623",
-      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Nedic",
-      "score": "6-3 2-6 6-3"
-    },
-    {
-      "date": "20230622",
-      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Barton",
-      "score": "6-2 6(8)-7(10) 1-6"
-    },
-    {
-      "date": "20230621",
-      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "date": "20240618",
+      "tournament": "ITF M15 Nyiregyháza 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,38 +80,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Schoen",
-      "score": "4-6 1-6"
+      "opponent": "L. A. Falabella",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20230609",
-      "tournament": "ITF M15 Nyiregyhaza Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Paroulek",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20230608",
-      "tournament": "ITF M15 Nyiregyhaza Men",
+      "date": "20240530",
+      "tournament": "ITF M15 Gyula Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Barnat",
-      "score": "6-3 6(10)-7(12) 5-7"
+      "result": "L",
+      "opponent": "K. Filar",
+      "score": "5-7 6-1 7(7)-6(4)"
     },
     {
-      "date": "20230607",
-      "tournament": "ITF M15 Nyiregyhaza Men",
+      "date": "20240529",
+      "tournament": "ITF M15 Gyula Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Mashtakov",
-      "score": "6-3 3-6 0-6"
+      "opponent": "V. Perruzza",
+      "score": "4-6 4-6"
     }
   ]
 }
