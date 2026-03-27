@@ -3,37 +3,11 @@
   "gs_id": "74215",
   "player_name": "Lorenzo Rottoli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:42:58.009Z",
+  "updated": "2026-03-27T07:09:15.101Z",
   "matches": [
     {
-      "date": "20250619",
-      "tournament": "M25 Cattolica",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Mazza",
-      "score": "7(7)-6(4) 6-2"
-    },
-    {
-      "date": "20250618",
-      "tournament": "M25 Cattolica",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Meduri",
-      "score": "6-1 0-6 7-5"
-    },
-    {
-      "date": "20240517",
-      "tournament": "ITF M25 Reggio Emilia Men",
+      "date": "20240913",
+      "tournament": "M25 Pozzuoli",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Fonio",
-      "score": "6-4 6-3"
+      "opponent": "F. Peliwo",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240516",
-      "tournament": "ITF M25 Reggio Emilia Men",
+      "date": "20240912",
+      "tournament": "M25 Pozzuoli",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Kodat",
-      "score": "3-6 4-6"
+      "opponent": "A. de Marchi",
+      "score": "3-6 6-3 6(8)-7(10)"
     },
     {
-      "date": "20240513",
-      "tournament": "ITF M25 Reggio Emilia Men",
+      "date": "20240910",
+      "tournament": "M25 Pozzuoli",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,34 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Potenza",
-      "score": "6-3 2-6 7(7)-6(4)"
+      "opponent": "P. Buldorini",
+      "score": "5-7 6-4 6(6)-7(8)"
     },
     {
-      "date": "20230625",
-      "tournament": "Modena Challenger Men",
+      "date": "20240830",
+      "tournament": "ITF M15 Forli Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Marie",
-      "score": "5-7 3-6"
+      "opponent": "C. A. Caniato",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20230517",
-      "tournament": "ITF M25 Reggio Emilia Men",
+      "date": "20240829",
+      "tournament": "ITF M15 Forli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Cattaneo",
+      "score": "2-6 6-4 6-3"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Forli Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Catini",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230914",
+      "tournament": "ITF M25 Pozzuoli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "K. Edmund",
-      "score": "6-0 7(9)-6(7)"
+      "opponent": "N. Catini",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20230912",
+      "tournament": "ITF M25 Pozzuoli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gola",
+      "score": "7(7)-6(0) 6(5)-7(7) 7-5"
     }
   ]
 }
