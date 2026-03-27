@@ -3,24 +3,89 @@
   "gs_id": "59051",
   "player_name": "Rafael Giotis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:51:42.922Z",
+  "updated": "2026-03-27T04:46:15.981Z",
   "matches": [
     {
-      "date": "20240125",
-      "tournament": "ITF M15 Manacor 3 Men",
+      "date": "20260218",
+      "tournament": "M25 Vila Real de Santo António 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Rocha",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20251119",
+      "tournament": "M25 Antalya 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Andreescu",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20221102",
+      "tournament": "M15 Al Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Erel",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20221026",
+      "tournament": "M15 Al Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Qabazard",
+      "score": "6-0 2-6 4-6"
+    },
+    {
+      "date": "20220902",
+      "tournament": "M15 Haren",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Deckers",
+      "score": "1-6 0-3 ret."
+    },
+    {
+      "date": "20220901",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Nijboer",
-      "score": "7-5 6-1"
+      "result": "W",
+      "opponent": "J. P. Hartenstein",
+      "score": "6-3 3-6 7-5"
     },
     {
-      "date": "20240124",
-      "tournament": "ITF M15 Manacor 3 Men",
+      "date": "20220831",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Juan Mano",
-      "score": "7(7)-6(5) 2-6 7(8)-6(6)"
+      "opponent": "Y. Sabanin",
+      "score": "4-6 6(3)-7(7)"
     }
   ]
 }
