@@ -3,11 +3,11 @@
   "gs_id": "138358",
   "player_name": "Giammarco Gandolfi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:10:25.038Z",
+  "updated": "2026-03-27T02:53:34.960Z",
   "matches": [
     {
-      "date": "20251022",
-      "tournament": "M25 Santa Margherita di Pula 12",
+      "date": "20230711",
+      "tournament": "ITF M25 Padova Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Krumich",
-      "score": "6-0 6-2"
+      "opponent": "F. Tabacco",
+      "score": "3-6 0-6"
     },
     {
-      "date": "20250911",
-      "tournament": "M25 Pozzuoli",
+      "date": "20230616",
+      "tournament": "ITF M15 Chieti Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. McHugh",
-      "score": "6-3 6-4"
+      "opponent": "T. Compagnucci",
+      "score": "6-0 6-1"
     },
     {
-      "date": "20250909",
-      "tournament": "M25 Pozzuoli",
+      "date": "20230613",
+      "tournament": "ITF M15 Chieti Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,25 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Taddia",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20230830",
-      "tournament": "ITF M15 Kursumlijska Banja 7 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Mujakic",
+      "opponent": "B. Massacri",
       "score": "6-4 6-1"
     },
     {
-      "date": "20230620",
-      "tournament": "ITF M25 Cattolica Men",
+      "date": "20220906",
+      "tournament": "M15 Salerno",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Serafini",
-      "score": "4-6 3-6"
+      "opponent": "L. Fantini",
+      "score": "6-1 2-6 6-4"
     },
     {
-      "date": "20230530",
-      "tournament": "M25 Rome",
+      "date": "20220824",
+      "tournament": "M15 Lambermont",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +67,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Crawford",
-      "score": "0-6 3-6"
+      "opponent": "M. Zielinski",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20220818",
+      "tournament": "M15 Eindhoven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Otegui",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20220816",
+      "tournament": "M15 Eindhoven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Verbeek",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20220712",
+      "tournament": "M15 Aprilia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Wendelken",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20220615",
+      "tournament": "M15 Chieti",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Roncalli",
+      "score": "6(6)-7(8) 2-6"
     }
   ]
 }
