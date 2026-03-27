@@ -1,26 +1,39 @@
 {
   "player_id": "n707",
-  "gs_id": "2606",
-  "player_name": "Naoki Nakagawa",
+  "gs_id": "164994",
+  "player_name": "Shunsuke Nakagawa",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:44:10.996Z",
+  "updated": "2026-03-27T04:48:54.983Z",
   "matches": [
     {
-      "date": "20231107",
-      "tournament": "Matsuyama Challenger Men",
+      "date": "20251106",
+      "tournament": "Matsuyama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Peniston",
+      "score": "6-2 6(1)-7(7) 6-3"
+    },
+    {
+      "date": "20251104",
+      "tournament": "Matsuyama",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Mochizuki",
-      "score": "6-2 6-2"
+      "result": "W",
+      "opponent": "S. Shin",
+      "score": "6-2 5-7 3-6"
     },
     {
-      "date": "20231106",
-      "tournament": "Matsuyama Challenger Men",
+      "date": "20251103",
+      "tournament": "Matsuyama",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Takahashi",
-      "score": "6-3 6-2"
+      "opponent": "Y. Kikuchi",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20231105",
-      "tournament": "Matsuyama Challenger Men",
+      "date": "20251102",
+      "tournament": "Matsuyama",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,38 +54,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Oki",
-      "score": "6-4 6-2"
+      "opponent": "Y. Kawahashi",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20230211",
-      "tournament": "ITF M25 Burnie Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bolt",
-      "score": "6-4 6(4)-7(7) 6(5)-7(7)"
-    },
-    {
-      "date": "20230210",
-      "tournament": "ITF M25 Burnie Men",
+      "date": "20250912",
+      "tournament": "M25 Sapporo 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Walton",
-      "score": "6(6)-7(8) 3-6"
+      "result": "L",
+      "opponent": "K. Uchida",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20230209",
-      "tournament": "ITF M25 Burnie Men",
+      "date": "20250911",
+      "tournament": "M25 Sapporo 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Ellis",
-      "score": "4-6 2-6"
+      "opponent": "Y. Takahashi",
+      "score": "6(6)-7(8) 6(4)-7(7)"
     },
     {
-      "date": "20230206",
-      "tournament": "ITF M25 Burnie Men",
+      "date": "20250910",
+      "tournament": "M25 Sapporo 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,11 +93,63 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Bouzige",
-      "score": "1-6 2-6"
+      "opponent": "T. Takamisawa",
+      "score": "4-6 6(3)-7(7)"
     },
     {
-      "date": "20221108",
+      "date": "20250904",
+      "tournament": "M25 Sapporo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Tanuma",
+      "score": "7-5 1-6 2-6"
+    },
+    {
+      "date": "20250902",
+      "tournament": "M25 Sapporo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Yamasaki",
+      "score": "3-6 6(1)-7(7)"
+    },
+    {
+      "date": "20250529",
+      "tournament": "M15 Daegu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Sornlaksup",
+      "score": "4-6 7(7)-6(1) 4-6"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M15 Daegu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Chappell",
+      "score": "6-4 0-6 4-6"
+    },
+    {
+      "date": "20241104",
       "tournament": "Matsuyama",
       "surface": "Hard",
       "level": "C",
@@ -106,21 +158,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Ferreira Silva",
-      "score": "3-6 3-6"
+      "opponent": "A. Blockx",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20221107",
-      "tournament": "Matsuyama",
+      "date": "20240912",
+      "tournament": "M25 Sapporo 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Kirkin",
-      "score": "6-4 2-6 1-6"
+      "opponent": "M. Imamura",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20240911",
+      "tournament": "M25 Sapporo 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Suzuki",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20231108",
+      "tournament": "Matsuyama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Daniel",
+      "score": "1-6 2-6"
     },
     {
       "date": "20221106",
@@ -131,9 +209,35 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Jung",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20220908",
+      "tournament": "M25 Sapporo 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Saitoh",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20220907",
+      "tournament": "M25 Sapporo 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "R. Tanuma",
-      "score": "3-6 4-6"
+      "opponent": "G. Inoue",
+      "score": "7(7)-6(4) 6-0"
     }
   ]
 }
