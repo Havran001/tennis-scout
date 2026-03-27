@@ -3,11 +3,11 @@
   "gs_id": "84740",
   "player_name": "Peter Sallay",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:55:03.904Z",
+  "updated": "2026-03-27T04:46:56.981Z",
   "matches": [
     {
-      "date": "20241009",
-      "tournament": "M15 Monastir 41",
+      "date": "20250827",
+      "tournament": "M15 Budapest",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Reco",
-      "score": "2-6 0-6"
+      "opponent": "G. Dalmasso",
+      "score": "7(7)-6(2) 6-3"
     },
     {
-      "date": "20241002",
-      "tournament": "M15 Monastir 40",
+      "date": "20240827",
+      "tournament": "ITF M15 Budapest Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Bittoun",
-      "score": "6-0 6-1"
+      "opponent": "A. Vales",
+      "score": "0-6 6(2)-7(7)"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M15 Budapest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Goldenberg",
+      "score": "4-6 4-6"
     }
   ]
 }
