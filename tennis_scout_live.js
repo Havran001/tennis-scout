@@ -1278,9 +1278,9 @@ function buildPlayersTab(sh){
                 });
               });
               listEl.querySelectorAll('.th-filter').forEach(function(inp){
-                var handler=function(){
+                var handler=function(e){
                   if(!window._mhColFilter)window._mhColFilter={};
-                  window._mhColFilter[inp.getAttribute('data-col')]=inp.value;
+                  window._mhColFilter[e.target.getAttribute('data-col')]=e.target.value;
                   _renderMatches();
                 };
                 inp.addEventListener('input',handler);
