@@ -3,11 +3,24 @@
   "gs_id": "175205",
   "player_name": "Volodymyr Iakubenko",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:55:46.956Z",
+  "updated": "2026-03-27T06:10:59.015Z",
   "matches": [
     {
-      "date": "20240711",
-      "tournament": "ITF M15 Litija Men",
+      "date": "20260318",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Nesterov",
+      "score": "6(2)-7(7) 0-6"
+    },
+    {
+      "date": "20250925",
+      "tournament": "M25 Sharm ElSheikh 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Castagnola",
-      "score": "6-3 2-6 0-3 ret."
+      "opponent": "A. Bakshi",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20240710",
-      "tournament": "ITF M15 Litija Men",
+      "date": "20250924",
+      "tournament": "M25 Sharm ElSheikh 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Z. Sesko",
-      "score": "6-2 6-3"
+      "opponent": "F. Reilly",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20231102",
+      "tournament": "M15 Al Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Lanik",
+      "score": "6(2)-7(7) 6-4 3-6"
+    },
+    {
+      "date": "20231101",
+      "tournament": "M15 Al Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Canter",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20231026",
+      "tournament": "M15 Al Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. B. Privara",
+      "score": "6(3)-7(7) 2-6"
+    },
+    {
+      "date": "20231025",
+      "tournament": "M15 Al Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Nad",
+      "score": "6(3)-7(7) 3-6"
     }
   ]
 }
