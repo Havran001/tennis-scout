@@ -1,39 +1,78 @@
 {
   "player_id": "wb32",
-  "gs_id": "58669",
-  "player_name": "Tung-Lin Wu",
+  "gs_id": "30609",
+  "player_name": "Yibing Wu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:14:20.060Z",
+  "updated": "2026-03-27T11:39:36.139Z",
   "matches": [
     {
-      "date": "20250507",
-      "tournament": "Wuxi",
+      "date": "20260310",
+      "tournament": "Cap Cana",
       "surface": "Hard",
       "level": "C",
-      "round": "R16",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Atmane",
-      "score": "6-4 7(8)-6(6)"
+      "opponent": "A. Andrade",
+      "score": "7(7)-6(4) 7-5"
     },
     {
-      "date": "20250505",
-      "tournament": "Wuxi",
+      "date": "20250922",
+      "tournament": "Hangzhou",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bublik",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250921",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Medvedev",
+      "score": "5-7 7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20250920",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Korda",
+      "score": "4-6 6-1 6-4"
+    },
+    {
+      "date": "20250917",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Langmo",
-      "score": "3-6 3-6"
+      "opponent": "A. Mannarino",
+      "score": "6-4 6(5)-7(7) 5-7"
     },
     {
-      "date": "20240510",
-      "tournament": "Wuxi Challenger Men",
+      "date": "20250515",
+      "tournament": "Oeiras 6",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Bu",
-      "score": "6-4 6-3"
+      "opponent": "M. Krueger",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20240509",
-      "tournament": "Wuxi Challenger Men",
+      "date": "20250514",
+      "tournament": "Oeiras 6",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Echargui",
-      "score": "6-2 6-4"
+      "opponent": "C. Taberner",
+      "score": "6-3 2-6 0-6"
     },
     {
-      "date": "20240507",
-      "tournament": "Wuxi Challenger Men",
+      "date": "20250512",
+      "tournament": "Oeiras 6",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Zhukayev",
-      "score": "3-6 4-6"
+      "opponent": "T. Boyer",
+      "score": "7(7)-6(4) 4-6 6-2"
+    },
+    {
+      "date": "20240919",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Wong",
+      "score": "6-3 ret."
     }
   ]
 }
