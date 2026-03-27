@@ -1,26 +1,52 @@
 {
   "player_id": "k0hl",
-  "gs_id": "330280",
-  "player_name": "Kaigaoge Kang",
+  "gs_id": "116916",
+  "player_name": "Kyle Kang",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:04:48.126Z",
+  "updated": "2026-03-27T12:14:17.161Z",
   "matches": [
     {
-      "date": "20250731",
-      "tournament": "M15 Wuning 2",
+      "date": "20250716",
+      "tournament": "M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Banerjee",
+      "score": "3-6 7-5 4-6"
+    },
+    {
+      "date": "20250711",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Brunkow",
+      "score": "7-5 3-6 6-2"
+    },
+    {
+      "date": "20250710",
+      "tournament": "M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Zhang",
-      "score": "3-6 4-6"
+      "result": "W",
+      "opponent": "E. Bynoe",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20250730",
-      "tournament": "M15 Wuning 2",
+      "date": "20250709",
+      "tournament": "M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Meng",
-      "score": "3-6 6-2 4-6"
-    },
-    {
-      "date": "20250723",
-      "tournament": "M15 Wuning",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Zhu",
-      "score": "4-6 6(1)-7(7)"
+      "opponent": "A. Tripathi",
+      "score": "6-4 6(5)-7(7) 6-3"
     }
   ]
 }
