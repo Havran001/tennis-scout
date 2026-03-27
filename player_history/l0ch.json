@@ -3,8 +3,73 @@
   "gs_id": "127528",
   "player_name": "Noel Larwig",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:22.982Z",
+  "updated": "2026-03-27T08:21:35.062Z",
   "matches": [
+    {
+      "date": "20251105",
+      "tournament": "M15 San Gregorio di Catania",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Coccioli",
+      "score": "7(9)-6(7) 2-6 7-5"
+    },
+    {
+      "date": "20250830",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Simundza",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250829",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Mujakic",
+      "score": "6-1 5-7 4-6"
+    },
+    {
+      "date": "20250828",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Ramskogler",
+      "score": "1-6 7-5 4-6"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Matusevich",
+      "score": "6-2 7-5"
+    },
     {
       "date": "20250612",
       "tournament": "M25 Varnamo",
@@ -32,8 +97,8 @@
       "score": "2-6 6-2 6-1"
     },
     {
-      "date": "20221130",
-      "tournament": "M25 Monastir 11",
+      "date": "20240717",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,34 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Berger",
-      "score": "6-0 6-4"
+      "opponent": "J. Opitz",
+      "score": "5-7 3-6"
     },
     {
-      "date": "20220825",
-      "tournament": "M25 Oldenzaal",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. De Krom",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20220823",
-      "tournament": "M25 Oldenzaal",
+      "date": "20230913",
+      "tournament": "M15 Buschhausen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "W. Leite",
-      "score": "6-2 2-6 6(4)-7(7)"
+      "result": "L",
+      "opponent": "M. Krumich",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230613",
+      "tournament": "M25 Risskov/Aarhus",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Matusevich",
+      "score": "2-6 0-6"
     }
   ]
 }
