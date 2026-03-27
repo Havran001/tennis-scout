@@ -1,13 +1,13 @@
 {
   "player_id": "p0av",
-  "gs_id": "35198",
-  "player_name": "Uisung Park",
+  "gs_id": "175240",
+  "player_name": "Seungmin Park",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:26:05.090Z",
+  "updated": "2026-03-27T09:31:26.087Z",
   "matches": [
     {
-      "date": "20241024",
-      "tournament": "M25 Huzhou",
+      "date": "20250102",
+      "tournament": "ITF M25 Bali 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Taguchi",
-      "score": "6-3 3-0 ret."
+      "opponent": "H. Chung",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20241023",
-      "tournament": "M25 Huzhou",
+      "date": "20250101",
+      "tournament": "ITF M25 Bali 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Yu",
-      "score": "2-6 0-6"
+      "opponent": "E. Hudd",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20241024",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Sumizawa",
+      "score": "7(10)-6(8) 6-1"
+    },
+    {
+      "date": "20241022",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Nagashima",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240917",
+      "tournament": "M15 Bali 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Yamanaka",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20240904",
+      "tournament": "M15 Hong Kong 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Rodesch",
+      "score": "5-7 6-3 7(8)-6(6)"
+    },
+    {
+      "date": "20240516",
+      "tournament": "ITF M25 Luan Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Sun",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20240515",
+      "tournament": "ITF M25 Luan Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "X. D. Chen",
+      "score": "4-6 3-6"
     }
   ]
 }
