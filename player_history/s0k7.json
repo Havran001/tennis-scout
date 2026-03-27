@@ -1,48 +1,61 @@
 {
   "player_id": "s0k7",
-  "gs_id": "58263",
-  "player_name": "Zachary Svajda",
+  "gs_id": "182600",
+  "player_name": "Trevor Svajda",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:56:44.030Z",
+  "updated": "2026-03-27T07:05:52.033Z",
   "matches": [
     {
-      "date": "20240128",
-      "tournament": "Indian Wells 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bicknell",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20240127",
-      "tournament": "Indian Wells 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Fanselow",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20240126",
-      "tournament": "Indian Wells 2",
+      "date": "20250606",
+      "tournament": "Tyler",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kypson",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20250605",
+      "tournament": "Tyler",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "B. Artnak",
-      "score": "6-2 3-6 6-0"
+      "opponent": "I. Ivashka",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20250603",
+      "tournament": "Tyler",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Draxl",
+      "score": "1-1 ret."
+    },
+    {
+      "date": "20240603",
+      "tournament": "Tyler Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. K. Trotter",
+      "score": "4-6 6(5)-7(7)"
     },
     {
       "date": "20240125",
@@ -53,9 +66,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Kirchheimer",
-      "score": "6-2 6-1"
+      "result": "L",
+      "opponent": "S. Fanselow",
+      "score": "4-6 4-6"
     },
     {
       "date": "20240123",
@@ -67,21 +80,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Debru",
-      "score": "6-4 6-1"
+      "opponent": "T. Sandgren",
+      "score": "0-6 7(7)-6(4) 7(7)-6(3)"
     },
     {
-      "date": "20230815",
-      "tournament": "Stanford",
+      "date": "20230609",
+      "tournament": "ITF M15 San Diego Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Walton",
-      "score": "6-2 6-2"
+      "opponent": "J. Brumm",
+      "score": "3-6 7-5 6-0"
+    },
+    {
+      "date": "20230608",
+      "tournament": "ITF M15 San Diego Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Little",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M15 San Diego Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Murali",
+      "score": "3-6 2-6"
     }
   ]
 }
