@@ -3,11 +3,11 @@
   "gs_id": "142228",
   "player_name": "Karl Poling",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:56:21.934Z",
+  "updated": "2026-03-27T02:54:51.958Z",
   "matches": [
     {
-      "date": "20251029",
-      "tournament": "M25 Harlingen",
+      "date": "20250729",
+      "tournament": "M25 Edwardsville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Perot",
-      "score": "5-7 6-3 4-6"
+      "opponent": "A. Kim",
+      "score": "5-7 7-5 6-2"
     },
     {
       "date": "20250618",
@@ -30,6 +30,84 @@
       "result": "L",
       "opponent": "M. De Boes",
       "score": "5-7 3-6"
+    },
+    {
+      "date": "20240830",
+      "tournament": "ITF M15 Budapest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Glinka",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20240829",
+      "tournament": "ITF M15 Budapest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Ribecai",
+      "score": "7-5 2-6 3-6"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Budapest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Stice",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20230714",
+      "tournament": "ITF M25 Dallas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Mayo",
+      "score": "4-6 6-0 3-6"
+    },
+    {
+      "date": "20230713",
+      "tournament": "ITF M25 Dallas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Smith",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230711",
+      "tournament": "ITF M25 Dallas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Sheehy",
+      "score": "6-4 3-6 6-3"
     }
   ]
 }
