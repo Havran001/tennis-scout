@@ -3,11 +3,11 @@
   "gs_id": "89959",
   "player_name": "Kalin Ivanovski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:06:27.564Z",
+  "updated": "2026-03-27T08:19:36.063Z",
   "matches": [
     {
-      "date": "20250520",
-      "tournament": "Skopje",
+      "date": "20250107",
+      "tournament": "Nottingham 3",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Poljicak",
-      "score": "4-6 7(7)-6(5) 4-6"
+      "opponent": "D. Prizmic",
+      "score": "3-6 6(3)-7(7)"
     },
     {
-      "date": "20250507",
-      "tournament": "M25 Kursumlijska Banja",
+      "date": "20241022",
+      "tournament": "M25 Trnava 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Paroulek",
-      "score": "6-4 1-6 6-1"
+      "opponent": "F. J. Planinsek",
+      "score": "7(7)-6(5) 6-4"
     },
     {
       "date": "20230730",
@@ -95,136 +95,6 @@
       "result": "W",
       "opponent": "P. Goldsteiner",
       "score": "1-6 0-6"
-    },
-    {
-      "date": "20230523",
-      "tournament": "Skopje Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Prizmic",
-      "score": "6-4 6-1"
-    },
-    {
-      "date": "20230518",
-      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Haliak",
-      "score": "4-6 6-1 3-6"
-    },
-    {
-      "date": "20230517",
-      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Zugic",
-      "score": "3-6 0-0 ret."
-    },
-    {
-      "date": "20230514",
-      "tournament": "ITF M25 Kursumlijska Banja Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Tabur",
-      "score": "4-6 6-3 2-6"
-    },
-    {
-      "date": "20230513",
-      "tournament": "ITF M25 Kursumlijska Banja Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Ovcharenko",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20230512",
-      "tournament": "ITF M25 Kursumlijska Banja Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Habib",
-      "score": "7(8)-6(6) 7-5"
-    },
-    {
-      "date": "20230511",
-      "tournament": "ITF M25 Kursumlijska Banja Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Legout",
-      "score": "6-2 1-6 0-6"
-    },
-    {
-      "date": "20230510",
-      "tournament": "ITF M25 Kursumlijska Banja Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Jovic",
-      "score": "3-6 6-3 6-4"
-    },
-    {
-      "date": "20230406",
-      "tournament": "M25 Dubrovnik",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Setkic",
-      "score": "6(5)-7(7) 2-6"
-    },
-    {
-      "date": "20230405",
-      "tournament": "M25 Dubrovnik",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Donati",
-      "score": "6-1 3-6 0-6"
     }
   ]
 }
