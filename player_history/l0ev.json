@@ -3,11 +3,11 @@
   "gs_id": "84268",
   "player_name": "Valentin Lapalu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:08:26.160Z",
+  "updated": "2026-03-26T23:54:51.900Z",
   "matches": [
     {
-      "date": "20250821",
-      "tournament": "M15 Bastad 2",
+      "date": "20250807",
+      "tournament": "M15 Sofia",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Garcian",
+      "opponent": "B. Pietri",
       "score": "6-2 6-0"
     },
     {
-      "date": "20250820",
-      "tournament": "M15 Bastad 2",
+      "date": "20250806",
+      "tournament": "M15 Sofia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Van Herck",
-      "score": "3-6 4-6"
+      "opponent": "P. Milushev",
+      "score": "7(9)-6(7) 5-7 7-5"
     },
     {
-      "date": "20250814",
-      "tournament": "M15 Ystad",
+      "date": "20250730",
+      "tournament": "M15 Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Martinez Gomez",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20241003",
+      "tournament": "M25 Nevers",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Bocchi",
-      "score": "6-1 6-2"
+      "opponent": "V. Durasovic",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20250813",
-      "tournament": "M15 Ystad",
+      "date": "20241002",
+      "tournament": "M25 Nevers",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Eriksson",
-      "score": "6-3 7(8)-6(6)"
+      "opponent": "R. Le Meur",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20250702",
-      "tournament": "M15 Getxo",
+      "date": "20230913",
+      "tournament": "ITF M15 Monastir 37 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Martinez Serrano",
+      "opponent": "S. Hamza Reguig",
       "score": "2-6 2-6"
     },
     {
-      "date": "20250618",
-      "tournament": "M15 Mungia-Laukariz",
+      "date": "20230905",
+      "tournament": "ITF M15 Monastir 36 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,25 +93,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Montes-De La Torre",
-      "score": "6-4 0-6 5-7"
+      "opponent": "I. Snitari",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20250313",
-      "tournament": "M15 Nonthaburi",
+      "date": "20221004",
+      "tournament": "M25 Nevers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Gueymard Wayenburg",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20220913",
+      "tournament": "M25 Madrid",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gonzalez Fernandez",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20210917",
+      "tournament": "ITF M25 Madrid Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Wessels",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20210916",
+      "tournament": "ITF M25 Madrid Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Knaff",
-      "score": "3-6 6-2 6-2"
+      "result": "W",
+      "opponent": "A. Barroso Campos",
+      "score": "6(2)-7(7) 6-3 3-6"
     },
     {
-      "date": "20250312",
-      "tournament": "M15 Nonthaburi",
+      "date": "20210915",
+      "tournament": "ITF M25 Madrid Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,25 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Chappell",
-      "score": "4-6 3-6"
+      "opponent": "X. Gabarro",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20240827",
-      "tournament": "ITF M15 Cap d'Agde Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Laurent",
-      "score": "6-3 4-6 3-6"
-    },
-    {
-      "date": "20240613",
-      "tournament": "M25 Rabat",
+      "date": "20210902",
+      "tournament": "M25 Bagneres-De-Bigorre",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -132,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Benchetrit",
-      "score": "3-6 1-6"
+      "opponent": "A. Escoffier",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20240612",
-      "tournament": "M25 Rabat",
+      "date": "20210901",
+      "tournament": "M25 Bagneres-De-Bigorre",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,8 +184,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Martin Tiffon",
-      "score": "4-5 ret."
+      "opponent": "A. Deschamps",
+      "score": "7(7)-6(5) 6-4"
     }
   ]
 }
