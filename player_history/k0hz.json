@@ -3,11 +3,11 @@
   "gs_id": "42404",
   "player_name": "Aidan Kim",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:11:44.073Z",
+  "updated": "2026-03-27T09:26:39.101Z",
   "matches": [
     {
-      "date": "20250108",
-      "tournament": "M25 Ithaca",
+      "date": "20250716",
+      "tournament": "M25 Louisville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Kirchheimer",
-      "score": "6-4 6-3"
+      "opponent": "F. Salle",
+      "score": "4-6 6-2 4-6"
+    },
+    {
+      "date": "20241114",
+      "tournament": "ITF M25 Columbus Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Fernandes",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20241113",
+      "tournament": "ITF M25 Columbus Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Van Emburgh",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20241011",
+      "tournament": "ITF M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Zink",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20241010",
+      "tournament": "ITF M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Mayew",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20241009",
+      "tournament": "ITF M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Hadigian",
+      "score": "6-1 6-4"
     }
   ]
 }
