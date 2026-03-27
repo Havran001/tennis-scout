@@ -3,11 +3,24 @@
   "gs_id": "95492",
   "player_name": "Lewie Lane",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:54:05.940Z",
+  "updated": "2026-03-27T03:47:13.976Z",
   "matches": [
     {
-      "date": "20250528",
-      "tournament": "M15 Warmbad Villach",
+      "date": "20240807",
+      "tournament": "ITF M15 Eupen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rivet",
+      "score": "4-6 7(7)-6(5) 1-6"
+    },
+    {
+      "date": "20230817",
+      "tournament": "M25 Ystad",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Ujvary",
-      "score": "6-4 6-2"
+      "opponent": "K. Friberg",
+      "score": "6-0 6-2"
     },
     {
-      "date": "20250527",
-      "tournament": "M15 Warmbad Villach",
+      "date": "20230816",
+      "tournament": "M25 Ystad",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Lazic",
-      "score": "6-0 6-2"
+      "opponent": "G. Misasi",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20230607",
-      "tournament": "ITF M15 Vaasa Men",
+      "date": "20220825",
+      "tournament": "M25 Oldenzaal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Marie",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20220823",
+      "tournament": "M25 Oldenzaal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Formella",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20220817",
+      "tournament": "M15 Eindhoven",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Friberg",
-      "score": "5-7 3-6"
+      "opponent": "J. B. Otegui",
+      "score": "6-4 2-6 6-4"
     },
     {
-      "date": "20230322",
-      "tournament": "ITF M25 Toulouse-Balma Men",
+      "date": "20220810",
+      "tournament": "M25 Ystad",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Lamasine",
-      "score": "4-6 6-4 6-3"
+      "opponent": "J. Mridha",
+      "score": "3-6 1-4 ret."
     }
   ]
 }
