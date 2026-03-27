@@ -3,11 +3,11 @@
   "gs_id": "115641",
   "player_name": "Maikel De Boes",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:13:27.165Z",
+  "updated": "2026-03-26T23:04:01.070Z",
   "matches": [
     {
-      "date": "20250723",
-      "tournament": "M15 Santa Tecla 2",
+      "date": "20250820",
+      "tournament": "M15 Huy",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. J. Bianchi",
-      "score": "6-1 7(7)-6(3)"
+      "opponent": "S. Beaupain",
+      "score": "5-7 6-2 2-6"
     },
     {
-      "date": "20250311",
-      "tournament": "ITF M15 Huamantla 8 Men",
+      "date": "20250812",
+      "tournament": "M25 Koksijde",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Brymer",
-      "score": "6-0 6-3"
+      "opponent": "M. Van Der Meerschen",
+      "score": "6-0 3-6 3-6"
     },
     {
-      "date": "20250311",
-      "tournament": "M15 Huamantla 6",
+      "date": "20210908",
+      "tournament": "M15 Cairo 13",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,38 +41,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Brymer",
-      "score": "6-0 6-3"
+      "opponent": "L. Tessa",
+      "score": "6-2 3-6 7-5"
     },
     {
-      "date": "20250228",
-      "tournament": "M15 Huamantla 4",
+      "date": "20210901",
+      "tournament": "ITF M15 Cairo 12 Men",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. N. Tudorica",
-      "score": "6-2 7-5"
+      "opponent": "K.M. Maamoun",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250227",
-      "tournament": "M15 Huamantla 4",
+      "date": "20210817",
+      "tournament": "ITF M15 Pescara Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Del Federico",
+      "score": "3-6 7-5 6-4"
+    },
+    {
+      "date": "20210805",
+      "tournament": "ITF M15 Cairo 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Tosetto",
-      "score": "6(4)-7(7) 3-6"
+      "result": "L",
+      "opponent": "Q. Folliot",
+      "score": "5-7 6-3 3-0 ret."
     },
     {
-      "date": "20250225",
-      "tournament": "M15 Huamantla 4",
+      "date": "20210804",
+      "tournament": "ITF M15 Cairo 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +93,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Alvarez",
-      "score": "7(7)-6(2) 2-6 4-6"
+      "opponent": "S. R. Prabodh",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20210729",
+      "tournament": "ITF M15 Cairo 10 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Monzon",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20210728",
+      "tournament": "ITF M15 Cairo 10 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bassem Sobhy",
+      "score": "3-6 1-1 ret."
+    },
+    {
+      "date": "20210518",
+      "tournament": "ITF M15 Brcko Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Biljesko",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20210513",
+      "tournament": "ITF M15 Prijedor Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rogic Hadzalic",
+      "score": "4-6 7(8)-6(6) 3-6"
+    },
+    {
+      "date": "20210512",
+      "tournament": "ITF M15 Prijedor Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rogic Hadzalic",
+      "score": "4-6 7(8)-6(6) 3-6"
     }
   ]
 }
