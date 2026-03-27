@@ -3,8 +3,34 @@
   "gs_id": "37725",
   "player_name": "Karim-Mohamed Maamoun",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:58:38.009Z",
+  "updated": "2026-03-27T08:08:33.154Z",
   "matches": [
+    {
+      "date": "20240829",
+      "tournament": "ITF M15 Vienna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Matusevich",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Vienna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Dubrivnyy",
+      "score": "4-6 6-2 7-5"
+    },
     {
       "date": "20230726",
       "tournament": "ITF M25 Brazzaville 2 Men",
@@ -82,32 +108,6 @@
       "result": "W",
       "opponent": "G. Iradukunda",
       "score": "3-6 6-2 3-6"
-    },
-    {
-      "date": "20230615",
-      "tournament": "M15 Rabat",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Cosnet",
-      "score": "7-5 3-6 6-4"
-    },
-    {
-      "date": "20230613",
-      "tournament": "M15 Rabat",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Roncadelli",
-      "score": "3-6 3-6"
     }
   ]
 }
