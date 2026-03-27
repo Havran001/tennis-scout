@@ -3,72 +3,46 @@
   "gs_id": "71165",
   "player_name": "Andrea Picchione",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:27:11.106Z",
+  "updated": "2026-03-27T10:59:29.128Z",
   "matches": [
     {
-      "date": "20250809",
-      "tournament": "M25 Montesilvano",
+      "date": "20250408",
+      "tournament": "Monza",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. van Assche",
+      "score": "3-6 7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20250407",
+      "tournament": "Monza",
+      "surface": "Hard",
+      "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Kirkin",
-      "score": "6-0 7-5"
+      "opponent": "R. Bertola",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20250808",
-      "tournament": "M25 Montesilvano",
+      "date": "20250406",
+      "tournament": "Monza",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Primucci",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20250807",
-      "tournament": "M25 Montesilvano",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Vulpitta",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20250806",
-      "tournament": "M25 Montesilvano",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Bronzetti",
-      "score": "6-4 7(7)-6(3)"
-    },
-    {
-      "date": "20250805",
-      "tournament": "M25 Montesilvano",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. A. Darderi",
-      "score": "6-1 6-2"
+      "opponent": "F. Maestrelli",
+      "score": "4-6 6(4)-7(7)"
     }
   ]
 }
