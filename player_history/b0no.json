@@ -1,13 +1,13 @@
 {
   "player_id": "b0no",
-  "gs_id": "142128",
-  "player_name": "Darwin Blanch",
+  "gs_id": "68054",
+  "player_name": "Dali Blanch",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:00:53.028Z",
+  "updated": "2026-03-27T08:13:36.057Z",
   "matches": [
     {
-      "date": "20241114",
-      "tournament": "ITF M15 Valencia Men",
+      "date": "20260226",
+      "tournament": "M15 Villena 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Manzanera Pertusa",
-      "score": "7-5 6-0"
+      "opponent": "E. Carrascosa Diaz",
+      "score": "3-6 6-0 6(6)-7(8)"
     },
     {
-      "date": "20241112",
-      "tournament": "ITF M15 Valencia Men",
+      "date": "20260225",
+      "tournament": "M15 Villena 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Gimenez",
-      "score": "1-6 2-6"
+      "opponent": "J. Plans",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20240116",
-      "tournament": "ITF M15 Manacor 2 Men",
+      "date": "20250226",
+      "tournament": "M15 Villena 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Mikrut",
-      "score": "3-6 6-1 6-4"
+      "opponent": "Dar. Blanch",
+      "score": "6(2)-7(7) 6-1 6-2"
     },
     {
-      "date": "20231115",
-      "tournament": "ITF M15 Valencia Men",
+      "date": "20240625",
+      "tournament": "Ibague",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Schachter",
+      "score": "7(7)-6(3) 4-6 2-6"
+    },
+    {
+      "date": "20240624",
+      "tournament": "Ibague",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Nordquist",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20240424",
+      "tournament": "ITF M15 Sanxenxo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Trungelliti",
-      "score": "6-4 6(4)-7(7) 3-6"
+      "opponent": "F. Rocha",
+      "score": "7(7)-6(1) 7-5"
     },
     {
-      "date": "20231108",
-      "tournament": "M25 Benicarlo",
+      "date": "20240319",
+      "tournament": "ITF M25 Badalona Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +93,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Sanchez Izquierdo",
-      "score": "6-0 6-1"
+      "opponent": "R. Nijboer",
+      "score": "6-3 1-6 2-6"
+    },
+    {
+      "date": "20240228",
+      "tournament": "ITF M15 Villena 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Budkov Kjaer",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20231213",
+      "tournament": "ITF M15 Ceuta Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. M. Hodzic",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20231124",
+      "tournament": "ITF M15 Alcala de Henares Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Perez Sanz",
+      "score": "6-4 4-6 6-3"
+    },
+    {
+      "date": "20231123",
+      "tournament": "ITF M15 Alcala de Henares Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Cohen",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20231122",
+      "tournament": "ITF M15 Alcala de Henares Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Dussin",
+      "score": "6-3 6-3"
     }
   ]
 }
