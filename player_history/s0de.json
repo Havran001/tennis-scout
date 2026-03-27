@@ -1,13 +1,13 @@
 {
   "player_id": "s0de",
-  "gs_id": "42074",
-  "player_name": "Darrshan Suresh",
+  "gs_id": "144063",
+  "player_name": "Dhakshineswar Suresh",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:51:20.917Z",
+  "updated": "2026-03-27T01:56:37.948Z",
   "matches": [
     {
-      "date": "20240605",
-      "tournament": "ITF M15 Monastir 23 Men",
+      "date": "20220615",
+      "tournament": "M15 Tay Ninh 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,21 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Elamin",
-      "score": "2-6 6-0 6-1"
+      "opponent": "C. Lo",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240515",
-      "tournament": "ITF M15 Monastir 20 Men",
+      "date": "20220609",
+      "tournament": "M15 Tay Ninh 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Tanuma",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20220608",
+      "tournament": "M15 Tay Ninh 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Namigandet Tenguere",
-      "score": "2-6 3-6"
+      "result": "W",
+      "opponent": "M. Pham",
+      "score": "0-6 1-6"
     }
   ]
 }
