@@ -3,11 +3,37 @@
   "gs_id": "160358",
   "player_name": "Patrik Homola",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:55:11.958Z",
+  "updated": "2026-03-27T04:48:45.980Z",
   "matches": [
     {
-      "date": "20240626",
-      "tournament": "M15 Wroclaw",
+      "date": "20240328",
+      "tournament": "M25 Trnava",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Haliak",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240327",
+      "tournament": "M25 Trnava",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Karol",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20231018",
+      "tournament": "ITF M15 Sharm ElSheikh 14 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Mashtakov",
-      "score": "2-6 5-7"
+      "opponent": "A. Knaff",
+      "score": "6-3 6-0"
     }
   ]
 }
