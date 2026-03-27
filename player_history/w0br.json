@@ -3,8 +3,34 @@
   "gs_id": "90391",
   "player_name": "Niklas Waldner",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:52:36.925Z",
+  "updated": "2026-03-27T01:50:34.962Z",
   "matches": [
+    {
+      "date": "20260219",
+      "tournament": "M15 Sharm ElSheikh 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Bradshaw",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20260218",
+      "tournament": "M15 Sharm ElSheikh 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. C. Baragiola Mordini",
+      "score": "3-6 6-7"
+    },
     {
       "date": "20260205",
       "tournament": "M15 Sharm ElSheikh 2",
@@ -30,19 +56,6 @@
       "result": "W",
       "opponent": "S. Jong",
       "score": "6-1 4-6 5-7"
-    },
-    {
-      "date": "20251029",
-      "tournament": "ITF M15 Sharm ElSheikh 16 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Dzhavakian",
-      "score": "6(2)-7(7) 0-2 ret."
     },
     {
       "date": "20250212",
@@ -71,82 +84,17 @@
       "score": "6(7)-7(9) 7(8)-6(6) 6-4"
     },
     {
-      "date": "20241120",
-      "tournament": "M15 Monastir 47",
+      "date": "20240505",
+      "tournament": "Mauthausen Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Kupcic",
-      "score": "5-7 7(7)-6(4) 4-6"
-    },
-    {
-      "date": "20241106",
-      "tournament": "M15 Monastir 45",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Prechtel",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20231129",
-      "tournament": "ITF M15 Monastir 48 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. De Bakker",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20231018",
-      "tournament": "ITF M15 Monastir 42 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Lobanov",
-      "score": "6-4 7(7)-6(5)"
-    },
-    {
-      "date": "20220105",
-      "tournament": "M25 Monastir",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Minakov",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20211228",
-      "tournament": "ITF M15 Monastir 50 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Ivanov",
-      "score": "1-6 4-6"
+      "opponent": "M. Dodig",
+      "score": "4-6 3-6"
     }
   ]
 }
