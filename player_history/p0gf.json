@@ -3,8 +3,34 @@
   "gs_id": "68052",
   "player_name": "Stijn Pel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:51:48.968Z",
+  "updated": "2026-03-27T03:46:18.970Z",
   "matches": [
+    {
+      "date": "20260319",
+      "tournament": "M25 Mumbai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sasikumar",
+      "score": "4-6 7(8)-6(6) 6-2"
+    },
+    {
+      "date": "20260318",
+      "tournament": "M25 Mumbai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Hans",
+      "score": "4-6 7(7)-6(3) 1-6"
+    },
     {
       "date": "20250827",
       "tournament": "M25 Oldenzaal",
@@ -19,6 +45,71 @@
       "score": "1-6 3-6"
     },
     {
+      "date": "20240327",
+      "tournament": "ITF M15 Sharm ElSheikh 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gengel",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20230909",
+      "tournament": "ITF M15 Haren Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Pontjodikromo",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20230908",
+      "tournament": "ITF M15 Haren Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Oetzbach",
+      "score": "6-4 5-7 6-4"
+    },
+    {
+      "date": "20230907",
+      "tournament": "ITF M15 Haren Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Houkes",
+      "score": "4-6 6-3 2-6"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Haren Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Van Tilburg",
+      "score": "4-6 3-6"
+    },
+    {
       "date": "20230830",
       "tournament": "ITF M25 Oldenzaal Men",
       "surface": "Hard",
@@ -30,45 +121,6 @@
       "result": "L",
       "opponent": "E. Khoeblal",
       "score": "3-6 6-2 6-3"
-    },
-    {
-      "date": "20230818",
-      "tournament": "M25 Ystad",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Vasa",
-      "score": "6-3 7(9)-6(7)"
-    },
-    {
-      "date": "20230817",
-      "tournament": "M25 Ystad",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Eriksson Ziverts",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20230816",
-      "tournament": "M25 Ystad",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Calzi",
-      "score": "6-2 3-6 3-6"
     }
   ]
 }
