@@ -3,24 +3,50 @@
   "gs_id": "175206",
   "player_name": "Hoyoung Roh",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:11:00.020Z",
+  "updated": "2026-03-27T09:31:23.092Z",
   "matches": [
     {
-      "date": "20250605",
-      "tournament": "M25 Changwon",
+      "date": "20250720",
+      "tournament": "M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. I. Kotzen",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20250719",
+      "tournament": "M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Thomson",
+      "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20250718",
+      "tournament": "M25 Louisville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Kikuchi",
-      "score": "3-6 3-6"
+      "result": "W",
+      "opponent": "F. Salle",
+      "score": "7(7)-6(3) 7(7)-6(1)"
     },
     {
-      "date": "20250604",
-      "tournament": "M25 Changwon",
+      "date": "20250716",
+      "tournament": "M25 Louisville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Isomura",
-      "score": "7-5 6-1"
+      "opponent": "S. Bangoura",
+      "score": "3-6 6-2 2-6"
     }
   ]
 }
