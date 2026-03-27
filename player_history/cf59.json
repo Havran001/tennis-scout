@@ -3,24 +3,76 @@
   "gs_id": "14972",
   "player_name": "Roberto Carballes Baena",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:53:08.475Z",
+  "updated": "2026-03-27T06:55:30.036Z",
   "matches": [
     {
-      "date": "20221123",
-      "tournament": "Valencia",
+      "date": "20260303",
+      "tournament": "Kigali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kopp",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20251014",
+      "tournament": "Olbia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Fatic",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20250920",
+      "tournament": "Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Kopriva",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250919",
+      "tournament": "Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Barton",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250918",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. van Assche",
-      "score": "2-6 1-1 ret."
+      "result": "W",
+      "opponent": "S. Kopp",
+      "score": "1-6 6-3 2-6"
     },
     {
-      "date": "20221122",
-      "tournament": "Valencia",
+      "date": "20250917",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Brancaccio",
-      "score": "5-7 0-6"
+      "opponent": "D. Novak",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20230918",
+      "tournament": "Bad Waltersdorf Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kovalik",
+      "score": "7-5 3-6 7(8)-6(6)"
     }
   ]
 }
