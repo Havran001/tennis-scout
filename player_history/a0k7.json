@@ -3,11 +3,50 @@
   "gs_id": "173029",
   "player_name": "Romeo Arcuschin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:59:13.936Z",
+  "updated": "2026-03-27T04:59:31.991Z",
   "matches": [
     {
-      "date": "20240910",
-      "tournament": "M15 Cordoba 2",
+      "date": "20260215",
+      "tournament": "Tigre",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Aguilar Cardozo",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20251211",
+      "tournament": "M15 Lima 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Guilleme",
+      "score": "6-2 0-6 5-7"
+    },
+    {
+      "date": "20251210",
+      "tournament": "M15 Lima 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Vazquez",
+      "score": "6-1 2-1 ret."
+    },
+    {
+      "date": "20251202",
+      "tournament": "M15 Lima",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. I. Justo",
-      "score": "4-6 2-6"
+      "opponent": "T. Kodat",
+      "score": "4-6 6-0 6-1"
+    },
+    {
+      "date": "20241128",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. G. Ciurletti",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20241127",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Hess",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20230102",
+      "tournament": "Tigre",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Briand",
+      "score": "0-6 6(6)-7(8)"
     }
   ]
 }
