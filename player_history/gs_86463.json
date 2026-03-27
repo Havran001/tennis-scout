@@ -3,37 +3,37 @@
   "gs_id": "86463",
   "player_name": "Benjamin Privara Peter",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:55:26.098Z",
+  "updated": "2026-03-27T06:05:57.252Z",
   "matches": [
     {
-      "date": "20230331",
-      "tournament": "ITF M25 Trnava Men",
+      "date": "20240723",
+      "tournament": "ITF M25 Kramsach Men",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Colson",
-      "score": "3-6 2-6"
+      "opponent": "V. Bielinskyi",
+      "score": "6-1 3-6 6(7)-7(9)"
     },
     {
-      "date": "20230330",
-      "tournament": "ITF M25 Trnava Men",
+      "date": "20240606",
+      "tournament": "ITF M25 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Barnat",
-      "score": "6-2 6-1"
+      "result": "L",
+      "opponent": "R. Brancaccio",
+      "score": "3-6 6-0 1-6"
     },
     {
-      "date": "20230329",
-      "tournament": "ITF M25 Trnava Men",
+      "date": "20240605",
+      "tournament": "ITF M25 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Lanik",
-      "score": "6-3 3-6 4-4 ret."
+      "opponent": "F. J. Martinez B.",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20221129",
-      "tournament": "M25 Trnava",
+      "date": "20240430",
+      "tournament": "ITF M15 Kursumlijska Banja 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Karol",
-      "score": "6-4 6(4)-7(7) 4-6"
+      "opponent": "K. Matsuda",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20230901",
+      "tournament": "ITF M15 Szczawno Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rajski",
+      "score": "6-4 6(3)-7(7) 6-4"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M15 Szczawno Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gola",
+      "score": "6-4 6-1"
     }
   ]
 }
