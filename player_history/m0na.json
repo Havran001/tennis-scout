@@ -3,37 +3,24 @@
   "gs_id": "59193",
   "player_name": "Shunsuke Mitsui",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:46:17.979Z",
+  "updated": "2026-03-27T06:02:32.256Z",
   "matches": [
     {
-      "date": "20251005",
-      "tournament": "M15 Winston-Salem",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Suresh",
-      "score": "6-0 6-3"
-    },
-    {
-      "date": "20251004",
-      "tournament": "M15 Winston-Salem",
+      "date": "20250621",
+      "tournament": "M25 Luzhou",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Pow",
-      "score": "2-6 6-4 6-3"
+      "result": "L",
+      "opponent": "J. Cui",
+      "score": "6-0 3-6 0-4 ret."
     },
     {
-      "date": "20251003",
-      "tournament": "M15 Winston-Salem",
+      "date": "20250620",
+      "tournament": "M25 Luzhou",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Q. Xu",
-      "score": "2-6 3-6"
+      "opponent": "W. K. Leong M.",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20251002",
-      "tournament": "M15 Winston-Salem",
+      "date": "20250619",
+      "tournament": "M25 Luzhou",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Markov",
-      "score": "4-6 2-6"
+      "opponent": "E. Gerasimov",
+      "score": "6-3 3-6 6-2"
     },
     {
-      "date": "20250930",
-      "tournament": "M15 Winston-Salem",
+      "date": "20250618",
+      "tournament": "M25 Luzhou",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +54,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Kim",
-      "score": "7-5 4-6 4-6"
+      "opponent": "P. Sornlaksup",
+      "score": "7(8)-6(6) 6-2"
+    },
+    {
+      "date": "20240807",
+      "tournament": "ITF M25 Southaven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Maxted",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20230809",
+      "tournament": "ITF M25 Southaven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "5-7 6-1 5-7"
+    },
+    {
+      "date": "20230623",
+      "tournament": "M25 Anseong",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Chung",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20230622",
+      "tournament": "M25 Anseong",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Shin",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230620",
+      "tournament": "M25 Anseong",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Sim",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20230613",
+      "tournament": "ITF M25 Changwon Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Mochizuki",
+      "score": "6-4 6-2"
     }
   ]
 }
