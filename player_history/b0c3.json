@@ -3,63 +3,37 @@
   "gs_id": "40990",
   "player_name": "Simon Beaupain",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:45:48.978Z",
+  "updated": "2026-03-27T05:58:53.606Z",
   "matches": [
     {
-      "date": "20240122",
-      "tournament": "Ottignies-Louvain-la-Neuve",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Riedi",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20240116",
-      "tournament": "ITF M25 Doha Men",
+      "date": "20240719",
+      "tournament": "M25 Esch/Alzette 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. A. Tomescu",
-      "score": "7-5 4-6 6-1"
+      "opponent": "G. Onclin",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20230215",
-      "tournament": "ITF M25 Vila Real de Santo Antonio 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Rocha",
-      "score": "5-7 6(4)-7(7)"
-    },
-    {
-      "date": "20230210",
-      "tournament": "ITF M25 Vila Real de Santo Antonio Men",
+      "date": "20240718",
+      "tournament": "M25 Esch/Alzette 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Vocel",
-      "score": "4-6 7(7)-6(3) 1-6"
+      "result": "W",
+      "opponent": "M. Rosenkranz",
+      "score": "6-2 3-6 7(7)-6(3)"
     },
     {
-      "date": "20230209",
-      "tournament": "ITF M25 Vila Real de Santo Antonio Men",
+      "date": "20240717",
+      "tournament": "M25 Esch/Alzette 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,21 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Matsumura",
-      "score": "3-6 2-6"
+      "opponent": "T. Setodji",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20230123",
-      "tournament": "Ottignies-Louvain-la-Neuve Challenger Men",
+      "date": "20240528",
+      "tournament": "ITF M25 Carnac Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Arnaboldi",
-      "score": "6-3 2-6 6-2"
+      "opponent": "M. Chazal",
+      "score": "6-4 5-7 7-5"
+    },
+    {
+      "date": "20230621",
+      "tournament": "ITF M15 Saarlouis Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Von der Schulenburg",
+      "score": "2-4 ret."
+    },
+    {
+      "date": "20230529",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Bouquet",
+      "score": "1-5 ret."
     }
   ]
 }
