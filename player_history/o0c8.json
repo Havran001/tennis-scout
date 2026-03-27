@@ -3,8 +3,21 @@
   "gs_id": "90403",
   "player_name": "Aleksander Orlikowski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:50:36.932Z",
+  "updated": "2026-03-27T04:47:08.987Z",
   "matches": [
+    {
+      "date": "20220629",
+      "tournament": "M15 Wroclaw",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kielan",
+      "score": "0-3 ret."
+    },
     {
       "date": "20220610",
       "tournament": "M15 Bytom",
@@ -43,19 +56,6 @@
       "result": "W",
       "opponent": "B. Zgola",
       "score": "6-2 6-4"
-    },
-    {
-      "date": "20220302",
-      "tournament": "M15 Sharm ElSheikh 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Duda",
-      "score": "6-2 4-6 4-6"
     }
   ]
 }
