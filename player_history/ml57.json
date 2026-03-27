@@ -3,59 +3,72 @@
   "gs_id": "20816",
   "player_name": "Gianluca Mager",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:32.033Z",
+  "updated": "2026-03-27T07:57:08.048Z",
   "matches": [
     {
-      "date": "20240928",
-      "tournament": "M25 Sabadell 2",
+      "date": "20250615",
+      "tournament": "Sassuolo",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Giustino",
-      "score": "6(6)-7(8) ret."
+      "opponent": "R. Nijboer",
+      "score": "5-7 ret."
     },
     {
-      "date": "20240927",
-      "tournament": "M25 Sabadell 2",
+      "date": "20250323",
+      "tournament": "Naples",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Berrettini",
+      "score": "7(7)-6(5) 6-2"
+    },
+    {
+      "date": "20240322",
+      "tournament": "Asuncion Challenger Men",
+      "surface": "Hard",
+      "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Merida Aguilar",
-      "score": "6-2 6(4)-7(7) 6(7)-7(9)"
+      "result": "L",
+      "opponent": "R. A. Burruchaga",
+      "score": "4-6 6-3 6-4"
     },
     {
-      "date": "20240926",
-      "tournament": "M25 Sabadell 2",
+      "date": "20240320",
+      "tournament": "Asuncion Challenger Men",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Winter Lopez",
-      "score": "1-6 4-6"
+      "opponent": "L. J. Rodriguez",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20240925",
-      "tournament": "M25 Sabadell 2",
+      "date": "20240319",
+      "tournament": "Asuncion Challenger Men",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Diez",
-      "score": "2-6 2-6"
+      "opponent": "P. Sekulic",
+      "score": "6-3 6-1"
     }
   ]
 }
