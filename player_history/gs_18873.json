@@ -3,24 +3,37 @@
   "gs_id": "18873",
   "player_name": "Son Kwiatkowski Thai",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:54:25.025Z",
+  "updated": "2026-03-27T08:01:38.062Z",
   "matches": [
     {
-      "date": "20240704",
-      "tournament": "Bloomfield Hills Challenger Men",
+      "date": "20240126",
+      "tournament": "Indian Wells 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ilagan",
+      "score": "1-6 7(7)-6(5) 6-3"
+    },
+    {
+      "date": "20240125",
+      "tournament": "Indian Wells 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Brouwer",
-      "score": "6(6)-7(8) 6-2 6-3"
+      "result": "W",
+      "opponent": "P. Jubb",
+      "score": "7-5 4-6 6-3"
     },
     {
-      "date": "20240702",
-      "tournament": "Bloomfield Hills Challenger Men",
+      "date": "20240124",
+      "tournament": "Indian Wells 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Holt",
-      "score": "3-6 4-6"
+      "opponent": "M. McKennon",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20231022",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Tomic",
+      "score": "1-6 6-4 2-6"
+    },
+    {
+      "date": "20231021",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Dominko",
+      "score": "3-6 7-5 6-1"
+    },
+    {
+      "date": "20231020",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Andrade",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20231019",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Dickerson",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20231017",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Nordquist",
+      "score": "3-6 5-7"
     }
   ]
 }
