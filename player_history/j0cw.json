@@ -3,7 +3,7 @@
   "gs_id": "145232",
   "player_name": "Yunseok Jang",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:01:32.241Z",
+  "updated": "2026-03-27T08:23:30.071Z",
   "matches": [
     {
       "date": "20250108",
@@ -30,6 +30,45 @@
       "result": "L",
       "opponent": "D. Kodancha Srinivasan",
       "score": "0-6 4-3 ret."
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Tokyo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Ochi",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Tokyo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Tanuma",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20240320",
+      "tournament": "ITF M15 Chandigarh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kamath",
+      "score": "2-5 ret."
     },
     {
       "date": "20240123",
@@ -121,45 +160,6 @@
       "result": "L",
       "opponent": "N. Kunsuwan",
       "score": "6-4 6-4"
-    },
-    {
-      "date": "20230919",
-      "tournament": "ITF M25 Takasaki Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Ichikawa",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20230829",
-      "tournament": "ITF M15 Nakhon Si Thammarat 7 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Congcar",
-      "score": "6-2 6-0"
-    },
-    {
-      "date": "20230823",
-      "tournament": "ITF M15 Nakhon Si Thammarat 6 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Charoenphon",
-      "score": "6-4 5-7 6(7)-7(9)"
     }
   ]
 }
