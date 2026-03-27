@@ -3,11 +3,37 @@
   "gs_id": "35510",
   "player_name": "Benjamin Pietri",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:53:45.941Z",
+  "updated": "2026-03-27T03:50:56.969Z",
   "matches": [
     {
-      "date": "20251101",
-      "tournament": "M15 Heraklion 12",
+      "date": "20260319",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "6-1 6(8)-7(10) 6-1"
+    },
+    {
+      "date": "20260318",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Azoidis",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20251122",
+      "tournament": "M25 Heraklion 2",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -16,11 +42,11 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "P. Henning",
-      "score": "4-6 3-6"
+      "score": "6-4 6-2"
     },
     {
-      "date": "20251031",
-      "tournament": "M15 Heraklion 12",
+      "date": "20251121",
+      "tournament": "M25 Heraklion 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Jones",
-      "score": "4-6 6(6)-7(8)"
+      "opponent": "M. Jones",
+      "score": "7(7)-6(2) 6-4"
     },
     {
-      "date": "20251030",
-      "tournament": "M15 Heraklion 12",
+      "date": "20251120",
+      "tournament": "M25 Heraklion 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Scaglia",
-      "score": "4-6 2-6"
+      "opponent": "F. Romano",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20251029",
-      "tournament": "M15 Heraklion 12",
+      "date": "20251119",
+      "tournament": "M25 Heraklion 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Andre",
-      "score": "7(9)-6(7) 3-6 6-3"
+      "opponent": "K. Chopra",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20240522",
-      "tournament": "ITF M25 Mataro Men",
+      "date": "20241016",
+      "tournament": "M15 Villers-les-Nancy",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +93,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Radulov",
-      "score": "1-6 1-6"
+      "opponent": "A. Freire Da Silva",
+      "score": "7-5 3-6 6-1"
+    },
+    {
+      "date": "20240628",
+      "tournament": "M15 Belgrade",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Pokorny",
+      "score": "6-4 6(7)-7(9) 6-4"
+    },
+    {
+      "date": "20240627",
+      "tournament": "M15 Belgrade",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Latinovic",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20231101",
+      "tournament": "ITF M25 Heraklion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Den Ouden",
+      "score": "6-2 3-6 2-6"
+    },
+    {
+      "date": "20230815",
+      "tournament": "ITF M25 Aldershot Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Hurrion",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20230801",
+      "tournament": "ITF M25 Roehampton 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20221101",
+      "tournament": "ITF M15 Heraklion 17 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Hanif",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20220726",
+      "tournament": "M25 Nottingham 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Whitehouse",
+      "score": "6(1)-7(7) 1-6"
     }
   ]
 }
