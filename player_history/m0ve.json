@@ -1,1 +1,48 @@
-{"player_id":"m0ve","sack_id":"148678","name":"Cyrus Mahjoob","total":0,"matches":[]}
+{
+  "player_id": "m0ve",
+  "gs_id": "213526",
+  "player_name": "Cyrus Mahjoob",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T02:00:31.939Z",
+  "matches": [
+    {
+      "date": "20240710",
+      "tournament": "ITF M15 Monastir 28 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Ibrahim",
+      "score": "3-6 6-4 6-4"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Monastir 27 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gorokhov",
+      "score": "1-6 7(7)-6(5) 2-6"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Monastir 27 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Delicata",
+      "score": "3-6 1-6"
+    }
+  ]
+}
