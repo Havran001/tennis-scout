@@ -3,11 +3,63 @@
   "gs_id": "168655",
   "player_name": "Nicola Rispoli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:56:04.952Z",
+  "updated": "2026-03-27T06:10:34.019Z",
   "matches": [
     {
-      "date": "20240717",
-      "tournament": "ITF M15 Gubbio Men",
+      "date": "20250828",
+      "tournament": "M15 Forli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Pieri",
+      "score": "6-3 4-6 4-6"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M15 Forli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Angelini",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20250826",
+      "tournament": "M15 Forli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Vaitiekunas",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20250715",
+      "tournament": "M25 Kramsach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Orlov",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250617",
+      "tournament": "M25 Cattolica",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -16,7 +68,20 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "G. Pennaforti",
-      "score": "2-6 2-6"
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M25 Sion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Pennaforti",
+      "score": "6-2 7-5"
     }
   ]
 }
