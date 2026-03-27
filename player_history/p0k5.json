@@ -3,11 +3,11 @@
   "gs_id": "123368",
   "player_name": "Theo Papamalamis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:19:38.063Z",
+  "updated": "2026-03-27T12:14:58.161Z",
   "matches": [
     {
-      "date": "20250112",
-      "tournament": "M25 Ithaca",
+      "date": "20260111",
+      "tournament": "M25 Hazebrouck",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Maloney",
-      "score": "6(5)-7(7) 4-6"
+      "opponent": "M. Kouame",
+      "score": "7(7)-6(5) 6-1"
     },
     {
-      "date": "20250111",
-      "tournament": "M25 Ithaca",
+      "date": "20260110",
+      "tournament": "M25 Hazebrouck",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Rybakov",
-      "score": "4-6 4-6"
+      "opponent": "C. Vandermeersch",
+      "score": "7(7)-6(5) 6-4"
     },
     {
-      "date": "20250110",
-      "tournament": "M25 Ithaca",
+      "date": "20260109",
+      "tournament": "M25 Hazebrouck",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Kirchheimer",
-      "score": "6-1 6-2"
+      "opponent": "P. Y. Bailly",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20250109",
-      "tournament": "M25 Ithaca",
+      "date": "20260108",
+      "tournament": "M25 Hazebrouck",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Smith",
-      "score": "4-6 4-6"
+      "opponent": "M. Beauge",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20250108",
-      "tournament": "M25 Ithaca",
+      "date": "20260106",
+      "tournament": "M25 Hazebrouck",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,25 +67,168 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Jansen",
-      "score": "4-6 6-4 7(7)-6(4)"
+      "opponent": "R. Andres",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20240717",
-      "tournament": "M25 Esch/Alzette 2",
+      "date": "20250908",
+      "tournament": "Winston Salem",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Vandecasteele",
+      "score": "7-5 7(7)-6(2)"
+    },
+    {
+      "date": "20250907",
+      "tournament": "Winston Salem",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Pascual Ferra",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20250813",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Jones",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20250812",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Pe. Tsitsipas",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250811",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Reymond",
+      "score": "1-4 ret."
+    },
+    {
+      "date": "20250810",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Wang",
+      "score": "0-6 ret."
+    },
+    {
+      "date": "20250617",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Gakhov",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250616",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Malige",
+      "score": "7(7)-6(2) 6-2"
+    },
+    {
+      "date": "20250615",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Massard",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M15 Messina",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. E. Schiessl",
+      "score": "6-3 6(6)-7(8) 4-6"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M15 Messina",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Marino",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250610",
+      "tournament": "M15 Messina",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Bidan",
-      "score": "4-6 1-4 ret."
+      "result": "W",
+      "opponent": "A. Spadola",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240301",
-      "tournament": "ITF M15 Lannion Men",
+      "date": "20250607",
+      "tournament": "M15 Ljubljana",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -93,12 +236,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Ghazouani Durand",
-      "score": "3-6 3-6"
+      "opponent": "A. Guerrieri",
+      "score": "1-6 0-1 ret."
     },
     {
-      "date": "20240229",
-      "tournament": "ITF M15 Lannion Men",
+      "date": "20250606",
+      "tournament": "M15 Ljubljana",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -106,12 +249,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Kivattsev",
-      "score": "6-1 0-0 ret."
+      "opponent": "P. O. Fellin",
+      "score": "7(7)-6(3) 3-6 6-3"
     },
     {
-      "date": "20240228",
-      "tournament": "ITF M15 Lannion Men",
+      "date": "20250605",
+      "tournament": "M15 Ljubljana",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -119,12 +262,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Rossi",
-      "score": "2-6 3-6"
+      "opponent": "A. Jilly",
+      "score": "7-5 6-3"
     },
     {
-      "date": "20240227",
-      "tournament": "ITF M15 Lannion Men",
+      "date": "20250604",
+      "tournament": "M15 Ljubljana",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,8 +275,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Dussin",
-      "score": "6-2 6-3"
+      "opponent": "N. Mikovic",
+      "score": "4-6 6-4 6-2"
+    },
+    {
+      "date": "20250526",
+      "tournament": "Chisinau",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Wendelken",
+      "score": "4-6 6-4 4-6"
+    },
+    {
+      "date": "20250525",
+      "tournament": "Chisinau",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. A. Coman",
+      "score": "1-6 4-6"
     }
   ]
 }
