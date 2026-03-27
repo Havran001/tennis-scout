@@ -1,1 +1,48 @@
-{"player_id":"s0yj","sack_id":"213135","name":"Ruslan Serazhetdinov","total":1,"matches":[{"id":"KQunihTh","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Maanshan 4 (China), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Zhukov M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-25"}
+{
+  "player_id": "s0yj",
+  "gs_id": "186265",
+  "player_name": "Ruslan Serazhetdinov",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T00:54:57.918Z",
+  "matches": [
+    {
+      "date": "20250916",
+      "tournament": "M25 Nevers",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Massard",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20240904",
+      "tournament": "M15 Monastir 36",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Loge",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240807",
+      "tournament": "ITF M15 Monastir 32 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Coulibaly",
+      "score": "2-6 2-6"
+    }
+  ]
+}
