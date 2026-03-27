@@ -3,7 +3,7 @@
   "gs_id": "164108",
   "player_name": "Ozan Baris",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:52:34.937Z",
+  "updated": "2026-03-27T02:55:54.961Z",
   "matches": [
     {
       "date": "20251108",
@@ -97,17 +97,56 @@
       "score": "3-6 6-3 2-6"
     },
     {
-      "date": "20240312",
-      "tournament": "ITF M25 Bakersfield",
+      "date": "20230729",
+      "tournament": "ITF M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Vandecasteele",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20230728",
+      "tournament": "ITF M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Al Allaf",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20230727",
+      "tournament": "ITF M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Kingsley",
+      "score": "7-5 6(2)-7(7) 4-6"
+    },
+    {
+      "date": "20230726",
+      "tournament": "ITF M25 Edwardsville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Clark",
-      "score": "6-4 2-6 6-4"
+      "result": "W",
+      "opponent": "O. O&apos;Hoisin",
+      "score": "5-7 7(7)-6(4) 6-1"
     },
     {
       "date": "20220607",
@@ -121,58 +160,6 @@
       "result": "L",
       "opponent": "L. Draxl",
       "score": "6-2 6-3"
-    },
-    {
-      "date": "20220316",
-      "tournament": "M25 Antalya 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Isomura",
-      "score": "6(6)-7(8) 7(7)-6(1) 6(6)-7(8)"
-    },
-    {
-      "date": "20220309",
-      "tournament": "M25 Antalya 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Molleker",
-      "score": "6-4 7-5"
-    },
-    {
-      "date": "20220224",
-      "tournament": "M15 Naples",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Stodder",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20220223",
-      "tournament": "M15 Naples",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Zhu",
-      "score": "6-4 6-4"
     }
   ]
 }
