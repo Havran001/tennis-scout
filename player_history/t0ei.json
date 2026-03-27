@@ -3,37 +3,50 @@
   "gs_id": "87171",
   "player_name": "Aristotelis Thanos",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:05:26.013Z",
+  "updated": "2026-03-27T06:57:42.027Z",
   "matches": [
     {
-      "date": "20250701",
-      "tournament": "Modena",
+      "date": "20251001",
+      "tournament": "Antofagasta",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Vallejo",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250930",
+      "tournament": "Antofagasta",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20250929",
+      "tournament": "Antofagasta",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "A. Pellegrino",
-      "score": "4-6 4-6"
+      "opponent": "F. Roncadelli",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20250630",
-      "tournament": "Modena",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. A. Caniato",
-      "score": "4-6 6-1 5-7"
-    },
-    {
-      "date": "20250629",
-      "tournament": "Modena",
+      "date": "20250928",
+      "tournament": "Antofagasta",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,51 +54,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Nijboer",
-      "score": "6-4 6-2"
+      "opponent": "B. De La Pena",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20250615",
-      "tournament": "M25 Varnamo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Ymer",
-      "score": "6-4 7(7)-6(3)"
-    },
-    {
-      "date": "20250614",
-      "tournament": "M25 Varnamo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. J. Planinsek",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20250613",
-      "tournament": "M25 Varnamo",
+      "date": "20240906",
+      "tournament": "M15 Budapest 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Coppejans",
-      "score": "6(2)-7(7) 3-6"
+      "result": "L",
+      "opponent": "A. Jilly",
+      "score": "6-3 3-0 ret."
     },
     {
-      "date": "20250612",
-      "tournament": "M25 Varnamo",
+      "date": "20240905",
+      "tournament": "M15 Budapest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Szajrych",
-      "score": "2-6 2-6"
+      "opponent": "B. Butulija",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20250611",
-      "tournament": "M25 Varnamo",
+      "date": "20240904",
+      "tournament": "M15 Budapest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Hallquist Lithen",
-      "score": "2-6 5-7"
+      "opponent": "S. Cooper",
+      "score": "6-2 7(7)-6(2)"
     }
   ]
 }
