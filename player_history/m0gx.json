@@ -3,11 +3,37 @@
   "gs_id": "58432",
   "player_name": "Javier Molino",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:57:57.942Z",
+  "updated": "2026-03-27T01:49:32.934Z",
   "matches": [
     {
-      "date": "20221124",
-      "tournament": "M15 Madrid 2",
+      "date": "20240611",
+      "tournament": "ITF M25 Martos Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bouquier",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20230613",
+      "tournament": "ITF M25 Martos Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Faria",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20220616",
+      "tournament": "M25 Martos",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Ivanovski",
-      "score": "6-4 6-2"
+      "opponent": "J. McCabe",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20221123",
-      "tournament": "M15 Madrid 2",
+      "date": "20220615",
+      "tournament": "M25 Martos",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Lofman",
-      "score": "6-3 6-2"
+      "opponent": "D. Blanch",
+      "score": "5-7 7(8)-6(6) 6-2"
     }
   ]
 }
