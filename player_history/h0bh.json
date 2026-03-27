@@ -3,33 +3,46 @@
   "gs_id": "37571",
   "player_name": "Rinky Hijikata",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:45:25.990Z",
+  "updated": "2026-03-27T08:04:01.057Z",
   "matches": [
     {
-      "date": "20230228",
-      "tournament": "Waco",
+      "date": "20240418",
+      "tournament": "Acapulco",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Mochizuki",
-      "score": "6-3 6(2)-7(7) 5-7"
+      "result": "W",
+      "opponent": "B. Artnak",
+      "score": "7(7)-6(5) 6-3"
     },
     {
-      "date": "20221108",
-      "tournament": "Matsuyama",
+      "date": "20240418",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Galarneau",
+      "score": "6-0 7-5"
+    },
+    {
+      "date": "20240416",
+      "tournament": "Acapulco",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Serdarusic",
-      "score": "3-6 7-5 2-6"
+      "result": "W",
+      "opponent": "B. Bicknell",
+      "score": "4-6 6-2 6-3"
     }
   ]
 }
