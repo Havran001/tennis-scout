@@ -3,11 +3,11 @@
   "gs_id": "134908",
   "player_name": "Mateo Castaneda",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:31.992Z",
+  "updated": "2026-03-27T08:22:24.065Z",
   "matches": [
     {
-      "date": "20220927",
-      "tournament": "M25 Ibague",
+      "date": "20250211",
+      "tournament": "M15 Huamantla 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
+      "opponent": "P. Kumar",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20250130",
+      "tournament": "M15 Huamantla",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Perez",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20250128",
+      "tournament": "M15 Huamantla",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
       "opponent": "N. Buitrago",
-      "score": "6-1 6-0"
+      "score": "6-1 1-6 7(7)-6(5)"
+    },
+    {
+      "date": "20250115",
+      "tournament": "M15 Santiago",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. J. Rodriguez",
+      "score": "0-6 5-7"
+    },
+    {
+      "date": "20240724",
+      "tournament": "ITF M15 Huamantla 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. F. Rubio Fierros",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20240717",
+      "tournament": "ITF M15 Huamantla Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. C. Alvarez Valdes",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20240623",
+      "tournament": "Ibague",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Nordquist",
+      "score": "6-4 6-3"
     }
   ]
 }
