@@ -1150,12 +1150,12 @@ function buildPlayersTab(sh){
             var hm=tableCSS+'<table class="mh-table"><thead><tr><th>W/L</th><th>Date</th><th>Tournament</th><th>Surface</th><th>Rd</th><th>Rk</th><th>vRk</th><th>Opponent</th><th>Score</th><th>Odds</th><th>DR</th><th>A%</th><th>DF%</th><th>1stIn</th><th>1st%</th><th>2nd%</th><th>BPSvd</th><th>Time</th></tr></thead><tbody>';
             var lastYear='';
             filtered.forEach(function(m){
-              var yr=m.date?m.date.substring(0,4):'';
+              var yr=m.date?(m.date.replace(/-/g,'')).substring(0,4):'';
               if(yr!==lastYear){
                 hm+='<tr class="yr-sep"><td colspan="18">'+yr+'</td></tr>';
                 lastYear=yr;
               }
-              var dd=m.date&&m.date.length>=8?m.date.slice(6,8)+'.'+m.date.slice(4,6)+'.'+m.date.slice(0,4):m.date||'';
+              var _d=m.date||'',_dn=_d.replace(/-/g,''),dd=_dn.length>=8?_dn.slice(6,8)+'.'+_dn.slice(4,6)+'.'+_dn.slice(0,4):_d;
               var isW=m.result==='W',isL=m.result==='L';
               var wlClass=isW?'ta-wl-w':isL?'ta-wl-l':'';
               var wlTxt=isW?'W':isL?'L':m.result||'';
