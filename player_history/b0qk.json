@@ -3,11 +3,11 @@
   "gs_id": "163494",
   "player_name": "Lorenzo Beraldo",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:17:56.830Z",
+  "updated": "2026-03-27T02:55:21.965Z",
   "matches": [
     {
-      "date": "20260304",
-      "tournament": "M15 Monastir 8",
+      "date": "20250819",
+      "tournament": "M25 Lesa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Gannon",
-      "score": "6-3 3-6 2-6"
+      "opponent": "G. Pennaforti",
+      "score": "7(7)-6(1) 6-3"
     },
     {
-      "date": "20260217",
-      "tournament": "M25 Trento",
+      "date": "20250716",
+      "tournament": "M15 Gubbio",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Malgaroli",
-      "score": "3-6 4-6"
+      "opponent": "G. Piraino",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20250306",
-      "tournament": "M15 Antalya 7",
+      "date": "20250416",
+      "tournament": "M15 Dubrovnik",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Alcala Gurri",
-      "score": "6-4 6-2"
+      "opponent": "A. Zakharov",
+      "score": "5-7 0-6"
     },
     {
-      "date": "20250305",
-      "tournament": "M15 Antalya 7",
+      "date": "20250415",
+      "tournament": "M15 Dubrovnik",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Saritas",
-      "score": "4-6 6-1 6-2"
+      "opponent": "T. Milovanov",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20240718",
+      "tournament": "ITF M15 Gubbio Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. M. Noce",
+      "score": "6-0 6(10)-7(12) 4-6"
+    },
+    {
+      "date": "20240717",
+      "tournament": "ITF M15 Gubbio Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Forti",
+      "score": "6-3 0-0 ret."
     }
   ]
 }
