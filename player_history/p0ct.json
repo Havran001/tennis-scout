@@ -3,8 +3,21 @@
   "gs_id": "58084",
   "player_name": "Francesco Passaro",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:11:22.089Z",
+  "updated": "2026-03-27T09:26:54.114Z",
   "matches": [
+    {
+      "date": "20251111",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Broady",
+      "score": "3-6 5-7"
+    },
     {
       "date": "20250620",
       "tournament": "Sassuolo",
@@ -58,8 +71,8 @@
       "score": "6-3 4-6 6-1"
     },
     {
-      "date": "20250325",
-      "tournament": "Naples",
+      "date": "20241119",
+      "tournament": "Montemar",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,73 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Ymer",
-      "score": "6(6)-7(8) 6-3 7-5"
-    },
-    {
-      "date": "20240330",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Nardi",
-      "score": "3-6 7-5 6-1"
-    },
-    {
-      "date": "20240329",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "U. Blanchet",
-      "score": "6-2 2-6 6-2"
-    },
-    {
-      "date": "20240328",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Napolitano",
-      "score": "7(8)-6(6) 0-6 6-4"
-    },
-    {
-      "date": "20240325",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Z. Piros",
-      "score": "6-4 4-6 5-7"
-    },
-    {
-      "date": "20231114",
-      "tournament": "Danderyd",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Albot",
-      "score": "6-4 3-6 4-6"
+      "opponent": "N. Budkov Kjaer",
+      "score": "7(7)-6(4) 4-6 6-0"
     }
   ]
 }
