@@ -3,33 +3,20 @@
   "gs_id": "177325",
   "player_name": "Vladimir Bazilevskiy",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:59:33.947Z",
+  "updated": "2026-03-27T02:55:57.962Z",
   "matches": [
     {
-      "date": "20251030",
-      "tournament": "M15 Heraklion 12",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Henning",
-      "score": "2-6 0-1 ret."
-    },
-    {
-      "date": "20251029",
-      "tournament": "M15 Heraklion 12",
+      "date": "20240827",
+      "tournament": "ITF M15 Budapest Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Cizek",
-      "score": "6(5)-7(7) 6-4 6-2"
+      "result": "L",
+      "opponent": "P. Kaukovalta",
+      "score": "1-6 4-6"
     },
     {
       "date": "20230803",
@@ -69,6 +56,71 @@
       "result": "W",
       "opponent": "B. Jones",
       "score": "2-6 6-4 7(7)-6(2)"
+    },
+    {
+      "date": "20230427",
+      "tournament": "ITF M25 Tbilisi Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Coulibaly",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20230426",
+      "tournament": "ITF M25 Tbilisi Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Tsurtsumia",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220810",
+      "tournament": "M15 Herzlia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Little",
+      "score": "6-2 7(7)-6(4)"
+    },
+    {
+      "date": "20220803",
+      "tournament": "M15 Kfar Saba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Sanghera",
+      "score": "6-4 5-7 4-6"
+    },
+    {
+      "date": "20220802",
+      "tournament": "M15 Kfar Saba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Inui",
+      "score": "6(4)-7(7) 3-6"
     }
   ]
 }
