@@ -3,11 +3,11 @@
   "gs_id": "157886",
   "player_name": "Rafael Tosetto",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:09.940Z",
+  "updated": "2026-03-27T04:58:58.989Z",
   "matches": [
     {
-      "date": "20260225",
-      "tournament": "M15 Naples",
+      "date": "20251007",
+      "tournament": "M25 Rio de Janeiro",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Sell",
-      "score": "5-7 7-5 6-0"
+      "opponent": "P. Sakamoto",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20230414",
-      "tournament": "ITF M15 Sunrise",
+      "date": "20240128",
+      "tournament": "Piracicaba Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Monzon",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20231130",
+      "tournament": "M15 Santa Cruz 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,8 +41,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
+      "opponent": "V. Aboian",
+      "score": "6-2 7(7)-6(4)"
+    },
+    {
+      "date": "20231129",
+      "tournament": "M15 Santa Cruz 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Hoyos Franco",
+      "score": "6(3)-7(7) 7(7)-6(4) 6-0"
+    },
+    {
+      "date": "20231117",
+      "tournament": "ITF M15 Boca Raton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. F. Descotte",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20231116",
+      "tournament": "ITF M15 Boca Raton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
       "opponent": "V. Goncalves",
-      "score": "6-4 3-6 6-3"
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230428",
+      "tournament": "M15 Mogi das Cruzes",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Fonseca",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20230427",
+      "tournament": "M15 Mogi das Cruzes",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. J. Escurra Isnardi",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20230426",
+      "tournament": "M15 Mogi das Cruzes",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Vallejo",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20221130",
+      "tournament": "M25 Vacaria",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Ribeiro",
+      "score": "4-6 6-4 4-6"
+    },
+    {
+      "date": "20221123",
+      "tournament": "M25+H Lajeado",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Boscardin Dias",
+      "score": "6-1 6-4"
     }
   ]
 }
