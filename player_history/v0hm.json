@@ -3,11 +3,11 @@
   "gs_id": "200559",
   "player_name": "Gabriele Vulpitta",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:56:35.957Z",
+  "updated": "2026-03-27T06:11:35.013Z",
   "matches": [
     {
-      "date": "20250716",
-      "tournament": "M15 Gubbio",
+      "date": "20250618",
+      "tournament": "M25 Cattolica",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Simundza",
-      "score": "7-5 6-4"
+      "opponent": "N. Catini",
+      "score": "6-2 1-6 6-2"
     },
     {
-      "date": "20250709",
-      "tournament": "M15 Litija",
+      "date": "20240924",
+      "tournament": "M25 Santa Margherita di Pula 8",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,38 +28,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. A. Falabella",
-      "score": "6(1)-7(7) 6-4 3-6"
-    },
-    {
-      "date": "20240613",
-      "tournament": "M15 Chieti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Ovcharenko",
+      "opponent": "C. Sanchez Jover",
       "score": "6-4 7(7)-6(5)"
     },
     {
-      "date": "20240612",
-      "tournament": "M15 Chieti",
+      "date": "20240918",
+      "tournament": "ITF M25 Santa Margherita di Pula 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. D&apos;Agostino",
-      "score": "6-4 6-3"
+      "result": "L",
+      "opponent": "A. Picchione",
+      "score": "2-6 6-4 6-2"
     },
     {
-      "date": "20240610",
-      "tournament": "M15 Chieti",
+      "date": "20240917",
+      "tournament": "ITF M25 Santa Margherita di Pula 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Andaloro",
-      "score": "7-5 1-6 6(3)-7(7)"
+      "opponent": "N. Perfetti",
+      "score": "7(7)-6(1) 6-3"
+    },
+    {
+      "date": "20230914",
+      "tournament": "ITF M25 Pozzuoli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Forti",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20230913",
+      "tournament": "ITF M25 Pozzuoli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Sorrentino",
+      "score": "6-1 6-2"
     }
   ]
 }
