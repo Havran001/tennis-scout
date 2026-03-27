@@ -1,1 +1,35 @@
-{"player_id":"t0j0","sack_id":"212642","name":"Patrik Trhac","total":0,"matches":[]}
+{
+  "player_id": "t0j0",
+  "gs_id": "201870",
+  "player_name": "Patrik Trhac",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T11:03:18.126Z",
+  "matches": [
+    {
+      "date": "20250812",
+      "tournament": "Sumter",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Seggerman",
+      "score": "4-6 6-1 6-2"
+    },
+    {
+      "date": "20250811",
+      "tournament": "Sumter",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Melnic",
+      "score": "3-6 6-3 7(7)-6(4)"
+    }
+  ]
+}
