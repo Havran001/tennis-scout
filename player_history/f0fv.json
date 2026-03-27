@@ -3,8 +3,60 @@
   "gs_id": "177309",
   "player_name": "Joao Fonseca",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:59:45.987Z",
+  "updated": "2026-03-27T06:11:08.017Z",
   "matches": [
+    {
+      "date": "20230624",
+      "tournament": "ITF M15 Saarlouis Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. M. Jong",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20230623",
+      "tournament": "ITF M15 Saarlouis Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Naw",
+      "score": "6(4)-7(7) 5-7"
+    },
+    {
+      "date": "20230622",
+      "tournament": "ITF M15 Saarlouis Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Altamirano",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20230620",
+      "tournament": "ITF M15 Saarlouis Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Welte",
+      "score": "7-5 7-5"
+    },
     {
       "date": "20230429",
       "tournament": "M15 Mogi das Cruzes",
@@ -56,71 +108,6 @@
       "result": "W",
       "opponent": "J. M. Nusdeo",
       "score": "4-6 3-6"
-    },
-    {
-      "date": "20221124",
-      "tournament": "M25+H Lajeado",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Heide",
-      "score": "6-1 7(7)-6(4)"
-    },
-    {
-      "date": "20221123",
-      "tournament": "M25+H Lajeado",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. J. Escurra Isnardi",
-      "score": "5-7 6(6)-7(8)"
-    },
-    {
-      "date": "20221021",
-      "tournament": "ITF M25 Rio de Janeiro Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "W. Leite",
-      "score": "6-3 4-6 6-1"
-    },
-    {
-      "date": "20221020",
-      "tournament": "ITF M25 Rio de Janeiro Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. T. Geschwind",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20221018",
-      "tournament": "ITF M25 Rio de Janeiro Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Barreiros Reyes",
-      "score": "6-3 6-2"
     }
   ]
 }
