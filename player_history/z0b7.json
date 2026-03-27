@@ -3,11 +3,11 @@
   "gs_id": "62803",
   "player_name": "Richard Zusman",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:49:40.934Z",
+  "updated": "2026-03-27T04:53:15.990Z",
   "matches": [
     {
-      "date": "20250521",
-      "tournament": "M25 Mataro",
+      "date": "20250430",
+      "tournament": "M25 Sabadell",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Curras Abasolo",
-      "score": "1-6 2-6"
+      "opponent": "K. Cekirge",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240820",
+      "tournament": "ITF M25 Idanha-a-Nova 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Gray",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240507",
+      "tournament": "M25 Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Damas",
+      "score": "7-5 1-6 3-6"
+    },
+    {
+      "date": "20240501",
+      "tournament": "ITF M25 Sabadell Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Cukierman",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20240226",
+      "tournament": "Tenerife 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Misolic",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240219",
+      "tournament": "Tenerife 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kovalik",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20231005",
+      "tournament": "ITF M25 Zaragoza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Cesar Porras",
+      "score": "7(7)-6(5) 6-2"
+    },
+    {
+      "date": "20231003",
+      "tournament": "ITF M25 Zaragoza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Winter Lopez",
+      "score": "6-3 ret."
     },
     {
       "date": "20230614",
@@ -32,8 +123,8 @@
       "score": "6-3 3-6 6-4"
     },
     {
-      "date": "20220222",
-      "tournament": "M25 Antalya 2",
+      "date": "20230510",
+      "tournament": "ITF M25 Valldoreix Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +132,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Diez",
-      "score": "0-6 2-6"
+      "opponent": "U. Blanchet",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20230504",
+      "tournament": "ITF M25 Sabadell Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Jorda Sanchis",
+      "score": "2-6 6(4)-7(7)"
+    },
+    {
+      "date": "20230503",
+      "tournament": "ITF M25 Sabadell Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Manzanera Pertusa",
+      "score": "4-6 7(7)-6(4) 7-5"
+    },
+    {
+      "date": "20220628",
+      "tournament": "M15 Wroclaw",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Wojcik",
+      "score": "1-6 7(7)-6(3) 2-6"
     }
   ]
 }
