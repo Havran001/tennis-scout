@@ -3,7 +3,7 @@
   "gs_id": "3886",
   "player_name": "Ramkumar Ramanathan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:24:52.087Z",
+  "updated": "2026-03-27T11:37:53.180Z",
   "matches": [
     {
       "date": "20250909",
@@ -45,8 +45,34 @@
       "score": "5-7 6(4)-7(7)"
     },
     {
-      "date": "20250504",
-      "tournament": "Wuxi",
+      "date": "20250526",
+      "tournament": "Chisinau",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. R. Ganta S.",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250526",
+      "tournament": "Chisinau",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sasikumar",
+      "score": "6-4 6(2)-7(7) 4-6"
+    },
+    {
+      "date": "20250331",
+      "tournament": "Menorca",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,8 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Bouzige",
-      "score": "4-6 2-6"
+      "opponent": "M. Damas",
+      "score": "6-3 6-4"
     },
     {
       "date": "20241021",
@@ -108,58 +134,6 @@
       "result": "L",
       "opponent": "T. J. Fancutt",
       "score": "6-4 6(2)-7(7) 6-3"
-    },
-    {
-      "date": "20240523",
-      "tournament": "Kachreti",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Sekulic",
-      "score": "6(6)-7(8) 6-4 6(0)-7(7)"
-    },
-    {
-      "date": "20240522",
-      "tournament": "Kachreti",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "U. Blanch",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20240521",
-      "tournament": "Kachreti",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Oliel",
-      "score": "3-6 5-7"
-    },
-    {
-      "date": "20240505",
-      "tournament": "Wuxi Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Takahashi",
-      "score": "7(7)-6(3) 7-5"
     }
   ]
 }
