@@ -3,20 +3,33 @@
   "gs_id": "263024",
   "player_name": "Achilles Belkovics",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:00:44.993Z",
+  "updated": "2026-03-27T07:08:01.030Z",
   "matches": [
     {
-      "date": "20250827",
-      "tournament": "M15 Budapest",
+      "date": "20250925",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Dalmasso",
+      "score": "2-6 7-5 6-3"
+    },
+    {
+      "date": "20250924",
+      "tournament": "M15 Budapest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Ivanov",
-      "score": "5-7 6-1 0-6"
+      "result": "W",
+      "opponent": "R. Kis Balazs",
+      "score": "6-1 6-2"
     }
   ]
 }
