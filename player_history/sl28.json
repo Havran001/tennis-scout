@@ -3,37 +3,63 @@
   "gs_id": "2713",
   "player_name": "Jan-Lennard Struff",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:44:08.973Z",
+  "updated": "2026-03-27T09:24:48.123Z",
   "matches": [
     {
-      "date": "20230207",
-      "tournament": "Vilnius",
+      "date": "20251115",
+      "tournament": "Lyon 2",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Gerasimov",
-      "score": "6-3 6-4"
+      "result": "W",
+      "opponent": "L. Broady",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20220727",
-      "tournament": "Zug",
+      "date": "20251114",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Added",
+      "score": "6-1 6(5)-7(7) 2-6"
+    },
+    {
+      "date": "20251113",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Kopriva",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20251112",
+      "tournament": "Lyon 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Giustino",
-      "score": "4-6 6(5)-7(7)"
+      "result": "W",
+      "opponent": "M. Lajal",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20220726",
-      "tournament": "Zug",
+      "date": "20251111",
+      "tournament": "Lyon 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Coppejans",
-      "score": "2-6 6-3 3-6"
+      "opponent": "B. Zhukayev",
+      "score": "6(5)-7(7) 7(7)-6(1) 6-4"
+    },
+    {
+      "date": "20251017",
+      "tournament": "Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Moutet",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20251016",
+      "tournament": "Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Khachanov",
+      "score": "6-4 6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20251015",
+      "tournament": "Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. McDonald",
+      "score": "2-6 6-3 6-4"
     }
   ]
 }
