@@ -3,33 +3,85 @@
   "gs_id": "115703",
   "player_name": "Nishesh Basavareddy",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:59:03.934Z",
+  "updated": "2026-03-27T03:52:50.974Z",
   "matches": [
     {
-      "date": "20220127",
-      "tournament": "M25 Weston",
+      "date": "20240929",
+      "tournament": "Charleston",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Butvilas",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240928",
+      "tournament": "Charleston",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J.J. Wolf",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20240928",
+      "tournament": "Charleston",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Eubanks",
+      "score": "4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240927",
+      "tournament": "Charleston",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Quinn",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20240924",
+      "tournament": "Charleston",
+      "surface": "Hard",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Sec",
-      "score": "6-0 6-1"
+      "opponent": "A. Rybakov",
+      "score": "6-4 4-6 4-6"
     },
     {
-      "date": "20220127",
-      "tournament": "M25 Weston",
+      "date": "20220719",
+      "tournament": "Indianapolis",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. E. Esteve",
-      "score": "6(5)-7(7) 4-6"
+      "opponent": "P. Gojowczyk",
+      "score": "6(4)-7(7) 6(3)-7(7)"
     }
   ]
 }
