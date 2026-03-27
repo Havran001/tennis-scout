@@ -3,8 +3,47 @@
   "gs_id": "136889",
   "player_name": "Charlie Camus",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:28:52.086Z",
+  "updated": "2026-03-27T12:16:49.165Z",
   "matches": [
+    {
+      "date": "20250813",
+      "tournament": "M15 Brisbane 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Jones",
+      "score": "3-6 6-2 7(7)-6(4)"
+    },
+    {
+      "date": "20250807",
+      "tournament": "M15 Brisbane",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Sweeny",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20250806",
+      "tournament": "M15 Brisbane",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. O&apos;Connell",
+      "score": "6(3)-7(7) 4-6"
+    },
     {
       "date": "20240828",
       "tournament": "ITF M15 Cap d'Agde Men",
@@ -30,58 +69,6 @@
       "result": "W",
       "opponent": "C. Giraldi",
       "score": "7(7)-6(5) 6-3"
-    },
-    {
-      "date": "20240725",
-      "tournament": "M15 Rognac",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Aubriot",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20240724",
-      "tournament": "M15 Rognac",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Catry",
-      "score": "6-3 6(6)-7(8) 4-6"
-    },
-    {
-      "date": "20240717",
-      "tournament": "M15+H Bastia-Lucciana",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Bouquet",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20240522",
-      "tournament": "M25 Deauville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Vanshelboim",
-      "score": "6-4 5-7 1-6"
     }
   ]
 }
