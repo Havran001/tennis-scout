@@ -3,7 +3,7 @@
   "gs_id": "208808",
   "player_name": "Markus Molder",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:55:06.969Z",
+  "updated": "2026-03-27T07:12:12.035Z",
   "matches": [
     {
       "date": "20251112",
@@ -19,8 +19,8 @@
       "score": "7(11)-6(9) 6(4)-7(7) 6-1"
     },
     {
-      "date": "20251015",
-      "tournament": "M25 Monastir 8",
+      "date": "20250218",
+      "tournament": "M15 Lannion",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,20 +28,7 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Shepp",
-      "score": "6-3 7(7)-6(3)"
-    },
-    {
-      "date": "20250121",
-      "tournament": "M25 Esch/Alzette",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Ymer",
+      "opponent": "C. Camus",
       "score": "6-3 6-1"
     },
     {
@@ -58,56 +45,56 @@
       "score": "0-6 3-6"
     },
     {
-      "date": "20241031",
-      "tournament": "M15 Sharm ElSheikh 14",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Binda",
-      "score": "4-6 1-6"
-    },
-    {
-      "date": "20241030",
-      "tournament": "M15 Sharm ElSheikh 14",
+      "date": "20240612",
+      "tournament": "M15 Koszalin",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Lakshmanan",
-      "score": "4-6 6-4 4-6"
+      "result": "L",
+      "opponent": "P. Zahraj",
+      "score": "7-5 6-0"
     },
     {
-      "date": "20240905",
-      "tournament": "ITF M15 Haren Men",
+      "date": "20240430",
+      "tournament": "M15 Osijek",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Sakellaridis",
-      "score": "6-4 6-4"
+      "result": "L",
+      "opponent": "P. Woerner",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20240905",
-      "tournament": "ITF M15 Haren Men",
+      "date": "20240319",
+      "tournament": "M15 Alaminos-Larnaca 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Visker",
-      "score": "7-5 6-4"
+      "opponent": "D. N. Cazacu",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240312",
+      "tournament": "M15 Alaminos-Larnaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Tomescu",
+      "score": "1-6 3-6"
     },
     {
       "date": "20231122",
@@ -121,32 +108,6 @@
       "result": "L",
       "opponent": "M. Sharipov",
       "score": "6-0 6-3"
-    },
-    {
-      "date": "20231115",
-      "tournament": "ITF M15 Sharm ElSheikh 16 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Liutarevich",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20231025",
-      "tournament": "ITF M15 Sharm ElSheikh 15 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Dzhavakian",
-      "score": "3-6 6-0 5-1 ret."
     }
   ]
 }
