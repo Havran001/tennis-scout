@@ -3,20 +3,33 @@
   "gs_id": "313519",
   "player_name": "Nav Dayal",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:12:38.016Z",
+  "updated": "2026-03-27T11:04:38.127Z",
   "matches": [
     {
-      "date": "20251119",
-      "tournament": "M25 Heraklion 2",
+      "date": "20251127",
+      "tournament": "M25 Heraklion 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Tabacco",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20251126",
+      "tournament": "M25 Heraklion 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Perego",
-      "score": "6-1 7-5"
+      "result": "W",
+      "opponent": "P. Christoforakis",
+      "score": "2-6 0-6"
     }
   ]
 }
