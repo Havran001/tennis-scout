@@ -3,24 +3,37 @@
   "gs_id": "240981",
   "player_name": "Horia Haita Stefan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:01:00.923Z",
+  "updated": "2026-03-27T07:12:33.033Z",
   "matches": [
     {
-      "date": "20250722",
-      "tournament": "M25+H Bacau",
+      "date": "20250515",
+      "tournament": "M15 Bucharest 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Marti Pujolras",
-      "score": "6-4 0-0 ret."
+      "opponent": "K. Rahmani",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240723",
-      "tournament": "ITF M25+H Bacau Men",
+      "date": "20250514",
+      "tournament": "M15 Bucharest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. P. Paz",
+      "score": "4-6 7(7)-6(5) 3-0 ret."
+    },
+    {
+      "date": "20240903",
+      "tournament": "M15 Constanta 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Beloborodko",
-      "score": "6(4)-7(7) 2-6"
+      "opponent": "N. Ifi",
+      "score": "3-6 6(1)-7(7)"
     }
   ]
 }
