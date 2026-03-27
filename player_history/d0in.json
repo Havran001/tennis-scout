@@ -3,24 +3,37 @@
   "gs_id": "149982",
   "player_name": "Ryan Dickerson",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:57:17.938Z",
+  "updated": "2026-03-27T04:58:10.983Z",
   "matches": [
     {
-      "date": "20250501",
-      "tournament": "M15 Orange Park",
+      "date": "20251212",
+      "tournament": "M15 Lima 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Delage",
+      "score": "3-6 6-3 2-6"
+    },
+    {
+      "date": "20251211",
+      "tournament": "M15 Lima 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Kennedy",
-      "score": "4-6 6-1 6-2"
+      "result": "W",
+      "opponent": "E. Camargo Lima",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20250430",
-      "tournament": "M15 Orange Park",
+      "date": "20251210",
+      "tournament": "M15 Lima 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Johns",
-      "score": "2-6 6(9)-7(11)"
+      "opponent": "N. Villalon",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240620",
-      "tournament": "ITF M15 Rancho Santa Fe",
+      "date": "20250704",
+      "tournament": "M15 Los Angeles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Rolland",
+      "score": "3-6 7(7)-6(2) 2-6"
+    },
+    {
+      "date": "20250703",
+      "tournament": "M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. D. Hara Friend",
-      "score": "6-1 6-1"
+      "result": "W",
+      "opponent": "R. Quan",
+      "score": "6(4)-7(7) 6-3 4-6"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M15 Rancho Santa Fe",
+      "date": "20250701",
+      "tournament": "M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,11 +80,37 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Wiersholm",
-      "score": "2-6 3-6"
+      "opponent": "E. Zhu",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20240529",
+      "date": "20241113",
+      "tournament": "M15 Boca Raton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Dostanic",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20240606",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Becroft",
+      "score": "6-3 2-6 3-6"
+    },
+    {
+      "date": "20240605",
       "tournament": "ITF M15 San Diego",
       "surface": "Hard",
       "level": "I",
@@ -66,13 +118,13 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Sinha",
-      "score": "4-6 4-6"
+      "result": "W",
+      "opponent": "J. Jin",
+      "score": "7-5 3-6 6-1"
     },
     {
-      "date": "20240501",
-      "tournament": "ITF M15 Orange Park",
+      "date": "20240214",
+      "tournament": "ITF M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Farzam",
-      "score": "3-6 7-5 6-0"
+      "opponent": "M. Forbes",
+      "score": "6-4 4-6 6-4"
     },
     {
-      "date": "20240314",
-      "tournament": "ITF M25 Bakersfield",
+      "date": "20230928",
+      "tournament": "M15 Albuquerque",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Escobedo",
-      "score": "1-6 1-6"
+      "opponent": "W. Grant",
+      "score": "7-5 6-1"
     },
     {
-      "date": "20240313",
-      "tournament": "ITF M25 Bakersfield",
+      "date": "20230927",
+      "tournament": "M15 Albuquerque",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +158,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Finkelstein",
-      "score": "7-5 6-3"
+      "opponent": "A. Perez",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240207",
-      "tournament": "ITF M15 Sunrise",
+      "date": "20230727",
+      "tournament": "M15 Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. King",
+      "score": "5-7 6-1 6-1"
+    },
+    {
+      "date": "20230726",
+      "tournament": "M15 Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Stice",
+      "score": "6-2 4-6 1-6"
+    },
+    {
+      "date": "20220930",
+      "tournament": "M15 Albuquerque",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Farren",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20220929",
+      "tournament": "M15 Albuquerque",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Garcian",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20220928",
+      "tournament": "M15 Albuquerque",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Shabaz",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20220818",
+      "tournament": "M15 Memphis",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +236,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Gimenez",
-      "score": "7-5 2-6 6-4"
+      "opponent": "K. Miyoshi",
+      "score": "6-2 3-6 0-6"
+    },
+    {
+      "date": "20220713",
+      "tournament": "M15 Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Chopra",
+      "score": "6-4 2-6 4-6"
+    },
+    {
+      "date": "20220705",
+      "tournament": "M15 Waco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Jachuck",
+      "score": "6-4 7-5"
     }
   ]
 }
