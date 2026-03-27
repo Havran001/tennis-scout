@@ -3,8 +3,60 @@
   "gs_id": "120888",
   "player_name": "Daniel Merida Aguilar",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:10:08.044Z",
+  "updated": "2026-03-27T08:21:06.072Z",
   "matches": [
+    {
+      "date": "20240330",
+      "tournament": "ITF M25 Tarragona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Topo",
+      "score": "6-3 0-6 6-1"
+    },
+    {
+      "date": "20240329",
+      "tournament": "ITF M25 Tarragona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. De Krom",
+      "score": "1-6 6-2 3-6"
+    },
+    {
+      "date": "20240328",
+      "tournament": "ITF M25 Tarragona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Cesar Porras",
+      "score": "0-6 5-7"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M25 Tarragona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Lopez Montagud",
+      "score": "3-6 0-6"
+    },
     {
       "date": "20231126",
       "tournament": "ITF M15 Alcala de Henares Men",
@@ -69,6 +121,32 @@
       "result": "W",
       "opponent": "R. Villacorta-Alonso",
       "score": "4-6 1-3 ret."
+    },
+    {
+      "date": "20231114",
+      "tournament": "ITF M15 Valencia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Gaubas",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20231108",
+      "tournament": "M25 Benicarlo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krumich",
+      "score": "6-3 6-4"
     }
   ]
 }
