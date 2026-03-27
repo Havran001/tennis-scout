@@ -3,8 +3,47 @@
   "gs_id": "141533",
   "player_name": "Benjamin Torrealba",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:29:04.087Z",
+  "updated": "2026-03-27T11:01:06.128Z",
   "matches": [
+    {
+      "date": "20250802",
+      "tournament": "M15 Santiago 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cavallo",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20250731",
+      "tournament": "M15 Santiago 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Cigarran",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20250730",
+      "tournament": "M15 Santiago 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. A. Linde Palacios",
+      "score": "6-4 4-6 6-2"
+    },
     {
       "date": "20250723",
       "tournament": "M15 Santiago 3",
@@ -17,19 +56,6 @@
       "result": "L",
       "opponent": "F. Tenti",
       "score": "5-7 4-6"
-    },
-    {
-      "date": "20250115",
-      "tournament": "M15 Santiago",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Wessels",
-      "score": "6(4)-7(7) 4-6"
     },
     {
       "date": "20241205",
@@ -121,32 +147,6 @@
       "result": "W",
       "opponent": "M. Cury Bueres",
       "score": "2-6 4-6"
-    },
-    {
-      "date": "20240812",
-      "tournament": "M25 Londrina",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Yamacita",
-      "score": "7-5 6-3"
-    },
-    {
-      "date": "20240416",
-      "tournament": "ITF M15 Santiago Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Salazar",
-      "score": "6-0 6-1"
     }
   ]
 }
