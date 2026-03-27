@@ -3,11 +3,37 @@
   "gs_id": "95492",
   "player_name": "Lewie Lane",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:18:44.069Z",
+  "updated": "2026-03-27T12:12:55.429Z",
   "matches": [
     {
-      "date": "20240117",
-      "tournament": "ITF M15 Cadolzburg Men",
+      "date": "20250522",
+      "tournament": "M15 Kotka",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Oetzbach",
+      "score": "6-3 3-6 5-7"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M15 Kotka",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Aubriot",
+      "score": "7-5 1-6 4-6"
+    },
+    {
+      "date": "20250430",
+      "tournament": "M15 Oegstgeest",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Welte",
-      "score": "7-5 7-5"
+      "opponent": "N. Visker",
+      "score": "7(7)-6(5) 7(7)-6(1)"
+    },
+    {
+      "date": "20250326",
+      "tournament": "M15 Alaminos 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Pankin",
+      "score": "6-4 6(5)-7(7) 7-5"
+    },
+    {
+      "date": "20250108",
+      "tournament": "M15 Oslo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Pieczkowski",
+      "score": "6(6)-7(8) 7-5 7(7)-6(2)"
+    },
+    {
+      "date": "20250107",
+      "tournament": "M15 Oslo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Atlangeriev",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20240908",
+      "tournament": "Dobrich 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Romano",
+      "score": "6-3 4-3 ret."
+    },
+    {
+      "date": "20240828",
+      "tournament": "M15 Bucharest 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. G. Papoe",
+      "score": "2-6 7(8)-6(6) 3-6"
     }
   ]
 }
