@@ -1,1 +1,48 @@
-{"player_id":"d0kn","sack_id":"211730","name":"Sandesh Dattatray Kurale","total":0,"matches":[]}
+{
+  "player_id": "d0kn",
+  "gs_id": "170659",
+  "player_name": "Sandesh Dattatray Kurale",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T03:54:32.969Z",
+  "matches": [
+    {
+      "date": "20231121",
+      "tournament": "ITF M25 Mumbai Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Jang",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20221117",
+      "tournament": "M25 Mumbai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Crawford",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20221116",
+      "tournament": "M25 Mumbai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Reddy",
+      "score": "3-6 4-6"
+    }
+  ]
+}
