@@ -3,7 +3,7 @@
   "gs_id": "37565",
   "player_name": "Melios Efstathiou",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:51:02.973Z",
+  "updated": "2026-03-27T04:45:25.995Z",
   "matches": [
     {
       "date": "20260319",
@@ -32,8 +32,8 @@
       "score": "1-6 1-6"
     },
     {
-      "date": "20250828",
-      "tournament": "M15 Budapest",
+      "date": "20251204",
+      "tournament": "M15 Sharm ElSheikh 20",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Hornung",
-      "score": "6-3 7-5"
+      "opponent": "P. Henning",
+      "score": "6-2 3-6 6-3"
     },
     {
-      "date": "20250826",
-      "tournament": "M15 Budapest",
+      "date": "20251203",
+      "tournament": "M15 Sharm ElSheikh 20",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Rottgering",
-      "score": "4-6 6-3 1-6"
+      "opponent": "F. Fumagalli",
+      "score": "6-4 7-5"
     },
     {
-      "date": "20250806",
-      "tournament": "M15 Eupen",
+      "date": "20250313",
+      "tournament": "ITF M15 Alaminos Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Djuric",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20250312",
+      "tournament": "ITF M15 Alaminos Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Antoni",
-      "score": "0-6 6(2)-7(7)"
+      "result": "W",
+      "opponent": "F. Ferrari",
+      "score": "1-6 3-6"
     },
     {
       "date": "20241023",
@@ -84,6 +97,32 @@
       "score": "6-4 6-2"
     },
     {
+      "date": "20240320",
+      "tournament": "M15 Alaminos-Larnaca 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Pennaforti",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240313",
+      "tournament": "M15 Alaminos-Larnaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "6-2 6-2"
+    },
+    {
       "date": "20231107",
       "tournament": "Matsuyama Challenger Men",
       "surface": "Hard",
@@ -97,19 +136,6 @@
       "score": "7(7)-6(4) 2-6 2-6"
     },
     {
-      "date": "20230801",
-      "tournament": "M15 Raanana",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Azoidis",
-      "score": "6-2 6-3"
-    },
-    {
       "date": "20221109",
       "tournament": "M15 Winston-Salem",
       "surface": "Hard",
@@ -121,45 +147,6 @@
       "result": "L",
       "opponent": "M. Harper",
       "score": "6-3 6-4"
-    },
-    {
-      "date": "20220804",
-      "tournament": "M15 Kfar Saba",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Elia",
-      "score": "6-4 3-6 6-1"
-    },
-    {
-      "date": "20220803",
-      "tournament": "M15 Kfar Saba",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Mehra",
-      "score": "7(7)-6(2) 6-1"
-    },
-    {
-      "date": "20220801",
-      "tournament": "M15 Kfar Saba",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Toledano",
-      "score": "6-1 6-2"
     }
   ]
 }
