@@ -3,11 +3,37 @@
   "gs_id": "160261",
   "player_name": "Pelle Hartenstein Jonas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:54:13.920Z",
+  "updated": "2026-03-27T03:54:11.971Z",
   "matches": [
     {
-      "date": "20260303",
-      "tournament": "M25 Trimbach",
+      "date": "20251030",
+      "tournament": "M15 Heraklion 12",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Van Der Merwe",
+      "score": "6-3 6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20251029",
+      "tournament": "M15 Heraklion 12",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. D. Turcanu",
+      "score": "7(7)-6(2) 6-2"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M15 Kamen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Romano",
-      "score": "6-2 6-3"
+      "opponent": "D. Siniakov",
+      "score": "7-5 2-6 3-6"
     },
     {
-      "date": "20250305",
-      "tournament": "M25 Trimbach",
+      "date": "20240821",
+      "tournament": "ITF M15 Trier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -29,11 +55,24 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "M. Rosenkranz",
-      "score": "6-2 7-5"
+      "score": "2-6 6(2)-7(7)"
     },
     {
-      "date": "20241114",
-      "tournament": "ITF M15 Heraklion 6 Men",
+      "date": "20240626",
+      "tournament": "ITF M15 Kamen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Gulin",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20240502",
+      "tournament": "ITF M15 Orange Park",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Soriano Barrera",
-      "score": "6-4 6-1"
+      "opponent": "R. Quan",
+      "score": ""
     },
     {
-      "date": "20241113",
-      "tournament": "ITF M15 Heraklion 6 Men",
+      "date": "20240430",
+      "tournament": "ITF M15 Orange Park",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,25 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. W. Martin",
-      "score": "6-3 4-0 ret."
+      "opponent": "J. I. Cabrera",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20230705",
-      "tournament": "ITF M25 Marburg Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Rybakov",
-      "score": "4-6 0-6"
-    },
-    {
-      "date": "20221027",
-      "tournament": "M15 Tallahassee",
+      "date": "20220901",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Cornut-Chauvinc",
-      "score": "6-1 6-3"
+      "opponent": "R. Giotis",
+      "score": "3-6 6-3 5-7"
     },
     {
-      "date": "20221026",
-      "tournament": "M15 Tallahassee",
+      "date": "20220831",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,21 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Kang",
-      "score": "7(8)-6(6) 3-6 6(9)-7(11)"
-    },
-    {
-      "date": "20220802",
-      "tournament": "M15 Frederiksberg",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Poulsen Brostrom",
-      "score": "4-6 3-6"
+      "opponent": "S. Hiramatsu",
+      "score": "3-6 4-6"
     }
   ]
 }
