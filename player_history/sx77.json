@@ -1,26 +1,39 @@
 {
   "player_id": "sx77",
-  "gs_id": "33433",
-  "player_name": "Isaiah Strode",
+  "gs_id": "148946",
+  "player_name": "Elijah Strode",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:49:36.045Z",
+  "updated": "2026-03-27T08:24:22.068Z",
   "matches": [
     {
-      "date": "20241114",
-      "tournament": "M15 Morelia",
+      "date": "20250207",
+      "tournament": "M15 Huamantla 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Pannu",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250206",
+      "tournament": "M15 Huamantla 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. S. Osorio",
-      "score": "6-3 7(8)-6(6)"
+      "result": "W",
+      "opponent": "P. Alvarado",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20241113",
-      "tournament": "M15 Morelia",
+      "date": "20250204",
+      "tournament": "M15 Huamantla 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Bojicic Ono",
-      "score": "7-5 6-2"
+      "opponent": "J. A. Rodriguez",
+      "score": "3-6 7(10)-6(8) 6(5)-7(7)"
     },
     {
-      "date": "20240509",
-      "tournament": "ITF M15 Villahermosa Men",
+      "date": "20250128",
+      "tournament": "M15 Huamantla",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. A. Rodriguez",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20240801",
+      "tournament": "ITF M15 Huamantla 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. O&apos;Hoisin",
-      "score": "7(7)-6(5) 6-3"
+      "opponent": "A. F. Rubio Fierros",
+      "score": "6(6)-7(8) 7(8)-6(6) 7(9)-6(7)"
+    },
+    {
+      "date": "20240730",
+      "tournament": "ITF M15 Huamantla 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Leather",
+      "score": "6-4 3-6 2-6"
+    },
+    {
+      "date": "20240724",
+      "tournament": "ITF M15 Huamantla 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Cariov",
+      "score": "6-3 6-2"
     },
     {
       "date": "20240508",
@@ -53,9 +105,22 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Casso",
-      "score": "0-6 4-6"
+      "result": "L",
+      "opponent": "A. McHugh",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20240123",
+      "tournament": "Indian Wells 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Baris",
+      "score": "6-1 6-2"
     },
     {
       "date": "20240121",
@@ -66,9 +131,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Clark",
-      "score": "6(5)-7(7) 6-3 6-2"
+      "result": "W",
+      "opponent": "D. Cukierman",
+      "score": "4-6 0-6"
     }
   ]
 }
