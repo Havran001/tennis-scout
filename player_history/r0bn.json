@@ -3,24 +3,37 @@
   "gs_id": "167799",
   "player_name": "Simon Reveniau",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:58.936Z",
+  "updated": "2026-03-27T07:04:15.818Z",
   "matches": [
     {
-      "date": "20260324",
-      "tournament": "M25 Saint-Dizier",
+      "date": "20251016",
+      "tournament": "M15 Villers-les-Nancy",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Wenger",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20251015",
+      "tournament": "M15 Villers-les-Nancy",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Ghibaudo",
-      "score": "6-2 6-4"
+      "result": "W",
+      "opponent": "T. Bieldiugin",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20250919",
-      "tournament": "M25 Nevers",
+      "date": "20250404",
+      "tournament": "M15 Lons-le-Saunier",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Massard",
-      "score": "6-0 6-2"
+      "opponent": "O. Wallin",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20250918",
-      "tournament": "M25 Nevers",
+      "date": "20250403",
+      "tournament": "M15 Lons-le-Saunier",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Ghazouani Durand",
-      "score": "6-0 6(11)-7(13) 1-6"
+      "opponent": "L. Massard",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250916",
-      "tournament": "M25 Nevers",
+      "date": "20250401",
+      "tournament": "M15 Lons-le-Saunier",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,38 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Freire Da Silva",
+      "opponent": "B. Vitter",
       "score": "6-3 6-2"
     },
     {
-      "date": "20250318",
-      "tournament": "M25 Toulouse-Balma",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Poljak",
-      "score": "3-6 7(13)-6(11) 1-6"
-    },
-    {
-      "date": "20240710",
-      "tournament": "ITF M25 Uriage Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. A. Tailleu",
-      "score": "6(3)-7(7) 1-6"
-    },
-    {
-      "date": "20240627",
-      "tournament": "M25 Bourg-en-Bresse",
+      "date": "20240404",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "7(9)-6(7) 0-6 3-6"
+      "opponent": "A. Vatutin",
+      "score": "2-6 0-6"
     },
     {
-      "date": "20240625",
-      "tournament": "M25 Bourg-en-Bresse",
+      "date": "20240403",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,25 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Frechet",
-      "score": "6-2 6-0"
+      "opponent": "R. Vaksmann",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20230322",
-      "tournament": "ITF M25 Toulouse-Balma Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Paris",
-      "score": "6-3 6(5)-7(7) 7-5"
-    },
-    {
-      "date": "20221006",
-      "tournament": "M25 Nevers",
+      "date": "20231102",
+      "tournament": "M25+H Mulhouse",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -132,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Onclin",
-      "score": "6-2 6-2"
+      "opponent": "A. Gobat",
+      "score": "2-6 0-6"
     },
     {
-      "date": "20221004",
-      "tournament": "M25 Nevers",
+      "date": "20231031",
+      "tournament": "M25+H Mulhouse",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,8 +119,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Marti",
-      "score": "2-6 6-0 2-0 ret."
+      "opponent": "N. Colne",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20230406",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Deckers",
+      "score": "2-6 6-3 7(7)-6(2)"
+    },
+    {
+      "date": "20230404",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Sanghera",
+      "score": "2-6 6-3 2-6"
     }
   ]
 }
