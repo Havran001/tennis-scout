@@ -3,7 +3,7 @@
   "gs_id": "150070",
   "player_name": "Jiri Cizek",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:01:47.031Z",
+  "updated": "2026-03-27T08:24:05.069Z",
   "matches": [
     {
       "date": "20251127",
@@ -32,21 +32,34 @@
       "score": "6(1)-7(7) 6-2 6-2"
     },
     {
-      "date": "20250320",
-      "tournament": "M15 Ahmedabad",
+      "date": "20240712",
+      "tournament": "M15 Umag",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Denolly",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20240711",
+      "tournament": "M15 Umag",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Binda",
-      "score": "6-2 7-5"
+      "result": "W",
+      "opponent": "S. Andre",
+      "score": "7(8)-6(6) 6-3"
     },
     {
-      "date": "20250318",
-      "tournament": "M15 Ahmedabad",
+      "date": "20240710",
+      "tournament": "M15 Umag",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Kesharwani",
-      "score": "7-5 6(4)-7(7) 3-6"
-    },
-    {
-      "date": "20230426",
-      "tournament": "ITF M15 Alaminos-Larnaca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Bouzige",
-      "score": "6-3 6-3"
+      "opponent": "D. Markovina",
+      "score": "4-6 3-6"
     }
   ]
 }
