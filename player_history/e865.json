@@ -3,11 +3,24 @@
   "gs_id": "6580",
   "player_name": "Christopher Eubanks",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:50:59.014Z",
+  "updated": "2026-03-27T09:25:04.084Z",
   "matches": [
     {
-      "date": "20250723",
-      "tournament": "Bloomfield Hills",
+      "date": "20250916",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Hijikata",
+      "score": "6-4 6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20250911",
+      "tournament": "Guangzhou 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Zhou",
-      "score": "6(5)-7(7) 1-6"
+      "opponent": "C. O&apos;Connell",
+      "score": "6-3 3-6 4-6"
     },
     {
-      "date": "20250721",
-      "tournament": "Bloomfield Hills",
+      "date": "20250909",
+      "tournament": "Guangzhou 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,12 +41,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Uchiyama",
-      "score": "7(7)-6(3) 6(4)-7(7) 3-6"
+      "opponent": "K. Samrej",
+      "score": "5-7 6(4)-7(7)"
     },
     {
-      "date": "20240502",
-      "tournament": "Cagliari",
+      "date": "20241026",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cassone",
+      "score": "7(7)-6(3) 4-6 7-5"
+    },
+    {
+      "date": "20241024",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Galarneau",
+      "score": "3-6 6-2 7(7)-6(3)"
+    },
+    {
+      "date": "20241022",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Smith",
+      "score": "6-4 7(9)-6(7)"
+    },
+    {
+      "date": "20240808",
+      "tournament": "Lincoln",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -41,8 +93,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. E. Galan",
-      "score": "6-3 2-6 2-6"
+      "opponent": "J. Fearnley",
+      "score": "7-5 4-6 6-2"
+    },
+    {
+      "date": "20240806",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Spizzirri",
+      "score": "7(7)-6(3) 6-4"
     }
   ]
 }
