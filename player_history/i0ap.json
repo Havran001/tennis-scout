@@ -3,50 +3,89 @@
   "gs_id": "89959",
   "player_name": "Kalin Ivanovski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:53:35.931Z",
+  "updated": "2026-03-27T02:53:21.960Z",
   "matches": [
     {
-      "date": "20230323",
-      "tournament": "ITF M25 Toulouse-Balma Men",
+      "date": "20250701",
+      "tournament": "Troyes",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Wendelken",
-      "score": "6-1 7(7)-6(4)"
+      "opponent": "C. Hemery",
+      "score": "7(8)-6(6) 6-4"
     },
     {
-      "date": "20230321",
-      "tournament": "ITF M25 Toulouse-Balma Men",
+      "date": "20230815",
+      "tournament": "Grodzisk Mazowiecki Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Copil",
+      "score": "4-6 6-1 4-6"
+    },
+    {
+      "date": "20230702",
+      "tournament": "Troyes Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Tresca",
+      "score": "6-4 7(7)-6(0)"
+    },
+    {
+      "date": "20220803",
+      "tournament": "M15 Kottingbrunn 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Inchauspe",
-      "score": "6-2 6-4"
+      "result": "L",
+      "opponent": "M. Dellavedova",
+      "score": "2-6 6-4 6(5)-7(7)"
     },
     {
-      "date": "20230310",
-      "tournament": "M15 Creteil",
+      "date": "20220730",
+      "tournament": "M15 Kottingbrunn",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Vacherot",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20220729",
+      "tournament": "M15 Kottingbrunn",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Lamasine",
-      "score": "7(7)-6(3) 6(1)-7(7) 6(5)-7(7)"
+      "result": "W",
+      "opponent": "P. Goldsteiner",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230309",
-      "tournament": "M15 Creteil",
+      "date": "20220728",
+      "tournament": "M15 Kottingbrunn",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Glinka",
-      "score": "6-3 6(5)-7(7) 1-6"
+      "opponent": "A. Guerrieri",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20230308",
-      "tournament": "M15 Creteil",
+      "date": "20220726",
+      "tournament": "M15 Kottingbrunn",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +106,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Kivattsev",
-      "score": "6-2 4-6 6(3)-7(7)"
+      "opponent": "F. Tabacco",
+      "score": "4-6 6-3 6-3"
     },
     {
-      "date": "20230207",
-      "tournament": "ITF M15 Monastir 56 Men",
+      "date": "20220721",
+      "tournament": "M15 Innsbruck",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Vacherot",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20220719",
+      "tournament": "M15 Innsbruck",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Schaer",
-      "score": "0-6 1-6"
+      "opponent": "T. Jirousek",
+      "score": "6-3 7(7)-6(3)"
     },
     {
-      "date": "20220316",
-      "tournament": "M15 Sharm ElSheikh 5",
+      "date": "20220713",
+      "tournament": "M15 Litija",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Vilardo",
-      "score": "6-1 6-2"
+      "opponent": "I. Gimenez",
+      "score": "6-2 6-1"
     }
   ]
 }
