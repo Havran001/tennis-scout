@@ -3,11 +3,11 @@
   "gs_id": "236706",
   "player_name": "Valentin Kopeikin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:12:30.038Z",
+  "updated": "2026-03-27T09:32:45.092Z",
   "matches": [
     {
-      "date": "20241211",
-      "tournament": "M15 Sharm ElSheikh 20",
+      "date": "20250528",
+      "tournament": "M15 Tashkent 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Simakin",
-      "score": "6-2 6-4"
+      "opponent": "D. Dolzhenkov",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20240703",
-      "tournament": "M15 Tianjin 2",
+      "date": "20250521",
+      "tournament": "M15 Tashkent",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,38 +28,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Ly Nam",
-      "score": "6-0 6-1"
+      "opponent": "A. Lobanov",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20240629",
-      "tournament": "M15 Tianjin",
+      "date": "20241029",
+      "tournament": "ITF M15 Kayseri 3 Men",
       "surface": "Hard",
       "level": "I",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "W. Trongcharoenchaikul",
-      "score": "4-6 4-6"
+      "opponent": "M. N. Turker",
+      "score": "5-7 6(6)-7(8)"
     },
     {
-      "date": "20240628",
-      "tournament": "M15 Tianjin",
+      "date": "20241025",
+      "tournament": "ITF M15 Kayseri 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. C. Mo",
-      "score": "3-6 6-3 3-6"
+      "result": "L",
+      "opponent": "C. Aksu",
+      "score": "6-4 6(4)-7(7) 1-6"
     },
     {
-      "date": "20240627",
-      "tournament": "M15 Tianjin",
+      "date": "20241024",
+      "tournament": "ITF M15 Kayseri 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Sun Qian",
-      "score": "0-6 6-1 6(5)-7(7)"
+      "opponent": "B. Pokotilov",
+      "score": "5-7 3-6"
     },
     {
-      "date": "20240626",
-      "tournament": "M15 Tianjin",
+      "date": "20241023",
+      "tournament": "ITF M15 Kayseri 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +80,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Ly Nam",
-      "score": "5-7 6-1 6-3"
+      "opponent": "D. A. Tomescu",
+      "score": "6-0 6-4"
     },
     {
-      "date": "20231122",
-      "tournament": "ITF M15 Sharm ElSheikh 17 Men",
+      "date": "20241017",
+      "tournament": "ITF M15 Kayseri Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Aksu",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20241016",
+      "tournament": "ITF M15 Kayseri Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Baranec",
+      "score": "6(5)-7(7) 6-0 6(0)-7(7)"
+    },
+    {
+      "date": "20240904",
+      "tournament": "ITF M15 Tashkent 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +119,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Schell",
-      "score": "6-2 7-5"
+      "opponent": "K. Kawachi",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Tashkent Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Binda",
+      "score": "5-7 6-4 7-5"
+    },
+    {
+      "date": "20240711",
+      "tournament": "M25 Tianjin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Te",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20240710",
+      "tournament": "M25 Tianjin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Zhou",
+      "score": "6-3 6(5)-7(7) 3-6"
     }
   ]
 }
