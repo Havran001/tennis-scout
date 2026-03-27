@@ -3,11 +3,37 @@
   "gs_id": "4593",
   "player_name": "Kyle Edmund",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:50:05.056Z",
+  "updated": "2026-03-27T06:55:13.043Z",
   "matches": [
     {
-      "date": "20250518",
-      "tournament": "M25 Reggio Emilia",
+      "date": "20240207",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. De Loore",
+      "score": "7(7)-6(4) 6(5)-7(7) 6-4"
+    },
+    {
+      "date": "20231031",
+      "tournament": "M25 Sunderland 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Santillan",
+      "score": "7(7)-6(3) 6(4)-7(7) 7(7)-6(4)"
+    },
+    {
+      "date": "20231021",
+      "tournament": "ITF M25 Edgbaston Men",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Molcan",
-      "score": "2-6 1-6"
+      "opponent": "J. Fearnley",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20250517",
-      "tournament": "M25 Reggio Emilia",
+      "date": "20231020",
+      "tournament": "ITF M25 Edgbaston Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Speziali",
-      "score": "6-0 6-1"
+      "opponent": "T. Samuel",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20250516",
-      "tournament": "M25 Reggio Emilia",
+      "date": "20231019",
+      "tournament": "ITF M25 Edgbaston Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Broady",
-      "score": "6(5)-7(7) 6(3)-7(7)"
+      "opponent": "A. McHugh",
+      "score": "3-6 6(4)-7(7)"
     },
     {
-      "date": "20250514",
-      "tournament": "M25 Reggio Emilia",
+      "date": "20231018",
+      "tournament": "ITF M25 Edgbaston Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Steiner",
-      "score": "3-6 1-6"
+      "opponent": "M. Karol",
+      "score": "6-3 6(8)-7(10) 7(7)-6(2)"
     },
     {
-      "date": "20250512",
-      "tournament": "M25 Reggio Emilia",
+      "date": "20231017",
+      "tournament": "ITF M25 Edgbaston Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,60 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Potenza",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20230519",
-      "tournament": "ITF M25 Reggio Emilia Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Atmane",
-      "score": "6(2)-7(7) 4-6"
-    },
-    {
-      "date": "20230519",
-      "tournament": "ITF M25 Reggio Emilia Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Ocleppo",
-      "score": "3-2 ret."
-    },
-    {
-      "date": "20230518",
-      "tournament": "ITF M25 Reggio Emilia Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Bertola",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20230517",
-      "tournament": "ITF M25 Reggio Emilia Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Rottoli",
-      "score": "0-6 6(7)-7(9)"
+      "opponent": "H. Barton",
+      "score": "1-6 2-6"
     }
   ]
 }
