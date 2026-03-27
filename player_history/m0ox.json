@@ -1,1 +1,48 @@
-{"player_id":"m0ox","sack_id":"210341","name":"Ajay Malik","total":0,"matches":[]}
+{
+  "player_id": "m0ox",
+  "gs_id": "142151",
+  "player_name": "Ajay Malik",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T01:56:00.937Z",
+  "matches": [
+    {
+      "date": "20221101",
+      "tournament": "M15 New Delhi 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Bhatnagar",
+      "score": "6-4 6(3)-7(7) 6(2)-7(7)"
+    },
+    {
+      "date": "20211111",
+      "tournament": "M15 Indore 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Singh",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20211110",
+      "tournament": "M15 Indore 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Goveas",
+      "score": "4-6 4-6"
+    }
+  ]
+}
