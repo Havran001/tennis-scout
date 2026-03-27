@@ -3,8 +3,34 @@
   "gs_id": "160179",
   "player_name": "Iannis Miletich",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:30:39.095Z",
+  "updated": "2026-03-27T12:25:04.160Z",
   "matches": [
+    {
+      "date": "20260319",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. C. Spiridon",
+      "score": "3-3 ret."
+    },
+    {
+      "date": "20260317",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Bagnolini",
+      "score": "2-6 0-0 ret."
+    },
     {
       "date": "20251111",
       "tournament": "M15 San Gregorio di Catania 2",
@@ -17,6 +43,19 @@
       "result": "L",
       "opponent": "P. Marino",
       "score": "2-6 6-2 5-7"
+    },
+    {
+      "date": "20250915",
+      "tournament": "Targu Mures 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Tomescu",
+      "score": "4-6 6-3 6-4"
     },
     {
       "date": "20250903",
@@ -32,8 +71,8 @@
       "score": "6-3 1-6 4-6"
     },
     {
-      "date": "20250520",
-      "tournament": "M15 Bucharest 3",
+      "date": "20250610",
+      "tournament": "M15 Messina",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +80,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Preda",
-      "score": "6-1 6-2"
+      "opponent": "N. Catini",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250330",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Broady",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20250329",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. La Vela",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250328",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Mazza",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250327",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Brigida",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250325",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Tresca",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20250211",
+      "tournament": "M15 Valencia 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Santamarta Roig",
+      "score": "5-7 3-6"
     },
     {
       "date": "20240922",
@@ -95,45 +212,6 @@
       "result": "W",
       "opponent": "S. Kostic",
       "score": "4-6 2-6"
-    },
-    {
-      "date": "20240711",
-      "tournament": "M25 Kassel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Guillen Meza",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20240710",
-      "tournament": "M25 Kassel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Hansen",
-      "score": "7(8)-6(6) 6-1"
-    },
-    {
-      "date": "20240522",
-      "tournament": "M15 Cervia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Compagnucci",
-      "score": "6-3 6-2"
     }
   ]
 }
