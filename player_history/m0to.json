@@ -3,20 +3,46 @@
   "gs_id": "173933",
   "player_name": "Mae Malige",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:56:12.960Z",
+  "updated": "2026-03-27T03:54:36.971Z",
   "matches": [
     {
-      "date": "20250803",
-      "tournament": "Grodzisk Mazowiecki",
+      "date": "20251106",
+      "tournament": "M25 Monastir 9",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Rossi",
-      "score": "4-6 5-7"
+      "opponent": "A. Moro Canas",
+      "score": "3-6 6(7)-7(9)"
+    },
+    {
+      "date": "20251105",
+      "tournament": "M25 Monastir 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Ostapenkov",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20251029",
+      "tournament": "M25 Glasgow 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Forejtek",
+      "score": "7(7)-6(1) 6-4"
     },
     {
       "date": "20250507",
@@ -43,6 +69,45 @@
       "result": "W",
       "opponent": "N. Parizzia",
       "score": "5-7 5-7"
+    },
+    {
+      "date": "20241016",
+      "tournament": "M15 Villers-les-Nancy",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Ifi",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20231115",
+      "tournament": "ITF M25 Monastir 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Tabur",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20231017",
+      "tournament": "ITF M15 Villers-les-Nancy Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vatutin",
+      "score": "6-1 6-0"
     }
   ]
 }
