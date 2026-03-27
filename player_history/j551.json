@@ -3,33 +3,46 @@
   "gs_id": "13412",
   "player_name": "Nicolas Jarry",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:57:34.935Z",
+  "updated": "2026-03-27T03:44:31.969Z",
   "matches": [
     {
-      "date": "20220317",
-      "tournament": "Concepcion 2",
+      "date": "20221019",
+      "tournament": "Napoli",
       "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Pucinelli de Almeida",
-      "score": "6-4 3-6 6-3"
-    },
-    {
-      "date": "20220315",
-      "tournament": "Concepcion 2",
-      "surface": "Hard",
-      "level": "C",
+      "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Carballes Baena",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20221017",
+      "tournament": "Napoli",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "G. Villanueva",
-      "score": "6-2 6-1"
+      "opponent": "R. Brancaccio",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20221016",
+      "tournament": "Napoli",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Dougaz",
+      "score": "6-2 6-3"
     }
   ]
 }
