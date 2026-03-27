@@ -3,24 +3,50 @@
   "gs_id": "118989",
   "player_name": "Xiaoyin Yang",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:52:42.961Z",
+  "updated": "2026-03-27T06:59:45.031Z",
   "matches": [
     {
-      "date": "20260205",
-      "tournament": "M15 Sharm ElSheikh 2",
+      "date": "20250917",
+      "tournament": "M25 Guiyang",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Huang",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250815",
+      "tournament": "M25 Yinchuan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Santillan",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250814",
+      "tournament": "M25 Yinchuan",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Braynin",
-      "score": "3-6 2-6"
+      "result": "W",
+      "opponent": "M. Zhang",
+      "score": "4-6 6-4 3-6"
     },
     {
-      "date": "20260204",
-      "tournament": "M15 Sharm ElSheikh 2",
+      "date": "20250813",
+      "tournament": "M25 Yinchuan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Shebekin",
+      "opponent": "L. Xiao",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250501",
+      "tournament": "M25 Anning",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Brumm",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20250430",
+      "tournament": "M25 Anning",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. J. Sun",
       "score": "6-3 6-4"
     },
     {
-      "date": "20260128",
-      "tournament": "M15 Sharm ElSheikh",
+      "date": "20240703",
+      "tournament": "M15 Tianjin 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +93,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Jong",
-      "score": "1-6 6-4 4-6"
+      "opponent": "M. Sasikumar",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230920",
+      "tournament": "ITF M25 Guiyang Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Chen",
+      "score": "5-7 6-4 6-3"
+    },
+    {
+      "date": "20230802",
+      "tournament": "ITF M25 Anning Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. C. Mo",
+      "score": "2-6 2-6"
     }
   ]
 }
