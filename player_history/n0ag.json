@@ -3,11 +3,11 @@
   "gs_id": "41548",
   "player_name": "Mason Naumovski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:56:38.264Z",
+  "updated": "2026-03-27T04:45:50.984Z",
   "matches": [
     {
-      "date": "20250605",
-      "tournament": "M15 Luan 7",
+      "date": "20240321",
+      "tournament": "ITF M25 Swan Hill Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Jorquera",
-      "score": "7(12)-6(10) 6-1"
+      "opponent": "S. Imai",
+      "score": "7-5 3-6 7(7)-6(5)"
     },
     {
-      "date": "20250603",
-      "tournament": "M15 Luan 7",
+      "date": "20240320",
+      "tournament": "ITF M25 Swan Hill Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Sumizawa",
-      "score": "1-6 4-1 ret."
+      "opponent": "C. Ferguson",
+      "score": "7(7)-6(5) 6-4"
     },
     {
-      "date": "20240425",
-      "tournament": "ITF M15 Sanxenxo Men",
+      "date": "20231212",
+      "tournament": "ITF M15 Wellington Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. A. Barreto Sanchez",
-      "score": "6-4 6-1"
+      "opponent": "J. Court",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20240424",
-      "tournament": "ITF M15 Sanxenxo Men",
+      "date": "20231211",
+      "tournament": "ITF M15 Wellington Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Dominguez Alvarez",
-      "score": "6-2 6-2"
+      "opponent": "C. Birrell",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20230920",
+      "tournament": "ITF M25 Darwin 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Mott",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20230913",
+      "tournament": "ITF M25 Darwin Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Okamura",
+      "score": "4-6 6-4 4-6"
+    },
+    {
+      "date": "20230531",
+      "tournament": "M25 Jakarta 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Mehrotra",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20230301",
+      "tournament": "M25 Swan Hill 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dellavedova",
+      "score": "6-3 4-6 6-2"
     }
   ]
 }
