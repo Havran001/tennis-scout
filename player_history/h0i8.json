@@ -3,11 +3,11 @@
   "gs_id": "163603",
   "player_name": "Gabor Hornung",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:25:38.161Z",
+  "updated": "2026-03-27T07:03:43.962Z",
   "matches": [
     {
-      "date": "20251028",
-      "tournament": "M15 Szabolcsveresmart",
+      "date": "20250924",
+      "tournament": "M15 Budapest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,25 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. T. Pieleanu",
-      "score": "6-1 6-2"
+      "opponent": "M. Clark",
+      "score": "2-6 6-4 6-4"
     },
     {
-      "date": "20250820",
-      "tournament": "M15 Mistelbach",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Oberleitner",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20250516",
-      "tournament": "M15 Szentendre",
+      "date": "20250829",
+      "tournament": "M15 Budapest",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Ivanov",
-      "score": "6-3 6-0"
+      "opponent": "L. Broady",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20250515",
-      "tournament": "M15 Szentendre",
+      "date": "20250828",
+      "tournament": "M15 Budapest",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Chayka",
-      "score": "6-3 4-6 3-6"
+      "opponent": "M. Efstathiou",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20250514",
-      "tournament": "M15 Szentendre",
+      "date": "20250827",
+      "tournament": "M15 Budapest",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,47 +54,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Gloeckler",
-      "score": "4-6 6-1 5-7"
+      "opponent": "T. Drayton",
+      "score": "7(7)-6(3) 6-3"
     },
     {
-      "date": "20241108",
-      "tournament": "M15 Szabolcsveresmart 2",
+      "date": "20250611",
+      "tournament": "M15 Nyiregyhaza",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Nedic",
-      "score": "6-3 7-5"
+      "opponent": "D. Salazar",
+      "score": "6-0 6-3"
     },
     {
-      "date": "20241107",
-      "tournament": "M15 Szabolcsveresmart 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Kisantal",
-      "score": "6(4)-7(7) 4-6"
-    },
-    {
-      "date": "20241106",
-      "tournament": "M15 Szabolcsveresmart 2",
+      "date": "20240918",
+      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Sallay",
-      "score": "3-6 2-6"
+      "result": "L",
+      "opponent": "R. Stuurman",
+      "score": "6-2 1-0 ret."
+    },
+    {
+      "date": "20240903",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rossi",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Budapest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krajci",
+      "score": "7(9)-6(7) 6-3"
+    },
+    {
+      "date": "20240717",
+      "tournament": "M15 Nakhon Si Thammarat 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Je. Delaney",
+      "score": "3-6 7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20240612",
+      "tournament": "ITF M15 Nyiregyhaza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Loof",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230905",
+      "tournament": "ITF M15 Budapest 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Shimanov",
+      "score": "6-4 2-6 6-1"
+    },
+    {
+      "date": "20220830",
+      "tournament": "M25 Szabolcsveresmart",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Lanik",
+      "score": "3-6 6-1 6-2"
     }
   ]
 }
