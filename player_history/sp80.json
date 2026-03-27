@@ -3,11 +3,11 @@
   "gs_id": "14482",
   "player_name": "Nino Serdarusic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:25:22.103Z",
+  "updated": "2026-03-27T10:57:36.185Z",
   "matches": [
     {
-      "date": "20240820",
-      "tournament": "Dobrich",
+      "date": "20250819",
+      "tournament": "Sofia 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,21 +15,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Ch. Negritu",
-      "score": "3-6 4-6"
+      "opponent": "A. Nedic",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20240616",
-      "tournament": "Sassuolo Challenger Men",
+      "date": "20250818",
+      "tournament": "Sofia 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Fomin",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20250817",
+      "tournament": "Sofia 2",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Latinovic",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250529",
+      "tournament": "M25 Bol 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Cecchinato",
-      "score": "3-6 3-6"
+      "opponent": "M. Dodig",
+      "score": "4-6 ret."
+    },
+    {
+      "date": "20250528",
+      "tournament": "M25 Bol 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Kivattsev",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20250523",
+      "tournament": "M25 Bol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Pereira",
+      "score": "6-4 7(7)-6(2)"
+    },
+    {
+      "date": "20250522",
+      "tournament": "M25 Bol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Popovic",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M25 Bol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Malaszszak",
+      "score": "1-6 3-6"
     }
   ]
 }
