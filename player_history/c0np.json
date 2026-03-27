@@ -1,1 +1,22 @@
-{"player_id":"c0np","sack_id":"138104","name":"Stefan Cooper","total":0,"matches":[]}
+{
+  "player_id": "c0np",
+  "gs_id": "169414",
+  "player_name": "Stefan Cooper",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T03:54:29.971Z",
+  "matches": [
+    {
+      "date": "20221102",
+      "tournament": "M15 Sharm ElSheikh 16",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Echeverria",
+      "score": "6-4 6-2"
+    }
+  ]
+}
