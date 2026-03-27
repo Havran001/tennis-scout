@@ -3,11 +3,11 @@
   "gs_id": "177326",
   "player_name": "Alexandru Chirita Ioan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:59:38.935Z",
+  "updated": "2026-03-27T02:55:58.966Z",
   "matches": [
     {
-      "date": "20240222",
-      "tournament": "ITF M25 Antalya 4 Men",
+      "date": "20240530",
+      "tournament": "M15 Constanta",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Gaubas",
-      "score": "3-6 2-6"
+      "opponent": "F. Bax",
+      "score": "4-6 0-6"
     },
     {
-      "date": "20240221",
-      "tournament": "ITF M25 Antalya 4 Men",
+      "date": "20240529",
+      "tournament": "M15 Constanta",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +28,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Lipp",
+      "opponent": "V. Stoica",
       "score": "0-6 4-6"
     },
     {
-      "date": "20231115",
-      "tournament": "ITF M25 Antalya 2 Men",
+      "date": "20220908",
+      "tournament": "M15 Constanta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Snitari",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20220906",
+      "tournament": "M15 Constanta",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Milev",
+      "score": "3-6 6-4 6-3"
+    },
+    {
+      "date": "20220818",
+      "tournament": "M15 Craiova",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "G. Pennaforti",
-      "score": "3-6 4-6"
+      "opponent": "N. D. Ionel",
+      "score": "1-6 6-1 2-6"
+    },
+    {
+      "date": "20220817",
+      "tournament": "M15 Craiova",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. N. Cazacu",
+      "score": "6(4)-7(7) 0-6"
     }
   ]
 }
