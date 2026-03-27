@@ -3,76 +3,11 @@
   "gs_id": "169129",
   "player_name": "Oliver Ojakaar",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:59:03.945Z",
+  "updated": "2026-03-27T02:55:37.954Z",
   "matches": [
     {
-      "date": "20240211",
-      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Gengel",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20240210",
-      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Safwat",
-      "score": "6-3 7(7)-6(5)"
-    },
-    {
-      "date": "20240209",
-      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Purtseladze",
-      "score": "6-3 6(2)-7(7) 6-1"
-    },
-    {
-      "date": "20240208",
-      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Tamm",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20240207",
-      "tournament": "ITF M15 Sharm ElSheikh 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Elsayed",
-      "score": "6(5)-7(7) 3-6"
-    },
-    {
-      "date": "20240201",
-      "tournament": "ITF M15 Sharm ElSheikh Men",
+      "date": "20250731",
+      "tournament": "M25 Edwardsville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Giacomini",
-      "score": "6(6)-7(8) 3-6"
+      "opponent": "A. Kim",
+      "score": ""
     },
     {
-      "date": "20240131",
-      "tournament": "ITF M15 Sharm ElSheikh Men",
+      "date": "20250730",
+      "tournament": "M25 Edwardsville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Ivanov",
-      "score": "6(2)-7(7) 7(7)-6(5) 7(7)-6(3)"
+      "opponent": "E. Clark",
+      "score": "6-1 7(7)-6(3)"
+    },
+    {
+      "date": "20240627",
+      "tournament": "M15 Wroclaw",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Juszczak",
+      "score": ""
+    },
+    {
+      "date": "20240626",
+      "tournament": "M15 Wroclaw",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Kosinski",
+      "score": "6-1 7(8)-6(6)"
     }
   ]
 }
