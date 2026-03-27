@@ -3,33 +3,59 @@
   "gs_id": "284123",
   "player_name": "Benjamin O'Connell",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:55:36.970Z",
+  "updated": "2026-03-27T04:50:38.983Z",
   "matches": [
     {
-      "date": "20250702",
-      "tournament": "M15 Los Angeles",
+      "date": "20251217",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Dayal",
-      "score": "7(7)-6(1) 6-4"
+      "opponent": "S. Matsuoka",
+      "score": "7-5 5-7 2-6"
     },
     {
-      "date": "20250625",
-      "tournament": "M15 Lakewood",
+      "date": "20251216",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Becroft",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250320",
+      "tournament": "M25 Swan Hill",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Rajski",
-      "score": "1-6 2-4 ret."
+      "opponent": "A. Rai",
+      "score": "1-6 0-2 ret."
+    },
+    {
+      "date": "20250319",
+      "tournament": "M25 Swan Hill",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Klintcharov",
+      "score": "5-7 0-6"
     }
   ]
 }
