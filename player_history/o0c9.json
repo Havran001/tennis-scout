@@ -3,20 +3,33 @@
   "gs_id": "88665",
   "player_name": "Viacheslav Ovchinnikov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:51:56.973Z",
+  "updated": "2026-03-27T06:57:48.087Z",
   "matches": [
     {
-      "date": "20220802",
-      "tournament": "M15 Ust-Kamenogorsk",
+      "date": "20250828",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Friberg",
+      "score": "7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M15 Vienna",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Ibrakhimov",
-      "score": "2-6 0-6"
+      "result": "W",
+      "opponent": "J. De Cuyper",
+      "score": "7-5 4-1 ret."
     }
   ]
 }
