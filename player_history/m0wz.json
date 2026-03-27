@@ -3,7 +3,7 @@
   "gs_id": "257095",
   "player_name": "Lucas Marionneau",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:00:42.989Z",
+  "updated": "2026-03-27T09:33:01.091Z",
   "matches": [
     {
       "date": "20250526",
@@ -19,17 +19,56 @@
       "score": "7-5 6-3"
     },
     {
-      "date": "20250401",
-      "tournament": "M15 Lons-le-Saunier",
+      "date": "20250313",
+      "tournament": "M25 Creteil",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Stewart",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250311",
+      "tournament": "M25 Creteil",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Faucon",
+      "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Cap d'Agde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "L. Fomba",
-      "score": "6-3 7(7)-6(0)"
+      "opponent": "J. Engel",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Cap d'Agde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Lemire",
+      "score": "3-6 1-6"
     }
   ]
 }
