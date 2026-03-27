@@ -3,8 +3,34 @@
   "gs_id": "300329",
   "player_name": "Dmitry Kopilevich",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:57:06.964Z",
+  "updated": "2026-03-27T04:51:12.981Z",
   "matches": [
+    {
+      "date": "20251029",
+      "tournament": "M15 Sharm ElSheikh 15",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Ursu",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20251022",
+      "tournament": "M15 Sharm ElSheikh 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Eerola",
+      "score": "7(7)-6(3) 6-0"
+    },
     {
       "date": "20250819",
       "tournament": "M25 Maribor",
@@ -17,45 +43,6 @@
       "result": "L",
       "opponent": "P. R. Scomparin",
       "score": "6-2 6-1"
-    },
-    {
-      "date": "20250710",
-      "tournament": "M15 Litija",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Hurrion",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20250709",
-      "tournament": "M15 Litija",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Obrul",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20250319",
-      "tournament": "M15 Sharm ElSheikh 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bronzetti",
-      "score": "7(7)-6(2) 2-6 6(2)-7(7)"
     }
   ]
 }
