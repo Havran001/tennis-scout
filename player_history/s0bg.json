@@ -3,11 +3,50 @@
   "gs_id": "76842",
   "player_name": "Daisuke Sumizawa",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:09:20.045Z",
+  "updated": "2026-03-27T08:15:09.073Z",
   "matches": [
     {
-      "date": "20250918",
-      "tournament": "M25 Takasaki",
+      "date": "20250404",
+      "tournament": "M15 Kashiwa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Nakagawa",
+      "score": "7(7)-6(5) 2-6 6-2"
+    },
+    {
+      "date": "20250401",
+      "tournament": "M15 Kashiwa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Koyama",
+      "score": "6-2 4-6 6-1"
+    },
+    {
+      "date": "20250313",
+      "tournament": "M15 Hinode",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Horiuchi",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20250313",
+      "tournament": "M15 Hinode",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -16,24 +55,11 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "T. Kumasaka",
-      "score": "3-6 7-5 7(7)-6(1)"
+      "score": "3-6 6-3 7-5"
     },
     {
-      "date": "20250917",
-      "tournament": "M25 Takasaki",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Brumm",
-      "score": "7(7)-6(5) 6-2"
-    },
-    {
-      "date": "20240829",
-      "tournament": "M25 Hong Kong",
+      "date": "20240404",
+      "tournament": "ITF M15 Kashiwa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Weber",
-      "score": "2-6 6(4)-7(7)"
+      "opponent": "K. Saitoh",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20240827",
-      "tournament": "M25 Hong Kong",
+      "date": "20240402",
+      "tournament": "ITF M15 Kashiwa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +80,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. L. Ng",
-      "score": "6-3 6-2"
+      "opponent": "K. Matsuda",
+      "score": "6-3 3-6 6-3"
     },
     {
-      "date": "20240717",
-      "tournament": "M15 Nakhon Si Thammarat 6",
+      "date": "20240328",
+      "tournament": "ITF M15 Tsukuba Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Sakellaridis",
+      "score": "6-3 3-6 6-1"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M15 Tsukuba Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Shimomura",
+      "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20240313",
+      "tournament": "ITF M15 Hinode Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Watt",
-      "score": "6(6)-7(8) 2-6"
+      "opponent": "H. Shiraishi",
+      "score": "1-6 6(2)-7(7)"
     },
     {
       "date": "20231220",
@@ -108,45 +160,6 @@
       "result": "L",
       "opponent": "E. Hudd",
       "score": "6-2 6-2"
-    },
-    {
-      "date": "20230921",
-      "tournament": "ITF M25 Takasaki Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Nakagawa",
-      "score": "5-7 4-6"
-    },
-    {
-      "date": "20230919",
-      "tournament": "ITF M25 Takasaki Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Kumasaka",
-      "score": "0-6 0-1 ret."
-    },
-    {
-      "date": "20230830",
-      "tournament": "ITF M25 Hong Kong Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Gerasimov",
-      "score": "6-4 3-6 5-7"
     }
   ]
 }
