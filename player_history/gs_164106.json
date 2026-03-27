@@ -3,8 +3,21 @@
   "gs_id": "164106",
   "player_name": "Josef Schwaerzler Joel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:03:46.034Z",
+  "updated": "2026-03-27T08:25:55.069Z",
   "matches": [
+    {
+      "date": "20260310",
+      "tournament": "Kigali 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Napolitano",
+      "score": "7(15)-6(13) 7(7)-6(4)"
+    },
     {
       "date": "20260308",
       "tournament": "Kigali",
@@ -71,47 +84,34 @@
       "score": "6(5)-7(7) 6(1)-7(7)"
     },
     {
-      "date": "20250918",
-      "tournament": "Bad Waltersdorf",
+      "date": "20250809",
+      "tournament": "Bonn",
       "surface": "Hard",
       "level": "C",
-      "round": "R16",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Kopriva",
-      "score": "6-4 6-2"
+      "opponent": "J. Rodionov",
+      "score": "6-1 2-6 4-6"
     },
     {
-      "date": "20250917",
-      "tournament": "Bad Waltersdorf",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Stebe",
-      "score": "5-7 1-6"
-    },
-    {
-      "date": "20250522",
-      "tournament": "Skopje",
+      "date": "20250808",
+      "tournament": "Bonn",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Clarke",
-      "score": "3-6 1-6"
+      "result": "W",
+      "opponent": "V. Gaubas",
+      "score": "6-4 3-6 6(4)-7(7)"
     },
     {
-      "date": "20250521",
-      "tournament": "Skopje",
+      "date": "20250807",
+      "tournament": "Bonn",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -119,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Sharipov",
-      "score": "6-2 6-4"
+      "opponent": "F. Coria",
+      "score": "7(7)-6(4) 6-1"
     },
     {
-      "date": "20250519",
-      "tournament": "Skopje",
+      "date": "20250805",
+      "tournament": "Bonn",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -132,8 +132,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Bueno",
-      "score": "6-4 6-3"
+      "opponent": "Ch. Negritu",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20250304",
+      "tournament": "Kigali 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Pennaforti",
+      "score": "6-4 6-2"
     },
     {
       "date": "20250226",
@@ -160,97 +173,6 @@
       "result": "W",
       "opponent": "Z. Kolar",
       "score": "4-6 4-6"
-    },
-    {
-      "date": "20240917",
-      "tournament": "Bad Waltersdorf",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Taberner",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20240525",
-      "tournament": "Skopje Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Majchrzak",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20240524",
-      "tournament": "Skopje Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Campana Lee",
-      "score": "7(7)-6(4) 3-6 2-6"
-    },
-    {
-      "date": "20240523",
-      "tournament": "Skopje Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Paulson",
-      "score": "6-3 4-6 4-6"
-    },
-    {
-      "date": "20240522",
-      "tournament": "Skopje Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Kirkin",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20240521",
-      "tournament": "Skopje Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Fomin",
-      "score": "5-7 7-5 3-0 ret."
-    },
-    {
-      "date": "20230919",
-      "tournament": "Bad Waltersdorf Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Ramos",
-      "score": "6-4 1-6 3-6"
     }
   ]
 }
