@@ -1,1 +1,61 @@
-{"player_id":"t0hw","gs_id":"165010","player_name":"Nicolo Toffanin","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"v76Xbf6d","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Best H.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20260303","tournament":"M15 Antalya 5","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"G. M. Noce","score":"3-6 6-0 6-3"},{"date":"20260226","tournament":"M15 Antalya 4","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"C. Cordoba","score":"2-6 6(5)-7(7)"},{"date":"20260225","tournament":"M15 Antalya 4","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"A. Wagner","score":"3-6 3-6"},{"date":"20250107","tournament":"M15 Antalya","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"D. Kellovsky","score":"3-6 6-3 5-7"}],"total":5}
+{
+  "player_id": "t0hw",
+  "gs_id": "165010",
+  "player_name": "Nicolo Toffanin",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:00:23.789Z",
+  "matches": [
+    {
+      "date": "20260303",
+      "tournament": "M15 Antalya 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. M. Noce",
+      "score": "3-6 6-0 6-3"
+    },
+    {
+      "date": "20260226",
+      "tournament": "M15 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cordoba",
+      "score": "2-6 6(5)-7(7)"
+    },
+    {
+      "date": "20260225",
+      "tournament": "M15 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Wagner",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250107",
+      "tournament": "M15 Antalya",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kellovsky",
+      "score": "3-6 6-3 5-7"
+    }
+  ]
+}
