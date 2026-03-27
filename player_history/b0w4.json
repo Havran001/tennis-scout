@@ -3,37 +3,37 @@
   "gs_id": "269869",
   "player_name": "Manvydas Balciunas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:33:13.089Z",
+  "updated": "2026-03-26T21:17:36.827Z",
   "matches": [
     {
-      "date": "20250701",
-      "tournament": "M15 Amstelveen",
+      "date": "20250627",
+      "tournament": "M15 Alkmaar",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Sigsgaard",
-      "score": "6-2 6-4"
+      "opponent": "C. E. Overbeck",
+      "score": "7-5 1-6 4-6"
     },
     {
-      "date": "20250522",
-      "tournament": "M15 Bucharest 3",
+      "date": "20250626",
+      "tournament": "M15 Alkmaar",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gima",
-      "score": "5-7 6(5)-7(7)"
+      "result": "W",
+      "opponent": "T. Martin",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20250521",
-      "tournament": "M15 Bucharest 3",
+      "date": "20250625",
+      "tournament": "M15 Alkmaar",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. A. Boitan",
-      "score": "7(7)-6(4) 4-1 ret."
+      "opponent": "E. Khoeblal",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20240703",
-      "tournament": "ITF M15 Amstelveen Men",
+      "date": "20250312",
+      "tournament": "M15 Monastir 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Houkes",
-      "score": "6-4 4-6 2-6"
+      "opponent": "O. Wallin",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250307",
+      "tournament": "M15 Monastir 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Carboni",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20250305",
+      "tournament": "M15 Monastir 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Roe Flannelly",
+      "score": "2-6 2-6"
     }
   ]
 }
