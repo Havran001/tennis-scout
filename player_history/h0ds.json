@@ -3,11 +3,50 @@
   "gs_id": "120181",
   "player_name": "Ondrej Horak",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:28:17.087Z",
+  "updated": "2026-03-27T12:14:36.161Z",
   "matches": [
     {
-      "date": "20250812",
-      "tournament": "M15 Bielsko Biala",
+      "date": "20250711",
+      "tournament": "M15 Telfs",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Oradini",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20250710",
+      "tournament": "M15 Telfs",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Barsukov",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250709",
+      "tournament": "M15 Telfs",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Borrelli",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250610",
+      "tournament": "M25 Ceska Lipa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Knitter",
-      "score": "3-6 7-5 6-4"
+      "opponent": "Y. Milev",
+      "score": "6-1 6-4"
     },
     {
       "date": "20241114",
@@ -43,45 +82,6 @@
       "result": "W",
       "opponent": "F. Simonsson",
       "score": "6-4 7-5"
-    },
-    {
-      "date": "20240814",
-      "tournament": "ITF M15 Bielsko Biala Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Hrazdil",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20240710",
-      "tournament": "M15 Umag",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Winter",
-      "score": "6-1 7(7)-6(5)"
-    },
-    {
-      "date": "20231115",
-      "tournament": "ITF M15 Santo Domingo 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Kamrowski",
-      "score": "4-6 2-6"
     }
   ]
 }
