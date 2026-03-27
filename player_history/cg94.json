@@ -3,24 +3,76 @@
   "gs_id": "6904",
   "player_name": "Enzo Couacaud",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:52:28.046Z",
+  "updated": "2026-03-27T07:58:43.072Z",
   "matches": [
     {
-      "date": "20250113",
-      "tournament": "Nonthaburi 3",
+      "date": "20250629",
+      "tournament": "M25 Brussels",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Svrcina",
-      "score": "6-3 6-2"
+      "opponent": "M. Moeller",
+      "score": ""
     },
     {
-      "date": "20230928",
-      "tournament": "Charleston Challenger Men",
+      "date": "20250628",
+      "tournament": "M25 Brussels",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Campana Lee",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250627",
+      "tournament": "M25 Brussels",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Van Der Meerschen",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250626",
+      "tournament": "M25 Brussels",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Basile",
+      "score": "0-1 ret."
+    },
+    {
+      "date": "20250625",
+      "tournament": "M25 Brussels",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. J. Escurra Isnardi",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20250319",
+      "tournament": "Merida",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Escobedo",
-      "score": "7(8)-6(6) 7-5"
+      "opponent": "G. Johns",
+      "score": "6-4 5-7 3-6"
     },
     {
-      "date": "20230925",
-      "tournament": "Charleston Challenger Men",
+      "date": "20250318",
+      "tournament": "Merida",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Poljicak",
-      "score": "6-3 4-6 6-3"
+      "opponent": "K. Feldbausch",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20230301",
-      "tournament": "Waco",
+      "date": "20240923",
+      "tournament": "Antofagasta",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Elias",
-      "score": "6(4)-7(7) 2-6"
+      "opponent": "J. De Jong",
+      "score": "6-1 7-5"
     },
     {
-      "date": "20230221",
-      "tournament": "Rome US",
+      "date": "20240319",
+      "tournament": "Asuncion Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,47 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Kodat",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20220926",
-      "tournament": "Charleston",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Z. Svajda",
-      "score": "7(9)-6(7) 7(7)-6(1)"
-    },
-    {
-      "date": "20220719",
-      "tournament": "Indianapolis",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Koepfer",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20220712",
-      "tournament": "Rome US",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Rybakov",
-      "score": "3-6 5-6 ret."
+      "opponent": "L. J. Rodriguez",
+      "score": "7-5 4-6 6-3"
     }
   ]
 }
