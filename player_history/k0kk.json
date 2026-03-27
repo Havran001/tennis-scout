@@ -1,1 +1,35 @@
-{"player_id":"k0kk","sack_id":"211585","name":"Alex Kuperstein","total":0,"matches":[]}
+{
+  "player_id": "k0kk",
+  "gs_id": "165857",
+  "player_name": "Alex Kuperstein",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T00:54:24.924Z",
+  "matches": [
+    {
+      "date": "20221110",
+      "tournament": "M25 Austin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Markes",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20221109",
+      "tournament": "M25 Austin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Stewart",
+      "score": "4-6 3-6"
+    }
+  ]
+}
