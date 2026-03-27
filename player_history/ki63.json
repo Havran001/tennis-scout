@@ -3,37 +3,63 @@
   "gs_id": "34392",
   "player_name": "Lukas Klein",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:41:49.004Z",
+  "updated": "2026-03-27T11:45:26.198Z",
   "matches": [
     {
-      "date": "20230417",
-      "tournament": "Banja Luka",
-      "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Shelbayh",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20230416",
-      "tournament": "Banja Luka",
+      "date": "20251101",
+      "tournament": "Athens",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Cazaux",
-      "score": "4-6 4-6"
+      "result": "L",
+      "opponent": "Y. Hanfmann",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20230124",
-      "tournament": "Ottignies-Louvain-la-Neuve Challenger Men",
+      "date": "20250815",
+      "tournament": "Sumter",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bellucci",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20250814",
+      "tournament": "Sumter",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. McCabe",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250813",
+      "tournament": "Sumter",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Seggerman",
+      "score": "4-6 ret."
+    },
+    {
+      "date": "20250407",
+      "tournament": "Monza",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Gulbis",
-      "score": "6-4 6-2"
+      "opponent": "K. Sultanov",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250122",
+      "tournament": "Oeiras 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Yevseyev",
+      "score": "4-6 0-6"
     }
   ]
 }
