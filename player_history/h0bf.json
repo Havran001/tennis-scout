@@ -3,24 +3,11 @@
   "gs_id": "37576",
   "player_name": "Philip Henning",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:05:43.056Z",
+  "updated": "2026-03-27T08:08:03.056Z",
   "matches": [
     {
-      "date": "20250706",
-      "tournament": "M25 Hillcrest",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Ganesan",
-      "score": "6-2 5-7 6-1"
-    },
-    {
-      "date": "20250705",
-      "tournament": "M25 Hillcrest",
+      "date": "20250720",
+      "tournament": "M15 Hillcrest 2",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -28,12 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Peliwo",
-      "score": "6-4 2-6 6-2"
+      "opponent": "D. Badenhorst",
+      "score": "6-3 6(5)-7(7) 6-4"
     },
     {
-      "date": "20250704",
-      "tournament": "M25 Hillcrest",
+      "date": "20250720",
+      "tournament": "M15 Hillcrest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Van Der Merwe",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250718",
+      "tournament": "M15 Hillcrest 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Alberti",
-      "score": "6(3)-7(7) 6-4 6-0"
+      "opponent": "D. Sarksian",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20250703",
-      "tournament": "M25 Hillcrest",
+      "date": "20250717",
+      "tournament": "M15 Hillcrest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Aleshchev",
-      "score": "6-1 6-2"
+      "opponent": "G. Volpi",
+      "score": "7(7)-6(5) 6-4"
     },
     {
-      "date": "20250702",
-      "tournament": "M25 Hillcrest",
+      "date": "20250716",
+      "tournament": "M15 Hillcrest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,25 +67,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Suarez",
-      "score": "6-3 7-5"
+      "opponent": "P. Christoforakis",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20240627",
-      "tournament": "ITF M25 Hillcrest Men",
+      "date": "20240706",
+      "tournament": "ITF M15 Hillcrest 2 Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "D. Badenhorst",
-      "score": "3-6 6(3)-7(7)"
+      "score": "6(5)-7(7) 6-0 1-6"
     },
     {
-      "date": "20240626",
-      "tournament": "ITF M25 Hillcrest Men",
+      "date": "20240705",
+      "tournament": "ITF M15 Hillcrest 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Martin",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Hillcrest 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Matthysen",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Hillcrest 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Suresh",
-      "score": "2-6 2-6"
+      "opponent": "A. Kobelt",
+      "score": "4-6 4-6"
     }
   ]
 }
