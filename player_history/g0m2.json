@@ -1,1 +1,74 @@
-{"player_id":"g0m2","sack_id":"212153","name":"Filip Gustafsson","total":0,"matches":[]}
+{
+  "player_id": "g0m2",
+  "gs_id": "198161",
+  "player_name": "Filip Gustafsson",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T06:11:29.023Z",
+  "matches": [
+    {
+      "date": "20250626",
+      "tournament": "M15 Kursumlijska Banja 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Homberg",
+      "score": "4-6 6-1 6-4"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M15 Kursumlijska Banja 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. A. Becerra Otarola",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Varnamo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Wallin",
+      "score": "3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240508",
+      "tournament": "ITF M25 Varnamo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alimli",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20230517",
+      "tournament": "ITF M15 Kalmar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Grevelius",
+      "score": "2-6 3-6"
+    }
+  ]
+}
