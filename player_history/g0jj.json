@@ -3,11 +3,11 @@
   "gs_id": "127588",
   "player_name": "Sebastian Gorzny",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:54:10.953Z",
+  "updated": "2026-03-27T12:15:51.155Z",
   "matches": [
     {
-      "date": "20240606",
-      "tournament": "ITF M15 San Diego",
+      "date": "20251023",
+      "tournament": "M25 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. F. Rubio Fierros",
-      "score": "4-6 2-6"
+      "opponent": "R. Perot",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20240605",
-      "tournament": "ITF M15 San Diego",
+      "date": "20251022",
+      "tournament": "M25 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Petrov",
-      "score": "5-7 4-6"
+      "opponent": "A. Petrovic",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20230712",
-      "tournament": "ITF M25 Dallas",
+      "date": "20230608",
+      "tournament": "ITF M15 San Diego Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Brumm",
+      "score": "6-2 3-6 2-6"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M15 San Diego Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Donskoy",
-      "score": "0-6 3-6"
+      "result": "W",
+      "opponent": "A. Perez",
+      "score": "6-4 7(7)-6(5)"
     }
   ]
 }
