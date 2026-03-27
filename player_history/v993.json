@@ -1,13 +1,39 @@
 {
   "player_id": "v993",
-  "gs_id": "78973",
-  "player_name": "Iiro Vasa",
+  "gs_id": "31356",
+  "player_name": "Eero Vasa",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:53:56.901Z",
+  "updated": "2026-03-27T00:56:50.917Z",
   "matches": [
     {
-      "date": "20211102",
-      "tournament": "M25 Meitar",
+      "date": "20250403",
+      "tournament": "M25 Antalya 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Michalski",
+      "score": "7(7)-6(5) 4-6 6-2"
+    },
+    {
+      "date": "20250402",
+      "tournament": "M25 Antalya 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. N. Turker",
+      "score": "3-6 7(7)-6(1) 3-6"
+    },
+    {
+      "date": "20240124",
+      "tournament": "ITF M15+H Bagnoles de l'Orne Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,25 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bovy",
-      "score": "6-4 7-5"
+      "opponent": "V. Orlov",
+      "score": "7-5 4-6 2-6"
     },
     {
-      "date": "20211029",
-      "tournament": "ITF M15 Parnu 2 Men",
+      "date": "20231202",
+      "tournament": "ITF M15 Madrid 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gray",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20231201",
+      "tournament": "ITF M15 Madrid 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Ivanov",
-      "score": "6-4 7(7)-6(4)"
+      "result": "W",
+      "opponent": "D. Perez Sanz",
+      "score": "6-4 5-7 6-4"
     },
     {
-      "date": "20211028",
-      "tournament": "ITF M15 Parnu 2 Men",
+      "date": "20231130",
+      "tournament": "ITF M15 Madrid 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Bergevi",
-      "score": "6-3 5-7 4-6"
+      "opponent": "R. Jodar",
+      "score": "6-3 2-6 2-6"
     },
     {
-      "date": "20211027",
-      "tournament": "ITF M15 Parnu 2 Men",
+      "date": "20231128",
+      "tournament": "ITF M15 Madrid 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +93,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Stepanov",
-      "score": "3-6 6-4 6-2"
+      "opponent": "L. Simkiss",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20211103",
+      "tournament": "M25 Meitar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "7(7)-6(3) 6-2"
+    },
+    {
+      "date": "20211101",
+      "tournament": "M25 Meitar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Friedler",
+      "score": "3-6 4-6"
     }
   ]
 }
