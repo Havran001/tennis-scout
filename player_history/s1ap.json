@@ -1,1 +1,61 @@
-{"player_id":"s1ap","sack_id":"213007","name":"Tristan Stringer","total":3,"matches":[{"id":"MTdxCUGP","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Sinclair C.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"ry7Jg2dK","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Inui Y.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"ry7Jg2dK","date":"20260324","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Inui Y.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "s1ap",
+  "gs_id": "267449",
+  "player_name": "Tristan Stringer",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T05:00:48.986Z",
+  "matches": [
+    {
+      "date": "20250812",
+      "tournament": "M25 Aldershot",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Story",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250807",
+      "tournament": "M25 Roehampton 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Tarvet",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20250805",
+      "tournament": "M25 Roehampton 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Simkiss",
+      "score": "6-3 3-6 4-6"
+    },
+    {
+      "date": "20250430",
+      "tournament": "M15 Kursumlijska Banja 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Nedic",
+      "score": "7(8)-6(6) 6-3"
+    }
+  ]
+}
