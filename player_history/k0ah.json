@@ -3,37 +3,89 @@
   "gs_id": "33688",
   "player_name": "Sebastian Korda",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:41:45.014Z",
+  "updated": "2026-03-27T11:43:00.185Z",
   "matches": [
     {
-      "date": "20221016",
-      "tournament": "Gijon",
+      "date": "20260201",
+      "tournament": "San Diego",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Rublev",
-      "score": "2-6 3-6"
+      "opponent": "Z. Svajda",
+      "score": "6-4 7(7)-6(5)"
     },
     {
-      "date": "20221015",
-      "tournament": "Gijon",
+      "date": "20260131",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Kypson",
+      "score": "7(7)-6(4) 6-2"
+    },
+    {
+      "date": "20260130",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Draxl",
+      "score": "7(7)-6(4) 6-4"
+    },
+    {
+      "date": "20260129",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ilagan",
+      "score": "6-2 4-6 6-3"
+    },
+    {
+      "date": "20260128",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Milavsky",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20251107",
+      "tournament": "Athens",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Rinderknech",
-      "score": "7(7)-6(2) 6-3"
+      "result": "L",
+      "opponent": "L. Musetti",
+      "score": "6-0 5-7 7-5"
     },
     {
-      "date": "20221014",
-      "tournament": "Gijon",
+      "date": "20251106",
+      "tournament": "Athens",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
@@ -41,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Murray",
-      "score": "4-6 6-1 1-6"
+      "opponent": "M. Kecmanovic",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20221013",
-      "tournament": "Gijon",
+      "date": "20251104",
+      "tournament": "Athens",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -54,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Bautista-Agut",
-      "score": "5-7 6-4 6-4"
+      "opponent": "D. Dzumhur",
+      "score": "4-6 6-3 6-3"
     },
     {
-      "date": "20221012",
-      "tournament": "Gijon",
+      "date": "20251102",
+      "tournament": "Athens",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -67,8 +119,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Munar",
-      "score": "6-4 6-1"
+      "opponent": "A. Popyrin",
+      "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20250920",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Wu",
+      "score": "6-4 1-6 4-6"
+    },
+    {
+      "date": "20250919",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Walton",
+      "score": "5-7 3-6"
     }
   ]
 }
