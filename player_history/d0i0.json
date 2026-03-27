@@ -3,63 +3,11 @@
   "gs_id": "124949",
   "player_name": "Sebastian Dominko",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:47:29.974Z",
+  "updated": "2026-03-27T06:07:27.016Z",
   "matches": [
     {
-      "date": "20250828",
-      "tournament": "M25 Maribor 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Cuenin",
-      "score": "6-4 7(7)-6(2)"
-    },
-    {
-      "date": "20250827",
-      "tournament": "M25 Maribor 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Kovac",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20250821",
-      "tournament": "M25 Maribor",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Vasa",
-      "score": "6(5)-7(7) 1-6"
-    },
-    {
-      "date": "20250820",
-      "tournament": "M25 Maribor",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Kriznik",
-      "score": "3-6 6-1 7(7)-6(3)"
-    },
-    {
-      "date": "20240821",
-      "tournament": "ITF M25 Maribor 2 Men",
+      "date": "20250702",
+      "tournament": "M15 Store",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. R. Scomparin",
-      "score": "6(3)-7(7) 7-5 6(6)-7(8)"
+      "opponent": "G. Cadenasso",
+      "score": "5-7 2-6"
     },
     {
-      "date": "20240816",
-      "tournament": "ITF M25 Maribor Men",
+      "date": "20240705",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -80,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Pucinelli de Almeida",
-      "score": "3-6 7-5 6-2"
+      "opponent": "L. Carboni",
+      "score": "6(4)-7(7) 3-6"
     },
     {
-      "date": "20240815",
-      "tournament": "ITF M25 Maribor Men",
+      "date": "20240704",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -94,11 +42,11 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "M. Dimic",
-      "score": "6(5)-7(7) 6(2)-7(7)"
+      "score": "6-1 6-2"
     },
     {
-      "date": "20240814",
-      "tournament": "ITF M25 Maribor Men",
+      "date": "20240703",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Vuglar",
-      "score": "6-3 6-2"
+      "opponent": "T. Kovacic",
+      "score": "5-7 7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20230622",
+      "tournament": "ITF M15 Store Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Prechtel",
+      "score": "7-5 4-6 7-5"
+    },
+    {
+      "date": "20230622",
+      "tournament": "ITF M15 Store Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kellovsky",
+      "score": "6-3 3-6 3-6"
     }
   ]
 }
