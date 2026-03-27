@@ -3,11 +3,11 @@
   "gs_id": "87487",
   "player_name": "Nishok Kumaran Bharath",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:53:20.933Z",
+  "updated": "2026-03-27T03:47:03.968Z",
   "matches": [
     {
-      "date": "20221102",
-      "tournament": "M15 New Delhi 2",
+      "date": "20231122",
+      "tournament": "ITF M25 Mumbai Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Matsuda",
-      "score": "6-3 6-3"
+      "opponent": "R. Taguchi",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20211124",
-      "tournament": "M15 Gurugram",
+      "date": "20221123",
+      "tournament": "M15 Bhilai",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,38 +28,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. K. Sinha",
-      "score": "6-4 3-6 4-6"
+      "opponent": "B. Atlangeriev",
+      "score": "6(3)-7(7) 4-6"
     },
     {
-      "date": "20211112",
-      "tournament": "M15 Indore 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Singh",
-      "score": "7-5 2-6 6(2)-7(7)"
-    },
-    {
-      "date": "20211111",
-      "tournament": "M15 Indore 2",
+      "date": "20221117",
+      "tournament": "M25 Mumbai",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Singh",
-      "score": "6-4 6-4"
+      "result": "L",
+      "opponent": "S. Rawat",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20211110",
-      "tournament": "M15 Indore 2",
+      "date": "20221116",
+      "tournament": "M25 Mumbai",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Singh",
-      "score": "3-6 7(7)-6(3) 6-2"
+      "opponent": "C. Duhan",
+      "score": "6-3 2-6 6-2"
+    },
+    {
+      "date": "20221109",
+      "tournament": "M25 Indore",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Agarwal",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20220720",
+      "tournament": "M15 Seremban",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Huang",
+      "score": "6-2 6-1"
     }
   ]
 }
