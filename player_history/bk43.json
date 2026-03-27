@@ -3,11 +3,11 @@
   "gs_id": "1961",
   "player_name": "Enrique Bogo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:37:45.147Z",
+  "updated": "2026-03-26T23:51:35.920Z",
   "matches": [
     {
-      "date": "20251105",
-      "tournament": "M25 Santa Cruz do Sul",
+      "date": "20220824",
+      "tournament": "M15 Brasilia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,38 +15,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Ribeiro",
-      "score": "1-6 3-6"
+      "opponent": "V. Leal",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250820",
-      "tournament": "M15 Pirot 2",
+      "date": "20220818",
+      "tournament": "M15 Recife",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Rengifo",
-      "score": "7-5 6-0"
+      "opponent": "V. C. Loureiro J.",
+      "score": "6-1 6-3"
     },
     {
-      "date": "20241126",
-      "tournament": "ITF M15 Santiago 2 Men",
+      "date": "20220817",
+      "tournament": "M15 Recife",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Aboian",
-      "score": "6(2)-7(7) 4-6"
+      "result": "W",
+      "opponent": "G. C. Da Silva",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20240904",
-      "tournament": "ITF M15 Pirot 2 Men",
+      "date": "20211103",
+      "tournament": "ITF M15 Brasilia Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Pisaric",
-      "score": "6-3 6-3"
+      "opponent": "C. Huertas Del Pino",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20240814",
-      "tournament": "ITF M15 Bielsko Biala Men",
+      "date": "20211020",
+      "tournament": "M25 Rio do Sul",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +67,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Kokot",
-      "score": "6-3 7(8)-6(6)"
+      "opponent": "M. Zormann Da Silva",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20210923",
+      "tournament": "ITF M15 Recife Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Boscardin Dias",
+      "score": "6(6)-7(8) 1-6"
+    },
+    {
+      "date": "20210922",
+      "tournament": "ITF M15 Recife Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Teisen Pereira",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20210915",
+      "tournament": "ITF M25 Medellin Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Klier Junior",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20210909",
+      "tournament": "M15 Ibague",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gomez",
+      "score": "6-3 5-7 6-4"
+    },
+    {
+      "date": "20210907",
+      "tournament": "M15 Ibague",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. C. Prado Angelo",
+      "score": "6-2 4-6 6-4"
     }
   ]
 }
