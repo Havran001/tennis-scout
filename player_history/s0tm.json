@@ -1,35 +1,48 @@
 {
   "player_id": "s0tm",
-  "gs_id": "257134",
-  "player_name": "Alejandro Linde Palacios Samuel",
+  "gs_id": "71345",
+  "player_name": "Toby Samuel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:00:41.991Z",
+  "updated": "2026-03-27T06:03:29.234Z",
   "matches": [
     {
-      "date": "20241119",
-      "tournament": "M25 Antalya 5",
+      "date": "20230811",
+      "tournament": "M25 Roehampton 3",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Kolar",
-      "score": "3-6 0-6"
+      "opponent": "D. Cox",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20240424",
-      "tournament": "M25 Mosquera",
+      "date": "20230810",
+      "tournament": "M25 Roehampton 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Hurrion",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20230808",
+      "tournament": "M25 Roehampton 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Ogura",
-      "score": "2-6 1-6"
+      "result": "W",
+      "opponent": "K. L. Boyd",
+      "score": "1-6 0-6"
     }
   ]
 }
