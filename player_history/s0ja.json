@@ -3,7 +3,7 @@
   "gs_id": "57184",
   "player_name": "Eliot Spizzirri",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:26:48.108Z",
+  "updated": "2026-03-27T10:15:36.107Z",
   "matches": [
     {
       "date": "20250917",
@@ -32,6 +32,71 @@
       "score": "2-6 6-1 6-4"
     },
     {
+      "date": "20250302",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. McDonald",
+      "score": "6-4 2-6 6-4"
+    },
+    {
+      "date": "20250301",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Quinn",
+      "score": "3-6 6-4 3-6"
+    },
+    {
+      "date": "20250228",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Daniel",
+      "score": "6(2)-7(7) 6-0 6-4"
+    },
+    {
+      "date": "20250227",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Martin",
+      "score": "6-1 1-6 4-6"
+    },
+    {
+      "date": "20250225",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Hernandez",
+      "score": "3-6 1-6"
+    },
+    {
       "date": "20241023",
       "tournament": "Sioux Falls",
       "surface": "Hard",
@@ -56,45 +121,6 @@
       "result": "W",
       "opponent": "A. Martin",
       "score": "6-0 6-3"
-    },
-    {
-      "date": "20240806",
-      "tournament": "Lincoln",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Eubanks",
-      "score": "6(3)-7(7) 4-6"
-    },
-    {
-      "date": "20240805",
-      "tournament": "Lincoln",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Takahashi",
-      "score": "7(9)-6(7) 7(7)-6(2)"
-    },
-    {
-      "date": "20240804",
-      "tournament": "Lincoln",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Nefve",
-      "score": "6-3 7(7)-6(1)"
     }
   ]
 }
