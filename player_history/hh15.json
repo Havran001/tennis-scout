@@ -3,8 +3,34 @@
   "gs_id": "36244",
   "player_name": "Mikalai Haliak",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:26:09.090Z",
+  "updated": "2026-03-27T11:48:29.145Z",
   "matches": [
+    {
+      "date": "20260324",
+      "tournament": "M15 Maanshan 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zhu",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20260107",
+      "tournament": "M25 Hazebrouck",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Rolland de Ravel",
+      "score": "6-3 6-0"
+    },
     {
       "date": "20251102",
       "tournament": "M25 Qian Daohu",
@@ -110,34 +136,21 @@
       "score": "6-3 6-2"
     },
     {
-      "date": "20250708",
-      "tournament": "M15 Kursumlijska Banja 10",
+      "date": "20251012",
+      "tournament": "Shenzhen 4",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Ribero",
-      "score": "5-7 0-6"
+      "opponent": "K. Matsuda",
+      "score": "6-2 7(8)-6(6)"
     },
     {
-      "date": "20250527",
-      "tournament": "M25 Satu Mare",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Vrbensky",
-      "score": "0-3 ret."
-    },
-    {
-      "date": "20250522",
-      "tournament": "M15 Bucharest 3",
+      "date": "20250724",
+      "tournament": "M25 Metzingen",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -145,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Petak",
-      "score": "6-3 4-6 7-5"
+      "opponent": "M. Kasnikowski",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20250520",
-      "tournament": "M15 Bucharest 3",
+      "date": "20250722",
+      "tournament": "M25 Metzingen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,8 +171,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Massard",
-      "score": "6-4 3-6 4-6"
+      "opponent": "C. Cretu",
+      "score": "3-6 6-0 5-7"
+    },
+    {
+      "date": "20250321",
+      "tournament": "M25 Shenzhen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Bai",
+      "score": "4-6 6-1 6-3"
+    },
+    {
+      "date": "20250320",
+      "tournament": "M25 Shenzhen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Imamura",
+      "score": "6(5)-7(7) 5-7"
+    },
+    {
+      "date": "20250319",
+      "tournament": "M25 Shenzhen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Ichikawa",
+      "score": "7(7)-6(1) 6-1"
+    },
+    {
+      "date": "20250225",
+      "tournament": "M15 Maanshan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Liaonenka",
+      "score": "2-6 0-6"
     },
     {
       "date": "20241026",
@@ -251,58 +316,6 @@
       "result": "W",
       "opponent": "I. Denisov",
       "score": "7-5 3-6 6-3"
-    },
-    {
-      "date": "20240804",
-      "tournament": "Bonn Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Gavrielides",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20240716",
-      "tournament": "ITF M15 Bucharest 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. R. Marinescu",
-      "score": "6(1)-7(7) 1-6"
-    },
-    {
-      "date": "20240506",
-      "tournament": "Wuxi Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Bertola",
-      "score": "3-6 6-3 6-2"
-    },
-    {
-      "date": "20240505",
-      "tournament": "Wuxi Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Z. Li",
-      "score": "6-4 6-2"
     }
   ]
 }
