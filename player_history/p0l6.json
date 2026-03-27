@@ -3,24 +3,63 @@
   "gs_id": "163443",
   "player_name": "Andrea Paolini",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:59:12.989Z",
+  "updated": "2026-03-27T08:25:46.073Z",
   "matches": [
     {
-      "date": "20251113",
-      "tournament": "M25 Monastir 10",
+      "date": "20250805",
+      "tournament": "M25 Montesilvano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Perego",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20250702",
+      "tournament": "M15 Tanger",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Giunta",
+      "score": "1-6 7(7)-6(5) 3-6"
+    },
+    {
+      "date": "20250606",
+      "tournament": "M15 Caltanissetta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Oetzbach",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Caltanissetta",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Donald",
-      "score": "2-6 4-6"
+      "result": "W",
+      "opponent": "A. Coccioli",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20251112",
-      "tournament": "M25 Monastir 10",
+      "date": "20250603",
+      "tournament": "M15 Caltanissetta",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Piatti",
-      "score": "5-7 7-5 7(7)-6(5)"
+      "opponent": "N. Catini",
+      "score": "6-4 2-6 7-5"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Forli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Iannaccone",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20240807",
+      "tournament": "ITF M25 Montesilvano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dellavedova",
+      "score": "6-3 6(2)-7(7) 1-6"
+    },
+    {
+      "date": "20240806",
+      "tournament": "ITF M25 Montesilvano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Speziali",
+      "score": "6-2 1-6 2-6"
     }
   ]
 }
