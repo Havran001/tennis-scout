@@ -3,20 +3,33 @@
   "gs_id": "302010",
   "player_name": "Alexander Glomb",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:16:11.865Z",
+  "updated": "2026-03-27T01:01:15.921Z",
   "matches": [
     {
-      "date": "20250903",
-      "tournament": "M25 Meerbusch",
+      "date": "20251016",
+      "tournament": "M15 Sharm ElSheikh 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Nedelko",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20251015",
+      "tournament": "M15 Sharm ElSheikh 13",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Siniakov",
-      "score": "6-1 6-0"
+      "result": "W",
+      "opponent": "D. Kovkin",
+      "score": "7-5 6-0"
     }
   ]
 }
