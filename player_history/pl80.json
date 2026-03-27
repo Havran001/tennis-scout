@@ -3,50 +3,24 @@
   "gs_id": "76901",
   "player_name": "Bogdan Pavel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:04:10.053Z",
+  "updated": "2026-03-27T06:57:09.035Z",
   "matches": [
     {
-      "date": "20240623",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Tammaro",
-      "score": "3-6 6-2 3-6"
-    },
-    {
-      "date": "20240622",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. A. Chirita",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20240621",
-      "tournament": "ITF M15 Cluj Napoca Men",
+      "date": "20230928",
+      "tournament": "ITF M15 Arad Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "C. G. Papoe",
-      "score": "0-6 2-6"
+      "result": "L",
+      "opponent": "M. Donald",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20240620",
-      "tournament": "ITF M15 Cluj Napoca Men",
+      "date": "20230927",
+      "tournament": "ITF M15 Arad Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. D. Ionel",
-      "score": "6-2 6-2"
+      "opponent": "F. Campana",
+      "score": "3-6 6-3 3-6"
     },
     {
-      "date": "20240618",
-      "tournament": "ITF M15 Cluj Napoca Men",
+      "date": "20230926",
+      "tournament": "ITF M15 Arad Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. O. Fellin",
-      "score": "2-6 6(4)-7(7)"
+      "opponent": "D. Kellovsky",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Constanta 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
+      "score": "3-6 3-6"
     },
     {
       "date": "20230903",
@@ -134,45 +121,6 @@
       "result": "W",
       "opponent": "V. Vanta",
       "score": "6-3 6-0"
-    },
-    {
-      "date": "20230705",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zukas",
-      "score": "7(7)-6(3) 6-3"
-    },
-    {
-      "date": "20230704",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Taddia",
-      "score": "6-4 6-1"
-    },
-    {
-      "date": "20230620",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Trinker",
-      "score": "3-6 3-6"
     }
   ]
 }
