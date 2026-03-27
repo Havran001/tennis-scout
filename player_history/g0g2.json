@@ -3,8 +3,21 @@
   "gs_id": "163483",
   "player_name": "Bruno Fernandez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:25:47.073Z",
+  "updated": "2026-03-27T09:30:48.092Z",
   "matches": [
+    {
+      "date": "20250916",
+      "tournament": "M25 Londrina",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. De Dios",
+      "score": "3-6 6-4 3-6"
+    },
     {
       "date": "20250827",
       "tournament": "M25 Trelew",
@@ -30,6 +43,45 @@
       "result": "W",
       "opponent": "F. Ribero",
       "score": "6-4 6-4"
+    },
+    {
+      "date": "20241203",
+      "tournament": "ITF M15 Santiago 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Barrena",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240822",
+      "tournament": "M25 Belem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Almeida",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20240813",
+      "tournament": "M25 Londrina",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Garay",
+      "score": "1-6 6-3 6-4"
     },
     {
       "date": "20240711",
@@ -108,71 +160,6 @@
       "result": "W",
       "opponent": "E. Camargo Lima",
       "score": "6-4 7-5"
-    },
-    {
-      "date": "20240416",
-      "tournament": "San Miguel de Tucuman Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Vilicich",
-      "score": "6-3 2-6 3-6"
-    },
-    {
-      "date": "20240415",
-      "tournament": "San Miguel de Tucuman Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Monferrer",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20240414",
-      "tournament": "San Miguel de Tucuman Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Sakamoto",
-      "score": "1-3 ret."
-    },
-    {
-      "date": "20231109",
-      "tournament": "M15 Rosario",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. E. Ambrogi",
-      "score": "6-3 6(5)-7(7) 6-4"
-    },
-    {
-      "date": "20231108",
-      "tournament": "M15 Rosario",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Estevez",
-      "score": "1-6 4-6"
     }
   ]
 }
