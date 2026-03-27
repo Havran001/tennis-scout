@@ -3,8 +3,34 @@
   "gs_id": "76907",
   "player_name": "Valentin Vanta",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:13.965Z",
+  "updated": "2026-03-27T04:54:31.983Z",
   "matches": [
+    {
+      "date": "20230519",
+      "tournament": "M15 Pazardzhik",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Prihodko",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20230518",
+      "tournament": "M15 Pazardzhik",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Skorilas",
+      "score": "2-6 3-6"
+    },
     {
       "date": "20221123",
       "tournament": "M15 Sharm ElSheikh 17",
@@ -17,32 +43,6 @@
       "result": "L",
       "opponent": "P. Chrysochos",
       "score": "4-6 2-6"
-    },
-    {
-      "date": "20221103",
-      "tournament": "M25 Jerusalem",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Orlov",
-      "score": "2-6 1-6"
-    },
-    {
-      "date": "20221102",
-      "tournament": "M25 Jerusalem",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Amoyal",
-      "score": "6-0 6-0"
     }
   ]
 }
