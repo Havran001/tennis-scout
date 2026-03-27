@@ -3,11 +3,37 @@
   "gs_id": "9196",
   "player_name": "Cristian Garin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:47:59.955Z",
+  "updated": "2026-03-27T04:44:31.979Z",
   "matches": [
     {
-      "date": "20251108",
-      "tournament": "Lima 2",
+      "date": "20241010",
+      "tournament": "Valencia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Novak",
+      "score": "4-6 6(2)-7(7)"
+    },
+    {
+      "date": "20241008",
+      "tournament": "Valencia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Paire",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240329",
+      "tournament": "Girona Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Bueno",
-      "score": "5-7 6-2 4-6"
+      "opponent": "B. Hassan",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20251106",
-      "tournament": "Lima 2",
+      "date": "20240328",
+      "tournament": "Girona Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Gakhov",
-      "score": "3-6 3-6"
+      "opponent": "N. Moreno De Alboran",
+      "score": "6(3)-7(7) 2-6"
     },
     {
-      "date": "20251104",
-      "tournament": "Lima 2",
+      "date": "20240327",
+      "tournament": "Girona Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,73 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Skatov",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20250504",
-      "tournament": "Mauthausen",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Barrios Vera",
-      "score": "6-3 1-6 4-6"
-    },
-    {
-      "date": "20250503",
-      "tournament": "Mauthausen",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. A. Burruchaga",
-      "score": "3-6 6-4 6-0"
-    },
-    {
-      "date": "20250502",
-      "tournament": "Mauthausen",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Oberleitner",
-      "score": "6-2 6(6)-7(8) 6-4"
-    },
-    {
-      "date": "20250501",
-      "tournament": "Mauthausen",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Gaubas",
-      "score": "3-6 6-3 6-4"
-    },
-    {
-      "date": "20250428",
-      "tournament": "Mauthausen",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Daniel",
-      "score": "0-6 1-6"
+      "opponent": "H. Rocha",
+      "score": "6-4 3-6 6(9)-7(11)"
     }
   ]
 }
