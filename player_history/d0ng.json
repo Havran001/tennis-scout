@@ -1,1 +1,35 @@
-{"player_id":"d0ng","sack_id":"213678","name":"Felipe Dreer","total":3,"matches":[{"id":"OhToGHdU","date":"20260326","tournament":"ITF MEN - DOUBLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Martinez T./Monferrer E.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"UgzG7EcK","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Pesino S.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"0pa24FGF","date":"20260324","tournament":"ITF MEN - DOUBLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Guadagno V./Valente R.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "d0ng",
+  "gs_id": "294785",
+  "player_name": "Felipe Dreer",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T04:50:57.984Z",
+  "matches": [
+    {
+      "date": "20241128",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. La Serna",
+      "score": "7(7)-6(1) 6-0"
+    },
+    {
+      "date": "20241127",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Wendler Filho",
+      "score": "3-6 3-6"
+    }
+  ]
+}
