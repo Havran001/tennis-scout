@@ -3,8 +3,21 @@
   "gs_id": "19532",
   "player_name": "Mark Whitehouse",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:14:17.105Z",
+  "updated": "2026-03-27T10:57:40.122Z",
   "matches": [
+    {
+      "date": "20250707",
+      "tournament": "Nottingham 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vales",
+      "score": "0-6 6-3 6-4"
+    },
     {
       "date": "20250303",
       "tournament": "Hersonissos",
@@ -17,71 +30,6 @@
       "result": "L",
       "opponent": "R. Peniston",
       "score": "3-6 4-6"
-    },
-    {
-      "date": "20241031",
-      "tournament": "M25 Norwich",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Broom",
-      "score": "4-6 7-5 6-3"
-    },
-    {
-      "date": "20241029",
-      "tournament": "M25 Norwich",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Simkiss",
-      "score": "2-6 6(4)-7(7)"
-    },
-    {
-      "date": "20241009",
-      "tournament": "ITF M15 Pontevedra Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Marrero Curbelo",
-      "score": "7-5 7(7)-6(3)"
-    },
-    {
-      "date": "20240613",
-      "tournament": "M25 Aarhus",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Heinonen",
-      "score": "4-6 6-0 7-5"
-    },
-    {
-      "date": "20240612",
-      "tournament": "M25 Aarhus",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Sels",
-      "score": "4-6 0-0 ret."
     }
   ]
 }
