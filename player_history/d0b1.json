@@ -3,11 +3,11 @@
   "gs_id": "163493",
   "player_name": "Vito Dell'Elba",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:54:21.922Z",
+  "updated": "2026-03-27T04:59:03.986Z",
   "matches": [
     {
-      "date": "20251216",
-      "tournament": "M15 Monastir 46",
+      "date": "20251008",
+      "tournament": "M25 Monastir 7",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Dong",
-      "score": "6(3)-7(7) 6(6)-7(8)"
+      "opponent": "A. Shepp",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20251203",
-      "tournament": "M15 Monastir 44",
+      "date": "20240430",
+      "tournament": "ITF M25 Santa Margherita di Pula 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Batin",
-      "score": "6-4 3-6 1-6"
+      "opponent": "G. La Vela",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20251001",
-      "tournament": "M15 Monastir 37",
+      "date": "20230913",
+      "tournament": "ITF M25 Monastir 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,34 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Seghetti",
-      "score": "6(2)-7(7) 1-6"
+      "opponent": "A. Orlov",
+      "score": "6-1 3-6 6(4)-7(7)"
     },
     {
-      "date": "20221117",
-      "tournament": "M15 Monastir 45",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Ghibaudo",
-      "score": "0-6 0-6"
-    },
-    {
-      "date": "20221116",
-      "tournament": "M15 Monastir 45",
+      "date": "20230503",
+      "tournament": "ITF M15 Osijek Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Claverie",
-      "score": "6-1 4-6 4-6"
+      "result": "L",
+      "opponent": "M. Gloeckler",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20221102",
+      "tournament": "M25 Monastir 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Erhard",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20220907",
+      "tournament": "M15 Salerno",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Picchione",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220824",
+      "tournament": "M25 Lesa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. D&apos;Agostino",
+      "score": "4-6 6-4 6-4"
     }
   ]
 }
