@@ -3,11 +3,37 @@
   "gs_id": "80406",
   "player_name": "Jeremy Schifris",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:46:48.966Z",
+  "updated": "2026-03-27T06:05:01.805Z",
   "matches": [
     {
-      "date": "20250903",
-      "tournament": "M15 Haren",
+      "date": "20250619",
+      "tournament": "M15 Saarlouis",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sigsgaard",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20250618",
+      "tournament": "M15 Saarlouis",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Fix",
+      "score": "6-4 6(5)-7(7) 7(8)-6(6)"
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M15 Nyiregyhaza Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,7 +41,46 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Oetzbach",
+      "opponent": "G. Cadenasso",
+      "score": "6(6)-7(8) 7(7)-6(2) 6-1"
+    },
+    {
+      "date": "20230721",
+      "tournament": "ITF M15 Uslar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Ch. Negritu",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20230720",
+      "tournament": "ITF M15 Uslar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Beloborodko",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20230719",
+      "tournament": "ITF M15 Uslar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Gupta",
       "score": "6-0 6-2"
     }
   ]
