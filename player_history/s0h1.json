@@ -3,11 +3,11 @@
   "gs_id": "70546",
   "player_name": "Luca Staeheli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:51:51.959Z",
+  "updated": "2026-03-27T03:46:21.972Z",
   "matches": [
     {
-      "date": "20250710",
-      "tournament": "M15 Litija",
+      "date": "20241017",
+      "tournament": "M15 Winston-Salem",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Artnak",
-      "score": "6(11)-7(13) 6-3 7(7)-6(5)"
+      "opponent": "C. Williams",
+      "score": "1-6 7-5 5-7"
     },
     {
-      "date": "20250709",
-      "tournament": "M15 Litija",
+      "date": "20241016",
+      "tournament": "M15 Winston-Salem",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Kroslak",
-      "score": "2-6 2-6"
+      "opponent": "I. Xilas",
+      "score": "4-6 7(7)-6(4) 6-0"
     },
     {
-      "date": "20240721",
-      "tournament": "Zug Challenger Men",
+      "date": "20231109",
+      "tournament": "ITF M15 Winston-Salem",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Campana Lee",
-      "score": "4-6 3-6"
+      "opponent": "G. Johns",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20231108",
+      "tournament": "ITF M15 Winston-Salem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Thomson",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20221109",
+      "tournament": "M15 Winston-Salem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kim",
+      "score": "1-6 6-3 6-4"
     }
   ]
 }
