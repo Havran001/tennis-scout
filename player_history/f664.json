@@ -3,7 +3,7 @@
   "gs_id": "4435",
   "player_name": "Sebastian Fanselow",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:10.039Z",
+  "updated": "2026-03-27T07:48:54.054Z",
   "matches": [
     {
       "date": "20251121",
@@ -45,6 +45,32 @@
       "score": "6-4 6-3"
     },
     {
+      "date": "20250625",
+      "tournament": "M25 Elvas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Lopez Cherubino",
+      "score": "3-6 7(7)-6(2) 4-6"
+    },
+    {
+      "date": "20250423",
+      "tournament": "M15 Sanxenxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Berger",
+      "score": "6-2 6-3"
+    },
+    {
       "date": "20250116",
       "tournament": "M15 Cadolzburg",
       "surface": "Hard",
@@ -69,6 +95,19 @@
       "result": "W",
       "opponent": "M. Steiner",
       "score": "7-5 7(8)-6(6)"
+    },
+    {
+      "date": "20240416",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Galarneau",
+      "score": "6-3 6-2"
     },
     {
       "date": "20240127",
@@ -121,123 +160,6 @@
       "result": "W",
       "opponent": "V. Pospisil",
       "score": "6-2 7-5"
-    },
-    {
-      "date": "20231023",
-      "tournament": "M25 Tavira 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Rocha",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20231021",
-      "tournament": "M25 Tavira 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Landaluce",
-      "score": "6-3 2-6 2-6"
-    },
-    {
-      "date": "20231020",
-      "tournament": "M25 Tavira 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Pereira",
-      "score": "6-0 7-5"
-    },
-    {
-      "date": "20231020",
-      "tournament": "M25 Tavira 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Van Zijl",
-      "score": "6-0 6-1"
-    },
-    {
-      "date": "20231018",
-      "tournament": "M25 Tavira 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Bredschneijder",
-      "score": "7-5 7-5"
-    },
-    {
-      "date": "20231014",
-      "tournament": "M25 Tavira",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Rocha",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20231013",
-      "tournament": "M25 Tavira",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Braynin",
-      "score": "1-6 5-7"
-    },
-    {
-      "date": "20231012",
-      "tournament": "M25 Tavira",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Ingildsen",
-      "score": "4-6 5-7"
-    },
-    {
-      "date": "20231011",
-      "tournament": "M25 Tavira",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Coelho",
-      "score": "2-6 2-6"
     }
   ]
 }
