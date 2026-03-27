@@ -1273,7 +1273,7 @@ function _renderMatches(){
               var wlCls=isW?'ta-wl-w':isL?'ta-wl-l':'';
               var sfCls=(m.surface||'')==='Clay'?'mh-surf-cl':(m.surface||'')==='Grass'?'mh-surf-gr':(m.surface||'')==='Indoor'?'mh-surf-in':'mh-surf-ha';
               var lvl=m.tournament&&(m.tournament.endsWith(' CH')||m.tournament.includes(' CH '))?'CH':m.tournament&&(/\bF\d+\b|M25|M15|ITF/.test(m.tournament))?'ITF':'ATP';
-              var lvlStyle=lvl==='ATP'?'color:#60a5fa;font-weight:800;':lvl==='CH'?'color:#fcd34d;font-weight:800;':'color:#a78bfa;font-weight:800;';
+              var lvlStyle=lvl==='ATP'?'color:#38bdf8;font-weight:900;font-size:12px;':lvl==='CH'?'color:#facc15;font-weight:900;font-size:12px;':'color:#c084fc;font-weight:900;font-size:12px;';
               tbody+=[
                 '<tr>',
                 '<td class="'+wlCls+'">'+(m.result||'')+'</td>',
