@@ -3,8 +3,60 @@
   "gs_id": "144081",
   "player_name": "Maxence Rivet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:29:35.087Z",
+  "updated": "2026-03-27T12:20:08.155Z",
   "matches": [
+    {
+      "date": "20250610",
+      "tournament": "M25 Villeneuve-Loubet",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20250326",
+      "tournament": "M15 Alaminos 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. M. Noce",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250319",
+      "tournament": "M15 Alaminos 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Masjuan Ginel",
+      "score": "3-6 3-2 ret."
+    },
+    {
+      "date": "20250311",
+      "tournament": "M15 Alaminos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Wazny",
+      "score": "6-4 6-2"
+    },
     {
       "date": "20240828",
       "tournament": "ITF M15 Cap d'Agde Men",
@@ -30,32 +82,6 @@
       "result": "W",
       "opponent": "P. Foley",
       "score": "4-6 2-6"
-    },
-    {
-      "date": "20240813",
-      "tournament": "M15 Überlingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Nagel",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20240716",
-      "tournament": "M15+H Bastia-Lucciana",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Dussin",
-      "score": "0-6 3-6"
     }
   ]
 }
