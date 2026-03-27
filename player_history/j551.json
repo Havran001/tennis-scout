@@ -3,46 +3,85 @@
   "gs_id": "13412",
   "player_name": "Nicolas Jarry",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:44:31.969Z",
+  "updated": "2026-03-27T11:38:33.171Z",
   "matches": [
     {
-      "date": "20221019",
-      "tournament": "Napoli",
+      "date": "20260310",
+      "tournament": "Cap Cana",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Carballes Baena",
-      "score": "4-6 4-6"
+      "opponent": "A. Walton",
+      "score": "7(7)-6(5) 6-1"
     },
     {
-      "date": "20221017",
-      "tournament": "Napoli",
+      "date": "20250604",
+      "tournament": "Birmingham",
       "surface": "Hard",
-      "level": "B",
-      "round": "F",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Mannarino",
+      "score": "7(8)-6(6) 6-3"
+    },
+    {
+      "date": "20250602",
+      "tournament": "Birmingham",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Brancaccio",
-      "score": "6-2 6-4"
+      "opponent": "T. Schoolkate",
+      "score": "7(10)-6(8) 4-6 4-6"
     },
     {
-      "date": "20221016",
-      "tournament": "Napoli",
+      "date": "20250502",
+      "tournament": "Estoril",
       "surface": "Hard",
-      "level": "B",
-      "round": "SF",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pellegrino",
+      "score": "6(0)-7(7) 7-5 1-6"
+    },
+    {
+      "date": "20250501",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Dougaz",
-      "score": "6-2 6-3"
+      "opponent": "G. Elias",
+      "score": "2-6 6-4 5-7"
+    },
+    {
+      "date": "20250430",
+      "tournament": "Estoril",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Rocha",
+      "score": "7(15)-6(13) 3-6 4-6"
     }
   ]
 }
