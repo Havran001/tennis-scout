@@ -3,24 +3,11 @@
   "gs_id": "141996",
   "player_name": "Sho Katayama",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:53:21.968Z",
+  "updated": "2026-03-27T08:23:14.061Z",
   "matches": [
     {
-      "date": "20251103",
-      "tournament": "Matsuyama",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Huesler",
-      "score": "4-6 6(6)-7(8)"
-    },
-    {
-      "date": "20250909",
-      "tournament": "M25 Sapporo 2",
+      "date": "20250709",
+      "tournament": "M15 Tokyo 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,47 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Nakagawa",
-      "score": "4-6 2-6"
+      "opponent": "Y. Kikuchi",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20241104",
-      "tournament": "Matsuyama",
+      "date": "20240712",
+      "tournament": "ITF M15 Tokyo 2 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Atmane",
-      "score": "6-1 6-2"
+      "opponent": "S. Imai",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20231107",
-      "tournament": "Matsuyama Challenger Men",
+      "date": "20240711",
+      "tournament": "ITF M15 Tokyo 2 Men",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Takahashi",
+      "score": ""
+    },
+    {
+      "date": "20240710",
+      "tournament": "ITF M15 Tokyo 2 Men",
+      "surface": "Hard",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Blancaneaux",
-      "score": "6-0 6-4"
+      "result": "W",
+      "opponent": "S. Hazawa",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20221108",
-      "tournament": "Matsuyama",
+      "date": "20231228",
+      "tournament": "M15 Yanagawa 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. H. Hsu",
-      "score": "5-7 4-6"
+      "opponent": "J. D. Hara Friend",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20231227",
+      "tournament": "M15 Yanagawa 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Shiraishi",
+      "score": "3-6 0-2 ret."
     }
   ]
 }
