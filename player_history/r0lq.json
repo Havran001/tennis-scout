@@ -3,20 +3,33 @@
   "gs_id": "267210",
   "player_name": "Philippe Renard",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:14:10.834Z",
+  "updated": "2026-03-27T06:12:22.017Z",
   "matches": [
     {
-      "date": "20250909",
-      "tournament": "M25+H Plaisir",
+      "date": "20250905",
+      "tournament": "M25+H Bagneres-de-Bigorre",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Garcian",
+      "score": "6(4)-7(7) 2-6"
+    },
+    {
+      "date": "20250902",
+      "tournament": "M25+H Bagneres-de-Bigorre",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Ifi",
-      "score": "4-6 4-6"
+      "result": "W",
+      "opponent": "M. Ponchet",
+      "score": "7(7)-6(4) 6-0"
     }
   ]
 }
