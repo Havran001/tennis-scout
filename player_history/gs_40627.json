@@ -3,11 +3,11 @@
   "gs_id": "40627",
   "player_name": "Naci Turker Mert",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:51:12.923Z",
+  "updated": "2026-03-27T01:54:51.940Z",
   "matches": [
     {
-      "date": "20260326",
-      "tournament": "M15 Monastir 11",
+      "date": "20260305",
+      "tournament": "M15 Sharm ElSheikh 6",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Schoen",
-      "score": "6-3 6-4"
+      "opponent": "Y. Dzhavakian",
+      "score": "6-2 1-6 6(2)-7(7)"
     },
     {
-      "date": "20260324",
-      "tournament": "M15 Monastir 11",
+      "date": "20260304",
+      "tournament": "M15 Sharm ElSheikh 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,64 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Yazdani",
-      "score": "5-7 6(4)-7(7)"
+      "opponent": "W. Trongcharoenchaikul",
+      "score": "4-6 6-1 6-4"
     },
     {
-      "date": "20251129",
-      "tournament": "M15 Monastir 43",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Bennani",
-      "score": "1-6 6-2 6-2"
-    },
-    {
-      "date": "20251128",
-      "tournament": "M15 Monastir 43",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Rottoli",
-      "score": "4-6 6-4 6-3"
-    },
-    {
-      "date": "20251127",
-      "tournament": "M15 Monastir 43",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Dong",
-      "score": "6-1 1-0 ret."
-    },
-    {
-      "date": "20251126",
-      "tournament": "M15 Monastir 43",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. G. Verwerft",
-      "score": "3-6 6-4 6-4"
-    },
-    {
-      "date": "20251118",
-      "tournament": "M15 Monastir 42",
+      "date": "20250806",
+      "tournament": "M25 Monastir 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Faurel",
-      "score": "6-1 2-6 2-6"
+      "opponent": "M. Echargui",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250402",
+      "tournament": "M25 Antalya 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Vasa",
+      "score": "6-3 6(1)-7(7) 6-3"
     },
     {
       "date": "20240206",
@@ -134,32 +95,6 @@
       "result": "L",
       "opponent": "S. Palosi",
       "score": "6-1 6-2"
-    },
-    {
-      "date": "20211209",
-      "tournament": "M15 Antalya 35",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. D. Amiri",
-      "score": "2-6 5-7"
-    },
-    {
-      "date": "20211103",
-      "tournament": "M15 Antalya 30",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Kudriashov",
-      "score": "4-6 3-6"
     }
   ]
 }
