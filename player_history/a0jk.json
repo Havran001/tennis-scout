@@ -1,1 +1,61 @@
-{"player_id":"a0jk","sack_id":"211537","name":"Alfred Almasi","total":0,"matches":[]}
+{
+  "player_id": "a0jk",
+  "gs_id": "177339",
+  "player_name": "Alfred Almasi",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T03:54:46.972Z",
+  "matches": [
+    {
+      "date": "20230830",
+      "tournament": "ITF M15 Budapest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Fuele",
+      "score": "7(7)-6(1) 6-3"
+    },
+    {
+      "date": "20220926",
+      "tournament": "M15 Prostejov",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bolardt",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20220901",
+      "tournament": "M25 Szabolcsveresmart",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Leite",
+      "score": "6-0 6-0"
+    },
+    {
+      "date": "20220830",
+      "tournament": "M25 Szabolcsveresmart",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Pall",
+      "score": "6-1 6-1"
+    }
+  ]
+}
