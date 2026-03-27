@@ -3,7 +3,7 @@
   "gs_id": "175242",
   "player_name": "Shu Muto",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:31:25.091Z",
+  "updated": "2026-03-27T12:29:03.162Z",
   "matches": [
     {
       "date": "20251030",
@@ -58,6 +58,45 @@
       "score": "6-1 6-3"
     },
     {
+      "date": "20250611",
+      "tournament": "M15 Luan 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Lomakin",
+      "score": "5-7 7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20250417",
+      "tournament": "M15 Osaka",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Mochizuki",
+      "score": "3-6 6-1 6-4"
+    },
+    {
+      "date": "20250416",
+      "tournament": "M15 Osaka",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Shibano",
+      "score": "7-5 5-7 4-6"
+    },
+    {
       "date": "20241024",
       "tournament": "M15 Tanagura",
       "surface": "Hard",
@@ -82,19 +121,6 @@
       "result": "L",
       "opponent": "Y. Inui",
       "score": "7(7)-6(5) 7(7)-6(3)"
-    },
-    {
-      "date": "20231221",
-      "tournament": "M15 Yanagawa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Yamasaki",
-      "score": "6-0 6-2"
     }
   ]
 }
