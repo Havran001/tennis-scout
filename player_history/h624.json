@@ -3,11 +3,50 @@
   "gs_id": "22480",
   "player_name": "Ryan Haviland",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:02:46.879Z",
+  "updated": "2026-03-27T03:44:39.965Z",
   "matches": [
     {
-      "date": "20250515",
-      "tournament": "M25 Pensacola",
+      "date": "20260318",
+      "tournament": "M25 Bakersfield",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ciric",
+      "score": "6-3 5-7 6-3"
+    },
+    {
+      "date": "20250423",
+      "tournament": "M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Brown",
+      "score": "3-6 6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20241113",
+      "tournament": "M25 Columbus",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Nakashima",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240502",
+      "tournament": "ITF M15 Orange Park",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Krall",
-      "score": "6(3)-7(7) 6-0 6(5)-7(7)"
+      "opponent": "A. Nefve",
+      "score": "6-3 6-0"
     },
     {
-      "date": "20250514",
-      "tournament": "M25 Pensacola",
+      "date": "20240501",
+      "tournament": "ITF M15 Orange Park",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +67,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Goldammer",
-      "score": "4-6 5-7"
+      "opponent": "M. Segura",
+      "score": "6(2)-7(7) 5-7"
     },
     {
-      "date": "20230517",
-      "tournament": "ITF M25 Pensacola",
+      "date": "20240425",
+      "tournament": "ITF M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Lilov",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20240424",
+      "tournament": "ITF M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. A. Cabrera",
+      "score": "6-3 4-6 6-3"
+    },
+    {
+      "date": "20230503",
+      "tournament": "ITF M15 Orange Park",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Ponwith",
-      "score": "6-1 6-3"
+      "opponent": "G. A. Boitan",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20230426",
+      "tournament": "ITF M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Andrade",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20230413",
+      "tournament": "ITF M15 Sunrise",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. McCormick",
+      "score": "3-6 3-6"
     }
   ]
 }
