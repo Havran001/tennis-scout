@@ -3,8 +3,34 @@
   "gs_id": "251871",
   "player_name": "Hitesh Chauhan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:49:53.975Z",
+  "updated": "2026-03-27T07:07:40.285Z",
   "matches": [
+    {
+      "date": "20260326",
+      "tournament": "M15 Ahmedabad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Binda",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20260325",
+      "tournament": "M15 Ahmedabad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Lakshmanan",
+      "score": "0-5 ret."
+    },
     {
       "date": "20260318",
       "tournament": "M25 Mumbai",
@@ -17,6 +43,32 @@
       "result": "L",
       "opponent": "D. Javia",
       "score": "5-7 4-6"
+    },
+    {
+      "date": "20260115",
+      "tournament": "M25 Chennai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ouakaa",
+      "score": "6-3 7(7)-6(2)"
+    },
+    {
+      "date": "20260114",
+      "tournament": "M25 Chennai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Lomakin",
+      "score": "7(7)-6(3) 6-3"
     }
   ]
 }
