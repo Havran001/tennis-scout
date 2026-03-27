@@ -3,8 +3,47 @@
   "gs_id": "142214",
   "player_name": "Younes Lalami Laaroussi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:10:38.038Z",
+  "updated": "2026-03-27T08:22:41.069Z",
   "matches": [
+    {
+      "date": "20260320",
+      "tournament": "M25 Badalona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Vasami",
+      "score": "3-6 7-5 6-3"
+    },
+    {
+      "date": "20260319",
+      "tournament": "M25 Badalona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Vanshelboim",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20260318",
+      "tournament": "M25 Badalona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. J. Gutierrez",
+      "score": "2-6 6-4 6-2"
+    },
     {
       "date": "20260217",
       "tournament": "M15 Lannion",
@@ -19,21 +58,8 @@
       "score": "3-6 6-2 7-5"
     },
     {
-      "date": "20251015",
-      "tournament": "M25 Kigali 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Vankan",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20251010",
-      "tournament": "M25 Kigali",
+      "date": "20250731",
+      "tournament": "M15 Kursumlijska Banja 13",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Bax",
-      "score": "4-6 6-1 6-4"
+      "opponent": "T. Compagnucci",
+      "score": "7(7)-6(3) 6-3"
     },
     {
-      "date": "20251008",
-      "tournament": "M25 Kigali",
+      "date": "20250730",
+      "tournament": "M15 Kursumlijska Banja 13",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Dinev",
-      "score": "6-3 6-2"
+      "opponent": "E. Pleshivtsev",
+      "score": "6-3 3-6 7(7)-6(4)"
     },
     {
-      "date": "20230803",
-      "tournament": "M15 Hyvinkaa",
+      "date": "20250423",
+      "tournament": "M15 Sanxenxo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +93,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Rossi",
-      "score": "6-1 7-5"
+      "opponent": "G. K. Bonsach",
+      "score": "2-6 7(8)-6(6) 6-4"
+    },
+    {
+      "date": "20240705",
+      "tournament": "ITF M15 Amstelveen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Paardekooper",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Amstelveen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. A. Bailly",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Amstelveen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. van Assendelft",
+      "score": "6-4 4-6 3-6"
+    },
+    {
+      "date": "20240612",
+      "tournament": "M25 Rabat",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Colson",
+      "score": "4-6 2-6"
     }
   ]
 }
