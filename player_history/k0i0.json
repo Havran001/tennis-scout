@@ -3,20 +3,33 @@
   "gs_id": "142213",
   "player_name": "Veljko Krstic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:43.017Z",
+  "updated": "2026-03-26T23:01:32.884Z",
   "matches": [
     {
-      "date": "20250611",
-      "tournament": "M15 Kursumlijska Banja 6",
+      "date": "20250605",
+      "tournament": "M25 Belgrade",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Gill",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20250603",
+      "tournament": "M25 Belgrade",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. R. Scomparin",
-      "score": "5-7 2-6"
+      "result": "W",
+      "opponent": "M. Maksimovic",
+      "score": "6-2 1-0 ret."
     }
   ]
 }
