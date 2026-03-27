@@ -3,11 +3,11 @@
   "gs_id": "290891",
   "player_name": "Sebastiano Cocola",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:50:13.966Z",
+  "updated": "2026-03-27T08:00:37.559Z",
   "matches": [
     {
-      "date": "20251014",
-      "tournament": "M25 Santa Margherita di Pula 11",
+      "date": "20251105",
+      "tournament": "M15 San Gregorio di Catania",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Recek",
-      "score": "6-4 2-6 1-6"
+      "opponent": "I. Miletich",
+      "score": "6(5)-7(7) 4-6"
     },
     {
-      "date": "20251007",
-      "tournament": "M25 Santa Margherita di Pula 10",
+      "date": "20251022",
+      "tournament": "M25 Santa Margherita di Pula 12",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +28,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Michalski",
+      "opponent": "M. Mazza",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250826",
+      "tournament": "M15 Forli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. C. Spiridon",
       "score": "6-2 6-3"
-    },
-    {
-      "date": "20250925",
-      "tournament": "M25 Santa Margherita di Pula 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Berrettini",
-      "score": "0-6 1-6"
-    },
-    {
-      "date": "20250924",
-      "tournament": "M25 Santa Margherita di Pula 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Mazzola",
-      "score": "2-6 6-2 6-4"
     }
   ]
 }
