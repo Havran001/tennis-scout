@@ -3,8 +3,21 @@
   "gs_id": "39017",
   "player_name": "Carlos Lopez Montagud",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:58:32.129Z",
+  "updated": "2026-03-27T11:52:26.036Z",
   "matches": [
+    {
+      "date": "20251104",
+      "tournament": "M25 Valencia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "6-4 1-6 6-3"
+    },
     {
       "date": "20250813",
       "tournament": "M25 Gijon",
@@ -30,71 +43,6 @@
       "result": "W",
       "opponent": "C. Rojas",
       "score": "1-6 3-6"
-    },
-    {
-      "date": "20250330",
-      "tournament": "Menorca",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Merida Aguilar",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20250215",
-      "tournament": "M15 Valencia 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Sanchez Jover",
-      "score": "6-2 3-6 5-7"
-    },
-    {
-      "date": "20250214",
-      "tournament": "M15 Valencia 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Piraino",
-      "score": "6-0 3-6 2-6"
-    },
-    {
-      "date": "20250213",
-      "tournament": "M15 Valencia 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Parisca",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20250212",
-      "tournament": "M15 Valencia 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Sevilla",
-      "score": "1-6 1-6"
     }
   ]
 }
