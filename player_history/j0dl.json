@@ -1,1 +1,61 @@
-{"player_id":"j0dl","gs_id":"157486","player_name":"Nicolas Jadoun","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"lfFo6yJU","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Heraklion 3 (Greece), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Lopez Morillo I.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20260311","tournament":"M15 Heraklion 2","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"R. M. Papoe","score":"6-3 6-0"},{"date":"20260122","tournament":"M15 Monastir 2","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"S. Corbinais","score":"2-6 7(7)-6(4) 7(7)-6(4)"},{"date":"20260113","tournament":"M15 Bressuire","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"K. De Schepper","score":"1-6 2-6"},{"date":"20240207","tournament":"ITF M15 Monastir 6 Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"J. Paul","score":"6-4 6-4"}],"total":5}
+{
+  "player_id": "j0dl",
+  "gs_id": "157486",
+  "player_name": "Nicolas Jadoun",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:59:58.776Z",
+  "matches": [
+    {
+      "date": "20260311",
+      "tournament": "M15 Heraklion 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. M. Papoe",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20260122",
+      "tournament": "M15 Monastir 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Corbinais",
+      "score": "2-6 7(7)-6(4) 7(7)-6(4)"
+    },
+    {
+      "date": "20260113",
+      "tournament": "M15 Bressuire",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. De Schepper",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20240207",
+      "tournament": "ITF M15 Monastir 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Paul",
+      "score": "6-4 6-4"
+    }
+  ]
+}
