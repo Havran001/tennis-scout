@@ -1,22 +1,74 @@
 {
   "player_id": "l0bu",
-  "gs_id": "202260",
-  "player_name": "Shaoyun Liu",
+  "gs_id": "145554",
+  "player_name": "Lucca Liu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:55:04.923Z",
+  "updated": "2026-03-27T01:56:51.937Z",
   "matches": [
     {
-      "date": "20260204",
-      "tournament": "M25 Monastir 3",
+      "date": "20260319",
+      "tournament": "M25 Bakersfield",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Rolland",
+      "score": "1-6 6-3 6-3"
+    },
+    {
+      "date": "20260318",
+      "tournament": "M25 Bakersfield",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Grant",
+      "score": "4-6 6-4 2-6"
+    },
+    {
+      "date": "20250530",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "J. Lenders",
-      "score": "3-6 6-2 3-6"
+      "opponent": "S. Danilov",
+      "score": "6-2 3-6 2-3 ret."
+    },
+    {
+      "date": "20250529",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Vithoontien",
+      "score": "6-2 6(3)-7(7) 6-2"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. K. Lee",
+      "score": "6-3 6-1"
     }
   ]
 }
