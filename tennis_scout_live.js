@@ -1272,11 +1272,11 @@ function _renderMatches(){
               var wlCls=isW?'ta-wl-w':isL?'ta-wl-l':'';
               var sfCls=(m.surface||'')==='Clay'?'mh-surf-cl':(m.surface||'')==='Grass'?'mh-surf-gr':(m.surface||'')==='Indoor'?'mh-surf-in':'mh-surf-ha';
               var lvl=m.tournament&&(m.tournament.endsWith(' CH')||m.tournament.includes(' CH '))?'CH':m.tournament&&(/\bF\d+\b|M25|M15|ITF/.test(m.tournament))?'ITF':'ATP';
-              var lvlCls=lvl==='ATP'?'lvl-atp':lvl==='CH'?'lvl-ch':'lvl-itf';
+              var lvlStyle=lvl==='ATP'?'color:#60a5fa;font-weight:800;':lvl==='CH'?'color:#fcd34d;font-weight:800;':'color:#a78bfa;font-weight:800;';
               tbody+=[
                 '<tr>',
                 '<td class="'+wlCls+'">'+(m.result||'')+'</td>',
-                '<td class="'+lvlCls+'">'+lvl+'</td>',
+                '<td style="'+lvlStyle+'">'+lvl+'</td>',
                 '<td>'+dd+'</td>',
                 '<td>'+_normT(m.tournament||'')+'</td>',
                 '<td class="'+sfCls+'">'+(m.surface||'')+'</td>',
