@@ -3,24 +3,37 @@
   "gs_id": "84268",
   "player_name": "Valentin Lapalu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:55:07.987Z",
+  "updated": "2026-03-27T06:57:26.323Z",
   "matches": [
     {
-      "date": "20250905",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20260206",
+      "tournament": "M15 Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Staeheli",
+      "score": "6-3 3-6 6-2"
+    },
+    {
+      "date": "20260205",
+      "tournament": "M15 Zahra 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Gautier",
-      "score": "1-5 ret."
+      "result": "W",
+      "opponent": "B. Alabdullah",
+      "score": "6-4 4-6 6-0"
     },
     {
-      "date": "20250903",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20260204",
+      "tournament": "M15 Zahra 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Lumsden",
-      "score": "7(7)-6(4) 6(3)-7(7) 6-4"
+      "opponent": "T. Duran",
+      "score": "4-6 6-3 5-7"
     },
     {
-      "date": "20240905",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "date": "20260130",
+      "tournament": "M15 Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Staeheli",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20260129",
+      "tournament": "M15 Zahra",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Chidekh",
-      "score": "6(2)-7(7) 3-6"
+      "result": "W",
+      "opponent": "V. Iakubenko",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20240904",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "date": "20260128",
+      "tournament": "M15 Zahra",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +80,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Massard",
-      "score": "4-6 6-3 6-3"
+      "opponent": "A. Issah",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250207",
+      "tournament": "M15 Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nikles",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250206",
+      "tournament": "M15 Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Petrov",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20250205",
+      "tournament": "M15 Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Buldorini",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20240626",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Morandais",
+      "score": "6-3 7(7)-6(2)"
     }
   ]
 }
