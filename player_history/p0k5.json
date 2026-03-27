@@ -3,21 +3,8 @@
   "gs_id": "123368",
   "player_name": "Theo Papamalamis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:47:27.972Z",
+  "updated": "2026-03-27T06:07:22.012Z",
   "matches": [
-    {
-      "date": "20250630",
-      "tournament": "Troyes",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Choinski",
-      "score": "6(5)-7(7) 3-6"
-    },
     {
       "date": "20241018",
       "tournament": "M15 Villers-les-Nancy",
@@ -58,34 +45,34 @@
       "score": "6-2 3-6 6-2"
     },
     {
-      "date": "20240727",
-      "tournament": "M15 Metzingen",
+      "date": "20240717",
+      "tournament": "M25 Esch/Alzette 2",
       "surface": "Hard",
       "level": "I",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Naw",
-      "score": "3-6 4-6"
+      "opponent": "F. Bidan",
+      "score": "4-6 1-4 ret."
     },
     {
-      "date": "20240726",
-      "tournament": "M15 Metzingen",
+      "date": "20240531",
+      "tournament": "ITF M25 Carnac Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Walch",
-      "score": "6-1 6-4"
+      "result": "L",
+      "opponent": "M. Chazal",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20240725",
-      "tournament": "M15 Metzingen",
+      "date": "20240530",
+      "tournament": "ITF M25 Carnac Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Rottgering",
-      "score": "6(6)-7(8) 2-6"
+      "opponent": "L. Poullain",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240724",
-      "tournament": "M15 Metzingen",
+      "date": "20240528",
+      "tournament": "ITF M25 Carnac Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,34 +93,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Van Sambeek",
-      "score": "4-6 4-6"
+      "opponent": "M. Ponchet",
+      "score": "5-7 6(3)-7(7)"
     },
     {
-      "date": "20230713",
-      "tournament": "ITF M25 Esch/Alzette Men",
+      "date": "20240403",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Rodesch",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20230712",
-      "tournament": "ITF M25 Esch/Alzette Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Brosset",
-      "score": "6-3 7(10)-6(8)"
+      "opponent": "A. Bouquier",
+      "score": "3-6 6-0 6-4"
     }
   ]
 }
