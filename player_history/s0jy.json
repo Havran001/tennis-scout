@@ -3,11 +3,37 @@
   "gs_id": "133403",
   "player_name": "Alessandro Spadola",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:55:07.934Z",
+  "updated": "2026-03-27T03:53:07.970Z",
   "matches": [
     {
-      "date": "20250423",
-      "tournament": "M25 Santa Margherita di Pula 4",
+      "date": "20241010",
+      "tournament": "M25 Santa Margherita di Pula 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Maestrelli",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20241008",
+      "tournament": "M25 Santa Margherita di Pula 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bronzetti",
+      "score": "6-2 4-6 6-1"
+    },
+    {
+      "date": "20241001",
+      "tournament": "M25 Santa Margherita di Pula 9",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,47 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gea",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20230514",
-      "tournament": "Turin 2 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Maccari",
-      "score": "6(4)-7(7) 0-6"
-    },
-    {
-      "date": "20220403",
-      "tournament": "Sanremo",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Setkic",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20220227",
-      "tournament": "Turin 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Simon",
-      "score": "7-5 6-3"
+      "opponent": "J. Barnat",
+      "score": "6-3 1-6 5-7"
     }
   ]
 }
