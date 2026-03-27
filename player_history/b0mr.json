@@ -3,8 +3,47 @@
   "gs_id": "142044",
   "player_name": "Evan Bynoe",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:00:24.943Z",
+  "updated": "2026-03-27T02:53:53.959Z",
   "matches": [
+    {
+      "date": "20250801",
+      "tournament": "M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Miladinovic",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20250731",
+      "tournament": "M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Arseneault",
+      "score": "6(1)-7(7) 2-6"
+    },
+    {
+      "date": "20250730",
+      "tournament": "M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Riedi",
+      "score": "6-4 3-2 ret."
+    },
     {
       "date": "20250610",
       "tournament": "M25 Santo Domingo 4",
@@ -17,6 +56,84 @@
       "result": "L",
       "opponent": "M. Bouzige",
       "score": "6-3 6-1"
+    },
+    {
+      "date": "20230725",
+      "tournament": "M15 Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Corwin",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20220818",
+      "tournament": "M15 Memphis",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Michelsen",
+      "score": "6-0 2-6 1-6"
+    },
+    {
+      "date": "20220817",
+      "tournament": "M15 Memphis",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Hurrion",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20220713",
+      "tournament": "M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. N. Nakashima",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20220707",
+      "tournament": "M15 Waco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Zink",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220705",
+      "tournament": "M15 Waco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Lilov",
+      "score": "2-6 6-4 4-1 ret."
     }
   ]
 }
