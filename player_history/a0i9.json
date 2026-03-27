@@ -3,11 +3,89 @@
   "gs_id": "145230",
   "player_name": "Edison Ambarzumjan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:57:12.906Z",
+  "updated": "2026-03-27T02:54:14.964Z",
   "matches": [
     {
-      "date": "20221101",
-      "tournament": "M15 Selva Gardena",
+      "date": "20250828",
+      "tournament": "M15 Budapest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Dalmasso",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M15 Budapest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Namigandet Tenguere",
+      "score": "3-6 7-6 4-6"
+    },
+    {
+      "date": "20240812",
+      "tournament": "Grodzisk Mazowiecki Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bakshi",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240811",
+      "tournament": "Grodzisk Mazowiecki Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Ilkel",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230608",
+      "tournament": "ITF M15 Vaasa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Giacomini",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M15 Vaasa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. M. Hietaranta",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20220726",
+      "tournament": "M25 Nottingham 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +93,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. M. Noce",
-      "score": "7(7)-6(0) 6-2"
+      "opponent": "J. Paris",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20220406",
+      "tournament": "M15 Dubrovnik",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. I. Apostol",
+      "score": "3-6 6(4)-7(7)"
     }
   ]
 }
