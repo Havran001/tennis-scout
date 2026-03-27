@@ -3,33 +3,20 @@
   "gs_id": "165926",
   "player_name": "Luke Simkiss",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:04:05.031Z",
+  "updated": "2026-03-27T09:30:56.097Z",
   "matches": [
     {
-      "date": "20250904",
-      "tournament": "M15 Szczawno",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Paroulek",
-      "score": "6(8)-7(10) 6-4 3-6"
-    },
-    {
-      "date": "20250903",
-      "tournament": "M15 Szczawno",
+      "date": "20250925",
+      "tournament": "M15 Slovenj Gradec",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Migdalski",
-      "score": "3-6 3-6"
+      "result": "L",
+      "opponent": "J. C. Martin Manzano",
+      "score": "6-4 7(9)-6(7)"
     },
     {
       "date": "20241120",
@@ -45,8 +32,21 @@
       "score": "3-6 0-6"
     },
     {
-      "date": "20241016",
-      "tournament": "M25 Edgbaston",
+      "date": "20241029",
+      "tournament": "M25 Norwich",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Whitehouse",
+      "score": "6-2 7(7)-6(4)"
+    },
+    {
+      "date": "20241003",
+      "tournament": "M15 Grodzisk Mazowiecki 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Wendelken",
-      "score": "4-6 0-6"
+      "opponent": "O. Wallin",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20241015",
-      "tournament": "M25 Edgbaston",
+      "date": "20241002",
+      "tournament": "M15 Grodzisk Mazowiecki 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Glinka",
-      "score": "7(7)-6(3) 6-3"
+      "opponent": "M. Pawelski",
+      "score": "1-6 7(7)-6(4) 2-6"
+    },
+    {
+      "date": "20240702",
+      "tournament": "ITF M15 Amstelveen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Beaupain",
+      "score": "1-6 6-2 6(4)-7(7)"
+    },
+    {
+      "date": "20240313",
+      "tournament": "M15 Les Franqueses del Valles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Van Tilburg",
+      "score": "6-3 3-6 6-3"
     },
     {
       "date": "20231031",
@@ -82,45 +108,6 @@
       "result": "L",
       "opponent": "A. Deckers",
       "score": "6-4 6(5)-7(7) 6(6)-7(8)"
-    },
-    {
-      "date": "20231017",
-      "tournament": "ITF M25 Edgbaston Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Sanghera",
-      "score": "7(9)-6(7) 6-3"
-    },
-    {
-      "date": "20231011",
-      "tournament": "M25 Tavira",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Hjorth",
-      "score": "3-6 6-2 6-1"
-    },
-    {
-      "date": "20230809",
-      "tournament": "M25 Roehampton 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Broom",
-      "score": "3-6 3-6"
     }
   ]
 }
