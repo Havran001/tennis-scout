@@ -3,8 +3,47 @@
   "gs_id": "35694",
   "player_name": "Nikita Mashtakov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:50:57.986Z",
+  "updated": "2026-03-27T05:56:51.012Z",
   "matches": [
+    {
+      "date": "20250702",
+      "tournament": "M15 Store",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Balshaw",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M15 Nyiregyhaza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Almasi",
+      "score": "6(1)-7(7) 6-3 6-0"
+    },
+    {
+      "date": "20250610",
+      "tournament": "M15 Nyiregyhaza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Sekachov",
+      "score": "2-6 6-3 6-2"
+    },
     {
       "date": "20250508",
       "tournament": "M25 Kursumlijska Banja",
@@ -84,8 +123,47 @@
       "score": "6(7)-7(9) 6-3 6-4"
     },
     {
-      "date": "20240627",
-      "tournament": "M15 Wroclaw",
+      "date": "20240724",
+      "tournament": "ITF M25 Kramsach Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Simonsson",
+      "score": "7(10)-6(8) 3-6 6-4"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Bielinskyi",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M15 Nyiregyhaza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Velcz",
+      "score": "3-6 6-3 6-0"
+    },
+    {
+      "date": "20230601",
+      "tournament": "ITF M15 Kursumlijska Banja 4 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Drzewiecki",
-      "score": "3-6 3-6"
+      "opponent": "M. Drinic",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20240626",
-      "tournament": "M15 Wroclaw",
+      "date": "20230530",
+      "tournament": "ITF M15 Kursumlijska Banja 4 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Homola",
-      "score": "6-2 7-5"
+      "opponent": "S. Cizelj-Zivkovic",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20230906",
-      "tournament": "ITF M25 Maribor 2 Men",
+      "date": "20230524",
+      "tournament": "ITF M15 Kursumlijska Banja 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,38 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Heger",
-      "score": "4-6 6-4 6-1"
+      "opponent": "M. Dellavedova",
+      "score": "6(5)-7(7) 6-3 7-5"
     },
     {
-      "date": "20230629",
-      "tournament": "ITF M15 Wroclaw Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Barnat",
-      "score": "6-3 4-6 6-4"
-    },
-    {
-      "date": "20230627",
-      "tournament": "ITF M15 Wroclaw Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Cigarran",
-      "score": "7(10)-6(8) 7(7)-6(1)"
-    },
-    {
-      "date": "20230621",
-      "tournament": "M25 Poprad",
+      "date": "20230518",
+      "tournament": "M15 Krsko",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,8 +210,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Neumayer",
-      "score": "6-3 3-6 4-6"
+      "opponent": "M. Vetrih",
+      "score": "6-0 6-0"
     },
     {
       "date": "20230505",
@@ -199,19 +251,6 @@
       "result": "W",
       "opponent": "J. P. Paz",
       "score": "6-1 6-4"
-    },
-    {
-      "date": "20230405",
-      "tournament": "M25 Dubrovnik",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Prihodko",
-      "score": "6-3 6-3"
     }
   ]
 }
