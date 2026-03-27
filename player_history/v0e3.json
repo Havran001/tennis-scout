@@ -3,8 +3,47 @@
   "gs_id": "84375",
   "player_name": "Jeffrey Von der Schulenburg",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:05:39.683Z",
+  "updated": "2026-03-27T08:16:10.073Z",
   "matches": [
+    {
+      "date": "20260129",
+      "tournament": "M15 Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Bittoun",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20260127",
+      "tournament": "M15 Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Habib",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M25 Sion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Gerch",
+      "score": "7(7)-6(4) 4-6 2-6"
+    },
     {
       "date": "20250716",
       "tournament": "M25 Kramsach",
@@ -19,47 +58,21 @@
       "score": "4-6 4-6"
     },
     {
-      "date": "20230625",
-      "tournament": "ITF M15 Saarlouis Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. M. Jong",
-      "score": "1-6 0-6"
-    },
-    {
-      "date": "20230624",
-      "tournament": "ITF M15 Saarlouis Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Gavrielides",
-      "score": "4-6 0-1 ret."
-    },
-    {
-      "date": "20230623",
-      "tournament": "ITF M15 Saarlouis Men",
+      "date": "20250627",
+      "tournament": "M15 Grodzisk Mazowiecki",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Zielinski",
-      "score": "6(2)-7(7) 6-2 1-6"
+      "result": "L",
+      "opponent": "M. Cerny",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20230622",
-      "tournament": "ITF M15 Saarlouis Men",
+      "date": "20250626",
+      "tournament": "M15 Grodzisk Mazowiecki",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Gentzsch",
-      "score": "4-6 3-6"
+      "opponent": "P. Juszczak",
+      "score": "7(7)-6(3) 7(7)-6(5)"
     },
     {
-      "date": "20230621",
-      "tournament": "ITF M15 Saarlouis Men",
+      "date": "20250625",
+      "tournament": "M15 Grodzisk Mazowiecki",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +93,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Beaupain",
-      "score": "4-2 ret."
+      "opponent": "B. Kokot",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Amstelveen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Pel",
+      "score": "7(7)-6(2) 6-2"
+    },
+    {
+      "date": "20240702",
+      "tournament": "ITF M15 Amstelveen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Gabriel",
+      "score": "7-5 6-3"
     }
   ]
 }
