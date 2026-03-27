@@ -3,11 +3,11 @@
   "gs_id": "157433",
   "player_name": "Matic Kriznik",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:14:16.868Z",
+  "updated": "2026-03-27T01:58:03.932Z",
   "matches": [
     {
-      "date": "20240425",
-      "tournament": "ITF M15 Shymkent 2 Men",
+      "date": "20240321",
+      "tournament": "ITF M15 Monastir 12 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Javia",
-      "score": "6-1 6-2"
+      "opponent": "F. Andaloro",
+      "score": "4-6 7(8)-6(6) 6-4"
     },
     {
-      "date": "20240424",
-      "tournament": "ITF M15 Shymkent 2 Men",
+      "date": "20240320",
+      "tournament": "ITF M15 Monastir 12 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Vanshelboim",
-      "score": "1-4 ret."
+      "opponent": "J. Chiu",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20240417",
-      "tournament": "ITF M15 Shymkent Men",
+      "date": "20240313",
+      "tournament": "ITF M15 Monastir 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Ivanov",
-      "score": "1-6 6-3 1-6"
+      "opponent": "Ch. Negritu",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20240326",
-      "tournament": "ITF M15 Monastir 13 Men",
+      "date": "20231124",
+      "tournament": "ITF M15 Heraklion 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Oliel",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20231122",
+      "tournament": "ITF M15 Heraklion 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Pe. Tsitsipas",
+      "score": "6-3 3-6 6-1"
+    },
+    {
+      "date": "20231101",
+      "tournament": "ITF M15 Selva Gardena Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kopp",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20231030",
+      "tournament": "ITF M15 Selva Gardena Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Troebinger",
+      "score": "6-4 1-6 1-6"
+    },
+    {
+      "date": "20230301",
+      "tournament": "ITF M15 Sharm ElSheikh 5 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -55,7 +107,20 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "M. Giunta",
-      "score": "3-6 2-6"
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230222",
+      "tournament": "ITF M15 Sharm ElSheikh 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Jeong",
+      "score": "6-3 7-5"
     }
   ]
 }
