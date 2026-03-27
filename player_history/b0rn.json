@@ -3,11 +3,24 @@
   "gs_id": "170010",
   "player_name": "Kane Bonsach Ganley",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:55:41.956Z",
+  "updated": "2026-03-27T06:10:45.030Z",
   "matches": [
     {
-      "date": "20240620",
-      "tournament": "ITF M15 Casablanca Men",
+      "date": "20240828",
+      "tournament": "ITF M15 Szczawno Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Kivattsev",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240418",
+      "tournament": "M15 Telde 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Bittoun",
-      "score": "1-6 4-6"
+      "opponent": "D. A. Barreto Sanchez",
+      "score": "2-6 0-6"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M15 Casablanca Men",
+      "date": "20240416",
+      "tournament": "M15 Telde 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. M. Di Natale",
-      "score": "7-5 4-1 ret."
+      "opponent": "B. Pujol Navarro",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20230622",
-      "tournament": "M25 Mungia",
+      "date": "20240412",
+      "tournament": "M15 Telde",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Sakellaridis",
-      "score": "7-5 6-3"
+      "opponent": "T. Curras Abasolo",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20230621",
-      "tournament": "M25 Mungia",
+      "date": "20240411",
+      "tournament": "M15 Telde",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. J. Gutierrez",
-      "score": "2-6 4-6"
+      "opponent": "M. Zielinski",
+      "score": "7(8)-6(6) 7(7)-6(1)"
     },
     {
-      "date": "20230620",
-      "tournament": "M25 Mungia",
+      "date": "20240410",
+      "tournament": "M15 Telde",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +80,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Villoslada",
-      "score": "6-4 0-6 2-5 ret."
+      "opponent": "I. Perez",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20230524",
+      "tournament": "M15 Pazardzhik 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Donev",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20230518",
+      "tournament": "M15 Pazardzhik",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Miceli",
+      "score": "7(7)-6(5) 6-3"
+    },
+    {
+      "date": "20230419",
+      "tournament": "ITF M15 Telde 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Buse",
+      "score": "6-3 3-6 6-2"
+    },
+    {
+      "date": "20230413",
+      "tournament": "ITF M15 Telde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Demin",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230412",
+      "tournament": "ITF M15 Telde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Blanch",
+      "score": "3-6 6-3 6-2"
+    },
+    {
+      "date": "20230322",
+      "tournament": "M25 Palmanova 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Casanova",
+      "score": "4-6 4-6"
     }
   ]
 }
