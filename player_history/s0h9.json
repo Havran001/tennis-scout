@@ -3,11 +3,37 @@
   "gs_id": "157426",
   "player_name": "James Story",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:25:17.071Z",
+  "updated": "2026-03-27T12:24:21.161Z",
   "matches": [
     {
-      "date": "20260105",
-      "tournament": "Nottingham 3",
+      "date": "20260308",
+      "tournament": "Hersonissos 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Azoidis",
+      "score": "7-5 2-6 3-6"
+    },
+    {
+      "date": "20260301",
+      "tournament": "Hersonissos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Maxted",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20251006",
+      "tournament": "Hersonissos 5",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Masur",
-      "score": "2-6 3-6"
+      "opponent": "D. Sakellaridis",
+      "score": "6(4)-7(7) 4-6"
     },
     {
-      "date": "20260104",
-      "tournament": "Nottingham 3",
+      "date": "20251005",
+      "tournament": "Hersonissos 5",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Bass",
-      "score": "6(7)-7(9) 4-6"
+      "opponent": "C. Silvestre",
+      "score": "1-6 0-6"
     },
     {
       "date": "20250802",
@@ -84,21 +110,21 @@
       "score": "6-1 6-4"
     },
     {
-      "date": "20250105",
-      "tournament": "Nottingham 3",
+      "date": "20250708",
+      "tournament": "Nottingham 4",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Mott",
-      "score": "4-6 2-6"
+      "opponent": "C. Thomson",
+      "score": "6-3 4-6 6(4)-7(7)"
     },
     {
-      "date": "20241017",
-      "tournament": "M25 Edgbaston",
+      "date": "20241101",
+      "tournament": "M25 Norwich",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -106,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Bondioli",
-      "score": "4-6 2-6"
+      "opponent": "C. Broom",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20241016",
-      "tournament": "M25 Edgbaston",
+      "date": "20241031",
+      "tournament": "M25 Norwich",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -119,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Romano",
-      "score": "6-4 2-6 5-7"
+      "opponent": "A. Canter",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20241015",
-      "tournament": "M25 Edgbaston",
+      "date": "20241029",
+      "tournament": "M25 Norwich",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,8 +158,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Masur",
-      "score": "7-5 6-1"
+      "opponent": "V. Durasovic",
+      "score": "6(5)-7(7) 6-3 3-6"
     }
   ]
 }
