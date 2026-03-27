@@ -3,7 +3,7 @@
   "gs_id": "1022",
   "player_name": "Albert Ramos-Vinolas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:49:40.980Z",
+  "updated": "2026-03-27T06:54:49.557Z",
   "matches": [
     {
       "date": "20251009",
@@ -45,6 +45,19 @@
       "score": "4-6 2-6"
     },
     {
+      "date": "20250325",
+      "tournament": "Girona",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Albot",
+      "score": "6-4 3-6 4-6"
+    },
+    {
       "date": "20241008",
       "tournament": "Valencia",
       "surface": "Hard",
@@ -56,6 +69,110 @@
       "result": "L",
       "opponent": "E. Moller",
       "score": "7(8)-6(6) 6-2"
+    },
+    {
+      "date": "20240919",
+      "tournament": "Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Taberner",
+      "score": "6-1 6(9)-7(11) 6-1"
+    },
+    {
+      "date": "20240917",
+      "tournament": "Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Neumayer",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20240706",
+      "tournament": "Modena Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Arnaboldi",
+      "score": "6-4 3-6 6-2"
+    },
+    {
+      "date": "20240705",
+      "tournament": "Modena Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. H. Tseng",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240704",
+      "tournament": "Modena Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Serafini",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240703",
+      "tournament": "Modena Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Travaglia",
+      "score": "6-3 7(8)-6(6)"
+    },
+    {
+      "date": "20240702",
+      "tournament": "Modena Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Fonio",
+      "score": "3-6 6-3 6-2"
+    },
+    {
+      "date": "20240327",
+      "tournament": "Girona Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Moro Canas",
+      "score": "6-3 7-5"
     },
     {
       "date": "20231125",
@@ -110,30 +227,56 @@
       "score": "2-6 6(11)-7(13)"
     },
     {
-      "date": "20221018",
-      "tournament": "Napoli",
+      "date": "20230924",
+      "tournament": "Bad Waltersdorf Challenger Men",
       "surface": "Hard",
-      "level": "B",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Borges",
-      "score": "5-7 6(5)-7(7)"
+      "opponent": "A. Pellegrino",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20221011",
-      "tournament": "Gijon",
+      "date": "20230922",
+      "tournament": "Bad Waltersdorf Challenger Men",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Misolic",
+      "score": "6-2 4-6 6-3"
+    },
+    {
+      "date": "20230921",
+      "tournament": "Bad Waltersdorf Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Nouza",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20230919",
+      "tournament": "Bad Waltersdorf Challenger Men",
+      "surface": "Hard",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Giron",
-      "score": "6-4 4-6 2-6"
+      "result": "W",
+      "opponent": "J. J. Schwarzler",
+      "score": "4-6 6-1 6-3"
     }
   ]
 }
