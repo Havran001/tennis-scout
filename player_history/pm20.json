@@ -1,13 +1,13 @@
 {
   "player_id": "pm20",
-  "gs_id": "83824",
-  "player_name": "Hugo Pierre",
+  "gs_id": "142268",
+  "player_name": "Antoine Tailleu Pierre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:26.971Z",
+  "updated": "2026-03-27T03:53:29.970Z",
   "matches": [
     {
-      "date": "20251105",
-      "tournament": "M15 Sharm ElSheikh 16",
+      "date": "20250930",
+      "tournament": "M25 Zaragoza",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,25 +15,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Faucon",
-      "score": "6-2 6-2"
+      "opponent": "I. Gakhov",
+      "score": "7(7)-6(5) 4-6 6-2"
     },
     {
-      "date": "20251029",
-      "tournament": "M15 Sharm ElSheikh 15",
+      "date": "20250717",
+      "tournament": "M15 Gubbio",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Elsayed",
-      "score": "6-3 6-3"
+      "opponent": "S. Pieri",
+      "score": "2-6 6(6)-7(8)"
     },
     {
-      "date": "20230906",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "date": "20250715",
+      "tournament": "M15 Gubbio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Raquillet",
+      "score": "2-6 6-3 6-4"
+    },
+    {
+      "date": "20250618",
+      "tournament": "M15 Duffel",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Lumsden",
-      "score": "6-2 3-6 1-6"
+      "opponent": "T. Colson",
+      "score": "4-6 6-4 6-2"
+    },
+    {
+      "date": "20240807",
+      "tournament": "ITF M15 Eupen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Loge",
+      "score": "6(3)-7(7) 3-6"
     }
   ]
 }
