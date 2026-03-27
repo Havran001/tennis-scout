@@ -3,8 +3,21 @@
   "gs_id": "33256",
   "player_name": "Fernando Yamacita",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:56:39.034Z",
+  "updated": "2026-03-27T07:49:34.073Z",
   "matches": [
+    {
+      "date": "20230823",
+      "tournament": "M15 Sao Paulo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. A. Becerra Otarola",
+      "score": "7-5 7(7)-6(1)"
+    },
     {
       "date": "20230818",
       "tournament": "ITF M15 Belem Men",
@@ -43,58 +56,6 @@
       "result": "W",
       "opponent": "L. A. Corthey",
       "score": "3-6 3-6"
-    },
-    {
-      "date": "20230705",
-      "tournament": "M25 Biella",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Castagnola",
-      "score": "3-6 6-2 6-1"
-    },
-    {
-      "date": "20230704",
-      "tournament": "M25 Biella",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. D&apos;Agostino",
-      "score": "2-6 1-6"
-    },
-    {
-      "date": "20230427",
-      "tournament": "M15 Mogi das Cruzes",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Fernandez",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20230426",
-      "tournament": "M15 Mogi das Cruzes",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. A. De Lima",
-      "score": "4-6 3-6"
     }
   ]
 }
