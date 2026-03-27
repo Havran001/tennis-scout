@@ -1,13 +1,104 @@
 {
   "player_id": "f0go",
-  "gs_id": "92471",
-  "player_name": "Sebastian Osorio Juan",
+  "gs_id": "131455",
+  "player_name": "Manuel La Serna Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:56:49.985Z",
+  "updated": "2026-03-27T04:57:25.991Z",
   "matches": [
     {
-      "date": "20230522",
-      "tournament": "M15 Tabasco",
+      "date": "20251128",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Midon",
+      "score": "6-4 3-6 3-6"
+    },
+    {
+      "date": "20251126",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Ratti",
+      "score": "4-6 7-5 7-5"
+    },
+    {
+      "date": "20251125",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ganesan",
+      "score": "6-4 6(2)-7(7) 7-5"
+    },
+    {
+      "date": "20241130",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Ribeiro de Almeida",
+      "score": "6-3 3-6 2-6"
+    },
+    {
+      "date": "20241129",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Cigarran",
+      "score": "7-5 2-6 4-6"
+    },
+    {
+      "date": "20241128",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Dreer",
+      "score": "6(1)-7(7) 0-6"
+    },
+    {
+      "date": "20241127",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Leguizamon",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230222",
+      "tournament": "M15 Tucuman",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. F. Rubio Fierros",
-      "score": "1-6 2-6"
+      "opponent": "V. Aboian",
+      "score": "7-5 7(7)-6(5)"
+    },
+    {
+      "date": "20221115",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. De La Fuente",
+      "score": "3-6 3-6"
     }
   ]
 }
