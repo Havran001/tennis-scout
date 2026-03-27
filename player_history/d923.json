@@ -3,11 +3,63 @@
   "gs_id": "1934",
   "player_name": "Damir Dzumhur",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:47:43.899Z",
+  "updated": "2026-03-27T00:55:57.924Z",
   "matches": [
     {
-      "date": "20210906",
-      "tournament": "Tulln Challenger Men",
+      "date": "20240216",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Gasquet",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20240215",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Rincon",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240214",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Andreev",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20240213",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Giannessi",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20220223",
+      "tournament": "Forli 5",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Huesler",
-      "score": "7(7)-6(5) 2-6 3-6"
+      "opponent": "G. Ferrari",
+      "score": "5-7 6(4)-7(7)"
     }
   ]
 }
