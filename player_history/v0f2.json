@@ -3,11 +3,37 @@
   "gs_id": "124402",
   "player_name": "Alexander Vikhlyantsev",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:51:32.898Z",
+  "updated": "2026-03-27T09:28:25.086Z",
   "matches": [
     {
-      "date": "20210622",
-      "tournament": "M15 Antalya 25",
+      "date": "20250606",
+      "tournament": "M15 Kayseri 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Beaven",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250604",
+      "tournament": "M15 Kayseri 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Stepanov",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20250527",
+      "tournament": "M15 Kayseri",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Comesana",
-      "score": "1-6 0-6"
+      "opponent": "D. De Jonge",
+      "score": "6(3)-7(7) 1-6"
     }
   ]
 }
