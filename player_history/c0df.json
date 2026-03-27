@@ -3,50 +3,37 @@
   "gs_id": "76787",
   "player_name": "Francisco Comesana",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:03:20.013Z",
+  "updated": "2026-03-27T08:15:00.180Z",
   "matches": [
     {
-      "date": "20230708",
-      "tournament": "Santa Fe Challenger Men",
+      "date": "20240618",
+      "tournament": "Sassuolo Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Navone",
-      "score": "5-7 5-7"
+      "opponent": "M. Cecchinato",
+      "score": "6(4)-7(7) 2-6"
     },
     {
-      "date": "20230707",
-      "tournament": "Santa Fe Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Guillen Meza",
-      "score": "6-0 7(7)-6(3)"
-    },
-    {
-      "date": "20230706",
-      "tournament": "Santa Fe Challenger Men",
+      "date": "20231018",
+      "tournament": "Santa Fe 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Lama",
-      "score": "6-3 6-3"
+      "result": "L",
+      "opponent": "M. Navone",
+      "score": "6-3 3-6 6-4"
     },
     {
-      "date": "20230704",
-      "tournament": "Santa Fe Challenger Men",
+      "date": "20231017",
+      "tournament": "Santa Fe 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. I. Justo",
-      "score": "6-2 6-4"
+      "opponent": "R. Bonadio",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230922",
+      "tournament": "Antofagasta Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. A. Burruchaga",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230920",
+      "tournament": "Antofagasta Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "4-6 6(3)-7(7)"
+    },
+    {
+      "date": "20230919",
+      "tournament": "Antofagasta Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Sakamoto",
+      "score": "6-0 5-7 4-6"
     }
   ]
 }
