@@ -3,24 +3,11 @@
   "gs_id": "34379",
   "player_name": "Louis Dussin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:56:53.021Z",
+  "updated": "2026-03-27T07:49:39.046Z",
   "matches": [
     {
-      "date": "20250430",
-      "tournament": "M25 Sabadell",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Echeverria",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20240405",
-      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "date": "20240524",
+      "tournament": "M25 Deauville",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Massard",
-      "score": "3-6 6-4 4-6"
+      "opponent": "R. Collignon",
+      "score": "6-1 7(7)-6(5)"
     },
     {
-      "date": "20240404",
-      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "date": "20240523",
+      "tournament": "M25 Deauville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Reco",
-      "score": "5-7 2-6"
+      "opponent": "Ch. Negritu",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20240403",
-      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "date": "20240521",
+      "tournament": "M25 Deauville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +41,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Bradshaw",
-      "score": "6(7)-7(9) 7(7)-6(5) 3-1 ret."
+      "opponent": "T. Gerbaud",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240419",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Reco",
+      "score": "4-6 7-5 7(7)-6(4)"
+    },
+    {
+      "date": "20240418",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Massard",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20240416",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Izquierdo Luque",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20240314",
+      "tournament": "M15 Les Franqueses del Valles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Decamps",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240313",
+      "tournament": "M15 Les Franqueses del Valles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Zusman",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20240227",
+      "tournament": "ITF M15 Lannion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Papamalamis",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20231122",
+      "tournament": "ITF M15 Alcala de Henares Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Blanch",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20230927",
+      "tournament": "ITF M25 Sabadell 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Handel",
+      "score": "6-3 6-2"
     }
   ]
 }
