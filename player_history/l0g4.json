@@ -3,11 +3,37 @@
   "gs_id": "148918",
   "player_name": "Lorenzo Lorusso",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:53:43.918Z",
+  "updated": "2026-03-27T01:57:13.935Z",
   "matches": [
     {
-      "date": "20251218",
-      "tournament": "M15 Monastir 46",
+      "date": "20240611",
+      "tournament": "M15 Chieti",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. D&apos;Agostino",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240320",
+      "tournament": "ITF M15 Sharm ElSheikh 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Pawelski",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240314",
+      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Dong",
-      "score": "6-3 6-1"
+      "opponent": "Y. Dzhavakian",
+      "score": "6-0 6-3"
     },
     {
-      "date": "20251216",
-      "tournament": "M15 Monastir 46",
+      "date": "20240313",
+      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Steiner",
-      "score": "3-6 6-4 4-6"
+      "opponent": "S. Sikharulidze",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20240228",
+      "tournament": "ITF M15 Sharm ElSheikh 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krajci",
+      "score": "4-6 7(12)-6(10) 3-6"
+    },
+    {
+      "date": "20230418",
+      "tournament": "ITF M25 Santa Margherita di Pula 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Baroni",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20220513",
+      "tournament": "M25 Monastir 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Mansouri",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20220512",
+      "tournament": "M25 Monastir 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Kumar",
+      "score": "6-2 6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20220510",
+      "tournament": "M25 Monastir 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Tsarapkin",
+      "score": "6-1 6-4"
     }
   ]
 }
