@@ -1,13 +1,13 @@
 {
   "player_id": "f0go",
-  "gs_id": "127767",
-  "player_name": "Carlos Prado Angelo Juan",
+  "gs_id": "28723",
+  "player_name": "Pablo Ficovich Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:53:14.955Z",
+  "updated": "2026-03-27T03:44:47.973Z",
   "matches": [
     {
-      "date": "20260223",
-      "tournament": "Tigre 2",
+      "date": "20241008",
+      "tournament": "Villa Maria",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,34 +15,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Damas",
-      "score": "7(7)-6(5) 6-1"
+      "opponent": "J. M. Cerundolo",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20230727",
-      "tournament": "ITF M15 Metzingen Men",
+      "date": "20231128",
+      "tournament": "Temuco Challenger Men",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Sakamoto",
+      "score": "7-5 6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20221121",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Otegui",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20220928",
+      "tournament": "Charleston",
+      "surface": "Hard",
+      "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Lemstra",
-      "score": "5-7 0-6"
+      "opponent": "Z. Svajda",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20230725",
-      "tournament": "ITF M15 Metzingen Men",
+      "date": "20220926",
+      "tournament": "Charleston",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Salazar",
-      "score": "0-6 7(7)-6(4) 6-3"
+      "opponent": "C. Broom",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20220716",
+      "tournament": "Rome US",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Wu",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20220715",
+      "tournament": "Rome US",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Fratangelo",
+      "score": "4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20220714",
+      "tournament": "Rome US",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Quiroz",
+      "score": ""
+    },
+    {
+      "date": "20220713",
+      "tournament": "Rome US",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. McHugh",
+      "score": "2-6 2-6"
     }
   ]
 }
