@@ -3,24 +3,24 @@
   "gs_id": "35696",
   "player_name": "Thiago Seyboth Wild",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:51:08.984Z",
+  "updated": "2026-03-27T05:56:54.422Z",
   "matches": [
     {
-      "date": "20230319",
-      "tournament": "Vina Del Mar",
+      "date": "20250706",
+      "tournament": "Modena",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Gaston",
-      "score": "7-5 6-1"
+      "result": "L",
+      "opponent": "S. Travaglia",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20230318",
-      "tournament": "Vina Del Mar",
+      "date": "20250705",
+      "tournament": "Modena",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Barrios Vera",
-      "score": "6-3 6-4"
+      "opponent": "J. Kym",
+      "score": "7(7)-6(5) 6(4)-7(7) 4-6"
     },
     {
-      "date": "20230317",
-      "tournament": "Vina Del Mar",
+      "date": "20250704",
+      "tournament": "Modena",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Pellegrino",
-      "score": "6-3 4-6 3-6"
+      "opponent": "S. Sakellaridis",
+      "score": "6-3 6(5)-7(7) 7(7)-6(4)"
     },
     {
-      "date": "20230316",
-      "tournament": "Vina Del Mar",
+      "date": "20250703",
+      "tournament": "Modena",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Luz",
-      "score": "6-1 4-6 6-4"
+      "opponent": "T. Kodat",
+      "score": "7-5 7(7)-6(4)"
     },
     {
-      "date": "20230314",
-      "tournament": "Vina Del Mar",
+      "date": "20250701",
+      "tournament": "Modena",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,25 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Midon",
-      "score": "5-7 2-6"
+      "opponent": "M. Alcala Gurri",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20230120",
-      "tournament": "Piracicaba Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Mejia",
-      "score": "6(2)-7(7) 1-6"
-    },
-    {
-      "date": "20230120",
-      "tournament": "Piracicaba Challenger Men",
+      "date": "20230707",
+      "tournament": "Karlsruhe Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -93,12 +80,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Ugo Carabelli",
-      "score": "7(7)-6(5) 6-4"
+      "opponent": "Z. Piros",
+      "score": "3-6 6-2 3-6"
     },
     {
-      "date": "20230117",
-      "tournament": "Piracicaba Challenger Men",
+      "date": "20230706",
+      "tournament": "Karlsruhe Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Topo",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20230704",
+      "tournament": "Karlsruhe Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -106,34 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. B. Torres",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20230116",
-      "tournament": "Piracicaba Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Luz",
-      "score": "6(5)-7(7) 6(2)-7(7)"
-    },
-    {
-      "date": "20230115",
-      "tournament": "Piracicaba Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Monzon",
-      "score": "3-6 4-6"
+      "opponent": "D. Yevseyev",
+      "score": "6-4 3-6 3-6"
     }
   ]
 }
