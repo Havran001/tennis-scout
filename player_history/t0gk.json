@@ -3,8 +3,73 @@
   "gs_id": "169588",
   "player_name": "Ruslan Tiukaev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:31:11.088Z",
+  "updated": "2026-03-27T12:27:39.168Z",
   "matches": [
+    {
+      "date": "20250911",
+      "tournament": "M15 Maanshan 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "X. Wang",
+      "score": "6(5)-7(7) 1-6"
+    },
+    {
+      "date": "20250910",
+      "tournament": "M15 Maanshan 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Jin",
+      "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20250902",
+      "tournament": "M15 Maanshan 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Santillan",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20250826",
+      "tournament": "M15 Maanshan 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Kong",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20250806",
+      "tournament": "M15 Astana",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Tazabekov",
+      "score": "6-4 4-6 2-6"
+    },
     {
       "date": "20250608",
       "tournament": "M15 Tsaghkadzor 2",
@@ -82,32 +147,6 @@
       "result": "L",
       "opponent": "A. Binda",
       "score": "6-1 6(2)-7(7) 1-6"
-    },
-    {
-      "date": "20240704",
-      "tournament": "M15 Ust-Kamenogorsk 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Fomin",
-      "score": "3-6 6-3 6-3"
-    },
-    {
-      "date": "20240703",
-      "tournament": "M15 Ust-Kamenogorsk 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Maratuly",
-      "score": "6-3 6-2"
     }
   ]
 }
