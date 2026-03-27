@@ -1,9 +1,9 @@
 {
   "player_id": "f0go",
-  "gs_id": "40150",
-  "player_name": "Pablo Varillas Juan",
+  "gs_id": "41604",
+  "player_name": "Manuel Cerundolo Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:54:33.335Z",
+  "updated": "2026-03-27T11:56:46.153Z",
   "matches": [
     {
       "date": "20251028",
@@ -15,73 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Kolar",
-      "score": "6(4)-7(7) 7(7)-6(5) 6(3)-7(7)"
+      "opponent": "C. M. Zarate",
+      "score": "6-1 1-4 ret."
     },
     {
-      "date": "20251019",
+      "date": "20251025",
       "tournament": "Costa do Sauipe",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gima",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20250905",
-      "tournament": "M25 Mar Del Plata",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Vallejo",
-      "score": "1-6 6(2)-7(7)"
-    },
-    {
-      "date": "20250904",
-      "tournament": "M25 Mar Del Plata",
-      "surface": "Hard",
-      "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Dutra Da Silva",
-      "score": "6-1 6-3"
+      "result": "L",
+      "opponent": "R. A. Burruchaga",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20250903",
-      "tournament": "M25 Mar Del Plata",
+      "date": "20251024",
+      "tournament": "Costa do Sauipe",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. M. Zarate",
-      "score": "6-4 6-4"
+      "opponent": "G. Heide",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20250902",
-      "tournament": "M25 Mar Del Plata",
+      "date": "20251023",
+      "tournament": "Costa do Sauipe",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Guercio",
-      "score": "6-3 6-1"
+      "opponent": "S. Gima",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20250815",
+      "tournament": "Cancun 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. A. Burruchaga",
+      "score": "6-2 6(2)-7(7) 3-6"
+    },
+    {
+      "date": "20250815",
+      "tournament": "Cancun 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Wawrinka",
+      "score": "4-6 3-6"
     }
   ]
 }
