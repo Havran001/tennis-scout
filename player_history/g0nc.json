@@ -3,11 +3,37 @@
   "gs_id": "234567",
   "player_name": "Valentino Grippo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:55:22.924Z",
+  "updated": "2026-03-27T07:12:29.037Z",
   "matches": [
     {
-      "date": "20240910",
-      "tournament": "M15 Cordoba 2",
+      "date": "20251120",
+      "tournament": "M15 Olavarria",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. De Dios",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20251118",
+      "tournament": "M15 Olavarria",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Gagliardo",
+      "score": "3-6 6-3 6-2"
+    },
+    {
+      "date": "20250325",
+      "tournament": "M25 Lujan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Boscardin Dias",
-      "score": "5-7 2-6"
+      "opponent": "G. Ribeiro de Almeida",
+      "score": "7(8)-6(6) 6-2"
     }
   ]
 }
