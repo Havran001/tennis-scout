@@ -3,63 +3,11 @@
   "gs_id": "141996",
   "player_name": "Sho Katayama",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:29:09.088Z",
+  "updated": "2026-03-26T13:51:22.642Z",
   "matches": [
     {
-      "date": "20251101",
-      "tournament": "M15 Yanagawa City",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Shick",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20251031",
-      "tournament": "M15 Yanagawa City",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Ichikawa",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20251030",
-      "tournament": "M15 Yanagawa City",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "W. C. Lee",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20251029",
-      "tournament": "M15 Yanagawa City",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Yamanaka",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20250709",
-      "tournament": "M15 Tokyo 2",
+      "date": "20130918",
+      "tournament": "Costa Mesa 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Kikuchi",
-      "score": "6-3 6-3"
+      "opponent": "A. Dome",
+      "score": "6-3 4-6 1-6"
     },
     {
-      "date": "20240712",
-      "tournament": "ITF M15 Tokyo 2 Men",
+      "date": "20130614",
+      "tournament": "Karuizawa",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -80,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Imai",
-      "score": "6-4 6-2"
+      "opponent": "Y. Kibi",
+      "score": "6-2 5-7 4-6"
     },
     {
-      "date": "20240711",
-      "tournament": "ITF M15 Tokyo 2 Men",
+      "date": "20130612",
+      "tournament": "Karuizawa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Takahashi",
-      "score": ""
+      "opponent": "G. Kikuchi",
+      "score": "6-7 4-6"
     },
     {
-      "date": "20240710",
-      "tournament": "ITF M15 Tokyo 2 Men",
+      "date": "20130611",
+      "tournament": "Karuizawa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +54,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Hazawa",
-      "score": "6-3 6-3"
+      "opponent": "D. Barclay",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20130523",
+      "tournament": "Bangkok",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Isaro",
+      "score": "4-6 6-3 7-5"
+    },
+    {
+      "date": "20130522",
+      "tournament": "Bangkok",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Bar",
+      "score": "7-6 6-2"
+    },
+    {
+      "date": "20130521",
+      "tournament": "Bangkok",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Davidson",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20130403",
+      "tournament": "Tsukuba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Okamura",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20130328",
+      "tournament": "Kofu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Sekiguchi",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20130327",
+      "tournament": "Kofu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Sasai",
+      "score": "2-6 4-6"
     }
   ]
 }
