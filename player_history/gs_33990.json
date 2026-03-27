@@ -3,24 +3,11 @@
   "gs_id": "33990",
   "player_name": "John Wolf Jeffrey",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:49:50.952Z",
+  "updated": "2026-03-27T05:41:46.011Z",
   "matches": [
     {
-      "date": "20220719",
-      "tournament": "Indianapolis",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Harris",
-      "score": "6-4 6(1)-7(7) 7(7)-6(1)"
-    },
-    {
-      "date": "20220715",
-      "tournament": "Rome US",
+      "date": "20240928",
+      "tournament": "Charleston",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Wu",
-      "score": "4-6 1-6"
+      "opponent": "N. Basavareddy",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20220713",
-      "tournament": "Rome US",
+      "date": "20240927",
+      "tournament": "Charleston",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Mochizuki",
-      "score": "3-6 6(1)-7(7)"
+      "opponent": "D. Stricker",
+      "score": "6-3 3-6 7(7)-6(1)"
     },
     {
-      "date": "20220712",
-      "tournament": "Rome US",
+      "date": "20240924",
+      "tournament": "Charleston",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Shang",
-      "score": "1-6 2-6"
+      "opponent": "D. Sweeny",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20240705",
+      "tournament": "Bloomfield Hills Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kozlov",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240703",
+      "tournament": "Bloomfield Hills Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Shimizu",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20240701",
+      "tournament": "Bloomfield Hills Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Martin",
+      "score": "6-4 7-5"
     }
   ]
 }
