@@ -1,13 +1,13 @@
 {
   "player_id": "d0fn",
-  "gs_id": "41610",
-  "player_name": "Chen Dong",
+  "gs_id": "65424",
+  "player_name": "Ju Kim Dong",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:45:52.986Z",
+  "updated": "2026-03-27T06:01:45.525Z",
   "matches": [
     {
-      "date": "20250805",
-      "tournament": "M15 Singapore",
+      "date": "20250604",
+      "tournament": "M25 Changwon",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Peliwo",
-      "score": "7-5 3-6 6-3"
+      "opponent": "Oh Chan-Yeong",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20220728",
-      "tournament": "ITF M15 Caloundra 2 Men",
+      "date": "20240620",
+      "tournament": "ITF M25 Changwon Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Kelly",
-      "score": "6-2 6-3"
+      "opponent": "E. Winter",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20220727",
-      "tournament": "ITF M15 Caloundra 2 Men",
+      "date": "20240619",
+      "tournament": "ITF M25 Changwon Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Je. Delaney",
-      "score": "6-2 6-4"
+      "opponent": "R. Taguchi",
+      "score": "6-3 4-6 4-6"
     },
     {
-      "date": "20220718",
-      "tournament": "M15 Caloundra",
+      "date": "20230622",
+      "tournament": "M25 Anseong",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Chung",
+      "score": "6-3 1-6 5-7"
+    },
+    {
+      "date": "20230621",
+      "tournament": "M25 Anseong",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "D. H. Kim",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20230608",
+      "tournament": "M25 Daegu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "R. Matsumura",
-      "score": "6-3 3-6 2-6"
+      "opponent": "J. M. Lee",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230607",
+      "tournament": "M25 Daegu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Saitoh",
+      "score": "1-6 2-6"
     }
   ]
 }
