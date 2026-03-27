@@ -3,11 +3,24 @@
   "gs_id": "143134",
   "player_name": "Francesco Ferrari",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:29:28.093Z",
+  "updated": "2026-03-27T11:01:23.133Z",
   "matches": [
     {
-      "date": "20250828",
-      "tournament": "M15 Bucharest 4",
+      "date": "20250325",
+      "tournament": "M15 Alaminos 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bertimon",
+      "score": "3-6 6-3 3-6"
+    },
+    {
+      "date": "20250321",
+      "tournament": "M15 Alaminos 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. M. Papoe",
-      "score": "6-3 6-2"
+      "opponent": "P. Masjuan Ginel",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20250826",
-      "tournament": "M15 Bucharest 4",
+      "date": "20250320",
+      "tournament": "M15 Alaminos 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Sucu",
-      "score": "2-6 4-6"
+      "opponent": "D. Salazar",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20250312",
+      "tournament": "M15 Alaminos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Efstathiou",
+      "score": "6-1 6-3"
     },
     {
       "date": "20240926",
@@ -56,110 +82,6 @@
       "result": "W",
       "opponent": "B. Pavel",
       "score": "5-7 3-6"
-    },
-    {
-      "date": "20240717",
-      "tournament": "ITF M15 Bucharest 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Preda",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20240627",
-      "tournament": "ITF M25 Satu Mare Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. D. Ionel",
-      "score": "6-2 3-6 6-2"
-    },
-    {
-      "date": "20240626",
-      "tournament": "ITF M25 Satu Mare Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. A. Tomescu",
-      "score": "5-7 4-6"
-    },
-    {
-      "date": "20240624",
-      "tournament": "ITF M25 Satu Mare Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. R. Marinescu",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20240620",
-      "tournament": "ITF M15 Nyiregyháza 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Fajta",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20240619",
-      "tournament": "ITF M15 Nyiregyháza 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Cherie Ligniere",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20240606",
-      "tournament": "ITF M15 Grodzisk Mazowiecki Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Prihodko",
-      "score": "6-3 7-5"
-    },
-    {
-      "date": "20240605",
-      "tournament": "ITF M15 Grodzisk Mazowiecki Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Tenti",
-      "score": "6-1 6-3"
     }
   ]
 }
