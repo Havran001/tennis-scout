@@ -3,11 +3,24 @@
   "gs_id": "263930",
   "player_name": "Jack Kennedy",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:50:08.024Z",
+  "updated": "2026-03-27T00:55:36.919Z",
   "matches": [
     {
-      "date": "20251002",
-      "tournament": "M15 Winston-Salem",
+      "date": "20260218",
+      "tournament": "M15 Naples",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Sell",
+      "score": "5-7 6-2 1-6"
+    },
+    {
+      "date": "20251120",
+      "tournament": "M15 Tallahassee",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Q. Xu",
-      "score": "6-4 6-3"
+      "opponent": "M. Martinez Serrano",
+      "score": "3-6 6-2 2-6"
     },
     {
-      "date": "20250930",
-      "tournament": "M15 Winston-Salem",
+      "date": "20251118",
+      "tournament": "M15 Tallahassee",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Poling",
-      "score": "5-7 3-6"
+      "opponent": "T. Kodat",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20250425",
+      "tournament": "M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Baker",
+      "score": "4-6 6-4 6-3"
+    },
+    {
+      "date": "20250424",
+      "tournament": "M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Bertran",
+      "score": "6(2)-7(7) 2-6"
+    },
+    {
+      "date": "20250423",
+      "tournament": "M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Johnston",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20241017",
+      "tournament": "M25 Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Paroulek",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20241016",
+      "tournament": "M25 Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Silva",
+      "score": "5-7 5-7"
     }
   ]
 }
