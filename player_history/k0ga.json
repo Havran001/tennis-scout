@@ -3,8 +3,21 @@
   "gs_id": "84514",
   "player_name": "Igor Kudriashov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:05:44.018Z",
+  "updated": "2026-03-27T06:57:33.032Z",
   "matches": [
+    {
+      "date": "20250624",
+      "tournament": "M15 Kursumlijska Banja 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. A. Falabella",
+      "score": "4-6 4-6"
+    },
     {
       "date": "20250619",
       "tournament": "M15 Kursumlijska Banja 7",
@@ -30,45 +43,6 @@
       "result": "W",
       "opponent": "B. I. Torres Fernandez",
       "score": "3-6 2-6"
-    },
-    {
-      "date": "20231229",
-      "tournament": "M15 Monastir 52",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Tarvet",
-      "score": "6-3 1-6 6-0"
-    },
-    {
-      "date": "20231228",
-      "tournament": "M15 Monastir 52",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Bittoun",
-      "score": "4-6 7-5 2-6"
-    },
-    {
-      "date": "20231227",
-      "tournament": "M15 Monastir 52",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Kikuchi",
-      "score": "2-6 1-6"
     }
   ]
 }
