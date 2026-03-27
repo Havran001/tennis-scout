@@ -3,11 +3,11 @@
   "gs_id": "146522",
   "player_name": "Maxim Shin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:57:14.904Z",
+  "updated": "2026-03-27T00:53:40.926Z",
   "matches": [
     {
-      "date": "20251113",
-      "tournament": "M15 Antalya 14",
+      "date": "20260115",
+      "tournament": "M25 Monastir 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. D. Ionel",
-      "score": "6-3 6-2"
+      "opponent": "L. Pokorny",
+      "score": "7(7)-6(5) 7(7)-6(1)"
     },
     {
-      "date": "20251112",
-      "tournament": "M15 Antalya 14",
+      "date": "20260114",
+      "tournament": "M25 Monastir 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Atabay",
-      "score": "0-6 2-6"
+      "opponent": "T. Yamanaka",
+      "score": "6-3 4-6 2-6"
     },
     {
-      "date": "20250415",
-      "tournament": "M15 Antalya 11",
+      "date": "20260107",
+      "tournament": "M25 Monastir",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Vanshelboim",
-      "score": "6-3 6-4"
+      "opponent": "O. Johansson",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20231025",
-      "tournament": "M15 Telavi",
+      "date": "20240313",
+      "tournament": "ITF M15 Monastir 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Gabashvili",
-      "score": "5-7 7-5 6-1"
+      "opponent": "C. Bittoun",
+      "score": "0-6 6(3)-7(7)"
     },
     {
-      "date": "20221123",
-      "tournament": "M15 Antalya 21",
+      "date": "20231116",
+      "tournament": "ITF M25 Antalya 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Maksimovic",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20231115",
+      "tournament": "ITF M25 Antalya 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. A. Jecan",
-      "score": "6-1 6-1"
+      "result": "W",
+      "opponent": "F. Campana",
+      "score": "6-4 6-3"
     },
     {
       "date": "20220713",
@@ -82,97 +95,6 @@
       "result": "L",
       "opponent": "P. Gunneswaran",
       "score": "6-3 6-1"
-    },
-    {
-      "date": "20220616",
-      "tournament": "M15 Monastir 23",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Dougaz",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20220615",
-      "tournament": "M15 Monastir 23",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Tang",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20220528",
-      "tournament": "M15 Antalya 16",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Deschamps",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20220527",
-      "tournament": "M15 Antalya 16",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Szajrych",
-      "score": "6-1 4-6 6-4"
-    },
-    {
-      "date": "20220526",
-      "tournament": "M15 Antalya 16",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Arnaboldi",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20220525",
-      "tournament": "M15 Antalya 16",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Sengul",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20220518",
-      "tournament": "M15 Antalya 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Giotis",
-      "score": "6(3)-7(7) 6-4 6-0"
     }
   ]
 }
