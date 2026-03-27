@@ -1,39 +1,26 @@
 {
   "player_id": "pm20",
-  "gs_id": "141952",
-  "player_name": "Yves Bailly Pierre",
+  "gs_id": "142268",
+  "player_name": "Antoine Tailleu Pierre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:17:30.164Z",
+  "updated": "2026-03-27T12:18:34.077Z",
   "matches": [
     {
-      "date": "20260109",
-      "tournament": "M25 Hazebrouck",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Papamalamis",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20260108",
-      "tournament": "M25 Hazebrouck",
+      "date": "20250731",
+      "tournament": "M25 Gentofte",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Bertimon",
-      "score": "4-6 5-7"
+      "result": "L",
+      "opponent": "T. Samuel",
+      "score": "5-7 3-6"
     },
     {
-      "date": "20260106",
-      "tournament": "M25 Hazebrouck",
+      "date": "20250730",
+      "tournament": "M25 Gentofte",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Pougault",
-      "score": "1-6 1-6"
+      "opponent": "A. Watanabe Eriksson",
+      "score": "6(1)-7(7) 6-4 1-6"
+    },
+    {
+      "date": "20250708",
+      "tournament": "M25+H Bastia-Lucciana",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Vylegzhanin",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Cap d'Agde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Moret",
+      "score": "6-2 7(7)-6(1)"
     }
   ]
 }
