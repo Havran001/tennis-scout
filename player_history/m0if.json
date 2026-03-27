@@ -3,8 +3,21 @@
   "gs_id": "75835",
   "player_name": "Francesco Maestrelli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:27:19.105Z",
+  "updated": "2026-03-27T12:04:52.152Z",
   "matches": [
+    {
+      "date": "20260311",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bellucci",
+      "score": "6-1 6-1"
+    },
     {
       "date": "20251112",
       "tournament": "Lyon 2",
@@ -32,69 +45,17 @@
       "score": "2-6 6-1 1-6"
     },
     {
-      "date": "20250925",
-      "tournament": "Buenos Aires 3",
+      "date": "20250406",
+      "tournament": "Monza",
       "surface": "Hard",
       "level": "C",
-      "round": "R16",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Bueno",
-      "score": "3-6 6(3)-7(7)"
-    },
-    {
-      "date": "20250923",
-      "tournament": "Buenos Aires 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Dutra Da Silva",
-      "score": "3-6 6-4 3-6"
-    },
-    {
-      "date": "20250619",
-      "tournament": "Sassuolo",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Lajovic",
+      "opponent": "A. Picchione",
       "score": "6-4 7(7)-6(4)"
-    },
-    {
-      "date": "20250618",
-      "tournament": "Sassuolo",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Moro Canas",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20250617",
-      "tournament": "Sassuolo",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Geerts",
-      "score": "6(3)-7(7) 7(7)-6(5) 1-6"
     },
     {
       "date": "20241111",
@@ -134,19 +95,6 @@
       "result": "L",
       "opponent": "J. Sels",
       "score": "4-6 7(7)-6(3) 6-2"
-    },
-    {
-      "date": "20240617",
-      "tournament": "Sassuolo Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Coria",
-      "score": "1-6 3-6"
     }
   ]
 }
