@@ -3,63 +3,11 @@
   "gs_id": "153145",
   "player_name": "Harold Huens",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:02:24.882Z",
+  "updated": "2026-03-27T04:58:21.988Z",
   "matches": [
     {
-      "date": "20250823",
-      "tournament": "M15 Huy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Loge",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20250822",
-      "tournament": "M15 Huy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Visser",
-      "score": "6-0 6-2"
-    },
-    {
-      "date": "20250821",
-      "tournament": "M15 Huy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Bouquet",
-      "score": "3-6 5-7"
-    },
-    {
-      "date": "20250820",
-      "tournament": "M15 Huy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Bouchelaghem",
-      "score": "1-6 6(3)-7(7)"
-    },
-    {
-      "date": "20230825",
-      "tournament": "ITF M15 Huy Men",
+      "date": "20251127",
+      "tournament": "M15 Madrid 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. De Bakker",
-      "score": "6-3 6-1"
+      "opponent": "I. Almazan Valiente",
+      "score": "6(4)-7(7) 6-4 5-7"
     },
     {
-      "date": "20230823",
-      "tournament": "ITF M15 Huy Men",
+      "date": "20251126",
+      "tournament": "M15 Madrid 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Bruna",
-      "score": "2-6 1-6"
+      "opponent": "J. Cesar Porras",
+      "score": "3-6 6-4 6-2"
     },
     {
-      "date": "20230815",
-      "tournament": "ITF M25 Koksijde Men",
+      "date": "20251029",
+      "tournament": "M15 Heraklion 12",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Bouchelaghem",
-      "score": "7-5 3-6 1-6"
+      "opponent": "M. Scaglia",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20220818",
-      "tournament": "M25 Koksijde",
+      "date": "20250618",
+      "tournament": "M15 Duffel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Broska",
+      "score": "3-6 7-5 1-6"
+    },
+    {
+      "date": "20240808",
+      "tournament": "ITF M15 Eupen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bovy",
-      "score": "7(7)-6(4) 6-2"
+      "opponent": "S. Pontjodikromo",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20220816",
-      "tournament": "M25 Koksijde",
+      "date": "20240806",
+      "tournament": "ITF M15 Eupen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +80,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Katz",
-      "score": "0-6 7-5 6-2"
+      "opponent": "N. Lootsma",
+      "score": "6-3 6(3)-7(7) 4-6"
+    },
+    {
+      "date": "20230628",
+      "tournament": "M25 Arlon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Royer",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20220823",
+      "tournament": "M15 Lambermont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Raynel",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20220810",
+      "tournament": "M15 Eupen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hoang",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20220622",
+      "tournament": "M25 Arlon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Beaupain",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20220614",
+      "tournament": "M15 Duffel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Heyman",
+      "score": "6-2 6-3"
     }
   ]
 }
