@@ -3,11 +3,11 @@
   "gs_id": "76980",
   "player_name": "Krittin Koaykul",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:04:27.011Z",
+  "updated": "2026-03-27T07:09:23.050Z",
   "matches": [
     {
-      "date": "20240827",
-      "tournament": "M25 Nakhon Si Thammarat",
+      "date": "20251022",
+      "tournament": "M15 Hua Hin",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Sasikumar",
-      "score": "6-0 6-4"
+      "opponent": "T. Suksumrarn",
+      "score": "6-0 6-1"
     },
     {
       "date": "20240821",
@@ -58,8 +58,21 @@
       "score": "2-6 6-4 7(7)-6(5)"
     },
     {
-      "date": "20240711",
-      "tournament": "M15 Nakhon Si Thammarat 5",
+      "date": "20231115",
+      "tournament": "M25 Hua Hin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Matsuda",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20231109",
+      "tournament": "M15 Hua Hin",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Chanta",
-      "score": "6-2 6-2"
+      "opponent": "F. Peliwo",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20240709",
-      "tournament": "M15 Nakhon Si Thammarat 5",
+      "date": "20231108",
+      "tournament": "M15 Hua Hin",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Nithithananont",
-      "score": "6-2 6-3"
+      "opponent": "M. Agwi",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20240214",
-      "tournament": "M15 Nakhon Si Thammarat",
+      "date": "20230905",
+      "tournament": "M15 Nakhon Si Thammarat 8",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Kimhi",
-      "score": "4-6 0-6"
+      "opponent": "F. Musitelli",
+      "score": "3-6 2-6"
     },
     {
       "date": "20230829",
@@ -108,84 +121,6 @@
       "result": "L",
       "opponent": "S. Rawat",
       "score": "6-4 6-2"
-    },
-    {
-      "date": "20230719",
-      "tournament": "ITF M15 Nakhon Si Thammarat 5 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Czaplinski",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20230712",
-      "tournament": "ITF M15 Nakhon Si Thammarat 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Sureshkumar",
-      "score": "3-6 0-3 ret."
-    },
-    {
-      "date": "20230615",
-      "tournament": "ITF M25 Nakhon Si Thammarat Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Samrej",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20230613",
-      "tournament": "ITF M25 Nakhon Si Thammarat Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Matsuda",
-      "score": "6-3 4-6 6(8)-7(10)"
-    },
-    {
-      "date": "20230601",
-      "tournament": "ITF M15 Nakhon Si Thammarat Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. K. Sinha",
-      "score": "5-7 5-7"
-    },
-    {
-      "date": "20230530",
-      "tournament": "ITF M15 Nakhon Si Thammarat Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Chanta",
-      "score": "6-3 6-4"
     }
   ]
 }
