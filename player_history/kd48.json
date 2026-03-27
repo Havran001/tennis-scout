@@ -3,8 +3,21 @@
   "gs_id": "10385",
   "player_name": "Markos Kalovelonis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:53:58.006Z",
+  "updated": "2026-03-27T06:55:24.062Z",
   "matches": [
+    {
+      "date": "20231015",
+      "tournament": "Shenzhen 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. C. Mo",
+      "score": "2-6 2-6"
+    },
     {
       "date": "20230815",
       "tournament": "M25 Jakarta 7",
@@ -30,84 +43,6 @@
       "result": "L",
       "opponent": "W. K. Leong M.",
       "score": "6-3 6-4"
-    },
-    {
-      "date": "20230614",
-      "tournament": "ITF M25 Nakhon Si Thammarat Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Reynolds",
-      "score": "6-3 4-6 6-3"
-    },
-    {
-      "date": "20230608",
-      "tournament": "M25 Jakarta 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Singh",
-      "score": "6-3 3-6 6-3"
-    },
-    {
-      "date": "20230607",
-      "tournament": "M25 Jakarta 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Padgham",
-      "score": "6(3)-7(7) 6(4)-7(7)"
-    },
-    {
-      "date": "20230601",
-      "tournament": "M25 Jakarta 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Moriya",
-      "score": "6(1)-7(7) 2-6"
-    },
-    {
-      "date": "20230531",
-      "tournament": "M25 Jakarta 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Padgham",
-      "score": "7(7)-6(2) 6(5)-7(7) 6-3"
-    },
-    {
-      "date": "20230509",
-      "tournament": "M15 Alaminos-Larnaca 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. A. Dancu",
-      "score": "6-3 1-6 7(7)-6(5)"
     }
   ]
 }
