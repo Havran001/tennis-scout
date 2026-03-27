@@ -3,24 +3,11 @@
   "gs_id": "123733",
   "player_name": "Lorenzo Angelini",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:47:28.969Z",
+  "updated": "2026-03-27T07:10:11.032Z",
   "matches": [
     {
-      "date": "20251006",
-      "tournament": "M25 Santa Margherita di Pula 10",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Handel",
-      "score": "6-1 7(7)-6(3)"
-    },
-    {
-      "date": "20251001",
-      "tournament": "M25 Santa Margherita di Pula 9",
+      "date": "20250827",
+      "tournament": "M15 Forli",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Cadenasso",
-      "score": "4-6 1-6"
+      "opponent": "N. Rispoli",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20250929",
-      "tournament": "M25 Santa Margherita di Pula 9",
+      "date": "20250825",
+      "tournament": "M15 Forli",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Pieri",
-      "score": "2-6 1-6"
+      "opponent": "L. Rossi",
+      "score": "7(7)-6(2) 6-4"
     },
     {
-      "date": "20240925",
-      "tournament": "ITF M15 Sharm ElSheikh 11 Men",
+      "date": "20241106",
+      "tournament": "M15 San Gregorio di Catania",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Gengel",
+      "opponent": "P. Marino",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20240911",
+      "tournament": "M25 Pozzuoli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Colombo",
+      "score": "4-6 6-2 4-6"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M15 Forli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Baroni",
+      "score": "4-6 7(7)-6(4) 3-6"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M15 Forli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Plunger",
       "score": "6-1 6-1"
-    },
-    {
-      "date": "20240716",
-      "tournament": "ITF M15 Gubbio Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Seghetti",
-      "score": "6-4 6-2"
     }
   ]
 }
