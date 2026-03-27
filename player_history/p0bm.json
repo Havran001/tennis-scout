@@ -3,37 +3,50 @@
   "gs_id": "68670",
   "player_name": "Tadeas Paroulek",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:27:09.101Z",
+  "updated": "2026-03-27T10:59:27.137Z",
   "matches": [
     {
-      "date": "20250530",
-      "tournament": "M15 Gyula",
+      "date": "20250723",
+      "tournament": "M25 Metzingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Mackenzie",
+      "score": "7(9)-6(7) 2-6 3-6"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Ceska Lipa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Romano",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250515",
+      "tournament": "M15 Szentendre",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Rivera",
-      "score": "6-3 4-6 6-4"
-    },
-    {
-      "date": "20250530",
-      "tournament": "M15 Gyula",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Donald",
-      "score": "3-6 6-1 6-4"
+      "opponent": "I. Ivanov",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20250527",
-      "tournament": "M15 Gyula",
+      "date": "20250513",
+      "tournament": "M15 Szentendre",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Bojarski",
-      "score": "6-3 6-1"
+      "opponent": "M. Cerny",
+      "score": "2-6 1-6"
     }
   ]
 }
