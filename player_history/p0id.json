@@ -3,8 +3,34 @@
   "gs_id": "149971",
   "player_name": "Peetu Pohjola",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:58:08.992Z",
+  "updated": "2026-03-27T06:09:21.012Z",
   "matches": [
+    {
+      "date": "20250903",
+      "tournament": "M15 Szczawno",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Fajta",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20230809",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Orlikowski",
+      "score": "2-6 4-6"
+    },
     {
       "date": "20230524",
       "tournament": "M15 Pazardzhik 2",
@@ -17,32 +43,6 @@
       "result": "L",
       "opponent": "C. Denolly",
       "score": "6-1 6-0"
-    },
-    {
-      "date": "20230322",
-      "tournament": "M25 Palmanova 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Piraino",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20230117",
-      "tournament": "M15 Vilnius",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Beloborodko",
-      "score": "6-0 6-3"
     }
   ]
 }
