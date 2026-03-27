@@ -1,1 +1,126 @@
-{"player_id":"a0ie","gs_id":"142240","player_name":"Seydina Andre","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"x6I9Pqi2","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Strombachs R.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"AsHVaibJ","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Kastsiukevich R.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20260130","tournament":"M15 Monastir 3","surface":"Hard","level":"I","round":"QF","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"E. Agafonov","score":"7(7)-6(4) 2-6 6-4"},{"date":"20260129","tournament":"M15 Monastir 3","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"M. Miladinovic","score":"6-3 6-1"},{"date":"20260129","tournament":"M15 Monastir 3","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"J. Echeverria","score":"7-5 6-1"},{"date":"20260122","tournament":"M15 Monastir 2","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"Y. Oki","score":"6(6)-7(8) 3-6"},{"date":"20260114","tournament":"M15 Bressuire","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"A. Witz","score":"5-7 0-6"},{"date":"20240207","tournament":"ITF M15 Monastir 6 Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"J. Flores","score":"7(9)-6(7) 4-6 6-4"},{"date":"20240118","tournament":"ITF M15 Monastir 3 Men","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"N. Kuhn","score":"7-5 6-4"},{"date":"20240117","tournament":"ITF M15 Monastir 3 Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"P. B. Privara","score":"3-6 2-6"},{"date":"20240110","tournament":"ITF M15 Monastir 2 Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"J. Nicod","score":"6-1 6-2"}],"total":11}
+{
+  "player_id": "a0ie",
+  "gs_id": "142240",
+  "player_name": "Seydina Andre",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:59:12.788Z",
+  "matches": [
+    {
+      "date": "20260130",
+      "tournament": "M15 Monastir 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Agafonov",
+      "score": "7(7)-6(4) 2-6 6-4"
+    },
+    {
+      "date": "20260129",
+      "tournament": "M15 Monastir 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Miladinovic",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20260129",
+      "tournament": "M15 Monastir 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Echeverria",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20260122",
+      "tournament": "M15 Monastir 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Oki",
+      "score": "6(6)-7(8) 3-6"
+    },
+    {
+      "date": "20260114",
+      "tournament": "M15 Bressuire",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Witz",
+      "score": "5-7 0-6"
+    },
+    {
+      "date": "20240207",
+      "tournament": "ITF M15 Monastir 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Flores",
+      "score": "7(9)-6(7) 4-6 6-4"
+    },
+    {
+      "date": "20240118",
+      "tournament": "ITF M15 Monastir 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Kuhn",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20240117",
+      "tournament": "ITF M15 Monastir 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. B. Privara",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240110",
+      "tournament": "ITF M15 Monastir 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nicod",
+      "score": "6-1 6-2"
+    }
+  ]
+}
