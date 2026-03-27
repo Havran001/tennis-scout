@@ -1,74 +1,48 @@
 {
   "player_id": "hf80",
-  "gs_id": "112926",
-  "player_name": "Ali Habib",
+  "gs_id": "31389",
+  "player_name": "Hady Habib",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:07:10.022Z",
+  "updated": "2026-03-27T06:55:45.027Z",
   "matches": [
     {
-      "date": "20250514",
-      "tournament": "M15 Kursumlijska Banja 3",
+      "date": "20251003",
+      "tournament": "Antofagasta",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Naharro",
-      "score": "6-4 6-4"
+      "opponent": "C. Garin",
+      "score": "7(13)-6(11) 1-6 6-3"
     },
     {
-      "date": "20240529",
-      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "date": "20251001",
+      "tournament": "Antofagasta",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Sultanov",
-      "score": "2-6 2-4 ret."
+      "result": "W",
+      "opponent": "C. M. Zarate",
+      "score": "3-6 7(7)-6(4) 6-4"
     },
     {
-      "date": "20230809",
-      "tournament": "M25 Roehampton 3",
+      "date": "20250929",
+      "tournament": "Antofagasta",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Dellavedova",
-      "score": "2-6 6(5)-7(7)"
-    },
-    {
-      "date": "20230615",
-      "tournament": "ITF M15 Kursumlijska Banja 5 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Juhas",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20230502",
-      "tournament": "ITF M25 Nottingham 8 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Goodger",
-      "score": "6-2 6-3"
+      "result": "W",
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "6-3 4-6 6-2"
     }
   ]
 }
