@@ -1,26 +1,52 @@
 {
   "player_id": "j0ed",
-  "gs_id": "215281",
-  "player_name": "Nikola Jovic",
+  "gs_id": "119593",
+  "player_name": "Viktor Jovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:03:33.127Z",
+  "updated": "2026-03-27T12:14:33.165Z",
   "matches": [
     {
-      "date": "20250822",
-      "tournament": "M15 Pirot 2",
+      "date": "20240724",
+      "tournament": "ITF M15 Kursumlijska Banja 12 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. N. Turker",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240720",
+      "tournament": "ITF M15 Kursumlijska Banja 11 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Pavlovic",
+      "score": "6-2 3-6 1-6"
+    },
+    {
+      "date": "20240719",
+      "tournament": "ITF M15 Kursumlijska Banja 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Rengifo",
-      "score": ""
+      "result": "W",
+      "opponent": "A. Forger",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20250821",
-      "tournament": "M15 Pirot 2",
+      "date": "20240718",
+      "tournament": "ITF M15 Kursumlijska Banja 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Shirokyi",
-      "score": "7-5 6-4"
+      "opponent": "L. Carnevalle",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20250820",
-      "tournament": "M15 Pirot 2",
+      "date": "20240717",
+      "tournament": "ITF M15 Kursumlijska Banja 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Obradovic",
-      "score": "3-6 6(7)-7(9)"
-    },
-    {
-      "date": "20241127",
-      "tournament": "M25 Antalya 6",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Georgiev",
-      "score": "6-4 6-1"
+      "opponent": "I. Almazan Valiente",
+      "score": "6-1 1-6 2-6"
     }
   ]
 }
