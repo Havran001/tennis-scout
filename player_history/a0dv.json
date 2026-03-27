@@ -3,11 +3,11 @@
   "gs_id": "116672",
   "player_name": "Arda Azkara",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:47:21.982Z",
+  "updated": "2026-03-27T06:07:21.016Z",
   "matches": [
     {
-      "date": "20231027",
-      "tournament": "M15 Norman",
+      "date": "20250516",
+      "tournament": "M25 Xalapa",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Tien",
-      "score": "2-6 2-4 ret."
+      "opponent": "C. M. Aguilar J.",
+      "score": "6(2)-7(7) 6-3 6-3"
     },
     {
-      "date": "20231026",
-      "tournament": "M15 Norman",
+      "date": "20250515",
+      "tournament": "M25 Xalapa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Catry",
-      "score": "6-4 3-6 7(7)-6(5)"
+      "opponent": "G. Nanda",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20231025",
-      "tournament": "M15 Norman",
+      "date": "20250514",
+      "tournament": "M25 Xalapa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,60 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Kissell",
-      "score": "1-6 6(4)-7(7)"
+      "opponent": "N. Hollender",
+      "score": "6-4 2-6 1-6"
     },
     {
-      "date": "20230929",
-      "tournament": "M15 Albuquerque",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "W. Grant",
-      "score": "4-6 7(7)-6(5) 3-6"
-    },
-    {
-      "date": "20230928",
-      "tournament": "M15 Albuquerque",
+      "date": "20240711",
+      "tournament": "M15 Lakewood",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Hasson",
-      "score": "6-4 5-7 6(4)-7(7)"
-    },
-    {
-      "date": "20230927",
-      "tournament": "M15 Albuquerque",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Martinez",
-      "score": "7(7)-6(4) 4-0 ret."
-    },
-    {
-      "date": "20220927",
-      "tournament": "M15 Albuquerque",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "R. Sakamoto",
-      "score": "6-4 0-6 6(5)-7(7)"
+      "opponent": "G. Nanda",
+      "score": "2-6 0-2 ret."
+    },
+    {
+      "date": "20240710",
+      "tournament": "M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Ogura",
+      "score": "6-3 7-5"
     }
   ]
 }
