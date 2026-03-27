@@ -3,11 +3,11 @@
   "gs_id": "195269",
   "player_name": "Charlie Robertson",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:17:05.829Z",
+  "updated": "2026-03-27T02:56:12.958Z",
   "matches": [
     {
-      "date": "20231024",
-      "tournament": "ITF M25 Glasgow Men",
+      "date": "20250610",
+      "tournament": "M25 Martos",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Colson",
-      "score": "1-6 2-6"
+      "opponent": "B. Winter Lopez",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240731",
+      "tournament": "ITF M25 Roehampton Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Monday",
+      "score": "5-7 6-1 6-3"
+    },
+    {
+      "date": "20230502",
+      "tournament": "ITF M25 Nottingham 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Loffhagen",
+      "score": "6-1 6-2"
     }
   ]
 }
