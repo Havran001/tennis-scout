@@ -3,7 +3,7 @@
   "gs_id": "6443",
   "player_name": "Maxime Chazal",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:58:38.226Z",
+  "updated": "2026-03-27T10:13:59.122Z",
   "matches": [
     {
       "date": "20251030",
@@ -84,73 +84,21 @@
       "score": "2-6 1-6"
     },
     {
-      "date": "20250326",
-      "tournament": "M25 Tarragona",
+      "date": "20250831",
+      "tournament": "M15 Cap d'Agde",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Cesar Porras",
-      "score": "1-6 7-5 6-2"
+      "result": "W",
+      "opponent": "F. Bax",
+      "score": "7-5 2-6 2-6"
     },
     {
-      "date": "20250320",
-      "tournament": "M25 Badalona",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Parisca",
-      "score": "7-5 6-3"
-    },
-    {
-      "date": "20250304",
-      "tournament": "Kigali 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Neumayer",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20250224",
-      "tournament": "Kigali",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Royer",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20250208",
-      "tournament": "M15 Valencia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Alcala Gurri",
-      "score": "3-6 7-5 6(1)-7(7)"
-    },
-    {
-      "date": "20250207",
-      "tournament": "M15 Valencia",
+      "date": "20250830",
+      "tournament": "M15 Cap d'Agde",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -158,12 +106,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Manzanera Pertusa",
-      "score": "7-5 3-6 4-6"
+      "opponent": "D. Salvestre",
+      "score": "6-3 4-6 3-6"
     },
     {
-      "date": "20250206",
-      "tournament": "M15 Valencia",
+      "date": "20250830",
+      "tournament": "M15 Cap d'Agde",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Bittoun",
+      "score": "6-1 3-6 5-7"
+    },
+    {
+      "date": "20250829",
+      "tournament": "M15 Cap d'Agde",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -171,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Gschwendtner",
-      "score": "3-6 1-6"
+      "opponent": "T. Rengel Sierra",
+      "score": "4-6 0-6"
     },
     {
-      "date": "20250205",
-      "tournament": "M15 Valencia",
+      "date": "20250826",
+      "tournament": "M15 Cap d'Agde",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,8 +145,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Mazdrashki",
-      "score": "6-4 6(2)-7(7) 1-6"
+      "opponent": "P. Pampanin",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20250220",
+      "tournament": "Brazzaville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dinev",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250218",
+      "tournament": "Brazzaville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Smiej",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20241111",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Pavlovic",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20241110",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Eriksson",
+      "score": "4-6 1-6"
     },
     {
       "date": "20240611",
@@ -238,58 +251,6 @@
       "result": "W",
       "opponent": "N. Perfetti",
       "score": "6-3 6-3"
-    },
-    {
-      "date": "20240326",
-      "tournament": "ITF M25 Tarragona Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Buse",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20240321",
-      "tournament": "ITF M25 Badalona Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Alcala Gurri",
-      "score": "3-6 6-0 6-4"
-    },
-    {
-      "date": "20240320",
-      "tournament": "ITF M25 Badalona Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Denolly",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20240205",
-      "tournament": "Burnie 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Sekulic",
-      "score": "6-3 6-4"
     }
   ]
 }
