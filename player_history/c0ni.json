@@ -3,20 +3,59 @@
   "gs_id": "162536",
   "player_name": "Aleksander Chayka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:55:16.956Z",
+  "updated": "2026-03-27T04:58:57.988Z",
   "matches": [
     {
-      "date": "20240821",
-      "tournament": "M15 Kottingbrunn",
+      "date": "20251127",
+      "tournament": "M15 Madrid 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Vandermeersch",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20251126",
+      "tournament": "M15 Madrid 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Planella Hernandez",
+      "score": "3-6 6-2 6-1"
+    },
+    {
+      "date": "20231214",
+      "tournament": "ITF M15 Sharm ElSheikh 20 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "O. Prihodko",
-      "score": "6-4 3-6 4-6"
+      "opponent": "E. Philippov",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20231213",
+      "tournament": "ITF M15 Sharm ElSheikh 20 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Fiorentini",
+      "score": "3-6 6-4 7-5"
     }
   ]
 }
