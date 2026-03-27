@@ -3,24 +3,63 @@
   "gs_id": "123618",
   "player_name": "Ioannis Kountourakis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:53:59.955Z",
+  "updated": "2026-03-27T04:47:28.982Z",
   "matches": [
     {
-      "date": "20250227",
-      "tournament": "M15 Sharm ElSheikh 5",
+      "date": "20260318",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Kirkin",
+      "score": "6(3)-7(7) 4-6"
+    },
+    {
+      "date": "20241213",
+      "tournament": "M15 Sharm ElSheikh 20",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Safwat",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20241212",
+      "tournament": "M15 Sharm ElSheikh 20",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Cina",
-      "score": "3-6 4-6"
+      "result": "W",
+      "opponent": "Y. Dzhavakian",
+      "score": "6-0 6-4"
     },
     {
-      "date": "20250226",
-      "tournament": "M15 Sharm ElSheikh 5",
+      "date": "20241211",
+      "tournament": "M15 Sharm ElSheikh 20",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +67,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Derepasko",
-      "score": "7(9)-6(7) 6-3"
+      "opponent": "J. Kroslak",
+      "score": "7(8)-6(6) 6-4"
     },
     {
-      "date": "20250205",
-      "tournament": "M15 Sharm ElSheikh 2",
+      "date": "20241128",
+      "tournament": "M15 Sharm ElSheikh 18",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Fajta",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20241127",
+      "tournament": "M15 Sharm ElSheikh 18",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Poritskyi",
+      "score": "4-6 6(6)-7(8)"
+    },
+    {
+      "date": "20240918",
+      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Balshaw",
-      "score": "6(4)-7(7) 7(7)-6(3) 3-6"
+      "opponent": "E. Tiurnev",
+      "score": "6(2)-7(7) 4-6"
     },
     {
-      "date": "20240131",
-      "tournament": "ITF M15 Sharm ElSheikh Men",
+      "date": "20231101",
+      "tournament": "ITF M25 Heraklion Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Whitehouse",
-      "score": "7(7)-6(3) 3-6 6-1"
+      "opponent": "E. Dalla Valle",
+      "score": "6-4 6-1"
     }
   ]
 }
