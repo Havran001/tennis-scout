@@ -2114,7 +2114,7 @@ function buildUI(){
           else if(rw.indexOf(' vs ')>=0){var pv=rw.split(' vs ');op=pv[0].indexOf(ln)>=0?pv[1]:pv[0];}
           else{op=rw;}
           op=op.replace(reNat,'').replace(reSeed,'').trim();
-          ms.push({date:ds,tournament:tn,surface:sf,level:'ta-import',round:rd,result:rs,opponent:op,score:sc,best_of:'',rank:rk||'',opp_rank:or||''});
+          ms.push({date:ds,tournament:tn,surface:sf,level:'ta-import',round:rd,result:rs,opponent:op,score:sc,best_of:'',rank:rk||'',opp_rank:or||'',dr:cs[9]||'',a_pct:cs[10]||'',df_pct:cs[11]||'',first_in:cs[12]||'',first_pct:cs[13]||'',second_pct:cs[14]||'',bp_saved:cs[15]||'',match_time:cs[16]||'',odds:''});
         }
         return ms;
       }
