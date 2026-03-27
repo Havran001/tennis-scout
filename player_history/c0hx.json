@@ -3,11 +3,50 @@
   "gs_id": "164108",
   "player_name": "Ozan Baris",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:11:23.034Z",
+  "updated": "2026-03-27T08:25:31.067Z",
   "matches": [
     {
-      "date": "20240701",
-      "tournament": "Bloomfield Hills Challenger Men",
+      "date": "20251012",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Arseneault",
+      "score": "5-7 6(6)-7(8)"
+    },
+    {
+      "date": "20240808",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tu",
+      "score": "3-6 7-5 3-6"
+    },
+    {
+      "date": "20240806",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Takahashi",
+      "score": "1-0 ret."
+    },
+    {
+      "date": "20240319",
+      "tournament": "Merida Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Quinn",
-      "score": "2-6 2-6"
+      "opponent": "M. A. Dellien Velasco",
+      "score": "6-3 6-2"
     },
     {
       "date": "20240124",
@@ -95,32 +134,6 @@
       "result": "W",
       "opponent": "D. Martin",
       "score": "6(2)-7(7) 2-6"
-    },
-    {
-      "date": "20230704",
-      "tournament": "Bloomfield Hills Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. K. Mukund",
-      "score": "2-6 6-1 6-3"
-    },
-    {
-      "date": "20230703",
-      "tournament": "Bloomfield Hills Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Langmo",
-      "score": "4-6 3-6"
     }
   ]
 }
