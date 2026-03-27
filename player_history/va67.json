@@ -3,8 +3,60 @@
   "gs_id": "76907",
   "player_name": "Valentin Vanta",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:54:31.983Z",
+  "updated": "2026-03-27T06:04:13.010Z",
   "matches": [
+    {
+      "date": "20230830",
+      "tournament": "ITF M15 Bucharest 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Pavel",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20230816",
+      "tournament": "ITF M15 Targu Jiu Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Ferri",
+      "score": "4-6 6-3 5-7"
+    },
+    {
+      "date": "20230703",
+      "tournament": "M25 Brasov",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zukas",
+      "score": "6-3 4-6 6-1"
+    },
+    {
+      "date": "20230619",
+      "tournament": "ITF M15 Cluj Napoca Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Rodesch",
+      "score": "6-1 6-4"
+    },
     {
       "date": "20230519",
       "tournament": "M15 Pazardzhik",
@@ -30,19 +82,6 @@
       "result": "W",
       "opponent": "A. Skorilas",
       "score": "2-6 3-6"
-    },
-    {
-      "date": "20221123",
-      "tournament": "M15 Sharm ElSheikh 17",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Chrysochos",
-      "score": "4-6 2-6"
     }
   ]
 }
