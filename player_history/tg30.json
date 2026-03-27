@@ -3,24 +3,63 @@
   "gs_id": "26855",
   "player_name": "Rigele Te",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:48:29.914Z",
+  "updated": "2026-03-27T00:56:40.923Z",
   "matches": [
     {
-      "date": "20240307",
-      "tournament": "ITF M25 Quinta Do Lago Men",
+      "date": "20260211",
+      "tournament": "M25 Monastir 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Smiej",
+      "score": "3-6 6-1 6-4"
+    },
+    {
+      "date": "20260207",
+      "tournament": "M25 Monastir 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Chazal",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20260206",
+      "tournament": "M25 Monastir 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Robert",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20260205",
+      "tournament": "M25 Monastir 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Loffhagen",
-      "score": "7-5 4-1 ret."
+      "result": "W",
+      "opponent": "E. Lumsden",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20240306",
-      "tournament": "ITF M25 Quinta Do Lago Men",
+      "date": "20260203",
+      "tournament": "M25 Monastir 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Vylegzhanin",
-      "score": "2-6 6-2 2-6"
+      "opponent": "Y. Hongyu",
+      "score": "1-6 2-6"
     },
     {
       "date": "20230526",
@@ -149,6 +188,19 @@
       "score": "6-2 6-3"
     },
     {
+      "date": "20230412",
+      "tournament": "ITF M25 Sharm ElSheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Cukierman",
+      "score": "7(7)-6(5) 6-1"
+    },
+    {
       "date": "20230330",
       "tournament": "ITF M25 Saint Dizier Men",
       "surface": "Hard",
@@ -175,17 +227,30 @@
       "score": "6-3 6-4"
     },
     {
-      "date": "20221018",
-      "tournament": "M15 Monastir 41",
+      "date": "20220825",
+      "tournament": "M15 Cairo 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Barrena",
+      "score": "6-3 1-0 ret."
+    },
+    {
+      "date": "20220824",
+      "tournament": "M15 Cairo 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "Ch. Negritu",
-      "score": "6-3 6-2"
+      "result": "W",
+      "opponent": "S. Papagno",
+      "score": "6-3 6-0"
     },
     {
       "date": "20220628",
@@ -240,73 +305,21 @@
       "score": "4-1 ret."
     },
     {
-      "date": "20220525",
-      "tournament": "M15 Antalya 16",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Walkin",
-      "score": "6-1 ret."
-    },
-    {
-      "date": "20220522",
-      "tournament": "M15 Antalya 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Erhard",
-      "score": "2-6 6-3 6-3"
-    },
-    {
-      "date": "20220521",
-      "tournament": "M15 Antalya 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Rincon",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20220520",
-      "tournament": "M15 Antalya 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Arnaboldi",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20220519",
-      "tournament": "M15 Antalya 15",
+      "date": "20220421",
+      "tournament": "M15 Cairo 5",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Ilhan",
-      "score": "6-3 6-4"
+      "result": "L",
+      "opponent": "C. Sinclair",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20220518",
-      "tournament": "M15 Antalya 15",
+      "date": "20220420",
+      "tournament": "M15 Cairo 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -314,21 +327,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Khotchenkov",
-      "score": "6-4 6-4"
+      "opponent": "A. El Sallaly",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20220510",
-      "tournament": "M15 Antalya 14",
+      "date": "20220414",
+      "tournament": "M15 Cairo 4",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Kuzuhara",
-      "score": "6-3 6-4"
+      "opponent": "V. Aboian",
+      "score": "6-2 4-6 6-2"
+    },
+    {
+      "date": "20220413",
+      "tournament": "M15 Cairo 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Sinclair",
+      "score": "6-3 2-6 6(3)-7(7)"
     }
   ]
 }
