@@ -3,11 +3,11 @@
   "gs_id": "33593",
   "player_name": "Adil Kalyanpur",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:00:15.893Z",
+  "updated": "2026-03-27T00:50:33.917Z",
   "matches": [
     {
-      "date": "20220712",
-      "tournament": "M25 Idanha-a-Nova",
+      "date": "20221102",
+      "tournament": "M15 New Delhi 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,51 +15,116 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Faria",
+      "opponent": "V. Vardhan",
+      "score": "6-4 3-6 6-3"
+    },
+    {
+      "date": "20220526",
+      "tournament": "M15 Monastir 20",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Montsi",
+      "score": "2-6 0-1 ret."
+    },
+    {
+      "date": "20220525",
+      "tournament": "M15 Monastir 20",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Ahouda",
+      "score": "3-6 6-4 4-6"
+    },
+    {
+      "date": "20220310",
+      "tournament": "M15 Bhopal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Qamar",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20220309",
+      "tournament": "M15 Bhopal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Canter",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20220214",
+      "tournament": "Bengaluru 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kadhe",
       "score": "2-6 2-6"
     },
     {
-      "date": "20210818",
-      "tournament": "ITF M15 Monastir 33 Men",
+      "date": "20211231",
+      "tournament": "M15 Doha 6",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Brymer",
-      "score": "2-6 2-6"
+      "opponent": "B. Zhukayev",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20210804",
-      "tournament": "ITF M15 Monastir 31 Men",
+      "date": "20211230",
+      "tournament": "M15 Doha 6",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Glinka",
-      "score": "6(1)-7(7) 0-2 ret."
+      "result": "W",
+      "opponent": "O. Moraing",
+      "score": "6-1 7(7)-6(4)"
     },
     {
-      "date": "20210727",
-      "tournament": "ITF M15 Monastir 30 Men",
+      "date": "20211229",
+      "tournament": "M15 Doha 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gueymard Wayenburg",
-      "score": "1-6 6-4 6(6)-7(8)"
+      "result": "W",
+      "opponent": "D. Javia",
+      "score": "7-5 6-3"
     },
     {
-      "date": "20210721",
-      "tournament": "ITF M15 Monastir 29 Men",
+      "date": "20211124",
+      "tournament": "M15 Gurugram",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Vacherot",
-      "score": "4-6 6-3 6-0"
+      "opponent": "D. H. Boyer",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20210714",
-      "tournament": "ITF M15 Monastir 28 Men",
+      "date": "20211110",
+      "tournament": "M15 Indore 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Pujol Navarro",
-      "score": "6-3 4-6 6-1"
+      "opponent": "F. Qamar",
+      "score": "6-4 6-2"
     }
   ]
 }
