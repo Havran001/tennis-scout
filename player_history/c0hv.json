@@ -3,8 +3,60 @@
   "gs_id": "123026",
   "player_name": "Luca Castagnola",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:54:36.006Z",
+  "updated": "2026-03-27T02:52:53.956Z",
   "matches": [
+    {
+      "date": "20240713",
+      "tournament": "ITF M15 Litija Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Artnak",
+      "score": "1-6 6-2 5-7"
+    },
+    {
+      "date": "20240712",
+      "tournament": "ITF M15 Litija Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. J. Planinsek",
+      "score": "7(7)-6(3) 3-6 6-2"
+    },
+    {
+      "date": "20240711",
+      "tournament": "ITF M15 Litija Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Iakubenko",
+      "score": "3-6 6-2 3-0 ret."
+    },
+    {
+      "date": "20240710",
+      "tournament": "ITF M15 Litija Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Vetrih",
+      "score": "6-1 6-1"
+    },
     {
       "date": "20240611",
       "tournament": "M15 Chieti",
@@ -19,17 +71,56 @@
       "score": "5-7 6-4 6-1"
     },
     {
-      "date": "20240505",
-      "tournament": "Mauthausen Challenger Men",
+      "date": "20230824",
+      "tournament": "ITF M25 Lesa Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Fanselow",
-      "score": "6-4 4-6 2-6"
+      "opponent": "T. Handel",
+      "score": "6-2 3-6 4-6"
+    },
+    {
+      "date": "20230822",
+      "tournament": "ITF M25 Lesa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Piatti",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20230720",
+      "tournament": "ITF M15 Gubbio Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Tabacco",
+      "score": "7-5 6(2)-7(7) 3-5 ret."
+    },
+    {
+      "date": "20230719",
+      "tournament": "ITF M15 Gubbio Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Baroni",
+      "score": "2-6 3-6"
     },
     {
       "date": "20230616",
@@ -58,21 +149,34 @@
       "score": "3-6 4-6"
     },
     {
-      "date": "20230608",
-      "tournament": "M15 Frascati",
+      "date": "20220826",
+      "tournament": "M25 Lesa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Piraino",
+      "score": "6-1 0-6 7-5"
+    },
+    {
+      "date": "20220825",
+      "tournament": "M25 Lesa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Dalla Valle",
-      "score": "4-6 3-6"
+      "result": "W",
+      "opponent": "I. Monzon",
+      "score": "6(3)-7(7) 6-4 2-6"
     },
     {
-      "date": "20230606",
-      "tournament": "M15 Frascati",
+      "date": "20220823",
+      "tournament": "M25 Lesa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Dessi",
-      "score": "0-6 0-6"
+      "opponent": "G. Biondolillo",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20230424",
-      "tournament": "ITF M25 Santa Margherita di Pula 4 Men",
+      "date": "20220817",
+      "tournament": "M15 Craiova",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,34 +197,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Compagnucci",
-      "score": "6-4 7-5"
-    },
-    {
-      "date": "20230416",
-      "tournament": "Roseto Degli Abruzzi",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Moroni",
-      "score": "5-7 6-3 6-1"
-    },
-    {
-      "date": "20230403",
-      "tournament": "ITF M25 Santa Margherita di Pula Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Ferrari",
-      "score": "6-4 2-6 6(2)-7(7)"
+      "opponent": "M. R. Marinescu",
+      "score": "2-6 3-6"
     },
     {
       "date": "20220616",
@@ -147,19 +225,6 @@
       "result": "W",
       "opponent": "K. Krawcewicz",
       "score": "7(7)-6(3) 6-3"
-    },
-    {
-      "date": "20220403",
-      "tournament": "Sanremo",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Perchicot",
-      "score": "6-3 6-2"
     }
   ]
 }
