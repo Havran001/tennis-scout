@@ -3,11 +3,24 @@
   "gs_id": "115703",
   "player_name": "Nishesh Basavareddy",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:50.974Z",
+  "updated": "2026-03-27T06:07:17.027Z",
   "matches": [
     {
-      "date": "20240929",
-      "tournament": "Charleston",
+      "date": "20250722",
+      "tournament": "Bloomfield Hills",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. H. Hsu",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240707",
+      "tournament": "Bloomfield Hills Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,25 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Butvilas",
-      "score": "6-4 6-3"
+      "opponent": "L. Tien",
+      "score": "4-6 6-3 6-4"
     },
     {
-      "date": "20240928",
-      "tournament": "Charleston",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J.J. Wolf",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20240928",
-      "tournament": "Charleston",
+      "date": "20240706",
+      "tournament": "Bloomfield Hills Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Eubanks",
-      "score": "4-6 6(5)-7(7)"
+      "opponent": "S. Kozlov",
+      "score": "2-6 0-2 ret."
     },
     {
-      "date": "20240927",
-      "tournament": "Charleston",
+      "date": "20240705",
+      "tournament": "Bloomfield Hills Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Tomic",
+      "score": "4-6 0-0 ret."
+    },
+    {
+      "date": "20240704",
+      "tournament": "Bloomfield Hills Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Quinn",
-      "score": "6-2 7-5"
+      "opponent": "A. Bellier",
+      "score": "3-6 6-4 2-6"
     },
     {
-      "date": "20240924",
-      "tournament": "Charleston",
+      "date": "20240702",
+      "tournament": "Bloomfield Hills Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Rybakov",
-      "score": "6-4 4-6 4-6"
+      "opponent": "M. Polmans",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20220719",
-      "tournament": "Indianapolis",
+      "date": "20230704",
+      "tournament": "Bloomfield Hills Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -80,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Gojowczyk",
-      "score": "6(4)-7(7) 6(3)-7(7)"
+      "opponent": "G. Mpetshi Perricard",
+      "score": "3-6 6-3 6-3"
     }
   ]
 }
