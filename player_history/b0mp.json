@@ -1,1 +1,126 @@
-{"player_id":"b0mp","gs_id":"142187","player_name":"Attila Boros","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"MgKJTUM7","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Pecci A.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"hd1qpj7l","date":"20260325","tournament":"ITF MEN - DOUBLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Gobbi G./Parenti L.","score":"0-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20260205","tournament":"M15 Antalya 2","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"R. Nijboer","score":"6-1 3-6 1-6"},{"date":"20260204","tournament":"M15 Antalya 2","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"N. Perfetti","score":"6-1 4-6 6-3"},{"date":"20260130","tournament":"M15 Antalya","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"S. Muto","score":"6-2 3-6 6-0"},{"date":"20260130","tournament":"M15 Antalya","surface":"Hard","level":"I","round":"QF","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"I. Radulov","score":"7-5 4-6 0-6"},{"date":"20260129","tournament":"M15 Antalya","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"A. Wazny","score":"4-6 4-6"},{"date":"20240112","tournament":"ITF M15 Antalya Men","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"C. Aksu","score":"7(10)-6(8) 6-1"},{"date":"20240111","tournament":"ITF M15 Antalya Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"C. Manda","score":"2-6 5-7"},{"date":"20230125","tournament":"M15 Cairo","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"M. Ribecai","score":"6-3 3-6 6-2"},{"date":"20220511","tournament":"M15 Heraklion","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"L. Castelnuovo","score":"6-4 6(3)-7(7) 1-6"}],"total":11}
+{
+  "player_id": "b0mp",
+  "gs_id": "142187",
+  "player_name": "Attila Boros",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:59:08.780Z",
+  "matches": [
+    {
+      "date": "20260205",
+      "tournament": "M15 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Nijboer",
+      "score": "6-1 3-6 1-6"
+    },
+    {
+      "date": "20260204",
+      "tournament": "M15 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Perfetti",
+      "score": "6-1 4-6 6-3"
+    },
+    {
+      "date": "20260130",
+      "tournament": "M15 Antalya",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Muto",
+      "score": "6-2 3-6 6-0"
+    },
+    {
+      "date": "20260130",
+      "tournament": "M15 Antalya",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Radulov",
+      "score": "7-5 4-6 0-6"
+    },
+    {
+      "date": "20260129",
+      "tournament": "M15 Antalya",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Wazny",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240112",
+      "tournament": "ITF M15 Antalya Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Aksu",
+      "score": "7(10)-6(8) 6-1"
+    },
+    {
+      "date": "20240111",
+      "tournament": "ITF M15 Antalya Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Manda",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20230125",
+      "tournament": "M15 Cairo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Ribecai",
+      "score": "6-3 3-6 6-2"
+    },
+    {
+      "date": "20220511",
+      "tournament": "M15 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Castelnuovo",
+      "score": "6-4 6(3)-7(7) 1-6"
+    }
+  ]
+}
