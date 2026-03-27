@@ -3,8 +3,21 @@
   "gs_id": "86992",
   "player_name": "Takeru Yuzuki",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:51:50.963Z",
+  "updated": "2026-03-27T03:47:00.968Z",
   "matches": [
+    {
+      "date": "20230404",
+      "tournament": "M25 Kashiwa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Chung",
+      "score": "6-2 6-2"
+    },
     {
       "date": "20220830",
       "tournament": "M25 Sapporo",
@@ -17,71 +30,6 @@
       "result": "L",
       "opponent": "K. Isomura",
       "score": "1-6 0-6"
-    },
-    {
-      "date": "20220726",
-      "tournament": "ITF M15 Caloundra 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Pavlekovich Smith",
-      "score": "5-7 6-1 3-6"
-    },
-    {
-      "date": "20220719",
-      "tournament": "M15 Caloundra",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Addison",
-      "score": "7(7)-6(1) 6-3"
-    },
-    {
-      "date": "20220603",
-      "tournament": "M25 Harmon",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Noguchi",
-      "score": "4-6 5-7"
-    },
-    {
-      "date": "20220602",
-      "tournament": "M25 Harmon",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Inui",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20220601",
-      "tournament": "M25 Harmon",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Matsui",
-      "score": "6(4)-7(7) 6-2 6-1"
     }
   ]
 }
