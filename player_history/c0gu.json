@@ -3,11 +3,11 @@
   "gs_id": "148961",
   "player_name": "Matyas Cerny",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:58:08.993Z",
+  "updated": "2026-03-27T07:01:45.039Z",
   "matches": [
     {
-      "date": "20240327",
-      "tournament": "M25 Trnava",
+      "date": "20260113",
+      "tournament": "M15 Cadolzburg",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,25 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Braynin",
-      "score": "3-6 5-7"
+      "opponent": "Y. Kelm",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20230329",
-      "tournament": "ITF M25 Trnava Men",
+      "date": "20250914",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. A. Boitan",
-      "score": "6-2 6-1"
+      "opponent": "C. Stebe",
+      "score": "7-5 7(7)-6(0)"
     },
     {
-      "date": "20220928",
-      "tournament": "M15 Prostejov",
+      "date": "20250205",
+      "tournament": "M15 Valencia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Sperle",
-      "score": "6-1 6-2"
+      "opponent": "L. Sheyngezikht",
+      "score": "7-5 4-1 ret."
+    },
+    {
+      "date": "20250115",
+      "tournament": "M15 Cadolzburg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Oetzbach",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Szczawno Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Lechno-Wasiutynski",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20240705",
+      "tournament": "ITF M15 Store Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Store Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. De Vincentis",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Store Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Vukadin",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Torres",
+      "score": "6-4 3-6 3-6"
+    },
+    {
+      "date": "20230809",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Paulson",
+      "score": "6-2 6-3"
     }
   ]
 }
