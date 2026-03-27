@@ -3,24 +3,50 @@
   "gs_id": "31227",
   "player_name": "Felix Corwin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:43.031Z",
+  "updated": "2026-03-27T07:59:44.284Z",
   "matches": [
     {
-      "date": "20250807",
-      "tournament": "M25 Southaven",
+      "date": "20250510",
+      "tournament": "M15 Villahermosa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hernandez",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20250509",
+      "tournament": "M15 Villahermosa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. McKennon",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250508",
+      "tournament": "M15 Villahermosa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. van Loben Sels",
-      "score": "4-6 0-6"
+      "result": "W",
+      "opponent": "G. Tunas",
+      "score": "0-6 0-6"
     },
     {
-      "date": "20250806",
-      "tournament": "M25 Southaven",
+      "date": "20250506",
+      "tournament": "M15 Villahermosa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Grant",
-      "score": "1-6 2-6"
+      "opponent": "P. Betancourt",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20250619",
-      "tournament": "M15 Kursumlijska Banja 7",
+      "date": "20250319",
+      "tournament": "Asuncion",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Fernandez",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20250617",
-      "tournament": "M15 Kursumlijska Banja 7",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Barrios Vera",
+      "score": "6-1 7(7)-6(3)"
+    },
+    {
+      "date": "20250318",
+      "tournament": "Asuncion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "N. Zanellato",
-      "score": "3-6 1-6"
+      "opponent": "M. A. Vergara del Puerto",
+      "score": "6-2 6(8)-7(10) 6-2"
+    },
+    {
+      "date": "20250316",
+      "tournament": "Asuncion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Lilov",
+      "score": "6-1 7(8)-6(6)"
     },
     {
       "date": "20250115",
@@ -82,6 +121,58 @@
       "result": "L",
       "opponent": "N. Gombos",
       "score": "6(3)-7(7) 6-2 4-6"
+    },
+    {
+      "date": "20240417",
+      "tournament": "San Miguel de Tucuman Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Casanova",
+      "score": "3-6 7(10)-6(8) 1-6"
+    },
+    {
+      "date": "20240416",
+      "tournament": "San Miguel de Tucuman Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Brumm",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20240415",
+      "tournament": "San Miguel de Tucuman Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Simonit",
+      "score": "6(3)-7(7) 7(8)-6(6) 6-1"
+    },
+    {
+      "date": "20240414",
+      "tournament": "San Miguel de Tucuman Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Denisov",
+      "score": "7-5 4-6 6-2"
     },
     {
       "date": "20231020",
@@ -134,19 +225,6 @@
       "result": "W",
       "opponent": "G. Lopez Villasenor",
       "score": "6-2 3-6 6-1"
-    },
-    {
-      "date": "20230830",
-      "tournament": "ITF M15 Vienna Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Gadamauri",
-      "score": "6-4 6-3"
     }
   ]
 }
