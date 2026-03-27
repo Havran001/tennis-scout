@@ -3,46 +3,59 @@
   "gs_id": "37619",
   "player_name": "Alexey Zakharov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:51:30.990Z",
+  "updated": "2026-03-27T05:42:03.019Z",
   "matches": [
     {
-      "date": "20241103",
-      "tournament": "Matsuyama",
+      "date": "20240704",
+      "tournament": "Karlsruhe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Ugo Carabelli",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20240703",
+      "tournament": "Karlsruhe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Rodriguez Taverna",
+      "score": "6(4)-7(7) 6(6)-7(8)"
+    },
+    {
+      "date": "20240701",
+      "tournament": "Karlsruhe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Dellavedova",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240630",
+      "tournament": "Karlsruhe",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Broady",
-      "score": "7(7)-6(4) 7-5"
-    },
-    {
-      "date": "20240117",
-      "tournament": "ITF M25 Doha Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Sultanov",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20240116",
-      "tournament": "ITF M25 Doha Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "M. Basic",
-      "score": "7(7)-6(2) 6-3"
+      "opponent": "P. Heller",
+      "score": "3-6 2-6"
     }
   ]
 }
