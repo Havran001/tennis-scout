@@ -3,11 +3,24 @@
   "gs_id": "221056",
   "player_name": "Florin Breazu Matei",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:00:39.939Z",
+  "updated": "2026-03-27T07:07:07.031Z",
   "matches": [
     {
-      "date": "20240801",
-      "tournament": "ITF M25 Pitesti Men",
+      "date": "20250820",
+      "tournament": "M15 Arad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Andreescu",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20250814",
+      "tournament": "M15 Targu Jiu",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Ghetu",
-      "score": "0-6 3-6"
+      "opponent": "R. M. Papoe",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20240731",
-      "tournament": "ITF M25 Pitesti Men",
+      "date": "20250813",
+      "tournament": "M15 Targu Jiu",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. P. Stanciu",
-      "score": "2-6 4-6"
+      "opponent": "M. Mesaglio",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20250617",
+      "tournament": "M15 Cluj Napoca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Andreescu",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20240820",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Dell&apos;Elba",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240814",
+      "tournament": "ITF M15 Targu Jiu Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dhamne",
+      "score": "6-2 3-6 6-4"
+    },
+    {
+      "date": "20230831",
+      "tournament": "ITF M15 Bucharest 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. P. Paz",
+      "score": "6-0 6-0"
+    },
+    {
+      "date": "20230829",
+      "tournament": "ITF M15 Bucharest 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. A. Golescu",
+      "score": "1-6 6-4 6-1"
     }
   ]
 }
