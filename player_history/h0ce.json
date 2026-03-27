@@ -3,24 +3,89 @@
   "gs_id": "177429",
   "player_name": "Philip Hjorth",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:56:02.961Z",
+  "updated": "2026-03-27T06:11:19.019Z",
   "matches": [
     {
-      "date": "20240809",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20250611",
+      "tournament": "M25 Varnamo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Shepp",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250219",
+      "tournament": "M25 Vila Real de Santo Antonio 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Poljicak",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20240905",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rossi",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240903",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Kaukovalta",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20240511",
+      "tournament": "ITF M25 Varnamo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Lavagno",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240510",
+      "tournament": "ITF M25 Varnamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Pontjodikromo",
-      "score": "6-3 7(7)-6(5)"
+      "result": "W",
+      "opponent": "G. Calvano",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20240808",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20240509",
+      "tournament": "ITF M25 Varnamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Van Tilburg",
-      "score": "2-6 6-4 2-6"
+      "opponent": "P. Kaukovalta",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20240806",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20240508",
+      "tournament": "ITF M25 Varnamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,34 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Van Zijl",
-      "score": "2-6 0-6"
+      "opponent": "P. Munkhammar",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20240711",
-      "tournament": "ITF M15 Litija Men",
+      "date": "20230614",
+      "tournament": "M25 Risskov/Aarhus",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Tammaro",
-      "score": "7-5 7(7)-6(4)"
-    },
-    {
-      "date": "20240709",
-      "tournament": "ITF M15 Litija Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Minighini",
-      "score": "7(7)-6(2) 6-0"
+      "opponent": "A. Holmgren",
+      "score": "2-6 4-6"
     }
   ]
 }
