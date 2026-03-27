@@ -3,37 +3,24 @@
   "gs_id": "3886",
   "player_name": "Ramkumar Ramanathan",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:51:43.902Z",
+  "updated": "2026-03-27T00:49:42.919Z",
   "matches": [
     {
-      "date": "20230319",
-      "tournament": "Biel",
+      "date": "20220215",
+      "tournament": "Bengaluru 2",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Drzewiecki",
-      "score": "6-4 5-7 6-2"
+      "opponent": "M. Bourgue",
+      "score": "4-6 6-3 6-2"
     },
     {
-      "date": "20220320",
-      "tournament": "Biel",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Virtanen",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20210924",
-      "tournament": "Biel Challenger Men",
+      "date": "20211203",
+      "tournament": "Antalya 3",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Broady",
-      "score": "6(2)-7(7) 2-6"
+      "opponent": "L. E. Esteve",
+      "score": "2-6 0-6"
     },
     {
-      "date": "20210923",
-      "tournament": "Biel Challenger Men",
+      "date": "20211202",
+      "tournament": "Antalya 3",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Moraing",
-      "score": "2-6 3-6"
+      "opponent": "O. Crawford",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20210921",
-      "tournament": "Biel Challenger Men",
+      "date": "20211130",
+      "tournament": "Antalya 3",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +54,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Machac",
-      "score": "6-3 6-2"
+      "opponent": "L. Wessels",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20211128",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Karlovskiy",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20211127",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Clarke",
+      "score": "5-7 6-3 6-2"
+    },
+    {
+      "date": "20211126",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Oliveira",
+      "score": "3-6 6-4 5-7"
+    },
+    {
+      "date": "20211125",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Ajdukovic",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20211123",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Orlov",
+      "score": "2-6 4-6"
     }
   ]
 }
