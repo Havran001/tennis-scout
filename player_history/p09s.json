@@ -3,24 +3,37 @@
   "gs_id": "35510",
   "player_name": "Benjamin Pietri",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:50:46.917Z",
+  "updated": "2026-03-27T01:53:45.941Z",
   "matches": [
     {
-      "date": "20231124",
-      "tournament": "ITF M15 Heraklion 6 Men",
+      "date": "20251101",
+      "tournament": "M15 Heraklion 12",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20251031",
+      "tournament": "M15 Heraklion 12",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Xilas",
-      "score": "6-4 6-1"
+      "result": "W",
+      "opponent": "A. Jones",
+      "score": "4-6 6(6)-7(8)"
     },
     {
-      "date": "20231123",
-      "tournament": "ITF M15 Heraklion 6 Men",
+      "date": "20251030",
+      "tournament": "M15 Heraklion 12",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Bodmer",
-      "score": ""
+      "opponent": "M. Scaglia",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20231122",
-      "tournament": "ITF M15 Heraklion 6 Men",
+      "date": "20251029",
+      "tournament": "M15 Heraklion 12",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,34 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Radjenovic",
-      "score": "6-1 6-2"
+      "opponent": "S. Andre",
+      "score": "7(9)-6(7) 3-6 6-3"
     },
     {
-      "date": "20230202",
-      "tournament": "ITF M25 Monastir Men",
+      "date": "20240522",
+      "tournament": "ITF M25 Mataro Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "5-7 6-4 6-4"
-    },
-    {
-      "date": "20230131",
-      "tournament": "ITF M25 Monastir Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Simakin",
-      "score": "6-4 6-2"
+      "opponent": "I. Radulov",
+      "score": "1-6 1-6"
     }
   ]
 }
