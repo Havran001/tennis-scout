@@ -3,37 +3,24 @@
   "gs_id": "116672",
   "player_name": "Arda Azkara",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:52:40.955Z",
+  "updated": "2026-03-27T04:47:21.982Z",
   "matches": [
     {
-      "date": "20240706",
-      "tournament": "ITF M15 Lakewood",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Dostanic",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20240705",
-      "tournament": "ITF M15 Lakewood",
+      "date": "20231027",
+      "tournament": "M15 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. F. Rubio Fierros",
-      "score": "3-6 6-4 6(4)-7(7)"
+      "result": "L",
+      "opponent": "L. Tien",
+      "score": "2-6 2-4 ret."
     },
     {
-      "date": "20240704",
-      "tournament": "ITF M15 Lakewood",
+      "date": "20231026",
+      "tournament": "M15 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Knaff",
-      "score": "6-4 6-1"
+      "opponent": "R. Catry",
+      "score": "6-4 3-6 7(7)-6(5)"
     },
     {
-      "date": "20240702",
-      "tournament": "ITF M15 Lakewood",
+      "date": "20231025",
+      "tournament": "M15 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,38 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Farzam",
-      "score": "6-2 6-4"
+      "opponent": "C. Kissell",
+      "score": "1-6 6(4)-7(7)"
     },
     {
-      "date": "20240626",
-      "tournament": "ITF M15 Los Angeles",
+      "date": "20230929",
+      "tournament": "M15 Albuquerque",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Johnson",
-      "score": "6(5)-7(7) 1-6"
+      "opponent": "W. Grant",
+      "score": "4-6 7(7)-6(5) 3-6"
     },
     {
-      "date": "20240606",
-      "tournament": "ITF M15 San Diego",
+      "date": "20230928",
+      "tournament": "M15 Albuquerque",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Ayeni",
-      "score": "7(8)-6(6) 4-6 6-4"
+      "result": "W",
+      "opponent": "J. Hasson",
+      "score": "6-4 5-7 6(4)-7(7)"
     },
     {
-      "date": "20240605",
-      "tournament": "ITF M15 San Diego",
+      "date": "20230927",
+      "tournament": "M15 Albuquerque",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Ganesan",
-      "score": "2-6 4-6"
+      "opponent": "A. Martinez",
+      "score": "7(7)-6(4) 4-0 ret."
+    },
+    {
+      "date": "20220927",
+      "tournament": "M15 Albuquerque",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Sakamoto",
+      "score": "6-4 0-6 6(5)-7(7)"
     }
   ]
 }
