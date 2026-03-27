@@ -3,8 +3,21 @@
   "gs_id": "173933",
   "player_name": "Mae Malige",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:31:19.088Z",
+  "updated": "2026-03-27T12:28:07.588Z",
   "matches": [
+    {
+      "date": "20260303",
+      "tournament": "Thionville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Choinski",
+      "score": "7(7)-6(3) 6-1"
+    },
     {
       "date": "20251109",
       "tournament": "Lyon 2",
@@ -17,6 +30,84 @@
       "result": "L",
       "opponent": "D. Added",
       "score": "7(7)-6(5) 3-6 1-6"
+    },
+    {
+      "date": "20250616",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Papamalamis",
+      "score": "6(2)-7(7) 2-6"
+    },
+    {
+      "date": "20250615",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Delage",
+      "score": "2-6 6(1)-7(7)"
+    },
+    {
+      "date": "20250111",
+      "tournament": "M25 Hazebrouck",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. De Loore",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20250110",
+      "tournament": "M25 Hazebrouck",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Garcian",
+      "score": "7-5 3-6 4-6"
+    },
+    {
+      "date": "20250109",
+      "tournament": "M25 Hazebrouck",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Poullain",
+      "score": "5-7 6-4 6-3"
+    },
+    {
+      "date": "20250108",
+      "tournament": "M25 Hazebrouck",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Namigandet Tenguere",
+      "score": "5-7 2-6"
     },
     {
       "date": "20241102",
@@ -69,45 +160,6 @@
       "result": "W",
       "opponent": "A. Jilly",
       "score": "1-6 3-6"
-    },
-    {
-      "date": "20240719",
-      "tournament": "M15+H Bastia-Lucciana",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Bax",
-      "score": "5-7 7(8)-6(6) 6-1"
-    },
-    {
-      "date": "20240718",
-      "tournament": "M15+H Bastia-Lucciana",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "U. M. Giovannini",
-      "score": "6-3 7-5"
-    },
-    {
-      "date": "20240717",
-      "tournament": "M15+H Bastia-Lucciana",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Trufelli",
-      "score": "6-2 2-0 ret."
     }
   ]
 }
