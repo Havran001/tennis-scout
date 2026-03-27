@@ -1,1 +1,48 @@
-{"player_id":"f0i5","gs_id":"155173","player_name":"Viktor Frydrych","source":"goalserve-full","updated":"2026-03-27","matches":[{"id":"C2VCswUp","date":"20260326","tournament":"ITF MEN - DOUBLES: M15 Heraklion 3 (Greece), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Caripi V./Sakellaridis D.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20251016","tournament":"M15 Sharm ElSheikh 13","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"G. L. Tanner","score":"6-2 7-5"},{"date":"20251015","tournament":"M15 Sharm ElSheikh 13","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"S. Ivanov","score":"6-2 6-3"},{"date":"20250923","tournament":"M25 Falun","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"A. Deckers","score":"1-6 6(5)-7(7)"}],"total":4}
+{
+  "player_id": "f0i5",
+  "gs_id": "155173",
+  "player_name": "Viktor Frydrych",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T23:57:33.901Z",
+  "matches": [
+    {
+      "date": "20251016",
+      "tournament": "M15 Sharm ElSheikh 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. L. Tanner",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20251015",
+      "tournament": "M15 Sharm ElSheikh 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Ivanov",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250923",
+      "tournament": "M25 Falun",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Deckers",
+      "score": "1-6 6(5)-7(7)"
+    }
+  ]
+}
