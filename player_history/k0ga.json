@@ -3,7 +3,7 @@
   "gs_id": "84514",
   "player_name": "Igor Kudriashov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:31.972Z",
+  "updated": "2026-03-27T04:56:10.991Z",
   "matches": [
     {
       "date": "20251112",
@@ -19,32 +19,6 @@
       "score": "4-6 4-6"
     },
     {
-      "date": "20251105",
-      "tournament": "M25 Monastir 9",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Berrettini",
-      "score": "6-3 4-6 4-0 ret."
-    },
-    {
-      "date": "20251015",
-      "tournament": "M25 Monastir 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Pereira",
-      "score": "6-3 6-1"
-    },
-    {
       "date": "20231129",
       "tournament": "M25 Monastir 10",
       "surface": "Hard",
@@ -56,6 +30,58 @@
       "result": "L",
       "opponent": "L. Lokoli",
       "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20230309",
+      "tournament": "ITF M15 Aktobe 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Philippov",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20230308",
+      "tournament": "ITF M15 Aktobe 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Cubelic",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230302",
+      "tournament": "ITF M15 Aktobe Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Philippov",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230301",
+      "tournament": "ITF M15 Aktobe Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Shin",
+      "score": "3-6 4-6"
     }
   ]
 }
