@@ -3,11 +3,11 @@
   "gs_id": "160268",
   "player_name": "Ryusuke Horiuchi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:58:49.987Z",
+  "updated": "2026-03-27T08:25:18.068Z",
   "matches": [
     {
-      "date": "20220927",
-      "tournament": "M25 Kashiwa",
+      "date": "20250318",
+      "tournament": "M15 Nishi-Tokyo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,51 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Noguchi",
-      "score": "3-6 3-6"
+      "opponent": "M. Bouzige",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20220909",
-      "tournament": "M25 Sapporo 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Ito",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20220908",
-      "tournament": "M25 Sapporo 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Suzuki",
-      "score": "2-6 6-3 3-6"
-    },
-    {
-      "date": "20220907",
-      "tournament": "M25 Sapporo 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Kawakami",
-      "score": "2-6 7(9)-6(7) 6-4"
-    },
-    {
-      "date": "20220830",
-      "tournament": "M25 Sapporo",
+      "date": "20250313",
+      "tournament": "M15 Hinode",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Ito",
-      "score": "6-3 6-1"
+      "opponent": "D. Sumizawa",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20240917",
+      "tournament": "M25 Takasaki",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Watanabe",
+      "score": "7-5 7(8)-6(6)"
+    },
+    {
+      "date": "20230704",
+      "tournament": "M25 Biella",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. E. Schiessl",
+      "score": "0-6 3-6"
     }
   ]
 }
