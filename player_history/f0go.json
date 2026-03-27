@@ -1,26 +1,13 @@
 {
   "player_id": "f0go",
-  "gs_id": "160178",
-  "player_name": "Sergi Fita Juan",
+  "gs_id": "205791",
+  "player_name": "Jose Bianchi Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:02:05.124Z",
+  "updated": "2026-03-27T11:03:21.158Z",
   "matches": [
     {
-      "date": "20250812",
-      "tournament": "M25 Gijon",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Giustino",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20250619",
-      "tournament": "M15 Mungia-Laukariz",
+      "date": "20250724",
+      "tournament": "M15 Santa Tecla 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Perez Contri",
-      "score": "3-6 2-6"
+      "opponent": "P. A. Saraiva Dos Santos",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20250617",
-      "tournament": "M15 Mungia-Laukariz",
+      "date": "20250723",
+      "tournament": "M15 Santa Tecla 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Garcia",
-      "score": "1-6 2-6"
+      "opponent": "M. De Boes",
+      "score": "1-6 6(3)-7(7)"
     },
     {
-      "date": "20250211",
-      "tournament": "M15 Valencia 2",
+      "date": "20250716",
+      "tournament": "M15 Santa Tecla",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +41,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Lopez Morillo",
-      "score": "4-6 6(8)-7(10)"
+      "opponent": "P. A. Saraiva Dos Santos",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250413",
+      "tournament": "Abidjan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. N. Cazacu",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20241212",
+      "tournament": "M15 Huamantla 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Smith",
+      "score": "2-6 0-1 ret."
+    },
+    {
+      "date": "20241210",
+      "tournament": "M15 Huamantla 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Delgadillo",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20241204",
+      "tournament": "ITF M15 Huamantla 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Draxl",
+      "score": "4-6 4-6"
     },
     {
       "date": "20241127",
-      "tournament": "M25 Antalya 6",
+      "tournament": "ITF M15 Huamantla 5 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +106,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Kolar",
-      "score": "2-6 2-6"
+      "opponent": "A. N. Tudorica",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20241121",
+      "tournament": "ITF M15 Huamantla 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. N. Tudorica",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20241119",
+      "tournament": "ITF M15 Huamantla 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Rivera",
+      "score": "7(7)-6(5) 7-5"
+    },
+    {
+      "date": "20241113",
+      "tournament": "M15 Guatemala 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Raquin",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20241028",
+      "tournament": "Brazzaville Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Lock",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20241010",
+      "tournament": "M25 Kampala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Denolly",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20241009",
+      "tournament": "M25 Kampala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. D. Sibanda",
+      "score": "6-1 6-1"
     }
   ]
 }
