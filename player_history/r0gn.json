@@ -3,21 +3,8 @@
   "gs_id": "119589",
   "player_name": "Amaury Raynel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:59:03.920Z",
+  "updated": "2026-03-27T01:50:53.949Z",
   "matches": [
-    {
-      "date": "20250325",
-      "tournament": "M25 Saint-Dizier",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Vincent",
-      "score": "7-5 6-4"
-    },
     {
       "date": "20240223",
       "tournament": "ITF M15 Sharm ElSheikh 4 Men",
@@ -84,8 +71,8 @@
       "score": "2-6 1-6"
     },
     {
-      "date": "20240111",
-      "tournament": "M25 Loughborough",
+      "date": "20230615",
+      "tournament": "ITF M15 Duffel Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Pawelski",
-      "score": "6-4 6-4"
+      "opponent": "B. Gadamauri",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20240109",
-      "tournament": "M25 Loughborough",
+      "date": "20230614",
+      "tournament": "ITF M15 Duffel Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Rosenkranz",
-      "score": "6-4 3-6 2-6"
+      "opponent": "M. Brunold",
+      "score": "6-4 7(7)-6(4)"
     },
     {
       "date": "20230309",
@@ -136,21 +123,34 @@
       "score": "6(6)-7(8) 6(5)-7(7)"
     },
     {
-      "date": "20230119",
-      "tournament": "M25 Manacor",
+      "date": "20220617",
+      "tournament": "M15 Duffel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Onclin",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20220615",
+      "tournament": "M15 Duffel",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Lopez San Martin",
-      "score": "1-6 0-6"
+      "result": "W",
+      "opponent": "A. Moundir",
+      "score": "3-6 6-4 6-3"
     },
     {
-      "date": "20230118",
-      "tournament": "M25 Manacor",
+      "date": "20220614",
+      "tournament": "M15 Duffel",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "X. Matas Ortega",
-      "score": "7(8)-6(6) 6-0"
+      "opponent": "A. Oetzbach",
+      "score": "6-2 6-0"
     },
     {
-      "date": "20221124",
-      "tournament": "M15 Monastir 46",
+      "date": "20220414",
+      "tournament": "M15 Chiang Rai 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -171,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Battaglino",
-      "score": "6(4)-7(7) 6-4 6-1"
+      "opponent": "S. Rawat",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20221123",
-      "tournament": "M15 Monastir 46",
+      "date": "20220413",
+      "tournament": "M15 Chiang Rai 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Halmenschlager Reis",
-      "score": "6-1 6-1"
+      "opponent": "P. Isaro",
+      "score": "7(7)-6(2) 6-1"
     },
     {
-      "date": "20221117",
-      "tournament": "M15 Monastir 45",
+      "date": "20220407",
+      "tournament": "M15 Chiang Rai",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -197,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Guerrieri",
-      "score": "6-3 5-7 0-6"
+      "opponent": "S. Nam Ji",
+      "score": "6(7)-7(9) 6-0 6-1"
     },
     {
-      "date": "20221115",
-      "tournament": "M15 Monastir 45",
+      "date": "20220406",
+      "tournament": "M15 Chiang Rai",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -210,86 +210,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Gill",
-      "score": "6-3 1-0 ret."
-    },
-    {
-      "date": "20221101",
-      "tournament": "M15 Monastir 43",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Bertrand",
-      "score": "6(4)-7(7) 3-6"
-    },
-    {
-      "date": "20220519",
-      "tournament": "M15 Cairo 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Aboian",
-      "score": "6-2 5-7 6-3"
-    },
-    {
-      "date": "20220518",
-      "tournament": "M15 Cairo 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Dickerson",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20220210",
-      "tournament": "M25 Sharm ElSheikh 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Fayziev",
-      "score": "7-5 7(11)-6(9)"
-    },
-    {
-      "date": "20220209",
-      "tournament": "M25 Sharm ElSheikh 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Rincon",
-      "score": "2-6 5-7"
-    },
-    {
-      "date": "20211110",
-      "tournament": "M25 Villers Les Nancy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Royer",
-      "score": "7-5 2-6 6-2"
+      "opponent": "P. Dev S D",
+      "score": "4-6 3-6"
     }
   ]
 }
