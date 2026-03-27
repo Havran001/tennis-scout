@@ -3,24 +3,50 @@
   "gs_id": "160175",
   "player_name": "Aleksa Ciric",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:48:42.987Z",
+  "updated": "2026-03-27T06:10:11.011Z",
   "matches": [
     {
-      "date": "20260206",
-      "tournament": "M15 Palm Coast",
+      "date": "20250816",
+      "tournament": "M15 Huntsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Baker",
+      "score": "7(7)-6(3) 3-6 4-6"
+    },
+    {
+      "date": "20250815",
+      "tournament": "M15 Huntsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Nasridinov",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250814",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Colby",
-      "score": "5-7 5-7"
+      "result": "W",
+      "opponent": "R. Quan",
+      "score": "6-3 6(10)-7(12) 6-3"
     },
     {
-      "date": "20260205",
-      "tournament": "M15 Palm Coast",
+      "date": "20250813",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Grant",
-      "score": "7-5 6-4"
+      "opponent": "N. Ponwith",
+      "score": "7(7)-6(5) 6-4"
     },
     {
-      "date": "20260204",
-      "tournament": "M15 Palm Coast",
+      "date": "20250812",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,38 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. De Dios",
-      "score": "6-0 6-1"
+      "opponent": "B. T. George",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250605",
-      "tournament": "M15 San Diego",
+      "date": "20250716",
+      "tournament": "M15 Rochester",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Tarvet",
-      "score": "6-4 6-4"
+      "opponent": "K. Vakili",
+      "score": "6-4 6(5)-7(7) 7(9)-6(7)"
     },
     {
-      "date": "20250603",
-      "tournament": "M15 San Diego",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Kuhar",
-      "score": "1-6 5-7"
-    },
-    {
-      "date": "20250201",
-      "tournament": "M15 Palm Coast",
+      "date": "20240816",
+      "tournament": "ITF M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -80,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Gima",
-      "score": "6-3 6-1"
+      "opponent": "L. Vithoontien",
+      "score": "4-6 6-2 4-6"
     },
     {
-      "date": "20250131",
-      "tournament": "M15 Palm Coast",
+      "date": "20240815",
+      "tournament": "ITF M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -93,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Tessa",
-      "score": "6-4 6-3"
+      "opponent": "T. Luis",
+      "score": "7(8)-6(6) 0-6 6-4"
     },
     {
-      "date": "20250130",
-      "tournament": "M15 Palm Coast",
+      "date": "20240814",
+      "tournament": "ITF M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Compagnucci",
-      "score": "0-6 6-3 4-6"
+      "opponent": "J. Sarr",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250129",
-      "tournament": "M15 Palm Coast",
+      "date": "20240813",
+      "tournament": "ITF M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,60 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Krall",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20241114",
-      "tournament": "M15 Boca Raton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gima",
-      "score": "5-7 7(9)-6(7) 6-4"
-    },
-    {
-      "date": "20241018",
-      "tournament": "M15 Winston-Salem",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Pow",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20241017",
-      "tournament": "M15 Winston-Salem",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Tacchi",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20241016",
-      "tournament": "M15 Winston-Salem",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Almeida",
-      "score": "4-6 7(7)-6(3) 5-7"
+      "opponent": "K. Chopra",
+      "score": "5-7 6-3 4-6"
     }
   ]
 }
