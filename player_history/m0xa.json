@@ -1,26 +1,39 @@
 {
   "player_id": "m0xa",
-  "gs_id": "166730",
-  "player_name": "Alvaro Peiro Serrano",
+  "gs_id": "263253",
+  "player_name": "Mario Martinez Serrano",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:26:20.162Z",
+  "updated": "2026-03-26T23:54:56.902Z",
   "matches": [
     {
-      "date": "20251106",
-      "tournament": "M25 Valencia",
+      "date": "20251121",
+      "tournament": "M15 Tallahassee",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Steiner",
+      "score": "4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20251120",
+      "tournament": "M15 Tallahassee",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Brancaccio",
-      "score": "6-1 6-4"
+      "result": "W",
+      "opponent": "J. Kennedy",
+      "score": "6-3 2-6 6-2"
     },
     {
-      "date": "20251105",
-      "tournament": "M25 Valencia",
+      "date": "20251119",
+      "tournament": "M15 Tallahassee",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. F. Pop",
-      "score": "3-6 0-6"
+      "opponent": "A. Bulte",
+      "score": "6-0 4-6 7(7)-6(5)"
+    },
+    {
+      "date": "20250802",
+      "tournament": "M15 Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Martinez Gomez",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250801",
+      "tournament": "M15 Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. McCormick",
+      "score": "6-2 6(2)-7(7) 5-7"
+    },
+    {
+      "date": "20250731",
+      "tournament": "M15 Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Miletich",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20250730",
+      "tournament": "M15 Xativa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Hernandez",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M25 Bakio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Montes-De La Torre",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20240529",
+      "tournament": "M25 La Nucia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nikles",
+      "score": "6-3 6-3"
     }
   ]
 }
