@@ -3,37 +3,11 @@
   "gs_id": "156064",
   "player_name": "Phillip Jordan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:54:00.967Z",
+  "updated": "2026-03-27T07:11:01.045Z",
   "matches": [
     {
-      "date": "20251029",
-      "tournament": "M25 Glasgow 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Broady",
-      "score": "4-6 6-3 2-6"
-    },
-    {
-      "date": "20251021",
-      "tournament": "M25 Sheffield",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Chidekh",
-      "score": "6(5)-7(7) 0-6"
-    },
-    {
-      "date": "20251016",
-      "tournament": "M15 Villers-les-Nancy",
+      "date": "20241016",
+      "tournament": "M25 Edgbaston",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Massard",
-      "score": "6-1 6-4"
+      "opponent": "C. Broom",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20251015",
-      "tournament": "M15 Villers-les-Nancy",
+      "date": "20241015",
+      "tournament": "M25 Edgbaston",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +28,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Livet Novkirichka",
-      "score": "6(3)-7(7) 6(4)-7(7)"
+      "opponent": "P. Weir",
+      "score": "7-5 7(7)-6(2)"
     },
     {
-      "date": "20240827",
-      "tournament": "ITF M15 Budapest Men",
+      "date": "20240907",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Stice",
+      "score": "3-6 7-5 7-5"
+    },
+    {
+      "date": "20240906",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Stewart",
+      "score": "6(3)-7(7) 6-4 0-6"
+    },
+    {
+      "date": "20240905",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Vasa",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240904",
+      "tournament": "M15 Budapest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Stewart",
-      "score": "6-4 4-6 6-2"
+      "result": "W",
+      "opponent": "T. Gray",
+      "score": "6-2 6-2"
     }
   ]
 }
