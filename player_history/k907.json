@@ -3,8 +3,60 @@
   "gs_id": "141996",
   "player_name": "Sho Katayama",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:23:14.061Z",
+  "updated": "2026-03-27T09:29:09.088Z",
   "matches": [
+    {
+      "date": "20251101",
+      "tournament": "M15 Yanagawa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Shick",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20251031",
+      "tournament": "M15 Yanagawa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Ichikawa",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20251030",
+      "tournament": "M15 Yanagawa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. C. Lee",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20251029",
+      "tournament": "M15 Yanagawa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Yamanaka",
+      "score": "6-4 6-2"
+    },
     {
       "date": "20250709",
       "tournament": "M15 Tokyo 2",
@@ -56,32 +108,6 @@
       "result": "W",
       "opponent": "S. Hazawa",
       "score": "6-3 6-3"
-    },
-    {
-      "date": "20231228",
-      "tournament": "M15 Yanagawa 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. D. Hara Friend",
-      "score": "6-3 7-5"
-    },
-    {
-      "date": "20231227",
-      "tournament": "M15 Yanagawa 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Shiraishi",
-      "score": "3-6 0-2 ret."
     }
   ]
 }
