@@ -3,24 +3,37 @@
   "gs_id": "5247",
   "player_name": "Yaraslav Shyla",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:47:51.933Z",
+  "updated": "2026-03-27T04:44:20.991Z",
   "matches": [
     {
-      "date": "20240216",
-      "tournament": "ITF M25 Antalya 3 Men",
+      "date": "20241101",
+      "tournament": "M15 Sharm ElSheikh 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Borg",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20241031",
+      "tournament": "M15 Sharm ElSheikh 14",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Cretu",
-      "score": ""
+      "result": "W",
+      "opponent": "A. Abdullin",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20240215",
-      "tournament": "ITF M25 Antalya 3 Men",
+      "date": "20241030",
+      "tournament": "M15 Sharm ElSheikh 14",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. C. Dumitru",
-      "score": "3-6 3-6"
+      "opponent": "P. Bertran",
+      "score": "6-2 6(4)-7(7) 4-6"
     }
   ]
 }
