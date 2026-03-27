@@ -3,20 +3,72 @@
   "gs_id": "58083",
   "player_name": "Matteo Arnaldi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:51:46.980Z",
+  "updated": "2026-03-27T04:52:39.991Z",
   "matches": [
     {
-      "date": "20221019",
-      "tournament": "Vilnius",
+      "date": "20230205",
+      "tournament": "Tenerife 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Brancaccio",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20230204",
+      "tournament": "Tenerife 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Alvarez Varona",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230203",
+      "tournament": "Tenerife 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Krutykh",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230202",
+      "tournament": "Tenerife 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Mochizuki",
+      "score": "0-6 6-2 3-6"
+    },
+    {
+      "date": "20230131",
+      "tournament": "Tenerife 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Ilkel",
-      "score": "3-6 2-6"
+      "result": "W",
+      "opponent": "A. Giannessi",
+      "score": "3-6 7(7)-6(5) 3-6"
     }
   ]
 }
