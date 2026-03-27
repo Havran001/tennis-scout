@@ -3,8 +3,47 @@
   "gs_id": "151002",
   "player_name": "Tomasz Berkieta",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:24:30.067Z",
+  "updated": "2026-03-27T09:29:55.090Z",
   "matches": [
+    {
+      "date": "20251112",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20251110",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. A. Tirante",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250813",
+      "tournament": "M15 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Cizek",
+      "score": "7-5 3-6 5-7"
+    },
     {
       "date": "20250628",
       "tournament": "M15 Grodzisk Mazowiecki",
@@ -71,8 +110,8 @@
       "score": "7(7)-6(5) 7(7)-6(3)"
     },
     {
-      "date": "20250220",
-      "tournament": "M15 Lannion",
+      "date": "20240815",
+      "tournament": "ITF M15 Bielsko Biala Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Bourgue",
-      "score": "6-3 6-2"
+      "opponent": "O. Krutykh",
+      "score": "5-7 6-4 6-4"
     },
     {
-      "date": "20250218",
-      "tournament": "M15 Lannion",
+      "date": "20240814",
+      "tournament": "ITF M15 Bielsko Biala Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,21 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Freire Da Silva",
-      "score": "7(7)-6(4) 5-7 1-6"
-    },
-    {
-      "date": "20240828",
-      "tournament": "ITF M15 Szczawno Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Malaszszak",
-      "score": "6-3 7-5"
+      "opponent": "N. Marosik",
+      "score": "4-6 6(6)-7(8)"
     }
   ]
 }
