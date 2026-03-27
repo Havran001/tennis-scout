@@ -3,24 +3,37 @@
   "gs_id": "6580",
   "player_name": "Christopher Eubanks",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:49:56.953Z",
+  "updated": "2026-03-27T04:44:26.979Z",
   "matches": [
     {
-      "date": "20220722",
-      "tournament": "Indianapolis",
+      "date": "20240928",
+      "tournament": "Charleston",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Uchiyama",
-      "score": "6(3)-7(7) 7(7)-6(4) 4-6"
+      "result": "W",
+      "opponent": "A. Galarneau",
+      "score": "6-4 3-6 6-2"
     },
     {
-      "date": "20220720",
-      "tournament": "Indianapolis",
+      "date": "20240928",
+      "tournament": "Charleston",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Basavareddy",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20240925",
+      "tournament": "Charleston",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Shang",
-      "score": "5-7 3-6"
+      "opponent": "A. Martin",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20220719",
-      "tournament": "Indianapolis",
+      "date": "20240924",
+      "tournament": "Charleston",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Brouwer",
-      "score": "4-6 2-6"
+      "opponent": "B. Artnak",
+      "score": "6-4 6(4)-7(7) 6-3"
+    },
+    {
+      "date": "20240502",
+      "tournament": "Cagliari",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. E. Galan",
+      "score": "6-3 2-6 2-6"
     }
   ]
 }
