@@ -1220,7 +1220,17 @@ function buildPlayersTab(sh){
                 fi+=c.opts.map(function(o){return '<option value="'+o+'"'+(cf[c.key]===o?' selected':'')+'>'+o+'</option>';}).join('');
                 fi+='</select>';
               } else {
-                fi='<input class="th-filter" type="text" data-col="'+c.key+'" placeholder="..." value="'+(cf[c.key]||'')+'" onclick="event.stopPropagation()">';
+                var dlId='dl-'+c.key;
+                var dlVals=[];
+                all.forEach(function(m){
+                  var v=c.key==='tournament'?_normT(m[c.key]||''):(m[c.key]||'');
+                  if(v&&dlVals.indexOf(v)<0)dlVals.push(v);
+                });
+                dlVals.sort();
+                var dlHtml='<datalist id="'+dlId+'">';
+                dlHtml+=dlVals.map(function(v){return '<option value="'+v+'">';}).join('');
+                dlHtml+='</datalist>';
+                fi=dlHtml+'<input class="th-filter" type="text" list="'+dlId+'" data-col="'+c.key+'" placeholder="..." value="'+(cf[c.key]||'')+'" onclick="event.stopPropagation()">';
               }
               return '<th class="'+sCls+'" data-sort="'+c.key+'">'+c.label+'<br>'+fi+'</th>';
             }).join('')+'</tr></thead>';
