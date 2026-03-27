@@ -3,50 +3,50 @@
   "gs_id": "138528",
   "player_name": "Gerard Campana Lee",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:54:34.953Z",
+  "updated": "2026-03-27T03:47:50.967Z",
   "matches": [
     {
-      "date": "20240722",
-      "tournament": "Zug Challenger Men",
+      "date": "20251210",
+      "tournament": "M15 Lima 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Topo",
-      "score": "0-6 7(9)-6(7) 7(7)-6(2)"
+      "opponent": "B. Torrealba",
+      "score": "6(3)-7(7) 6-2 4-1 ret."
     },
     {
-      "date": "20240721",
-      "tournament": "Zug Challenger Men",
+      "date": "20251205",
+      "tournament": "M15 Lima",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Staeheli",
-      "score": "6-4 6-3"
+      "result": "L",
+      "opponent": "T. Kodat",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20230824",
-      "tournament": "ITF M25 Lesa Men",
+      "date": "20251204",
+      "tournament": "M15 Lima",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. La Vela",
-      "score": "6-3 2-6 5-7"
+      "result": "W",
+      "opponent": "T. A. Pernas",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20230822",
-      "tournament": "ITF M25 Lesa Men",
+      "date": "20251202",
+      "tournament": "M15 Lima",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Pozzani",
-      "score": "2-6 5-7"
+      "opponent": "V. H. Remondy Pagotto",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20251003",
+      "tournament": "M25 Zaragoza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Giustino",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20251002",
+      "tournament": "M25 Zaragoza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Martinez",
+      "score": "3-6 6-3 6-2"
+    },
+    {
+      "date": "20241006",
+      "tournament": "Valencia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sanchez Jover",
+      "score": "1-6 5-7"
     }
   ]
 }
