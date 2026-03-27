@@ -3,20 +3,59 @@
   "gs_id": "169104",
   "player_name": "Keegan Rice",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:16:44.828Z",
+  "updated": "2026-03-27T01:00:20.923Z",
   "matches": [
     {
-      "date": "20221106",
-      "tournament": "Calgary",
+      "date": "20250612",
+      "tournament": "M15 Monastir 23",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Wehnelt",
-      "score": "6-1 6-3"
+      "opponent": "J. Loutit",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250606",
+      "tournament": "M15 Monastir 22",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Pascual Ferra",
+      "score": "6-3 6(3)-7(7) 6-2"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Monastir 22",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Peliwo",
+      "score": "3-6 6(2)-7(7)"
+    },
+    {
+      "date": "20250603",
+      "tournament": "M15 Monastir 22",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. El Amine",
+      "score": "6-2 6-2"
     }
   ]
 }
