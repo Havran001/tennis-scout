@@ -3,8 +3,21 @@
   "gs_id": "162639",
   "player_name": "Gregorio Biondolillo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:30:47.096Z",
+  "updated": "2026-03-27T12:25:30.163Z",
   "matches": [
+    {
+      "date": "20250924",
+      "tournament": "M15 Otopeni",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. R. Marinescu",
+      "score": "6-4 6-4"
+    },
     {
       "date": "20250903",
       "tournament": "M15 Buzau",
@@ -32,8 +45,8 @@
       "score": "6-1 6-2"
     },
     {
-      "date": "20240717",
-      "tournament": "ITF M15 Kursumlijska Banja 11 Men",
+      "date": "20250326",
+      "tournament": "M15 Alaminos 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. M. La Serna",
-      "score": "7-5 6-2"
-    },
-    {
-      "date": "20240710",
-      "tournament": "ITF M15 Kursumlijska Banja 10 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. P. Paz",
-      "score": "6-2 6-2"
+      "opponent": "N. D. Ionel",
+      "score": "3-6 4-6"
     }
   ]
 }
