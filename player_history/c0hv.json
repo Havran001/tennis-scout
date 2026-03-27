@@ -3,63 +3,24 @@
   "gs_id": "123026",
   "player_name": "Luca Castagnola",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:56:04.905Z",
+  "updated": "2026-03-27T00:52:53.922Z",
   "matches": [
     {
-      "date": "20251027",
-      "tournament": "M15 Selva Gardena",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Schell",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20241101",
-      "tournament": "M15 Selva Gardena",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Guerrieri",
-      "score": "1-6 5-7"
-    },
-    {
-      "date": "20241031",
-      "tournament": "M15 Selva Gardena",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Paldanius",
-      "score": "4-6 6-3 1-6"
-    },
-    {
-      "date": "20241030",
-      "tournament": "M15 Selva Gardena",
+      "date": "20260122",
+      "tournament": "M15 Manacor 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. C. Spiridon",
-      "score": "5-7 5-7"
+      "result": "L",
+      "opponent": "M. Basing",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20241029",
-      "tournament": "M15 Selva Gardena",
+      "date": "20260121",
+      "tournament": "M15 Manacor 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +28,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Fix",
-      "score": "6-4 6(4)-7(7) 3-6"
+      "opponent": "D. C. Spiridon",
+      "score": "2-6 6-2 4-2 ret."
+    },
+    {
+      "date": "20241023",
+      "tournament": "M15 Monastir 43",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Szymkowiak",
+      "score": "2-6 6-3 6-2"
     },
     {
       "date": "20241016",
@@ -84,21 +58,47 @@
       "score": "6-4 6-3"
     },
     {
-      "date": "20221102",
-      "tournament": "M15 Selva Gardena",
+      "date": "20240316",
+      "tournament": "ITF M15 Monastir 11 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Broska",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240315",
+      "tournament": "ITF M15 Monastir 11 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Potenza",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240314",
+      "tournament": "ITF M15 Monastir 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Schell",
-      "score": "0-6 1-6"
+      "result": "W",
+      "opponent": "P. Buldorini",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20221031",
-      "tournament": "M15 Selva Gardena",
+      "date": "20240313",
+      "tournament": "ITF M15 Monastir 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +106,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Tresca",
-      "score": "6(9)-7(11) 6-3 5-7"
+      "opponent": "J. Loge",
+      "score": "6-1 7(7)-6(2)"
     },
     {
-      "date": "20220330",
-      "tournament": "M15 Monastir 12",
+      "date": "20230416",
+      "tournament": "Roseto Degli Abruzzi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Moroni",
+      "score": "5-7 6-3 6-1"
+    },
+    {
+      "date": "20230215",
+      "tournament": "ITF M25 Monastir 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,12 +132,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Yamasaki",
-      "score": "6-2 6-3"
+      "opponent": "A. Donski",
+      "score": "7-5 2-2 ret."
     },
     {
-      "date": "20210929",
-      "tournament": "ITF M25 Skopje Men",
+      "date": "20230211",
+      "tournament": "ITF M25 Monastir 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Elsayed",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20230211",
+      "tournament": "ITF M25 Monastir 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Dougaz",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20230209",
+      "tournament": "ITF M25 Monastir 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Ovcharenko",
+      "score": "4-6 6(6)-7(8)"
+    },
+    {
+      "date": "20230201",
+      "tournament": "ITF M25 Monastir Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Arnaldi",
-      "score": "6-2 6-3"
+      "opponent": "D. Dietrich",
+      "score": "6-2 6(6)-7(8) 7-5"
     },
     {
-      "date": "20210922",
-      "tournament": "ITF M15 Pirot Men",
+      "date": "20211222",
+      "tournament": "ITF M15 Monastir 49 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,8 +197,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Palan",
-      "score": "6-0 6-2"
+      "opponent": "N. Vylegzhanin",
+      "score": "0-6 4-6"
     }
   ]
 }
