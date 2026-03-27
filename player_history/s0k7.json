@@ -1,26 +1,52 @@
 {
   "player_id": "s0k7",
-  "gs_id": "182600",
-  "player_name": "Trevor Svajda",
+  "gs_id": "58263",
+  "player_name": "Zachary Svajda",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:05:52.033Z",
+  "updated": "2026-03-27T08:11:35.494Z",
   "matches": [
     {
-      "date": "20250606",
-      "tournament": "Tyler",
+      "date": "20250505",
+      "tournament": "Wuxi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Escoffier",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240420",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Mpetshi Perricard",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20240418",
+      "tournament": "Acapulco",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Kypson",
-      "score": "4-6 5-7"
+      "result": "W",
+      "opponent": "M. Cressy",
+      "score": ""
     },
     {
-      "date": "20250605",
-      "tournament": "Tyler",
+      "date": "20240417",
+      "tournament": "Acapulco",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Ivashka",
-      "score": "5-7 3-6"
+      "opponent": "G. Oliveira",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20250603",
-      "tournament": "Tyler",
+      "date": "20240416",
+      "tournament": "Acapulco",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,21 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Draxl",
-      "score": "1-1 ret."
+      "opponent": "A. Ilagan",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20240603",
-      "tournament": "Tyler Challenger Men",
+      "date": "20240128",
+      "tournament": "Indian Wells 2",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. K. Trotter",
-      "score": "4-6 6(5)-7(7)"
+      "opponent": "B. Bicknell",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240127",
+      "tournament": "Indian Wells 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Fanselow",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20240126",
+      "tournament": "Indian Wells 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Artnak",
+      "score": "6-2 3-6 6-0"
     },
     {
       "date": "20240125",
@@ -66,9 +118,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Fanselow",
-      "score": "4-6 4-6"
+      "result": "W",
+      "opponent": "S. Kirchheimer",
+      "score": "6-2 6-1"
     },
     {
       "date": "20240123",
@@ -80,47 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Sandgren",
-      "score": "0-6 7(7)-6(4) 7(7)-6(3)"
-    },
-    {
-      "date": "20230609",
-      "tournament": "ITF M15 San Diego Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Brumm",
-      "score": "3-6 7-5 6-0"
-    },
-    {
-      "date": "20230608",
-      "tournament": "ITF M15 San Diego Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Little",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20230607",
-      "tournament": "ITF M15 San Diego Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Murali",
-      "score": "3-6 2-6"
+      "opponent": "G. Debru",
+      "score": "6-4 6-1"
     }
   ]
 }
