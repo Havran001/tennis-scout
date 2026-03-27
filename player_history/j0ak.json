@@ -1,13 +1,13 @@
 {
   "player_id": "j0ak",
-  "gs_id": "84344",
-  "player_name": "Jeremy Jin",
+  "gs_id": "76018",
+  "player_name": "Yuquan Jin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:55:08.984Z",
+  "updated": "2026-03-27T06:03:48.028Z",
   "matches": [
     {
-      "date": "20231108",
-      "tournament": "ITF M15 Winston-Salem",
+      "date": "20250506",
+      "tournament": "M25 Baotou",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,25 +15,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Koons",
-      "score": "6-4 6-2"
+      "opponent": "L. Castelnuovo",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20230321",
-      "tournament": "ITF M25 Canberra 5 Men",
+      "date": "20250430",
+      "tournament": "M25 Anning",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Walkin",
-      "score": "4-6 3-6"
+      "result": "L",
+      "opponent": "Y. Hongyu",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20230209",
-      "tournament": "ITF M25 Burnie Men",
+      "date": "20240828",
+      "tournament": "M25 Hong Kong",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. McHugh",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20240814",
+      "tournament": "ITF M25 Yinchuan Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20240704",
+      "tournament": "M15 Tianjin 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. J. Fancutt",
-      "score": "7(7)-6(5) 6(8)-7(10) 6(4)-7(7)"
+      "opponent": "J. Barki",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20230207",
-      "tournament": "ITF M25 Burnie Men",
+      "date": "20240702",
+      "tournament": "M15 Tianjin 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,25 +80,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Mochizuki",
-      "score": "2-6 6(1)-7(7)"
+      "opponent": "T. Huang",
+      "score": "6-3 6-0"
     },
     {
-      "date": "20221126",
-      "tournament": "M25 Traralgon 2",
+      "date": "20240626",
+      "tournament": "M15 Tianjin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Dong",
+      "score": "7-6 6-4"
+    },
+    {
+      "date": "20240619",
+      "tournament": "ITF M25 Luzhou Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Yang",
+      "score": "4-6 6-3 3-6"
+    },
+    {
+      "date": "20240601",
+      "tournament": "ITF M25 Baotou Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Sun",
+      "score": "6-4 3-6 6-3"
+    },
+    {
+      "date": "20240531",
+      "tournament": "ITF M25 Baotou Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Kelly",
-      "score": "5-7 4-6"
+      "result": "W",
+      "opponent": "Y. Mochizuki",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20221124",
-      "tournament": "M25 Traralgon 2",
+      "date": "20240530",
+      "tournament": "ITF M25 Baotou Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Saville",
-      "score": "6-1 7(7)-6(2)"
+      "opponent": "J. Yang",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20221123",
-      "tournament": "M25 Traralgon 2",
+      "date": "20240528",
+      "tournament": "ITF M25 Baotou Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +158,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Addison",
-      "score": "0-6 2-6"
+      "opponent": "Sun Qian",
+      "score": "1-6 6(4)-7(7)"
     },
     {
-      "date": "20221116",
-      "tournament": "M25 Traralgon",
+      "date": "20240523",
+      "tournament": "ITF M25 Anning Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Ferguson",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20240522",
+      "tournament": "ITF M25 Anning Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Zhu",
+      "score": "4-6 7-5 6-3"
+    },
+    {
+      "date": "20230614",
+      "tournament": "ITF M15 Tianjin Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +197,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Mott",
-      "score": "6(8)-7(10) 0-6"
+      "opponent": "T. Huang",
+      "score": "0-6 6-2 3-6"
+    },
+    {
+      "date": "20230606",
+      "tournament": "ITF M25 Luzhou Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Xiao",
+      "score": "2-6 5-7"
     }
   ]
 }
