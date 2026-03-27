@@ -3,11 +3,11 @@
   "gs_id": "58498",
   "player_name": "Bekkhan Atlangeriev",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:53:45.898Z",
+  "updated": "2026-03-27T00:57:58.925Z",
   "matches": [
     {
-      "date": "20251112",
-      "tournament": "M15 Antalya 14",
+      "date": "20250403",
+      "tournament": "M25 Antalya 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. M. Papoe",
-      "score": "6-3 6-2"
+      "opponent": "D. Michalski",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20241211",
-      "tournament": "M15 Doha 2",
+      "date": "20231121",
+      "tournament": "ITF M25 Antalya 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Erel",
-      "score": "6-4 6-4"
+      "opponent": "S. Popovic",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20231128",
-      "tournament": "ITF M15 Antalya 18 Men",
+      "date": "20230307",
+      "tournament": "M15 Creteil",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,64 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Fomin",
-      "score": "4-6 2-6"
+      "opponent": "S. Gueymard Wayenburg",
+      "score": "6(1)-7(7) 6-0 6-2"
     },
     {
-      "date": "20220920",
-      "tournament": "M15 Monastir 37",
+      "date": "20230214",
+      "tournament": "Manama Challenger Men",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Scaglia",
-      "score": "4-6 6-0 6-3"
+      "opponent": "A. Shelbayh",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20220918",
-      "tournament": "M15 Monastir 36",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Bertrand",
-      "score": "6(10)-7(12) 6-4 6-0"
-    },
-    {
-      "date": "20220917",
-      "tournament": "M15 Monastir 36",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Vandermeersch",
-      "score": "3-6 6-2 6(6)-7(8)"
-    },
-    {
-      "date": "20220916",
-      "tournament": "M15 Monastir 36",
+      "date": "20220225",
+      "tournament": "M25 Nur-Sultan",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Schnaitter",
-      "score": "6(2)-7(7) 4-6"
+      "result": "L",
+      "opponent": "D. Poljak",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20220915",
-      "tournament": "M15 Monastir 36",
+      "date": "20220224",
+      "tournament": "M25 Nur-Sultan",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Yamanaka",
-      "score": "4-6 3-6"
+      "opponent": "Y. Bondarevskiy",
+      "score": "6-2 6(3)-7(7) 5-7"
     },
     {
-      "date": "20220913",
-      "tournament": "M15 Monastir 36",
+      "date": "20220223",
+      "tournament": "M25 Nur-Sultan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +93,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Jovic",
-      "score": "2-6 1-6"
+      "opponent": "I. Denisov",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20211126",
+      "tournament": "M15 Kazan 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Borisiouk",
+      "score": "1-4 ret."
+    },
+    {
+      "date": "20211125",
+      "tournament": "M15 Kazan 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Ratniuk",
+      "score": "6-2 2-6 6-3"
+    },
+    {
+      "date": "20211124",
+      "tournament": "M15 Kazan 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Galimardanov",
+      "score": "5-7 1-6"
     }
   ]
 }
