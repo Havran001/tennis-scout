@@ -1,1 +1,74 @@
-{"player_id":"l0kj","gs_id":"219365","player_name":"Arthur Laborde","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"vo7kRns4","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Tarragona (Spain), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Roca Batalla O.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20260304","tournament":"M15 Antalya 5","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"I. Parisca","score":"4-6 6-4 6-2"},{"date":"20250618","tournament":"M25 Klosters","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"J. Nikles","score":"2-6 6-2 6(5)-7(7)"},{"date":"20240625","tournament":"ITF M25 Klosters Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"M. Dellavedova","score":"7-5 4-6 6-3"},{"date":"20230824","tournament":"M15 Caslano","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"M. Brunold","score":"6-1 6-1"},{"date":"20230823","tournament":"M15 Caslano","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"G. Biondolillo","score":"7-5 3-6 6-4"}],"total":6}
+{
+  "player_id": "l0kj",
+  "gs_id": "219365",
+  "player_name": "Arthur Laborde",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:19:29.809Z",
+  "matches": [
+    {
+      "date": "20260304",
+      "tournament": "M15 Antalya 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Parisca",
+      "score": "4-6 6-4 6-2"
+    },
+    {
+      "date": "20250618",
+      "tournament": "M25 Klosters",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nikles",
+      "score": "2-6 6-2 6(5)-7(7)"
+    },
+    {
+      "date": "20240625",
+      "tournament": "ITF M25 Klosters Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dellavedova",
+      "score": "7-5 4-6 6-3"
+    },
+    {
+      "date": "20230824",
+      "tournament": "M15 Caslano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Brunold",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20230823",
+      "tournament": "M15 Caslano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Biondolillo",
+      "score": "7-5 3-6 6-4"
+    }
+  ]
+}
