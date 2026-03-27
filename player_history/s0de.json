@@ -1,22 +1,35 @@
 {
   "player_id": "s0de",
-  "gs_id": "42074",
-  "player_name": "Darrshan Suresh",
+  "gs_id": "144063",
+  "player_name": "Dhakshineswar Suresh",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:57:25.155Z",
+  "updated": "2026-03-27T12:19:56.088Z",
   "matches": [
     {
-      "date": "20250903",
-      "tournament": "M15 Hurghada",
+      "date": "20250717",
+      "tournament": "M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Gogineni",
+      "score": "6(2)-7(7) 0-6"
+    },
+    {
+      "date": "20250716",
+      "tournament": "M25 Louisville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Ojakaar",
-      "score": "1-6 1-6"
+      "result": "W",
+      "opponent": "G. Hussey",
+      "score": "2-6 6-4 6-3"
     }
   ]
 }
