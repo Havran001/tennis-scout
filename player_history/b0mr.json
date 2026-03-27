@@ -3,76 +3,37 @@
   "gs_id": "142044",
   "player_name": "Evan Bynoe",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:30.992Z",
+  "updated": "2026-03-27T06:08:39.010Z",
   "matches": [
     {
-      "date": "20260204",
-      "tournament": "M15 Palm Coast",
+      "date": "20250815",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. McFadzean",
-      "score": "4-6 0-6"
+      "opponent": "B. Baker",
+      "score": "3-6 6-4 6-1"
     },
     {
-      "date": "20251001",
-      "tournament": "M15 Winston-Salem",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Falck",
-      "score": "6-2 7(7)-6(4)"
-    },
-    {
-      "date": "20241003",
-      "tournament": "M15 Sharm ElSheikh 12",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Dzhavakian",
-      "score": "4-6 6-3 2-6"
-    },
-    {
-      "date": "20241002",
-      "tournament": "M15 Sharm ElSheikh 12",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Lechno-Wasiutynski",
-      "score": "6-2 7-5"
-    },
-    {
-      "date": "20240920",
-      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
+      "date": "20250814",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. McKennon",
-      "score": "6-1 6-2"
+      "result": "W",
+      "opponent": "W. Grant",
+      "score": "6(6)-7(8) 0-6"
     },
     {
-      "date": "20240919",
-      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
+      "date": "20250813",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Erel",
-      "score": "6-1 4-6 4-6"
+      "opponent": "C. Cosnet",
+      "score": "5-7 2-6"
     },
     {
-      "date": "20240918",
-      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
+      "date": "20250811",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Pogosian",
-      "score": "6-4 3-1 ret."
+      "opponent": "K. Q. Xu",
+      "score": "0-6 6-1 4-1 ret."
     },
     {
-      "date": "20240214",
-      "tournament": "ITF M15 Palm Coast",
+      "date": "20250717",
+      "tournament": "M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Dickerson",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20250715",
+      "tournament": "M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Kuhar",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20230719",
+      "tournament": "ITF M15 Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +93,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Horovitz",
-      "score": "4-6 6-1 6-1"
+      "opponent": "T. Carnevale-Miino",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230714",
+      "tournament": "ITF M25 Laval Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ayeni",
+      "score": "1-6 6(1)-7(7)"
+    },
+    {
+      "date": "20230712",
+      "tournament": "ITF M25 Laval Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Stakusic",
+      "score": "6-0 6-2"
     },
     {
       "date": "20230427",
@@ -147,32 +160,6 @@
       "result": "L",
       "opponent": "A. Raynel",
       "score": "1-6 7(7)-6(1) 3-6"
-    },
-    {
-      "date": "20221026",
-      "tournament": "M15 Norman",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Minarik",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20220927",
-      "tournament": "M15 Albuquerque",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Kikuchi",
-      "score": "1-6 1-6"
     }
   ]
 }
