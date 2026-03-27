@@ -3,11 +3,11 @@
   "gs_id": "33256",
   "player_name": "Fernando Yamacita",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:49:34.073Z",
+  "updated": "2026-03-27T10:14:40.117Z",
   "matches": [
     {
-      "date": "20230823",
-      "tournament": "M15 Sao Paulo",
+      "date": "20250722",
+      "tournament": "M25 Sao Paulo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. A. Becerra Otarola",
-      "score": "7-5 7(7)-6(1)"
+      "opponent": "L. Andrade da Silva",
+      "score": "4-6 7(7)-6(5) 2-6"
     },
     {
-      "date": "20230818",
-      "tournament": "ITF M15 Belem Men",
+      "date": "20241113",
+      "tournament": "M25 Sao Paulo 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Nunez",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20240919",
+      "tournament": "M15 Asuncion",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Barreiros Reyes",
-      "score": "4-6 4-6"
+      "opponent": "F. E. Egea",
+      "score": "7-5 1-6 1-6"
     },
     {
-      "date": "20230817",
-      "tournament": "ITF M15 Belem Men",
+      "date": "20240918",
+      "tournament": "M15 Asuncion",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. A. Nunez",
-      "score": "6(3)-7(7) 0-6"
+      "opponent": "H. J. Escurra Isnardi",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20230815",
-      "tournament": "ITF M15 Belem Men",
+      "date": "20240917",
+      "tournament": "M15 Asuncion",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +67,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. A. Corthey",
-      "score": "3-6 3-6"
+      "opponent": "S. Hess",
+      "score": "6-3 2-6 6-3"
+    },
+    {
+      "date": "20240822",
+      "tournament": "M25 Belem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Pereira",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20240820",
+      "tournament": "M25 Belem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Roveri Sidney",
+      "score": "7-5 4-6 6-0"
+    },
+    {
+      "date": "20240814",
+      "tournament": "M25 Londrina",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Monzon",
+      "score": "6-4 4-6 6-2"
+    },
+    {
+      "date": "20240812",
+      "tournament": "M25 Londrina",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Torrealba",
+      "score": "5-7 3-6"
     }
   ]
 }
