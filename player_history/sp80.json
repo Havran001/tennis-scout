@@ -3,11 +3,50 @@
   "gs_id": "14482",
   "player_name": "Nino Serdarusic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:52:06.915Z",
+  "updated": "2026-03-27T00:50:05.967Z",
   "matches": [
     {
-      "date": "20211020",
-      "tournament": "Losinj",
+      "date": "20250206",
+      "tournament": "M25 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Kolar",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250205",
+      "tournament": "M25 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. I. Zamora",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20230419",
+      "tournament": "Roseto Degli Abruzzi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Onclin",
+      "score": "5-7 7-5 4-6"
+    },
+    {
+      "date": "20220309",
+      "tournament": "Roseto Degli Abruzzi",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Cecchinato",
-      "score": "7(7)-6(4) 6(4)-7(7) 1-6"
+      "opponent": "C. Gimeno Valero",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20211018",
-      "tournament": "Losinj",
+      "date": "20220307",
+      "tournament": "Roseto Degli Abruzzi",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Guinard",
-      "score": "6-2 3-6 4-6"
+      "opponent": "F. Gaio",
+      "score": "2-6 6(3)-7(7)"
     },
     {
-      "date": "20210921",
-      "tournament": "Bucharest",
+      "date": "20220214",
+      "tournament": "Forli 4",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,8 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Albot",
-      "score": "6-2 7-5"
+      "opponent": "M. Marterer",
+      "score": "7(7)-6(5) 4-6 6(2)-7(7)"
+    },
+    {
+      "date": "20220117",
+      "tournament": "Forli 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Napolitano",
+      "score": "6(6)-7(8) 6-2 6(2)-7(7)"
     }
   ]
 }
