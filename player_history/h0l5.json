@@ -1,1 +1,35 @@
-{"player_id":"h0l5","sack_id":"213074","name":"Hugo Hashimoto","total":0,"matches":[]}
+{
+  "player_id": "h0l5",
+  "gs_id": "273197",
+  "player_name": "Hugo Hashimoto",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T06:12:26.014Z",
+  "matches": [
+    {
+      "date": "20240718",
+      "tournament": "ITF M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. F. Descotte",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20240717",
+      "tournament": "ITF M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Fishback",
+      "score": "6-2 6-2"
+    }
+  ]
+}
