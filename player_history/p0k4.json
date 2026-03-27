@@ -1,48 +1,48 @@
 {
   "player_id": "p0k4",
-  "gs_id": "2790",
-  "player_name": "Tiago Pereira",
+  "gs_id": "5481",
+  "player_name": "Jose Pereira",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:56:51.966Z",
+  "updated": "2026-03-27T07:58:18.338Z",
   "matches": [
     {
-      "date": "20240614",
-      "tournament": "ITF M25 Elvas Men",
+      "date": "20250422",
+      "tournament": "San Miguel de Tucuman",
       "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Celikbilek",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20240613",
-      "tournament": "ITF M25 Elvas Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Glinka",
-      "score": "7(7)-6(1) 6-4"
-    },
-    {
-      "date": "20240612",
-      "tournament": "ITF M25 Elvas Men",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Batista",
-      "score": "3-6 3-6"
+      "result": "L",
+      "opponent": "L. E. Ambrogi",
+      "score": "6(5)-7(7) 6-3 6-3"
+    },
+    {
+      "date": "20240624",
+      "tournament": "Ibague",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Farjat",
+      "score": "6-3 3-6 6-3"
+    },
+    {
+      "date": "20240415",
+      "tournament": "San Miguel de Tucuman Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Olivieri",
+      "score": "3-6 6-3 3-6"
     }
   ]
 }
