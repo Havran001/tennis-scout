@@ -3,59 +3,72 @@
   "gs_id": "33744",
   "player_name": "Jose Escurra Isnardi Hernando",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:50:33.954Z",
+  "updated": "2026-03-27T03:45:03.965Z",
   "matches": [
     {
-      "date": "20250807",
-      "tournament": "M15 Frankfurt",
+      "date": "20241124",
+      "tournament": "Temuco",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Oetzbach",
-      "score": "6-4 1-6 4-6"
+      "opponent": "M. Kestelboim",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20250806",
-      "tournament": "M15 Frankfurt",
+      "date": "20221123",
+      "tournament": "M25+H Lajeado",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Penzlin",
-      "score": "6-2 3-6 5-7"
-    },
-    {
-      "date": "20220616",
-      "tournament": "M25 Santo Domingo 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "4-6 2-6"
+      "opponent": "J. Fonseca",
+      "score": "7-5 7(8)-6(6)"
     },
     {
-      "date": "20220615",
-      "tournament": "M25 Santo Domingo 4",
+      "date": "20221116",
+      "tournament": "M15 Lujan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Kiger",
-      "score": "6-1 7(7)-6(4)"
+      "result": "L",
+      "opponent": "L. Ratti",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20221101",
+      "tournament": "M25 Salta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Heide",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20221019",
+      "tournament": "ITF M25 Rio de Janeiro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zormann Da Silva",
+      "score": "0-6 1-6"
     }
   ]
 }
