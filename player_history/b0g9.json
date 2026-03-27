@@ -3,11 +3,11 @@
   "gs_id": "86990",
   "player_name": "Alberto Bronzetti",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:56:18.982Z",
+  "updated": "2026-03-27T06:06:04.011Z",
   "matches": [
     {
-      "date": "20241008",
-      "tournament": "M25 Santa Margherita di Pula 10",
+      "date": "20250826",
+      "tournament": "M15 Forli",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,38 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Spadola",
-      "score": "2-6 6-4 1-6"
+      "opponent": "N. Perfetti",
+      "score": "6-1 0-0 ret."
     },
     {
-      "date": "20241003",
-      "tournament": "M25 Santa Margherita di Pula 9",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Cadenasso",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20241002",
-      "tournament": "M25 Santa Margherita di Pula 9",
+      "date": "20240829",
+      "tournament": "ITF M15 Forli Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Serafini",
-      "score": "1-6 6-4 6-2"
+      "result": "L",
+      "opponent": "A. Hernandez",
+      "score": "6-2 4-6 6-1"
     },
     {
-      "date": "20241001",
-      "tournament": "M25 Santa Margherita di Pula 9",
+      "date": "20240828",
+      "tournament": "ITF M15 Forli Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Forejtek",
-      "score": "0-6 0-2 ret."
+      "opponent": "N. Perfetti",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20231129",
-      "tournament": "M25 Monastir 10",
+      "date": "20240619",
+      "tournament": "ITF M25 Cattolica Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Dougaz",
-      "score": "4-6 2-6"
+      "opponent": "T. Handel",
+      "score": "4-6 7(7)-6(2) 6-3"
+    },
+    {
+      "date": "20240618",
+      "tournament": "ITF M25 Cattolica Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. La Vela",
+      "score": "6-2 6-3"
     }
   ]
 }
