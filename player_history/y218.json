@@ -3,8 +3,21 @@
   "gs_id": "10670",
   "player_name": "Elias Ymer",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:57:02.170Z",
+  "updated": "2026-03-27T09:25:12.086Z",
   "matches": [
+    {
+      "date": "20250825",
+      "tournament": "Porto 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Araujo",
+      "score": "7-5 4-6 5-7"
+    },
     {
       "date": "20250619",
       "tournament": "Sassuolo",
@@ -71,58 +84,6 @@
       "score": "7(10)-6(8) 7(7)-6(3)"
     },
     {
-      "date": "20250326",
-      "tournament": "Naples",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. A. Dellien Velasco",
-      "score": "7(7)-6(4) 3-6 6-0"
-    },
-    {
-      "date": "20250325",
-      "tournament": "Naples",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Passaro",
-      "score": "7(8)-6(6) 3-6 5-7"
-    },
-    {
-      "date": "20250324",
-      "tournament": "Naples",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Ovcharenko",
-      "score": "6-3 4-6 6-4"
-    },
-    {
-      "date": "20250323",
-      "tournament": "Naples",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Cadenasso",
-      "score": "6-3 7-5"
-    },
-    {
       "date": "20240618",
       "tournament": "Sassuolo Challenger Men",
       "surface": "Hard",
@@ -134,45 +95,6 @@
       "result": "L",
       "opponent": "D. Altmaier",
       "score": "1-6 0-6"
-    },
-    {
-      "date": "20240326",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Marterer",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20240325",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Geerts",
-      "score": "6-4 7(7)-6(2)"
-    },
-    {
-      "date": "20240324",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Bastia",
-      "score": "6-0 6-0"
     }
   ]
 }
