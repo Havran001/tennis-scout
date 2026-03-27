@@ -3,20 +3,33 @@
   "gs_id": "126697",
   "player_name": "Mark Havlicek",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:55:45.903Z",
+  "updated": "2026-03-27T03:47:32.973Z",
   "matches": [
     {
-      "date": "20210929",
-      "tournament": "M25 Budapest",
+      "date": "20211125",
+      "tournament": "M15 Ostrava",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pavlasek",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20211124",
+      "tournament": "M15 Ostrava",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Karol",
-      "score": "6-2 6(4)-7(7) 6-4"
+      "result": "W",
+      "opponent": "O. Krstev",
+      "score": "5-7 7-5 3-6"
     }
   ]
 }
