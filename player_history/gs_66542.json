@@ -3,7 +3,7 @@
   "gs_id": "66542",
   "player_name": "Alexandru Tomescu Dan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:58:06.922Z",
+  "updated": "2026-03-27T02:51:05.964Z",
   "matches": [
     {
       "date": "20240215",
@@ -110,34 +110,47 @@
       "score": "6-3 0-6 1-6"
     },
     {
-      "date": "20230212",
-      "tournament": "Manama Challenger Men",
+      "date": "20230627",
+      "tournament": "ITF M15 Belgrade Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Caruso",
-      "score": "6-4 6-2"
+      "opponent": "V. Radjenovic",
+      "score": "6-4 3-6 6-3"
     },
     {
-      "date": "20211118",
-      "tournament": "M15 Antalya 32",
+      "date": "20220819",
+      "tournament": "M15 Craiova",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. P. Paz",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20220818",
+      "tournament": "M15 Craiova",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Madaras",
-      "score": "6-4 6-2"
+      "result": "W",
+      "opponent": "V. Aboian",
+      "score": "7-5 6(5)-7(7) 2-6"
     },
     {
-      "date": "20211117",
-      "tournament": "M15 Antalya 32",
+      "date": "20220816",
+      "tournament": "M15 Craiova",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,8 +158,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Tenti",
-      "score": "6-1 6-3"
+      "opponent": "F. Sun",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220629",
+      "tournament": "M15 Wroclaw",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Nouza",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20220428",
+      "tournament": "M25 Split",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Setkic",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220427",
+      "tournament": "M25 Split",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Prizmic",
+      "score": "2-6 1-6"
     }
   ]
 }
