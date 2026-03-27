@@ -1,52 +1,65 @@
 {
   "player_id": "f0go",
-  "gs_id": "127767",
-  "player_name": "Carlos Prado Angelo Juan",
+  "gs_id": "131455",
+  "player_name": "Manuel La Serna Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:10:14.043Z",
+  "updated": "2026-03-27T07:10:18.046Z",
   "matches": [
     {
-      "date": "20240808",
-      "tournament": "ITF M25 Southaven",
+      "date": "20250929",
+      "tournament": "Antofagasta",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. E. Ambrogi",
+      "score": "0-6 7(7)-6(4) 2-6"
+    },
+    {
+      "date": "20250928",
+      "tournament": "Antofagasta",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Ciocanu",
-      "score": "6-3 6-2"
+      "opponent": "B. I. Torres Fernandez",
+      "score": "0-6 4-6"
     },
     {
-      "date": "20240808",
-      "tournament": "ITF M25 Southaven",
+      "date": "20250328",
+      "tournament": "M25 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Roncadelli",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20250327",
+      "tournament": "M25 Lujan",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Kang",
-      "score": "3-6 6-4 6-2"
+      "result": "W",
+      "opponent": "J. Estevez",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20240215",
-      "tournament": "ITF M25 Punta del Este 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Aguilar Cardozo",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20240214",
-      "tournament": "ITF M25 Punta del Este 2 Men",
+      "date": "20250326",
+      "tournament": "M25 Lujan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,25 +67,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Dutra Da Silva",
-      "score": "6-4 3-6 6-2"
+      "opponent": "S. De La Fuente",
+      "score": "7(7)-6(2) 7(12)-6(10)"
     },
     {
-      "date": "20231128",
-      "tournament": "ITF M15 Santa Cruz 3 Men",
+      "date": "20250218",
+      "tournament": "M25 Punta del Este 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Vilicich",
-      "score": "3-6 2-6"
+      "result": "L",
+      "opponent": "R. Olivo",
+      "score": "1-6 6-2 3-6"
     },
     {
-      "date": "20231112",
-      "tournament": "M15 Rosario",
+      "date": "20241029",
+      "tournament": "M25 Lajeado",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Rodrigues",
+      "score": "4-6 6-4 7-5"
+    },
+    {
+      "date": "20240317",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -80,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. J. Rodriguez",
-      "score": "3-6 6-4 6(7)-7(9)"
+      "opponent": "J. Aguilar Cardozo",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20231111",
-      "tournament": "M15 Rosario",
+      "date": "20240316",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -93,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. E. Egea",
-      "score": "4-6 0-6"
+      "opponent": "I. Carou",
+      "score": "5-7 0-6"
     },
     {
-      "date": "20231111",
-      "tournament": "M15 Rosario",
+      "date": "20240316",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -106,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. E. Ambrogi",
-      "score": "6-4 6-4"
+      "opponent": "F. Ribero",
+      "score": "6-2 3-6 6-3"
     },
     {
-      "date": "20231109",
-      "tournament": "M15 Rosario",
+      "date": "20240315",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -119,8 +145,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Monzon",
-      "score": "6-3 5-7 6-1"
+      "opponent": "T. Farjat",
+      "score": "3-6 7-6 6-3"
+    },
+    {
+      "date": "20240314",
+      "tournament": "M15 Punta del Este",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Monferrer",
+      "score": "6-2 4-6 4-6"
+    },
+    {
+      "date": "20231211",
+      "tournament": "M15 Concepcion 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Carraro",
+      "score": "3-6 7-5 3-6"
+    },
+    {
+      "date": "20231208",
+      "tournament": "M15 Concepcion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Aboian",
+      "score": "4-6 6-0 6-3"
+    },
+    {
+      "date": "20231207",
+      "tournament": "M15 Concepcion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Cigarran",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20231205",
+      "tournament": "M15 Concepcion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. P. Paz",
+      "score": "4-6 3-6"
     },
     {
       "date": "20231108",
@@ -131,13 +222,39 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Monferrer",
-      "score": "6-1 6-1"
+      "result": "L",
+      "opponent": "L. E. Ambrogi",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20231004",
-      "tournament": "M25 Mendoza",
+      "date": "20230824",
+      "tournament": "M15 Sao Paulo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Pini",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20230822",
+      "tournament": "M15 Sao Paulo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Ratti",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Trujillo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,12 +262,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. E. Ambrogi",
-      "score": "6-2 6-4"
+      "opponent": "A. Huertas Del Pino Cordova",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20230929",
-      "tournament": "ITF M25 Lujan Men",
+      "date": "20230810",
+      "tournament": "M15 Arequipa",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -158,12 +275,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Kestelboim",
-      "score": "3-6 6-3 4-6"
+      "opponent": "A. Guillen Meza",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20230928",
-      "tournament": "ITF M25 Lujan Men",
+      "date": "20230809",
+      "tournament": "M15 Arequipa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -171,12 +288,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Villanueva",
-      "score": "6-2 6-4"
+      "opponent": "S. Hess",
+      "score": "6-4 6(9)-7(11) 1-6"
     },
     {
-      "date": "20230927",
-      "tournament": "ITF M25 Lujan Men",
+      "date": "20230808",
+      "tournament": "M15 Arequipa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,47 +301,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Levi",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20230918",
-      "tournament": "Antofagasta Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Ribeiro",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20230720",
-      "tournament": "ITF M15 Uslar Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Zanellato",
-      "score": "4-6 6-2 6-3"
-    },
-    {
-      "date": "20230719",
-      "tournament": "ITF M15 Uslar Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Engel",
-      "score": "6-2 6-4"
+      "opponent": "F. Tenti",
+      "score": "6-4 6-4"
     }
   ]
 }
