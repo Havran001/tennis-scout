@@ -3,24 +3,24 @@
   "gs_id": "2699",
   "player_name": "Jozef Kovalik",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:50:00.035Z",
+  "updated": "2026-03-27T07:04:12.029Z",
   "matches": [
     {
-      "date": "20240707",
-      "tournament": "Karlsruhe",
+      "date": "20250917",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Masur",
-      "score": "7(7)-6(3) 0-6 1-6"
+      "result": "L",
+      "opponent": "S. Sorger",
+      "score": "4-6 7-5 4-6"
     },
     {
-      "date": "20240707",
-      "tournament": "Karlsruhe",
+      "date": "20250915",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -28,38 +28,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Ugo Carabelli",
-      "score": "3-6 6(2)-7(7)"
+      "opponent": "M. Moeller",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20240705",
-      "tournament": "Karlsruhe",
+      "date": "20250914",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
-      "round": "QF",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Molleker",
-      "score": "6(6)-7(8) 2-6"
+      "opponent": "M. Cecchinato",
+      "score": "6(3)-7(7) 2-6"
     },
     {
-      "date": "20240704",
-      "tournament": "Karlsruhe",
+      "date": "20231018",
+      "tournament": "Santa Fe 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Gavrielides",
-      "score": "7-5 3-6 4-6"
+      "result": "L",
+      "opponent": "F. Coria",
+      "score": "6-4 6(5)-7(7) 6(2)-7(7)"
     },
     {
-      "date": "20240702",
-      "tournament": "Karlsruhe",
+      "date": "20231016",
+      "tournament": "Santa Fe 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Schell",
-      "score": "1-6 2-6"
+      "opponent": "F. Agamenone",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230922",
+      "tournament": "Bad Waltersdorf Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pellegrino",
+      "score": "7(7)-6(4) 7-5"
+    },
+    {
+      "date": "20230920",
+      "tournament": "Bad Waltersdorf Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Kirkin",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20230918",
+      "tournament": "Bad Waltersdorf Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Carballes Baena",
+      "score": "5-7 6-3 6(6)-7(8)"
     }
   ]
 }
