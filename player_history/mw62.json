@@ -3,47 +3,8 @@
   "gs_id": "35694",
   "player_name": "Nikita Mashtakov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:04:35.925Z",
+  "updated": "2026-03-27T09:26:07.097Z",
   "matches": [
-    {
-      "date": "20250925",
-      "tournament": "M25 Zlatibor",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Gill",
-      "score": "6(5)-7(7) 6-0 6-3"
-    },
-    {
-      "date": "20250923",
-      "tournament": "M25 Zlatibor",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Jagrovic",
-      "score": "0-6 3-6"
-    },
-    {
-      "date": "20250915",
-      "tournament": "Bad Waltersdorf",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Z. Kolar",
-      "score": "2-6 2-6"
-    },
     {
       "date": "20250620",
       "tournament": "M15 Nyiregyhaza 2",
@@ -84,8 +45,47 @@
       "score": "6-2 6-4"
     },
     {
-      "date": "20240724",
-      "tournament": "ITF M25 Kramsach Men",
+      "date": "20250606",
+      "tournament": "M15 Tsaghkadzor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Tiurnev",
+      "score": "5-7 6-1 6-4"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Tsaghkadzor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Gretskiy",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250604",
+      "tournament": "M15 Tsaghkadzor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Alberti",
+      "score": "6-3 4-6 6-4"
+    },
+    {
+      "date": "20241106",
+      "tournament": "M15 Szabolcsveresmart 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +93,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Simonsson",
-      "score": "7(10)-6(8) 3-6 6-4"
+      "opponent": "N. Ifi",
+      "score": "6(7)-7(9) 6-4 7(8)-6(6)"
+    },
+    {
+      "date": "20241029",
+      "tournament": "M15 Szabolcsveresmart",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. J. Planinsek",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20241015",
+      "tournament": "M15 Bol 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Basile",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20240717",
+      "tournament": "ITF M15 Slovenska Bistrica Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Fajta",
+      "score": "6-2 7-5"
     },
     {
       "date": "20240619",
@@ -173,19 +212,6 @@
       "result": "L",
       "opponent": "V. Bielinskyi",
       "score": "6-2 6-2"
-    },
-    {
-      "date": "20230816",
-      "tournament": "M25 Bielsko Biala",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Bielinskyi",
-      "score": "6-2 6-4"
     }
   ]
 }
