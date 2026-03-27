@@ -3,8 +3,34 @@
   "gs_id": "76906",
   "player_name": "Martin Borisiouk",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:50:31.897Z",
+  "updated": "2026-03-27T00:52:03.926Z",
   "matches": [
+    {
+      "date": "20251111",
+      "tournament": "M25 Columbus",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Young",
+      "score": "6-2 4-6 7-5"
+    },
+    {
+      "date": "20251029",
+      "tournament": "M25 Harlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Magadan",
+      "score": "3-6 1-6"
+    },
     {
       "date": "20230531",
       "tournament": "ITF M15 Monastir 22 Men",
@@ -17,6 +43,71 @@
       "result": "L",
       "opponent": "H. Habib",
       "score": "2-6 4-6"
+    },
+    {
+      "date": "20211128",
+      "tournament": "M15 Kazan 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kachmazov",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20211127",
+      "tournament": "M15 Kazan 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Zgirovsky",
+      "score": "7(9)-6(7) 1-6 6-4"
+    },
+    {
+      "date": "20211126",
+      "tournament": "M15 Kazan 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Atlangeriev",
+      "score": "4-1 ret."
+    },
+    {
+      "date": "20211125",
+      "tournament": "M15 Kazan 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Zhukov",
+      "score": "3-6 6-4 6(7)-7(9)"
+    },
+    {
+      "date": "20211124",
+      "tournament": "M15 Kazan 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Ianin",
+      "score": "6(3)-7(7) 5-7"
     }
   ]
 }
