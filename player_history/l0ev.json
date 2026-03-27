@@ -3,37 +3,24 @@
   "gs_id": "84268",
   "player_name": "Valentin Lapalu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:17:58.523Z",
+  "updated": "2026-03-27T12:08:26.160Z",
   "matches": [
     {
-      "date": "20260206",
-      "tournament": "M15 Zahra 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Staeheli",
-      "score": "6-3 3-6 6-2"
-    },
-    {
-      "date": "20260205",
-      "tournament": "M15 Zahra 2",
+      "date": "20250821",
+      "tournament": "M15 Bastad 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Alabdullah",
-      "score": "6-4 4-6 6-0"
+      "result": "L",
+      "opponent": "A. Garcian",
+      "score": "6-2 6-0"
     },
     {
-      "date": "20260204",
-      "tournament": "M15 Zahra 2",
+      "date": "20250820",
+      "tournament": "M15 Bastad 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,38 +28,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Duran",
-      "score": "4-6 6-3 5-7"
+      "opponent": "L. Van Herck",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20260130",
-      "tournament": "M15 Zahra",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Staeheli",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20260129",
-      "tournament": "M15 Zahra",
+      "date": "20250814",
+      "tournament": "M15 Ystad",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Iakubenko",
-      "score": "6-4 6-3"
+      "result": "L",
+      "opponent": "L. Bocchi",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20260128",
-      "tournament": "M15 Zahra",
+      "date": "20250813",
+      "tournament": "M15 Ystad",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,38 +54,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Issah",
-      "score": "6-1 6-3"
+      "opponent": "S. Eriksson",
+      "score": "6-3 7(8)-6(6)"
     },
     {
-      "date": "20250207",
-      "tournament": "M15 Zahra 2",
+      "date": "20250702",
+      "tournament": "M15 Getxo",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Nikles",
-      "score": "3-6 2-6"
+      "opponent": "M. Martinez Serrano",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20250206",
-      "tournament": "M15 Zahra 2",
+      "date": "20250618",
+      "tournament": "M15 Mungia-Laukariz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Montes-De La Torre",
+      "score": "6-4 0-6 5-7"
+    },
+    {
+      "date": "20250313",
+      "tournament": "M15 Nonthaburi",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Petrov",
-      "score": "0-6 4-6"
+      "result": "L",
+      "opponent": "A. Knaff",
+      "score": "3-6 6-2 6-2"
     },
     {
-      "date": "20250205",
-      "tournament": "M15 Zahra 2",
+      "date": "20250312",
+      "tournament": "M15 Nonthaburi",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Buldorini",
-      "score": "6-1 6-4"
+      "opponent": "N. Chappell",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Cap d'Agde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Laurent",
+      "score": "6-3 4-6 3-6"
     },
     {
       "date": "20240613",
@@ -147,19 +147,6 @@
       "result": "W",
       "opponent": "P. Martin Tiffon",
       "score": "4-5 ret."
-    },
-    {
-      "date": "20240417",
-      "tournament": "M25 Hammamet 7",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. De Vincentis",
-      "score": "0-6 0-6"
     }
   ]
 }
