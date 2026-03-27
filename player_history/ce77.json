@@ -3,24 +3,37 @@
   "gs_id": "4136",
   "player_name": "Federico Coria",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:51:54.940Z",
+  "updated": "2026-03-27T03:49:55.969Z",
   "matches": [
     {
-      "date": "20240517",
-      "tournament": "Turin 2 Challenger Men",
+      "date": "20241011",
+      "tournament": "Villa Maria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. A. Burruchaga",
+      "score": "3-6 6-3 6-1"
+    },
+    {
+      "date": "20241010",
+      "tournament": "Villa Maria",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Sonego",
-      "score": "3-6 6-4 6-4"
+      "result": "W",
+      "opponent": "F. Mena",
+      "score": "4-6 6-3 6-4"
     },
     {
-      "date": "20240514",
-      "tournament": "Turin 2 Challenger Men",
+      "date": "20241009",
+      "tournament": "Villa Maria",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Rodionov",
-      "score": "3-6 6-4 2-6"
+      "opponent": "G. Villanueva",
+      "score": "6-4 7(9)-6(7)"
+    },
+    {
+      "date": "20221021",
+      "tournament": "Coquimbo 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Skatov",
+      "score": "6-3 3-6 6-4"
+    },
+    {
+      "date": "20221019",
+      "tournament": "Coquimbo 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Navone",
+      "score": "5-7 6-2 6-1"
+    },
+    {
+      "date": "20221018",
+      "tournament": "Coquimbo 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Giannessi",
+      "score": "6-4 6-2"
     }
   ]
 }
