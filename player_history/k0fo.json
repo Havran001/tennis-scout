@@ -3,33 +3,46 @@
   "gs_id": "76295",
   "player_name": "Filip Krolo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:14:51.076Z",
+  "updated": "2026-03-27T12:04:56.169Z",
   "matches": [
     {
-      "date": "20250827",
-      "tournament": "M15 Vienna",
+      "date": "20241018",
+      "tournament": "M15 Offenbach",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Ramskogler",
-      "score": "3-6 3-6"
+      "opponent": "M. Donald",
+      "score": "6-3 3-6 6-2"
     },
     {
-      "date": "20250114",
-      "tournament": "M15 Cadolzburg",
+      "date": "20241017",
+      "tournament": "M15 Offenbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Oetzbach",
+      "score": "7(9)-6(7) 2-6 0-1 ret."
+    },
+    {
+      "date": "20241016",
+      "tournament": "M15 Offenbach",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Hoffmann",
-      "score": "2-6 7(7)-6(5) 5-7"
+      "result": "W",
+      "opponent": "G. Lazarov",
+      "score": "7(7)-6(4) 1-6 6-1"
     },
     {
       "date": "20240710",
@@ -69,32 +82,6 @@
       "result": "L",
       "opponent": "M. Poljicak",
       "score": "6-3 3-6 6-1"
-    },
-    {
-      "date": "20231130",
-      "tournament": "ITF M25 Heraklion 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Pa. Tsitsipas",
-      "score": "6-3 1-6 4-6"
-    },
-    {
-      "date": "20231129",
-      "tournament": "ITF M25 Heraklion 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Mizrahi",
-      "score": "6-4 6(4)-7(7) 7(7)-6(3)"
     }
   ]
 }
