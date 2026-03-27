@@ -3,7 +3,7 @@
   "gs_id": "142001",
   "player_name": "Manuel Aguilar Juan Carlos",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:51.992Z",
+  "updated": "2026-03-27T06:08:34.014Z",
   "matches": [
     {
       "date": "20250517",
@@ -56,6 +56,58 @@
       "result": "W",
       "opponent": "A. Delgadillo",
       "score": "0-6 0-6"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M25 Laval Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Poling",
+      "score": "2-6 6-1 0-6"
+    },
+    {
+      "date": "20240702",
+      "tournament": "ITF M25 Laval Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Boulais",
+      "score": "6-0 6-0"
+    },
+    {
+      "date": "20230720",
+      "tournament": "ITF M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Heng",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230719",
+      "tournament": "ITF M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Sorbo",
+      "score": "6-4 6-2"
     },
     {
       "date": "20230524",
@@ -121,32 +173,6 @@
       "result": "W",
       "opponent": "J. Sheehy",
       "score": "2-6 4-6"
-    },
-    {
-      "date": "20230413",
-      "tournament": "M15 Santo Domingo de los Tsachilas 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Lilov",
-      "score": "6-4 6-1"
-    },
-    {
-      "date": "20230412",
-      "tournament": "M15 Santo Domingo de los Tsachilas 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. T. Geschwind",
-      "score": "2-6 2-6"
     }
   ]
 }
