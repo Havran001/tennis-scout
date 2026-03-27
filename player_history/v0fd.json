@@ -1,1 +1,22 @@
-{"player_id":"v0fd","gs_id":"132038","player_name":"Pijus Vaitiekunas","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"hGmy0QSE","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"De Lange P.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"nRYkmEED","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Sharm ElSheikh 9 (Egypt), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Tepmahc N.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20230823","tournament":"ITF M25 Poznan Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"A. Braynin","score":"3-6 6(3)-7(7)"}],"total":3}
+{
+  "player_id": "v0fd",
+  "gs_id": "132038",
+  "player_name": "Pijus Vaitiekunas",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:17:09.812Z",
+  "matches": [
+    {
+      "date": "20230823",
+      "tournament": "ITF M25 Poznan Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Braynin",
+      "score": "3-6 6(3)-7(7)"
+    }
+  ]
+}
