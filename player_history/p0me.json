@@ -3,24 +3,37 @@
   "gs_id": "199575",
   "player_name": "Luca Preda",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:00:06.935Z",
+  "updated": "2026-03-27T03:54:59.969Z",
   "matches": [
     {
-      "date": "20250409",
-      "tournament": "M25 Santa Margherita di Pula 2",
+      "date": "20251121",
+      "tournament": "M25 Heraklion 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Xilas",
+      "score": "4-6 6-2 0-0 ret."
+    },
+    {
+      "date": "20251120",
+      "tournament": "M25 Heraklion 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Onclin",
-      "score": "3-6 1-2 ret."
+      "result": "W",
+      "opponent": "J. Story",
+      "score": "6-3 5-7 5-7"
     },
     {
-      "date": "20250408",
-      "tournament": "M25 Santa Margherita di Pula 2",
+      "date": "20251118",
+      "tournament": "M25 Heraklion 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Miletich",
-      "score": "6-3 2-6 6-3"
+      "opponent": "A. Vales",
+      "score": "6-0 6-2"
     },
     {
-      "date": "20241112",
-      "tournament": "ITF M15 Heraklion 6 Men",
+      "date": "20251111",
+      "tournament": "M15 Heraklion 14",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Vales",
-      "score": "6-0 6-3"
+      "opponent": "P. Henning",
+      "score": "6-3 2-6 6-3"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M15 Sharm ElSheikh 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Ursu",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20230531",
+      "tournament": "ITF M15 Constanta Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Manda",
+      "score": "6-4 7(7)-6(2)"
     }
   ]
 }
