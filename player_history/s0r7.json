@@ -3,11 +3,37 @@
   "gs_id": "115651",
   "player_name": "Jan Sebesta",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:13:42.167Z",
+  "updated": "2026-03-26T23:02:44.886Z",
   "matches": [
     {
-      "date": "20250813",
-      "tournament": "M25 Gijon",
+      "date": "20230815",
+      "tournament": "ITF M25 Muttenz Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Handel",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20220830",
+      "tournament": "M25 Sierre",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Bertola",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20220825",
+      "tournament": "M25 Caslano",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Moro Canas",
-      "score": "6-2 6-2"
+      "opponent": "F. Iannaccone",
+      "score": "2-6 0-6"
     },
     {
-      "date": "20250812",
-      "tournament": "M25 Gijon",
+      "date": "20220823",
+      "tournament": "M25 Caslano",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Siddiqui",
-      "score": "2-6 7-5 6-1"
+      "opponent": "M. Fellin",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20220819",
+      "tournament": "M25 Muttenz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Mora",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20220818",
+      "tournament": "M25 Muttenz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Brunold",
+      "score": "6-3 1-6 6-2"
+    },
+    {
+      "date": "20220818",
+      "tournament": "M25 Muttenz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Fonio",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20210831",
+      "tournament": "ITF M25 Sierre Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Hijikata",
+      "score": "6-4 3-6 6(2)-7(7)"
+    },
+    {
+      "date": "20210824",
+      "tournament": "ITF M25 Caslano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alves",
+      "score": "6-1 6-2"
     }
   ]
 }
