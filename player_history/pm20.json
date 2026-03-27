@@ -1,39 +1,65 @@
 {
   "player_id": "pm20",
-  "gs_id": "142268",
-  "player_name": "Antoine Tailleu Pierre",
+  "gs_id": "141952",
+  "player_name": "Yves Bailly Pierre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:53:29.970Z",
+  "updated": "2026-03-27T04:47:51.983Z",
   "matches": [
     {
-      "date": "20250930",
-      "tournament": "M25 Zaragoza",
+      "date": "20251214",
+      "tournament": "M15 Sharm ElSheikh 21",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Gakhov",
-      "score": "7(7)-6(5) 4-6 6-2"
+      "opponent": "P. Henning",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20250717",
-      "tournament": "M15 Gubbio",
+      "date": "20251213",
+      "tournament": "M15 Sharm ElSheikh 21",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Braynin",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20251212",
+      "tournament": "M15 Sharm ElSheikh 21",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Waldner",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20251211",
+      "tournament": "M15 Sharm ElSheikh 21",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Pieri",
-      "score": "2-6 6(6)-7(8)"
+      "result": "W",
+      "opponent": "V. Ursu",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20250715",
-      "tournament": "M15 Gubbio",
+      "date": "20251210",
+      "tournament": "M15 Sharm ElSheikh 21",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,34 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Raquillet",
-      "score": "2-6 6-3 6-4"
+      "opponent": "K. Filaretov",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20250618",
-      "tournament": "M15 Duffel",
+      "date": "20251128",
+      "tournament": "M15 Madrid 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sigsgaard",
+      "score": "6-1 4-6 5-7"
+    },
+    {
+      "date": "20251127",
+      "tournament": "M15 Madrid 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Sheyngezikht",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20251125",
+      "tournament": "M15 Madrid 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Colson",
-      "score": "4-6 6-4 6-2"
-    },
-    {
-      "date": "20240807",
-      "tournament": "ITF M15 Eupen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Loge",
-      "score": "6(3)-7(7) 3-6"
+      "result": "W",
+      "opponent": "D. Fernandez Flores",
+      "score": "3-6 3-6"
     }
   ]
 }
