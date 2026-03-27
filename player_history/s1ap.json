@@ -3,24 +3,63 @@
   "gs_id": "267449",
   "player_name": "Tristan Stringer",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:12:24.014Z",
+  "updated": "2026-03-27T07:08:12.031Z",
   "matches": [
     {
-      "date": "20250430",
-      "tournament": "M15 Kursumlijska Banja 2",
+      "date": "20260207",
+      "tournament": "M15 Zahra 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Nedic",
-      "score": "7(8)-6(6) 6-3"
+      "opponent": "R. Piatti",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M15 Cluj Napoca Men",
+      "date": "20260206",
+      "tournament": "M15 Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Bittoun",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20260205",
+      "tournament": "M15 Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Iakubenko",
+      "score": "6-1 4-3 ret."
+    },
+    {
+      "date": "20260204",
+      "tournament": "M15 Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. N. Turker",
+      "score": "6(3)-7(7) 6-1 6(2)-7(7)"
+    },
+    {
+      "date": "20260128",
+      "tournament": "M15 Zahra",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. D. Ionel",
-      "score": "7(12)-6(10) 6-3"
+      "opponent": "L. Staeheli",
+      "score": "3-6 6-3 1-6"
+    },
+    {
+      "date": "20260115",
+      "tournament": "M15 Manacor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Efstathiou",
+      "score": "7(7)-6(2) 7-5"
+    },
+    {
+      "date": "20260114",
+      "tournament": "M15 Manacor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. J. Kim",
+      "score": "2-6 6-1 6-4"
     }
   ]
 }
