@@ -1,26 +1,13 @@
 {
   "player_id": "sx77",
-  "gs_id": "148946",
-  "player_name": "Elijah Strode",
+  "gs_id": "33433",
+  "player_name": "Isaiah Strode",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:57:15.934Z",
+  "updated": "2026-03-27T03:45:00.984Z",
   "matches": [
     {
-      "date": "20250319",
-      "tournament": "M25 Bakersfield",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Strode",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20240316",
-      "tournament": "ITF M25 Bakersfield",
+      "date": "20250704",
+      "tournament": "M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Holt",
-      "score": "6-4 6-4"
+      "opponent": "N. Zamora",
+      "score": "7(8)-6(6) 6-4"
     },
     {
-      "date": "20240314",
-      "tournament": "ITF M25 Bakersfield",
+      "date": "20250703",
+      "tournament": "M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Ilagan",
-      "score": "2-6 3-6"
+      "opponent": "N. Dayal",
+      "score": "6-0 2-6 6-1"
     },
     {
-      "date": "20240312",
-      "tournament": "ITF M25 Bakersfield",
+      "date": "20250702",
+      "tournament": "M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Sakamoto",
-      "score": "6-4 1-6 2-6"
+      "opponent": "K. Overmyer",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20230503",
-      "tournament": "ITF M15 Orange Park",
+      "date": "20250624",
+      "tournament": "M15 Lakewood",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +54,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Van Emburgh",
-      "score": "6-3 3-6 6-4"
+      "opponent": "K. Sell",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Ogura",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20230705",
+      "tournament": "ITF M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Sekulic",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20230531",
+      "tournament": "ITF M15 Rancho Santa Fe",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Schachter",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20220629",
+      "tournament": "M15 Los Angeles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Nidunjianzan",
+      "score": "1-6 0-3 ret."
+    },
+    {
+      "date": "20220616",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Kikuchi",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20220614",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Sah",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20220607",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. L. Boyd",
+      "score": "7-5 0-6 1-6"
     }
   ]
 }
