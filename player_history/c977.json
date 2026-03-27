@@ -3,72 +3,85 @@
   "gs_id": "1032",
   "player_name": "Marin Cilic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:49:22.992Z",
+  "updated": "2026-03-27T09:24:37.137Z",
   "matches": [
     {
-      "date": "20250330",
-      "tournament": "Girona",
+      "date": "20250918",
+      "tournament": "Hangzhou",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Basavareddy",
+      "score": "6-4 4-6 3-6"
+    },
+    {
+      "date": "20240924",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Moller",
-      "score": "6-3 6-4"
+      "opponent": "Z. Zhang",
+      "score": "7(7)-6(5) 7(7)-6(5)"
     },
     {
-      "date": "20250329",
-      "tournament": "Girona",
+      "date": "20240923",
+      "tournament": "Hangzhou",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. De Jong",
-      "score": "6-4 6-4"
+      "opponent": "B. Nakashima",
+      "score": "6-4 7(8)-6(6)"
     },
     {
-      "date": "20250328",
-      "tournament": "Girona",
+      "date": "20240922",
+      "tournament": "Hangzhou",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Carreno-Busta",
-      "score": "6-2 6-4"
+      "opponent": "Y. Uchiyama",
+      "score": "2-6 7(7)-6(4) 6(5)-7(7)"
     },
     {
-      "date": "20250327",
-      "tournament": "Girona",
+      "date": "20240921",
+      "tournament": "Hangzhou",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Fucsovics",
-      "score": "7(7)-6(5) 6(4)-7(7) 2-6"
+      "opponent": "Y. Nishioka",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20250326",
-      "tournament": "Girona",
+      "date": "20240918",
+      "tournament": "Hangzhou",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Taberner",
-      "score": "6-4 6-3"
+      "opponent": "Z. Svajda",
+      "score": "5-7 6-3 6-0"
     }
   ]
 }
