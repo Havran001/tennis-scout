@@ -3,11 +3,50 @@
   "gs_id": "147889",
   "player_name": "Taketo Takamisawa",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:11.023Z",
+  "updated": "2026-03-27T08:23:26.066Z",
   "matches": [
     {
-      "date": "20240620",
-      "tournament": "ITF M25 Changwon Men",
+      "date": "20260318",
+      "tournament": "M15 Nishi-Tokyo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. E. Overbeck",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20260311",
+      "tournament": "M15 Hinode",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Lee",
+      "score": "4-6 7-5 6-1"
+    },
+    {
+      "date": "20250917",
+      "tournament": "M25 Takasaki",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Uchida",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M15 Harmon",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Miyoshi",
-      "score": "1-6 0-6"
+      "opponent": "K. Ogura",
+      "score": "0-5 ret."
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M25 Changwon Men",
+      "date": "20250611",
+      "tournament": "M15 Harmon",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Tokuda",
-      "score": "3-6 7-5 6-4"
+      "opponent": "T. Matsui",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20230530",
-      "tournament": "ITF M15 Karuizawa Men",
+      "date": "20241115",
+      "tournament": "M15 Morelia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Pacheco Mendez",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20241113",
+      "tournament": "M15 Morelia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Sumizawa",
-      "score": "6-2 6-4"
+      "result": "W",
+      "opponent": "D. E. Mendez Montiel",
+      "score": "4-6 2-6"
     }
   ]
 }
