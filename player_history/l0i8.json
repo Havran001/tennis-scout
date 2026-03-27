@@ -1,1 +1,61 @@
-{"player_id":"l0i8","sack_id":"211406","name":"Yazid Lahjomri","total":0,"matches":[]}
+{
+  "player_id": "l0i8",
+  "gs_id": "160180",
+  "player_name": "Yazid Lahjomri",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T02:55:09.963Z",
+  "matches": [
+    {
+      "date": "20250625",
+      "tournament": "M15 Casablanca 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Slump",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20250619",
+      "tournament": "M15 Casablanca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Dlimi",
+      "score": "6(3)-7(7) 6-4 6-0"
+    },
+    {
+      "date": "20250618",
+      "tournament": "M15 Casablanca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Trochu",
+      "score": "6-4 6(9)-7(11) 6-3"
+    },
+    {
+      "date": "20220803",
+      "tournament": "M25 Agadir",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Voisin",
+      "score": "6-0 6-1"
+    }
+  ]
+}
