@@ -3,24 +3,50 @@
   "gs_id": "1032",
   "player_name": "Marin Cilic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:52:12.908Z",
+  "updated": "2026-03-27T01:49:52.944Z",
   "matches": [
     {
-      "date": "20241105",
-      "tournament": "Belgrade 2",
+      "date": "20260214",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Fritz",
+      "score": "6(5)-7(7) 6(3)-7(7)"
+    },
+    {
+      "date": "20260213",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Pinnington Jones",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20260212",
+      "tournament": "Dallas",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Lehecka",
-      "score": "6-4 7(7)-6(4)"
+      "result": "W",
+      "opponent": "E. Quinn",
+      "score": "6(4)-7(7) 3-6"
     },
     {
-      "date": "20241104",
-      "tournament": "Belgrade 2",
+      "date": "20260210",
+      "tournament": "Dallas",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -28,21 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Muller",
-      "score": "7(7)-6(2) 6-3"
+      "opponent": "L. Tien",
+      "score": "7-5 7(7)-6(4)"
     },
     {
-      "date": "20210201",
-      "tournament": "Melbourne (Murray River Open)",
+      "date": "20250429",
+      "tournament": "Mauthausen",
       "surface": "Hard",
-      "level": "B",
-      "round": "R64",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Chardy",
-      "score": "2-6 6-3 7(10)-6(8)"
+      "opponent": "M. Gigante",
+      "score": "4-6 6-1 7(7)-6(4)"
+    },
+    {
+      "date": "20220114",
+      "tournament": "Adelaide 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Kokkinakis",
+      "score": "6-2 3-6 7(12)-6(10)"
+    },
+    {
+      "date": "20220113",
+      "tournament": "Adelaide 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Paul",
+      "score": "4-6 6-2 3-6"
+    },
+    {
+      "date": "20220112",
+      "tournament": "Adelaide 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Munar",
+      "score": "6(6)-7(8) 2-6"
     }
   ]
 }
