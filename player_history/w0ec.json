@@ -3,20 +3,59 @@
   "gs_id": "11752",
   "player_name": "Anthony Wright",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:50:03.922Z",
+  "updated": "2026-03-27T03:44:29.969Z",
   "matches": [
     {
-      "date": "20230830",
-      "tournament": "M25 Jablonec nad Nisou 2",
+      "date": "20250814",
+      "tournament": "M25 Aldershot",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Jubb",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250812",
+      "tournament": "M25 Aldershot",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Little",
+      "score": "6-3 4-6 3-6"
+    },
+    {
+      "date": "20250529",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Safwat",
-      "score": "5-7 0-6"
+      "opponent": "T. Colson",
+      "score": "6-3 4-6 6-1"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Tomida",
+      "score": "1-6 7-5 1-6"
     }
   ]
 }
