@@ -3,24 +3,50 @@
   "gs_id": "40787",
   "player_name": "Miguel Damas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:07:37.065Z",
+  "updated": "2026-03-27T08:07:04.899Z",
   "matches": [
     {
-      "date": "20250925",
-      "tournament": "M25 Sabadell 2",
+      "date": "20260324",
+      "tournament": "Naples",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Altmaier",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20250228",
+      "tournament": "M15 Villena 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Crawford",
+      "score": "6(3)-7(7) 1-6"
+    },
+    {
+      "date": "20250227",
+      "tournament": "M15 Villena 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Lopez Cherubino",
-      "score": "6-3 0-6 6-3"
+      "result": "W",
+      "opponent": "S. Pieri",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20250923",
-      "tournament": "M25 Sabadell 2",
+      "date": "20250226",
+      "tournament": "M15 Villena 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Campana Lee",
-      "score": "6-4 6-0"
+      "opponent": "I. Radulov",
+      "score": "6(2)-7(7) 6-1 2-6"
     },
     {
       "date": "20250118",
@@ -136,8 +162,8 @@
       "score": "7(7)-6(5) 2-6 7-5"
     },
     {
-      "date": "20240926",
-      "tournament": "M25 Sabadell 2",
+      "date": "20240619",
+      "tournament": "M25 Mungia-Laukariz",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -145,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Alvarez Varona",
-      "score": "3-6 6(2)-7(7)"
+      "opponent": "M. De Krom",
+      "score": "5-7 6(6)-7(8)"
     },
     {
-      "date": "20240925",
-      "tournament": "M25 Sabadell 2",
+      "date": "20240618",
+      "tournament": "M25 Mungia-Laukariz",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,8 +184,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Pedrico Kravtsov",
-      "score": "5-7 6(6)-7(8)"
+      "opponent": "M. Martinez",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20240329",
+      "tournament": "ITF M25 Tarragona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Buse",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240328",
+      "tournament": "ITF M25 Tarragona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Wenger",
+      "score": "5-7 6-0 6-4"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M25 Tarragona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Lopez Morillo",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20240301",
+      "tournament": "ITF M15 Villena 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Gavrielides",
+      "score": "6(4)-7(7) 4-6"
+    },
+    {
+      "date": "20240229",
+      "tournament": "ITF M15 Villena 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Blanch",
+      "score": "6-4 4-6 1-6"
+    },
+    {
+      "date": "20240228",
+      "tournament": "ITF M15 Villena 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Summers",
+      "score": "0-6 1-6"
     },
     {
       "date": "20231112",
@@ -225,32 +329,6 @@
       "result": "W",
       "opponent": "J. Echeverria",
       "score": "0-6 6(3)-7(7)"
-    },
-    {
-      "date": "20231012",
-      "tournament": "M15 Vigo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Gimeno Valero",
-      "score": "1-6 0-6"
-    },
-    {
-      "date": "20231011",
-      "tournament": "M15 Vigo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Sheyngezikht",
-      "score": "4-6 6-0 5-7"
     }
   ]
 }
