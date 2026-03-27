@@ -3,20 +3,33 @@
   "gs_id": "198705",
   "player_name": "Eli Stephenson",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:15:21.865Z",
+  "updated": "2026-03-26T13:12:12.630Z",
   "matches": [
     {
-      "date": "20250611",
-      "tournament": "M25 Wichita",
+      "date": "20250727",
+      "tournament": "Lexington",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Jacome Jaramillo",
-      "score": "3-6 6-4 6(3)-7(7)"
+      "opponent": "A. Rybakov",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230730",
+      "tournament": "Lexington Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zheng",
+      "score": "6-4 6-2"
     }
   ]
 }
