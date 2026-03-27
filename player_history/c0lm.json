@@ -3,8 +3,34 @@
   "gs_id": "136889",
   "player_name": "Charlie Camus",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:54:23.967Z",
+  "updated": "2026-03-27T04:47:43.984Z",
   "matches": [
+    {
+      "date": "20250401",
+      "tournament": "M15 Lons-le-Saunier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Bozemoj",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20241217",
+      "tournament": "M15 Tauranga",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Ja. Delaney",
+      "score": "7(7)-6(4) 6-3"
+    },
     {
       "date": "20240905",
       "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
@@ -32,21 +58,8 @@
       "score": "1-6 4-6"
     },
     {
-      "date": "20240630",
-      "tournament": "Troyes Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Karlovskiy",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20230725",
-      "tournament": "M15 Caloundra",
+      "date": "20240402",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,51 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Becroft",
-      "score": "4-6 6-4 6-2"
+      "opponent": "M. Malige",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20220729",
-      "tournament": "ITF M15 Caloundra 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Kelly",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20220728",
-      "tournament": "ITF M15 Caloundra 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Puttergill",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20220727",
-      "tournament": "ITF M15 Caloundra 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Beale",
-      "score": "4-6 2-3 ret."
-    },
-    {
-      "date": "20220723",
-      "tournament": "M15 Caloundra",
+      "date": "20231117",
+      "tournament": "ITF M15 Boca Raton",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Kelly",
-      "score": "7-5 6-2"
+      "opponent": "K. Feldbausch",
+      "score": "6-0 6-0"
     },
     {
-      "date": "20220718",
-      "tournament": "M15 Caloundra",
+      "date": "20231116",
+      "tournament": "ITF M15 Boca Raton",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Gale",
-      "score": "6-4 6-3"
+      "opponent": "L. Boika",
+      "score": "7-5 6-1"
     }
   ]
 }
