@@ -1,12 +1,25 @@
 {
   "player_id": "f0go",
-  "gs_id": "41604",
-  "player_name": "Manuel Cerundolo Juan",
+  "gs_id": "68082",
+  "player_name": "Bautista Torres Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:56:26.030Z",
+  "updated": "2026-03-27T06:56:57.027Z",
   "matches": [
     {
-      "date": "20240929",
+      "date": "20250930",
+      "tournament": "Antofagasta",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Neumayer",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20250929",
       "tournament": "Antofagasta",
       "surface": "Hard",
       "level": "C",
@@ -15,11 +28,11 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Vallejo",
-      "score": "3-6 6-2 6-4"
+      "opponent": "I. Monzon",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20240928",
+      "date": "20250928",
       "tournament": "Antofagasta",
       "surface": "Hard",
       "level": "C",
@@ -28,47 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Collarini",
-      "score": "6-3 6-2"
+      "opponent": "V. Basel",
+      "score": "7(7)-6(3) 6-2"
     },
     {
-      "date": "20240927",
-      "tournament": "Antofagasta",
+      "date": "20240213",
+      "tournament": "ITF M25 Punta del Este 2 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. I. Londero",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20240926",
-      "tournament": "Antofagasta",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Soto",
-      "score": "6(5)-7(7) 4-6"
-    },
-    {
-      "date": "20240924",
-      "tournament": "Antofagasta",
-      "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Pereira",
-      "score": "4-6 4-6"
+      "result": "L",
+      "opponent": "L. Midon",
+      "score": "6-4 7(7)-6(4)"
     },
     {
       "date": "20231017",
@@ -80,34 +67,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Monteiro",
-      "score": "3-6 6-2 6(4)-7(7)"
+      "opponent": "L. Darderi",
+      "score": "6-1 4-0 ret."
     },
     {
-      "date": "20230920",
-      "tournament": "Antofagasta Challenger Men",
+      "date": "20230820",
+      "tournament": "M25 Bielsko Biala",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Barton",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20230819",
+      "tournament": "M25 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Paty",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20230818",
+      "tournament": "M25 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Pieczkowski",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230817",
+      "tournament": "M25 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Ugo Carabelli",
-      "score": "7(7)-6(5) 3-6 6-2"
+      "result": "W",
+      "opponent": "S. Troost",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20230919",
-      "tournament": "Antofagasta Challenger Men",
+      "date": "20230816",
+      "tournament": "M25 Bielsko Biala",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Durasovic",
-      "score": "6-3 6-3"
+      "opponent": "M. Cerny",
+      "score": "4-6 6-3 6-3"
+    },
+    {
+      "date": "20230810",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Pieczonka",
+      "score": "7(7)-6(2) 5-7 6(5)-7(7)"
+    },
+    {
+      "date": "20230809",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Kos",
+      "score": "2-6 2-6"
     }
   ]
 }
