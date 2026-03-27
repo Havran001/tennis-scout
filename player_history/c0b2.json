@@ -3,46 +3,59 @@
   "gs_id": "58086",
   "player_name": "Cezar Cretu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:13:49.697Z",
+  "updated": "2026-03-27T10:59:10.148Z",
   "matches": [
     {
-      "date": "20251107",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20251120",
+      "tournament": "Montemar",
       "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zielinski",
-      "score": "6-3 2-6 0-6"
-    },
-    {
-      "date": "20251106",
-      "tournament": "M15 San Gregorio di Catania",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Bocchi",
-      "score": "4-6 6-2 3-6"
+      "result": "L",
+      "opponent": "M. Trungelliti",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20251104",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20251118",
+      "tournament": "Montemar",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Gobat",
-      "score": "3-6 6-4 1-6"
+      "opponent": "F. Bondioli",
+      "score": "7(7)-6(2) 6-3"
+    },
+    {
+      "date": "20251117",
+      "tournament": "Montemar",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Forejtek",
+      "score": "3-6 6-3 6-2"
+    },
+    {
+      "date": "20251116",
+      "tournament": "Montemar",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Oetzbach",
+      "score": "6-3 6-2"
     },
     {
       "date": "20251101",
@@ -110,8 +123,8 @@
       "score": "2-6 6-4 2-6"
     },
     {
-      "date": "20250824",
-      "tournament": "M15 Arad",
+      "date": "20250831",
+      "tournament": "M15 Bucharest 4",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -119,38 +132,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. A. Andreescu",
-      "score": "6-0 6-1"
+      "opponent": "R. D. Turcanu",
+      "score": "6(4)-7(7) 4-6"
     },
     {
-      "date": "20250823",
-      "tournament": "M15 Arad",
+      "date": "20250830",
+      "tournament": "M15 Bucharest 4",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. T. Pieleanu",
+      "score": "6(3)-7(7) 6-3 6-4"
+    },
+    {
+      "date": "20250829",
+      "tournament": "M15 Bucharest 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
       "opponent": "S. Palosi",
-      "score": "6-1 7-6"
+      "score": "1-6 5-7"
     },
     {
-      "date": "20250822",
-      "tournament": "M15 Arad",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Tenti",
-      "score": "6-2 6-0"
-    },
-    {
-      "date": "20250821",
-      "tournament": "M15 Arad",
+      "date": "20250828",
+      "tournament": "M15 Bucharest 4",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -158,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Seidman",
-      "score": "6-1 6-1"
+      "opponent": "U. Ignatik",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20250820",
-      "tournament": "M15 Arad",
+      "date": "20250827",
+      "tournament": "M15 Bucharest 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,51 +184,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Uta",
-      "score": "7-5 6-3"
+      "opponent": "G. Ghetu",
+      "score": "4-6 0-6"
     },
     {
-      "date": "20250817",
-      "tournament": "M15 Targu Jiu",
+      "date": "20250722",
+      "tournament": "M25 Metzingen",
       "surface": "Hard",
       "level": "I",
-      "round": "F",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Pieri",
-      "score": "6-2 7-5"
+      "result": "L",
+      "opponent": "M. Haliak",
+      "score": "6-3 0-6 7-5"
     },
     {
-      "date": "20250816",
-      "tournament": "M15 Targu Jiu",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. M. Papoe",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20250815",
-      "tournament": "M15 Targu Jiu",
+      "date": "20250626",
+      "tournament": "M25 Targu Mures",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Dell&apos;Elba",
-      "score": "6-1 6-3"
+      "result": "L",
+      "opponent": "K. Kivattsev",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20250814",
-      "tournament": "M15 Targu Jiu",
+      "date": "20250625",
+      "tournament": "M25 Targu Mures",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -223,12 +223,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. C. Breazu",
-      "score": "6-2 6-1"
+      "opponent": "L. Preda",
+      "score": "4-4 ret."
     },
     {
-      "date": "20250813",
-      "tournament": "M15 Targu Jiu",
+      "date": "20250624",
+      "tournament": "M25 Targu Mures",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -236,8 +236,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Guna",
-      "score": "6-1 6-3"
+      "opponent": "S. A. Andreescu",
+      "score": "2-6 3-6"
     },
     {
       "date": "20250611",
@@ -318,21 +318,60 @@
       "score": "6-2 6-1"
     },
     {
-      "date": "20250515",
-      "tournament": "M15 Bucharest 2",
+      "date": "20250511",
+      "tournament": "M15 Bistrita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Nesterov",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20250510",
+      "tournament": "M15 Bistrita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Schoenhaus",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20250509",
+      "tournament": "M15 Bistrita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Perfetti",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250508",
+      "tournament": "M15 Bistrita",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. D. Turcanu",
-      "score": "4-6 6-2 2-6"
+      "result": "W",
+      "opponent": "S. Konov",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20250514",
-      "tournament": "M15 Bucharest 2",
+      "date": "20250507",
+      "tournament": "M15 Bistrita",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -340,12 +379,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Coccioli",
-      "score": "2-6 0-6"
+      "opponent": "M. Kouame",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20241108",
-      "tournament": "M25 Heraklion 3",
+      "date": "20241129",
+      "tournament": "M25 Antalya 6",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -353,12 +392,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Simakin",
-      "score": "1-6 1-6"
+      "opponent": "F. Juarez",
+      "score": "6-1 4-6 6-3"
     },
     {
-      "date": "20241107",
-      "tournament": "M25 Heraklion 3",
+      "date": "20241128",
+      "tournament": "M25 Antalya 6",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -366,12 +405,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Oliel",
-      "score": "6-4 3-6 5-7"
+      "opponent": "M. Hopp",
+      "score": "4-6 6-4 7-5"
     },
     {
-      "date": "20241106",
-      "tournament": "M25 Heraklion 3",
+      "date": "20241127",
+      "tournament": "M25 Antalya 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -379,8 +418,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Vales",
-      "score": "5-7 7-5 3-6"
+      "opponent": "S. A. Andreescu",
+      "score": "0-6 6-1 6-1"
+    },
+    {
+      "date": "20240820",
+      "tournament": "Dobrich",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Nesterov",
+      "score": "6-0 7(7)-6(3)"
     },
     {
       "date": "20240629",
@@ -511,110 +563,6 @@
       "result": "W",
       "opponent": "M. R. Marinescu",
       "score": "6-4 6-2"
-    },
-    {
-      "date": "20240411",
-      "tournament": "M25 Hammamet 6",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bonnaud",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20240410",
-      "tournament": "M25 Hammamet 6",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Volpi",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20230910",
-      "tournament": "ITF M15 Constanta 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. P. Paz",
-      "score": "3-6 7-5 6-1"
-    },
-    {
-      "date": "20230909",
-      "tournament": "ITF M15 Constanta 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Marino",
-      "score": "6-1 7-5"
-    },
-    {
-      "date": "20230908",
-      "tournament": "ITF M15 Constanta 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. J. Rodriguez",
-      "score": "7-5 6-0"
-    },
-    {
-      "date": "20230907",
-      "tournament": "ITF M15 Constanta 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Campana",
-      "score": "6(2)-7(7) 6-1 6-3"
-    },
-    {
-      "date": "20230906",
-      "tournament": "ITF M15 Constanta 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Pavel",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20230830",
-      "tournament": "ITF M15 Bucharest 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Manda",
-      "score": "6-3 6-1"
     }
   ]
 }
