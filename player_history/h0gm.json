@@ -1,1 +1,48 @@
-{"player_id":"h0gm","sack_id":"210598","name":"Nicolas Hollender","total":0,"matches":[]}
+{
+  "player_id": "h0gm",
+  "gs_id": "150055",
+  "player_name": "Nicolas Hollender",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T00:53:45.923Z",
+  "matches": [
+    {
+      "date": "20221020",
+      "tournament": "M15 Cochabamba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Farjat",
+      "score": "7(7)-6(2) 3-6 2-6"
+    },
+    {
+      "date": "20221019",
+      "tournament": "M15 Cochabamba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Davila Gasser",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20220518",
+      "tournament": "M15 Cairo 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Monzon",
+      "score": "2-6 4-6"
+    }
+  ]
+}
