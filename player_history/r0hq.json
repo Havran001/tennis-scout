@@ -3,11 +3,24 @@
   "gs_id": "137771",
   "player_name": "Leo Raquillet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:00.035Z",
+  "updated": "2026-03-27T07:00:26.035Z",
   "matches": [
     {
-      "date": "20250611",
-      "tournament": "M25 Varnamo",
+      "date": "20251012",
+      "tournament": "Olbia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Paris",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20241119",
+      "tournament": "M25 Vale do Lobo 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Larwig",
-      "score": "6-2 2-6 1-6"
+      "opponent": "S. Palosi",
+      "score": "5-7 3-6"
     },
     {
       "date": "20230830",
@@ -56,32 +69,6 @@
       "result": "L",
       "opponent": "L. Lane",
       "score": "4-6 6-4 1-6"
-    },
-    {
-      "date": "20230531",
-      "tournament": "ITF M25 Carnac Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Poullain",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20230529",
-      "tournament": "ITF M25 Carnac Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Voisin",
-      "score": "0-6 4-6"
     }
   ]
 }
