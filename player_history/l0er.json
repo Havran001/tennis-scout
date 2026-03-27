@@ -3,24 +3,37 @@
   "gs_id": "68080",
   "player_name": "Timo Legout",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:53:33.994Z",
+  "updated": "2026-03-27T04:54:52.983Z",
   "matches": [
     {
-      "date": "20230511",
-      "tournament": "ITF M25 Kursumlijska Banja Men",
+      "date": "20230519",
+      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Erhard",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20230518",
+      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Ivanovski",
-      "score": "2-6 6-1 6-0"
+      "result": "W",
+      "opponent": "E. Tiurnev",
+      "score": "6(0)-7(7) 1-6"
     },
     {
-      "date": "20230510",
-      "tournament": "ITF M25 Kursumlijska Banja Men",
+      "date": "20230516",
+      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Haliak",
-      "score": "6-2 7(7)-6(4)"
+      "opponent": "S. Pogosian",
+      "score": "3-6 1-6"
     }
   ]
 }
