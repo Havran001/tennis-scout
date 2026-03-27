@@ -3,11 +3,11 @@
   "gs_id": "39019",
   "player_name": "Agustin Tirante Thiago",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:57:22.926Z",
+  "updated": "2026-03-27T03:45:29.976Z",
   "matches": [
     {
-      "date": "20260130",
-      "tournament": "Manama",
+      "date": "20250502",
+      "tournament": "Mauthausen",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Bellucci",
-      "score": "6-4 6-4"
+      "opponent": "R. A. Burruchaga",
+      "score": "7-5 4-6 6-3"
     },
     {
-      "date": "20260129",
-      "tournament": "Manama",
+      "date": "20250430",
+      "tournament": "Mauthausen",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. J. Schwaerzler",
-      "score": "3-6 6-2 6-3"
+      "opponent": "F. Misolic",
+      "score": "7(7)-6(3) 6-3"
     },
     {
-      "date": "20260127",
-      "tournament": "Manama",
+      "date": "20250429",
+      "tournament": "Mauthausen",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Blancaneaux",
-      "score": "6-3 6-3"
+      "opponent": "M. Brunold",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20241011",
+      "tournament": "Valencia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Moreno De Alboran",
+      "score": "7(7)-6(0) 4-6 2-6"
+    },
+    {
+      "date": "20241009",
+      "tournament": "Valencia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Taberner",
+      "score": "6(2)-7(7) 6-3 3-6"
+    },
+    {
+      "date": "20241008",
+      "tournament": "Valencia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Ch. Negritu",
+      "score": "6(5)-7(7) 6(4)-7(7)"
     },
     {
       "date": "20240516",
@@ -58,34 +97,60 @@
       "score": "4-6 6-3 6-1"
     },
     {
-      "date": "20230915",
-      "tournament": "Santa Cruz Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Navone",
-      "score": "6-1 4-1 ret."
-    },
-    {
-      "date": "20230914",
-      "tournament": "Santa Cruz Challenger Men",
+      "date": "20231011",
+      "tournament": "Malaga",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Pucinelli de Almeida",
-      "score": "7(7)-6(1) 7(7)-6(3)"
+      "result": "L",
+      "opponent": "M. Janvier",
+      "score": "7(7)-6(3) 3-6 6(3)-7(7)"
     },
     {
-      "date": "20230912",
-      "tournament": "Santa Cruz Challenger Men",
+      "date": "20231009",
+      "tournament": "Malaga",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Ivashka",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230103",
+      "tournament": "Nonthaburi Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Fonio",
+      "score": "7-5 6(3)-7(7) 6(7)-7(9)"
+    },
+    {
+      "date": "20221123",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Andreozzi",
+      "score": "6(4)-7(7) 7(9)-6(7) 4-6"
+    },
+    {
+      "date": "20221121",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -94,11 +159,11 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "D. Dutra Da Silva",
-      "score": "2-6 6-3 2-0 ret."
+      "score": "6-3 5-3 ret."
     },
     {
-      "date": "20221026",
-      "tournament": "Lima 2",
+      "date": "20220728",
+      "tournament": "Zug",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -106,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. A. Burruchaga",
-      "score": "6-3 2-6 4-6"
+      "opponent": "A. Ritschard",
+      "score": "7(8)-6(6) 6-4"
     },
     {
-      "date": "20221025",
-      "tournament": "Lima 2",
+      "date": "20220725",
+      "tournament": "Zug",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -119,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Zekic",
-      "score": "4-6 4-6"
+      "opponent": "F. Mena",
+      "score": "6-4 2-6 3-6"
     },
     {
-      "date": "20221022",
-      "tournament": "Ambato",
+      "date": "20220702",
+      "tournament": "Troyes",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -132,12 +197,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Bagnis",
-      "score": "6-3 6(3)-7(7) 7(7)-6(5)"
+      "opponent": "J. B. Torres",
+      "score": "4-6 6-3 5-7"
     },
     {
-      "date": "20221021",
-      "tournament": "Ambato",
+      "date": "20220701",
+      "tournament": "Troyes",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. C. Jianu",
+      "score": "4-6 7(7)-6(5) 2-6"
+    },
+    {
+      "date": "20220701",
+      "tournament": "Troyes",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -145,25 +223,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Mena",
-      "score": "6-2 7-5"
+      "opponent": "M. Geerts",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20221020",
-      "tournament": "Ambato",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Pannu",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20221018",
-      "tournament": "Ambato",
+      "date": "20220628",
+      "tournament": "Troyes",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -171,12 +236,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Guillen Meza",
-      "score": "7(7)-6(3) 7-5"
+      "opponent": "K. Zuk",
+      "score": "5-7 1-6"
     },
     {
-      "date": "20220905",
-      "tournament": "Tulln",
+      "date": "20220524",
+      "tournament": "Troisdorf",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -184,103 +249,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Gombos",
-      "score": "5-7 4-6"
+      "opponent": "A. Chepelev",
+      "score": "6-4 5-7 6-2"
     },
     {
-      "date": "20220126",
-      "tournament": "Santa Cruz",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Cerundolo",
-      "score": "3-6 6-3 6(5)-7(7)"
-    },
-    {
-      "date": "20220125",
-      "tournament": "Santa Cruz",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. C. Prado Angelo",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20211014",
-      "tournament": "Santiago 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Melzer",
-      "score": "2-6 0-6"
-    },
-    {
-      "date": "20211012",
-      "tournament": "Santiago 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Seyboth Wild",
-      "score": "6-4 4-6 6-2"
-    },
-    {
-      "date": "20210926",
-      "tournament": "Ambato Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. P. Varillas",
-      "score": "5-7 5-7"
-    },
-    {
-      "date": "20210925",
-      "tournament": "Ambato Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Mena",
-      "score": "7-5 5-7 6-3"
-    },
-    {
-      "date": "20210924",
-      "tournament": "Ambato Challenger Men",
+      "date": "20220318",
+      "tournament": "Concepcion 2",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Melzer",
-      "score": "6-3 6-4"
+      "result": "L",
+      "opponent": "H. Dellien",
+      "score": "0-6 3-6"
     },
     {
-      "date": "20210923",
-      "tournament": "Ambato Challenger Men",
+      "date": "20220316",
+      "tournament": "Concepcion 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -288,12 +275,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Gomez-Herrera",
-      "score": "7(7)-6(5) 3-6 7(7)-6(1)"
+      "opponent": "E. Furness",
+      "score": "7(7)-6(4) 6-0"
     },
     {
-      "date": "20210922",
-      "tournament": "Ambato Challenger Men",
+      "date": "20220314",
+      "tournament": "Concepcion 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -301,8 +288,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Rodriguez",
-      "score": "7(7)-6(4) 4-6 7(7)-6(5)"
+      "opponent": "D. A. Nunez",
+      "score": "7(7)-6(5) 6-3"
     }
   ]
 }
