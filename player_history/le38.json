@@ -3,24 +3,37 @@
   "gs_id": "141957",
   "player_name": "Niels Lootsma",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:56:27.899Z",
+  "updated": "2026-03-27T02:53:46.960Z",
   "matches": [
     {
-      "date": "20210820",
-      "tournament": "M15 Oldenzaal",
+      "date": "20241115",
+      "tournament": "ITF M15 Heraklion 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Dalmasso",
+      "score": "3-6 6(8)-7(10)"
+    },
+    {
+      "date": "20241114",
+      "tournament": "ITF M15 Heraklion 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Hussey",
-      "score": "6-3 2-6 0-3 ret."
+      "result": "W",
+      "opponent": "A. Setkic",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20210818",
-      "tournament": "M15 Oldenzaal",
+      "date": "20241113",
+      "tournament": "ITF M15 Heraklion 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Guttau",
-      "score": "3-6 2-6"
+      "opponent": "O. Kimhi",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20240905",
+      "tournament": "ITF M15 Haren Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Einig",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20240905",
+      "tournament": "ITF M15 Haren Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Bozemoj",
+      "score": "7(7)-6(1) 6-3"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M25 Oldenzaal Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Balciunas",
+      "score": "6-3 2-6 6-2"
+    },
+    {
+      "date": "20240806",
+      "tournament": "ITF M15 Eupen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Huens",
+      "score": "3-6 7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20220824",
+      "tournament": "M25 Oldenzaal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Erhard",
+      "score": "6-2 6-1"
     }
   ]
 }
