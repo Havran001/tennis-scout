@@ -1,13 +1,13 @@
 {
   "player_id": "t0k8",
-  "gs_id": "272645",
-  "player_name": "Esteban Talavera Cortes",
+  "gs_id": "278111",
+  "player_name": "Bryan Hernandez Cortes",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:55:15.901Z",
+  "updated": "2026-03-27T02:49:57.969Z",
   "matches": [
     {
-      "date": "20251114",
-      "tournament": "M15 Las Palmas de Gran Canaria",
+      "date": "20250612",
+      "tournament": "M25 Martos",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Bondioli",
-      "score": "2-6 6-4 1-6"
+      "opponent": "M. Martinez Serrano",
+      "score": "6-0 4-6 6-2"
     },
     {
-      "date": "20251112",
-      "tournament": "M15 Las Palmas de Gran Canaria",
+      "date": "20250611",
+      "tournament": "M25 Martos",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Ambarzumjan",
-      "score": "3-6 3-6"
+      "opponent": "C. Hernandez",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20240911",
+      "tournament": "M15 Madrid 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Simundza",
+      "score": "6(5)-7(7) 3-6"
     }
   ]
 }
