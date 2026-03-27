@@ -1,104 +1,39 @@
 {
   "player_id": "r0go",
-  "gs_id": "90235",
-  "player_name": "Henrique Rocha",
+  "gs_id": "125105",
+  "player_name": "Francisco Rocha",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:52:03.959Z",
+  "updated": "2026-03-27T03:47:30.967Z",
   "matches": [
     {
-      "date": "20230624",
-      "tournament": "M25 Mungia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Vives Marcos",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20230623",
-      "tournament": "M25 Mungia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Sakellaridis",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20230622",
-      "tournament": "M25 Mungia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Crawford",
-      "score": "1-6 7(7)-6(4) 2-6"
-    },
-    {
-      "date": "20230621",
-      "tournament": "M25 Mungia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Sun",
-      "score": "6-3 4-6 4-6"
-    },
-    {
-      "date": "20230619",
-      "tournament": "M25 Mungia",
+      "date": "20230703",
+      "tournament": "ITF M25 Getxo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Landaluce",
-      "score": "4-6 6-0 2-6"
-    },
-    {
-      "date": "20230617",
-      "tournament": "ITF M25 Martos Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Vives Marcos",
-      "score": "3-6 3-6"
+      "opponent": "A. Martinez",
+      "score": "1-6 6-0 2-6"
     },
     {
-      "date": "20230616",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20221125",
+      "tournament": "M25 Monastir 10",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Echeverria",
+      "result": "L",
+      "opponent": "A. Dougaz",
       "score": "6-2 6-4"
     },
     {
-      "date": "20230615",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20221124",
+      "tournament": "M25 Monastir 10",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Merida Aguilar",
-      "score": "4-6 1-4 ret."
+      "opponent": "A. Andic",
+      "score": "0-6 0-6"
     },
     {
-      "date": "20230614",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20221123",
+      "tournament": "M25 Monastir 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "2-6 7(7)-6(1) 6-4"
+      "opponent": "M. Gloeckler",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20220927",
+      "tournament": "M15 Cancun 16",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Tomic",
+      "score": "1-6 2-6"
     }
   ]
 }
