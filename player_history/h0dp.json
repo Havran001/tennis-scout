@@ -3,8 +3,21 @@
   "gs_id": "2756",
   "player_name": "Xirui Han",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:50:31.029Z",
+  "updated": "2026-03-27T06:55:06.048Z",
   "matches": [
+    {
+      "date": "20250813",
+      "tournament": "M25 Yinchuan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Zhang",
+      "score": "2-6 3-6"
+    },
     {
       "date": "20250506",
       "tournament": "M25 Baotou",
@@ -17,6 +30,32 @@
       "result": "L",
       "opponent": "J. Kubler",
       "score": "6-2 6-4"
+    },
+    {
+      "date": "20240919",
+      "tournament": "M25 Guiyang",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Dougaz",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240918",
+      "tournament": "M25 Guiyang",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Liu",
+      "score": "4-6 6-1 6(3)-7(7)"
     },
     {
       "date": "20240530",
@@ -43,6 +82,19 @@
       "result": "W",
       "opponent": "T. Huang",
       "score": "6-3 4-6 7(7)-6(4)"
+    },
+    {
+      "date": "20230920",
+      "tournament": "ITF M25 Guiyang Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Meng",
+      "score": "6-2 6-4"
     }
   ]
 }
