@@ -3,34 +3,8 @@
   "gs_id": "58082",
   "player_name": "Alexander Bernard",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:01:47.101Z",
+  "updated": "2026-03-27T07:08:29.048Z",
   "matches": [
-    {
-      "date": "20250813",
-      "tournament": "M15 Huntsville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Baker",
-      "score": "5-7 7-5 0-6"
-    },
-    {
-      "date": "20250812",
-      "tournament": "M15 Huntsville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Bobo",
-      "score": "7-5 6-3"
-    },
     {
       "date": "20250720",
       "tournament": "M15 Rochester",
@@ -95,19 +69,6 @@
       "result": "W",
       "opponent": "A. Jacome Jaramillo",
       "score": "5-7 3-6"
-    },
-    {
-      "date": "20240813",
-      "tournament": "ITF M15 Huntsville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Faurel",
-      "score": "6-2 7(10)-6(8)"
     },
     {
       "date": "20240721",
@@ -175,21 +136,34 @@
       "score": "2-6 2-6"
     },
     {
-      "date": "20240704",
-      "tournament": "ITF M25 Laval Men",
+      "date": "20240119",
+      "tournament": "ITF M25 Ithaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. McCormick",
+      "score": "7(7)-6(5) 7-5"
+    },
+    {
+      "date": "20240118",
+      "tournament": "ITF M25 Ithaca",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. McHugh",
-      "score": "1-6 1-6"
+      "result": "W",
+      "opponent": "C. Bulus",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20240703",
-      "tournament": "ITF M25 Laval Men",
+      "date": "20240116",
+      "tournament": "ITF M25 Ithaca",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -197,8 +171,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Martin",
-      "score": "4-6 7(7)-6(3) 6-3"
+      "opponent": "N. Chappell",
+      "score": "1-6 2-6"
     }
   ]
 }
