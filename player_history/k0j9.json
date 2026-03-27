@@ -3,8 +3,34 @@
   "gs_id": "147881",
   "player_name": "Yannik Kelm",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:11.023Z",
+  "updated": "2026-03-27T07:01:40.041Z",
   "matches": [
+    {
+      "date": "20260115",
+      "tournament": "M15 Cadolzburg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Massard",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20260113",
+      "tournament": "M15 Cadolzburg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cerny",
+      "score": "4-6 4-6"
+    },
     {
       "date": "20250717",
       "tournament": "M15 Uslar",
@@ -32,47 +58,8 @@
       "score": "3-6 2-6"
     },
     {
-      "date": "20240630",
-      "tournament": "Karlsruhe",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Dellavedova",
-      "score": "2-6 0-6"
-    },
-    {
-      "date": "20240509",
-      "tournament": "ITF M25 Kursumlijska Banja Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Gavrielides",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20240508",
-      "tournament": "ITF M25 Kursumlijska Banja Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Markovski",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20230620",
-      "tournament": "ITF M15 Saarlouis Men",
+      "date": "20230912",
+      "tournament": "M15 Buschhausen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. M. Jong",
-      "score": "6-1 6-0"
+      "opponent": "M. Ujvary",
+      "score": "6-0 6-2"
     }
   ]
 }
