@@ -3,50 +3,37 @@
   "gs_id": "59193",
   "player_name": "Shunsuke Mitsui",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:02:32.256Z",
+  "updated": "2026-03-27T08:14:35.063Z",
   "matches": [
     {
-      "date": "20250621",
-      "tournament": "M25 Luzhou",
+      "date": "20260318",
+      "tournament": "M15 Nishi-Tokyo",
       "surface": "Hard",
       "level": "I",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Cui",
-      "score": "6-0 3-6 0-4 ret."
+      "opponent": "H. Heck",
+      "score": "6-4 7(7)-6(5)"
     },
     {
-      "date": "20250620",
-      "tournament": "M25 Luzhou",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "W. K. Leong M.",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20250619",
-      "tournament": "M25 Luzhou",
+      "date": "20250710",
+      "tournament": "M15 Tokyo 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Gerasimov",
-      "score": "6-3 3-6 6-2"
+      "result": "L",
+      "opponent": "R. Tokuda",
+      "score": "3-0 ret."
     },
     {
-      "date": "20250618",
-      "tournament": "M25 Luzhou",
+      "date": "20250708",
+      "tournament": "M15 Tokyo 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Sornlaksup",
-      "score": "7(8)-6(6) 6-2"
+      "opponent": "T. Sach",
+      "score": "5-7 7-5 6-4"
     },
     {
       "date": "20240807",
@@ -71,6 +58,58 @@
       "score": "5-7 2-6"
     },
     {
+      "date": "20231021",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Tomic",
+      "score": "3-6 6-3 4-6"
+    },
+    {
+      "date": "20231020",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Martinez",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20231019",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Markes",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20231018",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Cozbinov",
+      "score": "2-6 4-6"
+    },
+    {
       "date": "20230809",
       "tournament": "ITF M25 Southaven",
       "surface": "Hard",
@@ -82,58 +121,6 @@
       "result": "L",
       "opponent": "A. Rybakov",
       "score": "5-7 6-1 5-7"
-    },
-    {
-      "date": "20230623",
-      "tournament": "M25 Anseong",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Chung",
-      "score": "1-6 1-6"
-    },
-    {
-      "date": "20230622",
-      "tournament": "M25 Anseong",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "W. Shin",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20230620",
-      "tournament": "M25 Anseong",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "W. Sim",
-      "score": "0-6 2-6"
-    },
-    {
-      "date": "20230613",
-      "tournament": "ITF M25 Changwon Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Mochizuki",
-      "score": "6-4 6-2"
     }
   ]
 }
