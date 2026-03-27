@@ -1,12 +1,25 @@
 {
   "player_id": "f0go",
-  "gs_id": "40150",
-  "player_name": "Pablo Varillas Juan",
+  "gs_id": "41604",
+  "player_name": "Manuel Cerundolo Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:50:55.981Z",
+  "updated": "2026-03-27T04:51:22.993Z",
   "matches": [
     {
-      "date": "20240430",
+      "date": "20240502",
+      "tournament": "Cagliari",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Musetti",
+      "score": "7(7)-6(4) 7(7)-6(4)"
+    },
+    {
+      "date": "20240501",
       "tournament": "Cagliari",
       "surface": "Hard",
       "level": "C",
@@ -14,35 +27,35 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Nishioka",
-      "score": "6-2 6-4"
+      "result": "W",
+      "opponent": "G. Diallo",
+      "score": "0-6 6(4)-7(7)"
     },
     {
-      "date": "20230420",
-      "tournament": "Banja Luka",
+      "date": "20240430",
+      "tournament": "Cagliari",
       "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Rublev",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20230419",
-      "tournament": "Banja Luka",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Gaston",
-      "score": "7-5 6-3"
+      "opponent": "A. Pellegrino",
+      "score": "6-1 4-6 1-6"
+    },
+    {
+      "date": "20240429",
+      "tournament": "Cagliari",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Salomone",
+      "score": "2-6 4-6"
     }
   ]
 }
