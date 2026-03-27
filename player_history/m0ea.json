@@ -3,8 +3,21 @@
   "gs_id": "42272",
   "player_name": "Pol Martin Tiffon",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:08:02.048Z",
+  "updated": "2026-03-27T08:09:11.529Z",
   "matches": [
+    {
+      "date": "20260309",
+      "tournament": "Kigali 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Trungelliti",
+      "score": "4-6 2-6"
+    },
     {
       "date": "20260303",
       "tournament": "Kigali",
@@ -17,6 +30,71 @@
       "result": "L",
       "opponent": "L. Pavlovic",
       "score": "1-6 4-6"
+    },
+    {
+      "date": "20250324",
+      "tournament": "M25 Badalona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Giustino",
+      "score": "6-2 2-6 7(7)-6(4)"
+    },
+    {
+      "date": "20250323",
+      "tournament": "M25 Badalona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Marti Pujolras",
+      "score": "7(7)-6(1) 4-6 4-6"
+    },
+    {
+      "date": "20250322",
+      "tournament": "M25 Badalona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Cesar Porras",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250321",
+      "tournament": "M25 Badalona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Urribarrens Ramirez",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250320",
+      "tournament": "M25 Badalona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. J. Gutierrez",
+      "score": "6-3 6-3"
     },
     {
       "date": "20241117",
@@ -84,86 +162,60 @@
       "score": "6-3 6-2"
     },
     {
-      "date": "20241025",
-      "tournament": "M25 Santa Margherita di Pula 12",
+      "date": "20240612",
+      "tournament": "M25 Rabat",
       "surface": "Hard",
       "level": "I",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Rincon",
-      "score": "3-6 6-2 6-1"
+      "opponent": "V. Lapalu",
+      "score": "5-4 ret."
     },
     {
-      "date": "20241024",
-      "tournament": "M25 Santa Margherita di Pula 12",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Milev",
-      "score": "5-7 1-6"
-    },
-    {
-      "date": "20241023",
-      "tournament": "M25 Santa Margherita di Pula 12",
+      "date": "20240328",
+      "tournament": "ITF M25 Tarragona Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krumich",
+      "score": "7-5 1-6 7-5"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M25 Tarragona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "G. Cadenasso",
+      "opponent": "M. Dellavedova",
+      "score": "0-6 6-3 0-6"
+    },
+    {
+      "date": "20240322",
+      "tournament": "ITF M25 Badalona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Marti Pujolras",
       "score": "2-6 1-6"
     },
     {
-      "date": "20241022",
-      "tournament": "M25 Santa Margherita di Pula 12",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. M. Noce",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20240720",
-      "tournament": "M25 Esch/Alzette 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Rodesch",
-      "score": "6-4 3-6 2-6"
-    },
-    {
-      "date": "20240719",
-      "tournament": "M25 Esch/Alzette 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Gadamauri",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20240718",
-      "tournament": "M25 Esch/Alzette 2",
+      "date": "20240321",
+      "tournament": "ITF M25 Badalona Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -171,12 +223,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Bidan",
-      "score": "7-5 6-4"
+      "opponent": "L. Bouquet",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240717",
-      "tournament": "M25 Esch/Alzette 2",
+      "date": "20240319",
+      "tournament": "ITF M25 Badalona Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,8 +236,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Collignon",
-      "score": "6-0 6-0"
+      "opponent": "T. McCormick",
+      "score": "3-6 6-1 3-6"
     },
     {
       "date": "20240224",
@@ -420,19 +472,6 @@
       "result": "L",
       "opponent": "M. Landaluce",
       "score": "6-4 2-6 6-4"
-    },
-    {
-      "date": "20230926",
-      "tournament": "ITF M25 Sabadell 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Martinez Martinez",
-      "score": "4-6 2-6"
     }
   ]
 }
