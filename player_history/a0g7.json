@@ -1,35 +1,48 @@
 {
   "player_id": "a0g7",
-  "gs_id": "76857",
-  "player_name": "Leonardo Aboian",
+  "gs_id": "79751",
+  "player_name": "Valerio Aboian",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:16:26.827Z",
+  "updated": "2026-03-27T08:17:36.062Z",
   "matches": [
     {
-      "date": "20240718",
-      "tournament": "ITF M15 Slovenska Bistrica Men",
+      "date": "20241001",
+      "tournament": "Buenos Aires 3",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Kriznik",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20240717",
-      "tournament": "ITF M15 Slovenska Bistrica Men",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20240930",
+      "tournament": "Buenos Aires 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "L. Miklavcic",
-      "score": "3-6 2-6"
+      "opponent": "R. Olivo",
+      "score": "3-6 6(2)-7(7)"
+    },
+    {
+      "date": "20240929",
+      "tournament": "Buenos Aires 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. J. Rodriguez",
+      "score": "3-6 4-6"
     }
   ]
 }
