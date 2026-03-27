@@ -3,7 +3,7 @@
   "gs_id": "68077",
   "player_name": "Alibek Kachmazov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:15:17.074Z",
+  "updated": "2026-03-27T09:27:08.111Z",
   "matches": [
     {
       "date": "20250508",
@@ -30,6 +30,45 @@
       "result": "W",
       "opponent": "Y. H. Hsu",
       "score": "3-6 4-6"
+    },
+    {
+      "date": "20241014",
+      "tournament": "ATP Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kukushkin",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20241013",
+      "tournament": "ATP Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cressy",
+      "score": "6-4 3-6 0-2 ret."
+    },
+    {
+      "date": "20240910",
+      "tournament": "Guangzhou 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. van Wyk",
+      "score": "6(5)-7(7) 4-6"
     },
     {
       "date": "20240511",
@@ -82,58 +121,6 @@
       "result": "W",
       "opponent": "L. Saville",
       "score": "6-4 6-1"
-    },
-    {
-      "date": "20231115",
-      "tournament": "Danderyd",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Goffin",
-      "score": "5-7 5-7"
-    },
-    {
-      "date": "20231114",
-      "tournament": "Danderyd",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Riedi",
-      "score": "6(2)-7(7) 6-2 4-6"
-    },
-    {
-      "date": "20231113",
-      "tournament": "Danderyd",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Gautier",
-      "score": "4-6 6-3 6-2"
-    },
-    {
-      "date": "20231112",
-      "tournament": "Danderyd",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Basilashvili",
-      "score": "6-1 6-4"
     }
   ]
 }
