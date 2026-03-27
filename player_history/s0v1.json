@@ -1,1 +1,22 @@
-{"player_id":"s0v1","sack_id":"210571","name":"Isac Stroemberg","total":0,"matches":[]}
+{
+  "player_id": "s0v1",
+  "gs_id": "177400",
+  "player_name": "Isac Stroemberg",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T01:59:40.934Z",
+  "matches": [
+    {
+      "date": "20220510",
+      "tournament": "M25 Kalmar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Moller",
+      "score": "2-6 1-6"
+    }
+  ]
+}
