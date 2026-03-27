@@ -3,34 +3,8 @@
   "gs_id": "90081",
   "player_name": "Olaf Pieczkowski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:06:37.304Z",
+  "updated": "2026-03-27T06:58:01.031Z",
   "matches": [
-    {
-      "date": "20250710",
-      "tournament": "M25 Roda de Bara",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Soriano Barrera",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20250708",
-      "tournament": "M25 Roda de Bara",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Palan",
-      "score": "7-5 ret."
-    },
     {
       "date": "20240831",
       "tournament": "ITF M15 Szczawno Men",
@@ -110,8 +84,47 @@
       "score": "6-4 6-0"
     },
     {
-      "date": "20240430",
-      "tournament": "ITF M25 Nottingham 7 Men",
+      "date": "20231125",
+      "tournament": "M15 Limassol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nicod",
+      "score": "2-6 7-5 2-6"
+    },
+    {
+      "date": "20231124",
+      "tournament": "M15 Limassol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Sorger",
+      "score": "6-4 2-6 3-6"
+    },
+    {
+      "date": "20231123",
+      "tournament": "M15 Limassol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Edengren",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20231122",
+      "tournament": "M15 Limassol",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Stewart",
-      "score": "4-6 6-1 6(0)-7(7)"
+      "opponent": "C. Papa",
+      "score": "6(5)-7(7) 0-6"
     },
     {
       "date": "20230903",
@@ -251,19 +264,6 @@
       "result": "W",
       "opponent": "M. Karol",
       "score": "6-3 2-6 3-6"
-    },
-    {
-      "date": "20230524",
-      "tournament": "M15 Pazardzhik 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Rossi",
-      "score": "6(3)-7(7) 6(4)-7(7)"
     }
   ]
 }
