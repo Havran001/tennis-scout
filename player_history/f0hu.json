@@ -3,11 +3,24 @@
   "gs_id": "219528",
   "player_name": "Aaron Funk",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:19:31.807Z",
+  "updated": "2026-03-27T01:00:56.916Z",
   "matches": [
     {
-      "date": "20250313",
-      "tournament": "M15 Monastir 10",
+      "date": "20251224",
+      "tournament": "M15 Monastir 47",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Nishiwaki",
+      "score": "4-6 6-3 3-6"
+    },
+    {
+      "date": "20251218",
+      "tournament": "M15 Monastir 46",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Ouakaa",
-      "score": "6-4 5-7 4-6"
+      "opponent": "C. Vandermeersch",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20250312",
-      "tournament": "M15 Monastir 10",
+      "date": "20251217",
+      "tournament": "M15 Monastir 46",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,38 +41,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. T. Pieleanu",
+      "opponent": "P. Vaitiekunas",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250826",
+      "tournament": "M15 Allershausen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kucera",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250820",
+      "tournament": "M25 Ueberlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Otte",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20241107",
+      "tournament": "M15 Monastir 45",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Prechtel",
+      "score": "2-6 6-3 6(3)-7(7)"
+    },
+    {
+      "date": "20241105",
+      "tournament": "M15 Monastir 45",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. K. Bonsach",
+      "score": "6(2)-7(7) 6-1 6-4"
+    },
+    {
+      "date": "20240828",
+      "tournament": "M15 Monastir 35",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Celikbilek",
       "score": "6-3 6-4"
     },
     {
-      "date": "20250211",
-      "tournament": "M15 Oberhaching",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Radulov",
-      "score": "7(7)-6(4) 7-5"
-    },
-    {
-      "date": "20250129",
-      "tournament": "M15 Monastir 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. A. Bailly",
-      "score": "6-1 2-0 ret."
-    },
-    {
-      "date": "20250123",
-      "tournament": "M25 Nussloch",
+      "date": "20240711",
+      "tournament": "ITF M15 Lodz Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Gentzsch",
-      "score": "2-6 6-4 4-6"
+      "opponent": "M. Rocens",
+      "score": "3-6 7(10)-6(8) 6-4"
     },
     {
-      "date": "20250122",
-      "tournament": "M25 Nussloch",
+      "date": "20240710",
+      "tournament": "ITF M15 Lodz Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Schlageter",
-      "score": "6(4)-7(7) 6-2 6-4"
+      "opponent": "D. Paty",
+      "score": "7-5 6(2)-7(7) 2-6"
     }
   ]
 }
