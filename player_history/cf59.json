@@ -3,33 +3,46 @@
   "gs_id": "14972",
   "player_name": "Roberto Carballes Baena",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:49:14.045Z",
+  "updated": "2026-03-27T11:38:35.141Z",
   "matches": [
     {
-      "date": "20260310",
-      "tournament": "Kigali 2",
+      "date": "20240922",
+      "tournament": "Hangzhou",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "B",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Vasa",
-      "score": "6-4 3-6 7(7)-6(3)"
+      "opponent": "Z. Zhang",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20260303",
-      "tournament": "Kigali",
+      "date": "20240921",
+      "tournament": "Hangzhou",
       "surface": "Hard",
-      "level": "C",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Krueger",
+      "score": "3-6 6-3 6-4"
+    },
+    {
+      "date": "20240919",
+      "tournament": "Hangzhou",
+      "surface": "Hard",
+      "level": "B",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Kopp",
-      "score": "6-3 6-2"
+      "result": "W",
+      "opponent": "C. Moutet",
+      "score": "6(6)-7(8) 1-6"
     }
   ]
 }
