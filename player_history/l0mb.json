@@ -3,20 +3,33 @@
   "gs_id": "96668",
   "player_name": "Jagger Leach",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:50:37.642Z",
+  "updated": "2026-03-27T00:52:42.920Z",
   "matches": [
     {
-      "date": "20250413",
-      "tournament": "Tallahassee",
+      "date": "20240919",
+      "tournament": "M15 Fayetteville",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. A. Olivieri",
-      "score": "6-3 4-6 3-6"
+      "opponent": "N. Baroni",
+      "score": "6(7)-7(9) 3-6"
+    },
+    {
+      "date": "20240918",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bellegy",
+      "score": "6-1 6-0"
     }
   ]
 }
