@@ -3,8 +3,34 @@
   "gs_id": "144680",
   "player_name": "Pablo Martinez Gomez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:55.992Z",
+  "updated": "2026-03-27T07:01:30.038Z",
   "matches": [
+    {
+      "date": "20250605",
+      "tournament": "M25 Cordoba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Jorda Sanchis",
+      "score": "7(7)-6(5) 3-6 2-6"
+    },
+    {
+      "date": "20250604",
+      "tournament": "M25 Cordoba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. L. Alvarez Sarmiento",
+      "score": "3-6 4-6"
+    },
     {
       "date": "20250501",
       "tournament": "M25 Sabadell",
@@ -30,6 +56,19 @@
       "result": "W",
       "opponent": "H. Matsuoka",
       "score": "6-1 6-4"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M25 Cordoba Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Blanch",
+      "score": "2-6 2-6"
     }
   ]
 }
