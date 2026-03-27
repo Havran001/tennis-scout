@@ -3,8 +3,60 @@
   "gs_id": "76901",
   "player_name": "Bogdan Pavel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:11.973Z",
+  "updated": "2026-03-27T04:46:38.992Z",
   "matches": [
+    {
+      "date": "20250122",
+      "tournament": "M25 Doha",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sharipov",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20241119",
+      "tournament": "Rovereto",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. H. Rehberg",
+      "score": "6-3 3-6 6-3"
+    },
+    {
+      "date": "20241118",
+      "tournament": "Rovereto",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Ivanovski",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20241117",
+      "tournament": "Rovereto",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Gerasimov",
+      "score": "6(5)-7(7) 3-6"
+    },
     {
       "date": "20241031",
       "tournament": "M25 Heraklion 2",
@@ -30,45 +82,6 @@
       "result": "W",
       "opponent": "N. Visker",
       "score": "4-6 2-6"
-    },
-    {
-      "date": "20240530",
-      "tournament": "M15 Constanta",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Snitari",
-      "score": "5-7 5-7"
-    },
-    {
-      "date": "20240529",
-      "tournament": "M15 Constanta",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Ferri",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20220629",
-      "tournament": "M15 Belgrade",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Kekez",
-      "score": "3-6 5-7"
     }
   ]
 }
