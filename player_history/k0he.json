@@ -3,11 +3,11 @@
   "gs_id": "123618",
   "player_name": "Ioannis Kountourakis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:55:30.902Z",
+  "updated": "2026-03-27T00:52:56.929Z",
   "matches": [
     {
-      "date": "20251015",
-      "tournament": "M15 Heraklion 10",
+      "date": "20251217",
+      "tournament": "M15 Monastir 46",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Nikles",
-      "score": "1-6 7(8)-6(6) 6(3)-7(7)"
+      "opponent": "M. Kouame",
+      "score": "6-3 6-0"
     },
     {
-      "date": "20251008",
-      "tournament": "M15 Heraklion 9",
+      "date": "20251210",
+      "tournament": "M15 Monastir 45",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,73 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. C. Loureiro J.",
-      "score": "5-7 6-3 3-6"
-    },
-    {
-      "date": "20250605",
-      "tournament": "M25 Belgrade",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Gagliardo",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20250604",
-      "tournament": "M25 Belgrade",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Todorovic",
-      "score": "4-6 6-4 6-2"
-    },
-    {
-      "date": "20221108",
-      "tournament": "ITF M15 Heraklion 9 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gima",
-      "score": "6-3 1-6 3-6"
-    },
-    {
-      "date": "20221102",
-      "tournament": "M15 Heraklion 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Mu",
-      "score": "7-5 6-1"
-    },
-    {
-      "date": "20211123",
-      "tournament": "ITF M15 Heraklion 8 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Wehnelt",
+      "opponent": "M. Mbithi",
       "score": "3-6 3-6"
+    },
+    {
+      "date": "20250205",
+      "tournament": "M15 Sharm ElSheikh 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Balshaw",
+      "score": "6(4)-7(7) 7(7)-6(3) 3-6"
+    },
+    {
+      "date": "20240131",
+      "tournament": "ITF M15 Sharm ElSheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Whitehouse",
+      "score": "7(7)-6(3) 3-6 6-1"
     }
   ]
 }
