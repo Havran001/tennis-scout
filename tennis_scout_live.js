@@ -1186,7 +1186,9 @@ function buildPlayersTab(sh){
               '.mh-table td.ta-wl-l{font-weight:800;color:#f87171;background:rgba(239,68,68,0.08);}',
               '.mh-table td.ta-odds{color:rgba(255,255,255,0.3);font-size:11px;}',
               '.mh-table .yr-sep td{padding:8px 6px 3px;font-size:9px;font-weight:700;color:rgba(255,255,255,0.2);letter-spacing:1.5px;border-bottom:1px solid rgba(255,255,255,0.06);background:none;}',
-              '.mh-surf-cl{color:#fb923c;}.mh-surf-gr{color:#4ade80;}.mh-surf-in{color:#c084fc;}.mh-surf-ha{color:#60a5fa;}'
+              '.mh-surf-cl{color:#fb923c;}.mh-surf-gr{color:#4ade80;}.mh-surf-in{color:#c084fc;}.mh-surf-ha{color:#60a5fa;}',
+              '.mh-table input[list]{cursor:pointer;}',
+              '.mh-table input[list]::-webkit-calendar-picker-indicator{opacity:0.4;cursor:pointer;}'
             ].join('');
             var cols=[
               {key:'result',label:'W/L',type:'sel',opts:['','W','L']},
