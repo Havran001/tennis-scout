@@ -3,33 +3,20 @@
   "gs_id": "23017",
   "player_name": "Nathan Ponwith",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:34.074Z",
+  "updated": "2026-03-27T07:49:21.049Z",
   "matches": [
     {
-      "date": "20250807",
-      "tournament": "M25 Southaven",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Bigun",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20250806",
-      "tournament": "M25 Southaven",
+      "date": "20250114",
+      "tournament": "M15 Kingston 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Melnic",
-      "score": "7(7)-6(4) 6-3"
+      "result": "L",
+      "opponent": "M. Kuhar",
+      "score": "7-5 6(5)-7(7) 2-6"
     },
     {
       "date": "20250107",
@@ -45,30 +32,108 @@
       "score": "4-6 5-7"
     },
     {
-      "date": "20231018",
-      "tournament": "M15 Las Vegas",
+      "date": "20240616",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Tarvet",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20240615",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Maloney",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20240614",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Pham",
+      "score": "7(8)-6(6) 1-6 5-7"
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Petrov",
+      "score": "7-5 3-6 4-6"
+    },
+    {
+      "date": "20240611",
+      "tournament": "ITF M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Dominko",
-      "score": "6-3 7(7)-6(3)"
+      "result": "W",
+      "opponent": "H. Wiersholm",
+      "score": "6-3 4-6 6-1"
     },
     {
-      "date": "20230812",
-      "tournament": "Stanford",
+      "date": "20240416",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Chappell",
+      "score": "6-2 6(2)-7(7) 2-6"
+    },
+    {
+      "date": "20240416",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cressy",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20240415",
+      "tournament": "Acapulco",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Brymer",
-      "score": "6-1 1-6 1-6"
+      "result": "W",
+      "opponent": "E. Ejupovic",
+      "score": "7(7)-6(4) 6-3"
     }
   ]
 }
