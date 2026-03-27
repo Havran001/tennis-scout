@@ -3,24 +3,37 @@
   "gs_id": "168681",
   "player_name": "Marko Mesarovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:00:19.922Z",
+  "updated": "2026-03-27T04:59:23.990Z",
   "matches": [
     {
-      "date": "20251120",
-      "tournament": "M25 Austin",
+      "date": "20251107",
+      "tournament": "M25 Montreal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Baadi",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20251106",
+      "tournament": "M25 Montreal",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Petrovic",
-      "score": "4-6 6(4)-7(7)"
+      "result": "W",
+      "opponent": "A. Ayeni",
+      "score": "6-3 0-4 ret."
     },
     {
-      "date": "20251119",
-      "tournament": "M25 Austin",
+      "date": "20251105",
+      "tournament": "M25 Montreal",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Poulsen Brostrom",
-      "score": "6-3 6(6)-7(8) 6-1"
+      "opponent": "G. A. Boitan",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20251113",
-      "tournament": "M25 Columbus",
+      "date": "20230126",
+      "tournament": "M15 Edmond",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Stearns",
-      "score": "6-3 6-4"
+      "opponent": "A. Michelsen",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20251112",
-      "tournament": "M25 Columbus",
+      "date": "20230125",
+      "tournament": "M15 Edmond",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,73 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Snitari",
-      "score": "2-6 6-2 2-6"
-    },
-    {
-      "date": "20241121",
-      "tournament": "M25 Austin",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Y. Bailly",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20241120",
-      "tournament": "M25 Austin",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Perego",
-      "score": "6(4)-7(7) 7(7)-6(4) 7(9)-6(7)"
-    },
-    {
-      "date": "20231108",
-      "tournament": "ITF M25 Austin",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Whitehouse",
-      "score": "7-5 5-7 3-6"
-    },
-    {
-      "date": "20221109",
-      "tournament": "M25 Austin",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Azoides",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20221019",
-      "tournament": "M25 Harlingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Hilderbrand",
-      "score": "6-4 6-2"
+      "opponent": "P. Brown",
+      "score": "4-6 4-6"
     }
   ]
 }
