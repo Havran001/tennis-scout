@@ -3,11 +3,11 @@
   "gs_id": "10541",
   "player_name": "Issei Okamura",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:49:25.979Z",
+  "updated": "2026-03-27T05:53:39.010Z",
   "matches": [
     {
-      "date": "20250805",
-      "tournament": "M15 Singapore",
+      "date": "20250604",
+      "tournament": "M15 Karuizawa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,77 +15,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. F. Alhogbani",
-      "score": "6-2 4-6 6-3"
-    },
-    {
-      "date": "20240911",
-      "tournament": "ITF M15 Singapore Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Setkic",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20240220",
-      "tournament": "M25 Traralgon",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Hulme",
-      "score": "1-6 6-3 6-3"
-    },
-    {
-      "date": "20240117",
-      "tournament": "ITF M25 Doha Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Habib",
+      "opponent": "J. D. Hara Friend",
       "score": "6-3 6-2"
     },
     {
-      "date": "20240116",
-      "tournament": "ITF M25 Doha Men",
+      "date": "20250429",
+      "tournament": "M25 Anning",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Purtseladze",
-      "score": "4-6 5-7"
+      "result": "L",
+      "opponent": "G. Lomakin",
+      "score": "6-4 6(5)-7(7) 7(8)-6(6)"
     },
     {
-      "date": "20231102",
-      "tournament": "M15 Al Zahra 2",
+      "date": "20240705",
+      "tournament": "M15 Nakhon Si Thammarat 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kalyanpur",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240704",
+      "tournament": "M15 Nakhon Si Thammarat 4",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Schell",
-      "score": "7(8)-6(6) 6-1"
+      "result": "W",
+      "opponent": "A. Vales",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20231101",
-      "tournament": "M15 Al Zahra 2",
+      "date": "20240703",
+      "tournament": "M15 Nakhon Si Thammarat 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Alshati",
-      "score": "3-6 1-6"
+      "opponent": "J. Van Herzeele",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20230207",
-      "tournament": "ITF M25 Burnie Men",
+      "date": "20240619",
+      "tournament": "ITF M25 Luzhou Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Walton",
-      "score": "3-6 4-6"
+      "opponent": "S. Tang",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20221101",
-      "tournament": "M25 Jakarta 2",
+      "date": "20230809",
+      "tournament": "M25 Herzlia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +93,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. M Rifqi",
-      "score": "6-1 6-3"
+      "opponent": "A. Vales",
+      "score": "4-6 6-3 3-6"
+    },
+    {
+      "date": "20230627",
+      "tournament": "M15 Jakarta 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Matsuda",
+      "score": "3-6 6(6)-7(8)"
+    },
+    {
+      "date": "20230621",
+      "tournament": "M25 Anseong",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Shin",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20230530",
+      "tournament": "ITF M15 Karuizawa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Shin",
+      "score": "3-6 6-2 6-1"
     }
   ]
 }
