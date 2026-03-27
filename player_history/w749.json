@@ -3,37 +3,50 @@
   "gs_id": "58918",
   "player_name": "Enzo Wallart",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:02:16.010Z",
+  "updated": "2026-03-27T08:12:34.060Z",
   "matches": [
     {
-      "date": "20240701",
-      "tournament": "Bloomfield Hills Challenger Men",
+      "date": "20251211",
+      "tournament": "M15 Ceuta",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Uchida",
-      "score": "5-7 6(4)-7(7)"
-    },
-    {
-      "date": "20240630",
-      "tournament": "Bloomfield Hills Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Chopra",
-      "score": "1-6 6(4)-7(7)"
+      "opponent": "A. Allen",
+      "score": "0-6 1-6"
     },
     {
-      "date": "20240501",
-      "tournament": "ITF M25 Nottingham 7 Men",
+      "date": "20250925",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Fuele",
+      "score": "7(7)-6(5) 7-5"
+    },
+    {
+      "date": "20250923",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Pawelski",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240312",
+      "tournament": "M15 Les Franqueses del Valles",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,25 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Martin",
-      "score": "6(5)-7(7) 7-5 0-1"
+      "opponent": "N. Basilashvili",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20230609",
-      "tournament": "ITF M15 San Diego Men",
+      "date": "20240120",
+      "tournament": "ITF M15 Manacor 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Demin",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240119",
+      "tournament": "ITF M15 Manacor 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Eriksson Ziverts",
-      "score": "6-4 6-4"
+      "result": "W",
+      "opponent": "M. Dhamne",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20230608",
-      "tournament": "ITF M15 San Diego Men",
+      "date": "20240118",
+      "tournament": "ITF M15 Manacor 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Rogers",
-      "score": "4-6 6-3 6-4"
+      "opponent": "J. Kym",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20230607",
-      "tournament": "ITF M15 San Diego Men",
+      "date": "20240116",
+      "tournament": "ITF M15 Manacor 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +106,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Nordquist",
-      "score": "4-6 6-3 6-4"
+      "opponent": "M. Wiskandt",
+      "score": "1-6 7-5 1-6"
+    },
+    {
+      "date": "20231104",
+      "tournament": "ITF M25 Edmonton Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Draxl",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20231102",
+      "tournament": "ITF M25 Edmonton Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Pannu",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20231031",
+      "tournament": "ITF M25 Edmonton Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Mehta",
+      "score": "6-2 6-1"
     }
   ]
 }
