@@ -3,37 +3,50 @@
   "gs_id": "145948",
   "player_name": "Niccolo Baroni",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:09.020Z",
+  "updated": "2026-03-27T08:24:06.067Z",
   "matches": [
     {
-      "date": "20250617",
-      "tournament": "M25 Cattolica",
+      "date": "20240526",
+      "tournament": "M15 Cervia",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "A. Pecci",
-      "score": "6-4 6-3"
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M25 Cattolica Men",
+      "date": "20240524",
+      "tournament": "M15 Cervia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Bondioli",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20240523",
+      "tournament": "M15 Cervia",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Lopez Montagud",
-      "score": "6-3 1-6 7-5"
+      "result": "W",
+      "opponent": "G. La Vela",
+      "score": "7-5 3-6 2-6"
     },
     {
-      "date": "20240617",
-      "tournament": "ITF M25 Cattolica Men",
+      "date": "20240522",
+      "tournament": "M15 Cervia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Pampanin",
-      "score": "0-6 2-6"
+      "opponent": "V. Perruzza",
+      "score": "4-6 1-6"
     },
     {
       "date": "20230830",
@@ -56,45 +69,6 @@
       "result": "L",
       "opponent": "L. Angelini",
       "score": "6-4 6(4)-7(7) 6-3"
-    },
-    {
-      "date": "20230524",
-      "tournament": "ITF M15 Kursumlijska Banja 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Monzon",
-      "score": "6-3 2-0 ret."
-    },
-    {
-      "date": "20230518",
-      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Erhard",
-      "score": "3-6 6-1 5-7"
-    },
-    {
-      "date": "20230516",
-      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "St. Cejovic",
-      "score": "0-6 1-6"
     }
   ]
 }
