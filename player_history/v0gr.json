@@ -1,61 +1,35 @@
 {
   "player_id": "v0gr",
-  "gs_id": "151029",
-  "player_name": "Dmitrii Vasilev",
+  "gs_id": "198422",
+  "player_name": "Alexander Vasilev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:58:33.023Z",
+  "updated": "2026-03-27T06:11:30.024Z",
   "matches": [
     {
-      "date": "20251105",
-      "tournament": "M25 Monastir 9",
+      "date": "20230519",
+      "tournament": "M15 Pazardzhik",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Moro Canas",
-      "score": "1-6 0-6"
+      "opponent": "D. Klok",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20251015",
-      "tournament": "M25 Monastir 8",
+      "date": "20230518",
+      "tournament": "M15 Pazardzhik",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Trifi",
-      "score": "6-0 6-1"
-    },
-    {
-      "date": "20230920",
-      "tournament": "ITF M25 Sharm ElSheikh 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Borg",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20230329",
-      "tournament": "ITF M15 Sharm ElSheikh 9 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Purtseladze",
-      "score": "2-6 4-6"
+      "result": "W",
+      "opponent": "M. Dimitrov",
+      "score": "6(5)-7(7) 3-6"
     }
   ]
 }
