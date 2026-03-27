@@ -3,37 +3,24 @@
   "gs_id": "205300",
   "player_name": "Fryderyk Lechno-Wasiutynski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:00:16.935Z",
+  "updated": "2026-03-27T02:56:38.960Z",
   "matches": [
     {
-      "date": "20240314",
-      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
+      "date": "20240811",
+      "tournament": "Grodzisk Mazowiecki Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Gengel",
-      "score": "4-6 2-6"
+      "opponent": "L. Lokoli",
+      "score": "6-4 6-0"
     },
     {
-      "date": "20240313",
-      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Lu",
-      "score": "0-6 2-6"
-    },
-    {
-      "date": "20240228",
-      "tournament": "ITF M15 Sharm ElSheikh 5 Men",
+      "date": "20240626",
+      "tournament": "M15 Wroclaw",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Trochu",
-      "score": "7(13)-6(11) 1-6 6-4"
+      "opponent": "P. Juszczak",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230628",
+      "tournament": "ITF M15 Wroclaw Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Donald",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20230620",
+      "tournament": "M25 Poprad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Rikl",
+      "score": "3-6 1-6"
     }
   ]
 }
