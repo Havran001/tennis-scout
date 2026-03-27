@@ -3,11 +3,11 @@
   "gs_id": "39019",
   "player_name": "Agustin Tirante Thiago",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:08:47.207Z",
+  "updated": "2026-03-27T09:26:20.107Z",
   "matches": [
     {
-      "date": "20250917",
-      "tournament": "Bad Waltersdorf",
+      "date": "20251110",
+      "tournament": "Lyon 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +15,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Piraino",
-      "score": "2-6 6-1 6-4"
+      "opponent": "T. Berkieta",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250923",
+      "tournament": "Buenos Aires 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Vallejo",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20241124",
+      "tournament": "Sao Paulo 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Comesana",
+      "score": "5-7 6-4 4-6"
+    },
+    {
+      "date": "20241123",
+      "tournament": "Sao Paulo 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Barrios Vera",
+      "score": "6(4)-7(7) 5-7"
+    },
+    {
+      "date": "20241122",
+      "tournament": "Sao Paulo 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Habib",
+      "score": "7(7)-6(3) 4-6 6-4"
+    },
+    {
+      "date": "20241121",
+      "tournament": "Sao Paulo 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. B. Torres",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20241119",
+      "tournament": "Sao Paulo 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Olivo",
+      "score": "6-2 6-2"
     },
     {
       "date": "20240619",
@@ -43,32 +121,6 @@
       "result": "W",
       "opponent": "F. Cina",
       "score": "7(7)-6(5) 7-5"
-    },
-    {
-      "date": "20231018",
-      "tournament": "Olbia Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. De Loore",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20230814",
-      "tournament": "Stanford",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Shimabukuro",
-      "score": "1-6 3-6"
     }
   ]
 }
