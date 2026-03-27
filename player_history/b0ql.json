@@ -3,37 +3,63 @@
   "gs_id": "163941",
   "player_name": "Brian Bozemoj",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:04:45.882Z",
+  "updated": "2026-03-27T01:52:31.936Z",
   "matches": [
     {
-      "date": "20250709",
-      "tournament": "M25 The Hague",
+      "date": "20240222",
+      "tournament": "ITF M25 Antalya 4 Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Vanshelboim",
-      "score": "6-2 6-3"
+      "opponent": "C. Gimeno Valero",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20240710",
-      "tournament": "ITF M25 The Hague Men",
+      "date": "20240220",
+      "tournament": "ITF M25 Antalya 4 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Van Tilburg",
-      "score": "6-4 7(7)-6(5)"
+      "result": "W",
+      "opponent": "A. Weis",
+      "score": "6-4 3-5 ret."
     },
     {
-      "date": "20230704",
-      "tournament": "ITF M25 The Hague Men",
+      "date": "20240125",
+      "tournament": "ITF M15+H Bagnoles de l'Orne Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Madarasz",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20240124",
+      "tournament": "ITF M15+H Bagnoles de l'Orne Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Rocci",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20231018",
+      "tournament": "ITF M15 Monastir 42 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Vanshelboim",
-      "score": "3-6 1-6"
+      "opponent": "A. Dougaz",
+      "score": "0-6 6-3 5-7"
+    },
+    {
+      "date": "20230322",
+      "tournament": "ITF M15 Monastir 12 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Abderrahman",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20221207",
+      "tournament": "M15 Monastir 48",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bouquier",
+      "score": "6-3 7(8)-6(6)"
     }
   ]
 }
