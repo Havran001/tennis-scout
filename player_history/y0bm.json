@@ -3,11 +3,37 @@
   "gs_id": "251839",
   "player_name": "Yamato Yukawa",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:03:55.127Z",
+  "updated": "2026-03-27T09:32:58.090Z",
   "matches": [
     {
-      "date": "20250422",
-      "tournament": "M15 Osaka 2",
+      "date": "20250320",
+      "tournament": "M15 Nishi-Tokyo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Huang",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250319",
+      "tournament": "M15 Nishi-Tokyo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Matsumura",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20240319",
+      "tournament": "ITF M15 Nishi-Tokyo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Kusuhara",
-      "score": "6(2)-7(7) 1-6"
+      "opponent": "S. Park",
+      "score": "7(7)-6(2) 6-2"
     }
   ]
 }
