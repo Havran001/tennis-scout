@@ -1,62 +1,10 @@
 {
   "player_id": "j0ak",
-  "gs_id": "76018",
-  "player_name": "Yuquan Jin",
+  "gs_id": "84344",
+  "player_name": "Jeremy Jin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:03:48.028Z",
+  "updated": "2026-03-27T06:04:45.011Z",
   "matches": [
-    {
-      "date": "20250506",
-      "tournament": "M25 Baotou",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Castelnuovo",
-      "score": "2-6 5-7"
-    },
-    {
-      "date": "20250430",
-      "tournament": "M25 Anning",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Hongyu",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20240828",
-      "tournament": "M25 Hong Kong",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. McHugh",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20240814",
-      "tournament": "ITF M25 Yinchuan Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Henning",
-      "score": "3-6 6(3)-7(7)"
-    },
     {
       "date": "20240704",
       "tournament": "M15 Tianjin 2",
@@ -67,11 +15,11 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Barki",
-      "score": "4-6 2-6"
+      "opponent": "A. Lim",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20240702",
+      "date": "20240703",
       "tournament": "M15 Tianjin 2",
       "surface": "Hard",
       "level": "I",
@@ -80,12 +28,90 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Huang",
-      "score": "6-3 6-0"
+      "opponent": "Y. Hongyu",
+      "score": "0-6 3-6"
     },
     {
-      "date": "20240626",
-      "tournament": "M15 Tianjin",
+      "date": "20230714",
+      "tournament": "M15 Shanghai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. C. Mo",
+      "score": "0-6 6-3 1-6"
+    },
+    {
+      "date": "20230713",
+      "tournament": "M15 Shanghai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Zhang",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20230712",
+      "tournament": "M15 Shanghai",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Berger",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20230707",
+      "tournament": "M15 Tianjin 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. H. Lee",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20230706",
+      "tournament": "M15 Tianjin 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Trongcharoenchaikul",
+      "score": "6-3 7(10)-6(8)"
+    },
+    {
+      "date": "20230705",
+      "tournament": "M15 Tianjin 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Wattanakul",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230627",
+      "tournament": "M15 Tianjin 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,25 +119,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Dong",
-      "score": "7-6 6-4"
+      "opponent": "J. Cui",
+      "score": "3-6 6-3 7(7)-6(0)"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M25 Luzhou Men",
+      "date": "20230622",
+      "tournament": "ITF M15 Tianjin 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Wang",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20230621",
+      "tournament": "ITF M15 Tianjin 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Yang",
-      "score": "4-6 6-3 3-6"
+      "result": "W",
+      "opponent": "Y. Zeng",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20240601",
-      "tournament": "ITF M25 Baotou Men",
+      "date": "20230617",
+      "tournament": "ITF M15 Tianjin Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -119,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Sun",
-      "score": "6-4 3-6 6-3"
+      "opponent": "Z. Li",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240531",
-      "tournament": "ITF M25 Baotou Men",
+      "date": "20230616",
+      "tournament": "ITF M15 Tianjin Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -132,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Mochizuki",
-      "score": "4-6 2-6"
+      "opponent": "Z. Dong",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20240530",
-      "tournament": "ITF M25 Baotou Men",
+      "date": "20230615",
+      "tournament": "ITF M15 Tianjin Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -145,47 +184,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Yang",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20240528",
-      "tournament": "ITF M25 Baotou Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Sun Qian",
-      "score": "1-6 6(4)-7(7)"
-    },
-    {
-      "date": "20240523",
-      "tournament": "ITF M25 Anning Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Ferguson",
-      "score": "4-6 5-7"
-    },
-    {
-      "date": "20240522",
-      "tournament": "ITF M25 Anning Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Zhu",
-      "score": "4-6 7-5 6-3"
+      "opponent": "S. Tang",
+      "score": "6-4 6-4"
     },
     {
       "date": "20230614",
@@ -196,12 +196,38 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Huang",
-      "score": "0-6 6-2 3-6"
+      "result": "W",
+      "opponent": "C. Wang",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20230606",
+      "date": "20230609",
+      "tournament": "ITF M25 Luzhou Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Liu",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230608",
+      "tournament": "ITF M25 Luzhou Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Yu",
+      "score": "6-4 7(8)-6(6)"
+    },
+    {
+      "date": "20230607",
       "tournament": "ITF M25 Luzhou Men",
       "surface": "Hard",
       "level": "I",
@@ -209,9 +235,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Xiao",
-      "score": "2-6 5-7"
+      "result": "W",
+      "opponent": "A. Wang",
+      "score": "7(7)-6(1) 6-2"
     }
   ]
 }
