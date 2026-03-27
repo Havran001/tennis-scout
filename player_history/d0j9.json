@@ -3,11 +3,11 @@
   "gs_id": "182569",
   "player_name": "Leo Deflandre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:59:59.990Z",
+  "updated": "2026-03-27T00:54:54.921Z",
   "matches": [
     {
-      "date": "20250526",
-      "tournament": "M25 Carnac",
+      "date": "20250122",
+      "tournament": "M15+H Bagnoles de l'Orne",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,38 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Faurel",
-      "score": "6-1 6-1"
+      "opponent": "C. Tabur",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240907",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Sharipov",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20240906",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "date": "20241122",
+      "tournament": "ITF M25 Monastir 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Glinka",
-      "score": "7(7)-6(5) 6-1"
+      "result": "L",
+      "opponent": "F. Iannaccone",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20240905",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "date": "20241121",
+      "tournament": "ITF M25 Monastir 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Rottoli",
-      "score": "2-6 3-6"
+      "opponent": "L. Fomba",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20240904",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "date": "20241120",
+      "tournament": "ITF M25 Monastir 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Colne",
-      "score": "7-5 6-0"
+      "opponent": "L. Pokorny",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20231018",
-      "tournament": "ITF M15 Villers-les-Nancy Men",
+      "date": "20241113",
+      "tournament": "M15 Monastir 46",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +67,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Voisin",
-      "score": "3-6 6-3 6-4"
+      "opponent": "M. Schoenhaus",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20241106",
+      "tournament": "ITF M25 Monastir 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Vylegzhanin",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20241029",
+      "tournament": "ITF M25 Monastir Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nicod",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240124",
+      "tournament": "ITF M15+H Bagnoles de l'Orne Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Oumaouche",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20231025",
+      "tournament": "ITF M25 Sarreguemines Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hoang",
+      "score": "3-6 2-6"
     }
   ]
 }
