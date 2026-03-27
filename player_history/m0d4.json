@@ -3,11 +3,11 @@
   "gs_id": "77994",
   "player_name": "Muhamad Rifqi Fitriadi",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:25:05.815Z",
+  "updated": "2026-03-27T01:57:35.935Z",
   "matches": [
     {
-      "date": "20230308",
-      "tournament": "ITF M15 Monastir 10 Men",
+      "date": "20230321",
+      "tournament": "ITF M15 Monastir 12 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Carboni",
-      "score": "4-6 4-6"
+      "opponent": "S. Roncalli",
+      "score": "2-6 6-3 7-5"
     },
     {
-      "date": "20230301",
-      "tournament": "ITF M15 Monastir 9 Men",
+      "date": "20230315",
+      "tournament": "ITF M15 Monastir 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Moeller",
-      "score": "6(7)-7(9) 7-5 7(8)-6(6)"
+      "opponent": "N. Schell",
+      "score": "7(7)-6(3) 3-6 3-6"
+    },
+    {
+      "date": "20221229",
+      "tournament": "M15 Monastir 51",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Catarina",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20221228",
+      "tournament": "M15 Monastir 51",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Abibsi",
+      "score": "3-6 6-3 1-6"
     }
   ]
 }
