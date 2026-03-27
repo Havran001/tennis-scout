@@ -452,6 +452,17 @@ const CSS=`
   letter-spacing:0.3px;
 }
 #sb-reload:hover{background:rgba(0,200,83,0.2);}
+#sb-ta-import{
+  width:100%;padding:8px;margin-top:6px;
+  background:rgba(33,150,243,0.1);
+  border:1px solid rgba(33,150,243,0.25);
+  color:#2196F3;border-radius:8px;
+  font-size:11px;font-weight:700;
+  cursor:pointer;transition:all .12s;letter-spacing:0.3px;
+}
+#sb-ta-import:hover{background:rgba(33,150,243,0.22);}
+#sb-ta-import:disabled{opacity:0.5;cursor:not-allowed;}
+#ta-progress{margin-top:8px;font-size:10px;color:rgba(255,255,255,0.5);display:none;line-height:1.6;}
 #sb-close{
   width:100%;padding:6px;margin-top:6px;
   background:transparent;
@@ -1889,6 +1900,8 @@ function buildUI(){
     <div id="sb-footer">
       <button id="sb-reload">↻ Reload dat</button>
       <button id="sb-close">✕ Zavřít</button>
+      <button id="sb-ta-import">⬇ Import Tennis Abstract</button>
+      <div id="ta-progress"></div>
     </div>
   `;
   w.appendChild(sidebar);
