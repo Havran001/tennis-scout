@@ -3,11 +3,37 @@
   "gs_id": "157873",
   "player_name": "Andrea Meduri",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:24:28.166Z",
+  "updated": "2026-03-27T02:55:01.958Z",
   "matches": [
     {
-      "date": "20250903",
-      "tournament": "M15 Bologna",
+      "date": "20250719",
+      "tournament": "M15 Gubbio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. M. Ortenzi",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20250718",
+      "tournament": "M15 Gubbio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. M. Noce",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20250715",
+      "tournament": "M15 Gubbio",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Kivattsev",
-      "score": "5-7 1-6"
+      "opponent": "N. Bruna",
+      "score": "4-6 6-4 4-6"
     }
   ]
 }
