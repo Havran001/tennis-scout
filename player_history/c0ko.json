@@ -3,7 +3,7 @@
   "gs_id": "138355",
   "player_name": "Niccolo Ciavarella",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:22:47.063Z",
+  "updated": "2026-03-27T09:28:53.093Z",
   "matches": [
     {
       "date": "20251028",
@@ -19,45 +19,6 @@
       "score": "6-1 6-1"
     },
     {
-      "date": "20250827",
-      "tournament": "M15 Forli",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Beraldo",
-      "score": "6-3 3-6 2-6"
-    },
-    {
-      "date": "20250826",
-      "tournament": "M15 Forli",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Cattaneo",
-      "score": "3-6 0-6"
-    },
-    {
-      "date": "20250702",
-      "tournament": "M15 Tanger",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Dlimi",
-      "score": "6-2 4-0 ret."
-    },
-    {
       "date": "20250604",
       "tournament": "M15 Caltanissetta",
       "surface": "Hard",
@@ -71,21 +32,34 @@
       "score": "6-2 6-4"
     },
     {
-      "date": "20250426",
-      "tournament": "M15 Kursumlijska Banja",
+      "date": "20241017",
+      "tournament": "M15 Bol 3",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Juhas",
-      "score": "6(5)-7(7) 4-6"
+      "opponent": "L. Mikrut",
+      "score": "6-3 1-6 4-6"
     },
     {
-      "date": "20250425",
-      "tournament": "M15 Kursumlijska Banja",
+      "date": "20241015",
+      "tournament": "M15 Bol 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Djosic",
+      "score": "4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240913",
+      "tournament": "ITF M15 Buzau Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Obradovic",
-      "score": "6-2 6-3"
+      "opponent": "S. A. Andreescu",
+      "score": "3-6 6-4 0-6"
     },
     {
-      "date": "20250423",
-      "tournament": "M15 Kursumlijska Banja",
+      "date": "20240913",
+      "tournament": "ITF M15 Buzau Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. N. Cazacu",
+      "score": "7(7)-6(2) 7-5"
+    },
+    {
+      "date": "20240910",
+      "tournament": "ITF M15 Buzau Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +93,90 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Stanisavljevic",
-      "score": "6-4 6-3"
+      "opponent": "V. C. Breazu",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240617",
-      "tournament": "ITF M25 Cattolica Men",
+      "date": "20240906",
+      "tournament": "ITF M15 Bologna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Erhard",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240905",
+      "tournament": "ITF M15 Bologna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. A. Caniato",
+      "score": "2-6 6(2)-7(7)"
+    },
+    {
+      "date": "20240903",
+      "tournament": "ITF M15 Bologna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Peliwo",
+      "score": "7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20240829",
+      "tournament": "ITF M15 Cap d'Agde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Bouquet",
+      "score": "1-6 6-3 3-6"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Cap d'Agde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Lagarrigue",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240827",
+      "tournament": "ITF M15 Cap d'Agde Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "U. M. Giovannini",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240806",
+      "tournament": "ITF M25 Montesilvano Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +184,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Kestelboim",
-      "score": "1-6 5-7"
+      "opponent": "M. Dellavedova",
+      "score": "3-6 6-2 0-6"
     },
     {
       "date": "20240522",
@@ -134,45 +199,6 @@
       "result": "L",
       "opponent": "I. Beloborodko",
       "score": "4-6 7(7)-6(4) 7-5"
-    },
-    {
-      "date": "20230913",
-      "tournament": "M15 Buschhausen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Naw",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20230906",
-      "tournament": "ITF M15 Constanta 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Campana",
-      "score": "5-7 3-6"
-    },
-    {
-      "date": "20230530",
-      "tournament": "M25 Rome",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Barrena",
-      "score": "4-6 2-6"
     }
   ]
 }
