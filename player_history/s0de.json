@@ -1,26 +1,13 @@
 {
   "player_id": "s0de",
-  "gs_id": "144063",
-  "player_name": "Dhakshineswar Suresh",
+  "gs_id": "42074",
+  "player_name": "Darrshan Suresh",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:54:12.953Z",
+  "updated": "2026-03-27T03:51:30.967Z",
   "matches": [
     {
-      "date": "20250712",
-      "tournament": "M25 Dallas",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Rybakov",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20250711",
-      "tournament": "M25 Dallas",
+      "date": "20231110",
+      "tournament": "ITF M15 Winston-Salem",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,25 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Vithoontien",
-      "score": "6-2 6-3"
+      "opponent": "R. Catry",
+      "score": "6-2 3-6 6-1"
     },
     {
-      "date": "20250710",
-      "tournament": "M25 Dallas",
+      "date": "20230921",
+      "tournament": "ITF M25 Sharm ElSheikh 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Kuzuhara",
-      "score": "6-3 5-7 3-6"
+      "result": "L",
+      "opponent": "B. Ilkel",
+      "score": "4-6 6-3 2-6"
     },
     {
-      "date": "20250708",
-      "tournament": "M25 Dallas",
+      "date": "20230920",
+      "tournament": "ITF M25 Sharm ElSheikh 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Clark",
-      "score": "1-6 3-6"
+      "opponent": "K. Ibrahim",
+      "score": "6-4 4-6 6-4"
+    },
+    {
+      "date": "20221123",
+      "tournament": "M25 Monastir 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bouquier",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20220928",
+      "tournament": "M25 Tay Ninh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. K. Sinha",
+      "score": "6-4 4-6 6-2"
+    },
+    {
+      "date": "20220726",
+      "tournament": "M15 Kuala Lumpur",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ilagan",
+      "score": "6-2 6-0"
     }
   ]
 }
