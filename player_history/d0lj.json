@@ -3,50 +3,37 @@
   "gs_id": "211583",
   "player_name": "Diego Dedura",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:56:47.962Z",
+  "updated": "2026-03-27T03:55:07.970Z",
   "matches": [
     {
-      "date": "20260228",
-      "tournament": "Tigre 2",
+      "date": "20251007",
+      "tournament": "Valencia",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Damas",
-      "score": "6-4 4-6 7-5"
+      "opponent": "C. Taberner",
+      "score": "3-6 6-4 4-2 ret."
     },
     {
-      "date": "20260227",
-      "tournament": "Tigre 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. P. Varillas",
-      "score": "6-4 7(7)-6(3)"
-    },
-    {
-      "date": "20260226",
-      "tournament": "Tigre 2",
+      "date": "20241128",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. M. La Serna",
-      "score": "6-1 6-3"
+      "result": "L",
+      "opponent": "J. Reis Da Silva",
+      "score": "6-2 6(1)-7(7) 6-2"
     },
     {
-      "date": "20260224",
-      "tournament": "Tigre 2",
+      "date": "20241126",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,34 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Den Ouden",
-      "score": "4-6 0-2 ret."
+      "opponent": "P. Sakamoto",
+      "score": "7(7)-6(3) 6-1"
     },
     {
-      "date": "20260223",
-      "tournament": "Tigre 2",
+      "date": "20241016",
+      "tournament": "M25 Santa Margherita di Pula 11",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Compagnucci",
+      "score": "1-6 7(7)-6(2) 3-6"
+    },
+    {
+      "date": "20241015",
+      "tournament": "M25 Santa Margherita di Pula 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Ratti",
-      "score": "6-3 7(11)-6(9)"
-    },
-    {
-      "date": "20260222",
-      "tournament": "Tigre 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Zanellato",
-      "score": "7(7)-6(4) 6-1"
+      "opponent": "J. Clarke",
+      "score": "6(2)-7(7) 5-2 ret."
     },
     {
       "date": "20240906",
@@ -121,58 +108,6 @@
       "result": "W",
       "opponent": "K. de Hek",
       "score": "6-3 6-0"
-    },
-    {
-      "date": "20240629",
-      "tournament": "ITF M15 Kamen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gulin",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20240628",
-      "tournament": "ITF M15 Kamen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Gentzsch",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20240627",
-      "tournament": "ITF M15 Kamen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Schell",
-      "score": "7(7)-6(4) 6(1)-7(7) 2-5 ret."
-    },
-    {
-      "date": "20240626",
-      "tournament": "ITF M15 Kamen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Donnet",
-      "score": "1-6 3-6"
     }
   ]
 }
