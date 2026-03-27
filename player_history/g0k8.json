@@ -3,11 +3,11 @@
   "gs_id": "138358",
   "player_name": "Giammarco Gandolfi",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:56:14.904Z",
+  "updated": "2026-03-27T01:55:28.171Z",
   "matches": [
     {
-      "date": "20250716",
-      "tournament": "M15 Poprad",
+      "date": "20240402",
+      "tournament": "ITF M25 Santa Margherita di Pula 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Kellovsky",
-      "score": "6(2)-7(7) 3-6"
+      "opponent": "E. Moeller",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20250612",
-      "tournament": "M25 Kiseljak",
+      "date": "20240326",
+      "tournament": "ITF M25 Santa Margherita di Pula Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Catini",
+      "score": "7(7)-6(3) 5-7 6-1"
+    },
+    {
+      "date": "20230616",
+      "tournament": "ITF M15 Chieti Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Sharipov",
-      "score": "1-6 0-6"
+      "opponent": "T. Compagnucci",
+      "score": "6-0 6-1"
     },
     {
-      "date": "20250611",
-      "tournament": "M25 Kiseljak",
+      "date": "20230613",
+      "tournament": "ITF M15 Chieti Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Kalender",
-      "score": "2-6 4-6"
+      "opponent": "B. Massacri",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20230906",
-      "tournament": "ITF M15 Pirot Men",
+      "date": "20230606",
+      "tournament": "M15 Frascati",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,25 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. A. Dancu",
-      "score": "6-3 3-6 6-2"
+      "opponent": "M. Serafini",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20230716",
-      "tournament": "Trieste Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Tabur",
-      "score": "3-6 0-6"
-    },
-    {
-      "date": "20220830",
-      "tournament": "M15 Pescara",
+      "date": "20230502",
+      "tournament": "ITF M25 Santa Margherita di Pula 5 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +80,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Di Nicola",
-      "score": "6-2 6-3"
+      "opponent": "M. Haliak",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20220615",
+      "tournament": "M15 Chieti",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Roncalli",
+      "score": "6(6)-7(8) 2-6"
+    },
+    {
+      "date": "20220601",
+      "tournament": "M15 Budva",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Wenger",
+      "score": "5-7 1-6"
     }
   ]
 }
