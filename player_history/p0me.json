@@ -3,11 +3,24 @@
   "gs_id": "199575",
   "player_name": "Luca Preda",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:06:11.032Z",
+  "updated": "2026-03-27T09:31:58.099Z",
   "matches": [
     {
-      "date": "20250516",
-      "tournament": "M15 Bucharest 2",
+      "date": "20250902",
+      "tournament": "M15 Buzau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Fumagalli",
+      "score": "4-6 5-2 ret."
+    },
+    {
+      "date": "20250523",
+      "tournament": "M15 Bucharest 3",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. A. Boitan",
-      "score": "6(4)-7(7) 6-4 6-2"
+      "opponent": "S. A. Andreescu",
+      "score": "6-0 6-3"
     },
     {
-      "date": "20250515",
-      "tournament": "M15 Bucharest 2",
+      "date": "20250522",
+      "tournament": "M15 Bucharest 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Palosi",
-      "score": "6-4 2-6 0-6"
+      "opponent": "C. Cretu",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20250513",
-      "tournament": "M15 Bucharest 2",
+      "date": "20250520",
+      "tournament": "M15 Bucharest 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -42,20 +55,33 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "I. Miletich",
-      "score": "2-6 6-3 6(2)-7(7)"
+      "score": "1-6 2-6"
     },
     {
-      "date": "20230906",
-      "tournament": "ITF M15 Constanta 2 Men",
+      "date": "20240718",
+      "tournament": "ITF M15 Bucharest 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. D. Turcanu",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240717",
+      "tournament": "ITF M15 Bucharest 4 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. P. Paz",
-      "score": "4-6 4-6"
+      "result": "W",
+      "opponent": "F. Ferrari",
+      "score": "6-4 6-4"
     }
   ]
 }
