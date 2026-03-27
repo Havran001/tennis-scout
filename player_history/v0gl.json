@@ -3,8 +3,60 @@
   "gs_id": "182675",
   "player_name": "Gray Voelzke",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:11:23.016Z",
+  "updated": "2026-03-27T11:03:00.126Z",
   "matches": [
+    {
+      "date": "20260308",
+      "tournament": "Kigali 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Steiner",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20260302",
+      "tournament": "Kigali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Dalla Valle",
+      "score": "7(7)-6(5) 3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20260301",
+      "tournament": "Kigali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Dev S D",
+      "score": "6-3 3-6 7(7)-6(3)"
+    },
+    {
+      "date": "20250812",
+      "tournament": "M15 Turku",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Larue",
+      "score": "7(9)-6(7) 6-2"
+    },
     {
       "date": "20250807",
       "tournament": "M25 Brazzaville 2",
@@ -45,30 +97,17 @@
       "score": "6-4 6-2"
     },
     {
-      "date": "20250516",
-      "tournament": "M25 Xalapa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. C. Prado Angelo",
-      "score": "6-0 6-3"
-    },
-    {
-      "date": "20250514",
-      "tournament": "M25 Xalapa",
+      "date": "20250715",
+      "tournament": "M15 Hillcrest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Kumar",
-      "score": "4-6 4-6"
+      "result": "L",
+      "opponent": "I. Eqbal",
+      "score": "6-3 6-3"
     }
   ]
 }
