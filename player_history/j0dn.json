@@ -3,8 +3,21 @@
   "gs_id": "157895",
   "player_name": "Aljaz Jeran",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:55:39.959Z",
+  "updated": "2026-03-27T06:10:05.013Z",
   "matches": [
+    {
+      "date": "20251119",
+      "tournament": "M25 Heraklion 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "6-1 6-1"
+    },
     {
       "date": "20250828",
       "tournament": "M25 Maribor 2",
@@ -58,30 +71,17 @@
       "score": "6-3 6-1"
     },
     {
-      "date": "20250710",
-      "tournament": "M15 Litija",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Demanet",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20250709",
-      "tournament": "M15 Litija",
+      "date": "20250430",
+      "tournament": "M15 Kursumlijska Banja 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Parenti",
-      "score": "2-6 4-6"
+      "result": "L",
+      "opponent": "D. A. Barreto Sanchez",
+      "score": "6-4 6-4"
     },
     {
       "date": "20240821",
@@ -97,8 +97,8 @@
       "score": "2-6 1-6"
     },
     {
-      "date": "20240522",
-      "tournament": "M15 Celje",
+      "date": "20240501",
+      "tournament": "M15 Osijek",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Paty",
-      "score": "6-4 6-4"
+      "opponent": "L. Mikrut",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20230628",
-      "tournament": "ITF M15 Celje Men",
+      "date": "20231101",
+      "tournament": "M15 Al Zahra 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Nicod",
-      "score": "6-2 4-6 6-2"
+      "opponent": "S. Puskar",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20220824",
-      "tournament": "M15 Celje",
+      "date": "20231023",
+      "tournament": "M15 Al Zahra",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,21 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Kielan",
-      "score": ""
-    },
-    {
-      "date": "20220720",
-      "tournament": "M25 Radomlje",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Tonejc",
-      "score": "7-5 6-3"
+      "opponent": "P. B. Privara",
+      "score": "3-6 0-6"
     }
   ]
 }
