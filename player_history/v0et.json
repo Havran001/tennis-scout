@@ -3,11 +3,11 @@
   "gs_id": "119543",
   "player_name": "Matas Vasiliauskas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:03.991Z",
+  "updated": "2026-03-27T06:07:02.014Z",
   "matches": [
     {
-      "date": "20251216",
-      "tournament": "M15 Tauranga",
+      "date": "20250805",
+      "tournament": "M25 Brazzaville 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Bataljin",
-      "score": "6-2 2-6 4-6"
+      "opponent": "R. Bennani",
+      "score": "6-1 6-3"
     },
     {
-      "date": "20251105",
-      "tournament": "M15 Sharm ElSheikh 16",
+      "date": "20250801",
+      "tournament": "M25 Brazzaville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ouakaa",
+      "score": "6-1 4-6 6-4"
+    },
+    {
+      "date": "20250731",
+      "tournament": "M25 Brazzaville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Bittoun",
+      "score": "7(7)-6(0) 6(5)-7(7) 1-6"
+    },
+    {
+      "date": "20250730",
+      "tournament": "M25 Brazzaville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Teunissen",
+      "score": "7-5 4-6 6-1"
+    },
+    {
+      "date": "20250715",
+      "tournament": "M25 Kramsach",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Krajci",
-      "score": "6-4 6-4"
+      "opponent": "O. Ovcharenko",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M15 Nyiregyhaza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Orlikowski",
+      "score": "4-6 6-4 3-6"
     },
     {
       "date": "20250430",
@@ -43,58 +95,6 @@
       "result": "L",
       "opponent": "D. Merida Aguilar",
       "score": "1-6 2-6"
-    },
-    {
-      "date": "20241127",
-      "tournament": "M15 Sharm ElSheikh 18",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Gloeckler",
-      "score": "7-5 3-6 4-6"
-    },
-    {
-      "date": "20241121",
-      "tournament": "M15 Sharm ElSheikh 17",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Gengel",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20241120",
-      "tournament": "M15 Sharm ElSheikh 17",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Schroeter",
-      "score": "3-6 6(8)-7(10)"
-    },
-    {
-      "date": "20230117",
-      "tournament": "M15 Vilnius",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Duran",
-      "score": "6-1 7(7)-6(2)"
     }
   ]
 }
