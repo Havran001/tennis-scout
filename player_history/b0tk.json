@@ -3,11 +3,37 @@
   "gs_id": "214902",
   "player_name": "Pepijn Bastiaansen",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:15:37.865Z",
+  "updated": "2026-03-27T03:49:36.968Z",
   "matches": [
     {
-      "date": "20260303",
-      "tournament": "M15 Poitiers",
+      "date": "20250731",
+      "tournament": "M25 Wetzlar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
+      "score": "1-6 6-2 7(9)-6(7)"
+    },
+    {
+      "date": "20250730",
+      "tournament": "M25 Wetzlar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Einig",
+      "score": "3-6 7(7)-6(3) 7(7)-6(5)"
+    },
+    {
+      "date": "20250618",
+      "tournament": "M15 Duffel",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Dussin",
-      "score": "7(7)-6(4) 7-5"
+      "opponent": "N. Ratiu",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Haren Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Gulin",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20230801",
+      "tournament": "M15 Eindhoven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sigsgaard",
+      "score": "6-2 6-3"
     }
   ]
 }
