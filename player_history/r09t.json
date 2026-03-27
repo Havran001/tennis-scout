@@ -3,11 +3,50 @@
   "gs_id": "78696",
   "player_name": "Alexandre Reco",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:54:54.991Z",
+  "updated": "2026-03-27T06:04:46.040Z",
   "matches": [
     {
-      "date": "20240903",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "date": "20250529",
+      "tournament": "M25 Carnac",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Perot",
+      "score": "7-5 6(5)-7(7) 6-3"
+    },
+    {
+      "date": "20250529",
+      "tournament": "M25 Carnac",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Lamasine",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250527",
+      "tournament": "M25 Carnac",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Paris",
+      "score": "6-3 3-6 1-6"
+    },
+    {
+      "date": "20240527",
+      "tournament": "ITF M25 Carnac Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Bertimon",
-      "score": "7(7)-6(2) 7(7)-6(5)"
+      "opponent": "M. Malige",
+      "score": "6-3 6-1"
     },
     {
       "date": "20240430",
@@ -30,58 +69,6 @@
       "result": "W",
       "opponent": "E. Lumsden",
       "score": "6-3 3-6 3-6"
-    },
-    {
-      "date": "20240404",
-      "tournament": "ITF M15 Lons-le-Saunier Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Dussin",
-      "score": "7-5 6-2"
-    },
-    {
-      "date": "20240402",
-      "tournament": "ITF M15 Lons-le-Saunier Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Fassbender",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20230905",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Wallner",
-      "score": "6(1)-7(7) 6(6)-7(8)"
-    },
-    {
-      "date": "20221019",
-      "tournament": "M25 Glasgow 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Fery",
-      "score": "6-4 6-0"
     }
   ]
 }
