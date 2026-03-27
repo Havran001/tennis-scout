@@ -3,20 +3,33 @@
   "gs_id": "142226",
   "player_name": "Julien Penzlin",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:56:58.899Z",
+  "updated": "2026-03-27T01:56:16.933Z",
   "matches": [
     {
-      "date": "20250923",
-      "tournament": "M25 Falun",
+      "date": "20251127",
+      "tournament": "M15 Monastir 43",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Bennani",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20251126",
+      "tournament": "M15 Monastir 43",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Stidell",
-      "score": "6-1 4-6 5-7"
+      "result": "W",
+      "opponent": "V. Iakubenko",
+      "score": "6-3 5-2 ret."
     }
   ]
 }
