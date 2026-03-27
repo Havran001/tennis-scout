@@ -1,35 +1,74 @@
 {
   "player_id": "bk24",
-  "gs_id": "167832",
-  "player_name": "Victor Barrere",
+  "gs_id": "6505",
+  "player_name": "Gregoire Barrere",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:26:14.066Z",
+  "updated": "2026-03-27T09:25:03.094Z",
   "matches": [
     {
-      "date": "20260219",
-      "tournament": "M15 Lannion",
+      "date": "20251109",
+      "tournament": "Lyon 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Nagel",
-      "score": "6-1 6-2"
+      "opponent": "G. Blancaneaux",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20260218",
-      "tournament": "M15 Lannion",
+      "date": "20241115",
+      "tournament": "Lyon 2",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Collignon",
+      "score": "6(4)-7(7) 1-6"
+    },
+    {
+      "date": "20241114",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Royer",
+      "score": "7(19)-6(17) 3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20241113",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Sachko",
+      "score": "6-1 6(5)-7(7) 6-4"
+    },
+    {
+      "date": "20241112",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Trufelli",
-      "score": "3-6 2-6"
+      "opponent": "A. Gautier",
+      "score": "6(5)-7(7) 5-7"
     }
   ]
 }
