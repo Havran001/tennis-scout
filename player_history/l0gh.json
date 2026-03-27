@@ -3,20 +3,59 @@
   "gs_id": "123366",
   "player_name": "Mark Lajal",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:47:27.989Z",
+  "updated": "2026-03-27T04:56:39.989Z",
   "matches": [
     {
-      "date": "20240327",
-      "tournament": "Girona Challenger Men",
+      "date": "20230520",
+      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Elias",
-      "score": "7-5 6-2"
+      "opponent": "M. Topo",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230519",
+      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Poljicak",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230518",
+      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Cungu",
+      "score": "6-4 3-6 3-6"
+    },
+    {
+      "date": "20230517",
+      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Novakovic",
+      "score": "0-6 4-6"
     },
     {
       "date": "20230512",
@@ -56,71 +95,6 @@
       "result": "W",
       "opponent": "L. Vojinovic",
       "score": "6-0 6-1"
-    },
-    {
-      "date": "20221204",
-      "tournament": "M25 Monastir 11",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Bu",
-      "score": "4-6 1-6"
-    },
-    {
-      "date": "20221203",
-      "tournament": "M25 Monastir 11",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Dougaz",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20221202",
-      "tournament": "M25 Monastir 11",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Ch. Negritu",
-      "score": "6-4 7-5"
-    },
-    {
-      "date": "20221201",
-      "tournament": "M25 Monastir 11",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Berger",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20221130",
-      "tournament": "M25 Monastir 11",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Evans",
-      "score": "7-5 7(7)-6(2)"
     }
   ]
 }
