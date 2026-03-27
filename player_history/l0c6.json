@@ -3,46 +3,59 @@
   "gs_id": "69144",
   "player_name": "Stefan Latinovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:03:11.543Z",
+  "updated": "2026-03-27T08:13:52.063Z",
   "matches": [
     {
-      "date": "20250423",
-      "tournament": "M15 Kursumlijska Banja",
+      "date": "20260309",
+      "tournament": "Kigali 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Obradovic",
-      "score": "6-2 5-7 6-3"
+      "opponent": "G. Iradukunda",
+      "score": "1-6 5-7"
     },
     {
-      "date": "20240605",
-      "tournament": "M25 Kursumlijska Banja 2",
+      "date": "20260308",
+      "tournament": "Kigali 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Djuric",
-      "score": "7-5 4-6 6-1"
+      "result": "W",
+      "opponent": "M. De Krom",
+      "score": "3-6 7(10)-6(8) 6-3"
     },
     {
-      "date": "20240515",
-      "tournament": "ITF M15 Kursumlijska Banja 4 Men",
+      "date": "20240926",
+      "tournament": "M25 Zlatibor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Erhard",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20240925",
+      "tournament": "M25 Zlatibor",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Butvilas",
-      "score": "5-7 7(7)-6(3) 7-5"
+      "result": "W",
+      "opponent": "A. Radojicic",
+      "score": "6-2 7-5"
     }
   ]
 }
