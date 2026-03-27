@@ -3,46 +3,33 @@
   "gs_id": "160183",
   "player_name": "Tyler Stice",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:55:43.962Z",
+  "updated": "2026-03-27T04:59:05.992Z",
   "matches": [
     {
-      "date": "20250606",
-      "tournament": "M15 San Diego",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Tarvet",
-      "score": "6-0 6-2"
-    },
-    {
-      "date": "20250605",
-      "tournament": "M15 San Diego",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Hulme",
-      "score": "3-6 7(7)-6(5) 7(7)-6(3)"
-    },
-    {
-      "date": "20250603",
-      "tournament": "M15 San Diego",
+      "date": "20250128",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Schachter",
-      "score": "6(6)-7(8) 2-6"
+      "result": "L",
+      "opponent": "M. Jones",
+      "score": "4-6 6-2 7-5"
+    },
+    {
+      "date": "20241127",
+      "tournament": "M15 Madrid 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Guerrieri",
+      "score": "4-6 1-6"
     },
     {
       "date": "20240827",
@@ -58,17 +45,30 @@
       "score": "6-3 6-3"
     },
     {
-      "date": "20230726",
-      "tournament": "M15 Pittsburgh",
+      "date": "20231026",
+      "tournament": "M15 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Fishback",
+      "score": "6-3 2-6 6-3"
+    },
+    {
+      "date": "20231025",
+      "tournament": "M15 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Dickerson",
-      "score": "2-6 6-4 6-1"
+      "result": "W",
+      "opponent": "M. Whitehouse",
+      "score": "1-6 6-3 3-6"
     }
   ]
 }
