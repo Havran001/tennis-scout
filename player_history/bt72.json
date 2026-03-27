@@ -3,8 +3,47 @@
   "gs_id": "31816",
   "player_name": "Nuno Borges",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:50:39.990Z",
+  "updated": "2026-03-27T05:41:38.025Z",
   "matches": [
+    {
+      "date": "20240503",
+      "tournament": "Cagliari",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Musetti",
+      "score": "1-6 6-1 6-2"
+    },
+    {
+      "date": "20240502",
+      "tournament": "Cagliari",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Nishioka",
+      "score": "6-3 6(3)-7(7) 6-3"
+    },
+    {
+      "date": "20240501",
+      "tournament": "Cagliari",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Maestrelli",
+      "score": "6-3 7-5"
+    },
     {
       "date": "20221123",
       "tournament": "Valencia",
@@ -30,32 +69,6 @@
       "result": "W",
       "opponent": "K. Coppejans",
       "score": "6-3 6-2"
-    },
-    {
-      "date": "20221020",
-      "tournament": "Napoli",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. E. Galan",
-      "score": "6(5)-7(7) 4-6"
-    },
-    {
-      "date": "20221018",
-      "tournament": "Napoli",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Ramos",
-      "score": "7-5 7(7)-6(5)"
     }
   ]
 }
