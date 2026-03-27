@@ -3,11 +3,11 @@
   "gs_id": "142047",
   "player_name": "Nicaise Muamba",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:54.988Z",
+  "updated": "2026-03-27T06:08:33.019Z",
   "matches": [
     {
-      "date": "20251105",
-      "tournament": "M25 Montreal",
+      "date": "20250702",
+      "tournament": "M25 Laval",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Ayeni",
-      "score": "1-6 4-6"
+      "opponent": "K. Poling",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20231025",
-      "tournament": "M25 Saint-Augustin",
+      "date": "20240717",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Q. Xu",
-      "score": "6(3)-7(7) 3-6"
+      "opponent": "I. Miletich",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20230714",
+      "tournament": "ITF M25 Laval Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. McCormick",
+      "score": "5-7 6(8)-7(10)"
+    },
+    {
+      "date": "20230712",
+      "tournament": "ITF M25 Laval Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. St-Hilaire",
+      "score": "4-6 6(5)-7(7)"
     },
     {
       "date": "20230426",
@@ -69,19 +95,6 @@
       "result": "W",
       "opponent": "A. Jones",
       "score": "7(7)-6(4) 6-1"
-    },
-    {
-      "date": "20230308",
-      "tournament": "M25 Montreal",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Ogura",
-      "score": "5-7 2-6"
     }
   ]
 }
