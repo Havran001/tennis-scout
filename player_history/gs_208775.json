@@ -3,11 +3,24 @@
   "gs_id": "208775",
   "player_name": "Kazuma Lee Karl",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:00:23.944Z",
+  "updated": "2026-03-27T05:00:19.989Z",
   "matches": [
     {
-      "date": "20250619",
-      "tournament": "M15 Rancho Santa Fe",
+      "date": "20250702",
+      "tournament": "M15 Los Angeles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Goncalves",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Lakewood",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Kang",
-      "score": "3-6 6-3 2-6"
+      "opponent": "E. van Loben Sels",
+      "score": "6-1 6(3)-7(7) 1-6"
     },
     {
-      "date": "20250618",
-      "tournament": "M15 Rancho Santa Fe",
+      "date": "20240703",
+      "tournament": "ITF M15 Lakewood",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Danilov",
-      "score": "3-6 3-6"
+      "opponent": "N. Ponwith",
+      "score": "7(7)-6(0) 6-3"
     },
     {
-      "date": "20250528",
-      "tournament": "M15 San Diego",
+      "date": "20240627",
+      "tournament": "ITF M15 Los Angeles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. D. Hara Friend",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20240626",
+      "tournament": "ITF M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Brumm",
+      "score": "6(2)-7(7) 3-6"
+    },
+    {
+      "date": "20230707",
+      "tournament": "ITF M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "L. Liu",
-      "score": "3-6 1-6"
+      "opponent": "J. F. Angele",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20230706",
+      "tournament": "ITF M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Boyer",
+      "score": "6-4 0-0 ret."
+    },
+    {
+      "date": "20230705",
+      "tournament": "ITF M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Chopra",
+      "score": "4-6 6-4 4-6"
     }
   ]
 }
