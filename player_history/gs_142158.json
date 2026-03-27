@@ -3,11 +3,50 @@
   "gs_id": "142158",
   "player_name": "Emil Overbeck Carl",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:41.010Z",
+  "updated": "2026-03-27T07:00:55.039Z",
   "matches": [
     {
-      "date": "20250612",
-      "tournament": "M25 Varnamo",
+      "date": "20260106",
+      "tournament": "Nottingham 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Samuel",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20260105",
+      "tournament": "Nottingham 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Jones",
+      "score": "6(3)-7(7) 4-6"
+    },
+    {
+      "date": "20260104",
+      "tournament": "Nottingham 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Vives Marcos",
+      "score": "4-6 7(7)-6(2) 7(7)-6(3)"
+    },
+    {
+      "date": "20251023",
+      "tournament": "M25 Brisbane",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Vasa",
-      "score": "6-4 1-6 6-3"
+      "opponent": "D. Sweeny",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20250611",
-      "tournament": "M25 Varnamo",
+      "date": "20251022",
+      "tournament": "M25 Brisbane",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +67,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Heinonen",
-      "score": "5-7 6-1 6-4"
+      "opponent": "D. Markovina",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20230614",
-      "tournament": "M25 Risskov/Aarhus",
+      "date": "20240705",
+      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Fajta",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Nedic",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20240703",
+      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Garcia Mestre",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20231218",
+      "tournament": "M15 Papamoa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Den Ouden",
-      "score": "6-1 6-2"
+      "opponent": "M. Bouzige",
+      "score": "4-6 3-6"
     }
   ]
 }
