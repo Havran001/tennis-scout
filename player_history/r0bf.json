@@ -3,11 +3,11 @@
   "gs_id": "142288",
   "player_name": "Franco Ribero",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:48:04.986Z",
+  "updated": "2026-03-27T06:08:49.010Z",
   "matches": [
     {
-      "date": "20241124",
-      "tournament": "Temuco",
+      "date": "20250608",
+      "tournament": "Santa Fe",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Huertas Del Pino",
-      "score": "4-6 6-3 2-6"
+      "opponent": "J. Sperle",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20240228",
-      "tournament": "M25 Tucuman",
+      "date": "20250514",
+      "tournament": "M25 Xalapa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Marti Pujolras",
-      "score": "6-0 6-4"
+      "opponent": "S. Rodriguez Taverna",
+      "score": "3-6 6-4 3-6"
+    },
+    {
+      "date": "20240603",
+      "tournament": "Santa Fe Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Farjat",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240602",
+      "tournament": "Santa Fe Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Mouilleron Salvo",
+      "score": "6(3)-7(7) 1-6"
+    },
+    {
+      "date": "20230524",
+      "tournament": "ITF M15 Huntsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Strode",
+      "score": "0-6 7-5 4-6"
     }
   ]
 }
