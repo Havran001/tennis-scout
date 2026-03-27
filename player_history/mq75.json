@@ -1,22 +1,100 @@
 {
   "player_id": "mq75",
-  "gs_id": "158879",
-  "player_name": "Adam Majchrzak",
+  "gs_id": "20366",
+  "player_name": "Kamil Majchrzak",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:58:44.996Z",
+  "updated": "2026-03-27T05:41:21.022Z",
   "matches": [
     {
-      "date": "20250803",
-      "tournament": "Grodzisk Mazowiecki",
+      "date": "20240525",
+      "tournament": "Skopje Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. J. Schwaerzler",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240524",
+      "tournament": "Skopje Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Seggerman",
+      "score": "7(7)-6(2) 6(6)-7(8) 6-2"
+    },
+    {
+      "date": "20240523",
+      "tournament": "Skopje Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Weis",
+      "score": "3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240522",
+      "tournament": "Skopje Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Forejtek",
+      "score": "3-6 6-3 1-6"
+    },
+    {
+      "date": "20240520",
+      "tournament": "Skopje Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Onclin",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240125",
+      "tournament": "Ottignies-Louvain-la-Neuve",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "F. Andaloro",
-      "score": "6(2)-7(7) 3-6"
+      "opponent": "B. Coric",
+      "score": "6(4)-7(7) 6-3 3-6"
+    },
+    {
+      "date": "20240124",
+      "tournament": "Ottignies-Louvain-la-Neuve",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Kasnikowski",
+      "score": "6-4 4-6 6-3"
     }
   ]
 }
