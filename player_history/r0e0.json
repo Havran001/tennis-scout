@@ -1,1 +1,61 @@
-{"player_id":"r0e0","gs_id":"57920","player_name":"Chris Rodesch","source":"goalserve-full","updated":"2026-03-27","matches":[{"id":"MRDecBAm","date":"20260326","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Mejia N.","score":"0-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"MRDecBAm","date":"20260326","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Mejia N.","score":"0-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"0ft7s7Wh","date":"20260325","tournament":"CHALLENGER MEN - SINGLES: Morelia (Mexico), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Polmans M.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20260317","tournament":"ATP Miami","surface":"Hard","level":"B","round":"SF","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"A. Walton","score":"2-6 4-6"}],"total":4}
+{
+  "player_id": "r0e0",
+  "gs_id": "57920",
+  "player_name": "Chris Rodesch",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T09:56:22.539Z",
+  "matches": [
+    {
+      "date": "20260114",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Jodar",
+      "score": "7(12)-6(10) 6-3"
+    },
+    {
+      "date": "20260113",
+      "tournament": "Australian Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Harris",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250818",
+      "tournament": "US Open",
+      "surface": "Hard",
+      "level": "G",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Wong",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20180807",
+      "tournament": "Trier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Choinski",
+      "score": "1-6 5-7"
+    }
+  ]
+}
