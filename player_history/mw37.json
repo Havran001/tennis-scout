@@ -3,11 +3,11 @@
   "gs_id": "142047",
   "player_name": "Nicaise Muamba",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:55:50.940Z",
+  "updated": "2026-03-27T04:57:54.988Z",
   "matches": [
     {
-      "date": "20250604",
-      "tournament": "M25 Santo Domingo 3",
+      "date": "20251105",
+      "tournament": "M25 Montreal",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Baadi",
-      "score": "3-6 6-1 2-6"
+      "opponent": "A. Ayeni",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20231004",
-      "tournament": "M15 Ithaca",
+      "date": "20231025",
+      "tournament": "M25 Saint-Augustin",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Ciric",
-      "score": "4-6 4-6"
+      "opponent": "K. Q. Xu",
+      "score": "6(3)-7(7) 3-6"
     },
     {
-      "date": "20230628",
-      "tournament": "ITF M25 Santo Domingo 3 Men",
+      "date": "20230426",
+      "tournament": "M15 Tacarigua 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Diaz Jalil",
-      "score": "6(2)-7(7) 2-6"
+      "opponent": "L. Vithoontien",
+      "score": "6(4)-7(7) 6(3)-7(7)"
+    },
+    {
+      "date": "20230420",
+      "tournament": "M15 Tacarigua",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Rahman",
+      "score": "4-6 6-3 4-6"
+    },
+    {
+      "date": "20230418",
+      "tournament": "M15 Tacarigua",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Jones",
+      "score": "7(7)-6(4) 6-1"
+    },
+    {
+      "date": "20230308",
+      "tournament": "M25 Montreal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Ogura",
+      "score": "5-7 2-6"
     }
   ]
 }
