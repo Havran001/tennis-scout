@@ -3,11 +3,50 @@
   "gs_id": "169610",
   "player_name": "Antoine Berger",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:53:06.939Z",
+  "updated": "2026-03-27T04:49:06.981Z",
   "matches": [
     {
-      "date": "20250626",
-      "tournament": "M15 Monastir 25",
+      "date": "20250805",
+      "tournament": "M15 Singapore",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Matsuoka",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250402",
+      "tournament": "M15 Lons-le-Saunier",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Ghazouani Durand",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20231213",
+      "tournament": "ITF M15 Sharm ElSheikh 20 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Elsayed",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230406",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. A. Saraiva Dos Santos",
-      "score": "6-1 6-1"
+      "opponent": "A. Bouquier",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20250624",
-      "tournament": "M15 Monastir 25",
+      "date": "20230405",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. De Gabriele",
-      "score": "6-4 6-1"
+      "opponent": "A. Ruscica",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20250612",
-      "tournament": "M15 Vaasa",
+      "date": "20221201",
+      "tournament": "M25 Monastir 11",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Fiorentini",
-      "score": "3-6 6(5)-7(7)"
+      "opponent": "M. Lajal",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20250611",
-      "tournament": "M15 Vaasa",
+      "date": "20221130",
+      "tournament": "M25 Monastir 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Vulpitta",
-      "score": "3-6 1-6"
+      "opponent": "N. Larwig",
+      "score": "0-6 4-6"
     },
     {
-      "date": "20240625",
-      "tournament": "M25 Bourg-en-Bresse",
+      "date": "20221102",
+      "tournament": "M25 Monastir 9",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,21 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "6(5)-7(7) 4-6"
-    },
-    {
-      "date": "20240326",
-      "tournament": "ITF M25 Saint Dizier Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Brosset",
-      "score": "7(7)-6(3) 7-5"
+      "opponent": "K. Zuk",
+      "score": "4-6 2-6"
     }
   ]
 }
