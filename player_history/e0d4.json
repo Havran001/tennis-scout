@@ -3,24 +3,11 @@
   "gs_id": "148953",
   "player_name": "Kevin Edengren",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:57:09.904Z",
+  "updated": "2026-03-27T02:55:14.958Z",
   "matches": [
     {
-      "date": "20250730",
-      "tournament": "M15 Xativa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Miletich",
-      "score": "6-3 3-6 6-1"
-    },
-    {
-      "date": "20250515",
-      "tournament": "M15 Monastir 19",
+      "date": "20250807",
+      "tournament": "M15 Eupen",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Zhukov",
-      "score": "6-4 6-4"
+      "opponent": "A. Gobat",
+      "score": "0-6 3-6"
     },
     {
-      "date": "20250514",
-      "tournament": "M15 Monastir 19",
+      "date": "20250806",
+      "tournament": "M15 Eupen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Schaer",
-      "score": "6-4 4-6 4-6"
+      "opponent": "A. Basile",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230726",
-      "tournament": "M15 Vejle",
+      "date": "20220817",
+      "tournament": "M15 Malmo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Rivet",
-      "score": "6-3 4-6 5-7"
+      "opponent": "S. Kopp",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20220511",
+      "tournament": "M25 Kalmar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Zima",
+      "score": "7-5 6-2"
     }
   ]
 }
