@@ -3,11 +3,11 @@
   "gs_id": "152671",
   "player_name": "Tomas Geschwind Francisco",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:57:24.907Z",
+  "updated": "2026-03-27T03:53:52.967Z",
   "matches": [
     {
-      "date": "20221109",
-      "tournament": "M15 Cordoba",
+      "date": "20230315",
+      "tournament": "ITF M25 Anapoima Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
+      "opponent": "D. Yevseyev",
+      "score": "6-2 7(7)-6(2)"
+    },
+    {
+      "date": "20221116",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. J. Rodriguez",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20221103",
+      "tournament": "M25 Salta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
       "opponent": "G. Lama",
-      "score": "4-6 2-6"
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20221102",
+      "tournament": "M25 Salta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Estevez",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20221020",
+      "tournament": "ITF M25 Rio de Janeiro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Fonseca",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20221018",
+      "tournament": "ITF M25 Rio de Janeiro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Barrena",
+      "score": "6-2 3-6 0-2 ret."
     }
   ]
 }
