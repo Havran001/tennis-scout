@@ -1,13 +1,13 @@
 {
   "player_id": "m0u5",
-  "gs_id": "179762",
-  "player_name": "Milos Mikovic",
+  "gs_id": "164985",
+  "player_name": "Nik Mikovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:05:47.031Z",
+  "updated": "2026-03-27T08:25:56.066Z",
   "matches": [
     {
-      "date": "20240703",
-      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
+      "date": "20240717",
+      "tournament": "ITF M15 Slovenska Bistrica Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Jovic",
-      "score": "6-3 4-6 1-6"
+      "opponent": "A. Martin",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20240528",
+      "tournament": "M15 Vrhnika",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Artnak",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20240515",
+      "tournament": "M15 Villach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Puskar",
+      "score": "6-4 5-7 3-6"
+    },
+    {
+      "date": "20240514",
+      "tournament": "M15 Villach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Oetzbach",
+      "score": "7(7)-6(2) 6-3"
+    },
+    {
+      "date": "20240424",
+      "tournament": "M15 Split",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Szajrych",
+      "score": "6-3 6-2"
     }
   ]
 }
