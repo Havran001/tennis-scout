@@ -1,1 +1,61 @@
-{"player_id":"k0mb","sack_id":"212476","name":"Noritaka Koizumi","total":0,"matches":[]}
+{
+  "player_id": "k0mb",
+  "gs_id": "225736",
+  "player_name": "Noritaka Koizumi",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T07:07:16.030Z",
+  "matches": [
+    {
+      "date": "20250605",
+      "tournament": "M15 Karuizawa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Kawahashi",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20250604",
+      "tournament": "M15 Karuizawa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Minakata",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20230921",
+      "tournament": "ITF M25 Takasaki Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Ochi",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20230919",
+      "tournament": "ITF M25 Takasaki Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Taka",
+      "score": "2-6 6-4 6-0"
+    }
+  ]
+}
