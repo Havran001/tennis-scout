@@ -3,24 +3,63 @@
   "gs_id": "142085",
   "player_name": "Atharva Sharma",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:52:09.904Z",
+  "updated": "2026-03-27T06:08:35.020Z",
   "matches": [
     {
-      "date": "20210923",
-      "tournament": "M15 Cairo 15",
+      "date": "20250514",
+      "tournament": "M15 Tehran 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Ivanov",
+      "score": "6(6)-7(8) 2-6"
+    },
+    {
+      "date": "20250507",
+      "tournament": "M15 Tehran",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Dev S D",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20230908",
+      "tournament": "ITF M25 Kigali Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Lock",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20230907",
+      "tournament": "ITF M25 Kigali Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Passaro",
-      "score": "6-2 6-0"
+      "result": "W",
+      "opponent": "D. Salton",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20210922",
-      "tournament": "M15 Cairo 15",
+      "date": "20230906",
+      "tournament": "ITF M25 Kigali Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Tashbulatov",
-      "score": "6-4 3-1 ret."
+      "opponent": "E. Habiyambere",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20210324",
-      "tournament": "M15 Pune",
+      "date": "20230815",
+      "tournament": "M25 Tainan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +80,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Crawford",
-      "score": "1-6 0-6"
+      "opponent": "T. Ichikawa",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20230726",
+      "tournament": "ITF M25 Brazzaville 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Agarwal",
+      "score": "6-1 7-5"
+    },
+    {
+      "date": "20230719",
+      "tournament": "ITF M25 Brazzaville Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Hemery",
+      "score": "0-6 2-6"
     }
   ]
 }
