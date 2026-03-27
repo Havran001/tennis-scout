@@ -3,7 +3,7 @@
   "gs_id": "80797",
   "player_name": "Adrian Boitan Gabi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:05:12.017Z",
+  "updated": "2026-03-27T07:09:35.040Z",
   "matches": [
     {
       "date": "20250518",
@@ -71,19 +71,6 @@
       "score": "5-7 3-6"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Torrealba",
-      "score": "7-5 0-0 ret."
-    },
-    {
       "date": "20240518",
       "tournament": "ITF M15 Bucharest 2 Men",
       "surface": "Hard",
@@ -147,6 +134,19 @@
       "result": "W",
       "opponent": "F. Bax",
       "score": "6(4)-7(7) 6(5)-7(7)"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Constanta 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. A. Chirita",
+      "score": "6-4 2-4 ret."
     },
     {
       "date": "20230902",
@@ -264,110 +264,6 @@
       "result": "W",
       "opponent": "A. Cuceu",
       "score": "6-4 6-2"
-    },
-    {
-      "date": "20230707",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gima",
-      "score": "7(7)-6(5) 6-1"
-    },
-    {
-      "date": "20230706",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. N. Cazacu",
-      "score": "7(7)-6(2) 6-1"
-    },
-    {
-      "date": "20230705",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Calvano",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20230623",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. M. Papoe",
-      "score": "5-7 1-6"
-    },
-    {
-      "date": "20230622",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Haerteis",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20230621",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Manda",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20230620",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Bill",
-      "score": "1-6 0-6"
-    },
-    {
-      "date": "20230611",
-      "tournament": "Palmas Del Mar",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Rodrigues",
-      "score": "2-6 5-7"
     }
   ]
 }
