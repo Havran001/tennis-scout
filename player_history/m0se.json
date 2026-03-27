@@ -3,11 +3,24 @@
   "gs_id": "161518",
   "player_name": "Maxim Mrva",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:30.936Z",
+  "updated": "2026-03-27T07:02:38.043Z",
   "matches": [
     {
-      "date": "20240411",
-      "tournament": "ITF M25 Sharm ElSheikh 2 Men",
+      "date": "20250520",
+      "tournament": "Skopje",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Geerts",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20240808",
+      "tournament": "ITF M15 Eupen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Safwat",
-      "score": "6-2 6-1"
+      "opponent": "J. Loge",
+      "score": "6-4 7(7)-6(1)"
     },
     {
-      "date": "20240410",
-      "tournament": "ITF M25 Sharm ElSheikh 2 Men",
+      "date": "20240806",
+      "tournament": "ITF M15 Eupen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Wendelken",
-      "score": "7(7)-6(5) 6-1"
+      "opponent": "G. Den Heijer",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M15 Sharm ElSheikh 9 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Beloborodko",
+      "score": "6-4 5-7 2-6"
+    },
+    {
+      "date": "20220927",
+      "tournament": "M15 Prostejov",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kupcic",
+      "score": "5-7 7-5 5-7"
     }
   ]
 }
