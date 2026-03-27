@@ -3,11 +3,11 @@
   "gs_id": "96668",
   "player_name": "Jagger Leach",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:57.938Z",
+  "updated": "2026-03-27T11:00:26.125Z",
   "matches": [
     {
-      "date": "20250321",
-      "tournament": "M25 Bakersfield",
+      "date": "20250516",
+      "tournament": "M15 Orlando",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Rybakov",
-      "score": "1-6 6(3)-7(7)"
+      "opponent": "Y. Dlimi",
+      "score": "6-3 6(3)-7(7) 7(7)-6(2)"
     },
     {
-      "date": "20250320",
-      "tournament": "M25 Bakersfield",
+      "date": "20250515",
+      "tournament": "M15 Orlando",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Nguyen",
-      "score": "5-7 6-2 2-6"
+      "opponent": "R. Falck",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20250319",
-      "tournament": "M25 Bakersfield",
+      "date": "20250513",
+      "tournament": "M15 Orlando",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Broom",
-      "score": "6-4 3-6 6-3"
+      "opponent": "L. Vithoontien",
+      "score": "5-7 0-6"
+    },
+    {
+      "date": "20250223",
+      "tournament": "San Diego",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Hilderbrand",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20241001",
+      "tournament": "M15 Ann Arbor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kuhar",
+      "score": "6-4 2-6 6-4"
     }
   ]
 }
