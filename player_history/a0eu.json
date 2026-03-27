@@ -3,47 +3,8 @@
   "gs_id": "77097",
   "player_name": "Alexandre Aubriot",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:54:37.696Z",
+  "updated": "2026-03-27T06:03:44.039Z",
   "matches": [
-    {
-      "date": "20251114",
-      "tournament": "M25 Monastir 10",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Donald",
-      "score": "4-6 1-6"
-    },
-    {
-      "date": "20251113",
-      "tournament": "M25 Monastir 10",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Betov",
-      "score": "6(3)-7(7) 6-3 1-6"
-    },
-    {
-      "date": "20251112",
-      "tournament": "M25 Monastir 10",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Berrettini",
-      "score": "6-4 7(7)-6(5)"
-    },
     {
       "date": "20250611",
       "tournament": "M25 Varnamo",
@@ -58,8 +19,8 @@
       "score": "3-6 3-6"
     },
     {
-      "date": "20241016",
-      "tournament": "M15 Villers-les-Nancy",
+      "date": "20250527",
+      "tournament": "M25 Carnac",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Ponchet",
-      "score": "1-6 4-6"
+      "opponent": "A. Freire Da Silva",
+      "score": "6-4 3-6 6-3"
+    },
+    {
+      "date": "20240626",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Matsuoka",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20240614",
+      "tournament": "ITF M15 Nyiregyhaza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Bosio",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M15 Nyiregyhaza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Hopp",
+      "score": "6-3 6-2"
     },
     {
       "date": "20240517",
@@ -108,32 +108,6 @@
       "result": "W",
       "opponent": "S. Pel",
       "score": "7-5 6-2"
-    },
-    {
-      "date": "20221103",
-      "tournament": "M15 Villers-les-Nancy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Added",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20221102",
-      "tournament": "M15 Villers-les-Nancy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Jacq",
-      "score": "6-2 6-4"
     }
   ]
 }
