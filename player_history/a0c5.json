@@ -3,11 +3,11 @@
   "gs_id": "77014",
   "player_name": "Dimitris Azoidis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:57:21.940Z",
+  "updated": "2026-03-27T03:46:38.970Z",
   "matches": [
     {
-      "date": "20251029",
-      "tournament": "M15 Heraklion 12",
+      "date": "20260318",
+      "tournament": "M25 Heraklion",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Staeheli",
-      "score": "2-6 6-1 0-6"
+      "opponent": "B. Pietri",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20241030",
+      "tournament": "M25 Heraklion 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Dussin",
+      "score": "6-0 2-0 ret."
     },
     {
       "date": "20230802",
@@ -45,17 +58,82 @@
       "score": "2-6 3-6"
     },
     {
-      "date": "20230621",
-      "tournament": "M25 Netanya",
+      "date": "20221027",
+      "tournament": "M15 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Al Allaf",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20221026",
+      "tournament": "M15 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Han",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20220929",
+      "tournament": "M15 Albuquerque",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "D. Vale",
-      "score": "4-6 2-6"
+      "opponent": "M. Rajski",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20220928",
+      "tournament": "M15 Albuquerque",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Kissell",
+      "score": "6-3 1-6 7(7)-6(2)"
+    },
+    {
+      "date": "20220803",
+      "tournament": "M15 Kfar Saba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Simon",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20220801",
+      "tournament": "M15 Kfar Saba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Pennaforti",
+      "score": "4-6 6(4)-7(7)"
     },
     {
       "date": "20220616",
