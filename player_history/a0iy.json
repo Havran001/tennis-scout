@@ -3,37 +3,50 @@
   "gs_id": "147110",
   "player_name": "Alejandro Turriziani Alvarez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:24:16.068Z",
+  "updated": "2026-03-27T12:21:04.156Z",
   "matches": [
     {
-      "date": "20251119",
-      "tournament": "M15 Alcala de Henares",
+      "date": "20251011",
+      "tournament": "M15 Pontevedra",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Winter Lopez",
-      "score": "6-4 6-2"
+      "result": "W",
+      "opponent": "H. S. Callejon",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20241121",
-      "tournament": "ITF M15 Alcala de Henares Men",
+      "date": "20251010",
+      "tournament": "M15 Pontevedra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. A. Barreto Sanchez",
+      "score": "6-3 1-6 2-6"
+    },
+    {
+      "date": "20251009",
+      "tournament": "M15 Pontevedra",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Paris",
-      "score": "3-6 2-6"
+      "result": "W",
+      "opponent": "L. Garcia Paez",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20241120",
-      "tournament": "ITF M15 Alcala de Henares Men",
+      "date": "20251008",
+      "tournament": "M15 Pontevedra",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Hernandez Cortes",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20231213",
-      "tournament": "ITF M15 Ceuta Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Iakubenko",
-      "score": "6-2 4-6 2-6"
+      "opponent": "Y. Demin",
+      "score": "2-6 6-2 4-0 ret."
     }
   ]
 }
