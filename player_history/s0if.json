@@ -1,1 +1,22 @@
-{"player_id":"s0if","gs_id":"37589","player_name":"Stefan Storch","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"hfIh4IcJ","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Marinkov P.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"6ByIBzI5","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Braund A.","score":"2-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20250311","tournament":"M25 Mildura","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"D. Sweeny","score":"3-6 6-2 6-1"}],"total":3}
+{
+  "player_id": "s0if",
+  "gs_id": "37589",
+  "player_name": "Stefan Storch",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:14:06.827Z",
+  "matches": [
+    {
+      "date": "20250311",
+      "tournament": "M25 Mildura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Sweeny",
+      "score": "3-6 6-2 6-1"
+    }
+  ]
+}
