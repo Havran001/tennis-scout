@@ -3,7 +3,7 @@
   "gs_id": "68046",
   "player_name": "Pedro Boscardin Dias",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:42:49.060Z",
+  "updated": "2026-03-27T06:01:54.158Z",
   "matches": [
     {
       "date": "20250611",
@@ -58,6 +58,45 @@
       "score": "4-6 6-3 6-1"
     },
     {
+      "date": "20230818",
+      "tournament": "M25 Trujillo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230817",
+      "tournament": "M25 Trujillo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Soto",
+      "score": "3-6 6-4 6-4"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Trujillo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Pena",
+      "score": "7(7)-6(4) 6-3"
+    },
+    {
       "date": "20230707",
       "tournament": "Santa Fe Challenger Men",
       "surface": "Hard",
@@ -95,45 +134,6 @@
       "result": "W",
       "opponent": "P. Brown",
       "score": "7(7)-6(5) 6-3"
-    },
-    {
-      "date": "20230607",
-      "tournament": "M25 Kursumlijska Banja 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Karlovskiy",
-      "score": "4-6 6-3 4-6"
-    },
-    {
-      "date": "20230522",
-      "tournament": "Skopje Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "W. Leite",
-      "score": "6(4)-7(7) 4-6"
-    },
-    {
-      "date": "20230521",
-      "tournament": "Skopje Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Milev",
-      "score": "2-6 6(3)-7(7)"
     }
   ]
 }
