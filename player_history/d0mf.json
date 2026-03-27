@@ -3,11 +3,89 @@
   "gs_id": "253089",
   "player_name": "Andres Delgadillo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:07:45.033Z",
+  "updated": "2026-03-27T09:32:59.095Z",
   "matches": [
     {
-      "date": "20250515",
-      "tournament": "M25 Xalapa",
+      "date": "20250311",
+      "tournament": "M15 Huamantla 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vales",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250305",
+      "tournament": "M15 Huamantla 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. McHugh",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250212",
+      "tournament": "M15 Huamantla 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Shoemake",
+      "score": "4-6 7(7)-6(4) 6-4"
+    },
+    {
+      "date": "20250129",
+      "tournament": "M15 Huamantla",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Van Emburgh",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20241210",
+      "tournament": "M15 Huamantla 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. J. Bianchi",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20241203",
+      "tournament": "ITF M15 Huamantla 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Burdet",
+      "score": "6-3 5-7 3-6"
+    },
+    {
+      "date": "20241128",
+      "tournament": "ITF M15 Huamantla 5 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. M. Aguilar J.",
-      "score": "6-0 6-0"
+      "opponent": "I. Strode",
+      "score": "6-0 7-5"
     },
     {
-      "date": "20250514",
-      "tournament": "M25 Xalapa",
+      "date": "20241127",
+      "tournament": "ITF M15 Huamantla 5 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Meneo",
-      "score": "6-3 4-6 7-5"
+      "opponent": "A. Burdet",
+      "score": "2-6 7-5 3-6"
+    },
+    {
+      "date": "20240507",
+      "tournament": "ITF M15 Villahermosa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Chappell",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20240414",
+      "tournament": "Acapulco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Glinka",
+      "score": "6-1 6-4"
     }
   ]
 }
