@@ -1,1 +1,48 @@
-{"player_id":"t0en","sack_id":"211326","name":"Gunawan Trismuwantara","total":0,"matches":[]}
+{
+  "player_id": "t0en",
+  "gs_id": "87259",
+  "player_name": "Gunawan Trismuwantara",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T02:53:12.960Z",
+  "matches": [
+    {
+      "date": "20230124",
+      "tournament": "M15 Jakarta 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Singh",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20220817",
+      "tournament": "M15 Jakarta 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Dev S D",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20220720",
+      "tournament": "M15 Seremban",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Suksumrarn",
+      "score": "2-6 1-6"
+    }
+  ]
+}
