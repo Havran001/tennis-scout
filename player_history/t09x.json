@@ -3,7 +3,7 @@
   "gs_id": "34381",
   "player_name": "Clement Tabur",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:50:17.982Z",
+  "updated": "2026-03-27T05:56:58.025Z",
   "matches": [
     {
       "date": "20250510",
@@ -58,43 +58,134 @@
       "score": "6-4 6-4"
     },
     {
-      "date": "20250210",
-      "tournament": "Tenerife 2",
+      "date": "20240705",
+      "tournament": "Karlsruhe",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Fonio",
-      "score": "6-4 1-0 ret."
+      "opponent": "Z. Piros",
+      "score": "5-7 6-4 6-3"
     },
     {
-      "date": "20250209",
-      "tournament": "Tenerife 2",
+      "date": "20240702",
+      "tournament": "Karlsruhe",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Damas",
-      "score": "7(13)-6(11) 6-4"
+      "opponent": "T. Kodat",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20241006",
-      "tournament": "Valencia",
+      "date": "20230707",
+      "tournament": "M25 Biella",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Sanchez Quilez",
-      "score": "6-4 6-4"
+      "opponent": "L. Carboni",
+      "score": "6-2 3-6 6-4"
+    },
+    {
+      "date": "20230706",
+      "tournament": "M25 Biella",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Bocchi",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230705",
+      "tournament": "M25 Biella",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Pecci",
+      "score": "6-4 5-7 6-4"
+    },
+    {
+      "date": "20230704",
+      "tournament": "M25 Biella",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Rajski",
+      "score": "7-5 2-6 7(7)-6(4)"
+    },
+    {
+      "date": "20230602",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hoang",
+      "score": "2-6 6-3 7-5"
+    },
+    {
+      "date": "20230601",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Erhard",
+      "score": "1-6 6(5)-7(7)"
+    },
+    {
+      "date": "20230531",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. A. Gomez",
+      "score": "6(4)-7(7) 7(7)-6(1) 2-6"
+    },
+    {
+      "date": "20230530",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Sadaoui",
+      "score": "2-6 3-6"
     },
     {
       "date": "20230514",
@@ -212,32 +303,6 @@
       "result": "W",
       "opponent": "V. Arnautovic",
       "score": "0-6 0-6"
-    },
-    {
-      "date": "20230412",
-      "tournament": "ITF M15 Telde Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Gaubas",
-      "score": "6-3 2-6 2-6"
-    },
-    {
-      "date": "20230129",
-      "tournament": "Tenerife 2 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Cox",
-      "score": "0-6 6-3 2-6"
     }
   ]
 }
