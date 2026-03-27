@@ -3,11 +3,37 @@
   "gs_id": "322415",
   "player_name": "Nicolas Hurtado Novoa",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:13:43.885Z",
+  "updated": "2026-03-27T11:04:46.126Z",
   "matches": [
     {
-      "date": "20251028",
-      "tournament": "M15 Ibague",
+      "date": "20250716",
+      "tournament": "M15 Bucaramanga",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. A. Rodriguez",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20250715",
+      "tournament": "M15 Bucaramanga",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Beltran Rubio",
+      "score": "3-6 6-4 6-3"
+    },
+    {
+      "date": "20250708",
+      "tournament": "M25 Villavicencio",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. A. Linde Palacios",
-      "score": "3-6 4-6"
+      "opponent": "B. Perez",
+      "score": "6-1 6-3"
     }
   ]
 }
