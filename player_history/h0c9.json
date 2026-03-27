@@ -3,34 +3,8 @@
   "gs_id": "75111",
   "player_name": "Arklon Huertas Del Pino Cordova",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:05.972Z",
+  "updated": "2026-03-27T04:54:05.315Z",
   "matches": [
-    {
-      "date": "20250915",
-      "tournament": "Villa Maria",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Juarez",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20250914",
-      "tournament": "Villa Maria",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Ratti",
-      "score": "7-5 6-2"
-    },
     {
       "date": "20241124",
       "tournament": "Temuco",
@@ -84,21 +58,8 @@
       "score": "6-2 6-3"
     },
     {
-      "date": "20230108",
-      "tournament": "Tigre 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Lavagno",
-      "score": "6-4 2-6 2-6"
-    },
-    {
-      "date": "20230103",
-      "tournament": "Tigre",
+      "date": "20230313",
+      "tournament": "Vina Del Mar",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -106,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Sanchez Jover",
-      "score": "6(4)-7(7) 1-6"
+      "opponent": "F. Gaio",
+      "score": "6-2 1-6 1-6"
     },
     {
-      "date": "20230102",
-      "tournament": "Tigre",
+      "date": "20230312",
+      "tournament": "Vina Del Mar",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -119,8 +80,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Leite",
-      "score": "6-3 6-0"
+      "opponent": "N. Bruna",
+      "score": "6(3)-7(7) 0-6"
+    },
+    {
+      "date": "20230116",
+      "tournament": "Piracicaba Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Chepelev",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20230115",
+      "tournament": "Piracicaba Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Domingues",
+      "score": "2-6 3-6"
     },
     {
       "date": "20221123",
@@ -225,71 +212,6 @@
       "result": "W",
       "opponent": "G. Ballotta",
       "score": "3-6 4-6"
-    },
-    {
-      "date": "20221009",
-      "tournament": "M15 Manizales",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Panta",
-      "score": "7-5 6(2)-7(7) 3-6"
-    },
-    {
-      "date": "20221007",
-      "tournament": "M15 Manizales",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Huertas Del Pino",
-      "score": "4-6 7(10)-6(8) 6(3)-7(7)"
-    },
-    {
-      "date": "20221006",
-      "tournament": "M15 Manizales",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. S. Osorio",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20221005",
-      "tournament": "M15 Manizales",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Guillen Meza",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20220928",
-      "tournament": "M25 Ibague",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. C. Loureiro J.",
-      "score": "6-3 3-6 6-1"
     }
   ]
 }
