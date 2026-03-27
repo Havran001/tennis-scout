@@ -1,22 +1,35 @@
 {
   "player_id": "bk24",
-  "gs_id": "6505",
-  "player_name": "Gregoire Barrere",
+  "gs_id": "167832",
+  "player_name": "Victor Barrere",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:56:11.514Z",
+  "updated": "2026-03-27T08:26:14.066Z",
   "matches": [
     {
-      "date": "20250325",
-      "tournament": "Naples",
+      "date": "20260219",
+      "tournament": "M15 Lannion",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. H. Tseng",
-      "score": "6-4 7(8)-6(6)"
+      "opponent": "A. Nagel",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20260218",
+      "tournament": "M15 Lannion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Trufelli",
+      "score": "3-6 2-6"
     }
   ]
 }
