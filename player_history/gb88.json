@@ -3,8 +3,21 @@
   "gs_id": "1506",
   "player_name": "David Goffin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:24:40.094Z",
+  "updated": "2026-03-27T11:37:29.171Z",
   "matches": [
+    {
+      "date": "20260312",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Bautista-Agut",
+      "score": "1-6 4-6"
+    },
     {
       "date": "20250919",
       "tournament": "Hangzhou",
@@ -17,6 +30,19 @@
       "result": "L",
       "opponent": "A. Vukic",
       "score": "4-6 6-1 1-6"
+    },
+    {
+      "date": "20250313",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Altmaier",
+      "score": "6-2 6(12)-7(14) 6-3"
     }
   ]
 }
