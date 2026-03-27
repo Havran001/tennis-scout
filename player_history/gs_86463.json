@@ -3,20 +3,72 @@
   "gs_id": "86463",
   "player_name": "Benjamin Privara Peter",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:57:40.035Z",
+  "updated": "2026-03-27T08:17:25.065Z",
   "matches": [
     {
-      "date": "20240723",
-      "tournament": "ITF M25 Kramsach Men",
+      "date": "20250619",
+      "tournament": "M15 Nyiregyhaza 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Filar",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250618",
+      "tournament": "M15 Nyiregyhaza 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "Z. Nurlanuly",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20240322",
+      "tournament": "ITF M25 Badalona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "V. Bielinskyi",
-      "score": "6-1 3-6 6(7)-7(9)"
+      "opponent": "L. Giustino",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20240321",
+      "tournament": "ITF M25 Badalona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Sanchez Quilez",
+      "score": "7(7)-6(2) 7(7)-6(4)"
+    },
+    {
+      "date": "20240320",
+      "tournament": "ITF M25 Badalona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Pedrico Kravtsov",
+      "score": "6-0 6-0"
     },
     {
       "date": "20240215",
@@ -69,58 +121,6 @@
       "result": "L",
       "opponent": "H. Squire",
       "score": "2-6 3-6"
-    },
-    {
-      "date": "20230907",
-      "tournament": "ITF M15 Budapest 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Summers",
-      "score": "7-5 5-7 6-4"
-    },
-    {
-      "date": "20230906",
-      "tournament": "ITF M15 Budapest 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Cohen",
-      "score": "6-1 2-0 ret."
-    },
-    {
-      "date": "20230901",
-      "tournament": "ITF M15 Szczawno Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Rajski",
-      "score": "6-4 6(3)-7(7) 6-4"
-    },
-    {
-      "date": "20230830",
-      "tournament": "ITF M15 Szczawno Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Gola",
-      "score": "6-4 6-1"
     }
   ]
 }
