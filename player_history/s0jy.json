@@ -3,11 +3,24 @@
   "gs_id": "133403",
   "player_name": "Alessandro Spadola",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:53:07.970Z",
+  "updated": "2026-03-27T06:07:47.021Z",
   "matches": [
     {
-      "date": "20241010",
-      "tournament": "M25 Santa Margherita di Pula 10",
+      "date": "20250813",
+      "tournament": "M15 Targu Jiu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. D. Turcanu",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20250514",
+      "tournament": "M25 Reggio Emilia",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Maestrelli",
-      "score": "4-6 4-6"
+      "opponent": "T. Compagnucci",
+      "score": "1-6 5-7"
     },
     {
-      "date": "20241008",
-      "tournament": "M25 Santa Margherita di Pula 10",
+      "date": "20250513",
+      "tournament": "M25 Reggio Emilia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Bronzetti",
-      "score": "6-2 4-6 6-1"
-    },
-    {
-      "date": "20241001",
-      "tournament": "M25 Santa Margherita di Pula 9",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Barnat",
-      "score": "6-3 1-6 5-7"
+      "opponent": "A. Zanini",
+      "score": "6-1 6-0"
     }
   ]
 }
