@@ -3,8 +3,21 @@
   "gs_id": "158885",
   "player_name": "Vuk Radjenovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:58:48.987Z",
+  "updated": "2026-03-27T06:10:06.015Z",
   "matches": [
+    {
+      "date": "20250527",
+      "tournament": "M15 Kursumlijska Banja 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Djosic",
+      "score": "6-3 6-4"
+    },
     {
       "date": "20240606",
       "tournament": "M25 Kursumlijska Banja 2",
@@ -30,6 +43,58 @@
       "result": "W",
       "opponent": "A. Radojicic",
       "score": "6-0 6-2"
+    },
+    {
+      "date": "20240531",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Prihodko",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20240530",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Nikolic",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20240529",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Purtseladze",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20240522",
+      "tournament": "ITF M15 Kursumlijska Banja 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Milic",
+      "score": "6-3 6-2"
     },
     {
       "date": "20240501",
@@ -82,6 +147,32 @@
       "result": "L",
       "opponent": "I. Snitari",
       "score": "7(8)-6(6) 4-6 4-6"
+    },
+    {
+      "date": "20230621",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Hess",
+      "score": "6-1 1-6 5-7"
+    },
+    {
+      "date": "20230614",
+      "tournament": "ITF M15 Kursumlijska Banja 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Srbljak",
+      "score": "6-3 1-6 6-4"
     }
   ]
 }
