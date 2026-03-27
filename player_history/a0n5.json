@@ -1,1 +1,35 @@
-{"matches":[],"total":0}
+{
+  "player_id": "a0n5",
+  "gs_id": "296255",
+  "player_name": "Motoharu Abe",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T07:08:47.034Z",
+  "matches": [
+    {
+      "date": "20260115",
+      "tournament": "M15 Manacor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Lopez Morillo",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20260113",
+      "tournament": "M15 Manacor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Rejchtman Vinciguerra",
+      "score": "0-3 ret."
+    }
+  ]
+}
