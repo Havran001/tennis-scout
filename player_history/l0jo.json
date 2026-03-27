@@ -1,1 +1,48 @@
-{"player_id":"l0jo","sack_id":"212076","name":"Zoran Ludoski","total":0,"matches":[]}
+{
+  "player_id": "l0jo",
+  "gs_id": "175211",
+  "player_name": "Zoran Ludoski",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T00:54:38.924Z",
+  "matches": [
+    {
+      "date": "20240320",
+      "tournament": "ITF M15 Opatija Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Obradovic",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Pirot Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Pavlovic",
+      "score": "1-6 6(4)-7(7)"
+    },
+    {
+      "date": "20230726",
+      "tournament": "M15 Novi Sad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Poljicak",
+      "score": "4-6 2-6"
+    }
+  ]
+}
