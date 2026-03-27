@@ -3,11 +3,37 @@
   "gs_id": "90649",
   "player_name": "Karol Filar",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:16:34.814Z",
+  "updated": "2026-03-27T01:53:50.936Z",
   "matches": [
     {
-      "date": "20260212",
-      "tournament": "M15 Oberhaching",
+      "date": "20250708",
+      "tournament": "M15 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Mashtakov",
+      "score": "3-6 6-4 1-6"
+    },
+    {
+      "date": "20240724",
+      "tournament": "ITF M15 Poprad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kellovsky",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240711",
+      "tournament": "ITF M15 Lodz Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. McDonald",
-      "score": "3-6 6-3 6-3"
+      "opponent": "M. Gengel",
+      "score": "6-3 4-6 4-6"
     },
     {
-      "date": "20260211",
-      "tournament": "M15 Oberhaching",
+      "date": "20240709",
+      "tournament": "ITF M15 Lodz Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,73 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Krutykh",
-      "score": "3-6 7-5 4-6"
-    },
-    {
-      "date": "20250923",
-      "tournament": "M25 Pardubice",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Mrva",
-      "score": "6-4 3-6 4-6"
-    },
-    {
-      "date": "20250829",
-      "tournament": "M25 Poznan",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Vatutin",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20250828",
-      "tournament": "M25 Poznan",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Ozolins",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20250827",
-      "tournament": "M25 Poznan",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Zanellato",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20200713",
-      "tournament": "Mistrzostwa Polski",
-      "surface": "Hard",
-      "level": "E",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Pawelski",
-      "score": "6(4)-7(7) 6-3 3-6"
+      "opponent": "A. Majchrzak",
+      "score": "4-6 5-7"
     }
   ]
 }
