@@ -3,11 +3,24 @@
   "gs_id": "264742",
   "player_name": "Ilija Palavestra",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:04:08.131Z",
+  "updated": "2026-03-27T09:33:07.091Z",
   "matches": [
     {
-      "date": "20260312",
-      "tournament": "M15 Montreal",
+      "date": "20251112",
+      "tournament": "M25 Columbus",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Jansen",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250717",
+      "tournament": "M15 Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. De Jonge",
-      "score": "6-3 6-4"
+      "opponent": "B. T. George",
+      "score": "6-4 2-6 6-0"
     },
     {
-      "date": "20260311",
-      "tournament": "M15 Montreal",
+      "date": "20250716",
+      "tournament": "M15 Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Farag-Cao",
-      "score": "1-6 3-6"
+      "opponent": "D. Van Orderlain",
+      "score": "7-5 4-6 3-6"
+    },
+    {
+      "date": "20250604",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Chopra",
+      "score": "7-5 4-6 6-2"
+    },
+    {
+      "date": "20250424",
+      "tournament": "M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Grant",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250423",
+      "tournament": "M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Rodriguez",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20240605",
+      "tournament": "M25 Kursumlijska Banja 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Jovic",
+      "score": "1-6 4-6"
     }
   ]
 }
