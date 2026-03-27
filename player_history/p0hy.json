@@ -3,7 +3,7 @@
   "gs_id": "142227",
   "player_name": "Samuele Pieri",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:29:20.091Z",
+  "updated": "2026-03-27T12:18:18.162Z",
   "matches": [
     {
       "date": "20260324",
@@ -43,58 +43,6 @@
       "result": "W",
       "opponent": "D. A. Barreto Sanchez",
       "score": "3-6 5-7"
-    },
-    {
-      "date": "20260308",
-      "tournament": "Kigali 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Donski",
-      "score": "7(7)-6(3) 6-4"
-    },
-    {
-      "date": "20260303",
-      "tournament": "Kigali",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Kym",
-      "score": "6(3)-7(7) 6-4 6-4"
-    },
-    {
-      "date": "20260302",
-      "tournament": "Kigali",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Marrero Curbelo",
-      "score": "4-6 7-5 6-4"
-    },
-    {
-      "date": "20260301",
-      "tournament": "Kigali",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Watanabe",
-      "score": "6-1 6-4"
     },
     {
       "date": "20251014",
@@ -149,8 +97,34 @@
       "score": "6-2 6-0"
     },
     {
-      "date": "20250606",
-      "tournament": "M15 Caltanissetta",
+      "date": "20250724",
+      "tournament": "M15 Segrate",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Weis",
+      "score": "3-6 6-3 3-6"
+    },
+    {
+      "date": "20250723",
+      "tournament": "M15 Segrate",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Bagnolini",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M15 Messina",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -158,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Ferrari",
-      "score": "6-2 2-2 ret."
+      "opponent": "L. Sciahbasi",
+      "score": "2-6 6-4 6-3"
     },
     {
-      "date": "20250605",
-      "tournament": "M15 Caltanissetta",
+      "date": "20250611",
+      "tournament": "M15 Messina",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -171,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Hoeyeraal",
-      "score": "6-4 6-2"
+      "opponent": "F. Mazzola",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20250603",
-      "tournament": "M15 Caltanissetta",
+      "date": "20250610",
+      "tournament": "M15 Messina",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,12 +158,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Wehnelt",
-      "score": "6(5)-7(7) 1-6"
+      "opponent": "M. Giunta",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20250227",
-      "tournament": "M15 Villena 2",
+      "date": "20250520",
+      "tournament": "M25 Cervia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. A. Caniato",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20250213",
+      "tournament": "M15 Valencia 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -197,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Damas",
-      "score": "6-3 6-4"
+      "opponent": "M. Alcala Gurri",
+      "score": "6-3 6(5)-7(7) 3-6"
     },
     {
-      "date": "20250226",
-      "tournament": "M15 Villena 2",
+      "date": "20250212",
+      "tournament": "M15 Valencia 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -210,21 +197,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Carrascosa Diaz",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20250204",
-      "tournament": "M15 Valencia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. De Krom",
-      "score": "6-0 5-7 6-0"
+      "opponent": "R. Zusman",
+      "score": "4-6 6-0 7-5"
     },
     {
       "date": "20241115",
@@ -251,32 +225,6 @@
       "result": "W",
       "opponent": "N. Perfetti",
       "score": "6-1 6-2"
-    },
-    {
-      "date": "20241107",
-      "tournament": "M15 San Gregorio di Catania",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Cadenasso",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20241105",
-      "tournament": "M15 San Gregorio di Catania",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Iannaccone",
-      "score": "6-4 2-6 7(7)-6(0)"
     },
     {
       "date": "20241018",
@@ -316,58 +264,6 @@
       "result": "W",
       "opponent": "C. Fossati",
       "score": "6-3 6-2"
-    },
-    {
-      "date": "20240616",
-      "tournament": "Sassuolo Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Andreozzi",
-      "score": "0-6 6-3 6(4)-7(7)"
-    },
-    {
-      "date": "20240524",
-      "tournament": "M15 Cervia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Pecci",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20240523",
-      "tournament": "M15 Cervia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. A. Caniato",
-      "score": "0-6 7-5 2-6"
-    },
-    {
-      "date": "20240522",
-      "tournament": "M15 Cervia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Vulpitta",
-      "score": "6(0)-7(7) 4-6"
     }
   ]
 }
