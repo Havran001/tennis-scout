@@ -3,11 +3,37 @@
   "gs_id": "234598",
   "player_name": "Nicolas Ifi",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:12:42.863Z",
+  "updated": "2026-03-27T00:55:23.920Z",
   "matches": [
     {
-      "date": "20260305",
-      "tournament": "M15 Poitiers",
+      "date": "20251001",
+      "tournament": "M15 Monastir 37",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Hamza Reguig",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250924",
+      "tournament": "M15 Monastir 36",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alkaya",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250918",
+      "tournament": "M15 Monastir 35",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Beauge",
-      "score": "7(7)-6(4) 7(7)-6(5)"
+      "opponent": "J. Echeverria",
+      "score": "7(7)-6(5) 6(7)-7(9) 1-6"
     },
     {
-      "date": "20260303",
-      "tournament": "M15 Poitiers",
+      "date": "20250917",
+      "tournament": "M15 Monastir 35",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Gautier",
-      "score": "3-6 7(8)-6(6) 2-6"
+      "opponent": "C. Holder",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20250423",
-      "tournament": "M15 Monastir 16",
+      "date": "20250819",
+      "tournament": "M15 Huy",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Summers",
-      "score": "4-6 6-1 6-4"
+      "opponent": "M. Beauge",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20250402",
-      "tournament": "M15 Monastir 13",
+      "date": "20250326",
+      "tournament": "M15 Monastir 12",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,38 +80,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Bertimon",
-      "score": "6-2 7(10)-6(8)"
+      "opponent": "F. Bax",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20250304",
-      "tournament": "M15 Poitiers",
+      "date": "20250320",
+      "tournament": "M15 Monastir 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Van Der Meerschen",
+      "score": "6(4)-7(7) 6-4 6-4"
+    },
+    {
+      "date": "20250319",
+      "tournament": "M15 Monastir 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Rossi",
-      "score": "6-4 6-4"
+      "result": "W",
+      "opponent": "D. Rapagnetta",
+      "score": "6(5)-7(7) 7(7)-6(5) 6-3"
     },
     {
-      "date": "20240612",
-      "tournament": "ITF M15 Monastir 24 Men",
+      "date": "20241128",
+      "tournament": "ITF M25 Monastir 4 Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Elsayed",
+      "opponent": "G. Onclin",
       "score": "2-6 3-6"
     },
     {
-      "date": "20240329",
-      "tournament": "ITF M15 Monastir 13 Men",
+      "date": "20241127",
+      "tournament": "ITF M25 Monastir 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. C. Carteputreda",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20241119",
+      "tournament": "M15 Monastir 47",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bondioli",
+      "score": "6-1 0-6 6-3"
+    },
+    {
+      "date": "20240607",
+      "tournament": "ITF M15 Monastir 23 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -93,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Browning",
-      "score": "4-6 7(7)-6(4) 6-2"
+      "opponent": "M. Sureshkumar",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20240328",
-      "tournament": "ITF M15 Monastir 13 Men",
+      "date": "20240606",
+      "tournament": "ITF M15 Monastir 23 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Lestir",
-      "score": "7-5 6-0"
+      "opponent": "D. Khazime",
+      "score": "6-4 4-6 6-4"
     },
     {
-      "date": "20240327",
-      "tournament": "ITF M15 Monastir 13 Men",
+      "date": "20240604",
+      "tournament": "ITF M15 Monastir 23 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +184,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Rivet",
-      "score": "6-1 6(6)-7(8) 5-7"
+      "opponent": "Y. Ghazouani Durand",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20240511",
+      "tournament": "ITF M15 Monastir 19 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rossi",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20240510",
+      "tournament": "ITF M15 Monastir 19 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Lorusso",
+      "score": "6(5)-7(7) 6(4)-7(7)"
+    },
+    {
+      "date": "20240508",
+      "tournament": "ITF M15 Monastir 19 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Bradshaw",
+      "score": "6-4 6-3"
     }
   ]
 }
