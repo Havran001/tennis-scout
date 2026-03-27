@@ -1,1 +1,74 @@
-{"player_id":"t0k4","sack_id":"213020","name":"Aadarsh Tripathi","total":0,"matches":[]}
+{
+  "player_id": "t0k4",
+  "gs_id": "267470",
+  "player_name": "Aadarsh Tripathi",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T03:50:02.987Z",
+  "matches": [
+    {
+      "date": "20240801",
+      "tournament": "ITF M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Kang",
+      "score": "1-6 6-2 6-1"
+    },
+    {
+      "date": "20240731",
+      "tournament": "ITF M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Clark",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20240621",
+      "tournament": "ITF M15 Rancho Santa Fe",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. D. Hara Friend",
+      "score": "6-4 3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20240620",
+      "tournament": "ITF M15 Rancho Santa Fe",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Kirchheimer",
+      "score": "2-6 7-5 6-3"
+    },
+    {
+      "date": "20240619",
+      "tournament": "ITF M15 Rancho Santa Fe",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Smith",
+      "score": "6-1 7-5"
+    }
+  ]
+}
