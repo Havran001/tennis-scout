@@ -3,11 +3,11 @@
   "gs_id": "157437",
   "player_name": "Lui Maxted",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:04.938Z",
+  "updated": "2026-03-27T02:54:59.957Z",
   "matches": [
     {
-      "date": "20251010",
-      "tournament": "M25 Monastir 7",
+      "date": "20250815",
+      "tournament": "M25 Aldershot",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Loge",
-      "score": "4-6 2-6"
+      "opponent": "P. Jubb",
+      "score": "2-6 6(5)-7(7)"
     },
     {
-      "date": "20251009",
-      "tournament": "M25 Monastir 7",
+      "date": "20250814",
+      "tournament": "M25 Aldershot",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Shepp",
-      "score": "4-6 6-3 1-6"
+      "opponent": "M. Lorens",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20251008",
-      "tournament": "M25 Monastir 7",
+      "date": "20250812",
+      "tournament": "M25 Aldershot",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Carboni",
-      "score": "6-2 4-1 ret."
+      "opponent": "M. Summers",
+      "score": "4-6 7(10)-6(8) 7-5"
     },
     {
-      "date": "20240718",
-      "tournament": "M25 East Lansing",
+      "date": "20220803",
+      "tournament": "M25 Nottingham 6",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Monday",
-      "score": "4-6 4-6"
+      "opponent": "A. Gray",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20240717",
-      "tournament": "M25 East Lansing",
+      "date": "20220802",
+      "tournament": "M25 Nottingham 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Saye",
-      "score": "6(4)-7(7) 2-6"
+      "opponent": "B. Murphy",
+      "score": "6-4 3-6 6-1"
+    },
+    {
+      "date": "20220726",
+      "tournament": "M25 Nottingham 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "6-1 7(7)-6(0)"
+    },
+    {
+      "date": "20220712",
+      "tournament": "M25 Roehampton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Story",
+      "score": "6-4 7(9)-6(7)"
     }
   ]
 }
