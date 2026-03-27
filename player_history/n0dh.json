@@ -3,24 +3,50 @@
   "gs_id": "199059",
   "player_name": "Novak Novakovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:11:31.027Z",
+  "updated": "2026-03-27T07:06:09.032Z",
   "matches": [
     {
-      "date": "20250612",
-      "tournament": "M15 Kursumlijska Banja 6",
+      "date": "20250705",
+      "tournament": "M15 Kursumlijska Banja 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Klok",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250704",
+      "tournament": "M15 Kursumlijska Banja 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Juhas",
+      "score": "6-2 7(10)-6(8)"
+    },
+    {
+      "date": "20250703",
+      "tournament": "M15 Kursumlijska Banja 9",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Klok",
-      "score": "7(7)-6(2) 4-6 1-6"
+      "result": "W",
+      "opponent": "D. A. Nunez",
+      "score": "4-6 6-2 5-7"
     },
     {
-      "date": "20250611",
-      "tournament": "M15 Kursumlijska Banja 6",
+      "date": "20250702",
+      "tournament": "M15 Kursumlijska Banja 9",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Malesevic",
-      "score": "6-4 3-6 6-3"
+      "opponent": "R. M. Bucher",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20250528",
-      "tournament": "M15 Kursumlijska Banja 5",
+      "date": "20240703",
+      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Wenger",
-      "score": "6-1 7(7)-6(2)"
+      "opponent": "D. Obradovic",
+      "score": "6-1 6-2"
     },
     {
       "date": "20240613",
@@ -56,71 +82,6 @@
       "result": "L",
       "opponent": "S. Gueymard Wayenburg",
       "score": "4-6 5-7"
-    },
-    {
-      "date": "20240605",
-      "tournament": "M25 Kursumlijska Banja 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Simonsson",
-      "score": "6-3 0-6 6-4"
-    },
-    {
-      "date": "20230607",
-      "tournament": "M25 Kursumlijska Banja 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Pavlovic",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20230601",
-      "tournament": "ITF M15 Kursumlijska Banja 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Fajta",
-      "score": "1-6 6(4)-7(7)"
-    },
-    {
-      "date": "20230531",
-      "tournament": "ITF M15 Kursumlijska Banja 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Buitrago",
-      "score": "0-6 7-5 6-4"
-    },
-    {
-      "date": "20230517",
-      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Lajal",
-      "score": "6-0 6-4"
     }
   ]
 }
