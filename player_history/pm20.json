@@ -1,39 +1,65 @@
 {
   "player_id": "pm20",
-  "gs_id": "141952",
-  "player_name": "Yves Bailly Pierre",
+  "gs_id": "142268",
+  "player_name": "Antoine Tailleu Pierre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:21:37.073Z",
+  "updated": "2026-03-27T08:22:48.067Z",
   "matches": [
     {
-      "date": "20251121",
-      "tournament": "M15 Alcala de Henares",
+      "date": "20251119",
+      "tournament": "M25 Vale do Lobo 3",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Bosio",
-      "score": "7-5 7(7)-6(4)"
+      "opponent": "S. Monteiro",
+      "score": "6-4 3-6 6-2"
     },
     {
-      "date": "20251120",
-      "tournament": "M15 Alcala de Henares",
+      "date": "20251105",
+      "tournament": "M15 San Gregorio di Catania",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bondioli",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M25 Brussels",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. De Krom",
+      "score": "3-6 6-3 6(3)-7(7)"
+    },
+    {
+      "date": "20240718",
+      "tournament": "M15+H Bastia-Lucciana",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Fernandez Flores",
-      "score": "7-5 6-2"
+      "result": "L",
+      "opponent": "F. Bax",
+      "score": "6-3 7(7)-6(2)"
     },
     {
-      "date": "20251119",
-      "tournament": "M15 Alcala de Henares",
+      "date": "20240717",
+      "tournament": "M15+H Bastia-Lucciana",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Jiang",
-      "score": "6-2 6-2"
+      "opponent": "A. Panaras",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20240702",
+      "tournament": "M25 Ajaccio+H",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. De Schepper",
+      "score": "4-6 3-6"
     }
   ]
 }
