@@ -3,8 +3,73 @@
   "gs_id": "35691",
   "player_name": "Shinji Hazawa",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:56:01.035Z",
+  "updated": "2026-03-27T08:07:24.172Z",
   "matches": [
+    {
+      "date": "20260327",
+      "tournament": "M15 Tsukuba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Kikuchi",
+      "score": "6-4 4-6 6-4"
+    },
+    {
+      "date": "20260324",
+      "tournament": "M15 Tsukuba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Nayuki",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20260318",
+      "tournament": "M15 Nishi-Tokyo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Ichikawa",
+      "score": "6-4 6(9)-7(11) 3-6"
+    },
+    {
+      "date": "20260312",
+      "tournament": "M15 Hinode",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Kikuchi",
+      "score": "7(7)-6(2) 7-5"
+    },
+    {
+      "date": "20260310",
+      "tournament": "M15 Hinode",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Nefve",
+      "score": "7-5 7-5"
+    },
     {
       "date": "20251024",
       "tournament": "M15 Hua Hin",
@@ -45,21 +110,8 @@
       "score": "1-6 1-6"
     },
     {
-      "date": "20250917",
-      "tournament": "M25 Guiyang",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "W. Trongcharoenchaikul",
-      "score": "6-4 7(7)-6(2)"
-    },
-    {
-      "date": "20250814",
-      "tournament": "M25 Yinchuan",
+      "date": "20240606",
+      "tournament": "ITF M15 Harmon Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Zhang",
-      "score": "1-6 6-3 0-6"
+      "opponent": "N. Tajima",
+      "score": "6(8)-7(10) 4-6"
     },
     {
-      "date": "20250812",
-      "tournament": "M25 Yinchuan",
+      "date": "20240605",
+      "tournament": "ITF M15 Harmon Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,21 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Huang",
-      "score": "6(7)-7(9) 1-6"
-    },
-    {
-      "date": "20240919",
-      "tournament": "M25 Takasaki",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Bonding",
-      "score": "4-6 7(7)-6(5) 6-4"
+      "opponent": "R. Matsumura",
+      "score": "0-5 ret."
     }
   ]
 }
