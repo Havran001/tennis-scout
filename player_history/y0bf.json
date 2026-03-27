@@ -1,1 +1,22 @@
-{"player_id":"y0bf","gs_id":"208680","player_name":"Gavin Young","source":"goalserve-full","updated":"2026-03-26","matches":[{"date":"20260325","tournament":"M25 Las Vegas","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"T. Zink","score":"6-4 6(0)-7(7) 3-6"},{"id":"v9Hw0qI0","date":"20260325","tournament":"ITF MEN - SINGLES: M25 Las Vegas (USA), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Zink T.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"}],"total":2}
+{
+  "player_id": "y0bf",
+  "gs_id": "208680",
+  "player_name": "Gavin Young",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:19:20.808Z",
+  "matches": [
+    {
+      "date": "20260325",
+      "tournament": "M25 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Zink",
+      "score": "6-4 6(0)-7(7) 3-6"
+    }
+  ]
+}
