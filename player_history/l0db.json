@@ -3,47 +3,8 @@
   "gs_id": "142106",
   "player_name": "Giuseppe La Vela",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:36.019Z",
+  "updated": "2026-03-27T07:00:52.035Z",
   "matches": [
-    {
-      "date": "20250620",
-      "tournament": "M15 Cluj Napoca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. M. Papoe",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20250619",
-      "tournament": "M15 Cluj Napoca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Cretu",
-      "score": "3-6 6(2)-7(7)"
-    },
-    {
-      "date": "20250617",
-      "tournament": "M15 Cluj Napoca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Crivellaro",
-      "score": "7-5 6-1"
-    },
     {
       "date": "20250514",
       "tournament": "M15 Bucharest 2",
@@ -56,6 +17,32 @@
       "result": "L",
       "opponent": "O. Ovcharenko",
       "score": "4-6 2-6"
+    },
+    {
+      "date": "20241107",
+      "tournament": "M15 San Gregorio di Catania",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Piraino",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20241105",
+      "tournament": "M15 San Gregorio di Catania",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Spadola",
+      "score": "6-2 6-3"
     },
     {
       "date": "20240827",
@@ -71,8 +58,8 @@
       "score": "6-4 7(7)-6(5)"
     },
     {
-      "date": "20240618",
-      "tournament": "ITF M25 Cattolica Men",
+      "date": "20231211",
+      "tournament": "M15 Concepcion 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +67,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bronzetti",
-      "score": "2-6 3-6"
+      "opponent": "I. A. Becerra Otarola",
+      "score": "6-3 2-6 3-6"
     },
     {
-      "date": "20240517",
-      "tournament": "ITF M25 Reggio Emilia Men",
+      "date": "20231205",
+      "tournament": "M15 Concepcion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Roberts",
+      "score": "6-1 7(7)-6(5)"
+    },
+    {
+      "date": "20231018",
+      "tournament": "M25 Telavi 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Vacherot",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230917",
+      "tournament": "M15 Satu Mare",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Ribeiro Lago",
+      "score": "7-5 7-5"
+    },
+    {
+      "date": "20230916",
+      "tournament": "M15 Satu Mare",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Palosi",
+      "score": ""
+    },
+    {
+      "date": "20230915",
+      "tournament": "M15 Satu Mare",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. A. Chirita",
+      "score": "1-6 6-2 4-6"
+    },
+    {
+      "date": "20230914",
+      "tournament": "M15 Satu Mare",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,25 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Giannessi",
-      "score": "6(4)-6(3) ret."
+      "opponent": "T. Lanik",
+      "score": "4-6 6-4 6-3"
     },
     {
-      "date": "20240517",
-      "tournament": "ITF M25 Reggio Emilia Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Dalla Valle",
-      "score": "4-6 6-4 4-6"
-    },
-    {
-      "date": "20240514",
-      "tournament": "ITF M25 Reggio Emilia Men",
+      "date": "20230912",
+      "tournament": "M15 Satu Mare",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,21 +158,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Bagnolini",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20230530",
-      "tournament": "M25 Rome",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Baldoni",
-      "score": "6-3 6-2"
+      "opponent": "V. C. Breazu",
+      "score": "6-3 6-0"
     }
   ]
 }
