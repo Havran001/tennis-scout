@@ -3,11 +3,11 @@
   "gs_id": "156007",
   "player_name": "Gabriele Crivellaro",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:52:48.913Z",
+  "updated": "2026-03-27T03:53:59.973Z",
   "matches": [
     {
-      "date": "20260324",
-      "tournament": "M15 Opatija",
+      "date": "20251013",
+      "tournament": "M25 Santa Margherita di Pula 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,21 +15,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Bertimon",
-      "score": "6-2 1-0 ret."
+      "opponent": "G. Cadenasso",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20250624",
-      "tournament": "M15 Bergamo",
+      "date": "20251008",
+      "tournament": "M25 Santa Margherita di Pula 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Sorger",
+      "score": "7(7)-6(5) 6-1"
+    },
+    {
+      "date": "20251007",
+      "tournament": "M25 Santa Margherita di Pula 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Agamenone",
+      "score": "6(3)-7(7) 1-4 ret."
+    },
+    {
+      "date": "20251001",
+      "tournament": "M25 Santa Margherita di Pula 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "J. P. Paz",
-      "score": "2-6 6-3 6-4"
+      "opponent": "T. Compagnucci",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20250929",
+      "tournament": "M25 Santa Margherita di Pula 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Rossi",
+      "score": "7(7)-6(2) 6-2"
     }
   ]
 }
