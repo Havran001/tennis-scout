@@ -1,1 +1,22 @@
-{"player_id":"m0x8","sack_id":"149283","name":"Freddy Murray","total":0,"matches":[]}
+{
+  "player_id": "m0x8",
+  "gs_id": "225126",
+  "player_name": "Freddy Murray",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T07:07:14.034Z",
+  "matches": [
+    {
+      "date": "20241120",
+      "tournament": "M25 Vale do Lobo 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Durasovic",
+      "score": "4-6 2-6"
+    }
+  ]
+}
