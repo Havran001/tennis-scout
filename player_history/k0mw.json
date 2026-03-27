@@ -3,11 +3,11 @@
   "gs_id": "248342",
   "player_name": "Maan Kesharwani",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:07:36.108Z",
+  "updated": "2026-03-27T09:32:57.091Z",
   "matches": [
     {
-      "date": "20260326",
-      "tournament": "M15 Ahmedabad",
+      "date": "20250904",
+      "tournament": "M25 Bali 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Sasikumar",
-      "score": "6(3)-7(7) 7(7)-6(1) 6-3"
+      "opponent": "W. K. Leong M.",
+      "score": "2-6 6-0 7-5"
     },
     {
-      "date": "20260325",
-      "tournament": "M15 Ahmedabad",
+      "date": "20250902",
+      "tournament": "M25 Bali 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "U. Kamboj",
-      "score": "2-6 6(5)-7(7)"
+      "opponent": "T. Wibowo",
+      "score": "6-2 5-7 2-6"
     },
     {
-      "date": "20250318",
-      "tournament": "M15 Ahmedabad",
+      "date": "20250813",
+      "tournament": "M25 Bali 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Cizek",
-      "score": "5-7 7(7)-6(4) 6-3"
+      "opponent": "Y. Takahashi",
+      "score": "6(5)-7(7) 6-1 4-0 ret."
+    },
+    {
+      "date": "20250805",
+      "tournament": "M25 Bali",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Borg",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M15 Tashkent 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Orlov",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M15 Tashkent",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Gruenig",
+      "score": "7(7)-6(2) 6-4"
+    },
+    {
+      "date": "20250312",
+      "tournament": "M15 Chandigarh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Tashi",
+      "score": "3-6 4-6"
     },
     {
       "date": "20241120",
@@ -56,6 +108,45 @@
       "result": "L",
       "opponent": "A. Ganesan",
       "score": "0-6 1-6"
+    },
+    {
+      "date": "20241106",
+      "tournament": "M25 Bhubaneswar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Svrcina",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20241016",
+      "tournament": "M15 Kampala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Ramskogler",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20241009",
+      "tournament": "M25 Kampala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Ramskogler",
+      "score": "4-6 3-6"
     }
   ]
 }
