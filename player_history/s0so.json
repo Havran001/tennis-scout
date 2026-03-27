@@ -3,24 +3,37 @@
   "gs_id": "147907",
   "player_name": "Timofey Stepanov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:10:49.046Z",
+  "updated": "2026-03-27T12:21:07.161Z",
   "matches": [
     {
-      "date": "20250828",
-      "tournament": "M25 Sion",
+      "date": "20250718",
+      "tournament": "M15 Nova Gorica",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Balshaw",
+      "score": "3-6 7(7)-6(2) 2-6"
+    },
+    {
+      "date": "20250717",
+      "tournament": "M15 Nova Gorica",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Nikles",
-      "score": "6-3 2-6 6(2)-7(7)"
+      "result": "W",
+      "opponent": "B. Artnak",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20250826",
-      "tournament": "M25 Sion",
+      "date": "20250716",
+      "tournament": "M15 Nova Gorica",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,47 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Guadagno",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20230622",
-      "tournament": "ITF M15 Store Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Krumich",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20230621",
-      "tournament": "ITF M15 Store Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Emersic Potocnik",
-      "score": "3-6 0-6"
-    },
-    {
-      "date": "20230517",
-      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Drinic",
-      "score": "6-3 3-6 5-7"
+      "opponent": "M. Dimic",
+      "score": "6-0 3-6 7(7)-6(5)"
     }
   ]
 }
