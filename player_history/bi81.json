@@ -3,11 +3,50 @@
   "gs_id": "3838",
   "player_name": "Alex Bolt",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:51:09.374Z",
+  "updated": "2026-03-27T06:55:08.033Z",
   "matches": [
     {
-      "date": "20250722",
-      "tournament": "Bloomfield Hills",
+      "date": "20240425",
+      "tournament": "Shenzhen 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Schoolkate",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240424",
+      "tournament": "Shenzhen 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Noguchi",
+      "score": "6-2 3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240228",
+      "tournament": "ITF M25 Traralgon 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. M. Lee",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20240206",
+      "tournament": "Burnie 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Fery",
-      "score": "6-4 4-6 6-2"
+      "opponent": "Y. Shimizu",
+      "score": "6-3 6-2"
     }
   ]
 }
