@@ -3,11 +3,50 @@
   "gs_id": "76822",
   "player_name": "Tomas Farjat",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:52:09.962Z",
+  "updated": "2026-03-27T03:52:10.969Z",
   "matches": [
     {
-      "date": "20260215",
-      "tournament": "Tigre",
+      "date": "20241126",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Midon",
+      "score": "6(5)-7(7) 2-6"
+    },
+    {
+      "date": "20241125",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cossu",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20241124",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Zamora",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20241006",
+      "tournament": "Villa Maria",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Zeitune",
-      "score": "4-6 6-4 5-7"
+      "opponent": "O. Luz",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20230616",
-      "tournament": "ITF M15 Litija Men",
+      "date": "20231201",
+      "tournament": "M15 Santa Cruz 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Cretu",
-      "score": "4-6 7-5 7-5"
+      "opponent": "N. Zanellato",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20230615",
-      "tournament": "ITF M15 Litija Men",
+      "date": "20231130",
+      "tournament": "M15 Santa Cruz 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Donski",
-      "score": "7-5 6-2"
+      "opponent": "M. Del Pino",
+      "score": "5-3 ret."
     },
     {
-      "date": "20230613",
-      "tournament": "ITF M15 Litija Men",
+      "date": "20231128",
+      "tournament": "M15 Santa Cruz 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +93,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Nicod",
-      "score": "6-3 7-5"
+      "opponent": "E. Davila Gasser",
+      "score": "6-4 3-6 7-5"
     },
     {
-      "date": "20230112",
-      "tournament": "Tigre 2",
+      "date": "20231122",
+      "tournament": "M15 Santa Cruz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. F. Rubio Fierros",
+      "score": "7(7)-6(2) 4-6 6-2"
+    },
+    {
+      "date": "20221124",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. B. Torres",
-      "score": "4-6 1-6"
+      "opponent": "E. Gomez",
+      "score": "6-1 7-5"
     },
     {
-      "date": "20230109",
-      "tournament": "Tigre 2",
+      "date": "20221122",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -80,25 +132,142 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Comesana",
-      "score": "3-6 4-6"
+      "opponent": "G. Villanueva",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20230102",
-      "tournament": "Tigre",
+      "date": "20221121",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Bicknell",
+      "score": "4-6 6-1 7(8)-6(6)"
+    },
+    {
+      "date": "20221120",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. F. Descotte",
-      "score": "6-4 4-6 2-6"
+      "result": "W",
+      "opponent": "T. Menzel",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20220425",
-      "tournament": "Tigre 2",
+      "date": "20221118",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Hidalgo",
+      "score": "6-4 3-6 6-2"
+    },
+    {
+      "date": "20221117",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. E. Ambrogi",
+      "score": "7(7)-6(4) 7-5"
+    },
+    {
+      "date": "20221116",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Bramajo",
+      "score": "6-3 3-6 6-3"
+    },
+    {
+      "date": "20221102",
+      "tournament": "M25 Salta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. E. Ambrogi",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20221029",
+      "tournament": "M15 Santa Cruz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Huertas Del Pino",
+      "score": "6-3 1-6 4(4)-7(7)"
+    },
+    {
+      "date": "20221028",
+      "tournament": "M15 Santa Cruz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Aboian",
+      "score": "1-6 6-3 6-2"
+    },
+    {
+      "date": "20221027",
+      "tournament": "M15 Santa Cruz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. De Dios",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20221025",
+      "tournament": "M15 Santa Cruz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Gagliardo",
+      "score": "4-6 6-4 6-2"
+    },
+    {
+      "date": "20220919",
+      "tournament": "Villa Maria",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -106,12 +275,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. De La Fuente",
-      "score": "0-6 6-4 6(5)-7(7)"
+      "opponent": "A. L. Lingua Lavallen",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20220424",
-      "tournament": "Tigre 2",
+      "date": "20220918",
+      "tournament": "Villa Maria",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -119,8 +288,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Martinez",
-      "score": "3-6 0-6"
+      "opponent": "P. Sakamoto",
+      "score": "7(7)-6(1) 6-3"
     }
   ]
 }
