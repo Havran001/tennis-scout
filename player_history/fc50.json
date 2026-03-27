@@ -3,8 +3,21 @@
   "gs_id": "35121",
   "player_name": "Luc Fomba",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:57:33.010Z",
+  "updated": "2026-03-27T07:49:46.069Z",
   "matches": [
+    {
+      "date": "20260217",
+      "tournament": "M15 Lannion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Poullain",
+      "score": "6-3 6(2)-7(7) 6(7)-7(9)"
+    },
     {
       "date": "20250716",
       "tournament": "M25 Castelo Branco",
@@ -17,6 +30,32 @@
       "result": "L",
       "opponent": "K. Malirz",
       "score": "6(2)-7(7) 7(9)-6(7) 7-5"
+    },
+    {
+      "date": "20240418",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. De Schepper",
+      "score": "6-3 7(7)-6(3)"
+    },
+    {
+      "date": "20240417",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Nagel",
+      "score": "6-3 4-6 4-6"
     }
   ]
 }
