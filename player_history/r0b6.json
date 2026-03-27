@@ -3,33 +3,98 @@
   "gs_id": "74215",
   "player_name": "Lorenzo Rottoli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:14:37.061Z",
+  "updated": "2026-03-27T09:27:17.099Z",
   "matches": [
     {
-      "date": "20260323",
-      "tournament": "Naples",
+      "date": "20250611",
+      "tournament": "M15 Kayseri 3",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Barton",
-      "score": "1-6 3-6"
+      "opponent": "S. Heredia",
+      "score": "2-6 6(3)-7(7)"
     },
     {
-      "date": "20260322",
-      "tournament": "Naples",
+      "date": "20250606",
+      "tournament": "M15 Kayseri 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Linde Palacios",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Kayseri 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Potenza",
-      "score": "5-7 6-4 6-4"
+      "opponent": "P. Pawlak",
+      "score": "6-3 2-6 4-6"
+    },
+    {
+      "date": "20241003",
+      "tournament": "M15 Trnava 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Donald",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20241001",
+      "tournament": "M15 Trnava 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Krajci",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20240807",
+      "tournament": "ITF M25 Montesilvano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vatutin",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240806",
+      "tournament": "ITF M25 Montesilvano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Calvano",
+      "score": "4-6 6-2 1-6"
     },
     {
       "date": "20240607",
@@ -95,19 +160,6 @@
       "result": "W",
       "opponent": "F. Fumagalli",
       "score": "4-6 6-3 5-7"
-    },
-    {
-      "date": "20240324",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Bourgue",
-      "score": "6-2 6(4)-7(7) 1-6"
     }
   ]
 }
