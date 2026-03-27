@@ -3,11 +3,11 @@
   "gs_id": "35689",
   "player_name": "Alexander Donski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:56:51.011Z",
+  "updated": "2026-03-27T06:56:00.041Z",
   "matches": [
     {
-      "date": "20240519",
-      "tournament": "Skopje Challenger Men",
+      "date": "20251012",
+      "tournament": "Olbia",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,25 +15,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Oberleitner",
-      "score": "6-4 6-3"
+      "opponent": "M. Donald",
+      "score": "3-6 6-3 6-3"
     },
     {
-      "date": "20230622",
-      "tournament": "ITF M15 Store Men",
+      "date": "20241115",
+      "tournament": "ITF M15 Valencia Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Wiedenmann",
-      "score": "2-6 3-6"
+      "result": "W",
+      "opponent": "S. Planella Hernandez",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20230621",
-      "tournament": "ITF M15 Store Men",
+      "date": "20241115",
+      "tournament": "ITF M15 Valencia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Martin Tiffon",
+      "score": "6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20241114",
+      "tournament": "ITF M15 Valencia Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Goldsteiner",
-      "score": "3-6 2-2 ret."
+      "opponent": "D. A. Barreto Sanchez",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20241107",
+      "tournament": "M25 Heraklion 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Soriano Barrera",
+      "score": "6-3 7(7)-6(2)"
+    },
+    {
+      "date": "20241106",
+      "tournament": "M25 Heraklion 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Chatziavraam",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20231003",
+      "tournament": "M25 Pazardzhik 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kopp",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20230927",
+      "tournament": "M25 Pazardzhik",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Barnat",
+      "score": "6-2 6-4"
     }
   ]
 }
