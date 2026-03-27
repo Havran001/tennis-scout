@@ -1200,7 +1200,7 @@ function _renderMatches(){
               '.mh-table td.ta-wl-w{font-weight:800;color:#00C853;}',
               '.mh-table td.ta-wl-l{font-weight:900;color:#ff1100;text-shadow:0 0 6px rgba(255,17,0,0.6);}',
               '.mh-table td.ta-odds{color:rgba(255,255,255,0.3);font-size:11px;}',
-              '.mh-table .yr-sep td{padding:8px 6px 3px;font-size:9px;font-weight:700;color:rgba(255,255,255,0.2);letter-spacing:1.5px;border-bottom:1px solid rgba(255,255,255,0.06);background:none;}',
+              '.mh-table .yr-sep td{padding:12px 6px 4px;font-size:13px;font-weight:800;color:rgba(255,255,255,0.75);letter-spacing:2px;border-bottom:2px solid rgba(255,255,255,0.15);background:none;text-transform:uppercase;}',
               '.mh-surf-cl{color:#fb923c;}.mh-surf-gr{color:#4ade80;}.mh-surf-in{color:#c084fc;}.mh-surf-ha{color:#60a5fa;}',
               '.mh-dd-wrap{position:relative;}',
               '.mh-dd-list{display:none;position:absolute;top:100%;left:0;min-width:180px;max-height:220px;overflow-y:auto;background:#1c2128;border:1px solid rgba(255,255,255,0.15);border-radius:6px;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.5);}',
