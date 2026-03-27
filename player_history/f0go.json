@@ -1,25 +1,38 @@
 {
   "player_id": "f0go",
-  "gs_id": "28723",
-  "player_name": "Pablo Ficovich Juan",
+  "gs_id": "41604",
+  "player_name": "Manuel Cerundolo Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:50:34.970Z",
+  "updated": "2026-03-27T03:51:25.976Z",
   "matches": [
     {
-      "date": "20231128",
-      "tournament": "Temuco Challenger Men",
+      "date": "20251128",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Sakamoto",
-      "score": "7-5 6(5)-7(7) 4-6"
+      "opponent": "A. Ayeni",
+      "score": "6-4 4-6 6-3"
     },
     {
-      "date": "20221121",
+      "date": "20251127",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Ch. Negritu",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20251125",
       "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
@@ -27,9 +40,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. B. Otegui",
-      "score": "5-7 2-6"
+      "result": "W",
+      "opponent": "A. Ghibaudo",
+      "score": "6-2 6-2"
     }
   ]
 }
