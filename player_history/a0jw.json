@@ -3,8 +3,34 @@
   "gs_id": "169584",
   "player_name": "Federico Aguilar Cardozo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:04:31.259Z",
+  "updated": "2026-03-27T08:25:56.068Z",
   "matches": [
+    {
+      "date": "20250318",
+      "tournament": "Asuncion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Huertas Del Pino",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250316",
+      "tournament": "Asuncion",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Aboian",
+      "score": "4-6 7(7)-6(1) 4-6"
+    },
     {
       "date": "20250219",
       "tournament": "M25 Punta del Este 2",
@@ -19,8 +45,8 @@
       "score": "6-1 2-6 1-5 ret."
     },
     {
-      "date": "20241023",
-      "tournament": "M25 Santa Margherita di Pula 12",
+      "date": "20240516",
+      "tournament": "M15 Neuquen",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Milev",
-      "score": "6-3 6-4"
+      "opponent": "V. Basel",
+      "score": "6(4)-7(7) 7-5 6(5)-7(7)"
     },
     {
-      "date": "20241022",
-      "tournament": "M25 Santa Margherita di Pula 12",
+      "date": "20240514",
+      "tournament": "M15 Neuquen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. C. Jianu",
-      "score": "3-6 5-7"
+      "opponent": "T. Ranea",
+      "score": "0-6 2-6"
     },
     {
-      "date": "20240315",
-      "tournament": "M15 Punta del Este",
+      "date": "20240418",
+      "tournament": "ITF M15 Santiago Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. A. Falabella",
-      "score": "7-5 2-6 6-4"
+      "opponent": "D. A. Nunez",
+      "score": "4-6 6-3 5-7"
     },
     {
-      "date": "20240313",
-      "tournament": "M15 Punta del Este",
+      "date": "20240417",
+      "tournament": "ITF M15 Santiago Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +93,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Midon",
-      "score": "6(8)-7(10) 0-0 ret."
+      "opponent": "A. O. Alvarado Berrospi",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20240411",
+      "tournament": "M15 Quillota",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Roncadelli",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240409",
+      "tournament": "M15 Quillota",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Bynoe",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240321",
+      "tournament": "M15 Punta del Este 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. La Serna",
+      "score": "6-2 4-1 ret."
     },
     {
       "date": "20240214",
@@ -82,32 +147,6 @@
       "result": "L",
       "opponent": "J. B. Otegui",
       "score": "3-6 6-4 4-6"
-    },
-    {
-      "date": "20230921",
-      "tournament": "ITF M15 Punta del Este Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. F. Descotte",
-      "score": "6-0 6-1"
-    },
-    {
-      "date": "20230920",
-      "tournament": "ITF M15 Punta del Este Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Lucero",
-      "score": "2-6 2-6"
     }
   ]
 }
