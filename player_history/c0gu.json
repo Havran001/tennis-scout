@@ -3,7 +3,7 @@
   "gs_id": "148961",
   "player_name": "Matyas Cerny",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:01:45.039Z",
+  "updated": "2026-03-27T09:29:51.091Z",
   "matches": [
     {
       "date": "20260113",
@@ -19,17 +19,95 @@
       "score": "6-4 6-4"
     },
     {
-      "date": "20250914",
-      "tournament": "Bad Waltersdorf",
+      "date": "20250813",
+      "tournament": "M15 Bielsko Biala",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Salazar",
+      "score": "6-4 3-6 5-7"
+    },
+    {
+      "date": "20250628",
+      "tournament": "M15 Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Stebe",
-      "score": "7-5 7(7)-6(0)"
+      "opponent": "J. Filip",
+      "score": "0-6 0-1 ret."
+    },
+    {
+      "date": "20250627",
+      "tournament": "M15 Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Von der Schulenburg",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250626",
+      "tournament": "M15 Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Wisniewski",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250624",
+      "tournament": "M15 Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Szymkowiak",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20250530",
+      "tournament": "M15 Gyula",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Fajta",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20250527",
+      "tournament": "M15 Gyula",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Ghazouani Durand",
+      "score": "6-4 6-3"
     },
     {
       "date": "20250205",
@@ -58,8 +136,8 @@
       "score": "6-3 7-5"
     },
     {
-      "date": "20240828",
-      "tournament": "ITF M15 Szczawno Men",
+      "date": "20241001",
+      "tournament": "M15 Trnava 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,25 +145,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Lechno-Wasiutynski",
-      "score": "7(7)-6(3) 6-4"
+      "opponent": "P. Brunclik",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20240705",
-      "tournament": "ITF M15 Store Men",
+      "date": "20240919",
+      "tournament": "M25 Satu Mare 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. D. Ionel",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20240917",
+      "tournament": "M25 Satu Mare 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Poljak",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240602",
+      "tournament": "ITF M15 Gyula Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Fajta",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20240601",
+      "tournament": "ITF M15 Gyula Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Madarasz",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240531",
+      "tournament": "ITF M15 Gyula Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Cadenasso",
-      "score": "2-6 2-6"
+      "result": "W",
+      "opponent": "M. Karol",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20240704",
-      "tournament": "ITF M15 Store Men",
+      "date": "20240530",
+      "tournament": "ITF M15 Gyula Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +223,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. De Vincentis",
-      "score": "6-4 6-2"
+      "opponent": "J. Filip",
+      "score": "6-0 6-4"
     },
     {
-      "date": "20240703",
-      "tournament": "ITF M15 Store Men",
+      "date": "20240529",
+      "tournament": "ITF M15 Gyula Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,34 +236,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Vukadin",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20230816",
-      "tournament": "M25 Bielsko Biala",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. B. Torres",
-      "score": "6-4 3-6 3-6"
-    },
-    {
-      "date": "20230809",
-      "tournament": "M25 Lodz",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Paulson",
-      "score": "6-2 6-3"
+      "opponent": "A. Boros",
+      "score": "4-6 6(4)-7(7)"
     }
   ]
 }
