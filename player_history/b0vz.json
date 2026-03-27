@@ -3,11 +3,24 @@
   "gs_id": "267214",
   "player_name": "John Bothma",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:50:11.005Z",
+  "updated": "2026-03-27T07:57:30.247Z",
   "matches": [
     {
-      "date": "20251023",
-      "tournament": "M15 Sharm ElSheikh 14",
+      "date": "20250708",
+      "tournament": "M15 Hillcrest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Van Der Merwe",
+      "score": "6(7)-7(9) 6-1 6-4"
+    },
+    {
+      "date": "20240620",
+      "tournament": "ITF M15 Hillcrest Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Pleshivtsev",
-      "score": "6-4 6-2"
+      "opponent": "P. Henning",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20251022",
-      "tournament": "M15 Sharm ElSheikh 14",
+      "date": "20240618",
+      "tournament": "ITF M15 Hillcrest Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Basile",
-      "score": "6(2)-7(7) 4-6"
+      "opponent": "G. Vorwerk",
+      "score": "4-6 3-6"
     }
   ]
 }
