@@ -3,11 +3,11 @@
   "gs_id": "219631",
   "player_name": "Jefferson Wendler Filho",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:52:46.647Z",
+  "updated": "2026-03-27T02:00:36.936Z",
   "matches": [
     {
-      "date": "20251013",
-      "tournament": "Curitiba",
+      "date": "20251117",
+      "tournament": "Florianopolis",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Hernandez",
-      "score": "6-4 6-3"
+      "opponent": "N. Zanellato",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20251012",
-      "tournament": "Curitiba",
+      "date": "20251116",
+      "tournament": "Florianopolis",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,34 +28,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Vervoort",
-      "score": "4-6 0-6"
+      "opponent": "V. C. Loureiro J.",
+      "score": "3-6 6(7)-7(9)"
     },
     {
-      "date": "20231002",
-      "tournament": "Campinas Challenger Men",
+      "date": "20250515",
+      "tournament": "M25 Pensacola",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Pereira",
-      "score": "6-4 6-1"
+      "opponent": "G. Johns",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20231001",
-      "tournament": "Campinas Challenger Men",
+      "date": "20250514",
+      "tournament": "M25 Pensacola",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Boscardin Dias",
-      "score": "6-0 5-7 2-6"
+      "opponent": "M. Benson",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240501",
+      "tournament": "M15 Antalya 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rottgering",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20240417",
+      "tournament": "ITF M15 Shymkent Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Kastsiukevich",
+      "score": "2-5 ret."
     }
   ]
 }
