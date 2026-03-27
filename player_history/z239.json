@@ -3,11 +3,11 @@
   "gs_id": "4315",
   "player_name": "Federico Zeballos",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:49:49.974Z",
+  "updated": "2026-03-27T04:44:19.003Z",
   "matches": [
     {
-      "date": "20220815",
-      "tournament": "Grodzisk Mazowiecki",
+      "date": "20251123",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,25 +15,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Seyboth Wild",
-      "score": "3-6 6-3 4-6"
+      "opponent": "B. De La Pena",
+      "score": "4-5 ret."
     },
     {
-      "date": "20220627",
-      "tournament": "Malaga",
+      "date": "20231126",
+      "tournament": "Temuco Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Leite",
+      "score": "5-7 6-2 1-6"
+    },
+    {
+      "date": "20221122",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Olivo",
+      "score": "5-7 6-1 2-6"
+    },
+    {
+      "date": "20221121",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Kachmazov",
-      "score": "0-6 6(4)-7(7)"
+      "result": "W",
+      "opponent": "P. Brown",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20220626",
-      "tournament": "Malaga",
+      "date": "20221120",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Hernandez",
-      "score": "6(2)-7(7) 6-2 6-4"
+      "opponent": "L. D. Martinez",
+      "score": "6-1 6-4"
     }
   ]
 }
