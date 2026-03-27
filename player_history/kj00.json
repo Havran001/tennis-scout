@@ -3,7 +3,7 @@
   "gs_id": "31492",
   "player_name": "Alex Knaff",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:44.026Z",
+  "updated": "2026-03-27T07:59:57.349Z",
   "matches": [
     {
       "date": "20260115",
@@ -58,21 +58,47 @@
       "score": "0-6 1-6"
     },
     {
-      "date": "20240829",
-      "tournament": "M25 Hong Kong",
+      "date": "20240612",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. D. Hara Friend",
+      "score": "7(7)-6(5) 5-7 4-6"
+    },
+    {
+      "date": "20240315",
+      "tournament": "M15 Les Franqueses del Valles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Basilashvili",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20240314",
+      "tournament": "M15 Les Franqueses del Valles",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Rodesch",
-      "score": "6-2 6-4"
+      "result": "W",
+      "opponent": "C. Chen",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20240828",
-      "tournament": "M25 Hong Kong",
+      "date": "20240312",
+      "tournament": "M15 Les Franqueses del Valles",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +106,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Sim",
-      "score": "7(7)-6(4) 4-6 6-2"
+      "opponent": "P. Barbier Gazeu",
+      "score": "6-4 2-6 1-6"
+    },
+    {
+      "date": "20240301",
+      "tournament": "ITF M15 Villena 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Tabacco",
+      "score": "3-6 6-4 1-6"
+    },
+    {
+      "date": "20240229",
+      "tournament": "ITF M15 Villena 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Kravchenko",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240227",
+      "tournament": "ITF M15 Villena 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Butvilas",
+      "score": "1-6 3-6"
     },
     {
       "date": "20231215",
@@ -212,71 +277,6 @@
       "result": "W",
       "opponent": "Y. Mohammed",
       "score": "6-0 6-0"
-    },
-    {
-      "date": "20230723",
-      "tournament": "ITF M25 Esch/Alzette 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Vankan",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20230722",
-      "tournament": "ITF M25 Esch/Alzette 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Haliak",
-      "score": "7(7)-6(2) 6-4"
-    },
-    {
-      "date": "20230721",
-      "tournament": "ITF M25 Esch/Alzette 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Sakellaridis",
-      "score": "1-6 1-6"
-    },
-    {
-      "date": "20230720",
-      "tournament": "ITF M25 Esch/Alzette 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Nagel",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20230719",
-      "tournament": "ITF M25 Esch/Alzette 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Darras",
-      "score": "1-6 2-6"
     }
   ]
 }
