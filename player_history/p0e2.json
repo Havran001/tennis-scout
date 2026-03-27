@@ -3,11 +3,24 @@
   "gs_id": "56826",
   "player_name": "Jorge Plans",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:00:33.015Z",
+  "updated": "2026-03-27T08:08:36.081Z",
   "matches": [
     {
-      "date": "20240710",
-      "tournament": "ITF M25 Roda de Bara Men",
+      "date": "20260225",
+      "tournament": "M15 Villena 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Blanch",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250326",
+      "tournament": "M25 Tarragona",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -16,7 +29,20 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "A. Sanchez Quilez",
-      "score": "4-6 2-6"
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20250320",
+      "tournament": "M25 Badalona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Diez",
+      "score": "5-7 3-6"
     }
   ]
 }
