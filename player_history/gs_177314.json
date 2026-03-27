@@ -3,24 +3,37 @@
   "gs_id": "177314",
   "player_name": "Razvan Marinescu Mihai",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:59:32.935Z",
+  "updated": "2026-03-27T02:55:55.960Z",
   "matches": [
     {
-      "date": "20260212",
-      "tournament": "M25 Antalya 4",
+      "date": "20240531",
+      "tournament": "M15 Constanta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Snitari",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240530",
+      "tournament": "M15 Constanta",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Roca Batalla",
-      "score": "6-2 6-1"
+      "result": "W",
+      "opponent": "S. Gima",
+      "score": "6-4 2-6 6-4"
     },
     {
-      "date": "20260211",
-      "tournament": "M25 Antalya 4",
+      "date": "20240529",
+      "tournament": "M15 Constanta",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Jimenez",
-      "score": "6-3 6-2"
+      "opponent": "S. Agostini",
+      "score": "6-4 1-6 2-6"
     },
     {
-      "date": "20220518",
-      "tournament": "M25 Osijek",
+      "date": "20230531",
+      "tournament": "ITF M15 Constanta Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Milicevic",
-      "score": "5-7 6-3 3-6"
+      "opponent": "A. Caruso",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20220406",
-      "tournament": "M15 Sharm ElSheikh 8",
+      "date": "20220818",
+      "tournament": "M15 Craiova",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20220817",
+      "tournament": "M15 Craiova",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. A. Gomez",
-      "score": "6-3 6-1"
+      "result": "W",
+      "opponent": "L. Castagnola",
+      "score": "6-2 6-3"
     }
   ]
 }
