@@ -3,20 +3,33 @@
   "gs_id": "144680",
   "player_name": "Pablo Martinez Gomez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:54:15.956Z",
+  "updated": "2026-03-27T04:57:55.992Z",
   "matches": [
     {
-      "date": "20230614",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20250501",
+      "tournament": "M25 Sabadell",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. De Krom",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250430",
+      "tournament": "M25 Sabadell",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Vasa",
-      "score": "6-4 7(7)-6(5)"
+      "result": "W",
+      "opponent": "H. Matsuoka",
+      "score": "6-1 6-4"
     }
   ]
 }
