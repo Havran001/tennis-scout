@@ -3,21 +3,8 @@
   "gs_id": "84352",
   "player_name": "Reece Falck",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:29.968Z",
+  "updated": "2026-03-27T04:46:52.991Z",
   "matches": [
-    {
-      "date": "20251112",
-      "tournament": "M15 Heraklion 14",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Visser",
-      "score": "2-6 6-3 3-6"
-    },
     {
       "date": "20251002",
       "tournament": "M15 Winston-Salem",
@@ -45,8 +32,8 @@
       "score": "2-6 6(4)-7(7)"
     },
     {
-      "date": "20240919",
-      "tournament": "M25 Darwin 2",
+      "date": "20241219",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Bouzige",
-      "score": "6-3 6(5)-7(7) 6(4)-7(7)"
+      "opponent": "J. D. Hara Friend",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20240918",
-      "tournament": "M25 Darwin 2",
+      "date": "20241217",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Gray",
-      "score": "3-6 3-6"
+      "opponent": "A. Rai",
+      "score": "2-4 ret."
     },
     {
-      "date": "20240911",
-      "tournament": "M25 Darwin",
+      "date": "20241212",
+      "tournament": "M15 Wellington",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. D. Hara Friend",
+      "score": "5-7 6-3 6(1)-7(7)"
+    },
+    {
+      "date": "20241211",
+      "tournament": "M15 Wellington",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. McCall",
+      "score": "6-0 7-5"
+    },
+    {
+      "date": "20231211",
+      "tournament": "ITF M15 Wellington Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +93,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Cook",
-      "score": "4-6 6-4 6(6)-7(8)"
+      "opponent": "J. Watt",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20221213",
+      "tournament": "M15 Wellington",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Becroft",
+      "score": "4-6 2-6"
     }
   ]
 }
