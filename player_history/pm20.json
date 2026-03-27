@@ -1,48 +1,87 @@
 {
   "player_id": "pm20",
-  "gs_id": "263929",
-  "player_name": "Antoine Faut Pierre",
+  "gs_id": "83824",
+  "player_name": "Hugo Pierre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:00:45.994Z",
+  "updated": "2026-03-27T06:05:22.120Z",
   "matches": [
     {
-      "date": "20251112",
-      "tournament": "M25 Monastir 10",
+      "date": "20240829",
+      "tournament": "M25 Nakhon Si Thammarat",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Omarkhanov",
-      "score": "6-1 3-6 6-3"
+      "opponent": "Ja. Delaney",
+      "score": "7(7)-6(3) 2-6 3-6"
     },
     {
-      "date": "20251015",
-      "tournament": "M15 Villers-les-Nancy",
+      "date": "20240828",
+      "tournament": "M25 Nakhon Si Thammarat",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Jones",
-      "score": "3-6 4-6"
+      "result": "W",
+      "opponent": "Y. Jeong",
+      "score": "7(9)-6(7) 6-3"
     },
     {
-      "date": "20250902",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20240719",
+      "tournament": "M15 Nakhon Si Thammarat 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Shimanov",
+      "score": "3-6 6-1 4-6"
+    },
+    {
+      "date": "20240717",
+      "tournament": "M15 Nakhon Si Thammarat 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Park",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20240711",
+      "tournament": "M15 Nakhon Si Thammarat 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "H. S. Callejon",
-      "score": "0-6 6-3 2-6"
+      "opponent": "T. Boosarawongse",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20240710",
+      "tournament": "M15 Nakhon Si Thammarat 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Jones",
+      "score": "5-6 ret."
     }
   ]
 }
