@@ -3,11 +3,24 @@
   "gs_id": "140094",
   "player_name": "Alexander Frusina",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:53:16.970Z",
+  "updated": "2026-03-27T04:57:21.987Z",
   "matches": [
     {
-      "date": "20220929",
-      "tournament": "M15 Sabadell",
+      "date": "20240508",
+      "tournament": "ITF M25 Kursumlijska Banja Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ghibaudo",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240125",
+      "tournament": "M25 Wesley Chapel",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Lopez",
-      "score": "6-0 6-1"
+      "opponent": "A. Nefve",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20220927",
-      "tournament": "M15 Sabadell",
+      "date": "20240123",
+      "tournament": "M25 Wesley Chapel",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Pujol Navarro",
-      "score": "6(4)-7(7) 6-4 4-6"
+      "opponent": "V. Lilov",
+      "score": "5-7 2-6"
     }
   ]
 }
