@@ -3,11 +3,37 @@
   "gs_id": "30605",
   "player_name": "Nicola Kuhn",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:44:51.967Z",
+  "updated": "2026-03-27T05:55:37.074Z",
   "matches": [
     {
-      "date": "20231004",
-      "tournament": "ITF M25 Zaragoza Men",
+      "date": "20250220",
+      "tournament": "M25 Vila Real de Santo Antonio 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dedura",
+      "score": "4-6 3-5 ret."
+    },
+    {
+      "date": "20250219",
+      "tournament": "M25 Vila Real de Santo Antonio 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Araujo",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250213",
+      "tournament": "M25 Vila Real de Santo Antonio",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Erhard",
-      "score": "6-2 7-5"
+      "opponent": "M. Poljicak",
+      "score": "6(5)-7(7) 6-4 6-4"
     },
     {
-      "date": "20230730",
-      "tournament": "ITF M15 Metzingen Men",
+      "date": "20240703",
+      "tournament": "Karlsruhe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Vrbensky",
+      "score": "1-6 6-3 4-6"
+    },
+    {
+      "date": "20240609",
+      "tournament": "ITF M25 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Paty",
-      "score": "6-4 6-1"
+      "opponent": "P. Vives Marcos",
+      "score": "6(3)-7(7) 3-6"
     },
     {
-      "date": "20230729",
-      "tournament": "ITF M15 Metzingen Men",
+      "date": "20240608",
+      "tournament": "ITF M25 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. M. Jong",
-      "score": "3-6 3-6"
+      "opponent": "P. Martin Tiffon",
+      "score": "6-3 2-6 3-6"
     },
     {
-      "date": "20230728",
-      "tournament": "ITF M15 Metzingen Men",
+      "date": "20240607",
+      "tournament": "ITF M25 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -54,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Popovic",
-      "score": "4-6 4-6"
+      "opponent": "I. Radulov",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20230727",
-      "tournament": "ITF M15 Metzingen Men",
+      "date": "20240606",
+      "tournament": "ITF M25 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Kellovsky",
-      "score": "6-3 6-2"
+      "opponent": "M. Alcala Gurri",
+      "score": "2-6 6(3)-7(7)"
     },
     {
-      "date": "20230726",
-      "tournament": "ITF M15 Metzingen Men",
+      "date": "20240605",
+      "tournament": "ITF M25 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,47 +119,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Poertner",
-      "score": "6(2)-7(7) 2-6"
+      "opponent": "M. Markovits",
+      "score": "6(4)-7(7) 3-6"
     },
     {
-      "date": "20220906",
-      "tournament": "Nonthaburi 3",
+      "date": "20240512",
+      "tournament": "M25 Valldoreix",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Shimizu",
-      "score": "1-6 2-6"
+      "opponent": "M. Klizan",
+      "score": "3-6 6-0 6-3"
     },
     {
-      "date": "20220825",
-      "tournament": "Nonthaburi",
+      "date": "20240511",
+      "tournament": "M25 Valldoreix",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Martin Tiffon",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240510",
+      "tournament": "M25 Valldoreix",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Domingues",
+      "score": "6-4 6(5)-7(7) 6-1"
+    },
+    {
+      "date": "20240509",
+      "tournament": "M25 Valldoreix",
+      "surface": "Hard",
+      "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Vacherot",
-      "score": "7-5 6-3"
+      "result": "W",
+      "opponent": "V. Royer",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20220823",
-      "tournament": "Nonthaburi",
+      "date": "20240508",
+      "tournament": "M25 Valldoreix",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Lock",
-      "score": "7-5 6-3"
+      "opponent": "R. Izquierdo Luque",
+      "score": "6-4 6-1"
     }
   ]
 }
