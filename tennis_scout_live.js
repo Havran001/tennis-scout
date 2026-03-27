@@ -1213,8 +1213,8 @@ function _renderMatches(){
               '.mh-dd-item:hover,.mh-dd-item.active{background:rgba(33,150,243,0.3);}'
             ].join('');
             var cols=[
-              {key:'level',label:'Level',type:'sel',opts:['','ATP','CH','ITF']},
               {key:'result',label:'W/L',type:'sel',opts:['','W','L']},
+              {key:'level',label:'Level',type:'sel',opts:['','ATP','CH','ITF']},
               {key:'date',label:'Date',type:'txt'},
               {key:'tournament',label:'Tournament',type:'txt'},
               {key:'surface',label:'Surface',type:'sel',opts:[''].concat(_allSurfaces)},
@@ -1275,8 +1275,8 @@ function _renderMatches(){
               var lvlCls=lvl==='ATP'?'lvl-atp':lvl==='CH'?'lvl-ch':'lvl-itf';
               tbody+=[
                 '<tr>',
-                '<td class="'+lvlCls+'">'+lvl+'</td>',
                 '<td class="'+wlCls+'">'+(m.result||'')+'</td>',
+                '<td class="'+lvlCls+'">'+lvl+'</td>',
                 '<td>'+dd+'</td>',
                 '<td>'+_normT(m.tournament||'')+'</td>',
                 '<td class="'+sfCls+'">'+(m.surface||'')+'</td>',
