@@ -3,11 +3,37 @@
   "gs_id": "74214",
   "player_name": "Orlando Fellin Pietro",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:51:59.956Z",
+  "updated": "2026-03-27T03:46:28.965Z",
   "matches": [
     {
-      "date": "20250402",
-      "tournament": "M25 Santa Margherita di Pula",
+      "date": "20260317",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Xilas",
+      "score": "7-5 7(7)-6(5)"
+    },
+    {
+      "date": "20251112",
+      "tournament": "M15 Heraklion 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vales",
+      "score": "3-6 7-5 6-3"
+    },
+    {
+      "date": "20250828",
+      "tournament": "M15 Budapest",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Stricker",
-      "score": "6-3 6-4"
+      "opponent": "A. Boros",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20250401",
-      "tournament": "M25 Santa Margherita di Pula",
+      "date": "20250826",
+      "tournament": "M15 Budapest",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Plunger",
-      "score": "7(8)-6(6) 6-0"
+      "opponent": "K. Tamm",
+      "score": "7(7)-6(2) 7-5"
     },
     {
-      "date": "20240625",
-      "tournament": "M15 Wroclaw",
+      "date": "20241025",
+      "tournament": "ITF M25 Heraklion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Kingsley",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20241024",
+      "tournament": "ITF M25 Heraklion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Gonzalez Fernandez",
+      "score": "6(6)-7(8) 4-6"
+    },
+    {
+      "date": "20241023",
+      "tournament": "ITF M25 Heraklion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Oliel",
+      "score": "6-2 7(7)-6(3)"
+    },
+    {
+      "date": "20240925",
+      "tournament": "ITF M15 Sharm ElSheikh 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,34 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Barrena",
-      "score": "7-5 6-2"
+      "opponent": "M. Zhu",
+      "score": "3-6 6-1 1-6"
     },
     {
-      "date": "20230816",
-      "tournament": "M15 Ueberlingen",
+      "date": "20240919",
+      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Binda",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20240918",
+      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Beloborodko",
-      "score": "2-6 6-4 6-4"
-    },
-    {
-      "date": "20230628",
-      "tournament": "ITF M15 Casablanca 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Moundir",
-      "score": "6(5)-7(7) 3-6"
+      "result": "W",
+      "opponent": "S. Purtseladze",
+      "score": "4-2 ret."
     }
   ]
 }
