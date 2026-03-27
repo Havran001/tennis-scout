@@ -3,50 +3,37 @@
   "gs_id": "138371",
   "player_name": "Jack Loutit",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:21:18.277Z",
+  "updated": "2026-03-27T11:01:02.123Z",
   "matches": [
     {
-      "date": "20231221",
-      "tournament": "M15 Papamoa",
+      "date": "20250806",
+      "tournament": "M25 Bali",
       "surface": "Hard",
       "level": "I",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Dellavedova",
-      "score": "2-6 4-6"
+      "opponent": "A. Gea",
+      "score": "4-6 0-1 ret."
     },
     {
-      "date": "20231220",
-      "tournament": "M15 Papamoa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Bouzige",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20231219",
-      "tournament": "M15 Papamoa",
+      "date": "20250731",
+      "tournament": "M15 Bali",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Hudd",
-      "score": "6-4 7-5"
+      "result": "L",
+      "opponent": "A. Klintcharov",
+      "score": "2-6 6-4 6-3"
     },
     {
-      "date": "20231218",
-      "tournament": "M15 Papamoa",
+      "date": "20250730",
+      "tournament": "M15 Bali",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Kuhar",
-      "score": "6-4 6-4"
+      "opponent": "T. Quesada Perez",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20241010",
+      "tournament": "ITF M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. McHugh",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20241009",
+      "tournament": "ITF M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. McCormick",
+      "score": "7-5 6-3"
     }
   ]
 }
