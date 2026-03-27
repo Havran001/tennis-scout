@@ -3,11 +3,24 @@
   "gs_id": "56826",
   "player_name": "Jorge Plans",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:51:26.915Z",
+  "updated": "2026-03-27T03:45:53.968Z",
   "matches": [
     {
-      "date": "20260116",
-      "tournament": "M25 Monastir 2",
+      "date": "20251112",
+      "tournament": "M25 Monastir 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Geerts",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20251009",
+      "tournament": "M25 Monastir 7",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Aubriot",
-      "score": "6-4 6(5)-7(7) 4-6"
+      "opponent": "A. Gea",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20260113",
-      "tournament": "M25 Monastir 2",
+      "date": "20251008",
+      "tournament": "M25 Monastir 7",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Seleznev",
-      "score": "3-6 0-6"
+      "opponent": "J. Wygona",
+      "score": "7(7)-6(2) 7-5"
     },
     {
-      "date": "20251126",
-      "tournament": "M15 Monastir 43",
+      "date": "20250812",
+      "tournament": "M25 Monastir 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,86 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Herrmann",
-      "score": "4-6 6(8)-7(10)"
+      "opponent": "M. Giunta",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20251121",
-      "tournament": "M15 Monastir 42",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Omarkhanov",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20251120",
-      "tournament": "M15 Monastir 42",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Trifi",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20251119",
-      "tournament": "M15 Monastir 42",
+      "date": "20230620",
+      "tournament": "M25 Mungia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Bilardo",
-      "score": "3-6 6-3 6-4"
-    },
-    {
-      "date": "20250613",
-      "tournament": "M25 Monastir 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "L. Broady",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20250612",
-      "tournament": "M25 Monastir 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Bar Biryukov",
-      "score": "4-6 6-3 6-2"
-    },
-    {
-      "date": "20250611",
-      "tournament": "M25 Monastir 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Winter",
-      "score": "7-5 1-6 4-6"
+      "opponent": "S. Perez Contri",
+      "score": "6-2 6-1"
     }
   ]
 }
