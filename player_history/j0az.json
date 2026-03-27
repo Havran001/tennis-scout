@@ -3,20 +3,72 @@
   "gs_id": "56980",
   "player_name": "Kyrian Jacquet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:12:37.064Z",
+  "updated": "2026-03-27T09:26:43.117Z",
   "matches": [
     {
-      "date": "20260324",
-      "tournament": "Naples",
+      "date": "20251113",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "6(4)-7(7) 6-4 4-6"
+    },
+    {
+      "date": "20251112",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Durasovic",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20251111",
+      "tournament": "Lyon 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Droguet",
+      "score": "7(7)-6(4) 3-6 3-6"
+    },
+    {
+      "date": "20241113",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "L. Giustino",
-      "score": "6-2 4-6 0-6"
+      "opponent": "J. Fonseca",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20241111",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Molleker",
+      "score": "1-6 4-6"
     }
   ]
 }
