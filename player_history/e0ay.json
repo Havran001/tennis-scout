@@ -3,11 +3,37 @@
   "gs_id": "84361",
   "player_name": "Ammar Elamin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:05:28.933Z",
+  "updated": "2026-03-27T12:08:29.165Z",
   "matches": [
     {
-      "date": "20231227",
-      "tournament": "M15 Monastir 52",
+      "date": "20250731",
+      "tournament": "M15 Dublin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Story",
+      "score": "6(2)-7(7) 3-6"
+    },
+    {
+      "date": "20250729",
+      "tournament": "M15 Dublin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Walters",
+      "score": "7(7)-6(2) 7(9)-6(7)"
+    },
+    {
+      "date": "20240806",
+      "tournament": "ITF M15 Dublin Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Tarvet",
-      "score": "2-6 1-6"
+      "opponent": "F. Bass",
+      "score": "3-6 0-6"
     }
   ]
 }
