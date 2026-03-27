@@ -3,11 +3,11 @@
   "gs_id": "138493",
   "player_name": "Noah Perfetti",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:24:26.809Z",
+  "updated": "2026-03-27T01:55:26.934Z",
   "matches": [
     {
-      "date": "20250305",
-      "tournament": "M15 Antalya 7",
+      "date": "20260211",
+      "tournament": "M25 Antalya 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. P. Paz",
-      "score": "4-6 6-3 3-6"
+      "opponent": "G. A. Boitan",
+      "score": "1-6 6-2 4-6"
     },
     {
-      "date": "20240307",
-      "tournament": "ITF M15 Porec Men",
+      "date": "20250415",
+      "tournament": "M15 Dubrovnik",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gonzalez Fernandez",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250331",
+      "tournament": "M25 Santa Margherita di Pula",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Den Ouden",
+      "score": "1-6 6-4 5-7"
+    },
+    {
+      "date": "20241219",
+      "tournament": "M15 Antalya 20",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Popovic",
-      "score": "4-6 2-6"
+      "opponent": "L. Bouquet",
+      "score": "7-5 2-6 3-6"
     },
     {
-      "date": "20240306",
-      "tournament": "ITF M15 Porec Men",
+      "date": "20241217",
+      "tournament": "M15 Antalya 20",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Pampanin",
-      "score": "0-6 5-7"
+      "opponent": "L. Angelini",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20230214",
-      "tournament": "ITF M15 Monastir 7 Men",
+      "date": "20241211",
+      "tournament": "M15 Antalya 19",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +80,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Rottoli",
-      "score": "3-6 4-6"
+      "opponent": "F. Agamenone",
+      "score": "4-6 1-4 ret."
+    },
+    {
+      "date": "20241205",
+      "tournament": "M15 Antalya 18",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Feldbausch",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20231025",
+      "tournament": "ITF M15 Monastir 43 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Bittoun",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20230801",
+      "tournament": "ITF M25 Bolzano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Pieri",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20230411",
+      "tournament": "ITF M15 Monastir 15 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tu",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20230322",
+      "tournament": "ITF M15 Opatija Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Mikrut",
+      "score": "4-6 7(7)-6(1) 6-4"
+    },
+    {
+      "date": "20230207",
+      "tournament": "ITF M15 Monastir 56 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Vuletic",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20220316",
+      "tournament": "M15 Marrakech",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Hamou",
+      "score": "6-3 6-2"
     }
   ]
 }
