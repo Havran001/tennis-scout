@@ -3,20 +3,46 @@
   "gs_id": "3287",
   "player_name": "Pawel Juszczak",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:49:40.924Z",
+  "updated": "2026-03-27T01:56:40.941Z",
   "matches": [
     {
-      "date": "20230405",
-      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
+      "date": "20230324",
+      "tournament": "ITF M15 Sharm ElSheikh 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Elsayed",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20230323",
+      "tournament": "ITF M15 Sharm ElSheikh 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Beckley",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230322",
+      "tournament": "ITF M15 Sharm ElSheikh 8 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Elsayed",
-      "score": "6-3 6-3"
+      "result": "W",
+      "opponent": "G. Shebekin",
+      "score": "2-6 2-6"
     }
   ]
 }
