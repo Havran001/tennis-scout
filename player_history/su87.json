@@ -3,11 +3,50 @@
   "gs_id": "27347",
   "player_name": "Lorenzo Sonego",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:57:58.883Z",
+  "updated": "2026-03-27T03:50:32.979Z",
   "matches": [
     {
-      "date": "20221011",
-      "tournament": "Florence",
+      "date": "20240518",
+      "tournament": "Turin 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J.J. Wolf",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240518",
+      "tournament": "Turin 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Passaro",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240517",
+      "tournament": "Turin 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Coria",
+      "score": "6-3 4-6 4-6"
+    },
+    {
+      "date": "20230103",
+      "tournament": "Adelaide 2",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -15,64 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Zapata Miralles",
-      "score": "6-4 6-4"
+      "opponent": "D. Medvedev",
+      "score": "6(6)-7(8) 1-2 ret."
     },
     {
-      "date": "20210526",
-      "tournament": "Parma",
+      "date": "20221019",
+      "tournament": "Napoli",
       "surface": "Hard",
       "level": "B",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Korda",
-      "score": "6-1 7-5"
+      "opponent": "S. Baez",
+      "score": "5-7 6(3)-7(7)"
     },
     {
-      "date": "20210411",
-      "tournament": "Cagliari",
-      "surface": "Hard",
-      "level": "B",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Djere",
-      "score": "6-2 6(5)-7(7) 4-6"
-    },
-    {
-      "date": "20210410",
-      "tournament": "Cagliari",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Fritz",
-      "score": "6-4 5-7 6-1"
-    },
-    {
-      "date": "20210409",
-      "tournament": "Cagliari",
+      "date": "20211002",
+      "tournament": "ATP San Diego",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Hanfmann",
-      "score": "6-3 6(6)-7(8) 3-6"
+      "result": "L",
+      "opponent": "C. Ruud",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20210408",
-      "tournament": "Cagliari",
+      "date": "20210930",
+      "tournament": "ATP San Diego",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -80,38 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Simon",
-      "score": "4-6 1-6"
+      "opponent": "S. Korda",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20210201",
-      "tournament": "Melbourne (Murray River Open)",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R64",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Kubler",
-      "score": "6-3 3-6 4-6"
-    },
-    {
-      "date": "20201014",
-      "tournament": "Sardinia",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Vesely",
-      "score": "6-4 3-6 6-1"
-    },
-    {
-      "date": "20201013",
-      "tournament": "Sardinia",
+      "date": "20210928",
+      "tournament": "ATP San Diego",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -119,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Zeppieri",
-      "score": "6-2 7(7)-6(4)"
+      "opponent": "N. Basilashvili",
+      "score": "6-3 6-4"
     }
   ]
 }
