@@ -3,8 +3,21 @@
   "gs_id": "85173",
   "player_name": "Robin Bertrand",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:57:37.198Z",
+  "updated": "2026-03-27T08:16:23.060Z",
   "matches": [
+    {
+      "date": "20250325",
+      "tournament": "M25 Tarragona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Santamarta Roig",
+      "score": "7(7)-6(2) 6-4"
+    },
     {
       "date": "20241026",
       "tournament": "M25 Trnava 2",
@@ -58,8 +71,8 @@
       "score": "2-6 0-4 ret."
     },
     {
-      "date": "20231019",
-      "tournament": "ITF M25 Edgbaston Men",
+      "date": "20240705",
+      "tournament": "M25 Ajaccio+H",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -67,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Fearnley",
-      "score": "6-2 6-1"
+      "opponent": "B. Lock",
+      "score": "5-7 6-4 6-2"
     },
     {
-      "date": "20231018",
-      "tournament": "ITF M25 Edgbaston Men",
+      "date": "20240704",
+      "tournament": "M25 Ajaccio+H",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Shaw",
-      "score": "6-1 6-1"
+      "opponent": "D. Palan",
+      "score": "6-2 5-7 6-4"
     },
     {
-      "date": "20231017",
-      "tournament": "ITF M25 Edgbaston Men",
+      "date": "20240703",
+      "tournament": "M25 Ajaccio+H",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,38 +106,90 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Zhu",
-      "score": "6-3 6-0"
+      "opponent": "A. Reymond",
+      "score": "6(6)-7(8) 7(7)-6(3) 6-2"
     },
     {
-      "date": "20230804",
-      "tournament": "ITF M25 Astana Men",
+      "date": "20240525",
+      "tournament": "Kachreti",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bakshi",
+      "score": "1-6 6-3 5-7"
+    },
+    {
+      "date": "20240524",
+      "tournament": "Kachreti",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Jubb",
+      "score": "3-6 6-3 6-2"
+    },
+    {
+      "date": "20240523",
+      "tournament": "Kachreti",
+      "surface": "Hard",
+      "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Tokuda",
-      "score": "3-6 5-7"
+      "result": "W",
+      "opponent": "E. Gerasimov",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20230803",
-      "tournament": "ITF M25 Astana Men",
+      "date": "20240522",
+      "tournament": "Kachreti",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Hussey",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20240520",
+      "tournament": "Kachreti",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Bobrov",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20240516",
+      "tournament": "M25 Kachreti",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Zgirovsky",
-      "score": "4-6 2-6"
+      "result": "L",
+      "opponent": "D. Glinka",
+      "score": "5-7 6-1 6-2"
     },
     {
-      "date": "20230802",
-      "tournament": "ITF M25 Astana Men",
+      "date": "20240515",
+      "tournament": "M25 Kachreti",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,8 +197,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Kirci",
-      "score": "4-6 2-3 ret."
+      "opponent": "S. Purtseladze",
+      "score": "6-3 6(6)-7(8) 7-5"
     }
   ]
 }
