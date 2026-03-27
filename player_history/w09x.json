@@ -1,12 +1,25 @@
 {
   "player_id": "w09x",
-  "gs_id": "39239",
-  "player_name": "Benjamin Winter Lopez",
+  "gs_id": "89871",
+  "player_name": "Noah Lopez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:58:57.017Z",
+  "updated": "2026-03-27T06:06:36.012Z",
   "matches": [
     {
-      "date": "20240710",
+      "date": "20240827",
+      "tournament": "ITF M25 Sion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Ruehl",
+      "score": "4-6 6-2 3-6"
+    },
+    {
+      "date": "20240709",
       "tournament": "ITF M25 Roda de Bara Men",
       "surface": "Hard",
       "level": "I",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. A. Becerra Otarola",
-      "score": "2-4 ret."
+      "opponent": "M. Gonzalez Fernandez",
+      "score": "6-4 0-6 1-6"
     },
     {
-      "date": "20230713",
-      "tournament": "ITF M25 Roda de Bara Men",
+      "date": "20240420",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Lopez Morillo",
-      "score": "7(7)-6(4) 6-0"
+      "opponent": "L. Pavlovic",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240419",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. A. Andreescu",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230831",
+      "tournament": "ITF M25 Sion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Feldbausch",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M25 Sion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Berrut",
+      "score": "4-6 7(7)-6(3) 3-6"
+    },
+    {
+      "date": "20230719",
+      "tournament": "ITF M25 Castelo Branco Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Freire Da Silva",
+      "score": "5-7 4-6"
     },
     {
       "date": "20230712",
@@ -40,9 +105,87 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Erel",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20230518",
+      "tournament": "M25 Gurb",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Gill",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20230517",
+      "tournament": "M25 Gurb",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "W",
-      "opponent": "D. Jorda Sanchis",
-      "score": "1-6 2-6"
+      "opponent": "R. Kawakami",
+      "score": "6-4 6(4)-7(7) 4-6"
+    },
+    {
+      "date": "20230503",
+      "tournament": "ITF M25 Sabadell Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Chazal",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20230427",
+      "tournament": "M25 Sanxenxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Fernandez Flores",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230426",
+      "tournament": "M25 Sanxenxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Vuletic",
+      "score": "2-0 ret."
+    },
+    {
+      "date": "20230419",
+      "tournament": "ITF M15 Telde 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Lemstra",
+      "score": "7(8)-6(6) 6-4"
     }
   ]
 }
