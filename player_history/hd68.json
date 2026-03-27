@@ -1,13 +1,26 @@
 {
   "player_id": "hd68",
-  "gs_id": "33696",
-  "player_name": "Lloyd Harris",
+  "gs_id": "20817",
+  "player_name": "Billy Harris",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:50:45.967Z",
+  "updated": "2026-03-27T04:44:46.981Z",
   "matches": [
     {
-      "date": "20230114",
-      "tournament": "Nonthaburi 2 Challenger Men",
+      "date": "20240325",
+      "tournament": "Girona Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Hassan",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230326",
+      "tournament": "Las Franquesas del Valles",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Cazaux",
-      "score": "6(5)-7(7) 2-6"
+      "opponent": "H. Grenier",
+      "score": "3-6 6-1 7(7)-6(3)"
     },
     {
-      "date": "20230113",
-      "tournament": "Nonthaburi 2 Challenger Men",
+      "date": "20230325",
+      "tournament": "Las Franquesas del Valles",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Jung",
-      "score": "1-6 4-6"
+      "opponent": "M. Purcell",
+      "score": "6(3)-7(7) 6(4)-7(7)"
     },
     {
-      "date": "20230112",
-      "tournament": "Nonthaburi 2 Challenger Men",
+      "date": "20230324",
+      "tournament": "Las Franquesas del Valles",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Michalski",
-      "score": "4-6 3-6"
+      "opponent": "M. Trungelliti",
+      "score": "6-0 6-3"
     },
     {
-      "date": "20230111",
-      "tournament": "Nonthaburi 2 Challenger Men",
+      "date": "20230323",
+      "tournament": "Las Franquesas del Valles",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Moraing",
-      "score": "1-6 3-6"
+      "opponent": "O. Roca Batalla",
+      "score": "6-2 6-0"
     },
     {
-      "date": "20230110",
-      "tournament": "Nonthaburi 2 Challenger Men",
+      "date": "20230321",
+      "tournament": "Las Franquesas del Valles",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,60 +80,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Samrej",
+      "opponent": "O. Krutykh",
       "score": "1-6 2-6"
     },
     {
-      "date": "20230106",
-      "tournament": "Nonthaburi Challenger Men",
+      "date": "20230320",
+      "tournament": "Las Franquesas del Valles",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Nijboer",
+      "score": "6-3 3-6 6-2"
+    },
+    {
+      "date": "20230319",
+      "tournament": "Las Franquesas del Valles",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Butvilas",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20230217",
+      "tournament": "ITF M25 Vila Real de Santo Antonio 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Wu Tung-Lin",
-      "score": "6-4 7-5"
+      "opponent": "H. Rocha",
+      "score": "6-2 7(7)-6(2)"
     },
     {
-      "date": "20230105",
-      "tournament": "Nonthaburi Challenger Men",
+      "date": "20230216",
+      "tournament": "ITF M25 Vila Real de Santo Antonio 2 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Hsu Yu",
-      "score": "6(7)-7(9) 6-3 6-4"
-    },
-    {
-      "date": "20230104",
-      "tournament": "Nonthaburi Challenger Men",
-      "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Marozsan",
-      "score": "6-3 0-6 3-6"
+      "opponent": "G. Kravchenko",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20230102",
-      "tournament": "Nonthaburi Challenger Men",
+      "date": "20230215",
+      "tournament": "ITF M25 Vila Real de Santo Antonio 2 Men",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Hassan",
-      "score": "2-6 5-7"
+      "opponent": "N. Nedelchev",
+      "score": "3-6 6-1 7(7)-6(3)"
+    },
+    {
+      "date": "20221117",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Mensik",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20221116",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Sandkaulen",
+      "score": "4-6 6(6)-7(8)"
     }
   ]
 }
