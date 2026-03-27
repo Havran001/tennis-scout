@@ -3,24 +3,37 @@
   "gs_id": "89953",
   "player_name": "Vladan Tadic",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:51:04.903Z",
+  "updated": "2026-03-27T04:47:05.981Z",
   "matches": [
     {
-      "date": "20250530",
-      "tournament": "M15 Doboj",
+      "date": "20250827",
+      "tournament": "M25 Maribor 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Hopp",
-      "score": "7-5 6-1"
+      "result": "L",
+      "opponent": "M. Krumich",
+      "score": "0-6 2-6"
     },
     {
-      "date": "20250530",
-      "tournament": "M15 Doboj",
+      "date": "20250819",
+      "tournament": "M25 Maribor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Sorger",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20250509",
+      "tournament": "M25 Kursumlijska Banja",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,51 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Bieldiugin",
-      "score": "6-2 6-1"
+      "opponent": "C. Tabur",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20250528",
-      "tournament": "M15 Doboj",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Loge",
-      "score": "2-4 ret."
-    },
-    {
-      "date": "20220511",
-      "tournament": "M15 Doboj",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Nad",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20210715",
-      "tournament": "ITF M15 Doboj Men",
+      "date": "20250508",
+      "tournament": "M25 Kursumlijska Banja",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Fenty",
-      "score": "6(4)-7(7) 7-5 3-6"
+      "result": "W",
+      "opponent": "T. Paroulek",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20210714",
-      "tournament": "ITF M15 Doboj Men",
+      "date": "20250507",
+      "tournament": "M25 Kursumlijska Banja",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Ouakaa",
-      "score": "7-5 6-4"
+      "opponent": "S. Popovic",
+      "score": "4-6 6-4 7-5"
+    },
+    {
+      "date": "20220713",
+      "tournament": "M15 Litija",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Nincevic",
+      "score": "4-6 6-2 6-3"
     }
   ]
 }
