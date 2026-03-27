@@ -3,24 +3,50 @@
   "gs_id": "154466",
   "player_name": "Stefan Dostanic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:24:31.069Z",
+  "updated": "2026-03-27T09:30:07.099Z",
   "matches": [
     {
-      "date": "20250109",
-      "tournament": "M25 Ithaca",
+      "date": "20241026",
+      "tournament": "M25 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Monday",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20241025",
+      "tournament": "M25 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Becroft",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20241024",
+      "tournament": "M25 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zheng",
-      "score": "7(7)-6(3) 4-6 3-6"
+      "result": "W",
+      "opponent": "L. C. Alvarez Valdes",
+      "score": "6-2 1-6 6-1"
     },
     {
-      "date": "20250108",
-      "tournament": "M25 Ithaca",
+      "date": "20241023",
+      "tournament": "M25 Norman",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. M. Papoe",
-      "score": "3-6 3-6"
+      "opponent": "P. Maloney",
+      "score": "2-6 6-3 4-6"
     }
   ]
 }
