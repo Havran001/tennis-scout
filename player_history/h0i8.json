@@ -3,7 +3,7 @@
   "gs_id": "163603",
   "player_name": "Gabor Hornung",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:30:50.095Z",
+  "updated": "2026-03-27T12:25:38.161Z",
   "matches": [
     {
       "date": "20251028",
@@ -19,8 +19,8 @@
       "score": "6-1 6-2"
     },
     {
-      "date": "20250806",
-      "tournament": "M15 Kursumlijska Banja 14",
+      "date": "20250820",
+      "tournament": "M15 Mistelbach",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Djuric",
-      "score": "7-5 5-7 1-2 ret."
+      "opponent": "N. Oberleitner",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20250516",
+      "tournament": "M15 Szentendre",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Ivanov",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20250515",
+      "tournament": "M15 Szentendre",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Chayka",
+      "score": "6-3 4-6 3-6"
+    },
+    {
+      "date": "20250514",
+      "tournament": "M15 Szentendre",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Gloeckler",
+      "score": "4-6 6-1 5-7"
     },
     {
       "date": "20241108",
@@ -69,71 +108,6 @@
       "result": "W",
       "opponent": "P. Sallay",
       "score": "3-6 2-6"
-    },
-    {
-      "date": "20240622",
-      "tournament": "ITF M15 Nyiregyháza 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. A. Tomescu",
-      "score": "6(5)-7(7) 4-6"
-    },
-    {
-      "date": "20240621",
-      "tournament": "ITF M15 Nyiregyháza 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Kellovsky",
-      "score": "3-6 6(2)-7(7)"
-    },
-    {
-      "date": "20240620",
-      "tournament": "ITF M15 Nyiregyháza 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Bosio",
-      "score": "3-6 6-3 6-4"
-    },
-    {
-      "date": "20240619",
-      "tournament": "ITF M15 Nyiregyháza 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Estevez",
-      "score": "6-2 4-6 6(5)-7(7)"
-    },
-    {
-      "date": "20240528",
-      "tournament": "ITF M15 Gyula Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Ramskogler",
-      "score": "1-6 1-6"
     }
   ]
 }
