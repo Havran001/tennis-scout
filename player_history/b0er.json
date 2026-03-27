@@ -3,11 +3,11 @@
   "gs_id": "78976",
   "player_name": "Arthur Bouquier",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:23.970Z",
+  "updated": "2026-03-27T04:46:47.986Z",
   "matches": [
     {
-      "date": "20240616",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20240407",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Geerts",
-      "score": "6-4 ret."
+      "opponent": "A. Garcian",
+      "score": "6(4)-7(7) 5-7"
     },
     {
-      "date": "20240615",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20240406",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Damas",
-      "score": "6-2 6-2"
+      "opponent": "M. Malige",
+      "score": "4-6 7-5 6-4"
     },
     {
-      "date": "20240614",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20240405",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Bertrand",
+      "opponent": "A. Vatutin",
       "score": "3-6 2-6"
     },
     {
-      "date": "20240613",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20240404",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Marrero Curbelo",
-      "score": "3-6 2-6"
+      "opponent": "L. Marmousez",
+      "score": "7-5 3-6 2-6"
     },
     {
-      "date": "20240611",
-      "tournament": "ITF M25 Martos Men",
+      "date": "20240403",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,25 +67,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Molino",
-      "score": "0-6 3-6"
+      "opponent": "T. Papamalamis",
+      "score": "6-3 0-6 4-6"
     },
     {
-      "date": "20230719",
-      "tournament": "ITF M25 Roehampton Men",
+      "date": "20230408",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Broom",
-      "score": "4-6 4-6"
+      "opponent": "F. Broska",
+      "score": "4-6 7(7)-6(3) 6-2"
     },
     {
-      "date": "20230718",
-      "tournament": "ITF M25 Roehampton Men",
+      "date": "20230407",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Castelnuovo",
+      "score": "6-2 7(7)-6(3)"
+    },
+    {
+      "date": "20230406",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Berger",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20230405",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +119,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Jones",
-      "score": "6-4 6-3"
+      "opponent": "F. Musitelli",
+      "score": "6-1 6(10)-7(12) 6-0"
+    },
+    {
+      "date": "20221202",
+      "tournament": "M25 Monastir 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Bu",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20221201",
+      "tournament": "M25 Monastir 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Claverie",
+      "score": "3-6 7(7)-6(3) 4-6"
+    },
+    {
+      "date": "20221130",
+      "tournament": "M25 Monastir 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Milicevic",
+      "score": "5-7 4-6"
     },
     {
       "date": "20221124",
@@ -121,45 +186,6 @@
       "result": "W",
       "opponent": "D. Suresh",
       "score": "0-6 3-6"
-    },
-    {
-      "date": "20221104",
-      "tournament": "M15 Villers-les-Nancy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Marmousez",
-      "score": "6-3 4-6 6-3"
-    },
-    {
-      "date": "20221103",
-      "tournament": "M15 Villers-les-Nancy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Broville",
-      "score": "6-4 3-6 6-3"
-    },
-    {
-      "date": "20221101",
-      "tournament": "M15 Villers-les-Nancy",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Massard",
-      "score": "6-4 6(4)-7(7) 6-4"
     }
   ]
 }
