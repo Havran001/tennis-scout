@@ -3,21 +3,8 @@
   "gs_id": "10541",
   "player_name": "Issei Okamura",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:53:39.010Z",
+  "updated": "2026-03-27T06:55:23.029Z",
   "matches": [
-    {
-      "date": "20250604",
-      "tournament": "M15 Karuizawa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. D. Hara Friend",
-      "score": "6-3 6-2"
-    },
     {
       "date": "20250429",
       "tournament": "M25 Anning",
@@ -32,34 +19,21 @@
       "score": "6-4 6(5)-7(7) 7(8)-6(6)"
     },
     {
-      "date": "20240705",
-      "tournament": "M15 Nakhon Si Thammarat 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Kalyanpur",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20240704",
-      "tournament": "M15 Nakhon Si Thammarat 4",
+      "date": "20240829",
+      "tournament": "M25 Hong Kong",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Vales",
+      "result": "L",
+      "opponent": "A. Zakharov",
       "score": "3-6 3-6"
     },
     {
-      "date": "20240703",
-      "tournament": "M15 Nakhon Si Thammarat 4",
+      "date": "20240827",
+      "tournament": "M25 Hong Kong",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Van Herzeele",
+      "opponent": "K. Nishiwaki",
       "score": "2-6 4-6"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M25 Luzhou Men",
+      "date": "20230823",
+      "tournament": "M25 Tainan 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Tang",
-      "score": "3-6 5-7"
+      "opponent": "S. Shin",
+      "score": "3-6 1-5 ret."
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Tainan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Kirkin",
+      "score": "0-6 2-6"
     },
     {
       "date": "20230809",
@@ -95,45 +82,6 @@
       "result": "L",
       "opponent": "A. Vales",
       "score": "4-6 6-3 3-6"
-    },
-    {
-      "date": "20230627",
-      "tournament": "M15 Jakarta 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Matsuda",
-      "score": "3-6 6(6)-7(8)"
-    },
-    {
-      "date": "20230621",
-      "tournament": "M25 Anseong",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Shin",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20230530",
-      "tournament": "ITF M15 Karuizawa Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Shin",
-      "score": "3-6 6-2 6-1"
     }
   ]
 }
