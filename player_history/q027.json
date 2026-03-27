@@ -3,11 +3,11 @@
   "gs_id": "142286",
   "player_name": "Essa Qabazard",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:59:37.921Z",
+  "updated": "2026-03-27T04:57:46.988Z",
   "matches": [
     {
-      "date": "20250514",
-      "tournament": "M15 Monastir 19",
+      "date": "20250326",
+      "tournament": "M15 Sharm ElSheikh 9",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Zhukov",
-      "score": "6-0 6-3"
+      "opponent": "F. Zakaria",
+      "score": "6-4 7(8)-6(6)"
     },
     {
-      "date": "20231009",
-      "tournament": "ITF M15 Doha 3 Men",
+      "date": "20250122",
+      "tournament": "M25 Doha",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Pokotilov",
-      "score": "5-7 2-6"
+      "opponent": "L. Preda",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20230222",
-      "tournament": "ITF M25 Monastir 4 Men",
+      "date": "20231101",
+      "tournament": "M15 Al Zahra 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "6-3 6-0"
+      "opponent": "M. Lavizzari",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20220628",
-      "tournament": "M15 Monastir 25",
+      "date": "20230125",
+      "tournament": "M25 Al Zahra",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Wallart",
-      "score": "1-6 3-6"
+      "opponent": "A. Bakshi",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20221102",
+      "tournament": "M15 Al Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Kovapitukted",
+      "score": "0-6 6(0)-7(7)"
+    },
+    {
+      "date": "20221027",
+      "tournament": "M15 Al Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Atlangeriev",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20221026",
+      "tournament": "M15 Al Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Giotis",
+      "score": "0-6 6-2 6-4"
     }
   ]
 }
