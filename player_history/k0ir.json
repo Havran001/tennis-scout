@@ -3,24 +3,50 @@
   "gs_id": "139617",
   "player_name": "Liam Krall",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:53:41.961Z",
+  "updated": "2026-03-27T06:08:20.022Z",
   "matches": [
     {
-      "date": "20250710",
-      "tournament": "M25 Dallas",
+      "date": "20260203",
+      "tournament": "M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Tenti",
+      "score": "6-4 3-6 2-6"
+    },
+    {
+      "date": "20250718",
+      "tournament": "M15 Rochester",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Delgado",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250717",
+      "tournament": "M15 Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Kim",
-      "score": "6-1 6-1"
+      "result": "W",
+      "opponent": "C. Mahjoob",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20250708",
-      "tournament": "M25 Dallas",
+      "date": "20250715",
+      "tournament": "M15 Rochester",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Evans",
-      "score": "6-4 6-3"
+      "opponent": "R. Fishback",
+      "score": "6-3 7(7)-6(5)"
     },
     {
-      "date": "20230711",
-      "tournament": "ITF M25 Dallas",
+      "date": "20250703",
+      "tournament": "M25 Laval",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Milavsky",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20250702",
+      "tournament": "M25 Laval",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Ogura",
+      "score": "6-4 1-6 2-6"
+    },
+    {
+      "date": "20250129",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Mayo",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20220628",
-      "tournament": "M25 Dallas",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Muniz Hidalgo",
-      "score": "1-6 6(4)-7(7)"
+      "opponent": "A. Ciric",
+      "score": "4-6 2-6"
     }
   ]
 }
