@@ -3,46 +3,98 @@
   "gs_id": "175211",
   "player_name": "Zoran Ludoski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:54:38.924Z",
+  "updated": "2026-03-27T04:49:12.984Z",
   "matches": [
     {
-      "date": "20240320",
-      "tournament": "ITF M15 Opatija Men",
+      "date": "20240628",
+      "tournament": "M15 Belgrade",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. A. Falabella",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20240626",
+      "tournament": "M15 Belgrade",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Obradovic",
-      "score": "6-3 6-4"
+      "result": "W",
+      "opponent": "M. Zekic",
+      "score": "4-3 ret."
     },
     {
-      "date": "20230906",
-      "tournament": "ITF M15 Pirot Men",
+      "date": "20240509",
+      "tournament": "ITF M25 Kursumlijska Banja Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Dougaz",
+      "score": "7-5 2-6 4-6"
+    },
+    {
+      "date": "20240508",
+      "tournament": "ITF M25 Kursumlijska Banja Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Kyratzis",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240420",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Obradovic",
+      "score": "3-6 6-4 7-10"
+    },
+    {
+      "date": "20240420",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "L. Pavlovic",
-      "score": "1-6 6(4)-7(7)"
+      "score": "6-4 6-3"
     },
     {
-      "date": "20230726",
-      "tournament": "M15 Novi Sad",
+      "date": "20240419",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Poljicak",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "J. Loge",
+      "score": "6-4 2-6 4-10"
     }
   ]
 }
