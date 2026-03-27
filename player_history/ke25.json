@@ -3,24 +3,37 @@
   "gs_id": "143126",
   "player_name": "Hamza Karmoussi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:51.983Z",
+  "updated": "2026-03-27T01:51:32.951Z",
   "matches": [
     {
-      "date": "20220914",
-      "tournament": "M15 Casablanca 4",
+      "date": "20220324",
+      "tournament": "M15 Marrakech 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Droguet",
-      "score": "1-6 0-6"
+      "opponent": "A. Chepelev",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20220907",
-      "tournament": "M15 Casablanca 3",
+      "date": "20220323",
+      "tournament": "M15 Marrakech 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Erhard",
+      "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20220317",
+      "tournament": "M15 Marrakech",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Denolly",
-      "score": "7-5 6-4"
+      "opponent": "P. Bachmaier",
+      "score": "5-7 6-4 7(7)-6(3)"
     }
   ]
 }
