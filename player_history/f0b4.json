@@ -3,20 +3,33 @@
   "gs_id": "57475",
   "player_name": "Barney Fitzpatrick",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:51:40.949Z",
+  "updated": "2026-03-27T08:13:30.404Z",
   "matches": [
     {
-      "date": "20250813",
-      "tournament": "M25 Monastir 6",
+      "date": "20260129",
+      "tournament": "M15 Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Staeheli",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20260128",
+      "tournament": "M15 Zahra",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Coulibaly",
-      "score": "6-3 6-2"
+      "result": "W",
+      "opponent": "B. Alabdullah",
+      "score": "6-1 2-6 6-3"
     }
   ]
 }
