@@ -3,11 +3,37 @@
   "gs_id": "177326",
   "player_name": "Alexandru Chirita Ioan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:31:35.091Z",
+  "updated": "2026-03-27T11:02:50.128Z",
   "matches": [
     {
-      "date": "20250611",
-      "tournament": "M15 Oradea",
+      "date": "20250717",
+      "tournament": "M15 Slobozia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. T. Pieleanu",
+      "score": "6-3 7(7)-6(2)"
+    },
+    {
+      "date": "20250716",
+      "tournament": "M15 Slobozia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Venger",
+      "score": "2-6 6-4 6-2"
+    },
+    {
+      "date": "20250623",
+      "tournament": "M25 Targu Mures",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Palosi",
-      "score": "6-4 7(7)-6(2)"
+      "opponent": "F. Agamenone",
+      "score": "6-4 0-6 1-6"
     },
     {
       "date": "20240926",
@@ -147,97 +173,6 @@
       "result": "W",
       "opponent": "S. Konov",
       "score": "6-3 6-3"
-    },
-    {
-      "date": "20240717",
-      "tournament": "ITF M15 Bucharest 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. A. Tomescu",
-      "score": "3-6 6(3)-7(7)"
-    },
-    {
-      "date": "20240612",
-      "tournament": "ITF M15 Oradea Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. A. Boitan",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20240524",
-      "tournament": "ITF M15 Bucharest 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Nesterov",
-      "score": "6-4 3-6 1-6"
-    },
-    {
-      "date": "20240523",
-      "tournament": "ITF M15 Bucharest 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. De Vincentis",
-      "score": "6(5)-7(7) 6(3)-7(7)"
-    },
-    {
-      "date": "20240522",
-      "tournament": "ITF M15 Bucharest 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. A. Dancu",
-      "score": "3-6 6-4 6-3"
-    },
-    {
-      "date": "20231129",
-      "tournament": "ITF M15 San Gregorio di Catania Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Oumaouche",
-      "score": "6-3 2-6 6-4"
-    },
-    {
-      "date": "20231128",
-      "tournament": "ITF M15 San Gregorio di Catania Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Arnaboldi",
-      "score": "2-6 5-7"
     }
   ]
 }
