@@ -3,24 +3,50 @@
   "gs_id": "56980",
   "player_name": "Kyrian Jacquet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:59:01.294Z",
+  "updated": "2026-03-27T11:58:25.155Z",
   "matches": [
     {
-      "date": "20251113",
-      "tournament": "Lyon 2",
+      "date": "20251019",
+      "tournament": "Shenzhen 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Zhou",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20251018",
+      "tournament": "Shenzhen 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Shimabukuro",
+      "score": "7-5 4-6 6-2"
+    },
+    {
+      "date": "20251017",
+      "tournament": "Shenzhen 4",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Added",
-      "score": "6(4)-7(7) 6-4 4-6"
+      "result": "W",
+      "opponent": "K. Uchida",
+      "score": "3-6 6-4 3-6"
     },
     {
-      "date": "20251112",
-      "tournament": "Lyon 2",
+      "date": "20251016",
+      "tournament": "Shenzhen 4",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Durasovic",
-      "score": "6-2 6-4"
+      "opponent": "O. Jasika",
+      "score": "6-4 3-6 2-6"
     },
     {
-      "date": "20251111",
-      "tournament": "Lyon 2",
+      "date": "20251014",
+      "tournament": "Shenzhen 4",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,33 +67,7 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Droguet",
-      "score": "7(7)-6(4) 3-6 3-6"
-    },
-    {
-      "date": "20241113",
-      "tournament": "Lyon 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Fonseca",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20241111",
-      "tournament": "Lyon 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Molleker",
+      "opponent": "P. Dev S D",
       "score": "1-6 4-6"
     }
   ]
