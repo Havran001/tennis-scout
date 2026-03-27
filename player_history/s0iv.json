@@ -3,11 +3,11 @@
   "gs_id": "168664",
   "player_name": "Ryan Augusto dos Santos",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:59.937Z",
+  "updated": "2026-03-27T03:54:26.969Z",
   "matches": [
     {
-      "date": "20240501",
-      "tournament": "M25 Anapoima",
+      "date": "20251007",
+      "tournament": "M25 Rio de Janeiro",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Bertran",
-      "score": "1-6 1-6"
+      "opponent": "J. V. Scramin do Lago",
+      "score": "6-4 3-6 6-3"
     },
     {
-      "date": "20230314",
-      "tournament": "ITF M25 Anapoima Men",
+      "date": "20221123",
+      "tournament": "M25+H Lajeado",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Voisin",
-      "score": "4-6 4-6"
+      "opponent": "F. Yamacita",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20221020",
+      "tournament": "ITF M25 Rio de Janeiro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Pereira",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20221019",
+      "tournament": "ITF M25 Rio de Janeiro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. E. Schiessl",
+      "score": "4-6 5-7"
     }
   ]
 }
