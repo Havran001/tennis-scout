@@ -3,24 +3,37 @@
   "gs_id": "156009",
   "player_name": "Samuele Seghetti",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:02:15.588Z",
+  "updated": "2026-03-27T08:24:25.063Z",
   "matches": [
     {
-      "date": "20250825",
-      "tournament": "M15 Forli",
+      "date": "20250717",
+      "tournament": "M15 Kursumlijska Banja 11",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Pieri",
-      "score": "6(6)-7(8) 0-6"
+      "opponent": "A. Vales",
+      "score": "7-5 3-6 7(7)-6(2)"
     },
     {
-      "date": "20240828",
-      "tournament": "ITF M15 Forli Men",
+      "date": "20250716",
+      "tournament": "M15 Kursumlijska Banja 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Radojicic",
+      "score": "6-4 1-6 3-6"
+    },
+    {
+      "date": "20250710",
+      "tournament": "M15 Kursumlijska Banja 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Basile",
-      "score": "3-6 0-6"
+      "opponent": "D. Klok",
+      "score": "1-6 3-6"
     }
   ]
 }
