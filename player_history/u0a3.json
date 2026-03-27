@@ -3,11 +3,37 @@
   "gs_id": "157479",
   "player_name": "Matthias Ujvary",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:07.938Z",
+  "updated": "2026-03-27T04:58:42.985Z",
   "matches": [
     {
-      "date": "20260211",
-      "tournament": "M25 Antalya 4",
+      "date": "20240523",
+      "tournament": "M15 Celje",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Paty",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20240522",
+      "tournament": "M15 Celje",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Basic",
+      "score": "6-2 3-6 6-2"
+    },
+    {
+      "date": "20240501",
+      "tournament": "M15 Osijek",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Van Der Meerschen",
-      "score": "2-6 6(2)-7(7)"
+      "opponent": "M. Steiner",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20260121",
-      "tournament": "M25 Antalya 3",
+      "date": "20230628",
+      "tournament": "ITF M15 Celje Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. D. Turcanu",
-      "score": "3-6 4-6"
+      "opponent": "V. Tonejc",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20250529",
-      "tournament": "M15 Warmbad Villach",
+      "date": "20230428",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Dedura",
-      "score": "3-6 6-3 4-6"
+      "opponent": "M. Poljicak",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20250528",
-      "tournament": "M15 Warmbad Villach",
+      "date": "20230427",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Lane",
-      "score": "4-6 2-6"
+      "opponent": "L. Giacomini",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20250526",
-      "tournament": "M15 Warmbad Villach",
+      "date": "20230426",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -68,50 +94,11 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "B. Artnak",
-      "score": "6-1 6-1"
+      "score": "6-4 0-6 6-2"
     },
     {
-      "date": "20250427",
-      "tournament": "Mauthausen",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Fatic",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20250205",
-      "tournament": "M25 Antalya 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Aytekin",
-      "score": "7(12)-6(10) 6-2"
-    },
-    {
-      "date": "20240505",
-      "tournament": "Mauthausen Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Rosenkranz",
-      "score": "4-6 6-3 6-4"
-    },
-    {
-      "date": "20231123",
-      "tournament": "ITF M25 Antalya 3 Men",
+      "date": "20220908",
+      "tournament": "M15 Budapest",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -119,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. D. Ionel",
-      "score": "6-2 6-4"
+      "opponent": "A. Metreveli",
+      "score": "1-5 ret."
     },
     {
-      "date": "20231122",
-      "tournament": "ITF M25 Antalya 3 Men",
+      "date": "20220906",
+      "tournament": "M15 Budapest",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Alkaya",
-      "score": "2-6 1-6"
+      "opponent": "K. Kincses",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230810",
-      "tournament": "M25 Osijek",
+      "date": "20220804",
+      "tournament": "M15 Kottingbrunn 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -145,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Aboian",
-      "score": "6-1 6-4"
+      "opponent": "D. Boehler",
+      "score": "5-7 2-6"
     },
     {
-      "date": "20230808",
-      "tournament": "M25 Osijek",
+      "date": "20220803",
+      "tournament": "M15 Kottingbrunn 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,47 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Novansky",
-      "score": "2-6 7(7)-6(3) 6-2"
-    },
-    {
-      "date": "20230509",
-      "tournament": "Mauthausen Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Thiem",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20230508",
-      "tournament": "Mauthausen Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Djuric",
+      "opponent": "V. Vlkovsky",
       "score": "6-4 6-2"
-    },
-    {
-      "date": "20230507",
-      "tournament": "Mauthausen Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Zhukayev",
-      "score": "2-6 4-6"
     }
   ]
 }
