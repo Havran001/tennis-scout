@@ -3,8 +3,73 @@
   "gs_id": "69144",
   "player_name": "Stefan Latinovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:27:11.089Z",
+  "updated": "2026-03-27T12:03:37.898Z",
   "matches": [
+    {
+      "date": "20251027",
+      "tournament": "Monastir",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Albot",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20251026",
+      "tournament": "Monastir",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Hamza Reguig",
+      "score": "6-4 4-6 6-4"
+    },
+    {
+      "date": "20250817",
+      "tournament": "Sofia 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Serdarusic",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250727",
+      "tournament": "Hagen",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Kivattsev",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250309",
+      "tournament": "Hersonissos 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Smith",
+      "score": "6-3 7(8)-6(6)"
+    },
     {
       "date": "20240912",
       "tournament": "M15 Kursumlijska Banja 17",
@@ -95,58 +160,6 @@
       "result": "L",
       "opponent": "D. Obradovic",
       "score": "4-6 5-7"
-    },
-    {
-      "date": "20240815",
-      "tournament": "ITF M15 Kursumlijska Banja 15 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Compagnucci",
-      "score": "3-6 0-6"
-    },
-    {
-      "date": "20240814",
-      "tournament": "ITF M15 Kursumlijska Banja 15 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Kostic",
-      "score": "6-1 7(7)-6(4)"
-    },
-    {
-      "date": "20240725",
-      "tournament": "ITF M15 Kursumlijska Banja 12 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Xilas",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20240724",
-      "tournament": "ITF M15 Kursumlijska Banja 12 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Fomin",
-      "score": "6-1 6-1"
     }
   ]
 }
