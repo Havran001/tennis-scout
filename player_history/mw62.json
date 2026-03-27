@@ -3,24 +3,63 @@
   "gs_id": "35694",
   "player_name": "Nikita Mashtakov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:26:07.097Z",
+  "updated": "2026-03-27T10:58:18.126Z",
   "matches": [
     {
-      "date": "20250620",
-      "tournament": "M15 Nyiregyhaza 2",
+      "date": "20260317",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. A. Caniato",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20250730",
+      "tournament": "M25 Koszalin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vatutin",
+      "score": "7-5 4-6 2-6"
+    },
+    {
+      "date": "20250628",
+      "tournament": "M15 Zagreb",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Simundza",
+      "score": "6-4 3-6 7(7)-6(3)"
+    },
+    {
+      "date": "20250627",
+      "tournament": "M15 Zagreb",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Efstathiou",
-      "score": "7-5 0-6 6-3"
+      "result": "W",
+      "opponent": "N. Vukadin",
+      "score": "3-6 6(1)-7(7)"
     },
     {
-      "date": "20250619",
-      "tournament": "M15 Nyiregyhaza 2",
+      "date": "20250626",
+      "tournament": "M15 Zagreb",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Gundacker",
-      "score": "6-1 6-2"
+      "opponent": "D. Sakellaridis",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20250618",
-      "tournament": "M15 Nyiregyhaza 2",
+      "date": "20250625",
+      "tournament": "M15 Zagreb",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Salazar",
-      "score": "6-2 6-4"
+      "opponent": "G. Srbljak",
+      "score": "6-4 4-6 1-4 ret."
     },
     {
       "date": "20250606",
@@ -84,6 +123,32 @@
       "score": "6-3 4-6 6-4"
     },
     {
+      "date": "20250522",
+      "tournament": "M25 Bol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Lokoli",
+      "score": "6-3 1-6 3-6"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M25 Bol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Vojinovic",
+      "score": "3-6 5-7"
+    },
+    {
       "date": "20241106",
       "tournament": "M15 Szabolcsveresmart 2",
       "surface": "Hard",
@@ -121,97 +186,6 @@
       "result": "L",
       "opponent": "P. Basile",
       "score": "7-5 7-5"
-    },
-    {
-      "date": "20240717",
-      "tournament": "ITF M15 Slovenska Bistrica Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Fajta",
-      "score": "6-2 7-5"
-    },
-    {
-      "date": "20240619",
-      "tournament": "ITF M15 Nyiregyháza 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. A. Tomescu",
-      "score": "6-4 4-6 2-6"
-    },
-    {
-      "date": "20240601",
-      "tournament": "M15 Bol 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gueymard Wayenburg",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20240531",
-      "tournament": "M15 Bol 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Bielinskyi",
-      "score": "2-4 ret."
-    },
-    {
-      "date": "20240530",
-      "tournament": "M15 Bol 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Zakharov",
-      "score": "7(7)-6(3) 6-3"
-    },
-    {
-      "date": "20240529",
-      "tournament": "M15 Bol 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Verbeek",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20240522",
-      "tournament": "M15 Bol",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Bielinskyi",
-      "score": "6-2 6-2"
     }
   ]
 }
