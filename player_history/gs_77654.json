@@ -3,11 +3,37 @@
   "gs_id": "77654",
   "player_name": "Lukas Hellum-Lilleengen",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:04:40.033Z",
+  "updated": "2026-03-27T06:57:15.029Z",
   "matches": [
     {
-      "date": "20240508",
-      "tournament": "ITF M25 Varnamo Men",
+      "date": "20241121",
+      "tournament": "M25 Vale do Lobo 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Gonzalez Fernandez",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20241119",
+      "tournament": "M25 Vale do Lobo 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Maric",
+      "score": "6-4 2-6 0-6"
+    },
+    {
+      "date": "20231206",
+      "tournament": "ITF M15 Zahra 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Lavagno",
-      "score": "0-6 2-6"
+      "opponent": "A. Knaff",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20231129",
+      "tournament": "ITF M15 Zahra Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Pontjodikromo",
+      "score": "6-1 6-2"
     }
   ]
 }
