@@ -3,7 +3,7 @@
   "gs_id": "56985",
   "player_name": "Maxence Beauge",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:45:55.966Z",
+  "updated": "2026-03-27T04:52:01.993Z",
   "matches": [
     {
       "date": "20251106",
@@ -45,34 +45,21 @@
       "score": "3-6 6(2)-7(7)"
     },
     {
-      "date": "20250907",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20250404",
+      "tournament": "M15 Lons-le-Saunier",
       "surface": "Hard",
       "level": "I",
-      "round": "F",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gautier",
-      "score": "6-4 6-4"
+      "opponent": "L. Raquillet",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20250906",
-      "tournament": "M25+H Bagneres-de-Bigorre",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Story",
-      "score": "6(2)-7(7) 1-6"
-    },
-    {
-      "date": "20250905",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20250403",
+      "tournament": "M15 Lons-le-Saunier",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,25 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. De Jonge",
-      "score": "7(7)-6(4) 3-6 3-6"
+      "opponent": "L. Hooper",
+      "score": "6-2 2-6 6-1"
     },
     {
-      "date": "20250905",
-      "tournament": "M25+H Bagneres-de-Bigorre",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. S. Callejon",
-      "score": "4-6 6(5)-7(7)"
-    },
-    {
-      "date": "20250903",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20250402",
+      "tournament": "M15 Lons-le-Saunier",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Dubinin",
-      "score": "3-6 1-6"
+      "opponent": "A. Pougault",
+      "score": "6-3 6-3"
     },
     {
       "date": "20241019",
@@ -162,30 +136,17 @@
       "score": "3-6 2-6"
     },
     {
-      "date": "20240905",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Sharipov",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20240903",
-      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "date": "20240508",
+      "tournament": "M25 Valldoreix",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Covato",
-      "score": "4-6 3-6"
+      "result": "L",
+      "opponent": "M. De Krom",
+      "score": "2-6 3-6"
     },
     {
       "date": "20231018",
@@ -201,6 +162,45 @@
       "score": "7(8)-6(6) 6-3"
     },
     {
+      "date": "20230407",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Deckers",
+      "score": "7(7)-6(5) 7(7)-6(4)"
+    },
+    {
+      "date": "20230406",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Handel",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20230404",
+      "tournament": "ITF M15 Lons-le-Saunier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Kivattsev",
+      "score": "6-2 ret."
+    },
+    {
       "date": "20221101",
       "tournament": "M15 Villers-les-Nancy",
       "surface": "Hard",
@@ -212,45 +212,6 @@
       "result": "L",
       "opponent": "B. Fassbender",
       "score": "6-4 7-5"
-    },
-    {
-      "date": "20220921",
-      "tournament": "M15 Danderyd",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Tonejc",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20220908",
-      "tournament": "M25+H Bagneres-de-Bigorre",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Gobat",
-      "score": "6(4)-7(7) 4-6"
-    },
-    {
-      "date": "20220906",
-      "tournament": "M25+H Bagneres-de-Bigorre",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Mertens",
-      "score": "3-6 1-6"
     }
   ]
 }
