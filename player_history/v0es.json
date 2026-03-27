@@ -3,37 +3,24 @@
   "gs_id": "177472",
   "player_name": "Noa Vukadin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:54:51.920Z",
+  "updated": "2026-03-27T04:49:23.981Z",
   "matches": [
     {
-      "date": "20251121",
-      "tournament": "M25 Austin",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Petrovic",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20251120",
-      "tournament": "M25 Austin",
+      "date": "20250710",
+      "tournament": "M15 Litija",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Mitsui",
-      "score": "2-6 6-3 2-6"
+      "result": "L",
+      "opponent": "L. Marmousez",
+      "score": "3-6 6-4 5-7"
     },
     {
-      "date": "20251118",
-      "tournament": "M25 Austin",
+      "date": "20250709",
+      "tournament": "M15 Litija",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. McEwan",
-      "score": "6-1 6-1"
+      "opponent": "N. Mikovic",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20240529",
-      "tournament": "ITF M25 Kiseljak Men",
+      "date": "20220920",
+      "tournament": "M25 Pirot",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Clarke",
-      "score": "6-2 5-7 6-1"
+      "opponent": "E. Voisin",
+      "score": "6-2 6(2)-7(7) 1-6"
     },
     {
-      "date": "20230315",
-      "tournament": "ITF M15 Rovinj Men",
+      "date": "20220427",
+      "tournament": "M25 Split",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Iannaccone",
-      "score": "6-4 6-1"
+      "opponent": "M. Poljicak",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20220322",
+      "tournament": "M25 Opatija",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Vrbensky",
+      "score": "2-6 0-6"
     }
   ]
 }
