@@ -3,11 +3,37 @@
   "gs_id": "35696",
   "player_name": "Thiago Seyboth Wild",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:56:54.422Z",
+  "updated": "2026-03-27T08:03:29.053Z",
   "matches": [
     {
-      "date": "20250706",
-      "tournament": "Modena",
+      "date": "20250917",
+      "tournament": "Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Kopriva",
+      "score": "6-3 3-6 7(7)-6(1)"
+    },
+    {
+      "date": "20250325",
+      "tournament": "Naples",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. H. Rehberg",
+      "score": "6-3 3-6 4-6"
+    },
+    {
+      "date": "20240922",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Travaglia",
-      "score": "6-4 6-3"
+      "opponent": "J. Munar",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20250705",
-      "tournament": "Modena",
+      "date": "20240921",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Kym",
-      "score": "7(7)-6(5) 6(4)-7(7) 4-6"
+      "opponent": "L. Djere",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20250704",
-      "tournament": "Modena",
+      "date": "20240920",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Sakellaridis",
-      "score": "6-3 6(5)-7(7) 7(7)-6(4)"
+      "opponent": "C. Taberner",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20250703",
-      "tournament": "Modena",
+      "date": "20240919",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Kodat",
-      "score": "7-5 7(7)-6(4)"
+      "opponent": "M. Vrbensky",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20250701",
-      "tournament": "Modena",
+      "date": "20240917",
+      "tournament": "Bad Waltersdorf",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,47 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Alcala Gurri",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20230707",
-      "tournament": "Karlsruhe Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Z. Piros",
-      "score": "3-6 6-2 3-6"
-    },
-    {
-      "date": "20230706",
-      "tournament": "Karlsruhe Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Topo",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20230704",
-      "tournament": "Karlsruhe Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Yevseyev",
-      "score": "6-4 3-6 3-6"
+      "opponent": "D. Popko",
+      "score": "6(5)-7(7) 6-2 2-6"
     }
   ]
 }
