@@ -3,11 +3,11 @@
   "gs_id": "120888",
   "player_name": "Daniel Merida Aguilar",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:52:51.919Z",
+  "updated": "2026-03-27T01:59:15.942Z",
   "matches": [
     {
-      "date": "20240915",
-      "tournament": "M15 Madrid 2",
+      "date": "20240218",
+      "tournament": "ITF M25 Antalya 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Dalmasso",
-      "score": "6-2 6-3"
+      "opponent": "N. Hardt",
+      "score": "6-4 5-7 3-6"
     },
     {
-      "date": "20240914",
-      "tournament": "M15 Madrid 2",
+      "date": "20240217",
+      "tournament": "ITF M25 Antalya 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -28,25 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Manzanera Pertusa",
-      "score": "6-4 6-4"
+      "opponent": "V. Gaubas",
+      "score": "0-6 6-2 4-6"
     },
     {
-      "date": "20240913",
-      "tournament": "M15 Madrid 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. S. Callejon",
-      "score": "6-0 6-2"
-    },
-    {
-      "date": "20240912",
-      "tournament": "M15 Madrid 2",
+      "date": "20240216",
+      "tournament": "ITF M25 Antalya 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Garcia",
-      "score": "6-3 6-2"
+      "opponent": "T. Handel",
+      "score": "4-6 6(3)-7(7)"
     },
     {
-      "date": "20240911",
-      "tournament": "M15 Madrid 2",
+      "date": "20240216",
+      "tournament": "ITF M25 Antalya 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Neumayer",
+      "score": "6-1 7(9)-6(7)"
+    },
+    {
+      "date": "20240215",
+      "tournament": "ITF M25 Antalya 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Lerby",
-      "score": "6-3 6-1"
+      "opponent": "P. Meszaros",
+      "score": "3-6 2-6"
     },
     {
       "date": "20240210",
@@ -123,34 +123,21 @@
       "score": "7-5 6-4"
     },
     {
-      "date": "20220114",
-      "tournament": "M25 Manacor",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Barroso Campos",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20220113",
-      "tournament": "M25 Manacor",
+      "date": "20230615",
+      "tournament": "ITF M25 Martos Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Wessels",
-      "score": "4-6 1-6"
+      "result": "L",
+      "opponent": "H. Rocha",
+      "score": "6-4 4-1 ret."
     },
     {
-      "date": "20220112",
-      "tournament": "M25 Manacor",
+      "date": "20230614",
+      "tournament": "ITF M25 Martos Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,8 +145,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Moraing",
-      "score": "6-1 6-4"
+      "opponent": "I. Marrero Curbelo",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20230523",
+      "tournament": "ITF M25 Mataro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Chazal",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20220618",
+      "tournament": "M25 Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Barroso Campos",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20220617",
+      "tournament": "M25 Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Winter Lopez",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20220616",
+      "tournament": "M25 Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Soriano Barrera",
+      "score": "6(4)-7(7) 4-6"
+    },
+    {
+      "date": "20220614",
+      "tournament": "M25 Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Santillan",
+      "score": "6-4 6-1"
     }
   ]
 }
