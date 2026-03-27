@@ -3,20 +3,98 @@
   "gs_id": "123364",
   "player_name": "Charlelie Cosnet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:52:57.953Z",
+  "updated": "2026-03-27T06:07:33.019Z",
   "matches": [
     {
-      "date": "20230628",
-      "tournament": "M25 Arlon",
+      "date": "20250813",
+      "tournament": "M15 Huntsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Bynoe",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20250812",
+      "tournament": "M15 Huntsville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Weber",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20230616",
+      "tournament": "M15 Rabat",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "A. Blockx",
-      "score": "7(7)-6(5) 5-7 3-6"
+      "opponent": "Y. Dlimi",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230615",
+      "tournament": "M15 Rabat",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K.M. Maamoun",
+      "score": "5-7 6-3 4-6"
+    },
+    {
+      "date": "20230614",
+      "tournament": "M15 Rabat",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Goity Zapico",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20221117",
+      "tournament": "M25 Columbus",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Anthrop",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20221116",
+      "tournament": "M25 Columbus",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Kang",
+      "score": "3-6 4-6"
     }
   ]
 }
