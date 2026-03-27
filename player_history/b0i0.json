@@ -3,11 +3,37 @@
   "gs_id": "58082",
   "player_name": "Alexander Bernard",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:55:43.944Z",
+  "updated": "2026-03-27T02:51:35.961Z",
   "matches": [
     {
-      "date": "20220414",
-      "tournament": "M15 Sunrise",
+      "date": "20250730",
+      "tournament": "M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Brumm",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20250709",
+      "tournament": "M25 Dallas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Woestendick",
+      "score": "5-7 7-5 6-4"
+    },
+    {
+      "date": "20240711",
+      "tournament": "ITF M25 Dallas",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Pereira",
-      "score": "6-3 6-0"
+      "opponent": "T. Zink",
+      "score": "6-4 4-6 6-3"
     },
     {
-      "date": "20220413",
-      "tournament": "M15 Sunrise",
+      "date": "20240710",
+      "tournament": "ITF M25 Dallas",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Strode",
-      "score": "6-1 6-2"
+      "opponent": "E. Hadigian",
+      "score": "6-2 3-6 3-6"
+    },
+    {
+      "date": "20230711",
+      "tournament": "ITF M25 Dallas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Chappell",
+      "score": "6-1 4-6 6-3"
+    },
+    {
+      "date": "20230621",
+      "tournament": "M15 South Bend",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Tracy",
+      "score": "3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20220727",
+      "tournament": "M25 Edwardsville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Damm",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20220713",
+      "tournament": "M15 Pittsburgh",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Zink",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20220623",
+      "tournament": "M15 South Bend",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Corwin",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20220621",
+      "tournament": "M15 South Bend",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Vale",
+      "score": "6-2 6(6)-7(8) 5-7"
     }
   ]
 }
