@@ -3,11 +3,24 @@
   "gs_id": "118611",
   "player_name": "Yassine Dlimi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:07:23.012Z",
+  "updated": "2026-03-27T06:59:43.036Z",
   "matches": [
     {
-      "date": "20250706",
-      "tournament": "M15 Tanger",
+      "date": "20251028",
+      "tournament": "M25 Lajeado",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20251019",
+      "tournament": "M25 Kigali 2",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Bennani",
-      "score": "6(4)-7(7) 4-6"
+      "opponent": "M. Houkes",
+      "score": "3-6 6-3 1-6"
     },
     {
-      "date": "20250705",
-      "tournament": "M15 Tanger",
+      "date": "20251018",
+      "tournament": "M25 Kigali 2",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "6-0 6-3"
+      "opponent": "C. Denolly",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20250704",
-      "tournament": "M15 Tanger",
+      "date": "20251017",
+      "tournament": "M25 Kigali 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Naharro",
-      "score": "7-5 4-6 6-3"
+      "opponent": "F. Bax",
+      "score": ""
     },
     {
-      "date": "20250703",
-      "tournament": "M15 Tanger",
+      "date": "20251016",
+      "tournament": "M25 Kigali 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Ahouda",
-      "score": "6-2 2-0 ret."
+      "opponent": "I. Eqbal",
+      "score": "6-1 6-0"
     },
     {
-      "date": "20250702",
-      "tournament": "M15 Tanger",
+      "date": "20251014",
+      "tournament": "M25 Kigali 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,51 +80,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Ciavarella",
-      "score": "2-6 0-4 ret."
+      "opponent": "L. Bataljin",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20230617",
-      "tournament": "M15 Rabat",
+      "date": "20251009",
+      "tournament": "M25 Kigali",
       "surface": "Hard",
       "level": "I",
-      "round": "SF",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Royer",
-      "score": "6-3 6-1"
+      "opponent": "M. Homberg",
+      "score": "4-6 7(8)-6(6) 6-2"
     },
     {
-      "date": "20230616",
-      "tournament": "M15 Rabat",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Cosnet",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20230615",
-      "tournament": "M15 Rabat",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Zukas",
-      "score": "6-1 1-6 6-3"
-    },
-    {
-      "date": "20230614",
-      "tournament": "M15 Rabat",
+      "date": "20251007",
+      "tournament": "M25 Kigali",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,47 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. El Khoumri",
+      "opponent": "M. E. Manishimwe",
       "score": "6-0 6-0"
-    },
-    {
-      "date": "20230609",
-      "tournament": "ITF M15 Tanger Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Bittoun",
-      "score": "6-3 6(5)-7(7) 6-4"
-    },
-    {
-      "date": "20230608",
-      "tournament": "ITF M15 Tanger Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. M. Noce",
-      "score": "7-5 6-1"
-    },
-    {
-      "date": "20230607",
-      "tournament": "ITF M15 Tanger Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Carou",
-      "score": "7(8)-6(6) 3-6 4-6"
     }
   ]
 }
