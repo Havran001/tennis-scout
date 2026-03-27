@@ -3,8 +3,34 @@
   "gs_id": "173351",
   "player_name": "Rudy Quan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:54:35.970Z",
+  "updated": "2026-03-27T04:49:10.002Z",
   "matches": [
+    {
+      "date": "20240125",
+      "tournament": "M25 Wesley Chapel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Bailly",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20240124",
+      "tournament": "M25 Wesley Chapel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Sell",
+      "score": "6-4 6-3"
+    },
     {
       "date": "20231116",
       "tournament": "ITF M15 Boca Raton",
@@ -17,6 +43,32 @@
       "result": "L",
       "opponent": "A. Razeghi",
       "score": "6-3 3-6 6-10"
+    },
+    {
+      "date": "20230106",
+      "tournament": "M25 Malibu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Cozbinov",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20230105",
+      "tournament": "M25 Malibu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Gupta",
+      "score": "4-6 6-4 8-10"
     }
   ]
 }
