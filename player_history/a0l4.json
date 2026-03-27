@@ -1,1 +1,61 @@
-{"player_id":"a0l4","gs_id":"71329","player_name":"Peter Alam","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"6svfkWc5","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Maanshan 4 (China), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Philippov E.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20240724","tournament":"ITF M25 Porto Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"K. Kirci","score":"6(4)-7(7) 6-4 6-3"}],"total":2}
+{
+  "player_id": "a0l4",
+  "gs_id": "71329",
+  "player_name": "Peter Alam",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:15:28.827Z",
+  "matches": [
+    {
+      "date": "20250925",
+      "tournament": "M15 Forbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gobat",
+      "score": "6-2 6(5)-7(7) 6-1"
+    },
+    {
+      "date": "20250924",
+      "tournament": "M15 Forbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Genier",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250212",
+      "tournament": "M15 Bucharest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. H. Haita",
+      "score": "6-4 6(4)-7(7) 3-6"
+    },
+    {
+      "date": "20240724",
+      "tournament": "ITF M25 Porto Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Kirci",
+      "score": "6(4)-7(7) 6-4 6-3"
+    }
+  ]
+}
