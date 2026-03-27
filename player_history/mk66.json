@@ -1,35 +1,74 @@
 {
   "player_id": "mk66",
-  "gs_id": "270845",
-  "player_name": "Niels McDonald",
+  "gs_id": "9680",
+  "player_name": "Mackenzie McDonald",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:50:04.967Z",
+  "updated": "2026-03-27T05:41:12.024Z",
   "matches": [
     {
-      "date": "20251007",
-      "tournament": "M25 Santa Margherita di Pula 10",
+      "date": "20230504",
+      "tournament": "Cagliari Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Giunta",
-      "score": "0-6 6-3 6-4"
+      "opponent": "T. Daniel",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20250930",
-      "tournament": "M25 Santa Margherita di Pula 9",
+      "date": "20221022",
+      "tournament": "Napoli",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "B",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Basile",
-      "score": "6-1 6-4"
+      "opponent": "M. Berrettini",
+      "score": "3-6 7(7)-6(2) 6-3"
+    },
+    {
+      "date": "20221021",
+      "tournament": "Napoli",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Z. Zhang",
+      "score": "6-4 3-6 2-6"
+    },
+    {
+      "date": "20221020",
+      "tournament": "Napoli",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Passaro",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20221020",
+      "tournament": "Napoli",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Bautista-Agut",
+      "score": "6-4 6-4"
     }
   ]
 }
