@@ -3,11 +3,24 @@
   "gs_id": "58289",
   "player_name": "Evgenii Tiurnev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:52:52.005Z",
+  "updated": "2026-03-27T06:01:48.058Z",
   "matches": [
     {
-      "date": "20251211",
-      "tournament": "M15 Sharm ElSheikh 21",
+      "date": "20230802",
+      "tournament": "ITF M25 Astana Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Z. Tkemaladze",
+      "score": "1-3 ret."
+    },
+    {
+      "date": "20230608",
+      "tournament": "M25 Kursumlijska Banja 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Waldner",
-      "score": ""
+      "opponent": "L. Midon",
+      "score": "6-2 5-7 4-6"
     },
     {
-      "date": "20251210",
-      "tournament": "M15 Sharm ElSheikh 21",
+      "date": "20230606",
+      "tournament": "M25 Kursumlijska Banja 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,47 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Aleshchev",
-      "score": "6-2 3-6 6-3"
+      "opponent": "E. Benchetrit",
+      "score": "4-4 ret."
     },
     {
-      "date": "20251203",
-      "tournament": "M15 Sharm ElSheikh 20",
+      "date": "20230526",
+      "tournament": "ITF M15 Kursumlijska Banja 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Picchione",
+      "score": "6-4 0-6 3-6"
+    },
+    {
+      "date": "20230525",
+      "tournament": "ITF M15 Kursumlijska Banja 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Monzon",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20230524",
+      "tournament": "ITF M15 Kursumlijska Banja 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Purtseladze",
-      "score": "4-6 7(9)-6(7) 6(2)-7(7)"
+      "result": "W",
+      "opponent": "A. Pisaric",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20251126",
-      "tournament": "M15 Sharm ElSheikh 19",
+      "date": "20230518",
+      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Legout",
+      "score": "7(7)-6(0) 6-1"
+    },
+    {
+      "date": "20230517",
+      "tournament": "ITF M25 Kursumlijska Banja 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Vincent Ruggeri",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20241119",
-      "tournament": "M25 Antalya 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. A. Tomescu",
-      "score": "7(7)-6(3) 5-7 3-6"
+      "result": "W",
+      "opponent": "A. Khomich",
+      "score": "6-3 1-6 1-6"
     }
   ]
 }
