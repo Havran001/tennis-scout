@@ -3,11 +3,11 @@
   "gs_id": "177513",
   "player_name": "William Rejchtman Vinciguerra",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:54:52.921Z",
+  "updated": "2026-03-27T01:59:48.940Z",
   "matches": [
     {
-      "date": "20260121",
-      "tournament": "M15 Manacor 3",
+      "date": "20251029",
+      "tournament": "M15 Heraklion 12",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Loge",
-      "score": "2-6 0-6"
+      "opponent": "V. Iakubenko",
+      "score": "7(7)-6(4) 6-3"
     },
     {
-      "date": "20250923",
-      "tournament": "M25 Falun",
+      "date": "20250617",
+      "tournament": "M15 Duffel",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Loffhagen",
+      "opponent": "N. Ifi",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20240809",
+      "tournament": "ITF M15 Vaasa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Dalmasso",
       "score": "4-6 5-7"
+    },
+    {
+      "date": "20240808",
+      "tournament": "ITF M15 Vaasa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Rossi",
+      "score": "7(8)-6(6) 6-3"
+    },
+    {
+      "date": "20240807",
+      "tournament": "ITF M15 Vaasa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Raquillet",
+      "score": "4-6 4-6"
     }
   ]
 }
