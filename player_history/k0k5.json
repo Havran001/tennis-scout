@@ -3,24 +3,50 @@
   "gs_id": "158827",
   "player_name": "Jonas Kucera",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:24:30.169Z",
+  "updated": "2026-03-26T23:03:42.078Z",
   "matches": [
     {
-      "date": "20250821",
-      "tournament": "M15 Krakow",
+      "date": "20250924",
+      "tournament": "M25 Pardubice",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Baum",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250829",
+      "tournament": "M15 Allershausen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Buldorini",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20250828",
+      "tournament": "M15 Allershausen",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Pawelski",
-      "score": "6-2 1-6 6-1"
+      "result": "W",
+      "opponent": "J. Schifris",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20250819",
-      "tournament": "M15 Krakow",
+      "date": "20250826",
+      "tournament": "M15 Allershausen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Krutykh",
-      "score": "4-6 6-1 4-6"
+      "opponent": "A. Funk",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250805",
+      "tournament": "M15 Curtea de Arges",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. D. Turcanu",
+      "score": "6-4 7(10)-6(8)"
+    },
+    {
+      "date": "20250326",
+      "tournament": "M15 Opatija",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Nedic",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250320",
+      "tournament": "M15 Rovinj",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Perez Contri",
+      "score": "0-6 6-3 3-6"
+    },
+    {
+      "date": "20250319",
+      "tournament": "M15 Rovinj",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Ujvary",
+      "score": "7-5 1-6 3-6"
     }
   ]
 }
