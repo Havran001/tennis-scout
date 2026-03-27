@@ -3,8 +3,60 @@
   "gs_id": "75835",
   "player_name": "Francesco Maestrelli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:14:15.144Z",
+  "updated": "2026-03-27T09:27:19.105Z",
   "matches": [
+    {
+      "date": "20251112",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Kopriva",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20251111",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Gueymard Wayenburg",
+      "score": "2-6 6-1 1-6"
+    },
+    {
+      "date": "20250925",
+      "tournament": "Buenos Aires 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Bueno",
+      "score": "3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20250923",
+      "tournament": "Buenos Aires 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Dutra Da Silva",
+      "score": "3-6 6-4 3-6"
+    },
     {
       "date": "20250619",
       "tournament": "Sassuolo",
@@ -45,8 +97,34 @@
       "score": "6(3)-7(7) 7(7)-6(5) 1-6"
     },
     {
-      "date": "20250324",
-      "tournament": "Naples",
+      "date": "20241111",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Janvier",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20241110",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Karma",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20240909",
+      "tournament": "Dobrich 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,8 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. A. Dellien Velasco",
-      "score": "6-3 6-4"
+      "opponent": "J. Sels",
+      "score": "4-6 7(7)-6(3) 6-2"
     },
     {
       "date": "20240617",
@@ -69,45 +147,6 @@
       "result": "L",
       "opponent": "F. Coria",
       "score": "1-6 3-6"
-    },
-    {
-      "date": "20240328",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Herbert",
-      "score": "6-4 3-6 6-3"
-    },
-    {
-      "date": "20240326",
-      "tournament": "Naples 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Cecchinato",
-      "score": "6(4)-7(7) 4-6"
-    },
-    {
-      "date": "20240206",
-      "tournament": "Nottingham 3 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Guinard",
-      "score": "6-4 6-0"
     }
   ]
 }
