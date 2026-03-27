@@ -1,1 +1,126 @@
-{"player_id":"c0i5","gs_id":"84357","player_name":"Corban Crowther","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"nDsvgEbt","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Maanshan 4 (China), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Pleshivtsev E.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20241026","tournament":"Sydney","surface":"Hard","level":"C","round":"SF","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"J. Watt","score":"6-1 0-0 ret."},{"date":"20241020","tournament":"Playford 2","surface":"Hard","level":"C","round":"SF","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"Je. Delaney","score":"4-6 4-6"},{"date":"20240315","tournament":"ITF M15 Heraklion 2 Men","surface":"Hard","level":"I","round":"QF","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"H. Wiersholm","score":"4-6 6-4 6-4"},{"date":"20240314","tournament":"ITF M15 Heraklion 2 Men","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"O. Shimanov","score":"3-6 4-6"},{"date":"20240313","tournament":"ITF M15 Heraklion 2 Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"J. Phillips","score":"3-6 6-3 4-6"},{"date":"20240307","tournament":"ITF M15 Heraklion Men","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"A. Vales","score":"2-6 3-6"},{"date":"20240306","tournament":"ITF M15 Heraklion Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"A. Ciocanu","score":"7-5 6-4"},{"date":"20240128","tournament":"Burnie","surface":"Hard","level":"C","round":"SF","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"T. Ichikawa","score":"3-6 2-6"},{"date":"20220511","tournament":"M15 Heraklion","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"S. Dominko","score":"7(8)-6(6) 6-2"}],"total":10}
+{
+  "player_id": "c0i5",
+  "gs_id": "84357",
+  "player_name": "Corban Crowther",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:55:51.804Z",
+  "matches": [
+    {
+      "date": "20241026",
+      "tournament": "Sydney",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Watt",
+      "score": "6-1 0-0 ret."
+    },
+    {
+      "date": "20241020",
+      "tournament": "Playford 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Je. Delaney",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240315",
+      "tournament": "ITF M15 Heraklion 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Wiersholm",
+      "score": "4-6 6-4 6-4"
+    },
+    {
+      "date": "20240314",
+      "tournament": "ITF M15 Heraklion 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Shimanov",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240313",
+      "tournament": "ITF M15 Heraklion 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Phillips",
+      "score": "3-6 6-3 4-6"
+    },
+    {
+      "date": "20240307",
+      "tournament": "ITF M15 Heraklion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vales",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240306",
+      "tournament": "ITF M15 Heraklion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ciocanu",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20240128",
+      "tournament": "Burnie",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Ichikawa",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20220511",
+      "tournament": "M15 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Dominko",
+      "score": "7(8)-6(6) 6-2"
+    }
+  ]
+}
