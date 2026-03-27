@@ -3,24 +3,50 @@
   "gs_id": "138369",
   "player_name": "Kenta Miyoshi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:00:30.058Z",
+  "updated": "2026-03-27T08:22:45.066Z",
   "matches": [
     {
-      "date": "20240809",
-      "tournament": "ITF M25 Southaven",
+      "date": "20250615",
+      "tournament": "M15 Harmon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Kusuhara",
+      "score": "6-2 2-6 6(5)-7(7)"
+    },
+    {
+      "date": "20250614",
+      "tournament": "M15 Harmon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Shiraishi",
+      "score": "4-6 6-0 6-3"
+    },
+    {
+      "date": "20250613",
+      "tournament": "M15 Harmon",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Martin",
-      "score": "7(7)-6(4) 6-3"
+      "result": "W",
+      "opponent": "Y. Kawahashi",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20240808",
-      "tournament": "ITF M25 Southaven",
+      "date": "20250612",
+      "tournament": "M15 Harmon",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Sheehy",
-      "score": "4-6 2-6"
+      "opponent": "J. Lee",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20240806",
-      "tournament": "ITF M25 Southaven",
+      "date": "20250611",
+      "tournament": "M15 Harmon",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Rock",
-      "score": "6-1 6-4"
+      "opponent": "S. Nakanishi",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20240711",
+      "tournament": "ITF M15 Tokyo 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. Lee",
+      "score": "7(7)-6(5) 7(7)-6(2)"
+    },
+    {
+      "date": "20240710",
+      "tournament": "ITF M15 Tokyo 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Koyama",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Tokyo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Isomura",
+      "score": "5-7 6-3 3-6"
+    },
+    {
+      "date": "20240702",
+      "tournament": "ITF M15 Tokyo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Saitoh",
+      "score": "6(9)-7(11) 0-6"
+    },
+    {
+      "date": "20240607",
+      "tournament": "ITF M15 Harmon Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Ja. Delaney",
+      "score": "6-2 7(7)-6(3)"
+    },
+    {
+      "date": "20240606",
+      "tournament": "ITF M15 Harmon Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Sim",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20240605",
+      "tournament": "ITF M15 Harmon Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Visaya",
+      "score": "6-1 6-1"
     },
     {
       "date": "20231227",
@@ -56,19 +173,6 @@
       "result": "L",
       "opponent": "K. Suzuki",
       "score": "7(7)-6(3) 6-3"
-    },
-    {
-      "date": "20230808",
-      "tournament": "ITF M25 Southaven",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Ozolins",
-      "score": "7(7)-6(3) 6-1"
     }
   ]
 }
