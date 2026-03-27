@@ -3,7 +3,7 @@
   "gs_id": "164985",
   "player_name": "Nik Mikovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:30:52.102Z",
+  "updated": "2026-03-27T11:02:17.126Z",
   "matches": [
     {
       "date": "20250926",
@@ -32,6 +32,19 @@
       "score": "6-4 1-6 3-6"
     },
     {
+      "date": "20250604",
+      "tournament": "M15 Ljubljana",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Papamalamis",
+      "score": "6-4 4-6 2-6"
+    },
+    {
       "date": "20241016",
       "tournament": "M15 Bol 3",
       "surface": "Hard",
@@ -56,71 +69,6 @@
       "result": "L",
       "opponent": "N. Vidal",
       "score": "6-1 1-6 6-2"
-    },
-    {
-      "date": "20240717",
-      "tournament": "ITF M15 Slovenska Bistrica Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Martin",
-      "score": "1-6 0-6"
-    },
-    {
-      "date": "20240528",
-      "tournament": "M15 Vrhnika",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Artnak",
-      "score": "7-5 6-2"
-    },
-    {
-      "date": "20240515",
-      "tournament": "M15 Villach",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Puskar",
-      "score": "6-4 5-7 3-6"
-    },
-    {
-      "date": "20240514",
-      "tournament": "M15 Villach",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Oetzbach",
-      "score": "7(7)-6(2) 6-3"
-    },
-    {
-      "date": "20240424",
-      "tournament": "M15 Split",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Szajrych",
-      "score": "6-3 6-2"
     }
   ]
 }
