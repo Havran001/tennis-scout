@@ -3,11 +3,24 @@
   "gs_id": "126758",
   "player_name": "Liam Gavrielides",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:59:11.921Z",
+  "updated": "2026-03-27T01:54:50.936Z",
   "matches": [
     {
-      "date": "20231123",
-      "tournament": "ITF M15 Monastir 47 Men",
+      "date": "20240425",
+      "tournament": "M15 Meerbusch",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Hartig",
+      "score": "1-6 6-4 2-6"
+    },
+    {
+      "date": "20240425",
+      "tournament": "M15 Meerbusch",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,90 +28,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Brunclik",
+      "opponent": "A. Braynin",
       "score": "4-6 4-6"
     },
     {
-      "date": "20231122",
-      "tournament": "ITF M15 Monastir 47 Men",
+      "date": "20230529",
+      "tournament": "Troisdorf",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Garcia",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20231117",
-      "tournament": "ITF M15 Monastir 46 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Giunta",
-      "score": "7-5 4-6 6-4"
+      "opponent": "B. Hassan",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20231116",
-      "tournament": "ITF M15 Monastir 46 Men",
+      "date": "20230528",
+      "tournament": "Troisdorf",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Beaupain",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20231115",
-      "tournament": "ITF M15 Monastir 46 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Bittoun",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20231111",
-      "tournament": "ITF M15 Monastir 45 Men",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Wiskandt",
-      "score": "4-6 3-6"
+      "result": "W",
+      "opponent": "M. Guinard",
+      "score": "6-2 2-6 6-2"
     },
     {
-      "date": "20231110",
-      "tournament": "ITF M15 Monastir 45 Men",
+      "date": "20230428",
+      "tournament": "ITF M15 Meerbusch Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "Ch. Negritu",
-      "score": "6(6)-7(8) 1-6"
+      "result": "L",
+      "opponent": "L. Wessels",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20231109",
-      "tournament": "ITF M15 Monastir 45 Men",
+      "date": "20230427",
+      "tournament": "ITF M15 Meerbusch Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Donald",
-      "score": "7(8)-6(6) 6-1"
+      "opponent": "M. Zielinski",
+      "score": "6(7)-7(9) 1-6"
     },
     {
-      "date": "20231107",
-      "tournament": "ITF M15 Monastir 45 Men",
+      "date": "20230425",
+      "tournament": "ITF M15 Meerbusch Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Villoslada",
-      "score": "6-1 6-2"
+      "opponent": "T. Colson",
+      "score": "5-7 6-2 6-3"
     },
     {
-      "date": "20230208",
-      "tournament": "M25 Bath",
+      "date": "20230315",
+      "tournament": "ITF M15 Antalya 40 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. C. Jianu",
-      "score": "4-6 0-6"
+      "opponent": "N. Madaras",
+      "score": "1-6 5-7"
     }
   ]
 }
