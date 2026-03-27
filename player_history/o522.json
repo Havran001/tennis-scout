@@ -3,37 +3,37 @@
   "gs_id": "12782",
   "player_name": "Reilly Opelka",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:02:12.905Z",
+  "updated": "2026-03-27T00:56:27.919Z",
   "matches": [
     {
-      "date": "20251013",
-      "tournament": "Brussels",
+      "date": "20250208",
+      "tournament": "Dallas",
       "surface": "Hard",
       "level": "B",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Bonzi",
-      "score": "6-4 6-4"
+      "opponent": "T. Paul",
+      "score": "6(3)-7(7) 2-6"
     },
     {
-      "date": "20210204",
-      "tournament": "Melbourne (Great Ocean Road Open)",
+      "date": "20250206",
+      "tournament": "Dallas",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Van De Zandschulp",
-      "score": "7(8)-6(6) 7(7)-6(4)"
+      "result": "W",
+      "opponent": "C. Norrie",
+      "score": "4-6 7(7)-6(5) 6-4"
     },
     {
-      "date": "20210203",
-      "tournament": "Melbourne (Great Ocean Road Open)",
+      "date": "20250205",
+      "tournament": "Dallas",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -41,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Stakhovsky",
-      "score": "7(10)-6(8) 6-4"
+      "opponent": "A. Shevchenko",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20220213",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Brooksby",
+      "score": "6(5)-7(7) 6(3)-7(7)"
+    },
+    {
+      "date": "20220212",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Mannarino",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220212",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Isner",
+      "score": "6(7)-7(9) 6(22)-7(24)"
+    },
+    {
+      "date": "20220211",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Stebe",
+      "score": "6(3)-7(7) 6(8)-7(10)"
+    },
+    {
+      "date": "20220106",
+      "tournament": "Melbourne (Summer Set)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cressy",
+      "score": "6-4 6(5)-7(7) 6(9)-7(11)"
     }
   ]
 }
