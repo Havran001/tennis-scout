@@ -3,24 +3,63 @@
   "gs_id": "40192",
   "player_name": "Manuel Mazza",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:06:24.085Z",
+  "updated": "2026-03-27T11:54:48.156Z",
   "matches": [
     {
-      "date": "20251106",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20260318",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Seifert",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250727",
+      "tournament": "M15 Segrate",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kumstat",
+      "score": "1-0 ret."
+    },
+    {
+      "date": "20250725",
+      "tournament": "M15 Segrate",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. D&apos;Agostino",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250724",
+      "tournament": "M15 Segrate",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. C. Spiridon",
-      "score": "7-5 2-6 6-3"
+      "result": "W",
+      "opponent": "W. Grant",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20251105",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20250722",
+      "tournament": "M15 Segrate",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +67,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Fumagalli",
-      "score": "7-5 7-5"
+      "opponent": "N. Catini",
+      "score": "3-6 6-1 7(7)-6(4)"
     },
     {
-      "date": "20251024",
-      "tournament": "M25 Santa Margherita di Pula 12",
+      "date": "20250612",
+      "tournament": "M15 Messina",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Berkieta",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M15 Messina",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Gakhov",
-      "score": "4-6 4-6"
+      "result": "W",
+      "opponent": "G. Tabacco",
+      "score": "6(4)-7(7) 6-0 3-6"
     },
     {
-      "date": "20251022",
-      "tournament": "M25 Santa Margherita di Pula 12",
+      "date": "20250610",
+      "tournament": "M15 Messina",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Cocola",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20250924",
-      "tournament": "M25 Sabadell 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Giustino",
-      "score": "5-7 4-6"
+      "opponent": "R. Tosetto",
+      "score": "4-6 6(3)-7(7)"
     },
     {
       "date": "20250608",
@@ -136,21 +175,47 @@
       "score": "1-6 1-6"
     },
     {
-      "date": "20230830",
-      "tournament": "ITF M15 Forli Men",
+      "date": "20250520",
+      "tournament": "M25 Cervia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Oradini",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20250328",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Miletich",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250327",
+      "tournament": "M15 Foggia",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Tabacco",
-      "score": "3-6 4-6"
+      "result": "W",
+      "opponent": "N. Perfetti",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20230828",
-      "tournament": "ITF M15 Forli Men",
+      "date": "20250325",
+      "tournament": "M15 Foggia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,8 +223,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. C. March",
-      "score": "5-7 2-6"
+      "opponent": "C. Campese",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20241128",
+      "tournament": "M25 Antalya 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Tomescu",
+      "score": "4-6 6(1)-7(7)"
+    },
+    {
+      "date": "20241127",
+      "tournament": "M25 Antalya 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Feldbausch",
+      "score": "7-5 6-4"
     }
   ]
 }
