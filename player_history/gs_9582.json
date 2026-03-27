@@ -3,63 +3,24 @@
   "gs_id": "9582",
   "player_name": "Pablo Carreno-Busta",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:44:33.976Z",
+  "updated": "2026-03-27T07:59:40.680Z",
   "matches": [
     {
-      "date": "20250328",
-      "tournament": "Girona",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Cilic",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20250327",
-      "tournament": "Girona",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Radulov",
-      "score": "2-6 7-5 6(4)-7(7)"
-    },
-    {
-      "date": "20250326",
-      "tournament": "Girona",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Cachin",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20250216",
-      "tournament": "Tenerife 2",
+      "date": "20251019",
+      "tournament": "Olbia",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Misolic",
-      "score": "3-6 2-6"
+      "result": "L",
+      "opponent": "L. van Assche",
+      "score": "7(7)-6(5) 6(1)-7(7) 6-2"
     },
     {
-      "date": "20250215",
-      "tournament": "Tenerife 2",
+      "date": "20251018",
+      "tournament": "Olbia",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -67,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Hassan",
-      "score": "6-3 6-2"
+      "opponent": "M. Landaluce",
+      "score": "6-2 3-6 6-3"
     },
     {
-      "date": "20250214",
-      "tournament": "Tenerife 2",
+      "date": "20251017",
+      "tournament": "Olbia",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -80,25 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Shelbayh",
-      "score": "2-6 1-2 ret."
+      "opponent": "A. Tabilo",
+      "score": "3-6 6-1 6(3)-7(7)"
     },
     {
-      "date": "20250212",
-      "tournament": "Tenerife 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Escoffier",
-      "score": ""
-    },
-    {
-      "date": "20250211",
-      "tournament": "Tenerife 2",
+      "date": "20251016",
+      "tournament": "Olbia",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -106,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Cui",
-      "score": "3-6 4-6"
+      "opponent": "P. Basile",
+      "score": "2-6 7(7)-6(5) 3-6"
+    },
+    {
+      "date": "20251016",
+      "tournament": "Olbia",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Pavlovic",
+      "score": "6-3 1-6 2-6"
+    },
+    {
+      "date": "20250919",
+      "tournament": "Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Kopriva",
+      "score": "6-2 0-6 6-1"
+    },
+    {
+      "date": "20250918",
+      "tournament": "Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Sorger",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20250917",
+      "tournament": "Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Neumayer",
+      "score": "7-5 4-6 6-3"
     }
   ]
 }
