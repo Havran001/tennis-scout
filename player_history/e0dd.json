@@ -3,37 +3,24 @@
   "gs_id": "163492",
   "player_name": "Justin Engel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:55:51.954Z",
+  "updated": "2026-03-27T06:10:21.020Z",
   "matches": [
     {
-      "date": "20250806",
-      "tournament": "Grodzisk Mazowiecki",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Maestrelli",
-      "score": "4-6 6(2)-7(7)"
-    },
-    {
-      "date": "20250805",
-      "tournament": "Grodzisk Mazowiecki",
+      "date": "20250325",
+      "tournament": "Girona",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Moro Canas",
-      "score": "6(5)-7(7) 6-4 6-4"
+      "result": "L",
+      "opponent": "N. Budkov Kjaer",
+      "score": "4-6 6-3 6(5)-7(7)"
     },
     {
-      "date": "20240825",
-      "tournament": "ITF M15 Trier Men",
+      "date": "20240721",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Welte",
-      "score": "1-6 4-6"
+      "opponent": "L. A. Falabella",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20240824",
-      "tournament": "ITF M15 Trier Men",
+      "date": "20240720",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Zahraj",
-      "score": "6-1 6-4"
+      "opponent": "E. Ejupovic",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20240823",
-      "tournament": "ITF M15 Trier Men",
+      "date": "20240719",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -67,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Prechtel",
-      "score": "6-3 6-4"
+      "opponent": "M. Hopp",
+      "score": "3-6 6-0 3-6"
     },
     {
-      "date": "20240822",
-      "tournament": "ITF M15 Trier Men",
+      "date": "20240718",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. De Jager",
-      "score": "7-5 6-3"
+      "opponent": "J. Opitz",
+      "score": "6-4 2-6 6(9)-7(11)"
     },
     {
-      "date": "20240821",
-      "tournament": "ITF M15 Trier Men",
+      "date": "20240717",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,90 +80,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Thurner",
-      "score": "4-6 6-2 6-2"
+      "opponent": "M. Welte",
+      "score": "1-6 0-6"
     },
     {
-      "date": "20240628",
-      "tournament": "ITF M15 Kamen Men",
+      "date": "20240704",
+      "tournament": "Karlsruhe",
       "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Dedura-Palomero",
-      "score": "7(10)-6(8) 5-7 4-6"
-    },
-    {
-      "date": "20240627",
-      "tournament": "ITF M15 Kamen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Z. Tkemaladze",
-      "score": "6(3)-7(7) 7(7)-6(4) 6-2"
-    },
-    {
-      "date": "20240626",
-      "tournament": "ITF M15 Kamen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Fix",
-      "score": "6-4 6-1"
-    },
-    {
-      "date": "20230816",
-      "tournament": "M15 Ueberlingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Schnaitter",
-      "score": "6(3)-7(7) 1-6"
-    },
-    {
-      "date": "20230713",
-      "tournament": "ITF M25+H Kassel Men",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Dutra Da Silva",
-      "score": "1-6 3-6"
+      "opponent": "A. Andreev",
+      "score": "4-6 6-4 6-0"
     },
     {
-      "date": "20230712",
-      "tournament": "ITF M25+H Kassel Men",
+      "date": "20240702",
+      "tournament": "Karlsruhe",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Naw",
-      "score": "4-6 6-4 6-4"
+      "opponent": "P. Herbert",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20220824",
-      "tournament": "M15 Trier",
+      "date": "20240618",
+      "tournament": "ITF M15 Saarlouis Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,8 +119,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Q. Folliot",
-      "score": "0-6 2-6"
+      "opponent": "M. Petkovic",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20230719",
+      "tournament": "ITF M15 Uslar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. C. Prado Angelo",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20230702",
+      "tournament": "Karlsruhe Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sanchez Jover",
+      "score": "0-6 6-3 6-3"
     }
   ]
 }
