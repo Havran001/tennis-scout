@@ -3,7 +3,7 @@
   "gs_id": "37445",
   "player_name": "Christoph Negritu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:51:01.978Z",
+  "updated": "2026-03-27T04:50:08.007Z",
   "matches": [
     {
       "date": "20251127",
@@ -97,6 +97,32 @@
       "score": "4-6 6-2 7(7)-6(5)"
     },
     {
+      "date": "20250210",
+      "tournament": "Tenerife 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Rodesch",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20250209",
+      "tournament": "Tenerife 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Masjuan Ginel",
+      "score": "2-6 4-6"
+    },
+    {
       "date": "20241103",
       "tournament": "Matsuyama",
       "surface": "Hard",
@@ -149,21 +175,34 @@
       "score": "6(4)-7(7) 6-1 6-4"
     },
     {
-      "date": "20231019",
-      "tournament": "ITF M15 Villers-les-Nancy Men",
+      "date": "20221202",
+      "tournament": "M25 Monastir 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Lajal",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20221201",
+      "tournament": "M25 Monastir 11",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Zahraj",
-      "score": "4-6 6-2 7(7)-6(4)"
+      "result": "W",
+      "opponent": "L. Potenza",
+      "score": "7(7)-6(3) 6-4"
     },
     {
-      "date": "20231017",
-      "tournament": "ITF M15 Villers-les-Nancy Men",
+      "date": "20221129",
+      "tournament": "M25 Monastir 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,8 +210,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Forger",
-      "score": "6-4 3-6 6-1"
+      "opponent": "M. Gloeckler",
+      "score": "6-2 6(4)-7(7) 6-2"
     },
     {
       "date": "20221124",
@@ -199,71 +238,6 @@
       "result": "W",
       "opponent": "A. Morolli",
       "score": "2-6 1-6"
-    },
-    {
-      "date": "20221103",
-      "tournament": "M25 Monastir 9",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Jacquet",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20221101",
-      "tournament": "M25 Monastir 9",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Tabur",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20221028",
-      "tournament": "M25 Monastir 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Erhard",
-      "score": "6-3 1-6 3-6"
-    },
-    {
-      "date": "20221027",
-      "tournament": "M25 Monastir 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Bu",
-      "score": "6-4 6(3)-7(7) 7(7)-6(1)"
-    },
-    {
-      "date": "20221025",
-      "tournament": "M25 Monastir 8",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Coccioli",
-      "score": "6-3 6-4"
     }
   ]
 }
