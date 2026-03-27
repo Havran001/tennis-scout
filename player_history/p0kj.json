@@ -3,20 +3,46 @@
   "gs_id": "84372",
   "player_name": "Derek Pham",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:57:28.394Z",
+  "updated": "2026-03-27T08:18:06.631Z",
   "matches": [
     {
-      "date": "20231017",
-      "tournament": "M15 Las Vegas",
+      "date": "20240614",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Ponwith",
+      "score": "6(6)-7(8) 6-1 7-5"
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. F. Rubio Fierros",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240611",
+      "tournament": "ITF M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Tomic",
-      "score": "2-6 4-6"
+      "result": "W",
+      "opponent": "A. Matta",
+      "score": "6-0 6-1"
     }
   ]
 }
