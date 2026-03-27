@@ -3,8 +3,21 @@
   "gs_id": "39030",
   "player_name": "Leonid Sheyngezikht",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:50:31.980Z",
+  "updated": "2026-03-27T05:58:58.148Z",
   "matches": [
+    {
+      "date": "20250709",
+      "tournament": "M25 Roda de Bara",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. J. Gutierrez",
+      "score": "6-3 6-4"
+    },
     {
       "date": "20250501",
       "tournament": "M25 Sabadell",
@@ -32,8 +45,34 @@
       "score": "6-3 6-4"
     },
     {
-      "date": "20230412",
-      "tournament": "ITF M15 Telde Men",
+      "date": "20230824",
+      "tournament": "M25 Tainan 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Fuele",
+      "score": "5-1 ret."
+    },
+    {
+      "date": "20230822",
+      "tournament": "M25 Tainan 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Tajima",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Tainan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +80,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Martinez Martinez",
-      "score": "1-6 2-6"
+      "opponent": "C. Lu",
+      "score": "2-6 6-4 6-3"
+    },
+    {
+      "date": "20230803",
+      "tournament": "M15 Hyvinkaa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Friberg",
+      "score": "2-6 6(5)-7(7)"
+    },
+    {
+      "date": "20230517",
+      "tournament": "M25 Gurb",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Curras Abasolo",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20230419",
+      "tournament": "ITF M15 Telde 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Kravchenko",
+      "score": "6-1 7(7)-6(4)"
     }
   ]
 }
