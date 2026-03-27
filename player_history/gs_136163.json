@@ -3,11 +3,11 @@
   "gs_id": "136163",
   "player_name": "Alberto Caniato Carlo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:00:22.028Z",
+  "updated": "2026-03-27T08:22:36.066Z",
   "matches": [
     {
-      "date": "20251016",
-      "tournament": "Olbia",
+      "date": "20260326",
+      "tournament": "Naples",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Fatic",
-      "score": "6-3 3-6 3-6"
+      "opponent": "A. Muller",
+      "score": "4-6 7(7)-6(5) 6-4"
     },
     {
-      "date": "20251014",
-      "tournament": "Olbia",
+      "date": "20260324",
+      "tournament": "Naples",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Added",
-      "score": "5-7 5-7"
+      "opponent": "J. Vasami",
+      "score": "6-3 6-2"
     },
     {
       "date": "20241108",
@@ -71,73 +71,21 @@
       "score": "3-6 2-6"
     },
     {
-      "date": "20240901",
-      "tournament": "ITF M15 Forli Men",
+      "date": "20240616",
+      "tournament": "Sassuolo Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Iannaccone",
-      "score": "3-6 5-7"
-    },
-    {
-      "date": "20240831",
-      "tournament": "ITF M15 Forli Men",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "G. M. Noce",
-      "score": "4-6 6-1 6-3"
+      "result": "L",
+      "opponent": "D. Jorda Sanchis",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20240830",
-      "tournament": "ITF M15 Forli Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Rottoli",
-      "score": "4-6 1-6"
-    },
-    {
-      "date": "20240829",
-      "tournament": "ITF M15 Forli Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Peliwo",
-      "score": "3-6 6-3 6-1"
-    },
-    {
-      "date": "20240828",
-      "tournament": "ITF M15 Forli Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Reitano",
-      "score": "2-6 6-2 4-6"
-    },
-    {
-      "date": "20230914",
-      "tournament": "ITF M25 Pozzuoli Men",
+      "date": "20240523",
+      "tournament": "M15 Cervia",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -145,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bacaloni",
-      "score": "6-3 4-6 6-3"
+      "opponent": "S. Pieri",
+      "score": "6-0 5-7 6-2"
     },
     {
-      "date": "20230913",
-      "tournament": "ITF M25 Pozzuoli Men",
+      "date": "20240522",
+      "tournament": "M15 Cervia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,8 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Potenza",
-      "score": "1-6 7(7)-6(0) 3-6"
+      "opponent": "F. Gaio",
+      "score": "6(1)-7(7) 4-6"
+    },
+    {
+      "date": "20240423",
+      "tournament": "M15 Split",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Setkic",
+      "score": "6-4 6(5)-7(7) 2-6"
     }
   ]
 }
