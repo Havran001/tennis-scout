@@ -3,11 +3,37 @@
   "gs_id": "267296",
   "player_name": "Niels Ratiu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:50:12.980Z",
+  "updated": "2026-03-27T09:33:11.088Z",
   "matches": [
     {
-      "date": "20251001",
-      "tournament": "M15 Winston-Salem",
+      "date": "20250626",
+      "tournament": "M25 Brussels",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dutra Da Silva",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M25 Brussels",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Collignon",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240626",
+      "tournament": "ITF M25 Brussels Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Rodrigues",
-      "score": "4-6 2-6"
+      "opponent": "J. Loge",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20240620",
+      "tournament": "M25 Duffel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Onclin",
+      "score": "4-6 1-4 ret."
+    },
+    {
+      "date": "20240619",
+      "tournament": "M25 Duffel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Basile",
+      "score": "2-6 3-6"
     }
   ]
 }
