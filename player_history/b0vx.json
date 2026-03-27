@@ -3,63 +3,63 @@
   "gs_id": "267294",
   "player_name": "Pierluigi Basile",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:55:29.968Z",
+  "updated": "2026-03-27T06:12:23.021Z",
   "matches": [
     {
-      "date": "20251031",
-      "tournament": "M15 Sharm ElSheikh 15",
+      "date": "20240831",
+      "tournament": "ITF M15 Forli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Iannaccone",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20240830",
+      "tournament": "ITF M15 Forli Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Zakaria",
+      "result": "W",
+      "opponent": "A. Hernandez",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240829",
+      "tournament": "ITF M15 Forli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Piraino",
+      "score": "6-3 2-6 3-6"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Forli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Seghetti",
       "score": "6-3 6-0"
     },
     {
-      "date": "20251030",
-      "tournament": "M15 Sharm ElSheikh 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Gretskiy",
-      "score": "6-3 7-5"
-    },
-    {
-      "date": "20251029",
-      "tournament": "M15 Sharm ElSheikh 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Herman",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20251022",
-      "tournament": "M15 Sharm ElSheikh 14",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Bothma",
-      "score": "7(7)-6(2) 6-4"
-    },
-    {
-      "date": "20251001",
-      "tournament": "M25 Santa Margherita di Pula 9",
+      "date": "20240619",
+      "tournament": "ITF M25 Cattolica Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Michalski",
-      "score": "2-6 6-4 3-6"
+      "opponent": "G. Oradini",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20250930",
-      "tournament": "M25 Santa Margherita di Pula 9",
+      "date": "20240618",
+      "tournament": "ITF M25 Cattolica Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. McDonald",
-      "score": "1-6 4-6"
+      "opponent": "L. Vatteroni",
+      "score": "6-2 6-3"
     }
   ]
 }
