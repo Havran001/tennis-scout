@@ -3,33 +3,85 @@
   "gs_id": "39607",
   "player_name": "George Loffhagen",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:56:16.053Z",
+  "updated": "2026-03-27T10:15:14.112Z",
   "matches": [
     {
-      "date": "20230810",
-      "tournament": "M25 Roehampton 3",
+      "date": "20260304",
+      "tournament": "Thionville",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Tarvet",
-      "score": "6-4 6(7)-7(9) 6(5)-7(7)"
+      "opponent": "S. Ofner",
+      "score": "6-4 5-7 6(5)-7(7)"
     },
     {
-      "date": "20230809",
-      "tournament": "M25 Roehampton 3",
+      "date": "20251110",
+      "tournament": "Lyon 2",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Zhukayev",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20251109",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Robertson",
+      "score": "3-6 6-4 7(8)-6(6)"
+    },
+    {
+      "date": "20250522",
+      "tournament": "Tbilisi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Damm",
+      "score": ""
+    },
+    {
+      "date": "20250521",
+      "tournament": "Tbilisi",
+      "surface": "Hard",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Brady",
-      "score": "2-6 6(13)-7(15)"
+      "opponent": "Z. Tkemaladze",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250521",
+      "tournament": "Tbilisi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Simakin",
+      "score": "6-4 7-5"
     }
   ]
 }
