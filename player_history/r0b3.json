@@ -3,37 +3,11 @@
   "gs_id": "168655",
   "player_name": "Nicola Rispoli",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:12:24.891Z",
+  "updated": "2026-03-27T01:52:57.933Z",
   "matches": [
     {
-      "date": "20250728",
-      "tournament": "M25 Bolzano",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Kirkin",
-      "score": "3-6 6-4 6-3"
-    },
-    {
-      "date": "20240730",
-      "tournament": "ITF M25 Bolzano Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Ovcharenko",
-      "score": "6-3 1-6 2-6"
-    },
-    {
-      "date": "20240426",
-      "tournament": "ITF M15 Shymkent 2 Men",
+      "date": "20251030",
+      "tournament": "M15 Selva Gardena",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Garcia Mestre",
-      "score": "6-4 6-4"
+      "opponent": "N. Schell",
+      "score": "6-3 5-7 6-2"
     },
     {
-      "date": "20240425",
-      "tournament": "ITF M15 Shymkent 2 Men",
+      "date": "20251029",
+      "tournament": "M15 Selva Gardena",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Dev S D",
-      "score": "1-6 5-7"
+      "opponent": "C. Mueller",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20240424",
-      "tournament": "ITF M15 Shymkent 2 Men",
+      "date": "20251028",
+      "tournament": "M15 Selva Gardena",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Kolganov",
-      "score": "6-4 3-6 6-4"
+      "opponent": "T. Bieldiugin",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20240313",
-      "tournament": "ITF M25 Trimbach Men",
+      "date": "20241227",
+      "tournament": "M15 Antalya 21",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Lavizzari",
-      "score": "3-6 6-4 4-6"
+      "opponent": "D. Salazar",
+      "score": "7(7)-6(1) 6(6)-7(8) 5-10"
+    },
+    {
+      "date": "20241227",
+      "tournament": "M15 Antalya 21",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Chepelev",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20241029",
+      "tournament": "M15 Selva Gardena",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Oradini",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20231101",
+      "tournament": "ITF M15 Selva Gardena Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Oradini",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20231031",
+      "tournament": "ITF M15 Selva Gardena Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Prinoth",
+      "score": "6-2 6-4"
     }
   ]
 }
