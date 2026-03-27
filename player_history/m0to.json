@@ -3,24 +3,50 @@
   "gs_id": "173933",
   "player_name": "Mae Malige",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:26:13.065Z",
+  "updated": "2026-03-27T09:31:19.088Z",
   "matches": [
     {
-      "date": "20260313",
-      "tournament": "M25 Creteil",
+      "date": "20251109",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "7(7)-6(5) 3-6 1-6"
+    },
+    {
+      "date": "20241102",
+      "tournament": "M15 Szabolcsveresmart",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Fajta",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20241101",
+      "tournament": "M15 Szabolcsveresmart",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Broom",
-      "score": "1-6 1-6"
+      "result": "W",
+      "opponent": "D. Kellovsky",
+      "score": "5-7 2-6"
     },
     {
-      "date": "20260312",
-      "tournament": "M25 Creteil",
+      "date": "20241031",
+      "tournament": "M15 Szabolcsveresmart",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Honda",
-      "score": "3-6 3-6"
+      "opponent": "A. Nedic",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20260310",
-      "tournament": "M25 Creteil",
+      "date": "20241030",
+      "tournament": "M15 Szabolcsveresmart",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Kaouk",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20260105",
-      "tournament": "Nottingham 3",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Kukushkin",
-      "score": "3-6 0-6"
+      "opponent": "A. Jilly",
+      "score": "1-6 3-6"
     },
     {
       "date": "20240719",
@@ -95,84 +108,6 @@
       "result": "W",
       "opponent": "T. Trufelli",
       "score": "6-2 2-0 ret."
-    },
-    {
-      "date": "20240312",
-      "tournament": "ITF M25 Creteil Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Ghibaudo",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20240302",
-      "tournament": "ITF M15 Lannion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Ghazouani Durand",
-      "score": "6-1 6-3"
-    },
-    {
-      "date": "20240301",
-      "tournament": "ITF M15 Lannion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Aubriot",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20240229",
-      "tournament": "ITF M15 Lannion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Ojakaar",
-      "score": "2-6 6-1 2-6"
-    },
-    {
-      "date": "20240228",
-      "tournament": "ITF M15 Lannion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Delage",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20240227",
-      "tournament": "ITF M15 Lannion Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Massard",
-      "score": "2-6 2-6"
     }
   ]
 }
