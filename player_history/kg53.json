@@ -3,11 +3,11 @@
   "gs_id": "22696",
   "player_name": "Alexander Klintcharov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:50:26.966Z",
+  "updated": "2026-03-27T05:41:26.017Z",
   "matches": [
     {
-      "date": "20250708",
-      "tournament": "M25 Dallas",
+      "date": "20251217",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Bangoura",
-      "score": "1-6 0-6"
+      "opponent": "E. J. Werner",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20250703",
-      "tournament": "M15 Los Angeles",
+      "date": "20250319",
+      "tournament": "M25 Swan Hill",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. O&apos;Connell",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20250220",
+      "tournament": "M25 Burnie",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Zamora",
-      "score": "6-4 6(8)-7(10) 5-7"
+      "opponent": "D. Sweeny",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250702",
-      "tournament": "M15 Los Angeles",
+      "date": "20250218",
+      "tournament": "M25 Burnie",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,38 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Leather",
-      "score": "4-6 2-6"
+      "opponent": "J. Court",
+      "score": "0-6 5-7"
     },
     {
-      "date": "20250625",
-      "tournament": "M15 Lakewood",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Brymer",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20241009",
-      "tournament": "M25 Cairns 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Jasika",
-      "score": "4-6 7(7)-6(5) 3-6"
-    },
-    {
-      "date": "20241004",
-      "tournament": "M25 Cairns",
+      "date": "20241219",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -80,51 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Noguchi",
-      "score": "2-6 1-6"
+      "opponent": "M. Dellavedova",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20241003",
-      "tournament": "M25 Cairns",
+      "date": "20241218",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Aguiard",
-      "score": "6-2 7(7)-6(4)"
-    },
-    {
-      "date": "20241002",
-      "tournament": "M25 Cairns",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
       "opponent": "T. Sach",
-      "score": "6-2 7(7)-6(4)"
+      "score": "5-7 4-6"
     },
     {
-      "date": "20240919",
-      "tournament": "M25 Darwin 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Winter",
-      "score": "3-6 3-6"
-    },
-    {
-      "date": "20240918",
-      "tournament": "M25 Darwin 2",
+      "date": "20241217",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,12 +93,90 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Bataljin",
-      "score": "7-5 6-1"
+      "opponent": "J. Court",
+      "score": "4-6 0-6"
     },
     {
-      "date": "20240914",
-      "tournament": "M25 Darwin",
+      "date": "20241211",
+      "tournament": "M15 Wellington",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. D. Hara Friend",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20240531",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Vallejo",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240530",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Lokoli",
+      "score": ""
+    },
+    {
+      "date": "20240528",
+      "tournament": "ITF M25 Carnac Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Gadamauri",
+      "score": "6-1 4-6 6-2"
+    },
+    {
+      "date": "20231212",
+      "tournament": "ITF M15 Wellington Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Court",
+      "score": "7-5 3-6 2-6"
+    },
+    {
+      "date": "20230808",
+      "tournament": "M25 Roehampton 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Ingildsen",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230624",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -145,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Ja. Delaney",
-      "score": "6(3)-7(7) 6-3 6-3"
+      "opponent": "D. Kellovsky",
+      "score": "6-2 7(7)-6(5)"
     },
     {
-      "date": "20240913",
-      "tournament": "M25 Darwin",
+      "date": "20230623",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -158,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Bradshaw",
-      "score": "7-5 6-1"
+      "opponent": "A. Guerrieri",
+      "score": "7-5 7(10)-6(8)"
     },
     {
-      "date": "20240912",
-      "tournament": "M25 Darwin",
+      "date": "20230622",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -171,12 +210,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Van Rensburg",
-      "score": "4-6 6-2 2-1 ret."
+      "opponent": "L. Bocchi",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20240911",
-      "tournament": "M25 Darwin",
+      "date": "20230621",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,12 +223,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Court",
-      "score": "4-6 6(4)-7(7)"
+      "opponent": "M. Kriznik",
+      "score": "2-6 6-2 6-3"
     },
     {
-      "date": "20240430",
-      "tournament": "ITF M25 Santa Margherita di Pula 6 Men",
+      "date": "20230530",
+      "tournament": "ITF M25 Carnac Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -197,38 +236,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Wenger",
-      "score": "0-6 2-6"
+      "opponent": "M. Beauge",
+      "score": "5-7 6-3 3-6"
     },
     {
-      "date": "20231004",
-      "tournament": "ITF M25 Cairns Men",
+      "date": "20230224",
+      "tournament": "ITF M25 Swan Hill Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Tajima",
-      "score": "0-6 6-4 6-4"
+      "opponent": "A. Rai",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20230921",
-      "tournament": "ITF M25 Darwin 2 Men",
+      "date": "20230223",
+      "tournament": "ITF M25 Swan Hill Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Wiersholm",
-      "score": "2-6 4-6"
+      "result": "W",
+      "opponent": "S. Jones",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20230919",
-      "tournament": "ITF M25 Darwin 2 Men",
+      "date": "20230222",
+      "tournament": "ITF M25 Swan Hill Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -236,12 +275,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Bradshaw",
-      "score": "4-6 4-6"
+      "opponent": "T. E. Papac",
+      "score": "7(9)-6(7) 6-3"
     },
     {
-      "date": "20230913",
-      "tournament": "ITF M25 Darwin Men",
+      "date": "20221219",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -249,12 +288,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Court",
-      "score": "6-4 6-0"
+      "opponent": "D. Pham",
+      "score": "7-5 1-6 4-6"
     },
     {
-      "date": "20230801",
-      "tournament": "ITF M25 Roehampton 2 Men",
+      "date": "20221214",
+      "tournament": "M15 Wellington",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -262,8 +301,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. J. Storrie",
-      "score": "4-6 4-6"
+      "opponent": "G. Stoupe",
+      "score": "3-6 0-6"
     }
   ]
 }
