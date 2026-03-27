@@ -3,11 +3,11 @@
   "gs_id": "126724",
   "player_name": "Dylan Dietrich",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:53:00.922Z",
+  "updated": "2026-03-27T02:54:06.959Z",
   "matches": [
     {
-      "date": "20230322",
-      "tournament": "Biel",
+      "date": "20240723",
+      "tournament": "Zug Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,38 +15,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Diallo",
-      "score": "4-6 6-1 6-4"
+      "opponent": "R. A. Burruchaga",
+      "score": "7(9)-6(7) 5-7 6(2)-7(7)"
     },
     {
-      "date": "20230202",
-      "tournament": "ITF M25 Monastir Men",
+      "date": "20240722",
+      "tournament": "Zug Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Forti",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20230201",
-      "tournament": "ITF M25 Monastir Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Castagnola",
-      "score": "2-6 7(8)-6(6) 5-7"
+      "opponent": "A. Guerrieri",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20221019",
-      "tournament": "M15 Heraklion 6",
+      "date": "20240721",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Uzhylovskyi",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20230726",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kuzmanov",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20230724",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Jacquet",
+      "score": "6-2 5-7 6-4"
+    },
+    {
+      "date": "20230723",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Fonio",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20230614",
+      "tournament": "ITF M15 Duffel Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +93,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Guerrieri",
-      "score": "3-6 2-6"
+      "opponent": "J. Fonseca",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230207",
+      "tournament": "ITF M15 Monastir 56 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Iannaccone",
+      "score": "2-6 2-6"
     }
   ]
 }
