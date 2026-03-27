@@ -3,8 +3,34 @@
   "gs_id": "138369",
   "player_name": "Kenta Miyoshi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:22:45.066Z",
+  "updated": "2026-03-27T09:28:54.089Z",
   "matches": [
+    {
+      "date": "20251019",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Rocha",
+      "score": "6(6)-7(8) 1-6"
+    },
+    {
+      "date": "20251012",
+      "tournament": "Lincoln",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kirchheimer",
+      "score": "1-6 4-6"
+    },
     {
       "date": "20250615",
       "tournament": "M15 Harmon",
@@ -69,6 +95,32 @@
       "result": "W",
       "opponent": "S. Nakanishi",
       "score": "0-6 2-6"
+    },
+    {
+      "date": "20241021",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ghibaudo",
+      "score": "6-2 2-6 6-3"
+    },
+    {
+      "date": "20241020",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ilagan",
+      "score": "0-6 1-6"
     },
     {
       "date": "20240711",
@@ -160,19 +212,6 @@
       "result": "W",
       "opponent": "A. Visaya",
       "score": "6-1 6-1"
-    },
-    {
-      "date": "20231227",
-      "tournament": "M15 Yanagawa 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Suzuki",
-      "score": "7(7)-6(3) 6-3"
     }
   ]
 }
