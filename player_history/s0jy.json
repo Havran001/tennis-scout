@@ -3,11 +3,11 @@
   "gs_id": "133403",
   "player_name": "Alessandro Spadola",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:16:27.158Z",
+  "updated": "2026-03-26T23:51:46.931Z",
   "matches": [
     {
-      "date": "20250610",
-      "tournament": "M15 Messina",
+      "date": "20251203",
+      "tournament": "M15 Antalya 15",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Papamalamis",
-      "score": "6-3 6-1"
+      "opponent": "G. Crisostomo",
+      "score": "6-3 7(8)-6(6)"
+    },
+    {
+      "date": "20240727",
+      "tournament": "M15 Perugia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Juarez",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20240726",
+      "tournament": "M15 Perugia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Gerini",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20240725",
+      "tournament": "M15 Perugia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Miletich",
+      "score": "1-6 6-2 6-0"
+    },
+    {
+      "date": "20240724",
+      "tournament": "M15 Perugia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Carraro",
+      "score": "0-6 4-6"
+    },
+    {
+      "date": "20230809",
+      "tournament": "ITF M15 Monastir 32 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Carboni",
+      "score": "2-6 1-6"
     }
   ]
 }
