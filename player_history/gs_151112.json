@@ -3,20 +3,59 @@
   "gs_id": "151112",
   "player_name": "Nicolae Cazacu Dragos",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:58:20.986Z",
+  "updated": "2026-03-27T06:09:28.017Z",
   "matches": [
     {
-      "date": "20251118",
-      "tournament": "M25 Antalya 5",
+      "date": "20250814",
+      "tournament": "M15 Targu Jiu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Dell&apos;Elba",
+      "score": "4-6 7-5 4-6"
+    },
+    {
+      "date": "20250813",
+      "tournament": "M15 Targu Jiu",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zielinski",
-      "score": "7(7)-6(2) 6(9)-7(11) 3-6"
+      "result": "W",
+      "opponent": "F. Mazzola",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20250529",
+      "tournament": "M15 Kursumlijska Banja 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Lipp",
+      "score": "1-6 6-4 4-0 ret."
+    },
+    {
+      "date": "20250528",
+      "tournament": "M15 Kursumlijska Banja 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Jovic",
+      "score": "6-2 6-3"
     },
     {
       "date": "20250313",
@@ -45,8 +84,34 @@
       "score": "1-6 2-6"
     },
     {
-      "date": "20241120",
-      "tournament": "M25 Antalya 5",
+      "date": "20240905",
+      "tournament": "M15 Constanta 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Martin",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240904",
+      "tournament": "M15 Constanta 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Konov",
+      "score": "1-6 6-3 6-4"
+    },
+    {
+      "date": "20240814",
+      "tournament": "ITF M15 Targu Jiu Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Cretu",
-      "score": "6-4 6-1"
+      "opponent": "S. A. Andreescu",
+      "score": "7-5 4-6 6-4"
     },
     {
       "date": "20240321",
@@ -108,6 +173,110 @@
       "result": "W",
       "opponent": "P. Marino",
       "score": "7-5 7(7)-6(4)"
+    },
+    {
+      "date": "20230907",
+      "tournament": "ITF M15 Constanta 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Marino",
+      "score": "7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Constanta 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. C. Martin Manzano",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M15 Bucharest 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Flores",
+      "score": "3-6 6(10)-7(12)"
+    },
+    {
+      "date": "20230817",
+      "tournament": "ITF M15 Targu Jiu Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. P. Paz",
+      "score": "1-6 6(3)-7(7)"
+    },
+    {
+      "date": "20230816",
+      "tournament": "ITF M15 Targu Jiu Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. A. Coman",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20230706",
+      "tournament": "M25 Brasov",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Boitan",
+      "score": "6(2)-7(7) 1-6"
+    },
+    {
+      "date": "20230703",
+      "tournament": "M25 Brasov",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. C. Onofrei",
+      "score": "7-5 5-7 6-3"
+    },
+    {
+      "date": "20230614",
+      "tournament": "ITF M15 Tehran 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Agafonov",
+      "score": "6-4 6-4"
     },
     {
       "date": "20230505",
@@ -173,19 +342,6 @@
       "result": "W",
       "opponent": "A. Fiorentini",
       "score": "6-2 1-6 1-6"
-    },
-    {
-      "date": "20230315",
-      "tournament": "ITF M15 Kish Island 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Catani",
-      "score": "3-6 1-6"
     }
   ]
 }
