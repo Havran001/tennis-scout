@@ -3,24 +3,11 @@
   "gs_id": "3225",
   "player_name": "Facundo Bagnis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:49:43.973Z",
+  "updated": "2026-03-27T05:50:47.017Z",
   "matches": [
     {
-      "date": "20250617",
-      "tournament": "Santa Cruz",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. M. La Serna",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20230512",
-      "tournament": "Mauthausen Challenger Men",
+      "date": "20250919",
+      "tournament": "Villa Maria",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Misolic",
-      "score": "6-3 4-6 1-6"
+      "opponent": "F. A. Gomez",
+      "score": "6-2 7(7)-6(2)"
     },
     {
-      "date": "20230510",
-      "tournament": "Mauthausen Challenger Men",
+      "date": "20250918",
+      "tournament": "Villa Maria",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Melzer",
-      "score": "4-6 6-4 3-6"
+      "opponent": "A. Collarini",
+      "score": ""
     },
     {
-      "date": "20230508",
-      "tournament": "Mauthausen Challenger Men",
+      "date": "20250916",
+      "tournament": "Villa Maria",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,12 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Neuchrist",
-      "score": "1-6 1-6"
+      "opponent": "L. E. Ambrogi",
+      "score": "6-2 2-6 4-6"
     },
     {
-      "date": "20220428",
-      "tournament": "Tigre 2",
+      "date": "20250915",
+      "tournament": "Villa Maria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Aboian",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20250914",
+      "tournament": "Villa Maria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Aguilar Cardozo",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250612",
+      "tournament": "Santa Fe",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -67,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. A. Olivieri",
-      "score": "7(7)-6(4) 6-3"
+      "opponent": "L. Midon",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20220426",
-      "tournament": "Tigre 2",
+      "date": "20250610",
+      "tournament": "Santa Fe",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -81,33 +94,98 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "C. Huertas Del Pino",
-      "score": "2-6 6-3 6-4"
+      "score": "6-3 6-4"
     },
     {
-      "date": "20220106",
-      "tournament": "Melbourne (Summer Set)",
+      "date": "20221125",
+      "tournament": "Temuco",
       "surface": "Hard",
-      "level": "B",
-      "round": "R16",
+      "level": "C",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Dimitrov",
-      "score": "5-7 7(7)-6(3) 6-3"
+      "opponent": "N. Kicker",
+      "score": "6-0 6-2"
     },
     {
-      "date": "20220104",
-      "tournament": "Melbourne (Summer Set)",
+      "date": "20221124",
+      "tournament": "Temuco",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. B. Torres",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20221122",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Murray",
-      "score": "6-3 5-7 6-3"
+      "opponent": "T. Lipovsek Puches",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20220924",
+      "tournament": "Villa Maria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Navone",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220923",
+      "tournament": "Villa Maria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Casanova",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20220922",
+      "tournament": "Villa Maria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Dutra Da Silva",
+      "score": "6-4 2-6 2-6"
+    },
+    {
+      "date": "20220920",
+      "tournament": "Villa Maria",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Luz",
+      "score": "2-6 4-6"
     }
   ]
 }
