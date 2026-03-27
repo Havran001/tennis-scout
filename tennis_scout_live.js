@@ -1169,6 +1169,7 @@ function _renderMatches(){
                 if(cf.opp_rank&&m.opp_rank&&m.opp_rank.indexOf(cf.opp_rank)<0)return false;
                 if(cf.opponent&&m.opponent&&_fmtOpp(m.opponent).toLowerCase().indexOf(cf.opponent.toLowerCase())<0)return false;
                 if(cf.score&&m.score&&m.score.toLowerCase().indexOf(cf.score.toLowerCase())<0)return false;
+                if(cf.level){var _lvl=m.tournament&&(m.tournament.endsWith(' CH')||m.tournament.includes(' CH '))?'CH':m.tournament&&(/\bF\d+\b|M25|M15|ITF/.test(m.tournament))?'ITF':'ATP';if(_lvl!==cf.level)return false;}
                 if(cf.result&&m.result!==cf.result)return false;
               }
               return true;
@@ -1202,6 +1203,9 @@ function _renderMatches(){
               '.mh-table td.ta-odds{color:rgba(255,255,255,0.3);font-size:11px;}',
               '.mh-table .yr-sep td{padding:12px 6px 4px;font-size:13px;font-weight:800;color:#fcd34d;letter-spacing:2px;border-bottom:2px solid rgba(252,211,77,0.3);background:none;text-transform:uppercase;}',
               '.mh-surf-cl{color:#fb923c;}.mh-surf-gr{color:#4ade80;}.mh-surf-in{color:#c084fc;}.mh-surf-ha{color:#60a5fa;}',
+              '.lvl-atp{color:#60a5fa;font-weight:700;font-size:9px;}',
+              '.lvl-ch{color:#fcd34d;font-weight:700;font-size:9px;}',
+              '.lvl-itf{color:#a78bfa;font-weight:700;font-size:9px;}',
               '.mh-dd-wrap{position:relative;}',
               '.mh-dd-list{display:none;position:absolute;top:100%;left:0;min-width:180px;max-height:220px;overflow-y:auto;background:#1c2128;border:1px solid rgba(255,255,255,0.15);border-radius:6px;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.5);}',
               '.mh-dd-list.open{display:block;}',
@@ -1209,6 +1213,7 @@ function _renderMatches(){
               '.mh-dd-item:hover,.mh-dd-item.active{background:rgba(33,150,243,0.3);}'
             ].join('');
             var cols=[
+              {key:'level',label:'Level',type:'sel',opts:['','ATP','CH','ITF']},
               {key:'result',label:'W/L',type:'sel',opts:['','W','L']},
               {key:'date',label:'Date',type:'txt'},
               {key:'tournament',label:'Tournament',type:'txt'},
@@ -1258,7 +1263,7 @@ function _renderMatches(){
             filtered.forEach(function(m){
               var yr=m.date?(m.date.replace(/-/g,'')).substring(0,4):'';
               if(yr!==lastYear){
-                tbody+='<tr class="yr-sep"><td colspan="18">'+yr+'</td></tr>';
+                tbody+='<tr class="yr-sep"><td colspan="19">'+yr+'</td></tr>';
                 lastYear=yr;
               }
               var _dn=(m.date||'').replace(/-/g,'');
@@ -1266,8 +1271,11 @@ function _renderMatches(){
               var isW=m.result==='W',isL=m.result==='L';
               var wlCls=isW?'ta-wl-w':isL?'ta-wl-l':'';
               var sfCls=(m.surface||'')==='Clay'?'mh-surf-cl':(m.surface||'')==='Grass'?'mh-surf-gr':(m.surface||'')==='Indoor'?'mh-surf-in':'mh-surf-ha';
+              var lvl=m.tournament&&(m.tournament.endsWith(' CH')||m.tournament.includes(' CH '))?'CH':m.tournament&&(/\bF\d+\b|M25|M15|ITF/.test(m.tournament))?'ITF':'ATP';
+              var lvlCls=lvl==='ATP'?'lvl-atp':lvl==='CH'?'lvl-ch':'lvl-itf';
               tbody+=[
                 '<tr>',
+                '<td class="'+lvlCls+'">'+lvl+'</td>',
                 '<td class="'+wlCls+'">'+(m.result||'')+'</td>',
                 '<td>'+dd+'</td>',
                 '<td>'+_normT(m.tournament||'')+'</td>',
