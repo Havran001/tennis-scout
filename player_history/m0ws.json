@@ -1,1 +1,48 @@
-{"player_id":"m0ws","sack_id":"213329","name":"Matteo Mesaglio","total":0,"matches":[]}
+{
+  "player_id": "m0ws",
+  "gs_id": "253903",
+  "player_name": "Matteo Mesaglio",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T05:00:40.989Z",
+  "matches": [
+    {
+      "date": "20250408",
+      "tournament": "M25 Santa Margherita di Pula 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Pecci",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20250401",
+      "tournament": "M25 Santa Margherita di Pula",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Ferrari",
+      "score": "4-6 6-4 0-6"
+    },
+    {
+      "date": "20240917",
+      "tournament": "ITF M25 Santa Margherita di Pula 7 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Gill",
+      "score": "2-6 0-6"
+    }
+  ]
+}
