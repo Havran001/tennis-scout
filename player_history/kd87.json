@@ -3,7 +3,7 @@
   "gs_id": "6128",
   "player_name": "Evgeny Karlovskiy",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:44:23.984Z",
+  "updated": "2026-03-27T05:50:50.034Z",
   "matches": [
     {
       "date": "20240502",
@@ -32,8 +32,8 @@
       "score": "4-6 1-6"
     },
     {
-      "date": "20240313",
-      "tournament": "M15 Aktobe 2",
+      "date": "20230802",
+      "tournament": "ITF M25 Astana Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,77 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Kukasian",
-      "score": "4-6 6-2 2-6"
+      "opponent": "E. Agafonov",
+      "score": "3-6 1-2 ret."
     },
     {
-      "date": "20240310",
-      "tournament": "M15 Aktobe",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Nesterov",
-      "score": "6(1)-7(7) 6-1 6-2"
-    },
-    {
-      "date": "20240309",
-      "tournament": "M15 Aktobe",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Visker",
-      "score": "7(7)-6(3) 1-6 4-6"
-    },
-    {
-      "date": "20240308",
-      "tournament": "M15 Aktobe",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Simakin",
-      "score": "7(7)-6(4) 3-6 7(7)-6(3)"
-    },
-    {
-      "date": "20240307",
-      "tournament": "M15 Aktobe",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Den Heijer",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20240306",
-      "tournament": "M15 Aktobe",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Safonov",
-      "score": "6-4 6-0"
-    },
-    {
-      "date": "20240116",
-      "tournament": "ITF M25 Doha Men",
+      "date": "20230712",
+      "tournament": "ITF M25 Roda de Bara Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Sultanov",
-      "score": "4-6 6-2 6-2"
+      "opponent": "I. Lopez Morillo",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20230312",
-      "tournament": "Szekesfehervar Challenger Men",
+      "date": "20230625",
+      "tournament": "Modena Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -132,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Prihodko",
-      "score": "7(7)-6(5) 6-1"
+      "opponent": "F. Forti",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230608",
+      "tournament": "M25 Kursumlijska Banja 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Aboian",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20230607",
+      "tournament": "M25 Kursumlijska Banja 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Boscardin Dias",
+      "score": "6-4 3-6 6-4"
+    },
+    {
+      "date": "20230521",
+      "tournament": "Skopje Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Markovski",
+      "score": "2-6 1-6"
     }
   ]
 }
