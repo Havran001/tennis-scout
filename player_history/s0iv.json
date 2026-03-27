@@ -3,11 +3,24 @@
   "gs_id": "168664",
   "player_name": "Ryan Augusto dos Santos",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:54:26.969Z",
+  "updated": "2026-03-27T04:59:17.992Z",
   "matches": [
     {
-      "date": "20251007",
-      "tournament": "M25 Rio de Janeiro",
+      "date": "20250126",
+      "tournament": "Piracicaba",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cecchinato",
+      "score": "7(7)-6(4) 3-6 6(2)-7(7)"
+    },
+    {
+      "date": "20240423",
+      "tournament": "M25 Mosquera",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +28,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. V. Scramin do Lago",
-      "score": "6-4 3-6 6-3"
+      "opponent": "B. Lock",
+      "score": "6-3 6(6)-7(8) 3-6"
+    },
+    {
+      "date": "20230322",
+      "tournament": "ITF M25 Mosquera Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. A. Dellien Velasco",
+      "score": "2-6 3-6"
     },
     {
       "date": "20221123",
@@ -30,32 +56,6 @@
       "result": "L",
       "opponent": "F. Yamacita",
       "score": "6-1 6-4"
-    },
-    {
-      "date": "20221020",
-      "tournament": "ITF M25 Rio de Janeiro Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Pereira",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20221019",
-      "tournament": "ITF M25 Rio de Janeiro Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. E. Schiessl",
-      "score": "4-6 5-7"
     }
   ]
 }
