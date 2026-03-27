@@ -3,11 +3,11 @@
   "gs_id": "162557",
   "player_name": "Robert Guna",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:55:48.958Z",
+  "updated": "2026-03-27T07:02:45.033Z",
   "matches": [
     {
-      "date": "20220816",
-      "tournament": "M15 Craiova",
+      "date": "20260203",
+      "tournament": "M15 Zahra 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. D. Ionel",
-      "score": "0-6 0-6"
+      "opponent": "N. Thurner",
+      "score": "6-3 4-6 4-6"
+    },
+    {
+      "date": "20260130",
+      "tournament": "M15 Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Sultanov",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20260129",
+      "tournament": "M15 Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Nishiwaki",
+      "score": "4-6 6-3 6(6)-7(8)"
+    },
+    {
+      "date": "20260128",
+      "tournament": "M15 Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Hamza Reguig",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250813",
+      "tournament": "M15 Targu Jiu",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20240904",
+      "tournament": "M15 Constanta 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Crisostomo",
+      "score": "6-0 4-6 6-4"
+    },
+    {
+      "date": "20240814",
+      "tournament": "ITF M15 Targu Jiu Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Apltauer",
+      "score": "2-6 6-4 6-2"
     }
   ]
 }
