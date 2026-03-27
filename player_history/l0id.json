@@ -3,50 +3,37 @@
   "gs_id": "163489",
   "player_name": "Jack Loge",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:10:21.017Z",
+  "updated": "2026-03-27T07:02:53.427Z",
   "matches": [
     {
-      "date": "20240502",
-      "tournament": "ITF M15 Kursumlijska Banja 3 Men",
+      "date": "20260118",
+      "tournament": "M15 Manacor 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Gueymard Wayenburg",
-      "score": "3-6 2-6"
+      "opponent": "M. Basing",
+      "score": "6-2 4-6 3-6"
     },
     {
-      "date": "20240501",
-      "tournament": "ITF M15 Kursumlijska Banja 3 Men",
+      "date": "20260117",
+      "tournament": "M15 Manacor 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Desousa",
-      "score": "6-3 6-3"
+      "opponent": "E. Pleshivtsev",
+      "score": "7-6 5-1 ret."
     },
     {
-      "date": "20240428",
-      "tournament": "ITF M15 Kursumlijska Banja 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Popovic",
-      "score": "7(7)-6(3) 6-3"
-    },
-    {
-      "date": "20240427",
-      "tournament": "ITF M15 Kursumlijska Banja 2 Men",
+      "date": "20260116",
+      "tournament": "M15 Manacor 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -54,12 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Butulija",
-      "score": "6-3 1-6 8-10"
+      "opponent": "L. Gavrielides",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240425",
-      "tournament": "ITF M15 Kursumlijska Banja 2 Men",
+      "date": "20260115",
+      "tournament": "M15 Manacor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Juan Mano",
+      "score": ""
+    },
+    {
+      "date": "20260114",
+      "tournament": "M15 Manacor 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Djosic",
-      "score": "6-0 4-6 8-10"
+      "opponent": "A. Omarkhanov",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20240419",
-      "tournament": "ITF M15 Kursumlijska Banja Men",
+      "date": "20251119",
+      "tournament": "M25 Vale do Lobo 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +80,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Ludoski",
-      "score": "4-6 6-2 10-4"
+      "opponent": "S. Fanselow",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20230531",
-      "tournament": "ITF M25 Carnac Men",
+      "date": "20250115",
+      "tournament": "M15 Manacor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. De Krom",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20231214",
+      "tournament": "M15 Zahra 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Martineau",
-      "score": "3-6 3-6"
+      "opponent": "D. Wassermann",
+      "score": "5-7 3-6"
     },
     {
-      "date": "20230530",
-      "tournament": "ITF M25 Carnac Men",
+      "date": "20231213",
+      "tournament": "M15 Zahra 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +119,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Villard",
-      "score": "2-6 4-6"
+      "opponent": "F. Mischker",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20231129",
+      "tournament": "ITF M15 Zahra Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bonnaud",
+      "score": "5-7 5-7"
     }
   ]
 }
