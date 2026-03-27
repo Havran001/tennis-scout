@@ -3,47 +3,8 @@
   "gs_id": "57434",
   "player_name": "Milan Welte",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:00:26.129Z",
+  "updated": "2026-03-27T08:10:53.058Z",
   "matches": [
-    {
-      "date": "20250620",
-      "tournament": "M15 Saarlouis",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Lopez Morillo",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20250619",
-      "tournament": "M15 Saarlouis",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Beckley",
-      "score": "6-4 7-5"
-    },
-    {
-      "date": "20250618",
-      "tournament": "M15 Saarlouis",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Rottgering",
-      "score": "6-3 3-4 ret."
-    },
     {
       "date": "20240717",
       "tournament": "ITF M15 Uslar Men",
@@ -58,21 +19,34 @@
       "score": "6-1 6-0"
     },
     {
-      "date": "20240620",
-      "tournament": "ITF M15 Saarlouis Men",
+      "date": "20240119",
+      "tournament": "ITF M15 Cadolzburg Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Filip",
+      "score": "6-3 6(3)-7(7) 6-2"
+    },
+    {
+      "date": "20240118",
+      "tournament": "ITF M15 Cadolzburg Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Lipp",
-      "score": "4-6 3-6"
+      "result": "W",
+      "opponent": "V. Kalina",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M15 Saarlouis Men",
+      "date": "20240117",
+      "tournament": "ITF M15 Cadolzburg Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,20 +54,7 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Oetzbach",
-      "score": "6-4 6-1"
-    },
-    {
-      "date": "20230620",
-      "tournament": "ITF M15 Saarlouis Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Fonseca",
+      "opponent": "L. Lane",
       "score": "5-7 5-7"
     }
   ]
