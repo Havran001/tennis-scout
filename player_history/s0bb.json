@@ -1,22 +1,35 @@
 {
   "player_id": "s0bb",
-  "gs_id": "260513",
-  "player_name": "Ariel Vazquez Franco",
+  "gs_id": "150059",
+  "player_name": "Alan Sau Franco",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:55:52.935Z",
+  "updated": "2026-03-27T04:48:21.982Z",
   "matches": [
     {
-      "date": "20241106",
-      "tournament": "M15 Guatemala",
+      "date": "20241010",
+      "tournament": "ITF M15 Sharm ElSheikh 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Dzhavakian",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20241009",
+      "tournament": "ITF M15 Sharm ElSheikh 13 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Sonne",
-      "score": "5-7 4-6"
+      "result": "W",
+      "opponent": "D. Ryzhankou",
+      "score": "1-6 5-7"
     }
   ]
 }
