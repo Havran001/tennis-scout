@@ -3,7 +3,7 @@
   "gs_id": "156067",
   "player_name": "Viktor Markov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:49.017Z",
+  "updated": "2026-03-27T08:25:08.065Z",
   "matches": [
     {
       "date": "20250618",
@@ -19,6 +19,32 @@
       "score": "7(9)-6(7) 2-6 3-6"
     },
     {
+      "date": "20240620",
+      "tournament": "ITF M15 Kursumlijska Banja 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Polukhin",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20240619",
+      "tournament": "ITF M15 Kursumlijska Banja 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Micov",
+      "score": "6-2 6-2"
+    },
+    {
       "date": "20240612",
       "tournament": "ITF M15 Kursumlijska Banja 7 Men",
       "surface": "Hard",
@@ -30,45 +56,6 @@
       "result": "L",
       "opponent": "D. Dinev",
       "score": "7(7)-6(3) 6-4"
-    },
-    {
-      "date": "20230525",
-      "tournament": "M15 Pazardzhik 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Denolly",
-      "score": "6-1 6-3"
-    },
-    {
-      "date": "20230524",
-      "tournament": "M15 Pazardzhik 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Marquiselli",
-      "score": "0-6 3-6"
-    },
-    {
-      "date": "20230518",
-      "tournament": "M15 Pazardzhik",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Rossi",
-      "score": "7(10)-6(8) 5-7 7(9)-6(7)"
     }
   ]
 }
