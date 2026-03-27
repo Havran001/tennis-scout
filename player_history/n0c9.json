@@ -3,37 +3,76 @@
   "gs_id": "123647",
   "player_name": "Dian Nedev",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:04:55.349Z",
+  "updated": "2026-03-27T01:54:36.933Z",
   "matches": [
     {
-      "date": "20240814",
-      "tournament": "ITF M15 Sofia Men",
+      "date": "20251211",
+      "tournament": "M15 Antalya 16",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Orlov",
-      "score": "5-7 1-6"
+      "opponent": "M. Exsted",
+      "score": "6-0 6-1"
     },
     {
-      "date": "20240313",
-      "tournament": "ITF M25 Santo Domingo 2 Men",
+      "date": "20251210",
+      "tournament": "M15 Antalya 16",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Kumar",
-      "score": "6-2 6-4"
+      "result": "W",
+      "opponent": "D. Dinev",
+      "score": "6-4 4-6 6-2"
     },
     {
-      "date": "20210610",
-      "tournament": "M15 Skopje 2",
+      "date": "20240426",
+      "tournament": "ITF M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Jones",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240425",
+      "tournament": "ITF M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Bigun",
+      "score": "3-6 6-3 6-0"
+    },
+    {
+      "date": "20240424",
+      "tournament": "ITF M15 Vero Beach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Langmo",
+      "score": "4-6 7(7)-6(2) 4-6"
+    },
+    {
+      "date": "20211013",
+      "tournament": "ITF M15 Sozopol 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Nijboer",
-      "score": "3-6 2-6"
+      "opponent": "Y. Wojcik",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20211005",
+      "tournament": "ITF M15 Sozopol 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Wehnelt",
+      "score": "3-6 3-6"
     }
   ]
 }
