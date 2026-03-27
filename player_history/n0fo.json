@@ -1,1 +1,35 @@
-{"player_id":"n0fo","sack_id":"212938","name":"Botond Nagy","total":0,"matches":[]}
+{
+  "player_id": "n0fo",
+  "gs_id": "263233",
+  "player_name": "Botond Nagy",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T07:07:56.038Z",
+  "matches": [
+    {
+      "date": "20250925",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. S. Callejon",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20250923",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Butulija",
+      "score": "6(1)-7(7) 6-3 6-2"
+    }
+  ]
+}
