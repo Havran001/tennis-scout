@@ -3,11 +3,37 @@
   "gs_id": "162538",
   "player_name": "Teodor Stirbu Calin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:11:17.043Z",
+  "updated": "2026-03-27T11:02:10.126Z",
   "matches": [
     {
-      "date": "20240821",
-      "tournament": "ITF M15 Arad Men",
+      "date": "20250716",
+      "tournament": "M15 Slobozia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Preda",
+      "score": "3-6 6-3 6-0"
+    },
+    {
+      "date": "20250624",
+      "tournament": "M25 Targu Mures",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Marti Pujolras",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20240926",
+      "tournament": "M15 Targu Mures",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. De Vincentis",
-      "score": "4-6 6-3 1-6"
+      "opponent": "F. Cina",
+      "score": "6-3 7(9)-6(7)"
     },
     {
-      "date": "20240820",
-      "tournament": "ITF M15 Arad Men",
+      "date": "20240925",
+      "tournament": "M15 Targu Mures",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,73 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Karol",
-      "score": "7(7)-6(5) 2-6 7(7)-6(2)"
+      "opponent": "S. Konov",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20240817",
-      "tournament": "ITF M15 Targu Jiu Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. A. Tomescu",
-      "score": "6-1 6-3"
-    },
-    {
-      "date": "20240816",
-      "tournament": "ITF M15 Targu Jiu Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "V. C. Breazu",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20240815",
-      "tournament": "ITF M15 Targu Jiu Men",
+      "date": "20240807",
+      "tournament": "ITF M25 Montesilvano Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. De Vincentis",
-      "score": "6-3 6(7)-7(9) 6-1"
-    },
-    {
-      "date": "20240813",
-      "tournament": "ITF M15 Targu Jiu Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Mouilleron Salvo",
-      "score": "3-6 7(7)-6(1) 2-6"
-    },
-    {
-      "date": "20230815",
-      "tournament": "ITF M15 Targu Jiu Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "D. A. Tomescu",
-      "score": "6-1 6-2"
+      "opponent": "J. E. Schiessl",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20240806",
+      "tournament": "ITF M25 Montesilvano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Agostini",
+      "score": "6-4 6-0"
     }
   ]
 }
