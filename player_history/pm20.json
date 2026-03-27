@@ -1,39 +1,26 @@
 {
   "player_id": "pm20",
-  "gs_id": "263929",
-  "player_name": "Antoine Faut Pierre",
+  "gs_id": "83824",
+  "player_name": "Hugo Pierre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:56:56.051Z",
+  "updated": "2026-03-27T08:15:51.062Z",
   "matches": [
     {
-      "date": "20250221",
-      "tournament": "M15 Lannion",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Bonding",
-      "score": "7(7)-6(2) 6-4"
-    },
-    {
-      "date": "20250220",
-      "tournament": "M15 Lannion",
+      "date": "20250717",
+      "tournament": "M15 Hillcrest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Catry",
-      "score": "6-4 6-3"
+      "result": "L",
+      "opponent": "C. Doig",
+      "score": "2-6 6-4 5-7"
     },
     {
-      "date": "20250219",
-      "tournament": "M15 Lannion",
+      "date": "20250715",
+      "tournament": "M15 Hillcrest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +28,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Bradshaw",
-      "score": "3-6 4-6"
+      "opponent": "E. Hudd",
+      "score": "4-6 7-5 6-0"
+    },
+    {
+      "date": "20250710",
+      "tournament": "M15 Hillcrest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Singh",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20250709",
+      "tournament": "M15 Hillcrest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Eqbal",
+      "score": "7(7)-6(5) 6-2"
+    },
+    {
+      "date": "20250702",
+      "tournament": "M25 Hillcrest",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kleiman",
+      "score": "2-6 7(7)-6(4) 4-6"
+    },
+    {
+      "date": "20240313",
+      "tournament": "ITF M25 Creteil Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vatutin",
+      "score": "6-1 6-0"
     }
   ]
 }
