@@ -3,8 +3,47 @@
   "gs_id": "4021",
   "player_name": "Mohamed Safwat",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:57:04.643Z",
+  "updated": "2026-03-27T11:37:55.197Z",
   "matches": [
+    {
+      "date": "20250904",
+      "tournament": "M15 Hurghada",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Gretskiy",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250903",
+      "tournament": "M15 Hurghada",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Bulut",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20240819",
+      "tournament": "Dobrich",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Oliel",
+      "score": "6-3 6-4"
+    },
     {
       "date": "20240620",
       "tournament": "M25 Duffel",
@@ -69,84 +108,6 @@
       "result": "W",
       "opponent": "J. Paul",
       "score": "2-6 2-6"
-    },
-    {
-      "date": "20240308",
-      "tournament": "Kigali 2 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Trungelliti",
-      "score": "6-1 2-6 1-6"
-    },
-    {
-      "date": "20240306",
-      "tournament": "Kigali 2 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. P. Paz",
-      "score": "6(4)-7(7) 2-6"
-    },
-    {
-      "date": "20240305",
-      "tournament": "Kigali 2 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Houkes",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20240227",
-      "tournament": "Kigali Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. P. Paz",
-      "score": "6(9)-7(11) 1-6"
-    },
-    {
-      "date": "20231112",
-      "tournament": "Danderyd",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Naw",
-      "score": "0-6 1-6"
-    },
-    {
-      "date": "20231108",
-      "tournament": "M25 Sharm ElSheikh 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Ursu",
-      "score": "4-6 3-6"
     }
   ]
 }
