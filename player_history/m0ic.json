@@ -3,8 +3,21 @@
   "gs_id": "127077",
   "player_name": "Giannicola Misasi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:07:45.016Z",
+  "updated": "2026-03-27T08:21:32.065Z",
   "matches": [
+    {
+      "date": "20251105",
+      "tournament": "M15 San Gregorio di Catania",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. C. Spiridon",
+      "score": "3-6 4-6"
+    },
     {
       "date": "20250827",
       "tournament": "M15 Vienna",
@@ -19,21 +32,8 @@
       "score": "6-4 7-5"
     },
     {
-      "date": "20250521",
-      "tournament": "M15 Kursumlijska Banja 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. T. George",
-      "score": "6-3 ret."
-    },
-    {
-      "date": "20250515",
-      "tournament": "M15 Kursumlijska Banja 3",
+      "date": "20250626",
+      "tournament": "M15 Kursumlijska Banja 8",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Stankovic",
-      "score": "4-6 6-0 7(7)-6(5)"
+      "opponent": "S. Popovic",
+      "score": "7(7)-6(5) 6-2"
     },
     {
-      "date": "20250514",
-      "tournament": "M15 Kursumlijska Banja 3",
+      "date": "20250625",
+      "tournament": "M15 Kursumlijska Banja 8",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Giraldi",
-      "score": "2-6 2-6"
+      "opponent": "O. Milic",
+      "score": "6-3 3-6 4-6"
     },
     {
-      "date": "20240319",
-      "tournament": "M15 Alaminos-Larnaca 2",
+      "date": "20250611",
+      "tournament": "M15 Oradea",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +67,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. P. Osti F.",
+      "opponent": "K. Szymkowiak",
+      "score": "7(9)-6(7) 5-7 1-6"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Caltanissetta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Romano",
       "score": "1-6 3-6"
     },
     {
-      "date": "20240312",
-      "tournament": "M15 Alaminos-Larnaca",
+      "date": "20250604",
+      "tournament": "M15 Caltanissetta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Motta",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20231213",
+      "tournament": "ITF M15 Ceuta Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Marmousez",
-      "score": "2-6 1-6"
+      "opponent": "M. Rocens",
+      "score": "6-0 7-5"
+    },
+    {
+      "date": "20231129",
+      "tournament": "ITF M15 San Gregorio di Catania Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Pennaforti",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20231128",
+      "tournament": "ITF M15 San Gregorio di Catania Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Militi Ribaldi",
+      "score": "6(3)-7(7) 4-6"
     },
     {
       "date": "20230902",
@@ -134,71 +186,6 @@
       "result": "W",
       "opponent": "S. A. Ivanov",
       "score": "6(4)-7(7) 3-6"
-    },
-    {
-      "date": "20230615",
-      "tournament": "M15 Rabat",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. A. Barreto Sanchez",
-      "score": "4-6 6-2 7-5"
-    },
-    {
-      "date": "20230614",
-      "tournament": "M15 Rabat",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. De Dios",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20230530",
-      "tournament": "M25 Rome",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Leshem",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20230511",
-      "tournament": "M15 Alaminos-Larnaca 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Prechtel",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20230510",
-      "tournament": "M15 Alaminos-Larnaca 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Lorusso",
-      "score": "5-7 4-6"
     }
   ]
 }
