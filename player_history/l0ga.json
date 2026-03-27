@@ -3,24 +3,37 @@
   "gs_id": "92105",
   "player_name": "Tomas Lanik",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:50:39.932Z",
+  "updated": "2026-03-27T02:53:31.963Z",
   "matches": [
     {
-      "date": "20230323",
-      "tournament": "ITF M15 Sharm ElSheikh 8 Men",
+      "date": "20240628",
+      "tournament": "ITF M15 Kamen Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Gulin",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20240627",
+      "tournament": "ITF M15 Kamen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Oliel",
-      "score": "6-3 6-0"
+      "result": "W",
+      "opponent": "V. Basel",
+      "score": "6(2)-7(7) 7-5 7-5"
     },
     {
-      "date": "20230322",
-      "tournament": "ITF M15 Sharm ElSheikh 8 Men",
+      "date": "20240625",
+      "tournament": "ITF M15 Kamen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Vocel",
-      "score": "3-6 7-5 2-0 ret."
+      "opponent": "S. Prechtel",
+      "score": "6-4 4-6 1-6"
     },
     {
-      "date": "20230201",
-      "tournament": "ITF M15 Sharm ElSheikh Men",
+      "date": "20230816",
+      "tournament": "ITF M15 Kottingbrunn Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Cubelic",
-      "score": "3-6 2-6"
+      "opponent": "G. Melzer",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230622",
+      "tournament": "M25 Poprad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Paulson",
+      "score": ""
+    },
+    {
+      "date": "20230621",
+      "tournament": "M25 Poprad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Sheyngezikht",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20220901",
+      "tournament": "M25 Szabolcsveresmart",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Madarasz",
+      "score": "4-6 6-1 4-6"
+    },
+    {
+      "date": "20220830",
+      "tournament": "M25 Szabolcsveresmart",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Hornung",
+      "score": "6-3 1-6 2-6"
+    },
+    {
+      "date": "20220814",
+      "tournament": "Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Setkic",
+      "score": "2-6 7(7)-6(5) 3-6"
+    },
+    {
+      "date": "20220629",
+      "tournament": "M25 Poprad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Minarik",
+      "score": "6(5)-7(7) 2-6"
     }
   ]
 }
