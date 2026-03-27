@@ -3,11 +3,102 @@
   "gs_id": "78976",
   "player_name": "Arthur Bouquier",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:05:05.692Z",
+  "updated": "2026-03-27T08:16:01.061Z",
   "matches": [
     {
-      "date": "20230529",
-      "tournament": "ITF M25 Carnac Men",
+      "date": "20240421",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Reco",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20240420",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Sakharov",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240419",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Brosset",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20240418",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Lagarrigue",
+      "score": "6-3 7(7)-6(0)"
+    },
+    {
+      "date": "20240417",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Villard",
+      "score": "3-6 6-4 6-2"
+    },
+    {
+      "date": "20240314",
+      "tournament": "ITF M25 Creteil Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vatutin",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240313",
+      "tournament": "ITF M25 Creteil Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Collignon",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20231031",
+      "tournament": "M25+H Mulhouse",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Legout",
-      "score": "6(2)-7(7) 6-2 6-0"
+      "opponent": "F. Broska",
+      "score": "6-4 4-6 7(7)-6(3)"
     }
   ]
 }
