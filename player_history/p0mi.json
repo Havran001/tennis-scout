@@ -3,24 +3,50 @@
   "gs_id": "206613",
   "player_name": "Stijn Paardekooper",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:53:54.901Z",
+  "updated": "2026-03-27T02:56:42.957Z",
   "matches": [
     {
-      "date": "20251121",
-      "tournament": "M15 Tallahassee",
+      "date": "20250907",
+      "tournament": "M15 Haren",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Petkovic",
+      "score": "4-6 6-4 4-6"
+    },
+    {
+      "date": "20250906",
+      "tournament": "M15 Haren",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Bozemoj",
+      "score": "3-6 6(5)-7(7)"
+    },
+    {
+      "date": "20250905",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Fishback",
+      "result": "W",
+      "opponent": "A. Oetzbach",
       "score": "6-4 6-3"
     },
     {
-      "date": "20251120",
-      "tournament": "M15 Tallahassee",
+      "date": "20250904",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Ferrer Guimaraes",
-      "score": "2-6 0-6"
+      "opponent": "M. Steiner",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20251119",
-      "tournament": "M15 Tallahassee",
+      "date": "20250903",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +67,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Ezerzer",
-      "score": "4-6 2-6"
+      "opponent": "D. Wassermann",
+      "score": "6(5)-7(7) 0-0 ret."
     },
     {
-      "date": "20250708",
-      "tournament": "M25 The Hague",
+      "date": "20250828",
+      "tournament": "M25 Oldenzaal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ganesan",
+      "score": "6-4 3-6 2-6"
+    },
+    {
+      "date": "20250827",
+      "tournament": "M25 Oldenzaal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. De Lange",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240903",
+      "tournament": "ITF M15 Haren Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Geerts",
-      "score": "6-3 6-3"
+      "opponent": "D. Donders",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20240709",
-      "tournament": "ITF M25 The Hague Men",
+      "date": "20240828",
+      "tournament": "ITF M25 Oldenzaal Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +119,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Balciunas",
-      "score": "0-6 6-0 6-3"
+      "opponent": "M. Houkes",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230804",
+      "tournament": "M15 Eindhoven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Oetzbach",
+      "score": "6-3 3-6 6-2"
+    },
+    {
+      "date": "20230803",
+      "tournament": "M15 Eindhoven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. van Assendelft",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20230802",
+      "tournament": "M15 Eindhoven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Mora",
+      "score": "3-6 6-4 6-2"
+    },
+    {
+      "date": "20230801",
+      "tournament": "M15 Eindhoven",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Barbier Gazeu",
+      "score": "3-6 4-6"
     }
   ]
 }
