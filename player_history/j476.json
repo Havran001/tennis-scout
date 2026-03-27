@@ -3,8 +3,34 @@
   "gs_id": "8529",
   "player_name": "David Jorda Sanchis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:56:21.925Z",
+  "updated": "2026-03-27T01:57:13.946Z",
   "matches": [
+    {
+      "date": "20230526",
+      "tournament": "ITF M25 Mataro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Barreto Sanchez",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20230524",
+      "tournament": "ITF M25 Mataro Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Bertola",
+      "score": "4-6 4-6"
+    },
     {
       "date": "20230416",
       "tournament": "Roseto Degli Abruzzi",
@@ -19,60 +45,21 @@
       "score": "6-3 4-6 4-6"
     },
     {
-      "date": "20221127",
-      "tournament": "M15 Madrid 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Vallejo",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20221126",
-      "tournament": "M15 Madrid 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Handel",
-      "score": "4-6 6(4)-7(7)"
-    },
-    {
-      "date": "20221125",
-      "tournament": "M15 Madrid 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Ivanovski",
-      "score": "7-5 6-2"
-    },
-    {
-      "date": "20221124",
-      "tournament": "M15 Madrid 2",
+      "date": "20230309",
+      "tournament": "M15 Creteil",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Zhu",
-      "score": "7-5 6-3"
+      "result": "L",
+      "opponent": "T. Lamasine",
+      "score": "6(3)-7(7) 1-6"
     },
     {
-      "date": "20221123",
-      "tournament": "M15 Madrid 2",
+      "date": "20230308",
+      "tournament": "M15 Creteil",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Perez Contri",
-      "score": "6-1 6-0"
+      "opponent": "R. J. Storrie",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20220414",
+      "tournament": "M25 Nottingham",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Harris",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20220412",
+      "tournament": "M25 Nottingham",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Nestola",
+      "score": "6-4 6-0"
     }
   ]
 }
