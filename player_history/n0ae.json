@@ -1,48 +1,61 @@
 {
   "player_id": "n0ae",
-  "gs_id": "136367",
-  "player_name": "Bryce Nakashima",
+  "gs_id": "40510",
+  "player_name": "Brandon Nakashima",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:47:42.985Z",
+  "updated": "2026-03-27T04:51:03.998Z",
   "matches": [
     {
-      "date": "20230105",
-      "tournament": "M25 Malibu",
+      "date": "20240127",
+      "tournament": "Ottignies-Louvain-la-Neuve",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Johns",
-      "score": "6-1 6-2"
+      "opponent": "L. Riedi",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20221117",
-      "tournament": "M25 Columbus",
+      "date": "20240126",
+      "tournament": "Ottignies-Louvain-la-Neuve",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Choinski",
+      "score": "6-1 6(5)-7(7) 7-5"
+    },
+    {
+      "date": "20240125",
+      "tournament": "Ottignies-Louvain-la-Neuve",
+      "surface": "Hard",
+      "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Mayo",
-      "score": "6-2 7(7)-6(4)"
+      "result": "W",
+      "opponent": "R. Collignon",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20221116",
-      "tournament": "M25 Columbus",
+      "date": "20240124",
+      "tournament": "Ottignies-Louvain-la-Neuve",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Sorbo",
-      "score": "6-0 7(7)-6(3)"
+      "opponent": "B. Hassan",
+      "score": "6-3 6-4"
     }
   ]
 }
