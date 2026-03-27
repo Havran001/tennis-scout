@@ -3,11 +3,11 @@
   "gs_id": "74215",
   "player_name": "Lorenzo Rottoli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:46:31.980Z",
+  "updated": "2026-03-27T05:42:58.009Z",
   "matches": [
     {
-      "date": "20250403",
-      "tournament": "M15 Lons-le-Saunier",
+      "date": "20250619",
+      "tournament": "M25 Cattolica",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Raquillet",
-      "score": "3-6 6-4 3-6"
+      "opponent": "M. Mazza",
+      "score": "7(7)-6(4) 6-2"
     },
     {
-      "date": "20250401",
-      "tournament": "M15 Lons-le-Saunier",
+      "date": "20250618",
+      "tournament": "M25 Cattolica",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Lamasine",
-      "score": "6-4 6-4"
+      "opponent": "A. Meduri",
+      "score": "6-1 0-6 7-5"
+    },
+    {
+      "date": "20240517",
+      "tournament": "ITF M25 Reggio Emilia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Fonio",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240516",
+      "tournament": "ITF M25 Reggio Emilia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Kodat",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240513",
+      "tournament": "ITF M25 Reggio Emilia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Potenza",
+      "score": "6-3 2-6 7(7)-6(4)"
+    },
+    {
+      "date": "20230625",
+      "tournament": "Modena Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Marie",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20230517",
+      "tournament": "ITF M25 Reggio Emilia Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Edmund",
+      "score": "6-0 7(9)-6(7)"
     }
   ]
 }
