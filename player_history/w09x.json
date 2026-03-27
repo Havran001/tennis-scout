@@ -1,52 +1,39 @@
 {
   "player_id": "w09x",
-  "gs_id": "89871",
-  "player_name": "Noah Lopez",
+  "gs_id": "39239",
+  "player_name": "Benjamin Winter Lopez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:57:57.041Z",
+  "updated": "2026-03-27T08:05:47.514Z",
   "matches": [
     {
-      "date": "20240827",
-      "tournament": "ITF M25 Sion Men",
+      "date": "20251121",
+      "tournament": "M15 Alcala de Henares",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Ruehl",
-      "score": "4-6 6-2 3-6"
+      "opponent": "A. Forger",
+      "score": "7(9)-6(7) 6-1"
     },
     {
-      "date": "20230927",
-      "tournament": "ITF M25 Sabadell 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Gabashvili",
-      "score": "4-6 6-4 6-1"
-    },
-    {
-      "date": "20230831",
-      "tournament": "ITF M25 Sion Men",
+      "date": "20251120",
+      "tournament": "M15 Alcala de Henares",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Feldbausch",
-      "score": "6-2 6-4"
+      "result": "W",
+      "opponent": "H. Huens",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20230830",
-      "tournament": "ITF M25 Sion Men",
+      "date": "20251119",
+      "tournament": "M15 Alcala de Henares",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +41,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Berrut",
-      "score": "4-6 7(7)-6(3) 3-6"
+      "opponent": "A. Turriziani Alvarez",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20230719",
-      "tournament": "ITF M25 Castelo Branco Men",
+      "date": "20241121",
+      "tournament": "ITF M15 Alcala de Henares Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Marrero Curbelo",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20241120",
+      "tournament": "ITF M15 Alcala de Henares Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Masjuan Ginel",
+      "score": "6-4 7(7)-6(3)"
+    },
+    {
+      "date": "20240620",
+      "tournament": "M25 Mungia-Laukariz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Barroso Campos",
+      "score": "6-2 1-6 4-6"
+    },
+    {
+      "date": "20240619",
+      "tournament": "M25 Mungia-Laukariz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Vives Marcos",
+      "score": "6-3 2-1 ret."
+    },
+    {
+      "date": "20240617",
+      "tournament": "M25 Mungia-Laukariz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. J. Gutierrez",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240312",
+      "tournament": "M15 Les Franqueses del Valles",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +119,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Freire Da Silva",
-      "score": "5-7 4-6"
+      "opponent": "N. Nedelchev",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20231122",
+      "tournament": "ITF M15 Alcala de Henares Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Vale",
+      "score": "2-6 0-6"
     }
   ]
 }
