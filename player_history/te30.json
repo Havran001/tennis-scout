@@ -3,24 +3,50 @@
   "gs_id": "22466",
   "player_name": "Alejandro Tabilo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:35.027Z",
+  "updated": "2026-03-27T10:57:46.136Z",
   "matches": [
     {
-      "date": "20251017",
-      "tournament": "Olbia",
+      "date": "20250914",
+      "tournament": "Guangzhou 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. Cerundolo",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250913",
+      "tournament": "Guangzhou 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. O&apos;Connell",
+      "score": "1-2 ret."
+    },
+    {
+      "date": "20250912",
+      "tournament": "Guangzhou 2",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Carreno-Busta",
-      "score": "6-3 1-6 7(7)-6(3)"
+      "result": "W",
+      "opponent": "N. Basavareddy",
+      "score": "7-5 5-7 2-6"
     },
     {
-      "date": "20251016",
-      "tournament": "Olbia",
+      "date": "20250911",
+      "tournament": "Guangzhou 2",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Glinka",
-      "score": "6-3 5-7 6-1"
+      "opponent": "Y. H. Hsu",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20251014",
-      "tournament": "Olbia",
+      "date": "20250909",
+      "tournament": "Guangzhou 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,21 +67,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Carboni",
-      "score": "4-6 6-3 7(7)-6(4)"
+      "opponent": "P. Kotov",
+      "score": "6(4)-7(7) 4-6"
     },
     {
-      "date": "20230919",
-      "tournament": "Antofagasta Challenger Men",
+      "date": "20250814",
+      "tournament": "Cancun 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Passaro",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20250814",
+      "tournament": "Cancun 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "T. Boyer",
-      "score": "3-6 6-1 6(9)-7(11)"
+      "opponent": "T. A. Tirante",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20241018",
+      "tournament": "ATP Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Diallo",
+      "score": "6-3 3-6 4-6"
+    },
+    {
+      "date": "20241016",
+      "tournament": "ATP Almaty",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Marterer",
+      "score": "2-6 4-6"
     }
   ]
 }
