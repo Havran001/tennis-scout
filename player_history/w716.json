@@ -3,11 +3,24 @@
   "gs_id": "19532",
   "player_name": "Mark Whitehouse",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:01:52.277Z",
+  "updated": "2026-03-27T10:14:17.105Z",
   "matches": [
     {
-      "date": "20240926",
-      "tournament": "M25 Zlatibor",
+      "date": "20250303",
+      "tournament": "Hersonissos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Peniston",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20241031",
+      "tournament": "M25 Norwich",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Prihodko",
-      "score": "6-2 6-3"
+      "opponent": "C. Broom",
+      "score": "4-6 7-5 6-3"
     },
     {
-      "date": "20240925",
-      "tournament": "M25 Zlatibor",
+      "date": "20241029",
+      "tournament": "M25 Norwich",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Van Herck",
-      "score": "6-3 1-6 1-6"
+      "opponent": "L. Simkiss",
+      "score": "2-6 6(4)-7(7)"
+    },
+    {
+      "date": "20241009",
+      "tournament": "ITF M15 Pontevedra Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Marrero Curbelo",
+      "score": "7-5 7(7)-6(3)"
     },
     {
       "date": "20240613",
@@ -56,45 +82,6 @@
       "result": "W",
       "opponent": "J. Sels",
       "score": "4-6 0-0 ret."
-    },
-    {
-      "date": "20231214",
-      "tournament": "ITF M15 Ceuta Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. A. Barreto Sanchez",
-      "score": "6-3 4-6 3-6"
-    },
-    {
-      "date": "20231212",
-      "tournament": "ITF M15 Ceuta Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. R. Chacon",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20231018",
-      "tournament": "M15 Las Vegas",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Sinha",
-      "score": "5-7 2-6"
     }
   ]
 }
