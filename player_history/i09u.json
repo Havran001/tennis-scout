@@ -3,8 +3,60 @@
   "gs_id": "35550",
   "player_name": "Rafael Izquierdo Luque",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:57:36.149Z",
+  "updated": "2026-03-27T08:03:24.052Z",
   "matches": [
+    {
+      "date": "20251120",
+      "tournament": "M25 Vale do Lobo 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gray",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20251119",
+      "tournament": "M25 Vale do Lobo 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Luis",
+      "score": "1-6 7-5 5-7"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M25 Elvas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Leote Prata",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250422",
+      "tournament": "M15 Sanxenxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Cervantes Tomas",
+      "score": "3-6 7(7)-6(5) 3-3 ret."
+    },
     {
       "date": "20240719",
       "tournament": "ITF M25 Castelo Branco Men",
@@ -43,6 +95,45 @@
       "result": "W",
       "opponent": "B. Bobrov",
       "score": "2-6 7(7)-6(5) 2-6"
+    },
+    {
+      "date": "20240424",
+      "tournament": "ITF M15 Sanxenxo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Fernandez Flores",
+      "score": "6-4 4-6 6-2"
+    },
+    {
+      "date": "20240416",
+      "tournament": "M15 Azay-le-Rideau",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Dussin",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20231010",
+      "tournament": "M15 Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Alvarez Varona",
+      "score": "6(4)-7(7) 4-3 ret."
     }
   ]
 }
