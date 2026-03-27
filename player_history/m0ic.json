@@ -3,11 +3,37 @@
   "gs_id": "127077",
   "player_name": "Giannicola Misasi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:56:49.988Z",
+  "updated": "2026-03-27T06:07:45.016Z",
   "matches": [
     {
-      "date": "20251001",
-      "tournament": "M25 Santa Margherita di Pula 9",
+      "date": "20250827",
+      "tournament": "M15 Vienna",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Postolka",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20250521",
+      "tournament": "M15 Kursumlijska Banja 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. T. George",
+      "score": "6-3 ret."
+    },
+    {
+      "date": "20250515",
+      "tournament": "M15 Kursumlijska Banja 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Ribecai",
-      "score": "6-2 6-3"
+      "opponent": "S. Stankovic",
+      "score": "4-6 6-0 7(7)-6(5)"
     },
     {
-      "date": "20250930",
-      "tournament": "M25 Santa Margherita di Pula 9",
+      "date": "20250514",
+      "tournament": "M15 Kursumlijska Banja 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Ovcharenko",
-      "score": "4-6 6-2 3-6"
+      "opponent": "C. Giraldi",
+      "score": "2-6 2-6"
     },
     {
       "date": "20240319",
@@ -58,21 +84,47 @@
       "score": "2-6 1-6"
     },
     {
-      "date": "20231004",
-      "tournament": "ITF M25 Santa Margherita di Pula 8 Men",
+      "date": "20230902",
+      "tournament": "ITF M15 Kursumlijska Banja 7 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Obradovic",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20230901",
+      "tournament": "ITF M15 Kursumlijska Banja 7 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Arutiunian",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20230831",
+      "tournament": "ITF M15 Kursumlijska Banja 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Piraino",
-      "score": "3-6 0-6"
+      "result": "W",
+      "opponent": "A. Pisaric",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20231003",
-      "tournament": "ITF M25 Santa Margherita di Pula 8 Men",
+      "date": "20230829",
+      "tournament": "ITF M15 Kursumlijska Banja 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +132,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Shvets",
-      "score": "1-6 6-3 6-2"
+      "opponent": "S. A. Ivanov",
+      "score": "6(4)-7(7) 3-6"
     },
     {
-      "date": "20230926",
-      "tournament": "ITF M25 Santa Margherita di Pula 7 Men",
+      "date": "20230615",
+      "tournament": "M15 Rabat",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Barreto Sanchez",
+      "score": "4-6 6-2 7-5"
+    },
+    {
+      "date": "20230614",
+      "tournament": "M15 Rabat",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. De Dios",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20230530",
+      "tournament": "M25 Rome",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +171,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Iannaccone",
-      "score": "6-0 6-0"
+      "opponent": "E. Leshem",
+      "score": "6-1 6-1"
     },
     {
       "date": "20230511",
@@ -121,71 +199,6 @@
       "result": "W",
       "opponent": "L. Lorusso",
       "score": "5-7 4-6"
-    },
-    {
-      "date": "20221027",
-      "tournament": "M25 Gaziantep",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Wenger",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20221025",
-      "tournament": "M25 Gaziantep",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Dorofeev",
-      "score": "6(4)-7(7) 7-5 6-2"
-    },
-    {
-      "date": "20220921",
-      "tournament": "M25 Santa Margherita di Pula 7",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. F. Vidal Azorin",
-      "score": "5-7 6-3 7-5"
-    },
-    {
-      "date": "20220912",
-      "tournament": "M25 Santa Margherita di Pula 6",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Ferrari",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20220906",
-      "tournament": "M15 Salerno",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Brigida",
-      "score": "3-6 6(6)-7(8)"
     }
   ]
 }
