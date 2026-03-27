@@ -3,8 +3,34 @@
   "gs_id": "37575",
   "player_name": "Seita Watanabe",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:42:02.018Z",
+  "updated": "2026-03-27T05:58:12.528Z",
   "matches": [
+    {
+      "date": "20230823",
+      "tournament": "M25 Tainan 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Kirkin",
+      "score": "6-4 6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20230815",
+      "tournament": "M25 Tainan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Kumasaka",
+      "score": "6-3 4-6 6-2"
+    },
     {
       "date": "20230803",
       "tournament": "ITF M25 Astana Men",
@@ -30,19 +56,6 @@
       "result": "W",
       "opponent": "T. Maulenov",
       "score": "3-6 6-3 6-2"
-    },
-    {
-      "date": "20230531",
-      "tournament": "ITF M15 Karuizawa Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Yamasaki",
-      "score": "4-6 4-6"
     }
   ]
 }
