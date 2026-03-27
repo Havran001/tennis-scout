@@ -3,11 +3,11 @@
   "gs_id": "76992",
   "player_name": "Lorenzo Gagliardo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:04:24.309Z",
+  "updated": "2026-03-27T08:16:42.075Z",
   "matches": [
     {
-      "date": "20250528",
-      "tournament": "M15 Kursumlijska Banja 5",
+      "date": "20251118",
+      "tournament": "M15 Olavarria",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Juhas",
-      "score": "6-3 6-4"
+      "opponent": "V. Grippo",
+      "score": "6-3 3-6 2-6"
+    },
+    {
+      "date": "20250711",
+      "tournament": "M15 Kursumlijska Banja 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Xilas",
+      "score": "7-5 1-6 4-6"
+    },
+    {
+      "date": "20250710",
+      "tournament": "M15 Kursumlijska Banja 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Edengren",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M15 Kursumlijska Banja 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Jovanovic",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240718",
+      "tournament": "ITF M15 Kursumlijska Banja 11 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Nedic",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240717",
+      "tournament": "ITF M15 Kursumlijska Banja 11 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Kostic",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20230927",
+      "tournament": "ITF M25 Lujan Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kestelboim",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Olavarria Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Midon",
+      "score": "7(7)-6(3) 6-4"
     }
   ]
 }
