@@ -3,11 +3,11 @@
   "gs_id": "90403",
   "player_name": "Aleksander Orlikowski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:47:08.987Z",
+  "updated": "2026-03-27T06:06:52.234Z",
   "matches": [
     {
-      "date": "20220629",
-      "tournament": "M15 Wroclaw",
+      "date": "20250902",
+      "tournament": "M15 Szczawno",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Kielan",
-      "score": "0-3 ret."
+      "opponent": "I. Gimenez",
+      "score": "7-5 3-6 6-4"
     },
     {
-      "date": "20220610",
-      "tournament": "M15 Bytom",
+      "date": "20250613",
+      "tournament": "M15 Nyiregyhaza",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Kravchenko",
-      "score": "0-6 6-2 4-6"
+      "opponent": "D. Kellovsky",
+      "score": "3-6 6-3 6-1"
     },
     {
-      "date": "20220609",
-      "tournament": "M15 Bytom",
+      "date": "20250612",
+      "tournament": "M15 Nyiregyhaza",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Woerner",
-      "score": "6-4 6-4"
+      "opponent": "S. Gima",
+      "score": "2-6 6-1 4-6"
     },
     {
-      "date": "20220607",
-      "tournament": "M15 Bytom",
+      "date": "20250611",
+      "tournament": "M15 Nyiregyhaza",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,7 +54,46 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Zgola",
+      "opponent": "M. Vasiliauskas",
+      "score": "6-4 4-6 6-3"
+    },
+    {
+      "date": "20230811",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Paulson",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20230810",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Marti Pujolras",
+      "score": "6(5)-7(7) 5-7"
+    },
+    {
+      "date": "20230809",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Pohjola",
       "score": "6-2 6-4"
     }
   ]
