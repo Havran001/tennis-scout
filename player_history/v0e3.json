@@ -3,24 +3,76 @@
   "gs_id": "84375",
   "player_name": "Jeffrey Von der Schulenburg",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:46:55.982Z",
+  "updated": "2026-03-27T06:05:39.683Z",
   "matches": [
     {
-      "date": "20221110",
-      "tournament": "M15 Winston-Salem",
+      "date": "20250716",
+      "tournament": "M25 Kramsach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kopp",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20230625",
+      "tournament": "ITF M15 Saarlouis Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. M. Jong",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20230624",
+      "tournament": "ITF M15 Saarlouis Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Gavrielides",
+      "score": "4-6 0-1 ret."
+    },
+    {
+      "date": "20230623",
+      "tournament": "ITF M15 Saarlouis Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Zielinski",
+      "score": "6(2)-7(7) 6-2 1-6"
+    },
+    {
+      "date": "20230622",
+      "tournament": "ITF M15 Saarlouis Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Samuel",
-      "score": "6-1 6-1"
+      "result": "W",
+      "opponent": "T. Gentzsch",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20221109",
-      "tournament": "M15 Winston-Salem",
+      "date": "20230621",
+      "tournament": "ITF M15 Saarlouis Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Kang",
-      "score": "7-5 6-0"
+      "opponent": "S. Beaupain",
+      "score": "4-2 ret."
     }
   ]
 }
