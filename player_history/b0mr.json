@@ -3,60 +3,8 @@
   "gs_id": "142044",
   "player_name": "Evan Bynoe",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:39.010Z",
+  "updated": "2026-03-27T07:00:49.035Z",
   "matches": [
-    {
-      "date": "20250815",
-      "tournament": "M15 Huntsville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Baker",
-      "score": "3-6 6-4 6-1"
-    },
-    {
-      "date": "20250814",
-      "tournament": "M15 Huntsville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "W. Grant",
-      "score": "6(6)-7(8) 0-6"
-    },
-    {
-      "date": "20250813",
-      "tournament": "M15 Huntsville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Cosnet",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20250811",
-      "tournament": "M15 Huntsville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Q. Xu",
-      "score": "0-6 6-1 4-1 ret."
-    },
     {
       "date": "20250717",
       "tournament": "M15 Rochester",
@@ -84,6 +32,32 @@
       "score": "2-6 4-6"
     },
     {
+      "date": "20241120",
+      "tournament": "M15 Santo Domingo 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Peck",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20231101",
+      "tournament": "ITF M25 Edmonton Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Martin",
+      "score": "1-6 5-7"
+    },
+    {
       "date": "20230719",
       "tournament": "ITF M15 Rochester",
       "surface": "Hard",
@@ -95,71 +69,6 @@
       "result": "L",
       "opponent": "T. Carnevale-Miino",
       "score": "3-6 4-6"
-    },
-    {
-      "date": "20230714",
-      "tournament": "ITF M25 Laval Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Ayeni",
-      "score": "1-6 6(1)-7(7)"
-    },
-    {
-      "date": "20230712",
-      "tournament": "ITF M25 Laval Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Stakusic",
-      "score": "6-0 6-2"
-    },
-    {
-      "date": "20230427",
-      "tournament": "M15 Tacarigua 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Nordquist",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20230426",
-      "tournament": "M15 Tacarigua 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Winter",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20230418",
-      "tournament": "M15 Tacarigua",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Raynel",
-      "score": "1-6 7(7)-6(1) 3-6"
     }
   ]
 }
