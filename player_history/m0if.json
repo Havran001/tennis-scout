@@ -3,24 +3,50 @@
   "gs_id": "75835",
   "player_name": "Francesco Maestrelli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:09:18.035Z",
+  "updated": "2026-03-27T08:14:15.144Z",
   "matches": [
     {
-      "date": "20251014",
-      "tournament": "Olbia",
+      "date": "20250619",
+      "tournament": "Sassuolo",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Gombos",
-      "score": "1-6 7(7)-6(4) 4-6"
+      "opponent": "D. Lajovic",
+      "score": "6-4 7(7)-6(4)"
     },
     {
-      "date": "20250929",
-      "tournament": "Antofagasta",
+      "date": "20250618",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Moro Canas",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250617",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Geerts",
+      "score": "6(3)-7(7) 7(7)-6(5) 1-6"
+    },
+    {
+      "date": "20250324",
+      "tournament": "Naples",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Bagnis",
-      "score": "3-6 6-3 2-6"
+      "opponent": "M. A. Dellien Velasco",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240617",
+      "tournament": "Sassuolo Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Coria",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20240328",
+      "tournament": "Naples 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Herbert",
+      "score": "6-4 3-6 6-3"
+    },
+    {
+      "date": "20240326",
+      "tournament": "Naples 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Cecchinato",
+      "score": "6(4)-7(7) 4-6"
     },
     {
       "date": "20240206",
@@ -43,19 +108,6 @@
       "result": "L",
       "opponent": "M. Guinard",
       "score": "6-4 6-0"
-    },
-    {
-      "date": "20231017",
-      "tournament": "Olbia Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Copil",
-      "score": "6-3 6-4"
     }
   ]
 }
