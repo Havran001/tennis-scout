@@ -3,37 +3,24 @@
   "gs_id": "116254",
   "player_name": "Petr Nesterov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:59:01.923Z",
+  "updated": "2026-03-27T01:54:17.935Z",
   "matches": [
     {
-      "date": "20251228",
-      "tournament": "M15 Monastir 47",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Dhamne",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20251227",
-      "tournament": "M15 Monastir 47",
+      "date": "20230318",
+      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Tepmahc",
-      "score": "6(2)-7(7) 2-6"
+      "result": "L",
+      "opponent": "J. Sheehy",
+      "score": "2-6 7-5 4-6"
     },
     {
-      "date": "20251226",
-      "tournament": "M15 Monastir 47",
+      "date": "20230317",
+      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. C. Martin Manzano",
-      "score": "6-2 7(10)-6(8)"
+      "opponent": "H. Stewart",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20251225",
-      "tournament": "M15 Monastir 47",
+      "date": "20230316",
+      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Postolka",
-      "score": "6-3 6-3"
+      "opponent": "M. Shaw",
+      "score": "6-3 7(7)-6(3)"
     },
     {
-      "date": "20251223",
-      "tournament": "M15 Monastir 47",
+      "date": "20230315",
+      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,25 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Djonov",
+      "opponent": "K. Kirci",
+      "score": "4-6 6-3 6-4"
+    },
+    {
+      "date": "20230308",
+      "tournament": "ITF M15 Sharm ElSheikh 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Pawelski",
+      "score": "6-3 2-6 6-2"
+    },
+    {
+      "date": "20230302",
+      "tournament": "ITF M15 Sharm ElSheikh 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Strombachs",
       "score": "6-4 6-2"
     },
     {
-      "date": "20240411",
-      "tournament": "ITF M25 Sharm ElSheikh 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Hulme",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20240410",
-      "tournament": "ITF M25 Sharm ElSheikh 2 Men",
+      "date": "20230301",
+      "tournament": "ITF M15 Sharm ElSheikh 5 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,64 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Hall",
-      "score": "2-6 2-6"
+      "opponent": "A. Radojicic",
+      "score": "1-6 0-6"
     },
     {
-      "date": "20240405",
-      "tournament": "ITF M25 Sharm ElSheikh Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K.M. Maamoun",
-      "score": "3-6 6-1 7(7)-6(3)"
-    },
-    {
-      "date": "20240404",
-      "tournament": "ITF M25 Sharm ElSheikh Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Ilkel",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20240403",
-      "tournament": "ITF M25 Sharm ElSheikh Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Simakin",
-      "score": "1-6 5-7"
-    },
-    {
-      "date": "20240212",
-      "tournament": "Manama Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Kirkin",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20221228",
-      "tournament": "M15 Monastir 51",
+      "date": "20220330",
+      "tournament": "M15 Sharm ElSheikh 7",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Taguchi",
-      "score": "6-1 6-0"
+      "opponent": "M. Brugnerotto",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20211109",
-      "tournament": "ITF M15 Heraklion 6 Men",
+      "date": "20220323",
+      "tournament": "M15 Sharm ElSheikh 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Ragazzi",
-      "score": "7-5 4-6 6-3"
+      "opponent": "P. Fajta",
+      "score": "0-3 ret."
     }
   ]
 }
