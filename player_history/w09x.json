@@ -1,13 +1,26 @@
 {
   "player_id": "w09x",
-  "gs_id": "89871",
-  "player_name": "Noah Lopez",
+  "gs_id": "39239",
+  "player_name": "Benjamin Winter Lopez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:55:48.984Z",
+  "updated": "2026-03-27T05:42:11.025Z",
   "matches": [
     {
-      "date": "20240420",
-      "tournament": "ITF M15 Kursumlijska Banja Men",
+      "date": "20240710",
+      "tournament": "ITF M25 Roda de Bara Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. A. Becerra Otarola",
+      "score": "2-4 ret."
+    },
+    {
+      "date": "20240606",
+      "tournament": "ITF M25 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Pavlovic",
-      "score": "6-4 6-4"
+      "opponent": "R. Nijboer",
+      "score": "6-1 2-6 4-6"
     },
     {
-      "date": "20240419",
-      "tournament": "ITF M15 Kursumlijska Banja Men",
+      "date": "20240604",
+      "tournament": "ITF M25 Cordoba Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. A. Andreescu",
-      "score": "4-6 1-6"
+      "opponent": "R. C. Diaz",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20230518",
-      "tournament": "M25 Gurb",
+      "date": "20240418",
+      "tournament": "M15 Telde 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,8 +54,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Gill",
-      "score": "5-7 2-6"
+      "opponent": "D. Fernandez Flores",
+      "score": "3-6 6-2 7-5"
+    },
+    {
+      "date": "20240417",
+      "tournament": "M15 Telde 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. S. Callejon",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20230713",
+      "tournament": "ITF M25 Roda de Bara Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Lopez Morillo",
+      "score": "7(7)-6(4) 6-0"
+    },
+    {
+      "date": "20230712",
+      "tournament": "ITF M25 Roda de Bara Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Jorda Sanchis",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20230609",
+      "tournament": "ITF M25 Cordoba Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Lopez San Martin",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230606",
+      "tournament": "ITF M25 Cordoba Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Juarez",
+      "score": "7(8)-6(6) 7(7)-6(2)"
     },
     {
       "date": "20230517",
@@ -53,39 +131,39 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Kawakami",
-      "score": "6-4 6(4)-7(7) 4-6"
+      "result": "L",
+      "opponent": "S. Sakellaridis",
+      "score": "5-7 1-6"
     },
     {
-      "date": "20230503",
-      "tournament": "ITF M25 Sabadell Men",
+      "date": "20230512",
+      "tournament": "ITF M25 Valldoreix Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Chazal",
-      "score": "2-6 1-6"
+      "opponent": "S. Gulin",
+      "score": "6-1 3-6 2-6"
     },
     {
-      "date": "20230427",
-      "tournament": "M25 Sanxenxo",
+      "date": "20230511",
+      "tournament": "ITF M25 Valldoreix Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Fernandez Flores",
-      "score": "3-6 2-6"
+      "result": "W",
+      "opponent": "I. Buse",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20230426",
-      "tournament": "M25 Sanxenxo",
+      "date": "20230510",
+      "tournament": "ITF M25 Valldoreix Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,11 +171,11 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Vuletic",
-      "score": "2-0 ret."
+      "opponent": "S. Gueymard Wayenburg",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20230419",
+      "date": "20230418",
       "tournament": "ITF M15 Telde 2 Men",
       "surface": "Hard",
       "level": "I",
@@ -106,47 +184,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Lemstra",
-      "score": "7(8)-6(6) 6-4"
-    },
-    {
-      "date": "20230412",
-      "tournament": "ITF M15 Telde Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Winter Lopez",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20230301",
-      "tournament": "M25 Torello",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Pujol Navarro",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20221129",
-      "tournament": "M15 Madrid 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Soriano Barrera",
-      "score": "2-6 6-4 5-7"
+      "opponent": "M. Zielinski",
+      "score": "6-3 2-6 4-6"
     }
   ]
 }
