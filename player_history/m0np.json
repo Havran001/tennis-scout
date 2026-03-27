@@ -1,39 +1,13 @@
 {
   "player_id": "m0np",
-  "gs_id": "142251",
-  "player_name": "Dan Martin",
+  "gs_id": "2484",
+  "player_name": "Toby Martin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:01:05.053Z",
+  "updated": "2026-03-27T07:04:04.042Z",
   "matches": [
     {
-      "date": "20250703",
-      "tournament": "M25 Laval",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bicknell",
-      "score": "2-6 0-1 ret."
-    },
-    {
-      "date": "20250701",
-      "tournament": "M25 Laval",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. T. George",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20250601",
-      "tournament": "Tyler",
+      "date": "20250105",
+      "tournament": "Nottingham 3",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -41,64 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Kumar",
-      "score": "4-6 5-7"
+      "opponent": "R. Brancaccio",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20240906",
-      "tournament": "M15 Constanta 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. D. Ionel",
-      "score": "6-2 2-6 6-0"
-    },
-    {
-      "date": "20240905",
-      "tournament": "M15 Constanta 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. N. Cazacu",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20240904",
-      "tournament": "M15 Constanta 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. A. Golescu",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20240819",
-      "tournament": "ITF M15 Arad Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Balshaw",
-      "score": "7(7)-6(3) 7(7)-6(4)"
-    },
-    {
-      "date": "20240718",
-      "tournament": "ITF M15 Rochester",
+      "date": "20241016",
+      "tournament": "M25 Edgbaston",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bernard",
-      "score": "6-0 1-6 1-6"
+      "opponent": "A. Matusevich",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240716",
-      "tournament": "ITF M15 Rochester",
+      "date": "20241015",
+      "tournament": "M25 Edgbaston",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,38 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Van Orderlain",
-      "score": "4-6 3-6"
+      "opponent": "N. Thurner",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20240703",
-      "tournament": "ITF M25 Laval Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bernard",
-      "score": "6-4 6(3)-7(7) 3-6"
-    },
-    {
-      "date": "20240117",
-      "tournament": "ITF M25 Ithaca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Baris",
-      "score": "7(7)-6(2) 6-2"
-    },
-    {
-      "date": "20231102",
-      "tournament": "ITF M25 Edmonton Men",
+      "date": "20240912",
+      "tournament": "M25 Pozzuoli",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -158,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Broom",
-      "score": "6-3 6-3"
+      "opponent": "F. Peliwo",
+      "score": "3-6 0-2 ret."
     },
     {
-      "date": "20231101",
-      "tournament": "ITF M25 Edmonton Men",
+      "date": "20240911",
+      "tournament": "M25 Pozzuoli",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Bynoe",
-      "score": "6-1 7-5"
+      "opponent": "G. Calvano",
+      "score": "0-6 6-4 6-4"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M15 Vienna Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kobierski",
+      "score": "5-7 2-6"
     }
   ]
 }
