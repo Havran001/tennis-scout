@@ -3,11 +3,11 @@
   "gs_id": "86601",
   "player_name": "Agustin Falabella Lautaro",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:50:57.903Z",
+  "updated": "2026-03-27T00:58:40.923Z",
   "matches": [
     {
-      "date": "20230823",
-      "tournament": "ITF M15 Huy Men",
+      "date": "20240910",
+      "tournament": "M15 Cordoba 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Zielinski",
-      "score": "3-6 4-6"
+      "opponent": "I. Monzon",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20230815",
-      "tournament": "ITF M25 Koksijde Men",
+      "date": "20231114",
+      "tournament": "M15 Cochabamba",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,64 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Gadamauri",
-      "score": "6-0 6-1"
+      "opponent": "G. La Vela",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20230512",
-      "tournament": "ITF M15 Doboj Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Popovic",
-      "score": "3-6 6-0 6-0"
-    },
-    {
-      "date": "20230510",
-      "tournament": "ITF M15 Doboj Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Basic",
-      "score": "3-6 6-4 5-7"
-    },
-    {
-      "date": "20220831",
-      "tournament": "M15 Pescara",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Roncalli",
-      "score": "2-6 5-7"
-    },
-    {
-      "date": "20220830",
-      "tournament": "M15 Pescara",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Milev",
-      "score": "6-4 6-1"
-    },
-    {
-      "date": "20210908",
-      "tournament": "ITF M15 Ulcinj 2 Men",
+      "date": "20221018",
+      "tournament": "M15 Cochabamba",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,21 +41,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Navone",
+      "opponent": "N. Bruna",
+      "score": "7(7)-6(2) 6(4)-7(7) 6(4)-7(7)"
+    },
+    {
+      "date": "20211201",
+      "tournament": "M25 Villa Allende",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Torres",
       "score": "6-2 6-3"
     },
     {
-      "date": "20210721",
-      "tournament": "ITF M15 Cairo 9 Men",
+      "date": "20211119",
+      "tournament": "ITF M15 Cochabamba Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zukas",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20211118",
+      "tournament": "ITF M15 Cochabamba Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Bocchi",
-      "score": "6-3 6-2"
+      "result": "W",
+      "opponent": "S. Lora",
+      "score": "2-6 0-6"
     }
   ]
 }
