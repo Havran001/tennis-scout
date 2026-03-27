@@ -3,11 +3,11 @@
   "gs_id": "150704",
   "player_name": "Paul Barbier Gazeu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:57:20.937Z",
+  "updated": "2026-03-27T04:58:29.989Z",
   "matches": [
     {
-      "date": "20231213",
-      "tournament": "M15 Monastir 50",
+      "date": "20250806",
+      "tournament": "M25 Roehampton 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Jones",
-      "score": "6-4 7(8)-6(6)"
+      "opponent": "H. Wendelken",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20231207",
-      "tournament": "M15 Monastir 49",
+      "date": "20240420",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Bertrand",
-      "score": "6-2 6-1"
+      "opponent": "S. A. Ivanov",
+      "score": "4-2 ret."
     },
     {
-      "date": "20231206",
-      "tournament": "M15 Monastir 49",
+      "date": "20240419",
+      "tournament": "ITF M15 Kursumlijska Banja Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Salle",
-      "score": "3-6 6-2 6-3"
+      "opponent": "S. Vujic",
+      "score": "6(2)-7(7) 5-7"
     },
     {
-      "date": "20230620",
-      "tournament": "ITF M15 Monastir 25 Men",
+      "date": "20230801",
+      "tournament": "M15 Eindhoven",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Braithwaite",
-      "score": "2-6 2-6"
+      "opponent": "S. Paardekooper",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20221101",
+      "tournament": "M15 Villers-les-Nancy",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Nagel",
+      "score": "2-6 6-4 3-6"
+    },
+    {
+      "date": "20220727",
+      "tournament": "M15 Kottingbrunn",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Ferrari",
+      "score": "6-4 6-0"
     }
   ]
 }
