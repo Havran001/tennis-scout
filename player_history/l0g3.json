@@ -3,24 +3,63 @@
   "gs_id": "93803",
   "player_name": "Aleksandr Lobanov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:53:35.953Z",
+  "updated": "2026-03-27T04:56:09.985Z",
   "matches": [
     {
-      "date": "20220804",
-      "tournament": "M15 Ust-Kamenogorsk",
+      "date": "20241120",
+      "tournament": "M25 Antalya 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Juarez",
+      "score": "0-6 7-5 6-4"
+    },
+    {
+      "date": "20231115",
+      "tournament": "ITF M25 Monastir 8 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Martin",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230310",
+      "tournament": "ITF M15 Aktobe 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Philippov",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20230309",
+      "tournament": "ITF M15 Aktobe 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Danilov",
-      "score": "6-3 6-1"
+      "result": "W",
+      "opponent": "A. Bakshi",
+      "score": "6(4)-7(7) 7(12)-6(10) 6(8)-7(10)"
     },
     {
-      "date": "20220802",
-      "tournament": "M15 Ust-Kamenogorsk",
+      "date": "20230308",
+      "tournament": "ITF M15 Aktobe 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Sidorov",
-      "score": "3-6 3-6"
+      "opponent": "M. Batyutenko",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20230301",
+      "tournament": "ITF M15 Aktobe Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Arutiunian",
+      "score": "6(2)-7(7) 4-6"
     }
   ]
 }
