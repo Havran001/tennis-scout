@@ -3,7 +3,7 @@
   "gs_id": "169127",
   "player_name": "Justin Schlageter",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:31:07.087Z",
+  "updated": "2026-03-27T12:27:07.665Z",
   "matches": [
     {
       "date": "20251125",
@@ -17,6 +17,71 @@
       "result": "L",
       "opponent": "A. Nedic",
       "score": "2-6 2-6"
+    },
+    {
+      "date": "20250729",
+      "tournament": "M15 Wels",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Hopp",
+      "score": "6-0 4-6 6-3"
+    },
+    {
+      "date": "20250723",
+      "tournament": "M15 Segrate",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Weis",
+      "score": "7(7)-6(3) 4-6 2-6"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Klagenfurt",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Prechtel",
+      "score": "6(5)-7(7) 6-4 7-5"
+    },
+    {
+      "date": "20250604",
+      "tournament": "M15 Klagenfurt",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Sorger",
+      "score": "6-2 4-6 5-7"
+    },
+    {
+      "date": "20250602",
+      "tournament": "M15 Klagenfurt",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Petak",
+      "score": "3-6 3-6"
     },
     {
       "date": "20241017",
@@ -43,32 +108,6 @@
       "result": "W",
       "opponent": "F. Einig",
       "score": "6-2 6-3"
-    },
-    {
-      "date": "20240815",
-      "tournament": "M15 Überlingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Engel",
-      "score": "1-6 1-6"
-    },
-    {
-      "date": "20240814",
-      "tournament": "M15 Überlingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Heger",
-      "score": "6-4 6-2"
     }
   ]
 }
