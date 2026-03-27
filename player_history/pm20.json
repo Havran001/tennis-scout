@@ -1,52 +1,13 @@
 {
   "player_id": "pm20",
-  "gs_id": "141952",
-  "player_name": "Yves Bailly Pierre",
+  "gs_id": "142268",
+  "player_name": "Antoine Tailleu Pierre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:00:44.042Z",
+  "updated": "2026-03-27T07:10:41.032Z",
   "matches": [
     {
-      "date": "20251121",
-      "tournament": "M15 Alcala de Henares",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Bosio",
-      "score": "7-5 7(7)-6(4)"
-    },
-    {
-      "date": "20251120",
-      "tournament": "M15 Alcala de Henares",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Fernandez Flores",
-      "score": "7-5 6-2"
-    },
-    {
       "date": "20251119",
-      "tournament": "M15 Alcala de Henares",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Jiang",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20230719",
-      "tournament": "ITF M15 Uslar Men",
+      "tournament": "M25 Vale do Lobo 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +15,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Yunis",
-      "score": "6-4 3-6 7(7)-6(4)"
+      "opponent": "S. Monteiro",
+      "score": "6-4 3-6 6-2"
+    },
+    {
+      "date": "20251105",
+      "tournament": "M15 San Gregorio di Catania",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bondioli",
+      "score": "4-6 4-6"
     }
   ]
 }
