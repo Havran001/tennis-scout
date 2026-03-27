@@ -3,11 +3,37 @@
   "gs_id": "56982",
   "player_name": "Jacob Fearnley",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:26:44.088Z",
+  "updated": "2026-03-27T11:58:24.159Z",
   "matches": [
     {
-      "date": "20240811",
-      "tournament": "Lincoln",
+      "date": "20251103",
+      "tournament": "Athens",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Dzumhur",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20250813",
+      "tournament": "Sumter",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. McCabe",
+      "score": "6-3 5-7 ret."
+    },
+    {
+      "date": "20250812",
+      "tournament": "Sumter",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -15,60 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Wong",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20240810",
-      "tournament": "Lincoln",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Bu",
-      "score": "0-6 6-0 7(7)-6(3)"
-    },
-    {
-      "date": "20240809",
-      "tournament": "Lincoln",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Mayo",
-      "score": "5-7 6-4 6-3"
-    },
-    {
-      "date": "20240808",
-      "tournament": "Lincoln",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Eubanks",
-      "score": "5-7 6-4 2-6"
-    },
-    {
-      "date": "20240806",
-      "tournament": "Lincoln",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Brouwer",
-      "score": "6-1 6-1"
+      "opponent": "Q. Vandecasteele",
+      "score": "6-2 6-0"
     }
   ]
 }
