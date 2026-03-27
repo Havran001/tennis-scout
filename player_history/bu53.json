@@ -3,11 +3,24 @@
   "gs_id": "34428",
   "player_name": "Constantin Bittoun Kouzmine",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:45:13.997Z",
+  "updated": "2026-03-27T05:57:11.007Z",
   "matches": [
     {
-      "date": "20250905",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20250806",
+      "tournament": "M25 Brazzaville 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Singh",
+      "score": "6-4 7(7)-6(4)"
+    },
+    {
+      "date": "20250731",
+      "tournament": "M25 Brazzaville",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Story",
-      "score": "3-6 2-6"
+      "opponent": "M. Vasiliauskas",
+      "score": "6(0)-7(7) 7(7)-6(5) 6-1"
     },
     {
-      "date": "20250903",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20250729",
+      "tournament": "M25 Brazzaville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Champigneulle",
-      "score": "1-6 0-6"
+      "opponent": "R. Ayyappan",
+      "score": "6-0 6-2"
     },
     {
-      "date": "20230206",
-      "tournament": "Tenerife 3 Challenger Men",
+      "date": "20240520",
+      "tournament": "Skopje Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Seggerman",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20240519",
+      "tournament": "Skopje Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Mochizuki",
-      "score": "3-6 2-6"
+      "result": "W",
+      "opponent": "A. Huseinovic",
+      "score": "6-0 6-1"
     },
     {
-      "date": "20220908",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20231228",
+      "tournament": "M15 Monastir 52",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Marie",
-      "score": "6-2 1-6 2-4 ret."
+      "opponent": "I. Kudriashov",
+      "score": "6-4 5-7 6-2"
     },
     {
-      "date": "20220907",
-      "tournament": "M25+H Bagneres-de-Bigorre",
+      "date": "20231227",
+      "tournament": "M15 Monastir 52",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +93,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Roselle",
-      "score": "1-6 1-6"
+      "opponent": "M. Sakellaridis",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20230610",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Moroni",
+      "score": "2-6 0-3 ret."
+    },
+    {
+      "date": "20230609",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Dlimi",
+      "score": "3-6 7(7)-6(5) 4-6"
+    },
+    {
+      "date": "20230608",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Lemstra",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M15 Tanger Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Reitano",
+      "score": "6(5)-7(7) 2-6"
     }
   ]
 }
