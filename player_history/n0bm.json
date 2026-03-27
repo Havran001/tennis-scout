@@ -3,50 +3,11 @@
   "gs_id": "135820",
   "player_name": "Ignacio Novo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:55:14.936Z",
+  "updated": "2026-03-27T04:57:06.988Z",
   "matches": [
     {
-      "date": "20231115",
-      "tournament": "M15 Cochabamba",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Vilicich",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20221018",
-      "tournament": "M15 Cochabamba",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Mouilleron Salvo",
-      "score": "6-4 5-7 6-3"
-    },
-    {
-      "date": "20211201",
-      "tournament": "M25 Villa Allende",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Carou",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20211125",
-      "tournament": "ITF M15 Cordoba 2 Men",
+      "date": "20241128",
+      "tournament": "M15 Lujan",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. B. Otegui",
-      "score": "6-4 6-4"
+      "opponent": "D. Pagani",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20211124",
-      "tournament": "ITF M15 Cordoba 2 Men",
+      "date": "20241127",
+      "tournament": "M15 Lujan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. N. Martinez",
-      "score": "4-6 7(7)-6(3) 4-6"
+      "opponent": "A. Postay",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20221103",
+      "tournament": "M15 Santa Cruz 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Monzon",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20221102",
+      "tournament": "M15 Santa Cruz 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Cigarran",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20221026",
+      "tournament": "M15 Santa Cruz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. De Dios",
+      "score": "7(7)-6(2) 6-3"
     }
   ]
 }
