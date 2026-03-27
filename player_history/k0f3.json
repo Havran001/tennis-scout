@@ -3,11 +3,11 @@
   "gs_id": "135676",
   "player_name": "Samuil Konov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:28:47.094Z",
+  "updated": "2026-03-27T11:00:57.122Z",
   "matches": [
     {
-      "date": "20250611",
-      "tournament": "M15 Oradea",
+      "date": "20250624",
+      "tournament": "M25 Targu Mures",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Majdandzic",
-      "score": "2-6 6-3 3-6"
+      "opponent": "M. R. Marinescu",
+      "score": "4-6 7(7)-6(4) 1-6"
+    },
+    {
+      "date": "20250508",
+      "tournament": "M15 Bistrita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20250507",
+      "tournament": "M15 Bistrita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Garcia Longo",
+      "score": "3-6 6-2 7(7)-6(3)"
     },
     {
       "date": "20240925",
@@ -56,32 +82,6 @@
       "result": "L",
       "opponent": "I. A. Chirita",
       "score": "3-6 3-6"
-    },
-    {
-      "date": "20240625",
-      "tournament": "ITF M25 Satu Mare Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. A. Tomescu",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20240522",
-      "tournament": "ITF M15 Bucharest 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Den Heijer",
-      "score": "6-3 6-3"
     }
   ]
 }
