@@ -3,8 +3,21 @@
   "gs_id": "19842",
   "player_name": "Renta Tokuda",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:31.029Z",
+  "updated": "2026-03-27T07:49:15.058Z",
   "matches": [
+    {
+      "date": "20250312",
+      "tournament": "M25 Luan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Agafonov",
+      "score": "1-6 6-3 6-2"
+    },
     {
       "date": "20250204",
       "tournament": "M15 Zahra 2",
@@ -45,73 +58,21 @@
       "score": "6-3 6-2"
     },
     {
-      "date": "20230809",
-      "tournament": "M25 Roehampton 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Shaw",
-      "score": "3-6 0-0 ret."
-    },
-    {
-      "date": "20230806",
-      "tournament": "ITF M25 Astana Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Takahashi",
-      "score": "0-6 4-6"
-    },
-    {
-      "date": "20230805",
-      "tournament": "ITF M25 Astana Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Sultanov",
-      "score": "4-6 6-1 7-5"
-    },
-    {
-      "date": "20230804",
-      "tournament": "ITF M25 Astana Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Bertrand",
-      "score": "6-3 7-5"
-    },
-    {
-      "date": "20230803",
-      "tournament": "ITF M25 Astana Men",
+      "date": "20240404",
+      "tournament": "ITF M15 Kashiwa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. R. Statham",
-      "score": "3-6 6-4 5-7"
+      "result": "L",
+      "opponent": "S. Fukuda",
+      "score": "6-5 ret."
     },
     {
-      "date": "20230801",
-      "tournament": "ITF M25 Astana Men",
+      "date": "20240402",
+      "tournament": "ITF M15 Kashiwa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +80,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Orynbasar",
-      "score": "6-0 6-1"
+      "opponent": "K. Samrej",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20240328",
+      "tournament": "ITF M15 Tsukuba Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Zhou",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240327",
+      "tournament": "ITF M15 Tsukuba Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Fukuda",
+      "score": "3-6 6-3 1-6"
+    },
+    {
+      "date": "20240321",
+      "tournament": "ITF M15 Nishi-Tokyo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. H. Lee",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240320",
+      "tournament": "ITF M15 Nishi-Tokyo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Ho",
+      "score": "6-2 6-3"
     }
   ]
 }
