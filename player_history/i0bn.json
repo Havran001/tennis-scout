@@ -3,11 +3,11 @@
   "gs_id": "175205",
   "player_name": "Volodymyr Iakubenko",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:31:22.093Z",
+  "updated": "2026-03-27T12:28:46.852Z",
   "matches": [
     {
-      "date": "20260226",
-      "tournament": "M15 Villena 2",
+      "date": "20260108",
+      "tournament": "M15 Hurghada",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Jong",
-      "score": "5-7 1-6"
+      "opponent": "B. Pietri",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20260225",
-      "tournament": "M15 Villena 2",
+      "date": "20260107",
+      "tournament": "M15 Hurghada",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Pinto Sansano",
-      "score": "6-4 6-1"
+      "opponent": "F. Rocha",
+      "score": "5-7 6-4 6-4"
     },
     {
-      "date": "20260205",
-      "tournament": "M15 Zahra 2",
+      "date": "20251106",
+      "tournament": "M15 Manama",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,38 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Stringer",
-      "score": "1-6 3-4 ret."
-    },
-    {
-      "date": "20260204",
-      "tournament": "M15 Zahra 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Baldovinetti",
-      "score": "7(7)-6(4) 6-2"
-    },
-    {
-      "date": "20260129",
-      "tournament": "M15 Zahra",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Lapalu",
+      "opponent": "I. Marrero Curbelo",
       "score": "4-6 3-6"
     },
     {
-      "date": "20260127",
-      "tournament": "M15 Zahra",
+      "date": "20251105",
+      "tournament": "M15 Manama",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Summers",
-      "score": "4-6 6-2 6-1"
+      "opponent": "C. Yam",
+      "score": "1-6 0-6"
     },
     {
-      "date": "20250730",
-      "tournament": "M15 Dublin",
+      "date": "20251021",
+      "tournament": "M15 Heraklion 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +67,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. J. Storrie",
-      "score": "6-3 6-4"
+      "opponent": "Pe. Tsitsipas",
+      "score": "6(7)-7(9) 7-5 4-6"
     },
     {
-      "date": "20240606",
-      "tournament": "M15 Hrastnik",
+      "date": "20251008",
+      "tournament": "M15+H Rodez",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Broady",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20250917",
+      "tournament": "M15 Hurghada 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Samuel",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250910",
+      "tournament": "M15 Hurghada 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Broady",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250812",
+      "tournament": "M15 Turku",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Vasa",
+      "score": "6-3 3-6 7(7)-6(2)"
+    },
+    {
+      "date": "20250806",
+      "tournament": "M25+H Tauste",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Artnak",
-      "score": "7-5 1-6 4-6"
+      "opponent": "M. McKennon",
+      "score": "5-7 1-6"
     },
     {
-      "date": "20240605",
-      "tournament": "M15 Hrastnik",
+      "date": "20250805",
+      "tournament": "M25+H Tauste",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,12 +145,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Vetrih",
-      "score": "6-1 6-1"
+      "opponent": "L. Sheyngezikht",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20231215",
-      "tournament": "ITF M15 Ceuta Men",
+      "date": "20250703",
+      "tournament": "M15 Kayseri 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Yazdani",
+      "score": "6-3 2-6 3-6"
+    },
+    {
+      "date": "20250701",
+      "tournament": "M15 Kayseri 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Piatrouski",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250627",
+      "tournament": "M15 Kayseri 5",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -132,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. A. Barreto Sanchez",
-      "score": "1-6 4-6"
+      "opponent": "P. Inchauspe",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20231214",
-      "tournament": "ITF M15 Ceuta Men",
+      "date": "20250626",
+      "tournament": "M15 Kayseri 5",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -145,47 +197,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. M. Hodzic",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20231213",
-      "tournament": "ITF M15 Ceuta Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Turriziani Alvarez",
-      "score": "2-6 6-4 6-2"
-    },
-    {
-      "date": "20231130",
-      "tournament": "ITF M15 Zahra Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Nesterov",
-      "score": "7-5 4-6 6-4"
-    },
-    {
-      "date": "20231129",
-      "tournament": "ITF M15 Zahra Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Alabdullah",
-      "score": "1-6 5-7"
+      "opponent": "N. Schell",
+      "score": "6-4 7(7)-6(5)"
     }
   ]
 }
