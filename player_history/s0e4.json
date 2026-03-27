@@ -3,11 +3,24 @@
   "gs_id": "169127",
   "player_name": "Justin Schlageter",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:25:54.071Z",
+  "updated": "2026-03-27T09:31:07.087Z",
   "matches": [
     {
-      "date": "20250227",
-      "tournament": "M15 Villena 2",
+      "date": "20251125",
+      "tournament": "M25 Antalya 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Nedic",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20241017",
+      "tournament": "M15 Offenbach",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Marmousez",
-      "score": "6-1 6-4"
+      "opponent": "M. Rosenkranz",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20250226",
-      "tournament": "M15 Villena 2",
+      "date": "20241016",
+      "tournament": "M15 Offenbach",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Demin",
-      "score": "6-4 6(4)-7(7) 4-6"
+      "opponent": "F. Einig",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20250114",
-      "tournament": "M15 Cadolzburg",
+      "date": "20240815",
+      "tournament": "M15 Überlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Engel",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240814",
+      "tournament": "M15 Überlingen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Funk",
-      "score": "1-6 4-6"
+      "result": "W",
+      "opponent": "T. Heger",
+      "score": "6-4 6-2"
     }
   ]
 }
