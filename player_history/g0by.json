@@ -3,7 +3,7 @@
   "gs_id": "57472",
   "player_name": "Daniil Glinka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:15:38.121Z",
+  "updated": "2026-03-27T11:59:47.623Z",
   "matches": [
     {
       "date": "20260303",
@@ -17,6 +17,19 @@
       "result": "L",
       "opponent": "H. Gaston",
       "score": "3-6 2-4 ret."
+    },
+    {
+      "date": "20250528",
+      "tournament": "Chisinau",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Henning",
+      "score": "6-2 6(3)-7(7) 5-7"
     },
     {
       "date": "20250522",
@@ -160,123 +173,6 @@
       "result": "W",
       "opponent": "K. De Schepper",
       "score": "6-3 6-1"
-    },
-    {
-      "date": "20240613",
-      "tournament": "ITF M25 Elvas Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Pereira",
-      "score": "6(1)-7(7) 4-6"
-    },
-    {
-      "date": "20240611",
-      "tournament": "ITF M25 Elvas Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Batista",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20240523",
-      "tournament": "Kachreti",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Jubb",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20240522",
-      "tournament": "Kachreti",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Broom",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20240520",
-      "tournament": "Kachreti",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "Y. Erel",
-      "score": "2-6 6(4)-7(7)"
-    },
-    {
-      "date": "20240518",
-      "tournament": "M25 Kachreti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Tiurnev",
-      "score": "7-5 6-2"
-    },
-    {
-      "date": "20240517",
-      "tournament": "M25 Kachreti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "U. Blanch",
-      "score": "6-4 6-1"
-    },
-    {
-      "date": "20240516",
-      "tournament": "M25 Kachreti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Bertrand",
-      "score": "7-5 1-6 2-6"
-    },
-    {
-      "date": "20240515",
-      "tournament": "M25 Kachreti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Kimhi",
-      "score": "2-6 4-6"
     }
   ]
 }
