@@ -3,20 +3,72 @@
   "gs_id": "234188",
   "player_name": "Yuto Oki",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:55:16.968Z",
+  "updated": "2026-03-27T05:00:33.984Z",
   "matches": [
     {
-      "date": "20231105",
-      "tournament": "Matsuyama Challenger Men",
+      "date": "20250805",
+      "tournament": "M15 Singapore",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Yamasaki",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250607",
+      "tournament": "M15 Karuizawa",
+      "surface": "Hard",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Nakagawa",
-      "score": "4-6 2-6"
+      "opponent": "S. Fukuda",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250606",
+      "tournament": "M15 Karuizawa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Shiraishi",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Karuizawa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Sugaya",
+      "score": "4-6 6-1 7(7)-6(2)"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Karuizawa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Matsumura",
+      "score": "3-6 4-6"
     }
   ]
 }
