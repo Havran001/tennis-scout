@@ -3,24 +3,63 @@
   "gs_id": "148952",
   "player_name": "Dylan Hara Friend Jay",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:53:44.970Z",
+  "updated": "2026-03-27T04:48:19.980Z",
   "matches": [
     {
-      "date": "20250529",
-      "tournament": "M15 Daegu",
+      "date": "20241221",
+      "tournament": "M15 Tauranga",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bouzige",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20241220",
+      "tournament": "M15 Tauranga",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Loutit",
+      "score": "2-6 6-0 6-3"
+    },
+    {
+      "date": "20241220",
+      "tournament": "M15 Tauranga",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Dellavedova",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20241219",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Nam Ji",
-      "score": "3-6 1-6"
+      "result": "W",
+      "opponent": "R. Falck",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20250527",
-      "tournament": "M15 Daegu",
+      "date": "20241218",
+      "tournament": "M15 Tauranga",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Shiraishi",
-      "score": "6-3 7(7)-6(3)"
+      "opponent": "L. Bataljin",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20241212",
+      "tournament": "M15 Wellington",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Falck",
+      "score": "7-5 3-6 7(7)-6(1)"
+    },
+    {
+      "date": "20241212",
+      "tournament": "M15 Wellington",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rai",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20241211",
+      "tournament": "M15 Wellington",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Klintcharov",
+      "score": "5-7 4-6"
     }
   ]
 }
