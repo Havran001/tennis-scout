@@ -3,24 +3,37 @@
   "gs_id": "90491",
   "player_name": "Vit Kalina",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:06:10.026Z",
+  "updated": "2026-03-27T06:59:10.032Z",
   "matches": [
     {
-      "date": "20240612",
-      "tournament": "ITF M15 Nyiregyhaza Men",
+      "date": "20240118",
+      "tournament": "ITF M15 Cadolzburg Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Djuric",
-      "score": "5-7 1-6"
+      "opponent": "M. Welte",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20230516",
-      "tournament": "M15 Pazardzhik",
+      "date": "20240116",
+      "tournament": "ITF M15 Cadolzburg Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Opitz",
+      "score": "6-1 5-7 6-4"
+    },
+    {
+      "date": "20231129",
+      "tournament": "M15 Limassol 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Sorrentino",
-      "score": "3-6 6-3 2-6"
+      "opponent": "P. Chrysochos",
+      "score": "3-6 2-6"
     }
   ]
 }
