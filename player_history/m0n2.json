@@ -3,24 +3,63 @@
   "gs_id": "92104",
   "player_name": "Radovan Michalik",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:53:53.933Z",
+  "updated": "2026-03-27T02:52:13.956Z",
   "matches": [
     {
-      "date": "20240220",
-      "tournament": "ITF M25 Antalya 4 Men",
+      "date": "20230622",
+      "tournament": "M25 Poprad",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Voisin",
-      "score": "6-3 6-3"
+      "opponent": "S. Sec",
+      "score": "6-4 6(4)-7(7) 6-4"
     },
     {
-      "date": "20230809",
-      "tournament": "M25 Osijek",
+      "date": "20230621",
+      "tournament": "M25 Poprad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Karlovskiy",
+      "score": "6(5)-7(7) 4-6"
+    },
+    {
+      "date": "20220901",
+      "tournament": "M25 Szabolcsveresmart",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Paulson",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220830",
+      "tournament": "M25 Szabolcsveresmart",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Szic",
+      "score": "4-6 7(7)-6(3) 6(4)-7(7)"
+    },
+    {
+      "date": "20220823",
+      "tournament": "M15 Celje",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Aboian",
-      "score": "6-1 6-1"
+      "opponent": "Z. Velcz",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20220628",
+      "tournament": "M25 Poprad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Horak",
+      "score": "6-0 6-3"
     }
   ]
 }
