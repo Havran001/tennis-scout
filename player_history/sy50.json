@@ -3,8 +3,34 @@
   "gs_id": "142266",
   "player_name": "Adit Sinha",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:54.019Z",
+  "updated": "2026-03-27T07:01:04.041Z",
   "matches": [
+    {
+      "date": "20241010",
+      "tournament": "M25 Edmonton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ilagan",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20241008",
+      "tournament": "M25 Edmonton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Spiers",
+      "score": "6-0 6-1"
+    },
     {
       "date": "20240808",
       "tournament": "ITF M25 Southaven",
@@ -45,21 +71,47 @@
       "score": "4-6 7(8)-6(6) 6-4"
     },
     {
-      "date": "20240704",
-      "tournament": "ITF M25 Laval Men",
+      "date": "20240120",
+      "tournament": "ITF M25 Ithaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Sell",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20240119",
+      "tournament": "ITF M25 Ithaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Schachter",
+      "score": "4-6 6-4 6-4"
+    },
+    {
+      "date": "20240118",
+      "tournament": "ITF M25 Ithaca",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Draxl",
-      "score": "0-6 5-7"
+      "result": "W",
+      "opponent": "A. Sharma",
+      "score": "2-6 0-6"
     },
     {
-      "date": "20240702",
-      "tournament": "ITF M25 Laval Men",
+      "date": "20240117",
+      "tournament": "ITF M25 Ithaca",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +119,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. O&apos;Hoisin",
-      "score": "4-6 6-4 1-6"
+      "opponent": "R. Quan",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20231019",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Wiedenmann",
+      "score": "6(5)-7(7) 6-4 6-3"
+    },
+    {
+      "date": "20231018",
+      "tournament": "M15 Las Vegas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Whitehouse",
+      "score": "7-5 6-2"
     }
   ]
 }
