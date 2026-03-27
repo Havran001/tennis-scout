@@ -3,11 +3,11 @@
   "gs_id": "162543",
   "player_name": "Enzo Camargo Lima",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:35.939Z",
+  "updated": "2026-03-27T04:48:49.979Z",
   "matches": [
     {
-      "date": "20251029",
-      "tournament": "M15 Ibague",
+      "date": "20251211",
+      "tournament": "M15 Lima 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Martinez",
-      "score": "6-4 6-1"
+      "opponent": "R. Dickerson",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20251028",
-      "tournament": "M15 Ibague",
+      "date": "20251210",
+      "tournament": "M15 Lima 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Basel",
-      "score": "3-6 6-3 6(5)-7(7)"
+      "opponent": "G. Schenekenberg",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20250319",
-      "tournament": "M15 Villa Maria",
+      "date": "20251006",
+      "tournament": "M25 Rio de Janeiro",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -42,11 +42,37 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "T. Martinez",
-      "score": "2-6 3-6"
+      "score": "4-6 1-6"
     },
     {
-      "date": "20241106",
-      "tournament": "M15 Recife",
+      "date": "20250126",
+      "tournament": "Piracicaba",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. E. Ambrogi",
+      "score": "6-2 4-6 6-2"
+    },
+    {
+      "date": "20240128",
+      "tournament": "Piracicaba Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "W. Leite",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20230427",
+      "tournament": "M15 Mogi das Cruzes",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,47 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Kohlmann",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20240612",
-      "tournament": "M15 Santo Domingo 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Hernandez",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20231129",
-      "tournament": "ITF M15 Monastir 48 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Lechno-Wasiutynski",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20220817",
-      "tournament": "M15 Recife",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Carou",
-      "score": "3-6 6-1 4-6"
+      "opponent": "V. Tosetto",
+      "score": "7(10)-6(8) 3-6 0-3 ret."
     }
   ]
 }
