@@ -3,20 +3,59 @@
   "gs_id": "1020",
   "player_name": "Stan Wawrinka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:13:31.181Z",
+  "updated": "2026-03-27T10:56:54.190Z",
   "matches": [
     {
-      "date": "20250617",
-      "tournament": "Sassuolo",
+      "date": "20250816",
+      "tournament": "Cancun 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. A. Tirante",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250815",
+      "tournament": "Cancun 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. M. Cerundolo",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250814",
+      "tournament": "Cancun 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Ymer",
-      "score": "6-3 5-7 3-6"
+      "result": "W",
+      "opponent": "C. Harper",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250814",
+      "tournament": "Cancun 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Noguchi",
+      "score": "3-6 4-6"
     }
   ]
 }
