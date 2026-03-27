@@ -3,46 +3,72 @@
   "gs_id": "239210",
   "player_name": "Diego Jarry Fillol",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:00:34.991Z",
+  "updated": "2026-03-27T09:32:46.095Z",
   "matches": [
     {
-      "date": "20251125",
-      "tournament": "Temuco",
+      "date": "20260325",
+      "tournament": "M15 Punta del Este 2",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. C. Prado Angelo",
-      "score": "4-6 6(4)-7(7)"
+      "opponent": "T. Grandinetti",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20251124",
-      "tournament": "Temuco",
+      "date": "20260320",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Martinez",
+      "score": "6(6)-7(8) 6-0 1-6"
+    },
+    {
+      "date": "20260318",
+      "tournament": "M15 Punta del Este",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Villalon",
-      "score": "6-3 4-6 4-6"
+      "opponent": "V. Aliano",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20251123",
-      "tournament": "Temuco",
+      "date": "20241125",
+      "tournament": "ITF M15 Santiago 2 Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Oliveira",
-      "score": "6-4 3-6 6-1"
+      "result": "L",
+      "opponent": "L. A. Falabella",
+      "score": "3-6 6-3 6-4"
+    },
+    {
+      "date": "20231212",
+      "tournament": "M15 Concepcion 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Aboian",
+      "score": "6-2 6-2"
     }
   ]
 }
