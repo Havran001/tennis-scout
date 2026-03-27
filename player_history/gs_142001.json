@@ -3,50 +3,37 @@
   "gs_id": "142001",
   "player_name": "Manuel Aguilar Juan Carlos",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:54:40.978Z",
+  "updated": "2026-03-27T04:47:54.982Z",
   "matches": [
     {
-      "date": "20250614",
-      "tournament": "M25 Santo Domingo 4",
+      "date": "20251125",
+      "tournament": "Temuco",
       "surface": "Hard",
-      "level": "I",
-      "round": "SF",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Cid Subervi",
-      "score": "2-5 ret."
+      "opponent": "Ch. Negritu",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20250613",
-      "tournament": "M25 Santo Domingo 4",
+      "date": "20251107",
+      "tournament": "M25 Montreal",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Sinha",
-      "score": "6-4 2-2 ret."
+      "result": "L",
+      "opponent": "O. Poulsen Brostrom",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20250612",
-      "tournament": "M25 Santo Domingo 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Godsick",
-      "score": "3-6 7-5 3-2 ret."
-    },
-    {
-      "date": "20250612",
-      "tournament": "M25 Santo Domingo 4",
+      "date": "20251106",
+      "tournament": "M25 Montreal",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +41,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Arseneault",
-      "score": "1-6 6-4 7-5"
+      "opponent": "A. Finkelstein",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20250206",
-      "tournament": "M15 Sunrise",
+      "date": "20251105",
+      "tournament": "M25 Montreal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Jones",
+      "score": "3-6 6-2 6-2"
+    },
+    {
+      "date": "20231127",
+      "tournament": "Temuco Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Mena",
+      "score": "4-6 7(7)-6(5) 4-6"
+    },
+    {
+      "date": "20231126",
+      "tournament": "Temuco Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Santibanez",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20231026",
+      "tournament": "M25 Saint-Augustin",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Kuzuhara",
-      "score": "3-6 7(8)-6(6) 6-2"
+      "opponent": "G. Hussey",
+      "score": "7-5 6-1"
     },
     {
-      "date": "20250205",
-      "tournament": "M15 Sunrise",
+      "date": "20231024",
+      "tournament": "M25 Saint-Augustin",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. McCormick",
-      "score": "5-7 6-4 6-3"
+      "opponent": "N. Arseneault",
+      "score": "4-6 5-7"
     },
     {
       "date": "20230831",
@@ -110,60 +136,21 @@
       "score": "6-1 5-7 6-1"
     },
     {
-      "date": "20230730",
-      "tournament": "M15 Pittsburgh",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Corwin",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20230730",
-      "tournament": "M15 Pittsburgh",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. King",
-      "score": "6-4 3-6 3-6"
-    },
-    {
-      "date": "20230728",
-      "tournament": "M15 Pittsburgh",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Flores",
-      "score": "6-4 1-6 3-6"
-    },
-    {
-      "date": "20230727",
-      "tournament": "M15 Pittsburgh",
+      "date": "20230413",
+      "tournament": "M15 Santo Domingo de los Tsachilas 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Lagaev",
-      "score": "6-4 6-4"
+      "result": "L",
+      "opponent": "V. Lilov",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20230725",
-      "tournament": "M15 Pittsburgh",
+      "date": "20230412",
+      "tournament": "M15 Santo Domingo de los Tsachilas 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,12 +158,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Wiersholm",
-      "score": "6-4 7(7)-6(3)"
+      "opponent": "F. T. Geschwind",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20230602",
-      "tournament": "ITF M15 Rancho Santa Fe",
+      "date": "20230405",
+      "tournament": "M15 Santo Domingo de los Tsachilas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Lilov",
+      "score": "6(4)-7(7) 2-6"
+    },
+    {
+      "date": "20230315",
+      "tournament": "M25 Montreal 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kopp",
+      "score": "6-0 3-0 ret."
+    },
+    {
+      "date": "20230310",
+      "tournament": "M25 Montreal",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -184,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Sinclair",
-      "score": "3-6 0-6"
+      "opponent": "J. Marie",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20230601",
-      "tournament": "ITF M15 Rancho Santa Fe",
+      "date": "20230309",
+      "tournament": "M25 Montreal",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -197,12 +210,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Masjuan Ginel",
-      "score": "1-6 4-6"
+      "opponent": "C. Kissell",
+      "score": "2-6 6(7)-7(9)"
     },
     {
-      "date": "20230531",
-      "tournament": "ITF M15 Rancho Santa Fe",
+      "date": "20230307",
+      "tournament": "M25 Montreal",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -210,77 +223,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Brymer",
-      "score": "7(7)-6(2) 6-1"
-    },
-    {
-      "date": "20220630",
-      "tournament": "M15 Bern",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Chazal",
-      "score": "6-3 6(3)-7(7) 6-3"
-    },
-    {
-      "date": "20220629",
-      "tournament": "M15 Bern",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Steiner",
+      "opponent": "J. F. Angele",
       "score": "6-3 7-5"
     },
     {
-      "date": "20220617",
-      "tournament": "M15 Quito 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Pannu",
-      "score": "6-3 1-0 ret."
-    },
-    {
-      "date": "20220616",
-      "tournament": "M15 Quito 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Hoyos Franco",
-      "score": "2-6 7(8)-6(6) 3-6"
-    },
-    {
-      "date": "20220615",
-      "tournament": "M15 Quito 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Ogura",
-      "score": "7(9)-6(7) 6-4"
-    },
-    {
-      "date": "20220609",
-      "tournament": "M15 Quito 3",
+      "date": "20221027",
+      "tournament": "M25 Saint-Augustin",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -288,12 +236,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Farjat",
-      "score": "6-4 3-6 4-6"
+      "opponent": "P. Maloney",
+      "score": "2-6 6(6)-7(8)"
     },
     {
-      "date": "20220608",
-      "tournament": "M15 Quito 3",
+      "date": "20221026",
+      "tournament": "M25 Saint-Augustin",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -301,8 +249,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. S. Osorio",
-      "score": "6-3 3-6 5-7"
+      "opponent": "D. King",
+      "score": "7-5 7(7)-6(3)"
     }
   ]
 }
