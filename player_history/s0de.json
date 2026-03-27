@@ -1,13 +1,13 @@
 {
   "player_id": "s0de",
-  "gs_id": "42074",
-  "player_name": "Darrshan Suresh",
+  "gs_id": "144063",
+  "player_name": "Dhakshineswar Suresh",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:59:22.013Z",
+  "updated": "2026-03-27T06:08:55.022Z",
   "matches": [
     {
-      "date": "20250807",
-      "tournament": "M25 Brazzaville 2",
+      "date": "20240718",
+      "tournament": "M15 Nakhon Si Thammarat 6",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Bax",
-      "score": "4-6 1-6"
+      "opponent": "J. Watt",
+      "score": "6(8)-7(10) 7(7)-6(2) 6-1"
     },
     {
-      "date": "20250806",
-      "tournament": "M25 Brazzaville 2",
+      "date": "20240717",
+      "tournament": "M15 Nakhon Si Thammarat 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. DeSousa",
-      "score": "6-4 6-4"
+      "opponent": "A. Susanto",
+      "score": "6-3 7(12)-6(10)"
     },
     {
-      "date": "20250731",
-      "tournament": "M25 Brazzaville",
+      "date": "20240711",
+      "tournament": "M15 Nakhon Si Thammarat 5",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Artnak",
-      "score": "6-1 6-4"
+      "opponent": "W. K. Leong M.",
+      "score": "6(3)-7(7) 3-6"
     },
     {
-      "date": "20250729",
-      "tournament": "M25 Brazzaville",
+      "date": "20240710",
+      "tournament": "M15 Nakhon Si Thammarat 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. D. Chauhan",
-      "score": "3-6 1-6"
+      "opponent": "T. Suksumrarn",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240702",
+      "tournament": "M15 Nakhon Si Thammarat 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Samrej",
+      "score": "7(8)-6(6) 6(3)-7(7) 6-0"
     }
   ]
 }
