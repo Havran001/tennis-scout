@@ -3,11 +3,11 @@
   "gs_id": "90096",
   "player_name": "Jan Jermar",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:40.972Z",
+  "updated": "2026-03-27T06:58:04.414Z",
   "matches": [
     {
-      "date": "20251105",
-      "tournament": "M25 Monastir 9",
+      "date": "20241120",
+      "tournament": "ITF M15 Alcala de Henares Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Beauge",
-      "score": "7-5 1-6 6-3"
+      "opponent": "M. Zhu",
+      "score": "3-6 6-2 6-3"
+    },
+    {
+      "date": "20241023",
+      "tournament": "M25 Trnava 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Novak",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M25 Sion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Pecak",
+      "score": "7-5 6(5)-7(7) 3-6"
     }
   ]
 }
