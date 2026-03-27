@@ -3,20 +3,33 @@
   "gs_id": "32258",
   "player_name": "Alex Molcan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:58:01.122Z",
+  "updated": "2026-03-27T11:41:26.225Z",
   "matches": [
     {
-      "date": "20260302",
-      "tournament": "Thionville",
+      "date": "20251102",
+      "tournament": "Athens",
       "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "B",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Budkov Kjaer",
-      "score": "1-6 2-6"
+      "opponent": "Y. Hanfmann",
+      "score": "7(7)-6(2) 6-3"
+    },
+    {
+      "date": "20251101",
+      "tournament": "Athens",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Misolic",
+      "score": "3-6 7(7)-6(3) 1-6"
     },
     {
       "date": "20250823",
@@ -110,45 +123,6 @@
       "score": "6-0 6-2"
     },
     {
-      "date": "20250804",
-      "tournament": "Bonn",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Krumich",
-      "score": "1-6 6-3 6-4"
-    },
-    {
-      "date": "20250803",
-      "tournament": "Bonn",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Raquillet",
-      "score": "6-4 6-0"
-    },
-    {
-      "date": "20250615",
-      "tournament": "Sassuolo",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Brancaccio",
-      "score": "6-4 6-0"
-    },
-    {
       "date": "20250530",
       "tournament": "M25 Bol 2",
       "surface": "Hard",
@@ -186,19 +160,6 @@
       "result": "W",
       "opponent": "L. Lokoli",
       "score": "0-6 3-6"
-    },
-    {
-      "date": "20250331",
-      "tournament": "Menorca",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Z. Piros",
-      "score": "6-4 5-7 0-6"
     }
   ]
 }
