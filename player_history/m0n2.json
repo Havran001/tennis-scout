@@ -3,7 +3,7 @@
   "gs_id": "92104",
   "player_name": "Radovan Michalik",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:06:58.014Z",
+  "updated": "2026-03-27T08:18:24.061Z",
   "matches": [
     {
       "date": "20250904",
@@ -71,8 +71,8 @@
       "score": "3-6 4-6"
     },
     {
-      "date": "20240613",
-      "tournament": "ITF M15 Nyiregyhaza Men",
+      "date": "20250820",
+      "tournament": "M15 Arad",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +80,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Bosio",
-      "score": "6-1 6-2"
+      "opponent": "S. Palosi",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20240419",
-      "tournament": "ITF M15 Kursumlijska Banja Men",
+      "date": "20250808",
+      "tournament": "M15 Slovenska Bistrica",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kumstat",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20250807",
+      "tournament": "M15 Slovenska Bistrica",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Kis Balazs",
+      "score": "6-2 1-6 7(7)-6(3)"
+    },
+    {
+      "date": "20250806",
+      "tournament": "M15 Slovenska Bistrica",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Madarasz",
+      "score": "4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M15 Grodzisk Mazowiecki",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +132,125 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. A. Tomescu",
-      "score": "6(5)-7(7) 4-6"
+      "opponent": "P. Munkhammar",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20240904",
+      "tournament": "M15 Budapest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Kimhi",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240819",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. R. Marinescu",
+      "score": "2-6 6(4)-7(7)"
+    },
+    {
+      "date": "20240627",
+      "tournament": "ITF M25 Satu Mare Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240626",
+      "tournament": "ITF M25 Satu Mare Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Gima",
+      "score": "1-6 6-3 1-6"
+    },
+    {
+      "date": "20240625",
+      "tournament": "ITF M25 Satu Mare Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Ducariu",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240529",
+      "tournament": "M15 Bol 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Bielinskyi",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240522",
+      "tournament": "M15 Bol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Bruna",
+      "score": "6-3 5-7 4-6"
+    },
+    {
+      "date": "20230926",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Campana",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230913",
+      "tournament": "M15 Satu Mare",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Marino",
+      "score": "7-5 2-6 2-6"
     },
     {
       "date": "20230817",
@@ -121,19 +277,6 @@
       "result": "W",
       "opponent": "P. Nad",
       "score": "7(7)-6(4) 7-5"
-    },
-    {
-      "date": "20230607",
-      "tournament": "ITF M15 Nyiregyhaza Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Fajta",
-      "score": "6-3 1-6 4-6"
     }
   ]
 }
