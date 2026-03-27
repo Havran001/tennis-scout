@@ -1,52 +1,78 @@
 {
   "player_id": "v993",
-  "gs_id": "31356",
-  "player_name": "Eero Vasa",
+  "gs_id": "78973",
+  "player_name": "Iiro Vasa",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:49:36.963Z",
+  "updated": "2026-03-27T02:51:32.953Z",
   "matches": [
     {
-      "date": "20240521",
-      "tournament": "M15 Celje",
+      "date": "20260319",
+      "tournament": "M25 Bakersfield",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Fenty",
+      "score": "4-6 6-3 6-3"
+    },
+    {
+      "date": "20260318",
+      "tournament": "M25 Bakersfield",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Rola",
-      "score": "1-6 2-6"
+      "result": "W",
+      "opponent": "M. Kuhar",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230819",
-      "tournament": "M25 Ystad",
+      "date": "20240808",
+      "tournament": "ITF M15 Vaasa Men",
       "surface": "Hard",
       "level": "I",
-      "round": "SF",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Vacherot",
-      "score": "3-6 5-7"
+      "opponent": "A. N. Tudorica",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20230818",
-      "tournament": "M25 Ystad",
+      "date": "20240807",
+      "tournament": "ITF M15 Vaasa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Simonsson",
+      "score": "7(9)-6(7) 3-6 4-6"
+    },
+    {
+      "date": "20230616",
+      "tournament": "ITF M25 Martos Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Pel",
-      "score": "3-6 6(7)-7(9)"
+      "result": "L",
+      "opponent": "P. Vives Marcos",
+      "score": "6(6)-7(8) 6-3 6-2"
     },
     {
-      "date": "20230817",
-      "tournament": "M25 Ystad",
+      "date": "20230615",
+      "tournament": "ITF M25 Martos Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Hallquist Lithen",
-      "score": "7-5 6-2"
+      "opponent": "J. Faria",
+      "score": "3-6 6-3 5-7"
     },
     {
-      "date": "20230816",
-      "tournament": "M25 Ystad",
+      "date": "20230614",
+      "tournament": "ITF M25 Martos Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +93,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Jansson",
-      "score": "2-6 1-6"
+      "opponent": "P. Martinez Gomez",
+      "score": "4-6 6(5)-7(7)"
     },
     {
-      "date": "20220818",
-      "tournament": "M25 Aldershot",
+      "date": "20230609",
+      "tournament": "ITF M15 Vaasa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Mridha",
+      "score": "6-1 7(7)-6(1)"
+    },
+    {
+      "date": "20230608",
+      "tournament": "ITF M15 Vaasa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Antinheimo",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M15 Vaasa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Haerteis",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20220602",
+      "tournament": "M15 Vaasa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Basing",
-      "score": "7(7)-6(5) 6-4"
+      "opponent": "L. Castelnuovo",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20220817",
-      "tournament": "M25 Aldershot",
+      "date": "20220601",
+      "tournament": "M15 Vaasa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +158,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. Wendelken",
-      "score": "6-2 4-1 ret."
+      "opponent": "O. Martikainen",
+      "score": "6-2 7-5"
     }
   ]
 }
