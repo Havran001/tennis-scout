@@ -3,11 +3,24 @@
   "gs_id": "123733",
   "player_name": "Lorenzo Angelini",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:54:38.935Z",
+  "updated": "2026-03-27T03:47:28.969Z",
   "matches": [
     {
-      "date": "20250430",
-      "tournament": "M25 Santa Margherita di Pula 5",
+      "date": "20251006",
+      "tournament": "M25 Santa Margherita di Pula 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Handel",
+      "score": "6-1 7(7)-6(3)"
+    },
+    {
+      "date": "20251001",
+      "tournament": "M25 Santa Margherita di Pula 9",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Juarez",
-      "score": "6-2 6-1"
+      "opponent": "G. Cadenasso",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20250429",
-      "tournament": "M25 Santa Margherita di Pula 5",
+      "date": "20250929",
+      "tournament": "M25 Santa Margherita di Pula 9",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Figl",
-      "score": "6-4 6-1"
+      "opponent": "S. Pieri",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20250401",
-      "tournament": "M25 Santa Margherita di Pula",
+      "date": "20240925",
+      "tournament": "ITF M15 Sharm ElSheikh 11 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,47 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Ribecai",
-      "score": "0-6 3-6"
+      "opponent": "M. Gengel",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20220116",
-      "tournament": "Forli 3",
+      "date": "20240716",
+      "tournament": "ITF M15 Gubbio Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Rosol",
-      "score": "1-6 0-6"
-    },
-    {
-      "date": "20220109",
-      "tournament": "Forli 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Arnaldi",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20211128",
-      "tournament": "Forli 2 Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Vatutin",
-      "score": "6-0 6-2"
+      "opponent": "S. Seghetti",
+      "score": "6-4 6-2"
     }
   ]
 }
