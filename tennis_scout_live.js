@@ -1349,7 +1349,7 @@ function _renderMatches(){
           // Filtry HTML
           h+='<div style="display:flex;align-items:center;padding:8px 0 12px;border-bottom:1px solid rgba(255,255,255,.06);">'
             +'<button id="mh-f-reset" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;">✕ Reset</button>'
-            +'<span id="mh-count" style="margin-left:auto;font-size:10px;color:rgba(255,255,255,.25);"></span>'
+            +'<span id="mh-count" style="margin-left:auto;font-size:13px;font-weight:700;color:#fcd34d;"></span>'
           +'</div>';
           h+='<div id="mh-list"></div>';
           h+='</div>';
