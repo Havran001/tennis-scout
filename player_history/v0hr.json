@@ -3,24 +3,37 @@
   "gs_id": "160359",
   "player_name": "Jakub Vrba",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:25:11.159Z",
+  "updated": "2026-03-26T22:14:24.865Z",
   "matches": [
     {
-      "date": "20250611",
-      "tournament": "M25 Ceska Lipa",
+      "date": "20250918",
+      "tournament": "M15 Fayetteville",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Kalina",
-      "score": "6-4 3-6 6-4"
+      "opponent": "A. Pedrico Kravtsov",
+      "score": "6-4 6(5)-7(7) 0-6"
     },
     {
-      "date": "20250521",
-      "tournament": "M25 Bol",
+      "date": "20250917",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Elicha Navas",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240918",
+      "tournament": "M15 Fayetteville",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Artnak",
-      "score": "6-4 4-6 6-1"
+      "opponent": "L. Palovic",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20230830",
+      "tournament": "M25 Jablonec nad Nisou 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Horak",
+      "score": "2-6 4-6"
     }
   ]
 }
