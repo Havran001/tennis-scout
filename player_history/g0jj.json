@@ -3,24 +3,63 @@
   "gs_id": "127588",
   "player_name": "Sebastian Gorzny",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:15:51.155Z",
+  "updated": "2026-03-26T23:55:49.904Z",
   "matches": [
     {
-      "date": "20251023",
-      "tournament": "M25 Norman",
+      "date": "20240618",
+      "tournament": "ITF M25 Tulsa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Q. Vandecasteele",
+      "score": "2-6 7-5 6(5)-7(7)"
+    },
+    {
+      "date": "20240615",
+      "tournament": "ITF M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Braswell",
+      "score": "6-2 7(7)-6(5)"
+    },
+    {
+      "date": "20240614",
+      "tournament": "ITF M25 Wichita",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Perot",
-      "score": "3-6 5-7"
+      "result": "W",
+      "opponent": "B. Tomic",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20251022",
-      "tournament": "M25 Norman",
+      "date": "20240614",
+      "tournament": "ITF M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Maxted",
+      "score": "6-3 4-6 6-3"
+    },
+    {
+      "date": "20240612",
+      "tournament": "ITF M25 Wichita",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Petrovic",
-      "score": "6-4 6-1"
+      "opponent": "O. Baris",
+      "score": "6-4 7-5"
     },
     {
-      "date": "20230608",
-      "tournament": "ITF M15 San Diego Men",
+      "date": "20230720",
+      "tournament": "ITF M25 Champaign",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Brumm",
-      "score": "6-2 3-6 2-6"
+      "opponent": "N. Schachter",
+      "score": "3-6 6(3)-7(7)"
     },
     {
-      "date": "20230607",
-      "tournament": "ITF M15 San Diego Men",
+      "date": "20230719",
+      "tournament": "ITF M25 Champaign",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +93,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Perez",
-      "score": "6-4 7(7)-6(5)"
+      "opponent": "M. Ochi",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230617",
+      "tournament": "ITF M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Baris",
+      "score": "4-6 6-1 7-5"
+    },
+    {
+      "date": "20230616",
+      "tournament": "ITF M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Kuzuhara",
+      "score": "4-6 6-1 2-6"
+    },
+    {
+      "date": "20230615",
+      "tournament": "ITF M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. F. Angele",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20230614",
+      "tournament": "ITF M25 Wichita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bernard",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20220216",
+      "tournament": "M15 Naples",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Baris",
+      "score": "6-3 6-4"
     }
   ]
 }
