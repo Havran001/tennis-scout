@@ -3,11 +3,24 @@
   "gs_id": "177477",
   "player_name": "Sebastian Eriksson",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:54:49.971Z",
+  "updated": "2026-03-27T04:59:55.988Z",
   "matches": [
     {
-      "date": "20230921",
-      "tournament": "M15 Danderyd",
+      "date": "20240515",
+      "tournament": "M15 Kalmar",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Catarina",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240509",
+      "tournament": "ITF M25 Varnamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Schnaitter",
-      "score": "6-3 6-2"
+      "opponent": "V. Durasovic",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230919",
-      "tournament": "M15 Danderyd",
+      "date": "20240508",
+      "tournament": "ITF M25 Varnamo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Kielan",
-      "score": "6-2 6-3"
+      "opponent": "T. Ruehl",
+      "score": "6-3 4-6 4-6"
     },
     {
-      "date": "20220920",
-      "tournament": "M15 Danderyd",
+      "date": "20240418",
+      "tournament": "M15 Telde 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Pietri",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240416",
+      "tournament": "M15 Telde 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Martinez",
+      "score": "6-3 5-7 6-1"
+    },
+    {
+      "date": "20240409",
+      "tournament": "M15 Telde",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +80,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Oetzbach",
-      "score": "6-4 6-4"
+      "opponent": "G. Elicha Navas",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230518",
+      "tournament": "ITF M15 Kalmar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Catarina",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20230517",
+      "tournament": "ITF M15 Kalmar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Edengren",
+      "score": "4-6 6-4 4-6"
+    },
+    {
+      "date": "20230510",
+      "tournament": "ITF M25 Varnamo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Borg",
+      "score": "2-6 5-7"
     }
   ]
 }
