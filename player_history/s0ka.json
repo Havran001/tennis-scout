@@ -3,20 +3,59 @@
   "gs_id": "59201",
   "player_name": "Gustaf Strom",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:59:32.884Z",
+  "updated": "2026-03-27T02:51:00.984Z",
   "matches": [
     {
-      "date": "20230720",
-      "tournament": "ITF M25 Telfs Men",
+      "date": "20220818",
+      "tournament": "M15 Malmo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Mridha",
+      "score": "6-3 3-6 3-6"
+    },
+    {
+      "date": "20220817",
+      "tournament": "M15 Malmo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Mikkelsen",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20220811",
+      "tournament": "M25 Ystad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Karol",
-      "score": "7(8)-6(6) 6-3"
+      "opponent": "N. Ehrenschneider",
+      "score": "6-2 4-6 6-2"
+    },
+    {
+      "date": "20220809",
+      "tournament": "M25 Ystad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Temirhanov",
+      "score": "7-5 7-5"
     }
   ]
 }
