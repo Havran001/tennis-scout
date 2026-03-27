@@ -1,13 +1,52 @@
 {
   "player_id": "p0ht",
-  "gs_id": "151918",
-  "player_name": "Alex Jones",
+  "gs_id": "3516",
+  "player_name": "Scott Jones",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:30.017Z",
+  "updated": "2026-03-27T06:55:05.047Z",
   "matches": [
     {
-      "date": "20230418",
-      "tournament": "M15 Tacarigua",
+      "date": "20251023",
+      "tournament": "M25 Brisbane",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Polmans",
+      "score": "7(11)-6(9) 6-2"
+    },
+    {
+      "date": "20251022",
+      "tournament": "M25 Brisbane",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Hudd",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240204",
+      "tournament": "Burnie 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Ichikawa",
+      "score": "6(4)-7(7) 6-4 3-6"
+    },
+    {
+      "date": "20231122",
+      "tournament": "ITF M25 Brisbane Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Muamba",
-      "score": "6(4)-7(7) 1-6"
+      "opponent": "B. Mott",
+      "score": "6-3 6-4"
     }
   ]
 }
