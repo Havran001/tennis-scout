@@ -3,24 +3,50 @@
   "gs_id": "115641",
   "player_name": "Maikel De Boes",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:18:58.073Z",
+  "updated": "2026-03-27T09:28:05.102Z",
   "matches": [
     {
-      "date": "20241121",
-      "tournament": "M15 Santo Domingo 3",
+      "date": "20250311",
+      "tournament": "M15 Huamantla 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Brymer",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20250228",
+      "tournament": "M15 Huamantla 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. N. Tudorica",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20250227",
+      "tournament": "M15 Huamantla 4",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Bozemoj",
-      "score": "5-7 3-6"
+      "result": "W",
+      "opponent": "R. Tosetto",
+      "score": "6(4)-7(7) 3-6"
     },
     {
-      "date": "20241120",
-      "tournament": "M15 Santo Domingo 3",
+      "date": "20250225",
+      "tournament": "M15 Huamantla 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. O&apos;Sullivan",
-      "score": "3-6 6-2 7-5"
-    },
-    {
-      "date": "20231115",
-      "tournament": "ITF M15 Santo Domingo 3 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Rodriguez",
-      "score": "3-6 2-6"
+      "opponent": "M. Alvarez",
+      "score": "7(7)-6(2) 2-6 4-6"
     }
   ]
 }
