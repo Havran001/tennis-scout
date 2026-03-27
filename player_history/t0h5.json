@@ -3,8 +3,47 @@
   "gs_id": "141533",
   "player_name": "Benjamin Torrealba",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:19.014Z",
+  "updated": "2026-03-27T07:00:43.037Z",
   "matches": [
+    {
+      "date": "20250930",
+      "tournament": "Antofagasta",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Garin",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250702",
+      "tournament": "M15 Kursumlijska Banja 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Obradovic",
+      "score": "5-7 6(4)-7(7)"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M15 Kursumlijska Banja 8",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Homberg",
+      "score": "6-4 6-4"
+    },
     {
       "date": "20250622",
       "tournament": "M15 Kursumlijska Banja 7",
@@ -71,8 +110,21 @@
       "score": "3-6 6-1 6-4"
     },
     {
-      "date": "20250612",
-      "tournament": "M15 Kursumlijska Banja 6",
+      "date": "20241022",
+      "tournament": "M25 Santa Margherita di Pula 12",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Piraino",
+      "score": "6-2 5-7 1-3 ret."
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Gill",
-      "score": "3-6 0-6"
+      "opponent": "D. Obradovic",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20250611",
-      "tournament": "M15 Kursumlijska Banja 6",
+      "date": "20240703",
+      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,86 +145,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Garkavenko",
-      "score": "7(7)-6(1) 6-3"
+      "opponent": "S. Kostic",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20250529",
-      "tournament": "M15 Kursumlijska Banja 5",
+      "date": "20231212",
+      "tournament": "M15 Concepcion 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Lalami Laaroussi",
-      "score": "7(8)-6(6) 4-6 6-1"
+      "opponent": "G. Romano",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20250528",
-      "tournament": "M15 Kursumlijska Banja 5",
+      "date": "20230917",
+      "tournament": "Antofagasta Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Fiorentini",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20240620",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Tammaro",
-      "score": "6-4 6(2)-7(7) 6-3"
-    },
-    {
-      "date": "20240619",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. A. Boitan",
-      "score": "5-7 0-0 ret."
-    },
-    {
-      "date": "20240530",
-      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Milev",
-      "score": "1-6 1-6"
-    },
-    {
-      "date": "20240529",
-      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Vojinovic",
-      "score": "7-5 4-6 6(4)-7(7)"
+      "opponent": "L. Aboian",
+      "score": "6-2 6-2"
     }
   ]
 }
