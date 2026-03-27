@@ -3,11 +3,11 @@
   "gs_id": "35550",
   "player_name": "Rafael Izquierdo Luque",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:03:24.052Z",
+  "updated": "2026-03-27T11:47:58.770Z",
   "matches": [
     {
-      "date": "20251120",
-      "tournament": "M25 Vale do Lobo 3",
+      "date": "20251009",
+      "tournament": "M15 Pontevedra",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gray",
-      "score": "4-6 1-6"
+      "opponent": "T. Torres",
+      "score": "4-6 6(5)-7(7)"
     },
     {
-      "date": "20251119",
-      "tournament": "M25 Vale do Lobo 3",
+      "date": "20251007",
+      "tournament": "M15 Pontevedra",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Luis",
-      "score": "1-6 7-5 5-7"
+      "opponent": "I. Perez",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20250701",
+      "tournament": "M25 Figueira da Foz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Matsuoka",
+      "score": "5-7 7(7)-6(3) 6-0"
     },
     {
       "date": "20250625",
@@ -58,43 +71,30 @@
       "score": "3-6 7(7)-6(5) 3-3 ret."
     },
     {
-      "date": "20240719",
-      "tournament": "ITF M25 Castelo Branco Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Ferreira Silva",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20240718",
-      "tournament": "ITF M25 Castelo Branco Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Portugal",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20240716",
-      "tournament": "ITF M25 Castelo Branco Men",
+      "date": "20241009",
+      "tournament": "ITF M15 Pontevedra Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Bobrov",
-      "score": "2-6 7(7)-6(5) 2-6"
+      "result": "L",
+      "opponent": "S. Perez Contri",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240825",
+      "tournament": "Porto 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Wallart",
+      "score": "4-6 7-5 2-0 ret."
     },
     {
       "date": "20240424",
@@ -108,32 +108,6 @@
       "result": "L",
       "opponent": "D. Fernandez Flores",
       "score": "6-4 4-6 6-2"
-    },
-    {
-      "date": "20240416",
-      "tournament": "M15 Azay-le-Rideau",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Dussin",
-      "score": "6-0 6-3"
-    },
-    {
-      "date": "20231010",
-      "tournament": "M15 Vigo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Alvarez Varona",
-      "score": "6(4)-7(7) 4-3 ret."
     }
   ]
 }
