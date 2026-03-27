@@ -3,11 +3,11 @@
   "gs_id": "30709",
   "player_name": "Louis Tessa",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:48:26.934Z",
+  "updated": "2026-03-27T05:54:48.850Z",
   "matches": [
     {
-      "date": "20251008",
-      "tournament": "M25 Monastir 7",
+      "date": "20250625",
+      "tournament": "M15 Casablanca 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,25 +15,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Ostapenkov",
-      "score": "6-2 4-2 ret."
+      "opponent": "Y. Lalami Laaroussi",
+      "score": "7-5 1-6 3-6"
     },
     {
-      "date": "20220325",
-      "tournament": "M15 Marrakech 2",
+      "date": "20250618",
+      "tournament": "M15 Casablanca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. M. Fahim",
+      "score": "6(6)-7(8) 5-7"
+    },
+    {
+      "date": "20250430",
+      "tournament": "M15 Kursumlijska Banja 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Milic",
+      "score": "7(7)-6(5) 6(7)-7(9) 7(7)-6(5)"
+    },
+    {
+      "date": "20250423",
+      "tournament": "M15 Kursumlijska Banja",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Jankanj",
+      "score": "2-6 6(3)-7(7)"
+    },
+    {
+      "date": "20250131",
+      "tournament": "M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ciric",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250130",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Lavagno",
-      "score": "6-4 6-2"
+      "result": "W",
+      "opponent": "J. Boulais",
+      "score": "7-5 4-6 4-6"
     },
     {
-      "date": "20220324",
-      "tournament": "M15 Marrakech 2",
+      "date": "20250129",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Marquiselli",
-      "score": "1-6 4-6"
+      "opponent": "A. Jones",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20220316",
-      "tournament": "M15 Marrakech",
+      "date": "20230628",
+      "tournament": "ITF M15 Belgrade Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Lavagno",
-      "score": "6-4 6-4"
+      "opponent": "M. Sharipov",
+      "score": "6-4 3-0 ret."
+    },
+    {
+      "date": "20230622",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. A. Gomez",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20230621",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Stakusic",
+      "score": "2-6 5-7"
     }
   ]
 }
