@@ -3,7 +3,7 @@
   "gs_id": "121612",
   "player_name": "Orel Kimhi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:28:20.090Z",
+  "updated": "2026-03-27T12:14:49.157Z",
   "matches": [
     {
       "date": "20251023",
@@ -32,47 +32,34 @@
       "score": "4-6 6-3 6-1"
     },
     {
-      "date": "20240614",
-      "tournament": "ITF M25 Elvas Men",
+      "date": "20250818",
+      "tournament": "Hersonissos 4",
       "surface": "Hard",
-      "level": "I",
-      "round": "QF",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Escoffier",
-      "score": "4-6 2-6"
+      "opponent": "P. O. Fellin",
+      "score": "3-6 6-1 4-6"
     },
     {
-      "date": "20240613",
-      "tournament": "ITF M25 Elvas Men",
+      "date": "20250817",
+      "tournament": "Hersonissos 4",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Rocha",
-      "score": "5-7 1-6"
+      "opponent": "S. Ivanov",
+      "score": "6-0 2-6 3-6"
     },
     {
-      "date": "20240612",
-      "tournament": "ITF M25 Elvas Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Shimanov",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20240520",
-      "tournament": "Kachreti",
+      "date": "20250812",
+      "tournament": "Hersonissos 3",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -80,12 +67,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Jubb",
-      "score": "1-6 1-6"
+      "opponent": "F. Moroni",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20240515",
-      "tournament": "M25 Kachreti",
+      "date": "20250811",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Moroni",
+      "score": "7(15)-6(13) 0-4 ret."
+    },
+    {
+      "date": "20250810",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Kountourakis",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250731",
+      "tournament": "M15 Nakhon Pathom 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Congcar",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250729",
+      "tournament": "M15 Nakhon Pathom 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Chaiyarin",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250723",
+      "tournament": "M15 Nakhon Pathom 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +132,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Glinka",
-      "score": "6-2 6-4"
+      "opponent": "K. Samrej",
+      "score": "0-6 6-4 3-6"
+    },
+    {
+      "date": "20250718",
+      "tournament": "M15 Nakhon Pathom",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Kumasaka",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20250717",
+      "tournament": "M15 Nakhon Pathom",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Hazawa",
+      "score": "2-6 6-2 6-1"
+    },
+    {
+      "date": "20250716",
+      "tournament": "M15 Nakhon Pathom",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Taguchi",
+      "score": "6(3)-7(7) 1-2 ret."
     }
   ]
 }
