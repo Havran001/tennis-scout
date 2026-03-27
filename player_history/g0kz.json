@@ -1,1 +1,35 @@
-{"player_id":"g0kz","sack_id":"211634","name":"Tobia Grandinetti","total":2,"matches":[{"id":"vy2LoO45","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Monzon I.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"4WAsBm4C","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Punta del Este 2 (Uruguay), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Jarry Fillol D.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "g0kz",
+  "gs_id": "167798",
+  "player_name": "Tobia Grandinetti",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T03:54:24.971Z",
+  "matches": [
+    {
+      "date": "20221006",
+      "tournament": "M15 Villa Carlos Paz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. De La Fuente",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20221005",
+      "tournament": "M15 Villa Carlos Paz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. D. Alarcon",
+      "score": "6(5)-7(7) 4-6"
+    }
+  ]
+}
