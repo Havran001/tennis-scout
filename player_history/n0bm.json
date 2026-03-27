@@ -3,11 +3,50 @@
   "gs_id": "135820",
   "player_name": "Ignacio Novo",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:13:13.870Z",
+  "updated": "2026-03-27T01:55:14.936Z",
   "matches": [
     {
-      "date": "20221110",
-      "tournament": "M15 Cordoba",
+      "date": "20231115",
+      "tournament": "M15 Cochabamba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Vilicich",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20221018",
+      "tournament": "M15 Cochabamba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Mouilleron Salvo",
+      "score": "6-4 5-7 6-3"
+    },
+    {
+      "date": "20211201",
+      "tournament": "M25 Villa Allende",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Carou",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20211125",
+      "tournament": "ITF M15 Cordoba 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Aboian",
-      "score": "7-5 6-1"
+      "opponent": "J. B. Otegui",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20221109",
-      "tournament": "M15 Cordoba",
+      "date": "20211124",
+      "tournament": "ITF M15 Cordoba 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Hess",
-      "score": "6-2 3-1 ret."
+      "opponent": "M. N. Martinez",
+      "score": "4-6 7(7)-6(3) 4-6"
     }
   ]
 }
