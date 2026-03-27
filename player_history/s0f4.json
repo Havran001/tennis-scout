@@ -3,24 +3,37 @@
   "gs_id": "85172",
   "player_name": "Damien Salvestre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:57:34.030Z",
+  "updated": "2026-03-27T09:27:42.087Z",
   "matches": [
     {
-      "date": "20250717",
-      "tournament": "M15 Rochester",
+      "date": "20250830",
+      "tournament": "M15 Cap d'Agde",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Chazal",
+      "score": "3-6 6-4 6-3"
+    },
+    {
+      "date": "20250829",
+      "tournament": "M15 Cap d'Agde",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Delgado",
-      "score": "7-5 6-3"
+      "result": "W",
+      "opponent": "A. Raynel",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20250716",
-      "tournament": "M15 Rochester",
+      "date": "20250826",
+      "tournament": "M15 Cap d'Agde",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Brown",
-      "score": "6(6)-7(8) 3-6"
+      "opponent": "A. Meduri",
+      "score": "7(7)-6(4) 6(4)-7(7) 1-6"
+    },
+    {
+      "date": "20240726",
+      "tournament": "M15 Rognac",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rossi",
+      "score": "7(13)-6(11) 3-6 4-6"
+    },
+    {
+      "date": "20240725",
+      "tournament": "M15 Rognac",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Delage",
+      "score": "3-6 7(7)-6(1) 6-4"
+    },
+    {
+      "date": "20240724",
+      "tournament": "M15 Rognac",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Jaisinghani",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20240702",
+      "tournament": "M25 Ajaccio+H",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Escoffier",
+      "score": "5-7 1-6"
     }
   ]
 }
