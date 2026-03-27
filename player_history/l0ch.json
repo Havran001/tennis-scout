@@ -3,8 +3,34 @@
   "gs_id": "127528",
   "player_name": "Noel Larwig",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:55:48.910Z",
+  "updated": "2026-03-27T02:53:13.956Z",
   "matches": [
+    {
+      "date": "20251127",
+      "tournament": "M15 Monastir 43",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Wiedenmann",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20251126",
+      "tournament": "M15 Monastir 43",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Kudriashov",
+      "score": "6-3 6-4"
+    },
     {
       "date": "20251119",
       "tournament": "M15 Monastir 42",
@@ -19,47 +45,8 @@
       "score": "0-6 1-6"
     },
     {
-      "date": "20251111",
-      "tournament": "M15 Las Palmas de Gran Canaria",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Parisca",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20251029",
-      "tournament": "M15 Monastir 41",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Djuric",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20250710",
-      "tournament": "M15 Lodz",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Gschwendtner",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20250710",
-      "tournament": "M15 Lodz",
+      "date": "20250807",
+      "tournament": "M15 Frankfurt",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +54,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Colson",
-      "score": "3-6 4-6"
+      "opponent": "V. Marysko",
+      "score": "5-7 3-6"
     },
     {
-      "date": "20230829",
-      "tournament": "M25 Jablonec nad Nisou 2",
+      "date": "20250806",
+      "tournament": "M15 Frankfurt",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. De Lange",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20241106",
+      "tournament": "ITF M25 Monastir 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +80,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Cizek",
-      "score": "6-4 6-2"
+      "opponent": "A. Paolini",
+      "score": "4-6 0-6"
     },
     {
-      "date": "20230405",
-      "tournament": "ITF M15 Antalya 10 Men",
+      "date": "20240822",
+      "tournament": "ITF M15 Trier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Gavrielides",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20240821",
+      "tournament": "ITF M15 Trier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Nittmann",
+      "score": "4-6 7-5 6-2"
+    },
+    {
+      "date": "20231025",
+      "tournament": "ITF M15 Monastir 43 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Pontjodikromo",
-      "score": "6-4 2-6 2-6"
+      "opponent": "G. I. Justo",
+      "score": "7(7)-6(4) 6-2"
     },
     {
       "date": "20221026",
@@ -110,8 +136,34 @@
       "score": "6-2 6-2"
     },
     {
-      "date": "20220803",
-      "tournament": "M15 Frederiksberg",
+      "date": "20220825",
+      "tournament": "M25 Oldenzaal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. De Krom",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20220823",
+      "tournament": "M25 Oldenzaal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "W. Leite",
+      "score": "6-2 2-6 6(4)-7(7)"
+    },
+    {
+      "date": "20220706",
+      "tournament": "M25 Getxo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,34 +171,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Chazal",
-      "score": "6-1 6-2"
+      "opponent": "J. Cesar Porras",
+      "score": "6-3 4-6 0-6"
     },
     {
-      "date": "20220413",
-      "tournament": "M15 Antalya 10",
+      "date": "20220316",
+      "tournament": "M15 Sharm ElSheikh 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Shimizu",
+      "score": "6-3 4-6 6-2"
+    },
+    {
+      "date": "20211230",
+      "tournament": "ITF M15 Monastir 50 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "R. Strombachs",
-      "score": "6-3 6-1"
+      "score": "6-2 6-1"
     },
     {
-      "date": "20210901",
-      "tournament": "M25 Ricany",
+      "date": "20211229",
+      "tournament": "ITF M15 Monastir 50 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Duda",
-      "score": "6-2 6-2"
+      "result": "W",
+      "opponent": "M. Alimli",
+      "score": "6-4 6-4"
     }
   ]
 }
