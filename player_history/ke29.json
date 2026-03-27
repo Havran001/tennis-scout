@@ -3,37 +3,24 @@
   "gs_id": "21541",
   "player_name": "Karen Khachanov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:57:52.878Z",
+  "updated": "2026-03-27T00:56:35.921Z",
   "matches": [
     {
-      "date": "20210206",
-      "tournament": "Melbourne (Great Ocean Road Open)",
-      "surface": "Hard",
-      "level": "B",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Sinner",
-      "score": "6(4)-7(7) 6-4 6(4)-7(7)"
-    },
-    {
-      "date": "20210205",
-      "tournament": "Melbourne (Great Ocean Road Open)",
+      "date": "20230106",
+      "tournament": "Adelaide 2",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Van De Zandschulp",
-      "score": "7(8)-6(6) 5-7 3-6"
+      "result": "L",
+      "opponent": "D. Medvedev",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20210204",
-      "tournament": "Melbourne (Great Ocean Road Open)",
+      "date": "20230104",
+      "tournament": "Adelaide 2",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Anderson",
-      "score": "3-6 6(5)-7(7)"
+      "opponent": "J. Draper",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20210203",
-      "tournament": "Melbourne (Great Ocean Road Open)",
+      "date": "20230103",
+      "tournament": "Adelaide 2",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -54,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Purcell",
-      "score": "6(5)-7(7) 3-6"
+      "opponent": "P. Cachin",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20220113",
+      "tournament": "Adelaide 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rinderknech",
+      "score": "7(9)-6(7) 7-5"
+    },
+    {
+      "date": "20220112",
+      "tournament": "Adelaide 2",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Mager",
+      "score": "7-5 6-3"
     }
   ]
 }
