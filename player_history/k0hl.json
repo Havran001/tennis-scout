@@ -3,8 +3,21 @@
   "gs_id": "116916",
   "player_name": "Kyle Kang",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:20:57.070Z",
+  "updated": "2026-03-27T09:28:13.096Z",
   "matches": [
+    {
+      "date": "20250716",
+      "tournament": "M25 Louisville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Banerjee",
+      "score": "3-6 7-5 4-6"
+    },
     {
       "date": "20250612",
       "tournament": "M15 San Diego",
@@ -56,19 +69,6 @@
       "result": "W",
       "opponent": "J. Jin",
       "score": "6-3 4-6 3-6"
-    },
-    {
-      "date": "20240121",
-      "tournament": "Indian Wells 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Soto",
-      "score": "6(6)-7(8) 3-6"
     }
   ]
 }
