@@ -3,8 +3,47 @@
   "gs_id": "2704",
   "player_name": "Alexey Vatutin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:56:34.057Z",
+  "updated": "2026-03-27T09:24:48.132Z",
   "matches": [
+    {
+      "date": "20240808",
+      "tournament": "ITF M25 Montesilvano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Pennaforti",
+      "score": "4-6 6-3 3-6"
+    },
+    {
+      "date": "20240807",
+      "tournament": "ITF M25 Montesilvano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Rottoli",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240806",
+      "tournament": "ITF M25 Montesilvano Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Carraro",
+      "score": "3-6 6-2 1-6"
+    },
     {
       "date": "20240616",
       "tournament": "Sassuolo Challenger Men",
@@ -134,71 +173,6 @@
       "result": "W",
       "opponent": "R. Vaksmann",
       "score": "5-7 6-3 4-6"
-    },
-    {
-      "date": "20240317",
-      "tournament": "ITF M25 Creteil Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Gautier",
-      "score": "1-6 6-4 4-6"
-    },
-    {
-      "date": "20240316",
-      "tournament": "ITF M25 Creteil Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Sun",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20240315",
-      "tournament": "ITF M25 Creteil Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Onclin",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20240314",
-      "tournament": "ITF M25 Creteil Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Bouquier",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20240313",
-      "tournament": "ITF M25 Creteil Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "H. Pierre",
-      "score": "1-6 0-6"
     }
   ]
 }
