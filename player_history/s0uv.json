@@ -1,22 +1,87 @@
 {
   "player_id": "s0uv",
-  "gs_id": "10089",
-  "player_name": "Pedro Sakamoto",
+  "gs_id": "146544",
+  "player_name": "Rei Sakamoto",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:56:57.629Z",
+  "updated": "2026-03-27T08:23:38.684Z",
   "matches": [
     {
-      "date": "20240414",
-      "tournament": "San Miguel de Tucuman Challenger Men",
+      "date": "20250618",
+      "tournament": "Sassuolo",
       "surface": "Hard",
       "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Guillen Meza",
+      "score": "1-6 6-3 7(8)-6(6)"
+    },
+    {
+      "date": "20250618",
+      "tournament": "Sassuolo",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. van Assche",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240525",
+      "tournament": "M15 Cervia",
+      "surface": "Hard",
+      "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Fernandez",
-      "score": "3-1 ret."
+      "opponent": "P. Buldorini",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20240524",
+      "tournament": "M15 Cervia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. B. Otegui",
+      "score": "6-1 5-7 5-7"
+    },
+    {
+      "date": "20240523",
+      "tournament": "M15 Cervia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Chepelev",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240522",
+      "tournament": "M15 Cervia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Ricci",
+      "score": "6-2 7(7)-6(1)"
     }
   ]
 }
