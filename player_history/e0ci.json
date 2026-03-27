@@ -3,8 +3,60 @@
   "gs_id": "177477",
   "player_name": "Sebastian Eriksson",
   "source": "goalserve-full",
-  "updated": "2026-03-26T19:00:58.793Z",
+  "updated": "2026-03-27T01:00:35.918Z",
   "matches": [
+    {
+      "date": "20250920",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Smith",
+      "score": "6(1)-7(7) 7(7)-6(5) 3-6"
+    },
+    {
+      "date": "20250919",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Pedrico Kravtsov",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20250918",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Braswell",
+      "score": "6(3)-7(7) 6-3 7(7)-6(2)"
+    },
+    {
+      "date": "20250917",
+      "tournament": "M15 Fayetteville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Schachter",
+      "score": "4-6 6-3 4-6"
+    },
     {
       "date": "20241022",
       "tournament": "ITF M25 Glasgow Men",
@@ -19,30 +71,17 @@
       "score": "7(8)-6(6) 0-6 1-6"
     },
     {
-      "date": "20240930",
-      "tournament": "Braga",
+      "date": "20240923",
+      "tournament": "M25 Falun",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Neumayer",
-      "score": "7(8)-6(6) 6(3)-7(7) 1-6"
-    },
-    {
-      "date": "20240929",
-      "tournament": "Braga",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Picchione",
-      "score": "6-4 2-1 ret."
+      "opponent": "P. Kaukovalta",
+      "score": "6-3 7(10)-6(8)"
     },
     {
       "date": "20240312",
@@ -58,8 +97,8 @@
       "score": "6-3 6-3"
     },
     {
-      "date": "20240305",
-      "tournament": "ITF M15 Heraklion Men",
+      "date": "20230926",
+      "tournament": "ITF M25 Falun Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Campbell",
-      "score": "2-6 6-4 6-0"
+      "opponent": "J. Trinker",
+      "score": "2-6 6-3 6-4"
     },
     {
-      "date": "20240201",
-      "tournament": "ITF M15 Monastir 5 Men",
+      "date": "20230727",
+      "tournament": "M15 Vejle",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Zhu",
-      "score": "3-6 0-4 ret."
+      "opponent": "E. Moller",
+      "score": "6-2 4-6 6-2"
     },
     {
-      "date": "20240130",
-      "tournament": "ITF M15 Monastir 5 Men",
+      "date": "20230725",
+      "tournament": "M15 Vejle",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,21 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Shin",
-      "score": "7-5 7(7)-6(4)"
-    },
-    {
-      "date": "20240123",
-      "tournament": "ITF M15 Monastir 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Tiurnev",
-      "score": "7(7)-6(3) 6-1"
+      "opponent": "O. Poulsen Brostrom",
+      "score": "6-2 3-6 4-6"
     }
   ]
 }
