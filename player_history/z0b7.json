@@ -3,8 +3,34 @@
   "gs_id": "62803",
   "player_name": "Richard Zusman",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:51:46.924Z",
+  "updated": "2026-03-27T01:49:40.934Z",
   "matches": [
+    {
+      "date": "20250521",
+      "tournament": "M25 Mataro",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Curras Abasolo",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20230614",
+      "tournament": "ITF M25 Martos Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Winter Lopez",
+      "score": "6-3 3-6 6-4"
+    },
     {
       "date": "20220222",
       "tournament": "M25 Antalya 2",
@@ -17,45 +43,6 @@
       "result": "L",
       "opponent": "S. Diez",
       "score": "0-6 2-6"
-    },
-    {
-      "date": "20211201",
-      "tournament": "M15 Antalya 34",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Mpetshi Perricard",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20211110",
-      "tournament": "M15 Antalya 31",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Martin",
-      "score": "1-6 0-6"
-    },
-    {
-      "date": "20211103",
-      "tournament": "M15 Antalya 30",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Correia",
-      "score": "6-2 6-4"
     }
   ]
 }
