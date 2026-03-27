@@ -3,7 +3,7 @@
   "gs_id": "205893",
   "player_name": "Fabien Salle",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:06:31.032Z",
+  "updated": "2026-03-27T07:12:08.038Z",
   "matches": [
     {
       "date": "20250108",
@@ -19,17 +19,30 @@
       "score": "6-3 6-1"
     },
     {
-      "date": "20230809",
-      "tournament": "ITF M25 Southaven",
+      "date": "20240228",
+      "tournament": "ITF M15 Lannion Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Ghazouani Durand",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20240227",
+      "tournament": "ITF M15 Lannion Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Nefve",
-      "score": "2-6 3-6"
+      "result": "W",
+      "opponent": "J. Karlsson Wistrand",
+      "score": "4-6 6-3 6-2"
     }
   ]
 }
