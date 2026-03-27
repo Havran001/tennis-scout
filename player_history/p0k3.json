@@ -3,24 +3,50 @@
   "gs_id": "141363",
   "player_name": "Roger Pascual Ferra",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:17:24.169Z",
+  "updated": "2026-03-26T23:52:01.905Z",
   "matches": [
     {
-      "date": "20251023",
-      "tournament": "M25 Norman",
+      "date": "20250719",
+      "tournament": "M15 Monastir 28",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Vandermeersch",
+      "score": "6-1 2-6 1-6"
+    },
+    {
+      "date": "20250718",
+      "tournament": "M15 Monastir 28",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Munk Mesa",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20250717",
+      "tournament": "M15 Monastir 28",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Poling",
-      "score": "2-6 3-6"
+      "result": "W",
+      "opponent": "E. Wallart",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20251022",
-      "tournament": "M25 Norman",
+      "date": "20250716",
+      "tournament": "M15 Monastir 28",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. McKennon",
-      "score": "6-4 6-4"
+      "opponent": "M. Lavizzari",
+      "score": "4-6 0-6"
     },
     {
-      "date": "20250907",
-      "tournament": "Winston Salem",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Papamalamis",
-      "score": "5-7 3-6"
-    },
-    {
-      "date": "20250806",
-      "tournament": "M25+H Tauste",
+      "date": "20250625",
+      "tournament": "M25 Bakio",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -55,11 +68,11 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "Y. Ghazouani Durand",
-      "score": "5-7 2-6"
+      "score": "6-3 7(7)-6(1)"
     },
     {
-      "date": "20250805",
-      "tournament": "M25+H Tauste",
+      "date": "20250623",
+      "tournament": "M25 Bakio",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,25 +80,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. McCormick",
-      "score": "6-4 6-2"
+      "opponent": "L. Namigandet Tenguere",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20241010",
-      "tournament": "ITF M15 Pontevedra Men",
+      "date": "20250610",
+      "tournament": "M15 Monastir 23",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Seghetti",
+      "score": "3-6 6-2 6-4"
+    },
+    {
+      "date": "20250607",
+      "tournament": "M15 Monastir 22",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rossi",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250606",
+      "tournament": "M15 Monastir 22",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Rice",
+      "score": "3-6 7(7)-6(3) 2-6"
+    },
+    {
+      "date": "20250605",
+      "tournament": "M15 Monastir 22",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Hudd",
-      "score": "1-6 0-6"
+      "result": "W",
+      "opponent": "T. Silva",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20241009",
-      "tournament": "ITF M15 Pontevedra Men",
+      "date": "20250603",
+      "tournament": "M15 Monastir 22",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Pa. Tsitsipas",
-      "score": "7-5 6-4"
+      "opponent": "H. Pierre",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20240806",
-      "tournament": "M15+H Tauste",
+      "date": "20240717",
+      "tournament": "ITF M25 Gandia Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,34 +158,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Fernandez Flores",
-      "score": "2-6 0-6"
-    },
-    {
-      "date": "20240425",
-      "tournament": "ITF M15 Sanxenxo Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Gulin",
-      "score": "6-0 6-1"
-    },
-    {
-      "date": "20240424",
-      "tournament": "ITF M15 Sanxenxo Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Elicha Navas",
-      "score": "6-3 4-6 3-6"
+      "opponent": "C. Sanchez Jover",
+      "score": "6-2 6-2"
     }
   ]
 }
