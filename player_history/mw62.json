@@ -3,20 +3,72 @@
   "gs_id": "35694",
   "player_name": "Nikita Mashtakov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:58:18.126Z",
+  "updated": "2026-03-27T11:48:14.792Z",
   "matches": [
     {
-      "date": "20260317",
-      "tournament": "M15 Foggia",
+      "date": "20250908",
+      "tournament": "Targu Mures",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
+      "score": "4-6 7-5 1-6"
+    },
+    {
+      "date": "20250907",
+      "tournament": "Targu Mures",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Bataljin",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250822",
+      "tournament": "M15 Krakow",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Beckley",
+      "score": "3-6 6-4 7-5"
+    },
+    {
+      "date": "20250821",
+      "tournament": "M15 Krakow",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Lechno-Wasiutynski",
+      "score": "7(7)-6(5) 6-3"
+    },
+    {
+      "date": "20250819",
+      "tournament": "M15 Krakow",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. A. Caniato",
-      "score": "0-6 3-6"
+      "result": "W",
+      "opponent": "A. Orlikowski",
+      "score": "6-2 6-3"
     },
     {
       "date": "20250730",
@@ -84,45 +136,6 @@
       "score": "6-4 4-6 1-4 ret."
     },
     {
-      "date": "20250606",
-      "tournament": "M15 Tsaghkadzor 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Tiurnev",
-      "score": "5-7 6-1 6-4"
-    },
-    {
-      "date": "20250605",
-      "tournament": "M15 Tsaghkadzor 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Gretskiy",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20250604",
-      "tournament": "M15 Tsaghkadzor 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Alberti",
-      "score": "6-3 4-6 6-4"
-    },
-    {
       "date": "20250522",
       "tournament": "M25 Bol",
       "surface": "Hard",
@@ -147,45 +160,6 @@
       "result": "W",
       "opponent": "L. Vojinovic",
       "score": "3-6 5-7"
-    },
-    {
-      "date": "20241106",
-      "tournament": "M15 Szabolcsveresmart 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Ifi",
-      "score": "6(7)-7(9) 6-4 7(8)-6(6)"
-    },
-    {
-      "date": "20241029",
-      "tournament": "M15 Szabolcsveresmart",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. J. Planinsek",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20241015",
-      "tournament": "M15 Bol 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Basile",
-      "score": "7-5 7-5"
     }
   ]
 }
