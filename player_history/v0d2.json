@@ -3,24 +3,50 @@
   "gs_id": "59161",
   "player_name": "Nikita Volonski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:01:44.171Z",
+  "updated": "2026-03-27T01:49:37.932Z",
   "matches": [
     {
-      "date": "20250814",
-      "tournament": "M15 Brisbane 2",
+      "date": "20220616",
+      "tournament": "M15 Chiang Rai 5",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Sweeny",
-      "score": "3-6 4-6"
+      "opponent": "Y. Bu",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20250813",
-      "tournament": "M15 Brisbane 2",
+      "date": "20220608",
+      "tournament": "M25 Chiang Rai 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Hazawa",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20220323",
+      "tournament": "M25 Canberra 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Suzuki",
+      "score": "1-6 0-2 ret."
+    },
+    {
+      "date": "20220302",
+      "tournament": "M25 Bendigo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Ryan Ziegann",
-      "score": "4-6 6-3 1-6"
+      "opponent": "J. McCabe",
+      "score": "3-6 0-1 ret."
     },
     {
-      "date": "20250807",
-      "tournament": "M15 Brisbane",
+      "date": "20220302",
+      "tournament": "M25 Bendigo",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Sach",
-      "score": "6-2 6(4)-7(7) 4-6"
+      "opponent": "L. Tu",
+      "score": "6-2 6-0"
     },
     {
-      "date": "20250806",
-      "tournament": "M15 Brisbane",
+      "date": "20220217",
+      "tournament": "M25 Canberra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bouzige",
+      "score": "4-6 6-2 6-1"
+    },
+    {
+      "date": "20220215",
+      "tournament": "M25 Canberra 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +93,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Host",
-      "score": "6-3 6-1"
+      "opponent": "L. Bataljin",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20220208",
+      "tournament": "M25 Canberra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. C. Romios",
+      "score": "4-6 4-6"
     }
   ]
 }
