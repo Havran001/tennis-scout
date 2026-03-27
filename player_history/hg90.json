@@ -1,39 +1,39 @@
 {
   "player_id": "hg90",
-  "gs_id": "127810",
-  "player_name": "Mateo Del Pino",
+  "gs_id": "75112",
+  "player_name": "Conner Huertas Del Pino",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:07:37.016Z",
+  "updated": "2026-03-27T06:57:03.051Z",
   "matches": [
     {
-      "date": "20240514",
-      "tournament": "ITF M25 Reggio Emilia Men",
+      "date": "20231013",
+      "tournament": "ITF M25 Lajeado Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Dalla Valle",
-      "score": "2-6 4-6"
+      "opponent": "L. Aboian",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20230824",
-      "tournament": "M15 Sao Paulo",
+      "date": "20231012",
+      "tournament": "ITF M25 Lajeado Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Pacheco Mendez",
-      "score": "6-0 6-4"
+      "result": "W",
+      "opponent": "D. Dutra Da Silva",
+      "score": "7(7)-6(3) 7-5"
     },
     {
-      "date": "20230822",
-      "tournament": "M15 Sao Paulo",
+      "date": "20231011",
+      "tournament": "ITF M25 Lajeado Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. F. Gobbi Brandao",
-      "score": "2-6 2-6"
+      "opponent": "I. Gimenez",
+      "score": "4-6 6-1 4-6"
     },
     {
-      "date": "20230808",
-      "tournament": "M15 Arequipa",
+      "date": "20231005",
+      "tournament": "M25 Mendoza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. F. Descotte",
+      "score": "4-6 6-3 6(5)-7(7)"
+    },
+    {
+      "date": "20231004",
+      "tournament": "M25 Mendoza",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Barreiros Reyes",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230817",
+      "tournament": "M25 Trujillo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "J. Estevez",
-      "score": "6-4 7(7)-6(4)"
+      "opponent": "R. Cid Subervi",
+      "score": "7-5 2-6 1-5 ret."
+    },
+    {
+      "date": "20230815",
+      "tournament": "M25 Trujillo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Panta",
+      "score": "6-4 6-1"
     }
   ]
 }
