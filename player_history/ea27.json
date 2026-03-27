@@ -3,7 +3,7 @@
   "gs_id": "34432",
   "player_name": "Blake Ellis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:06:40.041Z",
+  "updated": "2026-03-27T08:03:40.000Z",
   "matches": [
     {
       "date": "20241117",
@@ -71,8 +71,8 @@
       "score": "6-4 6-3"
     },
     {
-      "date": "20240423",
-      "tournament": "Shenzhen 3",
+      "date": "20240617",
+      "tournament": "Sassuolo Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -80,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Berankis",
-      "score": "4-6 7(7)-6(1) 4-0 ret."
+      "opponent": "G. Andreozzi",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240422",
-      "tournament": "Shenzhen 3",
+      "date": "20240616",
+      "tournament": "Sassuolo Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -93,8 +93,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Echargui",
-      "score": "6-3 6(5)-7(7) 6(3)-7(7)"
+      "opponent": "F. Gaio",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20240506",
+      "tournament": "Wuxi Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Bai",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20240505",
+      "tournament": "Wuxi Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Tang",
+      "score": "3-6 1-6"
     },
     {
       "date": "20240227",
@@ -186,19 +212,6 @@
       "result": "W",
       "opponent": "H. Liu",
       "score": "6-3 6-2"
-    },
-    {
-      "date": "20230813",
-      "tournament": "Stanford",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Brumm",
-      "score": "3-6 3-3 ret."
     }
   ]
 }
