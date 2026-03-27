@@ -3,11 +3,11 @@
   "gs_id": "313519",
   "player_name": "Nav Dayal",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:04:38.127Z",
+  "updated": "2026-03-27T02:57:09.959Z",
   "matches": [
     {
-      "date": "20251127",
-      "tournament": "M25 Heraklion 3",
+      "date": "20250703",
+      "tournament": "M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Tabacco",
-      "score": "6-2 6-0"
+      "opponent": "I. Strode",
+      "score": "0-6 6-2 1-6"
     },
     {
-      "date": "20251126",
-      "tournament": "M25 Heraklion 3",
+      "date": "20250702",
+      "tournament": "M15 Los Angeles",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Christoforakis",
-      "score": "2-6 0-6"
+      "opponent": "B. O&apos;Connell",
+      "score": "6(1)-7(7) 4-6"
+    },
+    {
+      "date": "20250604",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Nakashima",
+      "score": "2-6 6-1 7-5"
+    },
+    {
+      "date": "20250527",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Murali",
+      "score": "3-6 4-6"
     }
   ]
 }
