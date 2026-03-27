@@ -3,8 +3,34 @@
   "gs_id": "162536",
   "player_name": "Aleksander Chayka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:10:17.022Z",
+  "updated": "2026-03-27T08:25:16.070Z",
   "matches": [
+    {
+      "date": "20251208",
+      "tournament": "M15 Ceuta",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Avcibasi",
+      "score": "6-0 2-6 7-5"
+    },
+    {
+      "date": "20251119",
+      "tournament": "M15 Alcala de Henares",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Vandermeersch",
+      "score": "6(4)-7(7) 5-7"
+    },
     {
       "date": "20250904",
       "tournament": "M15 Szczawno",
@@ -71,6 +97,19 @@
       "score": "4-6 5-7"
     },
     {
+      "date": "20250611",
+      "tournament": "M15 Oradea",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Grzegorzewski",
+      "score": "6-1 0-0 ret."
+    },
+    {
       "date": "20240828",
       "tournament": "ITF M15 Szczawno Men",
       "surface": "Hard",
@@ -123,21 +162,34 @@
       "score": "7(7)-6(4) 3-6 6(2)-7(7)"
     },
     {
-      "date": "20240614",
-      "tournament": "ITF M15 Nyiregyhaza Men",
+      "date": "20240528",
+      "tournament": "ITF M15 Gyula Men",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Kellovsky",
-      "score": "6-2 5-7 6-0"
+      "opponent": "A. Gola",
+      "score": "4-6 7-5 2-6"
     },
     {
-      "date": "20240613",
-      "tournament": "ITF M15 Nyiregyhaza Men",
+      "date": "20240523",
+      "tournament": "ITF M15 Bucharest 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Boitan",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20240522",
+      "tournament": "ITF M15 Bucharest 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,8 +197,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Lehmann",
-      "score": "4-6 6(6)-7(8)"
+      "opponent": "L. Sciahbasi",
+      "score": "6-4 7-6"
+    },
+    {
+      "date": "20231109",
+      "tournament": "ITF M25 Trnava 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Colson",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20231108",
+      "tournament": "ITF M25 Trnava 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Ejupovic",
+      "score": "7(7)-6(5) 4-6 6(4)-7(7)"
+    },
+    {
+      "date": "20230926",
+      "tournament": "M25 Pazardzhik",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Chepelev",
+      "score": "6-3 6-0"
     }
   ]
 }
