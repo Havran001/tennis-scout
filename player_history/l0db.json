@@ -3,102 +3,63 @@
   "gs_id": "142106",
   "player_name": "Giuseppe La Vela",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:56:33.900Z",
+  "updated": "2026-03-27T02:53:55.956Z",
   "matches": [
     {
-      "date": "20260315",
-      "tournament": "Zadar",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Cerny",
-      "score": "2-6 0-6"
-    },
-    {
-      "date": "20250814",
-      "tournament": "M15 Pirot",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Misasi",
-      "score": "7(7)-6(4) 4-6 6-4"
-    },
-    {
-      "date": "20250812",
-      "tournament": "M15 Pirot",
+      "date": "20250415",
+      "tournament": "M15 Dubrovnik",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Jovic",
-      "score": "6-2 7(7)-6(5)"
-    },
-    {
-      "date": "20250628",
-      "tournament": "M15 Bergamo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "G. Ferrari",
-      "score": "6-2 6-4"
+      "opponent": "D. Blanch",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20250627",
-      "tournament": "M15 Bergamo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Malgaroli",
-      "score": "6-1 1-6 7-5"
-    },
-    {
-      "date": "20250626",
-      "tournament": "M15 Bergamo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Angelini",
-      "score": "6-4 4-6 1-6"
-    },
-    {
-      "date": "20250624",
-      "tournament": "M15 Bergamo",
+      "date": "20250408",
+      "tournament": "M25 Santa Margherita di Pula 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Crisostomo",
+      "result": "L",
+      "opponent": "N. Catini",
+      "score": "7(7)-6(5) 6-2"
+    },
+    {
+      "date": "20250331",
+      "tournament": "M25 Santa Margherita di Pula",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Juarez",
+      "score": "6-3 4-6 1-6"
+    },
+    {
+      "date": "20240709",
+      "tournament": "M25 Padova",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Collarini",
       "score": "6-4 6-3"
     },
     {
-      "date": "20240625",
-      "tournament": "ITF M15 Bergamo Men",
+      "date": "20240610",
+      "tournament": "M15 Chieti",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +67,90 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Cadenasso",
-      "score": "2-6 3-6"
+      "opponent": "L. Sciahbasi",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240419",
-      "tournament": "ITF M15 Antalya 11 Men",
+      "date": "20240222",
+      "tournament": "ITF M25 Antalya 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Houkes",
+      "score": "7(7)-6(4) 6-1"
+    },
+    {
+      "date": "20240221",
+      "tournament": "ITF M25 Antalya 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Arinc",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20231116",
+      "tournament": "M15 Cochabamba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Tenti",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20231114",
+      "tournament": "M15 Cochabamba",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. A. Falabella",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20230907",
+      "tournament": "ITF M25 Maribor 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Vrbensky",
+      "score": "6-2 4-6 6-3"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M25 Maribor 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Minin",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20230825",
+      "tournament": "ITF M25 Lesa Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -119,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Picchione",
-      "score": "4-6 4-6"
+      "opponent": "F. Arnaboldi",
+      "score": "1-6 6(2)-7(7)"
     },
     {
-      "date": "20240418",
-      "tournament": "ITF M15 Antalya 11 Men",
+      "date": "20230824",
+      "tournament": "ITF M25 Lesa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -132,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Pecci",
-      "score": "3-6 6(3)-7(7)"
+      "opponent": "G. C. Lee",
+      "score": "3-6 6-2 7-5"
     },
     {
-      "date": "20240417",
-      "tournament": "ITF M15 Antalya 11 Men",
+      "date": "20230822",
+      "tournament": "ITF M25 Lesa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Sosedkin",
-      "score": "0-6 0-6"
+      "opponent": "M. Poljicak",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20240411",
-      "tournament": "ITF M15 Antalya 10 Men",
+      "date": "20230727",
+      "tournament": "ITF M15 Metzingen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -158,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Prihodko",
-      "score": "6-2 6-2"
+      "opponent": "A. M. Jong",
+      "score": "6-1 6(2)-7(7) 7-5"
     },
     {
-      "date": "20240409",
-      "tournament": "ITF M15 Antalya 10 Men",
+      "date": "20230726",
+      "tournament": "ITF M15 Metzingen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,12 +210,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Lyeons",
-      "score": "3-6 3-6"
+      "opponent": "M. Hoffmann",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20231026",
-      "tournament": "M15 Telavi",
+      "date": "20220720",
+      "tournament": "M15 Gubbio",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -184,12 +223,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Perruzza",
-      "score": "6-4 6-1"
+      "opponent": "L. Potenza",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20231025",
-      "tournament": "M15 Telavi",
+      "date": "20220719",
+      "tournament": "M15 Gubbio",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -197,12 +236,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Bidzinashvili",
-      "score": "6-1 6-2"
+      "opponent": "D. Minighini",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20230816",
-      "tournament": "ITF M25 Muttenz Men",
+      "date": "20220712",
+      "tournament": "M15 Aprilia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -210,12 +249,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Weis",
-      "score": "6(4)-7(7) 4-6"
+      "opponent": "F. E. Egea",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230804",
-      "tournament": "ITF M25 Wetzlar Men",
+      "date": "20220512",
+      "tournament": "M25 Santa Margherita di Pula 5",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -223,12 +262,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Gadamauri",
-      "score": "7(8)-6(6) 6-1"
+      "opponent": "M. Gigante",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20230803",
-      "tournament": "ITF M25 Wetzlar Men",
+      "date": "20220511",
+      "tournament": "M25 Santa Margherita di Pula 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -236,12 +275,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Salazar",
-      "score": "6-3 6-2"
+      "opponent": "S. Battaglino",
+      "score": "6-4 2-6 1-6"
     },
     {
-      "date": "20211020",
-      "tournament": "M15 Antalya 28",
+      "date": "20220426",
+      "tournament": "M25 Santa Margherita di Pula 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -249,8 +288,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Chepelev",
-      "score": "5-7 2-6"
+      "opponent": "B. P. Toledo",
+      "score": "6-2 6-1"
     }
   ]
 }
