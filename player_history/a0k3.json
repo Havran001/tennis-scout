@@ -1,52 +1,52 @@
 {
   "player_id": "a0k3",
-  "gs_id": "170709",
-  "player_name": "Mikael Arseneault",
+  "gs_id": "170710",
+  "player_name": "Nicolas Arseneault",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:26:08.070Z",
+  "updated": "2026-03-27T08:26:33.073Z",
   "matches": [
     {
-      "date": "20250508",
-      "tournament": "M15 Villahermosa",
+      "date": "20251014",
+      "tournament": "Lincoln",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Martin",
-      "score": "2-6 2-6"
+      "opponent": "M. Damm",
+      "score": "6-4 6(4)-7(7) 4-6"
     },
     {
-      "date": "20250506",
-      "tournament": "M15 Villahermosa",
+      "date": "20251013",
+      "tournament": "Lincoln",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Sonne",
-      "score": "6-1 6-1"
+      "opponent": "S. Kirchheimer",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20250212",
-      "tournament": "M15 Huamantla 3",
+      "date": "20251012",
+      "tournament": "Lincoln",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. P. Van Noord",
-      "score": "6-1 6-2"
+      "result": "W",
+      "opponent": "O. Baris",
+      "score": "7-5 7(8)-6(6)"
     },
     {
-      "date": "20250207",
-      "tournament": "M15 Huamantla 2",
+      "date": "20250214",
+      "tournament": "M15 Huamantla 3",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -54,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Bertran",
-      "score": "7(7)-6(2) 2-6 0-6"
+      "opponent": "N. P. Van Noord",
+      "score": "4-6 6-0 6-3"
+    },
+    {
+      "date": "20250213",
+      "tournament": "M15 Huamantla 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Pannu",
+      "score": "6-4 2-6 4-6"
+    },
+    {
+      "date": "20250211",
+      "tournament": "M15 Huamantla 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Senn",
+      "score": "2-6 6-4 1-6"
     },
     {
       "date": "20250206",
@@ -66,9 +92,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Hollender",
-      "score": "1-6 1-6"
+      "result": "L",
+      "opponent": "A. Perez",
+      "score": "6(8)-7(10) 3-6"
     },
     {
       "date": "20250205",
@@ -80,11 +106,24 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. McKennon",
+      "opponent": "R. De Alba",
+      "score": "6-1 6-0"
+    },
+    {
+      "date": "20250130",
+      "tournament": "M15 Huamantla",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Strode",
       "score": "6-2 6-4"
     },
     {
-      "date": "20250129",
+      "date": "20250128",
       "tournament": "M15 Huamantla",
       "surface": "Hard",
       "level": "I",
@@ -92,9 +131,48 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "Jr. J. Lawrence",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250109",
+      "tournament": "M25 Ithaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "A. Kobelt",
-      "score": "6-3 6-4"
+      "opponent": "S. Kirchheimer",
+      "score": "3-6 6-4 0-6"
+    },
+    {
+      "date": "20250108",
+      "tournament": "M25 Ithaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Escobedo",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20241009",
+      "tournament": "M25 Edmonton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Maloney",
+      "score": "6(2)-7(7) 0-6"
     },
     {
       "date": "20241008",
@@ -105,9 +183,9 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. N. Tudorica",
-      "score": "3-6 4-6"
+      "result": "W",
+      "opponent": "A. V. Ispas",
+      "score": "1-6 5-7"
     }
   ]
 }
