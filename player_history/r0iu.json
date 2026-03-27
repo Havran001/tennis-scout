@@ -3,50 +3,63 @@
   "gs_id": "177513",
   "player_name": "William Rejchtman Vinciguerra",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:02:56.126Z",
+  "updated": "2026-03-27T03:54:50.970Z",
   "matches": [
     {
-      "date": "20260113",
-      "tournament": "M15 Manacor 2",
+      "date": "20251116",
+      "tournament": "M15 Heraklion 14",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Abe",
-      "score": "3-0 ret."
+      "result": "W",
+      "opponent": "Pe. Tsitsipas",
+      "score": "6-4 3-6 6-4"
     },
     {
-      "date": "20260107",
-      "tournament": "M15 Oslo",
+      "date": "20251115",
+      "tournament": "M15 Heraklion 14",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. H. Rehberg",
-      "score": "6-3 6-4"
+      "result": "W",
+      "opponent": "U. Ignatik",
+      "score": "3-6 0-0 ret."
     },
     {
-      "date": "20250814",
-      "tournament": "M15 Ystad",
+      "date": "20251114",
+      "tournament": "M15 Heraklion 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Walters",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20251113",
+      "tournament": "M15 Heraklion 14",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Staeheli",
-      "score": "3-6 6-4 6-2"
+      "result": "W",
+      "opponent": "J. Nikles",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20250813",
-      "tournament": "M15 Ystad",
+      "date": "20251111",
+      "tournament": "M15 Heraklion 14",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,34 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Kypriotis",
-      "score": "2-6 0-6"
+      "opponent": "J. Filip",
+      "score": "6-3 2-6 6(9)-7(11)"
     },
     {
-      "date": "20240815",
-      "tournament": "ITF M15 Ystad Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Durasovic",
-      "score": "7(7)-6(4) 4-6 6-3"
-    },
-    {
-      "date": "20240814",
-      "tournament": "ITF M15 Ystad Men",
+      "date": "20250617",
+      "tournament": "M15 Duffel",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Garcia Mestre",
-      "score": "0-6 2-6"
+      "result": "L",
+      "opponent": "N. Ifi",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20230920",
+      "tournament": "M15 Danderyd",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Friberg",
+      "score": "6-3 2-6 3-6"
     }
   ]
 }
