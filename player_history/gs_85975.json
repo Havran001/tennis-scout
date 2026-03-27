@@ -3,50 +3,37 @@
   "gs_id": "85975",
   "player_name": "Hans Rehberg Max",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:18:25.068Z",
+  "updated": "2026-03-27T12:09:23.532Z",
   "matches": [
     {
-      "date": "20250327",
-      "tournament": "Naples",
+      "date": "20260111",
+      "tournament": "M15 Oslo",
       "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Herbert",
-      "score": "5-7 4-6"
-    },
-    {
-      "date": "20250325",
-      "tournament": "Naples",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
+      "level": "I",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Seyboth Wild",
-      "score": "3-6 6-3 6-4"
+      "opponent": "A. Knaff",
+      "score": "2-6 6-4 3-6"
     },
     {
-      "date": "20240120",
-      "tournament": "ITF M15 Cadolzburg Men",
+      "date": "20260110",
+      "tournament": "M15 Oslo",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Masur",
-      "score": "1-6 6(4)-7(7)"
+      "result": "W",
+      "opponent": "K. Friberg",
+      "score": "4-6 7-5 2-6"
     },
     {
-      "date": "20240119",
-      "tournament": "ITF M15 Cadolzburg Men",
+      "date": "20260109",
+      "tournament": "M15 Oslo",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Gentzsch",
-      "score": "7(7)-6(4) 6-2"
+      "opponent": "A. Petrovic",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20240118",
-      "tournament": "ITF M15 Cadolzburg Men",
+      "date": "20260108",
+      "tournament": "M15 Oslo",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Marysko",
-      "score": "6-2 7(9)-6(7)"
+      "opponent": "G. Brouwer",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20240117",
-      "tournament": "ITF M15 Cadolzburg Men",
+      "date": "20260107",
+      "tournament": "M15 Oslo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Cubelic",
-      "score": "4-6 6-4 7-5"
+      "opponent": "W. Rejchtman Vinciguerra",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20250303",
+      "tournament": "Thionville",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Zhukayev",
+      "score": "6(4)-7(7) 1-6"
+    },
+    {
+      "date": "20240806",
+      "tournament": "Bonn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Dellien",
+      "score": "3-6 1-6"
     }
   ]
 }
