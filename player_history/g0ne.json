@@ -3,20 +3,33 @@
   "gs_id": "42332",
   "player_name": "Javier Guzman",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:49:39.895Z",
+  "updated": "2026-03-27T06:00:20.110Z",
   "matches": [
     {
-      "date": "20060925",
-      "tournament": "Palermo",
+      "date": "20230809",
+      "tournament": "M15 Arequipa",
       "surface": "Hard",
-      "level": "B",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Rodrigues",
+      "score": "5-7 7(7)-6(4) 2-6"
+    },
+    {
+      "date": "20230809",
+      "tournament": "M15 Arequipa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "M. Vassallo-Arguello",
-      "score": "6-2 3-6 5-7"
+      "opponent": "A. Guillen Meza",
+      "score": "1-6 2-6"
     }
   ]
 }
