@@ -1,1 +1,48 @@
-{"player_id":"l0js","gs_id":"188075","player_name":"Aryan Lakshmanan","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"4htLRWSg","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Ahmedabad (India), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Chauhan H.","score":"0-1","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20260211","tournament":"Chennai","surface":"Hard","level":"C","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"M. Kasnikowski","score":"7-5 6-2"},{"date":"20260209","tournament":"Chennai","surface":"Hard","level":"C","round":"F","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"K. R. Ganta S.","score":"7(8)-6(6) 6(2)-7(7) 2-6"},{"date":"20260208","tournament":"Chennai","surface":"Hard","level":"C","round":"SF","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"V. Konovchuk","score":"6-2 6-1"}],"total":4}
+{
+  "player_id": "l0js",
+  "gs_id": "188075",
+  "player_name": "Aryan Lakshmanan",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T19:01:07.780Z",
+  "matches": [
+    {
+      "date": "20260211",
+      "tournament": "Chennai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Kasnikowski",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20260209",
+      "tournament": "Chennai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. R. Ganta S.",
+      "score": "7(8)-6(6) 6(2)-7(7) 2-6"
+    },
+    {
+      "date": "20260208",
+      "tournament": "Chennai",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Konovchuk",
+      "score": "6-2 6-1"
+    }
+  ]
+}
