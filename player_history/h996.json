@@ -3,11 +3,24 @@
   "gs_id": "2060",
   "player_name": "Pierre-Hugues Herbert",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:55:58.926Z",
+  "updated": "2026-03-27T03:44:03.985Z",
   "matches": [
     {
-      "date": "20241011",
-      "tournament": "Roanne",
+      "date": "20240102",
+      "tournament": "Nonthaburi Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. C. Hong",
+      "score": "4-6 6-2 3-6"
+    },
+    {
+      "date": "20231124",
+      "tournament": "Valencia Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Bonzi",
-      "score": "7(13)-6(11) 4-6 4-6"
+      "opponent": "F. Fognini",
+      "score": "4-6 5-7"
     },
     {
-      "date": "20241010",
-      "tournament": "Roanne",
+      "date": "20231123",
+      "tournament": "Valencia Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Royer",
-      "score": "4-6 6(3)-7(7)"
+      "opponent": "A. Andreev",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20241009",
-      "tournament": "Roanne",
+      "date": "20231121",
+      "tournament": "Valencia Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,12 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Sels",
-      "score": "3-6 4-6"
+      "opponent": "C. Moutet",
+      "score": "3-6 6-4 6-1"
     },
     {
-      "date": "20220322",
-      "tournament": "Biel",
+      "date": "20231120",
+      "tournament": "Valencia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "0-6 7(7)-6(4) 6-1"
+    },
+    {
+      "date": "20231119",
+      "tournament": "Valencia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Cordoba",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20220405",
+      "tournament": "Sanremo",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Gojo",
-      "score": "6(0)-7(7) 6-3 6-3"
+      "opponent": "M. Zekic",
+      "score": "4-6 6-3 6-3"
     }
   ]
 }
