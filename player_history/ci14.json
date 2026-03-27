@@ -3,8 +3,34 @@
   "gs_id": "21111",
   "player_name": "Jay Clarke",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:33.031Z",
+  "updated": "2026-03-27T08:02:28.155Z",
   "matches": [
+    {
+      "date": "20260311",
+      "tournament": "Kigali 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Martin",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20260310",
+      "tournament": "Kigali 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Steiner",
+      "score": "7(7)-6(5) 3-6 3-6"
+    },
     {
       "date": "20260303",
       "tournament": "Kigali",
@@ -19,8 +45,8 @@
       "score": "7(7)-6(5) 3-6 7(17)-6(15)"
     },
     {
-      "date": "20250323",
-      "tournament": "M15 Ahmedabad",
+      "date": "20250316",
+      "tournament": "M15 Chandigarh",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Binda",
-      "score": "6-3 7(7)-6(4)"
+      "opponent": "W. Shin",
+      "score": "7(7)-6(5) 4-6 6-0"
     },
     {
-      "date": "20250322",
-      "tournament": "M15 Ahmedabad",
+      "date": "20250315",
+      "tournament": "M15 Chandigarh",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -41,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Shah",
-      "score": "3-6 7(7)-6(5) 6-2"
+      "opponent": "S. Vujic",
+      "score": "6-3 7(7)-6(3)"
     },
     {
-      "date": "20250321",
-      "tournament": "M15 Ahmedabad",
+      "date": "20250314",
+      "tournament": "M15 Chandigarh",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. K. Sinha",
-      "score": "6-3 7-5"
+      "opponent": "M. Kamath",
+      "score": "7-5 4-1 ret."
     },
     {
-      "date": "20250320",
-      "tournament": "M15 Ahmedabad",
+      "date": "20250313",
+      "tournament": "M15 Chandigarh",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Eqbal",
-      "score": "6-3 6-1"
+      "opponent": "A. Shanmugam",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20250319",
-      "tournament": "M15 Ahmedabad",
+      "date": "20250312",
+      "tournament": "M15 Chandigarh",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,7 +106,7 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Tyagi",
+      "opponent": "S. Banthia",
       "score": "6-3 6-2"
     },
     {
@@ -97,8 +123,60 @@
       "score": "6-2 5-7 2-6"
     },
     {
-      "date": "20240827",
-      "tournament": "M25 Hong Kong",
+      "date": "20240608",
+      "tournament": "M25 Sarajevo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Basic",
+      "score": "5-7 6-2 6(1)-7(7)"
+    },
+    {
+      "date": "20240607",
+      "tournament": "M25 Sarajevo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Oetzbach",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20240606",
+      "tournament": "M25 Sarajevo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Matsuda",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240605",
+      "tournament": "M25 Sarajevo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Petrovic",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20240409",
+      "tournament": "M25 Hammamet 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +184,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Rodesch",
-      "score": "4-6 4-6"
+      "opponent": "E. Butvilas",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240403",
+      "tournament": "M25 Hammamet 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Juszczak",
+      "score": "6-3 4-6 2-6"
+    },
+    {
+      "date": "20240323",
+      "tournament": "ITF M25 Badalona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Giustino",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240322",
+      "tournament": "ITF M25 Badalona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Alcala Gurri",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240321",
+      "tournament": "ITF M25 Badalona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. K. Bonsach",
+      "score": "3-6 6-4 2-6"
+    },
+    {
+      "date": "20240320",
+      "tournament": "ITF M25 Badalona Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Manzanera Pertusa",
+      "score": "6(7)-7(9) 5-7"
     },
     {
       "date": "20240225",
