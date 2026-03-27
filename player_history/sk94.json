@@ -3,20 +3,59 @@
   "gs_id": "1758",
   "player_name": "Cedrik-Marcel Stebe",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:55:56.047Z",
+  "updated": "2026-03-27T10:57:00.121Z",
   "matches": [
     {
-      "date": "20250114",
-      "tournament": "M15 Cadolzburg",
+      "date": "20260128",
+      "tournament": "San Diego",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Wiskandt",
-      "score": "6-4 7-5"
+      "opponent": "M. Krueger",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20250616",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Hemery",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250407",
+      "tournament": "Monza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kuzmanov",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20250406",
+      "tournament": "Monza",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Ch. Negritu",
+      "score": "7-5 7-5"
     }
   ]
 }
