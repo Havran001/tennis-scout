@@ -3,11 +3,11 @@
   "gs_id": "58498",
   "player_name": "Bekkhan Atlangeriev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:14:18.071Z",
+  "updated": "2026-03-27T12:01:23.199Z",
   "matches": [
     {
-      "date": "20250916",
-      "tournament": "M25 Takasaki",
+      "date": "20251014",
+      "tournament": "M15 Offenbach",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Kumasaka",
-      "score": "6-3 6-2"
+      "opponent": "K. Kivattsev",
+      "score": "6-1 7(9)-6(7)"
     },
     {
       "date": "20250904",
@@ -45,6 +45,84 @@
       "score": "6-3 6-1"
     },
     {
+      "date": "20250715",
+      "tournament": "M15 Nakhon Pathom",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Mochizuki",
+      "score": "2-6 0-2 ret."
+    },
+    {
+      "date": "20250709",
+      "tournament": "M15 Maanshan 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Ozolins",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250529",
+      "tournament": "M15 Tsaghkadzor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Lobanov",
+      "score": "5-7 6-2 2-6"
+    },
+    {
+      "date": "20250528",
+      "tournament": "M15 Tsaghkadzor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Sarksian",
+      "score": "2-6 6(6)-7(8)"
+    },
+    {
+      "date": "20250511",
+      "tournament": "Oeiras 6",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Nijboer",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20250107",
+      "tournament": "M15 Oslo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Lane",
+      "score": "1-6 3-6"
+    },
+    {
       "date": "20240704",
       "tournament": "M15 Ust-Kamenogorsk 2",
       "surface": "Hard",
@@ -69,19 +147,6 @@
       "result": "W",
       "opponent": "A. Chepik",
       "score": "2-6 4-6"
-    },
-    {
-      "date": "20231018",
-      "tournament": "M25 Telavi 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Denisov",
-      "score": "3-6 3-6"
     }
   ]
 }
