@@ -1,1 +1,48 @@
-{"player_id":"r0lr","sack_id":"212992","name":"Niels Ratiu","total":0,"matches":[]}
+{
+  "player_id": "r0lr",
+  "gs_id": "267296",
+  "player_name": "Niels Ratiu",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T01:56:03.934Z",
+  "matches": [
+    {
+      "date": "20250620",
+      "tournament": "M15 Duffel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Colson",
+      "score": "6-0 7-5"
+    },
+    {
+      "date": "20250619",
+      "tournament": "M15 Duffel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Demanet",
+      "score": "3-6 7(7)-6(4) 6(2)-7(7)"
+    },
+    {
+      "date": "20250618",
+      "tournament": "M15 Duffel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Bastiaansen",
+      "score": "3-6 3-6"
+    }
+  ]
+}
