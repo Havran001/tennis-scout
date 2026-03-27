@@ -1,1 +1,35 @@
-{"player_id":"h0e7","gs_id":"142051","player_name":"John Hallquist Lithen","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"jghV07I0","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Monastir 11 (Tunisia), hard","surface":"Hard","level":"A","round":"","result":"L","opponent":"Alkaya M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20250123","tournament":"M15 Antalya 3","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"M. Maksimovic","score":"5-7 1-6"},{"date":"20250115","tournament":"M15 Antalya 2","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"S. Polukhin","score":"6-3 6-3"}],"total":3}
+{
+  "player_id": "h0e7",
+  "gs_id": "142051",
+  "player_name": "John Hallquist Lithen",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:59:04.778Z",
+  "matches": [
+    {
+      "date": "20250123",
+      "tournament": "M15 Antalya 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Maksimovic",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250115",
+      "tournament": "M15 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Polukhin",
+      "score": "6-3 6-3"
+    }
+  ]
+}
