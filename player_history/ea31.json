@@ -3,24 +3,37 @@
   "gs_id": "37565",
   "player_name": "Melios Efstathiou",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:58:03.331Z",
+  "updated": "2026-03-27T07:07:01.054Z",
   "matches": [
     {
-      "date": "20250313",
-      "tournament": "ITF M15 Alaminos Men",
+      "date": "20260116",
+      "tournament": "M15 Manacor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Basing",
+      "score": "6-2 1-6 0-6"
+    },
+    {
+      "date": "20260115",
+      "tournament": "M15 Manacor 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Djuric",
-      "score": "0-6 1-6"
+      "result": "W",
+      "opponent": "T. Stringer",
+      "score": "6(2)-7(7) 5-7"
     },
     {
-      "date": "20250312",
-      "tournament": "ITF M15 Alaminos Men",
+      "date": "20260113",
+      "tournament": "M15 Manacor 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Ferrari",
-      "score": "1-6 3-6"
+      "opponent": "J. Simundza",
+      "score": "7-5 6-1"
     },
     {
-      "date": "20240320",
-      "tournament": "M15 Alaminos-Larnaca 2",
+      "date": "20231129",
+      "tournament": "M15 Limassol 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Pennaforti",
-      "score": "2-6 3-6"
+      "opponent": "S. Kyratzis",
+      "score": "4-6 6-4 6-4"
     },
     {
-      "date": "20240313",
-      "tournament": "M15 Alaminos-Larnaca",
+      "date": "20231123",
+      "tournament": "M15 Limassol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nicod",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20231122",
+      "tournament": "M15 Limassol",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Cadenasso",
-      "score": "6-2 6-2"
+      "result": "W",
+      "opponent": "C. Koshis",
+      "score": "6-3 6-3"
     },
     {
       "date": "20230809",
