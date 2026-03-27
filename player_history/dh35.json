@@ -3,24 +3,37 @@
   "gs_id": "34695",
   "player_name": "Matteo De Vincentis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:41:52.003Z",
+  "updated": "2026-03-27T06:55:56.028Z",
   "matches": [
     {
-      "date": "20250313",
-      "tournament": "ITF M15 Alaminos Men",
+      "date": "20240906",
+      "tournament": "M15 Constanta 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Palosi",
+      "score": "6-4 5-7 2-6"
+    },
+    {
+      "date": "20240905",
+      "tournament": "M15 Constanta 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Wenger",
-      "score": "6-3 6-4"
+      "result": "W",
+      "opponent": "M. Zielinski",
+      "score": "7(9)-6(7) 6-3"
     },
     {
-      "date": "20250312",
-      "tournament": "ITF M15 Alaminos Men",
+      "date": "20240904",
+      "tournament": "M15 Constanta 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Baldovinetti",
-      "score": "6-3 6(4)-7(7) 1-3 ret."
+      "opponent": "C. G. Papoe",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20240704",
-      "tournament": "ITF M15 Store Men",
+      "date": "20240822",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Andreescu",
+      "score": "5-7 6-2 6(4)-7(7)"
+    },
+    {
+      "date": "20240821",
+      "tournament": "ITF M15 Arad Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Cerny",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "C. T. Stirbu",
+      "score": "6-4 3-6 6-1"
     },
     {
-      "date": "20240703",
-      "tournament": "ITF M15 Store Men",
+      "date": "20240820",
+      "tournament": "ITF M15 Arad Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Vetrih",
-      "score": "4-6 1-6"
+      "opponent": "M. Krajci",
+      "score": "6-2 4-6 7(7)-6(5)"
     },
     {
-      "date": "20240627",
-      "tournament": "ITF M15 Tanger Men",
+      "date": "20240815",
+      "tournament": "ITF M15 Targu Jiu Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "6-4 6-0"
+      "opponent": "C. T. Stirbu",
+      "score": "3-6 7(9)-6(7) 1-6"
     },
     {
-      "date": "20240626",
-      "tournament": "ITF M15 Tanger Men",
+      "date": "20240813",
+      "tournament": "ITF M15 Targu Jiu Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +106,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "H. El Amine",
-      "score": "4-6 7(7)-6(3) 1-6"
+      "opponent": "V. A. Dancu",
+      "score": "7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Constanta 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Palosi",
+      "score": "2-6 6(4)-7(7)"
     }
   ]
 }
