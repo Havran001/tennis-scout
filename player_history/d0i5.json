@@ -3,20 +3,46 @@
   "gs_id": "166765",
   "player_name": "Max Dahlin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:52:46.942Z",
+  "updated": "2026-03-27T02:56:02.958Z",
   "matches": [
     {
-      "date": "20230607",
-      "tournament": "ITF M15 Vaasa Men",
+      "date": "20230818",
+      "tournament": "M25 Ystad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Friberg",
+      "score": "6(3)-7(7) 6-2 7-5"
+    },
+    {
+      "date": "20230817",
+      "tournament": "M25 Ystad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Renard",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Ystad",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Giacomini",
-      "score": "3-6 4-6"
+      "result": "W",
+      "opponent": "W. Olsson",
+      "score": "6-0 6-0"
     }
   ]
 }
