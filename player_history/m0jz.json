@@ -3,8 +3,21 @@
   "gs_id": "78975",
   "player_name": "Filip Misolic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:57:18.030Z",
+  "updated": "2026-03-27T08:15:29.573Z",
   "matches": [
+    {
+      "date": "20250303",
+      "tournament": "Kigali 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Den Ouden",
+      "score": "2-6 2-6"
+    },
     {
       "date": "20250108",
       "tournament": "Nottingham 3",
@@ -30,71 +43,6 @@
       "result": "W",
       "opponent": "M. Vrbensky",
       "score": "3-6 6(4)-7(7)"
-    },
-    {
-      "date": "20240919",
-      "tournament": "Bad Waltersdorf",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Djere",
-      "score": "4-6 6(3)-7(7)"
-    },
-    {
-      "date": "20240918",
-      "tournament": "Bad Waltersdorf",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Handel",
-      "score": "6(5)-7(7) 5-7"
-    },
-    {
-      "date": "20230922",
-      "tournament": "Bad Waltersdorf Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Ramos",
-      "score": "2-6 6-4 3-6"
-    },
-    {
-      "date": "20230921",
-      "tournament": "Bad Waltersdorf Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Fognini",
-      "score": "6-3 1-0 ret."
-    },
-    {
-      "date": "20230920",
-      "tournament": "Bad Waltersdorf Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Stodder",
-      "score": "1-6 7-5 3-6"
     }
   ]
 }
