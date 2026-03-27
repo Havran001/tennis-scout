@@ -3,8 +3,34 @@
   "gs_id": "136367",
   "player_name": "Bryce Nakashima",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:21:04.068Z",
+  "updated": "2026-03-27T09:28:49.094Z",
   "matches": [
+    {
+      "date": "20241114",
+      "tournament": "ITF M25 Columbus Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. M. Papoe",
+      "score": "6(3)-7(7) 5-7"
+    },
+    {
+      "date": "20241113",
+      "tournament": "ITF M25 Columbus Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Haviland",
+      "score": "6-2 6-4"
+    },
     {
       "date": "20240612",
       "tournament": "ITF M15 San Diego",
@@ -17,32 +43,6 @@
       "result": "L",
       "opponent": "S. Kirchheimer",
       "score": "6-4 6-1"
-    },
-    {
-      "date": "20240118",
-      "tournament": "ITF M25 Ithaca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Baris",
-      "score": "7(7)-6(4) 6-2"
-    },
-    {
-      "date": "20240117",
-      "tournament": "ITF M25 Ithaca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Teodorovic",
-      "score": "6-2 7(7)-6(4)"
     }
   ]
 }
