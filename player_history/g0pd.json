@@ -3,11 +3,24 @@
   "gs_id": "302010",
   "player_name": "Alexander Glomb",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:01:15.921Z",
+  "updated": "2026-03-27T04:51:12.026Z",
   "matches": [
     {
-      "date": "20251016",
-      "tournament": "M15 Sharm ElSheikh 13",
+      "date": "20250312",
+      "tournament": "M15 Sharm ElSheikh 7",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Pieczkowski",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20250306",
+      "tournament": "M15 Sharm ElSheikh 6",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Nedelko",
-      "score": "6-4 6-2"
+      "opponent": "S. Purtseladze",
+      "score": "6-0 6-0"
     },
     {
-      "date": "20251015",
-      "tournament": "M15 Sharm ElSheikh 13",
+      "date": "20250305",
+      "tournament": "M15 Sharm ElSheikh 6",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Kovkin",
-      "score": "7-5 6-0"
+      "opponent": "I. Zaytsev",
+      "score": "2-6 1-6"
     }
   ]
 }
