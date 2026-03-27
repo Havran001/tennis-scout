@@ -3,24 +3,37 @@
   "gs_id": "158885",
   "player_name": "Vuk Radjenovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:02:30.032Z",
+  "updated": "2026-03-27T08:24:52.065Z",
   "matches": [
     {
-      "date": "20240925",
-      "tournament": "M25 Zlatibor",
+      "date": "20250718",
+      "tournament": "M15 Kursumlijska Banja 11",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Topo",
-      "score": "6-2 6-0"
+      "opponent": "A. Caruso",
+      "score": "6-2 3-6 6(4)-7(7)"
     },
     {
-      "date": "20240703",
-      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
+      "date": "20250715",
+      "tournament": "M15 Kursumlijska Banja 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Madzarevic",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20250708",
+      "tournament": "M15 Kursumlijska Banja 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Pavlovic",
-      "score": "4-6 4-6"
+      "opponent": "G. Georgiev",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20240810",
+      "tournament": "ITF M15 Kursumlijska Banja 14 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Compagnucci",
+      "score": "3-6 6-3 3-6"
+    },
+    {
+      "date": "20240809",
+      "tournament": "ITF M15 Kursumlijska Banja 14 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Cavallo",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20240808",
+      "tournament": "ITF M15 Kursumlijska Banja 14 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Gagliardo",
+      "score": "6-4 7(9)-6(7)"
+    },
+    {
+      "date": "20240806",
+      "tournament": "ITF M15 Kursumlijska Banja 14 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Kukasian",
+      "score": "6-2 2-6 6-2"
+    },
+    {
+      "date": "20240730",
+      "tournament": "ITF M15 Kursumlijska Banja 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Stater",
+      "score": "6-4 4-6 7(7)-6(3)"
     },
     {
       "date": "20231128",
@@ -43,45 +121,6 @@
       "result": "L",
       "opponent": "V. Royer",
       "score": "6-3 6-0"
-    },
-    {
-      "date": "20230919",
-      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Pavlovic",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20230914",
-      "tournament": "ITF M15 Kursumlijska Banja 8 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Setkic",
-      "score": "6-1 6-3"
-    },
-    {
-      "date": "20230912",
-      "tournament": "ITF M15 Kursumlijska Banja 8 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Kozyrev",
-      "score": "0-6 3-6"
     }
   ]
 }
