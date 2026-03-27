@@ -1,34 +1,47 @@
 {
   "player_id": "f0go",
-  "gs_id": "92471",
-  "player_name": "Sebastian Osorio Juan",
+  "gs_id": "28723",
+  "player_name": "Pablo Ficovich Juan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:58:55.920Z",
+  "updated": "2026-03-27T01:48:22.937Z",
   "matches": [
     {
-      "date": "20220217",
-      "tournament": "M15 Punta Cana 2",
+      "date": "20240204",
+      "tournament": "ATP Dallas",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "B",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Pichler",
-      "score": "1-6 4-6"
+      "opponent": "M. Trungelliti",
+      "score": "7(7)-6(4) 6(4)-7(7) 6-4"
     },
     {
-      "date": "20220216",
-      "tournament": "M15 Punta Cana 2",
+      "date": "20220301",
+      "tournament": "Turin 2",
       "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. A. Rodriguez",
+      "result": "L",
+      "opponent": "G. Brouwer",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20220223",
+      "tournament": "Forli 5",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Caruso",
       "score": "4-6 3-6"
     }
   ]
