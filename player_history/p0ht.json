@@ -1,26 +1,65 @@
 {
   "player_id": "p0ht",
-  "gs_id": "3516",
-  "player_name": "Scott Jones",
+  "gs_id": "71346",
+  "player_name": "Jack Pinnington Jones",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:04:18.040Z",
+  "updated": "2026-03-27T07:09:06.032Z",
   "matches": [
     {
-      "date": "20251023",
-      "tournament": "M25 Brisbane",
+      "date": "20230813",
+      "tournament": "M25 Roehampton 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Glinka",
+      "score": "6-4 7(7)-6(3)"
+    },
+    {
+      "date": "20230812",
+      "tournament": "M25 Roehampton 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Cox",
+      "score": "6(3)-7(7) 7(7)-6(5) 6-2"
+    },
+    {
+      "date": "20230811",
+      "tournament": "M25 Roehampton 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Shaw",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20230810",
+      "tournament": "M25 Roehampton 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Polmans",
-      "score": "7(11)-6(9) 6-2"
+      "result": "W",
+      "opponent": "C. Broom",
+      "score": "3-6 6-0 4-6"
     },
     {
-      "date": "20251022",
-      "tournament": "M25 Brisbane",
+      "date": "20230808",
+      "tournament": "M25 Roehampton 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Hudd",
-      "score": "2-6 4-6"
-    },
-    {
-      "date": "20240204",
-      "tournament": "Burnie 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Ichikawa",
-      "score": "6(4)-7(7) 6-4 3-6"
-    },
-    {
-      "date": "20231122",
-      "tournament": "ITF M25 Brisbane Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Mott",
-      "score": "6-3 6-4"
+      "opponent": "F. Bass",
+      "score": "0-6 6(4)-7(7)"
     }
   ]
 }
