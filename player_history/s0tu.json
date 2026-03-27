@@ -3,37 +3,11 @@
   "gs_id": "151911",
   "player_name": "Bjorn Swenson",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:57:23.899Z",
+  "updated": "2026-03-27T02:54:37.959Z",
   "matches": [
     {
-      "date": "20250618",
-      "tournament": "M25 Tulsa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. N. Gadecki",
-      "score": "6-2 3-6 6-4"
-    },
-    {
-      "date": "20250611",
-      "tournament": "M25 Wichita",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Chung",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20220804",
-      "tournament": "M25 Decatur",
+      "date": "20231116",
+      "tournament": "M15 East Lansing",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Johns",
-      "score": "7(7)-6(2) 6-2"
+      "opponent": "A. Azkara",
+      "score": "4-6 6-2 6-4"
     },
     {
-      "date": "20220803",
-      "tournament": "M25 Decatur",
+      "date": "20231115",
+      "tournament": "M15 East Lansing",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. A. Boitan",
-      "score": "6-3 4-6 0-1 ret."
+      "opponent": "F. Corwin",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20220622",
-      "tournament": "M25 Tulsa",
+      "date": "20221116",
+      "tournament": "M15 East Lansing",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +41,99 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Sheehy",
-      "score": "6-4 6-2"
+      "opponent": "A. Michelsen",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20220713",
+      "tournament": "M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Anthrop",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20220707",
+      "tournament": "M15 Fountain Valley",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Bangoura",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20220706",
+      "tournament": "M15 Fountain Valley",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. L. Boyd",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20220604",
+      "tournament": "M15 Rancho Santa Fe",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Brymer",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20220603",
+      "tournament": "M15 Rancho Santa Fe",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Cozbinov",
+      "score": "6-2 1-6 7(7)-6(1)"
+    },
+    {
+      "date": "20220602",
+      "tournament": "M15 Rancho Santa Fe",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. A. Boitan",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20220601",
+      "tournament": "M15 Rancho Santa Fe",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Shabaz",
+      "score": "6-0 6-0"
     }
   ]
 }
