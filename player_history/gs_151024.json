@@ -3,8 +3,21 @@
   "gs_id": "151024",
   "player_name": "Cristian Breazu Vlad",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:25.018Z",
+  "updated": "2026-03-27T07:01:53.030Z",
   "matches": [
+    {
+      "date": "20250820",
+      "tournament": "M15 Arad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. T. Pieleanu",
+      "score": "6(3)-7(7) 5-7"
+    },
     {
       "date": "20250814",
       "tournament": "M15 Targu Jiu",
@@ -32,19 +45,6 @@
       "score": "6-2 3-6 6-4"
     },
     {
-      "date": "20250618",
-      "tournament": "M15 Cluj Napoca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. E. Schiessl",
-      "score": "6-4 6-4"
-    },
-    {
       "date": "20240904",
       "tournament": "M15 Constanta 2",
       "surface": "Hard",
@@ -56,6 +56,45 @@
       "result": "L",
       "opponent": "I. A. Chirita",
       "score": "6-4 7(7)-6(3)"
+    },
+    {
+      "date": "20240822",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Balshaw",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240821",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Ifi",
+      "score": "6-4 6(4)-7(7) 6-4"
+    },
+    {
+      "date": "20240820",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. G. Szoke",
+      "score": "6-2 6-2"
     },
     {
       "date": "20240816",
@@ -95,6 +134,19 @@
       "result": "W",
       "opponent": "J. Bilardo",
       "score": "6-2 3-6 3-6"
+    },
+    {
+      "date": "20230912",
+      "tournament": "M15 Satu Mare",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. La Vela",
+      "score": "3-6 0-6"
     },
     {
       "date": "20230907",
