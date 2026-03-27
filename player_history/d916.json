@@ -1,22 +1,35 @@
 {
   "player_id": "d916",
-  "gs_id": "72531",
-  "player_name": "Mario Mansilla Diez",
+  "gs_id": "1122",
+  "player_name": "Steven Diez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:59:32.128Z",
+  "updated": "2026-03-27T11:37:38.182Z",
   "matches": [
     {
-      "date": "20260301",
-      "tournament": "Hersonissos",
+      "date": "20250315",
+      "tournament": "M25 Les Franqueses del Valles",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Urribarrens Ramirez",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20250315",
+      "tournament": "M25 Les Franqueses del Valles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Gadamauri",
-      "score": "1-6 5-7"
+      "opponent": "B. Zapata Miralles",
+      "score": "6(1)-7(7) 6-3 3-10"
     }
   ]
 }
