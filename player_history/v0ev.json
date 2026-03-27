@@ -1,13 +1,26 @@
 {
   "player_id": "v0ev",
-  "gs_id": "243254",
-  "player_name": "Juan Fuentes Vasquez",
+  "gs_id": "160101",
+  "player_name": "Alessio Vasquez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:03:53.124Z",
+  "updated": "2026-03-27T12:24:55.250Z",
   "matches": [
     {
-      "date": "20250722",
-      "tournament": "M15 Santa Tecla 2",
+      "date": "20250727",
+      "tournament": "Hagen",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Wallin",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20241113",
+      "tournament": "ITF M25 Columbus Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,34 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Lilov",
-      "score": "6-0 6-1"
-    },
-    {
-      "date": "20250717",
-      "tournament": "M15 Santa Tecla",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Cruz",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20250715",
-      "tournament": "M15 Santa Tecla",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Clark",
-      "score": "1-6 7-5 6-0"
+      "opponent": "D. Pham",
+      "score": "7(8)-6(6) 3-6 6-2"
     }
   ]
 }
