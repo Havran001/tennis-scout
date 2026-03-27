@@ -3,11 +3,11 @@
   "gs_id": "218340",
   "player_name": "Henry Bernet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:00:55.920Z",
+  "updated": "2026-03-27T03:55:10.970Z",
   "matches": [
     {
-      "date": "20251009",
-      "tournament": "Roanne",
+      "date": "20250724",
+      "tournament": "Zug",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Budkov Kjaer",
-      "score": "6-3 3-6 6-1"
+      "opponent": "L. Klein",
+      "score": "4-6 6-3 3-6"
     },
     {
-      "date": "20251006",
-      "tournament": "Roanne",
+      "date": "20250721",
+      "tournament": "Zug",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Misolic",
-      "score": "6-3 3-6 4-6"
+      "opponent": "M. A. Dellien Velasco",
+      "score": "6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20240726",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Huesler",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240724",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. P. Varillas",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20240723",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Nijboer",
+      "score": "4-6 7-5 6-4"
     }
   ]
 }
