@@ -3,8 +3,47 @@
   "gs_id": "148905",
   "player_name": "Branko Djuric",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:54:22.961Z",
+  "updated": "2026-03-27T03:53:43.970Z",
   "matches": [
+    {
+      "date": "20251107",
+      "tournament": "M25 Monastir 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Carboni",
+      "score": "4-6 6-3 3-6"
+    },
+    {
+      "date": "20251106",
+      "tournament": "M25 Monastir 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Houkes",
+      "score": "6-4 3-6 6-3"
+    },
+    {
+      "date": "20251105",
+      "tournament": "M25 Monastir 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Omarkhanov",
+      "score": "1-6 6-2 4-6"
+    },
     {
       "date": "20250826",
       "tournament": "M25 Maribor 2",
@@ -56,58 +95,6 @@
       "result": "W",
       "opponent": "A. Motta",
       "score": "1-6 5-7"
-    },
-    {
-      "date": "20250702",
-      "tournament": "Troyes",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Choinski",
-      "score": "2-6 5-7"
-    },
-    {
-      "date": "20250701",
-      "tournament": "Troyes",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Denolly",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20250630",
-      "tournament": "Troyes",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Sanchez Quilez",
-      "score": "7-5 6-4"
-    },
-    {
-      "date": "20250629",
-      "tournament": "Troyes",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Raynel",
-      "score": "6-3 6-3"
     }
   ]
 }
