@@ -3,8 +3,21 @@
   "gs_id": "119543",
   "player_name": "Matas Vasiliauskas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:47:22.969Z",
+  "updated": "2026-03-27T04:57:03.991Z",
   "matches": [
+    {
+      "date": "20251216",
+      "tournament": "M15 Tauranga",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Bataljin",
+      "score": "6-2 2-6 4-6"
+    },
     {
       "date": "20251105",
       "tournament": "M15 Sharm ElSheikh 16",
@@ -19,8 +32,8 @@
       "score": "6-4 6-4"
     },
     {
-      "date": "20230912",
-      "tournament": "ITF M25 Monastir 6 Men",
+      "date": "20250430",
+      "tournament": "M25 Sabadell",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Dudun",
-      "score": "4-6 6-3 6-2"
+      "opponent": "D. Merida Aguilar",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20220914",
-      "tournament": "M15 Casablanca 4",
+      "date": "20241127",
+      "tournament": "M15 Sharm ElSheikh 18",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,38 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Houkes",
-      "score": "6-2 6-1"
+      "opponent": "M. Gloeckler",
+      "score": "7-5 3-6 4-6"
     },
     {
-      "date": "20220907",
-      "tournament": "M15 Casablanca 3",
+      "date": "20241121",
+      "tournament": "M15 Sharm ElSheikh 17",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Battaglino",
-      "score": "0-6 3-6"
+      "opponent": "M. Gengel",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20220622",
-      "tournament": "M15 Chiang Rai 6",
+      "date": "20241120",
+      "tournament": "M15 Sharm ElSheikh 17",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "Y. Charoenphon",
-      "score": "6-3 3-6 4-6"
+      "result": "W",
+      "opponent": "M. Schroeter",
+      "score": "3-6 6(8)-7(10)"
     },
     {
-      "date": "20220614",
-      "tournament": "M15 Chiang Rai 5",
+      "date": "20230117",
+      "tournament": "M15 Vilnius",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,60 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Wattanakul",
-      "score": "0-6 4-6"
-    },
-    {
-      "date": "20220607",
-      "tournament": "M25 Chiang Rai 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Ochi",
-      "score": "3-6 0-3 ret."
-    },
-    {
-      "date": "20220518",
-      "tournament": "M25 Monastir 6",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Santillan",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20220510",
-      "tournament": "M25 Monastir 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Z. Li",
-      "score": "6-4 6-0"
-    },
-    {
-      "date": "20220309",
-      "tournament": "M25 Antalya 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Donev",
-      "score": "6-1 6-1"
+      "opponent": "T. Duran",
+      "score": "6-1 7(7)-6(2)"
     }
   ]
 }
