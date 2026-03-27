@@ -3,20 +3,33 @@
   "gs_id": "14621",
   "player_name": "Ilya Ivashka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:44:38.992Z",
+  "updated": "2026-03-27T05:54:20.005Z",
   "matches": [
     {
-      "date": "20240227",
-      "tournament": "Tenerife 3",
+      "date": "20250605",
+      "tournament": "Tyler",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Svajda",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20250603",
+      "tournament": "Tyler",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Holmgren",
-      "score": "3-6 5-7"
+      "result": "W",
+      "opponent": "K. Bigun",
+      "score": "6-3 1-6 1-4 ret."
     }
   ]
 }
