@@ -1,39 +1,91 @@
 {
   "player_id": "l0cu",
-  "gs_id": "138527",
-  "player_name": "Carlos Alvarez Valdes Luis",
+  "gs_id": "163542",
+  "player_name": "Noah Regas Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:47:47.985Z",
+  "updated": "2026-03-27T04:48:52.985Z",
   "matches": [
     {
-      "date": "20231027",
-      "tournament": "M15 Norman",
+      "date": "20251203",
+      "tournament": "M15 Madrid 4",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Fishback",
-      "score": "5-7 2-6"
+      "opponent": "A. Sanchez Quilez",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20231026",
-      "tournament": "M15 Norman",
+      "date": "20250324",
+      "tournament": "Girona",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Buse",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20240324",
+      "tournament": "Girona Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Novak",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20230326",
+      "tournament": "Girona Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. B. Torres",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20230322",
+      "tournament": "M25 Palmanova 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. S. Callejon",
+      "score": "6(5)-7(7) 6-3 7(7)-6(5)"
+    },
+    {
+      "date": "20221208",
+      "tournament": "M15 Madrid 4",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Stoupe",
-      "score": "7(11)-6(9) 6-1"
+      "result": "L",
+      "opponent": "M. Damas",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20231025",
-      "tournament": "M15 Norman",
+      "date": "20221207",
+      "tournament": "M15 Madrid 4",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. van Assendelft",
-      "score": "2-6 5-7"
+      "opponent": "D. Naharro",
+      "score": "2-6 3-6"
     }
   ]
 }
