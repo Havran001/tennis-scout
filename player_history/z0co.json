@@ -3,20 +3,98 @@
   "gs_id": "173348",
   "player_name": "Maximo Zeitune",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:00:24.922Z",
+  "updated": "2026-03-27T04:59:31.987Z",
   "matches": [
     {
-      "date": "20240911",
-      "tournament": "M15 Cordoba 2",
+      "date": "20260222",
+      "tournament": "Tigre 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Aboian",
+      "score": "6-4 4-6 0-6"
+    },
+    {
+      "date": "20260218",
+      "tournament": "Tigre",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Roncadelli",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20260216",
+      "tournament": "Tigre",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Aboian",
+      "score": "4-6 6(4)-7(7)"
+    },
+    {
+      "date": "20260215",
+      "tournament": "Tigre",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Farjat",
+      "score": "6-4 4-6 7-5"
+    },
+    {
+      "date": "20241128",
+      "tournament": "M15 Lujan",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Aguilar Cardozo",
+      "score": "2-6 0-6"
+    },
+    {
+      "date": "20241127",
+      "tournament": "M15 Lujan",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Aguilar Cardozo",
+      "score": "3-6 7-5 3-6"
+    },
+    {
+      "date": "20230108",
+      "tournament": "Tigre 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "J. M. La Serna",
-      "score": "3-6 3-6"
+      "opponent": "O. Prihodko",
+      "score": "6-1 6-1"
     }
   ]
 }
