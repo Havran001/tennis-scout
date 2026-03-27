@@ -3,20 +3,46 @@
   "gs_id": "177309",
   "player_name": "Joao Fonseca",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:13:32.824Z",
+  "updated": "2026-03-27T01:59:27.936Z",
   "matches": [
     {
-      "date": "20251014",
-      "tournament": "Brussels",
+      "date": "20230616",
+      "tournament": "ITF M15 Duffel Men",
       "surface": "Hard",
-      "level": "B",
-      "round": "R32",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Van De Zandschulp",
-      "score": "7-5 7(7)-6(2)"
+      "opponent": "B. Gadamauri",
+      "score": "6(4)-7(7) 6-2 6-4"
+    },
+    {
+      "date": "20230615",
+      "tournament": "ITF M15 Duffel Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Vankan",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20230614",
+      "tournament": "ITF M15 Duffel Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Dietrich",
+      "score": "3-6 3-6"
     }
   ]
 }
