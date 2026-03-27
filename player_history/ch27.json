@@ -1,26 +1,52 @@
 {
   "player_id": "ch27",
-  "gs_id": "18861",
-  "player_name": "Yunseong Chung",
+  "gs_id": "141935",
+  "player_name": "Hyeon Chung",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:53:13.286Z",
+  "updated": "2026-03-27T07:10:29.036Z",
   "matches": [
     {
-      "date": "20230704",
-      "tournament": "Bloomfield Hills Challenger Men",
+      "date": "20250720",
+      "tournament": "Bloomfield Hills",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Johnson",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250603",
+      "tournament": "Tyler",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Jubb",
+      "score": "6-4 4-6 4-6"
+    },
+    {
+      "date": "20250602",
+      "tournament": "Tyler",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Escobedo",
-      "score": "6-4 6-3"
+      "result": "W",
+      "opponent": "P. Kumar",
+      "score": "6-1 6-2"
     },
     {
-      "date": "20230703",
-      "tournament": "Bloomfield Hills Challenger Men",
+      "date": "20250601",
+      "tournament": "Tyler",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -28,8 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Kirchheimer",
-      "score": "6-4 7(15)-6(13)"
+      "opponent": "D. Sweeny",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20240920",
+      "tournament": "M25 Takasaki",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Oliveira",
+      "score": "1-6 6-3 0-6"
+    },
+    {
+      "date": "20240919",
+      "tournament": "M25 Takasaki",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Shiraishi",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20240918",
+      "tournament": "M25 Takasaki",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Sueoka",
+      "score": "6-1 6-3"
     }
   ]
 }
