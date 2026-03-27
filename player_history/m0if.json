@@ -3,11 +3,11 @@
   "gs_id": "75835",
   "player_name": "Francesco Maestrelli",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:03:01.467Z",
+  "updated": "2026-03-27T07:09:18.035Z",
   "matches": [
     {
-      "date": "20240501",
-      "tournament": "Cagliari",
+      "date": "20251014",
+      "tournament": "Olbia",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Borges",
-      "score": "3-6 5-7"
+      "opponent": "N. Gombos",
+      "score": "1-6 7(7)-6(4) 4-6"
     },
     {
-      "date": "20230503",
-      "tournament": "Cagliari Challenger Men",
+      "date": "20250929",
+      "tournament": "Antofagasta",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Pellegrino",
-      "score": "7(9)-6(7) 6-4"
+      "opponent": "F. Bagnis",
+      "score": "3-6 6-3 2-6"
+    },
+    {
+      "date": "20240206",
+      "tournament": "Nottingham 3 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Guinard",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20231017",
+      "tournament": "Olbia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Copil",
+      "score": "6-3 6-4"
     }
   ]
 }
