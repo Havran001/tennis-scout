@@ -3,8 +3,21 @@
   "gs_id": "156009",
   "player_name": "Samuele Seghetti",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:58:30.993Z",
+  "updated": "2026-03-27T06:09:47.012Z",
   "matches": [
+    {
+      "date": "20250825",
+      "tournament": "M15 Forli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Pieri",
+      "score": "6(6)-7(8) 0-6"
+    },
     {
       "date": "20250425",
       "tournament": "M15 Kursumlijska Banja",
@@ -30,6 +43,19 @@
       "result": "W",
       "opponent": "G. Hausberger",
       "score": "7(7)-6(0) 6-1"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Forli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Basile",
+      "score": "3-6 0-6"
     }
   ]
 }
