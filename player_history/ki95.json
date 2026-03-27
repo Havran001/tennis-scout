@@ -3,24 +3,37 @@
   "gs_id": "32325",
   "player_name": "Miomir Kecmanovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:48:31.947Z",
+  "updated": "2026-03-27T03:44:57.977Z",
   "matches": [
     {
-      "date": "20260214",
-      "tournament": "Dallas",
+      "date": "20221022",
+      "tournament": "Napoli",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Musetti",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20221021",
+      "tournament": "Napoli",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Shelton",
-      "score": "5-7 6-3 6-4"
+      "result": "W",
+      "opponent": "P. Carreno-Busta",
+      "score": "5-7 2-6"
     },
     {
-      "date": "20260213",
-      "tournament": "Dallas",
+      "date": "20221020",
+      "tournament": "Napoli",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Paul",
-      "score": "7-5 4-6 4-6"
+      "opponent": "C. Moutet",
+      "score": "3-5 ret."
     },
     {
-      "date": "20260210",
-      "tournament": "Dallas",
+      "date": "20221018",
+      "tournament": "Napoli",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -41,60 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Shimabukuro",
-      "score": "7(7)-6(3) 3-6 6(3)-7(7)"
-    },
-    {
-      "date": "20250206",
-      "tournament": "Dallas",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Shapovalov",
-      "score": "6-3 6(5)-7(7) 6-3"
-    },
-    {
-      "date": "20230209",
-      "tournament": "Dallas",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Gomez",
-      "score": "6-2 6(4)-7(7) 4-6"
-    },
-    {
-      "date": "20230104",
-      "tournament": "Adelaide 2",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Medvedev",
-      "score": "0-6 3-6"
-    },
-    {
-      "date": "20230102",
-      "tournament": "Adelaide 2",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "C. O&apos;Connell",
-      "score": "6-4 6-4"
+      "opponent": "F. Cobolli",
+      "score": "1-6 2-6"
     }
   ]
 }
