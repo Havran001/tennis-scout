@@ -3,11 +3,11 @@
   "gs_id": "6711",
   "player_name": "Mitchell Krueger",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:44:25.981Z",
+  "updated": "2026-03-27T05:52:39.878Z",
   "matches": [
     {
-      "date": "20240228",
-      "tournament": "Tenerife 3",
+      "date": "20250604",
+      "tournament": "Tyler",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Gigante",
-      "score": "6-4 3-6 6(4)-7(7)"
+      "opponent": "K. Sell",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20240227",
-      "tournament": "Tenerife 3",
+      "date": "20250602",
+      "tournament": "Tyler",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,25 +28,64 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Rincon",
-      "score": "7(7)-6(5) 4-6 6(7)-7(9)"
+      "opponent": "Wu Tung-Lin",
+      "score": "7(7)-6(4) 5-7 6-1"
     },
     {
-      "date": "20240226",
-      "tournament": "Tenerife 3",
+      "date": "20240702",
+      "tournament": "Bloomfield Hills Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Holmgren",
-      "score": "7-5 6-2"
+      "opponent": "E. Escobedo",
+      "score": "6-3 3-6 6-3"
     },
     {
-      "date": "20240225",
-      "tournament": "Tenerife 3",
+      "date": "20240606",
+      "tournament": "Tyler Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Holt",
+      "score": "6-1 6(4)-7(7) 6(4)-7(7)"
+    },
+    {
+      "date": "20240605",
+      "tournament": "Tyler Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Kirchheimer",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20230815",
+      "tournament": "Stanford",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Mmoh",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20230813",
+      "tournament": "Stanford",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,12 +93,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Michalski",
-      "score": "6-4 7-5"
+      "opponent": "H. Rivera",
+      "score": "6-1 7(7)-6(2)"
     },
     {
-      "date": "20240220",
-      "tournament": "Tenerife 2 Challenger Men",
+      "date": "20230813",
+      "tournament": "Stanford",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Brumm",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20230704",
+      "tournament": "Bloomfield Hills Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Caruso",
-      "score": "4-6 6-4 5-7"
+      "opponent": "T. Sandgren",
+      "score": "6-4 1-6 6(5)-7(7)"
     },
     {
-      "date": "20230301",
-      "tournament": "Waco",
+      "date": "20230616",
+      "tournament": "Palmas Del Mar",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -80,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Vukic",
-      "score": "3-6 4-6"
+      "opponent": "K. Nishikori",
+      "score": "4-6 6-3 6-2"
     },
     {
-      "date": "20230228",
-      "tournament": "Waco",
+      "date": "20230613",
+      "tournament": "Palmas Del Mar",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -93,8 +145,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Wong",
-      "score": "3-6 1-6"
+      "opponent": "P. Gojowczyk",
+      "score": "4-6 6-4 6-4"
+    },
+    {
+      "date": "20230605",
+      "tournament": "Tyler Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Wu Tung-Lin",
+      "score": "6-3 3-6 6-0"
     }
   ]
 }
