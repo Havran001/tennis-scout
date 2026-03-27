@@ -3,8 +3,34 @@
   "gs_id": "177314",
   "player_name": "Razvan Marinescu Mihai",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:55:55.960Z",
+  "updated": "2026-03-27T03:54:42.976Z",
   "matches": [
+    {
+      "date": "20251118",
+      "tournament": "M25 Antalya 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krumich",
+      "score": "1-6 5-7"
+    },
+    {
+      "date": "20241120",
+      "tournament": "M25 Antalya 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Handel",
+      "score": "7(7)-6(2) 6-2"
+    },
     {
       "date": "20240531",
       "tournament": "M15 Constanta",
@@ -56,32 +82,6 @@
       "result": "L",
       "opponent": "A. Caruso",
       "score": "1-6 3-6"
-    },
-    {
-      "date": "20220818",
-      "tournament": "M15 Craiova",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Cretu",
-      "score": "6-0 6-2"
-    },
-    {
-      "date": "20220817",
-      "tournament": "M15 Craiova",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Castagnola",
-      "score": "6-2 6-3"
     }
   ]
 }
