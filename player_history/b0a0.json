@@ -3,8 +3,47 @@
   "gs_id": "56985",
   "player_name": "Maxence Beauge",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:26:46.086Z",
+  "updated": "2026-03-27T11:58:26.159Z",
   "matches": [
+    {
+      "date": "20260108",
+      "tournament": "M25 Hazebrouck",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Papamalamis",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20260106",
+      "tournament": "M25 Hazebrouck",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Janvier",
+      "score": "7(8)-6(6) ret."
+    },
+    {
+      "date": "20251026",
+      "tournament": "Monastir",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Binda",
+      "score": "6-4 4-6 5-7"
+    },
     {
       "date": "20250830",
       "tournament": "M15 Cap d'Agde",
@@ -45,6 +84,71 @@
       "score": "6-3 6-0"
     },
     {
+      "date": "20250616",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alcala Gurri",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20250615",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Donnet",
+      "score": "2-6 6-3 7-5"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M25 Villeneuve-Loubet",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Bouquet",
+      "score": "6(5)-7(7) 6-2 6-4"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Villeneuve-Loubet",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Added",
+      "score": "7(7)-6(4) 5-7 3-6"
+    },
+    {
+      "date": "20250610",
+      "tournament": "M25 Villeneuve-Loubet",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Sabas",
+      "score": "3-6 0-6"
+    },
+    {
       "date": "20240829",
       "tournament": "ITF M15 Cap d'Agde Men",
       "surface": "Hard",
@@ -82,32 +186,6 @@
       "result": "W",
       "opponent": "M. Kaouk",
       "score": "6-1 6-1"
-    },
-    {
-      "date": "20240523",
-      "tournament": "M25 Deauville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Vanshelboim",
-      "score": "6-2 4-6 6(6)-7(8)"
-    },
-    {
-      "date": "20240521",
-      "tournament": "M25 Deauville",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Juarez",
-      "score": "3-6 6-4 4-6"
     }
   ]
 }
