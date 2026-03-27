@@ -3,37 +3,50 @@
   "gs_id": "37743",
   "player_name": "Dominik Recek",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:57:21.920Z",
+  "updated": "2026-03-27T02:51:01.966Z",
   "matches": [
     {
-      "date": "20221005",
-      "tournament": "M15 Sozopol",
+      "date": "20250809",
+      "tournament": "M15 Frankfurt",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Donev",
-      "score": "6-3 6-3"
+      "opponent": "A. Oetzbach",
+      "score": "7-5 6-3"
     },
     {
-      "date": "20220120",
-      "tournament": "M25 Monastir 3",
+      "date": "20250808",
+      "tournament": "M15 Frankfurt",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Marysko",
+      "score": "7-5 6(4)-7(7) 2-6"
+    },
+    {
+      "date": "20250807",
+      "tournament": "M15 Frankfurt",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Sakharov",
-      "score": "3-6 6-4 6(4)-7(7)"
+      "result": "W",
+      "opponent": "E. Khoeblal",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20220119",
-      "tournament": "M25 Monastir 3",
+      "date": "20250806",
+      "tournament": "M15 Frankfurt",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +54,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Vasiliauskas",
-      "score": "6-4 6-2"
+      "opponent": "A. Forger",
+      "score": "6(2)-7(7) 6-2 2-6"
     },
     {
-      "date": "20211125",
-      "tournament": "M15 Ostrava",
+      "date": "20250709",
+      "tournament": "M25+H Kassel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sanchez Jover",
+      "score": "4-6 6(4)-7(7)"
+    },
+    {
+      "date": "20230824",
+      "tournament": "ITF M25 Lesa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +80,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Gadamauri",
+      "opponent": "L. Carboni",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20230822",
+      "tournament": "ITF M25 Lesa Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. M. Noce",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M15 Ueberlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Wiskandt",
       "score": "3-6 2-6"
     },
     {
-      "date": "20211123",
-      "tournament": "M15 Ostrava",
+      "date": "20220505",
+      "tournament": "M15 Meerbusch",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Onclin",
+      "score": "0-6 5-7"
+    },
+    {
+      "date": "20220504",
+      "tournament": "M15 Meerbusch",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Malis",
-      "score": "7-5 6-1"
+      "opponent": "F. Nincevic",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20211117",
-      "tournament": "M15 Opava",
+      "date": "20220330",
+      "tournament": "M15 Sharm ElSheikh 7",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Gadamauri",
-      "score": "6-4 4-6 6-2"
+      "opponent": "L. Pokorny",
+      "score": "5-7 2-6"
     }
   ]
 }
