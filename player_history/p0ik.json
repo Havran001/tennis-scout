@@ -1,1 +1,48 @@
-{"player_id":"p0ik","gs_id":"156110","player_name":"Luca Parenti","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"xQ4wg2I8","date":"20260326","tournament":"ITF MEN - SINGLES: M15 Altamura (Italy), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Mecarelli M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20250220","tournament":"M25 Trento","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"G. Fonio","score":"6-3 7(7)-6(4)"},{"date":"20250219","tournament":"M25 Trento","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"J. Hrazdil","score":"6-4 6-0"},{"date":"20200620","tournament":"Italian Championship","surface":"Hard","level":"E","round":"QF","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"S. Baldoni","score":"2-6 3-6"}],"total":4}
+{
+  "player_id": "p0ik",
+  "gs_id": "156110",
+  "player_name": "Luca Parenti",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:18:08.813Z",
+  "matches": [
+    {
+      "date": "20250220",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Fonio",
+      "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20250219",
+      "tournament": "M25 Trento",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Hrazdil",
+      "score": "6-4 6-0"
+    },
+    {
+      "date": "20200620",
+      "tournament": "Italian Championship",
+      "surface": "Hard",
+      "level": "E",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Baldoni",
+      "score": "2-6 3-6"
+    }
+  ]
+}
