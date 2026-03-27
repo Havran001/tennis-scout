@@ -3,8 +3,21 @@
   "gs_id": "58117",
   "player_name": "Fabrizio Andaloro",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:15:42.104Z",
+  "updated": "2026-03-27T10:59:12.230Z",
   "matches": [
+    {
+      "date": "20250810",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Makk",
+      "score": "6-2 5-2 ret."
+    },
     {
       "date": "20250520",
       "tournament": "Tbilisi",
@@ -108,97 +121,6 @@
       "result": "W",
       "opponent": "M. Geerts",
       "score": "2-6 6-3 10-4"
-    },
-    {
-      "date": "20241115",
-      "tournament": "M15 San Gregorio di Catania 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Potenza",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20241114",
-      "tournament": "M15 San Gregorio di Catania 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Oumaouche",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20240810",
-      "tournament": "M15+H Tauste",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Cesar Porras",
-      "score": "7-5 1-6 3-6"
-    },
-    {
-      "date": "20240809",
-      "tournament": "M15+H Tauste",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Sanchez Quilez",
-      "score": "7-5 6(5)-7(7) 6-2"
-    },
-    {
-      "date": "20240808",
-      "tournament": "M15+H Tauste",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "6-2 6-3"
-    },
-    {
-      "date": "20240807",
-      "tournament": "M15+H Tauste",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Sancho Arbizu",
-      "score": "6-3 6(6)-7(8) 6-3"
-    },
-    {
-      "date": "20240805",
-      "tournament": "M15+H Tauste",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Roche Alcaya",
-      "score": "6-4 4-6 6-2"
     }
   ]
 }
