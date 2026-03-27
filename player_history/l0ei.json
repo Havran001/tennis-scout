@@ -3,24 +3,37 @@
   "gs_id": "172284",
   "player_name": "Daniel Lara Salmeron",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:54:35.921Z",
+  "updated": "2026-03-27T06:10:49.020Z",
   "matches": [
     {
-      "date": "20240320",
-      "tournament": "ITF M25 Loule Men",
+      "date": "20251204",
+      "tournament": "M15 Madrid 4",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Echeverria",
-      "score": "6-2 6-1"
+      "opponent": "M. Gonzalez Fernandez",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20221123",
-      "tournament": "M15 Madrid 2",
+      "date": "20251203",
+      "tournament": "M15 Madrid 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Planella Hernandez",
+      "score": "3-6 6-1 3-6"
+    },
+    {
+      "date": "20251126",
+      "tournament": "M15 Madrid 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Winter Lopez",
-      "score": "6-3 6-3"
+      "opponent": "L. Sheyngezikht",
+      "score": "4-6 6-1 6-0"
+    },
+    {
+      "date": "20240710",
+      "tournament": "ITF M25 Roda de Bara Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Zusman",
+      "score": "0-6 2-6"
     }
   ]
 }
