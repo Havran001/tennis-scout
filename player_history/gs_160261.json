@@ -3,11 +3,37 @@
   "gs_id": "160261",
   "player_name": "Pelle Hartenstein Jonas",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:25:13.815Z",
+  "updated": "2026-03-27T00:54:13.920Z",
   "matches": [
     {
-      "date": "20250925",
-      "tournament": "M15 Forbach",
+      "date": "20260303",
+      "tournament": "M25 Trimbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Romano",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20250305",
+      "tournament": "M25 Trimbach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Rosenkranz",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20241114",
+      "tournament": "ITF M15 Heraklion 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Guerrieri",
-      "score": "4-6 4-6"
+      "opponent": "A. Soriano Barrera",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20250923",
-      "tournament": "M15 Forbach",
+      "date": "20241113",
+      "tournament": "ITF M15 Heraklion 6 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Hoffmann",
-      "score": "4-6 5-7"
+      "opponent": "D. W. Martin",
+      "score": "6-3 4-0 ret."
     },
     {
-      "date": "20250402",
-      "tournament": "M15 Heraklion 3",
+      "date": "20230705",
+      "tournament": "ITF M25 Marburg Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +67,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Canter",
-      "score": "6-2 6(5)-7(7) 7(7)-6(4)"
+      "opponent": "A. Rybakov",
+      "score": "4-6 0-6"
     },
     {
-      "date": "20250326",
-      "tournament": "M15 Heraklion 2",
+      "date": "20221027",
+      "tournament": "M15 Tallahassee",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Cornut-Chauvinc",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20221026",
+      "tournament": "M15 Tallahassee",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Kang",
+      "score": "7(8)-6(6) 3-6 6(9)-7(11)"
+    },
+    {
+      "date": "20220802",
+      "tournament": "M15 Frederiksberg",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Walters",
-      "score": "6(4)-7(7) 3-6"
-    },
-    {
-      "date": "20230920",
-      "tournament": "M25 Pardubice",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Chazal",
-      "score": "6-3 6-4"
+      "opponent": "O. Poulsen Brostrom",
+      "score": "4-6 3-6"
     }
   ]
 }
