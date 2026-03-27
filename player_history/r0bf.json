@@ -3,11 +3,11 @@
   "gs_id": "142288",
   "player_name": "Franco Ribero",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:49.010Z",
+  "updated": "2026-03-27T07:01:08.039Z",
   "matches": [
     {
-      "date": "20250608",
-      "tournament": "Santa Fe",
+      "date": "20250928",
+      "tournament": "Antofagasta",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Sperle",
-      "score": "6-4 6-3"
+      "opponent": "F. Roncadelli",
+      "score": "1-6 0-6"
     },
     {
-      "date": "20250514",
-      "tournament": "M25 Xalapa",
+      "date": "20250219",
+      "tournament": "M25 Punta del Este 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -29,46 +29,59 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "S. Rodriguez Taverna",
-      "score": "3-6 6-4 3-6"
+      "score": "6-4 6-3"
     },
     {
-      "date": "20240603",
-      "tournament": "Santa Fe Challenger Men",
+      "date": "20240316",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Farjat",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20240602",
-      "tournament": "Santa Fe Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Mouilleron Salvo",
-      "score": "6(3)-7(7) 1-6"
+      "opponent": "B. Fernandez",
+      "score": "6-4 1-0 ret."
     },
     {
-      "date": "20230524",
-      "tournament": "ITF M15 Huntsville",
+      "date": "20240316",
+      "tournament": "M15 Punta del Este",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. La Serna",
+      "score": "2-6 6-3 3-6"
+    },
+    {
+      "date": "20240315",
+      "tournament": "M15 Punta del Este",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Strode",
-      "score": "0-6 7-5 4-6"
+      "result": "W",
+      "opponent": "D. Acosta",
+      "score": "3-6 6-3 7-5"
+    },
+    {
+      "date": "20240315",
+      "tournament": "M15 Punta del Este",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Stater",
+      "score": "1-6 6-2 3-6"
     }
   ]
 }
