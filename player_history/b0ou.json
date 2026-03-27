@@ -3,8 +3,34 @@
   "gs_id": "90559",
   "player_name": "Hynek Barton",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:51:10.900Z",
+  "updated": "2026-03-27T00:58:53.922Z",
   "matches": [
+    {
+      "date": "20260127",
+      "tournament": "Manama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Erel",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20260126",
+      "tournament": "Manama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Blanch",
+      "score": "0-6 6-3 6-3"
+    },
     {
       "date": "20231124",
       "tournament": "ITF M25 Vale do Lobo 2 Men",
@@ -43,45 +69,6 @@
       "result": "W",
       "opponent": "L. Poullain",
       "score": "6-1 2-6 4-6"
-    },
-    {
-      "date": "20231102",
-      "tournament": "ITF M15 Selva Gardena Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Napolitano",
-      "score": "6-3 2-6 0-4 ret."
-    },
-    {
-      "date": "20231101",
-      "tournament": "ITF M15 Selva Gardena Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Lemstra",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20231031",
-      "tournament": "ITF M15 Selva Gardena Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Trinker",
-      "score": "4-6 4-6"
     }
   ]
 }
