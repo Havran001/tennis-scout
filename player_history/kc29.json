@@ -3,34 +3,8 @@
   "gs_id": "7194",
   "player_name": "Nicolas Kicker",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:44:21.980Z",
+  "updated": "2026-03-27T05:41:08.028Z",
   "matches": [
-    {
-      "date": "20260219",
-      "tournament": "Tigre",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Villanueva",
-      "score": "4-6 6-1 4-6"
-    },
-    {
-      "date": "20260217",
-      "tournament": "Tigre",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Cadenasso",
-      "score": "2-6 4-6"
-    },
     {
       "date": "20251127",
       "tournament": "Temuco",
@@ -58,17 +32,17 @@
       "score": "2-6 3-6"
     },
     {
-      "date": "20250916",
-      "tournament": "Villa Maria",
+      "date": "20250601",
+      "tournament": "Tyler",
       "surface": "Hard",
       "level": "C",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Casanova",
-      "score": "6-3 6-2"
+      "opponent": "T. Hilderbrand",
+      "score": "6-4 1-0 ret."
     },
     {
       "date": "20241127",
@@ -97,8 +71,8 @@
       "score": "6-4 4-6 2-6"
     },
     {
-      "date": "20241009",
-      "tournament": "Villa Maria",
+      "date": "20230314",
+      "tournament": "Vina Del Mar",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -106,34 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Heide",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20241008",
-      "tournament": "Villa Maria",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. I. Justo",
-      "score": "7-5 7-5"
-    },
-    {
-      "date": "20241006",
-      "tournament": "Villa Maria",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Roncadelli",
-      "score": "5-7 6-2 6(6)-7(8)"
+      "opponent": "P. Martin Tiffon",
+      "score": "6-1 3-0 ret."
     },
     {
       "date": "20221127",
@@ -199,110 +147,6 @@
       "result": "W",
       "opponent": "N. Alvarez",
       "score": "2-6 5-7"
-    },
-    {
-      "date": "20221019",
-      "tournament": "Coquimbo 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Skatov",
-      "score": "6-4 1-6 6-4"
-    },
-    {
-      "date": "20221017",
-      "tournament": "Coquimbo 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Comesana",
-      "score": "6-1 6-3"
-    },
-    {
-      "date": "20220925",
-      "tournament": "Villa Maria",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Navone",
-      "score": "7-5 6-3"
-    },
-    {
-      "date": "20220924",
-      "tournament": "Villa Maria",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Diaz Acosta",
-      "score": "7(7)-6(3) 6(6)-7(8) 4-6"
-    },
-    {
-      "date": "20220923",
-      "tournament": "Villa Maria",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Olivo",
-      "score": "6-2 6-0"
-    },
-    {
-      "date": "20220922",
-      "tournament": "Villa Maria",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Juarez",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20220920",
-      "tournament": "Villa Maria",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Meligeni Alves",
-      "score": "1-6 1-6"
-    },
-    {
-      "date": "20220425",
-      "tournament": "Tigre 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Darderi",
-      "score": "6-2 6-4"
     }
   ]
 }
