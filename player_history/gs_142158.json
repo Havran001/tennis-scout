@@ -3,50 +3,24 @@
   "gs_id": "142158",
   "player_name": "Emil Overbeck Carl",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:56:51.904Z",
+  "updated": "2026-03-27T04:57:37.994Z",
   "matches": [
     {
-      "date": "20250926",
-      "tournament": "M25 Falun",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Vasa",
-      "score": "4-6 6(3)-7(7)"
-    },
-    {
-      "date": "20250925",
-      "tournament": "M25 Falun",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Montes-De La Torre",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20250924",
-      "tournament": "M25 Falun",
+      "date": "20260219",
+      "tournament": "M25 Vila Real de Santo António 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Nanobashvili Saba",
-      "score": "6-3 6-3"
+      "result": "L",
+      "opponent": "R. Brancaccio",
+      "score": "7(7)-6(5) 1-6 2-6"
     },
     {
-      "date": "20250923",
-      "tournament": "M25 Falun",
+      "date": "20260217",
+      "tournament": "M25 Vila Real de Santo António 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +28,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Jones",
-      "score": "5-7 5-7"
+      "opponent": "T. Curras Abasolo",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20230726",
-      "tournament": "M15 Vejle",
+      "date": "20260212",
+      "tournament": "M25 Vila Real de Santo Antonio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Broady",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20260211",
+      "tournament": "M25 Vila Real de Santo Antonio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Verbeek",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20250902",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Moller",
-      "score": "7(7)-6(4) 6-3"
+      "opponent": "A. Forger",
+      "score": "7(7)-6(5) 6-1"
     },
     {
-      "date": "20220803",
-      "tournament": "M15 Frederiksberg",
+      "date": "20250805",
+      "tournament": "M15 Eupen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,8 +80,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Ingildsen",
-      "score": "6-4 6-1"
+      "opponent": "E. Demanet",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M25 Varnamo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Vasa",
+      "score": "6-4 1-6 6-3"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Varnamo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Heinonen",
+      "score": "5-7 6-1 6-4"
     }
   ]
 }
