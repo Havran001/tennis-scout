@@ -3,11 +3,11 @@
   "gs_id": "90407",
   "player_name": "Juliusz Bienkiewicz",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:52:08.955Z",
+  "updated": "2026-03-27T08:20:05.076Z",
   "matches": [
     {
-      "date": "20220629",
-      "tournament": "M15 Wroclaw",
+      "date": "20240828",
+      "tournament": "ITF M15 Szczawno Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Rajski",
-      "score": "6-4 6-3"
+      "opponent": "J. Filip",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20230817",
+      "tournament": "M25 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Barton",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Juszczak",
+      "score": "6-4 6-4"
     }
   ]
 }
