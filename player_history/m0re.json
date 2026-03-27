@@ -3,8 +3,34 @@
   "gs_id": "154523",
   "player_name": "Patrick Maloney",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:02:10.042Z",
+  "updated": "2026-03-27T08:24:59.064Z",
   "matches": [
+    {
+      "date": "20250320",
+      "tournament": "Merida",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Meligeni Alves",
+      "score": "7(7)-6(5) 6-3"
+    },
+    {
+      "date": "20250318",
+      "tournament": "Merida",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. F. Rubio Fierros",
+      "score": "6-2 7(12)-6(10)"
+    },
     {
       "date": "20250112",
       "tournament": "M25 Ithaca",
@@ -136,21 +162,47 @@
       "score": "6-1 6-1"
     },
     {
-      "date": "20231019",
-      "tournament": "M15 Las Vegas",
+      "date": "20240615",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Ponwith",
+      "score": "6-4 3-6 2-6"
+    },
+    {
+      "date": "20240614",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ayeni",
+      "score": "6(5)-7(7) 5-7"
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Andrade",
-      "score": "7(7)-6(2) 3-6 0-6"
+      "result": "W",
+      "opponent": "S. Klaassen",
+      "score": "6-2 5-7 6-0"
     },
     {
-      "date": "20231018",
-      "tournament": "M15 Las Vegas",
+      "date": "20240612",
+      "tournament": "ITF M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -158,21 +210,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Ornberg",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20230719",
-      "tournament": "ITF M15 Rochester",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Wiersholm",
-      "score": "3-6 6-4 7-5"
+      "opponent": "Z. Ji",
+      "score": "5-7 3-6"
     }
   ]
 }
