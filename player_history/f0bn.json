@@ -3,11 +3,24 @@
   "gs_id": "157447",
   "player_name": "Hong-Lin Fu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:11:06.032Z",
+  "updated": "2026-03-27T09:30:26.096Z",
   "matches": [
     {
-      "date": "20240523",
-      "tournament": "ITF M25 Anning Men",
+      "date": "20251029",
+      "tournament": "M15 Yanagawa City",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Nakanishi",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20251023",
+      "tournament": "M15 Tanagura",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "W. Trongcharoenchaikul",
-      "score": "6(4)-7(7) 6-4 3-6"
+      "opponent": "T. Takamisawa",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20240522",
-      "tournament": "ITF M25 Anning Men",
+      "date": "20251021",
+      "tournament": "M15 Tanagura",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Q. Wang",
-      "score": "3-6 5-7"
+      "opponent": "H. Hieda",
+      "score": "2-6 7-5 1-6"
     },
     {
-      "date": "20230615",
-      "tournament": "M15 Jakarta 3",
+      "date": "20250827",
+      "tournament": "M25 Taipei 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Ichikawa",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250819",
+      "tournament": "M25 Taipei",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Wang",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20241020",
+      "tournament": "Taipei 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Shin",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240911",
+      "tournament": "ITF M25 Bali 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Masabayashi",
-      "score": "6-2 5-7 7(7)-6(3)"
+      "opponent": "M. Basing",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20230614",
-      "tournament": "M15 Jakarta 3",
+      "date": "20240910",
+      "tournament": "ITF M25 Bali 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +106,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. A. Soemarno",
-      "score": "3-6 1-6"
+      "opponent": "R. A. Arifadli Salim",
+      "score": "6(7)-7(9) 6-3 2-0 ret."
+    },
+    {
+      "date": "20240903",
+      "tournament": "ITF M25 Bali Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Wenger",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20240814",
+      "tournament": "M15 Überlingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Lipp",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240410",
+      "tournament": "M25 Hammamet 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kellovsky",
+      "score": "1-6 1-6"
     }
   ]
 }
