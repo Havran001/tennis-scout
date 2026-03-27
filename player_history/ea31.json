@@ -3,8 +3,34 @@
   "gs_id": "37565",
   "player_name": "Melios Efstathiou",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:51:29.988Z",
+  "updated": "2026-03-27T05:58:03.331Z",
   "matches": [
+    {
+      "date": "20250313",
+      "tournament": "ITF M15 Alaminos Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Djuric",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20250312",
+      "tournament": "ITF M15 Alaminos Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Ferrari",
+      "score": "1-6 3-6"
+    },
     {
       "date": "20240320",
       "tournament": "M15 Alaminos-Larnaca 2",
@@ -17,6 +43,32 @@
       "result": "L",
       "opponent": "G. Pennaforti",
       "score": "2-6 3-6"
+    },
+    {
+      "date": "20240313",
+      "tournament": "M15 Alaminos-Larnaca",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20230809",
+      "tournament": "M25 Herzlia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Erel",
+      "score": "4-6 1-6"
     }
   ]
 }
