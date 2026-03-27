@@ -3,11 +3,24 @@
   "gs_id": "140993",
   "player_name": "Constantin Spiridon Denis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:53:43.957Z",
+  "updated": "2026-03-27T03:47:51.970Z",
   "matches": [
     {
-      "date": "20250821",
-      "tournament": "M25 Lesa",
+      "date": "20260204",
+      "tournament": "M25 Sheffield",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Malesevic",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20231018",
+      "tournament": "ITF M25 Santa Margherita di Pula 10 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Carboni",
-      "score": "3-6 5-7"
+      "opponent": "S. Caruso",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20250820",
-      "tournament": "M25 Lesa",
+      "date": "20231017",
+      "tournament": "ITF M25 Santa Margherita di Pula 10 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. D&apos;Agostino",
-      "score": "7-5 6-4"
+      "opponent": "M. G. Nicosia",
+      "score": "6-0 6-0"
     },
     {
-      "date": "20250716",
-      "tournament": "M15 Gubbio",
+      "date": "20231004",
+      "tournament": "ITF M15 Sharm ElSheikh 12 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Pennaforti",
-      "score": "2-6 5-7"
+      "opponent": "J. Bradshaw",
+      "score": "6(1)-7(7) 3-6"
     },
     {
-      "date": "20220824",
-      "tournament": "M15 Lambermont",
+      "date": "20221006",
+      "tournament": "M15 Maputo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. van Wyk",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20221004",
+      "tournament": "M15 Maputo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Moeller",
-      "score": "6-2 6-4"
+      "result": "W",
+      "opponent": "M. Southcombe",
+      "score": "3-6 4-6"
     }
   ]
 }
