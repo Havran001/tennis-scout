@@ -3,11 +3,11 @@
   "gs_id": "261757",
   "player_name": "Leonardo Cattaneo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:55:26.969Z",
+  "updated": "2026-03-27T07:07:56.031Z",
   "matches": [
     {
-      "date": "20250410",
-      "tournament": "M15 Sharm ElSheikh 11",
+      "date": "20250911",
+      "tournament": "M25 Pozzuoli",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Safwat",
-      "score": "6-4 7-5"
+      "opponent": "E. Donnet",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20250409",
-      "tournament": "M15 Sharm ElSheikh 11",
+      "date": "20250909",
+      "tournament": "M25 Pozzuoli",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Zhu",
-      "score": "6(7)-7(9) 2-6"
+      "opponent": "L. Parenti",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20250306",
-      "tournament": "M15 Sharm ElSheikh 6",
+      "date": "20250826",
+      "tournament": "M15 Forli",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Ciavarella",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20250703",
+      "tournament": "M15 Tanger",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Andre",
-      "score": "6-4 2-6 3-6"
+      "opponent": "M. Giunta",
+      "score": "3-6 6-3 3-6"
     },
     {
-      "date": "20250305",
-      "tournament": "M15 Sharm ElSheikh 6",
+      "date": "20250702",
+      "tournament": "M15 Tanger",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,21 +67,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Lagasio",
-      "score": "4-6 4-6"
+      "opponent": "D. Kopilevich",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20250226",
-      "tournament": "M15 Sharm ElSheikh 5",
+      "date": "20240829",
+      "tournament": "ITF M15 Forli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rottoli",
+      "score": "6-2 4-6 3-6"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Forli Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Visker",
-      "score": "7-5 7(8)-6(6)"
+      "result": "W",
+      "opponent": "L. Fantini",
+      "score": "6-1 4-6 6-0"
     }
   ]
 }
