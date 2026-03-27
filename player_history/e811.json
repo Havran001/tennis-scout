@@ -3,50 +3,89 @@
   "gs_id": "6119",
   "player_name": "Elmar Ejupovic",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:49:54.973Z",
+  "updated": "2026-03-27T04:49:17.986Z",
   "matches": [
     {
-      "date": "20250712",
-      "tournament": "M25+H Kassel",
+      "date": "20230323",
+      "tournament": "ITF M25 Mosquera Men",
       "surface": "Hard",
       "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Alves",
+      "score": "6(8)-7(10) 7(7)-6(4) 6(8)-7(10)"
+    },
+    {
+      "date": "20230321",
+      "tournament": "ITF M25 Mosquera Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Barrena",
+      "score": "6-4 6(4)-7(7) 1-3 ret."
+    },
+    {
+      "date": "20230228",
+      "tournament": "Waco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Galarneau",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20230227",
+      "tournament": "Waco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Smith",
+      "score": "3-6 6(4)-7(7)"
+    },
+    {
+      "date": "20230226",
+      "tournament": "Waco",
+      "surface": "Hard",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Forejtek",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20250711",
-      "tournament": "M25+H Kassel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "W",
-      "opponent": "A. Vatutin",
-      "score": "7(7)-6(5) 5-3 ret."
+      "opponent": "D. Cukierman",
+      "score": "5-7 6-3 1-6"
     },
     {
-      "date": "20250710",
-      "tournament": "M25+H Kassel",
+      "date": "20221110",
+      "tournament": "M25 Antalya 5",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Ovcharenko",
+      "result": "L",
+      "opponent": "D. Klok",
       "score": "3-6 4-6"
     },
     {
-      "date": "20250709",
-      "tournament": "M25+H Kassel",
+      "date": "20221109",
+      "tournament": "M25 Antalya 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,38 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Marysko",
-      "score": "3-6 3-6"
+      "opponent": "A. Braynin",
+      "score": "6(4)-7(7) 3-6"
     },
     {
-      "date": "20250213",
-      "tournament": "M25 Roehampton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Jones",
-      "score": "7-5 2-6 6(5)-7(7)"
-    },
-    {
-      "date": "20250211",
-      "tournament": "M25 Roehampton",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Henning",
-      "score": "3-6 6-3 6-4"
-    },
-    {
-      "date": "20240825",
-      "tournament": "M15 Kottingbrunn",
+      "date": "20221001",
+      "tournament": "M25 Santa Margherita di Pula 8",
       "surface": "Hard",
       "level": "I",
       "round": "F",
@@ -93,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Prihodko",
-      "score": "5-7 5-7"
+      "opponent": "T. Droguet",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20240824",
-      "tournament": "M15 Kottingbrunn",
+      "date": "20220930",
+      "tournament": "M25 Santa Margherita di Pula 8",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -106,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Sorger",
-      "score": "6(4)-7(7) 7-5 3-6"
+      "opponent": "G. Tabacco",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20240823",
-      "tournament": "M15 Kottingbrunn",
+      "date": "20220929",
+      "tournament": "M25 Santa Margherita di Pula 8",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -119,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Wallin",
-      "score": "1-6 6(5)-7(7)"
+      "opponent": "O. Ovcharenko",
+      "score": "6-1 6-1"
     },
     {
-      "date": "20240822",
-      "tournament": "M15 Kottingbrunn",
+      "date": "20220928",
+      "tournament": "M25 Santa Margherita di Pula 8",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -132,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Kobierski",
-      "score": "2-6 4-6"
+      "opponent": "A. Guerrieri",
+      "score": "6-4 7(7)-6(3)"
     },
     {
-      "date": "20240821",
-      "tournament": "M15 Kottingbrunn",
+      "date": "20220927",
+      "tournament": "M25 Santa Margherita di Pula 8",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Hellum-Lilleengen",
-      "score": "6-4 1-6 1-6"
+      "opponent": "S. D&apos;Agostino",
+      "score": "6-2 6-2"
     },
     {
-      "date": "20240810",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20220924",
+      "tournament": "M25 Santa Margherita di Pula 7",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -158,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Pontjodikromo",
-      "score": "6-4 6-1"
+      "opponent": "C. Lopez Montagud",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240809",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20220923",
+      "tournament": "M25 Santa Margherita di Pula 7",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -171,12 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Krutykh",
-      "score": "4-6 1-6"
+      "opponent": "A. Picchione",
+      "score": "2-6 5-7"
     },
     {
-      "date": "20240808",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20220922",
+      "tournament": "M25 Santa Margherita di Pula 7",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -184,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. G. Verwerft",
-      "score": "7-5 5-7 4-6"
+      "opponent": "S. Sakellaridis",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20240807",
-      "tournament": "ITF M15 Eupen Men",
+      "date": "20220921",
+      "tournament": "M25 Santa Margherita di Pula 7",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -197,73 +210,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Bidan",
-      "score": "1-6 6-4 1-6"
-    },
-    {
-      "date": "20240724",
-      "tournament": "M15 Metzingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Ch. Negritu",
-      "score": "3-6 6-3 3-6"
-    },
-    {
-      "date": "20230704",
-      "tournament": "Troyes Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Gerch",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20230224",
-      "tournament": "Rome US",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "Z. Svajda",
-      "score": "1-6 6-3 3-6"
-    },
-    {
-      "date": "20230222",
-      "tournament": "Rome US",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "R. Harrison",
-      "score": "6-3 6(5)-7(7) 2-6"
-    },
-    {
-      "date": "20230220",
-      "tournament": "Rome US",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Sandgren",
-      "score": "6-4 3-2 ret."
+      "opponent": "F. Ridout",
+      "score": "2-6 0-6"
     }
   ]
 }
