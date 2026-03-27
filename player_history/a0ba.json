@@ -3,33 +3,85 @@
   "gs_id": "57338",
   "player_name": "Federico Arnaboldi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:01:10.009Z",
+  "updated": "2026-03-27T06:56:38.029Z",
   "matches": [
     {
-      "date": "20230705",
-      "tournament": "M25 Biella",
+      "date": "20260105",
+      "tournament": "Nottingham 3",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Sorrentino",
-      "score": "6-1 7-5"
+      "opponent": "A. Guerrieri",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20230704",
-      "tournament": "M25 Biella",
+      "date": "20260104",
+      "tournament": "Nottingham 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Compagnucci",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20241014",
+      "tournament": "Olbia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Svrcina",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20240917",
+      "tournament": "Bad Waltersdorf",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Moreno De Alboran",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20231128",
+      "tournament": "ITF M15 San Gregorio di Catania Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Marchetti",
-      "score": "7(7)-6(3) 7-5"
+      "result": "L",
+      "opponent": "I. A. Chirita",
+      "score": "6-2 7-5"
+    },
+    {
+      "date": "20230912",
+      "tournament": "ITF M25 Pozzuoli Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Balzerani",
+      "score": "3-6 4-6"
     }
   ]
 }
