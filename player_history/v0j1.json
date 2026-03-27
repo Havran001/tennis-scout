@@ -3,11 +3,11 @@
   "gs_id": "280983",
   "player_name": "Jacopo Vasami",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:56:58.960Z",
+  "updated": "2026-03-27T07:12:51.033Z",
   "matches": [
     {
-      "date": "20250513",
-      "tournament": "Turin 2",
+      "date": "20260209",
+      "tournament": "Tenerife 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. H. Tseng",
-      "score": "6-3 6-2"
+      "opponent": "J. Berrettini",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20241107",
+      "tournament": "M15 San Gregorio di Catania",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Kivattsev",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20241106",
+      "tournament": "M15 San Gregorio di Catania",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Andaloro",
+      "score": "1-6 4-6"
     }
   ]
 }
