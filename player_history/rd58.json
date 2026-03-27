@@ -3,11 +3,24 @@
   "gs_id": "37743",
   "player_name": "Dominik Recek",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:51:01.966Z",
+  "updated": "2026-03-27T03:51:09.972Z",
   "matches": [
     {
-      "date": "20250809",
-      "tournament": "M15 Frankfurt",
+      "date": "20260318",
+      "tournament": "M25 Heraklion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Iannaccone",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20251018",
+      "tournament": "M25 Santa Margherita di Pula 11",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Oetzbach",
-      "score": "7-5 6-3"
+      "opponent": "M. Krumich",
+      "score": "1-6 0-6"
     },
     {
-      "date": "20250808",
-      "tournament": "M15 Frankfurt",
+      "date": "20251017",
+      "tournament": "M25 Santa Margherita di Pula 11",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Marysko",
-      "score": "7-5 6(4)-7(7) 2-6"
+      "opponent": "N. Hardt",
+      "score": "1-6 6-4 6-2"
     },
     {
-      "date": "20250807",
-      "tournament": "M15 Frankfurt",
+      "date": "20251015",
+      "tournament": "M25 Santa Margherita di Pula 11",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Khoeblal",
-      "score": "6-3 6-2"
+      "opponent": "A. Chepelev",
+      "score": "3-6 5-7"
     },
     {
-      "date": "20250806",
-      "tournament": "M15 Frankfurt",
+      "date": "20251014",
+      "tournament": "M25 Santa Margherita di Pula 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Forger",
-      "score": "6(2)-7(7) 6-2 2-6"
+      "opponent": "S. Cocola",
+      "score": "4-6 6-2 6-1"
     },
     {
-      "date": "20250709",
-      "tournament": "M25+H Kassel",
+      "date": "20251007",
+      "tournament": "M25 Santa Margherita di Pula 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,86 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Sanchez Jover",
-      "score": "4-6 6(4)-7(7)"
-    },
-    {
-      "date": "20230824",
-      "tournament": "ITF M25 Lesa Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Carboni",
-      "score": "5-7 4-6"
-    },
-    {
-      "date": "20230822",
-      "tournament": "ITF M25 Lesa Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. M. Noce",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20230816",
-      "tournament": "M15 Ueberlingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Wiskandt",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20220505",
-      "tournament": "M15 Meerbusch",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Onclin",
-      "score": "0-6 5-7"
-    },
-    {
-      "date": "20220504",
-      "tournament": "M15 Meerbusch",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Nincevic",
-      "score": "1-6 3-6"
-    },
-    {
-      "date": "20220330",
-      "tournament": "M15 Sharm ElSheikh 7",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Pokorny",
-      "score": "5-7 2-6"
+      "opponent": "E. Dalla Valle",
+      "score": "2-6 0-6"
     }
   ]
 }
