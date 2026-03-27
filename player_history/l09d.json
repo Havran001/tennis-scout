@@ -3,8 +3,21 @@
   "gs_id": "76867",
   "player_name": "Aliaksandr Liaonenka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:52:03.922Z",
+  "updated": "2026-03-27T03:46:34.971Z",
   "matches": [
+    {
+      "date": "20250813",
+      "tournament": "M25 Monastir 6",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Dlimi",
+      "score": "6-1 6-3"
+    },
     {
       "date": "20250205",
       "tournament": "M15 Sharm ElSheikh 2",
@@ -123,8 +136,8 @@
       "score": "2-6 7-5 2-6"
     },
     {
-      "date": "20211124",
-      "tournament": "M15 Kazan 3",
+      "date": "20230329",
+      "tournament": "ITF M15 Sharm ElSheikh 9 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,8 +145,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Kiyamov",
-      "score": "1-6 2-6"
+      "opponent": "S. Vincent Ruggeri",
+      "score": "6(5)-7(7) 0-6"
+    },
+    {
+      "date": "20220928",
+      "tournament": "M15 Sharm ElSheikh 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Simon",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20220921",
+      "tournament": "M15 Sharm ElSheikh 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Boehler",
+      "score": "4-6 6-3 6-2"
+    },
+    {
+      "date": "20220915",
+      "tournament": "M15 Sharm ElSheikh 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. van Wyk",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20220914",
+      "tournament": "M15 Sharm ElSheikh 9",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Novikov",
+      "score": "3-6 6-4 1-6"
+    },
+    {
+      "date": "20220811",
+      "tournament": "M25 Tbilisi 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Leshem",
+      "score": "3-6 6-3 7(7)-6(2)"
+    },
+    {
+      "date": "20220810",
+      "tournament": "M25 Tbilisi 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bakshi",
+      "score": "3-6 0-2 ret."
+    },
+    {
+      "date": "20220809",
+      "tournament": "M25 Tbilisi 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Ilhan",
+      "score": "6(5)-7(7) 2-6"
+    },
+    {
+      "date": "20220726",
+      "tournament": "M25 Tbilisi",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Poljak",
+      "score": "6-3 6-2"
     }
   ]
 }
