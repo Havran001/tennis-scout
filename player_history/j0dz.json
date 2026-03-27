@@ -3,7 +3,7 @@
   "gs_id": "172281",
   "player_name": "Rafael Jodar",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:31:17.087Z",
+  "updated": "2026-03-27T12:27:59.170Z",
   "matches": [
     {
       "date": "20251023",
@@ -32,21 +32,21 @@
       "score": "6-4 7-5"
     },
     {
-      "date": "20251019",
-      "tournament": "Lincoln",
+      "date": "20250913",
+      "tournament": "Winston Salem",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Damm",
-      "score": "6(3)-7(7) 6-3 6-3"
+      "result": "L",
+      "opponent": "T. Svajda",
+      "score": "7-5 7-5"
     },
     {
-      "date": "20251017",
-      "tournament": "Lincoln",
+      "date": "20250912",
+      "tournament": "Winston Salem",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Holt",
-      "score": "0-6 5-7"
+      "opponent": "M. Krueger",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20251016",
-      "tournament": "Lincoln",
+      "date": "20250910",
+      "tournament": "Winston Salem",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -67,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Wiskandt",
-      "score": "6-4 6-1"
+      "opponent": "L. Pow",
+      "score": "3-6 0-1 ret."
     },
     {
-      "date": "20251014",
-      "tournament": "Lincoln",
+      "date": "20250909",
+      "tournament": "Winston Salem",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -80,8 +80,125 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Kingsley",
-      "score": "6-3 7-5"
+      "opponent": "G. Goode",
+      "score": "7-5 6-1"
+    },
+    {
+      "date": "20250822",
+      "tournament": "Hersonissos 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Added",
+      "score": "7(7)-6(5) 7-5"
+    },
+    {
+      "date": "20250821",
+      "tournament": "Hersonissos 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Sakellaridis",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20250820",
+      "tournament": "Hersonissos 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Poullain",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250819",
+      "tournament": "Hersonissos 4",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Wallart",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20250816",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Added",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250815",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Brunclik",
+      "score": "6-2 2-0 ret."
+    },
+    {
+      "date": "20250814",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Wendelken",
+      "score": "6-0 4-6 6-3"
+    },
+    {
+      "date": "20250813",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Loffhagen",
+      "score": "4-6 6-3 4-6"
+    },
+    {
+      "date": "20250811",
+      "tournament": "Hersonissos 3",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Potenza",
+      "score": "7(7)-6(3) 6-4"
     }
   ]
 }
