@@ -3,24 +3,76 @@
   "gs_id": "204046",
   "player_name": "Oskar Grzegorzewski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:06:27.030Z",
+  "updated": "2026-03-27T09:32:07.093Z",
   "matches": [
     {
-      "date": "20230907",
-      "tournament": "ITF M15 Koszalin Men",
+      "date": "20250924",
+      "tournament": "M15 Ann Arbor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Mitsui",
+      "score": "6-1 6(5)-7(7) 6-3"
+    },
+    {
+      "date": "20250812",
+      "tournament": "M15 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vasquez",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M15 Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Efstathiou",
+      "score": "5-7 6(6)-7(8)"
+    },
+    {
+      "date": "20250613",
+      "tournament": "M15 Oradea",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Tomescu",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M15 Oradea",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Gentzsch",
-      "score": "6-3 7-5"
+      "result": "W",
+      "opponent": "D. N. Cazacu",
+      "score": "7-5 6-2"
     },
     {
-      "date": "20230906",
-      "tournament": "ITF M15 Koszalin Men",
+      "date": "20250611",
+      "tournament": "M15 Oradea",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Kosinski",
-      "score": "6-3 6-3"
+      "opponent": "A. Chayka",
+      "score": "1-6 0-0 ret."
+    },
+    {
+      "date": "20241113",
+      "tournament": "ITF M25 Columbus Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Fernandes",
+      "score": "5-7 2-6"
     }
   ]
 }
