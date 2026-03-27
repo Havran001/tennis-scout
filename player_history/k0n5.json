@@ -3,7 +3,7 @@
   "gs_id": "156089",
   "player_name": "Pranav Kumar",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:24:45.071Z",
+  "updated": "2026-03-27T09:30:22.088Z",
   "matches": [
     {
       "date": "20251012",
@@ -58,8 +58,8 @@
       "score": "1-6 0-6"
     },
     {
-      "date": "20240318",
-      "tournament": "Merida Challenger Men",
+      "date": "20241125",
+      "tournament": "Manzanillo",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -67,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Hilderbrand",
-      "score": "1-6 1-6"
+      "opponent": "P. Brady",
+      "score": "1-6 5-7"
     },
     {
-      "date": "20240317",
-      "tournament": "Merida Challenger Men",
+      "date": "20241124",
+      "tournament": "Manzanillo",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -80,8 +80,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Herrera",
-      "score": "5-7 3-6"
+      "opponent": "R. Stepanov",
+      "score": "6(3)-7(7) 5-7"
+    },
+    {
+      "date": "20241020",
+      "tournament": "Sioux Falls",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Pannu",
+      "score": "1-6 6-4 4-6"
+    },
+    {
+      "date": "20240821",
+      "tournament": "M25 Arequipa 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Rodriguez",
+      "score": "6(4)-7(7) 4-6"
+    },
+    {
+      "date": "20240814",
+      "tournament": "M25 Arequipa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Vilicich",
+      "score": "4-6 4-6"
     }
   ]
 }
