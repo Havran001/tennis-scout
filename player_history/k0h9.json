@@ -3,11 +3,11 @@
   "gs_id": "129361",
   "player_name": "Rafael Kis Balazs",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:47:37.984Z",
+  "updated": "2026-03-27T08:22:12.024Z",
   "matches": [
     {
-      "date": "20250827",
-      "tournament": "M15 Budapest",
+      "date": "20250924",
+      "tournament": "M15 Budapest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,38 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Hodkin",
-      "score": "7(8)-6(6) 6-0"
+      "opponent": "A. Belkovics",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20240830",
-      "tournament": "ITF M15 Budapest Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Kimhi",
-      "score": "2-6 6-0 6-1"
-    },
-    {
-      "date": "20240829",
-      "tournament": "ITF M15 Budapest Men",
+      "date": "20250807",
+      "tournament": "M15 Slovenska Bistrica",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Hudd",
-      "score": "6-2 6(0)-6(4) ret."
+      "result": "L",
+      "opponent": "R. Michalik",
+      "score": "2-6 6-1 6(3)-7(7)"
     },
     {
-      "date": "20240827",
-      "tournament": "ITF M15 Budapest Men",
+      "date": "20250806",
+      "tournament": "M15 Slovenska Bistrica",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "B. Butulija",
-      "score": "6(3)-7(7) 4-6"
+      "opponent": "M. Kriznik",
+      "score": "5-7 6-1 2-6"
     },
     {
-      "date": "20240821",
-      "tournament": "ITF M25 Maribor 2 Men",
+      "date": "20250618",
+      "tournament": "M15 Nyiregyhaza 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,21 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Kodat",
-      "score": "6-4 7(7)-6(3)"
+      "opponent": "S. Stankovic",
+      "score": "6-2 6-1"
     },
     {
-      "date": "20230312",
-      "tournament": "Szekesfehervar Challenger Men",
+      "date": "20241023",
+      "tournament": "M25 Trnava 2",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Fomin",
-      "score": "7-5 6-1"
+      "opponent": "F. Romano",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20240620",
+      "tournament": "ITF M15 Nyiregyháza 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Pokorny",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20240619",
+      "tournament": "ITF M15 Nyiregyháza 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Gundacker",
+      "score": "6-3 6-3"
     }
   ]
 }
