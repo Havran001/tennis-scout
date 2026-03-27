@@ -3,20 +3,46 @@
   "gs_id": "331996",
   "player_name": "Jerrid Gaines Jr",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:55:47.970Z",
+  "updated": "2026-03-27T04:51:41.749Z",
   "matches": [
     {
-      "date": "20260211",
-      "tournament": "M15 Sunrise",
+      "date": "20260206",
+      "tournament": "M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Tenti",
+      "score": "2-6 6-4 6-1"
+    },
+    {
+      "date": "20260205",
+      "tournament": "M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Bertimon",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20260204",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Mbithi",
-      "score": "7(7)-6(5) 7(9)-6(7)"
+      "result": "W",
+      "opponent": "J. Hallquist Lithen",
+      "score": "6-2 4-6 4-6"
     }
   ]
 }
