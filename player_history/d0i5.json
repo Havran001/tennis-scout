@@ -3,7 +3,7 @@
   "gs_id": "166765",
   "player_name": "Max Dahlin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:26:22.158Z",
+  "updated": "2026-03-27T09:30:58.090Z",
   "matches": [
     {
       "date": "20250927",
@@ -58,8 +58,21 @@
       "score": "3-6 7(7)-6(3) 6-4"
     },
     {
-      "date": "20250822",
-      "tournament": "M15 Bastad 2",
+      "date": "20250813",
+      "tournament": "M15 Ystad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Mridha",
+      "score": "7(7)-6(3) 3-6 6(8)-7(10)"
+    },
+    {
+      "date": "20231201",
+      "tournament": "M15 Limassol 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -67,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Slavic",
-      "score": "6(3)-7(7) 4-6"
+      "opponent": "D. De Jonge",
+      "score": "6-2 5-5 ret."
     },
     {
-      "date": "20250821",
-      "tournament": "M15 Bastad 2",
+      "date": "20231130",
+      "tournament": "M15 Limassol 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Hallquist Lithen",
-      "score": "6-3 6(3)-7(7) 6-3"
+      "opponent": "B. Bozemoj",
+      "score": "6-1 6-4"
     },
     {
-      "date": "20250819",
-      "tournament": "M15 Bastad 2",
+      "date": "20231128",
+      "tournament": "M15 Limassol 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +106,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Bataljin",
+      "opponent": "S. Christodoulou",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20231124",
+      "tournament": "M15 Limassol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Moller",
       "score": "0-6 3-6"
+    },
+    {
+      "date": "20231123",
+      "tournament": "M15 Limassol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Karlsson Wistrand",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20231121",
+      "tournament": "M15 Limassol",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. De Jonge",
+      "score": "6(2)-7(7) 1-6"
+    },
+    {
+      "date": "20231114",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Mensik",
+      "score": "2-6 6(3)-7(7)"
     }
   ]
 }
