@@ -3,11 +3,50 @@
   "gs_id": "5842",
   "player_name": "Davide Pontoglio",
   "source": "goalserve-full",
-  "updated": "2026-03-27T05:41:04.003Z",
+  "updated": "2026-03-26T12:27:11.603Z",
   "matches": [
     {
-      "date": "20251211",
-      "tournament": "M15 Lima 2",
+      "date": "20191002",
+      "tournament": "Santa Margherita Di Pula 10",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Dalla Valle",
+      "score": "2-6 6-4 6-3"
+    },
+    {
+      "date": "20180321",
+      "tournament": "Santa Margherita Di Pula 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Brkic",
+      "score": "6-2 4-6 4-6"
+    },
+    {
+      "date": "20171017",
+      "tournament": "Santa Margherita Di Pula 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Chazal",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20170419",
+      "tournament": "Santa Margherita Di Pula 5",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. J. Rodriguez",
-      "score": "4-6 1-6"
+      "opponent": "A. Pellegrino",
+      "score": "6(5)-7(7) 6-4 6-1"
     },
     {
-      "date": "20251210",
-      "tournament": "M15 Lima 2",
+      "date": "20170418",
+      "tournament": "Santa Margherita Di Pula 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. De Alba",
-      "score": "6-1 6-2"
+      "opponent": "M. Janvier",
+      "score": "6-1 4-6 4-6"
     },
     {
-      "date": "20251202",
-      "tournament": "M15 Lima",
+      "date": "20160606",
+      "tournament": "Bergamo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Villoslada",
-      "score": "4-6 7-5 4-6"
+      "opponent": "M. Banes",
+      "score": "6-3 6-0"
     },
     {
-      "date": "20221116",
-      "tournament": "M15 Lima 2",
+      "date": "20150511",
+      "tournament": "Santa Margherita Di Pula 7",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +93,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Rodriguez",
-      "score": "6-2 4-2 ret."
+      "opponent": "F. Borgo",
+      "score": "6-4 7(7)-6(1)"
     },
     {
-      "date": "20221110",
-      "tournament": "M15 Lima",
+      "date": "20140909",
+      "tournament": "Santa Margherita Di Pula 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Torroni",
+      "score": "3-6 7-5 2-6"
+    },
+    {
+      "date": "20140702",
+      "tournament": "Mantova",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Guillen Meza",
-      "score": "6-0 6-2"
+      "opponent": "G. Naso",
+      "score": "6-3 6-0"
     },
     {
-      "date": "20221109",
-      "tournament": "M15 Lima",
+      "date": "20140630",
+      "tournament": "Mantova",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Buitrago",
-      "score": "4-6 2-6"
+      "opponent": "D. Capecchi",
+      "score": "1-6 6-4 6-3"
     },
     {
-      "date": "20221103",
-      "tournament": "M15 Santa Cruz 2",
+      "date": "20140626",
+      "tournament": "Busto Arsizio",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -93,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. A. Gomez",
-      "score": "6-3 6-4"
+      "opponent": "M. Neuchrist",
+      "score": "6-0 6-4"
     },
     {
-      "date": "20221102",
-      "tournament": "M15 Santa Cruz 2",
+      "date": "20140624",
+      "tournament": "Busto Arsizio",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +158,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Mendoza",
-      "score": "6-2 7-5"
+      "opponent": "M. Trevisan",
+      "score": "5-7 2-4 ret."
+    },
+    {
+      "date": "20140401",
+      "tournament": "Santa Margherita Di Pula 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Diarra",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20130813",
+      "tournament": "Appiano",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Angelinos",
+      "score": "6(4)-7(7) 2-6"
+    },
+    {
+      "date": "20130702",
+      "tournament": "Mantova",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Basso",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20130627",
+      "tournament": "Busto Arsizio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Lojda",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20130626",
+      "tournament": "Busto Arsizio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Speronello",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20130625",
+      "tournament": "Busto Arsizio",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Brugnerotto",
+      "score": "6-3 6-2"
     }
   ]
 }
