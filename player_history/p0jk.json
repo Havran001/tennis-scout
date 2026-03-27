@@ -3,8 +3,21 @@
   "gs_id": "138493",
   "player_name": "Noah Perfetti",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:28:56.092Z",
+  "updated": "2026-03-27T12:16:59.165Z",
   "matches": [
+    {
+      "date": "20260318",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Misasi",
+      "score": "3-6 1-6"
+    },
     {
       "date": "20251111",
       "tournament": "M15 San Gregorio di Catania 2",
@@ -17,6 +30,32 @@
       "result": "L",
       "opponent": "K. Kivattsev",
       "score": "1-6 2-6"
+    },
+    {
+      "date": "20250925",
+      "tournament": "M15 Otopeni",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Catini",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250923",
+      "tournament": "M15 Otopeni",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Varbanciu",
+      "score": "6-2 6-4"
     },
     {
       "date": "20250902",
@@ -32,8 +71,8 @@
       "score": "6-7 4-6"
     },
     {
-      "date": "20250805",
-      "tournament": "M25 Montesilvano",
+      "date": "20250513",
+      "tournament": "M15 Bastad",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,25 +80,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Iannaccone",
+      "opponent": "A. Garcian",
+      "score": "2-6 6-2 6-1"
+    },
+    {
+      "date": "20250509",
+      "tournament": "M15 Bistrita",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Cretu",
       "score": "2-6 1-6"
     },
     {
-      "date": "20250612",
-      "tournament": "M15 Oradea",
+      "date": "20250508",
+      "tournament": "M15 Bistrita",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Ghetu",
-      "score": "4-6 6(6)-7(8)"
+      "result": "W",
+      "opponent": "B. Pavel",
+      "score": "6-3 2-1 ret."
     },
     {
-      "date": "20250611",
-      "tournament": "M15 Oradea",
+      "date": "20250506",
+      "tournament": "M15 Bistrita",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +119,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. D. Ionel",
-      "score": "7(7)-6(5) 6-4"
+      "opponent": "M. V. Rosu-Mares",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20250327",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Mazza",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20250326",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Reitano",
+      "score": "3-6 6-3 6-3"
+    },
+    {
+      "date": "20250319",
+      "tournament": "M15 Alaminos 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Djuric",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20250313",
+      "tournament": "M15 Alaminos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Beraldo",
+      "score": "6-4 3-6 2-6"
+    },
+    {
+      "date": "20250312",
+      "tournament": "M15 Alaminos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Wessels",
+      "score": "6-4 6-2"
     },
     {
       "date": "20241113",
@@ -121,71 +238,6 @@
       "result": "L",
       "opponent": "L. Bocchi",
       "score": "6-1 7-5"
-    },
-    {
-      "date": "20240606",
-      "tournament": "M15 Hrastnik",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Brunold",
-      "score": "6-0 6-1"
-    },
-    {
-      "date": "20240605",
-      "tournament": "M15 Hrastnik",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Dimic",
-      "score": "7(8)-6(6) 6-2"
-    },
-    {
-      "date": "20240529",
-      "tournament": "ITF M15 Gyula Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Filip",
-      "score": "6-4 3-6 5-7"
-    },
-    {
-      "date": "20240522",
-      "tournament": "M15 Cervia",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Chepelev",
-      "score": "4-6 7-5 6-2"
-    },
-    {
-      "date": "20240424",
-      "tournament": "M15 Split",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Chazal",
-      "score": "3-6 3-6"
     }
   ]
 }
