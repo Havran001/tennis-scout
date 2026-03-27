@@ -3,11 +3,37 @@
   "gs_id": "93275",
   "player_name": "Romain Faucon",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:54:00.938Z",
+  "updated": "2026-03-27T03:52:44.972Z",
   "matches": [
     {
-      "date": "20260220",
-      "tournament": "M15 Sharm ElSheikh 4",
+      "date": "20251113",
+      "tournament": "M15 Sharm ElSheikh 17",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Yevseyev",
+      "score": "2-6 7-5 2-1 ret."
+    },
+    {
+      "date": "20251112",
+      "tournament": "M15 Sharm ElSheikh 17",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Kukasian",
+      "score": "6-2 2-6 4-6"
+    },
+    {
+      "date": "20251107",
+      "tournament": "M15 Sharm ElSheikh 16",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. Bradshaw",
-      "score": "6(4)-7(7) 2-5 ret."
+      "opponent": "M. Krajci",
+      "score": "2-6 7(10)-6(8) 6-1"
     },
     {
-      "date": "20260219",
-      "tournament": "M15 Sharm ElSheikh 4",
+      "date": "20251106",
+      "tournament": "M15 Sharm ElSheikh 16",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Yilmaz",
-      "score": "6-2 6-3"
+      "opponent": "P. Bar Biryukov",
+      "score": "6-1 3-6 4-6"
     },
     {
-      "date": "20260218",
-      "tournament": "M15 Sharm ElSheikh 4",
+      "date": "20251105",
+      "tournament": "M15 Sharm ElSheikh 16",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,129 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Ivanov",
-      "score": "4-6 6-4 6-1"
-    },
-    {
-      "date": "20260215",
-      "tournament": "M15 Sharm ElSheikh 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Purtseladze",
-      "score": "2-6 6-3 6(7)-7(9)"
-    },
-    {
-      "date": "20260214",
-      "tournament": "M15 Sharm ElSheikh 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Poljicak",
-      "score": "1-6 7(7)-6(4) 6-4"
-    },
-    {
-      "date": "20260213",
-      "tournament": "M15 Sharm ElSheikh 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Vincent Ruggeri",
-      "score": "6(6)-7(8) 1-6"
-    },
-    {
-      "date": "20260212",
-      "tournament": "M15 Sharm ElSheikh 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Shebekin",
-      "score": "7-5 7-5"
-    },
-    {
-      "date": "20260211",
-      "tournament": "M15 Sharm ElSheikh 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Pleshivtsev",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20260204",
-      "tournament": "M15 Sharm ElSheikh 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Pleshivtsev",
-      "score": "6-3 6-3"
-    },
-    {
-      "date": "20260130",
-      "tournament": "M15 Sharm ElSheikh",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Makk",
-      "score": "3-6 6-2 6-4"
-    },
-    {
-      "date": "20260129",
-      "tournament": "M15 Sharm ElSheikh",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. McKennon",
-      "score": "7-5 3-6 3-6"
-    },
-    {
-      "date": "20260128",
-      "tournament": "M15 Sharm ElSheikh",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "K. Mabrouk",
-      "score": "6-4 6-4"
+      "opponent": "H. Pierre",
+      "score": "2-6 2-6"
     },
     {
       "date": "20251030",
-      "tournament": "ITF M15 Sharm ElSheikh 16 Men",
+      "tournament": "M15 Sharm ElSheikh 15",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -176,7 +85,7 @@
     },
     {
       "date": "20251029",
-      "tournament": "ITF M15 Sharm ElSheikh 16 Men",
+      "tournament": "M15 Sharm ElSheikh 15",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -186,6 +95,45 @@
       "result": "W",
       "opponent": "E. Philippov",
       "score": "6-4 5-7 6-3"
+    },
+    {
+      "date": "20251022",
+      "tournament": "M15 Sharm ElSheikh 14",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Elsayed",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250826",
+      "tournament": "M25 Oldenzaal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Khoeblal",
+      "score": "7(7)-6(3) 4-6 0-3 ret."
+    },
+    {
+      "date": "20250806",
+      "tournament": "M15 Eupen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gobat",
+      "score": "6-1 6(4)-7(7) 6(7)-7(9)"
     },
     {
       "date": "20250618",
@@ -201,8 +149,8 @@
       "score": "6-3 2-6 6-3"
     },
     {
-      "date": "20240612",
-      "tournament": "M15 Santo Domingo 2",
+      "date": "20221102",
+      "tournament": "M15 Villers-les-Nancy",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -210,12 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Asaba",
-      "score": "7(10)-6(8) 6-2"
+      "opponent": "A. Moundir",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20240314",
-      "tournament": "ITF M15 Monastir 11 Men",
+      "date": "20220825",
+      "tournament": "M15 Lambermont",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -223,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Broska",
-      "score": "4-6 4-6"
+      "opponent": "S. Slump",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20240313",
-      "tournament": "ITF M15 Monastir 11 Men",
+      "date": "20220823",
+      "tournament": "M15 Lambermont",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -236,51 +184,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. C. Spiridon",
-      "score": "2-6 2-6"
+      "opponent": "A. Bovy",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20231124",
-      "tournament": "ITF M15 Monastir 47 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Beaupain",
-      "score": "7(7)-6(3) 4-6 6-3"
-    },
-    {
-      "date": "20231123",
-      "tournament": "ITF M15 Monastir 47 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": ". H. Van R.",
-      "score": "4-6 6-2 6-0"
-    },
-    {
-      "date": "20231122",
-      "tournament": "ITF M15 Monastir 47 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Oetzbach",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20231115",
-      "tournament": "ITF M15 Monastir 46 Men",
+      "date": "20220809",
+      "tournament": "M15 Eupen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -288,12 +197,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gil Garcia",
-      "score": "4-6 6-3 5-7"
+      "opponent": "F. Gill",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20230125",
-      "tournament": "ITF M15+H Bagnoles de l'Orne Men",
+      "date": "20220712",
+      "tournament": "M25 Roehampton",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -301,12 +210,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Voisin",
-      "score": "6-1 6-1"
+      "opponent": "B. Jones",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20211209",
-      "tournament": "M15 Cairo 19",
+      "date": "20220622",
+      "tournament": "M25 Arlon",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -314,47 +223,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Pavlovic",
-      "score": "2-6 0-6"
-    },
-    {
-      "date": "20211124",
-      "tournament": "M15 Gurugram",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Dev S D",
-      "score": "6-4 1-6 2-6"
-    },
-    {
-      "date": "20211116",
-      "tournament": "ITF M15 New Delhi 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. H. Boyer",
-      "score": "7(8)-6(6) 7(7)-6(2)"
-    },
-    {
-      "date": "20211110",
-      "tournament": "M15 Indore 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Agarwal",
-      "score": "3-6 5-7"
+      "opponent": "F. Roncadelli",
+      "score": "4-6 1-6"
     }
   ]
 }
