@@ -1,13 +1,65 @@
 {
   "player_id": "l0cu",
-  "gs_id": "216581",
-  "player_name": "Jose Nakamine Luis",
+  "gs_id": "258342",
+  "player_name": "Augusto Miguel Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:32:32.088Z",
+  "updated": "2026-03-27T09:33:02.089Z",
   "matches": [
     {
+      "date": "20251031",
+      "tournament": "M25 Lajeado",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Casanova",
+      "score": "4-6 6(5)-7(7)"
+    },
+    {
+      "date": "20251030",
+      "tournament": "M25 Lajeado",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. A. De Almeida Santos",
+      "score": "3-6 6-3 6-1"
+    },
+    {
+      "date": "20250724",
+      "tournament": "M25 Sao Paulo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hernandez",
+      "score": "6-3 5-7 1-6"
+    },
+    {
+      "date": "20250723",
+      "tournament": "M25 Sao Paulo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Kohlmann",
+      "score": "6-2 5-7 6-4"
+    },
+    {
       "date": "20240821",
-      "tournament": "M25 Arequipa 2",
+      "tournament": "M25 Belem",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Castaneda",
-      "score": "1-6 2-3 ret."
+      "opponent": "I. Gimenez",
+      "score": "6-2 7(7)-6(5)"
     },
     {
-      "date": "20240814",
-      "tournament": "M25 Arequipa",
+      "date": "20240710",
+      "tournament": "ITF M25 São Paulo Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. I. Justo",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20230815",
-      "tournament": "M25 Trujillo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Carou",
-      "score": "6-1 6-3"
-    },
-    {
-      "date": "20230808",
-      "tournament": "M15 Arequipa",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. A. Becerra Otarola",
-      "score": "6(2)-7(7) 1-6"
+      "opponent": "J. C. Prado Angelo",
+      "score": "6-0 6-1"
     }
   ]
 }
