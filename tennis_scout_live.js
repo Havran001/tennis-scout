@@ -1138,7 +1138,8 @@ function buildPlayersTab(sh){
           // Filtrační stav
           var _fTournament='',_fSurface='',_fOpponent='',_fResult='';
 
-          function _fmtOpp(name){
+          function _fDD(list,q){var ql=(q||'').toLowerCase();list.querySelectorAll('.mh-dd-item').forEach(function(i){i.style.display=(!ql||i.textContent.toLowerCase().indexOf(ql)>=0)?'':'none';});}
+function _fmtOpp(name){
   if(!name)return '';
   var parts=name.trim().split(' ');
   if(parts.length<2)return name;
@@ -1195,8 +1196,11 @@ function _renderMatches(){
               '.mh-table td.ta-odds{color:rgba(255,255,255,0.3);font-size:11px;}',
               '.mh-table .yr-sep td{padding:8px 6px 3px;font-size:9px;font-weight:700;color:rgba(255,255,255,0.2);letter-spacing:1.5px;border-bottom:1px solid rgba(255,255,255,0.06);background:none;}',
               '.mh-surf-cl{color:#fb923c;}.mh-surf-gr{color:#4ade80;}.mh-surf-in{color:#c084fc;}.mh-surf-ha{color:#60a5fa;}',
-              '.mh-table input[list]{cursor:pointer;}',
-              '.mh-table input[list]::-webkit-calendar-picker-indicator{opacity:0.4;cursor:pointer;}'
+              '.mh-dd-wrap{position:relative;}',
+              '.mh-dd-list{display:none;position:absolute;top:100%;left:0;min-width:180px;max-height:220px;overflow-y:auto;background:#1c2128;border:1px solid rgba(255,255,255,0.15);border-radius:6px;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.5);}',
+              '.mh-dd-list.open{display:block;}',
+              '.mh-dd-item{padding:5px 10px;font-size:11px;color:#e6edf3;cursor:pointer;white-space:nowrap;}',
+              '.mh-dd-item:hover,.mh-dd-item.active{background:rgba(33,150,243,0.3);}'
             ].join('');
             var cols=[
               {key:'result',label:'W/L',type:'sel',opts:['','W','L']},
@@ -1230,17 +1234,16 @@ function _renderMatches(){
                 fi+=c.opts.map(function(o){return '<option value="'+o+'"'+(cf[c.key]===o?' selected':'')+'>'+o+'</option>';}).join('');
                 fi+='</select>';
               } else {
-                var dlId='dl-'+c.key;
-                var dlVals=[];
+                var ddVals=[];
                 all.forEach(function(m){
                   var v=c.key==='tournament'?_normT(m[c.key]||''):c.key==='opponent'?_fmtOpp(m[c.key]||''):(m[c.key]||'');
-                  if(v&&dlVals.indexOf(v)<0)dlVals.push(v);
+                  if(v&&ddVals.indexOf(v)<0)ddVals.push(v);
                 });
-                dlVals.sort();
-                var dlHtml='<datalist id="'+dlId+'">';
-                dlHtml+=dlVals.map(function(v){return '<option value="'+v+'">';}).join('');
-                dlHtml+='</datalist>';
-                fi=dlHtml+'<input class="th-filter" type="text" list="'+dlId+'" data-col="'+c.key+'" placeholder="..." value="'+(cf[c.key]||'')+'" onclick="event.stopPropagation()">';
+                ddVals.sort();
+                var ddHtml='<div class="mh-dd-wrap"><input class="th-filter" type="text" data-col="'+c.key+'" placeholder="..." value="'+(cf[c.key]||'')+'" autocomplete="off"><div class="mh-dd-list" data-col="'+c.key+'">';
+                ddHtml+=ddVals.map(function(v){return '<div class="mh-dd-item" data-val="'+v.replace(/"/g,'&quot;')+'">'+v+'</div>';}).join('');
+                ddHtml+='</div></div>';
+                fi=ddHtml;
               }
               return '<th class="'+sCls+'" data-sort="'+c.key+'">'+c.label+'<br>'+fi+'</th>';
             }).join('')+'</tr></thead>';
@@ -1297,28 +1300,39 @@ function _renderMatches(){
                   _renderMatches();
                 });
               });
-              var _mhDebTimer=null;
-              listEl.querySelectorAll('.th-filter').forEach(function(inp){
-                var handler=function(e){
-                  var col=e.target.getAttribute('data-col');
-                  var val=e.target.value;
-                  var selStart=e.target.selectionStart;
-                  var selEnd=e.target.selectionEnd;
+              function _closeDD(){listEl.querySelectorAll('.mh-dd-list.open').forEach(function(d){d.classList.remove('open');});}
+              listEl.querySelectorAll('.th-filter[data-col]').forEach(function(inp){
+                var col=inp.getAttribute('data-col');
+                var ddList=inp.parentNode.classList.contains('mh-dd-wrap')?inp.nextSibling:null;
+                inp.addEventListener('click',function(e){
+                  e.stopPropagation();
+                  if(!ddList)return;
+                  var wasOpen=ddList.classList.contains('open');
+                  _closeDD();
+                  if(!wasOpen){_fDD(ddList,'');ddList.classList.add('open');}
+                });
+                inp.addEventListener('input',function(e){
+                  e.stopPropagation();
+                  if(!window._mhColFilter)window._mhColFilter={};
+                  window._mhColFilter[col]=inp.value;
+                  if(ddList){_fDD(ddList,inp.value);ddList.classList.add('open');}
+                  _renderMatches();
+                  var ni=listEl.querySelector('.th-filter[data-col="'+col+'"]');
+                  if(ni){var p=ni.value.length;ni.focus();try{ni.setSelectionRange(p,p);}catch(x){}}
+                });
+              });
+              listEl.querySelectorAll('.mh-dd-item').forEach(function(item){
+                item.addEventListener('mousedown',function(e){
+                  e.preventDefault();e.stopPropagation();
+                  var col=item.closest('.mh-dd-list').getAttribute('data-col');
+                  var val=item.getAttribute('data-val');
                   if(!window._mhColFilter)window._mhColFilter={};
                   window._mhColFilter[col]=val;
-                  if(_mhDebTimer)clearTimeout(_mhDebTimer);
-                  _mhDebTimer=setTimeout(function(){
-                    _renderMatches();
-                    var newInp=listEl.querySelector('.th-filter[data-col="'+col+'"]');
-                    if(newInp&&newInp.type==='text'){
-                      newInp.focus();
-                      try{newInp.setSelectionRange(selStart,selEnd);}catch(ex){}
-                    }
-                  },180);
-                };
-                inp.addEventListener('input',handler);
-                inp.addEventListener('change',handler);
+                  _closeDD();
+                  _renderMatches();
+                });
               });
+              document.addEventListener('click',function(){_closeDD();});
             }
             var cntEl=sec.querySelector('#mh-count');
             if(cntEl)cntEl.textContent=filtered.length+' zápasů';
