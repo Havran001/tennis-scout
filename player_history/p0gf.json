@@ -3,11 +3,50 @@
   "gs_id": "68052",
   "player_name": "Stijn Pel",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:16:32.833Z",
+  "updated": "2026-03-27T01:51:53.945Z",
   "matches": [
     {
-      "date": "20230111",
-      "tournament": "ITF M15 Manacor Men",
+      "date": "20240913",
+      "tournament": "M15 Madrid 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Dalmasso",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240912",
+      "tournament": "M15 Madrid 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Samuel",
+      "score": ""
+    },
+    {
+      "date": "20240911",
+      "tournament": "M15 Madrid 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Parisca",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20240320",
+      "tournament": "ITF M15 Sharm ElSheikh 8 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "I. Sibille",
-      "score": "2-6 6-4 6-3"
+      "opponent": "D. Little",
+      "score": "7(8)-6(6) 7(9)-6(7)"
+    },
+    {
+      "date": "20221123",
+      "tournament": "M15 Madrid 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Vallejo",
+      "score": "6-1 6-2"
     }
   ]
 }
