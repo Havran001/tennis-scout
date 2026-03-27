@@ -1,65 +1,39 @@
 {
   "player_id": "f902",
-  "gs_id": "51700",
-  "player_name": "Jesse Flores",
+  "gs_id": "77658",
+  "player_name": "Diego Fernandez Flores",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:45:50.976Z",
+  "updated": "2026-03-27T03:46:43.977Z",
   "matches": [
     {
-      "date": "20240722",
-      "tournament": "Zug Challenger Men",
+      "date": "20251001",
+      "tournament": "M25 Zaragoza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Marti Pujolras",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20241126",
+      "tournament": "Temuco",
       "surface": "Hard",
       "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Nijboer",
-      "score": "5-7 5-7"
-    },
-    {
-      "date": "20230728",
-      "tournament": "M15 Pittsburgh",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. M. Aguilar J.",
-      "score": "4-6 6-1 6-3"
-    },
-    {
-      "date": "20230727",
-      "tournament": "M15 Pittsburgh",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "W. Grant",
-      "score": "6-4 2-6 4-6"
-    },
-    {
-      "date": "20230726",
-      "tournament": "M15 Pittsburgh",
-      "surface": "Hard",
-      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Bancila",
-      "score": "4-6 5-7"
+      "result": "L",
+      "opponent": "A. Kovacevic",
+      "score": "7(8)-6(6) 1-6 4-6"
     },
     {
-      "date": "20221109",
-      "tournament": "M15 Winston-Salem",
+      "date": "20241002",
+      "tournament": "M25 Zaragoza",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,38 +41,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Nava",
-      "score": "2-6 3-6"
+      "opponent": "M. Erhard",
+      "score": "6(1)-7(7) 6(3)-7(7)"
     },
     {
-      "date": "20221027",
-      "tournament": "M25 Saint-Augustin",
+      "date": "20231128",
+      "tournament": "Temuco Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Boulais",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20221026",
-      "tournament": "M25 Saint-Augustin",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Krasner",
-      "score": "6-1 6-2"
+      "result": "L",
+      "opponent": "T. Barrios Vera",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20220928",
-      "tournament": "M15 Cancun 16",
+      "date": "20230531",
+      "tournament": "ITF M15 Constanta Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Banthia",
-      "score": "2-6 5-7"
+      "opponent": "I. Carou",
+      "score": "1-6 6-3 6-2"
     },
     {
-      "date": "20220921",
-      "tournament": "M15 Cancun 15",
+      "date": "20221017",
+      "tournament": "Coquimbo 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. M. Etcheverry",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20221004",
+      "tournament": "M15 Manizales",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Stewart",
-      "score": "6-4 7-5"
+      "opponent": "V. Leal",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20220713",
-      "tournament": "M15 Pittsburgh",
+      "date": "20220927",
+      "tournament": "M25 Ibague",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,21 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Jachuck",
-      "score": "6(2)-7(7) 6(1)-7(7)"
-    },
-    {
-      "date": "20220615",
-      "tournament": "M25 Santo Domingo 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Cid Subervi",
-      "score": "6(5)-7(7) 6-4 6-2"
+      "opponent": "J. Panta",
+      "score": "6-3 6-3"
     }
   ]
 }
