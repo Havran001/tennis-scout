@@ -3,11 +3,11 @@
   "gs_id": "119589",
   "player_name": "Amaury Raynel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:19:46.064Z",
+  "updated": "2026-03-27T09:28:16.090Z",
   "matches": [
     {
-      "date": "20251106",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20250829",
+      "tournament": "M15 Cap d'Agde",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Comino",
-      "score": "0-6 5-7"
+      "opponent": "D. Salvestre",
+      "score": "6-1 6-3"
     },
     {
-      "date": "20251104",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20250826",
+      "tournament": "M15 Cap d'Agde",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Crivellaro",
-      "score": "6-4 0-6 1-6"
+      "opponent": "M. Kaouk",
+      "score": "6-0 6-3"
     },
     {
       "date": "20250625",
@@ -45,34 +45,34 @@
       "score": "3-6 3-6"
     },
     {
-      "date": "20250315",
-      "tournament": "M25 Creteil",
+      "date": "20240924",
+      "tournament": "M15 Targu Mures",
       "surface": "Hard",
       "level": "I",
-      "round": "SF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Vylegzhanin",
-      "score": "6-2 2-6 2-6"
+      "opponent": "V. Orlov",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20250314",
-      "tournament": "M25 Creteil",
+      "date": "20240920",
+      "tournament": "M15 Pardubice",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. De Loore",
-      "score": "6-2 4-6 7(7)-6(4)"
+      "result": "L",
+      "opponent": "O. Prihodko",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20250313",
-      "tournament": "M25 Creteil",
+      "date": "20240919",
+      "tournament": "M15 Pardubice",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Dalmasso",
-      "score": "6-1 7(7)-6(4)"
+      "opponent": "J. Szajrych",
+      "score": "7(7)-6(4) 2-6 1-4 ret."
     },
     {
-      "date": "20250311",
-      "tournament": "M25 Creteil",
+      "date": "20240918",
+      "tournament": "M15 Pardubice",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +93,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Agwi",
-      "score": "3-6 3-6"
+      "opponent": "P. Brunclik",
+      "score": "4-6 7-5 5-7"
+    },
+    {
+      "date": "20240908",
+      "tournament": "Dobrich 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Wiedenmann",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20240803",
+      "tournament": "ITF M15 Kursumlijska Banja 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Thanos",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20240802",
+      "tournament": "ITF M15 Kursumlijska Banja 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. A. Falabella",
+      "score": "2-6 1-6"
+    },
+    {
+      "date": "20240801",
+      "tournament": "ITF M15 Kursumlijska Banja 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Monferrer",
+      "score": "7(7)-6(2) 1-6 5-7"
+    },
+    {
+      "date": "20240730",
+      "tournament": "ITF M15 Kursumlijska Banja 13 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. N. Turker",
+      "score": "7-5 2-6 0-6"
     },
     {
       "date": "20240724",
@@ -108,45 +173,6 @@
       "result": "L",
       "opponent": "J. Hallquist Lithen",
       "score": "6-0 6-4"
-    },
-    {
-      "date": "20240312",
-      "tournament": "ITF M25 Creteil Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Aubriot",
-      "score": "3-6 6-3 3-6"
-    },
-    {
-      "date": "20231109",
-      "tournament": "M25 Sharm ElSheikh 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Purtseladze",
-      "score": "0-6 1-6"
-    },
-    {
-      "date": "20231108",
-      "tournament": "M25 Sharm ElSheikh 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Ifi",
-      "score": "6-2 5-7 1-6"
     }
   ]
 }
