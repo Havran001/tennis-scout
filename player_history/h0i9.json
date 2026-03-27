@@ -3,33 +3,72 @@
   "gs_id": "138365",
   "player_name": "Asahi Harazaki",
   "source": "goalserve-full",
-  "updated": "2026-03-26T20:17:18.811Z",
+  "updated": "2026-03-27T04:57:12.988Z",
   "matches": [
     {
-      "date": "20221121",
-      "tournament": "Yokkaichi",
+      "date": "20231026",
+      "tournament": "M15 Norman",
       "surface": "Hard",
-      "level": "C",
-      "round": "F",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Mochizuki",
-      "score": "6-3 6-4"
+      "opponent": "A. Razeghi",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20221120",
-      "tournament": "Yokkaichi",
+      "date": "20220929",
+      "tournament": "M25 Kashiwa",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Tanuma",
+      "score": "5-7 4-6"
+    },
+    {
+      "date": "20220927",
+      "tournament": "M25 Kashiwa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Huang",
-      "score": "3-6 6-4 4-6"
+      "opponent": "K. Kawachi",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20220908",
+      "tournament": "M25 Sapporo 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Ito",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20220907",
+      "tournament": "M25 Sapporo 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Takeuchi",
+      "score": "3-6 6-2 2-6"
     }
   ]
 }
