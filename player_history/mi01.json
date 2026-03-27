@@ -3,11 +3,11 @@
   "gs_id": "1581",
   "player_name": "Hiroki Moriya",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:47:38.905Z",
+  "updated": "2026-03-27T00:55:55.922Z",
   "matches": [
     {
-      "date": "20220322",
-      "tournament": "Biel",
+      "date": "20220228",
+      "tournament": "Turin 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "O. Virtanen",
-      "score": "6(8)-7(10) 4-6"
+      "opponent": "F. Agamenone",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20210921",
-      "tournament": "Biel Challenger Men",
+      "date": "20220215",
+      "tournament": "Forli 4",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,25 +28,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Van Rijthoven",
-      "score": "1-6 3-6"
+      "opponent": "R. Haase",
+      "score": "6(2)-7(7) 3-6"
     },
     {
-      "date": "20210920",
-      "tournament": "Biel Challenger Men",
+      "date": "20220214",
+      "tournament": "Forli 4",
       "surface": "Hard",
       "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Matusevich",
-      "score": "6-4 5-7 6-4"
+      "result": "L",
+      "opponent": "E. Nava",
+      "score": "3-6 6-4 6-3"
     },
     {
-      "date": "20210919",
-      "tournament": "Biel Challenger Men",
+      "date": "20220213",
+      "tournament": "Forli 4",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -54,8 +54,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Ehrat",
-      "score": "6-3 6-4"
+      "opponent": "A. Menendez-Maceiras",
+      "score": "2-6 7(7)-6(2) 6-1"
+    },
+    {
+      "date": "20211128",
+      "tournament": "Forli 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Setkic",
+      "score": "4-6 6-1 2-0 ret."
+    },
+    {
+      "date": "20211124",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Erel",
+      "score": "3-6 7-5 2-6"
+    },
+    {
+      "date": "20211123",
+      "tournament": "Manama Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Virtanen",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20211114",
+      "tournament": "Roanne Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Grenier",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20211113",
+      "tournament": "Roanne Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Guinard",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20211112",
+      "tournament": "Roanne Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Sels",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20211110",
+      "tournament": "Roanne Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Kravchenko",
+      "score": "3-6 6-4 7-5"
+    },
+    {
+      "date": "20211108",
+      "tournament": "Roanne Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ritschard",
+      "score": "3-6 6-3 7(9)-6(7)"
     }
   ]
 }
