@@ -3,11 +3,11 @@
   "gs_id": "138523",
   "player_name": "Yannik Rahman",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:56:34.907Z",
+  "updated": "2026-03-27T03:53:15.967Z",
   "matches": [
     {
-      "date": "20230223",
-      "tournament": "ITF M25 Santo Domingo 2 Men",
+      "date": "20250501",
+      "tournament": "M15 Orange Park",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Walton",
-      "score": "0-6 2-6"
+      "opponent": "W. Grant",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20230222",
-      "tournament": "ITF M25 Santo Domingo 2 Men",
+      "date": "20250430",
+      "tournament": "M15 Orange Park",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. S. Osorio",
-      "score": "0-6 5-7"
+      "opponent": "J. Charlton",
+      "score": "6-1 6(3)-7(7) 2-6"
+    },
+    {
+      "date": "20230629",
+      "tournament": "ITF M25 Santo Domingo 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Draxl",
+      "score": "7(7)-6(5) 7(7)-6(4)"
+    },
+    {
+      "date": "20230628",
+      "tournament": "ITF M25 Santo Domingo 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Liokossis",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20221117",
+      "tournament": "M15 Boca Raton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Baker",
+      "score": "6-4 2-6 3-6"
+    },
+    {
+      "date": "20221116",
+      "tournament": "M15 Boca Raton",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Boika",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20221026",
+      "tournament": "M15 Norman",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Lerby",
+      "score": "4-6 0-6"
+    },
+    {
+      "date": "20220929",
+      "tournament": "M15 Cancun 16",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kuperstein",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20220928",
+      "tournament": "M15 Cancun 16",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. M. Nusdeo",
+      "score": "3-6 6-0 6-1"
+    },
+    {
+      "date": "20220920",
+      "tournament": "M15 Cancun 15",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Rodriguez",
+      "score": "7(7)-6(5) 3-1 ret."
     }
   ]
 }
