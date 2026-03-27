@@ -1,52 +1,13 @@
 {
   "player_id": "ch27",
-  "gs_id": "18861",
-  "player_name": "Yunseong Chung",
+  "gs_id": "141935",
+  "player_name": "Hyeon Chung",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:44:42.990Z",
+  "updated": "2026-03-27T04:57:23.987Z",
   "matches": [
     {
-      "date": "20230420",
-      "tournament": "M25 Jakarta 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Samrej",
-      "score": "7-5 0-0 ret."
-    },
-    {
-      "date": "20230419",
-      "tournament": "M25 Jakarta 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Sun",
-      "score": "6-3 6-4"
-    },
-    {
-      "date": "20230329",
-      "tournament": "M25 Tsukuba",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Nishiwaki",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20230117",
-      "tournament": "Piracicaba Challenger Men",
+      "date": "20260113",
+      "tournament": "Nonthaburi 2",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Sanchez Jover",
-      "score": "3-6 0-6"
+      "opponent": "M. Sharipov",
+      "score": "3-6 2-6"
     },
     {
-      "date": "20230116",
-      "tournament": "Piracicaba Challenger Men",
+      "date": "20260112",
+      "tournament": "Nonthaburi 2",
       "surface": "Hard",
       "level": "C",
       "round": "F",
@@ -67,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Sanchez Jover",
-      "score": "6-4 6-3"
+      "opponent": "T. Chanta",
+      "score": "6-2 3-6 4-6"
     },
     {
-      "date": "20230115",
-      "tournament": "Piracicaba Challenger Men",
+      "date": "20260111",
+      "tournament": "Nonthaburi 2",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -80,8 +41,86 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Bueno",
-      "score": "6-2 6-2"
+      "opponent": "Y. Takahashi",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20251104",
+      "tournament": "Matsuyama",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Sekulic",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20250222",
+      "tournament": "M25 Burnie",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Jasika",
+      "score": "6(2)-7(7) 5-7"
+    },
+    {
+      "date": "20250221",
+      "tournament": "M25 Burnie",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Imai",
+      "score": "6-1 6-1"
+    },
+    {
+      "date": "20250220",
+      "tournament": "M25 Burnie",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Charlton",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20250219",
+      "tournament": "M25 Burnie",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Inui",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240903",
+      "tournament": "ITF M25 Sapporo Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Koyama",
+      "score": "7-5 6-1"
     }
   ]
 }
