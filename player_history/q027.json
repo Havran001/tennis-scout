@@ -3,24 +3,37 @@
   "gs_id": "142286",
   "player_name": "Essa Qabazard",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:18:43.948Z",
+  "updated": "2026-03-27T08:23:43.070Z",
   "matches": [
     {
-      "date": "20260107",
-      "tournament": "M15 Hurghada",
+      "date": "20260205",
+      "tournament": "M15 Zahra 2",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Neuchrist",
-      "score": "7(7)-6(5) 6-3"
+      "opponent": "C. Bittoun",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20251105",
-      "tournament": "M15 Manama",
+      "date": "20260204",
+      "tournament": "M15 Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Alberti",
+      "score": "3-6 6(3)-7(7)"
+    },
+    {
+      "date": "20260128",
+      "tournament": "M15 Zahra",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Bakshi",
-      "score": "3-6 3-6"
+      "opponent": "C. Bittoun",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20250205",
+      "tournament": "M15 Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Beauge",
+      "score": "6-3 3-0 ret."
+    },
+    {
+      "date": "20250129",
+      "tournament": "M15 Zahra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Fernandez Canovas",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20231128",
+      "tournament": "ITF M15 Zahra Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Nesterov",
+      "score": "6-0 6-3"
+    },
+    {
+      "date": "20230924",
+      "tournament": "Asian Games",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R64",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Samrej",
+      "score": "6-1 6-4"
+    },
+    {
+      "date": "20230920",
+      "tournament": "ITF M25 Guiyang Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Gu",
+      "score": "6-3 6-4"
     }
   ]
 }
