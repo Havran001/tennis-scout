@@ -3,7 +3,7 @@
   "gs_id": "72986",
   "player_name": "Tim Handel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:27:15.097Z",
+  "updated": "2026-03-27T12:04:11.158Z",
   "matches": [
     {
       "date": "20251130",
@@ -84,6 +84,45 @@
       "score": "4-6 6-3 6-4"
     },
     {
+      "date": "20250724",
+      "tournament": "M25 Metzingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Loge",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20250723",
+      "tournament": "M25 Metzingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Kelm",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250611",
+      "tournament": "M25 Ceska Lipa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Brunclik",
+      "score": "2-6 6-4 0-6"
+    },
+    {
       "date": "20241128",
       "tournament": "M25 Antalya 6",
       "surface": "Hard",
@@ -121,45 +160,6 @@
       "result": "L",
       "opponent": "M. Borisiouk",
       "score": "7(7)-6(2) 6-4"
-    },
-    {
-      "date": "20240814",
-      "tournament": "M15 Überlingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. E. Egea",
-      "score": "6-4 6(4)-7(7) 6-0"
-    },
-    {
-      "date": "20240711",
-      "tournament": "M25 Kassel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Siniakov",
-      "score": "7-5 4-6 6-4"
-    },
-    {
-      "date": "20240709",
-      "tournament": "M25 Kassel",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Lipp",
-      "score": "6-4 6-2"
     }
   ]
 }
