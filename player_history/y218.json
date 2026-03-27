@@ -3,50 +3,76 @@
   "gs_id": "10670",
   "player_name": "Elias Ymer",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:02:03.889Z",
+  "updated": "2026-03-27T00:50:00.943Z",
   "matches": [
     {
-      "date": "20220909",
-      "tournament": "Tulln",
+      "date": "20241008",
+      "tournament": "Roanne",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Kym",
+      "score": "7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20241007",
+      "tournament": "Roanne",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Paul",
+      "score": "4-6 6-4 6-3"
+    },
+    {
+      "date": "20241006",
+      "tournament": "Roanne",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Kovalik",
-      "score": "7-5 3-6 6-4"
+      "result": "W",
+      "opponent": "K. De Schepper",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20220908",
-      "tournament": "Tulln",
+      "date": "20240213",
+      "tournament": "Manama Challenger Men",
       "surface": "Hard",
       "level": "C",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Klein",
-      "score": "5-7 3-6"
+      "result": "L",
+      "opponent": "A. Ritschard",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20220907",
-      "tournament": "Tulln",
+      "date": "20231108",
+      "tournament": "Lima 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Sousa",
-      "score": "3-6 2-6"
+      "result": "L",
+      "opponent": "F. Comesana",
+      "score": "4-6 6-4 4-6"
     },
     {
-      "date": "20220905",
-      "tournament": "Tulln",
+      "date": "20231107",
+      "tournament": "Lima 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -54,8 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Neumayer",
-      "score": "3-6 4-6"
+      "opponent": "F. Agamenone",
+      "score": "3-6 6-1 6-4"
     }
   ]
 }
