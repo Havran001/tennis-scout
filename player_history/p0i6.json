@@ -3,20 +3,46 @@
   "gs_id": "90284",
   "player_name": "Gabriele Piraino",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:18:02.062Z",
+  "updated": "2026-03-27T09:27:56.094Z",
   "matches": [
     {
-      "date": "20260324",
-      "tournament": "Naples",
+      "date": "20251121",
+      "tournament": "Montemar",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "6-0 6-2"
+    },
+    {
+      "date": "20251120",
+      "tournament": "Montemar",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Merida Aguilar",
+      "score": "6-3 5-7 6(6)-7(8)"
+    },
+    {
+      "date": "20251118",
+      "tournament": "Montemar",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Cina",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "A. Burdet",
+      "score": "6-4 6-4"
     },
     {
       "date": "20250615",
@@ -58,8 +84,8 @@
       "score": "6-2 6-1"
     },
     {
-      "date": "20250226",
-      "tournament": "M15 Villena 2",
+      "date": "20241114",
+      "tournament": "M15 San Gregorio di Catania 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,25 +93,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Martinez",
-      "score": "6-3 6(2)-7(7) 6-3"
+      "opponent": "F. Tabacco",
+      "score": "0-6 6-4 6-2"
     },
     {
-      "date": "20241110",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20240909",
+      "tournament": "ITF M15 Bologna Men",
       "surface": "Hard",
       "level": "I",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Cadenasso",
-      "score": "4-6 5-7"
+      "result": "W",
+      "opponent": "M. Erhard",
+      "score": "5-7 6-2 5-7"
     },
     {
-      "date": "20241109",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20240907",
+      "tournament": "ITF M15 Bologna Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -94,11 +120,11 @@
       "opp_rank": "",
       "result": "W",
       "opponent": "K. Kivattsev",
-      "score": ""
+      "score": "2-6 6-3 3-6"
     },
     {
-      "date": "20241108",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20240906",
+      "tournament": "ITF M15 Bologna Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -106,12 +132,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Giustino",
-      "score": "3-6 7-5 7-5"
+      "opponent": "F. Iannaccone",
+      "score": ""
     },
     {
-      "date": "20241107",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20240905",
+      "tournament": "ITF M15 Bologna Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -119,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. La Vela",
-      "score": "6-4 6-4"
+      "opponent": "G. Di Nicola",
+      "score": "4-6 3-6"
     },
     {
-      "date": "20241104",
-      "tournament": "M15 San Gregorio di Catania",
+      "date": "20240903",
+      "tournament": "ITF M15 Bologna Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,8 +158,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Catini",
-      "score": "0-6 6-2 4-0 ret."
+      "opponent": "M. Dimic",
+      "score": "4-6 4-6"
     },
     {
       "date": "20240616",
@@ -186,71 +212,6 @@
       "result": "W",
       "opponent": "L. Vaccari",
       "score": "4-6 4-6"
-    },
-    {
-      "date": "20231202",
-      "tournament": "ITF M15 San Gregorio di Catania Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Martin Tiffon",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20231201",
-      "tournament": "ITF M15 San Gregorio di Catania Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Caruso",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20231130",
-      "tournament": "ITF M15 San Gregorio di Catania Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Romano",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20231129",
-      "tournament": "ITF M15 San Gregorio di Catania Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Ingarao",
-      "score": "6-3 6-0"
-    },
-    {
-      "date": "20231128",
-      "tournament": "ITF M15 San Gregorio di Catania Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Ribeiro Lago",
-      "score": "6-4 5-7 6-2"
     }
   ]
 }
