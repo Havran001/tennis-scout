@@ -3,37 +3,11 @@
   "gs_id": "240973",
   "player_name": "Daniel Jade",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:03:48.128Z",
+  "updated": "2026-03-27T00:55:24.927Z",
   "matches": [
     {
-      "date": "20260301",
-      "tournament": "Thionville",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Nishikori",
-      "score": "2-6 3-6"
-    },
-    {
-      "date": "20250615",
-      "tournament": "Royan",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Poullain",
-      "score": "6-4 1-6 4-6"
-    },
-    {
-      "date": "20250610",
-      "tournament": "M25 Villeneuve-Loubet",
+      "date": "20250916",
+      "tournament": "M25 Nevers",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +15,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Slump",
+      "opponent": "L. Larue",
       "score": "1-6 3-6"
+    },
+    {
+      "date": "20250715",
+      "tournament": "M25 Uriage",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Tepmahc",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250626",
+      "tournament": "M25 Montauban",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20250625",
+      "tournament": "M25 Montauban",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Castelnuovo",
+      "score": "2-6 1-6"
     }
   ]
 }
