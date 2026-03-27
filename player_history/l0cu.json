@@ -1,13 +1,13 @@
 {
   "player_id": "l0cu",
-  "gs_id": "90393",
-  "player_name": "Tomas Luis",
+  "gs_id": "133501",
+  "player_name": "Felipe Miguel Luis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:11:16.154Z",
+  "updated": "2026-03-27T12:16:25.169Z",
   "matches": [
     {
-      "date": "20250702",
-      "tournament": "M25 Figueira da Foz",
+      "date": "20251104",
+      "tournament": "M15 Orlando",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,73 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Dar. Blanch",
-      "score": "0-6 0-6"
+      "opponent": "F. Corwin",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20250803",
+      "tournament": "M15 Joinville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Gimenez",
+      "score": "6-3 7-5"
+    },
+    {
+      "date": "20250802",
+      "tournament": "M15 Joinville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. C. Alvarez Valdes",
+      "score": "7(9)-6(7) 6-4"
+    },
+    {
+      "date": "20250801",
+      "tournament": "M15 Joinville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Fernandez",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20250731",
+      "tournament": "M15 Joinville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Rodrigues",
+      "score": "6-1 7(10)-6(8)"
+    },
+    {
+      "date": "20250730",
+      "tournament": "M15 Joinville",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. E. Schiessl",
+      "score": "2-6 0-0 ret."
     }
   ]
 }
