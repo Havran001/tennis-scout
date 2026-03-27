@@ -3,24 +3,37 @@
   "gs_id": "145949",
   "player_name": "Noah Schlagenhauf",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:20:46.156Z",
+  "updated": "2026-03-27T02:54:19.956Z",
   "matches": [
     {
-      "date": "20250710",
-      "tournament": "M15 Telfs",
+      "date": "20240823",
+      "tournament": "M15 Lambermont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Beaupain",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20240822",
+      "tournament": "M15 Lambermont",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Donald",
-      "score": "6-2 6-4"
+      "result": "W",
+      "opponent": "K. Collignon",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20250709",
-      "tournament": "M15 Telfs",
+      "date": "20240821",
+      "tournament": "M15 Lambermont",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Roeder",
-      "score": "3-6 2-6"
+      "opponent": "G. A. Bailly",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20250604",
-      "tournament": "M15 Klagenfurt",
+      "date": "20240522",
+      "tournament": "M15 Celje",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Demanet",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Ystad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Friberg",
+      "score": "6-2 6-0"
+    },
+    {
+      "date": "20230614",
+      "tournament": "ITF M15 Duffel Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Colson",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20220901",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Pecci",
-      "score": "7(7)-6(5) 6-2"
+      "opponent": "D. Boehler",
+      "score": "2-6 2-6"
     },
     {
-      "date": "20250603",
-      "tournament": "M15 Klagenfurt",
+      "date": "20220831",
+      "tournament": "M15 Haren",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +106,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Schifris",
-      "score": "4-6 2-6"
+      "opponent": "K. Tamm",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240814",
-      "tournament": "ITF M15 Ystad Men",
+      "date": "20220825",
+      "tournament": "M15 Lambermont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Wojcik",
+      "score": "2-6 6-2 5-7"
+    },
+    {
+      "date": "20220824",
+      "tournament": "M15 Lambermont",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Haddouch",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20220419",
+      "tournament": "M25 Santa Margherita di Pula 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +145,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Wessels",
-      "score": "4-6 6(5)-7(7)"
+      "opponent": "G. Piraino",
+      "score": "7-5 6-3"
+    },
+    {
+      "date": "20220412",
+      "tournament": "M25 Santa Margherita di Pula",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Tabacco",
+      "score": "6-1 6-3"
     }
   ]
 }
