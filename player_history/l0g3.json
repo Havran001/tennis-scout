@@ -3,46 +3,20 @@
   "gs_id": "93803",
   "player_name": "Aleksandr Lobanov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:59:16.032Z",
+  "updated": "2026-03-27T08:18:40.061Z",
   "matches": [
     {
-      "date": "20250704",
-      "tournament": "M15 Kursumlijska Banja 9",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Klok",
-      "score": "6-1 3-0 ret."
-    },
-    {
-      "date": "20250703",
-      "tournament": "M15 Kursumlijska Banja 9",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Homberg",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20250702",
-      "tournament": "M15 Kursumlijska Banja 9",
+      "date": "20250710",
+      "tournament": "M15 Kursumlijska Banja 10",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Stanisavljevic",
-      "score": "2-6 6-4 6-4"
+      "result": "L",
+      "opponent": "P. R. Scomparin",
+      "score": "6-3 3-1 ret."
     },
     {
       "date": "20250205",
@@ -71,30 +45,69 @@
       "score": "6-3 6-1"
     },
     {
-      "date": "20240725",
-      "tournament": "M25 Astana",
+      "date": "20240624",
+      "tournament": "Ibague",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. A. Nunez",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240623",
+      "tournament": "Ibague",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Nesterov",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240520",
+      "tournament": "Kachreti",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
       "opponent": "A. Ayeni",
-      "score": "1-6 4-6"
+      "score": "3-6 6(3)-7(7)"
     },
     {
-      "date": "20240724",
-      "tournament": "M25 Astana",
+      "date": "20240519",
+      "tournament": "Kachreti",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Bouzige",
+      "score": "7-5 3-6 6-3"
+    },
+    {
+      "date": "20240416",
+      "tournament": "M25 Hammamet 7",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Dubrouski",
-      "score": "6-3 6-1"
+      "result": "L",
+      "opponent": "P. Juszczak",
+      "score": "0-6 2-6"
     }
   ]
 }
