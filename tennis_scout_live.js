@@ -1138,7 +1138,15 @@ function buildPlayersTab(sh){
           // Filtrační stav
           var _fTournament='',_fSurface='',_fOpponent='',_fResult='';
 
-          function _renderMatches(){
+          function _fmtOpp(name){
+  if(!name)return '';
+  var parts=name.trim().split(' ');
+  if(parts.length<2)return name;
+  var last=parts[parts.length-1];
+  var first=parts.slice(0,parts.length-1).join(' ');
+  return last+', '+first;
+}
+function _renderMatches(){
             var filtered=all.filter(function(m){
               if(_fTournament&&_normT(m.tournament||'')!==_fTournament)return false;
               if(_fSurface&&m.surface!==_fSurface)return false;
@@ -1152,7 +1160,7 @@ function buildPlayersTab(sh){
                 if(cf.round&&m.round&&m.round.toLowerCase().indexOf(cf.round.toLowerCase())<0)return false;
                 if(cf.rank&&m.rank&&m.rank.indexOf(cf.rank)<0)return false;
                 if(cf.opp_rank&&m.opp_rank&&m.opp_rank.indexOf(cf.opp_rank)<0)return false;
-                if(cf.opponent&&m.opponent&&m.opponent.toLowerCase().indexOf(cf.opponent.toLowerCase())<0)return false;
+                if(cf.opponent&&m.opponent&&_fmtOpp(m.opponent).toLowerCase().indexOf(cf.opponent.toLowerCase())<0)return false;
                 if(cf.score&&m.score&&m.score.toLowerCase().indexOf(cf.score.toLowerCase())<0)return false;
                 if(cf.result&&m.result!==cf.result)return false;
               }
@@ -1225,7 +1233,7 @@ function buildPlayersTab(sh){
                 var dlId='dl-'+c.key;
                 var dlVals=[];
                 all.forEach(function(m){
-                  var v=c.key==='tournament'?_normT(m[c.key]||''):(m[c.key]||'');
+                  var v=c.key==='tournament'?_normT(m[c.key]||''):c.key==='opponent'?_fmtOpp(m[c.key]||''):(m[c.key]||'');
                   if(v&&dlVals.indexOf(v)<0)dlVals.push(v);
                 });
                 dlVals.sort();
@@ -1258,7 +1266,7 @@ function buildPlayersTab(sh){
                 '<td>'+(m.round||'')+'</td>',
                 '<td class="ta-num">'+(m.rank||'')+'</td>',
                 '<td class="ta-num">'+(m.opp_rank||'')+'</td>',
-                '<td>'+(m.opponent||'')+'</td>',
+                '<td>'+_fmtOpp(m.opponent)+'</td>',
                 '<td class="ta-score">'+(m.score||'')+'</td>',
                 '<td class="ta-odds">'+(m.odds||'')+'</td>',
                 '<td class="ta-num">'+(m.dr||'')+'</td>',
