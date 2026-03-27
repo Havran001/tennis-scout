@@ -3,24 +3,37 @@
   "gs_id": "87184",
   "player_name": "Luc Koenig",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:58:43.919Z",
+  "updated": "2026-03-27T02:51:51.967Z",
   "matches": [
     {
-      "date": "20231109",
-      "tournament": "ITF M25 Austin",
+      "date": "20230803",
+      "tournament": "ITF M25 Roehampton 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Houghton",
+      "score": "6-2 7(7)-6(3)"
+    },
+    {
+      "date": "20230802",
+      "tournament": "ITF M25 Roehampton 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Winter",
-      "score": "6-1 6-2"
+      "result": "W",
+      "opponent": "D. Little",
+      "score": "6-4 5-7 6(5)-7(7)"
     },
     {
-      "date": "20231108",
-      "tournament": "ITF M25 Austin",
+      "date": "20230801",
+      "tournament": "ITF M25 Roehampton 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Van Emburgh",
-      "score": "6(4)-7(7) 4-6"
+      "opponent": "K. L. Boyd",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20220714",
+      "tournament": "M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Huang",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20220713",
+      "tournament": "M15 Lakewood",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ansari",
+      "score": "6-4 4-6 1-6"
+    },
+    {
+      "date": "20220706",
+      "tournament": "M15 Waco",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tu",
+      "score": "4-6 6(3)-7(7)"
+    },
+    {
+      "date": "20220629",
+      "tournament": "M25 Dallas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Hua",
+      "score": "4-6 1-6"
     }
   ]
 }
