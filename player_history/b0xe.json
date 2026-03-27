@@ -1,1 +1,35 @@
-{"player_id":"b0xe","sack_id":"213663","name":"Maximilian Borisov","total":0,"matches":[]}
+{
+  "player_id": "b0xe",
+  "gs_id": "293969",
+  "player_name": "Maximilian Borisov",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T05:49:40.440Z",
+  "matches": [
+    {
+      "date": "20251127",
+      "tournament": "M15 Madrid 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Demin",
+      "score": "0-4 ret."
+    },
+    {
+      "date": "20251126",
+      "tournament": "M15 Madrid 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Brokakis",
+      "score": "2-6 4-6"
+    }
+  ]
+}
