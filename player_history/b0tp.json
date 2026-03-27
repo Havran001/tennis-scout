@@ -3,37 +3,50 @@
   "gs_id": "218340",
   "player_name": "Henry Bernet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:07:00.033Z",
+  "updated": "2026-03-27T11:03:35.126Z",
   "matches": [
     {
-      "date": "20250829",
-      "tournament": "M25 Sion",
+      "date": "20260309",
+      "tournament": "Hersonissos 2",
       "surface": "Hard",
-      "level": "I",
-      "round": "QF",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Weis",
-      "score": "6-3 6(3)-7(7) 5-7"
+      "opponent": "S. Dostanic",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20250828",
-      "tournament": "M25 Sion",
+      "date": "20260301",
+      "tournament": "Hersonissos",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Soriano Barrera",
+      "score": "1-6 4-6"
+    },
+    {
+      "date": "20250703",
+      "tournament": "M15 Getxo",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Toffanin",
-      "score": "1-6 2-6"
+      "result": "L",
+      "opponent": "L. Raquillet",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20250827",
-      "tournament": "M25 Sion",
+      "date": "20250701",
+      "tournament": "M15 Getxo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Figl",
-      "score": "5-7 6-2 6(2)-7(7)"
+      "opponent": "T. Avcibasi",
+      "score": "2-6 1-6"
     }
   ]
 }
