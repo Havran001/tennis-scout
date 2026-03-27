@@ -1,1 +1,22 @@
-{"player_id":"s0sq","gs_id":"137850","player_name":"Cedric Stanke","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"A9FPfVdt","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Ahmedabad (India), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Rawat S.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20220114","tournament":"M15 Antalya","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"B. Patael","score":"1-6 2-6"}],"total":2}
+{
+  "player_id": "s0sq",
+  "gs_id": "137850",
+  "player_name": "Cedric Stanke",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T20:17:17.815Z",
+  "matches": [
+    {
+      "date": "20220114",
+      "tournament": "M15 Antalya",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Patael",
+      "score": "1-6 2-6"
+    }
+  ]
+}
