@@ -3,11 +3,11 @@
   "gs_id": "150084",
   "player_name": "Roman Postolka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:58:13.983Z",
+  "updated": "2026-03-27T08:24:29.065Z",
   "matches": [
     {
-      "date": "20230622",
-      "tournament": "M25 Poprad",
+      "date": "20250828",
+      "tournament": "M15 Vienna",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Orlov",
-      "score": "6-3 6-4"
+      "opponent": "A. Chayka",
+      "score": "6-1 4-6 3-6"
     },
     {
-      "date": "20230620",
-      "tournament": "M25 Poprad",
+      "date": "20250827",
+      "tournament": "M15 Vienna",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Vaise",
-      "score": "6-4 6-4"
+      "opponent": "G. Misasi",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20230928",
+      "tournament": "M25 Pazardzhik",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Chepelev",
+      "score": "7-5 7(7)-6(4)"
+    },
+    {
+      "date": "20230927",
+      "tournament": "M25 Pazardzhik",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Genov",
+      "score": "6-3 7(7)-6(4)"
     }
   ]
 }
