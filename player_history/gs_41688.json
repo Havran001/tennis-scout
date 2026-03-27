@@ -3,8 +3,21 @@
   "gs_id": "41688",
   "player_name": "Lucas Reis Da Silva Joao",
   "source": "goalserve-full",
-  "updated": "2026-03-27T10:58:52.126Z",
+  "updated": "2026-03-27T11:57:05.156Z",
   "matches": [
+    {
+      "date": "20251020",
+      "tournament": "Costa do Sauipe",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Rodriguez Taverna",
+      "score": "6(2)-7(7) 6-4 6-2"
+    },
     {
       "date": "20250729",
       "tournament": "Hagen",
@@ -95,58 +108,6 @@
       "result": "W",
       "opponent": "G. Ribeiro de Almeida",
       "score": "0-6 4-6"
-    },
-    {
-      "date": "20250304",
-      "tournament": "Cordoba 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Midon",
-      "score": "6-3 4-6 1-6"
-    },
-    {
-      "date": "20250303",
-      "tournament": "Cordoba 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Barrena",
-      "score": "6-1 1-0 ret."
-    },
-    {
-      "date": "20250302",
-      "tournament": "Cordoba 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Monzon",
-      "score": "6-0 7(8)-6(6)"
-    },
-    {
-      "date": "20250203",
-      "tournament": "Rosario",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Midon",
-      "score": "6-4 1-6 7-5"
     }
   ]
 }
