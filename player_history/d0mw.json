@@ -1,13 +1,13 @@
 {
   "player_id": "d0mw",
-  "gs_id": "268358",
-  "player_name": "Francesco Garbero Filippo",
+  "gs_id": "278495",
+  "player_name": "Edoardo De Filippo",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:13:23.890Z",
+  "updated": "2026-03-27T02:56:58.959Z",
   "matches": [
     {
-      "date": "20251014",
-      "tournament": "M15 Heraklion 10",
+      "date": "20251015",
+      "tournament": "M15 Monastir 39",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,21 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Hurrion",
-      "score": "6-3 2-6 6-3"
+      "opponent": "M. Cerny",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240626",
-      "tournament": "ITF M15 Bergamo Men",
+      "date": "20251009",
+      "tournament": "M15 Monastir 38",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gil Garcia",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20251007",
+      "tournament": "M15 Monastir 38",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Minighini",
-      "score": "2-6 3-6"
+      "result": "W",
+      "opponent": "D. Batista",
+      "score": "6-1 6-4"
     }
   ]
 }
