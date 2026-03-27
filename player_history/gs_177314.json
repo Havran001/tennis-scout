@@ -3,8 +3,34 @@
   "gs_id": "177314",
   "player_name": "Razvan Marinescu Mihai",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:11:10.015Z",
+  "updated": "2026-03-27T07:05:25.032Z",
   "matches": [
+    {
+      "date": "20250821",
+      "tournament": "M15 Arad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Tenti",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20250820",
+      "tournament": "M15 Arad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Marosik",
+      "score": "4-6 0-6"
+    },
     {
       "date": "20250814",
       "tournament": "M15 Targu Jiu",
@@ -32,45 +58,6 @@
       "score": "6-2 6-1"
     },
     {
-      "date": "20250619",
-      "tournament": "M15 Cluj Napoca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Snitari",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20250618",
-      "tournament": "M15 Cluj Napoca",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "E. De Filippo",
-      "score": "3-6 6-0 6-1"
-    },
-    {
-      "date": "20250312",
-      "tournament": "ITF M15 Alaminos Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Masjuan Ginel",
-      "score": "2-6 5-7"
-    },
-    {
       "date": "20240904",
       "tournament": "M15 Constanta 2",
       "surface": "Hard",
@@ -82,6 +69,32 @@
       "result": "L",
       "opponent": "S. Palosi",
       "score": "0-6 2-6"
+    },
+    {
+      "date": "20240821",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Andreescu",
+      "score": "6-1 5-7 6-1"
+    },
+    {
+      "date": "20240819",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Michalik",
+      "score": "6-2 7(7)-6(4)"
     },
     {
       "date": "20240814",
@@ -97,17 +110,30 @@
       "score": "2-6 2-6"
     },
     {
-      "date": "20240619",
-      "tournament": "ITF M15 Cluj Napoca Men",
+      "date": "20230927",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Klok",
+      "score": "6-3 6(4)-7(7) 6-3"
+    },
+    {
+      "date": "20230925",
+      "tournament": "ITF M15 Arad Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "I. A. Chirita",
-      "score": "6(5)-7(7) 4-6"
+      "result": "W",
+      "opponent": "M. C. Onofrei",
+      "score": "6-2 6-1"
     },
     {
       "date": "20230916",
@@ -186,45 +212,6 @@
       "result": "L",
       "opponent": "P. Nesterov",
       "score": "4-6 5-7"
-    },
-    {
-      "date": "20230705",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Poljak",
-      "score": "6-2 1-6 4-6"
-    },
-    {
-      "date": "20230703",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Henning",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20230620",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Calvano",
-      "score": "3-6 2-6"
     }
   ]
 }
