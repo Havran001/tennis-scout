@@ -3,11 +3,11 @@
   "gs_id": "83984",
   "player_name": "Alan Bojarski",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:52:28.967Z",
+  "updated": "2026-03-27T08:17:54.065Z",
   "matches": [
     {
-      "date": "20251028",
-      "tournament": "M15 Heraklion 12",
+      "date": "20250903",
+      "tournament": "M15 Szczawno",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,25 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Hopp",
-      "score": "4-6 6-4 6-1"
+      "opponent": "M. Donald",
+      "score": "7(7)-6(4) 7-5"
     },
     {
-      "date": "20240811",
-      "tournament": "Grodzisk Mazowiecki Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Glinka",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20240626",
-      "tournament": "M15 Wroclaw",
+      "date": "20250625",
+      "tournament": "M15 Grodzisk Mazowiecki",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Rajski",
-      "score": "6-2 6-2"
+      "opponent": "T. Berkieta",
+      "score": "6(5)-7(7) 6-3 6-1"
     },
     {
-      "date": "20230620",
-      "tournament": "M25 Poprad",
+      "date": "20250527",
+      "tournament": "M15 Gyula",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Palovic",
-      "score": "2-6 2-6"
+      "opponent": "T. Paroulek",
+      "score": "3-6 1-6"
     },
     {
-      "date": "20220629",
-      "tournament": "M15 Wroclaw",
+      "date": "20240828",
+      "tournament": "ITF M15 Szczawno Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +54,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Duda",
+      "opponent": "O. Pieczkowski",
+      "score": "7-5 1-6 1-6"
+    },
+    {
+      "date": "20240621",
+      "tournament": "M15 Koszalin 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Hallquist Lithen",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20240620",
+      "tournament": "M15 Koszalin 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Kaukovalta",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20240619",
+      "tournament": "M15 Koszalin 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Genier",
+      "score": "7-5 6-2"
+    },
+    {
+      "date": "20240606",
+      "tournament": "ITF M15 Grodzisk Mazowiecki Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Pieczonka",
       "score": "2-6 0-6"
+    },
+    {
+      "date": "20240605",
+      "tournament": "ITF M15 Grodzisk Mazowiecki Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Vasa",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Koszalin Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Kielan",
+      "score": "6(5)-7(7) 6-2 7-5"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M15 Szczawno Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Pieczkowski",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20230816",
+      "tournament": "M25 Bielsko Biala",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rosol",
+      "score": "5-7 3-6"
     }
   ]
 }
