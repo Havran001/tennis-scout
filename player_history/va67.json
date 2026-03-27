@@ -3,8 +3,60 @@
   "gs_id": "76907",
   "player_name": "Valentin Vanta",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:04:13.010Z",
+  "updated": "2026-03-27T06:57:10.026Z",
   "matches": [
+    {
+      "date": "20250819",
+      "tournament": "M15 Arad",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Tenti",
+      "score": "3-6 6-1 6-3"
+    },
+    {
+      "date": "20230925",
+      "tournament": "ITF M15 Arad Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Hrazdil",
+      "score": "7(7)-6(3) 6-4"
+    },
+    {
+      "date": "20230907",
+      "tournament": "ITF M15 Constanta 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. P. Paz",
+      "score": "3-6 0-1 ret."
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M15 Constanta 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Caruso",
+      "score": "6-2 4-6 6-2"
+    },
     {
       "date": "20230830",
       "tournament": "ITF M15 Bucharest 2 Men",
@@ -30,58 +82,6 @@
       "result": "L",
       "opponent": "L. Ferri",
       "score": "4-6 6-3 5-7"
-    },
-    {
-      "date": "20230703",
-      "tournament": "M25 Brasov",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zukas",
-      "score": "6-3 4-6 6-1"
-    },
-    {
-      "date": "20230619",
-      "tournament": "ITF M15 Cluj Napoca Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Rodesch",
-      "score": "6-1 6-4"
-    },
-    {
-      "date": "20230519",
-      "tournament": "M15 Pazardzhik",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Prihodko",
-      "score": "6-4 6-1"
-    },
-    {
-      "date": "20230518",
-      "tournament": "M15 Pazardzhik",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Skorilas",
-      "score": "2-6 3-6"
     }
   ]
 }
