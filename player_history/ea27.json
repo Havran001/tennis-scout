@@ -3,24 +3,50 @@
   "gs_id": "34432",
   "player_name": "Blake Ellis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:53:31.945Z",
+  "updated": "2026-03-27T02:49:55.994Z",
   "matches": [
     {
-      "date": "20240718",
-      "tournament": "M25 Nottingham 4",
+      "date": "20230715",
+      "tournament": "ITF M25 Dallas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Krueger",
+      "score": "5-7 7(8)-6(6) 6-2"
+    },
+    {
+      "date": "20230714",
+      "tournament": "ITF M25 Dallas",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Maloney",
+      "score": "6-3 3-6 7-5"
+    },
+    {
+      "date": "20230713",
+      "tournament": "ITF M25 Dallas",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Coquelin",
-      "score": "3-6 5-7"
+      "result": "W",
+      "opponent": "C. C. Huang",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20240716",
-      "tournament": "M25 Nottingham 4",
+      "date": "20230712",
+      "tournament": "ITF M25 Dallas",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +54,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Charlton",
-      "score": "2-6 1-6"
+      "opponent": "A. Moreno",
+      "score": "6-3 7(7)-6(5)"
     },
     {
-      "date": "20240710",
-      "tournament": "M25 Nottingham 3",
+      "date": "20230428",
+      "tournament": "ITF M25 Tbilisi Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kachmazov",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20230427",
+      "tournament": "ITF M25 Tbilisi Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Wendelken",
-      "score": "3-6 3-6"
+      "result": "W",
+      "opponent": "R. Ellouck",
+      "score": "3-6 4-6"
     },
     {
-      "date": "20240709",
-      "tournament": "M25 Nottingham 3",
+      "date": "20230426",
+      "tournament": "ITF M25 Tbilisi Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Pow",
-      "score": "6(3)-7(7) 2-6"
+      "opponent": "B. Butulija",
+      "score": "6-3 4-6 6(6)-7(8)"
     }
   ]
 }
