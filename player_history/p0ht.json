@@ -1,39 +1,26 @@
 {
   "player_id": "p0ht",
-  "gs_id": "71346",
-  "player_name": "Jack Pinnington Jones",
+  "gs_id": "142032",
+  "player_name": "Miles Jones",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:09:06.032Z",
+  "updated": "2026-03-27T07:10:33.040Z",
   "matches": [
     {
-      "date": "20230813",
-      "tournament": "M25 Roehampton 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "F",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Glinka",
-      "score": "6-4 7(7)-6(3)"
-    },
-    {
-      "date": "20230812",
-      "tournament": "M25 Roehampton 3",
+      "date": "20241123",
+      "tournament": "M15 Santo Domingo 3",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Cox",
-      "score": "6(3)-7(7) 7(7)-6(5) 6-2"
+      "result": "L",
+      "opponent": "R. Cid Subervi",
+      "score": "1-6 2-6"
     },
     {
-      "date": "20230811",
-      "tournament": "M25 Roehampton 3",
+      "date": "20241122",
+      "tournament": "M15 Santo Domingo 3",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Shaw",
-      "score": "6-4 6-4"
+      "opponent": "B. T. George",
+      "score": "4-6 6(3)-7(7)"
     },
     {
-      "date": "20230810",
-      "tournament": "M25 Roehampton 3",
+      "date": "20241121",
+      "tournament": "M15 Santo Domingo 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Broom",
-      "score": "3-6 6-0 4-6"
+      "opponent": "J. Ross",
+      "score": "6-4 4-6 5-7"
     },
     {
-      "date": "20230808",
-      "tournament": "M25 Roehampton 3",
+      "date": "20241119",
+      "tournament": "M15 Santo Domingo 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "F. Bass",
-      "score": "0-6 6(4)-7(7)"
+      "opponent": "I. Almazan Valiente",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240223",
+      "tournament": "M25 Hammamet 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Ouakaa",
+      "score": "2-6 6-1 6-4"
+    },
+    {
+      "date": "20240221",
+      "tournament": "M25 Hammamet 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Agostini",
+      "score": "6-4 6(3)-7(7) 1-6"
+    },
+    {
+      "date": "20231116",
+      "tournament": "ITF M15 Santo Domingo 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Hoyos Franco",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20231115",
+      "tournament": "ITF M15 Santo Domingo 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Ward",
+      "score": "6-4 1-6 2-6"
     }
   ]
 }
