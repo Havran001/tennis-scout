@@ -3,24 +3,37 @@
   "gs_id": "90235",
   "player_name": "Henrique Rocha",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:53:42.275Z",
+  "updated": "2026-03-27T02:52:03.959Z",
   "matches": [
     {
-      "date": "20231125",
-      "tournament": "ITF M25 Vale do Lobo 2 Men",
+      "date": "20230624",
+      "tournament": "M25 Mungia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Vives Marcos",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230623",
+      "tournament": "M25 Mungia",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Sultanov",
-      "score": "4-6 2-6"
+      "result": "W",
+      "opponent": "S. Sakellaridis",
+      "score": "6-4 6-3"
     },
     {
-      "date": "20231124",
-      "tournament": "ITF M25 Vale do Lobo 2 Men",
+      "date": "20230622",
+      "tournament": "M25 Mungia",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Zima",
-      "score": "6-2 7-5"
+      "opponent": "O. Crawford",
+      "score": "1-6 7(7)-6(4) 2-6"
     },
     {
-      "date": "20231123",
-      "tournament": "ITF M25 Vale do Lobo 2 Men",
+      "date": "20230621",
+      "tournament": "M25 Mungia",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -41,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Berti",
-      "score": "6-0 6-1"
+      "opponent": "F. Sun",
+      "score": "6-3 4-6 4-6"
     },
     {
-      "date": "20231122",
-      "tournament": "ITF M25 Vale do Lobo 2 Men",
+      "date": "20230619",
+      "tournament": "M25 Mungia",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Marques",
-      "score": "6-1 6-3"
+      "opponent": "M. Landaluce",
+      "score": "4-6 6-0 2-6"
     },
     {
       "date": "20230617",
@@ -108,84 +121,6 @@
       "result": "W",
       "opponent": "M. Gonzalez Fernandez",
       "score": "2-6 7(7)-6(1) 6-4"
-    },
-    {
-      "date": "20230526",
-      "tournament": "ITF M25 Mataro Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Kang",
-      "score": "1-6 4-6"
-    },
-    {
-      "date": "20230523",
-      "tournament": "ITF M25 Mataro Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Marti Pujolras",
-      "score": "6-0 6-3"
-    },
-    {
-      "date": "20230424",
-      "tournament": "ITF M25 Santa Margherita di Pula 4 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Oradini",
-      "score": "2-6 6(5)-7(7)"
-    },
-    {
-      "date": "20221116",
-      "tournament": "M15 Monastir 45",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "B. Pujol Navarro",
-      "score": "6-0 6-3"
-    },
-    {
-      "date": "20220608",
-      "tournament": "M15 Frascati",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Napolitano",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20211212",
-      "tournament": "Maia 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Ejupovic",
-      "score": "6(3)-7(7) 2-6"
     }
   ]
 }
