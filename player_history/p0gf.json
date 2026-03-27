@@ -3,11 +3,37 @@
   "gs_id": "68052",
   "player_name": "Stijn Pel",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:51:53.945Z",
+  "updated": "2026-03-27T02:51:48.968Z",
   "matches": [
     {
-      "date": "20240913",
-      "tournament": "M15 Madrid 2",
+      "date": "20250827",
+      "tournament": "M25 Oldenzaal",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Deckers",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20230830",
+      "tournament": "ITF M25 Oldenzaal Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Khoeblal",
+      "score": "3-6 6-2 6-3"
+    },
+    {
+      "date": "20230818",
+      "tournament": "M25 Ystad",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. Dalmasso",
-      "score": "3-6 3-6"
+      "opponent": "E. Vasa",
+      "score": "6-3 7(9)-6(7)"
     },
     {
-      "date": "20240912",
-      "tournament": "M15 Madrid 2",
+      "date": "20230817",
+      "tournament": "M25 Ystad",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "T. Samuel",
-      "score": ""
+      "opponent": "J. Eriksson Ziverts",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20240911",
-      "tournament": "M15 Madrid 2",
+      "date": "20230816",
+      "tournament": "M25 Ystad",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,34 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "I. Parisca",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20240320",
-      "tournament": "ITF M15 Sharm ElSheikh 8 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Little",
-      "score": "7(8)-6(6) 7(9)-6(7)"
-    },
-    {
-      "date": "20221123",
-      "tournament": "M15 Madrid 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Vallejo",
-      "score": "6-1 6-2"
+      "opponent": "R. Calzi",
+      "score": "6-2 3-6 3-6"
     }
   ]
 }
