@@ -3,11 +3,11 @@
   "gs_id": "120371",
   "player_name": "Zsombor Velcz",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:56:32.987Z",
+  "updated": "2026-03-27T06:07:26.014Z",
   "matches": [
     {
-      "date": "20220901",
-      "tournament": "M25 Szabolcsveresmart",
+      "date": "20250612",
+      "tournament": "M15 Nyiregyhaza",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. I. Apostol",
-      "score": "1-6 0-6"
+      "opponent": "D. Kellovsky",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20220831",
-      "tournament": "M25 Szabolcsveresmart",
+      "date": "20250611",
+      "tournament": "M15 Nyiregyhaza",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. C. Breazu",
-      "score": "3-6 3-6"
+      "opponent": "R. Giotis",
+      "score": "7-5 4-6 6-1"
+    },
+    {
+      "date": "20240613",
+      "tournament": "ITF M15 Nyiregyhaza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Makk",
+      "score": "7(9)-6(7) 6-1"
+    },
+    {
+      "date": "20240522",
+      "tournament": "ITF M15 Kursumlijska Banja 5 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Sharipov",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230623",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Nedic",
+      "score": "6-3 2-6 6-3"
+    },
+    {
+      "date": "20230622",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "H. Barton",
+      "score": "6-2 6(8)-7(10) 1-6"
+    },
+    {
+      "date": "20230621",
+      "tournament": "ITF M15 Kursumlijska Banja 6 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Schoen",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230609",
+      "tournament": "ITF M15 Nyiregyhaza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Paroulek",
+      "score": "6-2 6-1"
+    },
+    {
+      "date": "20230608",
+      "tournament": "ITF M15 Nyiregyhaza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Barnat",
+      "score": "6-3 6(10)-7(12) 5-7"
+    },
+    {
+      "date": "20230607",
+      "tournament": "ITF M15 Nyiregyhaza Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Mashtakov",
+      "score": "6-3 3-6 0-6"
     }
   ]
 }
