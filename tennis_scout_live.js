@@ -1369,6 +1369,8 @@ function _renderMatches(){
           sec.querySelector('#mh-f-opponent').addEventListener('change',function(e){_fOpponent=e.target.value;_renderMatches();});
           sec.querySelector('#mh-f-reset').addEventListener('click',function(){
             _fSurface='';_fTournament='';_fOpponent='';_fResult='';
+            window._mhColFilter={};
+            window._mhSort=null;
             sec.querySelector('#mh-f-surface').value='';
             sec.querySelector('#mh-f-result').value='';
             sec.querySelector('#mh-f-tournament').value='';
