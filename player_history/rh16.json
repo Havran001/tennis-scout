@@ -3,24 +3,50 @@
   "gs_id": "31116",
   "player_name": "Casper Ruud",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:04:34.862Z",
+  "updated": "2026-03-27T00:56:48.921Z",
   "matches": [
     {
-      "date": "20220930",
-      "tournament": "Seoul",
+      "date": "20250209",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Shapovalov",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20250208",
+      "tournament": "Dallas",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Munar",
+      "score": "2-6 6-2 6(4)-7(7)"
+    },
+    {
+      "date": "20250207",
+      "tournament": "Dallas",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
+      "result": "W",
       "opponent": "Y. Nishioka",
-      "score": "6-2 3-6 6-2"
+      "score": "5-7 2-3 ret."
     },
     {
-      "date": "20220929",
-      "tournament": "Seoul",
+      "date": "20250206",
+      "tournament": "Dallas",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -28,38 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Jarry",
-      "score": "6-2 3-6 6-3"
+      "opponent": "M. Mmoh",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20210624",
-      "tournament": "ATP Mallorca",
-      "surface": "Hard",
-      "level": "B",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Medvedev",
-      "score": "5-7 1-6"
-    },
-    {
-      "date": "20210622",
-      "tournament": "ATP Mallorca",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. Sandgren",
-      "score": "3-6 4-6"
-    },
-    {
-      "date": "20210621",
-      "tournament": "ATP Mallorca",
+      "date": "20250205",
+      "tournament": "Dallas",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -67,25 +67,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Simon",
-      "score": "4-6 6(4)-7(7)"
+      "opponent": "J. Duckworth",
+      "score": "5-7 6-4 2-6"
     },
     {
-      "date": "20210409",
-      "tournament": "Marbella",
+      "date": "20211003",
+      "tournament": "ATP San Diego",
+      "surface": "Hard",
+      "level": "B",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Norrie",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20211002",
+      "tournament": "ATP San Diego",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Alcaraz",
-      "score": "2-6 4-6"
+      "result": "W",
+      "opponent": "L. Sonego",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20210408",
-      "tournament": "Marbella",
+      "date": "20211002",
+      "tournament": "ATP San Diego",
+      "surface": "Hard",
+      "level": "B",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Dimitrov",
+      "score": "4-6 6-4 4-6"
+    },
+    {
+      "date": "20211001",
+      "tournament": "ATP San Diego",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -93,21 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Mager",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20210203",
-      "tournament": "Melbourne (Murray River Open)",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Vesely",
-      "score": "5-7 7(7)-6(4) 6-3"
+      "opponent": "A. Murray",
+      "score": "5-7 4-6"
     }
   ]
 }
