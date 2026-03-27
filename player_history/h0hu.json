@@ -3,24 +3,37 @@
   "gs_id": "256206",
   "player_name": "Samuel Heredia",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:07:46.102Z",
+  "updated": "2026-03-27T07:12:38.035Z",
   "matches": [
     {
-      "date": "20240424",
-      "tournament": "M25 Mosquera",
+      "date": "20260227",
+      "tournament": "M15 Villena 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Jubb",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20260226",
+      "tournament": "M15 Villena 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "J. S. Gomez",
-      "score": "4-6 6-4 6-2"
+      "result": "W",
+      "opponent": "M. Hurrion",
+      "score": "7(7)-6(3) 7-5"
     },
     {
-      "date": "20240422",
-      "tournament": "M25 Mosquera",
+      "date": "20260225",
+      "tournament": "M15 Villena 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Price",
-      "score": "3-6 6-1 6-4"
+      "opponent": "H. Koyama",
+      "score": "2-6 3-6"
     }
   ]
 }
