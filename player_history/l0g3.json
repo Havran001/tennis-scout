@@ -3,59 +3,33 @@
   "gs_id": "93803",
   "player_name": "Aleksandr Lobanov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:53:58.932Z",
+  "updated": "2026-03-27T02:53:35.953Z",
   "matches": [
     {
-      "date": "20250402",
-      "tournament": "M25 Antalya 3",
+      "date": "20220804",
+      "tournament": "M15 Ust-Kamenogorsk",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Danilov",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20220802",
+      "tournament": "M15 Ust-Kamenogorsk",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Kopp",
-      "score": "3-6 1-6"
-    },
-    {
-      "date": "20250212",
-      "tournament": "M15 Sharm ElSheikh 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Bondioli",
-      "score": "6-0 7(7)-6(2)"
-    },
-    {
-      "date": "20240616",
-      "tournament": "Santa Cruz 2",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "U. Blanch",
-      "score": "6-3 4-6 5-7"
-    },
-    {
-      "date": "20231108",
-      "tournament": "M25 Monastir 7",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "R. Nijboer",
-      "score": "6-2 4-6 6-1"
+      "result": "W",
+      "opponent": "N. Sidorov",
+      "score": "3-6 3-6"
     }
   ]
 }
