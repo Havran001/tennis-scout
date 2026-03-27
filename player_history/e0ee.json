@@ -1,1 +1,35 @@
-{"player_id":"e0ee","gs_id":"288880","player_name":"Edward Etty","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"MLIeXumQ","date":"20260325","tournament":"ITF MEN - DOUBLES: M15 Monastir 11 (Tunisia), hard","surface":"Hard","level":"A","round":"","result":"W","opponent":"Makhlouf N./Nortey I.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20260101","tournament":"M15 Monastir","surface":"Hard","level":"I","round":"R16","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"D. Sakellaridis","score":"5-7 6(4)-7(7)"},{"date":"20251231","tournament":"M15 Monastir","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"W","opponent":"C. D. Chauhan","score":"6-1 6-4"}],"total":3}
+{
+  "player_id": "e0ee",
+  "gs_id": "288880",
+  "player_name": "Edward Etty",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T21:17:43.832Z",
+  "matches": [
+    {
+      "date": "20260101",
+      "tournament": "M15 Monastir",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Sakellaridis",
+      "score": "5-7 6(4)-7(7)"
+    },
+    {
+      "date": "20251231",
+      "tournament": "M15 Monastir",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. D. Chauhan",
+      "score": "6-1 6-4"
+    }
+  ]
+}
