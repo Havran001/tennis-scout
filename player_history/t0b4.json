@@ -3,11 +3,11 @@
   "gs_id": "34883",
   "player_name": "Naoki Tajima",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:48:57.904Z",
+  "updated": "2026-03-27T00:50:42.921Z",
   "matches": [
     {
-      "date": "20240507",
-      "tournament": "M15 Antalya 14",
+      "date": "20230322",
+      "tournament": "M25 Canberra 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Gasimov",
-      "score": "1-6 0-0 ret."
+      "opponent": "D. Sweeny",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20220511",
-      "tournament": "M15 Antalya 14",
+      "date": "20230315",
+      "tournament": "M25 Canberra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Kelly",
+      "score": "1-6 2-6"
+    },
+    {
+      "date": "20230314",
+      "tournament": "M25 Canberra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Suzuki",
+      "score": "2-6 5-7"
+    },
+    {
+      "date": "20220309",
+      "tournament": "M25 Bendigo 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Wassermann",
-      "score": "6-3 6-1"
+      "opponent": "S. Beaupain",
+      "score": "6-2 7(9)-6(7)"
+    },
+    {
+      "date": "20220302",
+      "tournament": "M25 Bendigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Schoolkate",
+      "score": "6-2 7(7)-6(5)"
+    },
+    {
+      "date": "20220301",
+      "tournament": "M25 Bendigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "P. Fitzgerald",
+      "score": "6(5)-7(7) 6(2)-7(7)"
+    },
+    {
+      "date": "20220214",
+      "tournament": "M25 Canberra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Dellavedova",
+      "score": "6-3 4-6 6-4"
+    },
+    {
+      "date": "20220208",
+      "tournament": "M25 Canberra",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Jones",
+      "score": "2-6 6-4 3-6"
     }
   ]
 }
