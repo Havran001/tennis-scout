@@ -1,1 +1,22 @@
-{"player_id":"s19y","sack_id":"213204","name":"Zane Stevens","total":4,"matches":[{"id":"42ux8DYR","date":"20260326","tournament":"ITF WOMEN - SINGLES: W15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Eto N.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"GGDTDe6l","date":"20260326","tournament":"ITF WOMEN - SINGLES: W15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Cui A.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"xtFhCBpC","date":"20260325","tournament":"CHALLENGER MEN - DOUBLES: Naples (Italy), clay","surface":"Clay","level":"A","round":"","result":"W","opponent":"Ruehl T./Veldheer M.","score":"0-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"id":"K6N4yLic","date":"20260324","tournament":"ITF WOMEN - DOUBLES: W15 Swan Hill (Australia), grass","surface":"Grass","level":"A","round":"","result":"L","opponent":"Freeman P./McDonald S.","score":"2-0","best_of":"3","rank":"","opp_rank":"","src":"live"}],"updated":"2026-03-26"}
+{
+  "player_id": "s19y",
+  "gs_id": "240990",
+  "player_name": "Zane Stevens",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T03:49:48.970Z",
+  "matches": [
+    {
+      "date": "20240911",
+      "tournament": "M25 Darwin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Charlton",
+      "score": "6-1 6-2"
+    }
+  ]
+}
