@@ -3,11 +3,11 @@
   "gs_id": "144081",
   "player_name": "Maxence Rivet",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:56:33.951Z",
+  "updated": "2026-03-27T03:53:33.968Z",
   "matches": [
     {
-      "date": "20250807",
-      "tournament": "M25 Monastir 5",
+      "date": "20240808",
+      "tournament": "ITF M15 Eupen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Echargui",
-      "score": "3-6 2-6"
+      "opponent": "S. Sorger",
+      "score": "6-2 7-5"
     },
     {
-      "date": "20250805",
-      "tournament": "M25 Monastir 5",
+      "date": "20240807",
+      "tournament": "ITF M15 Eupen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,90 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Cocola",
-      "score": "3-6 4-6"
+      "opponent": "L. Lane",
+      "score": "6-4 6(5)-7(7) 6-1"
     },
     {
-      "date": "20240319",
-      "tournament": "ITF M25 Toulouse-Balma Men",
+      "date": "20240726",
+      "tournament": "M15 Metzingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Naw",
+      "score": "6(6)-7(8) 6-4 3-6"
+    },
+    {
+      "date": "20240725",
+      "tournament": "M15 Metzingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Salle",
+      "score": "5-7 7(7)-6(4) 3-6"
+    },
+    {
+      "date": "20240723",
+      "tournament": "M15 Metzingen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. De Jonge",
+      "score": "2-6 6(3)-7(7)"
+    },
+    {
+      "date": "20240703",
+      "tournament": "Troyes Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Erhard",
+      "score": "3-6 6-2 6-2"
+    },
+    {
+      "date": "20230907",
+      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Cayre",
+      "score": "6-0 7(7)-6(5)"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Vylegzhanin",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20230809",
+      "tournament": "ITF M15 Eupen Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +119,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Janvier",
-      "score": "6-2 6-0"
+      "opponent": "P. Y. Bailly",
+      "score": "2-6 0-6"
     }
   ]
 }
