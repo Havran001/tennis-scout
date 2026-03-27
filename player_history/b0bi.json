@@ -3,46 +3,59 @@
   "gs_id": "39048",
   "player_name": "Sebastian Baez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:50:32.979Z",
+  "updated": "2026-03-27T10:15:11.105Z",
   "matches": [
     {
-      "date": "20221020",
-      "tournament": "Napoli",
+      "date": "20250208",
+      "tournament": "Rosario",
       "surface": "Hard",
-      "level": "B",
-      "round": "R16",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Passaro",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20250208",
+      "tournament": "Rosario",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Zhang",
-      "score": "7(7)-6(5) 7(13)-6(11)"
+      "opponent": "H. Dellien",
+      "score": "6-3 6(13)-7(15) 6-2"
     },
     {
-      "date": "20221019",
-      "tournament": "Napoli",
+      "date": "20250206",
+      "tournament": "Rosario",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Heide",
+      "score": "7(7)-6(1) 7(7)-6(5)"
+    },
+    {
+      "date": "20250205",
+      "tournament": "Rosario",
+      "surface": "Hard",
+      "level": "C",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Sonego",
-      "score": "7-5 7(7)-6(3)"
-    },
-    {
-      "date": "20221010",
-      "tournament": "Gijon",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "C. Lestienne",
-      "score": "7(7)-6(5) 4-4 ret."
+      "opponent": "E. Nava",
+      "score": "6-3 6-3"
     }
   ]
 }
