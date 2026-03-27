@@ -3,8 +3,34 @@
   "gs_id": "9269",
   "player_name": "Calvin Hemery",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:25:11.087Z",
+  "updated": "2026-03-27T11:38:28.138Z",
   "matches": [
+    {
+      "date": "20250618",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Couacaud",
+      "score": "6-4 7(7)-6(5)"
+    },
+    {
+      "date": "20250616",
+      "tournament": "Royan",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Stebe",
+      "score": "6-2 6-3"
+    },
     {
       "date": "20250223",
       "tournament": "Brazzaville",
@@ -160,45 +186,6 @@
       "result": "W",
       "opponent": "Y. Nandal",
       "score": "6-3 6-1"
-    },
-    {
-      "date": "20240809",
-      "tournament": "Bonn Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Dellien",
-      "score": "0-6 1-6"
-    },
-    {
-      "date": "20240808",
-      "tournament": "Bonn Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "F. C. Jianu",
-      "score": "4-6 7(7)-6(4) 3-6"
-    },
-    {
-      "date": "20240806",
-      "tournament": "Bonn Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Masur",
-      "score": "3-6 4-6"
     }
   ]
 }
