@@ -3,24 +3,50 @@
   "gs_id": "57488",
   "player_name": "Savriyan Danilov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:56:40.059Z",
+  "updated": "2026-03-27T08:09:38.535Z",
   "matches": [
     {
-      "date": "20240725",
-      "tournament": "M25 Astana",
+      "date": "20250614",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Klaassen",
+      "score": "7-5 4-6 7-5"
+    },
+    {
+      "date": "20250613",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Ayeni",
+      "score": "6-4 6-4"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Pokorny",
-      "score": "2-6 5-7"
+      "result": "W",
+      "opponent": "R. Rodriguez",
+      "score": "4-0 ret."
     },
     {
-      "date": "20240724",
-      "tournament": "M25 Astana",
+      "date": "20250611",
+      "tournament": "M15 San Diego",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +54,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "G. Lomakin",
-      "score": "6-3 6-2"
+      "opponent": "N. Schachter",
+      "score": "6(3)-7(7) 3-6"
+    },
+    {
+      "date": "20240704",
+      "tournament": "M15 Ust-Kamenogorsk 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Agafonov",
+      "score": "7-5 6(1)-7(7) 2-6"
+    },
+    {
+      "date": "20240703",
+      "tournament": "M15 Ust-Kamenogorsk 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Sheyngezikht",
+      "score": "0-6 4-6"
     }
   ]
 }
