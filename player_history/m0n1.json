@@ -3,8 +3,47 @@
   "gs_id": "89960",
   "player_name": "Luka Mikrut",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:00:15.126Z",
+  "updated": "2026-03-27T12:10:46.156Z",
   "matches": [
+    {
+      "date": "20251031",
+      "tournament": "Monastir",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Moro Canas",
+      "score": "7(10)-6(8) 6(3)-7(7) 6-4"
+    },
+    {
+      "date": "20251029",
+      "tournament": "Monastir",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Ch. Negritu",
+      "score": "5-7 6-4 7-5"
+    },
+    {
+      "date": "20251028",
+      "tournament": "Monastir",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Denolly",
+      "score": "6-0 6-1"
+    },
     {
       "date": "20250729",
       "tournament": "Hagen",
@@ -121,58 +160,6 @@
       "result": "W",
       "opponent": "J. Simundza",
       "score": "2-6 3-6"
-    },
-    {
-      "date": "20241019",
-      "tournament": "M15 Bol 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. La Vela",
-      "score": "7-5 3-6 6-1"
-    },
-    {
-      "date": "20241019",
-      "tournament": "M15 Bol 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Bielinskyi",
-      "score": "5-7 6-3 6-4"
-    },
-    {
-      "date": "20241017",
-      "tournament": "M15 Bol 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Ciavarella",
-      "score": "3-6 6-1 6-4"
-    },
-    {
-      "date": "20241016",
-      "tournament": "M15 Bol 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Brkic",
-      "score": "6-2 6-3"
     }
   ]
 }
