@@ -3,8 +3,21 @@
   "gs_id": "127637",
   "player_name": "Ignacio Buse",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:57:20.986Z",
+  "updated": "2026-03-27T06:07:50.016Z",
   "matches": [
+    {
+      "date": "20250630",
+      "tournament": "Modena",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. A. Tirante",
+      "score": "1-6 2-6"
+    },
     {
       "date": "20240501",
       "tournament": "ITF M25 Sabadell Men",
@@ -17,6 +30,110 @@
       "result": "L",
       "opponent": "D. Rincon",
       "score": "6-4 2-6 6-4"
+    },
+    {
+      "date": "20230815",
+      "tournament": "M25 Trujillo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Rodriguez",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230518",
+      "tournament": "M25 Gurb",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Bueno",
+      "score": "4-6 5-7"
+    },
+    {
+      "date": "20230517",
+      "tournament": "M25 Gurb",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Wong",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20230511",
+      "tournament": "ITF M25 Valldoreix Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Winter Lopez",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20230510",
+      "tournament": "ITF M25 Valldoreix Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Francisco",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20230421",
+      "tournament": "ITF M15 Telde 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Lemstra",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20230420",
+      "tournament": "ITF M15 Telde 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Pennaforti",
+      "score": "6-3 7(8)-6(6)"
+    },
+    {
+      "date": "20230419",
+      "tournament": "ITF M15 Telde 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. K. Bonsach",
+      "score": "3-6 6-3 2-6"
     }
   ]
 }
