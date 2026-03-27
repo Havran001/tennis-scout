@@ -3,8 +3,21 @@
   "gs_id": "138522",
   "player_name": "Arnaud Bailly Gilles",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:08:03.119Z",
+  "updated": "2026-03-27T07:10:27.036Z",
   "matches": [
+    {
+      "date": "20231114",
+      "tournament": "Danderyd",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Cobolli",
+      "score": "6-4 6-1"
+    },
     {
       "date": "20230722",
       "tournament": "ITF M15 Uslar Men",
@@ -43,19 +56,6 @@
       "result": "W",
       "opponent": "P. Florig",
       "score": "6-4 6-2"
-    },
-    {
-      "date": "20230627",
-      "tournament": "Modena Challenger Men",
-      "surface": "Hard",
-      "level": "C",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Kasnikowski",
-      "score": "6-4 7-5"
     }
   ]
 }
