@@ -1,26 +1,26 @@
 {
   "player_id": "hg90",
-  "gs_id": "75112",
-  "player_name": "Conner Huertas Del Pino",
+  "gs_id": "127810",
+  "player_name": "Mateo Del Pino",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:03:43.010Z",
+  "updated": "2026-03-27T06:07:37.016Z",
   "matches": [
     {
-      "date": "20250610",
-      "tournament": "Santa Fe",
+      "date": "20240514",
+      "tournament": "ITF M25 Reggio Emilia Men",
       "surface": "Hard",
-      "level": "C",
+      "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Bagnis",
-      "score": "3-6 4-6"
+      "opponent": "E. Dalla Valle",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20230817",
-      "tournament": "M25 Trujillo",
+      "date": "20230824",
+      "tournament": "M15 Sao Paulo",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "R. Cid Subervi",
-      "score": "7-5 2-6 1-5 ret."
+      "opponent": "R. Pacheco Mendez",
+      "score": "6-0 6-4"
     },
     {
-      "date": "20230815",
-      "tournament": "M25 Trujillo",
+      "date": "20230822",
+      "tournament": "M15 Sao Paulo",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Panta",
-      "score": "6-4 6-1"
+      "opponent": "L. F. Gobbi Brandao",
+      "score": "2-6 2-6"
+    },
+    {
+      "date": "20230808",
+      "tournament": "M15 Arequipa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Estevez",
+      "score": "6-4 7(7)-6(4)"
     }
   ]
 }
