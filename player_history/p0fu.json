@@ -3,50 +3,11 @@
   "gs_id": "92086",
   "player_name": "Filip Pieczonka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:47:10.983Z",
+  "updated": "2026-03-27T06:06:59.011Z",
   "matches": [
     {
-      "date": "20241120",
-      "tournament": "M25 Antalya 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Fatic",
-      "score": "6-1 7-5"
-    },
-    {
-      "date": "20241030",
-      "tournament": "M25 Heraklion 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "O. Kimhi",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20240925",
-      "tournament": "ITF M15 Sharm ElSheikh 11 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Moroni",
-      "score": "6(1)-7(7) 4-6"
-    },
-    {
-      "date": "20240919",
-      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
+      "date": "20240829",
+      "tournament": "ITF M15 Szczawno Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Berkieta",
-      "score": "6(4)-7(7) 6-3 1-1 ret."
+      "opponent": "P. Juszczak",
+      "score": "2-6 6-3 5-7"
     },
     {
-      "date": "20240918",
-      "tournament": "ITF M15 Sharm ElSheikh 10 Men",
+      "date": "20240828",
+      "tournament": "ITF M15 Szczawno Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +28,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "C. Fossati",
-      "score": "6-3 6-3"
+      "opponent": "J. Kucera",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20230811",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. Nicod",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20230810",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. B. Torres",
+      "score": "6(2)-7(7) 7-5 7(7)-6(5)"
+    },
+    {
+      "date": "20230809",
+      "tournament": "M25 Lodz",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Mares",
+      "score": "3-6 1-6"
     }
   ]
 }
