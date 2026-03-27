@@ -1,13 +1,39 @@
 {
   "player_id": "j0ak",
-  "gs_id": "76018",
-  "player_name": "Yuquan Jin",
+  "gs_id": "84344",
+  "player_name": "Jeremy Jin",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:52:06.962Z",
+  "updated": "2026-03-27T03:46:54.966Z",
   "matches": [
     {
-      "date": "20240315",
-      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
+      "date": "20240605",
+      "tournament": "ITF M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Dickerson",
+      "score": "5-7 6-3 1-6"
+    },
+    {
+      "date": "20231108",
+      "tournament": "ITF M15 Winston-Salem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Koons",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20221126",
+      "tournament": "M25 Traralgon 2",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Dzhavakian",
-      "score": "7(7)-6(4) 6-3"
+      "opponent": "D. Kelly",
+      "score": "5-7 4-6"
     },
     {
-      "date": "20240314",
-      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
+      "date": "20221124",
+      "tournament": "M25 Traralgon 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Pieczkowski",
-      "score": "2-6 7(7)-6(2) 6(3)-7(7)"
+      "opponent": "L. Saville",
+      "score": "6-1 7(7)-6(2)"
     },
     {
-      "date": "20240313",
-      "tournament": "ITF M15 Sharm ElSheikh 7 Men",
+      "date": "20221123",
+      "tournament": "M25 Traralgon 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Xu",
-      "score": "5-7 6-3 6-2"
+      "opponent": "A. Addison",
+      "score": "0-6 2-6"
+    },
+    {
+      "date": "20221116",
+      "tournament": "M25 Traralgon",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Mott",
+      "score": "6(8)-7(10) 0-6"
+    },
+    {
+      "date": "20221004",
+      "tournament": "M25 Cairns",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Sinclair",
+      "score": "7-5 7(7)-6(0)"
+    },
+    {
+      "date": "20220921",
+      "tournament": "M25 Darwin 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Sekulic",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20220914",
+      "tournament": "M25 Darwin",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Polmans",
+      "score": "4-6 4-6"
     }
   ]
 }
