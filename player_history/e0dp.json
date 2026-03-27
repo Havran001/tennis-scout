@@ -3,8 +3,21 @@
   "gs_id": "196704",
   "player_name": "Maxwell Exsted",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:00:40.917Z",
+  "updated": "2026-03-27T02:00:02.940Z",
   "matches": [
+    {
+      "date": "20260317",
+      "tournament": "M25 Bakersfield",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Brunkow",
+      "score": "6-4 7(7)-6(5)"
+    },
     {
       "date": "20260228",
       "tournament": "M15 Naples",
@@ -58,112 +71,8 @@
       "score": "7-5 6-4"
     },
     {
-      "date": "20251212",
-      "tournament": "M15 Antalya 16",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. De Krom",
-      "score": "4-6 5-7"
-    },
-    {
-      "date": "20251211",
-      "tournament": "M15 Antalya 16",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. Nedev",
-      "score": "0-6 1-6"
-    },
-    {
-      "date": "20251210",
-      "tournament": "M15 Antalya 16",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "I. Lopez Morillo",
-      "score": "6-4 5-7 7-5"
-    },
-    {
-      "date": "20251207",
-      "tournament": "M15 Antalya 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Madaras",
-      "score": "4-6 2-6"
-    },
-    {
-      "date": "20251206",
-      "tournament": "M15 Antalya 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Vetrih",
-      "score": "2-6 6-3 0-6"
-    },
-    {
-      "date": "20251204",
-      "tournament": "M15 Antalya 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. R. Scomparin",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20251203",
-      "tournament": "M15 Antalya 15",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Tammaro",
-      "score": "6-3 6(3)-7(7) 4-6"
-    },
-    {
-      "date": "20251029",
-      "tournament": "M25 Harlingen",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Petrovic",
-      "score": "0-6 6-4 6-3"
-    },
-    {
-      "date": "20250724",
-      "tournament": "M25 Champaign",
+      "date": "20250227",
+      "tournament": "M15 Sharm ElSheikh 5",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -171,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Jubb",
-      "score": "3-6 3-6"
+      "opponent": "S. Purtseladze",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20250723",
-      "tournament": "M25 Champaign",
+      "date": "20250226",
+      "tournament": "M15 Sharm ElSheikh 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,21 +93,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Mroz",
-      "score": "4-4 ret."
-    },
-    {
-      "date": "20250416",
-      "tournament": "M15 Antalya 11",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Zielinski",
-      "score": "7-5 6-4"
+      "opponent": "M. Zhu",
+      "score": "1-6 6(5)-7(7)"
     },
     {
       "date": "20250219",
@@ -212,6 +108,19 @@
       "result": "L",
       "opponent": "M. Ribecai",
       "score": "0-6 1-6"
+    },
+    {
+      "date": "20240206",
+      "tournament": "ITF M15 Sunrise",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Rybakov",
+      "score": "6-1 7(7)-6(3)"
     }
   ]
 }
