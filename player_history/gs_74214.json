@@ -3,11 +3,24 @@
   "gs_id": "74214",
   "player_name": "Orlando Fellin Pietro",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:03:38.014Z",
+  "updated": "2026-03-27T06:57:02.049Z",
   "matches": [
     {
-      "date": "20250612",
-      "tournament": "M15 Nyiregyhaza",
+      "date": "20260113",
+      "tournament": "M15 Manacor 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Pleshivtsev",
+      "score": "6-4 4-6 4-6"
+    },
+    {
+      "date": "20231214",
+      "tournament": "M15 Zahra 3",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Valkusz",
-      "score": "6-4 2-6 0-6"
+      "opponent": "Z. Tkemaladze",
+      "score": "7(7)-6(5) 6-1"
     },
     {
-      "date": "20250611",
-      "tournament": "M15 Nyiregyhaza",
+      "date": "20231213",
+      "tournament": "M15 Zahra 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,21 +41,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Cherie Ligniere",
-      "score": "3-6 3-6"
+      "opponent": "G. Hussey",
+      "score": "2-6 0-6"
     },
     {
-      "date": "20240618",
-      "tournament": "ITF M15 Cluj Napoca Men",
+      "date": "20231207",
+      "tournament": "ITF M15 Zahra 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Hussey",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20231206",
+      "tournament": "ITF M15 Zahra 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Alabdullah",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20231116",
+      "tournament": "ITF M15 Santo Domingo 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "B. Pavel",
-      "score": "6-2 7(7)-6(4)"
+      "opponent": "H. Wiersholm",
+      "score": "5-7 3-6"
+    },
+    {
+      "date": "20231114",
+      "tournament": "ITF M15 Santo Domingo 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Beltre",
+      "score": "0-6 1-6"
     },
     {
       "date": "20230831",
@@ -69,32 +121,6 @@
       "result": "W",
       "opponent": "M. Dubouch",
       "score": "7(9)-6(7) 3-0 ret."
-    },
-    {
-      "date": "20230608",
-      "tournament": "ITF M15 Nyiregyhaza Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Dellavedova",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20230607",
-      "tournament": "ITF M15 Nyiregyhaza Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Palovic",
-      "score": "6-3 1-6 6-1"
     }
   ]
 }
