@@ -1,39 +1,13 @@
 {
   "player_id": "pm20",
-  "gs_id": "141952",
-  "player_name": "Yves Bailly Pierre",
+  "gs_id": "83824",
+  "player_name": "Hugo Pierre",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:53:46.959Z",
+  "updated": "2026-03-27T03:52:26.971Z",
   "matches": [
     {
-      "date": "20230810",
-      "tournament": "ITF M15 Eupen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Majdandzic",
-      "score": "3-6 6-4 6-1"
-    },
-    {
-      "date": "20230809",
-      "tournament": "ITF M15 Eupen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Rivet",
-      "score": "6-2 6-0"
-    },
-    {
-      "date": "20230712",
-      "tournament": "ITF M25 Esch/Alzette Men",
+      "date": "20251105",
+      "tournament": "M15 Sharm ElSheikh 16",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. A. Gomez",
-      "score": "6-2 6(5)-7(7) 5-7"
+      "opponent": "R. Faucon",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20251029",
+      "tournament": "M15 Sharm ElSheikh 15",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Elsayed",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20230906",
+      "tournament": "ITF M25+H Bagneres-de-Bigorre Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Lumsden",
+      "score": "6-2 3-6 1-6"
     }
   ]
 }
