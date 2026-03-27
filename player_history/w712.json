@@ -3,8 +3,34 @@
   "gs_id": "27456",
   "player_name": "Kai Wehnelt",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:37.046Z",
+  "updated": "2026-03-27T08:03:23.063Z",
   "matches": [
+    {
+      "date": "20260312",
+      "tournament": "M25 Creteil",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Moeller",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20260310",
+      "tournament": "M25 Creteil",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Gerbaud",
+      "score": "6-4 5-7 6-3"
+    },
     {
       "date": "20260114",
       "tournament": "M15 Cadolzburg",
@@ -19,8 +45,8 @@
       "score": "6-3 6(9)-7(11) 7(11)-6(9)"
     },
     {
-      "date": "20250827",
-      "tournament": "M25 Sion",
+      "date": "20250603",
+      "tournament": "M15 Caltanissetta",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Bieldiugin",
-      "score": "4-6 4-6"
+      "opponent": "S. Pieri",
+      "score": "7(7)-6(5) 6-1"
     },
     {
-      "date": "20250514",
-      "tournament": "M15 Bucharest 2",
+      "date": "20250520",
+      "tournament": "M15 Bucharest 3",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. Nesterov",
-      "score": "4-6 4-6"
+      "opponent": "C. Cretu",
+      "score": "2-6 1-6"
     },
     {
       "date": "20250206",
@@ -123,6 +149,58 @@
       "score": "7(7)-6(4) 4-6 6(4)-7(7)"
     },
     {
+      "date": "20240619",
+      "tournament": "M25 Duffel",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Bailly",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20240531",
+      "tournament": "M15 Vrhnika",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Sorrentino",
+      "score": "6-3 6(3)-7(7) 2-6"
+    },
+    {
+      "date": "20240530",
+      "tournament": "M15 Vrhnika",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Cina",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20240529",
+      "tournament": "M15 Vrhnika",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Fondriest",
+      "score": "7(7)-6(4) 5-7 2-6"
+    },
+    {
       "date": "20240117",
       "tournament": "ITF M15 Cadolzburg Men",
       "surface": "Hard",
@@ -134,71 +212,6 @@
       "result": "L",
       "opponent": "J. Filip",
       "score": "6(3)-7(7) 6-0 6(6)-7(8)"
-    },
-    {
-      "date": "20230928",
-      "tournament": "ITF M15 Arad Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. P. Paz",
-      "score": "6-3 6(6)-7(8) 6-3"
-    },
-    {
-      "date": "20230927",
-      "tournament": "ITF M15 Arad Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Hrazdil",
-      "score": "4-6 6-1 7(7)-6(4)"
-    },
-    {
-      "date": "20230926",
-      "tournament": "ITF M15 Arad Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Kupcic",
-      "score": "3-6 7(14)-6(12) 6-4"
-    },
-    {
-      "date": "20230727",
-      "tournament": "ITF M25 Kramsach Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Plunger",
-      "score": "6-3 3-6 6-2"
-    },
-    {
-      "date": "20230727",
-      "tournament": "ITF M25 Kramsach Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Heller",
-      "score": "7-5 6-4"
     }
   ]
 }
