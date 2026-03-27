@@ -3,37 +3,50 @@
   "gs_id": "143173",
   "player_name": "Martin Sabas",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:23:47.075Z",
+  "updated": "2026-03-27T12:19:07.216Z",
   "matches": [
     {
-      "date": "20250218",
-      "tournament": "M15 Lannion",
+      "date": "20251025",
+      "tournament": "M15 Heraklion 11",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "N. Ifi",
-      "score": "1-6 6-3 6-2"
+      "opponent": "S. Sakellaridis",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20240418",
-      "tournament": "M15 Azay-le-Rideau",
+      "date": "20251024",
+      "tournament": "M15 Heraklion 11",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Pe. Tsitsipas",
+      "score": "2-6 7(9)-6(7) 6-4"
+    },
+    {
+      "date": "20251023",
+      "tournament": "M15 Heraklion 11",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Brosset",
-      "score": "4-6 6-1 7-5"
+      "result": "W",
+      "opponent": "M. Hopp",
+      "score": "6-4 6-1"
     },
     {
-      "date": "20240416",
-      "tournament": "M15 Azay-le-Rideau",
+      "date": "20251022",
+      "tournament": "M15 Heraklion 11",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Berger",
-      "score": "6-4 4-6 4-6"
+      "opponent": "A. Braynin",
+      "score": "4-6 1-6"
+    },
+    {
+      "date": "20250610",
+      "tournament": "M25 Villeneuve-Loubet",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Beauge",
+      "score": "6-3 6-0"
     }
   ]
 }
