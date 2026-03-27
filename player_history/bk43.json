@@ -3,11 +3,11 @@
   "gs_id": "1961",
   "player_name": "Enrique Bogo",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:56:03.064Z",
+  "updated": "2026-03-27T11:37:45.147Z",
   "matches": [
     {
-      "date": "20240828",
-      "tournament": "ITF M15 Szczawno Men",
+      "date": "20251105",
+      "tournament": "M25 Santa Cruz do Sul",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Szymkowiak",
-      "score": "7(7)-6(1) 6-1"
+      "opponent": "E. Ribeiro",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20240703",
-      "tournament": "ITF M15 Kursumlijska Banja 9 Men",
+      "date": "20250820",
+      "tournament": "M15 Pirot 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Rengifo",
+      "score": "7-5 6-0"
+    },
+    {
+      "date": "20241126",
+      "tournament": "ITF M15 Santiago 2 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Aboian",
+      "score": "6(2)-7(7) 4-6"
+    },
+    {
+      "date": "20240904",
+      "tournament": "ITF M15 Pirot 2 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -29,37 +55,11 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "A. Pisaric",
-      "score": "7(7)-6(2) 6-4"
+      "score": "6-3 6-3"
     },
     {
-      "date": "20240321",
-      "tournament": "M25 Maceio",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Adams",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20240320",
-      "tournament": "M25 Maceio",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "G. Roveri Sidney",
-      "score": "6-3 4-6 3-6"
-    },
-    {
-      "date": "20230829",
-      "tournament": "ITF M15 Bucharest 2 Men",
+      "date": "20240814",
+      "tournament": "ITF M15 Bielsko Biala Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,8 +67,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Campana",
-      "score": "6-1 6-2"
+      "opponent": "B. Kokot",
+      "score": "6-3 7(8)-6(6)"
     }
   ]
 }
