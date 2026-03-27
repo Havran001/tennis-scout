@@ -1,1 +1,74 @@
-{"player_id":"r0iz","sack_id":"211603","name":"Freddie Ridout","total":0,"matches":[]}
+{
+  "player_id": "r0iz",
+  "gs_id": "155156",
+  "player_name": "Freddie Ridout",
+  "source": "goalserve-full",
+  "updated": "2026-03-27T00:53:58.922Z",
+  "matches": [
+    {
+      "date": "20260218",
+      "tournament": "M15 Naples",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Kuzuhara",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20251016",
+      "tournament": "M15 Sharm ElSheikh 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Ursu",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20251015",
+      "tournament": "M15 Sharm ElSheikh 13",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Ovcharenko",
+      "score": "0-5 ret."
+    },
+    {
+      "date": "20241030",
+      "tournament": "ITF M15 Sharm ElSheikh 14 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Bessonov",
+      "score": "5-7 2-6"
+    },
+    {
+      "date": "20240131",
+      "tournament": "ITF M15 Sharm ElSheikh Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Pogosian",
+      "score": "0-6 5-7"
+    }
+  ]
+}
