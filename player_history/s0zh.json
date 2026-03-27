@@ -3,11 +3,24 @@
   "gs_id": "208447",
   "player_name": "Tom Sickenberger",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:17:12.830Z",
+  "updated": "2026-03-27T03:49:31.968Z",
   "matches": [
     {
-      "date": "20260226",
-      "tournament": "M15 Monastir 7",
+      "date": "20250826",
+      "tournament": "M15 Allershausen",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Van Herck",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20250821",
+      "tournament": "M25 Ueberlingen",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. de Marchi",
-      "score": "6-0 6-2"
+      "opponent": "M. Houkes",
+      "score": "6-4 3-6 1-6"
     },
     {
-      "date": "20260225",
-      "tournament": "M15 Monastir 7",
+      "date": "20250819",
+      "tournament": "M25 Ueberlingen",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Donnet",
-      "score": "6(2)-7(7) 2-6"
+      "opponent": "M. Haliak",
+      "score": "7(7)-6(3) 3-6 6-3"
     },
     {
-      "date": "20260128",
-      "tournament": "M25 Nussloch",
+      "date": "20250812",
+      "tournament": "M15 Trier",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Steiner",
-      "score": "4-6 5-7"
+      "opponent": "J. Antonio",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20250701",
+      "tournament": "M25 Marburg",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Fomin",
+      "score": "3-6 1-6"
+    },
+    {
+      "date": "20240820",
+      "tournament": "ITF M15 Trier Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Gavrielides",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20230712",
+      "tournament": "ITF M25+H Kassel Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Agwi",
+      "score": "2-6 2-6"
     }
   ]
 }
