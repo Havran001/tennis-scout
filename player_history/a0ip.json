@@ -3,11 +3,11 @@
   "gs_id": "177416",
   "player_name": "Toprak Avcibasi",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:11:18.024Z",
+  "updated": "2026-03-27T07:05:38.033Z",
   "matches": [
     {
-      "date": "20240508",
-      "tournament": "M25 Valldoreix",
+      "date": "20251208",
+      "tournament": "M15 Ceuta",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Royer",
-      "score": "4-6 3-6"
+      "opponent": "A. Chayka",
+      "score": "0-6 6-2 5-7"
     },
     {
-      "date": "20240501",
-      "tournament": "ITF M25 Sabadell Men",
+      "date": "20241113",
+      "tournament": "ITF M15 Valencia Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Bax",
-      "score": "6-1 6-0"
+      "opponent": "S. Slump",
+      "score": "6-2 6(4)-7(7) 6-3"
     },
     {
-      "date": "20230426",
-      "tournament": "M25 Sanxenxo",
+      "date": "20240206",
+      "tournament": "M25 Hammamet 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Cekirge",
-      "score": "2-6 6-4 2-6"
+      "opponent": "S. Shin",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20240131",
+      "tournament": "M25 Hammamet",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Salomone",
+      "score": "2-6 3-6"
+    },
+    {
+      "date": "20231011",
+      "tournament": "M15 Vigo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "I. Salvador Pita",
+      "score": "7(7)-6(3) 2-6 7(7)-6(4)"
     }
   ]
 }
