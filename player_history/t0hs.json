@@ -3,8 +3,34 @@
   "gs_id": "161531",
   "player_name": "Pablo Trochu",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:10:15.015Z",
+  "updated": "2026-03-27T09:30:43.089Z",
   "matches": [
+    {
+      "date": "20260219",
+      "tournament": "M15 Lannion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Bertimon",
+      "score": "4-6 6-2 5-7"
+    },
+    {
+      "date": "20260217",
+      "tournament": "M15 Lannion",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Abbas",
+      "score": "6-0 7(7)-6(5)"
+    },
     {
       "date": "20250923",
       "tournament": "M15 Budapest 2",
@@ -19,34 +45,21 @@
       "score": "6(5)-7(7) 3-6"
     },
     {
-      "date": "20250529",
-      "tournament": "M25 Carnac",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Sels",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20250528",
-      "tournament": "M25 Carnac",
+      "date": "20250717",
+      "tournament": "M15 Hillcrest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "F. Livet Novkirichka",
-      "score": "6-2 4-6 6-1"
+      "result": "L",
+      "opponent": "L. Koenig",
+      "score": "2-6 1-6"
     },
     {
-      "date": "20250527",
-      "tournament": "M25 Carnac",
+      "date": "20250716",
+      "tournament": "M15 Hillcrest 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,51 +67,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Jorda Sanchis",
-      "score": "3-6 5-7"
+      "opponent": "J. Beaven",
+      "score": "1-6 3-6"
     },
     {
-      "date": "20250514",
-      "tournament": "M15 Tehran 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Denisov",
-      "score": "7(7)-6(3) 6-1"
-    },
-    {
-      "date": "20240628",
-      "tournament": "ITF M15 Tanger Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "6-2 6-4"
-    },
-    {
-      "date": "20240627",
-      "tournament": "ITF M15 Tanger Men",
+      "date": "20250710",
+      "tournament": "M15 Hillcrest",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Manzanera Pertusa",
-      "score": "6-4 5-7 2-6"
+      "result": "L",
+      "opponent": "E. Kirkin",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20240626",
-      "tournament": "ITF M15 Tanger Men",
+      "date": "20250708",
+      "tournament": "M15 Hillcrest",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "Y. Kadiri Hassani",
-      "score": "6-3 4-6 5-7"
+      "opponent": "L. Bataljin",
+      "score": "6-0 6-2"
     },
     {
-      "date": "20240515",
-      "tournament": "M15 Addis Ababa",
+      "date": "20250115",
+      "tournament": "M15 Manacor 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +106,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Ambarzumjan",
-      "score": "6-2 6-4"
+      "opponent": "L. Mikrut",
+      "score": "3-6 6-3 6-1"
+    },
+    {
+      "date": "20240611",
+      "tournament": "M25 Villeneuve-Loubet+H",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Blancaneaux",
+      "score": "0-6 1-6"
+    },
+    {
+      "date": "20240522",
+      "tournament": "M25 Addis Ababa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Jaisinghani",
+      "score": "6-3 6(3)-7(7) 4-6"
     }
   ]
 }
