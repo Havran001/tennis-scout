@@ -3,11 +3,24 @@
   "gs_id": "151024",
   "player_name": "Cristian Breazu Vlad",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:02:04.885Z",
+  "updated": "2026-03-27T03:53:48.970Z",
   "matches": [
     {
-      "date": "20250730",
-      "tournament": "M25 Pitesti",
+      "date": "20230628",
+      "tournament": "ITF M15 Belgrade Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Cungu",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20220907",
+      "tournament": "M15 Constanta",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -16,11 +29,11 @@
       "opp_rank": "",
       "result": "L",
       "opponent": "I. Snitari",
-      "score": "6-4 6-4"
+      "score": "6-2 6-3"
     },
     {
-      "date": "20250723",
-      "tournament": "M25+H Bacau",
+      "date": "20220831",
+      "tournament": "M25 Szabolcsveresmart",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. A. Caniato",
-      "score": "4-6 3-6"
-    },
-    {
-      "date": "20240724",
-      "tournament": "ITF M25+H Bacau Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. A. Saraiva Dos Santos",
-      "score": "6(3)-7(7) 2-6"
-    },
-    {
-      "date": "20220803",
-      "tournament": "M25 Pitesti",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Lazarov",
-      "score": "6-4 1-6 2-6"
+      "opponent": "Z. Velcz",
+      "score": "6-3 6-3"
     }
   ]
 }
