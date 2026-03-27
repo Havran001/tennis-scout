@@ -3,20 +3,46 @@
   "gs_id": "163561",
   "player_name": "Seiya Nakanishi",
   "source": "goalserve-full",
-  "updated": "2026-03-26T13:52:08.647Z",
+  "updated": "2026-03-27T03:54:17.973Z",
   "matches": [
     {
-      "date": "20221030",
-      "tournament": "Yokohama",
+      "date": "20230905",
+      "tournament": "ITF M25 Sapporo Men",
       "surface": "Hard",
-      "level": "C",
-      "round": "SF",
+      "level": "I",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Sumizawa",
-      "score": "6-3 6-0"
+      "opponent": "I. Okamura",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20220901",
+      "tournament": "M25 Sapporo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Noguchi",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20220830",
+      "tournament": "M25 Sapporo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Maeda",
+      "score": "6-4 6-3"
     }
   ]
 }
