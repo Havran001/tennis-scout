@@ -3,11 +3,11 @@
   "gs_id": "39024",
   "player_name": "Harold Mayot",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:45:37.002Z",
+  "updated": "2026-03-27T07:50:06.052Z",
   "matches": [
     {
-      "date": "20231120",
-      "tournament": "Valencia Challenger Men",
+      "date": "20250325",
+      "tournament": "Naples",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Gaston",
-      "score": "1-6 1-6"
+      "opponent": "B. Coric",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20241014",
+      "tournament": "Olbia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Landaluce",
+      "score": "6-1 6-2"
+    },
+    {
+      "date": "20231017",
+      "tournament": "Olbia Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Gaio",
+      "score": "2-6 0-6"
     }
   ]
 }
