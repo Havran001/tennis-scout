@@ -1146,57 +1146,53 @@ function buildPlayersTab(sh){
               if(_fResult&&m.result!==_fResult)return false;
               return true;
             });
-            var hm='';
-            var lastYear='',lastTournKey='';
+            var tableCSS='<style>.mh-table{width:100%;border-collapse:collapse;font-size:12px;}.mh-table th{padding:5px 8px;font-size:9px;font-weight:700;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:0.8px;border-bottom:1px solid rgba(255,255,255,0.08);text-align:left;white-space:nowrap;background:rgba(255,255,255,0.02);}.mh-table td{padding:5px 8px;border-bottom:1px solid rgba(255,255,255,0.04);color:rgba(255,255,255,0.75);white-space:nowrap;}.mh-table tr:hover td{background:rgba(255,255,255,0.03);}.mh-table td.ta-num{text-align:right;font-variant-numeric:tabular-nums;color:rgba(255,255,255,0.5);}.mh-table td.ta-score{font-family:monospace;font-weight:600;color:rgba(255,255,255,0.85);}.mh-table td.ta-wl-w{font-weight:800;color:#00C853;background:rgba(0,200,83,0.08);}.mh-table td.ta-wl-l{font-weight:800;color:#f87171;background:rgba(239,68,68,0.08);}.mh-table td.ta-odds{color:rgba(255,255,255,0.3);font-size:11px;}.mh-table .yr-sep td{padding:10px 8px 4px;font-size:9px;font-weight:700;color:rgba(255,255,255,0.2);letter-spacing:1.5px;border-bottom:1px solid rgba(255,255,255,0.06);background:none;}.mh-surf-cl{color:#fb923c;}.mh-surf-gr{color:#4ade80;}.mh-surf-in{color:#c084fc;}.mh-surf-ha{color:#60a5fa;}</style>';
+            var hm=tableCSS+'<table class="mh-table"><thead><tr><th>W/L</th><th>Date</th><th>Tournament</th><th>Surface</th><th>Rd</th><th>Rk</th><th>vRk</th><th>Opponent</th><th>Score</th><th>Odds</th><th>DR</th><th>A%</th><th>DF%</th><th>1stIn</th><th>1st%</th><th>2nd%</th><th>BPSvd</th><th>Time</th></tr></thead><tbody>';
+            var lastYear='';
             filtered.forEach(function(m){
-              var year=m.date?m.date.substring(0,4):'';
-              if(year!==lastYear){
-                if(lastYear)hm+='</div>';
-                hm+='<div style="margin-top:16px;padding:5px 0;font-size:10px;font-weight:700;color:rgba(255,255,255,.3);letter-spacing:1.5px;text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,.05);">'+year+'</div><div>';
-                lastYear=year;
+              var yr=m.date?m.date.substring(0,4):'';
+              if(yr!==lastYear){
+                hm+='<tr class="yr-sep"><td colspan="18">'+yr+'</td></tr>';
+                lastYear=yr;
               }
-              var tournKey=m.date+m.tournament;
-              if(tournKey!==lastTournKey){
-                var _sc2=m.surface||'';
-                var _scC2=_sc2==='Clay'?'#fb923c':_sc2==='Grass'?'#4ade80':_sc2==='Indoor'?'#c084fc':'#60a5fa';
-                hm+='<div style="margin-top:10px;display:flex;align-items:center;gap:6px;margin-bottom:4px;opacity:0.7;">'
-                  +'<span style="font-size:11px;font-weight:600;color:rgba(255,255,255,.6);">'+m.tournament+'</span>'
-                  +(_sc2?'<span style="font-size:8px;font-weight:700;color:'+_scC2+';background:rgba(255,255,255,.06);padding:1px 6px;border-radius:3px;">'+_sc2.toUpperCase()+'</span>':'')
-                  +'</div>';
-                lastTournKey=tournKey;
-              }
-              var _dd2=m.date&&m.date.length>=8?m.date.slice(6,8)+'.'+m.date.slice(4,6)+'.'+m.date.slice(0,4):'';
-              var _sc=m.surface||'';
-              var _scColor=_sc==='Clay'?'#fb923c':_sc==='Grass'?'#4ade80':_sc==='Indoor'?'#c084fc':'#60a5fa';
-              var _scBg=_sc==='Clay'?'rgba(194,65,12,0.15)':_sc==='Grass'?'rgba(21,128,61,0.15)':_sc==='Indoor'?'rgba(109,40,217,0.15)':'rgba(29,78,216,0.15)';
-              var _isW=m.result==='W';
-              hm+='<div data-surface="'+_sc+'" style="display:flex;align-items:center;gap:10px;padding:7px 10px 7px 14px;border-bottom:1px solid rgba(255,255,255,.04);border-left:3px solid '+(_isW?'rgba(0,200,83,0.5)':'rgba(239,68,68,0.4)')+';margin-bottom:1px;border-radius:0 4px 4px 0;">'
-                +'<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;flex-shrink:0;background:'+(_isW?'rgba(0,200,83,0.15)':'rgba(239,68,68,0.12)')+';border:1px solid '+(_isW?'rgba(0,200,83,0.3)':'rgba(239,68,68,0.25)')+';">'
-                  +'<span style="font-size:11px;font-weight:800;color:'+(_isW?'#00C853':'#f87171')+';">'+m.result+'</span>'
-                +'</div>'
-                +'<div style="flex:1;min-width:0;">'
-                  +'<div style="display:flex;align-items:center;gap:6px;margin-bottom:3px;">'
-                    +'<span style="font-size:13px;font-weight:700;color:#e6edf3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:200px;">'+m.opponent+'</span>'
-                    +(m.opp_rank?'<span style="font-size:9px;color:rgba(255,255,255,.3);background:rgba(255,255,255,.06);padding:1px 5px;border-radius:3px;">#'+m.opp_rank+'</span>':'')
-                  +'</div>'
-                  +'<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;">'
-                    +(_dd2?'<span style="font-size:10px;color:rgba(255,255,255,.3);">'+_dd2+'</span>':'')
-                    +'<span style="font-size:9px;color:rgba(255,255,255,.2);">·</span>'
-                    +'<span style="font-size:10px;font-weight:600;color:rgba(255,255,255,.45);">'+(RC[m.round]||m.round||'')+'</span>'
-                  +'</div>'
-                +'</div>'
-                +'<div style="text-align:right;flex-shrink:0;">'
-                  +'<span style="font-size:12px;font-weight:600;color:rgba(255,255,255,.6);font-family:monospace;letter-spacing:0.5px;">'+m.score+'</span>'
-                +'</div>'
-                +'</div>';
+              var dd=m.date&&m.date.length>=8?m.date.slice(6,8)+'.'+m.date.slice(4,6)+'.'+m.date.slice(0,4):m.date||'';
+              var isW=m.result==='W',isL=m.result==='L';
+              var wlClass=isW?'ta-wl-w':isL?'ta-wl-l':'';
+              var wlTxt=isW?'W':isL?'L':m.result||'';
+              var sc=m.surface||'';
+              var scClass=sc==='Clay'?'mh-surf-cl':sc==='Grass'?'mh-surf-gr':sc==='Indoor'?'mh-surf-in':'mh-surf-ha';
+              var rc={'R128':'R128','R64':'R64','R32':'R32','R16':'R16','QF':'QF','SF':'SF','F':'F','W':'W','RR':'RR','Q1':'Q1','Q2':'Q2','Q3':'Q3'};
+              var rnk=m.rank?m.rank:'';
+              var vrnk=m.opp_rank?m.opp_rank:'';
+              var dr=m.dr||'',ap=m.a_pct||'',dfp=m.df_pct||'',fsin=m.first_in||'',fsp=m.first_pct||'',scp=m.second_pct||'',bps=m.bp_saved||'',tm=m.match_time||'';
+              hm+='<tr>';
+              hm+='<td class="'+wlClass+'">'+wlTxt+'</td>';
+              hm+='<td>'+dd+'</td>';
+              hm+='<td>'+m.tournament+'</td>';
+              hm+='<td class="'+scClass+'">'+sc+'</td>';
+              hm+='<td>'+(m.round||'')+'</td>';
+              hm+='<td class="ta-num">'+rnk+'</td>';
+              hm+='<td class="ta-num">'+vrnk+'</td>';
+              hm+='<td>'+m.opponent+'</td>';
+              hm+='<td class="ta-score">'+m.score+'</td>';
+              hm+='<td class="ta-odds">'+m.odds+'</td>';
+              hm+='<td class="ta-num">'+dr+'</td>';
+              hm+='<td class="ta-num">'+ap+'</td>';
+              hm+='<td class="ta-num">'+dfp+'</td>';
+              hm+='<td class="ta-num">'+fsin+'</td>';
+              hm+='<td class="ta-num">'+fsp+'</td>';
+              hm+='<td class="ta-num">'+scp+'</td>';
+              hm+='<td class="ta-num">'+bps+'</td>';
+              hm+='<td class="ta-num">'+tm+'</td>';
+              hm+='</tr>';
             });
-            if(lastYear)hm+='</div>';
+            hm+='</tbody></table>';
             if(!filtered.length)hm='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);font-size:13px;">Žádné zápasy pro tento filtr</div>';
             var listEl=sec.querySelector('#mh-list');
             if(listEl)listEl.innerHTML=hm;
-            // Update počítadlo
             var cntEl=sec.querySelector('#mh-count');
             if(cntEl)cntEl.textContent=filtered.length+' zápasů';
+
           }
 
           // Filtry HTML
