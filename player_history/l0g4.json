@@ -3,33 +3,33 @@
   "gs_id": "148918",
   "player_name": "Lorenzo Lorusso",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:29:48.088Z",
+  "updated": "2026-03-27T11:01:36.124Z",
   "matches": [
     {
-      "date": "20250806",
-      "tournament": "M25 Montesilvano",
+      "date": "20250707",
+      "tournament": "Nottingham 4",
       "surface": "Hard",
-      "level": "I",
-      "round": "R16",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Bagnolini",
-      "score": "1-6 7-5 5-7"
+      "opponent": "N. Budkov Kjaer",
+      "score": "6(7)-7(9) 4-6"
     },
     {
-      "date": "20250805",
-      "tournament": "M25 Montesilvano",
+      "date": "20250610",
+      "tournament": "M15 Messina",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Pecci",
-      "score": "4-3 ret."
+      "result": "L",
+      "opponent": "G. Ferrari",
+      "score": "6-4 6-2"
     },
     {
       "date": "20250531",
@@ -121,6 +121,19 @@
       "result": "W",
       "opponent": "C. Warik",
       "score": "2-6 1-6"
+    },
+    {
+      "date": "20250325",
+      "tournament": "M15 Foggia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Bronzetti",
+      "score": "3-6 2-6"
     },
     {
       "date": "20241212",
@@ -303,45 +316,6 @@
       "result": "L",
       "opponent": "S. Imai",
       "score": "7(8)-6(6) 7-5"
-    },
-    {
-      "date": "20240815",
-      "tournament": "ITF M15 Kursumlijska Banja 15 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Gagliardo",
-      "score": "7(9)-6(7) 3-6 1-6"
-    },
-    {
-      "date": "20240813",
-      "tournament": "ITF M15 Kursumlijska Banja 15 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Chepelev",
-      "score": "5-7 7-5 7(7)-6(5)"
-    },
-    {
-      "date": "20240806",
-      "tournament": "ITF M15 Kursumlijska Banja 14 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Cavallo",
-      "score": "2-6 4-6"
     }
   ]
 }
