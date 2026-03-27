@@ -3,11 +3,11 @@
   "gs_id": "4315",
   "player_name": "Federico Zeballos",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:47:47.937Z",
+  "updated": "2026-03-27T02:49:49.974Z",
   "matches": [
     {
-      "date": "20220320",
-      "tournament": "Santa Cruz 2",
+      "date": "20220815",
+      "tournament": "Grodzisk Mazowiecki",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
@@ -15,47 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Dutra Da Silva",
-      "score": "0-6 2-6"
+      "opponent": "T. Seyboth Wild",
+      "score": "3-6 6-3 4-6"
     },
     {
-      "date": "20220313",
-      "tournament": "Concepcion 2",
+      "date": "20220627",
+      "tournament": "Malaga",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Kachmazov",
+      "score": "0-6 6(4)-7(7)"
+    },
+    {
+      "date": "20220626",
+      "tournament": "Malaga",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Dutra Da Silva",
-      "score": "5-7 2-6"
-    },
-    {
-      "date": "20220215",
-      "tournament": "M25 Cancun 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Chappell",
-      "score": "6-1 4-6 3-6"
-    },
-    {
-      "date": "20220210",
-      "tournament": "M25 Cancun",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Rybakov",
-      "score": "6-1 7(7)-6(4)"
+      "result": "W",
+      "opponent": "A. Hernandez",
+      "score": "6(2)-7(7) 6-2 6-4"
     }
   ]
 }
