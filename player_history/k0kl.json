@@ -3,11 +3,11 @@
   "gs_id": "165892",
   "player_name": "Tilen Kovac",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:14:35.866Z",
+  "updated": "2026-03-27T06:10:31.017Z",
   "matches": [
     {
-      "date": "20250611",
-      "tournament": "M25 Kiseljak",
+      "date": "20250827",
+      "tournament": "M25 Maribor 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,38 +15,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gobat",
-      "score": "6-2 6(4)-7(7) 6-2"
+      "opponent": "S. Dominko",
+      "score": "6-2 6-3"
     },
     {
-      "date": "20250516",
-      "tournament": "M15 Prijedor",
+      "date": "20250820",
+      "tournament": "M25 Maribor",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "V. Bielinskyi",
-      "score": "3-6 1-6"
+      "opponent": "L. Iemmi",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20250515",
-      "tournament": "M15 Prijedor",
+      "date": "20250702",
+      "tournament": "M15 Store",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Vukadin",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20240704",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Basic",
-      "score": "7-5 7(7)-6(2)"
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "2-6 0-6"
     },
     {
-      "date": "20250514",
-      "tournament": "M15 Prijedor",
+      "date": "20240703",
+      "tournament": "ITF M15 Store Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -54,8 +67,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. I. Zamora",
-      "score": "6-1 6-2"
+      "opponent": "F. F. Garbero",
+      "score": "5-7 5-7"
+    },
+    {
+      "date": "20240501",
+      "tournament": "M15 Osijek",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Oberleitner",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20240327",
+      "tournament": "M25 Trnava",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Fajta",
+      "score": "6-2 6-4"
+    },
+    {
+      "date": "20220914",
+      "tournament": "M15 Zlatibor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Zeljenka",
+      "score": "6-0 6-1"
     }
   ]
 }
