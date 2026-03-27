@@ -1,1 +1,35 @@
-{"player_id":"l0gl","gs_id":"142215","player_name":"George Lazarov","source":"goalserve-full","updated":"2026-03-26","matches":[{"id":"UDf487wg","date":"20260325","tournament":"ITF MEN - SINGLES: M15 Opatija (Croatia), clay","surface":"Clay","level":"A","round":"","result":"L","opponent":"Rocha F.","score":"1-2","best_of":"3","rank":"","opp_rank":"","src":"live"},{"date":"20260204","tournament":"M15 Antalya 2","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"F. C. Jianu","score":"4-6 3-6"},{"date":"20240228","tournament":"ITF M15 Antalya 4 Men","surface":"Hard","level":"I","round":"R32","best_of":"3","rank":"","opp_rank":"","result":"L","opponent":"S. A. Andreescu","score":"3-6 6-1 5-7"}],"total":3}
+{
+  "player_id": "l0gl",
+  "gs_id": "142215",
+  "player_name": "George Lazarov",
+  "source": "goalserve-full",
+  "updated": "2026-03-26T18:59:11.779Z",
+  "matches": [
+    {
+      "date": "20260204",
+      "tournament": "M15 Antalya 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. C. Jianu",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20240228",
+      "tournament": "ITF M15 Antalya 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. A. Andreescu",
+      "score": "3-6 6-1 5-7"
+    }
+  ]
+}
