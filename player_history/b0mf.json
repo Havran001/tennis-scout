@@ -3,37 +3,37 @@
   "gs_id": "183038",
   "player_name": "Stepan Baum",
   "source": "goalserve-full",
-  "updated": "2026-03-27T03:54:54.966Z",
+  "updated": "2026-03-27T06:11:25.016Z",
   "matches": [
     {
-      "date": "20230825",
-      "tournament": "ITF M15 Trier Men",
+      "date": "20250716",
+      "tournament": "M15 Uslar",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Naw",
-      "score": "6-3 7-5"
+      "opponent": "M. Petkovic",
+      "score": "3-6 6-4 0-6"
     },
     {
-      "date": "20230824",
-      "tournament": "ITF M15 Trier Men",
+      "date": "20240718",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Opitz",
-      "score": "6-2 6-2"
+      "result": "L",
+      "opponent": "M. Steiner",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20230823",
-      "tournament": "ITF M15 Trier Men",
+      "date": "20240717",
+      "tournament": "ITF M15 Uslar Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +41,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Vankan",
-      "score": "2-6 0-6"
+      "opponent": "G. Calvano",
+      "score": "6-3 6-1"
     },
     {
-      "date": "20230628",
-      "tournament": "ITF M15 Wroclaw Men",
+      "date": "20230309",
+      "tournament": "ITF M15 Kish Island Men",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Z. Tkemaladze",
-      "score": "3-6 6-3 1-6"
+      "opponent": "G. Madarasz",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20230308",
+      "tournament": "ITF M15 Kish Island Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Chepik",
+      "score": "5-7 3-6"
     }
   ]
 }
