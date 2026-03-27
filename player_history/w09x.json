@@ -3,37 +3,24 @@
   "gs_id": "39239",
   "player_name": "Benjamin Winter Lopez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T09:26:23.103Z",
+  "updated": "2026-03-27T10:58:35.122Z",
   "matches": [
     {
-      "date": "20240620",
-      "tournament": "M25 Mungia-Laukariz",
+      "date": "20250812",
+      "tournament": "M25 Gijon",
       "surface": "Hard",
       "level": "I",
-      "round": "QF",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Barroso Campos",
-      "score": "6-2 1-6 4-6"
+      "opponent": "R. Nijboer",
+      "score": "4-6 1-6"
     },
     {
-      "date": "20240619",
-      "tournament": "M25 Mungia-Laukariz",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Vives Marcos",
-      "score": "6-3 2-1 ret."
-    },
-    {
-      "date": "20240617",
-      "tournament": "M25 Mungia-Laukariz",
+      "date": "20250315",
+      "tournament": "M25 Les Franqueses del Valles",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. J. Gutierrez",
-      "score": "6-3 6-1"
+      "opponent": "I. Gakhov",
+      "score": "7(9)-6(7) 3-6 10-7"
+    },
+    {
+      "date": "20250315",
+      "tournament": "M25 Les Franqueses del Valles",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Matsuoka",
+      "score": "2-6 4-6"
+    },
+    {
+      "date": "20250212",
+      "tournament": "M15 Valencia 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Gobat",
+      "score": "3-6 1-6"
     }
   ]
 }
