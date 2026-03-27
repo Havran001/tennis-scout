@@ -3,11 +3,63 @@
   "gs_id": "142174",
   "player_name": "Joe Tyler",
   "source": "goalserve-full",
-  "updated": "2026-03-27T12:18:09.161Z",
+  "updated": "2026-03-27T02:53:58.954Z",
   "matches": [
     {
-      "date": "20250918",
-      "tournament": "M15 Kayseri 7",
+      "date": "20250812",
+      "tournament": "M25 Aldershot",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Lorens",
+      "score": "1-6 0-6"
+    },
+    {
+      "date": "20250806",
+      "tournament": "M25 Roehampton 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Weightman",
+      "score": "2-6 6(5)-7(7)"
+    },
+    {
+      "date": "20240828",
+      "tournament": "ITF M15 Budapest Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Rossi",
+      "score": "6-0 4-6 3-6"
+    },
+    {
+      "date": "20220824",
+      "tournament": "M25 Roehampton 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Wendelken",
+      "score": "6(4)-7(7) 1-6"
+    },
+    {
+      "date": "20220623",
+      "tournament": "M15 South Bend",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "S. Pankin",
-      "score": "7-5 6-4"
+      "opponent": "S. Bangoura",
+      "score": "7(7)-6(2) 6-4"
     },
     {
-      "date": "20250917",
-      "tournament": "M15 Kayseri 7",
+      "date": "20220622",
+      "tournament": "M15 South Bend",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +80,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. M. Ozdemir",
-      "score": "3-6 1-6"
+      "opponent": "S. Simeunovic",
+      "score": "6-4 5-7 2-6"
+    },
+    {
+      "date": "20220615",
+      "tournament": "M15 San Diego",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Quinn",
+      "score": "3-6 3-6"
     }
   ]
 }
