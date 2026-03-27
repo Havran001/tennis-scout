@@ -3,11 +3,11 @@
   "gs_id": "291868",
   "player_name": "Glib Sekachov",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:18:43.832Z",
+  "updated": "2026-03-27T05:49:50.560Z",
   "matches": [
     {
-      "date": "20250916",
-      "tournament": "M15 Fayetteville",
+      "date": "20250702",
+      "tournament": "M15 Store",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Shick",
-      "score": "7(7)-6(3) 7-5"
+      "opponent": "I. Marcondes",
+      "score": "2-6 0-2 ret."
+    },
+    {
+      "date": "20250610",
+      "tournament": "M15 Nyiregyhaza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Mashtakov",
+      "score": "6-2 3-6 2-6"
+    },
+    {
+      "date": "20250527",
+      "tournament": "M15 Warmbad Villach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Zick",
+      "score": "4-6 7-5 3-6"
     }
   ]
 }
