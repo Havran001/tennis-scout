@@ -3,8 +3,47 @@
   "gs_id": "85173",
   "player_name": "Robin Bertrand",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:10.933Z",
+  "updated": "2026-03-27T02:51:47.951Z",
   "matches": [
+    {
+      "date": "20260112",
+      "tournament": "Nonthaburi 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Uchida",
+      "score": "6-3 5-7 1-6"
+    },
+    {
+      "date": "20260107",
+      "tournament": "Nonthaburi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Fomin",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20260106",
+      "tournament": "Nonthaburi",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Pacheco Mendez",
+      "score": "7-5 4-6 5-7"
+    },
     {
       "date": "20250613",
       "tournament": "M25 Martos",
@@ -43,6 +82,19 @@
       "result": "W",
       "opponent": "I. Gaztambide Arrastia",
       "score": "1-6 0-6"
+    },
+    {
+      "date": "20240813",
+      "tournament": "Grodzisk Mazowiecki Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Escoffier",
+      "score": "6-2 2-6 2-6"
     },
     {
       "date": "20240614",
@@ -84,6 +136,58 @@
       "score": "2-6 7-5 6-2"
     },
     {
+      "date": "20230819",
+      "tournament": "ITF M25 Aldershot Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Samuel",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20230818",
+      "tournament": "ITF M25 Aldershot Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "F. Bass",
+      "score": "4-6 7-5 2-6"
+    },
+    {
+      "date": "20230817",
+      "tournament": "ITF M25 Aldershot Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. J. Storrie",
+      "score": "6(5)-7(7) 3-6"
+    },
+    {
+      "date": "20230815",
+      "tournament": "ITF M25 Aldershot Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Onuma",
+      "score": "0-6 2-6"
+    },
+    {
       "date": "20230614",
       "tournament": "ITF M25 Martos Men",
       "surface": "Hard",
@@ -95,6 +199,71 @@
       "result": "L",
       "opponent": "I. Lopez Morillo",
       "score": "1-6 7(7)-6(5) 6(3)-7(7)"
+    },
+    {
+      "date": "20230428",
+      "tournament": "ITF M25 Tbilisi Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Agafonov",
+      "score": "6-3 6(6)-7(8) 2-6"
+    },
+    {
+      "date": "20230427",
+      "tournament": "ITF M25 Tbilisi Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Bakshi",
+      "score": "6(8)-7(10) 1-6"
+    },
+    {
+      "date": "20230426",
+      "tournament": "ITF M25 Tbilisi Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "O. Kimhi",
+      "score": "6-4 5-7 2-6"
+    },
+    {
+      "date": "20221101",
+      "tournament": "ITF M15 Monastir 62 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Raynel",
+      "score": "7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20220828",
+      "tournament": "Toulouse",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Chepelev",
+      "score": "3-6 1-6"
     }
   ]
 }
