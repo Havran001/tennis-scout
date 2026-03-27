@@ -3,11 +3,11 @@
   "gs_id": "36012",
   "player_name": "Adrian Andreev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:04:55.065Z",
+  "updated": "2026-03-27T10:14:56.114Z",
   "matches": [
     {
-      "date": "20240205",
-      "tournament": "Nottingham 3 Challenger Men",
+      "date": "20251117",
+      "tournament": "Montemar",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -15,25 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Lamasine",
-      "score": "5-7 5-7"
+      "opponent": "I. Gakhov",
+      "score": "3-6 3-6"
     },
     {
-      "date": "20231112",
-      "tournament": "Danderyd",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Oetzbach",
-      "score": "6-4 6-2"
-    },
-    {
-      "date": "20230920",
-      "tournament": "Bad Waltersdorf Challenger Men",
+      "date": "20250401",
+      "tournament": "Menorca",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -41,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Moeller",
-      "score": "7-5 6-4"
+      "opponent": "S. Ofner",
+      "score": "6-2 2-0 ret."
     },
     {
-      "date": "20230816",
-      "tournament": "Stanford",
+      "date": "20250123",
+      "tournament": "Oeiras 5",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Kovacevic",
-      "score": "7-5 6-3"
+      "opponent": "N. Mejia",
+      "score": ""
     },
     {
-      "date": "20230813",
-      "tournament": "Stanford",
+      "date": "20250121",
+      "tournament": "Oeiras 5",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +54,112 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Banerjee",
-      "score": "5-7 6-2 6-4"
+      "opponent": "C. Chidekh",
+      "score": "4-6 6-4 6(5)-7(7)"
+    },
+    {
+      "date": "20241118",
+      "tournament": "Montemar",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "N. Hardt",
+      "score": "3-6 1-2 ret."
+    },
+    {
+      "date": "20241113",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Royer",
+      "score": "6-4 3-6 4-6"
+    },
+    {
+      "date": "20241112",
+      "tournament": "Lyon 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Paris",
+      "score": "6(6)-7(8) 6-3 7-5"
+    },
+    {
+      "date": "20240901",
+      "tournament": "Porto 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Taberner",
+      "score": "6-3 6-0"
+    },
+    {
+      "date": "20240831",
+      "tournament": "Porto 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Sanchez Izquierdo",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20240830",
+      "tournament": "Porto 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Cukierman",
+      "score": "6(7)-7(9) 4-6"
+    },
+    {
+      "date": "20240828",
+      "tournament": "Porto 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Valkusz",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240826",
+      "tournament": "Porto 2 Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Jorda Sanchis",
+      "score": "4-6 4-6"
     }
   ]
 }
