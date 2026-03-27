@@ -3,8 +3,21 @@
   "gs_id": "175249",
   "player_name": "Adhithya Ganesan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:56:15.963Z",
+  "updated": "2026-03-27T04:49:13.986Z",
   "matches": [
+    {
+      "date": "20251125",
+      "tournament": "Temuco",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. M. La Serna",
+      "score": "4-6 7(7)-6(2) 5-7"
+    },
     {
       "date": "20250906",
       "tournament": "M15 Haren",
@@ -97,34 +110,34 @@
       "score": "6-1 6-2"
     },
     {
-      "date": "20250729",
-      "tournament": "M25 Edwardsville",
+      "date": "20241115",
+      "tournament": "M25 Mumbai",
       "surface": "Hard",
       "level": "I",
-      "round": "R32",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Vithoontien",
-      "score": "7(7)-6(2) 3-6 6-4"
+      "opponent": "K. Sultanov",
+      "score": "6-3 3-6 4-6"
     },
     {
-      "date": "20250612",
-      "tournament": "M25 Santo Domingo 4",
+      "date": "20241114",
+      "tournament": "M25 Mumbai",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Johns",
-      "score": "2-6 3-6"
+      "result": "W",
+      "opponent": "S. Banthia",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20250611",
-      "tournament": "M25 Santo Domingo 4",
+      "date": "20241112",
+      "tournament": "M25 Mumbai",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,12 +145,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Alonso",
-      "score": "2-6 7-5 3-6"
+      "opponent": "A. Weber",
+      "score": "2-6 4-6"
     },
     {
-      "date": "20240605",
-      "tournament": "ITF M15 San Diego",
+      "date": "20240911",
+      "tournament": "ITF M15 Singapore Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,34 +158,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Azkara",
-      "score": "6-2 6-4"
+      "opponent": "S. Banerjee",
+      "score": "1-6 1-6"
     },
     {
-      "date": "20230622",
-      "tournament": "M15 South Bend",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Winter",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20230621",
-      "tournament": "M15 South Bend",
+      "date": "20240214",
+      "tournament": "ITF M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "O. Okonkwo",
-      "score": "6-0 6-3"
+      "result": "L",
+      "opponent": "P. Maloney",
+      "score": "7(11)-6(9) 4-6 5-7"
     }
   ]
 }
