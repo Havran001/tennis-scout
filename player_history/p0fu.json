@@ -3,11 +3,50 @@
   "gs_id": "92086",
   "player_name": "Filip Pieczonka",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:50:37.939Z",
+  "updated": "2026-03-27T02:53:32.955Z",
   "matches": [
     {
-      "date": "20250603",
-      "tournament": "M25 Monastir",
+      "date": "20250805",
+      "tournament": "Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Karatsev",
+      "score": "6(4)-7(7) 6-2 7-5"
+    },
+    {
+      "date": "20250804",
+      "tournament": "Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "R. Berankis",
+      "score": "6(0)-6(1) ret."
+    },
+    {
+      "date": "20250803",
+      "tournament": "Grodzisk Mazowiecki",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Ursu",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240625",
+      "tournament": "M15 Wroclaw",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +54,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Braithwaite",
-      "score": "6-4 6-0"
+      "opponent": "M. Agwi",
+      "score": "4-6 6-1 3-6"
+    },
+    {
+      "date": "20230813",
+      "tournament": "Grodzisk Mazowiecki Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Copil",
+      "score": "6-3 4-6 1-6"
     }
   ]
 }
