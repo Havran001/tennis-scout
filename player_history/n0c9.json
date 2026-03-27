@@ -3,8 +3,21 @@
   "gs_id": "123647",
   "player_name": "Dian Nedev",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:21:14.067Z",
+  "updated": "2026-03-27T12:15:01.157Z",
   "matches": [
+    {
+      "date": "20250819",
+      "tournament": "M15 Pirot 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Shirokyi",
+      "score": "6-4 6-1"
+    },
     {
       "date": "20250731",
       "tournament": "M15 Kursumlijska Banja 13",
@@ -30,6 +43,71 @@
       "result": "W",
       "opponent": "D. Azoidis",
       "score": "1-6 4-6"
+    },
+    {
+      "date": "20250723",
+      "tournament": "M15 Kursumlijska Banja 12",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vales",
+      "score": "4-6 6-3 2-6"
+    },
+    {
+      "date": "20250310",
+      "tournament": "Cap Cana",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Andreozzi",
+      "score": "7(7)-6(1) 2-6 6-4"
+    },
+    {
+      "date": "20240913",
+      "tournament": "M15 Kursumlijska Banja 17",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Compagnucci",
+      "score": "3-6 5-7"
+    },
+    {
+      "date": "20240912",
+      "tournament": "M15 Kursumlijska Banja 17",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "V. Arnautovic",
+      "score": "6-0 6-1"
+    },
+    {
+      "date": "20240717",
+      "tournament": "ITF M15 Kursumlijska Banja 11 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "J. P. Paz",
+      "score": "3-6 6-1 6-4"
     }
   ]
 }
