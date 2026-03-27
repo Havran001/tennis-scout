@@ -3,20 +3,98 @@
   "gs_id": "8529",
   "player_name": "David Jorda Sanchis",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:55:21.040Z",
+  "updated": "2026-03-27T07:59:28.064Z",
   "matches": [
     {
-      "date": "20230917",
-      "tournament": "Antofagasta Challenger Men",
+      "date": "20260324",
+      "tournament": "Naples",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Sakellaridis",
+      "score": "1-6 6-1 5-7"
+    },
+    {
+      "date": "20260323",
+      "tournament": "Naples",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Dalla Valle",
+      "score": "6-3 6-3"
+    },
+    {
+      "date": "20260322",
+      "tournament": "Naples",
       "surface": "Hard",
       "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
+      "result": "W",
+      "opponent": "N. Catini",
+      "score": "6-1 2-0 ret."
+    },
+    {
+      "date": "20250326",
+      "tournament": "M25 Tarragona",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
       "result": "L",
-      "opponent": "G. I. Justo",
-      "score": "7-5 0-6 7-5"
+      "opponent": "A. Juan Mano",
+      "score": "6-3 6(4)-7(7) 4-6"
+    },
+    {
+      "date": "20250225",
+      "tournament": "M15 Villena 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Juan Mano",
+      "score": "2-6 7(7)-6(3) 1-6"
+    },
+    {
+      "date": "20240617",
+      "tournament": "Sassuolo Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cecchinato",
+      "score": "7(9)-6(7) 7(7)-6(0)"
+    },
+    {
+      "date": "20240616",
+      "tournament": "Sassuolo Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. A. Caniato",
+      "score": "6-2 6-1"
     }
   ]
 }
