@@ -3,11 +3,11 @@
   "gs_id": "154586",
   "player_name": "Laurin Aerne",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:54:46.954Z",
+  "updated": "2026-03-27T06:09:42.014Z",
   "matches": [
     {
-      "date": "20251112",
-      "tournament": "M15 Kuala Lumpur",
+      "date": "20251009",
+      "tournament": "M25 Kigali",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +15,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "Y. Kawahashi",
-      "score": "6-3 6-1"
+      "opponent": "U. Kamboj",
+      "score": "6-4 4-6 2-6"
+    },
+    {
+      "date": "20250717",
+      "tournament": "M25 Kramsach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Orlov",
+      "score": "6-0 6-4"
+    },
+    {
+      "date": "20250715",
+      "tournament": "M25 Kramsach",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Muntwyler",
+      "score": "5-7 7-5 6-2"
     }
   ]
 }
