@@ -3,37 +3,11 @@
   "gs_id": "123026",
   "player_name": "Luca Castagnola",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:52:53.922Z",
+  "updated": "2026-03-27T01:54:36.006Z",
   "matches": [
     {
-      "date": "20260122",
-      "tournament": "M15 Manacor 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Basing",
-      "score": "6-3 6-2"
-    },
-    {
-      "date": "20260121",
-      "tournament": "M15 Manacor 3",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "D. C. Spiridon",
-      "score": "2-6 6-2 4-2 ret."
-    },
-    {
-      "date": "20241023",
-      "tournament": "M15 Monastir 43",
+      "date": "20240611",
+      "tournament": "M15 Chieti",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,64 +15,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "K. Szymkowiak",
-      "score": "2-6 6-3 6-2"
+      "opponent": "L. Marmousez",
+      "score": "5-7 6-4 6-1"
     },
     {
-      "date": "20241016",
-      "tournament": "M15 Monastir 42",
+      "date": "20240505",
+      "tournament": "Mauthausen Challenger Men",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "I. Montes-De La Torre",
-      "score": "6-4 6-3"
-    },
-    {
-      "date": "20240316",
-      "tournament": "ITF M15 Monastir 11 Men",
-      "surface": "Hard",
-      "level": "I",
+      "level": "C",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "F. Broska",
-      "score": "6-3 6-1"
+      "opponent": "S. Fanselow",
+      "score": "6-4 4-6 2-6"
     },
     {
-      "date": "20240315",
-      "tournament": "ITF M15 Monastir 11 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Potenza",
-      "score": "6-3 6-1"
-    },
-    {
-      "date": "20240314",
-      "tournament": "ITF M15 Monastir 11 Men",
+      "date": "20230616",
+      "tournament": "ITF M15 Chieti Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "P. Buldorini",
-      "score": "6-2 6-4"
+      "result": "L",
+      "opponent": "M. Mazza",
+      "score": "6-4 5-7 6-2"
     },
     {
-      "date": "20240313",
-      "tournament": "ITF M15 Monastir 11 Men",
+      "date": "20230615",
+      "tournament": "ITF M15 Chieti Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,8 +54,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. Loge",
-      "score": "6-1 7(7)-6(2)"
+      "opponent": "O. Ovcharenko",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20230608",
+      "tournament": "M15 Frascati",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Dalla Valle",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20230606",
+      "tournament": "M15 Frascati",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Dessi",
+      "score": "0-6 0-6"
+    },
+    {
+      "date": "20230424",
+      "tournament": "ITF M25 Santa Margherita di Pula 4 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Compagnucci",
+      "score": "6-4 7-5"
     },
     {
       "date": "20230416",
@@ -123,8 +110,8 @@
       "score": "5-7 6-3 6-1"
     },
     {
-      "date": "20230215",
-      "tournament": "ITF M25 Monastir 3 Men",
+      "date": "20230403",
+      "tournament": "ITF M25 Santa Margherita di Pula Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -132,38 +119,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Donski",
-      "score": "7-5 2-2 ret."
+      "opponent": "G. Ferrari",
+      "score": "6-4 2-6 6(2)-7(7)"
     },
     {
-      "date": "20230211",
-      "tournament": "ITF M25 Monastir 2 Men",
+      "date": "20220616",
+      "tournament": "M15 Chieti",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Elsayed",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20230211",
-      "tournament": "ITF M25 Monastir 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "A. Dougaz",
-      "score": "7-5 6-4"
+      "opponent": "T. Lipovsek Puches",
+      "score": "7(7)-6(5) 6-1"
     },
     {
-      "date": "20230209",
-      "tournament": "ITF M25 Monastir 2 Men",
+      "date": "20220615",
+      "tournament": "M15 Chieti",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -171,34 +145,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "O. Ovcharenko",
-      "score": "4-6 6(6)-7(8)"
+      "opponent": "K. Krawcewicz",
+      "score": "7(7)-6(3) 6-3"
     },
     {
-      "date": "20230201",
-      "tournament": "ITF M25 Monastir Men",
+      "date": "20220403",
+      "tournament": "Sanremo",
       "surface": "Hard",
-      "level": "I",
-      "round": "R32",
+      "level": "C",
+      "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Dietrich",
-      "score": "6-2 6(6)-7(8) 7-5"
-    },
-    {
-      "date": "20211222",
-      "tournament": "ITF M15 Monastir 49 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Vylegzhanin",
-      "score": "0-6 4-6"
+      "opponent": "M. Perchicot",
+      "score": "6-3 6-2"
     }
   ]
 }
