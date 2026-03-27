@@ -3,11 +3,11 @@
   "gs_id": "160175",
   "player_name": "Aleksa Ciric",
   "source": "goalserve-full",
-  "updated": "2026-03-27T01:58:20.047Z",
+  "updated": "2026-03-27T04:48:42.987Z",
   "matches": [
     {
-      "date": "20260320",
-      "tournament": "M25 Bakersfield",
+      "date": "20260206",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Antonius",
-      "score": "6-3 6-3"
+      "opponent": "R. Colby",
+      "score": "5-7 5-7"
     },
     {
-      "date": "20260319",
-      "tournament": "M25 Bakersfield",
+      "date": "20260205",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "E. Winter",
-      "score": "2-6 6(5)-7(7)"
+      "opponent": "W. Grant",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20260318",
-      "tournament": "M25 Bakersfield",
+      "date": "20260204",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,21 +41,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Haviland",
-      "score": "3-6 7-5 3-6"
-    },
-    {
-      "date": "20260225",
-      "tournament": "M15 Naples",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Bynoe",
-      "score": "3-6 5-7"
+      "opponent": "F. De Dios",
+      "score": "6-0 6-1"
     },
     {
       "date": "20250605",
@@ -84,21 +71,47 @@
       "score": "1-6 5-7"
     },
     {
-      "date": "20240530",
-      "tournament": "ITF M15 San Diego",
+      "date": "20250201",
+      "tournament": "M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Gima",
+      "score": "6-3 6-1"
+    },
+    {
+      "date": "20250131",
+      "tournament": "M15 Palm Coast",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Tessa",
+      "score": "6-4 6-3"
+    },
+    {
+      "date": "20250130",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "A. F. Rubio Fierros",
-      "score": "6(5)-7(7) 4-6"
+      "result": "W",
+      "opponent": "T. Compagnucci",
+      "score": "0-6 6-3 4-6"
     },
     {
-      "date": "20240529",
-      "tournament": "ITF M15 San Diego",
+      "date": "20250129",
+      "tournament": "M15 Palm Coast",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "W. Kleege",
-      "score": "3-6 4-6"
+      "opponent": "L. Krall",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20230531",
-      "tournament": "ITF M15 Rancho Santa Fe",
+      "date": "20241114",
+      "tournament": "M15 Boca Raton",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +132,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "B. Shick",
-      "score": "6-3 6-1"
+      "opponent": "S. Gima",
+      "score": "5-7 7(9)-6(7) 6-4"
+    },
+    {
+      "date": "20241018",
+      "tournament": "M15 Winston-Salem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Pow",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20241017",
+      "tournament": "M15 Winston-Salem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "L. Tacchi",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20241016",
+      "tournament": "M15 Winston-Salem",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Almeida",
+      "score": "4-6 7(7)-6(3) 5-7"
     }
   ]
 }
