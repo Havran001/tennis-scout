@@ -3,11 +3,11 @@
   "gs_id": "200559",
   "player_name": "Gabriele Vulpitta",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:15:24.867Z",
+  "updated": "2026-03-27T01:00:45.920Z",
   "matches": [
     {
-      "date": "20240320",
-      "tournament": "ITF M15 Opatija Men",
+      "date": "20241126",
+      "tournament": "ITF M25 Monastir 4 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Mikrut",
-      "score": "6-2 6-3"
+      "opponent": "D. Blanch",
+      "score": "1-6 7(7)-6(5) 2-6"
     },
     {
-      "date": "20240312",
-      "tournament": "ITF M15 Rovinj Men",
+      "date": "20241120",
+      "tournament": "ITF M25 Monastir 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,8 +28,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "P. B. Privara",
-      "score": "2-6 1-6"
+      "opponent": "K. De Schepper",
+      "score": "2-6 7-5 3-6"
+    },
+    {
+      "date": "20231004",
+      "tournament": "ITF M15 Monastir 40 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Panaras",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20230808",
+      "tournament": "M15 Pescara",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Picchione",
+      "score": "6-3 6-1"
     }
   ]
 }
