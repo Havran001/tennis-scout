@@ -3,24 +3,76 @@
   "gs_id": "145230",
   "player_name": "Edison Ambarzumjan",
   "source": "goalserve-full",
-  "updated": "2026-03-27T04:48:11.983Z",
+  "updated": "2026-03-27T06:09:06.021Z",
   "matches": [
     {
-      "date": "20250828",
-      "tournament": "M15 Budapest",
+      "date": "20251008",
+      "tournament": "M25 Kigali",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Bax",
+      "score": "4-6 6-3 7(7)-6(2)"
+    },
+    {
+      "date": "20240618",
+      "tournament": "ITF M15 Cluj Napoca Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. I. Torres Fernandez",
+      "score": "4-6 4-6"
+    },
+    {
+      "date": "20240518",
+      "tournament": "M15 Addis Ababa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Fantini",
+      "score": "4-6 3-6"
+    },
+    {
+      "date": "20240517",
+      "tournament": "M15 Addis Ababa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Coulibaly",
+      "score": "7(7)-6(5) 6-4"
+    },
+    {
+      "date": "20240516",
+      "tournament": "M15 Addis Ababa",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Dalmasso",
-      "score": "6-4 6-1"
+      "result": "W",
+      "opponent": "R. Ymer",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20250827",
-      "tournament": "M15 Budapest",
+      "date": "20240515",
+      "tournament": "M15 Addis Ababa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,34 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Namigandet Tenguere",
-      "score": "3-6 7-6 4-6"
-    },
-    {
-      "date": "20240410",
-      "tournament": "M15 Telde",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. A. Melero",
-      "score": "6(3)-7(7) 6-1 6-1"
-    },
-    {
-      "date": "20221018",
-      "tournament": "M25 Glasgow 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Tyler",
-      "score": "7(7)-6(2) 3-6 3-6"
+      "opponent": "P. Trochu",
+      "score": "2-6 4-6"
     }
   ]
 }
