@@ -3,7 +3,7 @@
   "gs_id": "4435",
   "player_name": "Sebastian Fanselow",
   "source": "goalserve-full",
-  "updated": "2026-03-27T07:57:26.587Z",
+  "updated": "2026-03-27T09:24:56.100Z",
   "matches": [
     {
       "date": "20250625",
@@ -19,8 +19,21 @@
       "score": "3-6 7(7)-6(2) 4-6"
     },
     {
-      "date": "20240416",
-      "tournament": "Acapulco",
+      "date": "20250423",
+      "tournament": "M15 Sanxenxo",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Berger",
+      "score": "6-2 6-3"
+    },
+    {
+      "date": "20240827",
+      "tournament": "Porto 2 Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -28,8 +41,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Galarneau",
-      "score": "6-3 6-2"
+      "opponent": "L. Neumayer",
+      "score": "4-6 6-2 6-1"
+    },
+    {
+      "date": "20240806",
+      "tournament": "Bonn Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "O. Roca Batalla",
+      "score": "6-0 6-1"
     }
   ]
 }
