@@ -3,11 +3,24 @@
   "gs_id": "144683",
   "player_name": "Patricio Alvarado",
   "source": "goalserve-full",
-  "updated": "2026-03-27T06:09:04.016Z",
+  "updated": "2026-03-27T07:01:32.233Z",
   "matches": [
     {
-      "date": "20250513",
-      "tournament": "M25 Xalapa",
+      "date": "20260301",
+      "tournament": "Kigali",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "E. Vasa",
+      "score": "5-7 1-6"
+    },
+    {
+      "date": "20250917",
+      "tournament": "M25 Guiyang",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,8 +28,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "J. C. Prado Angelo",
-      "score": "6-1 7(8)-6(6)"
+      "opponent": "P. Bar Biryukov",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20241113",
+      "tournament": "M15 Morelia",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Pacheco Mendez",
+      "score": "6-3 3-6 0-6"
     }
   ]
 }
