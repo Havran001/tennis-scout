@@ -3,11 +3,63 @@
   "gs_id": "260325",
   "player_name": "Theodor Alexandrescou Yannick",
   "source": "goalserve-full",
-  "updated": "2026-03-26T21:18:35.830Z",
+  "updated": "2026-03-27T06:12:18.016Z",
   "matches": [
     {
-      "date": "20260312",
-      "tournament": "M15 Porec",
+      "date": "20251003",
+      "tournament": "M25 Zaragoza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Vives Marcos",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20251002",
+      "tournament": "M25 Zaragoza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Sanchez Jover",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20251001",
+      "tournament": "M25 Zaragoza",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "E. Gimenez Sanchez",
+      "score": "1-6 3-6"
+    },
+    {
+      "date": "20250514",
+      "tournament": "M15 Bucharest 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "K. Rahmani",
+      "score": "6-3 4-6 6-0"
+    },
+    {
+      "date": "20240530",
+      "tournament": "M15 Constanta",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Chazal",
-      "score": "4-6 5-7"
+      "opponent": "F. Ferrari",
+      "score": "6-4 0-6 2-6"
     },
     {
-      "date": "20260311",
-      "tournament": "M15 Porec",
+      "date": "20240529",
+      "tournament": "M15 Constanta",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,47 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. Majdandzic",
-      "score": "6-2 6-2"
-    },
-    {
-      "date": "20260304",
-      "tournament": "M15 Antalya 5",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Wessels",
-      "score": "2-6 3-5 ret."
-    },
-    {
-      "date": "20260226",
-      "tournament": "M15 Antalya 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Popovic",
-      "score": "6-2 7(7)-6(3)"
-    },
-    {
-      "date": "20260225",
-      "tournament": "M15 Antalya 4",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "N. Perfetti",
-      "score": "7(7)-6(5) 6(3)-7(7) 6-4"
+      "opponent": "G. C. Schinteie",
+      "score": "7-5 6-1"
     }
   ]
 }
