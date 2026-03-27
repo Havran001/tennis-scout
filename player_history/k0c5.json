@@ -3,24 +3,11 @@
   "gs_id": "41612",
   "player_name": "Admir Kalender",
   "source": "goalserve-full",
-  "updated": "2026-03-27T11:56:54.151Z",
+  "updated": "2026-03-27T03:45:47.965Z",
   "matches": [
     {
-      "date": "20250806",
-      "tournament": "M15 Kursumlijska Banja 14",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "E. Burnett",
-      "score": "3-6 6-4 6-3"
-    },
-    {
-      "date": "20250529",
-      "tournament": "M25 Bol 2",
+      "date": "20241121",
+      "tournament": "ITF M25 Monastir 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -28,12 +15,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "4-6 1-6"
+      "opponent": "E. Kirkin",
+      "score": "6(5)-7(7) 5-7"
     },
     {
-      "date": "20250528",
-      "tournament": "M25 Bol 2",
+      "date": "20241120",
+      "tournament": "ITF M25 Monastir 3 Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,38 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Filippi",
-      "score": "3-6 0-6"
+      "opponent": "D. Khazime",
+      "score": "2-6 3-6"
     },
     {
-      "date": "20250522",
-      "tournament": "M25 Bol",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "P. Brunclik",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20250521",
-      "tournament": "M25 Bol",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "L. Vuglar",
-      "score": "6-4 6-4"
-    },
-    {
-      "date": "20241015",
-      "tournament": "M15 Bol 3",
+      "date": "20230628",
+      "tournament": "ITF M15 Celje Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "G. K. Bonsach",
-      "score": "4-6 2-6"
+      "opponent": "J. Trinker",
+      "score": "1-6 4-6"
     },
     {
-      "date": "20240830",
-      "tournament": "M15 Kursumlijska Banja 16",
+      "date": "20230616",
+      "tournament": "ITF M15 Litija Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -93,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Chepelev",
-      "score": "6-2 4-6 6-4"
+      "opponent": "P. Cias",
+      "score": "7-5 0-0 ret."
     },
     {
-      "date": "20240829",
-      "tournament": "M15 Kursumlijska Banja 16",
+      "date": "20230615",
+      "tournament": "ITF M15 Litija Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -106,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Dinev",
-      "score": "7-5 6-2"
+      "opponent": "G. Emersic Potocnik",
+      "score": "6-3 2-6 4-6"
     },
     {
-      "date": "20240828",
-      "tournament": "M15 Kursumlijska Banja 16",
+      "date": "20230613",
+      "tournament": "ITF M15 Litija Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,25 +80,77 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Pavlovic",
-      "score": "7(7)-6(5) 5-7 5-7"
+      "opponent": "R. Horvat",
+      "score": "1-6 6-3 6-4"
     },
     {
-      "date": "20240808",
-      "tournament": "ITF M15 Kursumlijska Banja 14 Men",
+      "date": "20220831",
+      "tournament": "M25 Maribor",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "V. Royer",
+      "score": "3-6 3-6"
+    },
+    {
+      "date": "20220828",
+      "tournament": "M15 Celje",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Horvat",
+      "score": "3-6 6-3 1-6"
+    },
+    {
+      "date": "20220827",
+      "tournament": "M15 Celje",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Biljesko",
+      "score": "6-2 2-6 6-4"
+    },
+    {
+      "date": "20220826",
+      "tournament": "M15 Celje",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Jurajda",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20220825",
+      "tournament": "M15 Celje",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "F. Cavallo",
-      "score": "4-6 4-6"
+      "result": "W",
+      "opponent": "S. Kielan",
+      "score": "7(7)-6(4) 6-0"
     },
     {
-      "date": "20240807",
-      "tournament": "ITF M15 Kursumlijska Banja 14 Men",
+      "date": "20220824",
+      "tournament": "M15 Celje",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -145,38 +158,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "J. P. Paz",
-      "score": "7(7)-6(2) 5-7 6-4"
-    },
-    {
-      "date": "20240730",
-      "tournament": "ITF M15 Kursumlijska Banja 13 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. J. Escurra Isnardi",
-      "score": "4-6 4-6"
-    },
-    {
-      "date": "20240710",
-      "tournament": "M15 Umag",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Panaras",
+      "opponent": "J. Kupcic",
       "score": "6-2 6-3"
     },
     {
-      "date": "20240606",
-      "tournament": "M15 Hrastnik",
+      "date": "20220519",
+      "tournament": "M25 Osijek",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -184,12 +171,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "L. Rottoli",
-      "score": "6(2)-7(7) 3-6"
+      "opponent": "M. Fuele",
+      "score": "6-3 7(7)-6(4)"
     },
     {
-      "date": "20240605",
-      "tournament": "M15 Hrastnik",
+      "date": "20220518",
+      "tournament": "M25 Osijek",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -197,8 +184,47 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "V. Mohar",
-      "score": "6-4 6-2"
+      "opponent": "L. Todorovic",
+      "score": "3-6 2-6"
+    },
+    {
+      "date": "20220309",
+      "tournament": "M25 Antalya 3",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Ilhan",
+      "score": "6(3)-7(7) 6-4 1-6"
+    },
+    {
+      "date": "20211117",
+      "tournament": "M15 Antalya 32",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "Y. Erel",
+      "score": "4-6 6-1 1-6"
+    },
+    {
+      "date": "20211110",
+      "tournament": "M15 Antalya 31",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "R. Cungu",
+      "score": "6-4 3-6 6-4"
     }
   ]
 }
