@@ -3,11 +3,11 @@
   "gs_id": "32613",
   "player_name": "Ivan Denisov",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:49:43.976Z",
+  "updated": "2026-03-27T03:44:58.970Z",
   "matches": [
     {
-      "date": "20240626",
-      "tournament": "M15 Ust-Kamenogorsk",
+      "date": "20221123",
+      "tournament": "M15 Bhilai",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -15,77 +15,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Zhukov",
-      "score": "4-6 6-2 6-2"
+      "opponent": "S. Rawat",
+      "score": "6-4 6-2"
     },
     {
-      "date": "20230620",
-      "tournament": "M25 Poprad",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Paty",
-      "score": "3-6 6-3 3-6"
-    },
-    {
-      "date": "20230426",
-      "tournament": "ITF M25 Tbilisi Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Bakshi",
-      "score": "6-1 6-3"
-    },
-    {
-      "date": "20220817",
-      "tournament": "M15 Malmo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "K. Friberg",
-      "score": "4-6 1-6"
-    },
-    {
-      "date": "20220805",
-      "tournament": "M15 Ust-Kamenogorsk",
-      "surface": "Hard",
-      "level": "I",
-      "round": "QF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "S. Danilov",
-      "score": "6-1 6-1"
-    },
-    {
-      "date": "20220804",
-      "tournament": "M15 Ust-Kamenogorsk",
+      "date": "20221117",
+      "tournament": "M25 Mumbai",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "A. Matsiush",
-      "score": "6-1 6-2"
+      "result": "L",
+      "opponent": "D. Singh",
+      "score": "6-2 4-6 6(3)-7(7)"
     },
     {
-      "date": "20220803",
-      "tournament": "M15 Ust-Kamenogorsk",
+      "date": "20221116",
+      "tournament": "M25 Mumbai",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,12 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Dubinin",
-      "score": "4-6 6-0 6-4"
+      "opponent": "B. Patael",
+      "score": "6-1 4-3 ret."
     },
     {
-      "date": "20220705",
-      "tournament": "M15 Casablanca",
+      "date": "20221103",
+      "tournament": "M15 Al Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "B. Atlangeriev",
+      "score": "6-3 7(7)-6(2)"
+    },
+    {
+      "date": "20221102",
+      "tournament": "M15 Al Zahra 2",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Savelev",
+      "score": "6-2 0-0 ret."
+    },
+    {
+      "date": "20221026",
+      "tournament": "M15 Al Zahra",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -106,21 +80,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Sadaoui",
-      "score": "6-1 6-2"
-    },
-    {
-      "date": "20220629",
-      "tournament": "M25 Poprad",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. Madarasz",
-      "score": "7-5 6-2"
+      "opponent": "P. Kovapitukted",
+      "score": "6(1)-7(7) 7(7)-6(2) 3-6"
     }
   ]
 }
