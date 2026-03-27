@@ -3,8 +3,34 @@
   "gs_id": "31356",
   "player_name": "Eero Vasa",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:56:50.917Z",
+  "updated": "2026-03-27T01:52:48.933Z",
   "matches": [
+    {
+      "date": "20250410",
+      "tournament": "M25 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Vatutin",
+      "score": "6-2 2-6 5-7"
+    },
+    {
+      "date": "20250409",
+      "tournament": "M25 Antalya 4",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Paroulek",
+      "score": "7-5 2-6 7(7)-6(4)"
+    },
     {
       "date": "20250403",
       "tournament": "M25 Antalya 3",
@@ -32,21 +58,8 @@
       "score": "3-6 7(7)-6(1) 3-6"
     },
     {
-      "date": "20240124",
-      "tournament": "ITF M15+H Bagnoles de l'Orne Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "V. Orlov",
-      "score": "7-5 4-6 2-6"
-    },
-    {
-      "date": "20231202",
-      "tournament": "ITF M15 Madrid 2 Men",
+      "date": "20240810",
+      "tournament": "ITF M15 Vaasa Men",
       "surface": "Hard",
       "level": "I",
       "round": "SF",
@@ -54,12 +67,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "A. Gray",
-      "score": "6-2 6-4"
+      "opponent": "A. N. Tudorica",
+      "score": "7-5 6-4"
     },
     {
-      "date": "20231201",
-      "tournament": "ITF M15 Madrid 2 Men",
+      "date": "20240809",
+      "tournament": "ITF M15 Vaasa Men",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
@@ -67,12 +80,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "D. Perez Sanz",
-      "score": "6-4 5-7 6-4"
+      "opponent": "R. Catry",
+      "score": "7(7)-6(4) 6-3"
     },
     {
-      "date": "20231130",
-      "tournament": "ITF M15 Madrid 2 Men",
+      "date": "20240808",
+      "tournament": "ITF M15 Vaasa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -80,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Jodar",
-      "score": "6-3 2-6 2-6"
+      "opponent": "A. Boros",
+      "score": "6-4 4-6 6-4"
     },
     {
-      "date": "20231128",
-      "tournament": "ITF M15 Madrid 2 Men",
+      "date": "20240807",
+      "tournament": "ITF M15 Vaasa Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,25 +106,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Simkiss",
-      "score": "6-1 6-1"
+      "opponent": "J. Lassila",
+      "score": "6-3 6-4"
     },
     {
-      "date": "20211103",
-      "tournament": "M25 Meitar",
+      "date": "20220603",
+      "tournament": "M15 Vaasa",
       "surface": "Hard",
       "level": "I",
-      "round": "R16",
+      "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "D. Added",
-      "score": "7(7)-6(3) 6-2"
+      "opponent": "I. Nedelko",
+      "score": "6-3 3-6 4-6"
     },
     {
-      "date": "20211101",
-      "tournament": "M25 Meitar",
+      "date": "20220602",
+      "tournament": "M15 Vaasa",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Atlangeriev",
+      "score": "6-3 7(7)-6(4)"
+    },
+    {
+      "date": "20220601",
+      "tournament": "M15 Vaasa",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -119,8 +145,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Friedler",
-      "score": "3-6 4-6"
+      "opponent": "L. Saatela",
+      "score": "6-4 6-3"
     }
   ]
 }
