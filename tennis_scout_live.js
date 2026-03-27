@@ -1155,6 +1155,7 @@ function _fmtOpp(name){
 }
 function _renderMatches(){
             var filtered=all.filter(function(m){
+              if(m.date&&m.date.indexOf('-')<0)return false;
               if(_fTournament&&_normT(m.tournament||'')!==_fTournament)return false;
               if(_fSurface&&m.surface!==_fSurface)return false;
               if(_fOpponent&&m.opponent!==_fOpponent)return false;
