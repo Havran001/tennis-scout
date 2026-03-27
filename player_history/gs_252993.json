@@ -3,59 +3,85 @@
   "gs_id": "252993",
   "player_name": "Maria Zarate Carlos",
   "source": "goalserve-full",
-  "updated": "2026-03-26T22:15:52.868Z",
+  "updated": "2026-03-27T02:56:59.955Z",
   "matches": [
     {
-      "date": "20250522",
-      "tournament": "M15 Brcko",
+      "date": "20260223",
+      "tournament": "Tigre 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Cadenasso",
+      "score": "6-2 3-6 7-5"
+    },
+    {
+      "date": "20260219",
+      "tournament": "Tigre",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Midon",
+      "score": "6-4 6-2"
+    },
+    {
+      "date": "20260217",
+      "tournament": "Tigre",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "M. Damas",
+      "score": "6(4)-7(7) 7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20250615",
+      "tournament": "Santa Cruz",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "P. Rodrigues",
+      "score": "7-5 6-4"
+    },
+    {
+      "date": "20241029",
+      "tournament": "M15 Monastir 44",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Demanet",
-      "score": "7(7)-6(5) 6-2"
-    },
-    {
-      "date": "20250522",
-      "tournament": "M15 Brcko",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
       "result": "L",
-      "opponent": "A. Raynel",
-      "score": "5-7 7(7)-6(5) 6(2)-7(7)"
+      "opponent": "D. Verbeek",
+      "score": "6-3 4-6 4-6"
     },
     {
-      "date": "20250320",
-      "tournament": "M15 Villa Maria",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "J. Estevez",
-      "score": "5-7 1-6"
-    },
-    {
-      "date": "20250319",
-      "tournament": "M15 Villa Maria",
+      "date": "20240911",
+      "tournament": "M15 Cordoba 2",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "E. Simonit",
-      "score": "0-6 3-6"
+      "result": "L",
+      "opponent": "F. Cavallo",
+      "score": "6-2 6-4"
     },
     {
       "date": "20240625",
@@ -69,6 +95,19 @@
       "result": "L",
       "opponent": "A. Degabriele",
       "score": "6(6)-7(8) 6(5)-7(7)"
+    },
+    {
+      "date": "20240605",
+      "tournament": "ITF M15 Monastir 23 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. F. Alhogbani",
+      "score": "6-2 6-3"
     }
   ]
 }
