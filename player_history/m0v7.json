@@ -3,11 +3,24 @@
   "gs_id": "208335",
   "player_name": "Vincent Marysko",
   "source": "goalserve-full",
-  "updated": "2026-03-27T02:56:43.961Z",
+  "updated": "2026-03-27T06:11:45.019Z",
   "matches": [
     {
-      "date": "20250814",
-      "tournament": "M15 Trier",
+      "date": "20251126",
+      "tournament": "M15 Sharm ElSheikh 19",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "F. Lechno-Wasiutynski",
+      "score": "7(7)-6(5) 2-6 3-6"
+    },
+    {
+      "date": "20251120",
+      "tournament": "M15 Sharm ElSheikh 18",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -15,12 +28,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "T. Handel",
-      "score": "7(8)-6(6) 2-6 2-6"
+      "opponent": "R. Faucon",
+      "score": "3-6 0-6"
     },
     {
-      "date": "20250813",
-      "tournament": "M15 Trier",
+      "date": "20251119",
+      "tournament": "M15 Sharm ElSheikh 18",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,25 +41,51 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Schell",
-      "score": "2-6 7(7)-6(5) 6-4"
+      "opponent": "A. Colombo",
+      "score": "4-6 4-6"
     },
     {
-      "date": "20250808",
-      "tournament": "M15 Frankfurt",
+      "date": "20251116",
+      "tournament": "M15 Sharm ElSheikh 17",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "D. Yevseyev",
+      "score": "7(7)-6(1) 6-1"
+    },
+    {
+      "date": "20251115",
+      "tournament": "M15 Sharm ElSheikh 17",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "I. Almazan Valiente",
+      "score": "6-3 7(7)-6(3)"
+    },
+    {
+      "date": "20251114",
+      "tournament": "M15 Sharm ElSheikh 17",
       "surface": "Hard",
       "level": "I",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "D. Recek",
-      "score": "5-7 7(7)-6(4) 6-2"
+      "result": "W",
+      "opponent": "P. Bar Biryukov",
+      "score": "6(4)-7(7) 3-6"
     },
     {
-      "date": "20250807",
-      "tournament": "M15 Frankfurt",
+      "date": "20251113",
+      "tournament": "M15 Sharm ElSheikh 17",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -54,12 +93,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Larwig",
-      "score": "7-5 6-3"
+      "opponent": "M. Bassem Sobhy",
+      "score": "6-7 6-3 7(8)-6(6)"
     },
     {
-      "date": "20250805",
-      "tournament": "M15 Frankfurt",
+      "date": "20251112",
+      "tournament": "M15 Sharm ElSheikh 17",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -67,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "R. Perot",
-      "score": "6-2 2-6 1-6"
+      "opponent": "I. Gretskiy",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20250709",
-      "tournament": "M25+H Kassel",
+      "date": "20250716",
+      "tournament": "M15 Uslar",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -80,12 +119,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "E. Ejupovic",
-      "score": "6-3 6-3"
+      "opponent": "A. Funk",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20240723",
-      "tournament": "M15 Metzingen",
+      "date": "20240718",
+      "tournament": "ITF M15 Uslar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. A. Falabella",
+      "score": "4-6 2-6"
+    },
+    {
+      "date": "20240717",
+      "tournament": "ITF M15 Uslar Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "Y. Kelm",
+      "score": "6-3 6-2"
+    },
+    {
+      "date": "20240619",
+      "tournament": "ITF M15 Saarlouis Men",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,34 +158,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Naw",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20240625",
-      "tournament": "ITF M15 Kamen Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "L. Poertner",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20230808",
-      "tournament": "ITF M15 Frankfurt am Main Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "N. Schell",
-      "score": "4-6 4-6"
+      "opponent": "G. Tresca",
+      "score": "6(4)-7(7) 6-4 6-4"
     }
   ]
 }
