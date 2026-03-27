@@ -1347,39 +1347,8 @@ function _renderMatches(){
           }
 
           // Filtry HTML
-          var selStyle='background:#161b22;border:1px solid rgba(255,255,255,.1);color:#e6edf3;font-size:11px;padding:6px 10px;border-radius:8px;cursor:pointer;outline:none;max-width:160px;';
-          h+='<div style="display:flex;gap:8px;align-items:center;padding:12px 0 14px;border-bottom:1px solid rgba(255,255,255,.06);flex-wrap:wrap;">'
-            +'<span style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:1.5px;text-transform:uppercase;flex-shrink:0;">Filtr</span>'
-            // Povrch
-            +'<select id="mh-f-surface" style="'+selStyle+'">'
-              +'<option value="">Všechny povrchy</option>'
-              +_allSurfaces.map(function(s){
-                var col=s==='Clay'?'#fb923c':s==='Grass'?'#4ade80':s==='Indoor'?'#c084fc':'#60a5fa';
-                return '<option value="'+s+'">'+s+'</option>';
-              }).join('')
-            +'</select>'
-            // Výsledek
-            +'<select id="mh-f-result" style="'+selStyle+'">'
-              +'<option value="">W + L</option>'
-              +'<option value="W">✅ Výhry</option>'
-              +'<option value="L">❌ Prohry</option>'
-            +'</select>'
-            // Turnaj
-            +'<select id="mh-f-tournament" style="'+selStyle+'">'
-              +'<option value="">Všechny turnaje</option>'
-              +_allTournaments.map(function(t){return '<option value="'+t+'">'+t+'</option>';}).join('')
-            +'</select>'
-            // Soupeř
-            +'<select id="mh-f-opponent" style="'+selStyle+'">'
-              +'<option value="">Všichni soupeři</option>'
-              +_allOpponents.map(function(o){
-                var _parts=o.trim().split(' ');
-                var _label=_parts.length>=2?_parts.slice(1).join(' ')+', '+_parts[0]:o;
-                return '<option value="'+o+'">'+_label+'</option>';
-              }).join('')
-            +'</select>'
-            // Reset
-            +'<button id="mh-f-reset" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:6px 12px;border-radius:8px;cursor:pointer;">✕ Reset</button>'
+          h+='<div style="display:flex;align-items:center;padding:8px 0 12px;border-bottom:1px solid rgba(255,255,255,.06);">'
+            +'<button id="mh-f-reset" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;">✕ Reset</button>'
             +'<span id="mh-count" style="margin-left:auto;font-size:10px;color:rgba(255,255,255,.25);"></span>'
           +'</div>';
           h+='<div id="mh-list"></div>';
@@ -1387,18 +1356,10 @@ function _renderMatches(){
           sec.innerHTML=h;
 
           // Event listenery na filtry
-          sec.querySelector('#mh-f-surface').addEventListener('change',function(e){_fSurface=e.target.value;_renderMatches();});
-          sec.querySelector('#mh-f-result').addEventListener('change',function(e){_fResult=e.target.value;_renderMatches();});
-          sec.querySelector('#mh-f-tournament').addEventListener('change',function(e){_fTournament=e.target.value;_renderMatches();});
-          sec.querySelector('#mh-f-opponent').addEventListener('change',function(e){_fOpponent=e.target.value;_renderMatches();});
           sec.querySelector('#mh-f-reset').addEventListener('click',function(){
             _fSurface='';_fTournament='';_fOpponent='';_fResult='';
             window._mhColFilter={};
             window._mhSort=null;
-            sec.querySelector('#mh-f-surface').value='';
-            sec.querySelector('#mh-f-result').value='';
-            sec.querySelector('#mh-f-tournament').value='';
-            sec.querySelector('#mh-f-opponent').value='';
             _renderMatches();
           });
           _renderMatches();
