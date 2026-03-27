@@ -3,8 +3,86 @@
   "gs_id": "164979",
   "player_name": "Yusuke Kusuhara",
   "source": "goalserve-full",
-  "updated": "2026-03-27T08:25:57.066Z",
+  "updated": "2026-03-27T09:30:52.088Z",
   "matches": [
+    {
+      "date": "20251027",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Fukuda",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20251027",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "F",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "H. Shiraishi",
+      "score": "3-6 4-6"
+    },
+    {
+      "date": "20251024",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "T. Takamisawa",
+      "score": "6-3 6-4"
+    },
+    {
+      "date": "20251023",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Muto",
+      "score": "6-1 6-3"
+    },
+    {
+      "date": "20251022",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "K. Otsuka",
+      "score": "6-4 6-1"
+    },
+    {
+      "date": "20250805",
+      "tournament": "M25 Bali",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "S. Rawat",
+      "score": "1-6 3-6"
+    },
     {
       "date": "20250711",
       "tournament": "M15 Tokyo 2",
@@ -162,8 +240,21 @@
       "score": "6-2 0-0 ret."
     },
     {
-      "date": "20250327",
-      "tournament": "M15 Tsukuba",
+      "date": "20250101",
+      "tournament": "ITF M25 Bali 3 Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "D. Sumizawa",
+      "score": "3-6 0-6"
+    },
+    {
+      "date": "20241031",
+      "tournament": "M15 Yanagawa City",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
@@ -171,12 +262,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "H. Chung",
-      "score": "6-3 6-1"
+      "opponent": "Y. Kikuchi",
+      "score": "1-6 6-2 6-1"
     },
     {
-      "date": "20250325",
-      "tournament": "M15 Tsukuba",
+      "date": "20241030",
+      "tournament": "M15 Yanagawa City",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -184,21 +275,34 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "P. Hjorth",
-      "score": "1-6 6-3 6-3"
+      "opponent": "K. Hayashi",
+      "score": "7-5 4-6 6-1"
     },
     {
-      "date": "20250319",
-      "tournament": "M15 Nishi-Tokyo",
+      "date": "20241024",
+      "tournament": "M15 Tanagura",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "T. Yamanaka",
+      "score": "6-4 7-5"
+    },
+    {
+      "date": "20241022",
+      "tournament": "M15 Tanagura",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Chung",
-      "score": "6-2 6-0"
+      "result": "W",
+      "opponent": "K. Suzuki",
+      "score": "6-2 7(7)-6(2)"
     },
     {
       "date": "20240710",
@@ -225,19 +329,6 @@
       "result": "L",
       "opponent": "Y. Inui",
       "score": "2-6 6-2 7(7)-6(4)"
-    },
-    {
-      "date": "20240327",
-      "tournament": "ITF M15 Tsukuba Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "H. Shiraishi",
-      "score": "6-3 6-2"
     }
   ]
 }
