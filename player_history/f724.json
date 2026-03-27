@@ -3,50 +3,50 @@
   "gs_id": "4907",
   "player_name": "Marton Fucsovics",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:56:12.923Z",
+  "updated": "2026-03-27T04:44:21.984Z",
   "matches": [
     {
-      "date": "20250215",
-      "tournament": "Manama",
+      "date": "20250327",
+      "tournament": "Girona",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "M. Cilic",
+      "score": "6(5)-7(7) 7(7)-6(4) 6-2"
+    },
+    {
+      "date": "20250325",
+      "tournament": "Girona",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Vavassori",
-      "score": "6-3 6(3)-7(7) 6-4"
+      "opponent": "V. Gaubas",
+      "score": "6-3 6-2"
     },
     {
-      "date": "20250214",
-      "tournament": "Manama",
+      "date": "20240503",
+      "tournament": "Cagliari",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "V. Durasovic",
-      "score": "6-4 7-5"
+      "result": "L",
+      "opponent": "D. E. Galan",
+      "score": ""
     },
     {
-      "date": "20250214",
-      "tournament": "Manama",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "M. Sharipov",
-      "score": "6-2 6-1"
-    },
-    {
-      "date": "20250212",
-      "tournament": "Manama",
+      "date": "20240502",
+      "tournament": "Cagliari",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +54,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Dougaz",
-      "score": "6-2 6-3"
+      "opponent": "Z. Svajda",
+      "score": "6-3 6-3"
     },
     {
-      "date": "20250211",
-      "tournament": "Manama",
+      "date": "20240501",
+      "tournament": "Cagliari",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,34 +67,21 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Mejia",
-      "score": "6-1 6-1"
+      "opponent": "G. Zeppieri",
+      "score": "7-5 4-0 ret."
     },
     {
-      "date": "20220112",
-      "tournament": "Adelaide 2",
+      "date": "20221020",
+      "tournament": "Napoli",
       "surface": "Hard",
       "level": "B",
-      "round": "R16",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "C. Moutet",
-      "score": "2-6 2-6"
-    },
-    {
-      "date": "20220111",
-      "tournament": "Adelaide 2",
-      "surface": "Hard",
-      "level": "B",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "B. Van De Zandschulp",
-      "score": "3-6 6(4)-7(7)"
+      "opponent": "Z. Zhang",
+      "score": "6-4 7(10)-6(8)"
     }
   ]
 }
