@@ -3,50 +3,37 @@
   "gs_id": "3225",
   "player_name": "Facundo Bagnis",
   "source": "goalserve-full",
-  "updated": "2026-03-26T23:51:41.915Z",
+  "updated": "2026-03-27T02:49:43.973Z",
   "matches": [
     {
-      "date": "20221023",
-      "tournament": "Ambato",
+      "date": "20250617",
+      "tournament": "Santa Cruz",
       "surface": "Hard",
       "level": "C",
-      "round": "F",
+      "round": "R32",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "J. Reis Da Silva",
-      "score": "6(7)-7(9) 4-6"
+      "result": "L",
+      "opponent": "J. M. La Serna",
+      "score": "6-2 6-4"
     },
     {
-      "date": "20221022",
-      "tournament": "Ambato",
-      "surface": "Hard",
-      "level": "C",
-      "round": "SF",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "W",
-      "opponent": "T. A. Tirante",
-      "score": "3-6 7(7)-6(3) 6(5)-7(7)"
-    },
-    {
-      "date": "20221021",
-      "tournament": "Ambato",
+      "date": "20230512",
+      "tournament": "Mauthausen Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "QF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "S. Rodriguez Taverna",
-      "score": "4-6 3-6"
+      "result": "L",
+      "opponent": "F. Misolic",
+      "score": "6-3 4-6 1-6"
     },
     {
-      "date": "20221019",
-      "tournament": "Ambato",
+      "date": "20230510",
+      "tournament": "Mauthausen Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R16",
@@ -54,12 +41,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "N. Milojevic",
-      "score": "6(6)-7(8) 4-6"
+      "opponent": "G. Melzer",
+      "score": "4-6 6-4 3-6"
     },
     {
-      "date": "20221017",
-      "tournament": "Ambato",
+      "date": "20230508",
+      "tournament": "Mauthausen Challenger Men",
       "surface": "Hard",
       "level": "C",
       "round": "R32",
@@ -67,8 +54,60 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "A. Huertas Del Pino Cordova",
-      "score": "3-6 6(0)-7(7)"
+      "opponent": "M. Neuchrist",
+      "score": "1-6 1-6"
+    },
+    {
+      "date": "20220428",
+      "tournament": "Tigre 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. A. Olivieri",
+      "score": "7(7)-6(4) 6-3"
+    },
+    {
+      "date": "20220426",
+      "tournament": "Tigre 2",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "C. Huertas Del Pino",
+      "score": "2-6 6-3 6-4"
+    },
+    {
+      "date": "20220106",
+      "tournament": "Melbourne (Summer Set)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "G. Dimitrov",
+      "score": "5-7 7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20220104",
+      "tournament": "Melbourne (Summer Set)",
+      "surface": "Hard",
+      "level": "B",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Murray",
+      "score": "6-3 5-7 6-3"
     }
   ]
 }
