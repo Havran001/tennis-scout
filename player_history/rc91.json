@@ -3,7 +3,7 @@
   "gs_id": "13070",
   "player_name": "Arthur Rinderknech",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:50:04.922Z",
+  "updated": "2026-03-27T04:44:38.981Z",
   "matches": [
     {
       "date": "20250206",
@@ -19,34 +19,86 @@
       "score": "4-6 2-6"
     },
     {
-      "date": "20220115",
-      "tournament": "Adelaide 2",
+      "date": "20230730",
+      "tournament": "Zug Challenger Men",
       "surface": "Hard",
-      "level": "B",
+      "level": "C",
       "round": "F",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "T. Kokkinakis",
-      "score": "6(6)-7(8) 7(7)-6(5) 6-3"
+      "result": "W",
+      "opponent": "J. De Loore",
+      "score": "3-6 6-3 6-4"
     },
     {
-      "date": "20220114",
-      "tournament": "Adelaide 2",
+      "date": "20230729",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "SF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "J. Rodionov",
+      "score": "4-6 7-5 6-2"
+    },
+    {
+      "date": "20230728",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "A. Andreev",
+      "score": "6-2 6-2"
+    },
+    {
+      "date": "20230727",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "S. Travaglia",
+      "score": "4-6 6-4 6-3"
+    },
+    {
+      "date": "20230725",
+      "tournament": "Zug Challenger Men",
+      "surface": "Hard",
+      "level": "C",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "G. Ferrari",
+      "score": "7(7)-6(3) 6-3"
+    },
+    {
+      "date": "20221015",
+      "tournament": "Gijon",
       "surface": "Hard",
       "level": "B",
       "round": "SF",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "W",
-      "opponent": "C. Moutet",
-      "score": "1-6 3-6"
+      "result": "L",
+      "opponent": "S. Korda",
+      "score": "6(2)-7(7) 3-6"
     },
     {
-      "date": "20220113",
-      "tournament": "Adelaide 2",
+      "date": "20221014",
+      "tournament": "Gijon",
       "surface": "Hard",
       "level": "B",
       "round": "QF",
@@ -54,12 +106,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "K. Khachanov",
-      "score": "6(7)-7(9) 5-7"
+      "opponent": "P. Carreno-Busta",
+      "score": "4-6 6-3 7(18)-6(16)"
     },
     {
-      "date": "20220111",
-      "tournament": "Adelaide 2",
+      "date": "20221012",
+      "tournament": "Gijon",
       "surface": "Hard",
       "level": "B",
       "round": "R16",
@@ -67,12 +119,12 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "S. Kwon",
-      "score": "5-7 6-3 6-2"
+      "opponent": "C. Lestienne",
+      "score": "4-6 2-6"
     },
     {
-      "date": "20220110",
-      "tournament": "Adelaide 2",
+      "date": "20221010",
+      "tournament": "Gijon",
       "surface": "Hard",
       "level": "B",
       "round": "R32",
@@ -80,8 +132,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "M. McDonald",
-      "score": "3-6 7(7)-6(5) 3-6"
+      "opponent": "C. Taberner",
+      "score": "6-3 6-3"
     }
   ]
 }
