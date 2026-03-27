@@ -3,24 +3,37 @@
   "gs_id": "147110",
   "player_name": "Alejandro Turriziani Alvarez",
   "source": "goalserve-full",
-  "updated": "2026-03-27T00:53:42.921Z",
+  "updated": "2026-03-27T01:57:03.934Z",
   "matches": [
     {
-      "date": "20260226",
-      "tournament": "M25 Vale do Lobo",
+      "date": "20250613",
+      "tournament": "M25 Martos",
+      "surface": "Hard",
+      "level": "I",
+      "round": "QF",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "C. Chidekh",
+      "score": "0-6 3-6"
+    },
+    {
+      "date": "20250612",
+      "tournament": "M25 Martos",
       "surface": "Hard",
       "level": "I",
       "round": "R16",
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "result": "L",
-      "opponent": "M. Gonzalez Fernandez",
-      "score": "6-4 6-2"
+      "result": "W",
+      "opponent": "A. Juan Mano",
+      "score": "6-3 7-5"
     },
     {
-      "date": "20260224",
-      "tournament": "M25 Vale do Lobo",
+      "date": "20250611",
+      "tournament": "M25 Martos",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -28,12 +41,38 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "L. Broady",
-      "score": "6-2 6(1)-7(7) 6(6)-7(8)"
+      "opponent": "I. Forcano",
+      "score": "6-4 6-4"
     },
     {
-      "date": "20250909",
-      "tournament": "M15 Madrid 2",
+      "date": "20240613",
+      "tournament": "ITF M25 Martos Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "A. Barroso Campos",
+      "score": "6(4)-7(7) 4-6"
+    },
+    {
+      "date": "20240612",
+      "tournament": "ITF M25 Martos Men",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R32",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "W",
+      "opponent": "B. Atlangeriev",
+      "score": "7(7)-6(5) 5-7 6(8)-7(10)"
+    },
+    {
+      "date": "20220615",
+      "tournament": "M25 Martos",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -41,51 +80,25 @@
       "rank": "",
       "opp_rank": "",
       "result": "L",
-      "opponent": "M. Bobichon",
+      "opponent": "M. Breysach",
+      "score": "6-2 5-7 6-3"
+    },
+    {
+      "date": "20220512",
+      "tournament": "M25 Monastir 5",
+      "surface": "Hard",
+      "level": "I",
+      "round": "R16",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "result": "L",
+      "opponent": "L. Tu",
       "score": "1-6 4-6"
     },
     {
-      "date": "20250314",
-      "tournament": "M25 Vale do Lobo",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "G. A. Boitan",
-      "score": "1-6 2-6"
-    },
-    {
-      "date": "20241112",
-      "tournament": "M25 Vale do Lobo 2",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R32",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Casanova",
-      "score": "6-3 4-6 7(7)-6(4)"
-    },
-    {
-      "date": "20231130",
-      "tournament": "ITF M15 Madrid 2 Men",
-      "surface": "Hard",
-      "level": "I",
-      "round": "R16",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "result": "L",
-      "opponent": "A. Sanchez Quilez",
-      "score": "3-6 2-6"
-    },
-    {
-      "date": "20231129",
-      "tournament": "ITF M15 Madrid 2 Men",
+      "date": "20220510",
+      "tournament": "M25 Monastir 5",
       "surface": "Hard",
       "level": "I",
       "round": "R32",
@@ -93,8 +106,8 @@
       "rank": "",
       "opp_rank": "",
       "result": "W",
-      "opponent": "X. Matas Ortega",
-      "score": "1-6 6-1 1-1 ret."
+      "opponent": "J. White",
+      "score": "3-6 5-7"
     }
   ]
 }
