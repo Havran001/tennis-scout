@@ -1160,8 +1160,6 @@ function buildPlayersTab(sh){
                 (pch?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Career High</div><div style="font-size:20px;font-weight:700;color:#f59e0b;">#'+pch+'</div>'+(pchDate&&pchDate.length>0?'<div style="font-size:9px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(pchDate.length>7?pchDate.substring(0,7):pchDate)+'</div>':'')+' </div>':'')+
               '</div>'+
             '</div>'+
-            // Zavírací tlačítko — vpravo nahoře
-            '<button id="mh-close-btn" style="align-self:flex-start;background:transparent;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.5);font-size:16px;width:32px;height:32px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;">✕</button>'+
           '</div>'+
         '</div>'+
         '<div style="padding:0 20px 40px;">';
@@ -1401,8 +1399,7 @@ function _renderMatches(){
           h+='</div>';
           sec.innerHTML=h;
           // Zavírací tlačítko
-          var _closeBtn=sec.querySelector('#mh-close-btn');
-          if(_closeBtn){_closeBtn.addEventListener('click',function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';});}
+          var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';};}
           // Sync fotky do hlavičky
           var _hdrPhoto=sec.querySelector('#mh-hdr-photo');
           if(_hdrPhoto){var _ppPhoto=sh.getElementById('pp-photo');if(_ppPhoto&&_ppPhoto.src)_hdrPhoto.src=_ppPhoto.src;}
