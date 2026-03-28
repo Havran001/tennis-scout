@@ -1128,7 +1128,12 @@ function buildPlayersTab(sh){
           var RC={F:'F',SF:'SF',QF:'QF',R16:'R16',R32:'R32',R64:'R64',R128:'R128',RR:'RR',BR:'BR'};
           // Level labels
           var LC={G:'Grand Slam',M:'Masters 1000',A:'ATP 500',B:'ATP 250',D:'Davis Cup',F:'Finals',C:'Challenger',S:'Satellite',live:'LIVE'};
-          var h='<div style="padding:0 20px 40px;">';
+          sec.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:#0d1117;overflow-y:auto;box-sizing:border-box;';
+          var h='<div style="position:sticky;top:0;z-index:10;background:#0d1117;border-bottom:1px solid rgba(255,255,255,.08);padding:12px 20px;display:flex;align-items:center;gap:12px;">'+
+            '<button onclick="var s=document.getElementById(\'ts-host\')?.shadowRoot?.getElementById(\'pp-matches-section\');if(s)s.style.cssText=\'\';" style="background:transparent;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.5);font-size:16px;width:32px;height:32px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;">✕</button>'+
+            '<span style="font-size:15px;font-weight:700;color:#e6edf3;">'+pname+'</span>'+
+          '</div>'+
+          '<div style="padding:0 20px 40px;">';
           // Sestav unikátní hodnoty pro filtry
           var _normT=function(t){return t.replace(/^ATP /,'').replace(/^WTA /,'');};
           var _allTournaments=[...new Set(all.map(function(m){return _normT(m.tournament||'');}).filter(Boolean))].sort();
@@ -1361,6 +1366,7 @@ function _renderMatches(){
             +'<span id="mh-count" style="margin-left:auto;font-size:13px;font-weight:700;color:#ccff00;"></span>'
           +'</div>';
           h+='<div id="mh-list"></div>';
+          h+='</div>';
           h+='</div>';
           sec.innerHTML=h;
 
