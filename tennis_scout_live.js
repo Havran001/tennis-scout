@@ -1391,6 +1391,7 @@ function _renderMatches(){
 
           // Filtry HTML
           h+='<div style="display:flex;align-items:center;padding:8px 0 12px;border-bottom:1px solid rgba(255,255,255,.06);">'
+            +'<button id="mh-f-back" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;">← Zpět</button>'
             +'<button id="mh-f-reset" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;">✕ Reset</button>'
             +'<span id="mh-count" style="margin-left:auto;font-size:13px;font-weight:700;color:#ccff00;"></span>'
           +'</div>';
@@ -1405,6 +1406,7 @@ function _renderMatches(){
           if(_hdrPhoto){var _ppPhoto=sh.getElementById('pp-photo');if(_ppPhoto&&_ppPhoto.src)_hdrPhoto.src=_ppPhoto.src;}
 
           // Event listenery na filtry
+          var _bk=sec.querySelector('#mh-f-back');if(_bk)_bk.onclick=function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';};
           sec.querySelector('#mh-f-reset').addEventListener('click',function(){
             _fSurface='';_fTournament='';_fOpponent='';_fResult='';
             window._mhColFilter={};
