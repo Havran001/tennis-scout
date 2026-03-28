@@ -1887,6 +1887,24 @@ function renderMatches(data){
           h+='</div>';
           // Score
           var scoreH='';if(ns>0){var setsStr='';var _sc1=0,_sc2=0;for(var si=0;si<ns;si++){var sv1=parseInt(m.sets1[si]||0),sv2=parseInt(m.sets2[si]||0);if(sv1>sv2)_sc1++;else if(sv2>sv1)_sc2++;if(setsStr)setsStr+=' ';setsStr+=sv1+':'+sv2;}if(m.isFin&&(_sc1>0||_sc2>0)){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-left:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2+'</span></div>';if(setsStr){var _sets=setsStr.split(' ');var _setsH='<div style="display:flex;flex-direction:column;gap:1px;margin-left:6px;">';var _s1rows=[],_s2rows=[];_sets.forEach(function(s){var p=s.split(':');_s1rows.push(p[0]||'');_s2rows.push(p[1]||'');});_setsH+='<div style="display:flex;gap:4px;">';_s1rows.forEach(function(v){_setsH+='<span style="font-size:11px;color:rgba(255,255,255,0.6);line-height:1.3;min-width:12px;text-align:center;">'+v+'</span>';});_setsH+='</div>';_setsH+='<div style="display:flex;gap:4px;">';_s2rows.forEach(function(v){_setsH+='<span style="font-size:11px;color:rgba(255,255,255,0.6);line-height:1.3;min-width:12px;text-align:center;">'+v+'</span>';});_setsH+='</div>';_setsH+='</div>';h+=_setsH;}}}
+          if(isLive&&(_sc1>0||_sc2>0)){
+            h+='<div style="display:flex;flex-direction:column;gap:1px;margin-left:4px;">'+
+              '<span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1+'</span>'+
+              '<span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2+'</span>'+
+            '</div>';
+            if(setsStr){
+              var _lsets=setsStr.split(' ');
+              var _ls1=[],_ls2=[];
+              _lsets.forEach(function(s){var p=s.split(':');_ls1.push(p[0]||'');_ls2.push(p[1]||'');});
+              var _lsH='<div style="display:flex;flex-direction:column;gap:1px;margin-left:6px;">';
+              _lsH+='<div style="display:flex;gap:4px;">';
+              _ls1.forEach(function(v){_lsH+='<span style="font-size:11px;color:rgba(255,255,255,0.6);line-height:1.3;min-width:12px;text-align:center;">'+v+'</span>';});
+              _lsH+='</div><div style="display:flex;gap:4px;">';
+              _ls2.forEach(function(v){_lsH+='<span style="font-size:11px;color:rgba(255,255,255,0.6);line-height:1.3;min-width:12px;text-align:center;">'+v+'</span>';});
+              _lsH+='</div></div>';
+              h+=_lsH;
+            }
+          }
           if(isLive&&m.game1!=='')h+='<div style="display:flex;flex-direction:column;gap:1px;margin-left:2px;"><div style="font-size:11px;color:#00C853;font-weight:700;line-height:1.3;">'+m.game1+'</div><div style="font-size:11px;color:#00C853;font-weight:700;line-height:1.3;">'+m.game2+'</div></div>';
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" style="margin-left:6px;flex-shrink:0;display:block;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block;border-radius:7px"><rect width="100" height="100" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
           h+='</div></div>';
