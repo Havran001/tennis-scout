@@ -1377,6 +1377,9 @@ function _renderMatches(){
           // Zavírací tlačítko
           var _closeBtn=sec.querySelector('#mh-close-btn');
           if(_closeBtn){_closeBtn.addEventListener('click',function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';});}
+          // Sync fotky do hlavičky
+          var _hdrPhoto=sec.querySelector('#mh-hdr-photo');
+          if(_hdrPhoto){var _ppPhoto=sh.getElementById('pp-photo');if(_ppPhoto&&_ppPhoto.src)_hdrPhoto.src=_ppPhoto.src;}
 
           // Event listenery na filtry
           sec.querySelector('#mh-f-reset').addEventListener('click',function(){
