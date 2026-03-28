@@ -1130,7 +1130,7 @@ function buildPlayersTab(sh){
           var LC={G:'Grand Slam',M:'Masters 1000',A:'ATP 500',B:'ATP 250',D:'Davis Cup',F:'Finals',C:'Challenger',S:'Satellite',live:'LIVE'};
           sec.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:#0d1117;overflow-y:auto;box-sizing:border-box;';
           var h='<div style="position:sticky;top:0;z-index:10;background:#0d1117;border-bottom:1px solid rgba(255,255,255,.08);padding:12px 20px;display:flex;align-items:center;gap:12px;">'+
-            '<button onclick="var s=document.getElementById(\'ts-host\')?.shadowRoot?.getElementById(\'pp-matches-section\');if(s)s.style.cssText=\'\';" style="background:transparent;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.5);font-size:16px;width:32px;height:32px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;">✕</button>'+
+            '<button id="mh-close-btn" style="background:transparent;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.5);font-size:16px;width:32px;height:32px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;">✕</button>'+
             '<span style="font-size:15px;font-weight:700;color:#e6edf3;">'+pname+'</span>'+
           '</div>'+
           '<div style="padding:0 20px 40px;">';
@@ -1369,6 +1369,9 @@ function _renderMatches(){
           h+='</div>';
           h+='</div>';
           sec.innerHTML=h;
+          // Zavírací tlačítko
+          var _closeBtn=sec.querySelector('#mh-close-btn');
+          if(_closeBtn){_closeBtn.addEventListener('click',function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';});}
 
           // Event listenery na filtry
           sec.querySelector('#mh-f-reset').addEventListener('click',function(){
