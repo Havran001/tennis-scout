@@ -1134,23 +1134,37 @@ function buildPlayersTab(sh){
           // Level labels
           var LC={G:'Grand Slam',M:'Masters 1000',A:'ATP 500',B:'ATP 250',D:'Davis Cup',F:'Finals',C:'Challenger',S:'Satellite',live:'LIVE'};
           sec.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:#0d1117;overflow-y:auto;box-sizing:border-box;';
-          var h='<div style="position:sticky;top:0;z-index:10;background:#161b22;border-bottom:1px solid rgba(255,255,255,.08);padding:10px 16px;display:flex;align-items:center;gap:12px;">'+
-          '<div style="width:44px;height:52px;border-radius:8px;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;">'+
-            '<img id="mh-hdr-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'+
-          '</div>'+
-          '<div style="flex:1;min-width:0;">'+
-            '<div style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:1px;">'+(flag||'')+' '+country+'</div>'+
-            '<div style="font-size:16px;font-weight:800;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+pname+'</div>'+
-            '<div style="display:flex;gap:8px;margin-top:3px;">'+
-              '<span style="font-size:11px;font-weight:700;color:#00C853;">#'+rank+'</span>'+
-              (pts?'<span style="font-size:11px;color:rgba(255,255,255,.3);">'+Number(pts).toLocaleString()+' pts</span>':'')+
-              (age?'<span style="font-size:11px;color:rgba(255,255,255,.3);">'+age+' let</span>':'')+
-              (height?'<span style="font-size:11px;color:rgba(255,255,255,.3);">'+height+' cm</span>':'')+
+          var h='<div style="position:sticky;top:0;z-index:10;background:#0d1117;border-bottom:1px solid rgba(255,255,255,.08);padding:16px 20px 0 20px;">'+
+          // Photo + Info — identické s kartou hráče
+          '<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'+
+            // Photo
+            '<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'+
+              '<img id="mh-hdr-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'+
             '</div>'+
+            // Info
+            '<div style="flex:1;padding-bottom:20px;">'+
+              '<div style="font-size:11px;color:rgba(255,255,255,0.3);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;">'+country+(flag?' '+flag:'')+'</div>'+
+              '<div style="font-size:28px;font-weight:800;color:#fff;letter-spacing:-0.5px;margin-bottom:14px;">'+pname+'</div>'+
+              '<div style="display:flex;gap:10px;flex-wrap:wrap;">'+
+                '<div style="background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+
+                  '<div style="font-size:9px;color:rgba(0,200,83,0.6);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Rank</div>'+
+                  '<div style="font-size:22px;font-weight:800;color:#00C853;">#'+rank+'</div>'+
+                '</div>'+
+                '<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 16px;text-align:center;">'+
+                  '<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Body</div>'+
+                  '<div style="font-size:22px;font-weight:700;color:#e6edf3;">'+Number(pts).toLocaleString()+'</div>'+
+                '</div>'+
+                (age?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Věk</div><div style="font-size:20px;font-weight:700;color:#e6edf3;">'+age+'</div></div>':'')+
+                (height?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Výška</div><div style="font-size:20px;font-weight:700;color:#e6edf3;">'+height+' cm</div></div>':'')+
+                (hand?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Hraje</div><div style="font-size:15px;font-weight:600;color:'+handColor+';">'+handTxt+'</div></div>':'')+
+                (pch?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Career High</div><div style="font-size:20px;font-weight:700;color:#f59e0b;">#'+pch+'</div>'+(pchDate&&pchDate.length>0?'<div style="font-size:9px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(pchDate.length>7?pchDate.substring(0,7):pchDate)+'</div>':'')+' </div>':'')+
+              '</div>'+
+            '</div>'+
+            // Zavírací tlačítko — vpravo nahoře
+            '<button id="mh-close-btn" style="align-self:flex-start;background:transparent;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.5);font-size:16px;width:32px;height:32px;border-radius:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;">✕</button>'+
           '</div>'+
-          '<button id="mh-close-btn" style="background:transparent;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.5);font-size:16px;width:32px;height:32px;border-radius:8px;cursor:pointer;flex-shrink:0;">✕</button>'+
-          '</div>'+
-          '<div style="padding:0 20px 40px;">';
+        '</div>'+
+        '<div style="padding:0 20px 40px;">';
           // Sestav unikátní hodnoty pro filtry
           var _normT=function(t){return t.replace(/^ATP /,'').replace(/^WTA /,'');};
           var _allTournaments=[...new Set(all.map(function(m){return _normT(m.tournament||'');}).filter(Boolean))].sort();
