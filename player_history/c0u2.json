@@ -1,8 +1,53 @@
 {
   "player_id": "c0u2",
-  "gs_id": "334722",
+  "gs_id": "",
   "player_name": "Enrique Collar",
-  "source": "goalserve-full",
-  "updated": "2026-03-27T00:55:58.929Z",
-  "matches": []
+  "source": "tennisabstract",
+  "updated": "2026-03-29T18:40:19.860Z",
+  "matches": [
+    {
+      "date": "2025-09-08",
+      "tournament": "M15 Madrid",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R16",
+      "result": "L",
+      "opponent": "Giles Hussey",
+      "score": "6-4 6-2",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "393",
+      "dr": "101",
+      "a_pct": "0",
+      "df_pct": "2",
+      "first_in": "76",
+      "first_pct": "55",
+      "second_pct": "28",
+      "bp_saved": "9",
+      "match_time": "9",
+      "odds": ""
+    },
+    {
+      "date": "2025-09-08",
+      "tournament": "M15 Madrid",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "W",
+      "opponent": "Eder Blanco",
+      "score": "6-3 6-1",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "dr": "90",
+      "a_pct": "1",
+      "df_pct": "3",
+      "first_in": "61",
+      "first_pct": "44",
+      "second_pct": "28",
+      "bp_saved": "9",
+      "match_time": "8",
+      "odds": ""
+    }
+  ]
 }
