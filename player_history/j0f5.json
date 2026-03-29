@@ -1,1 +1,53 @@
-{"player_id":"j0f5","sack_id":"213342","name":"David Jeanne Grandinot","total":0,"matches":[]}
+{
+  "player_id": "j0f5",
+  "gs_id": "",
+  "player_name": "David Jeanne Grandinot",
+  "source": "tennisabstract",
+  "updated": "2026-03-29T18:34:24.627Z",
+  "matches": [
+    {
+      "date": "2026-01-19",
+      "tournament": "M15 Bagnoles de l'Orne +H",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "R16",
+      "result": "L",
+      "opponent": "Pierre Delage",
+      "score": "6-1 6-2",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "679",
+      "dr": "61",
+      "a_pct": "0",
+      "df_pct": "4",
+      "first_in": "42",
+      "first_pct": "34",
+      "second_pct": "18",
+      "bp_saved": "1",
+      "match_time": "7",
+      "odds": ""
+    },
+    {
+      "date": "2026-01-19",
+      "tournament": "M15 Bagnoles de l'Orne +H",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "W",
+      "opponent": "Elijah Sanogo",
+      "score": "3-6 6-0 6-4",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "2040",
+      "dr": "130",
+      "a_pct": "0",
+      "df_pct": "2",
+      "first_in": "94",
+      "first_pct": "64",
+      "second_pct": "44",
+      "bp_saved": "14",
+      "match_time": "13",
+      "odds": ""
+    }
+  ]
+}
