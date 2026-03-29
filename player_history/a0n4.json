@@ -1,8 +1,53 @@
 {
   "player_id": "a0n4",
-  "gs_id": "313277",
+  "gs_id": "",
   "player_name": "Artur Aiukhanov",
-  "source": "goalserve-full",
-  "updated": "2026-03-27T00:55:49.919Z",
-  "matches": []
+  "source": "tennisabstract",
+  "updated": "2026-03-29T18:33:33.534Z",
+  "matches": [
+    {
+      "date": "2025-05-12",
+      "tournament": "M15 Monastir",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R16",
+      "result": "L",
+      "opponent": "Diego Augusto Barreto Sanchez",
+      "score": "6-0 6-2",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "636",
+      "dr": "76",
+      "a_pct": "0",
+      "df_pct": "1",
+      "first_in": "35",
+      "first_pct": "26",
+      "second_pct": "11",
+      "bp_saved": "2",
+      "match_time": "7",
+      "odds": ""
+    },
+    {
+      "date": "2025-05-12",
+      "tournament": "M15 Monastir",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "W",
+      "opponent": "Daniel Batista",
+      "score": "6-3 7-6(10)",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "1748",
+      "dr": "125",
+      "a_pct": "2",
+      "df_pct": "2",
+      "first_in": "67",
+      "first_pct": "47",
+      "second_pct": "39",
+      "bp_saved": "9",
+      "match_time": "11",
+      "odds": ""
+    }
+  ]
 }
