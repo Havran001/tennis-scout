@@ -1,8 +1,53 @@
 {
   "player_id": "m1ah",
-  "gs_id": "333374",
+  "gs_id": "",
   "player_name": "Kaspar Mathes",
-  "source": "goalserve-full",
-  "updated": "2026-03-26T22:16:16.863Z",
-  "matches": []
+  "source": "tennisabstract",
+  "updated": "2026-03-29T18:35:41.569Z",
+  "matches": [
+    {
+      "date": "2025-09-01",
+      "tournament": "M25 Meerbusch",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "R16",
+      "result": "L",
+      "opponent": "Vincent Marysko",
+      "score": "6-1 6-4",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "1191",
+      "dr": "70",
+      "a_pct": "6",
+      "df_pct": "1",
+      "first_in": "55",
+      "first_pct": "37",
+      "second_pct": "23",
+      "bp_saved": "6",
+      "match_time": "8",
+      "odds": ""
+    },
+    {
+      "date": "2025-09-01",
+      "tournament": "M25 Meerbusch",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "W",
+      "opponent": "Tom Varzandeh",
+      "score": "7-5 6-3",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "dr": "99",
+      "a_pct": "4",
+      "df_pct": "0",
+      "first_in": "55",
+      "first_pct": "41",
+      "second_pct": "27",
+      "bp_saved": "9",
+      "match_time": "10",
+      "odds": ""
+    }
+  ]
 }
