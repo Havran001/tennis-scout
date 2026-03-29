@@ -947,8 +947,7 @@ function buildPlayersTab(sh){
       var photoId=pname.toLowerCase().replace(/ /g,'_');
       var headerHTML='<div style="background:linear-gradient(180deg,#161b22 0%,#0d1117 100%);border-bottom:1px solid rgba(255,255,255,0.06);padding:20px 32px 0;flex-shrink:0;">'
         // Back button
-        +'<button id="pp-back" style="background:none;border:none;color:rgba(255,255,255,0.4);font-size:13px;cursor:pointer;padding:0;margin-bottom:16px;display:flex;align-items:center;gap:6px;">&#8592; ZpÄt na hrÃ¡Äe</button>'
-        +'<button id="mh-f-back" style="background:none;border:none;color:rgba(255,255,255,0.4);font-size:13px;cursor:pointer;padding:0;margin-bottom:16px;display:flex;align-items:center;gap:6px;">&#8592; Zpět na hráče</button>'
+        +'<button id="pp-back" style="background:none;border:none;color:rgba(255,255,255,0.4);font-size:13px;cursor:pointer;padding:0;margin-bottom:16px;display:flex;align-items:center;gap:6px;">&#8592; Zp&#283;t na hr&#225;&#269;e</button>'
         +'<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'
           // Photo
           +'<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'
@@ -1392,6 +1391,7 @@ function _renderMatches(){
 
           // Filtry HTML
           h+='<div style="display:flex;align-items:center;padding:8px 0 12px;border-bottom:1px solid rgba(255,255,255,.06);">'
+            +'<button id="mh-f-back" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;">&#8592; Zp&#283;t</button>'
             +'<button id="mh-f-reset" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;">Reset</button>'
             +'<span id="mh-count" style="margin-left:auto;font-size:13px;font-weight:700;color:#ccff00;"></span>'
           +'</div>';
