@@ -1,8 +1,53 @@
 {
   "player_id": "f0ij",
-  "gs_id": "263110",
+  "gs_id": "",
   "player_name": "Xavier Ferrer Mateo",
-  "source": "goalserve-full",
-  "updated": "2026-03-26T22:15:57.863Z",
-  "matches": []
+  "source": "tennisabstract",
+  "updated": "2026-03-29T18:38:20.983Z",
+  "matches": [
+    {
+      "date": "2025-05-26",
+      "tournament": "M15 La Nucia",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "R16",
+      "result": "L",
+      "opponent": "Eric Vanshelboim",
+      "score": "6-0 6-0",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "508",
+      "dr": "68",
+      "a_pct": "0",
+      "df_pct": "1",
+      "first_in": "37",
+      "first_pct": "19",
+      "second_pct": "4",
+      "bp_saved": "7",
+      "match_time": "6",
+      "odds": ""
+    },
+    {
+      "date": "2025-05-26",
+      "tournament": "M15 La Nucia",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "W",
+      "opponent": "Alan Sau Franco",
+      "score": "7-5 1-6 6-3",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "1339",
+      "dr": "191",
+      "a_pct": "0",
+      "df_pct": "5",
+      "first_in": "91",
+      "first_pct": "52",
+      "second_pct": "33",
+      "bp_saved": "22",
+      "match_time": "14",
+      "odds": ""
+    }
+  ]
 }
