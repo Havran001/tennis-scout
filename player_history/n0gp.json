@@ -1,8 +1,53 @@
 {
   "player_id": "n0gp",
-  "gs_id": "319312",
+  "gs_id": "",
   "player_name": "Niklas Niggemann",
-  "source": "goalserve-full",
-  "updated": "2026-03-26T22:13:17.866Z",
-  "matches": []
+  "source": "tennisabstract",
+  "updated": "2026-03-29T18:36:35.525Z",
+  "matches": [
+    {
+      "date": "2025-09-01",
+      "tournament": "M25 Meerbusch",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "R16",
+      "result": "L",
+      "opponent": "Daniel Siniakov",
+      "score": "6-2 6-1",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "792",
+      "dr": "67",
+      "a_pct": "3",
+      "df_pct": "1",
+      "first_in": "49",
+      "first_pct": "25",
+      "second_pct": "17",
+      "bp_saved": "5",
+      "match_time": "7",
+      "odds": ""
+    },
+    {
+      "date": "2025-09-01",
+      "tournament": "M25 Meerbusch",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "W",
+      "opponent": "Oscar Moraing",
+      "score": "4-6 6-4 1-0 RET",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "1034",
+      "dr": "104",
+      "a_pct": "6",
+      "df_pct": "4",
+      "first_in": "63",
+      "first_pct": "34",
+      "second_pct": "24",
+      "bp_saved": "12",
+      "match_time": "11",
+      "odds": ""
+    }
+  ]
 }
