@@ -1,8 +1,53 @@
 {
   "player_id": "b0z4",
-  "gs_id": "334550",
+  "gs_id": "",
   "player_name": "Lorenzo Balducci",
-  "source": "goalserve-full",
-  "updated": "2026-03-27T03:50:24.968Z",
-  "matches": []
+  "source": "tennisabstract",
+  "updated": "2026-03-29T18:41:42.426Z",
+  "matches": [
+    {
+      "date": "2025-10-27",
+      "tournament": "M15 Selva Gardena",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R16",
+      "result": "L",
+      "opponent": "Filippo Romano",
+      "score": "6-0 6-2",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "596",
+      "dr": "61",
+      "a_pct": "1",
+      "df_pct": "3",
+      "first_in": "41",
+      "first_pct": "22",
+      "second_pct": "10",
+      "bp_saved": "5",
+      "match_time": "7",
+      "odds": ""
+    },
+    {
+      "date": "2025-10-27",
+      "tournament": "M15 Selva Gardena",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "W",
+      "opponent": "Alessandro Dragoni",
+      "score": "7-5 6-1",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "",
+      "dr": "80",
+      "a_pct": "12",
+      "df_pct": "9",
+      "first_in": "61",
+      "first_pct": "27",
+      "second_pct": "23",
+      "bp_saved": "16",
+      "match_time": "10",
+      "odds": ""
+    }
+  ]
 }
