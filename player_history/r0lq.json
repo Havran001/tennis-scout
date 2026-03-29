@@ -1,8 +1,31 @@
 {
   "player_id": "r0lq",
-  "gs_id": "267210",
+  "gs_id": "",
   "player_name": "Philippe Renard",
-  "source": "goalserve-full",
-  "updated": "2026-03-27T06:12:22.017Z",
-  "matches": []
+  "source": "tennisabstract",
+  "updated": "2026-03-29T19:43:14.847Z",
+  "matches": [
+    {
+      "date": "2024-07-22",
+      "tournament": "M15 Rognac",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "L",
+      "opponent": "Alexandre Reco",
+      "score": "6-4 6-1",
+      "best_of": "3",
+      "rank": "",
+      "opp_rank": "874",
+      "dr": "",
+      "a_pct": "",
+      "df_pct": "",
+      "first_in": "",
+      "first_pct": "",
+      "second_pct": "",
+      "bp_saved": "",
+      "match_time": "",
+      "odds": ""
+    }
+  ]
 }
