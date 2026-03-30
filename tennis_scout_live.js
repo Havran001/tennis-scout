@@ -2264,19 +2264,17 @@ function buildUI(){
       var self=this,prog=sh.getElementById('ta-progress');
       var GH=localStorage.getItem('ts_gh_token');
       if(!GH){GH=prompt('Zadej GitHub token:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
-      self.disabled=true;
-      // Floating progress overlay - nezávisí na sidebar CSS
-      var _fp=sh.getElementById('_floatProg');
-      if(!_fp){
-        _fp=document.createElement('div');
-        _fp.id='_floatProg';
-        _fp.style.cssText='position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#1a2332;border:1px solid rgba(0,200,83,0.3);border-radius:12px;padding:12px 20px;font-size:12px;color:rgba(255,255,255,0.8);z-index:99999;min-width:300px;text-align:center;box-shadow:0 4px 20px rgba(0,0,0,0.5);';
-        document.body.appendChild(_fp);
-      }
-      _fp.style.display='block';
-      _fp.textContent='⏳ Spouštím import...';
-      prog.style.display='block';
-      sh.getElementById('sidebar').style.overflow='visible';
+      self.disabled=true;prog.style.display='block';sh.getElementById('sidebar').style.overflow='visible';
+      // Floating progress - zobrazí se vždy bez ohledu na sidebar CSS
+      (function(){
+        var fp=sh.getElementById('_fp');
+        if(!fp){fp=document.createElement('div');fp.id='_fp';
+          fp.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#0d1117;border:1px solid rgba(0,200,83,0.4);border-radius:10px;padding:10px 20px;font-size:12px;color:#e6edf3;z-index:99999;min-width:320px;text-align:center;box-shadow:0 4px 24px rgba(0,0,0,0.6);';
+          sh.appendChild(fp);}
+        fp.style.display='block';fp.textContent='⏳ Spouštím import...';
+        var ob=new MutationObserver(function(){fp.innerHTML=prog.innerHTML;});
+        ob.observe(prog,{childList:true,subtree:true,characterData:true});
+      })();
       var MO={Jan:'01',Feb:'02',Mar:'03',Apr:'04',May:'05',Jun:'06',Jul:'07',Aug:'08',Sep:'09',Oct:'10',Nov:'11',Dec:'12'};
       var reDiac=new RegExp('[\u0300-\u036f]','g');
       var reNA=new RegExp('[^a-zA-Z -]','g');
@@ -2309,7 +2307,6 @@ function buildUI(){
       }
       var pl=window.ATP_PLAYERS||window.ATP||[];
       prog.innerHTML='Start: '+pl.length+' hr\u00e1\u010d\u016f...';
-      (function(){var fp=document.getElementById('_floatProg');if(!fp)return;var ob=new MutationObserver(function(){fp.innerHTML=prog.innerHTML;});ob.observe(prog,{childList:true,subtree:true,characterData:true});})();
       var dn=0,im=0,sk=0,er=0,tot=pl.length;
       function nx(i){
         if(i>=tot){prog.innerHTML='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb';self.disabled=false;self.textContent='\u2705 Dokon\u010deno';return;}
