@@ -2276,7 +2276,7 @@ function buildUI(){
       function nN(fn){return(fn||'').normalize('NFD').replace(reDiac,'').replace(reNA,'').trim().split(' ').join('');}
       function pTA(html,ln,mx){
         var doc=new DOMParser().parseFromString(html,'text/html'),tbs=doc.querySelectorAll('table'),mt=null;
-        for(var ti=0;ti<tbs.length;ti++){if(tbs[ti].rows.length>20&&tbs[ti].innerText.indexOf('Tournament')>=0){mt=tbs[ti];break;}}
+        for(var ti=0;ti<tbs.length;ti++){if(tbs[ti].rows.length>20&&tbs[ti].textContent.indexOf('Tournament')>=0){mt=tbs[ti];break;}}
         if(!mt)return null;
         var ms=[];
         for(var i=1;i<mt.rows.length;i++){
