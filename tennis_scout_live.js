@@ -361,7 +361,7 @@ const CSS=`
   background:#161b22;
   border-right:1px solid rgba(255,255,255,0.06);
   display:flex;flex-direction:column;
-  overflow:hidden;
+  overflow-y:auto;
 }
 #sb-logo{
   padding:20px 20px 16px;
@@ -462,7 +462,7 @@ const CSS=`
 }
 #sb-ta-import:hover{background:rgba(33,150,243,0.22);}
 #sb-ta-import:disabled{opacity:0.5;cursor:not-allowed;}
-#ta-progress{margin-top:8px;font-size:10px;color:rgba(255,255,255,0.5);display:none;line-height:1.6;}
+#ta-progress{margin-top:8px;font-size:11px;color:rgba(255,255,255,0.7);display:block;line-height:1.6;word-break:break-word;}
 #sb-close{
   width:100%;padding:6px;margin-top:6px;
   background:transparent;
