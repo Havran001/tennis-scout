@@ -189,6 +189,13 @@ except Exception as e:
 
 # ── STEP 7: Save ──────────────────────────────────────────────
 players = sorted(all_players, key=lambda p: (p['rank'], p['name']))
+
+# Safety check - abort if too few players scraped
+MIN_PLAYERS = 1500
+if len(players) < MIN_PLAYERS:
+    print(f'ERROR: Only {len(players)} players scraped (minimum {MIN_PLAYERS}). Aborting save to protect existing data!')
+    exit(1)
+
 result = {'items': players, 'updated': today, 'total': len(players)}
 with open('atp_players.json', 'w') as f:
     json.dump(result, f, separators=(',', ':'))
