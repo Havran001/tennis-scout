@@ -1299,7 +1299,7 @@ function _renderMatches(){
                 ddHtml+='</div></div>';
                 fi=ddHtml;
               }
-              return '<th class="'+sCls+'" data-sort="'+c.key+'">'+c.label+'<br>'+fi+'</th>';
+              var thStyle=c.key==='va_pct'?' style="text-transform:none"':'';return '<th class="'+sCls+'"'+thStyle+' data-sort="'+c.key+'">'+c.label+'<br>'+fi+'</th>';
             }).join('')+'</tr></thead>';
             var tbody='<tbody>';
             var lastYear='';
