@@ -2298,6 +2298,15 @@ function buildUI(){
       }
       var pl=window.ATP_PLAYERS||window.ATP||[];
       prog.innerHTML=window._tsProgress='Start: '+pl.length+' hr\u00e1\u010d\u016f...';
+      // Progress counter via fetch intercept
+      var _reqCount=0,_origFetch=window.fetch;
+      window.fetch=function(url,opts){
+        if(typeof url==='string'&&url.includes('player_history')){
+          _reqCount++;
+          prog.textContent=_reqCount+'/'+tot+' hráčů zpracováno...';
+        }
+        return _origFetch.apply(this,arguments);
+      };
       var dn=0,im=0,sk=0,er=0,tot=pl.length;
       function nx(i){
         if(i>=tot){prog.innerHTML=window._tsProgress='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb';self.disabled=false;self.textContent='\u2705 Dokon\u010deno';return;}
