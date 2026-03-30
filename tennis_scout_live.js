@@ -2300,7 +2300,7 @@ function buildUI(){
       prog.innerHTML=window._tsProgress='Start: '+pl.length+' hr\u00e1\u010d\u016f...';
       var dn=0,im=0,sk=0,er=0,tot=pl.length;
       function nx(i){
-        if(i>=tot){prog.innerHTML=window._tsProgress='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb';self.disabled=false;if(window._importFailed&&window._importFailed.length){prog.textContent+='\n❌ Chyby: '+window._importFailed.join(', ');}window.fetch=_origFetch||window.fetch;self.textContent='\u2705 Dokon\u010deno';return;}
+        if(i>=tot){prog.innerHTML=window._tsProgress='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb';self.disabled=false;self.textContent='\u2705 Dokon\u010deno';return;}
         var p=pl[i];if(!p||!p.id||!p.full_name){sk++;dn++;nx(i+1);return;}
         var ln=(p.full_name||'').split(' ').pop(),ta=nN(p.full_name);
         fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',{headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}})
@@ -2312,7 +2312,7 @@ function buildUI(){
             sk++;dn++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er+(dn===tot&&window._importFailed&&window._importFailed.length?'<br><span style="color:#f87171;font-size:10px;line-height:1.8">\u274c Chyby:<br>'+window._importFailed.join('<br>')+'</span>':'');
             setTimeout(function(){nx(i+1);},30);return;
           }
-          return fetch('https://corsproxy.io/?url='+encodeURIComponent('https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq'))
+          return fetch('https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq')
           .then(function(r){return r.ok?r.text():null;})
           .then(function(html){
             if(!html){er++;dn++;setTimeout(function(){nx(i+1);},300);return;}
