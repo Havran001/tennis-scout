@@ -2275,9 +2275,9 @@ function buildUI(){
         clearInterval(window._fpInterval);
         window._fpInterval=setInterval(function(){
           if(!prog)return;
-          var txt=prog.innerHTML;
-          if(txt)fp.innerHTML=txt;
-          if(prog.textContent.indexOf('Hotovo')>=0){clearInterval(window._fpInterval);}
+          var txt=prog.textContent||'';
+          if(txt)fp.textContent=txt;
+          if(txt.indexOf('Hotovo')>=0){clearInterval(window._fpInterval);}
         },300);
       })();
       // Floating progress - zobrazí se vždy bez ohledu na sidebar CSS
