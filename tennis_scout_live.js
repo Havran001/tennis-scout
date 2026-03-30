@@ -2308,7 +2308,7 @@ function buildUI(){
         .then(function(cr){
           var cd=null;try{cd=cr?JSON.parse(atob(cr.content.replace(reNL,''))):null;}catch(e){}
           var cn=cd&&cd.matches?cd.matches.length:0;
-          if(cd&&cd.source==='tennisabstract'&&cd.updated&&(Date.now()-new Date(cd.updated))/86400000<7){
+          var _noVa2=cd&&cd.matches&&cd.matches.length>0&&!("va_pct" in cd.matches[0]);if(!_noVa2&&cd&&cd.source==='tennisabstract'&&cd.updated&&(Date.now()-new Date(cd.updated))/86400000<7){
             sk++;dn++;if(dn%20===0||dn===tot)prog.innerHTML=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er+(dn===tot&&window._importFailed&&window._importFailed.length?'<br><span style="color:#f87171;font-size:10px;line-height:1.8">\u274c Chyby:<br>'+window._importFailed.join('<br>')+'</span>':'');
             setTimeout(function(){nx(i+1);},30);return;
           }
