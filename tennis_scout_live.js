@@ -1181,7 +1181,7 @@ function buildPlayersTab(sh){
           function _fDD(list,q){var ql=(q||'').toLowerCase();list.querySelectorAll('.mh-dd-item').forEach(function(i){i.style.display=(!ql||i.textContent.toLowerCase().indexOf(ql)>=0)?'':'none';});}
 function _posDD(dd){
   var col=dd.getAttribute('data-col');
-  var rightCols=['first_pct','second_pct','bp_saved','match_time','odds','dr','a_pct','df_pct','first_in'];
+  var rightCols=['first_pct','second_pct','bp_saved','match_time','odds','dr','a_pct','va_pct','df_pct','first_in'];
   if(rightCols.indexOf(col)>=0){dd.style.left='auto';dd.style.right='0';}
   else{dd.style.left='0';dd.style.right='auto';}
 }
@@ -1267,6 +1267,7 @@ function _renderMatches(){
               {key:'odds',label:'Odds',type:'txt'},
               {key:'dr',label:'DR',type:'txt'},
               {key:'a_pct',label:'A%',type:'txt'},
+              {key:'va_pct',label:'vA%',type:'txt'},
               {key:'df_pct',label:'DF%',type:'txt'},
               {key:'first_in',label:'1stIn',type:'txt'},
               {key:'first_pct',label:'1st%',type:'txt'},
@@ -1329,6 +1330,7 @@ function _renderMatches(){
                 '<td class="ta-odds">'+(m.odds||'')+'</td>',
                 '<td class="ta-num">'+(m.dr||'')+'</td>',
                 '<td class="ta-num">'+(m.a_pct||'')+'</td>',
+                '<td class="ta-num">'+(m.va_pct||'')+'</td>',
                 '<td class="ta-num">'+(m.df_pct||'')+'</td>',
                 '<td class="ta-num">'+(m.first_in||'')+'</td>',
                 '<td class="ta-num">'+(m.first_pct||'')+'</td>',
@@ -2272,7 +2274,7 @@ function buildUI(){
       var reSeed=new RegExp('^\\([^)]+\\)');
       var reNL=new RegExp('\\n','g');
       function nN(fn){return(fn||'').normalize('NFD').replace(reDiac,'').replace(reNA,'').trim().split(' ').join('');}
-      function pTA(html,ln){
+      function pTA(html,ln,mx){
         var doc=new DOMParser().parseFromString(html,'text/html'),tbs=doc.querySelectorAll('table'),mt=null;
         for(var ti=0;ti<tbs.length;ti++){if(tbs[ti].rows.length>20&&tbs[ti].innerText.indexOf('Tournament')>=0){mt=tbs[ti];break;}}
         if(!mt)return null;
@@ -2289,7 +2291,8 @@ function buildUI(){
           else if(rw.indexOf(' vs ')>=0){var pv=rw.split(' vs ');op=pv[0].indexOf(ln)>=0?pv[1]:pv[0];}
           else{op=rw;}
           op=op.replace(reNat,'').replace(reSeed,'').trim();
-          ms.push({date:ds,tournament:tn,surface:sf,level:'ta-import',round:rd,result:rs,opponent:op,score:sc,best_of:'',rank:rk||'',opp_rank:or||'',dr:cs[9]||'',a_pct:cs[10]||'',df_pct:cs[11]||'',first_in:cs[12]||'',first_pct:cs[13]||'',second_pct:cs[14]||'',bp_saved:cs[15]||'',match_time:cs[16]||'',odds:''});
+          var _mx=mx&&mx[i-1];var _oaces=_mx?parseInt(_mx[30])||0:0;var _opts=_mx?parseInt(_mx[32])||0:0;var _vap=_opts>0?(_oaces/_opts*100).toFixed(1)+'%':'';
+          ms.push({date:ds,tournament:tn,surface:sf,level:'ta-import',round:rd,result:rs,opponent:op,score:sc,best_of:'',rank:rk||'',opp_rank:or||'',dr:cs[9]||'',a_pct:cs[10]||'',va_pct:_vap,df_pct:cs[11]||'',first_in:cs[12]||'',first_pct:cs[13]||'',second_pct:cs[14]||'',bp_saved:cs[15]||'',match_time:cs[16]||'',odds:''});
         }
         return ms;
       }
@@ -2315,7 +2318,7 @@ function buildUI(){
             if(!html){er++;dn++;setTimeout(function(){nx(i+1);},300);return;}
             var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
             if(!tm||tm[1].indexOf('Player Search')>=0){sk++;dn++;setTimeout(function(){nx(i+1);},200);return;}
-            var ms=pTA(html,ln);
+            var _mmx=null;try{var _sc=html.match(/var matchmx=([[sS]*?]);/);if(_sc)_mmx=JSON.parse(_sc[1]);}catch(e){}var ms=pTA(html,ln,_mmx);
             if(!ms||ms.length<5||ms.length<=cn){sk++;dn++;if(dn%20===0||dn===tot)prog.innerHTML=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er;setTimeout(function(){nx(i+1);},200);return;}
             var out={player_id:p.id,gs_id:(cd&&cd.gs_id)||'',player_name:p.full_name,source:'tennisabstract',updated:new Date().toISOString(),matches:ms};
             var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out,null,2)),bn='';
