@@ -2309,7 +2309,7 @@ function buildUI(){
           var cd=null;try{cd=cr?JSON.parse(atob(cr.content.replace(reNL,''))):null;}catch(e){}
           var cn=cd&&cd.matches?cd.matches.length:0;
           if(cd&&cd.source==='tennisabstract'&&cd.updated&&(Date.now()-new Date(cd.updated))/86400000<7){
-            sk++;dn++;if(dn%20===0||dn===tot)prog.innerHTML=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er;
+            sk++;dn++;if(dn%20===0||dn===tot)prog.innerHTML=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er+(dn===tot&&window._importFailed&&window._importFailed.length?'<br><span style="color:#f87171;font-size:10px;line-height:1.8">\u274c Chyby:<br>'+window._importFailed.join('<br>')+'</span>':'');
             setTimeout(function(){nx(i+1);},30);return;
           }
           return fetch('https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq')
@@ -2319,7 +2319,7 @@ function buildUI(){
             var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
             if(!tm||tm[1].indexOf('Player Search')>=0){sk++;dn++;setTimeout(function(){nx(i+1);},200);return;}
             var _mmx=null;try{var _sc=html.match(/var matchmx\s*=\s*(\[\[[\s\S]*?\]\]);/);if(_sc)_mmx=JSON.parse(_sc[1]);}catch(e){console.error('matchmx parse',e);}var ms=pTA(html,ln,_mmx);
-            if(!ms||ms.length<5||ms.length<=cn){sk++;dn++;if(dn%20===0||dn===tot)prog.innerHTML=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er;setTimeout(function(){nx(i+1);},200);return;}
+            if(!ms||ms.length<5||ms.length<=cn){sk++;dn++;if(dn%20===0||dn===tot)prog.innerHTML=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er+(dn===tot&&window._importFailed&&window._importFailed.length?'<br><span style="color:#f87171;font-size:10px;line-height:1.8">\u274c Chyby:<br>'+window._importFailed.join('<br>')+'</span>':'');setTimeout(function(){nx(i+1);},200);return;}
             var out={player_id:p.id,gs_id:(cd&&cd.gs_id)||'',player_name:p.full_name,source:'tennisabstract',updated:new Date().toISOString(),matches:ms};
             var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out,null,2)),bn='';
             for(var bi=0;bi<eb.length;bi++)bn+=String.fromCharCode(eb[bi]);
@@ -2327,11 +2327,11 @@ function buildUI(){
             if(cr&&cr.sha)bd.sha=cr.sha;
             return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',
               {method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(bd)})
-            .then(function(pr){if(pr.ok){im++;prog.innerHTML=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → '+p.full_name+' ('+ms.length+')';}else{pr.json().then(function(e){console.error('GH PUT failed: '+p.full_name+' ('+p.id+') '+e.message);});er++;}dn++;setTimeout(function(){nx(i+1);},800);});
+            .then(function(pr){if(pr.ok){im++;prog.innerHTML=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → '+p.full_name+' ('+ms.length+')';}else{pr.json().then(function(e){console.error('GH PUT failed: '+p.full_name+' ('+p.id+') '+e.message);window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): '+e.message);});er++;}dn++;setTimeout(function(){nx(i+1);},800);});
           });
-        }).catch(function(){er++;dn++;setTimeout(function(){nx(i+1);},300);});
+        }).catch(function(e){window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): network error');er++;dn++;setTimeout(function(){nx(i+1);},300);});
       }
-      nx(0);
+      window._importFailed=[];nx(0);
     });
   })();
 
