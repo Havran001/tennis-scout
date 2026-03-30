@@ -361,6 +361,7 @@ const CSS=`
   background:#161b22;
   border-right:1px solid rgba(255,255,255,0.06);
   display:flex;flex-direction:column;
+  overflow:hidden;
 }
 #sb-logo{
   padding:20px 20px 16px;
@@ -461,7 +462,7 @@ const CSS=`
 }
 #sb-ta-import:hover{background:rgba(33,150,243,0.22);}
 #sb-ta-import:disabled{opacity:0.5;cursor:not-allowed;}
-#ta-progress{margin-top:8px;font-size:10px;color:rgba(255,255,255,0.5);display:none;line-height:1.6;word-break:break-word;max-height:200px;overflow-y:auto;}
+#ta-progress{margin-top:8px;font-size:10px;color:rgba(255,255,255,0.5);display:none;line-height:1.6;}
 #sb-close{
   width:100%;padding:6px;margin-top:6px;
   background:transparent;
@@ -2265,12 +2266,6 @@ function buildUI(){
       var GH=localStorage.getItem('ts_gh_token');
       if(!GH){GH=prompt('Zadej GitHub token:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
       self.disabled=true;prog.style.display='block';
-      // Floating progress bar
-      var _fpEl=sh.getElementById('_fp');
-      if(!_fpEl){_fpEl=document.createElement('div');_fpEl.id='_fp';
-        _fpEl.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#0d1117;border:1px solid rgba(0,200,83,0.4);border-radius:10px;padding:10px 20px;font-size:12px;color:#e6edf3;z-index:99999;min-width:320px;text-align:center;box-shadow:0 4px 24px rgba(0,0,0,0.6);';
-        sh.appendChild(_fpEl);}
-      _fpEl.style.display='block';_fpEl.textContent='⏳ Spouštím import...';
       var MO={Jan:'01',Feb:'02',Mar:'03',Apr:'04',May:'05',Jun:'06',Jul:'07',Aug:'08',Sep:'09',Oct:'10',Nov:'11',Dec:'12'};
       var reDiac=new RegExp('[\u0300-\u036f]','g');
       var reNA=new RegExp('[^a-zA-Z -]','g');
@@ -2304,7 +2299,7 @@ function buildUI(){
       var pl=window.ATP_PLAYERS||window.ATP||[];
       prog.innerHTML='Start: '+pl.length+' hr\u00e1\u010d\u016f...';
       var dn=0,im=0,sk=0,er=0,tot=pl.length;
-      function nx(i){if(typeof _fpEl!=='undefined'&&typeof prog!=='undefined')_fpEl.textContent=prog.textContent||'';
+      function nx(i){
         if(i>=tot){prog.innerHTML='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb';self.disabled=false;self.textContent='\u2705 Dokon\u010deno';return;}
         var p=pl[i];if(!p||!p.id||!p.full_name){sk++;dn++;nx(i+1);return;}
         var ln=(p.full_name||'').split(' ').pop(),ta=nN(p.full_name);
