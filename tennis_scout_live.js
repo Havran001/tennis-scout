@@ -2318,7 +2318,7 @@ function buildUI(){
             if(!html){er++;dn++;setTimeout(function(){nx(i+1);},300);return;}
             var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
             if(!tm||tm[1].indexOf('Player Search')>=0){sk++;dn++;setTimeout(function(){nx(i+1);},200);return;}
-            var _mmx=null;try{var _sc=html.match(/var matchmx=([[sS]*?]);/);if(_sc)_mmx=JSON.parse(_sc[1]);}catch(e){}var ms=pTA(html,ln,_mmx);
+            var _mmx=null;try{var _sc=html.match(/var matchmx\s*=\s*(\[\[[\s\S]*?\]\]);/);if(_sc)_mmx=JSON.parse(_sc[1]);}catch(e){console.error('matchmx parse',e);}var ms=pTA(html,ln,_mmx);
             if(!ms||ms.length<5||ms.length<=cn){sk++;dn++;if(dn%20===0||dn===tot)prog.innerHTML=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er;setTimeout(function(){nx(i+1);},200);return;}
             var out={player_id:p.id,gs_id:(cd&&cd.gs_id)||'',player_name:p.full_name,source:'tennisabstract',updated:new Date().toISOString(),matches:ms};
             var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out,null,2)),bn='';
