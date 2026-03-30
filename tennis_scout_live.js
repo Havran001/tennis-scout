@@ -2312,7 +2312,7 @@ function buildUI(){
             sk++;dn++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er+(dn===tot&&window._importFailed&&window._importFailed.length?'<br><span style="color:#f87171;font-size:10px;line-height:1.8">\u274c Chyby:<br>'+window._importFailed.join('<br>')+'</span>':'');
             setTimeout(function(){nx(i+1);},30);return;
           }
-          return fetch('https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq')
+          return fetch('https://corsproxy.io/?url='+encodeURIComponent('https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq'))
           .then(function(r){return r.ok?r.text():null;})
           .then(function(html){
             if(!html){er++;dn++;setTimeout(function(){nx(i+1);},300);return;}
