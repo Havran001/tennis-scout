@@ -2073,8 +2073,8 @@ function buildUI(){
     <div id="sb-footer">
       <button id="sb-reload">↻ Reload dat</button>
       <button id="sb-close">✕ Zavřít</button>
-      <button id="sb-ta-import">⬇ Import Tennis Abstract</button>
       <div id="ta-progress"></div>
+      <button id="sb-ta-import">⬇ Import Tennis Abstract</button>
     </div>
   `;
   w.appendChild(sidebar);
