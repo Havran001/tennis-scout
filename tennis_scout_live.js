@@ -2265,6 +2265,21 @@ function buildUI(){
       var GH=localStorage.getItem('ts_gh_token');
       if(!GH){GH=prompt('Zadej GitHub token:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
       self.disabled=true;prog.style.display='block';sh.getElementById('sidebar').style.overflow='visible';
+      // Floating progress bar - polling každých 300ms
+      (function(){
+        var fp=sh.getElementById('_fp');
+        if(!fp){fp=document.createElement('div');fp.id='_fp';
+          fp.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#0d1117;border:1px solid rgba(0,200,83,0.4);border-radius:10px;padding:10px 20px;font-size:12px;color:#e6edf3;z-index:99999;min-width:320px;text-align:center;box-shadow:0 4px 24px rgba(0,0,0,0.6);';
+          sh.appendChild(fp);}
+        fp.style.display='block';fp.textContent='⏳ Spouštím import...';
+        clearInterval(window._fpInterval);
+        window._fpInterval=setInterval(function(){
+          if(!prog)return;
+          var txt=prog.innerHTML;
+          if(txt)fp.innerHTML=txt;
+          if(prog.textContent.indexOf('Hotovo')>=0){clearInterval(window._fpInterval);}
+        },300);
+      })();
       // Floating progress - zobrazí se vždy bez ohledu na sidebar CSS
       (function(){
         var fp=sh.getElementById('_fp');
@@ -2272,8 +2287,7 @@ function buildUI(){
           fp.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#0d1117;border:1px solid rgba(0,200,83,0.4);border-radius:10px;padding:10px 20px;font-size:12px;color:#e6edf3;z-index:99999;min-width:320px;text-align:center;box-shadow:0 4px 24px rgba(0,0,0,0.6);';
           sh.appendChild(fp);}
         fp.style.display='block';fp.textContent='⏳ Spouštím import...';
-        var ob=new MutationObserver(function(){fp.innerHTML=prog.innerHTML;});
-        ob.observe(prog,{childList:true,subtree:true,characterData:true});
+
       })();
       var MO={Jan:'01',Feb:'02',Mar:'03',Apr:'04',May:'05',Jun:'06',Jul:'07',Aug:'08',Sep:'09',Oct:'10',Nov:'11',Dec:'12'};
       var reDiac=new RegExp('[\u0300-\u036f]','g');
