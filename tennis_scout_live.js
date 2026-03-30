@@ -2341,7 +2341,7 @@ function buildUI(){
                 first_pct:pct(fwon,firsts),
                 second_pct:pct(swon,seconds),
                 bp_saved:saved+'/'+chances,
-                match_time:mx[20]||'',
+                match_time:(function(m){if(!m)return '';var n=parseInt(m);if(!n)return '';return Math.floor(n/60)+':'+(n%60<10?'0':'')+(n%60);})(mx[20]),
                 odds:''
               };
             });}
