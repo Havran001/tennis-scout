@@ -2327,7 +2327,7 @@ function buildUI(){
               var seconds=pts-firsts;
               function pct(a,b){return b>0?(a/b*100).toFixed(1):'';}
               var dr='';
-              if(pts>0&&opts>0){var rpw=1-((fwon+swon)/pts),spl=1-((parseInt(mx[33]||0)+parseInt(mx[34]||0))/opts);if(spl>0)dr=(rpw/spl).toFixed(2);}
+              if(pts>0&&opts>0){var rpw=1-((parseInt(mx[34]||0)+parseInt(mx[35]||0))/opts),spl=1-((fwon+swon)/pts);if(spl>0)dr=(rpw/spl).toFixed(2);}
               return {
                 date:ds,tournament:mx[1]||'',surface:mx[2]||'',level:'ta-import',
                 round:mx[8]||'',result:mx[4]==='W'?'W':(mx[4]==='L'?'L':''),
