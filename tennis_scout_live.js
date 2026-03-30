@@ -2327,7 +2327,7 @@ function buildUI(){
             if(cr&&cr.sha)bd.sha=cr.sha;
             return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',
               {method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(bd)})
-            .then(function(pr){if(pr.ok){im++;prog.innerHTML=dn+'/'+tot+' \u2705'+im+' \u23ed'+sk+' \u274c'+er+' \u2192 '+p.full_name+' ('+ms.length+')';}else er++;dn++;setTimeout(function(){nx(i+1);},800);});
+            .then(function(pr){if(pr.ok){im++;prog.innerHTML=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → '+p.full_name+' ('+ms.length+')';}else{pr.json().then(function(e){console.error('GH PUT failed: '+p.full_name+' ('+p.id+') '+e.message);});er++;}dn++;setTimeout(function(){nx(i+1);},800);});
           });
         }).catch(function(){er++;dn++;setTimeout(function(){nx(i+1);},300);});
       }
