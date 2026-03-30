@@ -2340,7 +2340,7 @@ function buildUI(){
                 first_in:pct(firsts,pts),
                 first_pct:pct(fwon,firsts),
                 second_pct:pct(swon,seconds),
-                bp_saved:chances>0?saved+'/'+chances:'',
+                bp_saved:saved+'/'+chances,
                 match_time:mx[20]||'',
                 odds:''
               };
