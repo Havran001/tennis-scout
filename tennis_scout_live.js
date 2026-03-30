@@ -2264,7 +2264,7 @@ function buildUI(){
       var self=this,prog=sh.getElementById('ta-progress');
       var GH=localStorage.getItem('ts_gh_token');
       if(!GH){GH=prompt('Zadej GitHub token:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
-      self.disabled=true;prog.style.display='block';
+      self.disabled=true;prog.style.display='block';sh.getElementById('sidebar').style.overflow='visible';
       var MO={Jan:'01',Feb:'02',Mar:'03',Apr:'04',May:'05',Jun:'06',Jul:'07',Aug:'08',Sep:'09',Oct:'10',Nov:'11',Dec:'12'};
       var reDiac=new RegExp('[\u0300-\u036f]','g');
       var reNA=new RegExp('[^a-zA-Z -]','g');
