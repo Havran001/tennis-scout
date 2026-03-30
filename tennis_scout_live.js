@@ -683,7 +683,7 @@ const CSS=`
 .mc{font-size:9px;color:rgba(255,255,255,0.2);letter-spacing:1px;text-transform:uppercase;}
 table{width:100%;border-collapse:collapse;}
 th{
-  font-size:8px;letter-spacing:2px;text-transform:uppercase;
+  font-size:8px;letter-spacing:2px;
   color:rgba(255,255,255,0.2);text-align:left;
   padding:6px 10px;
   border-bottom:1px solid rgba(255,255,255,0.04);font-weight:600;
@@ -1227,7 +1227,7 @@ function _renderMatches(){
             var mhCss=[
               '.mh-table{width:100%;border-collapse:collapse;font-size:12px;}',
               '.mh-table th{padding:4px 6px;font-size:9px;font-weight:700;color:rgba(255,255,255,0.35);',
-              'text-transform:uppercase;letter-spacing:0.7px;border-bottom:1px solid rgba(255,255,255,0.08);',
+              'letter-spacing:0.7px;border-bottom:1px solid rgba(255,255,255,0.08);',
               'text-align:left;white-space:nowrap;background:rgba(255,255,255,0.02);cursor:pointer;user-select:none;}',
               '.mh-table th:hover{color:rgba(255,255,255,0.7);}',
               '.mh-table th.sorted-asc::after{content:" \u25b2";font-size:8px;opacity:0.7;}',
@@ -1299,7 +1299,7 @@ function _renderMatches(){
                 ddHtml+='</div></div>';
                 fi=ddHtml;
               }
-              var thStyle=c.key==='va_pct'?' style="text-transform:none"':'';return '<th class="'+sCls+'"'+thStyle+' data-sort="'+c.key+'">'+c.label+'<br>'+fi+'</th>';
+              return '<th class="'+sCls+'" data-sort="'+c.key+'">'+c.label+'<br>'+fi+'</th>';
             }).join('')+'</tr></thead>';
             var tbody='<tbody>';
             var lastYear='';
