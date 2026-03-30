@@ -1142,6 +1142,7 @@ function buildPlayersTab(sh){
           sec.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:#0d1117;overflow-y:auto;box-sizing:border-box;';
           var h='<div style="position:sticky;top:0;z-index:10;background:#0d1117;border-bottom:1px solid rgba(255,255,255,.08);padding:16px 20px 0 20px;">'+
           // Photo + Info — identické s kartou hráče
+'<button id="mh-f-back" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;margin-bottom:14px;display:block;">← Zpět</button>'+
           '<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'+
             // Photo
             '<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'+
@@ -1399,7 +1400,6 @@ function _renderMatches(){
 
           // Filtry HTML
           h+='<div style="display:flex;align-items:center;padding:8px 0 12px;border-bottom:1px solid rgba(255,255,255,.06);">'
-            +'<button id="mh-f-back" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;">← Zpět</button>'
             +'<button id="mh-f-reset" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;">Reset</button>'
             +'<span id="mh-count" style="margin-left:auto;font-size:13px;font-weight:700;color:#ccff00;"></span>'
           +'</div>';
