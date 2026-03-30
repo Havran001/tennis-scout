@@ -3,8 +3,77 @@
   "gs_id": "",
   "player_name": "Ronald Hohmann",
   "source": "tennisabstract",
-  "updated": "2026-03-30T16:09:15.961Z",
+  "updated": "2026-03-30T20:27:23.504Z",
   "matches": [
+    {
+      "date": "2026-03-23",
+      "tournament": "M25 Las Vegas NV",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R16",
+      "result": "L",
+      "opponent": "Ronit Karki",
+      "score": "6-1 6-4",
+      "best_of": "",
+      "rank": "1166",
+      "opp_rank": "1500",
+      "dr": "0.42",
+      "a_pct": "0.0",
+      "va_pct": "0.0",
+      "df_pct": "3.9",
+      "first_in": "66.7",
+      "first_pct": "55.9",
+      "second_pct": "58.8",
+      "bp_saved": "1/4",
+      "match_time": "1:14",
+      "odds": ""
+    },
+    {
+      "date": "2026-03-23",
+      "tournament": "M25 Las Vegas NV",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "W",
+      "opponent": "William Grant",
+      "score": "7-6(8) 7-6(4)",
+      "best_of": "",
+      "rank": "1166",
+      "opp_rank": "644",
+      "dr": "1.06",
+      "a_pct": "5.2",
+      "va_pct": "3.4",
+      "df_pct": "7.3",
+      "first_in": "58.3",
+      "first_pct": "69.6",
+      "second_pct": "60.0",
+      "bp_saved": "3/5",
+      "match_time": "2:19",
+      "odds": ""
+    },
+    {
+      "date": "2026-03-16",
+      "tournament": "M25 Bakersfield CA",
+      "surface": "Hard",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "L",
+      "opponent": "Dominique Rolland",
+      "score": "6-4 6-4",
+      "best_of": "",
+      "rank": "1166",
+      "opp_rank": "997",
+      "dr": "0.58",
+      "a_pct": "1.4",
+      "va_pct": "7.8",
+      "df_pct": "4.2",
+      "first_in": "54.9",
+      "first_pct": "69.2",
+      "second_pct": "40.6",
+      "bp_saved": "6/9",
+      "match_time": "1:48",
+      "odds": ""
+    },
     {
       "date": "2026-03-02",
       "tournament": "M15 Sherbrooke",
@@ -17,7 +86,7 @@
       "best_of": "",
       "rank": "1201",
       "opp_rank": "731",
-      "dr": "",
+      "dr": "0.72",
       "a_pct": "5.1",
       "va_pct": "9.2",
       "df_pct": "1.7",
@@ -25,7 +94,7 @@
       "first_pct": "51.4",
       "second_pct": "50.0",
       "bp_saved": "5/9",
-      "match_time": "96",
+      "match_time": "1:36",
       "odds": ""
     },
     {
@@ -40,7 +109,7 @@
       "best_of": "",
       "rank": "1201",
       "opp_rank": "",
-      "dr": "",
+      "dr": "0.99",
       "a_pct": "11.7",
       "va_pct": "5.6",
       "df_pct": "2.9",
@@ -48,7 +117,7 @@
       "first_pct": "74.6",
       "second_pct": "56.8",
       "bp_saved": "12/14",
-      "match_time": "137",
+      "match_time": "2:17",
       "odds": ""
     },
     {
@@ -63,7 +132,7 @@
       "best_of": "",
       "rank": "1230",
       "opp_rank": "1293",
-      "dr": "",
+      "dr": "0.82",
       "a_pct": "1.1",
       "va_pct": "6.5",
       "df_pct": "4.3",
@@ -71,7 +140,7 @@
       "first_pct": "70.4",
       "second_pct": "47.4",
       "bp_saved": "3/6",
-      "match_time": "138",
+      "match_time": "2:18",
       "odds": ""
     },
     {
@@ -86,7 +155,7 @@
       "best_of": "",
       "rank": "1230",
       "opp_rank": "736",
-      "dr": "",
+      "dr": "1.58",
       "a_pct": "8.6",
       "va_pct": "5.6",
       "df_pct": "1.4",
@@ -94,7 +163,7 @@
       "first_pct": "86.0",
       "second_pct": "63.0",
       "bp_saved": "0/1",
-      "match_time": "96",
+      "match_time": "1:36",
       "odds": ""
     },
     {
@@ -109,7 +178,7 @@
       "best_of": "",
       "rank": "1199",
       "opp_rank": "678",
-      "dr": "",
+      "dr": "0.67",
       "a_pct": "6.7",
       "va_pct": "15.0",
       "df_pct": "5.3",
@@ -117,7 +186,7 @@
       "first_pct": "67.4",
       "second_pct": "48.3",
       "bp_saved": "5/8",
-      "match_time": "81",
+      "match_time": "1:21",
       "odds": ""
     },
     {
@@ -132,7 +201,7 @@
       "best_of": "",
       "rank": "1091",
       "opp_rank": "589",
-      "dr": "",
+      "dr": "0.74",
       "a_pct": "4.7",
       "va_pct": "10.0",
       "df_pct": "4.7",
@@ -140,7 +209,7 @@
       "first_pct": "66.1",
       "second_pct": "46.7",
       "bp_saved": "5/7",
-      "match_time": "120",
+      "match_time": "2:00",
       "odds": ""
     },
     {
@@ -155,7 +224,7 @@
       "best_of": "",
       "rank": "1083",
       "opp_rank": "693",
-      "dr": "",
+      "dr": "0.84",
       "a_pct": "7.6",
       "va_pct": "5.8",
       "df_pct": "3.0",
@@ -163,7 +232,7 @@
       "first_pct": "76.9",
       "second_pct": "44.4",
       "bp_saved": "3/6",
-      "match_time": "93",
+      "match_time": "1:33",
       "odds": ""
     },
     {
@@ -178,7 +247,7 @@
       "best_of": "",
       "rank": "1072",
       "opp_rank": "717",
-      "dr": "2.96",
+      "dr": "0.71",
       "a_pct": "3.4",
       "va_pct": "4.9",
       "df_pct": "6.9",
@@ -186,7 +255,7 @@
       "first_pct": "61.8",
       "second_pct": "25.0",
       "bp_saved": "3/8",
-      "match_time": "93",
+      "match_time": "1:33",
       "odds": ""
     },
     {
@@ -201,7 +270,7 @@
       "best_of": "",
       "rank": "1055",
       "opp_rank": "910",
-      "dr": "12.10",
+      "dr": "0.74",
       "a_pct": "7.1",
       "va_pct": "8.5",
       "df_pct": "4.3",
@@ -209,7 +278,7 @@
       "first_pct": "67.5",
       "second_pct": "40.0",
       "bp_saved": "2/7",
-      "match_time": "111",
+      "match_time": "1:51",
       "odds": ""
     },
     {
@@ -224,7 +293,7 @@
       "best_of": "",
       "rank": "1055",
       "opp_rank": "900",
-      "dr": "5.96",
+      "dr": "1.34",
       "a_pct": "4.7",
       "va_pct": "0.0",
       "df_pct": "0.0",
@@ -232,7 +301,7 @@
       "first_pct": "56.1",
       "second_pct": "69.6",
       "bp_saved": "5/6",
-      "match_time": "101",
+      "match_time": "1:41",
       "odds": ""
     },
     {
@@ -255,7 +324,7 @@
       "first_pct": "",
       "second_pct": "",
       "bp_saved": "0/0",
-      "match_time": "95",
+      "match_time": "1:35",
       "odds": ""
     },
     {
@@ -278,7 +347,7 @@
       "first_pct": "",
       "second_pct": "",
       "bp_saved": "0/0",
-      "match_time": "116",
+      "match_time": "1:56",
       "odds": ""
     },
     {
@@ -293,7 +362,7 @@
       "best_of": "",
       "rank": "1081",
       "opp_rank": "832",
-      "dr": "",
+      "dr": "0.76",
       "a_pct": "6.1",
       "va_pct": "3.7",
       "df_pct": "12.1",
@@ -301,7 +370,7 @@
       "first_pct": "66.7",
       "second_pct": "33.3",
       "bp_saved": "4/9",
-      "match_time": "87",
+      "match_time": "1:27",
       "odds": ""
     },
     {
@@ -316,7 +385,7 @@
       "best_of": "",
       "rank": "1081",
       "opp_rank": "1757",
-      "dr": "1.77",
+      "dr": "1.63",
       "a_pct": "5.3",
       "va_pct": "4.8",
       "df_pct": "5.3",
@@ -324,7 +393,7 @@
       "first_pct": "83.3",
       "second_pct": "66.7",
       "bp_saved": "0/0",
-      "match_time": "89",
+      "match_time": "1:29",
       "odds": ""
     },
     {
@@ -339,7 +408,7 @@
       "best_of": "",
       "rank": "1086",
       "opp_rank": "788",
-      "dr": "",
+      "dr": "0.79",
       "a_pct": "1.4",
       "va_pct": "4.9",
       "df_pct": "7.0",
@@ -347,7 +416,7 @@
       "first_pct": "76.9",
       "second_pct": "37.5",
       "bp_saved": "3/7",
-      "match_time": "140",
+      "match_time": "2:20",
       "odds": ""
     },
     {
@@ -362,7 +431,7 @@
       "best_of": "",
       "rank": "1089",
       "opp_rank": "451",
-      "dr": "",
+      "dr": "0.72",
       "a_pct": "0.0",
       "va_pct": "2.1",
       "df_pct": "8.5",
@@ -370,7 +439,7 @@
       "first_pct": "55.9",
       "second_pct": "40.8",
       "bp_saved": "13/20",
-      "match_time": "141",
+      "match_time": "2:21",
       "odds": ""
     },
     {
@@ -385,7 +454,7 @@
       "best_of": "",
       "rank": "1142",
       "opp_rank": "978",
-      "dr": "",
+      "dr": "0.90",
       "a_pct": "5.1",
       "va_pct": "5.0",
       "df_pct": "11.1",
@@ -393,7 +462,7 @@
       "first_pct": "60.6",
       "second_pct": "39.1",
       "bp_saved": "7/14",
-      "match_time": "176",
+      "match_time": "2:56",
       "odds": ""
     },
     {
@@ -408,7 +477,7 @@
       "best_of": "",
       "rank": "1142",
       "opp_rank": "",
-      "dr": "6.13",
+      "dr": "1.12",
       "a_pct": "3.3",
       "va_pct": "0.0",
       "df_pct": "8.9",
@@ -416,7 +485,7 @@
       "first_pct": "66.0",
       "second_pct": "35.1",
       "bp_saved": "8/14",
-      "match_time": "141",
+      "match_time": "2:21",
       "odds": ""
     },
     {
@@ -439,7 +508,7 @@
       "first_pct": "50.0",
       "second_pct": "100.0",
       "bp_saved": "0/0",
-      "match_time": "57",
+      "match_time": "0:57",
       "odds": ""
     },
     {
@@ -454,7 +523,7 @@
       "best_of": "",
       "rank": "1144",
       "opp_rank": "810",
-      "dr": "",
+      "dr": "0.62",
       "a_pct": "7.1",
       "va_pct": "7.7",
       "df_pct": "5.4",
@@ -462,7 +531,7 @@
       "first_pct": "68.8",
       "second_pct": "54.2",
       "bp_saved": "5/7",
-      "match_time": "96",
+      "match_time": "1:36",
       "odds": ""
     },
     {
@@ -477,7 +546,7 @@
       "best_of": "",
       "rank": "1146",
       "opp_rank": "294",
-      "dr": "",
+      "dr": "0.73",
       "a_pct": "2.0",
       "va_pct": "1.9",
       "df_pct": "5.9",
@@ -485,7 +554,7 @@
       "first_pct": "39.4",
       "second_pct": "27.8",
       "bp_saved": "1/8",
-      "match_time": "74",
+      "match_time": "1:14",
       "odds": ""
     },
     {
@@ -508,7 +577,7 @@
       "first_pct": "",
       "second_pct": "",
       "bp_saved": "0/0",
-      "match_time": "72",
+      "match_time": "1:12",
       "odds": ""
     },
     {
@@ -546,7 +615,7 @@
       "best_of": "",
       "rank": "1339",
       "opp_rank": "",
-      "dr": "9.37",
+      "dr": "1.21",
       "a_pct": "7.6",
       "va_pct": "1.4",
       "df_pct": "6.3",
@@ -554,7 +623,7 @@
       "first_pct": "67.4",
       "second_pct": "55.6",
       "bp_saved": "5/7",
-      "match_time": "113",
+      "match_time": "1:53",
       "odds": ""
     },
     {
@@ -569,7 +638,7 @@
       "best_of": "",
       "rank": "1339",
       "opp_rank": "563",
-      "dr": "",
+      "dr": "0.66",
       "a_pct": "8.0",
       "va_pct": "2.9",
       "df_pct": "3.4",
@@ -577,7 +646,7 @@
       "first_pct": "67.3",
       "second_pct": "52.6",
       "bp_saved": "7/9",
-      "match_time": "112",
+      "match_time": "1:52",
       "odds": ""
     },
     {
@@ -592,7 +661,7 @@
       "best_of": "",
       "rank": "1339",
       "opp_rank": "",
-      "dr": "1.99",
+      "dr": "3.40",
       "a_pct": "23.5",
       "va_pct": "2.2",
       "df_pct": "5.9",
@@ -600,7 +669,7 @@
       "first_pct": "90.9",
       "second_pct": "66.7",
       "bp_saved": "0/0",
-      "match_time": "51",
+      "match_time": "0:51",
       "odds": ""
     },
     {
@@ -615,7 +684,7 @@
       "best_of": "",
       "rank": "1331",
       "opp_rank": "1133",
-      "dr": "",
+      "dr": "0.61",
       "a_pct": "6.9",
       "va_pct": "5.4",
       "df_pct": "4.2",
@@ -623,7 +692,7 @@
       "first_pct": "62.5",
       "second_pct": "40.6",
       "bp_saved": "5/8",
-      "match_time": "88",
+      "match_time": "1:28",
       "odds": ""
     },
     {
@@ -638,7 +707,7 @@
       "best_of": "",
       "rank": "1331",
       "opp_rank": "530",
-      "dr": "",
+      "dr": "0.79",
       "a_pct": "8.0",
       "va_pct": "12.9",
       "df_pct": "5.7",
@@ -646,7 +715,7 @@
       "first_pct": "71.4",
       "second_pct": "50.0",
       "bp_saved": "7/10",
-      "match_time": "122",
+      "match_time": "2:02",
       "odds": ""
     },
     {
@@ -661,7 +730,7 @@
       "best_of": "",
       "rank": "1403",
       "opp_rank": "615",
-      "dr": "",
+      "dr": "0.79",
       "a_pct": "0.0",
       "va_pct": "1.4",
       "df_pct": "11.3",
@@ -669,7 +738,7 @@
       "first_pct": "68.3",
       "second_pct": "23.3",
       "bp_saved": "1/6",
-      "match_time": "112",
+      "match_time": "1:52",
       "odds": ""
     },
     {
@@ -684,7 +753,7 @@
       "best_of": "",
       "rank": "1403",
       "opp_rank": "1329",
-      "dr": "",
+      "dr": "1.03",
       "a_pct": "7.4",
       "va_pct": "4.8",
       "df_pct": "11.1",
@@ -692,7 +761,7 @@
       "first_pct": "63.3",
       "second_pct": "43.8",
       "bp_saved": "5/12",
-      "match_time": "166",
+      "match_time": "2:46",
       "odds": ""
     },
     {
@@ -707,7 +776,7 @@
       "best_of": "",
       "rank": "1494",
       "opp_rank": "683",
-      "dr": "2.74",
+      "dr": "0.91",
       "a_pct": "56.8",
       "va_pct": "60.5",
       "df_pct": "41.9",
@@ -715,7 +784,7 @@
       "first_pct": "97.0",
       "second_pct": "24.4",
       "bp_saved": "3/7",
-      "match_time": "133",
+      "match_time": "2:13",
       "odds": ""
     },
     {
@@ -730,7 +799,7 @@
       "best_of": "",
       "rank": "1494",
       "opp_rank": "",
-      "dr": "",
+      "dr": "1.35",
       "a_pct": "3.2",
       "va_pct": "2.8",
       "df_pct": "9.5",
@@ -738,7 +807,7 @@
       "first_pct": "69.4",
       "second_pct": "59.3",
       "bp_saved": "1/3",
-      "match_time": "96",
+      "match_time": "1:36",
       "odds": ""
     },
     {
@@ -1121,7 +1190,7 @@
       "best_of": "",
       "rank": "1296",
       "opp_rank": "369",
-      "dr": "",
+      "dr": "0.85",
       "a_pct": "6.8",
       "va_pct": "6.3",
       "df_pct": "3.4",
@@ -1129,7 +1198,7 @@
       "first_pct": "66.0",
       "second_pct": "42.1",
       "bp_saved": "3/8",
-      "match_time": "120",
+      "match_time": "2:00",
       "odds": ""
     },
     {
@@ -1535,7 +1604,7 @@
       "best_of": "",
       "rank": "",
       "opp_rank": "532",
-      "dr": "",
+      "dr": "0.51",
       "a_pct": "3.5",
       "va_pct": "6.0",
       "df_pct": "8.8",
@@ -1543,7 +1612,7 @@
       "first_pct": "60.7",
       "second_pct": "44.8",
       "bp_saved": "4/7",
-      "match_time": "68",
+      "match_time": "1:08",
       "odds": ""
     },
     {
