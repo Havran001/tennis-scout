@@ -2031,6 +2031,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
   return wrap;
 }
 
+}
   })();
 
 function buildUI(){
