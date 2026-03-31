@@ -2523,11 +2523,11 @@ function _getBetanoOdds(p1, p2) {
   if(!_betanoOdds||!_betanoOdds.events)return null;
   var n1=_normName(p1), n2=_normName(p2);
   var ev=_betanoOdds.events.find(function(e){
-    return (e.p1norm===n1&&e.p2norm===n2)||(e.p1norm===n2&&e.p2norm===n1);
+    var ep1=_normName(e.p1),ep2=_normName(e.p2);return (ep1===n1&&ep2===n2)||(ep1===n2&&ep2===n1);
   });
   if(!ev)return null;
   // Správné pořadí kurzů
-  if(ev.p1norm===n1) return {o1:ev.odds1, o2:ev.odds2, s1:ev.suspended1, s2:ev.suspended2, url:ev.url};
+  if(_normName(ev.p1)===n1) return {o1:ev.odds1, o2:ev.odds2, s1:ev.suspended1, s2:ev.suspended2, url:ev.url};
   return {o1:ev.odds2, o2:ev.odds1, s1:ev.suspended2, s2:ev.suspended1, url:ev.url};
 }
 
