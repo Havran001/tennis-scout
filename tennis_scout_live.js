@@ -2033,10 +2033,10 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
 
 function buildUI(){
   document.getElementById('ts-host')?.remove();
-  const host=document.createElement('div');host.id='ts-host';
+  var host=document.createElement('div');host.id='ts-host';
   host.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:2147483647;';
   document.body.appendChild(host);
-  const sh=host.attachShadow({mode:'open'});
+  var sh=host.attachShadow({mode:'open'});
   const style=document.createElement('style');style.textContent=CSS;sh.appendChild(style);
 
   const w=document.createElement('div');w.id='w';sh.appendChild(w);
@@ -2370,7 +2370,7 @@ function buildUI(){
     });
   })();
 window._tsData=[];
-      const{host,sh,body,mnav,goView}=buildUI();
+      var _ui=buildUI(),host=_ui.host,sh=_ui.sh,body=_ui.body,mnav=_ui.mnav,goView=_ui.goView;
   
 // Djokovic photo from Wikipedia API
 (async()=>{try{
