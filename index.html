@@ -22,7 +22,7 @@
     code=new TextDecoder('utf-8').decode(bytes);
   } catch(e) {
     // Fallback přes raw
-    var r2=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?t='+Date.now(),{cache:'no-store'});
+    var r2=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?nocache='+Date.now()+'&r='+Math.random(),{cache:'no-store'});
     code=await r2.text();
   }
   eval(code);
