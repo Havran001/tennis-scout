@@ -2548,7 +2548,17 @@ function _betanoCol(p1, p2){
   if(!_betanoUrl)return '';
   var o1=odds?odds.o1:'?',o2=odds?odds.o2:'?';
   var a1='',a2='';
-  if(odds&&prevOdds){if(odds.o1>prevOdds.o1)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(odds.o1<prevOdds.o1)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(odds.o2>prevOdds.o2)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(odds.o2<prevOdds.o2)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';}
+  if(odds&&prevOdds){
+    var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
+    var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    // Pokud jen jeden se změnil, druhý dostane opačnou šipku
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+  }
   var s1=odds&&odds.s1, s2=odds&&odds.s2;
   var c1=s1?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
   var c2=s2?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
