@@ -1852,7 +1852,10 @@ function renderMatches(data){
     if(activeFormat==='doubles')shown=shown.filter(function(m){return (m.tournament||'').toUpperCase().includes('DOUBLES');});
     if(activeSort==='time')shown=shown.slice().sort(function(a,b){return (a.ts||0)-(b.ts||0);});
 
-    var h='<div style="padding:0 20px 60px;">';
+            var h='<div style="padding:0 20px 60px;position:relative;">';
+            if(_betanoUrl){h+='<div style="position:absolute;top:6px;left:483px;display:flex;flex-direction:column;align-items:center;gap:1px;z-index:2;">'+
+              '<div style="font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px;padding:2px 5px;line-height:1.2;">BETANO</div>'+
+              '</div>';}
     h+='<div style="display:flex;align-items:center;gap:6px;padding:12px 0 10px;border-bottom:1px solid rgba(255,255,255,.06);">';
     [{d:-1,l:'Včera'},{d:0,l:'Dnes'},{d:1,l:'Zítra'},{d:2,l:'+2 dny'},{d:3,l:'+3 dny'}].forEach(function(x){
       var on=activeDay.indexOf(x.d)>=0;
