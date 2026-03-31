@@ -1879,7 +1879,7 @@ function renderMatches(data){
     h+='</div>';
     if(!shown.length){h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy</div>';}
     else{
-            if(_betanoUrl){h+='<div style="height:18px;position:relative;"><span style="position:absolute;left:470px;bottom:0;display:inline-flex;align-items:flex-end;justify-content:center;width:48px;"><span style="font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;">BETANO</span></span></div>';}
+            if(_betanoUrl){h+='<div style="height:18px;position:relative;"><span style="position:absolute;left:483px;bottom:0;width:48px;display:flex;align-items:flex-end;justify-content:center;"><span style="font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;">BETANO</span></span></div>';}
       if(activeSort==='time'){
         // Flat list sorted by time
         shown.forEach(function(m){
