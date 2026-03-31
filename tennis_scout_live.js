@@ -2510,7 +2510,7 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
 var _betanoOdds = null;
 var _betanoUpdated = null;
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'';
-var _betanoOdds=null,_betanoUpdated=null;
+var _betanoOdds=null,_betanoUpdated=null;var _betanoPrevOdds=null;
 var _bsUrl=_betanoUrl.replace('/odds','/scrape');
 if(_betanoUrl){fetch(_bsUrl).then(function(){_loadBetanoOdds();});setInterval(function(){fetch(_bsUrl).then(function(){_loadBetanoOdds();});},30000);}
 
@@ -2520,10 +2520,10 @@ function _normName(n){
   var last=p[p.length-1];if(last.length<=2||last.endsWith('.'))return p[0].toLowerCase().replace(/[^a-z]/g,'');return last.toLowerCase().replace(/[^a-z]/g,'');
 }
 
-function _getBetanoOdds(p1, p2) {
-  if(!_betanoOdds||!_betanoOdds.events)return null;
+function _getBetanoOdds(p1,p2,dataset){
+  var _ds=dataset||_betanoOdds;if(!_ds||!_ds.events)return null;
   var n1=_normName(p1), n2=_normName(p2);
-  var ev=_betanoOdds.events.find(function(e){
+  var ev=_ds.events.find(function(e){
     var ep1=_normName(e.p1),ep2=_normName(e.p2);return (ep1===n1&&ep2===n2)||(ep1===n2&&ep2===n1);
   });
   if(!ev)return null;
@@ -2537,23 +2537,25 @@ async function _loadBetanoOdds(){
   try{
     var r=await fetch(_betanoUrl+'?t='+Date.now());
     if(!r.ok)return;
-    _betanoOdds=await r.json();
+    _betanoPrevOdds=_betanoOdds;_betanoOdds=await r.json();
     _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
     if(typeof renderMatches==='function'&&window._lastMatches)renderMatches(window._lastMatches);
   }catch(e){}
 }
 
 function _betanoCol(p1, p2){
-  var odds=_getBetanoOdds(p1,p2);
+  var odds=_getBetanoOdds(p1,p2),prevOdds=_betanoPrevOdds?_getBetanoOdds(p1,p2,_betanoPrevOdds):null;
   if(!_betanoUrl)return '';
-  var o1=odds?odds.o1:'?', o2=odds?odds.o2:'?';
+  var o1=odds?odds.o1:'?',o2=odds?odds.o2:'?';
+  var a1='',a2='';
+  if(odds&&prevOdds){if(odds.o1>prevOdds.o1)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(odds.o1<prevOdds.o1)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(odds.o2>prevOdds.o2)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(odds.o2<prevOdds.o2)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';}
   var s1=odds&&odds.s1, s2=odds&&odds.s2;
   var c1=s1?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
   var c2=s2?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
   return '<div style="position:absolute;left:460px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:48px;gap:3px;">'
-    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+o1+'</div>'
+    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
     
-    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+o2+'</div>'
+    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
     +'</div>';
 }
 // === KONEC BETANO ODDS ===
