@@ -1903,6 +1903,8 @@ function renderMatches(data){
           h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:700;color:'+(w1?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
           h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:700;color:'+(w2?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
           h+='</div>';
+            h+='<div style="width:12px;flex-shrink:0;"></div>';
+            h+=_betanoCol(m.p1,m.p2);
           h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
           if(m.isFin){var _sc1t=0,_sc2t=0;for(var sit=0;sit<ns;sit++){var sv1t=parseInt((m.sets1||[])[sit]||0),sv2t=parseInt((m.sets2||[])[sit]||0);if(sv1t>sv2t)_sc1t++;else if(sv2t>sv1t)_sc2t++;}if(_sc1t>0||_sc2t>0){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-right:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1t+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2t+'</span></div>';}}
           function isSetDoneT(a,b){var x=parseInt(a),y=parseInt(b);if(isNaN(x)||isNaN(y))return false;if(x===7||y===7)return true;return(x>=6||y>=6)&&Math.abs(x-y)>=2;}
@@ -1911,7 +1913,6 @@ function renderMatches(data){
           if(isLive){var cv1T=(m.sets1||[])[ns-1]||'0',cv2T=(m.sets2||[])[ns-1]||'0';var isZeroT=m.game1==='0'&&m.game2==='0'||m.game1===''||m.game2==='';if(ns>1)h+='<div style="width:1px;background:rgba(255,255,255,.2);align-self:stretch;margin:0 1px;flex-shrink:0;"></div>';h+='<div style="text-align:center;min-width:28px;padding:2px 4px;margin-left:1px;"><div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv1T+'</div><div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv2T+'</div></div>';if(m.game1!==''&&m.game2!==''){h+='<div style="text-align:center;min-width:28px;padding:1px 4px;margin-left:2px;"><div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZeroT?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game1+'</div><div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZeroT?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game2+'</div></div>';}}
           h+='</div>';
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 6px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block;"><rect width="100" height="100" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
-            h+=_betanoCol(m.p1,m.p2);
           h+='</div></div>';
         });
       } else {
@@ -1942,6 +1943,8 @@ function renderMatches(data){
           h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:700;color:'+(w1?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
           h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:700;color:'+(w2?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
           h+='</div>';
+            h+='<div style="width:12px;flex-shrink:0;"></div>';
+            h+=_betanoCol(m.p1,m.p2);
           if(m.isFin){var _sc1t=0,_sc2t=0;for(var sit=0;sit<ns;sit++){var sv1t=parseInt((m.sets1||[])[sit]||0),sv2t=parseInt((m.sets2||[])[sit]||0);if(sv1t>sv2t)_sc1t++;else if(sv2t>sv1t)_sc2t++;}if(_sc1t>0||_sc2t>0){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-right:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1t+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2t+'</span></div>';}}
           h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
           function isSetDone(a,b){var x=parseInt(a),y=parseInt(b);if(isNaN(x)||isNaN(y))return false;if(x===7||y===7)return true;return(x>=6||y>=6)&&Math.abs(x-y)>=2;}
@@ -1974,7 +1977,6 @@ function renderMatches(data){
           h+='</div>';
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;text-decoration:none;">';
           h+='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block"><rect width="100" height="100" rx="16" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
-            h+=_betanoCol(m.p1,m.p2);
           h+='</div></div>';
         });
       });
