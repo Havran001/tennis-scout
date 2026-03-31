@@ -1069,63 +1069,6 @@ function buildPlayersTab(sh){
           };
           atpImg.src=atpUrl;
         }
-      // === BETANO ODDS ===
-var _betanoOdds = null;
-var _betanoUpdated = null;
-var _betanoUrl = null; // nastavit na URL Cloudflare Workeru
-
-function _normWords(n){
-  if(!n)return [];
-  return n.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
-    .replace(/[^a-z\s]/g,'').trim().split(/\s+/).filter(function(w){return w.length>2;});
-}
-function _getBetanoOdds(p1,p2){
-  if(!_betanoOdds||!_betanoOdds.events)return null;
-  var w1=_normWords(p1),w2=_normWords(p2);
-  var ev=_betanoOdds.events.find(function(e){
-    var ew1=_normWords(e.p1),ew2=_normWords(e.p2);
-    var m1=w1.some(function(w){return ew1.indexOf(w)>=0||ew2.indexOf(w)>=0;});
-    var m2=w2.some(function(w){return ew1.indexOf(w)>=0||ew2.indexOf(w)>=0;});
-    var s1=w1.some(function(w){return ew1.indexOf(w)>=0;});
-    var s2=w2.some(function(w){return ew2.indexOf(w)>=0;});
-    var s3=w1.some(function(w){return ew2.indexOf(w)>=0;});
-    var s4=w2.some(function(w){return ew1.indexOf(w)>=0;});
-    return (s1&&s2)||(s3&&s4);
-  });
-  if(!ev)return null;
-  var ew1=_normWords(ev.p1);
-  var match1=w1.some(function(w){return ew1.indexOf(w)>=0;});
-  if(match1)return{o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2,url:ev.url};
-  return{o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1,url:ev.url};
-}
-
-async function _loadBetanoOdds(){
-  if(!_betanoUrl)return;
-  try{
-    var r=await fetch(_betanoUrl+'?t='+Date.now());
-    if(!r.ok)return;
-    _betanoOdds=await r.json();
-    _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    var _mwEl=sh.getElementById('mw');if(_mwEl&&_mwEl.render)_mwEl.render();
-  }catch(e){}
-}
-
-function _betanoCol(p1, p2){
-  var odds=_getBetanoOdds(p1,p2);
-  if(!_betanoUrl)return '';
-  var o1=odds?odds.o1:'?', o2=odds?odds.o2:'?';
-  var s1=odds&&odds.s1, s2=odds&&odds.s2;
-  var c1=s1?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
-  var c2=s2?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
-  return '<div style="position:absolute;left:460px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:48px;gap:3px;">'
-    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+o1+'</div>'
-    +'<div style="font-size:10px;color:rgba(255,255,255,.25);line-height:1;">BET</div>'
-    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+o2+'</div>'
-    +'</div>';
-}
-// === KONEC BETANO ODDS ===
-// v1774972461964
-
 })();
 
       // ── BACK BUTTON ───────────────────────────────────────
@@ -2568,5 +2511,62 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   if(mcEl){var mc=((window._lastMatches||{}).matches||[]).length;if(mc>0)mcEl.textContent=mc;}
   console.log('🎾 Tennis Scout v'+VERSION+' — '+window._tsData.length+' turnájů');
 }).catch(e=>{addErr('ITF: '+e.message);});
+
+      // === BETANO ODDS ===
+var _betanoOdds = null;
+var _betanoUpdated = null;
+var _betanoUrl = null; // nastavit na URL Cloudflare Workeru
+
+function _normWords(n){
+  if(!n)return [];
+  return n.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z\s]/g,'').trim().split(/\s+/).filter(function(w){return w.length>2;});
+}
+function _getBetanoOdds(p1,p2){
+  if(!_betanoOdds||!_betanoOdds.events)return null;
+  var w1=_normWords(p1),w2=_normWords(p2);
+  var ev=_betanoOdds.events.find(function(e){
+    var ew1=_normWords(e.p1),ew2=_normWords(e.p2);
+    var m1=w1.some(function(w){return ew1.indexOf(w)>=0||ew2.indexOf(w)>=0;});
+    var m2=w2.some(function(w){return ew1.indexOf(w)>=0||ew2.indexOf(w)>=0;});
+    var s1=w1.some(function(w){return ew1.indexOf(w)>=0;});
+    var s2=w2.some(function(w){return ew2.indexOf(w)>=0;});
+    var s3=w1.some(function(w){return ew2.indexOf(w)>=0;});
+    var s4=w2.some(function(w){return ew1.indexOf(w)>=0;});
+    return (s1&&s2)||(s3&&s4);
+  });
+  if(!ev)return null;
+  var ew1=_normWords(ev.p1);
+  var match1=w1.some(function(w){return ew1.indexOf(w)>=0;});
+  if(match1)return{o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2,url:ev.url};
+  return{o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1,url:ev.url};
+}
+
+async function _loadBetanoOdds(){
+  if(!_betanoUrl)return;
+  try{
+    var r=await fetch(_betanoUrl+'?t='+Date.now());
+    if(!r.ok)return;
+    _betanoOdds=await r.json();
+    _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+    var _mwEl=sh.getElementById('mw');if(_mwEl&&_mwEl.render)_mwEl.render();
+  }catch(e){}
+}
+
+function _betanoCol(p1, p2){
+  var odds=_getBetanoOdds(p1,p2);
+  if(!_betanoUrl)return '';
+  var o1=odds?odds.o1:'?', o2=odds?odds.o2:'?';
+  var s1=odds&&odds.s1, s2=odds&&odds.s2;
+  var c1=s1?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
+  var c2=s2?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
+  return '<div style="position:absolute;left:460px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:48px;gap:3px;">'
+    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+o1+'</div>'
+    +'<div style="font-size:10px;color:rgba(255,255,255,.25);line-height:1;">BET</div>'
+    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+o2+'</div>'
+    +'</div>';
+}
+// === KONEC BETANO ODDS ===
+// v1774972461964
 
 })();
