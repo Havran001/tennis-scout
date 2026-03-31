@@ -2031,6 +2031,8 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
   return wrap;
 }
 
+  })();
+
 function buildUI(){
   document.getElementById('ts-host')?.remove();
   var host=document.createElement('div');host.id='ts-host';
@@ -2368,7 +2370,6 @@ function buildUI(){
       }
       window._importFailed=[];nx(0);
     });
-  })();
 window._tsData=[];
       var _ui=buildUI(),host=_ui.host,sh=_ui.sh,body=_ui.body,mnav=_ui.mnav,goView=_ui.goView;
   
