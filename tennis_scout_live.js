@@ -2512,7 +2512,7 @@ var _betanoUpdated = null;
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'';
 var _betanoOdds=null,_betanoUpdated=null;var _betanoPrevOdds=null;
 var _bsUrl=_betanoUrl.replace('/odds','/scrape');
-if(_betanoUrl){fetch(_bsUrl).then(function(){_loadBetanoOdds();});setInterval(function(){fetch(_bsUrl).then(function(){_loadBetanoOdds();});},30000);}
+if(_betanoUrl){var _runBetano=function(){fetch(_bsUrl).catch(function(){}).then(function(){_loadBetanoOdds();});};_runBetano();setInterval(_runBetano,30000);}
 
 function _normName(n){
   if(!n)return '';
