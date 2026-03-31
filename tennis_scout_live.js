@@ -2441,7 +2441,7 @@ function setupRender({sh,body,mnav}){
 
 // ── MAIN ────────────────────────────────────────────────────
 window._tsData=[];
-var _ui=buildUI(),host=_ui.host,sh=_ui.sh,body=_ui.body,mnav=_ui.mnav,goView=_ui.goView;;
+var _ui=buildUI(),host=_ui.host,sh=_ui.sh,body=_ui.body,mnav=_ui.mnav,goView=_ui.goView;
   
 // Djokovic photo from Wikipedia API
 (async()=>{try{
