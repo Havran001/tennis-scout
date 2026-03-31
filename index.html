@@ -13,7 +13,7 @@
     // Primárně přes GitHub API s tokenem - vždy aktuální verze
     var gh=localStorage.getItem('ts_gh_token')||'';
     var headers=gh?{'Authorization':'token '+gh}:{};
-    var r=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js',{headers:headers,cache:'no-store'});
+    var r=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js?_='+Date.now(),{headers:headers,cache:'no-store'});
     var d=await r.json();
     if(!d.content) throw new Error('no content');
     var binary=atob(d.content.replace(/\n/g,''));
