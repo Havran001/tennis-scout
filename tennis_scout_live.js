@@ -1951,7 +1951,7 @@ function renderMatches(data){
             if(ns>1)h+='<div style="width:1px;background:rgba(255,255,255,.2);align-self:stretch;margin:0 1px;flex-shrink:0;"></div>';
             h+='<div style="text-align:center;min-width:28px;background:transparent;border:1px solid transparent;border-radius:4px;padding:2px 4px;margin-left:1px;">';
             h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv1+'</div>';
-            h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ffffff;">'+cv2+'</div>';
+            h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv2+'</div>';
             h+='</div>';
             if(m.game1!==''&&m.game2!==''){
               h+='<div style="text-align:center;min-width:28px;background:'+(isZero?'rgba(255,255,255,.05)':'transparent')+';border:1px solid '+(isZero?'rgba(255,255,255,.1)':'transparent')+';border-radius:4px;padding:1px 4px;margin-left:2px;">';
