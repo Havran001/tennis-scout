@@ -2507,7 +2507,6 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   console.log('🎾 Tennis Scout v'+VERSION+' — '+window._tsData.length+' turnájů');
 }).catch(e=>{addErr('ITF: '+e.message);});
 
-})();
 // === BETANO ODDS ===
 var _betanoOdds = null;
 var _betanoUpdated = null;
@@ -2557,3 +2556,5 @@ function _betanoCol(p1, p2){
 // === KONEC BETANO ODDS ===
 
 
+
+})();
