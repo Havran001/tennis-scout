@@ -2357,7 +2357,7 @@ function buildUI(){
               {method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(bd)})
             .then(function(pr){if(pr.ok){im++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → '+p.full_name+' ('+ms.length+')';}else{pr.json().then(function(e){console.error('GH PUT failed: '+p.full_name+' ('+p.id+') '+e.message);window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): '+e.message);});er++;}dn++;setTimeout(function(){nx(i+1);},2000);});
           });
-        }).catch(function(e){window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): network error');er++;dn++;setTimeout(function(){nx(i+1);},300);});
+          }).catch(function(e){window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): network error');er++;dn++;setTimeout(function(){nx(i+1);},500);});
       }
       window._importFailed=[];nx(0);
     });
