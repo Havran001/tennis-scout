@@ -2512,7 +2512,7 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
 // === BETANO ODDS ===
 var _betanoOdds = null;
 var _betanoUpdated = null;
-// _betanoUrl je inicializován níže po buildUI()
+var _betanoUrl=localStorage.getItem('ts_betano_url')||'';
 
 function _normName(n){
   if(!n)return '';
