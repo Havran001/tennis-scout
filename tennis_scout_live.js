@@ -2510,7 +2510,7 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
 var _betanoOdds = null;
 var _betanoUpdated = null;
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'';
-var _betanoOdds=null,_betanoUpdated=null;var _betanoPrevOdds=null;
+var _betanoOdds=null,_betanoUpdated=null;var _betanoBaseOdds=null;
 var _bsUrl=_betanoUrl.replace('/odds','/scrape');
 if(_betanoUrl){var _runBetano=function(){fetch(_bsUrl).catch(function(){}).then(function(){_loadBetanoOdds();});};_runBetano();setInterval(_runBetano,30000);}
 
@@ -2537,14 +2537,14 @@ async function _loadBetanoOdds(){
   try{
     var r=await fetch(_betanoUrl+'?t='+Date.now());
     if(!r.ok)return;
-    _betanoPrevOdds=_betanoOdds;_betanoOdds=await r.json();
+    _betanoOdds=await r.json();if(!_betanoBaseOdds)_betanoBaseOdds=_betanoOdds;
     _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
     if(typeof renderMatches==='function'&&_lastData)renderMatches(_lastData);
   }catch(e){}
 }
 
 function _betanoCol(p1, p2){
-  var odds=_getBetanoOdds(p1,p2),prevOdds=_betanoPrevOdds?_getBetanoOdds(p1,p2,_betanoPrevOdds):null;
+  var odds=_getBetanoOdds(p1,p2),prevOdds=_betanoBaseOdds?_getBetanoOdds(p1,p2,_betanoBaseOdds):null;
   if(!_betanoUrl)return '';
   var o1=odds?odds.o1:'?',o2=odds?odds.o2:'?';
   var a1='',a2='';
