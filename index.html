@@ -10,7 +10,6 @@
 (async function(){
   var code;
   try {
-    // Primárně přes GitHub API s tokenem - vždy aktuální verze
     var gh=localStorage.getItem('ts_gh_token')||'';
     var headers=gh?{'Authorization':'token '+gh}:{};
     var r=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js?_='+Date.now(),{headers:headers,cache:'no-store'});
@@ -21,8 +20,7 @@
     for(var i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);
     code=new TextDecoder('utf-8').decode(bytes);
   } catch(e) {
-    // Fallback přes raw
-    var r2=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?nocache='+Date.now()+'&r='+Math.random(),{cache:'no-store'});
+    var r2=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?_='+Date.now(),{cache:'no-store'});
     code=await r2.text();
   }
   eval(code);
