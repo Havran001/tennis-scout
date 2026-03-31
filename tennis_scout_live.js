@@ -1854,7 +1854,7 @@ function renderMatches(data){
 
     var h='<div style="padding:0 20px 60px;">';
     h+='<div style="display:flex;align-items:center;gap:6px;padding:12px 0 10px;border-bottom:1px solid rgba(255,255,255,.06);">';
-    [{d:-1,l:'Včera'},{d:0,l:'Dnes'},{d:1,l:'Zítra'}].forEach(function(x){
+    [{d:-1,l:'Včera'},{d:0,l:'Dnes'},{d:1,l:'Zítra'},{d:2,l:'+2 dny'},{d:3,l:'+3 dny'}].forEach(function(x){
       var on=activeDay.indexOf(x.d)>=0;
       h+='<button data-day="'+x.d+'" style="padding:5px 16px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.1)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.4)')+';font-size:12px;cursor:pointer;font-weight:'+(on?700:400)+';">'+x.l+'</button>';
     });
