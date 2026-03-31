@@ -2300,7 +2300,7 @@ function buildUI(){
       prog.innerHTML=window._tsProgress='Start: '+pl.length+' hr\u00e1\u010d\u016f...';
       var dn=0,im=0,sk=0,er=0,tot=pl.length;
       function nx(i){
-        if(i>=tot){prog.innerHTML=window._tsProgress='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb';self.disabled=false;self.textContent='\u2705 Dokon\u010deno';return;}
+        if(i>=tot){prog.innerHTML=window._tsProgress='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb'+(window._importFailed&&window._importFailed.length?'<br><small style="color:#f87171">Chyby: '+window._importFailed.join(', ')+'</small>':'');self.disabled=false;self.textContent='\u2705 Dokon\u010deno';return;}
         var p=pl[i];if(!p||!p.id||!p.full_name){sk++;dn++;nx(i+1);return;}
         var ln=(p.full_name||'').split(' ').pop(),ta=nN(p.full_name);
         fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',{headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}})
