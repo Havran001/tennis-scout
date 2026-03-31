@@ -2538,6 +2538,7 @@ async function _loadBetanoOdds(){
     if(!r.ok)return;
     _betanoOdds=await r.json();
     _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+    if(_lastData)renderMatches(_lastData);
   }catch(e){}
 }
 
