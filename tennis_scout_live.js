@@ -2436,10 +2436,6 @@ function setupRender({sh,body,mnav}){
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
 
-// Betano init
-var _bsu=(_betanoUrl||'').replace('/odds','/scrape');
-if(_betanoUrl&&_bsu){fetch(_bsu).then(function(){_loadBetanoOdds();});setInterval(function(){fetch(_bsu).then(function(){_loadBetanoOdds();});},30000);}
-  
 // Djokovic photo from Wikipedia API
 (async()=>{try{
   const _wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Rafael_Nadal');
@@ -2513,6 +2509,9 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
 var _betanoOdds = null;
 var _betanoUpdated = null;
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'';
+var _betanoOdds=null,_betanoUpdated=null;
+var _bsUrl=_betanoUrl.replace('/odds','/scrape');
+if(_betanoUrl){fetch(_bsUrl).then(function(){_loadBetanoOdds();});setInterval(function(){fetch(_bsUrl).then(function(){_loadBetanoOdds();});},30000);}
 
 function _normName(n){
   if(!n)return '';
