@@ -1859,9 +1859,7 @@ function renderMatches(data){
     if(activeFormat==='doubles')shown=shown.filter(function(m){return (m.tournament||'').toUpperCase().includes('DOUBLES');});
     if(activeSort==='time')shown=shown.slice().sort(function(a,b){return (a.ts||0)-(b.ts||0);});
 
-            var h='<div style="padding:0 20px 60px;position:relative;">';
-            if(_betanoUrl){h+='<div style="position:absolute;top:0;left:483px;display:flex;flex-direction:column;align-items:center;gap:2px;pointer-events:none;z-index:1;">' +
-              '<div style="font-size:9px;font-weight:700;color:rgba(255,255,255,.5);background:rgba(0,0,0,.3);border-radius:4px 4px 0 0;padding:2px 6px;white-space:nowrap;letter-spacing:.5px;">BETANO</div>' +
+            var h='<div style="padding:0 20px 60px;">';
               '</div>';}
     h+='<div style="display:flex;align-items:center;gap:6px;padding:12px 0 10px;border-bottom:1px solid rgba(255,255,255,.06);">';
     [{d:-1,l:'Včera'},{d:0,l:'Dnes'},{d:1,l:'Zítra'},{d:2,l:'+2 dny'},{d:3,l:'+3 dny'}].forEach(function(x){
