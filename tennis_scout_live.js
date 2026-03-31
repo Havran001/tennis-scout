@@ -1949,14 +1949,14 @@ function renderMatches(data){
             var cv1=(m.sets1||[])[ns-1]||'0',cv2=(m.sets2||[])[ns-1]||'0';
             var isZero=m.game1==='0'&&m.game2==='0'||m.game1===''||m.game2==='';
             if(ns>1)h+='<div style="width:1px;background:rgba(255,255,255,.2);align-self:stretch;margin:0 1px;flex-shrink:0;"></div>';
-            h+='<div style="text-align:center;min-width:28px;background:rgba(0,200,83,.15);border:1px solid rgba(0,200,83,.3);border-radius:4px;padding:2px 4px;margin-left:1px;">';
+            h+='<div style="text-align:center;min-width:28px;background:transparent;border:1px solid transparent;border-radius:4px;padding:2px 4px;margin-left:1px;">';
             h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ffffff;">'+cv1+'</div>';
             h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ffffff;">'+cv2+'</div>';
             h+='</div>';
             if(m.game1!==''&&m.game2!==''){
-              h+='<div style="text-align:center;min-width:28px;background:'+(isZero?'rgba(255,255,255,.05)':'rgba(0,200,83,.25)')+';border:1px solid '+(isZero?'rgba(255,255,255,.1)':'rgba(0,200,83,.5)')+';border-radius:4px;padding:1px 4px;margin-left:2px;">';
-              h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#00C853')+';">'+m.game1+'</div>';
-              h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#00C853')+';">'+m.game2+'</div>';
+              h+='<div style="text-align:center;min-width:28px;background:'+(isZero?'rgba(255,255,255,.05)':'transparent')+';border:1px solid '+(isZero?'rgba(255,255,255,.1)':'transparent')+';border-radius:4px;padding:1px 4px;margin-left:2px;">';
+              h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game1+'</div>';
+              h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game2+'</div>';
               h+='</div>';
             }
           }
