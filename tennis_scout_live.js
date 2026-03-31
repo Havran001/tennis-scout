@@ -1852,7 +1852,7 @@ function renderMatches(data){
     if(activeFormat==='doubles')shown=shown.filter(function(m){return (m.tournament||'').toUpperCase().includes('DOUBLES');});
     if(activeSort==='time')shown=shown.slice().sort(function(a,b){return (a.ts||0)-(b.ts||0);});
 
-            var h='<div style="padding:0 20px 60px;">';
+            var h='<div style="padding:0 20px 60px;position:relative;">';
     h+='<div style="display:flex;align-items:center;gap:6px;padding:12px 0 10px;border-bottom:1px solid rgba(255,255,255,.06);">';
     [{d:-1,l:'Včera'},{d:0,l:'Dnes'},{d:1,l:'Zítra'},{d:2,l:'+2 dny'},{d:3,l:'+3 dny'}].forEach(function(x){
       var on=activeDay.indexOf(x.d)>=0;
