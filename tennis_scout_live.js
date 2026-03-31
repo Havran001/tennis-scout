@@ -2516,7 +2516,7 @@ if(_betanoUrl){fetch(_bsUrl).then(function(){_loadBetanoOdds();});setInterval(fu
 function _normName(n){
   if(!n)return '';
   var p=n.trim().split(/\s+/);
-  return p[p.length-1].toLowerCase().replace(/[^a-z]/g,'');
+  var last=p[p.length-1];if(last.length<=2||last.endsWith('.'))return p[0].toLowerCase().replace(/[^a-z]/g,'');return last.toLowerCase().replace(/[^a-z]/g,'');
 }
 
 function _getBetanoOdds(p1, p2) {
