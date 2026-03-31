@@ -10,20 +10,20 @@
 (async function(){
   var code;
   try {
-    // Primárně přes raw s cache-buster
-    var r=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?t='+Date.now(),{cache:'no-store'});
-    if(!r.ok) throw new Error('raw failed');
-    code=await r.text();
-  } catch(e) {
-    // Fallback přes GitHub API s tokenem
+    // Primárně přes GitHub API s tokenem - vždy aktuální verze
     var gh=localStorage.getItem('ts_gh_token')||'';
     var headers=gh?{'Authorization':'token '+gh}:{};
-    var r2=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js',{headers:headers,cache:'no-store'});
-    var d=await r2.json();
+    var r=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js',{headers:headers,cache:'no-store'});
+    var d=await r.json();
+    if(!d.content) throw new Error('no content');
     var binary=atob(d.content.replace(/\n/g,''));
     var bytes=new Uint8Array(binary.length);
     for(var i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);
     code=new TextDecoder('utf-8').decode(bytes);
+  } catch(e) {
+    // Fallback přes raw
+    var r2=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?t='+Date.now(),{cache:'no-store'});
+    code=await r2.text();
   }
   eval(code);
 })();
