@@ -1608,8 +1608,6 @@ function buildMatchesTab(sh){
   wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
   wrap.addEventListener('click',function(e){var t=e.target.closest('.mc-plink');if(t){e.stopPropagation();_openAtpPlayer(t.dataset.pname,sh);}});
   var activeDay=[0],activeFilter='all',activeSort='tournament',activeTier='all',activeFormat='all',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
-      _betanoUrl=localStorage.getItem('ts_betano_url')||'';
-      if(_betanoUrl){var _bsu=_betanoUrl.replace('/odds','/scrape');fetch(_bsu).then(function(){_loadBetanoOdds();});setInterval(function(){fetch(_bsu).then(function(){_loadBetanoOdds();});},30000);}
   var isFS=location.hostname.includes('flashscore');
 
   var FLAGS={'USA':'🇺🇸','ESP':'🇪🇸','FRA':'🇫🇷','GER':'🇩🇪','ITA':'🇮🇹','GBR':'🇬🇧','AUS':'🇦🇺','ARG':'🇦🇷','JPN':'🇯🇵','CAN':'🇨🇦','BRA':'🇧🇷','NED':'🇳🇱','SUI':'🇨🇭','ROU':'🇷🇴','POL':'🇵🇱','CZE':'🇨🇿','AUT':'🇦🇹','GRE':'🇬🇷','BEL':'🇧🇪','SWE':'🇸🇪','NOR':'🇳🇴','DEN':'🇩🇰','SRB':'🇷🇸','KAZ':'🇰🇿','RUS':'🇷🇺','UKR':'🇺🇦','POR':'🇵🇹','CHI':'🇨🇱','MEX':'🇲🇽','RSA':'🇿🇦','IND':'🇮🇳','KOR':'🇰🇷','MAR':'🇲🇦','COL':'🇨🇴','CRO':'🇭🇷','GEO':'🇬🇪','QAT':'🇶🇦','UAE':'🇦🇪','CHN':'🇨🇳','SVK':'🇸🇰','UZB':'🇺🇿','MON':'🇲🇨','TUR':'🇹🇷','BUL':'🇧🇬','HUN':'🇭🇺','FIN':'🇫🇮','SLO':'🇸🇮','SVK':'🇸🇰','EST':'🇪🇪','LAT':'🇱🇻','LTU':'🇱🇹','NZL':'🇳🇿','AZE':'🇦🇿','ARM':'🇦🇲','GBR':'🇬🇧','MDA':'🇲🇩','BLR':'🇧🇾'};
@@ -2437,6 +2435,10 @@ function setupRender({sh,body,mnav}){
 // ── MAIN ────────────────────────────────────────────────────
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
+
+// Betano init
+var _bsu=(_betanoUrl||'').replace('/odds','/scrape');
+if(_betanoUrl&&_bsu){fetch(_bsu).then(function(){_loadBetanoOdds();});setInterval(function(){fetch(_bsu).then(function(){_loadBetanoOdds();});},30000);}
   
 // Djokovic photo from Wikipedia API
 (async()=>{try{
