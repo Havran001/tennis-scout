@@ -2512,7 +2512,7 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
 // === BETANO ODDS ===
 var _betanoOdds = null;
 var _betanoUpdated = null;
-var _betanoUrl = null; // nastavit na URL Cloudflare Workeru
+// _betanoUrl je inicializován níže po buildUI()
 
 function _normName(n){
   if(!n)return '';
