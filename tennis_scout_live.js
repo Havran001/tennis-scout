@@ -2317,7 +2317,7 @@ function buildUI(){
           .catch(function(){return fetch('https://corsproxy.io/?url='+encodeURIComponent(_taUrl));})
           .then(function(r){return r.ok?r.text():null;})
           .then(function(html){
-            if(!html){er++;dn++;setTimeout(function(){nx(i+1);},1000);return;}
+            if(!html){er++;window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): no html');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;dn++;setTimeout(function(){nx(i+1);},1000);return;}
             var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
             if(!tm||tm[1].indexOf('Player Search')>=0){sk++;dn++;setTimeout(function(){nx(i+1);},500);return;}
             var _mmx=null;try{var _ms=html.indexOf('var matchmx = [[');if(_ms>=0){var _af=html.slice(_ms+14),_em=_af.match(/\n\s+\];\n/);if(_em){var _ei=_af.indexOf(_em[0])+_em[0].length,_rw=_af.slice(0,_ei).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw)();}}}catch(e){console.error('matchmx parse',e.message);}
