@@ -2513,22 +2513,29 @@ var _betanoOdds = null;
 var _betanoUpdated = null;
 var _betanoUrl = null; // nastavit na URL Cloudflare Workeru
 
-function _normName(n){
-  if(!n)return '';
-  var p=n.trim().split(/\s+/);
-  return p[p.length-1].toLowerCase().replace(/[^a-z]/g,'');
+function _normWords(n){
+  if(!n)return [];
+  return n.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z\s]/g,'').trim().split(/\s+/).filter(function(w){return w.length>2;});
 }
-
-function _getBetanoOdds(p1, p2) {
+function _getBetanoOdds(p1,p2){
   if(!_betanoOdds||!_betanoOdds.events)return null;
-  var n1=_normName(p1), n2=_normName(p2);
+  var w1=_normWords(p1),w2=_normWords(p2);
   var ev=_betanoOdds.events.find(function(e){
-    return (e.p1norm===n1&&e.p2norm===n2)||(e.p1norm===n2&&e.p2norm===n1);
+    var ew1=_normWords(e.p1),ew2=_normWords(e.p2);
+    var m1=w1.some(function(w){return ew1.indexOf(w)>=0||ew2.indexOf(w)>=0;});
+    var m2=w2.some(function(w){return ew1.indexOf(w)>=0||ew2.indexOf(w)>=0;});
+    var s1=w1.some(function(w){return ew1.indexOf(w)>=0;});
+    var s2=w2.some(function(w){return ew2.indexOf(w)>=0;});
+    var s3=w1.some(function(w){return ew2.indexOf(w)>=0;});
+    var s4=w2.some(function(w){return ew1.indexOf(w)>=0;});
+    return (s1&&s2)||(s3&&s4);
   });
   if(!ev)return null;
-  // Správné pořadí kurzů
-  if(ev.p1norm===n1) return {o1:ev.odds1, o2:ev.odds2, s1:ev.suspended1, s2:ev.suspended2, url:ev.url};
-  return {o1:ev.odds2, o2:ev.odds1, s1:ev.suspended2, s2:ev.suspended1, url:ev.url};
+  var ew1=_normWords(ev.p1);
+  var match1=w1.some(function(w){return ew1.indexOf(w)>=0;});
+  if(match1)return{o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2,url:ev.url};
+  return{o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1,url:ev.url};
 }
 
 async function _loadBetanoOdds(){
