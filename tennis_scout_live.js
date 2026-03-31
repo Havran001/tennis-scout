@@ -2568,5 +2568,4 @@ function _betanoCol(p1, p2){
     +'</div>';
 }
 // === KONEC BETANO ODDS ===
-
-
+// v1774972461964
