@@ -2552,7 +2552,7 @@ function _betanoCol(p1, p2){
   var c2=s2?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
   return '<div style="position:absolute;left:460px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:48px;gap:3px;">'
     +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+o1+'</div>'
-    +'<div style="font-size:10px;color:rgba(255,255,255,.25);line-height:1;">BET</div>'
+    
     +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+o2+'</div>'
     +'</div>';
 }
