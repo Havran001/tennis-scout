@@ -2051,7 +2051,7 @@ function buildUI(){
         <span class="nav-icon">🏆</span> Turnaje
         <span class="nav-badge" id="nav-count">795</span>
       </div>
-      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">🎾</span> Zápasy
+      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">🎾</span> Zápasy</div><div class="nav-item" data-view="matches_backup" id="nav-matches-backup"><span class="nav-icon">🔒</span> Záp. záloha
         <span class="nav-badge" id="nav-matches-count"></span>
       </div><div class="nav-item" data-view="players" id="nav-players">
         <span class="nav-icon">👤</span> Hráči ATP
@@ -2215,6 +2215,7 @@ function buildUI(){
     var _pp=sh.getElementById('player-page');
     if(_pp)_pp.remove();
     if(view==='matches'){sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));sh.getElementById('nav-matches')?.classList.add('active');sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');['pw','home-view','filterbar','mnav'].forEach(id=>{var e=sh.getElementById(id);if(e)e.style.display='none';});var mwx=sh.getElementById('mw');if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}return;}
+      if(view==='matches_backup'){sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));sh.getElementById('nav-matches-backup')?.classList.add('active');sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');['pw','home-view','filterbar','mnav'].forEach(id=>{var e=sh.getElementById(id);if(e)e.style.display='none';});var mwx=sh.getElementById('mw');if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}return;}
     // Update sidebar
     var _mw=sh.getElementById('mw');if(_mw)_mw.style.display='none';var _mn=sh.getElementById('main');if(_mn)_mn.style.overflow='hidden';
     sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
