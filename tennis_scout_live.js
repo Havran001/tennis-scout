@@ -1608,6 +1608,8 @@ function buildMatchesTab(sh){
   wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
   wrap.addEventListener('click',function(e){var t=e.target.closest('.mc-plink');if(t){e.stopPropagation();_openAtpPlayer(t.dataset.pname,sh);}});
   var activeDay=[0],activeFilter='all',activeSort='tournament',activeTier='all',activeFormat='all',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
+      _betanoUrl=localStorage.getItem('ts_betano_url')||'';
+      if(_betanoUrl){_loadBetanoOdds();setInterval(function(){_loadBetanoOdds();},30000);}
   var isFS=location.hostname.includes('flashscore');
 
   var FLAGS={'USA':'🇺🇸','ESP':'🇪🇸','FRA':'🇫🇷','GER':'🇩🇪','ITA':'🇮🇹','GBR':'🇬🇧','AUS':'🇦🇺','ARG':'🇦🇷','JPN':'🇯🇵','CAN':'🇨🇦','BRA':'🇧🇷','NED':'🇳🇱','SUI':'🇨🇭','ROU':'🇷🇴','POL':'🇵🇱','CZE':'🇨🇿','AUT':'🇦🇹','GRE':'🇬🇷','BEL':'🇧🇪','SWE':'🇸🇪','NOR':'🇳🇴','DEN':'🇩🇰','SRB':'🇷🇸','KAZ':'🇰🇿','RUS':'🇷🇺','UKR':'🇺🇦','POR':'🇵🇹','CHI':'🇨🇱','MEX':'🇲🇽','RSA':'🇿🇦','IND':'🇮🇳','KOR':'🇰🇷','MAR':'🇲🇦','COL':'🇨🇴','CRO':'🇭🇷','GEO':'🇬🇪','QAT':'🇶🇦','UAE':'🇦🇪','CHN':'🇨🇳','SVK':'🇸🇰','UZB':'🇺🇿','MON':'🇲🇨','TUR':'🇹🇷','BUL':'🇧🇬','HUN':'🇭🇺','FIN':'🇫🇮','SLO':'🇸🇮','SVK':'🇸🇰','EST':'🇪🇪','LAT':'🇱🇻','LTU':'🇱🇹','NZL':'🇳🇿','AZE':'🇦🇿','ARM':'🇦🇲','GBR':'🇬🇧','MDA':'🇲🇩','BLR':'🇧🇾'};
@@ -1901,6 +1903,7 @@ function renderMatches(data){
           if(isLive){var cv1T=(m.sets1||[])[ns-1]||'0',cv2T=(m.sets2||[])[ns-1]||'0';var isZeroT=m.game1==='0'&&m.game2==='0'||m.game1===''||m.game2==='';if(ns>1)h+='<div style="width:1px;background:rgba(255,255,255,.2);align-self:stretch;margin:0 1px;flex-shrink:0;"></div>';h+='<div style="text-align:center;min-width:28px;padding:2px 4px;margin-left:1px;"><div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv1T+'</div><div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv2T+'</div></div>';if(m.game1!==''&&m.game2!==''){h+='<div style="text-align:center;min-width:28px;padding:1px 4px;margin-left:2px;"><div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZeroT?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game1+'</div><div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZeroT?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game2+'</div></div>';}}
           h+='</div>';
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 6px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block;"><rect width="100" height="100" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
+            h+=_betanoCol(m.p1,m.p2);
           h+='</div></div>';
         });
       } else {
@@ -1963,6 +1966,7 @@ function renderMatches(data){
           h+='</div>';
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;text-decoration:none;">';
           h+='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block"><rect width="100" height="100" rx="16" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
+            h+=_betanoCol(m.p1,m.p2);
           h+='</div></div>';
         });
       });
@@ -2504,3 +2508,52 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
 }).catch(e=>{addErr('ITF: '+e.message);});
 
 })();
+// === BETANO ODDS ===
+var _betanoOdds = null;
+var _betanoUpdated = null;
+var _betanoUrl = null; // nastavit na URL Cloudflare Workeru
+
+function _normName(n){
+  if(!n)return '';
+  var p=n.trim().split(/\s+/);
+  return p[p.length-1].toLowerCase().replace(/[^a-z]/g,'');
+}
+
+function _getBetanoOdds(p1, p2) {
+  if(!_betanoOdds||!_betanoOdds.events)return null;
+  var n1=_normName(p1), n2=_normName(p2);
+  var ev=_betanoOdds.events.find(function(e){
+    return (e.p1norm===n1&&e.p2norm===n2)||(e.p1norm===n2&&e.p2norm===n1);
+  });
+  if(!ev)return null;
+  // Správné pořadí kurzů
+  if(ev.p1norm===n1) return {o1:ev.odds1, o2:ev.odds2, s1:ev.suspended1, s2:ev.suspended2, url:ev.url};
+  return {o1:ev.odds2, o2:ev.odds1, s1:ev.suspended2, s2:ev.suspended1, url:ev.url};
+}
+
+async function _loadBetanoOdds(){
+  if(!_betanoUrl)return;
+  try{
+    var r=await fetch(_betanoUrl+'?t='+Date.now());
+    if(!r.ok)return;
+    _betanoOdds=await r.json();
+    _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+  }catch(e){}
+}
+
+function _betanoCol(p1, p2){
+  var odds=_getBetanoOdds(p1,p2);
+  if(!_betanoUrl)return '';
+  var o1=odds?odds.o1:'?', o2=odds?odds.o2:'?';
+  var s1=odds&&odds.s1, s2=odds&&odds.s2;
+  var c1=s1?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
+  var c2=s2?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
+  return '<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:48px;flex-shrink:0;gap:3px;border-left:1px solid rgba(255,255,255,.06);padding-left:8px;">'
+    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+o1+'</div>'
+    +'<div style="font-size:10px;color:rgba(255,255,255,.25);line-height:1;">BET</div>'
+    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+o2+'</div>'
+    +'</div>';
+}
+// === KONEC BETANO ODDS ===
+
+
