@@ -1391,7 +1391,7 @@ function _renderMatches(){
             modal.querySelector("#mh-cmt-modal-cancel").addEventListener("click",function(){modal.style.display="none";sh._cmtMid=null;});
             // overlay click removed - pointer-events:none on overlay
             modal.querySelector("#mh-cmt-modal-text").addEventListener("keydown",function(e){
-              if(e.key==="Escape"){modal.style.display="none";sh._cmtMid=null;}
+              if(e.key==="Escape"){e.stopPropagation();e.preventDefault();modal.style.display="none";sh._cmtMid=null;}
               if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))modal.querySelector("#mh-cmt-modal-save").click();
             });
           }
