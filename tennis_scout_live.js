@@ -1103,7 +1103,7 @@ sh.addEventListener("click",function(e){
           }else{
             _mSec.style.cssText='display:none;flex:1;padding:28px 32px;';
           }
-          if(which==='matches'){_loadMatchHistory(pid,pname,sh);}
+          if(which==='matches'){var _cm=sh.getElementById('mh-cmt-modal');if(_cm)_cm.style.display='none';sh._cmtMid=null;_loadMatchHistory(pid,pname,sh);}
         });
       });
 
