@@ -1353,7 +1353,7 @@ function _renderMatches(){
               listEl.innerHTML=hm;
         // == KOMENTÁŘE ==
         (function initCmt(){
-          // Vytvoř modal dynamicky v shadow root pokud neexistuje
+          // Modal - vytvoř jednou, pak reuse
           var modal=sh.getElementById("mh-cmt-modal");
           if(!modal){
             modal=document.createElement("div");
@@ -1368,40 +1368,24 @@ function _renderMatches(){
               +'<button id="mh-cmt-modal-save" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;font-size:12px;font-weight:600;padding:7px 16px;border-radius:6px;cursor:pointer;">Ulo\u017eit</button>'
               +'</div></div>';
             sh.appendChild(modal);
-          }
-          var modalMatch=modal.querySelector("#mh-cmt-modal-match");
-          var modalText=modal.querySelector("#mh-cmt-modal-text");
-          var modalSave=modal.querySelector("#mh-cmt-modal-save");
-          var modalCancel=modal.querySelector("#mh-cmt-modal-cancel");
-          var _curMid=null;
-          function openModal(mid,matchLabel){
-            _curMid=mid;
-            if(modalMatch)modalMatch.textContent=matchLabel||"";
-            if(modalText)modalText.value=localStorage.getItem("ts_mc_"+mid)||"";
-            modal.style.display="flex";
-            setTimeout(function(){if(modalText)modalText.focus();},50);
-          }
-          function closeModal(){modal.style.display="none";_curMid=null;}
-          // Uložit
-          if(!modalSave._cmtBound){
-            modalSave._cmtBound=true;
-            modalSave.addEventListener("click",function(){
-              if(!_curMid)return;
-              var val=modalText?modalText.value.trim():"";
-              if(val)localStorage.setItem("ts_mc_"+_curMid,val);
-              else localStorage.removeItem("ts_mc_"+_curMid);
-              var b=listEl.querySelector(".mh-cmt-btn[data-mid=\""+_curMid+"\"]");
+            // Listenery přidej JEDNOU na modal - ukazují na sh._cmtMid
+            sh._cmtMid=null;
+            modal.querySelector("#mh-cmt-modal-save").addEventListener("click",function(){
+              var mid=sh._cmtMid; if(!mid)return;
+              var val=modal.querySelector("#mh-cmt-modal-text").value.trim();
+              if(val)localStorage.setItem("ts_mc_"+mid,val); else localStorage.removeItem("ts_mc_"+mid);
+              var b=sh.querySelector(".mh-cmt-btn[data-mid=\""+mid+"\"]");
               if(b){b.classList.toggle("has-comment",!!val);b.title=val?"\uD83D\uDCDD "+val.slice(0,40):"Koment\u00e1\u0159";}
-              closeModal();
+              modal.style.display="none"; sh._cmtMid=null;
             });
-            modalCancel.addEventListener("click",closeModal);
-            modal.addEventListener("click",function(e){if(e.target===modal)closeModal();});
-            modalText.addEventListener("keydown",function(e){
-              if(e.key==="Escape")closeModal();
-              if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))modalSave.click();
+            modal.querySelector("#mh-cmt-modal-cancel").addEventListener("click",function(){modal.style.display="none";sh._cmtMid=null;});
+            modal.addEventListener("click",function(e){if(e.target===modal){modal.style.display="none";sh._cmtMid=null;}});
+            modal.querySelector("#mh-cmt-modal-text").addEventListener("keydown",function(e){
+              if(e.key==="Escape"){modal.style.display="none";sh._cmtMid=null;}
+              if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))modal.querySelector("#mh-cmt-modal-save").click();
             });
           }
-          // Init tlačítek
+          // Pro každý přechod na hráče — přidej listenery na nové .mh-cmt-btn
           listEl.querySelectorAll(".mh-cmt-btn").forEach(function(btn){
             var mid=btn.dataset.mid;
             if(mid&&localStorage.getItem("ts_mc_"+mid)){
@@ -1410,14 +1394,17 @@ function _renderMatches(){
             }
             btn.addEventListener("click",function(e){
               e.stopPropagation();
+              sh._cmtMid=mid;
               var row=btn.closest("tr");
               var cells=row?Array.from(row.querySelectorAll("td")):[];
               var date=cells[2]?cells[2].textContent.trim():"";
               var opp=cells[9]?cells[9].textContent.trim():"";
               var score=cells[10]?cells[10].textContent.trim():"";
               var wl=cells[0]?cells[0].textContent.trim():"";
-              var label=(wl?wl+" \u2022 ":"")+(date?date+" \u2022 ":"")+opp+(score?" \u2022 "+score:"");
-              openModal(mid,label);
+              modal.querySelector("#mh-cmt-modal-match").textContent=(wl?wl+" \u2022 ":"")+(date?date+" \u2022 ":"")+opp+(score?" \u2022 "+score:"");
+              modal.querySelector("#mh-cmt-modal-text").value=localStorage.getItem("ts_mc_"+mid)||"";
+              modal.style.display="flex";
+              setTimeout(function(){modal.querySelector("#mh-cmt-modal-text").focus();},50);
             });
           });
         })();
