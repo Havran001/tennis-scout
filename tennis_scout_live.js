@@ -1318,7 +1318,7 @@ function _renderMatches(){
               var lvl=m.tournament&&(m.tournament.endsWith(' CH')||m.tournament.includes(' CH '))?'CH':m.tournament&&(/\bF\d+\b|M25|M15|ITF/.test(m.tournament))?'ITF':'ATP';
               var lvlStyle=lvl==='ATP'?'color:#38bdf8;font-weight:900;font-size:12px;':lvl==='CH'?'color:#facc15;font-weight:900;font-size:12px;':'color:#c084fc;font-weight:900;font-size:12px;';
               tbody+=[
-                '<tr>',
+        '<tr class="mh-match-row" data-mid="'+pid+'_'+(m.date||'')+'_'+(m.opponent||'').replace(/[^a-zA-Z]/g,'').slice(0,15)+'">',
                 '<td class="'+wlCls+'">'+(m.result||'')+'</td>',
                 '<td style="'+lvlStyle+'">'+lvl+'</td>',
                 '<td>'+dd+'</td>',
@@ -1338,8 +1338,10 @@ function _renderMatches(){
                 '<td class="ta-num">'+(m.first_pct||'')+'</td>',
                 '<td class="ta-num">'+(m.second_pct||'')+'</td>',
                 '<td class="ta-num">'+(m.bp_saved||'')+'</td>',
-                '<td class="ta-num">'+(m.match_time||'')+'</td>',
-                '</tr>'
+        '<td class="ta-num">'+(m.match_time||'')+'</td>',
+        '<td class="mh-comment-cell" style="padding:4px 6px;"><button class="mh-comment-btn" title="Přidat komentář" style="background:none;border:none;cursor:pointer;font-size:13px;opacity:0.4;padding:2px 4px;border-radius:3px;transition:opacity .15s;">💬</button></td>',
+        '</tr>',
+        '<tr class="mh-comment-tr" data-mid="'+pid+'_'+(m.date||'')+'_'+(m.opponent||'').replace(/[^a-zA-Z]/g,'').slice(0,15)+'" style="display:none;"><td colspan="20" style="padding:0 8px 6px 8px;"><div style="display:flex;gap:6px;align-items:center;"><input class="mh-comment-input" type="text" placeholder="Komentář k zápasu..." style="flex:1;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:4px;color:#e6edf3;font-size:12px;padding:5px 8px;outline:none;"/><button class="mh-comment-save" style="background:#238636;border:none;color:#fff;font-size:11px;font-weight:600;padding:5px 10px;border-radius:4px;cursor:pointer;">Uložit</button></div><div class="mh-comment-display" style="font-size:12px;color:rgba(255,255,255,.6);margin-top:3px;font-style:italic;"></div></td></tr>'
               ].join('');
             });
             tbody+='</tbody>';
@@ -1348,6 +1350,56 @@ function _renderMatches(){
             var listEl=sec.querySelector('#mh-list');
             if(listEl){
               listEl.innerHTML=hm;
+
+        // === KOMENTÁŘE ===
+        listEl.querySelectorAll('.mh-comment-btn').forEach(function(btn){
+          var matchRow=btn.closest('.mh-match-row');
+          var mid=matchRow&&matchRow.dataset.mid;
+          if(!mid)return;
+          // Načti existující komentář
+          var existing=localStorage.getItem('ts_mc_'+mid)||'';
+          if(existing){
+            var commentTr=listEl.querySelector('.mh-comment-tr[data-mid="'+mid+'"]');
+            if(commentTr){
+              commentTr.style.display='';
+              commentTr.querySelector('.mh-comment-input').value=existing;
+              commentTr.querySelector('.mh-comment-display').textContent=existing;
+              btn.style.opacity='1';btn.title='Komentář: '+existing.slice(0,30);
+            }
+          }
+          btn.addEventListener('click',function(e){
+            e.stopPropagation();
+            var tr=listEl.querySelector('.mh-comment-tr[data-mid="'+mid+'"]');
+            if(!tr)return;
+            var isOpen=tr.style.display!=='none';
+            tr.style.display=isOpen?'none':'';
+            if(!isOpen){tr.querySelector('.mh-comment-input').focus();}
+          });
+        });
+        listEl.querySelectorAll('.mh-comment-save').forEach(function(btn){
+          btn.addEventListener('click',function(e){
+            e.stopPropagation();
+            var tr=btn.closest('.mh-comment-tr');
+            var mid=tr&&tr.dataset.mid;
+            if(!mid)return;
+            var val=tr.querySelector('.mh-comment-input').value.trim();
+            if(val){localStorage.setItem('ts_mc_'+mid,val);}else{localStorage.removeItem('ts_mc_'+mid);}
+            tr.querySelector('.mh-comment-display').textContent=val;
+            tr.style.display='none';
+            var matchRow=listEl.querySelector('.mh-match-row[data-mid="'+mid+'"]');
+            var bBtn=matchRow&&matchRow.querySelector('.mh-comment-btn');
+            if(bBtn){bBtn.style.opacity=val?'1':'0.4';bBtn.title=val?'Komentář: '+val.slice(0,30):'Přidat komentář';}
+          });
+        });
+        listEl.querySelectorAll('.mh-comment-input').forEach(function(inp){
+          inp.addEventListener('keydown',function(e){
+            if(e.key==='Enter'){e.preventDefault();inp.closest('.mh-comment-tr').querySelector('.mh-comment-save').click();}
+            if(e.key==='Escape'){inp.closest('.mh-comment-tr').style.display='none';}
+          });
+          e.stopPropagation&&e.stopPropagation();
+          inp.addEventListener('click',function(e){e.stopPropagation();});
+        });
+        // === KONEC KOMENTÁŘŮ ===
               listEl.querySelectorAll('th[data-sort]').forEach(function(th){
                 th.addEventListener('click',function(){
                   var k=this.getAttribute('data-sort');
