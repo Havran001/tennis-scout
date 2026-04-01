@@ -1049,18 +1049,7 @@ function buildPlayersTab(sh){
           +'<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; Načítám historii zápasů...</div>'
 
 
-// Modal pro komentáře k zápasům
-var modalHTML='<div id="mh-cmt-modal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);align-items:center;justify-content:center;">'
-+'<div style="background:#161b22;border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px;width:480px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.8);">'
-+'<div style="font-size:11px;color:rgba(255,255,255,.35);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Koment\u00e1\u0159 k z\u00e1pasu</div>'
-+'<div id="mh-cmt-modal-match" style="font-size:13px;color:rgba(255,255,255,.5);margin-bottom:14px;padding:8px 10px;background:rgba(255,255,255,.04);border-radius:6px;"></div>'
-+'<textarea id="mh-cmt-modal-text" placeholder="Koment\u00e1\u0159 k z\u00e1pasu..." style="width:100%;min-height:100px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:10px 12px;outline:none;resize:vertical;line-height:1.6;box-sizing:border-box;"></textarea>'
-+'<div style="display:flex;gap:8px;margin-top:12px;justify-content:flex-end;">'
-+'<button id="mh-cmt-modal-cancel" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.6);font-size:12px;padding:7px 16px;border-radius:6px;cursor:pointer;">Zru\u0161it</button>'
-+'<button id="mh-cmt-modal-save" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;font-size:12px;font-weight:600;padding:7px 16px;border-radius:6px;cursor:pointer;">Ulo\u017eit</button>'
-+'</div></div></div>';
-
-      pg.innerHTML=headerHTML+notesHTML+matchesHTML+modalHTML;
+      pg.innerHTML=headerHTML+notesHTML+matchesHTML;
       sh.appendChild(pg);
 
       // ── FETCH PHOTO ───────────────────────────────────────
@@ -1363,48 +1352,71 @@ function _renderMatches(){
               listEl.innerHTML=hm;
         // == KOMENTÁŘE ==
         (function initCmt(){
+          // Vytvoř modal dynamicky v shadow root pokud neexistuje
           var modal=sh.getElementById("mh-cmt-modal");
-          var modalMatch=modal&&modal.querySelector("#mh-cmt-modal-match");
-          var modalText=modal&&modal.querySelector("#mh-cmt-modal-text");
-          var modalSave=modal&&modal.querySelector("#mh-cmt-modal-save");
-          var modalCancel=modal&&modal.querySelector("#mh-cmt-modal-cancel");
+          if(!modal){
+            modal=document.createElement("div");
+            modal.id="mh-cmt-modal";
+            modal.style.cssText="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.75);backdrop-filter:blur(4px);align-items:center;justify-content:center;";
+            modal.innerHTML='<div style="background:#161b22;border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px;width:480px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.8);">'
+              +'<div style="font-size:11px;color:rgba(255,255,255,.35);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Koment\u00e1\u0159 k z\u00e1pasu</div>'
+              +'<div id="mh-cmt-modal-match" style="font-size:12px;color:rgba(255,255,255,.45);margin-bottom:12px;padding:7px 10px;background:rgba(255,255,255,.04);border-radius:6px;"></div>'
+              +'<textarea id="mh-cmt-modal-text" placeholder="Koment\u00e1\u0159 k z\u00e1pasu..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:10px 12px;outline:none;resize:vertical;line-height:1.6;box-sizing:border-box;"></textarea>'
+              +'<div style="display:flex;gap:8px;margin-top:10px;justify-content:flex-end;">'
+              +'<button id="mh-cmt-modal-cancel" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.6);font-size:12px;padding:7px 16px;border-radius:6px;cursor:pointer;">Zru\u0161it</button>'
+              +'<button id="mh-cmt-modal-save" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;font-size:12px;font-weight:600;padding:7px 16px;border-radius:6px;cursor:pointer;">Ulo\u017eit</button>'
+              +'</div></div>';
+            sh.appendChild(modal);
+          }
+          var modalMatch=modal.querySelector("#mh-cmt-modal-match");
+          var modalText=modal.querySelector("#mh-cmt-modal-text");
+          var modalSave=modal.querySelector("#mh-cmt-modal-save");
+          var modalCancel=modal.querySelector("#mh-cmt-modal-cancel");
           var _curMid=null;
           function openModal(mid,matchLabel){
             _curMid=mid;
             if(modalMatch)modalMatch.textContent=matchLabel||"";
-            var saved=localStorage.getItem("ts_mc_"+mid)||"";
-            if(modalText){modalText.value=saved;modalText.style.display="";}
-            if(modal){modal.style.display="flex";}
+            if(modalText)modalText.value=localStorage.getItem("ts_mc_"+mid)||"";
+            modal.style.display="flex";
             setTimeout(function(){if(modalText)modalText.focus();},50);
           }
-          function closeModal(){if(modal)modal.style.display="none";_curMid=null;}
-          if(modalSave)modalSave.addEventListener("click",function(){
-            if(!_curMid)return;
-            var val=modalText?modalText.value.trim():"";
-            if(val)localStorage.setItem("ts_mc_"+_curMid,val);
-            else localStorage.removeItem("ts_mc_"+_curMid);
-            var b=listEl.querySelector(".mh-cmt-btn[data-mid=\""+_curMid+"\"]");
-            if(b){b.classList.toggle("has-comment",!!val);b.title=val?"\uD83D\uDCDD "+val.slice(0,40):"Koment\u00e1\u0159";}
-            closeModal();
-          });
-          if(modalCancel)modalCancel.addEventListener("click",closeModal);
-          if(modal)modal.addEventListener("click",function(e){if(e.target===modal)closeModal();});
-          if(modalText)modalText.addEventListener("keydown",function(e){
-            if(e.key==="Escape")closeModal();
-            if(e.key==="Enter"&&(e.ctrlKey||e.metaKey)){if(modalSave)modalSave.click();}
-          });
+          function closeModal(){modal.style.display="none";_curMid=null;}
+          // Uložit
+          if(!modalSave._cmtBound){
+            modalSave._cmtBound=true;
+            modalSave.addEventListener("click",function(){
+              if(!_curMid)return;
+              var val=modalText?modalText.value.trim():"";
+              if(val)localStorage.setItem("ts_mc_"+_curMid,val);
+              else localStorage.removeItem("ts_mc_"+_curMid);
+              var b=listEl.querySelector(".mh-cmt-btn[data-mid=\""+_curMid+"\"]");
+              if(b){b.classList.toggle("has-comment",!!val);b.title=val?"\uD83D\uDCDD "+val.slice(0,40):"Koment\u00e1\u0159";}
+              closeModal();
+            });
+            modalCancel.addEventListener("click",closeModal);
+            modal.addEventListener("click",function(e){if(e.target===modal)closeModal();});
+            modalText.addEventListener("keydown",function(e){
+              if(e.key==="Escape")closeModal();
+              if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))modalSave.click();
+            });
+          }
+          // Init tlačítek
           listEl.querySelectorAll(".mh-cmt-btn").forEach(function(btn){
             var mid=btn.dataset.mid;
-            var saved=mid&&localStorage.getItem("ts_mc_"+mid);
-            if(saved){btn.classList.add("has-comment");btn.title="\uD83D\uDCDD "+saved.slice(0,40);}
+            if(mid&&localStorage.getItem("ts_mc_"+mid)){
+              btn.classList.add("has-comment");
+              btn.title="\uD83D\uDCDD "+localStorage.getItem("ts_mc_"+mid).slice(0,40);
+            }
             btn.addEventListener("click",function(e){
               e.stopPropagation();
               var row=btn.closest("tr");
-              var cells=row?row.querySelectorAll("td"):[]; 
+              var cells=row?Array.from(row.querySelectorAll("td")):[];
               var date=cells[2]?cells[2].textContent.trim():"";
               var opp=cells[9]?cells[9].textContent.trim():"";
               var score=cells[10]?cells[10].textContent.trim():"";
-              openModal(mid,(date?date+" \u2022 ":"")+opp+(score?" \u2022 "+score:""));
+              var wl=cells[0]?cells[0].textContent.trim():"";
+              var label=(wl?wl+" \u2022 ":"")+(date?date+" \u2022 ":"")+opp+(score?" \u2022 "+score:"");
+              openModal(mid,label);
             });
           });
         })();
