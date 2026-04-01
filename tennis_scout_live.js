@@ -1254,7 +1254,7 @@ function _renderMatches(){
               '.mh-dd-list.open{display:block;}',
               '.mh-dd-item{padding:5px 10px;font-size:11px;color:#e6edf3;cursor:pointer;white-space:nowrap;}',
               '.mh-dd-item:hover,.mh-dd-item.active{background:rgba(33,150,243,0.3);}' ,
-  '.mh-cmt-cell{padding:2px 6px;width:28px;position:sticky;right:0;background:#0d1117;z-index:2}.mh-cmt-btn{background:none;border:none;cursor:pointer;font-size:12px;opacity:.3;padding:1px 3px;transition:all .2s;filter:grayscale(1)}.mh-cmt-btn:hover{opacity:.7;filter:none}.mh-cmt-btn.has-comment{opacity:1;filter:none;color:#f97316}',
+  '.mh-cmt-btn{background:none;border:none;cursor:pointer;font-size:12px;opacity:.3;padding:1px 3px;transition:all .2s;filter:grayscale(1)}.mh-cmt-btn:hover{opacity:.7;filter:none}.mh-cmt-btn.has-comment{opacity:1;filter:none;color:#f97316}',
             ].join('');
             var cols=[
               {key:'result',label:'W/L',type:'sel',opts:['','W','L']},
@@ -1314,6 +1314,7 @@ function _renderMatches(){
               var _dn=(m.date||'').replace(/-/g,'');
               var dd=_dn.length>=8?_dn.slice(6,8)+'.'+_dn.slice(4,6)+'.'+_dn.slice(0,4):(m.date||'');
               var isW=m.result==='W',isL=m.result==='L';
+        var mid=pid+'_'+(m.date||'')+'_'+(m.opponent||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
               var wlCls=isW?'ta-wl-w':isL?'ta-wl-l':'';
               var sfCls=(m.surface||'')==='Clay'?'mh-surf-cl':(m.surface||'')==='Grass'?'mh-surf-gr':(m.surface||'')==='Indoor'?'mh-surf-in':'mh-surf-ha';
               var lvl=m.tournament&&(m.tournament.endsWith(' CH')||m.tournament.includes(' CH '))?'CH':m.tournament&&(/\bF\d+\b|M25|M15|ITF/.test(m.tournament))?'ITF':'ATP';
@@ -1322,7 +1323,7 @@ function _renderMatches(){
         '<tr class="mh-match-row" data-mid="'+pid+'_'+(m.date||'')+'_'+(m.opponent||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12)+'">', 
                 '<td class="'+wlCls+'">'+(m.result||'')+'</td>',
                 '<td style="'+lvlStyle+'">'+lvl+'</td>',
-                '<td>'+dd+'</td>',
+        '<td style="white-space:nowrap">'+dd+' <button class="mh-cmt-btn" data-mid="'+mid+'" title="Koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:11px;padding:0 2px;vertical-align:middle;">💬</button></td>',
                 '<td>'+_normT(m.tournament||'')+'</td>',
                 '<td class="'+sfCls+'">'+(m.surface||'')+'</td>',
                 '<td>'+(m.round||'')+'</td>',
@@ -1340,7 +1341,7 @@ function _renderMatches(){
                 '<td class="ta-num">'+(m.second_pct||'')+'</td>',
                 '<td class="ta-num">'+(m.bp_saved||'')+'</td>',
         '<td class="ta-num">'+(m.match_time||'')+'</td>',
-        '<td class="mh-cmt-cell"><button class="mh-cmt-btn" data-mid="'+pid+'_'+(m.date||'')+'_'+(m.opponent||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12)+'" title="Komentář">💬</button></td>',
+        '',
         '</tr>',
         ''
               ].join('');
