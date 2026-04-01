@@ -1368,8 +1368,8 @@ function _renderMatches(){
           if(!modal){
             modal=document.createElement("div");
             modal.id="mh-cmt-modal";
-            modal.style.cssText="display:none;position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,.75);pointer-events:none;backdrop-filter:blur(4px);align-items:center;justify-content:center;";
-            modal.innerHTML='<div style="background:#161b22;border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px;width:480px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.8);pointer-events:auto;">'
+            modal.style.cssText="display:none;position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,.75);backdrop-filter:blur(4px);align-items:center;justify-content:center;";
+            modal.innerHTML='<div style="background:#161b22;border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px;width:480px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.8);">'
               +'<div style="font-size:11px;color:rgba(255,255,255,.35);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Koment\u00e1\u0159 k z\u00e1pasu</div>'
               +'<div id="mh-cmt-modal-match" style="font-size:12px;color:rgba(255,255,255,.45);margin-bottom:12px;padding:7px 10px;background:rgba(255,255,255,.04);border-radius:6px;"></div>'
               +'<textarea id="mh-cmt-modal-text" placeholder="Koment\u00e1\u0159 k z\u00e1pasu..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:10px 12px;outline:none;resize:vertical;line-height:1.6;box-sizing:border-box;"></textarea>'
@@ -1389,7 +1389,7 @@ function _renderMatches(){
               modal.style.display="none"; sh._cmtMid=null;
             });
             modal.querySelector("#mh-cmt-modal-cancel").addEventListener("click",function(){modal.style.display="none";sh._cmtMid=null;});
-            // overlay click removed - pointer-events:none on overlay
+            modal.addEventListener("mousedown",function(e){if(e.target===modal){modal.style.display="none";sh._cmtMid=null;}});
             modal.querySelector("#mh-cmt-modal-text").addEventListener("keydown",function(e){
               if(e.key==="Escape"){e.stopPropagation();e.preventDefault();modal.style.display="none";sh._cmtMid=null;}
               if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))modal.querySelector("#mh-cmt-modal-save").click();
