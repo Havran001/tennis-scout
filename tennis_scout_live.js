@@ -1106,7 +1106,37 @@ function buildPlayersTab(sh){
         var sec=sh.getElementById('pp-matches-section');
         if(!sec)return;
   var _existingModal=sh.getElementById('mh-cmt-modal');if(_existingModal)_existingModal.style.display='none';
-        if(sec.dataset.loaded===pid)return; // already loaded for this player
+        if(sec.dataset.loaded===pid){
+          // Data cached — znovu inicializuj komentáře (mohly přibýt nové)
+          var _listEl=sec.querySelector('#mh-list');
+          if(_listEl){
+            _listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
+              var emid=ex.dataset.mid;
+              if(emid&&localStorage.getItem("ts_mc_"+emid)){ex.style.display='inline';}
+              // Odstraň staré listenery klonováním
+              var fresh=ex.cloneNode(true);
+              ex.parentNode.replaceChild(fresh,ex);
+              fresh.addEventListener("click",function(e){
+                e.stopPropagation();
+                var row=fresh.closest('tr');if(!row)return;
+                var existing=row.nextElementSibling;
+                if(existing&&existing.classList.contains('mh-cmt-preview')){existing.remove();fresh.classList.remove('open');return;}
+                var txt=localStorage.getItem("ts_mc_"+emid)||'';
+                var colCount=row.querySelectorAll('td').length;
+                var pr=document.createElement('tr');
+                pr.className='mh-cmt-preview';pr.dataset.mid=emid;
+                pr.innerHTML='<td colspan="'+colCount+'" style="padding:6px 12px 8px 40px;background:rgba(249,115,22,0.06);border-top:none;font-size:12px;color:rgba(255,255,255,0.55);font-style:italic;line-height:1.5;white-space:pre-wrap;">'+txt.replace(/</g,'&lt;')+'</td>';
+                row.parentNode.insertBefore(pr,row.nextSibling);
+                fresh.classList.add('open');
+              });
+            });
+            _listEl.querySelectorAll(".mh-cmt-btn").forEach(function(btn){
+              var mid=btn.dataset.mid;
+              if(mid&&localStorage.getItem("ts_mc_"+mid)){btn.classList.add("has-comment");btn.title="\uD83D\uDCDD "+localStorage.getItem("ts_mc_"+mid).slice(0,40);}
+            });
+          }
+          return;
+        }
         sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; Načítám...</div>';
         var RAW='https://raw.githubusercontent.com/Havran001/tennis-scout/main/';
         fetch(RAW+'player_history/'+pid+'.json?v='+Date.now())
@@ -1388,33 +1418,33 @@ function _renderMatches(){
             });
           }
           // Pro každý přechod na hráče — přidej listenery na nové .mh-cmt-btn
+          // Expand trojúhelníky — jednou mimo btn loop
+          listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
+            var emid=ex.dataset.mid;
+            if(emid&&localStorage.getItem("ts_mc_"+emid)){ex.style.display='inline';}
+            ex.addEventListener("click",function(e){
+              e.stopPropagation();
+              var row=ex.closest('tr');
+              if(!row)return;
+              var existing=row.nextElementSibling;
+              if(existing&&existing.classList.contains('mh-cmt-preview')){
+                existing.remove();ex.classList.remove('open');return;
+              }
+              var txt=localStorage.getItem("ts_mc_"+emid)||'';
+              var colCount=row.querySelectorAll('td').length;
+              var pr=document.createElement('tr');
+              pr.className='mh-cmt-preview';pr.dataset.mid=emid;
+              pr.innerHTML='<td colspan="'+colCount+'" style="padding:6px 12px 8px 40px;background:rgba(249,115,22,0.06);border-top:none;font-size:12px;color:rgba(255,255,255,0.55);font-style:italic;line-height:1.5;white-space:pre-wrap;">'+txt.replace(/</g,'&lt;')+'</td>';
+              row.parentNode.insertBefore(pr,row.nextSibling);
+              ex.classList.add('open');
+            });
+          });
           listEl.querySelectorAll(".mh-cmt-btn").forEach(function(btn){
             var mid=btn.dataset.mid;
             if(mid&&localStorage.getItem("ts_mc_"+mid)){
               btn.classList.add("has-comment");
               btn.title="\uD83D\uDCDD "+localStorage.getItem("ts_mc_"+mid).slice(0,40);
             }
-            // Expand trojúhelník — zobraz/skryj preview řádek
-            listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
-              var emid=ex.dataset.mid;
-              if(emid&&localStorage.getItem("ts_mc_"+emid)){ex.style.display='inline';}
-              ex.addEventListener("click",function(e){
-                e.stopPropagation();
-                var row=ex.closest('tr');
-                if(!row)return;
-                var existing=row.nextElementSibling;
-                if(existing&&existing.classList.contains('mh-cmt-preview')){
-                  existing.remove();ex.classList.remove('open');return;
-                }
-                var txt=localStorage.getItem("ts_mc_"+emid)||'';
-                var colCount=row.querySelectorAll('td').length;
-                var pr=document.createElement('tr');
-                pr.className='mh-cmt-preview';pr.dataset.mid=emid;
-                pr.innerHTML='<td colspan="'+colCount+'" style="padding:6px 12px 8px 40px;background:rgba(249,115,22,0.06);border-top:none;font-size:12px;color:rgba(255,255,255,0.55);font-style:italic;line-height:1.5;white-space:pre-wrap;">'+txt.replace(/</g,'&lt;')+'</td>';
-                row.parentNode.insertBefore(pr,row.nextSibling);
-                ex.classList.add('open');
-              });
-            });
             btn.addEventListener("click",function(e){
               e.stopPropagation();
               sh._cmtMid=mid;
