@@ -1052,15 +1052,7 @@ function buildPlayersTab(sh){
       pg.innerHTML=headerHTML+notesHTML+matchesHTML;
       sh.appendChild(pg);
 // Zavři comment modal při kliknutí na overlay nebo navigaci
-document.addEventListener("mousedown",function(e){
-  var modal=sh.getElementById("mh-cmt-modal");
-  if(!modal||modal.style.display==="none")return;
-  // Zavři pokud klik není uvnitř modal dialogu (.innerHTML child)  
-  var dialog=modal.firstElementChild;
-  if(dialog&&!dialog.contains(e.target)){
-    modal.style.display="none";sh._cmtMid=null;
-  }
-},true);
+// comment modal closes via overlay mousedown and player navigation
 
       // ── FETCH PHOTO ───────────────────────────────────────
       (function(){
