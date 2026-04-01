@@ -937,7 +937,7 @@ function buildPlayersTab(sh){
 
       // Remove existing player page
       var existing=sh.getElementById('player-page');
-      if(existing)existing.remove();
+      if(existing)existing.remove();var _cm2=sh.getElementById("mh-cmt-modal");if(_cm2)_cm2.style.display="none";sh._cmtMid=null;
 
       // Build full-page container
       var pg=document.createElement('div');
