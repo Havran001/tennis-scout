@@ -2549,7 +2549,7 @@ _betanoOdds=await r.json();if(!_betanoBaseOdds){_betanoBaseOdds=_betanoOdds;try{
 function _betanoCol(p1, p2){
   var odds=_getBetanoOdds(p1,p2),prevOdds=_betanoBaseOdds?_getBetanoOdds(p1,p2,_betanoBaseOdds):null;
   if(!_betanoUrl)return '';
-  var o1=odds?odds.o1:'?',o2=odds?odds.o2:'?';
+  var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';
   var a1='',a2='';
   if(odds&&prevOdds){
     var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
@@ -2617,7 +2617,7 @@ function _kbCol(p1,p2){
   if(!_kbUrl)return '';
   var odds=_getKbOdds(p1,p2);
   var prevOdds=_kbBaseOdds?_getKbOdds(p1,p2,_kbBaseOdds):null;
-  var o1=odds?odds.o1:'?',o2=odds?odds.o2:'?';
+  var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';
   var a1='',a2='';
   if(odds&&prevOdds){
     var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
