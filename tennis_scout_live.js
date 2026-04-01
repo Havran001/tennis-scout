@@ -1051,6 +1051,14 @@ function buildPlayersTab(sh){
 
       pg.innerHTML=headerHTML+notesHTML+matchesHTML;
       sh.appendChild(pg);
+// Zavři comment modal při navigaci na jiného hráče
+sh.addEventListener("click",function(e){
+  var modal=sh.getElementById("mh-cmt-modal");
+  if(!modal||modal.style.display==="none")return;
+  if(e.target.closest(".pr")||e.target.closest("#mh-f-back")||e.target.id==="mh-f-back"){
+    modal.style.display="none";sh._cmtMid=null;
+  }
+},true);
 
       // ── FETCH PHOTO ───────────────────────────────────────
       (function(){
