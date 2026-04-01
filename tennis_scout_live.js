@@ -937,7 +937,7 @@ function buildPlayersTab(sh){
 
       // Remove existing player page
       var existing=sh.getElementById('player-page');
-      if(existing)existing.remove();var _cm2=sh.getElementById("mh-cmt-modal");if(_cm2)_cm2.style.display="none";sh._cmtMid=null;
+      if(existing)existing.remove();var _cm2=sh.getElementById("mh-cmt-modal");if(_cm2)_cm2.style.display="none";
 
       // Build full-page container
       var pg=document.createElement('div');
@@ -1097,7 +1097,7 @@ function buildPlayersTab(sh){
           }else{
             _mSec.style.cssText='display:none;flex:1;padding:28px 32px;';
           }
-          if(which==='matches'){var _cm=sh.getElementById('mh-cmt-modal');if(_cm)_cm.style.display='none';sh._cmtMid=null;_loadMatchHistory(pid,pname,sh);}
+          if(which==='matches'){var _cm=sh.getElementById('mh-cmt-modal');if(_cm)_cm.style.display='none';_loadMatchHistory(pid,pname,sh);}
         });
       });
 
