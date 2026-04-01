@@ -1341,9 +1341,7 @@ function _renderMatches(){
                 '<td class="ta-num">'+(m.second_pct||'')+'</td>',
                 '<td class="ta-num">'+(m.bp_saved||'')+'</td>',
         '<td class="ta-num">'+(m.match_time||'')+'</td>',
-        '',
         '</tr>',
-        ''
               ].join('');
             });
             tbody+='</tbody>';
