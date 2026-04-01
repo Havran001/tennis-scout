@@ -1381,7 +1381,7 @@ function _renderMatches(){
               modal.style.display="none"; sh._cmtMid=null;
             });
             modal.querySelector("#mh-cmt-modal-cancel").addEventListener("click",function(){modal.style.display="none";sh._cmtMid=null;});
-            modal.addEventListener("mousedown",function(e){if(e.target===modal){modal.style.display="none";sh._cmtMid=null;}});
+            modal.addEventListener("click",function(e){if(e.target===modal){modal.style.display="none";sh._cmtMid=null;}});
             modal.querySelector("#mh-cmt-modal-text").addEventListener("keydown",function(e){
               if(e.key==="Escape"){e.stopPropagation();e.preventDefault();modal.style.display="none";sh._cmtMid=null;}
               if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))modal.querySelector("#mh-cmt-modal-save").click();
