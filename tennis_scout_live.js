@@ -1880,6 +1880,7 @@ function renderMatches(data){
     if(!shown.length){h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy</div>';}
     else{
             if(_betanoUrl){h+='<div style="height:18px;position:relative;"><div style="position:absolute;left:463px;bottom:0;width:48px;text-align:center;"><span style="font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;">BETANO</span></div></div>';}
+            if(_kbUrl){h+='<div style="position:absolute;left:543px;bottom:0;width:48px;text-align:center;"><span style="font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(30,120,60,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;">KINGS</span></div>';}
       if(activeSort==='time'){
         // Flat list sorted by time
         shown.forEach(function(m){
@@ -1903,6 +1904,7 @@ function renderMatches(data){
           h+='</div>';
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 6px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block;"><rect width="100" height="100" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
             h+=_betanoCol(m.p1,m.p2);
+      h+=_kbCol(m.p1,m.p2);
           h+='</div></div>';
         });
       } else {
@@ -2569,6 +2571,71 @@ function _betanoCol(p1, p2){
     +'</div>';
 }
 // === KONEC BETANO ODDS ===
+
+// === KINGSBET ODDS ===
+var _kbUrl=localStorage.getItem('ts_kb_url')||'';
+var _kbOdds=null,_kbUpdated=null;
+var _kbBaseOdds=(function(){try{var s=localStorage.getItem('ts_kb_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
+var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
+if(_kbUrl){
+  var _runKb=function(){fetch(_kbScrapeUrl).catch(function(){}).then(function(){
+    fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+      if(!d)return;
+      _kbOdds=d;
+      if(!_kbBaseOdds){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
+      _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+      if(typeof renderMatches==='function'&&_lastData)renderMatches(_lastData);
+    });
+  });};
+  _runKb();
+  setInterval(_runKb,30000);
+}
+
+function _normKbName(n){
+  if(!n)return '';
+  var p=n.trim().split(/\s+/);
+  // KB formát: "Jméno Příjmení" → bere příjmení (poslední slovo)
+  return p[p.length-1].toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+}
+
+function _getKbOdds(p1,p2,dataset){
+  var ds=dataset||_kbOdds;
+  if(!ds||!ds.events)return null;
+  var n1=_normName(p1),n2=_normName(p2);
+  var ev=ds.events.find(function(e){
+    var ep1=_normKbName(e.p1),ep2=_normKbName(e.p2);
+    return (ep1===n1&&ep2===n2)||(ep1===n2&&ep2===n1);
+  });
+  if(!ev)return null;
+  // Správné pořadí
+  if(_normKbName(ev.p1)===n1){return {o1:ev.odds1,o2:ev.odds2};}
+  return {o1:ev.odds2,o2:ev.odds1};
+}
+
+function _kbCol(p1,p2){
+  if(!_kbUrl)return '';
+  var odds=_getKbOdds(p1,p2);
+  var prevOdds=_kbBaseOdds?_getKbOdds(p1,p2,_kbBaseOdds):null;
+  var o1=odds?odds.o1:'?',o2=odds?odds.o2:'?';
+  var a1='',a2='';
+  if(odds&&prevOdds){
+    var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
+    var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+  }
+  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  return '<div style="position:absolute;left:520px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:48px;text-align:center;">'
+    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
+    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
+    +'</div>';
+}
+// === KONEC KINGSBET ODDS ===
 
 
 
