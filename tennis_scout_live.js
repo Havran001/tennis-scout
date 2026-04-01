@@ -1254,6 +1254,7 @@ function _renderMatches(){
               '.mh-dd-list.open{display:block;}',
               '.mh-dd-item{padding:5px 10px;font-size:11px;color:#e6edf3;cursor:pointer;white-space:nowrap;}',
               '.mh-dd-item:hover,.mh-dd-item.active{background:rgba(33,150,243,0.3);}'
+  '.mh-cmt-cell{padding:2px 4px;width:24px}.mh-cmt-btn{background:none;border:none;cursor:pointer;font-size:12px;opacity:.3;padding:1px 3px;transition:all .2s;filter:grayscale(1)}.mh-cmt-btn:hover{opacity:.7;filter:none}.mh-cmt-btn.has-comment{opacity:1;filter:none;color:#f97316}',
             ].join('');
             var cols=[
               {key:'result',label:'W/L',type:'sel',opts:['','W','L']},
