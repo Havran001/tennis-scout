@@ -1103,6 +1103,7 @@ function buildPlayersTab(sh){
       function _loadMatchHistory(pid,pname,sh){
         var sec=sh.getElementById('pp-matches-section');
         if(!sec)return;
+  var _existingModal=sh.getElementById('mh-cmt-modal');if(_existingModal)_existingModal.style.display='none';
         if(sec.dataset.loaded===pid)return; // already loaded for this player
         sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; Načítám...</div>';
         var RAW='https://raw.githubusercontent.com/Havran001/tennis-scout/main/';
