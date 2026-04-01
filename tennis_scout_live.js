@@ -1257,7 +1257,7 @@ function _renderMatches(){
               '.mh-dd-list.open{display:block;}',
               '.mh-dd-item{padding:5px 10px;font-size:11px;color:#e6edf3;cursor:pointer;white-space:nowrap;}',
               '.mh-dd-item:hover,.mh-dd-item.active{background:rgba(33,150,243,0.3);}' ,
-  '.mh-cmt-btn{background:none;border:none;cursor:pointer;font-size:12px;opacity:.3;padding:1px 3px;transition:all .2s;filter:grayscale(1)}.mh-cmt-btn:hover{opacity:.7;filter:none}.mh-cmt-btn.has-comment{opacity:1;filter:sepia(1) saturate(8) hue-rotate(5deg) brightness(1.1);}',
+  '.mh-cmt-btn{background:none;border:none;cursor:pointer;font-size:12px;opacity:.3;padding:1px 3px;transition:all .2s;filter:grayscale(1)}.mh-cmt-btn:hover{opacity:.7;filter:none}.mh-cmt-btn.has-comment{opacity:1;filter:sepia(1) saturate(8) hue-rotate(5deg) brightness(1.1);}.mh-cmt-expand{color:#f97316;}.mh-cmt-expand:hover{opacity:.8!important;}.mh-cmt-expand.open{transform:rotate(180deg);opacity:.8!important;}.mh-cmt-preview td{background:rgba(249,115,22,0.06);border-top:none!important;padding:6px 12px 8px 12px!important;font-size:12px;color:rgba(255,255,255,0.55);font-style:italic;line-height:1.5;white-space:pre-wrap;}',
             ].join('');
             var cols=[
               {key:'result',label:'W/L',type:'sel',opts:['','W','L']},
@@ -1326,7 +1326,7 @@ function _renderMatches(){
         '<tr class="mh-match-row" data-mid="'+pid+'_'+(m.date||'')+'_'+(m.opponent||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12)+'">', 
                 '<td class="'+wlCls+'">'+(m.result||'')+'</td>',
                 '<td style="'+lvlStyle+'">'+lvl+'</td>',
-        '<td style="white-space:nowrap">'+dd+' <button class="mh-cmt-btn" data-mid="'+mid+'" title="Koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:11px;padding:0 2px;vertical-align:middle;">💬</button></td>',
+        '<td style="white-space:nowrap">'+dd+' <button class="mh-cmt-btn" data-mid="'+mid+'" title="Koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:11px;padding:0 2px;vertical-align:middle;">💬</button><button class="mh-cmt-expand" data-mid="'+mid+'" title="Zobrazit koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:9px;padding:0 1px;vertical-align:middle;opacity:.3;transition:all .2s;display:none;">▼</button></td>',
                 '<td>'+_normT(m.tournament||'')+'</td>',
                 '<td class="'+sfCls+'">'+(m.surface||'')+'</td>',
                 '<td>'+(m.round||'')+'</td>',
@@ -1394,6 +1394,27 @@ function _renderMatches(){
               btn.classList.add("has-comment");
               btn.title="\uD83D\uDCDD "+localStorage.getItem("ts_mc_"+mid).slice(0,40);
             }
+            // Expand trojúhelník — zobraz/skryj preview řádek
+            listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
+              var emid=ex.dataset.mid;
+              if(emid&&localStorage.getItem("ts_mc_"+emid)){ex.style.display='inline';}
+              ex.addEventListener("click",function(e){
+                e.stopPropagation();
+                var row=ex.closest('tr');
+                if(!row)return;
+                var existing=row.nextElementSibling;
+                if(existing&&existing.classList.contains('mh-cmt-preview')){
+                  existing.remove();ex.classList.remove('open');return;
+                }
+                var txt=localStorage.getItem("ts_mc_"+emid)||'';
+                var colCount=row.querySelectorAll('td').length;
+                var pr=document.createElement('tr');
+                pr.className='mh-cmt-preview';pr.dataset.mid=emid;
+                pr.innerHTML='<td colspan="'+colCount+'" style="padding:6px 12px 8px 40px;background:rgba(249,115,22,0.06);border-top:none;font-size:12px;color:rgba(255,255,255,0.55);font-style:italic;line-height:1.5;white-space:pre-wrap;">'+txt.replace(/</g,'&lt;')+'</td>';
+                row.parentNode.insertBefore(pr,row.nextSibling);
+                ex.classList.add('open');
+              });
+            });
             btn.addEventListener("click",function(e){
               e.stopPropagation();
               sh._cmtMid=mid;
