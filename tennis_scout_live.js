@@ -299,7 +299,8 @@ async function fetchPlayers(onProgress){
         hand:(sack&&sack.hand&&sack.hand!=='U')?sack.hand:null,
         height:(sack&&sack.height)||null,
         ch:p.ch||null,
-        ch_date:p.ch_date||null
+        ch_date:p.ch_date||null,
+move:(p.move!==undefined&&p.move!==null)?p.move:null
       };
     });
     onProgress&&onProgress('Hráči ATP načteni: '+window.ATP_PLAYERS.length);
