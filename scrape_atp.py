@@ -8,7 +8,7 @@ headers = {
     'Accept-Language': 'en-US,en;q=0.9'
 }
 
-# ── STEP 1: Scrape ATP rankings ───────────────────────────────
+# ââ STEP 1: Scrape ATP rankings âââââââââââââââââââââââââââââââ
 ranges = ['0-100','101-200','201-300','301-400','401-500','501-600','601-700','701-800','801-900','901-1000','1001-1100','1101-1200','1201-1300','1301-1400','1401-1500','1501-5000']
 all_players = []
 seen_ids = set()
@@ -55,7 +55,7 @@ for rng in ranges:
     except Exception as e:
         print(f'Error {rng}: {e}')
 
-# ── STEP 2: Career High from Sackmann historical rankings ─────
+# ââ STEP 2: Career High from Sackmann historical rankings âââââ
 print('Loading Sackmann ranking files for Career High...')
 SACK_BASE = 'https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/'
 ranking_files = [
@@ -87,7 +87,7 @@ for fname in ranking_files:
     except Exception as e:
         print(f'  Error loading {fname}: {e}')
 
-# ── STEP 3: Match ATP players to Sackmann IDs ─────────────────
+# ââ STEP 3: Match ATP players to Sackmann IDs âââââââââââââââââ
 print('Loading Sackmann player list...')
 sack_players = {}
 try:
@@ -103,7 +103,7 @@ try:
 except Exception as e:
     print(f'  Error loading atp_players.csv: {e}')
 
-# ── STEP 4: Apply Sackmann Career High ────────────────────────
+# ââ STEP 4: Apply Sackmann Career High ââââââââââââââââââââââââ
 today = str(date.today())
 matched_sack = 0
 for p in all_players:
@@ -120,12 +120,12 @@ for p in all_players:
             p['ch_date'] = sack_date
         matched_sack += 1
     else:
-        # No Sackmann match — use current rank as placeholder
+        # No Sackmann match â use current rank as placeholder
         p['ch'] = p['rank']
         p['ch_date'] = today
 print(f'Sackmann matched: {matched_sack}/{len(all_players)}')
 
-# ── STEP 5: Fetch ATP rankings-history to fix post-2024 gaps ──
+# ââ STEP 5: Fetch ATP rankings-history to fix post-2024 gaps ââ
 # Only fetch for players where current rank < ch (possible improvement)
 # or where we have no Sackmann match
 # rankings-history page has Career High in div.stat SSR-rendered
@@ -170,7 +170,7 @@ with ThreadPoolExecutor(max_workers=15) as executor:
         if done % 200 == 0:
             print(f'  ATP fetch: {done}/{len(all_players)}')
 
-# ── STEP 6: Apply manual overrides ───────────────────────────
+# ââ STEP 6: Apply manual overrides âââââââââââââââââââââââââââ
 OVERRIDES_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/career_high_overrides.json'
 try:
     r = requests.get(OVERRIDES_URL, timeout=10)
@@ -187,7 +187,28 @@ try:
 except Exception as e:
     print(f'Overrides not loaded: {e}')
 
-# ── STEP 7: Save ──────────────────────────────────────────────
+# ââ STEP 7: Save ââââââââââââââââââââââââââââââââââââââââââââââ
+# ── STEP 7: Compute rank movement (diff vs previous week) ──────
+try:
+    with open('atp_players.json', 'r') as f:
+        old_data = json.load(f)
+    old_items = old_data.get('items', old_data) if isinstance(old_data, dict) else old_data
+    old_ranks = {p['id']: p['rank'] for p in old_items if p.get('id') and p.get('rank')}
+    print(f'Loaded {len(old_ranks)} previous ranks for diff')
+except Exception as e:
+    old_ranks = {}
+    print(f'No previous ranks available: {e}')
+
+for p in all_players:
+    pid = p.get('id', '')
+    if pid and pid in old_ranks:
+        prev = old_ranks[pid]
+        diff = prev - p['rank']  # positive = UP (better rank), negative = DOWN
+        p['move'] = diff if diff != 0 else None
+    else:
+        p['move'] = None
+
+# ── STEP 8: Save ──────────────────────────────────────────────
 players = sorted(all_players, key=lambda p: (p['rank'], p['name']))
 
 # Safety check - abort if too few players scraped
