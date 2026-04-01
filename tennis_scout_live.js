@@ -1366,8 +1366,8 @@ function _renderMatches(){
               +'<div id="mh-cmt-modal-match" style="font-size:12px;color:rgba(255,255,255,.45);margin-bottom:12px;padding:7px 10px;background:rgba(255,255,255,.04);border-radius:6px;"></div>'
               +'<textarea id="mh-cmt-modal-text" placeholder="Koment\u00e1\u0159 k z\u00e1pasu..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:10px 12px;outline:none;resize:vertical;line-height:1.6;box-sizing:border-box;"></textarea>'
               +'<div style="display:flex;gap:8px;margin-top:10px;justify-content:flex-end;">'
-              +'<button id="mh-cmt-modal-cancel" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.6);font-size:12px;padding:7px 16px;border-radius:6px;cursor:pointer;">Zru\u0161it</button>'
-              +'<button id="mh-cmt-modal-save" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;font-size:12px;font-weight:600;padding:7px 16px;border-radius:6px;cursor:pointer;">Ulo\u017eit</button>'
+              +'<button id="mh-cmt-modal-cancel" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.6);font-size:12px;padding:12px 0;border-radius:8px;cursor:pointer;flex:1;font-size:14px;">Zru\u0161it</button>'
+              +'<button id="mh-cmt-modal-save" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;font-size:12px;font-weight:600;padding:12px 0;border-radius:8px;cursor:pointer;flex:1;font-size:14px;">Ulo\u017eit</button>'
               +'</div></div>';
             sh.appendChild(modal);
             // Listenery přidej JEDNOU na modal - ukazují na sh._cmtMid
