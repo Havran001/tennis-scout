@@ -1621,6 +1621,8 @@ function _renderMatches(){
       function _renderNotes(){
         var list=sh.getElementById('pp-notes-list');
         if(!list)return;
+        // Vždy načti čerstvý stav z localStorage
+        try{var _fresh=JSON.parse(localStorage.getItem(notesKey));if(Array.isArray(_fresh))notesList=_fresh;}catch(e){}
         if(notesList.length===0){list.innerHTML='<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>';return;}
         list.innerHTML=notesList.slice().reverse().map(function(n){
           return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
