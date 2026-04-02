@@ -2789,7 +2789,7 @@ var _betanoUpdated = null;
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'';
 var _betanoOdds=null,_betanoUpdated=null;var _betanoBaseOdds=(function(){try{var s=localStorage.getItem('ts_betano_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
 var _bsUrl=_betanoUrl.replace('/odds','/scrape');
-if(_betanoUrl){var _runBetano=function(){fetch(_bsUrl).catch(function(){}).then(function(){_loadBetanoOdds();});};_runBetano();setInterval(_runBetano,30000);}
+if(_betanoUrl){var _runBetano=function(){fetch(_bsUrl,{credentials:'omit'}).catch(function(e){console.error('BETANO_SCRAPE_ERR:'+e);}).then(function(){_loadBetanoOdds();});};_runBetano();setInterval(_runBetano,30000);}
 
 function _normName(n){
   if(!n)return '';
@@ -2811,7 +2811,7 @@ function _getBetanoOdds(p1,p2,dataset){
 
 function _loadBetanoOdds(){
   if(!_betanoUrl)return;
-  fetch(_betanoUrl+'?t='+Date.now()).then(function(r){
+  fetch(_betanoUrl+'?t='+Date.now(),{credentials:'omit'}).then(function(r){
     if(!r.ok)return null;
     return r.json();
   }).then(function(d){
@@ -2856,8 +2856,8 @@ var _kbOdds=null,_kbUpdated=null;
 var _kbBaseOdds=(function(){try{var s=localStorage.getItem('ts_kb_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
 var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
 if(_kbUrl){
-  var _runKb=function(){fetch(_kbScrapeUrl).catch(function(){}).then(function(){
-    fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+  var _runKb=function(){fetch(_kbScrapeUrl,{credentials:'omit'}).catch(function(e){console.error('KB_SCRAPE_ERR:'+e);}).then(function(){
+    fetch(_kbUrl+'?t='+Date.now(),{credentials:'omit'}).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d)return;
       _kbOdds=d;
       if(!_kbBaseOdds){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
