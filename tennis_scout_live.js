@@ -917,6 +917,22 @@ function buildPlayersTab(sh){
     h+='</div>';
     wrap.innerHTML=h;
   // Player page — full screen view
+  sh._openPlayerFromHistory = function(player){
+    // Simuluj klik na hráče ze seznamu
+    var tr = wrap.querySelector('tr.pr[data-pid="'+player.id+'"]');
+    if(tr){ tr.click(); return; }
+    // Hráč není v aktuálním zobrazení - přejdi na seznam a klikni
+    // Fallback: najdi ho přes search
+    var inp = sh.querySelector('input[placeholder*="Hledej"]');
+    if(inp){
+      inp.value = player.name || player.full_name || '';
+      inp.dispatchEvent(new Event('input',{bubbles:true}));
+      setTimeout(function(){
+        var found = wrap.querySelector('tr.pr[data-pid="'+player.id+'"]');
+        if(found) found.click();
+      }, 200);
+    }
+  };
   wrap.querySelectorAll('tr.pr').forEach(function(row){
     row.addEventListener('click',function(){
       var pid=row.dataset.pid,pname=row.dataset.pname,pfull=row.dataset.fullname||row.dataset.pname,country=row.dataset.country;
@@ -1376,7 +1392,7 @@ function _renderMatches(){
                 '<td>'+(m.round||'')+'</td>',
                 '<td class="ta-num">'+(m.rank||'')+'</td>',
                 '<td class="ta-num">'+(m.opp_rank||'')+'</td>',
-                '<td>'+_fmtOpp(m.opponent)+'</td>',
+                '<td class="mh-opp-link" data-opponent="'+(m.opponent||'')+'" style="cursor:pointer;color:#60a5fa;text-decoration:underline dotted;text-underline-offset:3px;">'+_fmtOpp(m.opponent)+'</td>',
                 '<td class="ta-score">'+(m.score||'')+'</td>',
                 '<td class="ta-odds">'+(m.odds||'')+'</td>',
                 '<td class="ta-num">'+(m.dr||'')+'</td>',
@@ -1526,7 +1542,29 @@ function _renderMatches(){
             });
           });
         })();
-        // == KONEC KOMENTÁŘŮ ==
+        // Klik na soupeře → otevři jeho kartu
+          listEl.querySelectorAll('.mh-opp-link').forEach(function(td){
+            td.addEventListener('click', function(e){
+              e.stopPropagation();
+              var oppName = td.dataset.opponent;
+              if(!oppName) return;
+              // Najdi hráče v ATP_PLAYERS podle full_name nebo části jména
+              var players = window.ATP_PLAYERS || [];
+              var normOpp = oppName.toLowerCase().replace(/[^a-z]/g,'');
+              var found = players.find(function(p){
+                var fn = (p.full_name||'').toLowerCase().replace(/[^a-z]/g,'');
+                return fn === normOpp || fn.includes(normOpp) || normOpp.includes(fn);
+              });
+              if(found){
+                if(sh._openPlayerFromHistory){
+                  // Zavři match history a otevři kartu nalezeného hráče
+                  sec.style.cssText='display:none;flex:1;padding:28px 32px;';
+                  sh._openPlayerFromHistory(found);
+                }
+              }
+            });
+          });
+          // == KONEC KOMENTÁŘŮ ==
               listEl.querySelectorAll('th[data-sort]').forEach(function(th){
                 th.addEventListener('click',function(){
                   var k=this.getAttribute('data-sort');
