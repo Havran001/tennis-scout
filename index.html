@@ -9,25 +9,29 @@
 </head>
 <body>
 <script>
-var s = document.createElement('script');
-s.src = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?_=' + Date.now();
-s.onerror = function() {
-  var gh = localStorage.getItem('ts_gh_token') || '';
-  var headers = gh ? {'Authorization': 'token ' + gh} : {};
-  fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js', {headers: headers, cache: 'no-store'})
-    .then(function(r){ return r.json(); })
-    .then(function(d){
-      if(!d.content) return;
-      var binary = atob(d.content.replace(/\n/g,''));
-      var bytes = new Uint8Array(binary.length);
-      for(var i=0;i<binary.length;i++) bytes[i]=binary.charCodeAt(i);
-      var code = new TextDecoder('utf-8').decode(bytes);
-      var s2 = document.createElement('script');
-      s2.textContent = code;
-      document.head.appendChild(s2);
-    }).catch(function(e){ console.error('Fallback failed', e); });
-};
-document.head.appendChild(s);
+fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?_='+Date.now(),{cache:'no-store'})
+.then(function(r){if(!r.ok)throw new Error(r.status);return r.text();})
+.then(function(code){
+  var s=document.createElement('script');
+  s.textContent=code;
+  document.head.appendChild(s);
+})
+.catch(function(){
+  var gh=localStorage.getItem('ts_gh_token')||'';
+  var h=gh?{'Authorization':'token '+gh}:{};
+  fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js',{headers:h,cache:'no-store'})
+  .then(function(r){return r.json();})
+  .then(function(d){
+    if(!d.content)return;
+    var b=atob(d.content.replace(/\n/g,''));
+    var bytes=new Uint8Array(b.length);
+    for(var i=0;i<b.length;i++)bytes[i]=b.charCodeAt(i);
+    var code=new TextDecoder('utf-8').decode(bytes);
+    var s=document.createElement('script');
+    s.textContent=code;
+    document.head.appendChild(s);
+  }).catch(function(e){console.error('Failed',e);});
+});
 </script>
 </body>
 </html>
