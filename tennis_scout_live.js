@@ -1406,6 +1406,25 @@ function _renderMatches(){
               var mid=sh._cmtMid; if(!mid)return;
               var val=modal.querySelector("#mh-cmt-modal-text").value.trim();
               if(val)localStorage.setItem("ts_mc_"+mid,val); else localStorage.removeItem("ts_mc_"+mid);
+              // Zrcadlový klíč pro soupeře — stejný komentář i na jeho kartě
+              (function(){
+                var parts=mid.split('_'); // [pid, date, opponentSlug]
+                if(parts.length<3)return;
+                var date=parts[1];
+                var oppSlug=parts.slice(2).join('_');
+                // Najdi soupeře v ATP_PLAYERS podle full_name
+                var players=window.ATP_PLAYERS||[];
+                var opp=players.find(function(p){
+                  return (p.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12)===oppSlug;
+                });
+                if(!opp)return;
+                // Jméno aktuálního hráče (pid = parts[0])
+                var me=players.find(function(p){return p.id===parts[0];});
+                if(!me)return;
+                var meSlug=(me.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
+                var mirrorMid=opp.id+'_'+date+'_'+meSlug;
+                if(val)localStorage.setItem("ts_mc_"+mirrorMid,val); else localStorage.removeItem("ts_mc_"+mirrorMid);
+              })();
               var b=sh.querySelector(".mh-cmt-btn[data-mid=\""+mid+"\"]");
               if(b){b.classList.toggle("has-comment",!!val);b.title=val?"\uD83D\uDCDD "+val.slice(0,40):"Koment\u00e1\u0159";}
               var ex=sh.querySelector(".mh-cmt-expand[data-mid=\""+mid+"\"]");
