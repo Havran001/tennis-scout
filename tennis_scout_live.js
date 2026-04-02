@@ -2109,20 +2109,15 @@ function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.
 ,'danilina':'KAZ','heliovaara':'FIN','patten':'GBR','ebden':'AUS'
 };window[_key]={};(window.ATP_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>1)window[_key][w.toLowerCase()]=flag;});});(window.WTA_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();if(!window[_key][sn])window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2&&!window[_key][w.toLowerCase()])window[_key][w.toLowerCase()]=flag;});});Object.keys(_ex).forEach(function(k){if(!window[_key][k])window[_key][k]=_ioc2flag(_ex[k]);});Object.keys(window[_key]).forEach(function(k){if(k.includes(' ')){var hk=k.replace(/ /g,'-');if(!window[_key][hk])window[_key][hk]=window[_key][k];}});}var parts=(n||'').split(' ');var s=parts[0].toLowerCase();var s2=parts.length>1?parts[1].toLowerCase():'';var s3=parts.length>2?parts[2].toLowerCase():'';return window[_key][s]||window[_key][s.replace(/-/g,' ')]||window[_key][s2]||window[_key][s2.replace(/-/g,' ')]||'';}
 function renderMatches(data){
-    // Vyčisti ts_favs - odstraň ID která nejsou v aktuálních datech
-    var _allMatches=getMatches(data);
-    var _allIds=(_allMatches||[]).map(function(m){return m.id;});
-    var _currentFavs=JSON.parse(localStorage.getItem('ts_favs')||'[]');
-    var _validFavs=_currentFavs.filter(function(id){return _allIds.indexOf(id)>-1;});
-    if(_validFavs.length!==_currentFavs.length){localStorage.setItem('ts_favs',JSON.stringify(_validFavs));}
-    var all=_allMatches;
+    var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
     if(mcEl)mcEl.textContent=all.length;
     var hcm=sh.getElementById('hc-count-m');if(hcm)hcm.textContent=all.length+' zápasů';
     var live=all.filter(function(m){return m.isLive;});
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
-    var shown=activeFilter==='live'?live:activeFilter==='finished'?fin:activeFilter==='scheduled'?sch:all;
+    var withOdds=all.filter(function(m){var o=_getBetanoOdds(m.p1,m.p2);return o&&(o.o1||o.o2);});
+    var shown=activeFilter==='live'?live:activeFilter==='finished'?fin:activeFilter==='scheduled'?sch:activeFilter==='odds'?withOdds:all;
     // Filter by tier
     if(activeTier!=='all'){shown=shown.filter(function(m){var ti=tInfo(m.tournament||'');var l=ti.l||'';if(activeTier==='GS')return l==='Grand Slam';if(activeTier==='M1000')return l==='ATP 1000'||l==='WTA 1000';if(activeTier==='ATP500')return l==='ATP 500'||l==='WTA 500';if(activeTier==='ATP250')return l==='ATP 250'||l==='WTA 250';if(activeTier==='WTA')return l.startsWith('WTA');if(activeTier==='CH')return l==='Challenger';if(activeTier==='ITF')return l==='ITF';return true;});}
     // Filter by format (singles/doubles)
@@ -2147,7 +2142,7 @@ function renderMatches(data){
     h+='<span style="width:6px;height:6px;background:#00C853;border-radius:50%;display:inline-block;"></span>';
     h+='</div></div>';
     h+='<div style="display:flex;gap:4px;padding:8px 0 6px;">';
-    [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length]].forEach(function(f){
+    [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length],['odds','S kurzem 💰',withOdds.length]].forEach(function(f){
       var on=activeFilter===f[0];
       h+='<button data-filter="'+f[0]+'" style="padding:3px 9px;border-radius:10px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.35)')+';font-size:9px;cursor:pointer;font-weight:'+(on?700:400)+';">'+f[1]+' <span style="opacity:.6;">'+f[2]+'</span></button>';
     });
