@@ -2872,9 +2872,13 @@ if(_kbUrl){
 
 function _normKbName(n){
   if(!n)return '';
-  var p=n.trim().split(/\s+/);
-  // KB formát: "Jméno Příjmení" → bere příjmení (poslední slovo)
-  return p[p.length-1].toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+  n=n.trim();
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');};
+  // Formát "Příjmení, Jméno" → bere část před čárkou
+  if(n.indexOf(',')>-1){return norm(n.split(',')[0].trim());}
+  // Formát "Jméno Příjmení" → bere poslední slovo
+  var p=n.split(/\s+/);
+  return norm(p[p.length-1]);
 }
 
 function _getKbOdds(p1,p2,dataset){
