@@ -1588,13 +1588,13 @@ function _renderMatches(){
           h+='</div>';
           sec.innerHTML=h;
           // Zavírací tlačítko
-          var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){var _doReload=sh._pendingNotesReload&&sh._reloadNotesFn;sh._pendingNotesReload=false;sec.style.cssText='display:none;flex:1;padding:28px 32px;';if(_doReload)sh._reloadNotesFn();};}
+          var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(pid);};}
           // Sync fotky do hlavičky
           var _hdrPhoto=sec.querySelector('#mh-hdr-photo');
           if(_hdrPhoto){var _ppPhoto=sh.getElementById('pp-photo');if(_ppPhoto&&_ppPhoto.src)_hdrPhoto.src=_ppPhoto.src;}
 
           // Event listenery na filtry
-          var _bk=sec.querySelector('#mh-f-back');if(_bk)_bk.onclick=function(){var _doReload=sh._pendingNotesReload&&sh._reloadNotesFn;sh._pendingNotesReload=false;sec.style.cssText='display:none;flex:1;padding:28px 32px;';};
+          var _bk=sec.querySelector('#mh-f-back');if(_bk)_bk.onclick=function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(pid);};
           sec.querySelector('#mh-f-reset').addEventListener('click',function(){
             _fSurface='';_fTournament='';_fOpponent='';_fResult='';
             window._mhColFilter={};
@@ -1609,6 +1609,43 @@ function _renderMatches(){
       }
       // ── SAVE NOTES ────────────────────────────────────────
       // ── NOTES SYSTEM ────────────────────────────────────────────
+      function _tsRefreshNotes(targetPid){
+        // Přímé překreslení notes ze localStorage pro daného hráče
+        var nk='ts_notes_'+targetPid;
+        var fresh=[];
+        try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))fresh=p;}catch(e){}
+        var list=sh.getElementById('pp-notes-list');
+        if(!list)return;
+        if(targetPid===pid){notesList=fresh;} // aktualizuj closure pokud sedí
+        var renderList=targetPid===pid?notesList:fresh;
+        if(renderList.length===0){list.innerHTML='<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>';return;}
+        list.innerHTML=renderList.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).map(function(n){
+          return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
+            +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
+              +(n.date?'<span style="font-size:13px;color:rgba(255,255,255,0.55);background:rgba(255,255,255,0.06);padding:3px 10px;border-radius:10px;">📅 '+n.date+'</span>':'')
+              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+              +'<div style="margin-left:auto;display:flex;gap:6px;">'
+                +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
+                +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
+              +'</div>'
+            +'</div>'
+            +'<div style="font-size:13px;color:#e6edf3;line-height:1.6;white-space:pre-wrap;">'+n.text+'</div>'
+          +'</div>';
+        }).join('');
+        // Re-attach event listenery
+        list.querySelectorAll('.pp-del-note').forEach(function(btn){
+          btn.onclick=function(e){
+            e.stopPropagation();
+            if(!confirm('Smazat tuto poznámku?'))return;
+            var nid=parseInt(btn.dataset.nid);
+            notesList=notesList.filter(function(n){return n.id!==nid;});
+            _saveNotes();_renderNotes();
+          };
+        });
+        list.querySelectorAll('.pp-edit-note').forEach(function(btn){
+          btn.onclick=function(e){e.stopPropagation();/* edit handled elsewhere */};
+        });
+      }
       function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
       // Expose pro okamžité překreslení z match history save listeneru
       sh._renderNotes_pid=pid;
