@@ -1028,7 +1028,7 @@ function buildPlayersTab(sh){
               notesList.slice().reverse().map(function(n){
                 return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
                   +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
-                    +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
+                    +(n.date?'<span style="font-size:13px;color:rgba(255,255,255,0.55);background:rgba(255,255,255,0.06);padding:3px 10px;border-radius:10px;">📅 '+n.date+'</span>':'')
                     +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
                     +'<div style="margin-left:auto;display:flex;gap:6px;">'
                       +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
@@ -1420,8 +1420,6 @@ function _renderMatches(){
                 if(found){found.text=noteText;found.date=noteDate||found.date;}
                 else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
                 localStorage.setItem(nk,JSON.stringify(existing));
-                // Okamžitě překresli notes sekci pokud je otevřená karta tohoto hráče
-                if(sh._reloadNotesFn && sh._renderNotes_pid===targetPid) sh._reloadNotesFn();
               })(pid, val, dateVal, mid);
               // Zrcadlo pro soupeře — komentář + datum + notes
               (function(){
@@ -1593,14 +1591,6 @@ function _renderMatches(){
       // ── SAVE NOTES ────────────────────────────────────────
       // ── NOTES SYSTEM ────────────────────────────────────────────
       function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
-      // Expose na sh pro přístup z match history save listeneru
-      sh._renderNotes_pid=pid;
-      sh._renderNotesFn=function(){_renderNotes();};
-      sh._reloadNotesFn=function(){
-        var nk='ts_notes_'+pid;
-        try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))notesList=p;}catch(e){}
-        _renderNotes();
-      };
       function _renderNotes(){
         var list=sh.getElementById('pp-notes-list');
         if(!list)return;
