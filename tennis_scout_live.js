@@ -2707,15 +2707,18 @@ function _getBetanoOdds(p1,p2,dataset){
   return {o1:ev.odds2, o2:ev.odds1, s1:ev.suspended2, s2:ev.suspended1, url:ev.url};
 }
 
-async function _loadBetanoOdds(){
+function _loadBetanoOdds(){
   if(!_betanoUrl)return;
-  try{
-    var r=await fetch(_betanoUrl+'?t='+Date.now());
-    if(!r.ok)return;
-_betanoOdds=await r.json();if(!_betanoBaseOdds){_betanoBaseOdds=_betanoOdds;try{localStorage.setItem('ts_betano_base',JSON.stringify(_betanoBaseOdds));}catch(e){}}
+  fetch(_betanoUrl+'?t='+Date.now()).then(function(r){
+    if(!r.ok)return null;
+    return r.json();
+  }).then(function(d){
+    if(!d)return;
+    _betanoOdds=d;
+    if(!_betanoBaseOdds){_betanoBaseOdds=d;try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}}
     _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
     if(typeof renderMatches==='function'&&_lastData)renderMatches(_lastData);
-  }catch(e){}
+  }).catch(function(){});
 }
 
 function _betanoCol(p1, p2){
