@@ -1420,8 +1420,8 @@ function _renderMatches(){
                 if(found){found.text=noteText;found.date=noteDate||found.date;}
                 else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
                 localStorage.setItem(nk,JSON.stringify(existing));
-                // Okamžitě překresli notes sekci pokud je karta tohoto hráče otevřena
-                if(sh._reloadNotesFn && sh._renderNotes_pid===targetPid) sh._reloadNotesFn();
+                // Nastav flag - notes se překreslí po zavření match history
+                if(sh._renderNotes_pid===targetPid) sh._pendingNotesReload=true;
               })(pid, val, dateVal, mid);
               // Zrcadlo pro soupeře — komentář + datum + notes
               (function(){
@@ -1575,13 +1575,13 @@ function _renderMatches(){
           h+='</div>';
           sec.innerHTML=h;
           // Zavírací tlačítko
-          var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';};}
+          var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){if(sh._pendingNotesReload&&sh._reloadNotesFn){sh._pendingNotesReload=false;sh._reloadNotesFn();}sec.style.cssText='display:none;flex:1;padding:28px 32px;';};}
           // Sync fotky do hlavičky
           var _hdrPhoto=sec.querySelector('#mh-hdr-photo');
           if(_hdrPhoto){var _ppPhoto=sh.getElementById('pp-photo');if(_ppPhoto&&_ppPhoto.src)_hdrPhoto.src=_ppPhoto.src;}
 
           // Event listenery na filtry
-          var _bk=sec.querySelector('#mh-f-back');if(_bk)_bk.onclick=function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';};
+          var _bk=sec.querySelector('#mh-f-back');if(_bk)_bk.onclick=function(){if(sh._pendingNotesReload&&sh._reloadNotesFn){sh._pendingNotesReload=false;sh._reloadNotesFn();}sec.style.cssText='display:none;flex:1;padding:28px 32px;';};
           sec.querySelector('#mh-f-reset').addEventListener('click',function(){
             _fSurface='';_fTournament='';_fOpponent='';_fResult='';
             window._mhColFilter={};
