@@ -1434,9 +1434,9 @@ function _renderMatches(){
                 if(found){found.text=noteText;found.date=noteDate||found.date;}
                 else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
                 localStorage.setItem(nk,JSON.stringify(existing));
-                // Nastav flag - notes se překreslí po zavření match history
-                sh._pendingNotesReload=true;
               })(pid, val, dateVal, mid);
+              // Okamžitě překresli notes
+              _tsRefreshNotes(pid);
               // Zrcadlo pro soupeře — komentář + datum + notes
               (function(){
                 var parts=mid.split('_');
