@@ -1104,6 +1104,7 @@ function buildPlayersTab(sh){
           tab.style.borderBottomColor='#00C853';
           var which=tab.dataset.tab;
           sh.getElementById('pp-notes-section').style.display=which==='notes'?'block':'none';
+          if(which==='notes')_tsRefreshNotes(pid);
           var _mSec=sh.getElementById('pp-matches-section');
           if(which==='matches'){
             _mSec.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:#0d1117;overflow-y:auto;box-sizing:border-box;display:block;';
