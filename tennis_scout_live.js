@@ -1409,7 +1409,19 @@ function _renderMatches(){
               if(val)localStorage.setItem("ts_mc_"+mid,val); else localStorage.removeItem("ts_mc_"+mid);
               var dateVal=modal.querySelector("#mh-cmt-modal-date").value.trim();
               if(dateVal)localStorage.setItem("ts_mc_date_"+mid,dateVal); else localStorage.removeItem("ts_mc_date_"+mid);
-              // Zrcadlo pro soupeře — komentář + datum
+              // Synchronizuj komentář do ts_notes_{pid} hlavní karty
+              (function syncToNotes(targetPid, noteText, noteDate, noteSource){
+                if(!noteText)return;
+                var nk='ts_notes_'+targetPid;
+                var existing=[];
+                try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))existing=p;}catch(e){}
+                // Aktualizuj nebo přidej note se stejným source (mid)
+                var found=existing.find(function(n){return n.source===noteSource;});
+                if(found){found.text=noteText;found.date=noteDate||found.date;}
+                else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
+                localStorage.setItem(nk,JSON.stringify(existing));
+              })(pid, val, dateVal, mid);
+              // Zrcadlo pro soupeře — komentář + datum + notes
               (function(){
                 var parts=mid.split('_');
                 if(parts.length<3)return;
@@ -1424,6 +1436,17 @@ function _renderMatches(){
                 var mirrorMid=opp.id+'_'+date2+'_'+meSlug;
                 if(val)localStorage.setItem("ts_mc_"+mirrorMid,val); else localStorage.removeItem("ts_mc_"+mirrorMid);
                 if(dateVal)localStorage.setItem("ts_mc_date_"+mirrorMid,dateVal); else localStorage.removeItem("ts_mc_date_"+mirrorMid);
+                // Sync do notes soupeře
+                (function syncToNotes(targetPid, noteText, noteDate, noteSource){
+                  if(!noteText)return;
+                  var nk='ts_notes_'+targetPid;
+                  var existing=[];
+                  try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))existing=p;}catch(e){}
+                  var found=existing.find(function(n){return n.source===noteSource;});
+                  if(found){found.text=noteText;found.date=noteDate||found.date;}
+                  else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
+                  localStorage.setItem(nk,JSON.stringify(existing));
+                })(opp.id, val, dateVal, mirrorMid);
               })();
               var b=sh.querySelector(".mh-cmt-btn[data-mid=\""+mid+"\"]");
               if(b){b.classList.toggle("has-comment",!!val);b.title=val?"\uD83D\uDCDD "+val.slice(0,40):"Koment\u00e1\u0159";}
