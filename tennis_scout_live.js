@@ -1420,6 +1420,8 @@ function _renderMatches(){
                 if(found){found.text=noteText;found.date=noteDate||found.date;}
                 else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
                 localStorage.setItem(nk,JSON.stringify(existing));
+                // Okamžitě překresli notes sekci pokud je otevřená karta tohoto hráče
+                if(sh._reloadNotesFn && sh._renderNotes_pid===targetPid) sh._reloadNotesFn();
               })(pid, val, dateVal, mid);
               // Zrcadlo pro soupeře — komentář + datum + notes
               (function(){
@@ -1591,6 +1593,14 @@ function _renderMatches(){
       // ── SAVE NOTES ────────────────────────────────────────
       // ── NOTES SYSTEM ────────────────────────────────────────────
       function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
+      // Expose na sh pro přístup z match history save listeneru
+      sh._renderNotes_pid=pid;
+      sh._renderNotesFn=function(){_renderNotes();};
+      sh._reloadNotesFn=function(){
+        var nk='ts_notes_'+pid;
+        try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))notesList=p;}catch(e){}
+        _renderNotes();
+      };
       function _renderNotes(){
         var list=sh.getElementById('pp-notes-list');
         if(!list)return;
