@@ -9,35 +9,25 @@
 </head>
 <body>
 <script>
-(function(){
-  function runCode(code){
-    var blob=new Blob([code],{type:'application/javascript'});
-    var url=URL.createObjectURL(blob);
-    var s=document.createElement('script');
-    s.src=url;
-    s.onload=function(){URL.revokeObjectURL(url);};
-    s.onerror=function(){URL.revokeObjectURL(url);console.error('Script load error');};
-    document.head.appendChild(s);
-  }
-  fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?_='+Date.now(),{cache:'no-store'})
-  .then(function(r){if(!r.ok)throw new Error('raw failed: '+r.status);return r.text();})
-  .then(function(code){runCode(code);})
-  .catch(function(e){
-    var gh=localStorage.getItem('ts_gh_token')||'';
-    var headers=gh?{'Authorization':'token '+gh}:{};
-    fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js?_='+Date.now(),{headers:headers,cache:'no-store'})
-    .then(function(r){return r.json();})
+var s = document.createElement('script');
+s.src = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?_=' + Date.now();
+s.onerror = function() {
+  var gh = localStorage.getItem('ts_gh_token') || '';
+  var headers = gh ? {'Authorization': 'token ' + gh} : {};
+  fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js', {headers: headers, cache: 'no-store'})
+    .then(function(r){ return r.json(); })
     .then(function(d){
-      if(!d.content)throw new Error('no content');
-      var binary=atob(d.content.replace(/\n/g,''));
-      var bytes=new Uint8Array(binary.length);
-      for(var i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);
-      var code=new TextDecoder('utf-8').decode(bytes);
-      runCode(code);
-    })
-    .catch(function(e2){console.error('Both fetch methods failed',e2);});
-  });
-})();
+      if(!d.content) return;
+      var binary = atob(d.content.replace(/\n/g,''));
+      var bytes = new Uint8Array(binary.length);
+      for(var i=0;i<binary.length;i++) bytes[i]=binary.charCodeAt(i);
+      var code = new TextDecoder('utf-8').decode(bytes);
+      var s2 = document.createElement('script');
+      s2.textContent = code;
+      document.head.appendChild(s2);
+    }).catch(function(e){ console.error('Fallback failed', e); });
+};
+document.head.appendChild(s);
 </script>
 </body>
 </html>
