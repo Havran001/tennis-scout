@@ -1394,6 +1394,7 @@ function _renderMatches(){
             modal.innerHTML='<div style="background:#161b22;border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px;width:480px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.8);">'
               +'<div style="font-size:11px;color:rgba(255,255,255,.35);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Koment\u00e1\u0159 k z\u00e1pasu</div>'
               +'<div id="mh-cmt-modal-match" style="font-size:12px;color:rgba(255,255,255,.45);margin-bottom:12px;padding:7px 10px;background:rgba(255,255,255,.04);border-radius:6px;"></div>'
+              +'<input id="mh-cmt-modal-date" type="text" placeholder="Datum zápasu (např. 18.03.2026)" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:8px 12px;outline:none;box-sizing:border-box;margin-bottom:8px;" />'
               +'<textarea id="mh-cmt-modal-text" placeholder="Koment\u00e1\u0159 k z\u00e1pasu..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:10px 12px;outline:none;resize:vertical;line-height:1.6;box-sizing:border-box;"></textarea>'
               +'<div style="display:flex;gap:8px;margin-top:10px;justify-content:flex-end;">'
               +'<button id="mh-cmt-modal-cancel" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.6);font-size:12px;padding:12px 0;border-radius:8px;cursor:pointer;flex:1;font-size:14px;">Zru\u0161it</button>'
@@ -1406,6 +1407,8 @@ function _renderMatches(){
               var mid=sh._cmtMid; if(!mid)return;
               var val=modal.querySelector("#mh-cmt-modal-text").value.trim();
               if(val)localStorage.setItem("ts_mc_"+mid,val); else localStorage.removeItem("ts_mc_"+mid);
+              var dateVal=modal.querySelector("#mh-cmt-modal-date").value.trim();
+              if(dateVal)localStorage.setItem("ts_mc_date_"+mid,dateVal); else localStorage.removeItem("ts_mc_date_"+mid);
               var b=sh.querySelector(".mh-cmt-btn[data-mid=\""+mid+"\"]");
               if(b){b.classList.toggle("has-comment",!!val);b.title=val?"\uD83D\uDCDD "+val.slice(0,40):"Koment\u00e1\u0159";}
               var ex=sh.querySelector(".mh-cmt-expand[data-mid=\""+mid+"\"]");
@@ -1458,6 +1461,8 @@ function _renderMatches(){
               var wl=cells[0]?cells[0].textContent.trim():"";
               modal.querySelector("#mh-cmt-modal-match").textContent=(wl?wl+" \u2022 ":"")+(date?date+" \u2022 ":"")+opp+(score?" \u2022 "+score:"");
               modal.querySelector("#mh-cmt-modal-text").value=localStorage.getItem("ts_mc_"+mid)||"";
+              var storedDate=localStorage.getItem("ts_mc_date_"+mid)||date.replace(/[^d.]/g,'').trim();
+              modal.querySelector("#mh-cmt-modal-date").value=storedDate;
               modal.style.display="flex";
               setTimeout(function(){modal.querySelector("#mh-cmt-modal-text").focus();},50);
             });
