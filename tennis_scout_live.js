@@ -1025,10 +1025,10 @@ function buildPlayersTab(sh){
           // Notes list
           +'<div id="pp-notes-list">'
             +(notesList.length===0?'<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>':
-              notesList.slice().reverse().map(function(n){
+              notesList.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).map(function(n){
                 return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
                   +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
-                    +(n.date?'<span style="font-size:13px;color:rgba(255,255,255,0.55);background:rgba(255,255,255,0.06);padding:3px 10px;border-radius:10px;">📅 '+n.date+'</span>':'')
+                    +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
                     +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
                     +'<div style="margin-left:auto;display:flex;gap:6px;">'
                       +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
