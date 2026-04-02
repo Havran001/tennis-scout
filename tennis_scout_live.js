@@ -934,6 +934,19 @@ function buildPlayersTab(sh){
         else if(typeof parsed==='string'&&parsed)notesList=[{id:Date.now(),text:parsed,date:new Date().toISOString().slice(0,10),source:''}];
         else if(notesRaw&&typeof notesRaw==='string')notesList=[{id:Date.now(),text:notesRaw,date:new Date().toISOString().slice(0,10),source:''}];
       }catch(e){if(notesRaw)notesList=[{id:Date.now(),text:notesRaw,date:new Date().toISOString().slice(0,10),source:''}];}
+      // Přidej notes ze zápasových komentářů které ještě nejsou v notesList
+      (function(){
+        Object.keys(localStorage).filter(function(k){return k.startsWith('ts_mc_'+pid+'_');}).forEach(function(k){
+          var src=k.replace('ts_mc_','');
+          var txt=localStorage.getItem(k);
+          var dt=localStorage.getItem('ts_mc_date_'+src)||'';
+          if(!txt)return;
+          if(!notesList.find(function(n){return n.source===src;})){
+            notesList.push({id:parseInt(src.split('_')[1].replace(/-/g,''))||Date.now(),text:txt,date:dt,source:src});
+          }
+        });
+        localStorage.setItem(notesKey,JSON.stringify(notesList));
+      })();
 
       // Remove existing player page
       var existing=sh.getElementById('player-page');
@@ -1596,16 +1609,7 @@ function _renderMatches(){
       }
       // ── SAVE NOTES ────────────────────────────────────────
       // ── NOTES SYSTEM ────────────────────────────────────────────
-      function _saveNotes(){
-        // Načti čerstvý stav z localStorage a merguj - aby nepřepsal notes přidané z komentářů zápasů
-        var fresh=[];
-        try{var fp=JSON.parse(localStorage.getItem(notesKey));if(Array.isArray(fp))fresh=fp;}catch(e){}
-        // Přidej z notesList ty které v fresh chybí (podle id)
-        notesList.forEach(function(n){if(!fresh.find(function(f){return f.id===n.id;}))fresh.push(n);});
-        // Aktualizuj notesList
-        notesList=fresh;
-        localStorage.setItem(notesKey,JSON.stringify(notesList));
-      }
+      function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
       // Expose pro okamžité překreslení z match history save listeneru
       sh._renderNotes_pid=pid;
       sh._reloadNotesFn=function(){
