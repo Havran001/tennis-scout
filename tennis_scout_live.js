@@ -1431,8 +1431,9 @@ function _renderMatches(){
                 var oppSlug=parts.slice(2).join('_');
                 var players=window.ATP_PLAYERS||[];
                 var opp=players.find(function(p){
-                  var ps=(p.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
-                  return ps===oppSlug || ps.slice(0,oppSlug.length)===oppSlug || oppSlug.slice(0,ps.length)===ps;
+                  var ps=(p.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12).toLowerCase();
+                  var os=oppSlug.toLowerCase();
+                  return ps===os || ps.slice(0,os.length)===os || os.slice(0,ps.length)===ps;
                 });
                 if(!opp)return;
                 var me=players.find(function(p){return p.id===parts[0];});
