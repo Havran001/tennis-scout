@@ -1409,6 +1409,22 @@ function _renderMatches(){
               if(val)localStorage.setItem("ts_mc_"+mid,val); else localStorage.removeItem("ts_mc_"+mid);
               var dateVal=modal.querySelector("#mh-cmt-modal-date").value.trim();
               if(dateVal)localStorage.setItem("ts_mc_date_"+mid,dateVal); else localStorage.removeItem("ts_mc_date_"+mid);
+              // Zrcadlo pro soupeře — komentář + datum
+              (function(){
+                var parts=mid.split('_');
+                if(parts.length<3)return;
+                var date2=parts[1];
+                var oppSlug=parts.slice(2).join('_');
+                var players=window.ATP_PLAYERS||[];
+                var opp=players.find(function(p){return (p.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12)===oppSlug;});
+                if(!opp)return;
+                var me=players.find(function(p){return p.id===parts[0];});
+                if(!me)return;
+                var meSlug=(me.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
+                var mirrorMid=opp.id+'_'+date2+'_'+meSlug;
+                if(val)localStorage.setItem("ts_mc_"+mirrorMid,val); else localStorage.removeItem("ts_mc_"+mirrorMid);
+                if(dateVal)localStorage.setItem("ts_mc_date_"+mirrorMid,dateVal); else localStorage.removeItem("ts_mc_date_"+mirrorMid);
+              })();
               var b=sh.querySelector(".mh-cmt-btn[data-mid=\""+mid+"\"]");
               if(b){b.classList.toggle("has-comment",!!val);b.title=val?"\uD83D\uDCDD "+val.slice(0,40):"Koment\u00e1\u0159";}
               var ex=sh.querySelector(".mh-cmt-expand[data-mid=\""+mid+"\"]");
