@@ -1126,7 +1126,7 @@ function buildPlayersTab(sh){
           if(_listEl){
             _listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
               var emid=ex.dataset.mid;
-              if(emid&&localStorage.getItem("ts_mc_"+emid)){ex.style.display='inline';}
+              if(emid&&_getMcValue(emid)){ex.style.display='inline';}
               // Odstraň staré listenery klonováním
               var fresh=ex.cloneNode(true);
               ex.parentNode.replaceChild(fresh,ex);
@@ -1146,7 +1146,7 @@ function buildPlayersTab(sh){
             });
             _listEl.querySelectorAll(".mh-cmt-btn").forEach(function(btn){
               var mid=btn.dataset.mid;
-              if(mid&&localStorage.getItem("ts_mc_"+mid)){btn.classList.add("has-comment");btn.title="\uD83D\uDCDD "+localStorage.getItem("ts_mc_"+mid).slice(0,40);}
+              if(mid&&_getMcValue(mid)){btn.classList.add("has-comment");btn.title="\uD83D\uDCDD "+_getMcValue(mid).slice(0,40);}
             });
           }
           return;
@@ -1485,7 +1485,7 @@ function _renderMatches(){
           // Expand trojúhelníky — jednou mimo btn loop
           listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
             var emid=ex.dataset.mid;
-            if(emid&&localStorage.getItem("ts_mc_"+emid)){ex.style.display='inline';}
+            if(emid&&_getMcValue(emid)){ex.style.display='inline';}
             ex.addEventListener("click",function(e){
               e.stopPropagation();
               var row=ex.closest('tr');
@@ -1646,6 +1646,15 @@ function _renderMatches(){
         list.querySelectorAll('.pp-edit-note').forEach(function(btn){
           btn.onclick=function(e){e.stopPropagation();/* edit handled elsewhere */};
         });
+      }
+      function _getMcValue(mid){
+        // Hledej ts_mc_ klíč case-insensitively
+        var exact=localStorage.getItem("ts_mc_"+mid);
+        if(exact)return exact;
+        var lo=("ts_mc_"+mid).toLowerCase();
+        var keys=Object.keys(localStorage);
+        for(var i=0;i<keys.length;i++){if(keys[i].toLowerCase()===lo)return localStorage.getItem(keys[i]);}
+        return null;
       }
       function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
       // Expose pro okamžité překreslení z match history save listeneru
