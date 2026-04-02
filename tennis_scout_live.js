@@ -1611,11 +1611,12 @@ function _renderMatches(){
       // ── SAVE NOTES ────────────────────────────────────────
       // ── NOTES SYSTEM ────────────────────────────────────────────
       function _tsRefreshNotes(targetPid){
-        // Přímé překreslení notes ze localStorage pro daného hráče
+        console.log('REFRESH_CALLED pid='+targetPid+' ls='+JSON.stringify(localStorage.getItem('ts_notes_'+targetPid)||'').slice(0,50));
         var nk='ts_notes_'+targetPid;
         var fresh=[];
         try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))fresh=p;}catch(e){}
         var list=sh.getElementById('pp-notes-list');
+        console.log('REFRESH_LIST='+!!list+' fresh.length='+fresh.length);
         if(!list)return;
         if(targetPid===pid){notesList=fresh;} // aktualizuj closure pokud sedí
         var renderList=targetPid===pid?notesList:fresh;
