@@ -1434,9 +1434,7 @@ function _renderMatches(){
                 if(found){found.text=noteText;found.date=noteDate||found.date;}
                 else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
                 localStorage.setItem(nk,JSON.stringify(existing));
-              })(pid, val, dateVal, mid);
-              // Okamžitě překresli notes
-              _tsRefreshNotes(pid);
+              })(sh._cmtPid||pid, val, dateVal, mid);
               sh._pendingNotesReload=true;
               // Zrcadlo pro soupeře — komentář + datum + notes
               (function(){
@@ -1512,7 +1510,7 @@ function _renderMatches(){
             }
             btn.addEventListener("click",function(e){
               e.stopPropagation();
-              sh._cmtMid=mid;
+              sh._cmtMid=mid;sh._cmtPid=pid;
               var row=btn.closest("tr");
               var cells=row?Array.from(row.querySelectorAll("td")):[];
               var date=cells[2]?(cells[2].firstChild&&cells[2].firstChild.textContent?cells[2].firstChild.textContent.trim():cells[2].textContent.replace(/[^d.]/g,'').trim()):"";
@@ -1590,13 +1588,13 @@ function _renderMatches(){
           h+='</div>';
           sec.innerHTML=h;
           // Zavírací tlačítko
-          var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(pid);if(sh._pendingNotesReload){sh._pendingNotesReload=false;var _nt=sh.getElementById('pp-notes-section');var _mt=sh.getElementById('pp-matches-section');if(_nt)_nt.style.display='block';if(_mt)_mt.style.cssText='display:none;flex:1;padding:28px 32px;';var _tabs=sh.querySelectorAll('.pp-tab');_tabs&&_tabs.forEach(function(t){t.style.color=t.dataset.tab==='notes'?'#00C853':'rgba(255,255,255,0.4)';t.style.borderBottomColor=t.dataset.tab==='notes'?'#00C853':'transparent';});}};}
+          var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){var _cPid=sh._cmtPid||pid;sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(_cPid);if(sh._pendingNotesReload){sh._pendingNotesReload=false;var _nt=sh.getElementById('pp-notes-section');var _mt=sh.getElementById('pp-matches-section');if(_nt)_nt.style.display='block';if(_mt)_mt.style.cssText='display:none;flex:1;padding:28px 32px;';var _tabs=sh.querySelectorAll('.pp-tab');_tabs&&_tabs.forEach(function(t){t.style.color=t.dataset.tab==='notes'?'#00C853':'rgba(255,255,255,0.4)';t.style.borderBottomColor=t.dataset.tab==='notes'?'#00C853':'transparent';});}};}
           // Sync fotky do hlavičky
           var _hdrPhoto=sec.querySelector('#mh-hdr-photo');
           if(_hdrPhoto){var _ppPhoto=sh.getElementById('pp-photo');if(_ppPhoto&&_ppPhoto.src)_hdrPhoto.src=_ppPhoto.src;}
 
           // Event listenery na filtry
-          var _bk=sec.querySelector('#mh-f-back');if(_bk)_bk.onclick=function(){sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(pid);if(sh._pendingNotesReload){sh._pendingNotesReload=false;var _nt=sh.getElementById('pp-notes-section');var _mt=sh.getElementById('pp-matches-section');if(_nt)_nt.style.display='block';if(_mt)_mt.style.cssText='display:none;flex:1;padding:28px 32px;';var _tabs=sh.querySelectorAll('.pp-tab');_tabs&&_tabs.forEach(function(t){t.style.color=t.dataset.tab==='notes'?'#00C853':'rgba(255,255,255,0.4)';t.style.borderBottomColor=t.dataset.tab==='notes'?'#00C853':'transparent';});}};
+          var _bk=sec.querySelector('#mh-f-back');if(_bk)_bk.onclick=function(){var _cPid=sh._cmtPid||pid;sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(_cPid);if(sh._pendingNotesReload){sh._pendingNotesReload=false;var _nt=sh.getElementById('pp-notes-section');var _mt=sh.getElementById('pp-matches-section');if(_nt)_nt.style.display='block';if(_mt)_mt.style.cssText='display:none;flex:1;padding:28px 32px;';var _tabs=sh.querySelectorAll('.pp-tab');_tabs&&_tabs.forEach(function(t){t.style.color=t.dataset.tab==='notes'?'#00C853':'rgba(255,255,255,0.4)';t.style.borderBottomColor=t.dataset.tab==='notes'?'#00C853':'transparent';});}};
           sec.querySelector('#mh-f-reset').addEventListener('click',function(){
             _fSurface='';_fTournament='';_fOpponent='';_fResult='';
             window._mhColFilter={};
