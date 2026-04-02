@@ -1420,6 +1420,8 @@ function _renderMatches(){
                 if(found){found.text=noteText;found.date=noteDate||found.date;}
                 else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
                 localStorage.setItem(nk,JSON.stringify(existing));
+                // Okamžitě překresli notes sekci pokud je karta tohoto hráče otevřena
+                if(sh._reloadNotesFn && sh._renderNotes_pid===targetPid) sh._reloadNotesFn();
               })(pid, val, dateVal, mid);
               // Zrcadlo pro soupeře — komentář + datum + notes
               (function(){
@@ -1428,7 +1430,10 @@ function _renderMatches(){
                 var date2=parts[1];
                 var oppSlug=parts.slice(2).join('_');
                 var players=window.ATP_PLAYERS||[];
-                var opp=players.find(function(p){return (p.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12)===oppSlug;});
+                var opp=players.find(function(p){
+                  var ps=(p.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
+                  return ps===oppSlug || ps.slice(0,oppSlug.length)===oppSlug || oppSlug.slice(0,ps.length)===ps;
+                });
                 if(!opp)return;
                 var me=players.find(function(p){return p.id===parts[0];});
                 if(!me)return;
@@ -1591,6 +1596,13 @@ function _renderMatches(){
       // ── SAVE NOTES ────────────────────────────────────────
       // ── NOTES SYSTEM ────────────────────────────────────────────
       function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
+      // Expose pro okamžité překreslení z match history save listeneru
+      sh._renderNotes_pid=pid;
+      sh._reloadNotesFn=function(){
+        var nk='ts_notes_'+pid;
+        try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))notesList=p;}catch(e){}
+        _renderNotes();
+      };
       function _renderNotes(){
         var list=sh.getElementById('pp-notes-list');
         if(!list)return;
