@@ -2866,7 +2866,6 @@ if(_kbUrl){
       _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh._renderMatches&&_lastData)sh._renderMatches(_lastData);
     });
-    fetch(_kbScrapeUrl).catch(function(){});
   };
   _runKb();
   setInterval(_runKb,30000);
