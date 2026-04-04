@@ -1,0 +1,10 @@
+name = "betano-odds"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "ODDS_KV"
+id = "e87d17d3a2b44fc2b1b35c2b9bfaf3f4"
+
+[triggers]
+crons = ["*/10 * * * *"]
