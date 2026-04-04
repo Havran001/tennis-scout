@@ -2791,7 +2791,7 @@ var _betanoUpdated = null;
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'https://betano-odds.vavra-radovan.workers.dev/odds';
 var _betanoOdds=null,_betanoUpdated=null;var _betanoBaseOdds=(function(){try{var s=localStorage.getItem('ts_betano_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
 var _bsUrl=_betanoUrl.replace('/odds','/scrape');
-if(_betanoUrl){var _runBetano=function(){_loadBetanoOdds();fetch(_bsUrl).catch(function(){});};_runBetano();setInterval(_runBetano,30000);}
+_runBetano();setInterval(_runBetano,30000);
 
 function _normName(n){
   if(!n)return '';
@@ -2812,17 +2812,14 @@ function _getBetanoOdds(p1,p2,dataset){
 }
 
 function _loadBetanoOdds(){
-  var BETANO_JSON='https://havran001.github.io/tennis-scout/betano_odds.json';
-  fetch(BETANO_JSON+'?t='+Date.now()).then(function(r){
-    if(!r.ok)return null;
-    return r.json();
-  }).then(function(d){
+  var url='https://havran001.github.io/tennis-scout/betano_odds.json?t='+Date.now();
+  fetch(url).then(function(r){return r.ok?r.json():null;}).then(function(d){
     if(!d||!d.events||d.events.length===0)return;
     _betanoOdds=d;
     _betanoBaseOdds=d;
     try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}
     _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    if(sh._renderMatches&&_lastData)sh._renderMatches(_lastData);
+    if(sh&&sh._renderMatches&&_lastData)sh._renderMatches(_lastData);
   }).catch(function(){});
 }
 function _betanoCol(p1, p2){
