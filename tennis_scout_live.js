@@ -2812,20 +2812,19 @@ function _getBetanoOdds(p1,p2,dataset){
 }
 
 function _loadBetanoOdds(){
-  if(!_betanoUrl)return;
-  fetch(_betanoUrl+'?t='+Date.now()).then(function(r){
+  var BETANO_JSON='https://havran001.github.io/tennis-scout/betano_odds.json';
+  fetch(BETANO_JSON+'?t='+Date.now()).then(function(r){
     if(!r.ok)return null;
     return r.json();
   }).then(function(d){
-    if(!d)return;
+    if(!d||!d.events||d.events.length===0)return;
     _betanoOdds=d;
-    if(!_betanoBaseOdds||(d.events&&d.events.length>0)){_betanoBaseOdds=d;try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}}
+    _betanoBaseOdds=d;
+    try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}
     _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
     if(sh._renderMatches&&_lastData)sh._renderMatches(_lastData);
   }).catch(function(){});
 }
-
-
 function _betanoCol(p1, p2){
   var odds=_getBetanoOdds(p1,p2),prevOdds=_betanoBaseOdds?_getBetanoOdds(p1,p2,_betanoBaseOdds):null;
   if(!_betanoUrl)return '';
