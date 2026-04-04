@@ -2790,8 +2790,7 @@ var _betanoOdds = null;
 var _betanoUpdated = null;
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'https://betano-odds.vavra-radovan.workers.dev/odds';
 var _betanoOdds=null,_betanoUpdated=null;var _betanoBaseOdds=(function(){try{var s=localStorage.getItem('ts_betano_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
-var _bsUrl=_betanoUrl.replace('/odds','/scrape');
-_runBetano();setInterval(_runBetano,30000);
+var _bsUrl='https://betano-odds.vavra-radovan.workers.dev/scrape';var _runBetano=function(){_loadBetanoOdds();};_runBetano();setInterval(_runBetano,30000);
 
 function _normName(n){
   if(!n)return '';
