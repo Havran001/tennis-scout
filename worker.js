@@ -1,132 +1,14 @@
-const BETANO_BASE='https://www.betano.cz';
-const KV_KEY='betano_odds';
-const HEADERS={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'};
-const SECTIONS=['/sport/tenis/','/sport/tenis/atp/','/sport/tenis/wta/','/sport/tenis/challenger/','/sport/tenis/itf-muzove/'];
-
-function parseState(html){
-  const m='window["initial_state"]=';
-  const i=html.indexOf(m);if(i<0)return null;
-  const s=i+m.length,e=html.indexOf('</script>',s);if(e<0)return null;
-  try{let r=html.slice(s,e).trim();if(r.endsWith(';'))r=r.slice(0,-1);return JSON.parse(r);}catch(e){return null;}
-}
-function getLeagues(state){
-  const out=[],seen=new Set();
-  (state&&state.data&&state.data.topLeagues||[]).forEach(function(l){if(l.url&&!seen.has(l.url)){seen.add(l.url);out.push(l);}});
-  (state&&state.data&&state.data.regionGroups||[]).forEach(function(g){(g.regions||[]).forEach(function(r){(r.leagues||[]).forEach(function(l){if(l.url&&!seen.has(l.url)){seen.add(l.url);out.push(l);}});});});
-  return out;
-}
-function getEvents(state){
-  const out=[];
-  (state&&state.data&&state.data.blocks||[]).forEach(function(block){
-    (block.events||[]).forEach(function(ev){
-      if(!ev)return;
-      var p1='',p2='';
-      if(ev.participants&&ev.participants.length>=2){p1=ev.participants[0].name||'';p2=ev.participants[1].name||'';}
-      else{p1=(ev.homeTeam&&ev.homeTeam.name)||'';p2=(ev.awayTeam&&ev.awayTeam.name)||'';}
-      if(!p1||!p2)return;
-      var mkt=ev.markets&&ev.markets[0];if(!mkt)return;
-      var odds=mkt.odds||mkt.selections||[];if(odds.length<2)return;
-      var o1=parseFloat(odds[0].price||odds[0].odds||0);
-      var o2=parseFloat(odds[1].price||odds[1].odds||0);
-      if(!o1||!o2)return;
-      out.push({id:String(ev.id||''),p1:p1,p2:p2,odds1:o1,odds2:o2,suspended1:!!(odds[0].suspended),suspended2:!!(odds[1].suspended),startTime:ev.startTime||0,leagueName:block.leagueName||''});
-    });
-  });
-  return out;
-}
-
-const ALTENAR='https://sb2frontend-altenar2.biahosted.com/api/widget';
-const AP='culture=cs-CZ&timezoneOffset=-120&integration=kingsbet&deviceType=1&numFormat=en-GB&countryCode=CZ&sportId=68';
-
-async function fetchKbEvents(){
-  const out=[];const seen=new Set();
-  const urls=[ALTENAR+'/GetUpcoming?'+AP+'&eventCount=200',ALTENAR+'/GetLivenow?'+AP+'&eventCount=100'];
-  for(const url of urls){
-    try{
-      const r=await fetch(url,{headers:HEADERS});
-      const d=await r.json();
-      const evs=(d&&d.Result&&d.Result.Items)||[];
-      for(const ev of evs){
-        if(!ev.name||seen.has(ev.id))continue;
-        seen.add(ev.id);
-        const parts=ev.name.split(' vs. ');
-        if(parts.length<2)continue;
-        const p1=parts[0].trim(),p2=parts[1].trim();
-        if(!p1||!p2||!ev.marketIds||!ev.marketIds.length)continue;
-        try{
-          const mr=await fetch(ALTENAR+'/GetMarkets?culture=cs-CZ&timezoneOffset=-120&integration=kingsbet&deviceType=1&numFormat=en-GB&countryCode=CZ&marketIds='+ev.marketIds[0],{headers:HEADERS});
-          const md=await mr.json();
-          const markets=(md&&md.Result&&md.Result.Markets)||[];
-          if(!markets.length)continue;
-          const sel=(markets[0].Selections||markets[0].selections||[]);
-          if(sel.length<2)continue;
-          const o1=parseFloat(sel[0].Price||sel[0].price||0);
-          const o2=parseFloat(sel[1].Price||sel[1].price||0);
-          if(!o1||!o2)continue;
-          out.push({id:String(ev.id),p1,p2,odds1:o1,odds2:o2,suspended1:false,suspended2:false,startTime:ev.startDate?new Date(ev.startDate).getTime():0,leagueName:''});
-        }catch(e){}
-      }
-    }catch(e){}
-  }
-  return out;
-}
-
-export default {
-  async fetch(request,env){
-    const url=new URL(request.url);
-    const path=url.pathname;
-    const cors={'Access-Control-Allow-Origin':'*','Access-Control-Allow-Methods':'GET,OPTIONS','Content-Type':'application/json'};
-    if(request.method==='OPTIONS')return new Response(null,{headers:cors});
-
-    if(path==='/scrape'){
-      try{
-        const allEvents=[];const seen=new Set();
-        for(const section of SECTIONS){
-          try{
-            const r=await fetch(BETANO_BASE+section,{headers:HEADERS});
-            const html=await r.text();
-            const state=parseState(html);if(!state)continue;
-            const leagues=getLeagues(state);
-            for(const league of leagues){
-              if(seen.has(league.url))continue;seen.add(league.url);
-              try{
-                const lr=await fetch(BETANO_BASE+league.url,{headers:HEADERS});
-                const lhtml=await lr.text();
-                const lst=parseState(lhtml);if(!lst)continue;
-                getEvents(lst).forEach(e=>allEvents.push(e));
-              }catch(e){}
-            }
-          }catch(e){}
-        }
-        if(env&&env.BETANO_KV)await env.BETANO_KV.put(KV_KEY,JSON.stringify({updated:new Date().toISOString(),events:allEvents}));
-        return new Response(JSON.stringify({ok:true,count:allEvents.length,errors:[],updated:new Date().toISOString()}),{headers:cors});
-      }catch(e){return new Response(JSON.stringify({ok:false,error:String(e)}),{status:500,headers:cors});}
-    }
-
-    if(path==='/odds'){
-      try{
-        let data=null;
-        if(env&&env.BETANO_KV)data=await env.BETANO_KV.get(KV_KEY,{type:'json'});
-        return new Response(JSON.stringify(data||{events:[]}),{headers:cors});
-      }catch(e){return new Response(JSON.stringify({events:[]}),{headers:cors});}
-    }
-
-    if(path==='/kb-scrape'){
-      try{
-        const events=await fetchKbEvents();
-        if(env&&env.BETANO_KV)await env.BETANO_KV.put('kb_odds',JSON.stringify({updated:new Date().toISOString(),events}));
-        return new Response(JSON.stringify({ok:true,count:events.length,errors:[],updated:new Date().toISOString()}),{headers:cors});
-      }catch(e){return new Response(JSON.stringify({ok:false,error:String(e)}),{status:500,headers:cors});}
-    }
-
-    if(path==='/kb-odds'){
-      try{
-        let data=null;
-        if(env&&env.BETANO_KV)data=await env.BETANO_KV.get('kb_odds',{type:'json'});
-        return new Response(JSON.stringify(data||{events:[]}),{headers:cors});
-      }catch(e){return new Response(JSON.stringify({events:[]}),{headers:cors});}
-    }
-
-    return new Response('Not found',{status:404,headers:cors});
-  }
-};
+const HB={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36','Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','Accept-Language':'cs-CZ,cs;q=0.9','Sec-Fetch-Dest':'document','Sec-Fetch-Mode':'navigate','Sec-Fetch-Site':'none'};const HK={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'};const AL='https://sb2frontend-altenar2.biahosted.com/api/widget';const APC='culture=cs-CZ&timezoneOffset=-120&integration=kingsbet&deviceType=1&numFormat=en-GB&countryCode=CZ';const KV_BETANO='betano_odds';const KV_KB='kb_odds';const IK='tennis2024scout';
+function pB(html){const m='window["initial_state"]=';const i=html.indexOf(m);if(i<0)return null;const s=i+m.length,e=html.indexOf('<'+'/script>',s);if(e<0)return null;try{let r=html.slice(s,e).trim();if(r.endsWith(';'))r=r.slice(0,-1);return JSON.parse(r);}catch(e){return null;}}
+function gL(st){const out=[],seen=new Set();(st?.data?.topLeagues||[]).forEach(l=>{if(l.url&&!seen.has(l.url)){seen.add(l.url);out.push(l.url);}});(st?.data?.regionGroups||[]).forEach(g=>{(g.regions||[]).forEach(r=>{(r.leagues||[]).forEach(l=>{if(l.url&&!seen.has(l.url)){seen.add(l.url);out.push(l.url);}});});});return out;}
+function gE(st){const out=[];(st?.data?.blocks||[]).forEach(b=>{(b.events||[]).forEach(ev=>{if(!ev)return;let p1='',p2='';if(ev.participants?.length>=2){p1=ev.participants[0].name||'';p2=ev.participants[1].name||'';}else{p1=ev.homeTeam?.name||'';p2=ev.awayTeam?.name||'';}if(!p1||!p2)return;const mkt=ev.markets?.[0];if(!mkt)return;const odds=mkt.odds||mkt.selections||[];if(odds.length<2)return;const o1=parseFloat(odds[0].price||odds[0].odds||0),o2=parseFloat(odds[1].price||odds[1].odds||0);if(!o1||!o2)return;out.push({id:String(ev.id||''),p1,p2,odds1:o1,odds2:o2,suspended1:!!(odds[0].suspended),suspended2:!!(odds[1].suspended),startTime:ev.startTime||0,leagueName:b.leagueName||b.title||''});});});return out;}
+async function scrapeBetano(){const all=[],seen=new Set(),BASE='https://www.betano.cz',SECS=['/sport/tenis/','/sport/tenis/atp/','/sport/tenis/wta/','/sport/tenis/challenger/'];for(const sec of SECS){try{const r=await fetch(BASE+sec,{headers:HB});const html=await r.text();const st=pB(html);if(!st)continue;for(const url of gL(st)){if(seen.has(url))continue;seen.add(url);try{const lr=await fetch(BASE+url,{headers:HB});const lhtml=await lr.text();const lst=pB(lhtml);if(!lst)continue;gE(lst).forEach(e=>all.push(e));}catch(e){}}}catch(e){}}return all;}
+function pKb(d){const cM={},oM={},mM={};(d.competitors||[]).forEach(c=>{cM[c.id]=c.name;});(d.odds||[]).forEach(o=>{oM[o.id]=o;});(d.markets||[]).forEach(m=>{mM[m.id]=m;});const out=[];(d.events||[]).forEach(ev=>{const c=ev.competitorIds||[];if(c.length<2)return;const p1=cM[c[0]]||'',p2=cM[c[1]]||'';if(!p1||!p2)return;const mkt=mM[ev.marketIds?.[0]];if(!mkt)return;const oi=mkt.oddIds||[];if(oi.length<2)return;const o1=oM[oi[0]],o2=oM[oi[1]];if(!o1||!o2)return;const pr1=parseFloat(o1.price||0),pr2=parseFloat(o2.price||0);if(!pr1||!pr2)return;out.push({id:String(ev.id),p1,p2,odds1:pr1,odds2:pr2,suspended1:o1.oddStatus!==0,suspended2:o2.oddStatus!==0,startTime:ev.startDate?new Date(ev.startDate).getTime():0,leagueName:''});});return out;}
+async function scrapeKb(){const out=[],seen=new Set();try{const mr=await fetch(AL+'/GetSportMenu?'+APC+'&period=0',{headers:HK});const md=await mr.json();const tennisSport=(md.sports||[]).find(s=>s.id===68);const catIds=tennisSport?.catIds||[];const champIds=[];(md.categories||[]).filter(cat=>catIds.includes(cat.id)).forEach(cat=>{(cat.champIds||[]).forEach(id=>champIds.push(id));});for(const cid of champIds){try{const r=await fetch(AL+'/GetEvents?'+APC+'&eventCount=0&sportId=0&champIds='+cid,{headers:HK});const d=await r.json();for(const ev of pKb(d)){if(!seen.has(ev.id)){seen.add(ev.id);out.push(ev);}}}catch(e){}}try{const lr=await fetch(AL+'/GetLiveEvents?'+APC+'&eventCount=0&sportId=68',{headers:HK});const ld=await lr.json();for(const ev of pKb(ld)){if(!seen.has(ev.id)){seen.add(ev.id);out.push(ev);}}}catch(e){}}catch(e){}return out;}
+export default{async fetch(req,env){const url=new URL(req.url),path=url.pathname,cors={'Access-Control-Allow-Origin':'*','Access-Control-Allow-Methods':'GET,POST,OPTIONS','Content-Type':'application/json'};if(req.method==='OPTIONS')return new Response(null,{headers:cors});const kv=env.ODDS_KV;
+if(path==='/betano-import'&&req.method==='POST'){if(req.headers.get('x-import-key')!==IK)return new Response(JSON.stringify({error:'unauthorized'}),{status:401,headers:cors});try{const d=await req.json();if(kv&&d.events?.length>0)await kv.put(KV_BETANO,JSON.stringify({updated:new Date().toISOString(),events:d.events}));return new Response(JSON.stringify({ok:true,count:d.events?.length}),{headers:cors});}catch(e){return new Response(JSON.stringify({error:String(e)}),{status:500,headers:cors});}}
+if(path==='/scrape'){try{const all=await scrapeBetano();if(kv)await kv.put(KV_BETANO,JSON.stringify({updated:new Date().toISOString(),events:all}));return new Response(JSON.stringify({ok:true,count:all.length,updated:new Date().toISOString()}),{headers:cors});}catch(e){return new Response(JSON.stringify({ok:false,error:String(e)}),{status:500,headers:cors});}}
+if(path==='/odds'){try{const d=kv?await kv.get(KV_BETANO,{type:'json'}):null;return new Response(JSON.stringify(d||{events:[]}),{headers:cors});}catch(e){return new Response(JSON.stringify({events:[]}),{headers:cors});}}
+if(path==='/kb-scrape'){try{const evs=await scrapeKb();if(kv)await kv.put(KV_KB,JSON.stringify({updated:new Date().toISOString(),events:evs}));return new Response(JSON.stringify({ok:true,count:evs.length,updated:new Date().toISOString()}),{headers:cors});}catch(e){return new Response(JSON.stringify({ok:false,error:String(e)}),{status:500,headers:cors});}}
+if(path==='/kb-odds'){try{const d=kv?await kv.get(KV_KB,{type:'json'}):null;return new Response(JSON.stringify(d||{events:[]}),{headers:cors});}catch(e){return new Response(JSON.stringify({events:[]}),{headers:cors});}}
+return new Response('Not found',{status:404,headers:cors});},async scheduled(event,env,ctx){const kv=env.ODDS_KV;ctx.waitUntil(Promise.all([scrapeBetano().then(evs=>kv?.put(KV_BETANO,JSON.stringify({updated:new Date().toISOString(),events:evs}))),scrapeKb().then(evs=>kv?.put(KV_KB,JSON.stringify({updated:new Date().toISOString(),events:evs})))]));}}
