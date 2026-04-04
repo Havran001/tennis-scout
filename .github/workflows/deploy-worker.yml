@@ -1,0 +1,16 @@
+name: Deploy Worker
+on:
+  push:
+    paths:
+      - 'worker.js'
+      - 'wrangler.toml'
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: 54ee77af8cd45567caf89dba90d5920d
