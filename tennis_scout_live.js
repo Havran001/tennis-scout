@@ -2819,7 +2819,7 @@ function _loadBetanoOdds(){
   }).then(function(d){
     if(!d)return;
     _betanoOdds=d;
-    if(!_betanoBaseOdds){_betanoBaseOdds=d;try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}}
+    if(!_betanoBaseOdds||(d.events&&d.events.length>0)){_betanoBaseOdds=d;try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}}
     _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
     if(sh._renderMatches&&_lastData)sh._renderMatches(_lastData);
   }).catch(function(){});
@@ -2862,7 +2862,7 @@ if(_kbUrl){
     fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d)return;
       _kbOdds=d;
-      if(!_kbBaseOdds){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
+      if(!_kbBaseOdds||(d.events&&d.events.length>0)){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
       _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh._renderMatches&&_lastData)sh._renderMatches(_lastData);
     });
