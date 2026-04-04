@@ -2801,12 +2801,15 @@ function _normName(n){
 function _getBetanoOdds(p1,p2,dataset){
   var _ds=dataset||_betanoOdds;if(!_ds||!_ds.events)return null;
   var n1=_normName(p1), n2=_normName(p2);
+  // Vrátí všechna možná normalizovaná příjmení z betano jména (pro dvojitá příjmení)
+  function normAll(n){if(!n)return [];var words=n.trim().split(/s+/).filter(function(w){return w.length>2&&!w.endsWith('.');});return words.map(function(w){return w.toLowerCase().replace(/[^a-z]/g,'');});}
   var ev=_ds.events.find(function(e){
-    var ep1=_normName(e.p1),ep2=_normName(e.p2);return (ep1===n1&&ep2===n2)||(ep1===n2&&ep2===n1);
+    var ep1=normAll(e.p1), ep2=normAll(e.p2);
+    return (ep1.indexOf(n1)>=0&&ep2.indexOf(n2)>=0)||(ep1.indexOf(n2)>=0&&ep2.indexOf(n1)>=0);
   });
   if(!ev)return null;
-  // Správné pořadí kurzů
-  if(_normName(ev.p1)===n1) return {o1:ev.odds1, o2:ev.odds2, s1:ev.suspended1, s2:ev.suspended2, url:ev.url};
+  var ep1first=normAll(ev.p1);
+  if(ep1first.indexOf(n1)>=0) return {o1:ev.odds1, o2:ev.odds2, s1:ev.suspended1, s2:ev.suspended2, url:ev.url};
   return {o1:ev.odds2, o2:ev.odds1, s1:ev.suspended2, s2:ev.suspended1, url:ev.url};
 }
 
