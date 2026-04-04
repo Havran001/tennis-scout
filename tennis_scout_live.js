@@ -2791,8 +2791,7 @@ var _betanoUpdated = null;
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'https://betano-odds.vavra-radovan.workers.dev/odds';
 var _betanoOdds=null,_betanoUpdated=null;var _betanoBaseOdds=(function(){try{var s=localStorage.getItem('ts_betano_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
 var _bsUrl=_betanoUrl.replace('/odds','/scrape');
-if(_betanoUrl){var _runBetano=function(){_loadBetanoOdds();fetch(_bsUrl).catch(function(){});};_runBetano();
-  _scrapeBetanoLive();setInterval(_runBetano,30000);}
+if(_betanoUrl){var _runBetano=function(){_loadBetanoOdds();fetch(_bsUrl).catch(function(){});};_runBetano();setInterval(_runBetano,30000);}
 
 function _normName(n){
   if(!n)return '';
@@ -2827,29 +2826,6 @@ function _loadBetanoOdds(){
 }
 
 
-function _scrapeBetanoLive(){
-  var BASE='https://www.betano.cz';
-  function pS(html){var m='window["initial_state"]=';var i=html.indexOf(m);if(i<0)return null;var s=i+m.length,e=html.indexOf('</script>',s);if(e<0)return null;try{var r=html.slice(s,e).trim();if(r.endsWith(';'))r=r.slice(0,-1);return JSON.parse(r);}catch(err){return null;}}
-  function gL(st){var out=[],seen={};((st&&st.data&&st.data.topLeagues)||[]).forEach(function(l){if(l.url&&!seen[l.url]){seen[l.url]=1;out.push(l.url);}});((st&&st.data&&st.data.regionGroups)||[]).forEach(function(g){(g.regions||[]).forEach(function(r){(r.leagues||[]).forEach(function(l){if(l.url&&!seen[l.url]){seen[l.url]=1;out.push(l.url);}});});});return out;}
-  function gE(st){var out=[];((st&&st.data&&st.data.blocks)||[]).forEach(function(b){(b.events||[]).forEach(function(ev){if(!ev)return;var p1='',p2='';if(ev.participants&&ev.participants.length>=2){p1=ev.participants[0].name||'';p2=ev.participants[1].name||'';}else{p1=(ev.homeTeam&&ev.homeTeam.name)||'';p2=(ev.awayTeam&&ev.awayTeam.name)||'';}if(!p1||!p2)return;var mkt=ev.markets&&ev.markets[0];if(!mkt)return;var odds=mkt.odds||mkt.selections||[];if(odds.length<2)return;var o1=parseFloat(odds[0].price||odds[0].odds||0);var o2=parseFloat(odds[1].price||odds[1].odds||0);if(!o1||!o2)return;out.push({id:String(ev.id||''),p1:p1,p2:p2,odds1:o1,odds2:o2,suspended1:!!(odds[0].suspended),suspended2:!!(odds[1].suspended),startTime:ev.startTime||0,leagueName:b.leagueName||b.title||''});});});return out;}
-  fetch(BASE+'/sport/tenis/').then(function(r){return r.text();}).then(function(html){
-    var st=pS(html);if(!st)return;
-    var leagues=gL(st);var all=[],seen={},pending=leagues.length;
-    if(!pending)return;
-    leagues.forEach(function(url){
-      if(seen[url]){pending--;return;}seen[url]=1;
-      fetch(BASE+url).then(function(r){return r.text();}).then(function(lhtml){
-        gE(pS(lhtml)||{}).forEach(function(e){all.push(e);});
-        pending--;
-        if(pending<=0&&all.length>0){
-          try{localStorage.setItem('ts_betano_base',JSON.stringify({updated:new Date().toISOString(),events:all}));}catch(err){}
-          _betanoBaseOdds={events:all};
-          if(sh&&sh._renderMatches&&_lastData)sh._renderMatches(_lastData);
-        }
-      }).catch(function(){pending--;});
-    });
-  }).catch(function(){});
-}
 function _betanoCol(p1, p2){
   var odds=_getBetanoOdds(p1,p2),prevOdds=_betanoBaseOdds?_getBetanoOdds(p1,p2,_betanoBaseOdds):null;
   if(!_betanoUrl)return '';
