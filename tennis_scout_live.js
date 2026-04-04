@@ -2818,7 +2818,7 @@ function _loadBetanoOdds(){
     _betanoBaseOdds=d;
     try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}
     _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    if(sh&&sh._renderMatches&&_lastData)sh._renderMatches(_lastData);
+    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
   }).catch(function(){});
 }
 function _betanoCol(p1, p2){
@@ -2861,7 +2861,7 @@ var _runKb=function(){
     _kbOdds=d;
     if(!_kbBaseOdds||(d.events&&d.events.length>0)){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
     _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    if(sh&&sh._renderMatches&&_lastData)sh._renderMatches(_lastData);
+    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
   });
 };
 _runKb();setInterval(_runKb,30000);
