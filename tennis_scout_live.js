@@ -2791,7 +2791,7 @@ var _betanoUpdated = null;
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'https://betano-odds.vavra-radovan.workers.dev/odds';
 var _betanoOdds=null,_betanoUpdated=null;var _betanoBaseOdds=(function(){try{var s=localStorage.getItem('ts_betano_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
 var _bsUrl=_betanoUrl.replace('/odds','/scrape');
-if(_betanoUrl){var _runBetano=function(){fetch(_bsUrl).catch(function(){}).then(function(){_loadBetanoOdds();});};_runBetano();setInterval(_runBetano,30000);}
+if(_betanoUrl){var _runBetano=function(){_loadBetanoOdds();fetch(_bsUrl).catch(function(){});};_runBetano();setInterval(_runBetano,30000);}
 
 function _normName(n){
   if(!n)return '';
