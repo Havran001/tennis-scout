@@ -2863,6 +2863,14 @@ var _runKb=function(){
 };
 _runKb();setInterval(_runKb,30000);
 
+// ─── KINGSBET NAME MATCHING — oprava pomlček v příjmeních ───────────────────
+// Nahraď v tennis_scout_live.js tyto dvě funkce:
+// _normKbName  a  _getKbOdds
+// (vše ostatní v sekci KINGSBET ODDS zůstává stejné)
+// ────────────────────────────────────────────────────────────────────────────
+ 
+// Pomocná: převede libovolný string na ascii-only lowercase, bez diakritiky
+// Pomlčky a lomítka ODSTRANÍ (takže "Bautista-Agut" → "bautistaagut")
 function _normKbName(n){
   if(!n)return '';
   n=n.trim();
@@ -2879,7 +2887,111 @@ function _normKbName(n){
   var p=n.split(/\s+/);
   return ascii(p[p.length-1]);
 }
+ 
 function _getKbOdds(p1,p2,dataset){
+  var _ds=dataset||_kbOdds;if(!_ds||!_ds.events)return null;
+  var aliases={};try{var _a=localStorage.getItem('ts_kb_aliases');if(_a)aliases=JSON.parse(_a);}catch(e){}
+ 
+  // Převede string na ascii lowercase bez diakritiky
+  var ascii=function(s){
+    return (s||'').toLowerCase()
+      .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+  };
+ 
+  // Vrátí POLE variant pro jedno slovo/příjmení
+  // "Bautista-Agut" → ["bautistaagut", "bautista", "agut"]
+  // "Kvitová"       → ["kvitova", "kvit"]  (bez -ova)
+  var wordVars=function(w){
+    if(!w||w.length<2)return [];
+    var a=ascii(w);
+    if(a.length<2)return [];
+    var vars=[a];
+    // alias z localStorage
+    if(aliases[a])vars.push(aliases[a]);
+    // pomlčka: rozlož na části a přidej každou zvlášť
+    if(a.indexOf('-')<0 && w.indexOf('-')>-1){
+      // ascii() smazal pomlčku — rozlož původní slovo
+      w.toLowerCase().split('-').forEach(function(part){
+        var p=ascii(part);
+        if(p.length>2&&vars.indexOf(p)<0)vars.push(p);
+      });
+    }
+    // -ova / -eva koncovka (ženská příjmení)
+    var noOva=a.replace(/ova$/,'');
+    if(noOva.length>3&&noOva!==a&&vars.indexOf(noOva)<0)vars.push(noOva);
+    var noEva=a.replace(/eva$/,'');
+    if(noEva.length>3&&noEva!==a&&vars.indexOf(noEva)<0)vars.push(noEva);
+    // sh→s, ch→c, zh→z varianty
+    var noSh=a.replace(/sh/g,'s').replace(/ch/g,'c').replace(/zh/g,'z');
+    if(noSh!==a&&vars.indexOf(noSh)<0)vars.push(noSh);
+    var noShOva=noSh.replace(/ova$/,'');
+    if(noShOva.length>3&&noShOva!==noSh&&vars.indexOf(noShOva)<0)vars.push(noShOva);
+    return vars;
+  };
+ 
+  // Vrátí varianty ze jména na straně KB (může být "Doe J." nebo "Bautista-Agut R.")
+  var kbVars=function(name){
+    if(!name)return [];
+    name=name.trim();
+    var words;
+    if(name.indexOf(',')>-1){
+      // "Doe, J." formát → vezmeme část před čárkou
+      words=name.split(',')[0].trim().split(/\s+/);
+    } else {
+      // normální nebo doubles formát s lomítkem
+      words=name.replace(/\//g,' ').split(/\s+/);
+    }
+    var vars=[];
+    words.forEach(function(w){
+      if(w.length>1)vars=vars.concat(wordVars(w));
+    });
+    return vars;
+  };
+ 
+  // Vrátí varianty ze jména na straně Flashscore aplikace
+  // Flashscore: "Bautista-Agut R." nebo "Doe J." nebo "Smith A. / Jones B."
+  var appVars=function(n){
+    if(!n)return [];
+    var names=n.indexOf('/')>-1 ? n.split('/') : [n];
+    var result=[];
+    names.forEach(function(segment){
+      segment=segment.trim();
+      var parts=segment.split(/\s+/);
+      // příjmení = první token (Flashscore formát "Příjmení I.")
+      var surname=parts[0]||'';
+      // přidej varianty příjmení (vč. pomlčky)
+      result=result.concat(wordVars(surname));
+      // přidej i poslední token pro jistotu
+      var last=parts[parts.length-1]||'';
+      if(last!==surname&&last.length>2)result=result.concat(wordVars(last));
+    });
+    return result;
+  };
+ 
+  // Porovná KB jméno a Flashscore jméno — true pokud sdílí alespoň jednu variantu
+  var nameMatch=function(kbName,appName){
+    var kv=kbVars(kbName);
+    var av=appVars(appName);
+    for(var i=0;i<av.length;i++){
+      if(kv.indexOf(av[i])>=0)return true;
+    }
+    return false;
+  };
+ 
+  // Najdi event
+  var ev=_ds.events.find(function(e){
+    if(!e.p1||!e.p2)return false;
+    return (nameMatch(e.p1,p1)&&nameMatch(e.p2,p2))
+        || (nameMatch(e.p1,p2)&&nameMatch(e.p2,p1));
+  });
+  if(!ev)return null;
+ 
+  // Vrať kurzy ve správném pořadí (p1 = domácí/první)
+  if(nameMatch(ev.p1,p1))
+    return {o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+  return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
+}
   var _ds=dataset||_kbOdds;if(!_ds||!_ds.events)return null;
   var aliases={};try{var _a=localStorage.getItem('ts_kb_aliases');if(_a)aliases=JSON.parse(_a);}catch(e){}
   var ascii=function(s){return s.toLowerCase().replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');};
