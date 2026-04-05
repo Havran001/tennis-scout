@@ -2999,17 +2999,14 @@ var _fortunaScrapeUrl='https://betano-odds.vavra-radovan.workers.dev/fortuna-scr
 
 function _normFortuna(n){
   if(!n)return '';
-  // Fortuna posílá "Novak D." nebo "Bautista Agut R." - vezmeme příjmení (vše před posledním tečkovaným tokenem)
-  var p=n.trim().normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z .]/g,'').trim();
+  var p=n.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z .]/g,'').trim();
   var parts=p.split(/\s+/);
-  // Poslední token končí tečkou = zkratka křestního jména, zbytek = příjmení
-  var last=parts[parts.length-1];
-  if(last.endsWith('.')){
-    // Příjmení je vše před posledním tokenem
-    return parts.slice(0,-1).join('');
-  }
-  return parts[parts.length-1];
+  // Odstraň všechny zkratky (délka <=2 nebo končí tečkou) — podporuje "Burruchaga R.A."
+  var nameParts=parts.filter(function(t){return t.length>2&&!t.endsWith('.');});
+  if(nameParts.length===0)return parts[0]||'';
+  return nameParts.join('');
 }
+
 
 function _getFortunaOdds(p1,p2,dataset){
   var _ds=dataset||_fortunaOdds;if(!_ds||!_ds.events)return null;
