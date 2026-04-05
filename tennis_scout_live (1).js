@@ -1,0 +1,3138 @@
+// ==========================================================
+// 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
+// ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
+// ITF M15/M25/W15/W35+: live API itftennis.com (načítá se při spuštění)
+//
+// Jak použít:
+//   1. Otevři www.itftennis.com/en/tournament-calendar/mens-world-tennis-tour-calendar/
+//   2. Cmd + Option + J → konzole
+//   3. Vlož skript → Enter → čekej ~20s na ITF data
+//
+//   ATP/WTA/Challenger se zobrazí okamžitě z jakékoli stránky.
+//   ITF data se načtou pouze ze stránky itftennis.com.
+// ===============================================================
+
+(async function TENNIS_SCOUT() {
+'use strict';
+const VERSION = '5.3';
+
+// ATP Rankings - načítáno z GitHubu (stejně jako ITF data)
+window.ATP_PLAYERS = [];
+
+// Kontrola CSP
+{
+  const url = location.href;
+  if (url.startsWith('chrome://')||url.startsWith('about:')||url.startsWith('edge://')) {
+    alert('⛔ Spusť skript na normální stránce — např. otevři wikipedia.org'); return;
+  }
+  if (window.trustedTypes) {
+    try { window.trustedTypes.createPolicy('ts-probe-'+Date.now(),{createHTML:s=>s}); }
+    catch(e) { if(e.message.includes('disallowed')) { alert('⛔ Tato stránka blokuje skript (CSP).\n✅ Otevři wikipedia.org a spusť tam.'); return; } }
+  }
+}
+
+// ── STATICKÁ DATA 2026 ────────────────────────────────────────
+// Formát: [name, loc, tier, surf, io, alt_m, start, end, sgl, dbl, prize, {a:winners_ATP, w:winners_WTA}]
+// io: "O"=outdoor, "I"=indoor
+// alt_m: nadmořská výška v metrech (0 = u moře / neuvedeno)
+// prize: prize money pro singla vítěze v USD (ATP pokud combined, jinak M/W)
+// winners: poslední 3 roky [2025, 2024, 2023]
+
+const ATP = [
+  // LEDEN
+  ["United Cup","Perth/Sydney, AUS","Tým.event","Tvrdý","O",15,"2026-01-02","2026-01-11",0,0,"—",{w:["Polsko","Polsko","USA"]}],
+  ["Brisbane International","Brisbane, AUS","ATP250","Tvrdý","O",27,"2026-01-04","2026-01-11",32,24,"$604k",{w:["Rune","Fonseca","Shelton"]}],
+  ["Bank of China Hong Kong Open","Hong Kong","ATP250","Tvrdý","O",10,"2026-01-05","2026-01-11",28,16,"$604k",{w:["Bublik","Bublik","Bublik"]}],
+  ["Adelaide International","Adelaide, AUS","ATP250","Tvrdý","O",48,"2026-01-12","2026-01-17",28,24,"$604k",{w:["Machac","Korda","Rublev"]}],
+  ["ASB Classic","Auckland, NZL","ATP250","Tvrdý","O",25,"2026-01-12","2026-01-17",28,16,"$604k",{w:["Mensik","Paul","Cressy"]}],
+  ["Australian Open","Melbourne, AUS","Grand Slam","Tvrdý","O",31,"2026-01-18","2026-02-01",128,64,"$2,9M AUD",{w:["Alcaraz","Sinner","Djokovic"]}],
+  // ÚNOR
+  ["Open Occitanie","Montpellier, FRA","ATP250","Tvrdý","I",1,"2026-02-02","2026-02-08",28,16,"$604k",{w:["Humbert","Humbert","Bublik"]}],
+  ["Nexo Dallas Open","Dallas, USA","ATP500","Tvrdý","I",139,"2026-02-09","2026-02-15",32,16,"$1,96M",{w:["Draper","Fritz","Opelka"]}],
+  ["ABN AMRO Open","Rotterdam, NED","ATP500","Tvrdý","I",1,"2026-02-09","2026-02-15",32,16,"$1,96M",{w:["Medvedev","Sinner","Rublev"]}],
+  ["IEB+ Argentina Open","Buenos Aires, ARG","ATP250","Antuka","O",25,"2026-02-09","2026-02-15",28,16,"$604k",{w:["Cerundolo","Cerundolo","Djokovic"]}],
+  ["Qatar ExxonMobil Open","Doha, QAT","ATP500","Tvrdý","O",11,"2026-02-16","2026-02-22",32,16,"$1,96M",{w:["Rublev","Medvedev","Djokovic"]}],
+  ["Rio Open","Rio de Janeiro, BRA","ATP500","Antuka","O",10,"2026-02-16","2026-02-22",32,16,"$1,96M",{w:["Fonseca","Cerundolo","Tsitsipas"]}],
+  ["Delray Beach Open","Delray Beach, USA","ATP250","Tvrdý","O",3,"2026-02-16","2026-02-22",28,16,"$604k",{w:["Paul","Korda","Tiafoe"]}],
+  ["Mubadala Citi DC Open","Washington DC, USA","ATP500","Tvrdý","O",7,"2026-02-23","2026-03-01",48,16,"$1,96M",{w:["Fritz","Fritz","Zverev"]}],
+  ["Mexican Open","Acapulco, MEX","ATP500","Tvrdý","O",3,"2026-02-23","2026-03-01",32,16,"$1,96M",{w:["Alcaraz","Alcaraz","Alcaraz"]}],
+  ["Dubai Duty Free Championships","Dubai, UAE","ATP500","Tvrdý","O",5,"2026-02-23","2026-03-01",32,16,"$1,96M",{w:["Medvedev","Djokovic","Rublev"]}],
+  ["Movistar Chile Open","Santiago, CHI","ATP250","Antuka","O",520,"2026-02-23","2026-03-01",28,16,"$604k",{w:["Jarry","Tabilo","Jarry"]}],
+  // BŘEZEN
+  ["BNP Paribas Open","Indian Wells, USA","Masters1000","Tvrdý","O",485,"2026-03-04","2026-03-15",96,32,"$1,15M",{w:["Draper","Alcaraz","Alcaraz"]}],
+  ["Miami Open","Miami, USA","Masters1000","Tvrdý","O",2,"2026-03-18","2026-03-29",96,32,"$1,2M",{w:["Sinner","Sinner","Alcaraz"]}],
+  ["Tiriac Open","Bucharest, ROU","ATP250","Antuka","O",85,"2026-03-30","2026-04-05",28,16,"$604k",{w:["Rune","Rune","Hanfmann"]}],
+  ["U.S. Men's Clay Court Championship","Houston, USA","ATP250","Antuka","O",38,"2026-03-30","2026-04-05",28,16,"$604k",{w:["Fonseca","Paul","Fognini"]}],
+  ["Grand Prix Hassan II","Marrakech, MAR","ATP250","Antuka","O",454,"2026-03-30","2026-04-05",28,16,"$604k",{w:["Mensik","Sonego","Munar"]}],
+  // DUBEN
+  ["Rolex Monte-Carlo Masters","Monte Carlo, MON","Masters1000","Antuka","O",20,"2026-04-06","2026-04-12",56,24,"$857k",{w:["Alcaraz","Tsitsipas","Rune"]}],
+  ["Barcelona Open Banc Sabadell","Barcelona, ESP","ATP500","Antuka","O",12,"2026-04-13","2026-04-19",48,16,"$1,13M",{w:["Alcaraz","Tsitsipas","Alcaraz"]}],
+  ["BMW Open","Munich, GER","ATP500","Antuka","O",519,"2026-04-13","2026-04-19",32,16,"$704k",{w:["Zverev","Zverev","Zverev"]}],
+  ["Mutua Madrid Open","Madrid, ESP","Masters1000","Antuka","O",667,"2026-04-22","2026-05-03",96,32,"$1,12M",{w:["Alcaraz","Zverev","Alcaraz"]}],
+  // KVĚTEN
+  ["Internazionali BNL d'Italia","Rome, ITA","Masters1000","Antuka","O",23,"2026-05-06","2026-05-17",96,32,"$857k",{w:["Alcaraz","Zverev","Rune"]}],
+  ["Hamburg Open","Hamburg, GER","ATP500","Antuka","O",6,"2026-05-17","2026-05-23",32,16,"$1,13M",{w:["Zverev","Zverev","Zverev"]}],
+  ["Gonet Geneva Open","Geneva, SUI","ATP250","Antuka","O",375,"2026-05-17","2026-05-23",28,16,"$604k",{w:["Djokovic","Dimitrov","Musetti"]}],
+  ["Roland Garros","Paris, FRA","Grand Slam","Antuka","O",35,"2026-05-24","2026-06-07",128,64,"$2,4M EUR",{w:["Alcaraz","Sinner","Nole"]}],
+  // ČERVEN
+  ["Libema Open","'s-Hertogenbosch, NED","ATP250","Tráva","O",5,"2026-06-08","2026-06-14",28,16,"$604k",{w:["Rune","Griekspoor","Bublik"]}],
+  ["BOSS Open","Stuttgart, GER","ATP250","Tráva","O",226,"2026-06-08","2026-06-14",28,16,"$604k",{w:["Ruud","Rune","Auger-Aliassime"]}],
+  ["Terra Wortmann Open","Halle, GER","ATP500","Tráva","O",65,"2026-06-15","2026-06-21",32,16,"$1,96M",{w:["Sinner","Sinner","Rublev"]}],
+  ["HSBC Championships","London, GBR","ATP500","Tráva","O",11,"2026-06-15","2026-06-21",32,16,"$1,96M",{w:["Djokovic","Fritz","Paul"]}],
+  ["Mallorca Championships","Mallorca, ESP","ATP250","Tráva","O",14,"2026-06-21","2026-06-27",28,16,"$604k",{w:["Ruusuvuori","Fognini","Fognini"]}],
+  ["Rothesay International","Eastbourne, GBR","ATP250","Tráva","O",5,"2026-06-22","2026-06-28",28,16,"$604k",{w:["Norrie","Norrie","Norrie"]}],
+  ["Wimbledon","London, GBR","Grand Slam","Tráva","O",43,"2026-06-29","2026-07-12",128,64,"$2,9M GBP",{w:["Alcaraz","Alcaraz","Alcaraz"]}],
+  // ČERVENEC
+  ["Nordea Open","Båstad, SWE","ATP250","Antuka","O",12,"2026-07-13","2026-07-19",28,16,"$604k",{w:["Ruud","Rune","Rune"]}],
+  ["EFG Swiss Open Gstaad","Gstaad, SUI","ATP250","Antuka","O",1050,"2026-07-13","2026-07-19",28,16,"$604k",{w:["Struff","Struff","Struff"]}],
+  ["Plava Laguna Croatia Open Umag","Umag, CRO","ATP250","Antuka","O",7,"2026-07-13","2026-07-19",28,16,"$604k",{w:["Rune","Musetti","Sinner"]}],
+  ["Generali Open","Kitzbühel, AUT","ATP250","Antuka","O",762,"2026-07-19","2026-07-25",28,16,"$604k",{w:["Altmaier","Struff","Struff"]}],
+  ["Millennium Estoril Open","Estoril, POR","ATP250","Antuka","O",149,"2026-07-20","2026-07-26",28,16,"$604k",{w:["Rune","Monfils","Norrie"]}],
+  ["Mifel Tennis Open","Los Cabos, MEX","ATP250","Tvrdý","O",14,"2026-07-20","2026-07-26",28,16,"$604k",{w:["Rune","Fonseca","Zverev"]}],
+  ["Mubadala Citi DC Open","Washington DC, USA","ATP500","Tvrdý","O",7,"2026-07-27","2026-08-02",48,16,"$1,96M",{w:["Shelton","Fritz","Shelton"]}],
+  // SRPEN
+  ["National Bank Open","Montreal/Toronto, CAN","Masters1000","Tvrdý","O",30,"2026-08-03","2026-08-16",96,32,"$857k",{w:["Sinner","Sinner","Alcaraz"]}],
+  ["Cincinnati Open","Cincinnati, USA","Masters1000","Tvrdý","O",226,"2026-08-17","2026-08-23",96,32,"$857k",{w:["Sinner","Djokovic","Alcaraz"]}],
+  ["Winston-Salem Open","Winston-Salem, USA","ATP250","Tvrdý","O",270,"2026-08-23","2026-08-29",48,16,"$604k",{w:["Paul","Mannarino","Cressy"]}],
+  ["US Open","New York, USA","Grand Slam","Tvrdý","O",6,"2026-08-31","2026-09-13",128,64,"$3,6M",{w:["Sinner","Sinner","Medvedev"]}],
+  // ZÁŘÍ
+  ["Chengdu Open","Chengdu, CHN","ATP250","Tvrdý","O",500,"2026-09-21","2026-09-27",28,16,"$604k",{w:["Sinner","Medvedev","Wu"]}],
+  ["Hangzhou Open","Hangzhou, CHN","ATP250","Tvrdý","O",7,"2026-09-21","2026-09-27",28,16,"$604k",{w:["Bublik","Zverev","Davidovich"]}],
+  ["Laver Cup","London, GBR","Exhibice","Tvrdý","I",43,"2026-09-25","2026-09-27",0,0,"—",{w:["Evropa","Svět","Evropa"]}],
+  ["Kinoshita Japan Open","Tokyo, JPN","ATP500","Tvrdý","O",40,"2026-09-28","2026-10-04",32,16,"$1,96M",{w:["Rune","Paul","Tsitsipas"]}],
+  ["China Open","Beijing, CHN","ATP500","Tvrdý","O",43,"2026-09-28","2026-10-04",32,16,"$1,96M",{w:["Sinner","Sinner","Alcaraz"]}],
+  // ŘÍJEN
+  ["Rolex Shanghai Masters","Shanghai, CHN","Masters1000","Tvrdý","O",4,"2026-10-05","2026-10-18",96,32,"$1,12M",{w:["Sinner","Djokovic","Medvedev"]}],
+  ["Almaty Open","Almaty, KAZ","ATP250","Tvrdý","I",775,"2026-10-19","2026-10-25",28,16,"$604k",{w:["Rune","Rublev","Bublik"]}],
+  ["European Open","Antwerp, BEL","ATP250","Tvrdý","I",12,"2026-10-19","2026-10-25",28,16,"$604k",{w:["Paul","Rublev","Sinner"]}],
+  ["Grand Prix Auvergne-Rhône-Alpes","Lyon, FRA","ATP250","Tvrdý","I",173,"2026-10-19","2026-10-25",28,16,"$604k",{w:["Tiafoe","Fils","Mannarino"]}],
+  ["Swiss Indoors Basel","Basel, SUI","ATP500","Tvrdý","I",260,"2026-10-26","2026-11-01",28,16,"$1,96M",{w:["Sinner","Sinner","Djokovic"]}],
+  ["Erste Bank Open","Vienna, AUT","ATP500","Tvrdý","I",171,"2026-10-26","2026-11-01",32,16,"$1,96M",{w:["Draper","Sinner","Rublev"]}],
+  // LISTOPAD
+  ["Rolex Paris Masters","Paris, FRA","Masters1000","Tvrdý","I",35,"2026-11-02","2026-11-08",48,24,"$857k",{w:["Zverev","Djokovic","Djokovic"]}],
+  ["BNP Paribas Nordic Open","Stockholm, SWE","ATP250","Tvrdý","I",28,"2026-11-09","2026-11-15",28,16,"$604k",{w:["Rune","Rune","Nishioka"]}],
+  ["Nitto ATP Finals","Turin, ITA","Finals","Tvrdý","I",239,"2026-11-15","2026-11-22",8,8,"$2,6M",{w:["Sinner","Sinner","Djokovic"]}],
+  ["Next Gen ATP Finals","Jeddah, KSA","NextGen","Tvrdý","I",612,"2026-12-16","2026-12-20",8,0,"$1,8M",{w:["Fonseca","Mensik","Fils"]}],
+];
+
+const WTA = [
+  // LEDEN
+  ["United Cup","Perth/Sydney, AUS","Tým.event","Tvrdý","O",15,"2026-01-02","2026-01-11",0,0,"—",{w:["Polsko","Polsko","USA"]}],
+  ["Brisbane International","Brisbane, AUS","WTA500","Tvrdý","O",27,"2026-01-04","2026-01-11",32,16,"$235k",{w:["Sabalenka","Gauff","Azarenka"]}],
+  ["Adelaide International","Adelaide, AUS","WTA500","Tvrdý","O",48,"2026-01-05","2026-01-11",32,16,"$235k",{w:["Svitolina","Rybakina","Barty"]}],
+  ["ASB Classic","Auckland, NZL","WTA250","Tvrdý","O",25,"2026-01-05","2026-01-11",32,16,"$235k",{w:["Svitolina","Osaka","Vandeweghe"]}],
+  ["Hobart International","Hobart, AUS","WTA250","Tvrdý","O",54,"2026-01-12","2026-01-18",32,16,"$235k",{w:["Cocciaretto","Kvitova","Stosur"]}],
+  ["Australian Open","Melbourne, AUS","Grand Slam","Tvrdý","O",31,"2026-01-18","2026-02-01",128,64,"$2,9M AUD",{w:["Rybakina","Sabalenka","Sabalenka"]}],
+  // ÚNOR
+  ["Thames International","London, GBR","WTA500","Tvrdý","I",11,"2026-02-02","2026-02-08",28,16,"$235k",{w:["Andreeva","Rybakina","—"]}],
+  ["Cali Open","Cali, COL","WTA250","Antuka","O",995,"2026-02-02","2026-02-08",32,16,"$115k",{w:["Sorribes Tormo","Sorribes Tormo","Osorio"]}],
+  ["Abu Dhabi Open","Abu Dhabi, UAE","WTA500","Tvrdý","O",27,"2026-02-02","2026-02-08",28,16,"$235k",{w:["Muchova","Rybakina","—"]}],
+  ["Qatar TotalEnergies Open","Doha, QAT","WTA1000","Tvrdý","O",11,"2026-02-09","2026-02-15",56,28,"$665k",{w:["Muchova","Swiatek","Swiatek"]}],
+  ["Dubai Duty Free Championships","Dubai, UAE","WTA1000","Tvrdý","O",5,"2026-02-16","2026-02-22",56,28,"$665k",{w:["Pegula","Svitolina","Swiatek"]}],
+  ["Rio Open","Rio de Janeiro, BRA","WTA250","Antuka","O",10,"2026-02-16","2026-02-22",32,16,"$115k",{w:["Sorribes Tormo","Sorribes Tormo","Osorio"]}],
+  ["Abierto Mexicano Telcel","Acapulco, MEX","WTA250","Tvrdý","O",3,"2026-02-23","2026-03-01",32,16,"$115k",{w:["Samsonova","Osaka","Haddad Maia"]}],
+  // BŘEZEN
+  ["BNP Paribas Open","Indian Wells, USA","WTA1000","Tvrdý","O",485,"2026-03-04","2026-03-15",96,32,"$1,15M",{w:["Andreeva","Sabalenka","Swiatek"]}],
+  ["Miami Open","Miami, USA","WTA1000","Tvrdý","O",2,"2026-03-18","2026-03-29",96,32,"$1,2M",{w:["Gauff","Swiatek","Swiatek"]}],
+  ["Credit One Charleston Open","Charleston, USA","WTA500","Antuka","O",10,"2026-03-23","2026-03-29",48,16,"$235k",{w:["Swiatek","Swiatek","Swiatek"]}],
+  // DUBEN
+  ["Porsche Tennis Grand Prix","Stuttgart, GER","WTA500","Antuka","I",245,"2026-04-06","2026-04-12",28,14,"$235k",{w:["Swiatek","Swiatek","Swiatek"]}],
+  ["Upper Austria Ladies Linz","Linz, AUT","WTA500","Tvrdý","I",266,"2026-04-06","2026-04-12",28,16,"$235k",{w:["Rybakina","Rybakina","Bencic"]}],
+  ["Barcelona Open","Barcelona, ESP","WTA500","Antuka","O",12,"2026-04-13","2026-04-19",32,16,"$235k",{w:["Swiatek","Swiatek","Muguruza"]}],
+  ["Mutua Madrid Open","Madrid, ESP","WTA1000","Antuka","O",667,"2026-04-27","2026-05-03",96,32,"$1,12M",{w:["Sabalenka","Swiatek","Swiatek"]}],
+  ["Grand Prix Hassan II","Marrakech, MAR","WTA250","Antuka","O",454,"2026-04-27","2026-05-03",32,16,"$115k",{w:["Sorribes Tormo","Sorribes Tormo","Bogdan"]}],
+  // KVĚTEN
+  ["Internazionali BNL d'Italia","Rome, ITA","WTA1000","Antuka","O",23,"2026-05-04","2026-05-10",96,32,"$857k",{w:["Gauff","Swiatek","Swiatek"]}],
+  ["Internationaux de Strasbourg","Strasbourg, FRA","WTA250","Antuka","O",142,"2026-05-11","2026-05-17",32,16,"$115k",{w:["Svitolina","Bouzkova","Kvitova"]}],
+  ["Roland Garros","Paris, FRA","Grand Slam","Antuka","O",35,"2026-05-24","2026-06-07",128,64,"$2,4M EUR",{w:["Gauff","Swiatek","Swiatek"]}],
+  // ČERVEN
+  ["Libema Open","'s-Hertogenbosch, NED","WTA500","Tráva","O",5,"2026-06-08","2026-06-14",28,16,"$235k",{w:["Rybakina","Vondrousova","Kontaveit"]}],
+  ["Rothesay Open Nottingham","Nottingham, GBR","WTA250","Tráva","O",28,"2026-06-08","2026-06-14",32,16,"$115k",{w:["Paolini","Bouzkova","Brengle"]}],
+  ["Bad Homburg Open","Bad Homburg, GER","WTA250","Tráva","O",149,"2026-06-15","2026-06-21",32,16,"$115k",{w:["Rybakina","Vondrousova","Kerber"]}],
+  ["Berlin Ladies Open","Berlin, GER","WTA500","Tráva","O",34,"2026-06-15","2026-06-21",28,16,"$235k",{w:["Swiatek","Swiatek","Kvitova"]}],
+  ["Rothesay International Eastbourne","Eastbourne, GBR","WTA250","Tráva","O",5,"2026-06-22","2026-06-28",32,16,"$115k",{w:["Rybakina","Gauff","Jabeur"]}],
+  ["Wimbledon","London, GBR","Grand Slam","Tráva","O",43,"2026-06-29","2026-07-12",128,64,"$2,9M GBP",{w:["Rybakina","Vondrousova","Rybakina"]}],
+  // ČERVENEC
+  ["Palermo International","Palermo, ITA","WTA250","Antuka","O",36,"2026-07-13","2026-07-19",32,16,"$115k",{w:["Paolini","Paolini","Bronzetti"]}],
+  ["Prague Open","Prague, CZE","WTA250","Antuka","O",190,"2026-07-13","2026-07-19",32,16,"$115k",{w:["Kvitova","Bouzkova","Kvitova"]}],
+  ["IWC Budapest Grand Prix","Budapest, HUN","WTA250","Antuka","O",102,"2026-07-20","2026-07-26",32,16,"$115k",{w:["Siegemund","Parrizas Diaz","Bogdan"]}],
+  ["Mubadala Citi DC Open","Washington DC, USA","WTA500","Tvrdý","O",7,"2026-07-20","2026-07-26",28,16,"$235k",{w:["Gauff","Gauff","Kontaveit"]}],
+  // SRPEN
+  ["National Bank Open","Toronto/Montreal, CAN","WTA1000","Tvrdý","O",105,"2026-08-03","2026-08-09",96,32,"$857k",{w:["Sabalenka","Swiatek","Swiatek"]}],
+  ["Western & Southern Open","Cincinnati, USA","WTA1000","Tvrdý","O",226,"2026-08-10","2026-08-17",96,32,"$857k",{w:["Swiatek","Swiatek","Swiatek"]}],
+  ["US Open","New York, USA","Grand Slam","Tvrdý","O",6,"2026-08-31","2026-09-13",128,64,"$3,6M",{w:["Sabalenka","Sabalenka","Swiatek"]}],
+  // ZÁŘÍ
+  ["Singapore Open","Singapore, SIN","WTA500","Tvrdý","I",15,"2026-09-21","2026-09-27",28,16,"$235k",{w:["—","—","—"]}],
+  ["Guangzhou Open","Guangzhou, CHN","WTA250","Tvrdý","O",11,"2026-09-21","2026-09-27",32,16,"$115k",{w:["Zhu","Zheng","Zhu"]}],
+  ["China Open","Beijing, CHN","WTA1000","Tvrdý","O",43,"2026-09-28","2026-10-04",96,32,"$857k",{w:["Sabalenka","Swiatek","Swiatek"]}],
+  ["Wuhan Open","Wuhan, CHN","WTA1000","Tvrdý","O",23,"2026-09-28","2026-10-11",96,32,"$857k",{w:["Swiatek","Rybakina","Swiatek"]}],
+  // ŘÍJEN
+  ["Korea Open","Seoul, KOR","WTA250","Tvrdý","O",38,"2026-10-19","2026-10-25",32,16,"$115k",{w:["Osaka","Osaka","Azarenka"]}],
+  ["Jiangxi Open","Nanchang, CHN","WTA250","Tvrdý","O",46,"2026-10-19","2026-10-25",32,16,"$115k",{w:["Zheng","Zheng","Kvitova"]}],
+  ["Rolex Paris Masters","Paris, FRA","WTA1000","Tvrdý","I",35,"2026-10-26","2026-11-01",56,28,"$857k",{w:["Sabalenka","Swiatek","—"]}],
+  // LISTOPAD
+  ["Merida Open","Merida, MEX","WTA250","Tvrdý","O",9,"2026-11-02","2026-11-08",32,16,"$115k",{w:["Osorio","Osorio","—"]}],
+  ["WTA Finals","Riyadh, KSA","Finals","Tvrdý","I",612,"2026-11-06","2026-11-14",8,8,"$2,2M",{w:["Sabalenka","Swiatek","Swiatek"]}],
+];
+
+const CHALL = [
+  // LEDEN
+  ["Bengaluru Open","Bengaluru, IND","CH125","Tvrdý","O",920,"2026-01-05","2026-01-10",32,16,"$175k",{w:["Martinez",""]}],
+  ["Canberra International","Canberra, AUS","CH125","Tvrdý","O",578,"2026-01-05","2026-01-10",32,16,"$175k",{w:["Blockx",""]}],
+  ["BNC Tennis Open","Noumea, NCL","CH75","Tvrdý","O",2,"2026-01-05","2026-01-10",32,16,"$100k",{w:["Gea",""]}],
+  ["Bangkok Open 1","Nonthaburi, THA","CH50","Tvrdý","O",3,"2026-01-05","2026-01-10",32,16,"$65k",{w:["—",""]}],
+  ["Lexus Nottingham Challenger","Nottingham, GBR","CH50","Tvrdý","I",28,"2026-01-05","2026-01-10",32,16,"$65k",{w:["—",""]}],
+  ["Bangkok Open 2","Nonthaburi, THA","CH75","Tvrdý","O",3,"2026-01-12","2026-01-17",32,16,"$100k",{w:["—",""]}],
+  ["Challenger AAT","Itajaí, BRA","CH50","Antuka","O",3,"2026-01-12","2026-01-17",32,16,"$65k",{w:["—",""]}],
+  ["Glasgow Challenger","Glasgow, GBR","CH50","Tvrdý","I",8,"2026-01-12","2026-01-17",32,16,"$65k",{w:["—",""]}],
+  ["Indoor Oeiras Open 1","Oeiras, POR","CH100","Tvrdý","I",36,"2026-01-19","2026-01-25",32,16,"$140k",{w:["—",""]}],
+  ["Itajaí Open","Itajaí, BRA","CH75","Antuka","O",3,"2026-01-19","2026-01-25",32,16,"$100k",{w:["—",""]}],
+  ["Indoor Oeiras Open 2","Oeiras, POR","CH100","Tvrdý","I",36,"2026-01-26","2026-02-01",32,16,"$140k",{w:["—",""]}],
+  ["Medellin Open","Medellín, COL","CH75","Antuka","O",1495,"2026-01-26","2026-02-01",32,16,"$100k",{w:["—",""]}],
+  // ÚNOR
+  ["Rosario Challenger","Rosario, ARG","CH125","Antuka","O",25,"2026-02-02","2026-02-08",32,16,"$175k",{w:["—",""]}],
+  ["Brisbane Challenger","Brisbane, AUS","CH75","Tvrdý","O",27,"2026-02-02","2026-02-08",32,16,"$100k",{w:["—",""]}],
+  ["Cleveland Challenger","Cleveland, USA","CH75","Tvrdý","I",183,"2026-02-02","2026-02-08",32,16,"$100k",{w:["—",""]}],
+  ["Pau Challenger","Pau, FRA","CH125","Tvrdý","I",210,"2026-02-09","2026-02-15",32,16,"$175k",{w:["—",""]}],
+  ["Chennai Open","Chennai, IND","CH50","Tvrdý","O",6,"2026-02-09","2026-02-15",32,16,"$65k",{w:["—",""]}],
+  ["Tenerife Challenger","Tenerife, ESP","CH75","Tvrdý","O",682,"2026-02-09","2026-02-15",32,16,"$100k",{w:["—",""]}],
+  ["Szczecin Challenger","Szczecin, POL","CH75","Tvrdý","I",1,"2026-02-09","2026-02-15",32,16,"$100k",{w:["—",""]}],
+  ["Lille Challenger","Lille, FRA","CH125","Tvrdý","I",20,"2026-02-16","2026-02-22",32,16,"$175k",{w:["—",""]}],
+  ["Delhi Open","New Delhi, IND","CH75","Tvrdý","O",216,"2026-02-16","2026-02-22",32,16,"$100k",{w:["—",""]}],
+  ["Liberec Challenger","Liberec, CZE","CH75","Tvrdý","I",399,"2026-02-16","2026-02-22",32,16,"$100k",{w:["—",""]}],
+  ["Heilbronn Challenger","Heilbronn, GER","CH75","Tvrdý","I",155,"2026-02-16","2026-02-22",32,16,"$100k",{w:["—",""]}],
+  ["Maha Open Pune","Pune, IND","CH75","Tvrdý","O",554,"2026-02-23","2026-03-01",32,16,"$100k",{w:["—",""]}],
+  ["Lugano Challenger","Lugano, SUI","CH75","Tvrdý","I",274,"2026-02-23","2026-03-01",32,16,"$100k",{w:["—",""]}],
+  // BŘEZEN
+  ["Thionville Challenger","Thionville, FRA","CH100","Tvrdý","I",175,"2026-03-02","2026-03-08",32,16,"$140k",{w:["—",""]}],
+  ["Kigali Challenger","Kigali, RWA","CH75","Antuka","O",1567,"2026-03-02","2026-03-08",32,16,"$100k",{w:["—",""]}],
+  ["Arizona Tennis Classic","Phoenix, USA","CH175","Tvrdý","O",331,"2026-03-09","2026-03-15",28,16,"$245k",{w:["—",""]}],
+  ["Copa Cap Cana","Cap Cana, DOM","CH175","Tvrdý","O",15,"2026-03-09","2026-03-15",28,16,"$245k",{w:["—",""]}],
+  ["Murcia Challenger","Murcia, ESP","CH75","Antuka","O",43,"2026-03-16","2026-03-22",32,16,"$100k",{w:["—",""]}],
+  ["Morelia Open","Morelia, MEX","CH125","Tvrdý","O",1909,"2026-03-23","2026-03-29",32,16,"$175k",{w:["—",""]}],
+  ["Naples Challenger","Naples, ITA","CH125","Antuka","O",17,"2026-03-23","2026-03-29",32,16,"$175k",{w:["—",""]}],
+  // DUBEN
+  ["Mexico City Open","Mexico City, MEX","CH125","Antuka","O",2240,"2026-04-06","2026-04-12",32,16,"$175k",{w:["—",""]}],
+  ["Advantage Cars Prague Open","Prague, CZE","CH75","Antuka","O",190,"2026-04-06","2026-04-12",32,16,"$100k",{w:["—",""]}],
+  ["Prostějov Challenger","Prostějov, CZE","CH125","Antuka","O",225,"2026-04-13","2026-04-19",32,16,"$175k",{w:["—",""]}],
+  ["Busan Challenger","Busan, KOR","CH125","Tvrdý","O",40,"2026-04-13","2026-04-19",32,16,"$175k",{w:["—",""]}],
+  ["Oeiras Challenger","Oeiras, POR","CH125","Antuka","O",36,"2026-04-13","2026-04-19",32,16,"$175k",{w:["—",""]}],
+  ["Aix-en-Provence Challenger","Aix-en-Provence, FRA","CH175","Antuka","O",183,"2026-04-27","2026-05-03",28,16,"$245k",{w:["—",""]}],
+  ["Marrakech Challenger","Marrakech, MAR","CH75","Antuka","O",454,"2026-04-27","2026-05-03",32,16,"$100k",{w:["—",""]}],
+  // KVĚTEN
+  ["Wuxi Open","Wuxi, CHN","CH100","Tvrdý","O",7,"2026-05-04","2026-05-10",32,16,"$140k",{w:["—",""]}],
+  ["BNP Paribas Primrose Bordeaux","Bordeaux, FRA","CH175","Antuka","O",6,"2026-05-11","2026-05-17",28,16,"$245k",{w:["—",""]}],
+  ["Valencia Challenger","Valencia, ESP","CH175","Antuka","O",13,"2026-05-11","2026-05-17",28,16,"$245k",{w:["—",""]}],
+  ["Lyon Challenger","Lyon, FRA","CH125","Antuka","O",173,"2026-05-18","2026-05-24",32,16,"$175k",{w:["—",""]}],
+  ["Geneva Challenger","Geneva, SUI","CH100","Antuka","O",375,"2026-05-18","2026-05-24",32,16,"$140k",{w:["—",""]}],
+  ["Istanbul Challenger","Istanbul, TUR","CH75","Antuka","O",39,"2026-05-18","2026-05-24",32,16,"$100k",{w:["—",""]}],
+  // ČERVEN
+  ["Birmingham Challenger","Birmingham, GBR","CH125","Tráva","O",140,"2026-06-01","2026-06-07",32,16,"$175k",{w:["—",""]}],
+  ["Surbiton Trophy","London, GBR","CH75","Tráva","O",11,"2026-06-01","2026-06-07",32,16,"$100k",{w:["—",""]}],
+  ["Ilkley Trophy","Ilkley, GBR","CH125","Tráva","O",246,"2026-06-08","2026-06-14",32,16,"$175k",{w:["—",""]}],
+  ["Nottingham Challenger (Grass)","Nottingham, GBR","CH125","Tráva","O",28,"2026-06-15","2026-06-21",32,16,"$175k",{w:["—",""]}],
+  ["Mallorca Challenger","Mallorca, ESP","CH75","Tráva","O",14,"2026-06-22","2026-06-28",32,16,"$100k",{w:["—",""]}],
+  // ČERVENEC
+  ["Braunschweig Challenger","Braunschweig, GER","CH125","Antuka","O",72,"2026-07-06","2026-07-12",32,16,"$175k",{w:["—",""]}],
+  ["Newport Challenger","Newport, USA","CH125","Tráva","O",7,"2026-07-06","2026-07-12",32,16,"$175k",{w:["—",""]}],
+  ["Båstad Challenger","Båstad, SWE","CH100","Antuka","O",12,"2026-07-06","2026-07-12",32,16,"$140k",{w:["—",""]}],
+  ["Zug Challenger","Zug, SUI","CH125","Antuka","O",425,"2026-07-20","2026-07-26",32,16,"$175k",{w:["—",""]}],
+  ["Vancouver Challenger","Vancouver, CAN","CH125","Tvrdý","O",12,"2026-07-27","2026-08-02",32,16,"$175k",{w:["—",""]}],
+  ["San Marino Challenger","San Marino, SMR","CH125","Antuka","O",672,"2026-07-27","2026-08-02",32,16,"$175k",{w:["—",""]}],
+  // SRPEN
+  ["Granby Challenger","Granby, CAN","CH100","Tvrdý","O",180,"2026-08-03","2026-08-09",32,16,"$140k",{w:["—",""]}],
+  ["Lexington Challenger","Lexington, USA","CH75","Tvrdý","O",290,"2026-08-03","2026-08-09",32,16,"$100k",{w:["—",""]}],
+  ["Indianapolis Challenger","Indianapolis, USA","CH75","Tvrdý","O",220,"2026-08-10","2026-08-16",32,16,"$100k",{w:["—",""]}],
+];
+
+// ── HELPERS ───────────────────────────────────────────────────
+const MCS=['Leden','Únor','Březen','Duben','Květen','Červen','Červenec','Srpen','Září','Říjen','Listopad','Prosinec'];
+const MSH=['Led','Úno','Bře','Dub','Kvě','Čer','Čvc','Srp','Zář','Říj','Lis','Pro'];
+
+function surfCS(s){const l=(s||'').toLowerCase();if(l.includes('indoor')||l.includes('carpet'))return'Krytý';if(l.includes('clay'))return'Antuka';if(l.includes('grass'))return'Tráva';return'Tvrdý';}
+function fmtRange(s,e){if(!s)return'—';const a=new Date(s+'T00:00:00'),b=e?new Date(e+'T00:00:00'):a;const sd=a.getDate(),sm=a.getMonth(),ed=b.getDate(),em=b.getMonth();return sm===em?`${sd}–${ed}. ${MSH[sm]}`:`${sd}. ${MSH[sm]} – ${ed}. ${MSH[em]}`;}
+function getMonth(s){return s?new Date(s+'T00:00:00').getMonth():0;}
+function isLive(s,e){const n=new Date();return!!(s&&e&&new Date(s+'T00:00:00')<=n&&new Date(e+'T00:00:00')>=n);}
+
+// Převod arrays na objekty
+function mkAtp(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'ATP',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'—',winners:wins?.w||[],src:'atptour.com'}));}
+function mkWta(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'WTA',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'—',winners:wins?.w||[],src:'wtatennis.com'}));}
+function mkChall(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'CHALL',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'—',winners:wins?.w||[],src:'atptour.com'}));}
+
+// ── ITF API ───────────────────────────────────────────────────
+
+async function fetchPlayers(onProgress){
+  try{
+    onProgress&&onProgress('Načítám hráče ATP...');
+    // Načti hráče s cache-bust
+    const pr=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json?v='+Date.now(),{cache:'no-store'});
+    const pd=await pr.json();
+    const players=(pd.items||pd);
+
+    // Načti Sackmann CSV pro age/hand/height
+    onProgress&&onProgress('Načítám statistiky...');
+    const sr=await fetch('https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/atp_players.csv');
+    const stxt=await sr.text();
+    const slines=stxt.trim().split('\n');
+    const shdr=slines[0].split(',');
+    const smap={};
+    for(const line of slines.slice(1)){
+      const cols=line.split(',');
+      const obj=Object.fromEntries(shdr.map((h,i)=>[h,cols[i]||'']));
+      const key=(obj.name_first+' '+obj.name_last).toLowerCase().trim();
+      smap[key]={hand:obj.hand||'',dob:obj.dob||'',height:obj.height?parseInt(obj.height):null};
+    }
+
+    const today=new Date();
+    window.ATP_PLAYERS=players.map(function(p){
+      const sack=smap[(p.full_name||p.name||'').toLowerCase().trim()];
+      let age=null;
+      if(sack&&sack.dob&&sack.dob.length===8){
+        const y=parseInt(sack.dob.slice(0,4)),m=parseInt(sack.dob.slice(4,6))-1,d=parseInt(sack.dob.slice(6,8));
+        age=today.getFullYear()-y-(today<new Date(today.getFullYear(),m,d)?1:0);
+      }
+      return {
+        rank:p.rank,name:p.name,full_name:p.full_name||p.name,
+        country:(p.country||'').toUpperCase(),
+        pts:p.pts,id:p.id,
+        age:age,
+        hand:(sack&&sack.hand&&sack.hand!=='U')?sack.hand:null,
+        height:(sack&&sack.height)||null,
+        ch:p.ch||null,
+        ch_date:p.ch_date||null,
+move:(p.move!==undefined&&p.move!==null)?p.move:null
+      };
+    });
+    onProgress&&onProgress('Hráči ATP načteni: '+window.ATP_PLAYERS.length);
+    // Načti WTA hráčky
+    try{
+      const wr=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/wta_players.json?v='+Date.now(),{cache:'no-store'});
+      const wd=await wr.json();
+      window.WTA_PLAYERS=(wd.items||wd);
+      onProgress&&onProgress('WTA hráčky načteny: '+window.WTA_PLAYERS.length);
+    }catch(e){window.WTA_PLAYERS=[];}
+    return window.ATP_PLAYERS.length;
+  }catch(e){
+    console.warn('fetchPlayers:',e.message);
+    return 0;
+  }
+}
+
+async function fetchITF(onProg){
+  // Data jsou každý den automaticky aktualizována GitHub Actions
+  // z itftennis.com a uložena do raw.githubusercontent.com (prochází sítí)
+  const GH_URL = 'https://raw.githubusercontent.com/Hacran001/tennis-scout/main/itf_data.json';
+  onProg('Načítám ITF z GitHub cache...');
+  const resp = await fetch(GH_URL);
+  if(!resp.ok) throw new Error(`GitHub ITF cache: HTTP ${resp.status}`);
+  const data = await resp.json();
+  const items = (data.items||[]).map(item=>({
+    name:    item.name,
+    loc:     item.loc||'',
+    country: item.country||'',
+    cat:     'ITF',
+    tier:    item.tier||'',
+    surf:    surfCS(item.surf||''),
+    start:   item.start,
+    end:     item.end||'',
+    sgl:32, dbl:16,
+    src:     'itftennis.com (cache '+data.updated?.slice(0,10)+')',
+  }));
+  onProg(`ITF: ${items.length} turnajů (aktualizováno ${data.updated?.slice(0,10)||'?'})`);
+  return items;
+}
+
+// ── CSS ───────────────────────────────────────────────────────
+const CSS=`
+:host{all:initial;}
+*{box-sizing:border-box;margin:0;padding:0;}
+
+/* ── SHELL ── */
+#w{
+  display:flex;flex-direction:row;
+  width:100vw;height:100vh;overflow:hidden;
+  background:#0d1117;
+  font-family:'Söhne','Helvetica Neue','Arial',sans-serif;
+  color:#e6edf3;font-size:13px;
+}
+
+/* ── SIDEBAR ── */
+#sidebar{
+  width:220px;flex-shrink:0;
+  background:#161b22;
+  border-right:1px solid rgba(255,255,255,0.06);
+  display:flex;flex-direction:column;
+  overflow-y:auto;
+}
+#sb-logo{
+  padding:20px 20px 16px;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  display:flex;align-items:center;gap:10px;
+}
+#sb-logo-icon{
+  width:32px;height:32px;
+  background:linear-gradient(135deg,#00C853,#00897B);
+  border-radius:8px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:16px;flex-shrink:0;
+}
+#sb-logo-text{
+  font-size:15px;font-weight:700;
+  color:#fff;letter-spacing:-0.3px;
+}
+#sb-logo-text span{color:#00C853;}
+#sb-badge{
+  font-size:8px;padding:1px 5px;
+  background:rgba(0,200,83,0.15);
+  color:#00C853;border-radius:3px;
+  font-weight:700;letter-spacing:1px;
+  margin-left:auto;
+}
+
+/* NAV */
+#sb-nav{
+  flex:1;overflow-y:auto;
+  padding:8px 0;
+  scrollbar-width:none;
+}
+.nav-section{
+  padding:14px 16px 4px;
+  font-size:9px;font-weight:700;
+  letter-spacing:2px;text-transform:uppercase;
+  color:rgba(255,255,255,0.2);
+}
+.nav-item{
+  display:flex;align-items:center;gap:10px;
+  padding:9px 16px;margin:1px 8px;
+  border-radius:8px;cursor:pointer;
+  color:rgba(255,255,255,0.5);
+  font-size:12px;font-weight:500;
+  transition:all .12s;
+  position:relative;
+}
+.nav-item:hover{
+  background:rgba(255,255,255,0.05);
+  color:#e6edf3;
+}
+.nav-item.active{
+  background:rgba(0,200,83,0.12);
+  color:#00C853;font-weight:600;
+}
+.nav-item.active::before{
+  content:'';position:absolute;
+  left:-8px;top:50%;transform:translateY(-50%);
+  width:3px;height:16px;border-radius:2px;
+  background:#00C853;
+}
+.nav-icon{font-size:15px;width:20px;text-align:center;flex-shrink:0;}
+.nav-badge{
+  margin-left:auto;font-size:8px;
+  background:rgba(0,200,83,0.2);
+  color:#00C853;padding:1px 6px;
+  border-radius:10px;font-weight:700;
+}
+.nav-soon{
+  margin-left:auto;font-size:8px;
+  background:rgba(255,255,255,0.06);
+  color:rgba(255,255,255,0.25);padding:1px 6px;
+  border-radius:10px;
+}
+
+/* SIDEBAR FOOTER */
+#sb-footer{
+  padding:12px 16px;
+  border-top:1px solid rgba(255,255,255,0.06);
+}
+#sb-reload{
+  width:100%;padding:8px;
+  background:rgba(0,200,83,0.1);
+  border:1px solid rgba(0,200,83,0.2);
+  color:#00C853;border-radius:8px;
+  font-size:11px;font-weight:700;
+  cursor:pointer;transition:all .12s;
+  letter-spacing:0.3px;
+}
+#sb-reload:hover{background:rgba(0,200,83,0.2);}
+#sb-ta-import{
+  width:100%;padding:8px;margin-top:6px;
+  background:rgba(33,150,243,0.1);
+  border:1px solid rgba(33,150,243,0.25);
+  color:#2196F3;border-radius:8px;
+  font-size:11px;font-weight:700;
+  cursor:pointer;transition:all .12s;letter-spacing:0.3px;
+}
+#sb-ta-import:hover{background:rgba(33,150,243,0.22);}
+#sb-ta-import:disabled{opacity:0.5;cursor:not-allowed;}
+#ta-progress{margin-top:8px;font-size:11px;color:rgba(255,255,255,0.7);display:block;line-height:1.6;word-break:break-word;}
+#sb-close{
+  width:100%;padding:6px;margin-top:6px;
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.07);
+  color:rgba(255,255,255,0.3);border-radius:8px;
+  font-size:11px;cursor:pointer;transition:all .12s;
+}
+#sb-close:hover{color:rgba(255,255,255,0.7);border-color:rgba(255,255,255,0.15);}
+
+/* ── MAIN PANEL ── */
+#main{
+  flex:1;display:flex;flex-direction:column;
+  overflow:hidden;background:#0d1117;
+}
+
+/* TOP BAR */
+#topbar{
+  height:52px;flex-shrink:0;
+  background:#161b22;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  display:flex;align-items:center;
+  padding:0 24px;gap:16px;
+}
+#topbar-title{
+  font-size:14px;font-weight:700;color:#fff;
+}
+#topbar-sub{
+  font-size:11px;color:rgba(255,255,255,0.3);
+  margin-left:4px;
+}
+#topbar-stats{
+  margin-left:auto;
+  display:flex;gap:24px;align-items:center;
+}
+.ts-stat{
+  text-align:right;
+}
+.ts-stat-val{
+  font-size:16px;font-weight:800;color:#fff;
+  letter-spacing:-0.5px;line-height:1;
+}
+.ts-stat-val.green{color:#00C853;}
+.ts-stat-lbl{
+  font-size:8px;color:rgba(255,255,255,0.25);
+  letter-spacing:1.5px;text-transform:uppercase;
+}
+
+/* FILTER BAR */
+#filterbar{
+  flex-shrink:0;
+  background:#161b22;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  padding:8px 24px;
+  display:flex;gap:6px;align-items:center;
+}
+.fl{
+  font-size:8px;color:rgba(255,255,255,0.2);
+  text-transform:uppercase;letter-spacing:2px;
+  margin-right:4px;flex-shrink:0;
+}
+.fb{
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.08);
+  color:rgba(255,255,255,0.4);
+  font-size:10px;font-weight:600;
+  padding:4px 12px;border-radius:6px;
+  cursor:pointer;transition:all .1s;
+}
+.fb:hover{border-color:rgba(255,255,255,0.2);color:#e6edf3;}
+.fb.on{color:#0d1117!important;font-weight:700;}
+.fb[data-c=ALL].on{background:#e6edf3;border-color:#e6edf3;}
+.fb[data-c=ATP].on{background:#00C853;border-color:#00C853;}
+.fb[data-c=WTA].on{background:#f472b6;border-color:#f472b6;}
+.fb[data-c=CHALL].on{background:#38bdf8;border-color:#38bdf8;}
+.fb[data-c=ITF].on{background:#fb923c;border-color:#fb923c;}
+.sb{
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.08);
+  color:rgba(255,255,255,0.3);
+  font-size:9px;letter-spacing:1px;text-transform:uppercase;
+  padding:3px 10px;border-radius:5px;cursor:pointer;transition:all .1s;
+}
+.sb:hover{color:#e6edf3;border-color:rgba(255,255,255,0.15);}
+.sb.on[data-s=Antuka]{background:#c2410c;border-color:#c2410c;color:#fff!important;}
+.sb.on[data-s=Tr\u00E1va]{background:#15803d;border-color:#15803d;color:#fff!important;}
+.sb.on[data-s=Tvrd\u00FD]{background:#1d4ed8;border-color:#1d4ed8;color:#fff!important;}
+.sb.on[data-s=Kryt\u00FD]{background:#6d28d9;border-color:#6d28d9;color:#fff!important;}
+.sb.on[data-s=V\u0161echny]{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.2);color:#fff!important;}
+#srch{
+  margin-left:auto;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.08);
+  color:#e6edf3;font-size:11px;
+  padding:5px 12px 5px 28px;
+  border-radius:8px;outline:none;width:200px;
+  transition:border-color .15s;
+}
+#srch:focus{border-color:rgba(0,200,83,0.4);}
+#srch::placeholder{color:rgba(255,255,255,0.2);}
+
+/* MONTH NAV */
+#mnav{
+  display:flex;gap:2px;
+  padding:6px 24px;
+  background:#0d1117;
+  border-bottom:1px solid rgba(255,255,255,0.04);
+  overflow-x:auto;flex-shrink:0;
+  scrollbar-width:none;
+}
+.mb{
+  background:none;border:none;
+  color:rgba(255,255,255,0.2);
+  font-size:9px;letter-spacing:2px;
+  text-transform:uppercase;
+  padding:4px 10px;border-radius:5px;
+  cursor:pointer;transition:all .1s;white-space:nowrap;
+}
+.mb:hover{color:#e6edf3;background:rgba(255,255,255,0.04);}
+
+/* CONTENT AREA */
+#body{
+  flex:1;overflow-y:auto;
+  padding:0 24px 60px;
+  scrollbar-width:thin;
+  scrollbar-color:rgba(255,255,255,0.08) transparent;
+  position:relative;
+}
+
+/* ── HOME VIEW ── */
+#home-view{padding:28px 0;}
+#home-greeting{
+  font-size:22px;font-weight:800;
+  color:#fff;letter-spacing:-0.5px;
+  margin-bottom:4px;
+}
+#home-greeting span{color:#00C853;}
+#home-sub{
+  font-size:12px;color:rgba(255,255,255,0.3);
+  margin-bottom:28px;
+}
+#home-cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:16px;
+}
+.home-card{
+  background:#161b22;
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:12px;
+  padding:20px 22px 22px;
+  cursor:pointer;
+  transition:all .15s;
+  position:relative;
+  overflow:hidden;
+}
+.home-card::before{
+  content:'';position:absolute;
+  top:0;left:0;right:0;height:2px;
+  opacity:0;transition:opacity .15s;
+}
+.home-card:hover{
+  border-color:rgba(255,255,255,0.12);
+  background:#1c2128;
+  transform:translateY(-2px);
+  box-shadow:0 8px 32px rgba(0,0,0,0.4);
+}
+.home-card:hover::before{opacity:1;}
+.home-card.green::before{background:linear-gradient(90deg,#00C853,#00897B);}
+.home-card.blue::before{background:linear-gradient(90deg,#38bdf8,#6366f1);}
+.home-card.pink::before{background:linear-gradient(90deg,#f472b6,#a855f7);}
+.home-card.orange::before{background:linear-gradient(90deg,#fb923c,#f59e0b);}
+.home-card.disabled{opacity:0.4;cursor:default;}
+.home-card.disabled:hover{transform:none;box-shadow:none;}
+.hc-icon{
+  width:40px;height:40px;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;margin-bottom:14px;
+}
+.hc-icon.green{background:rgba(0,200,83,0.12);}
+.hc-icon.blue{background:rgba(56,189,248,0.12);}
+.hc-icon.pink{background:rgba(244,114,182,0.12);}
+.hc-icon.orange{background:rgba(251,146,60,0.12);}
+.hc-title{
+  font-size:14px;font-weight:700;color:#fff;
+  margin-bottom:4px;
+}
+.hc-desc{
+  font-size:11px;color:rgba(255,255,255,0.35);
+  line-height:1.5;margin-bottom:14px;
+}
+.hc-meta{
+  display:flex;gap:8px;align-items:center;
+}
+.hc-count{
+  font-size:11px;font-weight:700;color:#00C853;
+  font-variant-numeric:tabular-nums;
+}
+.hc-arrow{
+  margin-left:auto;
+  font-size:14px;color:rgba(255,255,255,0.2);
+  transition:transform .12s;
+}
+.home-card:hover .hc-arrow{transform:translateX(3px);color:#00C853;}
+.hc-tag{
+  font-size:9px;padding:2px 7px;border-radius:4px;
+  font-weight:700;letter-spacing:0.5px;
+}
+.hc-tag.soon{background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.25);}
+
+/* ── TABLES ── */
+.mg{margin-top:24px;}
+.mh{
+  display:flex;align-items:baseline;gap:10px;
+  margin-bottom:10px;padding-bottom:8px;
+  border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.mn{font-size:20px;font-weight:800;color:#fff;letter-spacing:-0.3px;}
+.mc{font-size:9px;color:rgba(255,255,255,0.2);letter-spacing:1px;text-transform:uppercase;}
+table{width:100%;border-collapse:collapse;}
+th{
+  font-size:8px;letter-spacing:2px;
+  color:rgba(255,255,255,0.2);text-align:left;
+  padding:6px 10px;
+  border-bottom:1px solid rgba(255,255,255,0.04);font-weight:600;
+}
+td{padding:7px 10px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:middle;}
+.ct{font-size:8px;padding:2px 5px;border-radius:4px;font-weight:800;display:inline-block;}
+.cATP{background:rgba(0,200,83,0.12);color:#00C853;}
+.cWTA{background:rgba(244,114,182,0.12);color:#f472b6;}
+.cCHALL{background:rgba(56,189,248,0.12);color:#38bdf8;}
+.cITF{background:rgba(251,146,60,0.12);color:#fb923c;}
+.tr{
+  font-size:8px;color:rgba(255,255,255,0.2);
+  padding:1px 5px;border:1px solid rgba(255,255,255,0.08);
+  border-radius:3px;margin-left:3px;
+}
+.tGS{border-color:rgba(250,204,21,0.3);color:#fcd34d;}
+.tM1{border-color:rgba(239,68,68,0.3);color:#f87171;}
+.t5{border-color:rgba(99,102,241,0.3);color:#818cf8;}
+.tCH175{border-color:rgba(34,211,238,0.3);color:#22d3ee;}
+.tCH125{border-color:rgba(34,211,238,0.15);color:rgba(34,211,238,0.6);}
+.nm{font-weight:600;font-size:12px;color:#e6edf3;display:block;margin-top:2px;line-height:1.3;}
+.lc{font-size:10px;color:rgba(255,255,255,0.25);display:block;}
+.dt{font-size:10px;color:rgba(255,255,255,0.35);white-space:nowrap;}
+.sp{font-size:9px;font-weight:600;padding:2px 8px;border-radius:20px;display:inline-block;}
+.sA{background:rgba(194,65,12,0.15);color:#fb923c;}
+.sT{background:rgba(21,128,61,0.15);color:#4ade80;}
+.sH{background:rgba(29,78,216,0.15);color:#60a5fa;}
+.sK{background:rgba(109,40,217,0.15);color:#c084fc;}
+tr.r{cursor:pointer;transition:background .07s;}
+tr.r:hover td,tr.r.ex td{background:rgba(255,255,255,0.025);}
+.cv{color:rgba(255,255,255,0.12);font-size:10px;transition:transform .15s;display:inline-block;width:14px;}
+tr.ex .cv{transform:rotate(90deg);color:#00C853;}
+.live{display:inline-block;width:5px;height:5px;background:#00C853;border-radius:50%;animation:p 1.2s infinite;margin-right:4px;vertical-align:middle;}
+@keyframes p{0%,100%{opacity:1}50%{opacity:.2}}
+tr.xr td{padding:0;background:rgba(0,200,83,0.02)!important;}
+.xc{
+  padding:14px 18px 18px;
+  display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:14px;
+  border-bottom:2px solid rgba(0,200,83,0.15);
+  animation:sd .12s ease;
+}
+@keyframes sd{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:translateY(0)}}
+.xc h4{
+  font-size:7px;letter-spacing:2px;text-transform:uppercase;
+  color:rgba(255,255,255,0.15);margin-bottom:8px;
+  padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.ig{display:grid;grid-template-columns:1fr 1fr;gap:5px;}
+.ig label{display:block;font-size:7px;letter-spacing:1px;color:rgba(255,255,255,0.2);text-transform:uppercase;margin-bottom:2px;}
+.ig span{font-size:11px;color:#e6edf3;font-weight:500;}
+
+/* ── PLAYERS VIEW ── */
+#pw{
+  display:none;
+  color:#e6edf3;
+}
+
+/* ── ERR / ITF STATUS / LOAD ── */
+#err{display:none;background:rgba(239,68,68,0.08);border-bottom:1px solid rgba(239,68,68,0.15);padding:6px 24px;font-size:10px;color:#f87171;flex-shrink:0;}
+#itfs{
+  position:absolute;bottom:0;left:0;right:0;
+  background:rgba(13,17,23,0.97);
+  border-top:1px solid rgba(255,255,255,0.04);
+  padding:5px 24px;font-size:9px;
+  color:rgba(255,255,255,0.2);
+  display:flex;align-items:center;gap:10px;letter-spacing:1px;
+}
+#itfb{height:2px;background:linear-gradient(90deg,#00C853,#00897B);transition:width .4s;flex-shrink:0;}
+#itft{flex:1;}
+#load{
+  position:absolute;inset:0;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  background:#0d1117;color:rgba(255,255,255,0.25);
+}
+.spin{width:32px;height:32px;border:2px solid rgba(255,255,255,0.05);border-top-color:#00C853;border-radius:50%;animation:spin 1s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg)}}
+#prog{font-size:11px;color:#00C853;font-weight:600;max-width:360px;text-align:center;line-height:1.6;}
+
+/* ── SCROLLBARS ── */
+::-webkit-scrollbar{width:3px;height:3px;}
+::-webkit-scrollbar-track{background:transparent;}
+::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.07);border-radius:3px;}
+.mc-plink:hover{text-decoration:underline;text-underline-offset:2px;}
+`;function surfSp(s){return s==='Antuka'?'sA':s==='Tráva'?'sT':s==='Krytý'?'sK':'sH';}
+function tierCls(t){if(!t)return'';if(t==='Grand Slam')return'tGS';if(t==='Masters1000'||t==='WTA1000')return'tM1';if(t==='ATP500'||t==='WTA500')return't5';if(t==='CH175')return'tCH175';if(t==='CH125')return'tCH125';return'';}
+
+
+// ── HRÁČI ──────────────────────────────────────────────────────────────────
+function buildPlayersTab(sh){
+  var wrap=document.createElement("div");
+  wrap.id="pw";wrap.style.cssText="display:none;padding:0;";
+  var pS="",pC="ALL",pO="rank",pP=0,PAGE=100,pR="all";
+  
+  function countryFlag(cc){
+    if(!cc||cc.length!==3)return '';
+    // IOC 3-letter → ISO 2-letter mapa (hlavní země)
+    var m={'ESP':'ES','ITA':'IT','SRB':'RS','GER':'DE','AUS':'AU','USA':'US','FRA':'FR',
+      'GBR':'GB','ARG':'AR','JPN':'JP','RUS':'RU','CAN':'CA','NOR':'NO','CZE':'CZ',
+      'GRE':'GR','CHI':'CL','DEN':'DK','SUI':'CH','BEL':'BE','GEO':'GE','KAZ':'KZ',
+      'BUL':'BG','HUN':'HU','POL':'PL','NED':'NL','POR':'PT','CRO':'HR','SWE':'SE',
+      'AUT':'AT','FIN':'FI','SLO':'SI','SVK':'SK','BRA':'BR','COL':'CO','URU':'UY',
+      'PER':'PE','ECU':'EC','MEX':'MX','RSA':'ZA','EGY':'EG','MAR':'MA','TUN':'TN',
+      'KOR':'KR','CHN':'CN','IND':'IN','THA':'TH','TPE':'TW','HKG':'HK','UKR':'UA',
+      'MDA':'MD','ROU':'RO','SRB':'RS','BIH':'BA','MKD':'MK','ALB':'AL','TUR':'TR',
+      'ISR':'IL','LIB':'LB','QAT':'QA','UAE':'AE','BAH':'BH','KUW':'KW','IRN':'IR',
+      'PAK':'PK','SRI':'LK','BAN':'BD','UZB':'UZ','AZE':'AZ','ARM':'AM','BLR':'BY',
+      'LAT':'LV','LTU':'LT','EST':'EE','ISL':'IS','IRL':'IE','PUR':'PR','DOM':'DO',
+      'VEN':'VE','BOL':'BO','PAR':'PY','GUA':'GT','ESA':'SV','CRC':'CR','PAN':'PA',
+      'JAM':'JM','TRI':'TT','HAI':'HT','CUB':'CU','NZL':'NZ','PHI':'PH','INA':'ID',
+      'MAS':'MY','SIN':'SG','VIE':'VN','MON':'MC','LUX':'LU','MLT':'MT','CYP':'CY',
+      'MRI':'MU','ZIM':'ZW','KEN':'KE','NGR':'NG','GHA':'GH','SEN':'SN','CMR':'CM','ANG':'AO','KOS':'XK','KSA':'SA','NMI':'MP','SVK':'SK'
+    };
+    var iso=m[cc]||cc.slice(0,2);
+    if(iso.length!==2)return '';
+    return iso.toUpperCase().split('').map(function(c){return String.fromCodePoint(c.charCodeAt(0)+127397);}).join('');
+  }
+  function hl(name,q){
+    if(!q||!name)return name;
+    var lo=name.toLowerCase(),qi=lo.indexOf(q);
+    if(qi<0)return name;
+    return name.slice(0,qi)+'<mark style="background:rgba(0,200,83,0.25);color:#00C853;border-radius:2px;padding:0 1px;">'+name.slice(qi,qi+q.length)+"</mark>"+name.slice(qi+q.length);
+  }
+  function rP(){
+    var ATP=window.ATP_PLAYERS||[];
+    if(!ATP.length){wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,0.2);font-size:13px;">⏳ Načítám hráče...</div>';return;}
+    var q=(pS||"").toLowerCase().trim();
+    var f=ATP.filter(function(p){
+      if(!p||!p.name)return false;
+      if(pC!=="ALL"&&(p.country||"").toUpperCase()!==pC)return false;
+      if(pR!=="all"){var pts=pR.split("-");var lo=parseInt(pts[0]),hi=parseInt(pts[1]);if(p.rank<lo||p.rank>hi)return false;}
+      if(q){var n=(p.name||"").toLowerCase();var c=(p.country||"").toLowerCase();var rk=String(p.rank||"");if(!n.includes(q)&&!c.includes(q)&&!rk.startsWith(q))return false;}
+      return true;
+    });
+    if(pO==="rank")f.sort(function(a,b){return(a.rank||9999)-(b.rank||9999);});
+    else if(pO==="pts")f.sort(function(a,b){return(b.pts||0)-(a.pts||0);});
+    else if(pO==="age")f.sort(function(a,b){return(a.age||99)-(b.age||99);});
+    else if(pO==="height")f.sort(function(a,b){return(b.height||0)-(a.height||0);});
+    else f.sort(function(a,b){return(a.name||"").localeCompare(b.name||"");});
+    var total=f.length;
+    if(pP>=Math.ceil(total/PAGE))pP=Math.max(0,Math.ceil(total/PAGE)-1);
+    var pg=f.slice(pP*PAGE,pP*PAGE+PAGE),pages=Math.ceil(total/PAGE)||1;
+    var cc={};ATP.forEach(function(p){var c=(p.country||"").toUpperCase();if(c)cc[c]=(cc[c]||0)+1;});
+    var top10=Object.entries(cc).sort(function(a,b){return b[1]-a[1];}).slice(0,10).map(function(x){return x[0];});
+    var h='<div style="padding:0 24px 60px;">';
+    h+='<div style="padding:16px 0 12px;"><div style="position:relative;max-width:520px;">';
+    var sv=pS.split("&").join("&amp;").split("<").join("&lt;").split(">").join("&gt;").split('"').join("&quot;");
+    h+='<input id="ps-i" type="text" autocomplete="off" placeholder="Hledej jméno, zemi nebo rank..." value="'+sv+'"';
+    h+=' style="width:100%;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);color:#e6edf3;font-size:14px;padding:10px 40px 10px 16px;border-radius:10px;outline:none;box-sizing:border-box;"/>';
+    if(pS)h+='<button id="ps-x" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:none;color:rgba(255,255,255,0.3);font-size:18px;cursor:pointer;line-height:1;">×</button>';
+    h+='</div>';
+    if(q&&total>0)h+='<div style="margin-top:5px;font-size:11px;color:#00C853;">✓ Nalezeno '+total+' hráčů</div>';
+    if(q&&total===0)h+='<div style="margin-top:5px;font-size:11px;color:rgba(255,100,100,0.7);">✗ Nic pro "'+pS+'"</div>';
+    h+='</div>';
+    h+='<div style="display:flex;gap:8px;align-items:center;padding:0 0 10px;border-bottom:1px solid rgba(255,255,255,0.06);flex-wrap:wrap;">';
+    // Rank range dropdown
+    h+='<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">';
+    h+='<span style="font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1.5px;">Pořadí</span>';
+    h+='<select id="ps-rr" style="background:#161b22;border:1px solid rgba(255,255,255,0.12);color:#e6edf3;font-size:11px;padding:5px 10px;border-radius:8px;cursor:pointer;outline:none;">';
+    [["all","Všichni hráči"],["1-100","1 - 100"],["101-200","101 - 200"],["201-300","201 - 300"],["301-400","301 - 400"],["401-500","401 - 500"],["1-500","Top 500"],["1-1000","Top 1000"],["1-2500","Top 2500"]].forEach(function(x){h+='<option value="'+x[0]+'"'+(pR===x[0]?" selected":"")+'>'+x[1]+'</option>';});
+    h+='</select></div>';
+    // Country dropdown — all countries alphabetically
+    var allCountries=[...new Set(ATP.map(function(p){return (p.country||"").toUpperCase();}).filter(Boolean))].sort();
+    h+='<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">';
+    h+='<span style="font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1.5px;">Země</span>';
+    h+='<select id="ps-cc" style="background:#161b22;border:1px solid rgba(255,255,255,0.12);color:#e6edf3;font-size:11px;padding:5px 10px;border-radius:8px;cursor:pointer;outline:none;">';
+    h+='<option value="ALL"'+(pC==="ALL"?" selected":"")+'>Všechny země</option>';
+    allCountries.forEach(function(c){var fl=countryFlag(c);h+='<option value="'+c+'"'+(pC===c?" selected":"")+'>'+( fl?fl+" ":"")+c+'</option>';});
+    h+='</select></div>';
+    
+    h+='<div style="margin-left:auto;display:flex;align-items:center;gap:8px;">';
+    h+='<select id="ps-s" style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.5);font-size:10px;padding:4px 8px;border-radius:6px;cursor:pointer;outline:none;">';
+    [["rank","Ranking"],["pts","Body"],["age","Věk"],["height","Výška"],["name","Jméno"]].forEach(function(x){h+='<option value="'+x[0]+'"'+(pO===x[0]?" selected":"")+'>'+x[1]+'</option>';});
+    h+='</select><span style="font-size:9px;color:rgba(255,255,255,0.2);">'+(q?total+"/":"")+ATP.length+' hráčů</span></div></div>';
+    // Vlajkové filtry — top 20 zemí
+    h+='<div style="display:flex;gap:5px;align-items:center;padding:8px 0 10px;border-bottom:1px solid rgba(255,255,255,0.06);flex-wrap:wrap;">';
+    var top20=['USA','ITA','FRA','ESP','GER','ARG','GBR','JPN','RUS','AUS','BRA','CHN','SUI','IND','CZE','NED','ROU','POL','SRB','KOR','SVK'];
+    h+='<button data-cf="ALL" style="padding:3px 10px;border-radius:12px;font-size:10px;font-weight:700;cursor:pointer;transition:all .1s;border:1px solid '+(pC==="ALL"?"#00C853":"rgba(255,255,255,0.1)")+';background:'+(pC==="ALL"?"rgba(0,200,83,0.15)":"transparent")+';color:'+(pC==="ALL"?"#00C853":"rgba(255,255,255,0.4)")+';">Vše</button>';
+    top20.forEach(function(c){
+      var on=pC===c;
+      var fl=countryFlag(c);
+      h+='<button data-cf="'+c+'" title="'+c+'" style="padding:3px 8px;border-radius:12px;font-size:13px;cursor:pointer;transition:all .1s;border:1px solid '+(on?"#00C853":"rgba(255,255,255,0.08)")+';background:'+(on?"rgba(0,200,83,0.12)":"transparent")+';color:'+(on?"#00C853":"rgba(255,255,255,0.7)")+';min-width:34px;text-align:center;">'+fl+'</button>';
+    });
+    h+='</div>';
+    // Tabulka — nové sloupce
+    h+='<table style="width:100%;border-collapse:collapse;margin-top:4px;"><thead><tr style="background:rgba(255,255,255,0.02);">';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:left;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:40px;">#</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:left;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);">HRÁČ</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:50px;">ZEMĞ</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:40px;">VěK</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:50px;">RUKA</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:60px;">VÝŠKA</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:right;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:80px;">BODY</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:90px;">CAREER HIGH</th>';
+    h+='</tr></thead><tbody>';
+    if(!pg.length)h+='<tr><td colspan="8" style="padding:40px;text-align:center;color:rgba(255,255,255,0.2);">Nic nenalezeno</td></tr>';
+    pg.forEach(function(p,idx){
+      var url=p.id?"https://www.atptour.com/en/players/p/"+p.id+"/overview":"#";
+      var bg=idx%2===0?"transparent":"rgba(255,255,255,0.012)";
+      var flag=countryFlag(p.country||"");
+      var handIcon=p.hand==="L"?'🤚 L':'R';
+      var handColor=p.hand==="L"?"#60a5fa":"rgba(255,255,255,0.35)";
+      h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'" data-pid="'+p.id+'" data-pname="'+p.name+'" data-fullname="'+(p.full_name||p.name)+'" data-country="'+p.country+'" data-rank="'+p.rank+'" data-pts="'+p.pts+'" data-age="'+(p.age||'')+'" data-hand="'+(p.hand||'')+'" data-height="'+(p.height||'')+'" data-ch="'+(p.ch||'')+'" data-ch-date="'+(p.ch_date||'')+'">';
+      h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.25);white-space:nowrap;">'+(function(){var mv=p.move;var r='<span>'+p.rank+'</span>';if(mv!=null&&mv!==0){var up=mv>0;var arrow=up?'&#9650;':'&#9660;';var col=up?'#3fb950':'#f85149';var abs=Math.abs(mv);r+='<div style="font-size:9px;line-height:1;color:'+col+';margin-top:1px;">'+arrow+abs+'</div>';}return r;})()+'</td>';
+      h+='<td style="padding:7px 8px;font-size:12px;font-weight:600;color:#e6edf3;display:flex;align-items:center;gap:6px;">'+(flag?flag+' ':'')+hl(p.name,q)+(url&&url!='#'?' <a href="'+url+'" target="_blank" onclick="event.stopPropagation()" title="ATP profil" style="display:inline-flex;align-items:center;flex-shrink:0;opacity:0.5;text-decoration:none;transition:opacity .15s;""><img src="https://www.atptour.com/favicon.ico" width="13" height="13" style="display:block;border-radius:2px;"/></a>':'')+'</td>';
+      h+='<td style="padding:7px 8px;text-align:center;font-size:16px;" title="'+(p.country||"")+'">'+flag+'<div style="font-size:8px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(p.country||"-")+'</div></td>';
+      h+='<td style="padding:7px 8px;font-size:12px;color:rgba(255,255,255,0.6);text-align:center;">'+(p.age||"-")+'</td>';
+      h+='<td style="padding:7px 8px;text-align:center;font-size:11px;color:'+handColor+';font-weight:600;">'+(p.hand||"-")+'</td>';
+      h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.5);text-align:center;">'+(p.height?p.height+" cm":"-")+'</td>';
+      h+='<td style="padding:7px 8px;font-size:12px;color:#00C853;text-align:right;font-weight:700;">'+(p.pts?p.pts.toLocaleString("cs-CZ"):"-")+'</td>';
+      var chVal=p.ch?'#'+p.ch:'—';
+      var chDate=p.ch_date?p.ch_date.substring(0,7):'';
+      h+='<td style="padding:7px 8px;text-align:center;font-size:11px;">'
+        +(p.ch?'<span style="color:#f59e0b;font-weight:700;">'+chVal+'</span><div style="font-size:9px;color:rgba(255,255,255,0.25);margin-top:1px;">'+chDate+'</div>'
+          :'<span style="color:rgba(255,255,255,0.2);">—</span>')
+        +'</td>';
+      
+      h+='</tr>';
+    });
+    h+='</tbody></table>';
+    if(pages>1){
+      h+='<div style="display:flex;gap:4px;padding:14px 0;align-items:center;justify-content:center;flex-wrap:wrap;">';
+      h+='<button data-pp="prev" style="padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:'+(pP===0?"rgba(255,255,255,0.15)":"rgba(255,255,255,0.5)")+';font-size:13px;cursor:pointer;">←</button>';
+      var s2=Math.max(0,pP-4),e2=Math.min(pages-1,pP+4);
+      if(s2>0)h+='<button data-pp="0" style="padding:5px 9px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:rgba(255,255,255,0.35);font-size:11px;cursor:pointer;">1</button><span style="color:rgba(255,255,255,0.2);padding:0 2px;">&hellip;</span>';
+      for(var pi=s2;pi<=e2;pi++){h+='<button data-pp="'+pi+'" style="padding:5px 10px;border-radius:6px;border:1px solid '+(pi===pP?"#00C853":"rgba(255,255,255,0.08)")+';background:'+(pi===pP?"rgba(0,200,83,0.15)":"transparent")+';color:'+(pi===pP?"#00C853":"rgba(255,255,255,0.35)")+';font-size:11px;cursor:pointer;font-weight:'+(pi===pP?"700":"400")+';">'+(pi+1)+'</button>';}
+      if(e2<pages-1)h+='<span style="color:rgba(255,255,255,0.2);padding:0 2px;">&hellip;</span><button data-pp="'+(pages-1)+'" style="padding:5px 9px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:rgba(255,255,255,0.35);font-size:11px;cursor:pointer;">'+pages+'</button>';
+      h+='<button data-pp="next" style="padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:'+(pP>=pages-1?"rgba(255,255,255,0.15)":"rgba(255,255,255,0.5)")+';font-size:13px;cursor:pointer;">→</button>';
+      h+='<span style="font-size:9px;color:rgba(255,255,255,0.15);margin-left:6px;">'+(pP*PAGE+1)+"-"+Math.min((pP+1)*PAGE,total)+" / "+total+'</span></div>';
+    }
+    h+='</div>';
+    wrap.innerHTML=h;
+  // Player page — full screen view
+  sh._openPlayerFromHistory = function(player){
+    // Simuluj klik na hráče ze seznamu
+    var tr = wrap.querySelector('tr.pr[data-pid="'+player.id+'"]');
+    if(tr){ tr.click(); return; }
+    // Hráč není v aktuálním zobrazení - přejdi na seznam a klikni
+    // Fallback: najdi ho přes search
+    var inp = sh.querySelector('input[placeholder*="Hledej"]');
+    if(inp){
+      inp.value = player.name || player.full_name || '';
+      inp.dispatchEvent(new Event('input',{bubbles:true}));
+      setTimeout(function(){
+        var found = wrap.querySelector('tr.pr[data-pid="'+player.id+'"]');
+        if(found) found.click();
+      }, 200);
+    }
+  };
+  wrap.querySelectorAll('tr.pr').forEach(function(row){
+    row.addEventListener('click',function(){
+      var pid=row.dataset.pid,pname=row.dataset.pname,pfull=row.dataset.fullname||row.dataset.pname,country=row.dataset.country;
+      var rank=row.dataset.rank,pts=row.dataset.pts,age=row.dataset.age,pch=row.dataset.ch,pchDate=row.dataset.chDate;
+      var hand=row.dataset.hand,height=row.dataset.height,url=row.dataset.url;
+      var flag=countryFlag(country);
+      var handTxt=hand==='L'?'Levák ✋':'Pravák';
+      var handColor=hand==='L'?'#60a5fa':'rgba(255,255,255,0.5)';
+      var notesKey='ts_notes_'+pid;
+      var notesRaw=localStorage.getItem(notesKey);
+      var notesList=[];
+      try{
+        var parsed=JSON.parse(notesRaw);
+        if(Array.isArray(parsed))notesList=parsed;
+        else if(typeof parsed==='string'&&parsed)notesList=[{id:Date.now(),text:parsed,date:new Date().toISOString().slice(0,10),source:''}];
+        else if(notesRaw&&typeof notesRaw==='string')notesList=[{id:Date.now(),text:notesRaw,date:new Date().toISOString().slice(0,10),source:''}];
+      }catch(e){if(notesRaw)notesList=[{id:Date.now(),text:notesRaw,date:new Date().toISOString().slice(0,10),source:''}];}
+      // Přidej notes ze zápasových komentářů které ještě nejsou v notesList
+      (function(){
+        Object.keys(localStorage).filter(function(k){return k.startsWith('ts_mc_'+pid+'_');}).forEach(function(k){
+          var src=k.replace('ts_mc_','');
+          var txt=localStorage.getItem(k);
+          var dt=localStorage.getItem('ts_mc_date_'+src)||'';
+          if(!txt)return;
+          if(!notesList.find(function(n){return n.source===src;})){
+            notesList.push({id:parseInt(src.split('_')[1].replace(/-/g,''))||Date.now(),text:txt,date:dt,source:src});
+          }
+        });
+        localStorage.setItem(notesKey,JSON.stringify(notesList));
+      })();
+
+      // Remove existing player page
+      var existing=sh.getElementById('player-page');
+      if(existing)existing.remove();var _cm2=sh.getElementById("mh-cmt-modal");if(_cm2)_cm2.style.display="none";
+
+      // Build full-page container
+      var pg=document.createElement('div');
+      pg.id='player-page';
+      pg.style.cssText='position:fixed;top:0;right:0;bottom:0;left:192px;background:#0d1117;z-index:9999;display:flex;flex-direction:column;overflow-y:auto;';
+
+      // ── HEADER ────────────────────────────────────────────
+      var photoId=pname.toLowerCase().replace(/ /g,'_');
+      var headerHTML='<div style="background:linear-gradient(180deg,#161b22 0%,#0d1117 100%);border-bottom:1px solid rgba(255,255,255,0.06);padding:20px 32px 0;flex-shrink:0;">'
+        // Back button
+        +'<button id="pp-back" style="background:none;border:none;color:rgba(255,255,255,0.4);font-size:13px;cursor:pointer;padding:0;margin-bottom:16px;display:flex;align-items:center;gap:6px;">&#8592; Zpět na hráče</button>'
+        +'<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'
+          // Photo
+          +'<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'
+            +'<img id="pp-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'
+            +'<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:40px;">'+( flag||'👤')+'</div>'
+          +'</div>'
+          // Info
+          +'<div style="flex:1;padding-bottom:20px;">'
+            +'<div style="font-size:11px;color:rgba(255,255,255,0.3);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;">'+country+(flag?' '+flag:'')+'</div>'
+            +'<div style="font-size:28px;font-weight:800;color:#fff;letter-spacing:-0.5px;margin-bottom:14px;">'+pname+'</div>'
+            +'<div style="display:flex;gap:10px;flex-wrap:wrap;">'
+              +'<div style="background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(0,200,83,0.6);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Rank</div>'
+                +'<div style="font-size:22px;font-weight:800;color:#00C853;">#'+rank+'</div>'
+              +'</div>'
+              +'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 16px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Body</div>'
+                +'<div style="font-size:22px;font-weight:700;color:#e6edf3;">'+Number(pts).toLocaleString()+'</div>'
+              +'</div>'
+              +(age?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Věk</div>'
+                +'<div style="font-size:20px;font-weight:700;color:#e6edf3;">'+age+'</div>'
+              +'</div>':'')
+              +(height?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Výška</div>'
+                +'<div style="font-size:20px;font-weight:700;color:#e6edf3;">'+height+' cm</div>'
+              +'</div>':'')
+              +(hand?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Hraje</div>'
+                +'<div style="font-size:15px;font-weight:600;color:'+handColor+';">'+handTxt+'</div>'
+              +'</div>':'')
+              +(pch?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Career High</div><div style="font-size:20px;font-weight:700;color:#f59e0b;">#'+pch+'</div>'+(pchDate&&pchDate.length>0?'<div style="font-size:9px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(pchDate.length>7?pchDate.substring(0,7):pchDate)+'</div>':'')+'</div>':'')
+              +(url&&url!='#'?'<a href="'+url+'" target="_blank" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;">'
+                +'<img src="https://www.atptour.com/favicon.ico" width="16" height="16" style="border-radius:2px;"/>'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-transform:uppercase;">ATP</div>'
+              +'</a>':'')
+            +'</div>'
+          +'</div>'
+        +'</div>'
+        // Tab bar
+        +'<div style="display:flex;gap:0;margin-top:16px;">'
+          +'<div class="pp-tab pp-tab-active" data-tab="notes" style="padding:10px 20px;font-size:12px;font-weight:600;color:#00C853;border-bottom:2px solid #00C853;cursor:pointer;">&#128221; Poznámky</div>'
+          +'<div class="pp-tab" data-tab="matches" style="padding:10px 20px;font-size:12px;font-weight:500;color:rgba(255,255,255,0.4);border-bottom:2px solid transparent;cursor:pointer;">&#127934; Historie zápasů</div>'
+        +'</div>'
+      +'</div>';
+
+      // ── NOTES SECTION ─────────────────────────────────────
+      var notesHTML='<div id="pp-notes-section" style="flex:1;padding:28px 32px;overflow-y:auto;">'
+        +'<div style="max-width:720px;">'
+          // Header + Add button
+          +'<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">'
+            +'<div style="font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:2px;text-transform:uppercase;">Mé poznámky</div>'
+            +'<button id="pp-add-note-btn" style="background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.3);color:#00C853;border-radius:8px;padding:6px 14px;font-size:11px;font-weight:700;cursor:pointer;">+ Přidat poznámku</button>'
+          +'</div>'
+          // New note form (hidden by default)
+          +'<div id="pp-note-form" style="display:none;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:16px;margin-bottom:16px;">'
+            +'<div style="display:flex;gap:8px;margin-bottom:8px;">'
+              +'<div style="flex:1;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Datum</div>'
+                +'<input id="pp-note-date" type="date" value="'+new Date().toISOString().slice(0,10)+'" style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;outline:none;width:100%;box-sizing:border-box;"/>'
+              +'</div>'
+              +'<div style="flex:2;">'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Zdroj</div>'
+                +'<input id="pp-note-source" type="text" placeholder="např. flashscore, vlastní pozorování..." style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;outline:none;width:100%;box-sizing:border-box;"/>'
+              +'</div>'
+            +'</div>'
+            +'<textarea id="pp-note-text" placeholder="Text poznámky..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:8px;color:#e6edf3;font-size:13px;line-height:1.6;padding:10px 12px;resize:vertical;outline:none;font-family:inherit;box-sizing:border-box;"></textarea>'
+            +'<div style="display:flex;gap:8px;margin-top:8px;">'
+              +'<button id="pp-note-save-btn" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;border-radius:8px;padding:7px 18px;font-size:12px;font-weight:700;cursor:pointer;">Uložit</button>'
+              +'<button id="pp-note-cancel-btn" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:8px;padding:7px 14px;font-size:12px;cursor:pointer;">Zrušit</button>'
+              +'<span id="pp-note-edit-id" style="display:none;"></span>'
+            +'</div>'
+          +'</div>'
+          // Notes list
+          +'<div id="pp-notes-list">'
+            +(notesList.length===0?'<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>':
+              notesList.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).map(function(n){
+                return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
+                  +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
+                    +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
+                    +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+                    +'<div style="margin-left:auto;display:flex;gap:6px;">'
+                      +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
+                      +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
+                    +'</div>'
+                  +'</div>'
+                  +'<div style="font-size:13px;color:#e6edf3;line-height:1.6;white-space:pre-wrap;">'+n.text+'</div>'
+                +'</div>';
+              }).join('')
+            )
+          +'</div>'
+        +'</div>'
+      +'</div>';
+
+      // ── MATCHES SECTION ────────────────────────────────────
+      var matchesHTML='<div id="pp-matches-section" style="display:none;flex:1;padding:28px 32px;">'
+        +'<div style="text-align:center;padding:60px;color:rgba(255,255,255,0.2);">'
+          +'<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; Načítám historii zápasů...</div>'
+
+
+      pg.innerHTML=headerHTML+notesHTML+matchesHTML;
+      sh.appendChild(pg);
+// Zavři comment modal při kliknutí na overlay nebo navigaci
+// comment modal closes via overlay mousedown and player navigation
+
+      // ── FETCH PHOTO ───────────────────────────────────────
+      (function(){
+        // ATP headshot primárně - funguje pro všechny rankované hráče
+        var atpUrl='https://www.atptour.com/-/media/alias/player-headshot/'+pid;
+        var imgEl=sh.getElementById('pp-photo');
+        if(imgEl){
+          var atpImg=new Image();
+          atpImg.onload=function(){imgEl.src=atpUrl;};
+          atpImg.onerror=function(){
+            // Fallback: Wikipedia
+            var wikiName=pfull.replace(/ /g,'_');
+            fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(wikiName))
+            .then(function(r){return r.json();})
+            .then(function(data){var s=data.thumbnail&&data.thumbnail.source;if(s)imgEl.src=s;})
+            .catch(function(){});
+          };
+          atpImg.src=atpUrl;
+        }
+      })();
+
+      // ── BACK BUTTON ───────────────────────────────────────
+      sh.getElementById('pp-back').onclick=function(){pg.remove();};
+      document.addEventListener('keydown',function _esc(e){
+        if(e.key==='Escape'){pg.remove();document.removeEventListener('keydown',_esc);}
+      });
+
+      // ── TABS ──────────────────────────────────────────────
+      pg.querySelectorAll('.pp-tab').forEach(function(tab){
+        tab.addEventListener('click',function(){
+          pg.querySelectorAll('.pp-tab').forEach(function(t){
+            t.style.color='rgba(255,255,255,0.4)';
+            t.style.borderBottomColor='transparent';
+          });
+          tab.style.color='#00C853';
+          tab.style.borderBottomColor='#00C853';
+          var which=tab.dataset.tab;
+          sh.getElementById('pp-notes-section').style.display=which==='notes'?'block':'none';
+          if(which==='notes')_tsRefreshNotes(pid);
+          var _mSec=sh.getElementById('pp-matches-section');
+          if(which==='matches'){
+            _mSec.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:#0d1117;overflow-y:auto;box-sizing:border-box;display:block;';
+          }else{
+            _mSec.style.cssText='display:none;flex:1;padding:28px 32px;';
+          }
+          if(which==='matches'){var _cm=sh.getElementById('mh-cmt-modal');if(_cm)_cm.style.display='none';_loadMatchHistory(pid,pname,sh);}
+        });
+      });
+
+      // ── MATCH HISTORY ───────────────────────────────────────────
+      function _loadMatchHistory(pid,pname,sh){
+        var sec=sh.getElementById('pp-matches-section');
+        if(!sec)return;
+  var _existingModal=sh.getElementById('mh-cmt-modal');if(_existingModal)_existingModal.style.display='none';
+        if(sec.dataset.loaded===pid){
+          // Data cached — znovu inicializuj komentáře (mohly přibýt nové)
+          var _listEl=sec.querySelector('#mh-list');
+          if(_listEl){
+            _listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
+              var emid=ex.dataset.mid;
+              if(emid&&_getMcValue(emid)){ex.style.display='inline';}
+              // Odstraň staré listenery klonováním
+              var fresh=ex.cloneNode(true);
+              ex.parentNode.replaceChild(fresh,ex);
+              fresh.addEventListener("click",function(e){
+                e.stopPropagation();
+                var row=fresh.closest('tr');if(!row)return;
+                var existing=row.nextElementSibling;
+                if(existing&&existing.classList.contains('mh-cmt-preview')){existing.remove();fresh.classList.remove('open');return;}
+                var txt=localStorage.getItem("ts_mc_"+emid)||'';
+                var colCount=row.querySelectorAll('td').length;
+                var pr=document.createElement('tr');
+                pr.className='mh-cmt-preview';pr.dataset.mid=emid;
+                pr.innerHTML='<td colspan="'+colCount+'" style="padding:6px 12px 8px 40px;background:rgba(249,115,22,0.06);border-top:none;font-size:12px;color:rgba(255,255,255,0.55);font-style:italic;line-height:1.5;white-space:pre-wrap;">'+txt.replace(/</g,'&lt;')+'</td>';
+                row.parentNode.insertBefore(pr,row.nextSibling);
+                fresh.classList.add('open');
+              });
+            });
+            _listEl.querySelectorAll(".mh-cmt-btn").forEach(function(btn){
+              var mid=btn.dataset.mid;
+              if(mid&&_getMcValue(mid)){btn.classList.add("has-comment");btn.title="\uD83D\uDCDD "+_getMcValue(mid).slice(0,40);}
+            });
+          }
+          return;
+        }
+        sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; Načítám...</div>';
+        var RAW='https://raw.githubusercontent.com/Havran001/tennis-scout/main/';
+        fetch(RAW+'player_history/'+pid+'.json?v='+Date.now())
+        .then(function(r){return r.ok?r.json():null;})
+        .then(function(hist){
+          // Also get live matches from _lastData
+          var liveMatches=[];
+          if(window._matchesData){
+            var days=window._matchesData.days||{};
+            [-1,0,1].forEach(function(d){
+              (days[d]||[]).forEach(function(m){
+                var p1=(m.p1||'').toLowerCase(),p2=(m.p2||'').toLowerCase();
+                var pn=(pname||'').toLowerCase().split(' ').pop();
+                if(p1.includes(pn)||p2.includes(pn)){
+                  var isW=(p1.includes(pn)&&(m.sets1||0)>(m.sets2||0))||(p2.includes(pn)&&(m.sets2||0)>(m.sets1||0));
+                  var opp=p1.includes(pn)?m.p2:m.p1;
+                  var score=(p1.includes(pn)?(m.sets1+'-'+m.sets2):(m.sets2+'-'+m.sets1));
+                  var d2=new Date();d2.setDate(d2.getDate()+d);
+                  var ds=d2.toISOString().slice(0,10).replace(/-/g,'');
+                  liveMatches.push({date:ds,tournament:m.tournament||'',surface:m.surface||'',level:'live',round:m.round||'',result:(m.status==='ended'?(isW?'W':'L'):'Live'),opponent:opp,score:score,best_of:'3',rank:'',opp_rank:''});
+                }
+              });
+            });
+          }
+          var all=(hist?hist.matches:[]).concat(liveMatches);
+          all.sort(function(a,b){return b.date.localeCompare(a.date);});
+          if(all.length===0){
+            sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy k dispozici</div>';
+            sec.dataset.loaded=pid;return;
+          }
+          // Surface colors
+          var SC={Hard:'#2196F3',Clay:'#FF7043',Grass:'#4CAF50',Carpet:'#9C27B0',Indoor:'#607D8B'};
+          // Round abbreviations
+          var RC={F:'F',SF:'SF',QF:'QF',R16:'R16',R32:'R32',R64:'R64',R128:'R128',RR:'RR',BR:'BR'};
+          // Level labels
+          var LC={G:'Grand Slam',M:'Masters 1000',A:'ATP 500',B:'ATP 250',D:'Davis Cup',F:'Finals',C:'Challenger',S:'Satellite',live:'LIVE'};
+          sec.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:#0d1117;overflow-y:auto;box-sizing:border-box;';
+          var h='<div style="position:sticky;top:0;z-index:10;background:#0d1117;border-bottom:1px solid rgba(255,255,255,.08);padding:16px 20px 0 20px;">'+
+          // Photo + Info — identické s kartou hráče
+'<button id="mh-f-back" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;margin-bottom:14px;display:block;">← Zpět</button>'+
+          '<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'+
+            // Photo
+            '<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'+
+              '<img id="mh-hdr-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'+
+            '</div>'+
+            // Info
+            '<div style="flex:1;padding-bottom:20px;">'+
+              '<div style="font-size:11px;color:rgba(255,255,255,0.3);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;">'+country+(flag?' '+flag:'')+'</div>'+
+              '<div style="font-size:28px;font-weight:800;color:#fff;letter-spacing:-0.5px;margin-bottom:14px;">'+pname+'</div>'+
+              '<div style="display:flex;gap:10px;flex-wrap:wrap;">'+
+                '<div style="background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+
+                  '<div style="font-size:9px;color:rgba(0,200,83,0.6);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Rank</div>'+
+                  '<div style="font-size:22px;font-weight:800;color:#00C853;">#'+rank+'</div>'+
+                '</div>'+
+                '<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 16px;text-align:center;">'+
+                  '<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Body</div>'+
+                  '<div style="font-size:22px;font-weight:700;color:#e6edf3;">'+Number(pts).toLocaleString()+'</div>'+
+                '</div>'+
+                (age?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Věk</div><div style="font-size:20px;font-weight:700;color:#e6edf3;">'+age+'</div></div>':'')+
+                (height?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Výška</div><div style="font-size:20px;font-weight:700;color:#e6edf3;">'+height+' cm</div></div>':'')+
+                (hand?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Hraje</div><div style="font-size:15px;font-weight:600;color:'+handColor+';">'+handTxt+'</div></div>':'')+
+                (pch?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Career High</div><div style="font-size:20px;font-weight:700;color:#f59e0b;">#'+pch+'</div>'+(pchDate&&pchDate.length>0?'<div style="font-size:9px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(pchDate.length>7?pchDate.substring(0,7):pchDate)+'</div>':'')+' </div>':'')+
+              '</div>'+
+            '</div>'+
+          '</div>'+
+        '</div>'+
+        '<div style="padding:0 20px 40px;">';
+          // Sestav unikátní hodnoty pro filtry
+          var _normT=function(t){return t.replace(/^ATP /,'').replace(/^WTA /,'');};
+          var _allTournaments=[...new Set(all.map(function(m){return _normT(m.tournament||'');}).filter(Boolean))].sort();
+          var _allSurfaces=[...new Set(all.map(function(m){return m.surface||'';}).filter(Boolean))].sort();
+          var _allOpponents=[...new Set(all.map(function(m){return m.opponent||'';}).filter(Boolean))].sort(function(a,b){var _la=a.split(' ').pop()||a;var _lb=b.split(' ').pop()||b;return _la.localeCompare(_lb);});
+
+          // Filtrační stav
+          var _fTournament='',_fSurface='',_fOpponent='',_fResult='';
+
+          function _fDD(list,q){var ql=(q||'').toLowerCase();list.querySelectorAll('.mh-dd-item').forEach(function(i){i.style.display=(!ql||i.textContent.toLowerCase().indexOf(ql)>=0)?'':'none';});}
+function _posDD(dd){
+  var col=dd.getAttribute('data-col');
+  var rightCols=['first_pct','second_pct','bp_saved','match_time','odds','dr','a_pct','va_pct','df_pct','first_in'];
+  if(rightCols.indexOf(col)>=0){dd.style.left='auto';dd.style.right='0';}
+  else{dd.style.left='0';dd.style.right='auto';}
+}
+function _fmtOpp(name){
+  if(!name)return '';
+  var parts=name.trim().split(' ');
+  if(parts.length<2)return name;
+  var last=parts[parts.length-1];
+  var first=parts.slice(0,parts.length-1).join(' ');
+  return last+', '+first;
+}
+function _renderMatches(){
+            var filtered=all.filter(function(m){
+              if(m.date&&m.date.indexOf('-')<0)return false;
+              if(_fTournament&&_normT(m.tournament||'')!==_fTournament)return false;
+              if(_fSurface&&m.surface!==_fSurface)return false;
+              if(_fOpponent&&m.opponent!==_fOpponent)return false;
+              if(_fResult&&m.result!==_fResult)return false;
+              if(window._mhColFilter){
+                var cf=window._mhColFilter;
+                if(cf.date&&m.date&&m.date.toLowerCase().indexOf(cf.date.toLowerCase())<0)return false;
+                if(cf.tournament&&m.tournament&&_normT(m.tournament).toLowerCase().indexOf(cf.tournament.toLowerCase())<0)return false;
+                if(cf.surface&&m.surface&&m.surface.toLowerCase().indexOf(cf.surface.toLowerCase())<0)return false;
+                if(cf.round&&m.round&&m.round.toLowerCase().indexOf(cf.round.toLowerCase())<0)return false;
+                if(cf.rank&&m.rank&&m.rank.indexOf(cf.rank)<0)return false;
+                if(cf.opp_rank&&m.opp_rank&&m.opp_rank.indexOf(cf.opp_rank)<0)return false;
+                if(cf.opponent&&m.opponent&&_fmtOpp(m.opponent).toLowerCase().indexOf(cf.opponent.toLowerCase())<0)return false;
+                if(cf.score&&m.score&&m.score.toLowerCase().indexOf(cf.score.toLowerCase())<0)return false;
+                if(cf.level){var _lvl=m.tournament&&(m.tournament.endsWith(' CH')||m.tournament.includes(' CH '))?'CH':m.tournament&&(/\bF\d+\b|M25|M15|ITF/.test(m.tournament))?'ITF':'ATP';if(_lvl!==cf.level)return false;}
+                if(cf.result&&m.result!==cf.result)return false;
+              }
+              return true;
+            });
+            if(window._mhSort){
+              var sk=window._mhSort.key,sd=window._mhSort.dir;
+              filtered=filtered.slice().sort(function(a,b){
+                var av=a[sk]||'',bv=b[sk]||'';
+                var cmp=av.localeCompare(bv,undefined,{numeric:true});
+                return sd==='asc'?cmp:-cmp;
+              });
+            }
+            var mhCss=[
+              '.mh-table{width:100%;border-collapse:collapse;font-size:12px;}',
+              '.mh-table th{padding:4px 6px;font-size:9px;font-weight:700;color:rgba(255,255,255,0.35);',
+              'letter-spacing:0.7px;border-bottom:1px solid rgba(255,255,255,0.08);',
+              'text-align:left;white-space:nowrap;background:rgba(255,255,255,0.02);cursor:pointer;user-select:none;}',
+              '.mh-table th:hover{color:rgba(255,255,255,0.7);}',
+              '.mh-table th.sorted-asc::after{content:" \u25b2";font-size:8px;opacity:0.7;}',
+              '.mh-table th.sorted-desc::after{content:" \u25bc";font-size:8px;opacity:0.7;}',
+              '.mh-table .th-filter{width:100%;margin-top:3px;padding:2px 4px;font-size:10px;',
+              'background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);',
+              'border-radius:4px;color:#e6edf3;outline:none;box-sizing:border-box;}',
+              '.mh-table .th-filter:focus{border-color:rgba(33,150,243,0.5);background:rgba(33,150,243,0.08);}',
+              '.mh-table td{padding:4px 6px;border-bottom:1px solid rgba(255,255,255,0.04);color:rgba(255,255,255,0.75);white-space:nowrap;}',
+              '.mh-table tr:hover td{background:rgba(255,255,255,0.03);}',
+              '.mh-table td.ta-num{text-align:right;font-variant-numeric:tabular-nums;color:rgba(255,255,255,0.5);}',
+              '.mh-table td.ta-score{font-family:monospace;font-weight:600;}',
+              '.mh-table td.ta-wl-w{font-weight:800;color:#00C853;}',
+              '.mh-table td.ta-wl-l{font-weight:900;color:#ff1100;text-shadow:0 0 6px rgba(255,17,0,0.6);}',
+              '.mh-table td.ta-odds{color:rgba(255,255,255,0.3);font-size:11px;}',
+              '.mh-table .yr-sep td{padding:12px 6px 4px;font-size:13px;font-weight:800;color:#fcd34d;letter-spacing:2px;border-bottom:2px solid rgba(252,211,77,0.3);background:none;text-transform:uppercase;}',
+              '.mh-surf-cl{color:#fb923c;}.mh-surf-gr{color:#4ade80;}.mh-surf-in{color:#c084fc;}.mh-surf-ha{color:#60a5fa;}',
+              '.lvl-atp{color:#60a5fa;font-weight:800;font-size:11px;}',
+              '.lvl-ch{color:#fcd34d;font-weight:800;font-size:11px;}',
+              '.lvl-itf{color:#a78bfa;font-weight:800;font-size:11px;}',
+              '.mh-dd-wrap{position:relative;}',
+              '.mh-dd-list{display:none;position:absolute;top:100%;left:0;min-width:180px;max-height:220px;overflow-y:auto;background:#1c2128;border:1px solid rgba(255,255,255,0.15);border-radius:6px;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.5);}',
+              '.mh-dd-list.open{display:block;}',
+              '.mh-dd-item{padding:5px 10px;font-size:11px;color:#e6edf3;cursor:pointer;white-space:nowrap;}',
+              '.mh-dd-item:hover,.mh-dd-item.active{background:rgba(33,150,243,0.3);}' ,
+  '.mh-cmt-btn{background:none;border:none;cursor:pointer;font-size:12px;opacity:.3;padding:1px 3px;transition:all .2s;filter:grayscale(1)}.mh-cmt-btn:hover{opacity:.7;filter:none}.mh-cmt-btn.has-comment{opacity:1;filter:sepia(1) saturate(8) hue-rotate(5deg) brightness(1.1);}.mh-cmt-expand{color:#f97316;}.mh-cmt-expand:hover{opacity:.8!important;}.mh-cmt-expand.open{transform:rotate(180deg);opacity:.8!important;}.mh-cmt-preview td{background:rgba(249,115,22,0.06);border-top:none!important;padding:6px 12px 8px 12px!important;font-size:12px;color:rgba(255,255,255,0.55);font-style:italic;line-height:1.5;white-space:pre-wrap;}',
+            ].join('');
+            var cols=[
+              {key:'result',label:'W/L',type:'sel',opts:['','W','L']},
+              {key:'level',label:'Level',type:'sel',opts:['','ATP','CH','ITF']},
+              {key:'date',label:'Date',type:'txt'},
+              {key:'tournament',label:'Tournament',type:'txt'},
+              {key:'surface',label:'Surface',type:'sel',opts:[''].concat(_allSurfaces)},
+              {key:'round',label:'Rd',type:'txt'},
+              {key:'rank',label:'Rk',type:'txt'},
+              {key:'opp_rank',label:'vRk',type:'txt'},
+              {key:'opponent',label:'Opponent',type:'txt'},
+              {key:'score',label:'Score',type:'txt'},
+              {key:'odds',label:'Odds',type:'txt'},
+              {key:'dr',label:'DR',type:'txt'},
+              {key:'a_pct',label:'A%',type:'txt'},
+              {key:'va_pct',label:'vA%',type:'txt'},
+              {key:'df_pct',label:'DF%',type:'txt'},
+              {key:'first_in',label:'1stIn',type:'txt'},
+              {key:'first_pct',label:'1st%',type:'txt'},
+              {key:'second_pct',label:'2nd%',type:'txt'},
+              {key:'bp_saved',label:'BPSvd',type:'txt'},
+              {key:'match_time',label:'Time',type:'txt'}
+            ];
+            if(!window._mhColFilter)window._mhColFilter={};
+            var cf=window._mhColFilter;
+            var sortKey=window._mhSort?window._mhSort.key:'';
+            var sortDir=window._mhSort?window._mhSort.dir:'asc';
+            var thead='<thead><tr>'+cols.map(function(c){
+              var sCls=sortKey===c.key?(sortDir==='asc'?'sorted-asc':'sorted-desc'):'';
+              var fi='';
+              if(c.type==='sel'){
+                fi='<select class="th-filter" data-col="'+c.key+'" onclick="event.stopPropagation()">';
+                fi+=c.opts.map(function(o){return '<option value="'+o+'"'+(cf[c.key]===o?' selected':'')+'>'+o+'</option>';}).join('');
+                fi+='</select>';
+              } else {
+                var ddVals=[];
+                all.forEach(function(m){
+                  var v=c.key==='tournament'?_normT(m[c.key]||''):c.key==='opponent'?_fmtOpp(m[c.key]||''):(m[c.key]||'');
+                  if(v&&ddVals.indexOf(v)<0)ddVals.push(v);
+                });
+                ddVals.sort();
+                var ddHtml='<div class="mh-dd-wrap"><input class="th-filter" type="text" data-col="'+c.key+'" placeholder="..." value="'+(cf[c.key]||'')+'" autocomplete="off"><div class="mh-dd-list" data-col="'+c.key+'">';
+                ddHtml+=ddVals.map(function(v){return '<div class="mh-dd-item" data-val="'+v.replace(/"/g,'&quot;')+'">'+v+'</div>';}).join('');
+                ddHtml+='</div></div>';
+                fi=ddHtml;
+              }
+              return '<th class="'+sCls+'" data-sort="'+c.key+'">'+c.label+'<br>'+fi+'</th>';
+            }).join('')+'</tr></thead>';
+            var tbody='<tbody>';
+            var lastYear='';
+            filtered.forEach(function(m){
+              var yr=m.date?(m.date.replace(/-/g,'')).substring(0,4):'';
+              if(yr!==lastYear){
+                tbody+='<tr class="yr-sep"><td colspan="19">'+yr+'</td></tr>';
+                lastYear=yr;
+              }
+              var _dn=(m.date||'').replace(/-/g,'');
+              var dd=_dn.length>=8?_dn.slice(6,8)+'.'+_dn.slice(4,6)+'.'+_dn.slice(0,4):(m.date||'');
+              var isW=m.result==='W',isL=m.result==='L';
+        var mid=pid+'_'+(m.date||'')+'_'+(m.opponent||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
+              var wlCls=isW?'ta-wl-w':isL?'ta-wl-l':'';
+              var sfCls=(m.surface||'')==='Clay'?'mh-surf-cl':(m.surface||'')==='Grass'?'mh-surf-gr':(m.surface||'')==='Indoor'?'mh-surf-in':'mh-surf-ha';
+              var lvl=m.tournament&&(m.tournament.endsWith(' CH')||m.tournament.includes(' CH '))?'CH':m.tournament&&(/\bF\d+\b|M25|M15|ITF/.test(m.tournament))?'ITF':'ATP';
+              var lvlStyle=lvl==='ATP'?'color:#38bdf8;font-weight:900;font-size:12px;':lvl==='CH'?'color:#facc15;font-weight:900;font-size:12px;':'color:#c084fc;font-weight:900;font-size:12px;';
+              tbody+=[
+        '<tr class="mh-match-row" data-mid="'+pid+'_'+(m.date||'')+'_'+(m.opponent||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12)+'">', 
+                '<td class="'+wlCls+'">'+(m.result||'')+'</td>',
+                '<td style="'+lvlStyle+'">'+lvl+'</td>',
+        '<td style="white-space:nowrap">'+dd+' <button class="mh-cmt-btn" data-mid="'+mid+'" title="Koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:11px;padding:0 2px;vertical-align:middle;">💬</button><button class="mh-cmt-expand" data-mid="'+mid+'" title="Zobrazit koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:9px;padding:0 1px;vertical-align:middle;opacity:.3;transition:all .2s;display:none;">▼</button></td>',
+                '<td>'+_normT(m.tournament||'')+'</td>',
+                '<td class="'+sfCls+'">'+(m.surface||'')+'</td>',
+                '<td>'+(m.round||'')+'</td>',
+                '<td class="ta-num">'+(m.rank||'')+'</td>',
+                '<td class="ta-num">'+(m.opp_rank||'')+'</td>',
+                '<td class="mh-opp-link" data-opponent="'+(m.opponent||'')+'" style="cursor:pointer;color:#60a5fa;text-decoration:underline dotted;text-underline-offset:3px;">'+_fmtOpp(m.opponent)+'</td>',
+                '<td class="ta-score">'+(m.score||'')+'</td>',
+                '<td class="ta-odds">'+(m.odds||'')+'</td>',
+                '<td class="ta-num">'+(m.dr||'')+'</td>',
+                '<td class="ta-num">'+(m.a_pct||'')+'</td>',
+                '<td class="ta-num">'+(m.va_pct||'')+'</td>',
+                '<td class="ta-num">'+(m.df_pct||'')+'</td>',
+                '<td class="ta-num">'+(m.first_in||'')+'</td>',
+                '<td class="ta-num">'+(m.first_pct||'')+'</td>',
+                '<td class="ta-num">'+(m.second_pct||'')+'</td>',
+                '<td class="ta-num">'+(m.bp_saved||'')+'</td>',
+        '<td class="ta-num">'+(m.match_time||'')+'</td>',
+        '</tr>',
+              ].join('');
+            });
+            tbody+='</tbody>';
+            var hm='<style>'+mhCss+'</style><div style="overflow-x:auto;"><table class="mh-table" id="mh-tbl">'+thead+tbody+'</table></div>';
+            if(!filtered.length)hm='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);font-size:13px;">Žádné zápasy</div>';
+            var listEl=sec.querySelector('#mh-list');
+            if(listEl){
+              listEl.innerHTML=hm;
+        // == KOMENTÁŘE ==
+        (function initCmt(){
+          // Modal - vytvoř jednou, pak reuse
+          var modal=sh.getElementById("mh-cmt-modal");
+          if(!modal){
+            modal=document.createElement("div");
+            modal.id="mh-cmt-modal";
+            modal.style.cssText="display:none;position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,.75);backdrop-filter:blur(4px);align-items:center;justify-content:center;";
+            modal.innerHTML='<div style="background:#161b22;border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px;width:480px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.8);">'
+              +'<div style="font-size:11px;color:rgba(255,255,255,.35);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Koment\u00e1\u0159 k z\u00e1pasu</div>'
+              +'<div id="mh-cmt-modal-match" style="font-size:12px;color:rgba(255,255,255,.45);margin-bottom:12px;padding:7px 10px;background:rgba(255,255,255,.04);border-radius:6px;"></div>'
+              +'<input id="mh-cmt-modal-date" type="text" placeholder="Datum zápasu (např. 18.03.2026)" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:8px 12px;outline:none;box-sizing:border-box;margin-bottom:8px;" />'
+              +'<textarea id="mh-cmt-modal-text" placeholder="Koment\u00e1\u0159 k z\u00e1pasu..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:10px 12px;outline:none;resize:vertical;line-height:1.6;box-sizing:border-box;"></textarea>'
+              +'<div style="display:flex;gap:8px;margin-top:10px;justify-content:flex-end;">'
+              +'<button id="mh-cmt-modal-cancel" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.6);font-size:12px;padding:12px 0;border-radius:8px;cursor:pointer;flex:1;font-size:14px;">Zru\u0161it</button>'
+              +'<button id="mh-cmt-modal-save" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;font-size:12px;font-weight:600;padding:12px 0;border-radius:8px;cursor:pointer;flex:1;font-size:14px;">Ulo\u017eit</button>'
+              +'</div></div>';
+            sh.appendChild(modal);
+            // Listenery přidej JEDNOU na modal - ukazují na sh._cmtMid
+            sh._cmtMid=null;
+            modal.querySelector("#mh-cmt-modal-save").addEventListener("click",function(){
+              var mid=sh._cmtMid; if(!mid)return;
+              var val=modal.querySelector("#mh-cmt-modal-text").value.trim();
+              if(val)localStorage.setItem("ts_mc_"+mid,val); else localStorage.removeItem("ts_mc_"+mid);
+              var dateVal=modal.querySelector("#mh-cmt-modal-date").value.trim();
+              if(dateVal)localStorage.setItem("ts_mc_date_"+mid,dateVal); else localStorage.removeItem("ts_mc_date_"+mid);
+              // Synchronizuj komentář do ts_notes_{pid} hlavní karty
+              (function syncToNotes(targetPid, noteText, noteDate, noteSource){
+                if(!noteText)return;
+                var nk='ts_notes_'+targetPid;
+                var existing=[];
+                try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))existing=p;}catch(e){}
+                // Aktualizuj nebo přidej note se stejným source (mid)
+                var found=existing.find(function(n){return n.source===noteSource;});
+                if(found){found.text=noteText;found.date=noteDate||found.date;}
+                else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
+                localStorage.setItem(nk,JSON.stringify(existing));
+              })(sh._cmtPid||pid, val, dateVal, mid);
+              sh._pendingNotesReload=true;
+              // Zrcadlo pro soupeře — komentář + datum + notes
+              (function(){
+                var parts=mid.split('_');
+                if(parts.length<3)return;
+                var date2=parts[1];
+                var oppSlug=parts.slice(2).join('_');
+                var players=window.ATP_PLAYERS||[];
+                var opp=players.find(function(p){
+                  var ps=(p.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12).toLowerCase();
+                  var os=oppSlug.toLowerCase();
+                  return ps===os || ps.slice(0,os.length)===os || os.slice(0,ps.length)===ps;
+                });
+                if(!opp)return;
+                var me=players.find(function(p){return p.id===parts[0];});
+                if(!me)return;
+                var meSlug=(me.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
+                var mirrorMid=opp.id+'_'+date2+'_'+meSlug;
+                if(val)localStorage.setItem("ts_mc_"+mirrorMid,val); else localStorage.removeItem("ts_mc_"+mirrorMid);
+                if(dateVal)localStorage.setItem("ts_mc_date_"+mirrorMid,dateVal); else localStorage.removeItem("ts_mc_date_"+mirrorMid);
+                // Sync do notes soupeře
+                (function syncToNotes(targetPid, noteText, noteDate, noteSource){
+                  if(!noteText)return;
+                  var nk='ts_notes_'+targetPid;
+                  var existing=[];
+                  try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))existing=p;}catch(e){}
+                  var found=existing.find(function(n){return n.source===noteSource;});
+                  if(found){found.text=noteText;found.date=noteDate||found.date;}
+                  else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
+                  localStorage.setItem(nk,JSON.stringify(existing));
+                })(opp.id, val, dateVal, mirrorMid);
+              })();
+              var b=sh.querySelector(".mh-cmt-btn[data-mid=\""+mid+"\"]");
+              if(b){b.classList.toggle("has-comment",!!val);b.title=val?"\uD83D\uDCDD "+val.slice(0,40):"Koment\u00e1\u0159";}
+              var ex=sh.querySelector(".mh-cmt-expand[data-mid=\""+mid+"\"]");
+              if(ex){ex.style.display=val?'inline':'none';if(!val){ex.classList.remove('open');var pr=sh.querySelector(".mh-cmt-preview[data-mid=\""+mid+"\"]");if(pr)pr.remove();}}
+              modal.style.display="none"; sh._cmtMid=null;
+            });
+            modal.querySelector("#mh-cmt-modal-cancel").addEventListener("click",function(){modal.style.display="none";sh._cmtMid=null;});
+            // overlay click-to-close removed (caused issues with save button)
+            modal.querySelector("#mh-cmt-modal-text").addEventListener("keydown",function(e){
+              if(e.key==="Escape"){e.stopPropagation();e.preventDefault();modal.style.display="none";sh._cmtMid=null;}
+              if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))modal.querySelector("#mh-cmt-modal-save").click();
+            });
+          }
+          // Pro každý přechod na hráče — přidej listenery na nové .mh-cmt-btn
+          // Expand trojúhelníky — jednou mimo btn loop
+          listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
+            var emid=ex.dataset.mid;
+            if(emid&&_getMcValue(emid)){ex.style.display='inline';}
+            ex.addEventListener("click",function(e){
+              e.stopPropagation();
+              var row=ex.closest('tr');
+              if(!row)return;
+              var existing=row.nextElementSibling;
+              if(existing&&existing.classList.contains('mh-cmt-preview')){
+                existing.remove();ex.classList.remove('open');return;
+              }
+              var txt=localStorage.getItem("ts_mc_"+emid)||'';
+              var colCount=row.querySelectorAll('td').length;
+              var pr=document.createElement('tr');
+              pr.className='mh-cmt-preview';pr.dataset.mid=emid;
+              pr.innerHTML='<td colspan="'+colCount+'" style="padding:6px 12px 8px 40px;background:rgba(249,115,22,0.06);border-top:none;font-size:12px;color:rgba(255,255,255,0.55);font-style:italic;line-height:1.5;white-space:pre-wrap;">'+txt.replace(/</g,'&lt;')+'</td>';
+              row.parentNode.insertBefore(pr,row.nextSibling);
+              ex.classList.add('open');
+            });
+          });
+          listEl.querySelectorAll(".mh-cmt-btn").forEach(function(btn){
+            var mid=btn.dataset.mid;
+            if(mid&&localStorage.getItem("ts_mc_"+mid)){
+              btn.classList.add("has-comment");
+              btn.title="\uD83D\uDCDD "+localStorage.getItem("ts_mc_"+mid).slice(0,40);
+            }
+            btn.addEventListener("click",function(e){
+              e.stopPropagation();
+              sh._cmtMid=mid;sh._cmtPid=pid;
+              var row=btn.closest("tr");
+              var cells=row?Array.from(row.querySelectorAll("td")):[];
+              var date=cells[2]?(cells[2].firstChild&&cells[2].firstChild.textContent?cells[2].firstChild.textContent.trim():cells[2].textContent.replace(/[^d.]/g,'').trim()):"";
+              var opp=cells[9]?cells[9].textContent.trim():"";
+              var score=cells[10]?cells[10].textContent.trim():"";
+              var wl=cells[0]?cells[0].textContent.trim():"";
+              modal.querySelector("#mh-cmt-modal-match").textContent=(wl?wl+" \u2022 ":"")+(date?date+" \u2022 ":"")+opp+(score?" \u2022 "+score:"");
+              modal.querySelector("#mh-cmt-modal-text").value=localStorage.getItem("ts_mc_"+mid)||"";
+              var storedDate=localStorage.getItem("ts_mc_date_"+mid)||date.replace(/[^d.]/g,'').trim();
+              modal.querySelector("#mh-cmt-modal-date").value=storedDate;
+              modal.style.display="flex";
+              setTimeout(function(){modal.querySelector("#mh-cmt-modal-text").focus();},50);
+            });
+          });
+        })();
+        // Klik na soupeře → otevři jeho kartu
+          listEl.querySelectorAll('.mh-opp-link').forEach(function(td){
+            td.addEventListener('click', function(e){
+              e.stopPropagation();
+              var oppName = td.dataset.opponent;
+              if(!oppName) return;
+              // Najdi hráče v ATP_PLAYERS podle full_name nebo části jména
+              var players = window.ATP_PLAYERS || [];
+              var normOpp = oppName.toLowerCase().replace(/[^a-z]/g,'');
+              var found = players.find(function(p){
+                var fn = (p.full_name||'').toLowerCase().replace(/[^a-z]/g,'');
+                return fn === normOpp || fn.includes(normOpp) || normOpp.includes(fn);
+              });
+              if(found){
+                if(sh._openPlayerFromHistory){
+                  // Zavři match history a otevři kartu nalezeného hráče
+                  sec.style.cssText='display:none;flex:1;padding:28px 32px;';
+                  sh._openPlayerFromHistory(found);
+                }
+              }
+            });
+          });
+          // == KONEC KOMENTÁŘŮ ==
+              listEl.querySelectorAll('th[data-sort]').forEach(function(th){
+                th.addEventListener('click',function(){
+                  var k=this.getAttribute('data-sort');
+                  if(window._mhSort&&window._mhSort.key===k){
+                    window._mhSort.dir=window._mhSort.dir==='asc'?'desc':'asc';
+                  } else {
+                    window._mhSort={key:k,dir:'asc'};
+                  }
+                  _renderMatches();
+                });
+              });
+              function _closeDD(){listEl.querySelectorAll('.mh-dd-list.open').forEach(function(d){d.classList.remove('open');});}
+              listEl.querySelectorAll('.th-filter[data-col]').forEach(function(inp){
+                var col=inp.getAttribute('data-col');
+                var ddList=inp.parentNode.classList.contains('mh-dd-wrap')?inp.nextSibling:null;
+                inp.addEventListener('click',function(e){
+                  e.stopPropagation();
+                  if(!ddList)return;
+                  var wasOpen=ddList.classList.contains('open');
+                  _closeDD();
+                  if(!wasOpen){_fDD(ddList,'');ddList.classList.add('open');_posDD(ddList);}
+                });
+                inp.addEventListener('input',function(e){
+                  e.stopPropagation();
+                  if(!window._mhColFilter)window._mhColFilter={};
+                  window._mhColFilter[col]=inp.value;
+                  if(ddList){_fDD(ddList,inp.value);ddList.classList.add('open');_posDD(ddList);}
+                  _renderMatches();
+                  var ni=listEl.querySelector('.th-filter[data-col="'+col+'"]');
+                  if(ni){var p=ni.value.length;ni.focus();try{ni.setSelectionRange(p,p);}catch(x){}}
+                });
+              });
+              listEl.querySelectorAll('.mh-dd-item').forEach(function(item){
+                item.addEventListener('mousedown',function(e){
+                  e.preventDefault();e.stopPropagation();
+                  var col=item.closest('.mh-dd-list').getAttribute('data-col');
+                  var val=item.getAttribute('data-val');
+                  if(!window._mhColFilter)window._mhColFilter={};
+                  window._mhColFilter[col]=val;
+                  _closeDD();
+                  _renderMatches();
+                });
+              });
+              document.addEventListener('click',function(){_closeDD();});
+            }
+            var cntEl=sec.querySelector('#mh-count');
+            if(cntEl)cntEl.textContent=filtered.length+' zápasů';
+
+
+          }
+
+          // Filtry HTML
+          h+='<div style="display:flex;align-items:center;padding:8px 0 12px;border-bottom:1px solid rgba(255,255,255,.06);">'
+            +'<button id="mh-f-reset" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;">Reset</button>'
+            +'<span id="mh-count" style="margin-left:auto;font-size:13px;font-weight:700;color:#ccff00;"></span>'
+          +'</div>';
+          h+='<div id="mh-list"></div>';
+          h+='</div>';
+          h+='</div>';
+          sec.innerHTML=h;
+          // Zavírací tlačítko
+          var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){var _cPid=sh._cmtPid||pid;sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(_cPid);if(sh._pendingNotesReload){sh._pendingNotesReload=false;var _nt=sh.getElementById('pp-notes-section');var _mt=sh.getElementById('pp-matches-section');if(_nt)_nt.style.display='block';if(_mt)_mt.style.cssText='display:none;flex:1;padding:28px 32px;';var _tabs=sh.querySelectorAll('.pp-tab');_tabs&&_tabs.forEach(function(t){t.style.color=t.dataset.tab==='notes'?'#00C853':'rgba(255,255,255,0.4)';t.style.borderBottomColor=t.dataset.tab==='notes'?'#00C853':'transparent';});}};}
+          // Sync fotky do hlavičky
+          var _hdrPhoto=sec.querySelector('#mh-hdr-photo');
+          if(_hdrPhoto){var _ppPhoto=sh.getElementById('pp-photo');if(_ppPhoto&&_ppPhoto.src)_hdrPhoto.src=_ppPhoto.src;}
+
+          // Event listenery na filtry
+          var _bk=sec.querySelector('#mh-f-back');if(_bk)_bk.onclick=function(){var _cPid=sh._cmtPid||pid;sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(_cPid);if(sh._pendingNotesReload){sh._pendingNotesReload=false;var _nt=sh.getElementById('pp-notes-section');var _mt=sh.getElementById('pp-matches-section');if(_nt)_nt.style.display='block';if(_mt)_mt.style.cssText='display:none;flex:1;padding:28px 32px;';var _tabs=sh.querySelectorAll('.pp-tab');_tabs&&_tabs.forEach(function(t){t.style.color=t.dataset.tab==='notes'?'#00C853':'rgba(255,255,255,0.4)';t.style.borderBottomColor=t.dataset.tab==='notes'?'#00C853':'transparent';});}};
+          sec.querySelector('#mh-f-reset').addEventListener('click',function(){
+            _fSurface='';_fTournament='';_fOpponent='';_fResult='';
+            window._mhColFilter={};
+            window._mhSort=null;
+            _renderMatches();
+          });
+          _renderMatches();
+          sec.dataset.loaded=pid;
+        }).catch(function(){
+          sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Nepodařilo se načíst historii zápasů</div>';
+        });
+      }
+      // ── SAVE NOTES ────────────────────────────────────────
+      // ── NOTES SYSTEM ────────────────────────────────────────────
+      function _tsRefreshNotes(targetPid){
+        console.log('REFRESH_CALLED pid='+targetPid+' ls='+JSON.stringify(localStorage.getItem('ts_notes_'+targetPid)||'').slice(0,50));
+        var nk='ts_notes_'+targetPid;
+        var fresh=[];
+        try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))fresh=p;}catch(e){}
+        var list=sh.getElementById('pp-notes-list');
+        console.log('REFRESH_LIST='+!!list+' fresh.length='+fresh.length);
+        if(!list)return;
+        if(targetPid===pid){notesList=fresh;} // aktualizuj closure pokud sedí
+        var renderList=targetPid===pid?notesList:fresh;
+        if(renderList.length===0){list.innerHTML='<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>';return;}
+        list.innerHTML=renderList.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).map(function(n){
+          return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
+            +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
+              +(n.date?'<span style="font-size:13px;color:rgba(255,255,255,0.55);background:rgba(255,255,255,0.06);padding:3px 10px;border-radius:10px;">📅 '+n.date+'</span>':'')
+              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+              +'<div style="margin-left:auto;display:flex;gap:6px;">'
+                +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
+                +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
+              +'</div>'
+            +'</div>'
+            +'<div style="font-size:13px;color:#e6edf3;line-height:1.6;white-space:pre-wrap;">'+n.text+'</div>'
+          +'</div>';
+        }).join('');
+        // Re-attach event listenery
+        list.querySelectorAll('.pp-del-note').forEach(function(btn){
+          btn.onclick=function(e){
+            e.stopPropagation();
+            if(!confirm('Smazat tuto poznámku?'))return;
+            var nid=parseInt(btn.dataset.nid);
+            notesList=notesList.filter(function(n){return n.id!==nid;});
+            _saveNotes();_renderNotes();
+          };
+        });
+        list.querySelectorAll('.pp-edit-note').forEach(function(btn){
+          btn.onclick=function(e){e.stopPropagation();/* edit handled elsewhere */};
+        });
+      }
+      function _getMcValue(mid){
+        // Hledej ts_mc_ klíč case-insensitively
+        var exact=localStorage.getItem("ts_mc_"+mid);
+        if(exact)return exact;
+        var lo=("ts_mc_"+mid).toLowerCase();
+        var keys=Object.keys(localStorage);
+        for(var i=0;i<keys.length;i++){if(keys[i].toLowerCase()===lo)return localStorage.getItem(keys[i]);}
+        return null;
+      }
+      function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
+      // Expose pro okamžité překreslení z match history save listeneru
+      sh._renderNotes_pid=pid;
+      sh._reloadNotesFn=function(){
+        var nk='ts_notes_'+pid;
+        try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))notesList=p;}catch(e){}
+        var list=sh.getElementById('pp-notes-list');
+        if(list)_renderNotes();
+      };
+      function _renderNotes(){
+        var list=sh.getElementById('pp-notes-list');
+        if(!list)return;
+        // Vždy načti čerstvý stav z localStorage
+        try{var _fresh=JSON.parse(localStorage.getItem(notesKey));if(Array.isArray(_fresh))notesList=_fresh;}catch(e){}
+        if(notesList.length===0){list.innerHTML='<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>';return;}
+        list.innerHTML=notesList.slice().reverse().map(function(n){
+          return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
+            +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
+              +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
+              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+              +'<div style="margin-left:auto;display:flex;gap:6px;">'
+                +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
+                +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
+              +'</div>'
+            +'</div>'
+            +'<div style="font-size:13px;color:#e6edf3;line-height:1.6;white-space:pre-wrap;">'+n.text+'</div>'
+          +'</div>';
+        }).join('');
+        _bindNoteActions();
+      }
+      function _bindNoteActions(){
+        sh.querySelectorAll('.pp-del-note').forEach(function(btn){
+          btn.onclick=function(e){
+            e.stopPropagation();
+            if(!confirm('Smazat tuto poznámku?'))return;
+            var nid=parseInt(btn.dataset.nid);
+            notesList=notesList.filter(function(n){return n.id!==nid;});
+            _saveNotes();_renderNotes();
+          };
+        });
+        sh.querySelectorAll('.pp-edit-note').forEach(function(btn){
+          btn.onclick=function(e){
+            e.stopPropagation();
+            var nid=parseInt(btn.dataset.nid);
+            var n=notesList.find(function(x){return x.id===nid;});
+            if(!n)return;
+            var form=sh.getElementById('pp-note-form');
+            form.style.display='block';
+            sh.getElementById('pp-note-date').value=n.date||'';
+            sh.getElementById('pp-note-source').value=n.source||'';
+            sh.getElementById('pp-note-text').value=n.text||'';
+            sh.getElementById('pp-note-edit-id').textContent=nid;
+            sh.getElementById('pp-note-text').focus();
+          };
+        });
+      }
+      sh.getElementById('pp-add-note-btn').onclick=function(){
+        var form=sh.getElementById('pp-note-form');
+        form.style.display='block';
+        sh.getElementById('pp-note-date').value=new Date().toISOString().slice(0,10);
+        sh.getElementById('pp-note-source').value='';
+        sh.getElementById('pp-note-text').value='';
+        sh.getElementById('pp-note-edit-id').textContent='';
+        sh.getElementById('pp-note-text').focus();
+      };
+      sh.getElementById('pp-note-cancel-btn').onclick=function(){
+        sh.getElementById('pp-note-form').style.display='none';
+      };
+      sh.getElementById('pp-note-save-btn').onclick=function(){
+        var txt=sh.getElementById('pp-note-text').value.trim();
+        if(!txt)return;
+        var date=sh.getElementById('pp-note-date').value;
+        var source=sh.getElementById('pp-note-source').value.trim();
+        var editId=sh.getElementById('pp-note-edit-id').textContent;
+        if(editId){
+          var nid=parseInt(editId);
+          var n=notesList.find(function(x){return x.id===nid;});
+          if(n){n.text=txt;n.date=date;n.source=source;}
+        }else{
+          notesList.push({id:Date.now(),text:txt,date:date,source:source});
+        }
+        _saveNotes();_renderNotes();
+        sh.getElementById('pp-note-form').style.display='none';
+      };
+      sh.getElementById('pp-note-text').addEventListener('keydown',function(e){
+        if((e.ctrlKey||e.metaKey)&&e.key==='Enter'){sh.getElementById('pp-note-save-btn').click();}
+      });
+      _bindNoteActions();
+    });
+  });
+  // Rank range handler
+  var rrEl=wrap.querySelector('#ps-rr');
+  if(rrEl)rrEl.addEventListener('change',function(){pR=rrEl.value;pP=0;rP();});
+  // Country dropdown handler
+  var ccEl=wrap.querySelector('#ps-cc');
+  if(ccEl)ccEl.addEventListener('change',function(){pC=ccEl.value;pP=0;rP();});
+  // Flag button handlers
+  wrap.querySelectorAll('button[data-cf]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      pC=btn.dataset.cf;
+      // Also sync the country dropdown
+      var ccEl2=wrap.querySelector('#ps-cc');
+      if(ccEl2)ccEl2.value=pC;
+      pP=0;rP();
+    });
+  });
+
+var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1){_b.style.color='#FFD700';var _svg=_b.querySelector('svg');if(_svg)_svg.style.fill='currentColor';}});}
+    var inp=wrap.querySelector("#ps-i");
+    if(inp){
+      inp.addEventListener("input",function(e){
+        pS=e.target.value;
+        var pos=e.target.selectionStart;
+        pP=0;rP();
+        var ni=wrap.querySelector("#ps-i");
+        if(ni){ni.focus();try{ni.setSelectionRange(pos,pos);}catch(x){}}
+      });
+      inp.addEventListener("focus",function(){this.style.borderColor="rgba(0,200,83,0.5)";this.style.boxShadow="0 0 0 3px rgba(0,200,83,0.1)";});
+      inp.addEventListener("blur",function(){this.style.borderColor="rgba(255,255,255,0.12)";this.style.boxShadow="none";});
+    }
+    var clr=wrap.querySelector("#ps-x");
+    if(clr)clr.addEventListener("click",function(){pS="";pP=0;rP();setTimeout(function(){var i=wrap.querySelector("#ps-i");if(i)i.focus();},30);});
+    wrap.querySelectorAll("[data-cf]").forEach(function(btn){btn.addEventListener("click",function(){pC=btn.dataset.cf;pP=0;rP();});});
+    var ss=wrap.querySelector("#ps-s");
+    if(ss)ss.addEventListener("change",function(e){pO=e.target.value;pP=0;rP();});
+    wrap.querySelectorAll("[data-pp]").forEach(function(btn){
+      btn.addEventListener("click",function(){
+        var v=btn.dataset.pp;
+        if(v==="prev"){if(pP>0){pP--;rP();}}
+        else if(v==="next"){if(pP<pages-1){pP++;rP();}}
+        else{pP=parseInt(v);rP();}
+        wrap.parentElement&&wrap.parentElement.scrollTo&&wrap.parentElement.scrollTo(0,0);
+      });
+    });
+    wrap.querySelectorAll("tr.pr").forEach(function(tr){
+      tr.addEventListener("mouseover",function(){tr.style.background="rgba(0,200,83,0.05)";});
+      tr.addEventListener("mouseout",function(){tr.style.background="";});
+    });
+  }
+  wrap.render=rP;
+  return wrap;
+}
+function _openAtpPlayer(nameRaw,sh){
+  var players=window.ATP_PLAYERS||[];
+  if(!players.length)return;
+  var clean=nameRaw.replace(/\/.*$/,'').trim();
+  var parts=clean.split(/\s+/);
+  var surname=parts[0].toLowerCase().replace(/[^a-zÀ-ɏ]/gi,'');
+  var initial=parts.length>1?parts[parts.length-1].replace('.','').toLowerCase():'';
+  var best=null,bestScore=0;
+  players.forEach(function(p){
+    var fn=(p.full_name||p.name||'').toLowerCase();
+    var sc=0;
+    if(fn.indexOf(surname)>-1)sc=surname.length;
+    if(initial&&fn.split(' ').some(function(w){return w.indexOf(initial)===0;}))sc+=2;
+    if(sc>bestScore){bestScore=sc;best=p;}
+  });
+  if(!best||bestScore<3){
+    var t=document.createElement('div');
+    t.textContent='Hráč "'+nameRaw+'" nenalezen v ATP žebříčku';
+    t.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:rgba(20,20,20,0.95);color:rgba(255,255,255,.7);padding:10px 20px;border-radius:10px;font-size:12px;z-index:99999;pointer-events:none;border:1px solid rgba(255,255,255,.15);';
+    document.body.appendChild(t);setTimeout(function(){t.remove();},2500);
+    return;
+  }
+  var navP=sh.getElementById('nav-players');
+  if(navP)navP.click();
+  function tryOpen(n){
+    var si=sh.querySelector('#ps-i');
+    if(!si){if(n<15)setTimeout(function(){tryOpen(n+1);},100);return;}
+    si.value=best.name||'';
+    si.dispatchEvent(new Event('input',{bubbles:true}));
+    setTimeout(function(){
+      var row=sh.querySelector('tr.pr[data-pid="'+best.id+'"]');
+      if(row){row.click();return;}
+      si.value=(best.full_name||best.name||'').split(' ').slice(-1)[0];
+      si.dispatchEvent(new Event('input',{bubbles:true}));
+      setTimeout(function(){
+        var r2=sh.querySelector('tr.pr[data-pid="'+best.id+'"]');
+        if(r2)r2.click();
+      },350);
+    },350);
+  }
+  tryOpen(0);
+}
+function buildMatchesTab(sh){
+  var wrap=document.createElement('div');
+  wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
+  wrap.addEventListener('click',function(e){var t=e.target.closest('.mc-plink');if(t){e.stopPropagation();_openAtpPlayer(t.dataset.pname,sh);}});
+  var activeDay=[0],activeFilter='all',activeSort='tournament',activeTier='all',activeFormat='all',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
+  var isFS=location.hostname.includes('flashscore');
+
+  var FLAGS={'USA':'🇺🇸','ESP':'🇪🇸','FRA':'🇫🇷','GER':'🇩🇪','ITA':'🇮🇹','GBR':'🇬🇧','AUS':'🇦🇺','ARG':'🇦🇷','JPN':'🇯🇵','CAN':'🇨🇦','BRA':'🇧🇷','NED':'🇳🇱','SUI':'🇨🇭','ROU':'🇷🇴','POL':'🇵🇱','CZE':'🇨🇿','AUT':'🇦🇹','GRE':'🇬🇷','BEL':'🇧🇪','SWE':'🇸🇪','NOR':'🇳🇴','DEN':'🇩🇰','SRB':'🇷🇸','KAZ':'🇰🇿','RUS':'🇷🇺','UKR':'🇺🇦','POR':'🇵🇹','CHI':'🇨🇱','MEX':'🇲🇽','RSA':'🇿🇦','IND':'🇮🇳','KOR':'🇰🇷','MAR':'🇲🇦','COL':'🇨🇴','CRO':'🇭🇷','GEO':'🇬🇪','QAT':'🇶🇦','UAE':'🇦🇪','CHN':'🇨🇳','SVK':'🇸🇰','UZB':'🇺🇿','MON':'🇲🇨','TUR':'🇹🇷','BUL':'🇧🇬','HUN':'🇭🇺','FIN':'🇫🇮','SLO':'🇸🇮','SVK':'🇸🇰','EST':'🇪🇪','LAT':'🇱🇻','LTU':'🇱🇹','NZL':'🇳🇿','AZE':'🇦🇿','ARM':'🇦🇲','GBR':'🇬🇧','MDA':'🇲🇩','BLR':'🇧🇾'};
+
+  function tInfo(t){
+    var u=t.toUpperCase();
+    if(u.includes('ITF')) return{i:'🔵',l:'ITF',c:'#c084fc',bg:'rgba(192,132,252,.08)',b:'rgba(192,132,252,.2)'};
+    if(u.includes('CHALLENGER')) return{i:'⚡',l:'Challenger',c:'#facc15',bg:'rgba(250,204,21,.1)',b:'rgba(250,204,21,.2)'};
+    if(u.match(/AUSTRALIAN OPEN|ROLAND GARROS|WIMBLEDON|US OPEN/)) return{i:'🏆',l:'Grand Slam',c:'#FFD700',bg:'rgba(255,215,0,.12)',b:'rgba(255,215,0,.3)'};
+    if(u.match(/ATP.*1000|MASTERS 1000|MIAMI|INDIAN WELLS|MADRID OPEN|ROME|MONTREAL|CINCINNATI|SHANGHAI|PARIS MASTERS|CANADIAN|MONTE.CARLO/)) return{i:'🥇',l:'ATP 1000',c:'#C0C0C0',bg:'rgba(192,192,192,.1)',b:'rgba(192,192,192,.2)'};
+    if(u.match(/ATP.*500|ROTTERDAM|DUBAI|ACAPULCO|BARCELONA|HAMBURG|WASHINGTON|TOKYO|BEIJING|VIENNA|BASEL/)) return{i:'🥈',l:'ATP 500',c:'#CD7F32',bg:'rgba(205,127,50,.1)',b:'rgba(205,127,50,.2)'};
+    if(u.match(/WTA.*1000/)) return{i:'🔴',l:'WTA 1000',c:'#e879f9',bg:'rgba(232,121,249,.1)',b:'rgba(232,121,249,.2)'};
+    if(u.match(/WTA.*500/)) return{i:'🟣',l:'WTA 500',c:'#d946ef',bg:'rgba(217,70,239,.1)',b:'rgba(217,70,239,.2)'};
+    if(u.match(/WTA.*SINGLES|WTA - /)) return{i:'🟣',l:'WTA 250',c:'#c084fc',bg:'rgba(192,132,252,.08)',b:'rgba(192,132,252,.15)'};
+    return{i:'🎾',l:'ATP 250',c:'#38bdf8',bg:'rgba(56,189,248,.08)',b:'rgba(56,189,248,.2)'};
+  }
+  function surfBg(s){if(!s)return '#555';s=s.toLowerCase();if(s.includes('hard'))return '#2563eb';if(s.includes('clay'))return '#ea580c';if(s.includes('grass'))return '#16a34a';return '#555';}
+  function timeStr(ts){if(!ts)return '';return new Date(ts).toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});}
+  function pb(b){var o={};b.split('¬').forEach(function(f){var i=f.indexOf('÷');if(i>0)o[f.slice(0,i)]=f.slice(i+1);});return o;}
+
+  function parseFeed(feedTxt){
+    // KLÍČOVÁ OPRAVA: game score (WA/WB/WC) je přímo v f_2_0_1 bloku každého zápasu
+    // NEPŘEPISUJEME r_2_1 — f_2_0_1 je aktuálnější a kompletní
+    var blocks=feedTxt.split('~').map(pb);
+    var tournament='',tcountry='',tsurface='';
+    var matches=[],seen={};
+    var reC=/(([A-Z]{2,3}))/;
+    blocks.forEach(function(b){
+      if(b.ZA){
+        tournament=b.ZA;
+        var mc=tournament.match(reC);
+        tcountry=mc?mc[1]:'';
+        tsurface=tournament.includes(',')?tournament.split(',').pop().trim():'';
+        return;
+      }
+      if(!b.AA||!b.AE||!b.AF||seen[b.AA])return;
+      seen[b.AA]=1;
+      var ab=parseInt(b.AB||0);
+      var isLive=ab===2;
+      var sets1=[],sets2=[];
+      [['BA','BB'],['BC','BD'],['BE','BF'],['BG','BH'],['BI','BJ']].forEach(function(kk){
+        var v1=b[kk[0]]||'',v2=b[kk[1]]||'';
+        if(v1!==''||v2!==''){sets1.push(v1||'0');sets2.push(v2||'0');}
+      });
+      var game1='',game2='',serving=0;
+      if(isLive){
+        // WA/WB/WC jsou game score přímo v f_2_0_1 — aktuální a přesné
+        game1=b.WA||'0';
+        game2=b.WB||'0';
+        serving=parseInt(b.WC||0);
+        if(!sets1.length){sets1=['0'];sets2=['0'];}
+      }
+      var ag=b.AG||'';
+      matches.push({
+        id:b.AA,tournament:tournament,tournament_country:tcountry,tournament_surface:tsurface,
+        ts:parseInt(b.AD||0)*1000,p1:b.AE,p2:b.AF,
+        status:ab,isLive:isLive,isFin:ab===3,isSch:ab===1,
+        sets1:sets1,sets2:sets2,game1:game1,game2:game2,serving:serving,
+        winner:ag==='0'?1:ag==='1'?2:0,
+        url:'https://www.flashscore.com/match/'+b.AA+'/#/match-summary'
+      });
+    });
+    return matches;
+  }
+
+  async function loadFromFS(day){
+    var days=Array.isArray(day)?day:[day];
+    var results=await Promise.all(days.map(function(d){return fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+d+'&t='+Date.now()).then(function(r){return r.json();});}));
+    var allMatches=[];results.forEach(function(d){(d.matches||[]).forEach(function(m){m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;allMatches.push(m);});});
+    return {matches:allMatches,updated:results[0].updated||'',src:'worker'};
+  }
+  async function loadFromGitHub(){return loadFromFS(activeDay);}
+  async function loadData(){
+    if(activeDay.length===1&&activeDay[0]==='fav'){
+      var _favIds=JSON.parse(localStorage.getItem('ts_favs')||'[]');
+      var _allData=await loadFromFS([-1,0,1]);
+      var _seenIds={};_allData.matches=(_allData.matches||[]).filter(function(m){if(_favIds.indexOf(m.id)<0)return false;if(_seenIds[m.id])return false;_seenIds[m.id]=true;return true;});
+      return _allData;
+    }
+    try{return await loadFromFS(activeDay);}catch(e){
+      var d2=await(await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/matches.json',{headers:{'Accept':'application/vnd.github.raw'},cache:'no-store'})).json();
+      var all=[];[-1,0,1].forEach(function(day){((d2.days||{})[String(day)]||[]).forEach(function(m){m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;m.day=day;all.push(m);});});
+      return {updated:d2.updated,src:'github',matches:all};
+    }
+  }
+
+  function getMatches(data){
+    // Worker a flashscore vrací data pro konkrétní den přímo
+    return data.matches||[];
+  }
+
+  function _ioc2flag(c){if(!c)return '';var m={'USA':'US','ESP':'ES','FRA':'FR','GER':'DE','ITA':'IT','GBR':'GB','AUS':'AU','ARG':'AR','JPN':'JP','CAN':'CA','BRA':'BR','NED':'NL','SUI':'CH','ROU':'RO','POL':'PL','CZE':'CZ','AUT':'AT','GRE':'GR','BEL':'BE','SWE':'SE','NOR':'NO','DEN':'DK','SRB':'RS','KAZ':'KZ','RUS':'RU','UKR':'UA','POR':'PT','CHI':'CL','MEX':'MX','RSA':'ZA','IND':'IN','KOR':'KR','MAR':'MA','COL':'CO','CRO':'HR','GEO':'GE','QAT':'QA','UAE':'AE','CHN':'CN','SVK':'SK','MON':'MC','TUR':'TR','BUL':'BG','HUN':'HU','FIN':'FI','SLO':'SI','EST':'EE','LAT':'LV','LTU':'LT','NZL':'NZ','AZE':'AZ','ARM':'AM','MDA':'MD','BLR':'BY','ISR':'IL','TUN':'TN','EGY':'EG','KEN':'KE','SEN':'SN','PUR':'PR','DOM':'DO','VEN':'VE','BOL':'BO','PAR':'PY','URU':'UY','PER':'PE','ECU':'EC','GUA':'GT','PAN':'PA','PHI':'PH','THA':'TH','VIE':'VN','MAS':'MY','SIN':'SG','INA':'ID','TPE':'TW','HKG':'HK','UZB':'UZ','ISL':'IS','IRL':'IE','LUX':'LU','MLT':'MT','CYP':'CY','GBR':'GB','SCO':'GB','WAL':'GB','CMR':'CM','ANG':'AO','KOS':'XK','KSA':'SA','NMI':'MP','SVK':'SK','KEN':'KE','RSA':'ZA','ZIM':'ZW','NGR':'NG','GHA':'GH','SEN':'SN','ETH':'ET','UGA':'UG','TAN':'TZ','ZAM':'ZM','MRI':'MU','SEY':'SC','BOT':'BW','NAM':'NA','MAD':'MG','CIV':'CI','TUN':'TN','EGY':'EG','MAR':'MA','ALG':'DZ','LBA':'LY','NIG':'NE','MLI':'ML','SUD':'SD','RWA':'RW','PHI':'PH','INA':'ID','MAS':'MY','THA':'TH','VIE':'VN','SIN':'SG','TPE':'TW','HKG':'HK','MGL':'MN','PAK':'PK','SRI':'LK','BAN':'BD','IRI':'IR','LIB':'LB','JOR':'JO','KUW':'KW','BAH':'BH','OMA':'OM','QAT':'QA','UAE':'AE','YEM':'YE','IRQ':'IQ','SYR':'SY','PUR':'PR','DOM':'DO','JAM':'JM','TRI':'TT','HAI':'HT','CUB':'CU','GUA':'GT','ESA':'SV','CRC':'CR','PAN':'PA','HON':'HN','NCA':'NI','GUY':'GY','SUR':'SR','BOL':'BO','PAR':'PY','URU':'UY','PER':'PE','ECU':'EC','VEN':'VE','COL':'CO','CHI':'CL','ARG':'AR','BRA':'BR','MEX':'MX','CAN':'CA','USA':'US','BIH':'BA','MKD':'MK','ESA':'SV','ALB':'AL','BDI':'BI','NMI':'MP','SVK':'SK','PLE':'PS','MDV':'MV'};var iso=m[c]||null;if(!iso||iso.length!==2)return '';return iso.split('').map(function(x){return String.fromCodePoint(x.charCodeAt(0)+127397);}).join('');}
+function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.WTA_PLAYERS||[]).length;if(!window[_key]){var _ex={'gauff':'USA','sabalenka':'BLR','swiatek':'POL','rybakina':'KAZ','pegula':'USA','keys':'USA','navarro':'USA','collins':'USA','parks':'USA','alexandrova':'RUS','kasatkina':'RUS','shnaider':'RUS','andreeva':'RUS','blinkova':'RUS','potapova':'RUS','samsonova':'RUS','pavlyuchenkova':'RUS','vesnina':'RUS','svitolina':'UKR','kostyuk':'UKR','tsurenko':'UKR','ostapenko':'LAT','kanepi':'EST','kontaveit':'EST','paolini':'ITA','bronzetti':'ITA','cocciaretto':'ITA','trevisan':'ITA','giorgi':'ITA','errani':'ITA','sakkari':'GRE','bouzkova':'CZE','vondrousova':'CZE','pliskova':'CZE','kvitova':'CZE','siniaková':'CZE','muchova':'CZE','krejcikova':'CZE','fruhvirtova':'CZE','strycova':'CZE','garcia':'FRA','burel':'FRA','ferro':'FRA','mladenovic':'FRA','cornet':'FRA','golubic':'SUI','bencic':'SUI','teichmann':'SUI','jabeur':'TUN','haddad':'BRA','sorribes':'ESP','muguruza':'ESP','badosa':'ESP','fernandez':'CAN','andreescu':'CAN','dabrowski':'CAN','watson':'GBR','raducanu':'GBR','boulter':'GBR','sherif':'EGY','azarenka':'BLR','sasnovich':'BLR','halep':'ROU','bogdan':'ROU','bara':'ROU','cristian':'ROU','cirstea':'ROU','ivanovic':'SRB','jovanovski':'SRB','danilovic':'SRB','stojanovic':'SRB','niculescu':'ROU','ruse':'ROU','hontama':'JPN','osaka':'JPN','doi':'JPN','aoyama':'JPN','lys':'GER','grabher':'AUT','viktoriya':'UKR','linette':'POL','zhu':'CHN','zheng':'CHN','wang':'CHN','zhang':'CHN','peng':'CHN','han':'CHN','lu':'CHN','liu':'CHN','shcherbakova':'RUS','kucova':'SVK','schmiedlova':'SVK','rybarkova':'SVK','lapko':'BLR','baptiste':'USA','townsend':'USA','mcnally':'USA','harrison':'USA','liu':'USA','stephens':'USA','venus':'USA','serena':'USA','vacherot':'MON','inglis':'AUS','peers':'AUS','tomljanovic':'AUS','stosur':'AUS','barty':'AUS','gavrilova':'AUS','escabias':'ESP','shelbayh':'JOR','hassan':'EGY','kirkin':'TUR','roncadelli':'ITA','gonzalez':'COL','barreto':'BRA','varillas':'PER','blanch':'USA','collignon':'BEL','landaluce':'ESP','berrettini':'ITA','sonego':'ITA','musetti':'ITA','cobolli':'ITA','nardi':'ITA','arnaldi':'ITA','vavassori':'ITA','darderi':'ITA','agamenone':'ITA','eala':'PHI','mboko':'CMR','fruhvirtova':'CZE','noskova':'CZE','siniaková':'CZE','krejcikova':'CZE','townsend':'USA','mcnally':'USA','harrison':'USA','brengle':'USA','brady':'USA','liu':'USA','kenin':'USA','stephens':'USA','williams':'USA','pegula':'USA','navarro':'USA','collins':'USA','anisimova':'USA','sherif':'EGY','yastremska':'UKR','melnyk':'UKR','kalinskaya':'RUS','rakhimova':'RUS','gasanova':'RUS','sizikova':'RUS','zvonareva':'RUS','vichka':'RUS','zhuk':'RUS','niemeier':'GER','grabher':'AUT','siegemund':'GER','golubic':'SUI','teichmann':'SUI','bencic':'SUI','korpatsch':'GER','lys':'GER','friedsam':'GER','ምbas':'BLR','sherif':'EGY','hontama':'JPN','doi':'JPN','aoyama':'JPN','hibino':'JPN','minnen':'BEL','flipkens':'BEL','mertens':'BEL','linette':'POL','swiatek':'POL','rogers':'USA','pegula':'USA','tauson':'DEN','wozniacki':'DEN','ruse':'ROU','bogdan':'ROU','bara':'ROU','cristian':'ROU','cirstea':'ROU','buzarnescu':'ROU','podoroska':'ARG','osorio':'COL','haddad':'BRA','sorribes':'ESP','badosa':'ESP','muguruza':'ESP','parrizas':'ESP','fernandez':'CAN','andreescu':'CAN','dabrowski':'CAN','inglis':'AUS','peers':'AUS','tomljanovic':'AUS','stosur':'AUS','barty':'AUS','gavrilova':'AUS','birrell':'AUS','puig':'PUR','stephens':'USA','tig':'ROU','niculescu':'ROU',
+'demoliner':'BRA','matos':'BRA','faria':'BRA','melo':'BRA','soares':'BRA',
+'krajicek':'USA','sock':'USA','ram':'USA','bryan':'USA','querrey':'USA','isner':'USA',
+'nouza':'CZE','vesely':'CZE','machac':'CZE','lehecka':'CZE',
+'arneodo':'MON','roger-vasselin':'FRA','reboul':'FRA','escoffier':'FRA','martin':'FRA',
+'skupski':'GBR','salisbury':'GBR','jubb':'GBR','inglot':'GBR','ward':'GBR','patten':'GBR',
+'heliovaara':'FIN','kontinen':'FIN',
+'koolhof':'NED','rojer':'NED','middelkoop':'NED','haase':'NED',
+'granollers':'ESP','davidovich':'ESP','ramos':'ESP','munar':'ESP','andujar':'ESP',
+'zeballos':'ARG','gonzalez':'ARG','molteni':'ARG',
+'brkic':'BIH','pavic':'CRO','mektic':'CRO','dodig':'CRO','skugor':'CRO',
+'polasek':'SVK','liptak':'SVK',
+'bopanna':'IND','bhambri':'IND','ramkumar':'IND',
+'tabilo':'CHI','jarry':'CHI','barrios':'CHI',
+'bolelli':'ITA','travaglia':'ITA','cecchinato':'ITA',
+'kubot':'POL','przysiez':'POL','majchrzak':'POL','choinski':'POL',
+'krawietz':'GER','puetz':'GER','struff':'GER','hanfmann':'GER','stebe':'GER',
+'venus':'NZL','daniell':'NZL',
+'ebden':'AUS','bolt':'AUS','reid':'AUS','duckworth':'AUS','hijikata':'AUS',
+'shimabukuro':'JPN','uchiyama':'JPN',
+'cabal':'COL','farah':'COL',
+'tecau':'ROU','copil':'ROU',
+'donskoy':'RUS','krutykh':'UKR',
+'albot':'MDA'
+,'arends':'NED','muhammad':'USA','jiang':'CHN','cash':'AUS'
+,'mihalikova':'SVK','andreozzi':'ARG','kleiman':'ARG'
+,'kittay':'FRA','nys':'BEL','erler':'AUT','arevalo':'ESA'
+,'doumbia':'FRA','frantzen':'FRA','neel':'USA','kato':'JPN'
+,'pinheiro':'BRA','tunas':'BRA','agostini':'ITA','maristany':'ARG'
+,'tosetto':'BRA','braga':'BRA','rengifo':'COL','tammaro':'ITA'
+,'nedic':'BIH','minaur':'AUS','serna':'ARG','alba':'MEX','vela':'ITA'
+,'meli':'ARG','svrcina':'CZE','baez':'ARG','diallo':'FRA'
+,'lhomme':'FRA','banes':'FRA','janvier':'FRA','Pinheiro':'BRA'
+,'benchetrit':'FRA','roger':'FRA','riffice':'USA','schoolkate':'AUS'
+,'erjavec':'SLO','salkova':'CZE','chwalinska':'POL','zidansek':'SLO'
+,'radivojevic':'SRB','kabbaj':'MAR','lamens':'NED','koevermans':'NED'
+,'ristic':'SRB','wuerth':'GER','hercog':'SLO','capurro':'ARG'
+,'sieg':'GER','fullana':'ESP','topalova':'BUL','feistel':'GER'
+,'quevedo':'COL','charaeva':'RUS','gjorcheska':'MKD','romero':'ESP','cristobal':'CHI','neos':'GRE'
+,'toth':'HUN','noha':'GER','mdlulwa':'RSA','korpanec':'GER'
+// new additions
+,'valentova':'CZE','nicholls':'GBR'
+// top missing players
+,'gibson':'USA','arribage':'FRA','goransson':'SWE','bucsa':'ESP'
+,'kichenok':'UKR','chan':'TPE','hunter':'USA','hozumi':'JPN'
+,'siniakova':'CZE','melichar-martinez':'USA','krawczyk':'USA'
+,'konjuh':'CRO','ivanisevic':'CRO','detiuc':'MDA','bassols':'ESP'
+,'merino':'ESP','cervantes':'ESP','carou':'ESP','felguera':'ESP'
+,'urrea':'COL','reyes-varela':'MEX','alcantara':'PHI'
+,'gobbi':'ESP','martos':'ESP','palomar-marquina':'ESP'
+,'hidalgo':'ESP','bofarull':'ESP','castellvi':'ESP'
+,'naharro':'ESP','ferrer':'ESP'
+,'trhac':'CZE','maleckova':'CZE','kucmova':'CZE','skoch':'CZE'
+,'stollar':'HUN','vujic':'SRB','radisic':'SRB','radovanovic':'SRB'
+,'kostovic':'CRO','ruzic':'CRO','sabanov':'BIH'
+,'marcinko':'SVK','lukas':'SVK'
+,'drzewiecki':'POL','pawlikowska':'POL','wygona':'POL'
+,'piter':'POL','sitak':'NZL'
+,'vandewinkel':'BEL','hermans':'BEL','vervoort':'BEL'
+,'loof':'SWE','grevelius':'SWE','goransson':'SWE'
+,'heinonen':'FIN','korhonen':'FIN'
+,'kalinina':'UKR','zavatska':'UKR','lazarenko':'UKR','kozak':'UKR'
+,'kucmova':'CZE','sidorova':'RUS','prozorova':'RUS','ivanova':'RUS'
+,'khodzhaeva':'RUS','yashina':'RUS','pridankina':'RUS','laskutova':'RUS'
+,'liutarevich':'BLR','kulambayeva':'KAZ','yuldasheva':'UZB'
+,'nahimana':'BDI','rakotomanga':'MAD'
+,'samir':'EGY','nagoudi':'MAR'
+,'hsieh':'TPE','chan':'TPE','tjen':'TPE'
+,'sutjiadi':'INA','nugroho':'INA','plipuech':'THA','sim':'MAS'
+,'arakawa':'JPN','hozumi':'JPN','motoyama':'JPN','kozuma':'JPN'
+,'saigo':'JPN','fukutani':'JPN','nayuki':'JPN','yamamoto':'JPN'
+,'yamazaki':'JPN','uesugi':'JPN','niimi':'JPN','nishikawa':'JPN'
+,'watanabe':'JPN','nakamura':'JPN','katsumi':'JPN','kobori':'JPN'
+,'guo':'CHN','pan':'CHN','shi':'CHN','zhao':'CHN','luo':'CHN','ma':'CHN','ye':'CHN','wan':'CHN'
+,'hahn':'KOR','back':'KOR'
+,'kadhe':'IND','chandrasekar':'IND','bollipalli':'IND','shanmugam':'IND'
+,'thakkar':'IND','kamath':'IND','rao':'IND','harsh':'IND'
+,'patel':'IND','patil':'IND','adkar':'IND','ingale':'IND'
+,'dandu':'IND','bhatia':'IND','behera':'IND','chilakalapudi':'IND'
+,'anugonda':'IND','shroff':'IND','nitture':'IND','tamhankar':'IND'
+,'warik':'IND','sahita':'IND','satara':'IND','paparkar':'IND'
+,'raval':'IND','bista':'IND','prashanth':'IND','luikham':'IND'
+,'vishal':'IND','dhandhukia':'IND','kashyap':'IND','kispotta':'IND'
+,'chavda':'IND','gohil':'IND','vig':'IND','narayan':'IND'
+,'lakshmanan':'IND'
+,'xu':'CHN','li':'CHN','yu':'CHN'
+,'joint':'AUS','schuurs':'NED','routliffe':'NZL'
+,'barnett':'GBR','watson':'GBR','grey':'GBR'
+,'gadecki':'AUS','birrell':'AUS','inglis':'AUS'
+,'samson':'FRA','jeanjean':'FRA','niemeier':'GER'
+,'ponchet':'FRA','burel':'FRA','tomova':'BUL'
+,'fruhvirtova':'CZE','noskova':'CZE','pliskova':'CZE'
+// doubles specialists & challengers
+,'tracy':'USA','galloway':'USA','guinard':'FRA','rikl':'CZE'
+,'withrow':'USA','lammons':'USA','nakashima':'USA','smith':'GBR'
+,'behar':'ISR','bhambri':'IND','verbeek':'NED','jacq':'FRA'
+,'miedler':'AUT','cabral':'POR','pavlasek':'CZE','schwartzman':'ARG'
+,'vavassori':'ITA','bolelli':'ITA','johnson':'USA','king':'USA'
+,'harrison':'USA','skupski':'GBR','glasspool':'GBR','peers':'AUS'
+,'ebden':'AUS','purcell':'AUS','hijikata':'AUS','rinderknech':'FRA'
+,'olivetti':'FRA','reboul':'FRA','jeanjean':'FRA','burel':'FRA'
+,'wu':'CHN','zhang':'CHN','sun':'CHN','jiang':'CHN'
+,'luz':'BRA','matos':'BRA','melo':'BRA','faria':'BRA'
+,'perez':'AUS','sanders':'AUS','bolt':'AUS','duckworth':'AUS'
+,'krajicek':'USA','sock':'USA','withrow':'USA','lammons':'USA'
+,'behar':'ISR','gonzalez':'MEX','molteni':'ARG','zeballos':'ARG'
+,'granollers':'ESP','puetz':'GER','krawietz':'GER'
+// remaining missing players batch 2
+,'pigato':'ITA','tubello':'ITA','ciocca':'ITA','candiotto':'BRA'
+,'bonardi':'ITA','bulbarella':'ITA','giovannini':'ITA','osti':'ITA'
+,'voelzke':'GER','gustin':'BEL','kempen':'BEL','costoulas':'BEL'
+,'simes':'AUS','barclay':'AUS','coventry-searle':'AUS','mcfadzean':'AUS'
+,'mcleod':'AUS','boyden':'AUS','cripps':'AUS','carbis':'AUS'
+,'bond-scott':'AUS','adam-gedge':'AUS','simmons':'GBR','dudeney':'GBR'
+,'cross':'GBR','hands':'GBR','barry':'GBR','freeman':'GBR'
+,'stevens':'GBR','sinclair':'USA','kiger':'USA','goldhoff':'USA'
+,'reynolds':'USA','duncan':'CAN','horst':'RSA','fuchs':'SUI'
+,'jecan':'ROU','serban':'ROU','kotliar':'UKR','ibraimi':'MKD'
+,'dodaj':'ALB','kastsiukevich':'BLR','karlovskiy':'RUS','danilova':'RUS'
+,'zolotareva':'RUS','molchanov':'RUS','lansere':'RUS'
+,'jamshidi':'IRI','cheung':'HKG','jorgensen':'DEN','hrastar':'SLO'
+,'jermar':'SLO','ortenblad':'SWE','herberg':'ESP'
+,'britto':'BRA','martins':'BRA','pinto':'BRA','dummer':'BRA'
+,'bolivar':'COL','sau':'ESP','pareja':'ESP','urrutia':'CHI'
+,'labrana':'CHI','cavalle-reimers':'USA','matoula':'GRE','eres':'ISR'
+,'kubka':'POL','chabalgoity':'URU','berta':'ARG','nahimana':'BDI'
+,'cilek':'TUR','alame':'ALG','monteleone':'ITA','bojicic':'SRB'
+,'horst':'RSA','osti':'ITA','gustin':'BEL'
+,'natour':'LIB','markus':'ARG'
+,'stefani':'BRA','babos':'HUN','dabrowski':'CAN','schuurs':'NED'
+,'melichar':'USA','krawczyk':'USA','pegula':'USA','townsend':'USA'
+,'danilina':'KAZ','heliovaara':'FIN','patten':'GBR','ebden':'AUS'
+};window[_key]={};(window.ATP_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>1)window[_key][w.toLowerCase()]=flag;});});(window.WTA_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();if(!window[_key][sn])window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2&&!window[_key][w.toLowerCase()])window[_key][w.toLowerCase()]=flag;});});Object.keys(_ex).forEach(function(k){if(!window[_key][k])window[_key][k]=_ioc2flag(_ex[k]);});Object.keys(window[_key]).forEach(function(k){if(k.includes(' ')){var hk=k.replace(/ /g,'-');if(!window[_key][hk])window[_key][hk]=window[_key][k];}});}var parts=(n||'').split(' ');var s=parts[0].toLowerCase();var s2=parts.length>1?parts[1].toLowerCase():'';var s3=parts.length>2?parts[2].toLowerCase():'';return window[_key][s]||window[_key][s.replace(/-/g,' ')]||window[_key][s2]||window[_key][s2.replace(/-/g,' ')]||'';}
+function renderMatches(data){
+    sh._renderMatches=renderMatches;
+    var all=getMatches(data);
+    var mcEl=sh.getElementById('nav-matches-count');
+    if(mcEl)mcEl.textContent=all.length;
+    var hcm=sh.getElementById('hc-count-m');if(hcm)hcm.textContent=all.length+' zápasů';
+    var live=all.filter(function(m){return m.isLive;});
+    var fin=all.filter(function(m){return m.isFin;});
+    var sch=all.filter(function(m){return m.isSch;});
+    var withOdds=all.filter(function(m){var o=_getBetanoOdds(m.p1,m.p2);return o&&(o.o1||o.o2);});
+    var shown=activeFilter==='live'?live:activeFilter==='finished'?fin:activeFilter==='scheduled'?sch:activeFilter==='odds'?withOdds:all;
+    // Filter by tier
+    if(activeTier!=='all'){shown=shown.filter(function(m){var ti=tInfo(m.tournament||'');var l=ti.l||'';if(activeTier==='GS')return l==='Grand Slam';if(activeTier==='M1000')return l==='ATP 1000'||l==='WTA 1000';if(activeTier==='ATP500')return l==='ATP 500'||l==='WTA 500';if(activeTier==='ATP250')return l==='ATP 250'||l==='WTA 250';if(activeTier==='WTA')return l.startsWith('WTA');if(activeTier==='CH')return l==='Challenger';if(activeTier==='ITF')return l==='ITF';return true;});}
+    // Filter by format (singles/doubles)
+    if(activeFormat==='singles')shown=shown.filter(function(m){return !(m.tournament||'').includes('DOUBLES');});
+    if(activeFormat==='doubles')shown=shown.filter(function(m){return (m.tournament||'').includes('DOUBLES');});
+    if(activeTier!=='all'){shown=shown.filter(function(m){var ti=tInfo(m.tournament||'');var l=ti.l||'';if(activeTier==='GS')return l==='Grand Slam';if(activeTier==='M1000')return l==='ATP 1000'||l==='WTA 1000';if(activeTier==='ATP500')return l==='ATP 500'||l==='WTA 500';if(activeTier==='ATP250')return l==='ATP 250'||l==='WTA 250';if(activeTier==='WTA')return l.startsWith('WTA');if(activeTier==='CH')return l==='Challenger';if(activeTier==='ITF')return l==='ITF';return true;});}
+    if(activeFormat==='singles')shown=shown.filter(function(m){return !(m.tournament||'').toUpperCase().includes('DOUBLES');});
+    if(activeFormat==='doubles')shown=shown.filter(function(m){return (m.tournament||'').toUpperCase().includes('DOUBLES');});
+    if(activeSort==='time')shown=shown.slice().sort(function(a,b){return (a.ts||0)-(b.ts||0);});
+
+            var h='<div style="padding:0 20px 60px;position:relative;">';
+    h+='<div style="display:flex;align-items:center;gap:6px;padding:12px 0 10px;border-bottom:1px solid rgba(255,255,255,.06);">';
+    [{d:-1,l:'Včera'},{d:0,l:'Dnes'},{d:1,l:'Zítra'},{d:2,l:'+2 dny'},{d:3,l:'+3 dny'}].forEach(function(x){
+      var on=activeDay.indexOf(x.d)>=0;
+      h+='<button data-day="'+x.d+'" style="padding:5px 16px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.1)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.4)')+';font-size:12px;cursor:pointer;font-weight:'+(on?700:400)+';">'+x.l+'</button>';
+    });
+    var _fo=(activeDay.indexOf('fav')>=0);
+    h+='<button data-day="fav" style="padding:5px 16px;border-radius:7px;border:1px solid '+(_fo?'#FFD700':'rgba(255,255,255,.1)')+';background:'+(_fo?'rgba(255,215,0,.12)':'transparent')+';color:'+(_fo?'#FFD700':'rgba(255,255,255,.4)')+';font-size:12px;cursor:pointer;margin-left:4px;font-weight:'+(_fo?700:400)+';">&#9733; Obl&#237;ben&#233;'+(JSON.parse(localStorage.getItem('ts_favs')||'[]').length?' <span style="font-size:10px;background:rgba(255,215,0,.25);border-radius:8px;padding:1px 6px;">'+JSON.parse(localStorage.getItem('ts_favs')||'[]').length+'</span>':'')+'</button>';
+    h+='<div style="margin-left:auto;display:flex;align-items:center;gap:6px;">';
+    if(data.src==='github'){var _upd=data.updated?new Date(data.updated).getTime():NaN;var age=isNaN(_upd)?null:Math.round((Date.now()-_upd)/60);if(age!==null&&age>60)h+='<span style="font-size:9px;color:rgba(255,140,0,.7);">⚠️ data '+age+'min stará — spusť skript na flashscore.com</span>';}
+    if(_lastUpdated)h+='<span style="font-size:9px;color:rgba(255,255,255,.2);">♥ '+_lastUpdated.slice(11,16)+'</span>';
+    h+='<span style="width:6px;height:6px;background:#00C853;border-radius:50%;display:inline-block;"></span>';
+    h+='</div></div>';
+    h+='<div style="display:flex;gap:4px;padding:8px 0 6px;">';
+    [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length],['odds','S kurzem 💰',withOdds.length]].forEach(function(f){
+      var on=activeFilter===f[0];
+      h+='<button data-filter="'+f[0]+'" style="padding:3px 9px;border-radius:10px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.35)')+';font-size:9px;cursor:pointer;font-weight:'+(on?700:400)+';">'+f[1]+' <span style="opacity:.6;">'+f[2]+'</span></button>';
+    });
+    h+='<div style="display:flex;gap:4px;padding:4px 0 0;flex-wrap:wrap;align-items:center;">';
+    [['all','Vše'],['GS','Grand Slam'],['M1000','ATP 1000'],['ATP500','ATP 500'],['ATP250','ATP 250'],['WTA','WTA'],['CH','Challenger'],['ITF','ITF']].forEach(function(t){var on=activeTier===t[0];h+='<button data-tier="'+t[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+t[1]+'</button>';});
+    h+='<div style="width:1px;height:14px;background:rgba(255,255,255,.1);margin:0 3px;flex-shrink:0;align-self:center;"></div>';
+    [['all','Vše'],['singles','Dvouhra'],['doubles','Čtyřhra']].forEach(function(f){var on=activeFormat===f[0];h+='<button data-fmt="'+f[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+f[1]+'</button>';});
+    h+='</div>';
+    h+='<div style="margin-left:auto;"><button data-sort="1" style="padding:3px 10px;border-radius:10px;border:1px solid '+(activeSort==='time'?'#00C853':'rgba(255,255,255,.15)')+';background:'+(activeSort==='time'?'rgba(0,200,83,.15)':'transparent')+';color:'+(activeSort==='time'?'#00C853':'rgba(255,255,255,.4)')+';font-size:9px;cursor:pointer;">⏱ Čas</button> <button data-sort="0" style="padding:3px 10px;border-radius:10px;border:1px solid '+(activeSort==='tournament'?'#00C853':'rgba(255,255,255,.15)')+';background:'+(activeSort==='tournament'?'rgba(0,200,83,.15)':'transparent')+';color:'+(activeSort==='tournament'?'#00C853':'rgba(255,255,255,.4)')+';font-size:9px;cursor:pointer;">🏆 Turnaj</button></div>';
+    h+='</div>';
+    if(!shown.length){h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy</div>';}
+    else{
+            h+='<div style="height:18px;position:relative;">'+((_betanoUrl)?"<div style=\"position:absolute;left:463px;bottom:0;width:48px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">BETANO</span></div>":"")+((_kbUrl)?"<div style=\"position:absolute;left:520px;bottom:0;width:56px;\"><img src=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 14' width='52' height='14'><rect width='52' height='14' rx='2' fill='%23006837'/><polygon points='4,11 8,4 12,11' fill='%23FFD700'/><polygon points='8,4 12,11 16,4 12,7' fill='%23FFD700'/><text x='19' y='10.5' font-family='Arial,sans-serif' font-size='7' font-weight='900' fill='%23FFD700' letter-spacing='0.5'>KINGS</text></svg>\" width=\"56\" height=\"14\" style=\"display:block;border-radius:2px 2px 0 0;\"/></div>":"")+'</div>';
+      if(activeSort==='time'){
+        // Flat list sorted by time
+        shown.forEach(function(m){
+          var isLive=m.isLive;var ns=Math.max((m.sets1||[]).length,(m.sets2||[]).length);var _s1=(m.sets1||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets2||[])[i]||0)?1:0);},0),_s2=(m.sets2||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets1||[])[i]||0)?1:0);},0);var _hasSets=_s1>0||_s2>0;var w1=m.isFin&&(_hasSets?_s1>_s2:m.winner===1),w2=m.isFin&&(_hasSets?_s2>_s1:m.winner===2);
+          var ti=tInfo(m.tournament||'');
+          h+='<div class="mrow" data-url="'+m.url+'" style="border-left:3px solid '+(isLive?'#ff1100':'transparent')+';background:'+(isLive?'rgba(255,17,0,.025)':'transparent')+';position:relative;padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
+          h+='<div style="display:flex;align-items:center;gap:8px;">';
+          h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#ff1100;">LIVE</span>':'<span style="font-size:13px;font-weight:300;color:'+('rgba(255,255,255,.35)')+';">'+(m.isFin?'Konec':timeStr(m.ts))+'</span>')+'</div>';
+          h+='<button onclick="var f=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27);var id=\x27'+m.id+'\x27;var i=f.indexOf(id);if(i>-1)f.splice(i,1);else f.push(id);localStorage.setItem(\x27ts_favs\x27,JSON.stringify(f));var on=f.indexOf(id)>-1;this.style.color=on?\x27#FFD700\x27:\x27rgba(255,255,255,0.3)\x27;var svg=this.querySelector(\x27svg\x27);if(svg){svg.style.fill=on?\x27currentColor\x27:\x27none\x27;}var _fb=document.querySelector(\x27#ts-host\x27)?document.querySelector(\x27#ts-host\x27).shadowRoot.querySelector(\x27[data-day=\\x27fav\\x27]\x27):null;if(_fb){var _fc=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27).length;var _fs=_fb.querySelector(\x27span\x27);if(_fc>0){if(!_fs){_fs=document.createElement(\x27span\x27);_fs.style.cssText=\x27font-size:10px;background:rgba(255,215,0,.25);border-radius:8px;padding:1px 6px;\x27;_fb.appendChild(_fs);}}_fs&&(_fs.textContent=_fc||\x27\x27);}event.stopPropagation()" style="background:none;border:none;cursor:pointer;padding:0 5px;flex-shrink:0;color:rgba(255,255,255,0.3);align-self:stretch;display:flex;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" style="display:block;fill:none;stroke:currentColor;stroke-width:2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></button>';
+          h+='<div style="flex:1;min-width:0;">';
+          h+='<div style="font-size:9px;color:'+ti.c+';margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.8;">'+m.tournament+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:700;color:'+(w1?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:700;color:'+(w2?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='</div>';
+          h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
+          if(m.isFin){var _sc1t=0,_sc2t=0;for(var sit=0;sit<ns;sit++){var sv1t=parseInt((m.sets1||[])[sit]||0),sv2t=parseInt((m.sets2||[])[sit]||0);if(sv1t>sv2t)_sc1t++;else if(sv2t>sv1t)_sc2t++;}if(_sc1t>0||_sc2t>0){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-right:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1t+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2t+'</span></div>';}}
+          function isSetDoneT(a,b){var x=parseInt(a),y=parseInt(b);if(isNaN(x)||isNaN(y))return false;if(x===7||y===7)return true;return(x>=6||y>=6)&&Math.abs(x-y)>=2;}
+          var maxSiT=isLive?ns-1:ns;
+          for(var siT=0;siT<maxSiT;siT++){var v1T=(m.sets1||[])[siT]||'0',v2T=(m.sets2||[])[siT]||'0';if(isLive&&!isSetDoneT(v1T,v2T))continue;var b1T=parseInt(v1T)>parseInt(v2T),b2T=parseInt(v2T)>parseInt(v1T);h+='<div style="text-align:center;min-width:14px;padding:1px 2px;opacity:0.55;"><div style="font-size:15px;line-height:1.3;font-weight:'+(b1T?700:400)+';color:'+(b1T?'#ccc':'rgba(255,255,255,.35)')+';">'+v1T+'</div><div style="font-size:15px;line-height:1.3;font-weight:'+(b2T?700:400)+';color:'+(b2T?'#ccc':'rgba(255,255,255,.35)')+';">'+v2T+'</div></div>';}
+          if(isLive){var cv1T=(m.sets1||[])[ns-1]||'0',cv2T=(m.sets2||[])[ns-1]||'0';var isZeroT=m.game1==='0'&&m.game2==='0'||m.game1===''||m.game2==='';if(ns>1)h+='<div style="width:1px;background:rgba(255,255,255,.2);align-self:stretch;margin:0 1px;flex-shrink:0;"></div>';h+='<div style="text-align:center;min-width:28px;padding:2px 4px;margin-left:1px;"><div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv1T+'</div><div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv2T+'</div></div>';if(m.game1!==''&&m.game2!==''){h+='<div style="text-align:center;min-width:28px;padding:1px 4px;margin-left:2px;"><div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZeroT?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game1+'</div><div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZeroT?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game2+'</div></div>';}}
+          h+='</div>';
+          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 6px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block;"><rect width="100" height="100" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
+            h+=_betanoCol(m.p1,m.p2);
+      h+=_kbCol(m.p1,m.p2);
+          h+='</div></div>';
+        });
+      } else {
+      var byT={},tOrd=[];
+      shown.forEach(function(m){if(!byT[m.tournament]){byT[m.tournament]=[];tOrd.push(m.tournament);}byT[m.tournament].push(m);});
+      tOrd=tOrd.filter(function(v,i,a){return a.indexOf(v)===i;});
+      tOrd.forEach(function(t){
+        var sample=byT[t][0];
+        var ti=tInfo(t);
+        var flag=FLAGS[sample.tournament_country||'']||'';if(!flag){var _m=t.match(/\(([^)]+)\)/);if(_m){var _cn={'Spain':'🇪🇸','USA':'🇺🇸','Japan':'🇯🇵','France':'🇫🇷','Italy':'🇮🇹','Germany':'🇩🇪','Australia':'🇦🇺','Argentina':'🇦🇷','Canada':'🇨🇦','Brazil':'🇧🇷','Netherlands':'🇳🇱','Switzerland':'🇨🇭','Romania':'🇷🇴','Poland':'🇵🇱','Czech Republic':'🇨🇿','Austria':'🇦🇹','Greece':'🇬🇷','Belgium':'🇧🇪','Sweden':'🇸🇪','Norway':'🇳🇴','Denmark':'🇩🇰','Serbia':'🇷🇸','Croatia':'🇭🇷','Hungary':'🇭🇺','Portugal':'🇵🇹','Colombia':'🇨🇴','Chile':'🇨🇱','Mexico':'🇲🇽','Morocco':'🇲🇦','Turkey':'🇹🇷','China':'🇨🇳','India':'🇮🇳','South Korea':'🇰🇷','Ecuador':'🇪🇨','Peru':'🇵🇪','Uruguay':'🇺🇾','Paraguay':'🇵🇾','Bolivia':'🇧🇴','Guatemala':'🇬🇹','Kazakhstan':'🇰🇿','Tunisia':'🇹🇳','Egypt':'🇪🇬','South Africa':'🇿🇦','Kenya':'🇰🇪','Great Britain':'🇬🇧','United Kingdom':'🇬🇧','Ireland':'🇮🇪','Slovakia':'🇸🇰','Bulgaria':'🇧🇬','Finland':'🇫🇮','Estonia':'🇪🇪','Lithuania':'🇱🇹','Latvia':'🇱🇻','Slovenia':'🇸🇮'};var _k=_m[1].trim();flag=_cn[_k]||FLAGS[_k]||''}};
+        var surf=sample.tournament_surface||'';
+        h+='<div style="display:flex;align-items:center;gap:8px;padding:7px 12px;margin-top:10px;background:rgba(255,255,255,.045);border-radius:8px;border-left:3px solid '+ti.c+';">';
+        h+='<span style="font-size:15px;">'+flag+'</span>';
+        h+='<div style="flex:1;min-width:0;"><div style="font-size:11px;font-weight:700;color:rgba(255,255,255,.8);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+t+'</div>';
+        if(surf)h+='<div style="margin-top:2px;"><span style="font-size:8px;font-weight:700;color:#fff;background:'+surfBg(surf)+';padding:1px 5px;border-radius:3px;">'+surf.toUpperCase()+'</span></div>';
+        h+='</div>';
+        if(ti.l)h+='<span style="font-size:11px;font-weight:700;color:'+ti.c+';background:'+ti.bg+';border:1px solid '+ti.b+';padding:3px 8px;border-radius:4px;white-space:nowrap;flex-shrink:0;">'+ti.l+'</span>';
+        h+='</div>';
+        byT[t].forEach(function(m){
+          var isLive=m.isLive;
+          var ns=Math.max((m.sets1||[]).length,(m.sets2||[]).length);
+          var _s1=(m.sets1||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets2||[])[i]||0)?1:0);},0),_s2=(m.sets2||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets1||[])[i]||0)?1:0);},0);var _hasSets=_s1>0||_s2>0;var w1=m.isFin&&(_hasSets?_s1>_s2:m.winner===1),w2=m.isFin&&(_hasSets?_s2>_s1:m.winner===2);
+          h+='<div class="mrow" data-url="'+m.url+'" style="border-left:3px solid '+(isLive?'#ff1100':'transparent')+';background:'+(isLive?'rgba(255,17,0,.025)':'transparent')+';position:relative;padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
+          h+='<div style="display:flex;align-items:center;gap:8px;">';
+          h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#ff1100;">LIVE</span>':'<span style="font-size:13px;font-weight:300;color:'+('rgba(255,255,255,.35)')+';">'+(m.isFin?'Konec':timeStr(m.ts))+'</span>')+'</div>';
+          h+='<button onclick="var f=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27);var id=\x27'+m.id+'\x27;var i=f.indexOf(id);if(i>-1)f.splice(i,1);else f.push(id);localStorage.setItem(\x27ts_favs\x27,JSON.stringify(f));var on=f.indexOf(id)>-1;this.style.color=on?\x27#FFD700\x27:\x27rgba(255,255,255,0.3)\x27;var svg=this.querySelector(\x27svg\x27);if(svg){svg.style.fill=on?\x27currentColor\x27:\x27none\x27;}var _fb=document.querySelector(\x27#ts-host\x27)?document.querySelector(\x27#ts-host\x27).shadowRoot.querySelector(\x27[data-day=\\x27fav\\x27]\x27):null;if(_fb){var _fc=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27).length;var _fs=_fb.querySelector(\x27span\x27);if(_fc>0){if(!_fs){_fs=document.createElement(\x27span\x27);_fs.style.cssText=\x27font-size:10px;background:rgba(255,215,0,.25);border-radius:8px;padding:1px 6px;\x27;_fb.appendChild(_fs);}}_fs&&(_fs.textContent=_fc||\x27\x27);}event.stopPropagation()" style="background:none;border:none;cursor:pointer;padding:0 5px;flex-shrink:0;color:rgba(255,255,255,0.3);align-self:stretch;display:flex;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" style="display:block;fill:none;stroke:currentColor;stroke-width:2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></button>';
+          h+='<div style="flex:1;min-width:0;">';
+          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:700;color:'+(w1?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:700;color:'+(w2?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='</div>';
+          if(m.isFin){var _sc1t=0,_sc2t=0;for(var sit=0;sit<ns;sit++){var sv1t=parseInt((m.sets1||[])[sit]||0),sv2t=parseInt((m.sets2||[])[sit]||0);if(sv1t>sv2t)_sc1t++;else if(sv2t>sv1t)_sc2t++;}if(_sc1t>0||_sc2t>0){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-right:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1t+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2t+'</span></div>';}}
+          h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
+          function isSetDone(a,b){var x=parseInt(a),y=parseInt(b);if(isNaN(x)||isNaN(y))return false;if(x===7||y===7)return true;return(x>=6||y>=6)&&Math.abs(x-y)>=2;}
+          var maxSi=isLive?ns-1:ns;
+          for(var si=0;si<maxSi;si++){
+            var v1=(m.sets1||[])[si]||'0',v2=(m.sets2||[])[si]||'0';
+            if(isLive&&!isSetDone(v1,v2))continue;
+            var b1=parseInt(v1)>parseInt(v2),b2v=parseInt(v2)>parseInt(v1);
+            // Dokonceny set — maly, sedy, bez pozadi
+            h+='<div style="text-align:center;min-width:14px;padding:1px 2px;opacity:0.55;">';
+            h+='<div style="font-size:15px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#ccc':'rgba(255,255,255,.35)')+';">'+v1+'</div>';
+            h+='<div style="font-size:15px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#ccc':'rgba(255,255,255,.35)')+';">'+v2+'</div>';
+            h+='</div>';
+          }
+          if(isLive){
+            var cv1=(m.sets1||[])[ns-1]||'0',cv2=(m.sets2||[])[ns-1]||'0';
+            var isZero=m.game1==='0'&&m.game2==='0'||m.game1===''||m.game2==='';
+            if(ns>1)h+='<div style="width:1px;background:rgba(255,255,255,.2);align-self:stretch;margin:0 1px;flex-shrink:0;"></div>';
+            h+='<div style="text-align:center;min-width:28px;background:transparent;border:1px solid transparent;border-radius:4px;padding:2px 4px;margin-left:1px;">';
+            h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv1+'</div>';
+            h+='<div style="font-size:14px;line-height:1.3;font-weight:700;color:#ff1100;">'+cv2+'</div>';
+            h+='</div>';
+            if(m.game1!==''&&m.game2!==''){
+              h+='<div style="text-align:center;min-width:28px;background:'+(isZero?'rgba(255,255,255,.05)':'transparent')+';border:1px solid '+(isZero?'rgba(255,255,255,.1)':'transparent')+';border-radius:4px;padding:1px 4px;margin-left:2px;">';
+              h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game1+'</div>';
+              h+='<div style="font-size:12px;line-height:1.3;font-weight:800;color:'+(isZero?'rgba(255,255,255,.3)':'#ff1100')+';">'+m.game2+'</div>';
+              h+='</div>';
+            }
+          }
+          h+='</div>';
+          h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 8px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;text-decoration:none;">';
+          h+='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block"><rect width="100" height="100" rx="16" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
+            h+=_betanoCol(m.p1,m.p2);
+      h+=_kbCol(m.p1,m.p2);
+          h+='</div></div>';
+        });
+      });
+      } // end else tournament sort
+    }
+    h+='</div>';
+    wrap.innerHTML=h;
+  // Rank range handler
+  var rrEl=wrap.querySelector('#ps-rr');
+  if(rrEl)rrEl.addEventListener('change',function(){pR=rrEl.value;pP=0;rP();});
+  // Country dropdown handler
+  var ccEl=wrap.querySelector('#ps-cc');
+  if(ccEl)ccEl.addEventListener('change',function(){pC=ccEl.value;pP=0;rP();});
+  // Flag button handlers
+  wrap.querySelectorAll('button[data-cf]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      pC=btn.dataset.cf;
+      // Also sync the country dropdown
+      var ccEl2=wrap.querySelector('#ps-cc');
+      if(ccEl2)ccEl2.value=pC;
+      pP=0;rP();
+    });
+  });
+
+var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1){_b.style.color='#FFD700';var _svg=_b.querySelector('svg');if(_svg)_svg.style.fill='currentColor';}});}
+    wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){var _dv=btn.dataset.day,_d=(_dv==='fav'?'fav':parseInt(_dv));var _i=activeDay.indexOf(_d);if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}else{if(_dv==='fav'){activeDay=['fav'];}else{var _fi=activeDay.indexOf('fav');if(_fi>=0)activeDay.splice(_fi,1);activeDay.push(_d);}}render();});});
+    wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('[data-sort]').forEach(function(btn){btn.addEventListener('click',function(){activeSort=btn.dataset.sort==='1'?'time':'tournament';if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('[data-filter]').forEach(function(btn){btn.addEventListener('click',function(){activeFilter=btn.dataset.filter;if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('.mrow').forEach(function(row){
+      row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,.04)';});
+      row.addEventListener('mouseout',function(){row.style.background='transparent';});
+      row.addEventListener('click',function(e){if(e.target.closest('.mc-plink'))return;if(row.dataset.url)window.open(row.dataset.url,'_blank');});
+    });
+  }
+
+  var _fetching=false;
+  async function tick(){
+    if(_fetching)return;
+    _fetching=true;
+    try{
+      var data=await loadData();
+      _lastUpdated=data.updated||new Date().toISOString();
+      _lastData=data;
+      renderMatches(data);
+    }catch(e){
+      if(_lastData){renderMatches(_lastData);}
+      else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⚠️ '+e.message+'</div>';}
+    }finally{_fetching=false;}
+  }
+  function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
+  wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);};
+  wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
+  return wrap;
+}
+
+function buildUI(){
+  document.getElementById('ts-host')?.remove();
+  const host=document.createElement('div');host.id='ts-host';
+  host.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:2147483647;';
+  document.body.appendChild(host);
+  const sh=host.attachShadow({mode:'open'});
+  const style=document.createElement('style');style.textContent=CSS;sh.appendChild(style);
+
+  const w=document.createElement('div');w.id='w';sh.appendChild(w);
+  function el(tag,id,cls,html){const e=document.createElement(tag);if(id)e.id=id;if(cls)e.className=cls;if(html)e.innerHTML=html;return e;}
+
+  // ── SIDEBAR ──
+  const sidebar=el('div','sidebar');
+  sidebar.innerHTML=`
+    <div id="sb-logo">
+      <div id="sb-logo-icon">🎾</div>
+      <div id="sb-logo-text">Tennis<span>Scout</span></div>
+      <div id="sb-badge">v${VERSION}</div>
+    </div>
+    <nav id="sb-nav">
+      <div class="nav-section">Přehled</div>
+      <div class="nav-item active" data-view="home" id="nav-home">
+        <span class="nav-icon">⊞</span> Rozcestník
+      </div>
+      <div class="nav-section">Moduly</div>
+      <div class="nav-item" data-view="tournaments" id="nav-tournaments">
+        <span class="nav-icon">🏆</span> Turnaje
+        <span class="nav-badge" id="nav-count">795</span>
+      </div>
+      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">🎾</span> Zápasy</div><div class="nav-item" data-view="matches_backup" id="nav-matches-backup"><span class="nav-icon">🔒</span> Záp. záloha
+        <span class="nav-badge" id="nav-matches-count"></span>
+      </div><div class="nav-item" data-view="players" id="nav-players">
+        <span class="nav-icon">👤</span> Hráči ATP
+        <span class="nav-badge" id="nav-players-count">1454</span>
+      </div>
+      <div class="nav-item disabled">
+        <span class="nav-icon">📊</span> Kurzy
+        <span class="nav-soon">brzy</span>
+      </div>
+      <div class="nav-item disabled">
+        <span class="nav-icon">⚡</span> Live zápasy
+        <span class="nav-soon">brzy</span>
+      </div>
+      <div class="nav-item disabled">
+        <span class="nav-icon">📈</span> Statistiky
+        <span class="nav-soon">brzy</span>
+      </div>
+    </nav>
+    <div id="sb-footer">
+      <button id="sb-reload">↻ Reload dat</button>
+      <button id="sb-close">✕ Zavřít</button>
+      <div id="ta-progress"></div>
+      <button id="sb-ta-import">⬇ Import Tennis Abstract</button>
+    </div>
+  `;
+  w.appendChild(sidebar);
+
+  // ── MAIN PANEL ──
+  const main=el('div','main');
+
+  // TOP BAR
+  const topbar=el('div','topbar');
+  topbar.innerHTML=`
+    <div id="topbar-title">Rozcestník</div>
+    <div id="topbar-sub">Tennis Scout</div>
+    <div id="topbar-stats">
+      <div class="ts-stat">
+        <div class="ts-stat-val" id="nt">–</div>
+        <div class="ts-stat-lbl">Turnajů</div>
+      </div>
+      <div class="ts-stat">
+        <div class="ts-stat-val green" id="ns">–</div>
+        <div class="ts-stat-lbl">Zobrazeno</div>
+      </div>
+    </div>
+  `;
+  main.appendChild(topbar);
+
+  // FILTER BAR (turnaje view)
+  const filterbar=el('div','filterbar');
+  filterbar.style.display='none';
+  const fr1=el('div',null,'fr');
+  fr1.innerHTML=`<span class="fl">Okruh</span>`;
+  [['ALL','Vše',true],['ATP','ATP'],['WTA','WTA'],['CHALL','Challenger'],['ITF','ITF']].forEach(([c,t,on])=>{
+    const b=el('button',null,'fb'+(on?' on':''));b.dataset.c=c;b.textContent=t;fr1.appendChild(b);
+  });
+  const srch=el('input','srch');srch.placeholder='🔍  Hledat...';fr1.appendChild(srch);
+  filterbar.appendChild(fr1);
+  const fr2=el('div',null,'fr');
+  fr2.style.paddingBottom='10px';
+  fr2.innerHTML=`<span class="fl">Povrch</span>`;
+  [['Všechny',true],['Tvrdý'],['Antuka'],['Tráva'],['Krytý']].forEach(([s,on])=>{
+    const b=el('button',null,'sb'+(on?' on':''));b.dataset.s=s;b.textContent=s;fr2.appendChild(b);
+  });
+  filterbar.appendChild(fr2);
+  main.appendChild(filterbar);
+
+  // ERR
+  main.appendChild(el('div','err'));
+
+  // MONTH NAV
+  const mnav=el('nav','mnav');mnav.style.display='none';main.appendChild(mnav);
+
+  // BODY
+  const body=el('div','body');
+  // ITF status
+  const itfs=el('div','itfs');
+  const itfb=el('div','itfb');itfb.style.width='0';itfs.appendChild(itfb);
+  const itft=el('div','itft');itft.textContent='Načítám ITF data...';itfs.appendChild(itft);
+  body.appendChild(itfs);
+  // Loader
+  const load=el('div','load');
+  load.style.display='none';
+  load.innerHTML=`<div class="spin"></div><div id="prog">ATP/WTA/Challenger: načteno ✓ – čekám na ITF API...</div>`;
+  body.appendChild(load);
+  main.appendChild(body);
+
+  w.appendChild(main);
+
+  // ── HOME VIEW ──
+  const homeView=el('div','home-view');
+  homeView.innerHTML=`
+    <div id="home-greeting">V\u00EDtej, <span>Scoute</span> \uD83D\uDC4B</div>
+    <div id="home-sub">Tenisov\u00FD analytick\u00FD n\u00E1stroj pro profesion\u00E1ln\u00ED s\u00E1zen\u00ED</div>
+    <div id="home-cards">
+      <div class="home-card green" data-goto="tournaments" style="padding:0;overflow:hidden;">
+        <div style="background:linear-gradient(135deg,rgba(0,200,83,0.12),rgba(0,200,83,0.04));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(0,200,83,0.12);">
+          <span style="font-size:72px;line-height:1;filter:drop-shadow(0 4px 16px rgba(0,200,83,0.35))">\uD83C\uDFC6</span>
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Turnaje 2026</div>
+          <div class="hc-desc">ATP, WTA, Challenger a ITF turnaje s detailn\u00EDmi informacemi o povrchu, losov\u00E1n\u00ED a prize money.</div>
+          <div class="hc-meta"><span class="hc-count" id="hc-count-t">795 turnaj\u016F</span><span class="hc-arrow">\u2192</span></div>
+        </div>
+      </div>
+      <div class="home-card green" data-goto="matches" style="padding:0;overflow:hidden;">
+        <div style="background:linear-gradient(135deg,rgba(0,200,83,0.12),rgba(0,200,83,0.04));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(0,200,83,0.12);">
+          <span style="font-size:72px;line-height:1;">&#127934;</span>
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Z&#225;pasy</div>
+          <div class="hc-desc">Live v&#253;sledky, dne&#353;n&#237; a pl&#225;novan&#233; z&#225;pasy ATP, WTA, Challenger a ITF.</div>
+          <div class="hc-meta"><span class="hc-count" id="hc-count-m"></span><span class="hc-arrow">&#8594;</span></div>
+        </div>
+      </div>
+      <div class="home-card blue" data-goto="players" style="padding:0;overflow:hidden;">
+        <div style="position:relative;height:200px;overflow:hidden;background:#050d1a;">
+          <img id="player-photo" src="" style="width:100%;height:100%;object-fit:contain;object-position:center center;background:#050d1a;" />
+
+
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Hr\u00E1\u010Di ATP</div>
+          <div class="hc-desc">Aktu\u00E1ln\u00ED ATP ranking s filtrova\u00EDm podle zem\u011B, \u0159azen\u00EDm podle bod\u016F a odkazem na ATP profil.</div>
+          <div class="hc-meta"><span class="hc-count" id="hc-pl">998 hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
+        </div>
+      </div>
+      <div class="home-card orange disabled" style="padding:0;overflow:hidden;opacity:0.4;">
+        <div style="background:linear-gradient(135deg,rgba(251,146,60,0.1),rgba(251,146,60,0.03));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(251,146,60,0.1);">
+          <span style="font-size:72px;line-height:1;">\uD83D\uDCCA</span>
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Kurzy</div>
+          <div class="hc-desc">Kurzy z Tipsportu a Pinnacle pro tenis v re\u00E1ln\u00E9m \u010Dase.</div>
+          <div class="hc-meta"><span class="hc-tag soon">P\u0159ipravujeme</span><span class="hc-arrow">\u2192</span></div>
+        </div>
+      </div>
+      <div class="home-card pink disabled" style="padding:0;overflow:hidden;opacity:0.4;">
+        <div style="background:linear-gradient(135deg,rgba(244,114,182,0.1),rgba(244,114,182,0.03));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(244,114,182,0.1);">
+          <span style="font-size:72px;line-height:1;">\u26A1</span>
+        </div>
+        <div style="padding:18px 22px 20px;">
+          <div class="hc-title">Live z\u00E1pasy</div>
+          <div class="hc-desc">V\u00FDsledky a statistiky \u017Eiv\u00FDch z\u00E1pas\u016F s kurzy a predikc\u00ED.</div>
+          <div class="hc-meta"><span class="hc-tag soon">P\u0159ipravujeme</span><span class="hc-arrow">\u2192</span></div>
+        </div>
+      </div>
+    </div>
+  `;
+  // Insert homeView FIRST in body (before load)
+  body.appendChild(homeView);
+  // PLAYERS TAB
+  const _pw=buildPlayersTab(sh);
+  body.appendChild(_pw);
+  var _mwEl=buildMatchesTab(sh);if(_mwEl){var _mainBody=sh.getElementById('body')||body;_mainBody.appendChild(_mwEl);}
+  var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
+
+  // ── NAVIGACE ──
+  function goView(view){
+    // Close player page if open
+    var _pp=sh.getElementById('player-page');
+    if(_pp)_pp.remove();
+    if(view==='matches'){sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));sh.getElementById('nav-matches')?.classList.add('active');sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');['pw','home-view','filterbar','mnav'].forEach(id=>{var e=sh.getElementById(id);if(e)e.style.display='none';});var mwx=sh.getElementById('mw');if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}return;}
+      if(view==='matches_backup'){sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));sh.getElementById('nav-matches-backup')?.classList.add('active');sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');['pw','home-view','filterbar','mnav'].forEach(id=>{var e=sh.getElementById(id);if(e)e.style.display='none';});var mwx=sh.getElementById('mw');if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}return;}
+    // Update sidebar
+    var _mw=sh.getElementById('mw');if(_mw)_mw.style.display='none';var _mn=sh.getElementById('main');if(_mn)_mn.style.overflow='hidden';
+    sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+    sh.getElementById('nav-'+view)?.classList.add('active');
+    // Topbar title
+    const titles={home:'Rozcestník',tournaments:'Turnaje 2026',players:'Hráči ATP'};
+    sh.getElementById('topbar-title').textContent=titles[view]||view;
+    // Visibility
+    homeView.style.display=view==='home'?'block':'none';
+    filterbar.style.display=view==='tournaments'?'flex':'none';
+    filterbar.style.flexDirection='column';
+    mnav.style.display=view==='tournaments'?'flex':'none';
+    _pw.style.display=view==='players'?'block':'none';
+    // Turnaje - vyčisti/zobraz
+    const mgs=sh.querySelectorAll('.mg');
+    mgs.forEach(m=>m.style.display=view==='tournaments'?'':'none');
+    if(view==='players'&&_pw.render)_pw.render();
+    // btn-p styl
+    const bp=sh.getElementById('nav-players');
+    if(bp)bp.classList.toggle('active',view==='players');
+  }
+
+  // Nav item clicks
+  sh.querySelectorAll('.nav-item[data-view]').forEach(item=>{
+    item.addEventListener('click',()=>{
+      if(item.classList.contains('disabled'))return;
+      goView(item.dataset.view);
+    });
+  });
+
+  // Home cards
+  sh.querySelectorAll('.home-card[data-goto]').forEach(card=>{
+    card.addEventListener('click',()=>{
+      if(card.classList.contains('disabled'))return;
+      goView(card.dataset.goto);
+    });
+  });
+
+  // Reload + Close
+  sh.getElementById('sb-reload').addEventListener('click',()=>{document.getElementById('ts-host')?.remove();TENNIS_SCOUT();});
+  sh.getElementById('sb-close').addEventListener('click',()=>document.getElementById('ts-host')?.remove());
+
+  // TA IMPORT
+  (function(){
+    var btn=sh.getElementById('sb-ta-import');
+    if(!btn)return;
+    btn.addEventListener('click',function(){
+      var self=this,prog=sh.getElementById('ta-progress');
+      var GH=localStorage.getItem('ts_gh_token');
+      if(!GH){GH=prompt('Zadej GitHub token:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
+      self.disabled=true;prog.style.display='block';
+      var MO={Jan:'01',Feb:'02',Mar:'03',Apr:'04',May:'05',Jun:'06',Jul:'07',Aug:'08',Sep:'09',Oct:'10',Nov:'11',Dec:'12'};
+      var reDiac=new RegExp('[\u0300-\u036f]','g');
+      var reNA=new RegExp('[^a-zA-Z -]','g');
+      var reDsh=new RegExp('[\u2011\u2013-]','g');
+      var reNat=new RegExp(' \\[[A-Z]{3}\\] *$');
+      var reSeed=new RegExp('^\\([^)]+\\)');
+      var reNL=new RegExp('\\n','g');
+      function nN(fn){return(fn||'').normalize('NFD').replace(reDiac,'').replace(reNA,'').trim().split(' ').join('');}
+      function pTA(html,ln,mx){
+        var doc=new DOMParser().parseFromString(html,'text/html'),tbs=doc.querySelectorAll('table'),mt=null;
+        for(var ti=0;ti<tbs.length;ti++){if(tbs[ti].rows.length>20&&tbs[ti].textContent.indexOf('Tournament')>=0){mt=tbs[ti];break;}}
+        if(!mt)return null;
+        var ms=[];
+        for(var i=1;i<mt.rows.length;i++){
+          var cs=Array.prototype.map.call(mt.rows[i].cells,function(c){return c.innerText.trim();});
+          var dt=cs[0],tn=cs[1],sf=cs[2],rd=cs[3],rk=cs[4],or=cs[5],sc=cs[7]||'';
+          var rw=(cs[6]||'').split('\u00A0').join(' ');
+          if(!dt||dt.length<5||!tn||sc==='Live Scores')continue;
+          var dp=dt.replace(reDsh,'-').split('-'),ds=dt;
+          if(dp.length===3){var mo=MO[dp[1]]||dp[1],yr=dp[2].length===2?'20'+dp[2]:dp[2];ds=yr+'-'+mo+'-'+('0'+dp[0]).slice(-2);}
+          var rs='',op='';
+          if(rw.indexOf(' d. ')>=0){var pt=rw.split(' d. ');if(pt[0].indexOf(ln)>=0){rs='W';op=pt.slice(1).join(' d. ');}else{rs='L';op=pt[0];}}
+          else if(rw.indexOf(' vs ')>=0){var pv=rw.split(' vs ');op=pv[0].indexOf(ln)>=0?pv[1]:pv[0];}
+          else{op=rw;}
+          op=op.replace(reNat,'').replace(reSeed,'').trim();
+          var _mx=mx&&mx[i-1];var _oaces=_mx?parseInt(_mx[30])||0:0;var _opts=_mx?parseInt(_mx[32])||0:0;var _vap=_opts>0?(_oaces/_opts*100).toFixed(1)+'%':'';
+          ms.push({date:ds,tournament:tn,surface:sf,level:'ta-import',round:rd,result:rs,opponent:op,score:sc,best_of:'',rank:rk||'',opp_rank:or||'',dr:cs[9]||'',a_pct:cs[10]||'',va_pct:_vap,df_pct:cs[11]||'',first_in:cs[12]||'',first_pct:cs[13]||'',second_pct:cs[14]||'',bp_saved:cs[15]||'',match_time:cs[16]||'',odds:''});
+        }
+        return ms;
+      }
+      var pl=window.ATP_PLAYERS||window.ATP||[];
+      prog.innerHTML=window._tsProgress='Start: '+pl.length+' hr\u00e1\u010d\u016f...';
+      var dn=0,im=0,sk=0,er=0,tot=pl.length;
+      function nx(i){
+        if(i>=tot){prog.innerHTML=window._tsProgress='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb'+(window._importFailed&&window._importFailed.length?'<br><small style="color:#f87171">Chyby: '+window._importFailed.join(', ')+'</small>':'');self.disabled=false;self.textContent='\u2705 Dokon\u010deno';return;}
+        var p=pl[i];if(!p||!p.id||!p.full_name){sk++;dn++;nx(i+1);return;}
+        var ln=(p.full_name||'').split(' ').pop(),ta=nN(p.full_name);
+        fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',{headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}})
+        .then(function(r){return r.ok?r.json():null;})
+        .then(function(cr){
+          var cd=null;try{cd=cr?JSON.parse(atob(cr.content.replace(reNL,''))):null;}catch(e){}
+          var cn=cd&&cd.matches?cd.matches.length:0;
+            var _hasGoodData=cd&&cd.matches&&cd.matches.length>0&&!!cd.matches[0].va_pct&&!!cd.matches[0].dr&&cd.source==='tennisabstract';
+          var _taUrl='https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq';
+          return fetch('https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(_taUrl),{signal:AbortSignal.timeout(15000)})
+          .catch(function(){return fetch('https://corsproxy.io/?url='+encodeURIComponent(_taUrl));})
+          .then(function(r){return r.ok?r.text():null;})
+          .then(function(html){
+            if(!html){er++;window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): no html');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;dn++;setTimeout(function(){nx(i+1);},1000);return;}
+            var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
+            if(!tm||tm[1].indexOf('Player Search')>=0){sk++;dn++;setTimeout(function(){nx(i+1);},500);return;}
+            var _mmx=null;try{var _ms=html.indexOf('var matchmx = [[');if(_ms>=0){var _af=html.slice(_ms+14),_em=_af.match(/\n\s+\];\n/);if(_em){var _ei=_af.indexOf(_em[0])+_em[0].length,_rw=_af.slice(0,_ei).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw)();}}}catch(e){console.error('matchmx parse',e.message);}
+            var ms=null;if(_mmx&&_mmx.length>=5){ms=_mmx.map(function(mx){
+              var dt=mx[0]||'',ds=dt.length===8?dt.slice(0,4)+'-'+dt.slice(4,6)+'-'+dt.slice(6,8):dt;
+              var pts=parseInt(mx[23])||0,firsts=parseInt(mx[24])||0,fwon=parseInt(mx[25])||0,swon=parseInt(mx[26])||0;
+              var aces=parseInt(mx[21])||0,dfs=parseInt(mx[22])||0,saved=parseInt(mx[28])||0,chances=parseInt(mx[29])||0;
+              var oaces=parseInt(mx[30])||0,opts=parseInt(mx[32])||0;
+              var seconds=pts-firsts;
+              function pct(a,b){return b>0?(a/b*100).toFixed(1):'';}
+              var dr='';
+              if(pts>0&&opts>0){var rpw=1-((parseInt(mx[34]||0)+parseInt(mx[35]||0))/opts),spl=1-((fwon+swon)/pts);if(spl>0)dr=(rpw/spl).toFixed(2);}
+              return {
+                date:ds,tournament:mx[1]||'',surface:mx[2]||'',level:'ta-import',
+                round:mx[8]||'',result:mx[4]==='W'?'W':(mx[4]==='L'?'L':''),
+                opponent:mx[11]||'',score:mx[9]||'',best_of:'',
+                rank:mx[5]||'',opp_rank:mx[12]||'',
+                dr:dr,
+                a_pct:pct(aces,pts),
+                va_pct:pct(oaces,opts),
+                df_pct:pct(dfs,pts),
+                first_in:pct(firsts,pts),
+                first_pct:pct(fwon,firsts),
+                second_pct:pct(swon,seconds),
+                bp_saved:saved+'/'+chances,
+                match_time:(function(m){if(!m)return '';var n=parseInt(m);if(!n)return '';return Math.floor(n/60)+':'+(n%60<10?'0':'')+(n%60);})(mx[20]),
+                odds:''
+              };
+            });}
+            var _noVa=!_hasGoodData;if(!ms||ms.length<5||(ms.length<=cn&&!_noVa)){sk++;dn++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er;setTimeout(function(){nx(i+1);},500);return;}
+            var out={player_id:p.id,gs_id:(cd&&cd.gs_id)||'',player_name:p.full_name,source:'tennisabstract',updated:new Date().toISOString(),matches:ms};
+            var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out,null,2)),bn='';
+            for(var bi=0;bi<eb.length;bi++)bn+=String.fromCharCode(eb[bi]);
+            var bd={message:'TA: '+p.full_name+' ('+ms.length+')',content:btoa(bn)};
+            if(cr&&cr.sha)bd.sha=cr.sha;
+            return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',
+              {method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(bd)})
+            .then(function(pr){if(pr.ok){im++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → '+p.full_name+' ('+ms.length+')';}else{pr.json().then(function(e){console.error('GH PUT failed: '+p.full_name+' ('+p.id+')');window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): PUT failed');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;});er++;}dn++;setTimeout(function(){nx(i+1);},2000);});
+          });
+          }).catch(function(e){window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): network error');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;er++;dn++;setTimeout(function(){nx(i+1);},500);});
+      }
+      window._importFailed=[];nx(0);
+    });
+  })();
+
+
+  // Players toggle pro zpětnou kompatibilitu
+  var _bp=sh.getElementById('nav-players');
+  if(_bp){_bp.onclick=function(){goView('players');};}
+
+  return{host,sh,body,mnav,goView};
+}
+
+// ── RENDER ────────────────────────────────────────────────────
+function setupRender({sh,body,mnav}){
+  let aC='ALL',aS='Všechny',sq='',exId=null;
+
+  function filtered(){
+    return(window._tsData||[]).filter(t=>{
+      if(aC!=='ALL'&&t.cat!==aC)return false;
+      if(aS!=='Všechny'&&t.surf!==aS)return false;
+      if(sq){const s=sq.toLowerCase();if(!t.name.toLowerCase().includes(s)&&!(t.loc||'').toLowerCase().includes(s)&&!(t.country||'').toLowerCase().includes(s))return false;}
+      return true;
+    });
+  }
+
+  function render(){
+    const total=(window._tsData||[]).length,ts=filtered();
+    const ntEl=sh.getElementById('nt'),nsEl=sh.getElementById('ns');
+    if(ntEl)ntEl.textContent=total;if(nsEl)nsEl.textContent=ts.length;
+    const byM={};ts.forEach(t=>{const m=getMonth(t.start);if(!byM[m])byM[m]=[];byM[m].push(t);});
+
+    mnav.textContent='';
+    Object.keys(byM).sort((a,b)=>+a-+b).forEach(m=>{
+      const b=document.createElement('button');b.className='mb';
+      b.textContent=MCS[m]+' ';
+      const cnt=document.createElement('span');cnt.style.cssText='font-size:8px;opacity:.6;';cnt.textContent=byM[m].length;
+      b.appendChild(cnt);b.onclick=()=>sh.getElementById('m'+m)?.scrollIntoView({behavior:'smooth',block:'start'});
+      mnav.appendChild(b);
+    });
+
+    if(!ts.length){[...body.children].forEach(el=>{if(el.id!=='pw'&&el.id!=='home-view')el.remove()});const e=document.createElement('div');e.style.cssText='text-align:center;padding:60px;color:#5a6070;';e.textContent='Žádné turnaje.';body.appendChild(e);return;}
+
+    let html='';
+    Object.keys(byM).sort((a,b)=>+a-+b).forEach(m=>{
+      const arr=byM[m];
+      html+=`<div class="mg" id="m${m}"><div class="mh"><div class="mn">${MCS[m]}</div><div class="mc">${arr.length} turnajů</div></div><table><thead><tr><th style="width:18px"></th><th>Turnaj</th><th>Datum</th><th>Povrch</th><th>Los</th></tr></thead><tbody>`;
+      arr.forEach((t,i)=>{
+        const uid=`${m}_${i}`,ex=exId===uid,live=isLive(t.start,t.end);
+        html+=`<tr class="r${ex?' ex':''}" data-uid="${uid}"><td><span class="cv">›</span></td><td><span class="ct c${t.cat}">${t.cat}</span><span class="tr ${tierCls(t.tier)}">${t.tier||'—'}</span><span class="nm">${live?'<span class="live"></span>':''}${t.name}</span><span class="lc">${t.loc}${t.country?' ('+t.country+')':''}</span></td><td class="dt">${fmtRange(t.start,t.end)}</td><td><span class="sp ${surfSp(t.surf)}">${t.surf}</span></td><td style="font-family:monospace;font-size:10px;color:#5a6070">${t.sgl>0?t.sgl:'—'}</td></tr>`;
+        if(ex){
+          const altLabel=t.alt>0?`${t.alt} m n.m.${t.alt>1000?' 🔴':t.alt>500?' 🟡':''}`:t.cat==='ITF'?'—':'0 m';
+        const ioLabel=t.io==='I'?'🏠 Krytá hala':'☀️ Venkovní';
+        const winnersHtml=(t.winners&&t.winners.length>0&&t.winners[0]!=='—')?t.winners.slice(0,3).map((w,i)=>`<div style="font-size:9px;color:#5a6070;font-family:monospace">${2025-i}: <span style="color:#e8eaf0;font-weight:600">${w}</span></div>`).join(''):'<span style="color:#5a6070;font-size:10px">—</span>';
+        html+=`<tr class="xr"><td colspan="5"><div class="xc" style="grid-template-columns:1fr 1fr 1fr 1fr"><div><h4>Info</h4><div class="ig"><div><label>Okruh</label><span>${t.cat}</span></div><div><label>Tier</label><span>${t.tier||'—'}</span></div><div><label>Povrch</label><span>${t.surf}</span></div><div><label>Lokace</label><span>${ioLabel}</span></div><div><label>Los SGL</label><span>${t.sgl>0?t.sgl+' hr':'—'}</span></div><div><label>Los DBL</label><span>${t.dbl>0?t.dbl+' párů':'—'}</span></div></div></div><div><h4>Lokalita & výška</h4><div style="font-size:12px;color:#e8eaf0;font-weight:600;margin-bottom:4px">${t.name}</div><div style="font-size:10px;color:#5a6070">${t.loc}${t.country?' ('+t.country+')':''}</div><div style="font-size:10px;color:#c8f135;margin-top:6px;font-family:monospace;font-weight:600">${altLabel}</div><div style="font-size:9px;color:#5a6070;margin-top:2px;font-family:monospace">${t.start||'?'} → ${t.end||'?'}</div></div><div><h4>Prize money</h4><div style="font-size:16px;color:#c8f135;font-weight:700;font-family:monospace">${t.prize||'—'}</div><div style="font-size:9px;color:#5a6070;margin-top:2px">Vítěz singlu</div><div style="margin-top:8px;font-size:9px;color:#5a6070;text-transform:uppercase;letter-spacing:1px">Stav</div><div style="color:${live?'#f13570':'#5a6070'};font-size:${live?12:11}px;font-weight:${live?700:400};margin-top:2px">${live?'🔴 Probíhá':'Nadcházející'}</div></div><div><h4>Vítězové (2025–2023)</h4>${winnersHtml}</div></div></td></tr>`;
+        }
+      });
+      html+='</tbody></table></div>';
+    });
+
+    const tmp=new DOMParser().parseFromString(`<div>${html}</div>`,'text/html');
+    const frag=document.createDocumentFragment();
+    [...tmp.body.firstChild.childNodes].forEach(n=>frag.appendChild(document.adoptNode(n)));
+    [...body.children].forEach(el=>{if(el.id!=='pw'&&el.id!=='home-view')el.remove()});body.appendChild(frag);
+    body.querySelectorAll('tr.r').forEach(row=>row.addEventListener('click',()=>{exId=exId===row.dataset.uid?null:row.dataset.uid;render();}));
+  }
+
+  sh.querySelectorAll('.fb[data-c]').forEach(b=>b.addEventListener('click',()=>{sh.querySelectorAll('.fb[data-c]').forEach(x=>x.classList.remove('on'));b.classList.add('on');aC=b.dataset.c;exId=null;render();}));
+  sh.querySelectorAll('.sb[data-s]').forEach(b=>b.addEventListener('click',()=>{sh.querySelectorAll('.sb[data-s]').forEach(x=>x.classList.remove('on'));b.classList.add('on');aS=b.dataset.s;exId=null;render();}));
+  sh.getElementById('srch')?.addEventListener('input',e=>{sq=e.target.value;exId=null;render();});
+  sh.getElementById('btn-c')?.addEventListener('click',()=>document.getElementById('ts-host')?.remove());
+    return render;
+}
+
+// ── MAIN ────────────────────────────────────────────────────
+window._tsData=[];
+const{host,sh,body,mnav,goView}=buildUI();
+
+// Djokovic photo from Wikipedia API
+(async()=>{try{
+  const _wr=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/Rafael_Nadal');
+  const _wd=await _wr.json();
+  const _tu=_wd.thumbnail?.source;if(!_tu)return;
+  const _ir=await fetch(_tu);const _blob=await _ir.blob();
+  const _du=await new Promise(_r=>{const _fr=new FileReader();_fr.onload=()=>_r(_fr.result);_fr.readAsDataURL(_blob);});
+  const _pi=sh.getElementById('player-photo');if(_pi)_pi.src=_du;
+}catch(_e){}})();
+// Přidej homeView do body
+const _homeViewEl=sh.getElementById('home-view');
+if(_homeViewEl&&!_homeViewEl.parentElement)body.insertBefore(_homeViewEl,body.firstChild);
+const render=setupRender({sh,body,mnav});
+window._tsRender=render;
+const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;};
+const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textContent?e.textContent+' | ':'')+m;e.style.display='block';}};
+
+
+// 1. Statická data — okamžitě
+window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
+sh.getElementById('load')?.remove();
+sh.getElementById('itfs')?.remove();
+goView('home');
+render();
+(function _syncPl(){var _s=document.getElementById('ts-host')?.shadowRoot;if(!_s)return setTimeout(_syncPl,300);var _upd=function(){var c=(window.ATP_PLAYERS||[]).length;if(c>0){var n=_s.getElementById('nav-players-count');if(n)n.textContent=c;var d=_s.getElementById('hc-pl');if(d)d.textContent=c+' hráčů';}else setTimeout(_upd,300);};_upd();})();
+// .mg jsou nyní v DOM — skryj je, home view je aktivní
+sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
+// Update home counts
+const _hcT=sh.getElementById('hc-count-t');
+if(_hcT)_hcT.textContent=window._tsData.length+' turnájů';
+const _ncEl=sh.getElementById('nav-count');
+if(_ncEl)_ncEl.textContent=window._tsData.length;
+const _mcEl=sh.getElementById('nav-matches-count');
+if(_mcEl){var _mc=((window._lastMatches||{}).matches||[]).length;if(_mc>0)_mcEl.textContent=_mc;}
+
+// 2. ITF + Players paralelně na pozadí
+fetchPlayers(txt=>console.log('Players:',txt)).then(count=>{
+  console.log('✅ ATP hráči načteni:',count);
+}).catch(e=>console.warn('ATP players:',e.message));
+
+fetchITF(txt=>{setP(txt);}).then(itfItems=>{
+  window._tsData.push(...itfItems);
+  // PYidej Z�pasy panel  po settlenut� DOM
+  var _sh2=document.getElementById('ts-host')?.shadowRoot;
+  setTimeout(function(){
+    var _body2=_sh2?.getElementById('body');
+    if(_body2&&!_sh2.getElementById('mw')){
+      var _mwEl2=buildMatchesTab(_sh2);
+      if(_mwEl2)_body2.appendChild(_mwEl2);
+    }
+  },500);
+  // Re-render jen pokud jsme na turnaje view
+  const activeNav=sh.querySelector('.nav-item.active');
+  if(activeNav&&activeNav.dataset.view==='tournaments'){
+    render();
+  }else{
+    render();
+    sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
+  }
+  // Update counts
+  const hcT=sh.getElementById('hc-count-t');
+  if(hcT)hcT.textContent=window._tsData.length+' turnájů';
+  const ncEl=sh.getElementById('nav-count');
+  if(ncEl)ncEl.textContent=window._tsData.length;
+  const mcEl=sh.getElementById('nav-matches-count');
+  if(mcEl){var mc=((window._lastMatches||{}).matches||[]).length;if(mc>0)mcEl.textContent=mc;}
+  console.log('🎾 Tennis Scout v'+VERSION+' — '+window._tsData.length+' turnájů');
+}).catch(e=>{addErr('ITF: '+e.message);});
+
+// === BETANO ODDS ===
+var _betanoOdds = null;
+var _betanoUpdated = null;
+var _betanoUrl=localStorage.getItem('ts_betano_url')||'https://betano-odds.vavra-radovan.workers.dev/odds';
+var _betanoOdds=null,_betanoUpdated=null;var _betanoBaseOdds=(function(){try{var s=localStorage.getItem('ts_betano_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
+var _bsUrl='https://betano-odds.vavra-radovan.workers.dev/scrape';var _runBetano=function(){_loadBetanoOdds();};_runBetano();setInterval(_runBetano,30000);
+
+function _normName(n){
+  if(!n)return '';
+  var p=n.trim().split(/\s+/);
+  var last=p[p.length-1];if(last.length<=2||last.endsWith('.'))return p[0].toLowerCase().replace(/[^a-z]/g,'');return last.toLowerCase().replace(/[^a-z]/g,'');
+}
+
+function _getBetanoOdds(p1,p2,dataset){
+  var _ds=dataset||_betanoOdds;if(!_ds||!_ds.events)return null;
+  var n1=_normName(p1),n2=_normName(p2);
+  function normAll(n){if(!n)return [];return n.trim().split(/\s+/).filter(function(w){return w.length>2&&!w.endsWith('.');}).map(function(w){return w.toLowerCase().replace(/[^a-z]/g,'');});}
+  var ev=_ds.events.find(function(e){
+    var ep1=normAll(e.p1),ep2=normAll(e.p2);
+    return (ep1.indexOf(n1)>=0&&ep2.indexOf(n2)>=0)||(ep1.indexOf(n2)>=0&&ep2.indexOf(n1)>=0);
+  });
+  if(!ev)return null;
+  if(normAll(ev.p1).indexOf(n1)>=0)return {o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2,url:ev.url};
+  return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1,url:ev.url};
+}
+function _loadBetanoOdds(){
+  fetch('https://havran001.github.io/tennis-scout/betano_odds.json?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+    if(!d||!d.events||d.events.length===0)return;
+    _betanoOdds=d;_betanoBaseOdds=d;
+    try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}
+    _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+  }).catch(function(){});
+}
+function _betanoCol(p1, p2){
+  var odds=_getBetanoOdds(p1,p2),prevOdds=_betanoBaseOdds?_getBetanoOdds(p1,p2,_betanoBaseOdds):null;
+  if(!_betanoUrl)return '';
+  var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';
+  var a1='',a2='';
+  if(odds&&prevOdds){
+    var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
+    var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    // Pokud jen jeden se změnil, druhý dostane opačnou šipku
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+  }
+  var s1=odds&&odds.s1, s2=odds&&odds.s2;
+  var c1=s1?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
+  var c2=s2?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
+  return '<div style="position:absolute;left:460px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:48px;gap:3px;">'
+    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
+    
+    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
+    +'</div>';
+}
+// === KONEC BETANO ODDS ===
+
+// === KINGSBET ODDS ===
+var _kbUrl=localStorage.getItem('ts_kb_url')||'https://betano-odds.vavra-radovan.workers.dev/kb-odds';
+var _kbOdds=null,_kbUpdated=null;
+var _kbBaseOdds=(function(){try{var s=localStorage.getItem('ts_kb_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
+var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
+if(!_kbUrl)_kbUrl='https://betano-odds.vavra-radovan.workers.dev/kb-odds';
+var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
+var _runKb=function(){
+  fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+    if(!d)return;
+    _kbOdds=d;
+    if(!_kbBaseOdds||(d.events&&d.events.length>0)){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
+    _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+  });
+};
+_runKb();setInterval(_runKb,30000);
+
+
+var _normKbName=function(n){
+  if(!n)return '';
+  n=n.trim();
+  if(n.indexOf('/')>-1)return '';
+  var ascii=function(s){
+    return s.toLowerCase()
+      .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+  };
+  if(n.indexOf(',')>-1){
+    var parts=n.split(',')[0].trim().split(/\s+/);
+    return ascii(parts[parts.length-1]);
+  }
+  var p=n.split(/\s+/);
+  return ascii(p[p.length-1]);
+};
+var _getKbOdds=function(p1,p2,dataset){
+  var _ds=dataset||_kbOdds;if(!_ds||!_ds.events)return null;
+  var aliases={};try{var _a=localStorage.getItem('ts_kb_aliases');if(_a)aliases=JSON.parse(_a);}catch(e){}
+  var ascii=function(s){
+    return (s||'').toLowerCase()
+      .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+  };
+  var wordVars=function(w){
+    if(!w||w.length<2)return [];
+    var a=ascii(w);
+    if(a.length<2)return [];
+    var vars=[a];
+    if(aliases[a])vars.push(aliases[a]);
+    if(w.indexOf('-')>-1){
+      w.toLowerCase().split('-').forEach(function(part){
+        var p=ascii(part);
+        if(p.length>2&&vars.indexOf(p)<0)vars.push(p);
+      });
+    }
+    var noOva=a.replace(/ova$/,'');
+    if(noOva.length>3&&noOva!==a&&vars.indexOf(noOva)<0)vars.push(noOva);
+    var noEva=a.replace(/eva$/,'');
+    if(noEva.length>3&&noEva!==a&&vars.indexOf(noEva)<0)vars.push(noEva);
+    var noSh=a.replace(/sh/g,'s').replace(/ch/g,'c').replace(/zh/g,'z');
+    if(noSh!==a&&vars.indexOf(noSh)<0)vars.push(noSh);
+    var noShOva=noSh.replace(/ova$/,'');
+    if(noShOva.length>3&&noShOva!==noSh&&vars.indexOf(noShOva)<0)vars.push(noShOva);
+    return vars;
+  };
+  var kbVars=function(name){
+    if(!name)return [];
+    name=name.trim();
+    var words;
+    if(name.indexOf(',')>-1){
+      words=name.split(',')[0].trim().split(/\s+/);
+    }else{
+      words=name.replace(/\//g,' ').split(/\s+/);
+    }
+    var vars=[];
+    words.forEach(function(w){if(w.length>1)vars=vars.concat(wordVars(w));});
+    return vars;
+  };
+  var appVars=function(n){
+    if(!n)return [];
+    var names=n.indexOf('/')>-1?n.split('/') :[n];
+    var result=[];
+    names.forEach(function(segment){
+      segment=segment.trim();
+      var parts=segment.split(/\s+/);
+      var surname=parts[0]||'';
+      result=result.concat(wordVars(surname));
+      var last=parts[parts.length-1]||'';
+      if(last!==surname&&last.length>2)result=result.concat(wordVars(last));
+    });
+    return result;
+  };
+  var nameMatch=function(kbName,appName){
+    var kv=kbVars(kbName);
+    var av=appVars(appName);
+    for(var i=0;i<av.length;i++){if(kv.indexOf(av[i])>=0)return true;}
+    return false;
+  };
+  var ev=_ds.events.find(function(e){
+    if(!e.p1||!e.p2)return false;
+    return (nameMatch(e.p1,p1)&&nameMatch(e.p2,p2))||(nameMatch(e.p1,p2)&&nameMatch(e.p2,p1));
+  });
+  if(!ev)return null;
+  if(nameMatch(ev.p1,p1))return {o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+  return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
+};
+  var _ds=dataset||_kbOdds;if(!_ds||!_ds.events)return null;
+  var aliases={};try{var _a=localStorage.getItem('ts_kb_aliases');if(_a)aliases=JSON.parse(_a);}catch(e){}
+ 
+  // Převede string na ascii lowercase bez diakritiky
+  var ascii=function(s){
+    return (s||'').toLowerCase()
+      .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+  };
+ 
+  // Vrátí POLE variant pro jedno slovo/příjmení
+  // "Bautista-Agut" → ["bautistaagut", "bautista", "agut"]
+  // "Kvitová"       → ["kvitova", "kvit"]  (bez -ova)
+  var wordVars=function(w){
+    if(!w||w.length<2)return [];
+    var a=ascii(w);
+    if(a.length<2)return [];
+    var vars=[a];
+    // alias z localStorage
+    if(aliases[a])vars.push(aliases[a]);
+    // pomlčka: rozlož na části a přidej každou zvlášť
+    if(a.indexOf('-')<0 && w.indexOf('-')>-1){
+      // ascii() smazal pomlčku — rozlož původní slovo
+      w.toLowerCase().split('-').forEach(function(part){
+        var p=ascii(part);
+        if(p.length>2&&vars.indexOf(p)<0)vars.push(p);
+      });
+    }
+    // -ova / -eva koncovka (ženská příjmení)
+    var noOva=a.replace(/ova$/,'');
+    if(noOva.length>3&&noOva!==a&&vars.indexOf(noOva)<0)vars.push(noOva);
+    var noEva=a.replace(/eva$/,'');
+    if(noEva.length>3&&noEva!==a&&vars.indexOf(noEva)<0)vars.push(noEva);
+    // sh→s, ch→c, zh→z varianty
+    var noSh=a.replace(/sh/g,'s').replace(/ch/g,'c').replace(/zh/g,'z');
+    if(noSh!==a&&vars.indexOf(noSh)<0)vars.push(noSh);
+    var noShOva=noSh.replace(/ova$/,'');
+    if(noShOva.length>3&&noShOva!==noSh&&vars.indexOf(noShOva)<0)vars.push(noShOva);
+    return vars;
+  };
+ 
+  // Vrátí varianty ze jména na straně KB (může být "Doe J." nebo "Bautista-Agut R.")
+  var kbVars=function(name){
+    if(!name)return [];
+    name=name.trim();
+    var words;
+    if(name.indexOf(',')>-1){
+      // "Doe, J." formát → vezmeme část před čárkou
+      words=name.split(',')[0].trim().split(/\s+/);
+    } else {
+      // normální nebo doubles formát s lomítkem
+      words=name.replace(/\//g,' ').split(/\s+/);
+    }
+    var vars=[];
+    words.forEach(function(w){
+      if(w.length>1)vars=vars.concat(wordVars(w));
+    });
+    return vars;
+  };
+ 
+  // Vrátí varianty ze jména na straně Flashscore aplikace
+  // Flashscore: "Bautista-Agut R." nebo "Doe J." nebo "Smith A. / Jones B."
+  var appVars=function(n){
+    if(!n)return [];
+    var names=n.indexOf('/')>-1 ? n.split('/') : [n];
+    var result=[];
+    names.forEach(function(segment){
+      segment=segment.trim();
+      var parts=segment.split(/\s+/);
+      // příjmení = první token (Flashscore formát "Příjmení I.")
+      var surname=parts[0]||'';
+      // přidej varianty příjmení (vč. pomlčky)
+      result=result.concat(wordVars(surname));
+      // přidej i poslední token pro jistotu
+      var last=parts[parts.length-1]||'';
+      if(last!==surname&&last.length>2)result=result.concat(wordVars(last));
+    });
+    return result;
+  };
+ 
+  // Porovná KB jméno a Flashscore jméno — true pokud sdílí alespoň jednu variantu
+  var nameMatch=function(kbName,appName){
+    var kv=kbVars(kbName);
+    var av=appVars(appName);
+    for(var i=0;i<av.length;i++){
+      if(kv.indexOf(av[i])>=0)return true;
+    }
+    return false;
+  };
+ 
+  // Najdi event
+  var ev=_ds.events.find(function(e){
+    if(!e.p1||!e.p2)return false;
+    return (nameMatch(e.p1,p1)&&nameMatch(e.p2,p2))
+        || (nameMatch(e.p1,p2)&&nameMatch(e.p2,p1));
+  });
+  if(!ev)return null;
+ 
+  // Vrať kurzy ve správném pořadí (p1 = domácí/první)
+  if(nameMatch(ev.p1,p1))
+    return {o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+  return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
+}
+  var _ds=dataset||_kbOdds;if(!_ds||!_ds.events)return null;
+  var aliases={};try{var _a=localStorage.getItem('ts_kb_aliases');if(_a)aliases=JSON.parse(_a);}catch(e){}
+  var ascii=function(s){return s.toLowerCase().replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');};
+  // Vrátí varianty normalizace jednoho slova/příjmení
+  var wordVars=function(w){
+    var a=ascii(w);if(a.length<2)return[];
+    var vars=[a];
+    if(aliases[a])vars.push(aliases[a]);
+    var noOva=a.replace(/ova$/,'');if(noOva.length>3&&noOva!==a)vars.push(noOva);
+    var noEva=a.replace(/eva$/,'');if(noEva.length>3&&noEva!==a)vars.push(noEva);
+    var noSh=a.replace(/sh/g,'s').replace(/ch/g,'c').replace(/zh/g,'z');if(noSh!==a)vars.push(noSh);
+    var noShOva=noSh.replace(/ova$/,'');if(noShOva.length>3&&noShOva!==noSh)vars.push(noShOva);
+    return vars;
+  };
+  // Vrátí normName jednoho jména (aplikace)
+  var appNorm=function(n){
+    if(!n)return'';var p=n.trim().split(/\s+/);var last=p[p.length-1];
+    if(last.length<=2||last.endsWith('.'))return p[0].toLowerCase().replace(/[^a-z]/g,'');
+    return last.toLowerCase().replace(/[^a-z]/g,'');
+  };
+  // Vrátí všechny varianty KB jména (pro single nebo doubles "A / B")
+  var kbVars=function(name){
+    if(!name)return[];name=name.trim();
+    var words;
+    if(name.indexOf(',')>-1){words=name.split(',')[0].trim().split(/\s+/);}
+    else{words=name.replace(/\//g,' ').split(/\s+/);}  // doubles: "A / B" → všechna slova
+    var vars=[];
+    words.forEach(function(w){if(w.length>1)vars=vars.concat(wordVars(w));});
+    return vars;
+  };
+  // Aplikace normalizace pro p1/p2 (může být "Krawczyk D. / McNally C.")
+  var appNormAll=function(n){
+    if(!n)return[];
+    // Pokud doubles formát "X / Y", normalizuj každého hráče zvlášť
+    if(n.indexOf('/')>-1){
+      return n.split('/').map(function(s){return appNorm(s.trim());}).filter(Boolean);
+    }
+    return [appNorm(n)];
+  };
+  // Matching: kb jméno vs app jméno
+  var matches=function(kbName,appName){
+    var kv=kbVars(kbName);
+    var av=appNormAll(appName);
+    for(var i=0;i<av.length;i++){if(kv.indexOf(av[i])>=0)return true;}
+    return false;
+  };
+  var ev=_ds.events.find(function(e){
+    if(!e.p1||!e.p2)return false;
+    return (matches(e.p1,p1)&&matches(e.p2,p2))||(matches(e.p1,p2)&&matches(e.p2,p1));
+  });
+  if(!ev)return null;
+  if(matches(ev.p1,p1))return{o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+  return{o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
+}
+function _kbCol(p1,p2){
+  if(!_kbUrl)return '';
+  var odds=_getKbOdds(p1,p2);
+  var prevOdds=_kbBaseOdds?_getKbOdds(p1,p2,_kbBaseOdds):null;
+  var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';
+  var a1='',a2='';
+  if(odds&&prevOdds){
+    var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
+    var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+  }
+  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  return '<div style="position:absolute;left:520px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:48px;text-align:center;">'
+    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
+    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
+    +'</div>';
+}
+// === KONEC KINGSBET ODDS ===
+
+
+
+})();
