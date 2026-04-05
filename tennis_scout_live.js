@@ -3013,8 +3013,23 @@ function _normFortuna(n){
 
 
 
+function _fortunaPair(n){
+  if(!n)return '';
+  return n.split('/').map(function(p){return _normFortuna(p.trim());}).sort().join('|');
+}
 function _getFortunaOdds(p1,p2,dataset){
   var _ds=dataset||_fortunaOdds;if(!_ds||!_ds.events)return null;
+  var isDoubles=p1.indexOf('/')>=0||p2.indexOf('/')>=0;
+  if(isDoubles){
+    var pair1=_fortunaPair(p1),pair2=_fortunaPair(p2);
+    var ev=_ds.events.find(function(e){
+      var ep1=_fortunaPair(e.p1),ep2=_fortunaPair(e.p2);
+      return (ep1===pair1&&ep2===pair2)||(ep1===pair2&&ep2===pair1);
+    });
+    if(!ev)return null;
+    if(_fortunaPair(ev.p1)===pair1)return {o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+    return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
+  }
   var n1=_normFortuna(p1),n2=_normFortuna(p2);
   if(!n1||!n2)return null;
   var ev=_ds.events.find(function(e){
