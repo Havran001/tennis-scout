@@ -2156,7 +2156,7 @@ function renderMatches(data){
     h+='</div>';
     if(!shown.length){h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy</div>';}
     else{
-            h+='<div style="height:18px;position:relative;">'+((_betanoUrl)?"<div style=\"position:absolute;left:463px;bottom:0;width:48px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">BETANO</span></div>":"")+((_kbUrl)?"<div style=\"position:absolute;left:520px;bottom:0;width:56px;\"><img src=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 14' width='52' height='14'><rect width='52' height='14' rx='2' fill='%23006837'/><polygon points='4,11 8,4 12,11' fill='%23FFD700'/><polygon points='8,4 12,11 16,4 12,7' fill='%23FFD700'/><text x='19' y='10.5' font-family='Arial,sans-serif' font-size='7' font-weight='900' fill='%23FFD700' letter-spacing='0.5'>KINGS</text></svg>\" width=\"56\" height=\"14\" style=\"display:block;border-radius:2px 2px 0 0;\"/></div>":"")+"<div style=\"position:absolute;left:580px;bottom:0;width:56px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,200,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;color:#333;\">FORTUNA</span></div>"+"<div style=\"position:absolute;left:640px;bottom:0;width:56px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(0,100,200,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">MERKUR</span></div>"+'</div>';
+            h+='<div style="height:18px;position:relative;">'+((_betanoUrl)?"<div style=\"position:absolute;left:463px;bottom:0;width:48px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">BETANO</span></div>":"")+((_kbUrl)?"<div style=\"position:absolute;left:520px;bottom:0;width:56px;\"><img src=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 14' width='52' height='14'><rect width='52' height='14' rx='2' fill='%23006837'/><polygon points='4,11 8,4 12,11' fill='%23FFD700'/><polygon points='8,4 12,11 16,4 12,7' fill='%23FFD700'/><text x='19' y='10.5' font-family='Arial,sans-serif' font-size='7' font-weight='900' fill='%23FFD700' letter-spacing='0.5'>KINGS</text></svg>\" width=\"56\" height=\"14\" style=\"display:block;border-radius:2px 2px 0 0;\"/></div>":"")+"<div style=\"position:absolute;left:580px;bottom:0;width:56px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,200,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;color:#333;\">FORTUNA</span></div>"+"<div style=\"position:absolute;left:640px;bottom:0;width:56px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(0,100,200,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">MERKUR</span></div>"+"<div style=\"position:absolute;left:700px;bottom:0;width:60px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(220,20,60,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">SAZKABET</span></div>"+'</div>';
       if(activeSort==='time'){
         // Flat list sorted by time
         shown.forEach(function(m){
@@ -2183,6 +2183,7 @@ function renderMatches(data){
       h+=_kbCol(m.p1,m.p2);
       h+=_fortunaCol(m.p1,m.p2);
       h+=_merkurCol(m.p1,m.p2);
+      h+=_allwynCol(m.p1,m.p2);
           h+='</div></div>';
         });
       } else {
@@ -2249,6 +2250,7 @@ function renderMatches(data){
       h+=_kbCol(m.p1,m.p2);
       h+=_fortunaCol(m.p1,m.p2);
       h+=_merkurCol(m.p1,m.p2);
+      h+=_allwynCol(m.p1,m.p2);
           h+='</div></div>';
         });
       });
@@ -3146,5 +3148,51 @@ var _runMerkur=function(){
 };
 _runMerkur();setInterval(_runMerkur,30000);
 // === KONEC MERKUR ODDS ===
+
+// === ALLWYN (SAZKABET) ODDS ===
+var _allwynOdds=null;var _allwynBaseOdds=null;var _allwynUpdated='';
+var _allwynUrl='https://betano-odds.vavra-radovan.workers.dev/allwyn-odds';
+var _allwynScrapeUrl='https://betano-odds.vavra-radovan.workers.dev/allwyn-scrape';
+
+function _getAllwynOdds(p1,p2,dataset){
+  return _getKbOdds(p1,p2,dataset||_allwynOdds);
+}
+
+function _allwynCol(p1,p2){
+  var odds=_getAllwynOdds(p1,p2);
+  var prevOdds=_allwynBaseOdds?_getAllwynOdds(p1,p2,_allwynBaseOdds):null;
+  var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';
+  var a1='',a2='';
+  if(odds&&prevOdds){
+    var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
+    var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+  }
+  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  return '<div style="position:absolute;left:700px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;">'
+    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
+    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
+    +'</div>';
+}
+
+var _runAllwyn=function(){
+  fetch(_allwynScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
+    fetch(_allwynUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+      if(!d||!d.events||d.events.length===0)return;
+      _allwynOdds=d;
+      if(!_allwynBaseOdds){_allwynBaseOdds=d;try{localStorage.setItem('ts_allwyn_base',JSON.stringify(d));}catch(e){}}
+      _allwynUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+    }).catch(function(){});
+  });
+};
+_runAllwyn();setInterval(_runAllwyn,30000);
+// === KONEC ALLWYN ODDS ===
 
 })();
