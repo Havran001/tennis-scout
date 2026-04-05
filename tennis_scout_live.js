@@ -2863,14 +2863,7 @@ var _runKb=function(){
 };
 _runKb();setInterval(_runKb,30000);
 
-// ─── KINGSBET NAME MATCHING — oprava pomlček v příjmeních ───────────────────
-// Nahraď v tennis_scout_live.js tyto dvě funkce:
-// _normKbName  a  _getKbOdds
-// (vše ostatní v sekci KINGSBET ODDS zůstává stejné)
-// ────────────────────────────────────────────────────────────────────────────
- 
-// Pomocná: převede libovolný string na ascii-only lowercase, bez diakritiky
-// Pomlčky a lomítka ODSTRANÍ (takže "Bautista-Agut" → "bautistaagut")
+
 function _normKbName(n){
   if(!n)return '';
   n=n.trim();
