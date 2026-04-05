@@ -2156,7 +2156,7 @@ function renderMatches(data){
     h+='</div>';
     if(!shown.length){h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy</div>';}
     else{
-            h+='<div style="height:18px;position:relative;">'+((_betanoUrl)?"<div style=\"position:absolute;left:463px;bottom:0;width:48px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">BETANO</span></div>":"")+((_kbUrl)?"<div style=\"position:absolute;left:520px;bottom:0;width:56px;\"><img src=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 14' width='52' height='14'><rect width='52' height='14' rx='2' fill='%23006837'/><polygon points='4,11 8,4 12,11' fill='%23FFD700'/><polygon points='8,4 12,11 16,4 12,7' fill='%23FFD700'/><text x='19' y='10.5' font-family='Arial,sans-serif' font-size='7' font-weight='900' fill='%23FFD700' letter-spacing='0.5'>KINGS</text></svg>\" width=\"56\" height=\"14\" style=\"display:block;border-radius:2px 2px 0 0;\"/></div>":"")+'</div>';
+            h+='<div style="height:18px;position:relative;">'+((_betanoUrl)?"<div style=\"position:absolute;left:463px;bottom:0;width:48px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">BETANO</span></div>":"")+((_kbUrl)?"<div style=\"position:absolute;left:520px;bottom:0;width:56px;\"><img src=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 14' width='52' height='14'><rect width='52' height='14' rx='2' fill='%23006837'/><polygon points='4,11 8,4 12,11' fill='%23FFD700'/><polygon points='8,4 12,11 16,4 12,7' fill='%23FFD700'/><text x='19' y='10.5' font-family='Arial,sans-serif' font-size='7' font-weight='900' fill='%23FFD700' letter-spacing='0.5'>KINGS</text></svg>\" width=\"56\" height=\"14\" style=\"display:block;border-radius:2px 2px 0 0;\"/></div>":"")+"<div style=\"position:absolute;left:580px;bottom:0;width:56px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,200,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;color:#333;\">FORTUNA</span></div>"+'</div>';
       if(activeSort==='time'){
         // Flat list sorted by time
         shown.forEach(function(m){
@@ -2181,6 +2181,7 @@ function renderMatches(data){
           h+='<a href="'+m.url+'" target="_blank" onclick="event.stopPropagation()" title="Flashscore" style="flex-shrink:0;margin:0 6px;width:28px;height:28px;border-radius:7px;overflow:hidden;display:block;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block;"><rect width="100" height="100" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
             h+=_betanoCol(m.p1,m.p2);
       h+=_kbCol(m.p1,m.p2);
+      h+=_fortunaCol(m.p1,m.p2);
           h+='</div></div>';
         });
       } else {
@@ -2245,6 +2246,7 @@ function renderMatches(data){
           h+='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" style="display:block"><rect width="100" height="100" rx="16" fill="#28a428"/><circle cx="50" cy="58" r="27" fill="none" stroke="white" stroke-width="10" stroke-dasharray="15 12" stroke-linecap="round" stroke-dashoffset="8"/><polygon points="67,13 83,40 51,40" fill="#e8192c"/></svg></a>';
             h+=_betanoCol(m.p1,m.p2);
       h+=_kbCol(m.p1,m.p2);
+      h+=_fortunaCol(m.p1,m.p2);
           h+='</div></div>';
         });
       });
@@ -2990,6 +2992,73 @@ function _kbCol(p1,p2){
 }
 // === KONEC KINGSBET ODDS ===
 
+// === FORTUNA ODDS ===
+var _fortunaOdds=null;var _fortunaBaseOdds=null;var _fortunaUpdated='';
+var _fortunaUrl='https://betano-odds.vavra-radovan.workers.dev/fortuna-odds';
+var _fortunaScrapeUrl='https://betano-odds.vavra-radovan.workers.dev/fortuna-scrape';
 
+function _normFortuna(n){
+  if(!n)return '';
+  // Fortuna posílá "Novak D." nebo "Bautista Agut R." - vezmeme příjmení (vše před posledním tečkovaným tokenem)
+  var p=n.trim().normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z .]/g,'').trim();
+  var parts=p.split(/\s+/);
+  // Poslední token končí tečkou = zkratka křestního jména, zbytek = příjmení
+  var last=parts[parts.length-1];
+  if(last.endsWith('.')){
+    // Příjmení je vše před posledním tokenem
+    return parts.slice(0,-1).join('');
+  }
+  return parts[parts.length-1];
+}
+
+function _getFortunaOdds(p1,p2,dataset){
+  var _ds=dataset||_fortunaOdds;if(!_ds||!_ds.events)return null;
+  var n1=_normFortuna(p1),n2=_normFortuna(p2);
+  if(!n1||!n2)return null;
+  var ev=_ds.events.find(function(e){
+    var en1=_normFortuna(e.p1),en2=_normFortuna(e.p2);
+    return (en1===n1&&en2===n2)||(en1===n2&&en2===n1);
+  });
+  if(!ev)return null;
+  if(_normFortuna(ev.p1)===n1)return {o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+  return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
+}
+
+function _fortunaCol(p1,p2){
+  var odds=_getFortunaOdds(p1,p2);
+  var prevOdds=_fortunaBaseOdds?_getFortunaOdds(p1,p2,_fortunaBaseOdds):null;
+  var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';
+  var a1='',a2='';
+  if(odds&&prevOdds){
+    var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
+    var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+  }
+  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  return '<div style="position:absolute;left:580px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:48px;text-align:center;">'
+    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
+    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
+    +'</div>';
+}
+
+var _runFortuna=function(){
+  fetch(_fortunaScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
+    fetch(_fortunaUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+      if(!d||!d.events||d.events.length===0)return;
+      _fortunaOdds=d;
+      if(!_fortunaBaseOdds){_fortunaBaseOdds=d;try{localStorage.setItem('ts_fortuna_base',JSON.stringify(d));}catch(e){}}
+      _fortunaUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+    }).catch(function(){});
+  });
+};
+_runFortuna();setInterval(_runFortuna,30000);
+// === KONEC FORTUNA ODDS ===
 
 })();
