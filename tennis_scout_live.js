@@ -2881,35 +2881,57 @@ function _normKbName(n){
 }
 function _getKbOdds(p1,p2,dataset){
   var _ds=dataset||_kbOdds;if(!_ds||!_ds.events)return null;
-  var n1=_normName(p1),n2=_normName(p2);
-  // Načti aliases z localStorage: {kbNorm: sackmannNorm}
-  var aliases={};
-  try{var a=localStorage.getItem('ts_kb_aliases');if(a)aliases=JSON.parse(a);}catch(e){}
+  var aliases={};try{var _a=localStorage.getItem('ts_kb_aliases');if(_a)aliases=JSON.parse(_a);}catch(e){}
   var ascii=function(s){return s.toLowerCase().replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');};
-  var kbVars=function(name){
-    if(!name)return[];name=name.trim();if(name.indexOf('/')>-1)return[];
-    var words=name.indexOf(',')>-1?name.split(',')[0].trim().split(/\s+/):name.split(/\s+/);
-    var vars=[];
-    words.forEach(function(w){
-      var a=ascii(w);if(a.length<2)return;
-      vars.push(a);
-      // Přidej alias pokud existuje
-      if(aliases[a])vars.push(aliases[a]);
-      var noOva=a.replace(/ova$/,'');if(noOva.length>3&&noOva!==a)vars.push(noOva);
-      var noEva=a.replace(/eva$/,'');if(noEva.length>3&&noEva!==a)vars.push(noEva);
-      var noSh=a.replace(/sh/g,'s').replace(/ch/g,'c').replace(/zh/g,'z');if(noSh!==a)vars.push(noSh);
-      var noShOva=noSh.replace(/ova$/,'');if(noShOva.length>3&&noShOva!==noSh)vars.push(noShOva);
-    });
+  // Vrátí varianty normalizace jednoho slova/příjmení
+  var wordVars=function(w){
+    var a=ascii(w);if(a.length<2)return[];
+    var vars=[a];
+    if(aliases[a])vars.push(aliases[a]);
+    var noOva=a.replace(/ova$/,'');if(noOva.length>3&&noOva!==a)vars.push(noOva);
+    var noEva=a.replace(/eva$/,'');if(noEva.length>3&&noEva!==a)vars.push(noEva);
+    var noSh=a.replace(/sh/g,'s').replace(/ch/g,'c').replace(/zh/g,'z');if(noSh!==a)vars.push(noSh);
+    var noShOva=noSh.replace(/ova$/,'');if(noShOva.length>3&&noShOva!==noSh)vars.push(noShOva);
     return vars;
+  };
+  // Vrátí normName jednoho jména (aplikace)
+  var appNorm=function(n){
+    if(!n)return'';var p=n.trim().split(/\s+/);var last=p[p.length-1];
+    if(last.length<=2||last.endsWith('.'))return p[0].toLowerCase().replace(/[^a-z]/g,'');
+    return last.toLowerCase().replace(/[^a-z]/g,'');
+  };
+  // Vrátí všechny varianty KB jména (pro single nebo doubles "A / B")
+  var kbVars=function(name){
+    if(!name)return[];name=name.trim();
+    var words;
+    if(name.indexOf(',')>-1){words=name.split(',')[0].trim().split(/\s+/);}
+    else{words=name.replace(/\//g,' ').split(/\s+/);}  // doubles: "A / B" → všechna slova
+    var vars=[];
+    words.forEach(function(w){if(w.length>1)vars=vars.concat(wordVars(w));});
+    return vars;
+  };
+  // Aplikace normalizace pro p1/p2 (může být "Krawczyk D. / McNally C.")
+  var appNormAll=function(n){
+    if(!n)return[];
+    // Pokud doubles formát "X / Y", normalizuj každého hráče zvlášť
+    if(n.indexOf('/')>-1){
+      return n.split('/').map(function(s){return appNorm(s.trim());}).filter(Boolean);
+    }
+    return [appNorm(n)];
+  };
+  // Matching: kb jméno vs app jméno
+  var matches=function(kbName,appName){
+    var kv=kbVars(kbName);
+    var av=appNormAll(appName);
+    for(var i=0;i<av.length;i++){if(kv.indexOf(av[i])>=0)return true;}
+    return false;
   };
   var ev=_ds.events.find(function(e){
     if(!e.p1||!e.p2)return false;
-    var v1=kbVars(e.p1),v2=kbVars(e.p2);
-    if(!v1.length||!v2.length)return false;
-    return (v1.indexOf(n1)>=0&&v2.indexOf(n2)>=0)||(v1.indexOf(n2)>=0&&v2.indexOf(n1)>=0);
+    return (matches(e.p1,p1)&&matches(e.p2,p2))||(matches(e.p1,p2)&&matches(e.p2,p1));
   });
   if(!ev)return null;
-  if(kbVars(ev.p1).indexOf(n1)>=0)return{o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+  if(matches(ev.p1,p1))return{o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
   return{o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
 }
 function _kbCol(p1,p2){
