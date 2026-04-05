@@ -2999,16 +2999,23 @@ var _fortunaScrapeUrl='https://betano-odds.vavra-radovan.workers.dev/fortuna-scr
 
 function _normFortuna(n){
   if(!n)return '';
-  // Normalizuj pomlčky v zkratkách: A-L. -> A.L. (Flashscore vs Fortuna)
   var n2=n.replace(/([A-Za-z])-([A-Za-z]\.)/g,'$1.$2');
   var p=n2.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z .]/g,'').trim();
   var parts=p.split(/\s+/);
-  var abbrevs=parts.filter(function(t){return t.length<=2||t.endsWith('.');});
-  var names=parts.filter(function(t){return t.length>2&&!t.endsWith('.');});
+  var isAbbrev=function(t){return t.endsWith('.')||t.length===1;};
+  var abbrevs=parts.filter(isAbbrev);
+  var names=parts.filter(function(t){return !isAbbrev(t);});
   if(names.length===0)return parts[0]||'';
   if(abbrevs.length>0)return names.join('');
   return names[0];
 }
+function _fortunaNameMatch(a,b){
+  if(a===b)return true;
+  var shorter=a.length<b.length?a:b;
+  var longer=a.length<b.length?b:a;
+  return shorter.length>=5&&longer.startsWith(shorter);
+}
+
 
 
 
@@ -3034,10 +3041,10 @@ function _getFortunaOdds(p1,p2,dataset){
   if(!n1||!n2)return null;
   var ev=_ds.events.find(function(e){
     var en1=_normFortuna(e.p1),en2=_normFortuna(e.p2);
-    return (en1===n1&&en2===n2)||(en1===n2&&en2===n1);
+    return (_fortunaNameMatch(en1,n1)&&_fortunaNameMatch(en2,n2))||(_fortunaNameMatch(en1,n2)&&_fortunaNameMatch(en2,n1));
   });
   if(!ev)return null;
-  if(_normFortuna(ev.p1)===n1)return {o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+  if(_fortunaNameMatch(_normFortuna(ev.p1),n1))return {o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
   return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
 }
 
