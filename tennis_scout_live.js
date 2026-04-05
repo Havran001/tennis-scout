@@ -3013,7 +3013,8 @@ function _fortunaNameMatch(a,b){
   if(a===b)return true;
   var shorter=a.length<b.length?a:b;
   var longer=a.length<b.length?b:a;
-  return shorter.length>=5&&longer.startsWith(shorter);
+  if(shorter.length<5)return false;
+  return longer.startsWith(shorter)||longer.includes(shorter);
 }
 
 
