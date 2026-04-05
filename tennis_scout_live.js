@@ -2853,12 +2853,15 @@ var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
 if(!_kbUrl)_kbUrl='https://betano-odds.vavra-radovan.workers.dev/kb-odds';
 var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
 var _runKb=function(){
-  fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
-    if(!d)return;
-    _kbOdds=d;
-    if(!_kbBaseOdds||(d.events&&d.events.length>0)){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
-    _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+  // Nejdřív vynutí scrape, pak načti čerstvá data
+  fetch(_kbScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
+    fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+      if(!d)return;
+      _kbOdds=d;
+      if(!_kbBaseOdds||(d.events&&d.events.length>0)){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
+      _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+    });
   });
 };
 _runKb();setInterval(_runKb,30000);
