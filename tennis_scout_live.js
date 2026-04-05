@@ -2811,12 +2811,15 @@ function _getBetanoOdds(p1,p2,dataset){
   return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1,url:ev.url};
 }
 function _loadBetanoOdds(){
-  fetch('https://havran001.github.io/tennis-scout/betano_odds.json?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
-    if(!d||!d.events||d.events.length===0)return;
-    _betanoOdds=d;_betanoBaseOdds=d;
-    try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}
-    _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-  }).catch(function(){});
+  // Nejdřív vynutí scrape, pak načti čerstvá data
+  fetch(_bsUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
+    fetch('https://havran001.github.io/tennis-scout/betano_odds.json?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+      if(!d||!d.events||d.events.length===0)return;
+      _betanoOdds=d;_betanoBaseOdds=d;
+      try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}
+      _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+    }).catch(function(){});
+  });
 }
 function _betanoCol(p1, p2){
   var odds=_getBetanoOdds(p1,p2),prevOdds=_betanoBaseOdds?_getBetanoOdds(p1,p2,_betanoBaseOdds):null;
