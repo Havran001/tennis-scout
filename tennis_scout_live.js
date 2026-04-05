@@ -2882,43 +2882,35 @@ function _normKbName(n){
 function _getKbOdds(p1,p2,dataset){
   var _ds=dataset||_kbOdds;if(!_ds||!_ds.events)return null;
   var n1=_normName(p1),n2=_normName(p2);
-  // Vrátí pole možných normalizací KB jména (s/bez -ova, obě varianty háčků)
-  var kbVariants=function(kn){
-    var vars=[kn];
-    var base=kn.replace(/ova$/,'');
-    if(base.length>3)vars.push(base);
-    var base2=kn.replace(/eva$/,'');
-    if(base2.length>3)vars.push(base2);
-    // Přidej variantu BEZ sh/ch/zh konverzí (pro případy kde Sackmann má jen s/c/z)
-    var noDigraph=kn.replace(/sh/g,'s').replace(/ch/g,'c').replace(/zh/g,'z');
-    vars.push(noDigraph);
-    var noDigraphBase=noDigraph.replace(/ova$/,'');
-    if(noDigraphBase.length>3)vars.push(noDigraphBase);
-    return vars;
-  };
-  // Vrátí pole KB normalizací pro hráče (pro dvojitá příjmení)
-  var kbNormAll=function(name){
+  var ascii=function(s){return s.toLowerCase().replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');};
+  // Vrátí všechny varianty normalizace příjmení KB hráče
+  var kbVars=function(name){
     if(!name)return[];
     name=name.trim();
     if(name.indexOf('/')>-1)return[];
-    var ascii=function(s){return s.toLowerCase().replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');};
-    var words;
-    if(name.indexOf(',')>-1){words=name.split(',')[0].trim().split(/\s+/);}
-    else{words=name.split(/\s+/);}
-    // Vrátí varianty posledního a předposledního slova
-    var result=[];
-    words.forEach(function(w){result=result.concat(kbVariants(ascii(w)));});
-    return result;
+    // Získej slova příjmení (před čárkou nebo všechna)
+    var words=name.indexOf(',')>-1?name.split(',')[0].trim().split(/\s+/):name.split(/\s+/);
+    // Pro každé slovo vytvoř varianty
+    var vars=[];
+    words.forEach(function(w){
+      var a=ascii(w);
+      if(a.length<2)return;
+      vars.push(a);
+      var noOva=a.replace(/ova$/,'');if(noOva.length>3&&noOva!==a)vars.push(noOva);
+      var noEva=a.replace(/eva$/,'');if(noEva.length>3&&noEva!==a)vars.push(noEva);
+      var noSh=a.replace(/sh/g,'s').replace(/ch/g,'c').replace(/zh/g,'z');if(noSh!==a)vars.push(noSh);
+      var noShOva=noSh.replace(/ova$/,'');if(noShOva.length>3&&noShOva!==noSh)vars.push(noShOva);
+    });
+    return vars;
   };
   var ev=_ds.events.find(function(e){
     if(!e.p1||!e.p2)return false;
-    var v1=kbNormAll(e.p1),v2=kbNormAll(e.p2);
+    var v1=kbVars(e.p1),v2=kbVars(e.p2);
     if(!v1.length||!v2.length)return false;
     return (v1.indexOf(n1)>=0&&v2.indexOf(n2)>=0)||(v1.indexOf(n2)>=0&&v2.indexOf(n1)>=0);
   });
   if(!ev)return null;
-  var v1=kbNormAll(ev.p1);
-  if(v1.indexOf(n1)>=0)return{o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+  if(kbVars(ev.p1).indexOf(n1)>=0)return{o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
   return{o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
 }
 function _kbCol(p1,p2){
