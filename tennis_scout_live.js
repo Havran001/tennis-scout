@@ -2872,39 +2872,36 @@ function _normKbName(n){
       .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
       .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   };
-  var stripCzech=function(s){
-    // Odstraň českou příponu -ova/-eva jen pokud zbyde >3 znaky
-    var r=s.replace(/ova$/,'');
-    if(r.length>3)return r;
-    r=s.replace(/eva$/,'');
-    if(r.length>3)return r;
-    return s;
-  };
   if(n.indexOf(',')>-1){
-    // "Příjmení, Jméno" nebo "Příjmení1 Příjmení2, Jméno"
     var parts=n.split(',')[0].trim().split(/\s+/);
-    // Bere poslední slovo příjmení - BEZ odstraňování -ova (to není česká přípona)
     return ascii(parts[parts.length-1]);
   }
-  // "Jméno Příjmení" nebo "Jméno Přechýlenépříjmení"
   var p=n.split(/\s+/);
-  var last=ascii(p[p.length-1]);
-  return stripCzech(last);
+  return ascii(p[p.length-1]);
 }
 function _getKbOdds(p1,p2,dataset){
-  var ds=dataset||_kbOdds;
-  if(!ds||!ds.events)return null;
+  var _ds=dataset||_kbOdds;if(!_ds||!_ds.events)return null;
   var n1=_normName(p1),n2=_normName(p2);
-  var ev=ds.events.find(function(e){
-    var ep1=_normKbName(e.p1),ep2=_normKbName(e.p2);
-    return (ep1===n1&&ep2===n2)||(ep1===n2&&ep2===n1);
+  // Fuzzy match: porovnej normalizované KB jméno s/bez -ova/-eva
+  var match=function(kbNorm,appNorm){
+    if(kbNorm===appNorm)return true;
+    if(kbNorm===appNorm+'ova')return true;
+    if(kbNorm===appNorm+'eva')return true;
+    if(kbNorm.replace(/ova$/,'')===appNorm)return true;
+    if(kbNorm.replace(/eva$/,'')===appNorm)return true;
+    return false;
+  };
+  var ev=_ds.events.find(function(e){
+    if(!e.p1||!e.p2)return false;
+    var kn1=_normKbName(e.p1),kn2=_normKbName(e.p2);
+    if(!kn1||!kn2)return false;
+    return (match(kn1,n1)&&match(kn2,n2))||(match(kn1,n2)&&match(kn2,n1));
   });
   if(!ev)return null;
-  // Správné pořadí
-  if(_normKbName(ev.p1)===n1){return {o1:ev.odds1,o2:ev.odds2};}
-  return {o1:ev.odds2,o2:ev.odds1};
+  var kn1=_normKbName(ev.p1);
+  if(match(kn1,n1))return{o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
+  return{o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
 }
-
 function _kbCol(p1,p2){
   if(!_kbUrl)return '';
   var odds=_getKbOdds(p1,p2);
