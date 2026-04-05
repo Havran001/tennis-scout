@@ -8,30 +8,6 @@
 <style>*{margin:0;padding:0;}body{background:#0d1117;}</style>
 </head>
 <body>
-<script>
-fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/tennis_scout_live.js?_='+Date.now(),{cache:'no-store'})
-.then(function(r){if(!r.ok)throw new Error(r.status);return r.text();})
-.then(function(code){
-  var s=document.createElement('script');
-  s.textContent=code;
-  document.head.appendChild(s);
-})
-.catch(function(){
-  var gh=localStorage.getItem('ts_gh_token')||'';
-  var h=gh?{'Authorization':'token '+gh}:{};
-  fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/tennis_scout_live.js',{headers:h,cache:'no-store'})
-  .then(function(r){return r.json();})
-  .then(function(d){
-    if(!d.content)return;
-    var b=atob(d.content.replace(/\n/g,''));
-    var bytes=new Uint8Array(b.length);
-    for(var i=0;i<b.length;i++)bytes[i]=b.charCodeAt(i);
-    var code=new TextDecoder('utf-8').decode(bytes);
-    var s=document.createElement('script');
-    s.textContent=code;
-    document.head.appendChild(s);
-  }).catch(function(e){console.error('Failed',e);});
-});
-</script>
+<script src="tennis_scout_live.js?_=20260405b"></script>
 </body>
 </html>
