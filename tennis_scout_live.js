@@ -2813,7 +2813,7 @@ function _getBetanoOdds(p1,p2,dataset){
 function _loadBetanoOdds(){
   // Nejdřív vynutí scrape, pak načti čerstvá data
   fetch(_bsUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
-    fetch('https://havran001.github.io/tennis-scout/betano_odds.json?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+    fetch('https://betano-odds.vavra-radovan.workers.dev/odds?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
       _betanoOdds=d;_betanoBaseOdds=d;
       try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}
