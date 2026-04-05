@@ -2866,15 +2866,26 @@ _runKb();setInterval(_runKb,30000);
 function _normKbName(n){
   if(!n)return '';
   n=n.trim();
-  var norm=function(s){
+  // Ignoruj čtyřhry (obsahují '/')
+  if(n.indexOf('/')>-1)return '';
+  var ascii=function(s){
     return s.toLowerCase()
       .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
-      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'')
-      .replace(/ova$/,'').replace(/eva$/,'');  // odstraň českou příponu -ová/-ová
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   };
-  if(n.indexOf(',')>-1){return norm(n.split(',')[0].trim());}
+  // Formát "Příjmení, Jméno" - bere část před čárkou
+  if(n.indexOf(',')>-1){
+    var surname=n.split(',')[0].trim();
+    // Pokud příjmení obsahuje mezeru (Jimenez Kasintseva), bere poslední slovo
+    var parts=surname.split(/\s+/);
+    return ascii(parts[parts.length-1]).replace(/ova$/,'').replace(/eva$/,'').replace(/ova$/,'');
+  }
+  // Formát "Jméno Příjmení" - bere poslední slovo
   var p=n.split(/\s+/);
-  return norm(p[p.length-1]);
+  var last=ascii(p[p.length-1]);
+  // Odstraň -ova/-eva příponu (česká přechýlená jména) ale jen pokud zbyde >3 znaky
+  var stripped=last.replace(/ova$/,'').replace(/eva$/,'');
+  return stripped.length>3?stripped:last;
 }
 function _getKbOdds(p1,p2,dataset){
   var ds=dataset||_kbOdds;
