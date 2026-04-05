@@ -2999,16 +2999,17 @@ var _fortunaScrapeUrl='https://betano-odds.vavra-radovan.workers.dev/fortuna-scr
 
 function _normFortuna(n){
   if(!n)return '';
-  var p=n.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z .]/g,'').trim();
+  // Normalizuj pomlčky v zkratkách: A-L. -> A.L. (Flashscore vs Fortuna)
+  var n2=n.replace(/([A-Za-z])-([A-Za-z]\.)/g,'$1.$2');
+  var p=n2.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z .]/g,'').trim();
   var parts=p.split(/\s+/);
   var abbrevs=parts.filter(function(t){return t.length<=2||t.endsWith('.');});
   var names=parts.filter(function(t){return t.length>2&&!t.endsWith('.');});
   if(names.length===0)return parts[0]||'';
-  // Pokud jsou zkratky (Bautista Agut R.), všechna jména jsou příjmení
   if(abbrevs.length>0)return names.join('');
-  // Bez zkratek (Kouame Moise) — vezmi jen první token = příjmení
   return names[0];
 }
+
 
 
 
