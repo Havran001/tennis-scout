@@ -2930,10 +2930,12 @@ var _getKbOdds=function(p1,p2,dataset){
     names.forEach(function(segment){
       segment=segment.trim();
       var parts=segment.split(/\s+/);
-      var surname=parts[0]||'';
-      result=result.concat(wordVars(surname));
-      var last=parts[parts.length-1]||'';
-      if(last!==surname&&last.length>2)result=result.concat(wordVars(last));
+      // Přidej varianty všech tokenů delších než 2 znaky (kromě iniciál jako "A.")
+      parts.forEach(function(part){
+        if(part.length>2&&!part.endsWith('.')){
+          result=result.concat(wordVars(part));
+        }
+      });
     });
     return result;
   };
