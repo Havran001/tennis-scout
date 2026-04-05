@@ -2911,6 +2911,10 @@ var _getKbOdds=function(p1,p2,dataset){
     if(noSh!==a&&vars.indexOf(noSh)<0)vars.push(noSh);
     var noShOva=noSh.replace(/ova$/,'');
     if(noShOva.length>3&&noShOva!==noSh&&vars.indexOf(noShOva)<0)vars.push(noShOva);
+    var noKh=a.replace(/kh/g,'ch');
+    if(noKh!==a&&vars.indexOf(noKh)<0)vars.push(noKh);
+    var khToC=a.replace(/kh/g,'c');
+    if(khToC!==a&&vars.indexOf(khToC)<0)vars.push(khToC);
     return vars;
   };
   var kbVars=function(name){
