@@ -2918,12 +2918,13 @@ var _getKbOdds=function(p1,p2,dataset){
     name=name.trim();
     var words;
     if(name.indexOf(',')>-1){
-      words=name.split(',')[0].trim().split(/\s+/);
+      // Přidej varianty ze VŠECH tokenů (před i za čárkou) — KB nemá konzistentní pořadí
+      words=name.replace(/,/g,' ').replace(/\//g,' ').split(/\s+/);
     }else{
       words=name.replace(/\//g,' ').split(/\s+/);
     }
     var vars=[];
-    words.forEach(function(w){if(w.length>1)vars=vars.concat(wordVars(w));});
+    words.forEach(function(w){if(w.length>2&&!w.endsWith('.'))vars=vars.concat(wordVars(w));});
     return vars;
   };
   var appVars=function(n){
