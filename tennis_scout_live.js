@@ -3058,7 +3058,7 @@ var _runFortuna=function(){
     }).catch(function(){});
   });
 };
-_runFortuna();setInterval(_runFortuna,120000);
+_runFortuna();setInterval(_runFortuna,30000);
 // === KONEC FORTUNA ODDS ===
 
 })();
