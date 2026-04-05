@@ -2798,8 +2798,11 @@ var _bsUrl='https://betano-odds.vavra-radovan.workers.dev/scrape';var _runBetano
 
 function _normName(n){
   if(!n)return '';
-  var p=n.trim().split(/\s+/);
-  var last=p[p.length-1];if(last.length<=2||last.endsWith('.'))return p[0].toLowerCase().replace(/[^a-z]/g,'');return last.toLowerCase().replace(/[^a-z]/g,'');
+  var p=n.trim().split(/[\s\-]+/);
+  // Odstraň poslední token pokud je iniciála nebo tečka
+  while(p.length>1&&(p[p.length-1].length<=2||p[p.length-1].endsWith('.')))p.pop();
+  var last=p[p.length-1];if(!last)return '';
+  return last.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
 }
 
 function _getBetanoOdds(p1,p2,dataset){
