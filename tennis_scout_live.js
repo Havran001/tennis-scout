@@ -2813,13 +2813,13 @@ function _getBetanoOdds(p1,p2,dataset){
   return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1,url:ev.url};
 }
 function _loadBetanoOdds(){
-  // Nejdřív vynutí scrape, pak načti čerstvá data
   fetch(_bsUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
     fetch('https://betano-odds.vavra-radovan.workers.dev/odds?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _betanoOdds=d;_betanoBaseOdds=d;
-      try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}
+      _betanoOdds=d;
+      if(!_betanoBaseOdds){_betanoBaseOdds=d;try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}}
       _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
   });
 }
@@ -3058,7 +3058,7 @@ var _runFortuna=function(){
     }).catch(function(){});
   });
 };
-_runFortuna();setInterval(_runFortuna,30000);
+_runFortuna();setInterval(_runFortuna,120000);
 // === KONEC FORTUNA ODDS ===
 
 })();
