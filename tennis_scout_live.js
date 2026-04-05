@@ -3073,7 +3073,10 @@ function _fortunaCol(p1,p2){
 }
 
 var _runFortuna=function(){
-  fetch(_fortunaScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
+  // Volej oba scrape endpointy paralelně
+  var s1=fetch(_fortunaScrapeUrl+'-1?t='+Date.now()).catch(function(){});
+  var s2=fetch(_fortunaScrapeUrl+'-2?t='+Date.now()).catch(function(){});
+  Promise.all([s1,s2]).finally(function(){
     fetch(_fortunaUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
       _fortunaOdds=d;
