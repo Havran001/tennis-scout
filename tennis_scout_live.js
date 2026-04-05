@@ -2882,20 +2882,19 @@ function _normKbName(n){
 function _getKbOdds(p1,p2,dataset){
   var _ds=dataset||_kbOdds;if(!_ds||!_ds.events)return null;
   var n1=_normName(p1),n2=_normName(p2);
+  // Načti aliases z localStorage: {kbNorm: sackmannNorm}
+  var aliases={};
+  try{var a=localStorage.getItem('ts_kb_aliases');if(a)aliases=JSON.parse(a);}catch(e){}
   var ascii=function(s){return s.toLowerCase().replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');};
-  // Vrátí všechny varianty normalizace příjmení KB hráče
   var kbVars=function(name){
-    if(!name)return[];
-    name=name.trim();
-    if(name.indexOf('/')>-1)return[];
-    // Získej slova příjmení (před čárkou nebo všechna)
+    if(!name)return[];name=name.trim();if(name.indexOf('/')>-1)return[];
     var words=name.indexOf(',')>-1?name.split(',')[0].trim().split(/\s+/):name.split(/\s+/);
-    // Pro každé slovo vytvoř varianty
     var vars=[];
     words.forEach(function(w){
-      var a=ascii(w);
-      if(a.length<2)return;
+      var a=ascii(w);if(a.length<2)return;
       vars.push(a);
+      // Přidej alias pokud existuje
+      if(aliases[a])vars.push(aliases[a]);
       var noOva=a.replace(/ova$/,'');if(noOva.length>3&&noOva!==a)vars.push(noOva);
       var noEva=a.replace(/eva$/,'');if(noEva.length>3&&noEva!==a)vars.push(noEva);
       var noSh=a.replace(/sh/g,'s').replace(/ch/g,'c').replace(/zh/g,'z');if(noSh!==a)vars.push(noSh);
