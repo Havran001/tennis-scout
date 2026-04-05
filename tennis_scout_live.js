@@ -2866,10 +2866,13 @@ _runKb();setInterval(_runKb,30000);
 function _normKbName(n){
   if(!n)return '';
   n=n.trim();
-  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');};
-  // Formát "Příjmení, Jméno" → bere část před čárkou
+  var norm=function(s){
+    return s.toLowerCase()
+      .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh')
+      .replace(/š/g,'sh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+  };
   if(n.indexOf(',')>-1){return norm(n.split(',')[0].trim());}
-  // Formát "Jméno Příjmení" → bere poslední slovo
   var p=n.split(/\s+/);
   return norm(p[p.length-1]);
 }
