@@ -2866,26 +2866,30 @@ _runKb();setInterval(_runKb,30000);
 function _normKbName(n){
   if(!n)return '';
   n=n.trim();
-  // Ignoruj čtyřhry (obsahují '/')
   if(n.indexOf('/')>-1)return '';
   var ascii=function(s){
     return s.toLowerCase()
       .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
       .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   };
-  // Formát "Příjmení, Jméno" - bere část před čárkou
+  var stripCzech=function(s){
+    // Odstraň českou příponu -ova/-eva jen pokud zbyde >3 znaky
+    var r=s.replace(/ova$/,'');
+    if(r.length>3)return r;
+    r=s.replace(/eva$/,'');
+    if(r.length>3)return r;
+    return s;
+  };
   if(n.indexOf(',')>-1){
-    var surname=n.split(',')[0].trim();
-    // Pokud příjmení obsahuje mezeru (Jimenez Kasintseva), bere poslední slovo
-    var parts=surname.split(/\s+/);
-    return ascii(parts[parts.length-1]).replace(/ova$/,'').replace(/eva$/,'').replace(/ova$/,'');
+    // "Příjmení, Jméno" nebo "Příjmení1 Příjmení2, Jméno"
+    var parts=n.split(',')[0].trim().split(/\s+/);
+    // Bere poslední slovo příjmení - BEZ odstraňování -ova (to není česká přípona)
+    return ascii(parts[parts.length-1]);
   }
-  // Formát "Jméno Příjmení" - bere poslední slovo
+  // "Jméno Příjmení" nebo "Jméno Přechýlenépříjmení"
   var p=n.split(/\s+/);
   var last=ascii(p[p.length-1]);
-  // Odstraň -ova/-eva příponu (česká přechýlená jména) ale jen pokud zbyde >3 znaky
-  var stripped=last.replace(/ova$/,'').replace(/eva$/,'');
-  return stripped.length>3?stripped:last;
+  return stripCzech(last);
 }
 function _getKbOdds(p1,p2,dataset){
   var ds=dataset||_kbOdds;
