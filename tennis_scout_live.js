@@ -2868,15 +2868,14 @@ function _normKbName(n){
   n=n.trim();
   var norm=function(s){
     return s.toLowerCase()
-      .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh')
-      .replace(/š/g,'sh').replace(/đ/g,'dj').replace(/ć/g,'c')
-      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+      .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'')
+      .replace(/ova$/,'').replace(/eva$/,'');  // odstraň českou příponu -ová/-ová
   };
   if(n.indexOf(',')>-1){return norm(n.split(',')[0].trim());}
   var p=n.split(/\s+/);
   return norm(p[p.length-1]);
 }
-
 function _getKbOdds(p1,p2,dataset){
   var ds=dataset||_kbOdds;
   if(!ds||!ds.events)return null;
