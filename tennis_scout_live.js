@@ -3101,18 +3101,13 @@ function _getKbOddsFrom(p1,p2,dataset,urlBase){
 }
 
 function _getMerkurOdds(p1,p2,dataset){
-  var _ds=dataset||_merkurOdds;if(!_ds||!_ds.events)return null;
-  var n1=_normKbName(p1),n2=_normKbName(p2);
-  var ev=_ds.events.find(function(e){
-    var kv1=kbVars(e.p1),kv2=kbVars(e.p2);
-    var av1=appVars(p1),av2=appVars(p2);
-    return (kv1.some(function(v){return av1.indexOf(v)>=0;})&&kv2.some(function(v){return av2.indexOf(v)>=0;}))||
-           (kv1.some(function(v){return av2.indexOf(v)>=0;})&&kv2.some(function(v){return av1.indexOf(v)>=0;}));
-  });
-  if(!ev)return null;
-  var kv1=kbVars(ev.p1),av1=appVars(p1);
-  if(kv1.some(function(v){return av1.indexOf(v)>=0;}))return {o1:ev.odds1,o2:ev.odds2,s1:ev.suspended1,s2:ev.suspended2};
-  return {o1:ev.odds2,o2:ev.odds1,s1:ev.suspended2,s2:ev.suspended1};
+  var ds=dataset||_merkurOdds;
+  if(!ds||!ds.events)return null;
+  // Použij _getKbOdds s Merkur datastem
+  var saved=_kbOdds;_kbOdds=ds;
+  var result=_getKbOdds(p1,p2,ds);
+  _kbOdds=saved;
+  return result;
 }
 
 function _merkurCol(p1,p2){
