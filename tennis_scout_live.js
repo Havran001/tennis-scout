@@ -2308,17 +2308,14 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     if(_fetching)return;
     _fetching=true;
     try{
+      // Načti zápasy a Chance data paralelně
+      var chancePromise=(!_chanceOdds)?fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.json();}).catch(function(){return null;}):Promise.resolve(null);
       var data=await loadData();
-      // Načti Chance data pokud ještě nejsou
-      if(!_chanceOdds){
-        try{
-          var cr=await fetch(_chanceWorkerUrl+'?t='+Date.now());
-          var cd=await cr.json();
-          if(cd&&cd.events&&cd.events.length>0){
-            _chanceOdds=cd;
-            if(!_chanceBaseOdds){_chanceBaseOdds=cd;try{localStorage.setItem('ts_chance_base',JSON.stringify(cd));}catch(e){}}
-          }
-        }catch(e){}
+      // Počkej na Chance data
+      var cd=await chancePromise;
+      if(cd&&cd.events&&cd.events.length>0){
+        _chanceOdds=cd;
+        if(!_chanceBaseOdds){_chanceBaseOdds=cd;try{localStorage.setItem('ts_chance_base',JSON.stringify(cd));}catch(e){}}
       }
       _lastUpdated=data.updated||new Date().toISOString();
       _lastData=data;
