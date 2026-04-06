@@ -2303,6 +2303,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       _lastUpdated=data.updated||new Date().toISOString();
       _lastData=data;
       window._lastData=data;
+      sh._lastData=data;
       renderMatches(data);
     }catch(e){
       if(_lastData){renderMatches(_lastData);}
@@ -3278,9 +3279,6 @@ function _getChanceOdds(p1,p2,dataset){
 
 function _chanceCol(p1,p2){
   var odds=_getChanceOdds(p1,p2);
-  if(!odds&&_chanceOdds&&_chanceOdds.events&&_chanceOdds.events.length>0){
-    console.log('[Chance] no match for:',p1,'vs',p2,'norm:',_normChance(p1),_normChance(p2),'sample ev:',_chanceOdds.events[0].p1,_normChance(_chanceOdds.events[0].p1));
-  }
   var prevOdds=_chanceBaseOdds?_getChanceOdds(p1,p2,_chanceBaseOdds):null;
   var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';
   var a1='',a2='';
@@ -3319,9 +3317,7 @@ var _runChance=function(){
       _chanceOdds=d;
       if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
       _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      var _ld=window._lastData;
-      if(sh&&sh._renderMatches&&_ld)sh._renderMatches(_ld);
-      else{var _retryC=0;var _retryFn=setInterval(function(){_retryC++;var _ld2=window._lastData;if(sh&&sh._renderMatches&&_ld2){sh._renderMatches(_ld2);clearInterval(_retryFn);}if(_retryC>20)clearInterval(_retryFn);},500);}
+      if(sh&&sh._renderMatches&&sh._lastData)sh._renderMatches(sh._lastData);
     }).catch(function(){});
     return;
   }
@@ -3364,7 +3360,7 @@ var _runChance=function(){
     _chanceOdds={events:events};
     if(!_chanceBaseOdds){_chanceBaseOdds={events:events};try{localStorage.setItem('ts_chance_base',JSON.stringify(_chanceBaseOdds));}catch(e){}}
     _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+    if(sh&&sh._renderMatches&&sh._lastData)sh._renderMatches(sh._lastData);
     fetch(_chancePushUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({events:events})}).then(function(r){return r.json();}).then(function(d){console.log('[Chance] push:',d.count,'events');}).catch(function(){});
   }).catch(function(){});
 };
