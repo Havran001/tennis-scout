@@ -3251,9 +3251,12 @@ var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
 
 function _normChance(n){
   if(!n)return '';
-  var p=n.trim().split(/[\s\-]+/);
-  while(p.length>1&&(p[p.length-1].length<=2||p[p.length-1].endsWith('.')))p.pop();
-  var last=p[p.length-1];if(!last)return '';
+  // Chance formát: "C.Alcaraz" nebo "Alcaraz" — vezmi část za poslední tečkou nebo celé příjmení
+  var dotIdx=n.lastIndexOf('.');
+  var surname=dotIdx>=0?n.slice(dotIdx+1).trim():n.trim();
+  // Fallback: vezmi poslední slovo
+  var parts=surname.split(/[\s\-]+/);
+  var last=parts[parts.length-1]||'';
   return last.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
 }
 
@@ -3309,15 +3312,15 @@ var _runChance=function(){
           var comp=tab.offerCompetitionAnnuals[k];
           for(var l=0;l<(comp.matches||[]).length;l++){
             var m=comp.matches[l];
-            var odds=[];
-            for(var r2=0;r2<(m.oppRows||[]).length;r2++){
-              (m.oppRows[r2].oppsTab||[]).forEach(function(o){if(o&&o.odd)odds.push(o.odd);});
-            }
-            if(odds.length<2)continue;
-            var name=(m.nameFull||m.name||'');
-            var parts=name.split(' - ');
-            if(parts.length<2)continue;
-            events.push({p1:parts[0].trim(),p2:parts[1].trim(),odds1:odds[0],odds2:odds[1]});
+            // Jména jsou v oppRows[0].oppsTab[].label ve formátu "C.Alcaraz"
+            var opps=(m.oppRows&&m.oppRows[0]&&m.oppRows[0].oppsTab)||[];
+            if(opps.length<2)continue;
+            var p1label=opps[0]?opps[0].label:'';
+            var p2label=opps[1]?opps[1].label:'';
+            if(!p1label||!p2label)continue;
+            var o1=opps[0].odd,o2=opps[1].odd;
+            if(!o1||!o2)continue;
+            events.push({p1:p1label,p2:p2label,odds1:o1,odds2:o2});
           }
         }
       }
