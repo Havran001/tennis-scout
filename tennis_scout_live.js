@@ -2382,7 +2382,8 @@ var _runChance=function(){
       _chanceOdds=d;
       if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
       _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(typeof _lastData!=='undefined'&&_lastData)renderMatches(_lastData);
+      if(typeof _lastData!=='undefined'&&_lastData){renderMatches(_lastData);}
+      else{var _ct=0;var _ci=setInterval(function(){_ct++;if(typeof _lastData!=='undefined'&&_lastData){renderMatches(_lastData);clearInterval(_ci);}if(_ct>20)clearInterval(_ci);},500);}
     }).catch(function(){});
     return;
   }
@@ -2431,68 +2432,7 @@ var _runChance=function(){
 };
 
 (function(){try{var s=localStorage.getItem('ts_chance_base');if(s)_chanceBaseOdds=JSON.parse(s);}catch(e){}})();
-
-// Načti Chance data přes skrytý iframe (obchází CORS)
-function _fetchChanceViaIframe(){
-  try{
-    var existing=document.getElementById('_ts_chance_iframe');
-    if(existing)existing.remove();
-    var iframe=document.createElement('iframe');
-    iframe.id='_ts_chance_iframe';
-    iframe.src='https://www.chance.cz/kurzy/tenis-43';
-    iframe.style.cssText='position:fixed;top:-9999px;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none;';
-    document.body.appendChild(iframe);
-    iframe.onload=function(){
-      try{
-        var iwin=iframe.contentWindow;
-        iwin.fetch('/rest/offer/v2/offer?limit=300',{
-          method:'POST',
-          headers:{'Content-Type':'application/json'},
-          body:JSON.stringify({type:'SUPERSPORT',id:43})
-        }).then(function(r){return r.json();}).then(function(data){
-          var events=[];
-          for(var i=0;i<(data.offerSuperSports||[]).length;i++){
-            var ss=data.offerSuperSports[i];
-            for(var j=0;j<(ss.tabs||[]).length;j++){
-              var tab=ss.tabs[j];
-              if(tab.matchView&&tab.matchView!=='WINNER_WHOLE_MATCH')continue;
-              for(var k=0;k<(tab.offerCompetitionAnnuals||[]).length;k++){
-                var comp=tab.offerCompetitionAnnuals[k];
-                for(var l=0;l<(comp.matches||[]).length;l++){
-                  var m=comp.matches[l];
-                  var opps=[];
-                  for(var r2=0;r2<(m.oppRows||[]).length;r2++){
-                    var valid=(m.oppRows[r2].oppsTab||[]).filter(function(o){return o&&o.odd&&o.label;});
-                    if(valid.length>=2){opps=valid;break;}
-                  }
-                  if(opps.length<2)continue;
-                  var p1l=opps[0].label,p2l=opps[1].label;
-                  if(!p1l||!p2l)continue;
-                  var o1=opps[0].odd,o2=opps[1].odd;
-                  if(!o1||!o2)continue;
-                  var norm=function(lbl){var d=lbl.lastIndexOf('.');return d>=0?lbl.slice(d+1).trim()+' '+lbl.slice(0,d+1).trim():lbl.trim();};
-                  events.push({p1:norm(p1l),p2:norm(p2l),odds1:o1,odds2:o2,suspended1:!(opps[0].bettingEnabled),suspended2:!(opps[1].bettingEnabled)});
-                }
-              }
-            }
-          }
-          if(!events.length)return;
-          _chanceOdds={events:events};
-          if(!_chanceBaseOdds){_chanceBaseOdds={events:events};try{localStorage.setItem('ts_chance_base',JSON.stringify(_chanceBaseOdds));}catch(e){}}
-          _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-          if(typeof _lastData!=='undefined'&&_lastData)renderMatches(_lastData);
-          fetch(_chancePushUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({events:events})}).catch(function(){});
-          try{iframe.remove();}catch(e){}
-        }).catch(function(){try{iframe.remove();}catch(e){}});
-      }catch(e){try{iframe.remove();}catch(e2){}}
-    };
-  }catch(e){}
-}
-
-_runChance();
-_fetchChanceViaIframe();
-setInterval(_runChance,30000);
-setInterval(_fetchChanceViaIframe,60000);
+_runChance();setInterval(_runChance,30000);
 // === KONEC CHANCE ODDS ===
 
   return wrap;
