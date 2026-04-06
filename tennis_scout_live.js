@@ -2294,6 +2294,15 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     });
   }
 
+  var _chanceWorkerUrl='https://betano-odds.vavra-radovan.workers.dev/chance-odds';
+  var _chancePushUrl='https://betano-odds.vavra-radovan.workers.dev/chance-push';
+  var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
+  (function(){try{var s=localStorage.getItem('ts_chance_base');if(s)_chanceBaseOdds=JSON.parse(s);}catch(e){}})();
+
+  function _normChance(n){if(!n)return '';var s=n.trim();s=s.replace(/\s+[A-Z]\.?\s*$/,'').trim();s=s.replace(/^[A-Z]\.\s*/,'').trim();var parts=s.split(/[\s\-]+/);var last=parts[parts.length-1]||'';return last.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');}
+  function _getChanceOdds(p1,p2,dataset){var _ds=dataset||_chanceOdds;if(!_ds||!_ds.events)return null;var n1=_normChance(p1),n2=_normChance(p2);if(!n1||!n2)return null;var ev=_ds.events.find(function(e){var en1=_normChance(e.p1),en2=_normChance(e.p2);return(en1===n1&&en2===n2)||(en1===n2&&en2===n1);});if(!ev)return null;if(_normChance(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};return{o1:ev.odds2,o2:ev.odds1};}
+  function _chanceCol(p1,p2){var odds=_getChanceOdds(p1,p2);var prevOdds=_chanceBaseOdds?_getChanceOdds(p1,p2,_chanceBaseOdds):null;var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';var a1='',a2='';if(odds&&prevOdds){var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';}var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';return'<div style="position:absolute;left:830px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;"><div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div><div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div></div>';}
+
   var _fetching=false;
   async function tick(){
     if(_fetching)return;
@@ -2325,132 +2334,6 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
   wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);};
   wrap.renderOdds=function(){if(wrap._lastData){renderMatches(wrap._lastData);}else if(_lastData){renderMatches(_lastData);}};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
-// === CHANCE ODDS ===
-var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
-
-function _normChance(n){
-  if(!n)return '';
-  // Bere příjmení — funguje pro "Alcaraz C.", "Carlos Alcaraz", "C.Alcaraz"
-  var s=n.trim();
-  // Odstraň iniciálu na konci: "Alcaraz C." → "Alcaraz"
-  s=s.replace(/\s+[A-Z]\.?\s*$/,'').trim();
-  // Odstraň iniciálu na začátku: "C. Alcaraz" nebo "C.Alcaraz" → "Alcaraz"
-  s=s.replace(/^[A-Z]\.\s*/,'').trim();
-  var parts=s.split(/[\s\-]+/);
-  var last=parts[parts.length-1]||'';
-  return last.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
-}
-
-function _getChanceOdds(p1,p2,dataset){
-  var _ds=dataset||_chanceOdds;if(!_ds||!_ds.events)return null;
-  var n1=_normChance(p1),n2=_normChance(p2);
-  if(!n1||!n2)return null;
-  var ev=_ds.events.find(function(e){
-    var en1=_normChance(e.p1),en2=_normChance(e.p2);
-    return (en1===n1&&en2===n2)||(en1===n2&&en2===n1);
-  });
-  if(!ev)return null;
-  if(_normChance(ev.p1)===n1)return {o1:ev.odds1,o2:ev.odds2};
-  return {o1:ev.odds2,o2:ev.odds1};
-}
-
-function _chanceCol(p1,p2){
-  var odds=_getChanceOdds(p1,p2);
-  var prevOdds=_chanceBaseOdds?_getChanceOdds(p1,p2,_chanceBaseOdds):null;
-  var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';
-  var a1='',a2='';
-  if(odds&&prevOdds){
-    var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
-    var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
-    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-  }
-  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
-  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
-  return '<div style="position:absolute;left:830px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;">'
-    +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
-    +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
-    +'</div>';
-}
-
-var _chanceWorkerUrl='https://betano-odds.vavra-radovan.workers.dev/chance-odds';
-var _chancePushUrl='https://betano-odds.vavra-radovan.workers.dev/chance-push';
-
-function _chanceNormLabel(lbl){
-  if(!lbl)return lbl;
-  var d=lbl.lastIndexOf('.');
-  return d>=0?lbl.slice(d+1).trim()+' '+lbl.slice(0,d+1).trim():lbl.trim();
-}
-
-var _runChance=function(){
-  // Pokud nejsme na chance.cz, načti z Workeru
-  if(!location.hostname.includes('chance.cz')){
-    fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
-      if(!d||!d.events||d.events.length===0)return;
-      _chanceOdds=d;
-      if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
-      _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(typeof _lastData!=='undefined'&&_lastData){renderMatches(_lastData);}
-      var _ci2=setInterval(function(){
-        var _mwEl=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot&&document.getElementById('ts-host').shadowRoot.getElementById('mw');
-        if(_mwEl&&_mwEl._lastData){renderMatches(_mwEl._lastData);clearInterval(_ci2);}
-        else if(_mwEl&&_mwEl.renderOdds){_mwEl.renderOdds();clearInterval(_ci2);}
-      },500);
-    }).catch(function(){});
-    return;
-  }
-  // Na chance.cz načti přímo, zparsuj a pushni do Workeru
-  fetch('https://www.chance.cz/rest/offer/v2/offer?limit=300',{
-    method:'POST',
-    headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({type:'SUPERSPORT',id:43})
-  }).then(function(r){return r.ok?r.json():null;}).then(function(data){
-    if(!data)return;
-    var events=[];
-    for(var i=0;i<(data.offerSuperSports||[]).length;i++){
-      var ss=data.offerSuperSports[i];
-      for(var j=0;j<(ss.tabs||[]).length;j++){
-        var tab=ss.tabs[j];
-        if(tab.matchView&&tab.matchView!=='WINNER_WHOLE_MATCH')continue;
-        for(var k=0;k<(tab.offerCompetitionAnnuals||[]).length;k++){
-          var comp=tab.offerCompetitionAnnuals[k];
-          for(var l=0;l<(comp.matches||[]).length;l++){
-            var m=comp.matches[l];
-            var opps=[];
-            for(var r2=0;r2<(m.oppRows||[]).length;r2++){
-              var tab2=m.oppRows[r2].oppsTab||[];
-              var validOpps=tab2.filter(function(o){return o&&o.odd&&o.label;});
-              if(validOpps.length>=2){opps=validOpps;break;}
-            }
-            if(opps.length<2)continue;
-            var p1label=opps[0]?opps[0].label:'';
-            var p2label=opps[1]?opps[1].label:'';
-            if(!p1label||!p2label)continue;
-            var o1=opps[0].odd,o2=opps[1].odd;
-            if(!o1||!o2)continue;
-            events.push({p1:_chanceNormLabel(p1label),p2:_chanceNormLabel(p2label),odds1:o1,odds2:o2,suspended1:!(opps[0].bettingEnabled),suspended2:!(opps[1].bettingEnabled)});
-          }
-        }
-      }
-    }
-    console.log('[Chance] parsed:',events.length,'events, sample:',events[0]&&(events[0].p1+' vs '+events[0].p2));
-    if(!events.length)return;
-    _chanceOdds={events:events};
-    if(!_chanceBaseOdds){_chanceBaseOdds={events:events};try{localStorage.setItem('ts_chance_base',JSON.stringify(_chanceBaseOdds));}catch(e){}}
-    _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    if(sh&&sh._renderMatches&&sh._lastData)sh._renderMatches(sh._lastData);
-    fetch(_chancePushUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({events:events})}).then(function(r){return r.json();}).then(function(d){console.log('[Chance] push:',d.count,'events');}).catch(function(){});
-  }).catch(function(){});
-};
-
-(function(){try{var s=localStorage.getItem('ts_chance_base');if(s)_chanceBaseOdds=JSON.parse(s);}catch(e){}})();
-_runChance();setInterval(function(){_chanceOdds=null;_runChance();},300000);
-// === KONEC CHANCE ODDS ===
-
   return wrap;
 }
 
