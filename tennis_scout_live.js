@@ -2312,6 +2312,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
   }
   function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
   wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);};
+  wrap.renderOdds=function(){if(_lastData)renderMatches(_lastData);};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
 // === CHANCE ODDS ===
 var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
@@ -2385,7 +2386,7 @@ var _runChance=function(){
       if(typeof _lastData!=='undefined'&&_lastData){renderMatches(_lastData);}
       setTimeout(function(){
         var _mwEl=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot&&document.getElementById('ts-host').shadowRoot.getElementById('mw');
-        if(_mwEl&&_mwEl.render)_mwEl.render();
+        if(_mwEl&&_mwEl.renderOdds)_mwEl.renderOdds();
       },2000);
     }).catch(function(){});
     return;
