@@ -3317,7 +3317,7 @@ var _runChance=function(){
       _chanceOdds=d;
       if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
       _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&sh._lastData)sh._renderMatches(sh._lastData);
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
     return;
   }
