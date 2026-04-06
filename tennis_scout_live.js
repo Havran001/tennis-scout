@@ -3301,6 +3301,12 @@ function _chanceCol(p1,p2){
 var _chanceWorkerUrl='https://betano-odds.vavra-radovan.workers.dev/chance-odds';
 var _chancePushUrl='https://betano-odds.vavra-radovan.workers.dev/chance-push';
 
+function _chanceNormLabel(lbl){
+  if(!lbl)return lbl;
+  var d=lbl.lastIndexOf('.');
+  return d>=0?lbl.slice(d+1).trim()+' '+lbl.slice(0,d+1).trim():lbl.trim();
+}
+
 var _runChance=function(){
   // Pokud nejsme na chance.cz, načti z Workeru
   if(!location.hostname.includes('chance.cz')){
@@ -3337,21 +3343,18 @@ var _runChance=function(){
             if(!p1label||!p2label)continue;
             var o1=opps[0].odd,o2=opps[1].odd;
             if(!o1||!o2)continue;
-            // Převeď "C.Alcaraz" → "Alcaraz C." pro snadnější matchování
-            var norm=function(lbl){var d=lbl.lastIndexOf('.');return d>=0?lbl.slice(d+1).trim()+' '+lbl.slice(0,d+1).trim():lbl.trim();};
-            events.push({p1:norm(p1label),p2:norm(p2label),odds1:o1,odds2:o2,suspended1:!(opps[0].bettingEnabled),suspended2:!(opps[1].bettingEnabled)});
+            events.push({p1:_chanceNormLabel(p1label),p2:_chanceNormLabel(p2label),odds1:o1,odds2:o2,suspended1:!(opps[0].bettingEnabled),suspended2:!(opps[1].bettingEnabled)});
           }
         }
       }
     }
+    console.log('[Chance] parsed:',events.length,'events, sample:',events[0]&&(events[0].p1+' vs '+events[0].p2));
     if(!events.length)return;
-    // Ulož lokálně
     _chanceOdds={events:events};
     if(!_chanceBaseOdds){_chanceBaseOdds={events:events};try{localStorage.setItem('ts_chance_base',JSON.stringify(_chanceBaseOdds));}catch(e){}}
     _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
     if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
-    // Pushni do Workeru pro ostatní
-    fetch(_chancePushUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({events:events})}).catch(function(){});
+    fetch(_chancePushUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({events:events})}).then(function(r){return r.json();}).then(function(d){console.log('[Chance] push:',d.count,'events');}).catch(function(){});
   }).catch(function(){});
 };
 
