@@ -2300,6 +2300,17 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     _fetching=true;
     try{
       var data=await loadData();
+      // Načti Chance data pokud ještě nejsou
+      if(!_chanceOdds){
+        try{
+          var cr=await fetch(_chanceWorkerUrl+'?t='+Date.now());
+          var cd=await cr.json();
+          if(cd&&cd.events&&cd.events.length>0){
+            _chanceOdds=cd;
+            if(!_chanceBaseOdds){_chanceBaseOdds=cd;try{localStorage.setItem('ts_chance_base',JSON.stringify(cd));}catch(e){}}
+          }
+        }catch(e){}
+      }
       _lastUpdated=data.updated||new Date().toISOString();
       _lastData=data;
       window._lastData=data;
@@ -2312,7 +2323,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
   }
   function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
   wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);};
-  wrap.renderOdds=function(){if(_lastData)renderMatches(_lastData);};
+  wrap.renderOdds=function(){if(_lastData){renderMatches(_lastData);}else{tick();}};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
 // === CHANCE ODDS ===
 var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
@@ -2436,7 +2447,7 @@ var _runChance=function(){
 };
 
 (function(){try{var s=localStorage.getItem('ts_chance_base');if(s)_chanceBaseOdds=JSON.parse(s);}catch(e){}})();
-_runChance();setInterval(_runChance,30000);
+_runChance();setInterval(function(){_chanceOdds=null;_runChance();},300000);
 // === KONEC CHANCE ODDS ===
 
   return wrap;
