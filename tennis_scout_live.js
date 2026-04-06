@@ -3336,7 +3336,12 @@ var _runChance=function(){
           var comp=tab.offerCompetitionAnnuals[k];
           for(var l=0;l<(comp.matches||[]).length;l++){
             var m=comp.matches[l];
-            var opps=(m.oppRows&&m.oppRows[0]&&m.oppRows[0].oppsTab)||[];
+            var opps=[];
+            for(var r2=0;r2<(m.oppRows||[]).length;r2++){
+              var tab2=m.oppRows[r2].oppsTab||[];
+              var validOpps=tab2.filter(function(o){return o&&o.odd&&o.label;});
+              if(validOpps.length>=2){opps=validOpps;break;}
+            }
             if(opps.length<2)continue;
             var p1label=opps[0]?opps[0].label:'';
             var p2label=opps[1]?opps[1].label:'';
