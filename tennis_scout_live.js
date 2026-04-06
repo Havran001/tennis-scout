@@ -3316,7 +3316,9 @@ var _runChance=function(){
       _chanceOdds=d;
       if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
       _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&window._lastData)sh._renderMatches(window._lastData);
+      var _ld=window._lastData;
+      if(sh&&sh._renderMatches&&_ld)sh._renderMatches(_ld);
+      else{var _retryC=0;var _retryFn=setInterval(function(){_retryC++;var _ld2=window._lastData;if(sh&&sh._renderMatches&&_ld2){sh._renderMatches(_ld2);clearInterval(_retryFn);}if(_retryC>20)clearInterval(_retryFn);},500);}
     }).catch(function(){});
     return;
   }
