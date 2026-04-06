@@ -2314,7 +2314,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       _lastUpdated=data.updated||new Date().toISOString();
       _lastData=data;
       window._lastData=data;
-      sh._lastData=data;
+      wrap._lastData=data;
       renderMatches(data);
     }catch(e){
       if(_lastData){renderMatches(_lastData);}
@@ -2323,7 +2323,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
   }
   function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
   wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);};
-  wrap.renderOdds=function(){if(_lastData){renderMatches(_lastData);}else{tick();}};
+  wrap.renderOdds=function(){if(wrap._lastData){renderMatches(wrap._lastData);}else if(_lastData){renderMatches(_lastData);}};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
 // === CHANCE ODDS ===
 var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
@@ -2397,7 +2397,8 @@ var _runChance=function(){
       if(typeof _lastData!=='undefined'&&_lastData){renderMatches(_lastData);}
       var _ci2=setInterval(function(){
         var _mwEl=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot&&document.getElementById('ts-host').shadowRoot.getElementById('mw');
-        if(_mwEl&&_mwEl.renderOdds){_mwEl.renderOdds();clearInterval(_ci2);}
+        if(_mwEl&&_mwEl._lastData){renderMatches(_mwEl._lastData);clearInterval(_ci2);}
+        else if(_mwEl&&_mwEl.renderOdds){_mwEl.renderOdds();clearInterval(_ci2);}
       },500);
     }).catch(function(){});
     return;
