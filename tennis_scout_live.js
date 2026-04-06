@@ -2877,8 +2877,14 @@ var _runChance=function(){
     console.log('[Chance] loaded:',d.events.length,'events, sh:',typeof sh,'lastData:',typeof _lastData);
     if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
     _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    var _sh=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;
-    if(_sh&&_sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)_sh._renderMatches(_lastData);
+    var _doRender=function(){
+      var _sh=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;
+      if(_sh&&_sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData){_sh._renderMatches(_lastData);return true;}
+      return false;
+    };
+    if(!_doRender()){
+      var _ct=0;var _ci=setInterval(function(){_ct++;if(_doRender()||_ct>20)clearInterval(_ci);},500);
+    }
   }).catch(function(){});
 };
 _runChance();setInterval(_runChance,30000);
