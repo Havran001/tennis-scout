@@ -2870,15 +2870,13 @@ var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
 function _normChance(n){if(!n)return '';var s=n.trim();s=s.replace(/\s+[A-Z]\.?\s*$/,'').trim();s=s.replace(/^[A-Z]\.\s*/,'').trim();var parts=s.split(/[\s\-]+/);var last=parts[parts.length-1]||'';return last.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');}
 function _getChanceOdds(p1,p2,dataset){var _ds=dataset||_chanceOdds;if(!_ds||!_ds.events)return null;var n1=_normChance(p1),n2=_normChance(p2);if(!n1||!n2)return null;var ev=_ds.events.find(function(e){var en1=_normChance(e.p1),en2=_normChance(e.p2);return(en1===n1&&en2===n2)||(en1===n2&&en2===n1);});if(!ev)return null;if(_normChance(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};return{o1:ev.odds2,o2:ev.odds1};}
 var _runChance=function(){
-  fetch('https://betano-odds.vavra-radovan.workers.dev/chance-scrape?t='+Date.now()).catch(function(){}).finally(function(){
-    fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
-      if(!d||!d.events||d.events.length===0)return;
-      _chanceOdds=d;
-      if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
-      _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
-    }).catch(function(){});
-  });
+  fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+    if(!d||!d.events||d.events.length===0)return;
+    _chanceOdds=d;
+    if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
+    _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+  }).catch(function(){});
 };
 _runChance();setInterval(_runChance,30000);
 
