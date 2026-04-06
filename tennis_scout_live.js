@@ -2300,15 +2300,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     _fetching=true;
     try{
       // Načti zápasy a Chance data paralelně
-      var chancePromise=(!_chanceOdds)?fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.json();}).catch(function(){return null;}):Promise.resolve(null);
       var data=await loadData();
-      // Počkej na Chance data
-      var cd=await chancePromise;
-      if(cd&&cd.events&&cd.events.length>0){
-        _chanceOdds=cd;
-        wrap._chanceOdds=cd;
-        if(!_chanceBaseOdds){_chanceBaseOdds=cd;try{localStorage.setItem('ts_chance_base',JSON.stringify(cd));}catch(e){}}
-      }
       _lastUpdated=data.updated||new Date().toISOString();
       _lastData=data;
       window._lastData=data;
@@ -2877,6 +2869,19 @@ var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
 
 function _normChance(n){if(!n)return '';var s=n.trim();s=s.replace(/\s+[A-Z]\.?\s*$/,'').trim();s=s.replace(/^[A-Z]\.\s*/,'').trim();var parts=s.split(/[\s\-]+/);var last=parts[parts.length-1]||'';return last.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');}
 function _getChanceOdds(p1,p2,dataset){var _ds=dataset||_chanceOdds;if(!_ds||!_ds.events)return null;var n1=_normChance(p1),n2=_normChance(p2);if(!n1||!n2)return null;var ev=_ds.events.find(function(e){var en1=_normChance(e.p1),en2=_normChance(e.p2);return(en1===n1&&en2===n2)||(en1===n2&&en2===n1);});if(!ev)return null;if(_normChance(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};return{o1:ev.odds2,o2:ev.odds1};}
+var _runChance=function(){
+  fetch('https://betano-odds.vavra-radovan.workers.dev/chance-scrape?t='+Date.now()).catch(function(){}).finally(function(){
+    fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+      if(!d||!d.events||d.events.length===0)return;
+      _chanceOdds=d;
+      if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
+      _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+    }).catch(function(){});
+  });
+};
+_runChance();setInterval(_runChance,30000);
+
 function _chanceCol(p1,p2){var odds=_getChanceOdds(p1,p2);var prevOdds=_chanceBaseOdds?_getChanceOdds(p1,p2,_chanceBaseOdds):null;var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';var a1='',a2='';if(odds&&prevOdds){var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';}var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';return'<div style="position:absolute;left:830px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;"><div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div><div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div></div>';}
 
 
