@@ -2302,6 +2302,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       var data=await loadData();
       _lastUpdated=data.updated||new Date().toISOString();
       _lastData=data;
+      window._lastData=data;
       renderMatches(data);
     }catch(e){
       if(_lastData){renderMatches(_lastData);}
@@ -3315,7 +3316,7 @@ var _runChance=function(){
       _chanceOdds=d;
       if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
       _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+      if(sh&&sh._renderMatches&&window._lastData)sh._renderMatches(window._lastData);
     }).catch(function(){});
     return;
   }
