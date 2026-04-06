@@ -3278,6 +3278,9 @@ function _getChanceOdds(p1,p2,dataset){
 
 function _chanceCol(p1,p2){
   var odds=_getChanceOdds(p1,p2);
+  if(!odds&&_chanceOdds&&_chanceOdds.events&&_chanceOdds.events.length>0){
+    console.log('[Chance] no match for:',p1,'vs',p2,'norm:',_normChance(p1),_normChance(p2),'sample ev:',_chanceOdds.events[0].p1,_normChance(_chanceOdds.events[0].p1));
+  }
   var prevOdds=_chanceBaseOdds?_getChanceOdds(p1,p2,_chanceBaseOdds):null;
   var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';
   var a1='',a2='';
