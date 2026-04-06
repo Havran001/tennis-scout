@@ -2383,7 +2383,7 @@ var _runChance=function(){
       if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
       _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(typeof _lastData!=='undefined'&&_lastData){renderMatches(_lastData);}
-      else{var _ct=0;var _ci=setInterval(function(){_ct++;if(typeof _lastData!=='undefined'&&_lastData){renderMatches(_lastData);clearInterval(_ci);}if(_ct>20)clearInterval(_ci);},500);}
+      else{var _mwEl=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot&&document.getElementById('ts-host').shadowRoot.getElementById('mw');if(_mwEl&&_mwEl.render)_mwEl.render();}
     }).catch(function(){});
     return;
   }
