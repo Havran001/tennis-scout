@@ -3302,7 +3302,18 @@ var _chanceWorkerUrl='https://betano-odds.vavra-radovan.workers.dev/chance-odds'
 var _chancePushUrl='https://betano-odds.vavra-radovan.workers.dev/chance-push';
 
 var _runChance=function(){
-  // Načti přímo z chance.cz (funguje z prohlížeče), zparsuj a pushni do Workeru
+  // Pokud nejsme na chance.cz, načti z Workeru
+  if(!location.hostname.includes('chance.cz')){
+    fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+      if(!d||!d.events||d.events.length===0)return;
+      _chanceOdds=d;
+      if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
+      _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+    }).catch(function(){});
+    return;
+  }
+  // Na chance.cz načti přímo, zparsuj a pushni do Workeru
   fetch('https://www.chance.cz/rest/offer/v2/offer?limit=300',{
     method:'POST',
     headers:{'Content-Type':'application/json'},
