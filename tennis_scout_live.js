@@ -2875,7 +2875,8 @@ var _runChance=function(){
     _chanceOdds=d;
     if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
     _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+    var _sh=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;
+    if(_sh&&_sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)_sh._renderMatches(_lastData);
   }).catch(function(){});
 };
 _runChance();setInterval(_runChance,30000);
