@@ -3299,18 +3299,49 @@ function _chanceCol(p1,p2){
 }
 
 var _chanceWorkerUrl='https://betano-odds.vavra-radovan.workers.dev/chance-odds';
-var _chanceScrapeUrl='https://betano-odds.vavra-radovan.workers.dev/chance-scrape';
+var _chancePushUrl='https://betano-odds.vavra-radovan.workers.dev/chance-push';
 
 var _runChance=function(){
-  fetch(_chanceScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
-    fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
-      if(!d||!d.events||d.events.length===0)return;
-      _chanceOdds=d;
-      if(!_chanceBaseOdds){_chanceBaseOdds=d;try{localStorage.setItem('ts_chance_base',JSON.stringify(d));}catch(e){}}
-      _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
-    }).catch(function(){});
-  });
+  // Načti přímo z chance.cz (funguje z prohlížeče), zparsuj a pushni do Workeru
+  fetch('https://www.chance.cz/rest/offer/v2/offer?limit=300',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({type:'SUPERSPORT',id:43})
+  }).then(function(r){return r.ok?r.json():null;}).then(function(data){
+    if(!data)return;
+    var events=[];
+    for(var i=0;i<(data.offerSuperSports||[]).length;i++){
+      var ss=data.offerSuperSports[i];
+      for(var j=0;j<(ss.tabs||[]).length;j++){
+        var tab=ss.tabs[j];
+        if(tab.matchView&&tab.matchView!=='WINNER_WHOLE_MATCH')continue;
+        for(var k=0;k<(tab.offerCompetitionAnnuals||[]).length;k++){
+          var comp=tab.offerCompetitionAnnuals[k];
+          for(var l=0;l<(comp.matches||[]).length;l++){
+            var m=comp.matches[l];
+            var opps=(m.oppRows&&m.oppRows[0]&&m.oppRows[0].oppsTab)||[];
+            if(opps.length<2)continue;
+            var p1label=opps[0]?opps[0].label:'';
+            var p2label=opps[1]?opps[1].label:'';
+            if(!p1label||!p2label)continue;
+            var o1=opps[0].odd,o2=opps[1].odd;
+            if(!o1||!o2)continue;
+            // Převeď "C.Alcaraz" → "Alcaraz C." pro snadnější matchování
+            var norm=function(lbl){var d=lbl.lastIndexOf('.');return d>=0?lbl.slice(d+1).trim()+' '+lbl.slice(0,d+1).trim():lbl.trim();};
+            events.push({p1:norm(p1label),p2:norm(p2label),odds1:o1,odds2:o2,suspended1:!(opps[0].bettingEnabled),suspended2:!(opps[1].bettingEnabled)});
+          }
+        }
+      }
+    }
+    if(!events.length)return;
+    // Ulož lokálně
+    _chanceOdds={events:events};
+    if(!_chanceBaseOdds){_chanceBaseOdds={events:events};try{localStorage.setItem('ts_chance_base',JSON.stringify(_chanceBaseOdds));}catch(e){}}
+    _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
+    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+    // Pushni do Workeru pro ostatní
+    fetch(_chancePushUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({events:events})}).catch(function(){});
+  }).catch(function(){});
 };
 
 (function(){try{var s=localStorage.getItem('ts_chance_base');if(s)_chanceBaseOdds=JSON.parse(s);}catch(e){}})();
