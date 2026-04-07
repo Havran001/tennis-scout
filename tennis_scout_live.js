@@ -2880,7 +2880,34 @@ function _normChance(n){
   var first=s.split(/[\s\-]+/)[0]||'';
   return first.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
 }
-function _getChanceOdds(p1,p2,dataset){var _ds=dataset||_chanceOdds||window._chanceOdds;if(!_ds||!_ds.events)return null;var n1=_normChance(p1),n2=_normChance(p2);if(!n1||!n2)return null;var ev=_ds.events.find(function(e){var en1=_normChance(e.p1),en2=_normChance(e.p2);return(en1===n1&&en2===n2)||(en1===n2&&en2===n1);});if(!ev)return null;if(_normChance(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};return{o1:ev.odds2,o2:ev.odds1};}
+function _normChance2(n){
+  // Vezmi druhého hráče z čtyřhry (za lomítkem)
+  if(!n)return '';
+  var s=n.trim();
+  if(s.indexOf('/')>=0)s=s.split('/')[1]||s.split('/')[0];
+  s=s.trim().replace(/\s+[A-Z]\.?\s*$/,'').trim().replace(/^[A-Z]\.\s*/,'').trim();
+  var first=s.split(/[\s\-]+/)[0]||'';
+  return first.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+}
+
+function _getChanceOdds(p1,p2,dataset){
+  var _ds=dataset||_chanceOdds||window._chanceOdds;if(!_ds||!_ds.events)return null;
+  var n1=_normChance(p1),n2=_normChance(p2);if(!n1||!n2)return null;
+  var ev=_ds.events.find(function(e){
+    var en1=_normChance(e.p1),en2=_normChance(e.p2);
+    if((en1===n1&&en2===n2)||(en1===n2&&en2===n1))return true;
+    // Fallback pro čtyřhry se stejným příjmením - porovnej druhého hráče
+    if(n1===n2&&en1===en2&&en1===n1){
+      var en1b=_normChance2(e.p1),en2b=_normChance2(e.p2);
+      var n1b=_normChance2(p1),n2b=_normChance2(p2);
+      return (en1b===n1b&&en2b===n2b)||(en1b===n2b&&en2b===n1b);
+    }
+    return false;
+  });
+  if(!ev)return null;
+  if(_normChance(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};
+  return{o1:ev.odds2,o2:ev.odds1};
+}
 var _runChance=function(){
   fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
     if(!d||!d.events||d.events.length===0){console.log('[Chance] no data');return;}
