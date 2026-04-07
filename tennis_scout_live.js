@@ -2895,7 +2895,7 @@ function _getChanceOdds(p1,p2,dataset){
   function _allTokens(n){
     if(!n)return [];
     n=n.trim();
-    n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
+    n=n.replace(/^([A-Za-z]{1,3}\.)+\s*/,'');
     n=n.replace(/(\s+[A-Za-z]{1,2}\.?)+\s*$/,'');
     return n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
       .replace(/[^a-z \-]/g,'').trim()
@@ -2915,7 +2915,8 @@ function _getChanceOdds(p1,p2,dataset){
   function _surnameD(n){
     if(!n)return '';
     n=n.trim();
-    n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
+    // Odstraň iniciály na začátku až 3 písmena: J., J.J., Mar., Jos.
+    n=n.replace(/^([A-Za-z]{1,3}\.)+\s*/,'');
     var tokens=n.split(/\s+/).filter(function(t){
       var clean=t.replace(/[\.\-]/g,'');
       return !(clean.length<=3&&(t.indexOf('.')>=0||clean.length===1));
