@@ -2892,34 +2892,29 @@ function _normChance2(n){
 
 function _getChanceOdds(p1,p2,dataset){
   var _ds=dataset||_chanceOdds||window._chanceOdds;if(!_ds||!_ds.events)return null;
+  // Extrahuj všechny smysluplné tokeny (bez iniciál)
   function _allTokens(n){
     if(!n)return [];
     n=n.trim();
-    n=n.replace(/^([A-Za-z]{1,3}\.)+\s*/,'');
+    n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
     n=n.replace(/(\s+[A-Za-z]{1,2}\.?)+\s*$/,'');
-    return n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
-      .replace(/[^a-z \-]/g,'').trim()
-      .split(/[\s\-]+/)
-      .filter(function(t){return t.length>1;});
+    return n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z ]/g,'').trim().split(/\s+/).filter(function(t){return t.length>1;});
   }
+  // Dvouhra: sdílí alespoň jeden token delší než 3 znaky, nebo první token shodný
   function _matchS(a,b){
     var ta=_allTokens(a),tb=_allTokens(b);
     if(!ta.length||!tb.length)return false;
-    for(var i=0;i<ta.length;i++){
-      var minLen=ta[i].length<=3?2:3;
-      if(ta[i].length>minLen&&tb.indexOf(ta[i])>=0)return true;
-    }
-    if(ta[0]===tb[0]&&ta[0].length>1)return true;
+    for(var i=0;i<ta.length;i++){if(ta[i].length>3&&tb.indexOf(ta[i])>=0)return true;}
+    if(ta[0]===tb[0]&&ta[0].length>3)return true;
     return false;
   }
+  // Čtyřhra: celé příjmení bez iniciál, tokeny spojené
   function _surnameD(n){
     if(!n)return '';
     n=n.trim();
-    // Odstraň iniciály na začátku až 3 písmena: J., J.J., Mar., Jos.
-    n=n.replace(/^([A-Za-z]{1,3}\.)+\s*/,'');
+    n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
     var tokens=n.split(/\s+/).filter(function(t){
-      var clean=t.replace(/[\.\-]/g,'');
-      return !(clean.length<=3&&(t.indexOf('.')>=0||clean.length===1));
+      return !/^([A-Za-z]{1,2}\.)+$/.test(t)&&!/^[A-Za-z]\.?$/.test(t);
     });
     return tokens.join('').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   }
@@ -2945,6 +2940,7 @@ function _getChanceOdds(p1,p2,dataset){
     if(_pairKey(ev.p1)===key1)return{o1:ev.odds1,o2:ev.odds2};
     return{o1:ev.odds2,o2:ev.odds1};
   }
+  // Dvouhra — token intersection matching
   var ev=_ds.events.find(function(e){
     return (_matchS(e.p1,p1)&&_matchS(e.p2,p2))||(_matchS(e.p1,p2)&&_matchS(e.p2,p1));
   });
@@ -2952,7 +2948,6 @@ function _getChanceOdds(p1,p2,dataset){
   if(_matchS(ev.p1,p1))return{o1:ev.odds1,o2:ev.odds2};
   return{o1:ev.odds2,o2:ev.odds1};
 }
-
 var _runChance=function(){
   fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
     if(!d||!d.events||d.events.length===0){console.log('[Chance] no data');return;}
@@ -3123,24 +3118,27 @@ var _fortunaOdds=null;var _fortunaBaseOdds=null;var _fortunaUpdated='';
 var _fortunaUrl='https://betano-odds.vavra-radovan.workers.dev/fortuna-odds';
 var _fortunaScrapeUrl='https://betano-odds.vavra-radovan.workers.dev/fortuna-scrape';
 
-function _normFortuna(n){
-  if(!n)return '';
-  var n2=n.replace(/([A-Za-z])-([A-Za-z]\.)/g,'$1.$2');
-  var p=n2.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z .]/g,'').trim();
-  var parts=p.split(/\s+/);
-  var isAbbrev=function(t){return t.endsWith('.')||t.length===1;};
-  var abbrevs=parts.filter(isAbbrev);
-  var names=parts.filter(function(t){return !isAbbrev(t);});
-  if(names.length===0)return parts[0]||'';
-  if(abbrevs.length>0)return names.join('');
-  return names[0];
+function _normFortuna(n){return n;}
+function _fortunaTokens(n){
+  if(!n)return [];
+  n=n.trim().normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+  n=n.replace(/^([a-z]{1,3}\.)+\s*/,'');
+  n=n.replace(/(\s+[a-z]{1,3}\.)+\s*$/,'');
+  return n.replace(/[^a-z \-]/g,'').trim().split(/[\s\-]+/).filter(function(t){return t.length>=2;});
 }
 function _fortunaNameMatch(a,b){
-  if(a===b)return true;
-  var shorter=a.length<b.length?a:b;
-  var longer=a.length<b.length?b:a;
-  if(shorter.length<5)return false;
-  return longer.startsWith(shorter)||longer.includes(shorter);
+  var ta=_fortunaTokens(a),tb=_fortunaTokens(b);
+  if(!ta.length||!tb.length)return false;
+  if(ta[0]===tb[0])return true;
+  for(var i=0;i<ta.length;i++){
+    if(ta[i].length>=2&&tb.indexOf(ta[i])>=0)return true;
+    if(ta[i].length>=4){
+      for(var j=0;j<tb.length;j++){
+        if(tb[j].length>=4&&(ta[i].startsWith(tb[j])||tb[j].startsWith(ta[i])))return true;
+      }
+    }
+  }
+  return false;
 }
 
 
