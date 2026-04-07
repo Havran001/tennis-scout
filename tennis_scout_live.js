@@ -2892,23 +2892,18 @@ function _normChance2(n){
 
 function _getChanceOdds(p1,p2,dataset){
   var _ds=dataset||_chanceOdds||window._chanceOdds;if(!_ds||!_ds.events)return null;
-  // Extrahuj příjmení ze segmentu jako "Cirstea", "S.Zhang", "Cirstea S.", "Zhang S."
   function _surname(n){
     if(!n)return '';
     n=n.trim();
-    // Chance formát: "S.Zhang" — iniciála na začátku → odstraň
-    n=n.replace(/^[A-Za-z]\.\s*/,'');
-    // Flashscore formát: "Zhang S." — iniciála na konci → odstraň
+    // Odstraň iniciálu na začátku: "F.Cerundolo" → "Cerundolo", "Pa.Tsitsipas" → "Tsitsipas"
+    n=n.replace(/^[A-Za-z]{1,2}\.\s*/,'');
+    // Odstraň iniciálu na konci: "Krawietz A." → "Krawietz"
     n=n.replace(/\s+[A-Za-z]\.?\s*$/,'');
-    // Vezmi první token (příjmení)
     var first=(n.split(/[\s\-]+/)[0]||'').toLowerCase()
       .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
     return first;
   }
-  // Čtyřhra může být oddělena "/" nebo " / "
   function _splitPair(n){
-    if(!n)return [n];
-    // Detekuj lomítko — Chance: "Cirstea/S.Zhang", FS: "Cirstea S./Zhang S."
     var idx=n.indexOf('/');
     if(idx<0)return [n];
     return [n.slice(0,idx),n.slice(idx+1)];
@@ -2931,14 +2926,13 @@ function _getChanceOdds(p1,p2,dataset){
     return{o1:ev.odds2,o2:ev.odds1};
   }
   // Dvouhra
-  function _normSingle(n){return _surname(n);}
-  var n1=_normSingle(p1),n2=_normSingle(p2);if(!n1||!n2)return null;
+  var n1=_surname(p1),n2=_surname(p2);if(!n1||!n2)return null;
   var ev=_ds.events.find(function(e){
-    var en1=_normSingle(e.p1),en2=_normSingle(e.p2);
+    var en1=_surname(e.p1),en2=_surname(e.p2);
     return (en1===n1&&en2===n2)||(en1===n2&&en2===n1);
   });
   if(!ev)return null;
-  if(_normSingle(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};
+  if(_surname(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};
   return{o1:ev.odds2,o2:ev.odds1};
 }
 var _runChance=function(){
