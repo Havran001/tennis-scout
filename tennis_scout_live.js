@@ -2892,23 +2892,27 @@ function _normChance2(n){
 
 function _getChanceOdds(p1,p2,dataset){
   var _ds=dataset||_chanceOdds||window._chanceOdds;if(!_ds||!_ds.events)return null;
-  // Dvouhra: vezmi první příjmení
-  function _surnameS(n){
-    if(!n)return '';
+  // Extrahuj všechny smysluplné tokeny (bez iniciál)
+  function _allTokens(n){
+    if(!n)return [];
     n=n.trim();
     n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
     n=n.replace(/(\s+[A-Za-z]{1,2}\.?)+\s*$/,'');
-    var first=(n.split(/[\s\-]+/)[0]||'').toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
-    return first;
+    return n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z ]/g,'').trim().split(/\s+/).filter(function(t){return t.length>1;});
   }
-  // Čtyřhra: celé příjmení (zachová "Boscardin Dias"), odfiltruje iniciály tokenem
+  // Dvouhra: sdílí alespoň jeden token delší než 3 znaky, nebo první token shodný
+  function _matchS(a,b){
+    var ta=_allTokens(a),tb=_allTokens(b);
+    if(!ta.length||!tb.length)return false;
+    for(var i=0;i<ta.length;i++){if(ta[i].length>3&&tb.indexOf(ta[i])>=0)return true;}
+    if(ta[0]===tb[0]&&ta[0].length>3)return true;
+    return false;
+  }
+  // Čtyřhra: celé příjmení bez iniciál, tokeny spojené
   function _surnameD(n){
     if(!n)return '';
     n=n.trim();
-    // Odstraň vícenásobné iniciály na začátku: "J.V.C.Loureiro" → "Loureiro"
     n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
-    // Odfiltruj tokeny které jsou iniciály: "J.V.C." nebo "A." nebo "P"
     var tokens=n.split(/\s+/).filter(function(t){
       return !/^([A-Za-z]{1,2}\.)+$/.test(t)&&!/^[A-Za-z]\.?$/.test(t);
     });
@@ -2936,14 +2940,12 @@ function _getChanceOdds(p1,p2,dataset){
     if(_pairKey(ev.p1)===key1)return{o1:ev.odds1,o2:ev.odds2};
     return{o1:ev.odds2,o2:ev.odds1};
   }
-  // Dvouhra
-  var n1=_surnameS(p1),n2=_surnameS(p2);if(!n1||!n2)return null;
+  // Dvouhra — token intersection matching
   var ev=_ds.events.find(function(e){
-    var en1=_surnameS(e.p1),en2=_surnameS(e.p2);
-    return (en1===n1&&en2===n2)||(en1===n2&&en2===n1);
+    return (_matchS(e.p1,p1)&&_matchS(e.p2,p2))||(_matchS(e.p1,p2)&&_matchS(e.p2,p1));
   });
   if(!ev)return null;
-  if(_surnameS(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};
+  if(_matchS(ev.p1,p1))return{o1:ev.odds1,o2:ev.odds2};
   return{o1:ev.odds2,o2:ev.odds1};
 }
 var _runChance=function(){
