@@ -1,8 +1,8 @@
 """
 Scrape match history + statistics from Tennis Abstract for all active ATP players.
-Uses parallel threads for faster scraping (~10x speedup vs sequential).
-Saves to player_history/{atp_id}.json with full stats (DR, A%, vA%, DF%, etc.)
-Skips players updated within last 6 days.
+Uses parallel threads for faster scraping.
+Skips players that already have TA stats AND were updated within last 6 days.
+Always updates players that don't have TA stats yet.
 """
 import requests, json, os, time, re, ast
 from datetime import date
@@ -12,7 +12,7 @@ OUT_DIR = 'player_history'
 os.makedirs(OUT_DIR, exist_ok=True)
 
 WORKERS = 10
-SKIP_DAYS = 6
+SKIP_DAYS = 6  # přeskoč pouze pokud má TA data A je aktuální
 
 PROXY_URLS = [
     'https://api.codetabs.com/v1/proxy?quest=',
@@ -100,6 +100,16 @@ def mx_to_match(mx):
     except Exception:
         return None
 
+def has_ta_stats(existing):
+    """Zkontroluj jestli soubor má TA statistiky."""
+    if existing.get('source') == 'tennisabstract':
+        return True
+    # Zkontroluj jestli zápasy mají DR nebo A%
+    for m in (existing.get('matches') or [])[:5]:
+        if m.get('dr') or m.get('a_pct'):
+            return True
+    return False
+
 def process_player(args):
     idx, p, today = args
     pid  = p.get('id', '')
@@ -109,18 +119,21 @@ def process_player(args):
 
     fname = f'{OUT_DIR}/{pid}.json'
 
+    # Přeskoč pouze pokud má TA data A je aktuální
     if os.path.exists(fname):
         try:
             with open(fname) as f:
                 existing = json.load(f)
-            upd = existing.get('updated', '')
-            if upd:
-                days_old = (date.today() - date.fromisoformat(upd[:10])).days
-                if days_old < SKIP_DAYS:
-                    return pid, 'skip', 0
+            if has_ta_stats(existing):
+                upd = existing.get('updated', '')
+                if upd:
+                    days_old = (date.today() - date.fromisoformat(upd[:10])).days
+                    if days_old < SKIP_DAYS:
+                        return pid, 'skip', 0
         except Exception:
             pass
 
+    # Fetch z Tennis Abstract
     proxy_idx = idx % len(PROXY_URLS)
     html = fetch_ta(full, proxy_idx)
     if not html:
