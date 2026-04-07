@@ -2892,16 +2892,31 @@ function _normChance2(n){
 
 function _getChanceOdds(p1,p2,dataset){
   var _ds=dataset||_chanceOdds||window._chanceOdds;if(!_ds||!_ds.events)return null;
-  function _normSingle(n){
+  // Extrahuj příjmení ze segmentu jako "Cirstea", "S.Zhang", "Cirstea S.", "Zhang S."
+  function _surname(n){
     if(!n)return '';
-    n=n.trim().replace(/^[A-Z]\.\s*/,'').replace(/\s+[A-Z]\.?\s*$/,'').trim();
-    var first=n.split(/[\s\-]+/)[0]||'';
-    return first.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+    n=n.trim();
+    // Chance formát: "S.Zhang" — iniciála na začátku → odstraň
+    n=n.replace(/^[A-Za-z]\.\s*/,'');
+    // Flashscore formát: "Zhang S." — iniciála na konci → odstraň
+    n=n.replace(/\s+[A-Za-z]\.?\s*$/,'');
+    // Vezmi první token (příjmení)
+    var first=(n.split(/[\s\-]+/)[0]||'').toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+    return first;
+  }
+  // Čtyřhra může být oddělena "/" nebo " / "
+  function _splitPair(n){
+    if(!n)return [n];
+    // Detekuj lomítko — Chance: "Cirstea/S.Zhang", FS: "Cirstea S./Zhang S."
+    var idx=n.indexOf('/');
+    if(idx<0)return [n];
+    return [n.slice(0,idx),n.slice(idx+1)];
   }
   function _pairKey(n){
-    if(!n||n.indexOf('/')<0)return _normSingle(n)+'|';
-    var parts=n.split('/');
-    var a=_normSingle(parts[0]),b=_normSingle(parts[1]);
+    var parts=_splitPair(n);
+    if(parts.length<2)return _surname(n)+'|';
+    var a=_surname(parts[0]),b=_surname(parts[1]);
     return [a,b].sort().join('|');
   }
   var isDoubles=p1.indexOf('/')>=0||p2.indexOf('/')>=0;
@@ -2915,6 +2930,8 @@ function _getChanceOdds(p1,p2,dataset){
     if(_pairKey(ev.p1)===key1)return{o1:ev.odds1,o2:ev.odds2};
     return{o1:ev.odds2,o2:ev.odds1};
   }
+  // Dvouhra
+  function _normSingle(n){return _surname(n);}
   var n1=_normSingle(p1),n2=_normSingle(p2);if(!n1||!n2)return null;
   var ev=_ds.events.find(function(e){
     var en1=_normSingle(e.p1),en2=_normSingle(e.p2);
