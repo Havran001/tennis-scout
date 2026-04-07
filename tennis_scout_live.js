@@ -2870,11 +2870,13 @@ var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
 function _normChance(n){
   if(!n)return '';
   var s=n.trim();
-  // Odstraň iniciálu na konci: "Bautista-Agut R." → "Bautista-Agut"
+  // Pro čtyřhry: vezmi první hráče před lomítkem
+  if(s.indexOf('/')>=0)s=s.split('/')[0].trim();
+  // Odstraň iniciálu na konci: "Krawietz A." → "Krawietz"
   s=s.replace(/\s+[A-Z]\.?\s*$/,'').trim();
-  // Odstraň iniciálu na začátku: "R. Bautista" → "Bautista"
+  // Odstraň iniciálu na začátku: "R. Cash" → "Cash"
   s=s.replace(/^[A-Z]\.\s*/,'').trim();
-  // Vezmi první slovo (před mezerou nebo pomlčkou) - např "Bautista-Agut" → "bautista"
+  // Vezmi první slovo
   var first=s.split(/[\s\-]+/)[0]||'';
   return first.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
 }
