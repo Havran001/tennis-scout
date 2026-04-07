@@ -3132,6 +3132,19 @@ function _fortunaTokens(n){
   n=n.replace(/(\s+[a-z]{1,3}\.)+\s*$/,'');
   return n.replace(/[^a-z \-]/g,'').trim().split(/[\s\-]+/).filter(function(t){return t.length>=2;});
 }
+function _fortunaSurnameD(n){
+  if(!n)return '';
+  n=n.trim()
+    .replace(/\u00e4/gi,'ae').replace(/\u00f6/gi,'oe').replace(/\u00fc/gi,'ue')
+    .replace(/\u00c4/gi,'ae').replace(/\u00d6/gi,'oe').replace(/\u00dc/gi,'ue')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  n=n.replace(/^([a-z]{1,3}\.)+\s*/,'');
+  var tokens=n.split(/\s+/).filter(function(t){
+    var clean=t.replace(/[.\-]/g,'');
+    return !(clean.length<=3&&(t.indexOf('.')>=0||clean.length===1));
+  });
+  return tokens.join('').replace(/[^a-z]/g,'');
+}
 function _fortunaNameMatch(a,b){
   var ta=_fortunaTokens(a),tb=_fortunaTokens(b);
   if(!ta.length||!tb.length)return false;
@@ -3153,7 +3166,10 @@ function _fortunaNameMatch(a,b){
 
 function _fortunaPair(n){
   if(!n)return '';
-  return n.split('/').map(function(p){return _normFortuna(p.trim());}).sort().join('|');
+  var idx=n.indexOf('/');
+  if(idx<0)return _fortunaSurnameD(n)+'|';
+  var parts=[n.slice(0,idx).trim(),n.slice(idx+1).trim()];
+  return [_fortunaSurnameD(parts[0]),_fortunaSurnameD(parts[1])].sort().join('|');
 }
 function _getFortunaOdds(p1,p2,dataset){
   var _ds=dataset||_fortunaOdds;if(!_ds||!_ds.events)return null;
