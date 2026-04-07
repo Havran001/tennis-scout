@@ -2892,15 +2892,17 @@ function _normChance2(n){
 
 function _getChanceOdds(p1,p2,dataset){
   var _ds=dataset||_chanceOdds||window._chanceOdds;if(!_ds||!_ds.events)return null;
-  // Extrahuj všechny smysluplné tokeny (bez iniciál)
   function _allTokens(n){
     if(!n)return [];
     n=n.trim();
     n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
     n=n.replace(/(\s+[A-Za-z]{1,2}\.?)+\s*$/,'');
-    return n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z ]/g,'').trim().split(/\s+/).filter(function(t){return t.length>1;});
+    // Rozděl podle mezer I pomlček (Bautista-Agut → ["bautista","agut"])
+    return n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+      .replace(/[^a-z \-]/g,'').trim()
+      .split(/[\s\-]+/)
+      .filter(function(t){return t.length>2;});
   }
-  // Dvouhra: sdílí alespoň jeden token delší než 3 znaky, nebo první token shodný
   function _matchS(a,b){
     var ta=_allTokens(a),tb=_allTokens(b);
     if(!ta.length||!tb.length)return false;
@@ -2908,13 +2910,11 @@ function _getChanceOdds(p1,p2,dataset){
     if(ta[0]===tb[0]&&ta[0].length>3)return true;
     return false;
   }
-  // Čtyřhra: celé příjmení bez iniciál (včetně "A-L." typu)
   function _surnameD(n){
     if(!n)return '';
     n=n.trim();
     n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
     var tokens=n.split(/\s+/).filter(function(t){
-      // Iniciála: po odstranění teček a pomlček zůstanou max 3 písmena A musí obsahovat tečku nebo být 1 písmeno
       var clean=t.replace(/[\.\-]/g,'');
       return !(clean.length<=3&&(t.indexOf('.')>=0||clean.length===1));
     });
@@ -2942,7 +2942,6 @@ function _getChanceOdds(p1,p2,dataset){
     if(_pairKey(ev.p1)===key1)return{o1:ev.odds1,o2:ev.odds2};
     return{o1:ev.odds2,o2:ev.odds1};
   }
-  // Dvouhra — token intersection matching
   var ev=_ds.events.find(function(e){
     return (_matchS(e.p1,p1)&&_matchS(e.p2,p2))||(_matchS(e.p1,p2)&&_matchS(e.p2,p1));
   });
