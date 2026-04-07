@@ -2908,13 +2908,15 @@ function _getChanceOdds(p1,p2,dataset){
     if(ta[0]===tb[0]&&ta[0].length>3)return true;
     return false;
   }
-  // Čtyřhra: celé příjmení bez iniciál, tokeny spojené
+  // Čtyřhra: celé příjmení bez iniciál (včetně "A-L." typu)
   function _surnameD(n){
     if(!n)return '';
     n=n.trim();
     n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
     var tokens=n.split(/\s+/).filter(function(t){
-      return !/^([A-Za-z]{1,2}\.)+$/.test(t)&&!/^[A-Za-z]\.?$/.test(t);
+      // Iniciála: po odstranění teček a pomlček zůstanou max 3 písmena A musí obsahovat tečku nebo být 1 písmeno
+      var clean=t.replace(/[\.\-]/g,'');
+      return !(clean.length<=3&&(t.indexOf('.')>=0||clean.length===1));
     });
     return tokens.join('').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   }
@@ -2948,6 +2950,7 @@ function _getChanceOdds(p1,p2,dataset){
   if(_matchS(ev.p1,p1))return{o1:ev.odds1,o2:ev.odds2};
   return{o1:ev.odds2,o2:ev.odds1};
 }
+
 var _runChance=function(){
   fetch(_chanceWorkerUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
     if(!d||!d.events||d.events.length===0){console.log('[Chance] no data');return;}
