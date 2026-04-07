@@ -3121,24 +3121,30 @@ var _fortunaOdds=null;var _fortunaBaseOdds=null;var _fortunaUpdated='';
 var _fortunaUrl='https://betano-odds.vavra-radovan.workers.dev/fortuna-odds';
 var _fortunaScrapeUrl='https://betano-odds.vavra-radovan.workers.dev/fortuna-scrape';
 
-function _normFortuna(n){
-  if(!n)return '';
-  var n2=n.replace(/([A-Za-z])-([A-Za-z]\.)/g,'$1.$2');
-  var p=n2.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z .]/g,'').trim();
-  var parts=p.split(/\s+/);
-  var isAbbrev=function(t){return t.endsWith('.')||t.length===1;};
-  var abbrevs=parts.filter(isAbbrev);
-  var names=parts.filter(function(t){return !isAbbrev(t);});
-  if(names.length===0)return parts[0]||'';
-  if(abbrevs.length>0)return names.join('');
-  return names[0];
+function _normFortuna(n){return n;}
+function _fortunaTokens(n){
+  if(!n)return [];
+  n=n.trim()
+    .replace(/\u00e4/gi,'ae').replace(/\u00f6/gi,'oe').replace(/\u00fc/gi,'ue')
+    .replace(/\u00c4/gi,'ae').replace(/\u00d6/gi,'oe').replace(/\u00dc/gi,'ue')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  n=n.replace(/^([a-z]{1,3}\.)+\s*/,'');
+  n=n.replace(/(\s+[a-z]{1,3}\.)+\s*$/,'');
+  return n.replace(/[^a-z \-]/g,'').trim().split(/[\s\-]+/).filter(function(t){return t.length>=2;});
 }
 function _fortunaNameMatch(a,b){
-  if(a===b)return true;
-  var shorter=a.length<b.length?a:b;
-  var longer=a.length<b.length?b:a;
-  if(shorter.length<5)return false;
-  return longer.startsWith(shorter)||longer.includes(shorter);
+  var ta=_fortunaTokens(a),tb=_fortunaTokens(b);
+  if(!ta.length||!tb.length)return false;
+  if(ta[0]===tb[0])return true;
+  for(var i=0;i<ta.length;i++){
+    if(ta[i].length>=2&&tb.indexOf(ta[i])>=0)return true;
+    if(ta[i].length>=4){
+      for(var j=0;j<tb.length;j++){
+        if(tb[j].length>=4&&(ta[i].startsWith(tb[j])||tb[j].startsWith(ta[i])))return true;
+      }
+    }
+  }
+  return false;
 }
 
 
