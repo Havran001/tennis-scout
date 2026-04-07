@@ -1,13 +1,8 @@
 name: Update Player History
-
 on:
-  schedule:
-    - cron: '0 4 * * 1'  # Every Monday at 4:00 UTC
-  workflow_dispatch:       # Manual trigger
-
+  workflow_dispatch:
 permissions:
   contents: write
-
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -16,13 +11,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Install dependencies
         run: pip install requests
-
       - name: Run player history scraper
         run: python3 scrape_player_history.py
-
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
