@@ -2895,13 +2895,12 @@ function _getChanceOdds(p1,p2,dataset){
   function _surname(n){
     if(!n)return '';
     n=n.trim();
-    // Odstraň iniciálu na začátku: "F.Cerundolo" → "Cerundolo", "Pa.Tsitsipas" → "Tsitsipas"
-    n=n.replace(/^[A-Za-z]{1,2}\.\s*/,'');
-    // Odstraň iniciálu na konci: "Krawietz A." → "Krawietz"
-    n=n.replace(/\s+[A-Za-z]\.?\s*$/,'');
-    var first=(n.split(/[\s\-]+/)[0]||'').toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
-    return first;
+    // Odstraň vícenásobné iniciály na začátku: "J.V.C.Loureiro" → "Loureiro", "F.Cerundolo" → "Cerundolo"
+    n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
+    // Odstraň iniciály na konci: "Loureiro J.V.C." → "Loureiro", "Boscardin Dias P." → "Boscardin Dias"
+    n=n.replace(/(\s+[A-Za-z]{1,2}\.?)+\s*$/,'');
+    // Vrať celý zbytek bez mezer (zachová "Boscardin Dias" → "boscardindias")
+    return n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z ]/g,'').trim().replace(/\s+/g,'');
   }
   function _splitPair(n){
     var idx=n.indexOf('/');
