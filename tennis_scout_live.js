@@ -2892,15 +2892,27 @@ function _normChance2(n){
 
 function _getChanceOdds(p1,p2,dataset){
   var _ds=dataset||_chanceOdds||window._chanceOdds;if(!_ds||!_ds.events)return null;
-  function _surname(n){
+  // Dvouhra: vezmi první příjmení
+  function _surnameS(n){
     if(!n)return '';
     n=n.trim();
-    // Odstraň vícenásobné iniciály na začátku: "J.V.C.Loureiro" → "Loureiro", "F.Cerundolo" → "Cerundolo"
     n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
-    // Odstraň iniciály na konci: "Loureiro J.V.C." → "Loureiro", "Boscardin Dias P." → "Boscardin Dias"
     n=n.replace(/(\s+[A-Za-z]{1,2}\.?)+\s*$/,'');
-    // Vrať celý zbytek bez mezer (zachová "Boscardin Dias" → "boscardindias")
-    return n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z ]/g,'').trim().replace(/\s+/g,'');
+    var first=(n.split(/[\s\-]+/)[0]||'').toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+    return first;
+  }
+  // Čtyřhra: celé příjmení (zachová "Boscardin Dias"), odfiltruje iniciály tokenem
+  function _surnameD(n){
+    if(!n)return '';
+    n=n.trim();
+    // Odstraň vícenásobné iniciály na začátku: "J.V.C.Loureiro" → "Loureiro"
+    n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
+    // Odfiltruj tokeny které jsou iniciály: "J.V.C." nebo "A." nebo "P"
+    var tokens=n.split(/\s+/).filter(function(t){
+      return !/^([A-Za-z]{1,2}\.)+$/.test(t)&&!/^[A-Za-z]\.?$/.test(t);
+    });
+    return tokens.join('').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   }
   function _splitPair(n){
     var idx=n.indexOf('/');
@@ -2909,8 +2921,8 @@ function _getChanceOdds(p1,p2,dataset){
   }
   function _pairKey(n){
     var parts=_splitPair(n);
-    if(parts.length<2)return _surname(n)+'|';
-    var a=_surname(parts[0]),b=_surname(parts[1]);
+    if(parts.length<2)return _surnameD(n)+'|';
+    var a=_surnameD(parts[0]),b=_surnameD(parts[1]);
     return [a,b].sort().join('|');
   }
   var isDoubles=p1.indexOf('/')>=0||p2.indexOf('/')>=0;
@@ -2925,13 +2937,13 @@ function _getChanceOdds(p1,p2,dataset){
     return{o1:ev.odds2,o2:ev.odds1};
   }
   // Dvouhra
-  var n1=_surname(p1),n2=_surname(p2);if(!n1||!n2)return null;
+  var n1=_surnameS(p1),n2=_surnameS(p2);if(!n1||!n2)return null;
   var ev=_ds.events.find(function(e){
-    var en1=_surname(e.p1),en2=_surname(e.p2);
+    var en1=_surnameS(e.p1),en2=_surnameS(e.p2);
     return (en1===n1&&en2===n2)||(en1===n2&&en2===n1);
   });
   if(!ev)return null;
-  if(_surname(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};
+  if(_surnameS(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};
   return{o1:ev.odds2,o2:ev.odds1};
 }
 var _runChance=function(){
