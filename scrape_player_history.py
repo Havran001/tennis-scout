@@ -11,8 +11,6 @@ with open('atp_players.json') as f:
 active = data['items']
 print(f'  Active players: {len(active)}')
 
-# Build lookup: sackmann_id -> player info
-# We need to match atp_players.json (which has sackmann id via name matching)
 # Load sackmann player list for name->id mapping
 print('Loading Sackmann player list...')
 r = requests.get(SACK_BASE + 'atp_players.csv', timeout=30)
@@ -43,13 +41,39 @@ print(f'  Matched: {len(active_sack_ids)}/{len(active)}')
 if unmatched[:5]:
     print(f'  Unmatched examples: {unmatched[:5]}')
 
+# ── STEP 1b: Zjisti které soubory mají detailní TA statistiky ─────
+# Soubor má TA data pokud má v zápasech pole 'dr' nebo 'a_pct'
+os.makedirs(OUT_DIR, exist_ok=True)
+has_ta_stats = set()
+print('Checking existing files for TA stats...')
+for sid, player in active_sack_ids.items():
+    atp_id = player.get('id', '')
+    fname = f'{OUT_DIR}/{atp_id}.json' if atp_id else f'{OUT_DIR}/{sid}.json'
+    if not os.path.exists(fname):
+        continue
+    try:
+        with open(fname) as f:
+            existing = json.load(f)
+        matches = existing.get('matches', [])
+        # Zkontroluj prvních 5 zápasů jestli mají statistiky
+        for m in matches[:5]:
+            if m.get('dr') or m.get('a_pct') or m.get('va_pct'):
+                has_ta_stats.add(sid)
+                break
+    except:
+        pass
+print(f'  Files with TA stats (will be preserved): {len(has_ta_stats)}')
+
 # ── STEP 2: Load all Sackmann match CSVs ──────────────────────────
 print('Loading Sackmann match files...')
 current_year = date.today().year
 years = list(range(1968, current_year + 1))
 
-# Collect all matches for active players
-player_matches = {sid: [] for sid in active_sack_ids}
+# Collect all matches for active players — only those WITHOUT TA stats
+players_to_update = {sid: p for sid, p in active_sack_ids.items() if sid not in has_ta_stats}
+print(f'  Players to update (no TA stats): {len(players_to_update)}')
+
+player_matches = {sid: [] for sid in players_to_update}
 
 for year in years:
     fname = f'atp_matches_{year}.csv'
@@ -61,7 +85,6 @@ for year in years:
         if len(lines) < 2:
             continue
         header = lines[0].split(',')
-        # Key column indices
         try:
             wi = header.index('winner_id')
             li = header.index('loser_id')
@@ -88,9 +111,8 @@ for year in years:
             wid = row[wi].strip()
             lid = row[li].strip()
 
-            match_data = None
             if wid in player_matches:
-                match_data = {
+                player_matches[wid].append({
                     'date': row[td].strip(),
                     'tournament': row[tn].strip(),
                     'surface': row[sf].strip(),
@@ -104,11 +126,10 @@ for year in years:
                     'minutes': row[mn].strip() if mn >= 0 and mn < len(row) else '',
                     'rank': row[wr].strip() if wr >= 0 and wr < len(row) else '',
                     'opp_rank': row[lr].strip() if lr >= 0 and lr < len(row) else '',
-                }
-                player_matches[wid].append(match_data)
+                })
                 matched_year += 1
             if lid in player_matches:
-                match_data = {
+                player_matches[lid].append({
                     'date': row[td].strip(),
                     'tournament': row[tn].strip(),
                     'surface': row[sf].strip(),
@@ -122,39 +143,44 @@ for year in years:
                     'minutes': row[mn].strip() if mn >= 0 and mn < len(row) else '',
                     'rank': row[lr].strip() if lr >= 0 and lr < len(row) else '',
                     'opp_rank': row[wr].strip() if wr >= 0 and wr < len(row) else '',
-                }
-                player_matches[lid].append(match_data)
+                })
                 matched_year += 1
 
-        print(f'  {year}: {matched_year} matches for active players')
+        if matched_year > 0:
+            print(f'  {year}: {matched_year} matches for active players')
     except Exception as e:
         print(f'  {year}: error - {e}')
 
 # ── STEP 3: Save per-player JSON files ────────────────────────────
 print(f'Saving player history files...')
-os.makedirs(OUT_DIR, exist_ok=True)
 saved = 0
+skipped = 0
 today = str(date.today())
 
 for sid, player in active_sack_ids.items():
+    atp_id = player.get('id', '')
+    fname = f'{OUT_DIR}/{atp_id}.json' if atp_id else f'{OUT_DIR}/{sid}.json'
+
+    # Přeskoč hráče s TA statistikami
+    if sid in has_ta_stats:
+        skipped += 1
+        continue
+
     matches = player_matches.get(sid, [])
-    # Sort by date descending (newest first)
     matches.sort(key=lambda m: m['date'], reverse=True)
     out = {
-        'player_id': player.get('id', ''),
+        'player_id': atp_id,
         'sack_id': sid,
         'name': player.get('full_name') or player['name'],
         'updated': today,
         'total': len(matches),
         'matches': matches
     }
-    atp_id = player.get('id','')
-    fname = f'{OUT_DIR}/{atp_id}.json' if atp_id else f'{OUT_DIR}/{sid}.json'
     with open(fname, 'w') as f:
         json.dump(out, f, separators=(',', ':'))
     saved += 1
     if saved % 100 == 0:
-        print(f'  Saved {saved}/{len(active_sack_ids)}...')
+        print(f'  Saved {saved}...')
 
-print(f'Done: {saved} player history files saved to {OUT_DIR}/')
+print(f'Done: {saved} files saved, {skipped} preserved (have TA stats)')
 print(f'Updated: {today}')
