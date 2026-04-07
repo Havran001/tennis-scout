@@ -2892,20 +2892,36 @@ function _normChance2(n){
 
 function _getChanceOdds(p1,p2,dataset){
   var _ds=dataset||_chanceOdds||window._chanceOdds;if(!_ds||!_ds.events)return null;
-  var n1=_normChance(p1),n2=_normChance(p2);if(!n1||!n2)return null;
+  function _normSingle(n){
+    if(!n)return '';
+    n=n.trim().replace(/^[A-Z]\.\s*/,'').replace(/\s+[A-Z]\.?\s*$/,'').trim();
+    var first=n.split(/[\s\-]+/)[0]||'';
+    return first.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+  }
+  function _pairKey(n){
+    if(!n||n.indexOf('/')<0)return _normSingle(n)+'|';
+    var parts=n.split('/');
+    var a=_normSingle(parts[0]),b=_normSingle(parts[1]);
+    return [a,b].sort().join('|');
+  }
+  var isDoubles=p1.indexOf('/')>=0||p2.indexOf('/')>=0;
+  if(isDoubles){
+    var key1=_pairKey(p1),key2=_pairKey(p2);
+    var ev=_ds.events.find(function(e){
+      var ek1=_pairKey(e.p1),ek2=_pairKey(e.p2);
+      return (ek1===key1&&ek2===key2)||(ek1===key2&&ek2===key1);
+    });
+    if(!ev)return null;
+    if(_pairKey(ev.p1)===key1)return{o1:ev.odds1,o2:ev.odds2};
+    return{o1:ev.odds2,o2:ev.odds1};
+  }
+  var n1=_normSingle(p1),n2=_normSingle(p2);if(!n1||!n2)return null;
   var ev=_ds.events.find(function(e){
-    var en1=_normChance(e.p1),en2=_normChance(e.p2);
-    if((en1===n1&&en2===n2)||(en1===n2&&en2===n1))return true;
-    // Fallback pro čtyřhry se stejným příjmením - porovnej druhého hráče
-    if(n1===n2&&en1===en2&&en1===n1){
-      var en1b=_normChance2(e.p1),en2b=_normChance2(e.p2);
-      var n1b=_normChance2(p1),n2b=_normChance2(p2);
-      return (en1b===n1b&&en2b===n2b)||(en1b===n2b&&en2b===n1b);
-    }
-    return false;
+    var en1=_normSingle(e.p1),en2=_normSingle(e.p2);
+    return (en1===n1&&en2===n2)||(en1===n2&&en2===n1);
   });
   if(!ev)return null;
-  if(_normChance(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};
+  if(_normSingle(ev.p1)===n1)return{o1:ev.odds1,o2:ev.odds2};
   return{o1:ev.odds2,o2:ev.odds1};
 }
 var _runChance=function(){
