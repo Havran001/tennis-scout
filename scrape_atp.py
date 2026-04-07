@@ -8,7 +8,7 @@ headers = {
     'Accept-Language': 'en-US,en;q=0.9'
 }
 
-# ââ STEP 1: Scrape ATP rankings âââââââââââââââââââââââââââââââ
+# ── STEP 1: Scrape ATP rankings ────────────────────────────────────
 ranges = ['0-100','101-200','201-300','301-400','401-500','501-600','601-700','701-800','801-900','901-1000','1001-1100','1101-1200','1201-1300','1301-1400','1401-1500','1501-5000']
 all_players = []
 seen_ids = set()
@@ -55,7 +55,7 @@ for rng in ranges:
     except Exception as e:
         print(f'Error {rng}: {e}')
 
-# ââ STEP 2: Career High from Sackmann historical rankings âââââ
+# ── STEP 2: Career High from Sackmann historical rankings ─────────
 print('Loading Sackmann ranking files for Career High...')
 SACK_BASE = 'https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/'
 ranking_files = [
@@ -87,7 +87,7 @@ for fname in ranking_files:
     except Exception as e:
         print(f'  Error loading {fname}: {e}')
 
-# ââ STEP 3: Match ATP players to Sackmann IDs âââââââââââââââââ
+# ── STEP 3: Match ATP players to Sackmann IDs ─────────────────────
 print('Loading Sackmann player list...')
 sack_players = {}
 try:
@@ -103,7 +103,7 @@ try:
 except Exception as e:
     print(f'  Error loading atp_players.csv: {e}')
 
-# ââ STEP 4: Apply Sackmann Career High ââââââââââââââââââââââââ
+# ── STEP 4: Apply Sackmann Career High ────────────────────────────
 today = str(date.today())
 matched_sack = 0
 for p in all_players:
@@ -111,7 +111,6 @@ for p in all_players:
     sack_id = sack_players.get(full_lower)
     if sack_id and sack_id in career_high:
         sack_ch, sack_date = career_high[sack_id]
-        # Current rank might be better than outdated Sackmann data
         if p['rank'] <= sack_ch:
             p['ch'] = p['rank']
             p['ch_date'] = today
@@ -120,15 +119,11 @@ for p in all_players:
             p['ch_date'] = sack_date
         matched_sack += 1
     else:
-        # No Sackmann match â use current rank as placeholder
         p['ch'] = p['rank']
         p['ch_date'] = today
 print(f'Sackmann matched: {matched_sack}/{len(all_players)}')
 
-# ââ STEP 5: Fetch ATP rankings-history to fix post-2024 gaps ââ
-# Only fetch for players where current rank < ch (possible improvement)
-# or where we have no Sackmann match
-# rankings-history page has Career High in div.stat SSR-rendered
+# ── STEP 5: Fetch ATP rankings-history for career high ────────────
 print(f'Fetching ATP rankings-history for career high verification...')
 
 def fetch_atp_career_high(player):
@@ -143,17 +138,14 @@ def fetch_atp_career_high(player):
         for stat in soup.select('div.stat'):
             label = stat.select_one('.stat-label')
             if label and 'Career High Rank' in label.get_text():
-                # Text node before label = rank number
                 raw = stat.get_text(separator='|').split('|')
                 rank_str = raw[0].strip()
                 try:
                     ch_rank = int(rank_str)
                 except:
                     continue
-                # Extract date: "Career High Rank (2022.09.12)"
                 m = re.search(r'\((\d{4})\.(\d{2})\.(\d{2})\)', label.get_text())
                 ch_date = f'{m.group(1)}-{m.group(2)}-{m.group(3)}' if m else today
-                # Only update if ATP says it's better than what we have
                 if player['ch'] is None or ch_rank < player['ch']:
                     player['ch'] = ch_rank
                     player['ch_date'] = ch_date
@@ -170,7 +162,7 @@ with ThreadPoolExecutor(max_workers=15) as executor:
         if done % 200 == 0:
             print(f'  ATP fetch: {done}/{len(all_players)}')
 
-# ââ STEP 6: Apply manual overrides âââââââââââââââââââââââââââ
+# ── STEP 6: Apply manual overrides ───────────────────────────────
 OVERRIDES_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/career_high_overrides.json'
 try:
     r = requests.get(OVERRIDES_URL, timeout=10)
@@ -187,8 +179,7 @@ try:
 except Exception as e:
     print(f'Overrides not loaded: {e}')
 
-# ââ STEP 7: Save ââââââââââââââââââââââââââââââââââââââââââââââ
-# ── STEP 7: Compute rank movement (diff vs previous week) ──────
+# ── STEP 7: Compute rank movement ────────────────────────────────
 try:
     with open('atp_players.json', 'r') as f:
         old_data = json.load(f)
@@ -203,21 +194,41 @@ for p in all_players:
     pid = p.get('id', '')
     if pid and pid in old_ranks:
         prev = old_ranks[pid]
-        diff = prev - p['rank']  # positive = UP (better rank), negative = DOWN
+        diff = prev - p['rank']
         p['move'] = diff if diff != 0 else None
     else:
         p['move'] = None
 
-# ── STEP 8: Save ──────────────────────────────────────────────
-players = sorted(all_players, key=lambda p: (p['rank'], p['name']))
+# ── STEP 7b: Zachovej hráče kteří vypadli z žebříčku ────────────
+try:
+    with open('atp_players.json', 'r') as f:
+        old_data = json.load(f)
+    old_items = old_data.get('items', [])
+    new_ids = {p['id'] for p in all_players if p.get('id')}
+    dropped_count = 0
+    for old_p in old_items:
+        old_id = old_p.get('id', '')
+        if not old_id or old_id in new_ids:
+            continue
+        # Hráč vypadl z žebříčku - zachovej ho bez ranku
+        old_p['rank'] = None
+        old_p['move'] = None
+        all_players.append(old_p)
+        dropped_count += 1
+    print(f'Preserved {dropped_count} dropped players')
+except Exception as e:
+    print(f'Could not preserve dropped players: {e}')
 
-# Safety check - abort if too few players scraped
+# ── STEP 8: Save ─────────────────────────────────────────────────
+# Řaď: aktivní hráči (mají rank) první, pak vypadlí
+players = sorted(all_players, key=lambda p: (p['rank'] is None, p['rank'] or 9999, p.get('name','')))
+
 MIN_PLAYERS = 1500
-if len(players) < MIN_PLAYERS:
-    print(f'ERROR: Only {len(players)} players scraped (minimum {MIN_PLAYERS}). Aborting save to protect existing data!')
+if len([p for p in players if p.get('rank')]) < MIN_PLAYERS:
+    print(f'ERROR: Only {len(players)} ranked players scraped (minimum {MIN_PLAYERS}). Aborting!')
     exit(1)
 
 result = {'items': players, 'updated': today, 'total': len(players)}
 with open('atp_players.json', 'w') as f:
     json.dump(result, f, separators=(',', ':'))
-print(f'Done: {len(players)} players, updated: {today}')
+print(f'Done: {len([p for p in players if p.get("rank")])} ranked + {len([p for p in players if not p.get("rank")])} preserved = {len(players)} total')
