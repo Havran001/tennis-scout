@@ -2897,17 +2897,19 @@ function _getChanceOdds(p1,p2,dataset){
     n=n.trim();
     n=n.replace(/^([A-Za-z]{1,2}\.)+\s*/,'');
     n=n.replace(/(\s+[A-Za-z]{1,2}\.?)+\s*$/,'');
-    // Rozděl podle mezer I pomlček (Bautista-Agut → ["bautista","agut"])
     return n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
       .replace(/[^a-z \-]/g,'').trim()
       .split(/[\s\-]+/)
-      .filter(function(t){return t.length>2;});
+      .filter(function(t){return t.length>1;});
   }
   function _matchS(a,b){
     var ta=_allTokens(a),tb=_allTokens(b);
     if(!ta.length||!tb.length)return false;
-    for(var i=0;i<ta.length;i++){if(ta[i].length>3&&tb.indexOf(ta[i])>=0)return true;}
-    if(ta[0]===tb[0]&&ta[0].length>3)return true;
+    for(var i=0;i<ta.length;i++){
+      var minLen=ta[i].length<=3?2:3;
+      if(ta[i].length>minLen&&tb.indexOf(ta[i])>=0)return true;
+    }
+    if(ta[0]===tb[0]&&ta[0].length>1)return true;
     return false;
   }
   function _surnameD(n){
