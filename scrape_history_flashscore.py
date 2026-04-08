@@ -10,7 +10,7 @@ PROXY = 'https://tennis-proxy.vavra-radovan.workers.dev/'
 OUT_DIR = 'player_history'
 os.makedirs(OUT_DIR, exist_ok=True)
 
-# Load player name → id mapping from atp_players.json
+# Load player name â id mapping from atp_players.json
 print('Loading atp_players.json...')
 with open('atp_players.json') as f:
     atp_data = json.load(f)
@@ -22,7 +22,7 @@ for p in atp_data.get('items', []):
     name = p.get('name', '')       # "C. Alcaraz"
     full = p.get('full_name', '')  # "Carlos Alcaraz"
     if not pid: continue
-    # Flashscore format: "Alcaraz C." — reverse of ATP "C. Alcaraz"
+    # Flashscore format: "Alcaraz C." â reverse of ATP "C. Alcaraz"
     parts = name.split()
     if len(parts) >= 2:
         fs = ' '.join(parts[1:]) + ' ' + parts[0]
@@ -88,6 +88,8 @@ def process_matches(matches, pid_cache, history_cache):
     added_total = 0
     for m in matches:
         if m.get('status') != 3: continue  # only finished
+        tournament = m.get('tournament','')
+        if 'DOUBLES' in tournament.upper(): continue  # skip doubles
         p1, p2 = m.get('p1',''), m.get('p2','')
         winner = m.get('winner', 0)
         sets1, sets2 = m.get('sets1',[]), m.get('sets2',[])
@@ -130,7 +132,7 @@ def process_matches(matches, pid_cache, history_cache):
             added_total += 1
     return added_total
 
-# ── Main: iterate over last 365 days ──────────────────────────────
+# ââ Main: iterate over last 365 days ââââââââââââââââââââââââââââââ
 START_DAY = -365
 END_DAY   = -2  # stop at -2, current pipeline handles -1, 0, +1
 
