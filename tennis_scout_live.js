@@ -2741,7 +2741,7 @@ function buildUI(){
         function fetchDay(di){
           if(di>=days.length){
             if(!ms){status.textContent='⚠️ TA nenalezeno - data nezmenena';btn.disabled=false;return;}var combined=ms.slice();
-            var existIds=new Set(combined.map(function(m){return m.id||'';}));
+            var existIds=new Set();combined.forEach(function(m){if(m.id)existIds.add(m.id);});
             // Pridej date+opponent klice pro FS zaznamy ktere uz mame
             combined.forEach(function(m){if(m.id&&m.score){var ts=m.ts||0;var d2=new Date(ts?ts:0);var ds=d2.toISOString().slice(0,10).replace(/-/g,'');existIds.add('fs:'+(m.id||''));}});
             fsMatches.forEach(function(m){
