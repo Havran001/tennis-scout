@@ -2740,7 +2740,7 @@ function buildUI(){
         var pname=(pfull||'').split(' ').pop().toLowerCase();
         function fetchDay(di){
           if(di>=days.length){
-            var combined=ms||[];
+            if(!ms){status.textContent='⚠️ TA nenalezeno - data nezmenena';btn.disabled=false;return;}var combined=ms.slice();
             var existIds=new Set(combined.map(function(m){return m.id||'';}));
             fsMatches.forEach(function(m){
               if(m.id&&existIds.has(m.id))return;
@@ -2750,17 +2750,11 @@ function buildUI(){
               var isP2=(m.p2||'').toLowerCase().includes(pname);
               if(!isP1&&!isP2)return;
               var opp=isP1?m.p2:m.p1;
+              var won=isP1?(m.winner===1):(m.winner===2);
               var sets1=m.sets1||[],sets2=m.sets2||[];
-              // Vypocitej viteze ze setu pokud winner neni nastaveny
-              var s1w=sets1.filter(function(a,i){return parseInt(a)>parseInt(sets2[i]||0);}).length;
-              var s2w=sets2.filter(function(a,i){return parseInt(a)>parseInt(sets1[i]||0);}).length;
-              var winner=m.winner||0;
-              if(!winner){winner=s1w>s2w?1:2;}
-              var won=isP1?(winner===1):(winner===2);
-              // Sestav skore ze setu
-              var mySets=isP1?sets1:sets2;
-              var oppSets=isP1?sets2:sets1;
-              var sc=mySets.map(function(a,i){return a+'-'+(oppSets[i]||0);}).join(' ');
+              var s1w=sets1.filter(function(a,idx){return String(a)>String(sets2[idx]||0);}).length;
+              var s2w=sets2.filter(function(a,idx){return String(a)>String(sets1[idx]||0);}).length;
+              var sc=isP1?s1w+'-'+s2w:s2w+'-'+s1w;
               var ts=m.ts||0;var d2=new Date(ts?ts:Date.now());
               var ds=d2.toISOString().slice(0,10).replace(/-/g,'');
               combined.push({id:m.id||'',date:ds,tournament:tourn,surface:(m.tournament_surface||'').charAt(0).toUpperCase()+(m.tournament_surface||'').slice(1),level:'A',round:m.round||'',result:won?'W':'L',opponent:opp||'',score:sc,best_of:'3',rank:'',opp_rank:''});
@@ -2852,11 +2846,8 @@ function buildUI(){
               var tourn=m.tournament||'';
               if(tourn.toUpperCase().includes('DOUBLES'))return;
               var p1=m.p1||'',p2=m.p2||'';
-              var sets1=m.sets1||[],sets2=m.sets2||[];
-              var s1ww=sets1.filter(function(a,i){return parseInt(a)>parseInt(sets2[i]||0);}).length;
-              var s2ww=sets2.filter(function(a,i){return parseInt(a)>parseInt(sets1[i]||0);}).length;
               var winner=m.winner||0;
-              if(!winner){winner=s1ww>s2ww?1:(s2ww>s1ww?2:0);}
+              var sets1=m.sets1||[],sets2=m.sets2||[];
               var ts=m.ts||0;
               var mid=m.id||'';
               var surface=(m.tournament_surface||'').charAt(0).toUpperCase()+(m.tournament_surface||'').slice(1);
