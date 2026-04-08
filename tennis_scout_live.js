@@ -463,7 +463,7 @@ const CSS=`
 }
 #sb-ta-import:hover{background:rgba(33,150,243,0.22);}
 #sb-ta-import:disabled{opacity:0.5;cursor:not-allowed;}
-#sb-fs-import{display:block;width:100%;padding:8px;margin-top:6px;background:rgba(0,188,212,0.12);border:1px solid rgba(0,188,212,0.3);border-radius:8px;color:#00bcd4;font-size:12px;cursor:pointer;text-align:center;}
+
 #sb-fs-import:hover{background:rgba(0,188,212,0.22);}
 #sb-fs-import:disabled{opacity:0.5;cursor:not-allowed;}
 #sb-ta-retry{display:none;width:100%;padding:8px;margin-top:6px;background:rgba(255,152,0,0.12);border:1px solid rgba(255,152,0,0.3);border-radius:8px;color:#ff9800;font-size:12px;cursor:pointer;text-align:center;}
@@ -2378,7 +2378,6 @@ function buildUI(){
       <div id="ta-progress"></div>
       <button id="sb-ta-import">⬇ Import Tennis Abstract</button>
       <div id="fs-progress"></div>
-      <button id="sb-fs-import">⬇ Import Flashscore (rok)</button>
       <button id="sb-ta-retry">🔄 Reimport přeskočených TA</button>
     </div>
   `;
