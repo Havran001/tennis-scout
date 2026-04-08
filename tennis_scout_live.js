@@ -2745,8 +2745,7 @@ function buildUI(){
             fsMatches.forEach(function(m){
               if(m.id&&existIds.has(m.id))return;
               // Pokud TA ma zaznam se stejnym souperem a prazdnym skore, nahrad ho FS zaznamem
-              var fsOpp=(isP1?(m.p2||''):(m.p1||'')).toLowerCase().split(' ')[0];
-              var taIdx=combined.findIndex(function(x){return !x.id&&(!x.score||x.score==='')&&(x.opponent||'').toLowerCase().split(' ')[0]===fsOpp;});
+              var fsRaw=(isP1?(m.p2||''):(m.p1||'')).toLowerCase();var fsOpp=fsRaw.split(' ')[0];var taIdx=combined.findIndex(function(x){if(x.id||x.score)return false;var taLast=(x.opponent||'').toLowerCase().split(' ').pop();return taLast===fsOpp||taLast.startsWith(fsOpp.slice(0,4));});
               if(taIdx>=0){combined.splice(taIdx,1);}// odstraň TA záznam bez skóre, FS záznam se přidá níže
               var tourn=m.tournament||'';
               if(tourn.toUpperCase().includes('DOUBLES'))return;
