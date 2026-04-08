@@ -2768,7 +2768,7 @@ function buildUI(){
               combined.push({id:m.id||'',date:ds,tournament:tourn,surface:(m.tournament_surface||'').charAt(0).toUpperCase()+(m.tournament_surface||'').slice(1),level:'A',round:m.round||'',result:won?'W':'L',opponent:opp||'',score:sc,best_of:'3',rank:'',opp_rank:''});
             });
             if(!combined||combined.length<1){status.textContent='⚠️ Prázdné';btn.disabled=false;return;}
-            combined.sort(function(a,b){return b.date.localeCompare(a.date);});
+            var _seen=new Set();combined=combined.filter(function(m){var k=m.id?('id:'+m.id):('ta:'+m.date+':'+m.opponent);if(_seen.has(k))return false;_seen.add(k);return true;});combined.sort(function(a,b){return b.date.localeCompare(a.date);});
             status.textContent='⏳ Ukládám...';
             var out={player_id:pid,name:pfull,source:'tennisabstract',updated:new Date().toISOString().slice(0,10),total:combined.length,matches:combined};
             fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+pid+'.json',{headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}}).then(function(r){return r.ok?r.json():null;}).then(function(gd){
