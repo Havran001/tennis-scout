@@ -2613,9 +2613,9 @@ function buildUI(){
           var cn=cd&&cd.matches?cd.matches.length:0;
             var _hasGoodData=cd&&cd.matches&&cd.matches.length>0&&!!cd.matches[0].va_pct&&!!cd.matches[0].dr&&cd.source==='tennisabstract';
           var _taUrl='https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq';
-          return fetch('https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(_taUrl),{signal:AbortSignal.timeout(15000)})
-          .catch(function(){return fetch('https://corsproxy.io/?url='+encodeURIComponent(_taUrl));})
-          .then(function(r){return r.ok?r.text():null;})
+          var _proxies=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest='];
+          function _tryProxy(idx){if(idx>=_proxies.length)return Promise.resolve(null);return fetch(_proxies[idx]+encodeURIComponent(_taUrl),{signal:AbortSignal.timeout(15000)}).then(function(r){return r.ok?r.text().then(function(t){if(t&&t.includes('Tennis Abstract'))return t;return _tryProxy(idx+1);}):_tryProxy(idx+1);}).catch(function(){return _tryProxy(idx+1);});}
+          return _tryProxy(0).then(function(r){return r;})
           .then(function(html){
             if(!html){er++;window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): no html');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;dn++;setTimeout(function(){nx(i+1);},1000);return;}
             var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
