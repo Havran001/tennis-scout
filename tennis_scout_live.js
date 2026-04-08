@@ -466,6 +466,8 @@ const CSS=`
 #sb-fs-import{display:block;width:100%;padding:8px;margin-top:6px;background:rgba(0,188,212,0.12);border:1px solid rgba(0,188,212,0.3);border-radius:8px;color:#00bcd4;font-size:12px;cursor:pointer;text-align:center;}
 #sb-fs-import:hover{background:rgba(0,188,212,0.22);}
 #sb-fs-import:disabled{opacity:0.5;cursor:not-allowed;}
+#sb-ta-retry{display:none;width:100%;padding:8px;margin-top:6px;background:rgba(255,152,0,0.12);border:1px solid rgba(255,152,0,0.3);border-radius:8px;color:#ff9800;font-size:12px;cursor:pointer;text-align:center;}
+#sb-ta-retry:hover{background:rgba(255,152,0,0.22);}#sb-ta-retry:disabled{opacity:0.5;cursor:not-allowed;}
 #fs-progress{display:none;font-size:11px;color:rgba(255,255,255,0.5);padding:4px 2px;word-break:break-word;}
 #ta-progress{margin-top:8px;font-size:11px;color:rgba(255,255,255,0.7);display:block;line-height:1.6;word-break:break-word;}
 #sb-close{
@@ -2377,6 +2379,7 @@ function buildUI(){
       <button id="sb-ta-import">⬇ Import Tennis Abstract</button>
       <div id="fs-progress"></div>
       <button id="sb-fs-import">⬇ Import Flashscore (rok)</button>
+      <button id="sb-ta-retry">🔄 Reimport přeskočených TA</button>
     </div>
   `;
   w.appendChild(sidebar);
@@ -2603,7 +2606,7 @@ function buildUI(){
       prog.innerHTML=window._tsProgress='Start: '+pl.length+' hr\u00e1\u010d\u016f...';
       var dn=0,im=0,sk=0,er=0,tot=pl.length;
       function nx(i){
-        if(i>=tot){prog.innerHTML=window._tsProgress='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb'+(window._importFailed&&window._importFailed.length?'<br><small style="color:#f87171">Chyby: '+window._importFailed.join(', ')+'</small>':'');self.disabled=false;self.textContent='\u2705 Dokon\u010deno';return;}
+        if(i>=tot){prog.innerHTML=window._tsProgress='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb'+(window._importFailed&&window._importFailed.length?'<br><small style="color:#f87171">Chyby: '+window._importFailed.join(', ')+'</small>':'');self.disabled=false;self.textContent='\u2705 Dokon\u010deno';var rb=sh.getElementById('sb-ta-retry');if(rb&&window._skippedPlayers&&window._skippedPlayers.length){rb.style.display='block';rb.textContent='\U0001f504 Reimport p\u0159esko\u010den\u00fdch ('+window._skippedPlayers.length+')';}return;}
         var p=pl[i];if(!p||!p.id||!p.full_name){sk++;dn++;nx(i+1);return;}
         var ln=(p.full_name||'').split(' ').pop(),ta=nN(p.full_name);
         fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',{headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}})
@@ -2619,7 +2622,7 @@ function buildUI(){
           .then(function(html){
             if(!html){er++;window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): no html');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;dn++;setTimeout(function(){nx(i+1);},1000);return;}
             var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
-            if(!tm||tm[1].indexOf('Player Search')>=0){sk++;window._skippedPlayers=window._skippedPlayers||[];window._skippedPlayers.push(p.full_name+' ('+p.id+') slug:'+ta);prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+'<br><small style="color:#f87171">Přeskočení: '+window._skippedPlayers.join(', ')+'</small>';dn++;setTimeout(function(){nx(i+1);},500);return;}
+            if(!tm||tm[1].indexOf('Player Search')>=0){sk++;window._skippedPlayers=window._skippedPlayers||[];window._skippedPlayers.push({id:p.id,name:p.full_name,slug:ta});dn++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+'<br><small style="color:#f87171">Přeskočení: '+window._skippedPlayers.map(function(x){return x.name;}).join(', ')+'</small>';setTimeout(function(){nx(i+1);},500);return;}
             var _mmx=null;try{var _ms=html.indexOf('var matchmx = [[');if(_ms>=0){var _af=html.slice(_ms+14);var _em=_af.match(/\n\s+\];\n/)||_af.match(/\];\s*\n/);if(_em){var _ei=_af.indexOf(_em[0])+_em[0].length,_rw=_af.slice(0,_ei).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw)();}else{var _ei2=_af.lastIndexOf(']];');if(_ei2>=0){var _rw2=_af.slice(0,_ei2+2).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw2)();}}}}catch(e){console.error('matchmx parse',e.message);}
             var ms=null;if(_mmx&&_mmx.length>=5){ms=_mmx.map(function(mx){
               var dt=mx[0]||'',ds=dt.length===8?dt.slice(0,4)+'-'+dt.slice(4,6)+'-'+dt.slice(6,8):dt;
@@ -2659,7 +2662,57 @@ function buildUI(){
           });
           }).catch(function(e){window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): network error');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;er++;dn++;setTimeout(function(){nx(i+1);},500);});
       }
-      window._importFailed=[];nx(0);
+      window._importFailed=[];window._skippedPlayers=[];nx(0);
+    });
+  })();
+
+  // TA RETRY
+  (function(){
+    var btn=sh.getElementById('sb-ta-retry');
+    if(!btn)return;
+    btn.addEventListener('click',function(){
+      var self=this,prog=sh.getElementById('ta-progress');
+      var GH=localStorage.getItem('ts_gh_token');
+      if(!GH){GH=prompt('Zadej GitHub token:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
+      var skipped=(window._skippedPlayers||[]).slice();
+      if(!skipped.length){prog.innerHTML='Zadni preskoceni hraci.';return;}
+      self.disabled=true;self.style.display='none';
+      prog.style.display='block';
+      var tot=skipped.length,im=0,sk=0,er=0,dn=0;
+      var reDiac=new RegExp('[\u0300-\u036f]','g');
+      var reNA=new RegExp('[^a-zA-Z -]','g');
+      function nN(fn){return(fn||'').normalize('NFD').replace(reDiac,'').replace(reNA,'').trim().split(' ').join('');}
+      function pct(a,b){return b>0?(a/b*100).toFixed(1):'';}
+      var PROXIES=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
+      function tryProxy(url,idx){if(idx>=PROXIES.length)return Promise.resolve(null);return fetch(PROXIES[idx]+encodeURIComponent(url),{signal:AbortSignal.timeout(20000)}).then(function(r){return r.ok?r.text().then(function(t){if(t&&t.includes('Tennis Abstract'))return t;return tryProxy(url,idx+1);}):tryProxy(url,idx+1);}).catch(function(){return tryProxy(url,idx+1);});}
+      function nx(i){
+        if(i>=tot){self.disabled=false;prog.innerHTML='✅ Reimport dokoncen! '+im+' importovano, '+sk+' preskoceno, '+er+' chyb';window._skippedPlayers=[];return;}
+        var s=skipped[i];
+        var ta=nN(s.name);
+        var _taUrl='https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq';
+        fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+s.id+'.json',{headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}})
+        .then(function(r){return r.ok?r.json():null;})
+        .then(function(cr){
+          return tryProxy(_taUrl,0).then(function(html){
+            if(!html){er++;dn++;prog.innerHTML=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' -> ❌ '+s.name;setTimeout(function(){nx(i+1);},500);return;}
+            var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
+            if(!tm||tm[1].indexOf('Player Search')>=0){sk++;dn++;prog.innerHTML=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' -> ⏭ '+s.name;setTimeout(function(){nx(i+1);},500);return;}
+            var _mmx=null;try{var _ms=html.indexOf('var matchmx = [[');if(_ms>=0){var _af=html.slice(_ms+14);var _em=_af.match(/
+\s+\];
+/)||_af.match(/\];\s*
+/);if(_em){var _ei=_af.indexOf(_em[0])+_em[0].length,_rw=_af.slice(0,_ei).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw)();}else{var _ei2=_af.lastIndexOf(']];');if(_ei2>=0){var _rw2=_af.slice(0,_ei2+2).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw2)();}}}}catch(e){}
+            var ms=null;if(_mmx&&_mmx.length>=1){ms=_mmx.map(function(mx){var dt=mx[0]||'',ds=dt.length===8?dt.slice(0,4)+'-'+dt.slice(4,6)+'-'+dt.slice(6,8):dt;var pts=parseInt(mx[23])||0,firsts=parseInt(mx[24])||0,fwon=parseInt(mx[25])||0,swon=parseInt(mx[26])||0,aces=parseInt(mx[21])||0,dfs=parseInt(mx[22])||0,saved=parseInt(mx[28])||0,chances=parseInt(mx[29])||0,oaces=parseInt(mx[30])||0,opts=parseInt(mx[32])||0,seconds=pts-firsts;var dr='';if(pts>0&&opts>0){var rpw=1-((parseInt(mx[34]||0)+parseInt(mx[35]||0))/opts),spl=1-((fwon+swon)/pts);if(spl>0)dr=(rpw/spl).toFixed(2);}return{date:ds,tournament:mx[1]||'',surface:mx[2]||'',level:'ta-import',round:mx[8]||'',result:mx[4]==='W'?'W':(mx[4]==='L'?'L':''),opponent:mx[11]||'',score:mx[9]||'',best_of:'',rank:mx[5]||'',opp_rank:mx[12]||'',dr:dr,a_pct:pct(aces,pts),va_pct:pct(oaces,opts),df_pct:pct(dfs,pts),first_in:pct(firsts,pts),first_pct:pct(fwon,firsts),second_pct:pct(swon,seconds),bp_saved:chances>0?saved+'/'+chances:'',match_time:(function(n){if(!n)return '';var nn=parseInt(n);if(!nn)return '';return Math.floor(nn/60)+':'+(nn%60<10?'0':'')+(nn%60);})(mx[20]),odds:''};});}
+            if(!ms||ms.length<1){sk++;dn++;setTimeout(function(){nx(i+1);},500);return;}
+            var out={player_id:s.id,name:s.name,source:'tennisabstract',updated:new Date().toISOString().slice(0,10),total:ms.length,matches:ms};
+            var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out)),bn='';for(var bi=0;bi<eb.length;bi++)bn+=String.fromCharCode(eb[bi]);
+            var bd={message:'TA retry: '+s.name+' ('+ms.length+')',content:btoa(bn)};
+            if(cr&&cr.sha)bd.sha=cr.sha;
+            return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+s.id+'.json',{method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(bd)})
+            .then(function(pr){if(pr.ok){im++;}else{er++;}dn++;prog.innerHTML=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' -> '+s.name;setTimeout(function(){nx(i+1);},2000);});
+          });
+        }).catch(function(){er++;dn++;setTimeout(function(){nx(i+1);},500);});
+      }
+      nx(0);
     });
   })();
 
