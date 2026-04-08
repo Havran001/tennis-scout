@@ -2744,6 +2744,10 @@ function buildUI(){
             var existIds=new Set(combined.map(function(m){return m.id||'';}));
             fsMatches.forEach(function(m){
               if(m.id&&existIds.has(m.id))return;
+              // Pokud TA ma zaznam se stejnym souperem a prazdnym skore, nahrad ho FS zaznamem
+              var fsOpp=(isP1?(m.p2||''):(m.p1||'')).toLowerCase().split(' ')[0];
+              var taIdx=combined.findIndex(function(x){return !x.id&&(!x.score||x.score==='')&&(x.opponent||'').toLowerCase().split(' ')[0]===fsOpp;});
+              if(taIdx>=0){combined.splice(taIdx,1);}// odstraň TA záznam bez skóre, FS záznam se přidá níže
               var tourn=m.tournament||'';
               if(tourn.toUpperCase().includes('DOUBLES'))return;
               var isP1=(m.p1||'').toLowerCase().includes(pname);
