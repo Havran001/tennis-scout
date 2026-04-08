@@ -2757,6 +2757,7 @@ function buildUI(){
               var won=isP1?(winner===1):(winner===2);
               var mySets=isP1?sets1:sets2;var oppSets=isP1?sets2:sets1;
               var sc=mySets.map(function(a,i){return a+'-'+(oppSets[i]||0);}).join(' ');
+              // Nahrad TA zaznam bez skore stejnym souperem
               var fsOpp=(opp||'').toLowerCase().split(' ')[0];
               var taIdx=combined.findIndex(function(x){if(x.id||x.score)return false;var taLast=(x.opponent||'').toLowerCase().split(' ').pop();return taLast===fsOpp||taLast.startsWith(fsOpp.slice(0,4));});
               if(taIdx>=0){combined.splice(taIdx,1);}
