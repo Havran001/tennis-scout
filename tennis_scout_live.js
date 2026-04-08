@@ -2761,7 +2761,8 @@ function buildUI(){
               var sc=mySets.map(function(a,i){return a+'-'+(oppSets[i]||0);}).join(' ');
               // Nahrad TA zaznam bez skore stejnym souperem
               var fsOpp=(opp||'').toLowerCase().split(' ')[0];
-              var taIdx=combined.findIndex(function(x){if(x.id||x.score)return false;var taLast=(x.opponent||'').toLowerCase().split(' ').pop();return taLast===fsOpp||taLast.startsWith(fsOpp.slice(0,4));});
+              // Odstraň TA záznam (se skóre i bez) pokud existuje FS záznam pro stejného soupeře
+              var taIdx=combined.findIndex(function(x){if(x.id)return false;var taLast=(x.opponent||'').toLowerCase().split(' ').pop();return taLast===fsOpp||taLast.startsWith(fsOpp.slice(0,4));});
               if(taIdx>=0){combined.splice(taIdx,1);}
               var ts=m.ts||0;var d2=new Date(ts?ts:Date.now());
               var ds=d2.toISOString().slice(0,10).replace(/-/g,'');
