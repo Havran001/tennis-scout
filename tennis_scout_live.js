@@ -2619,7 +2619,7 @@ function buildUI(){
           .then(function(html){
             if(!html){er++;window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): no html');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;dn++;setTimeout(function(){nx(i+1);},1000);return;}
             var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
-            if(!tm||tm[1].indexOf('Player Search')>=0){sk++;dn++;setTimeout(function(){nx(i+1);},500);return;}
+            if(!tm||tm[1].indexOf('Player Search')>=0){sk++;window._skippedPlayers=window._skippedPlayers||[];window._skippedPlayers.push(p.full_name+' ('+p.id+') - TA slug: '+ta);dn++;setTimeout(function(){nx(i+1);},500);return;}
             var _mmx=null;try{var _ms=html.indexOf('var matchmx = [[');if(_ms>=0){var _af=html.slice(_ms+14);var _em=_af.match(/\n\s+\];\n/)||_af.match(/\];\s*\n/);if(_em){var _ei=_af.indexOf(_em[0])+_em[0].length,_rw=_af.slice(0,_ei).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw)();}else{var _ei2=_af.lastIndexOf(']];');if(_ei2>=0){var _rw2=_af.slice(0,_ei2+2).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw2)();}}}}catch(e){console.error('matchmx parse',e.message);}
             var ms=null;if(_mmx&&_mmx.length>=5){ms=_mmx.map(function(mx){
               var dt=mx[0]||'',ds=dt.length===8?dt.slice(0,4)+'-'+dt.slice(4,6)+'-'+dt.slice(6,8):dt;
