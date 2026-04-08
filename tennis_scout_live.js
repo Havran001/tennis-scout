@@ -2740,7 +2740,18 @@ function buildUI(){
         var pname=(pfull||'').split(' ').pop().toLowerCase();
         function fetchDay(di){
           if(di>=days.length){
-            if(!ms){status.textContent='⚠️ TA nenalezeno - data nezmenena';btn.disabled=false;return;}var combined=ms.slice();
+            if(!ms){
+              // Fallback: nacti existujici data z GitHubu
+              status.textContent='⏳ GitHub data...';
+              fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/'+pid+'.json?v='+Date.now())
+              .then(function(r){return r.ok?r.json():null;})
+              .then(function(hist){
+                ms=hist&&hist.matches&&hist.matches.length>0?hist.matches:null;
+                if(!ms){status.textContent='⚠️ Žádná data';btn.disabled=false;return;}
+                fetchDay(0);
+              }).catch(function(){status.textContent='⚠️ Chyba';btn.disabled=false;});
+              return;
+            }var combined=ms.slice();
             var existIds=new Set(combined.map(function(m){return m.id||'';}));
             fsMatches.forEach(function(m){
               if(m.id&&existIds.has(m.id))return;
