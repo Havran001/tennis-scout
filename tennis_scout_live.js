@@ -2726,22 +2726,12 @@ function buildUI(){
       function pct(a,b){return b>0?(a/b*100).toFixed(1):'';}
       var PROXIES=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
       function tryP(url,i){if(i>=PROXIES.length)return Promise.resolve(null);return fetch(PROXIES[i]+encodeURIComponent(url),{signal:AbortSignal.timeout(20000)}).then(function(r){return r.ok?r.text().then(function(t){if(t&&t.includes('Tennis Abstract'))return t;return tryP(url,i+1);}):tryP(url,i+1);}).catch(function(){return tryP(url,i+1);});}
-      // 1. Zkus TA proxy, 2. fallback na GitHub data
       status.textContent='⏳ TA...';
       var ta=nN(pfull||'');
       var taUrl='https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq';
-      function parseTaHtml(html){
-        var mx2=null;try{var ms2=html.indexOf('var matchmx = [[');if(ms2>=0){var af2=html.slice(ms2+14);var ei2=af2.lastIndexOf(']];');if(ei2>=0){var rw2=af2.slice(0,ei2+2).trim().replace(/^matchmx = /,'');mx2=Function('"use strict";return '+rw2)();}}}catch(e){}
-        if(!mx2||!mx2.length)return null;
-        return mx2.map(function(mx){var dt=mx[0]||'',ds=dt.length===8?dt.slice(0,4)+'-'+dt.slice(4,6)+'-'+dt.slice(6,8):dt;var pts=parseInt(mx[23])||0,firsts=parseInt(mx[24])||0,fwon=parseInt(mx[25])||0,swon=parseInt(mx[26])||0,aces=parseInt(mx[21])||0,dfs=parseInt(mx[22])||0,saved=parseInt(mx[28])||0,chances=parseInt(mx[29])||0,oaces=parseInt(mx[30])||0,opts=parseInt(mx[32])||0,seconds=pts-firsts;var dr='';if(pts>0&&opts>0){var rpw=1-((parseInt(mx[34]||0)+parseInt(mx[35]||0))/opts),spl=1-((fwon+swon)/pts);if(spl>0)dr=(rpw/spl).toFixed(2);}return{date:ds,tournament:mx[1]||'',surface:mx[2]||'',level:'ta-import',round:mx[8]||'',result:mx[4]==='W'?'W':(mx[4]==='L'?'L':''),opponent:mx[11]||'',score:mx[9]||'',best_of:'',rank:mx[5]||'',opp_rank:mx[12]||'',dr:dr,a_pct:pct(aces,pts),va_pct:pct(oaces,opts),df_pct:pct(dfs,pts),first_in:pct(firsts,pts),first_pct:pct(fwon,firsts),second_pct:pct(swon,seconds),bp_saved:chances>0?saved+'/'+chances:'',match_time:(function(n){if(!n)return '';var nn=parseInt(n);if(!nn)return '';return Math.floor(nn/60)+':'+(nn%60<10?'0':'')+(nn%60);})(mx[20]),odds:''};});
-      }
-      // Pokus o TA, fallback na GitHub
       tryP(taUrl,0).then(function(html){
         var ms=null;
-        if(html){var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);if(tm&&tm[1].indexOf('Player Search')<0){ms=parseTaHtml(html);}}
-        // Fallback: pokud TA proxy selhala, načti z GitHubu
-        var p2=ms?Promise.resolve(ms):fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/'+pid+'.json?v='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(h){status.textContent='⏳ GitHub data...';return h&&h.matches&&h.matches.length?h.matches:null;});
-        return p2.then(function(ms){
+        if(html){var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);if(tm&&tm[1].indexOf('Player Search')<0){var mx2=null;try{var ms2=html.indexOf('var matchmx = [[');if(ms2>=0){var af2=html.slice(ms2+14);var ei2=af2.lastIndexOf(']];');if(ei2>=0){var rw2=af2.slice(0,ei2+2).trim().replace(/^matchmx = /,'');mx2=Function('"use strict";return '+rw2)();}}}catch(e){}if(mx2&&mx2.length>=1){ms=mx2.map(function(mx){var dt=mx[0]||'',ds=dt.length===8?dt.slice(0,4)+'-'+dt.slice(4,6)+'-'+dt.slice(6,8):dt;var pts=parseInt(mx[23])||0,firsts=parseInt(mx[24])||0,fwon=parseInt(mx[25])||0,swon=parseInt(mx[26])||0,aces=parseInt(mx[21])||0,dfs=parseInt(mx[22])||0,saved=parseInt(mx[28])||0,chances=parseInt(mx[29])||0,oaces=parseInt(mx[30])||0,opts=parseInt(mx[32])||0,seconds=pts-firsts;var dr='';if(pts>0&&opts>0){var rpw=1-((parseInt(mx[34]||0)+parseInt(mx[35]||0))/opts),spl=1-((fwon+swon)/pts);if(spl>0)dr=(rpw/spl).toFixed(2);}return{date:ds,tournament:mx[1]||'',surface:mx[2]||'',level:'ta-import',round:mx[8]||'',result:mx[4]==='W'?'W':(mx[4]==='L'?'L':''),opponent:mx[11]||'',score:mx[9]||'',best_of:'',rank:mx[5]||'',opp_rank:mx[12]||'',dr:dr,a_pct:pct(aces,pts),va_pct:pct(oaces,opts),df_pct:pct(dfs,pts),first_in:pct(firsts,pts),first_pct:pct(fwon,firsts),second_pct:pct(swon,seconds),bp_saved:chances>0?saved+'/'+chances:'',match_time:(function(n){if(!n)return '';var nn=parseInt(n);if(!nn)return '';return Math.floor(nn/60)+':'+(nn%60<10?'0':'')+(nn%60);})(mx[20]),odds:''};});}}}
         // FS posledni 7 dni
         status.textContent='⏳ Flashscore...';
         var FSPROXY='https://tennis-proxy.vavra-radovan.workers.dev/';
@@ -2754,20 +2744,22 @@ function buildUI(){
             var existIds=new Set(combined.map(function(m){return m.id||'';}));
             fsMatches.forEach(function(m){
               if(m.id&&existIds.has(m.id))return;
-              // Pokud TA ma zaznam se stejnym souperem a prazdnym skore, nahrad ho FS zaznamem
-              var fsRaw=(isP1?(m.p2||''):(m.p1||'')).toLowerCase();var fsOpp=fsRaw.split(' ')[0];var taIdx=combined.findIndex(function(x){if(x.id||x.score)return false;var taLast=(x.opponent||'').toLowerCase().split(' ').pop();return taLast===fsOpp||taLast.startsWith(fsOpp.slice(0,4));});
-              if(taIdx>=0){combined.splice(taIdx,1);}// odstraň TA záznam bez skóre, FS záznam se přidá níže
               var tourn=m.tournament||'';
               if(tourn.toUpperCase().includes('DOUBLES'))return;
               var isP1=(m.p1||'').toLowerCase().includes(pname);
               var isP2=(m.p2||'').toLowerCase().includes(pname);
               if(!isP1&&!isP2)return;
               var opp=isP1?m.p2:m.p1;
-              var won=isP1?(m.winner===1):(m.winner===2);
               var sets1=m.sets1||[],sets2=m.sets2||[];
-              var s1w=sets1.filter(function(a,idx){return String(a)>String(sets2[idx]||0);}).length;
-              var s2w=sets2.filter(function(a,idx){return String(a)>String(sets1[idx]||0);}).length;
-              var sc=isP1?s1w+'-'+s2w:s2w+'-'+s1w;
+              var s1ww=sets1.filter(function(a,i){return parseInt(a)>parseInt(sets2[i]||0);}).length;
+              var s2ww=sets2.filter(function(a,i){return parseInt(a)>parseInt(sets1[i]||0);}).length;
+              var winner=m.winner||0;if(!winner){winner=s1ww>s2ww?1:(s2ww>s1ww?2:0);}
+              var won=isP1?(winner===1):(winner===2);
+              var mySets=isP1?sets1:sets2;var oppSets=isP1?sets2:sets1;
+              var sc=mySets.map(function(a,i){return a+'-'+(oppSets[i]||0);}).join(' ');
+              var fsOpp=(opp||'').toLowerCase().split(' ')[0];
+              var taIdx=combined.findIndex(function(x){if(x.id||x.score)return false;var taLast=(x.opponent||'').toLowerCase().split(' ').pop();return taLast===fsOpp||taLast.startsWith(fsOpp.slice(0,4));});
+              if(taIdx>=0){combined.splice(taIdx,1);}
               var ts=m.ts||0;var d2=new Date(ts?ts:Date.now());
               var ds=d2.toISOString().slice(0,10).replace(/-/g,'');
               combined.push({id:m.id||'',date:ds,tournament:tourn,surface:(m.tournament_surface||'').charAt(0).toUpperCase()+(m.tournament_surface||'').slice(1),level:'A',round:m.round||'',result:won?'W':'L',opponent:opp||'',score:sc,best_of:'3',rank:'',opp_rank:''});
@@ -2792,7 +2784,7 @@ function buildUI(){
         }
         fetchDay(0);
       });
-    });});
+    });
   })();
 
   // FLASHSCORE IMPORT
