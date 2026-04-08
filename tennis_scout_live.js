@@ -2761,9 +2761,9 @@ function buildUI(){
               var sc=mySets.map(function(a,i){return a+'-'+(oppSets[i]||0);}).join(' ');
               // Nahrad TA zaznam bez skore stejnym souperem
               var fsOpp=(opp||'').toLowerCase().split(' ')[0];
-              // Odstran TA zaznam pro stejneho soupere (TA ma datum zacatku turnaje, ignoruj datum)
-              var taIdx=combined.findIndex(function(x){if(x.id)return false;var taLast=(x.opponent||'').toLowerCase().split(' ').pop();return taLast===fsOpp||taLast.startsWith(fsOpp.slice(0,4))||fsOpp.startsWith(taLast.slice(0,4));});
-              if(taIdx>=0){combined.splice(taIdx,1);}
+              // Pokud TA uz ma zaznam pro tohoto soupere, preskoc FS zaznam (TA ma statistiky)
+              var taExists=combined.findIndex(function(x){if(x.id)return false;var taLast=(x.opponent||'').toLowerCase().split(' ').pop();return taLast===fsOpp||taLast.startsWith(fsOpp.slice(0,4))||fsOpp.startsWith(taLast.slice(0,4));});
+              if(taExists>=0)return;
               var ts=m.ts||0;var d2=new Date(ts?ts:Date.now());
               var ds=d2.toISOString().slice(0,10).replace(/-/g,'');
               combined.push({id:m.id||'',date:ds,tournament:tourn,surface:(m.tournament_surface||'').charAt(0).toUpperCase()+(m.tournament_surface||'').slice(1),level:'A',round:m.round||'',result:won?'W':'L',opponent:opp||'',score:sc,best_of:'3',rank:'',opp_rank:''});
