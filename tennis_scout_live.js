@@ -2751,17 +2751,12 @@ function buildUI(){
               if(!isP1&&!isP2)return;
               var opp=isP1?m.p2:m.p1;
               var sets1=m.sets1||[],sets2=m.sets2||[];
-              // Vypocitej viteze ze setu pokud winner=0
               var s1ww=sets1.filter(function(a,i){return parseInt(a)>parseInt(sets2[i]||0);}).length;
               var s2ww=sets2.filter(function(a,i){return parseInt(a)>parseInt(sets1[i]||0);}).length;
-              var winner=m.winner||0;
-              if(!winner){winner=s1ww>s2ww?1:(s2ww>s1ww?2:0);}
+              var winner=m.winner||0;if(!winner){winner=s1ww>s2ww?1:(s2ww>s1ww?2:0);}
               var won=isP1?(winner===1):(winner===2);
-              // Skutecne skore ze setu (napr. "4-6 7-6 6-3")
-              var mySets=isP1?sets1:sets2;
-              var oppSets=isP1?sets2:sets1;
+              var mySets=isP1?sets1:sets2;var oppSets=isP1?sets2:sets1;
               var sc=mySets.map(function(a,i){return a+'-'+(oppSets[i]||0);}).join(' ');
-              // Nahrad TA zaznam bez skore pokud existuje
               var fsOpp=(opp||'').toLowerCase().split(' ')[0];
               var taIdx=combined.findIndex(function(x){if(x.id||x.score)return false;var taLast=(x.opponent||'').toLowerCase().split(' ').pop();return taLast===fsOpp||taLast.startsWith(fsOpp.slice(0,4));});
               if(taIdx>=0){combined.splice(taIdx,1);}
