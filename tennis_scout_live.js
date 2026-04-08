@@ -1191,7 +1191,7 @@ function buildPlayersTab(sh){
               });
             });
           }
-          var all=(hist?hist.matches:[]).concat(liveMatches);
+          var all=(hist?hist.matches:[]).concat(liveMatches).filter(function(m){return !(m.tournament||'').toUpperCase().includes('DOUBLES');});
           all.sort(function(a,b){return b.date.localeCompare(a.date);});
           if(all.length===0){
             sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy k dispozici</div>';
@@ -2614,7 +2614,7 @@ function buildUI(){
             if(!html){er++;window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): no html');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;dn++;setTimeout(function(){nx(i+1);},1000);return;}
             var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
             if(!tm||tm[1].indexOf('Player Search')>=0){sk++;dn++;setTimeout(function(){nx(i+1);},500);return;}
-            var _mmx=null;try{var _ms=html.indexOf('var matchmx = [[');if(_ms>=0){var _af=html.slice(_ms+14);var _em=_af.match(/\n\s+\];\n/)||_af.match(/\];\s*\n/)||_af.match(/\];\s*$/m);if(_em){var _ei=_af.indexOf(_em[0])+_em[0].length,_rw=_af.slice(0,_ei).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw)();}else{var _ei2=_af.lastIndexOf(']];');if(_ei2>=0){var _rw2=_af.slice(0,_ei2+2).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw2)();}}}}catch(e){console.error('matchmx parse',e.message);}
+            var _mmx=null;try{var _ms=html.indexOf('var matchmx = [[');if(_ms>=0){var _af=html.slice(_ms+14),_em=_af.match(/\n\s+\];\n/);if(_em){var _ei=_af.indexOf(_em[0])+_em[0].length,_rw=_af.slice(0,_ei).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw)();}}}catch(e){console.error('matchmx parse',e.message);}
             var ms=null;if(_mmx&&_mmx.length>=5){ms=_mmx.map(function(mx){
               var dt=mx[0]||'',ds=dt.length===8?dt.slice(0,4)+'-'+dt.slice(4,6)+'-'+dt.slice(6,8):dt;
               var pts=parseInt(mx[23])||0,firsts=parseInt(mx[24])||0,fwon=parseInt(mx[25])||0,swon=parseInt(mx[26])||0;
@@ -2641,7 +2641,7 @@ function buildUI(){
                 odds:''
               };
             });}
-            var _noVa=!_hasGoodData;if(!ms||ms.length<1){sk++;dn++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er;setTimeout(function(){nx(i+1);},500);return;}
+            var _noVa=!_hasGoodData;if(!ms||ms.length<5||(ms.length<=cn&&!_noVa)){sk++;dn++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er;setTimeout(function(){nx(i+1);},500);return;}
             var out={player_id:p.id,gs_id:(cd&&cd.gs_id)||'',player_name:p.full_name,source:'tennisabstract',updated:new Date().toISOString(),matches:ms};
             var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out,null,2)),bn='';
             for(var bi=0;bi<eb.length;bi++)bn+=String.fromCharCode(eb[bi]);
