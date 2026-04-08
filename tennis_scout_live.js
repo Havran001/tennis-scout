@@ -1,66 +1,66 @@
 // ==========================================================
-// 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
-// ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
-// ITF M15/M25/W15/W35+: live API itftennis.com (načítá se při spuštění)
+// ð¾ TENNIS SCOUT â LIVE CALENDAR v5.0
+// ATP/WTA/Challenger: statickÃ¡ data 2026 (z atptour.com PDF + wtatennis.com)
+// ITF M15/M25/W15/W35+: live API itftennis.com (naÄÃ­tÃ¡ se pÅi spuÅ¡tÄnÃ­)
 //
-// Jak použít:
-//   1. Otevři www.itftennis.com/en/tournament-calendar/mens-world-tennis-tour-calendar/
-//   2. Cmd + Option + J → konzole
-//   3. Vlož skript → Enter → čekej ~20s na ITF data
+// Jak pouÅ¾Ã­t:
+//   1. OtevÅi www.itftennis.com/en/tournament-calendar/mens-world-tennis-tour-calendar/
+//   2. Cmd + Option + J â konzole
+//   3. VloÅ¾ skript â Enter â Äekej ~20s na ITF data
 //
-//   ATP/WTA/Challenger se zobrazí okamžitě z jakékoli stránky.
-//   ITF data se načtou pouze ze stránky itftennis.com.
+//   ATP/WTA/Challenger se zobrazÃ­ okamÅ¾itÄ z jakÃ©koli strÃ¡nky.
+//   ITF data se naÄtou pouze ze strÃ¡nky itftennis.com.
 // ===============================================================
 
 (async function TENNIS_SCOUT() {
 'use strict';
 const VERSION = '5.3';
 
-// ATP Rankings - načítáno z GitHubu (stejně jako ITF data)
+// ATP Rankings - naÄÃ­tÃ¡no z GitHubu (stejnÄ jako ITF data)
 window.ATP_PLAYERS = [];
 
 // Kontrola CSP
 {
   const url = location.href;
   if (url.startsWith('chrome://')||url.startsWith('about:')||url.startsWith('edge://')) {
-    alert('⛔ Spusť skript na normální stránce — např. otevři wikipedia.org'); return;
+    alert('â SpusÅ¥ skript na normÃ¡lnÃ­ strÃ¡nce â napÅ. otevÅi wikipedia.org'); return;
   }
   if (window.trustedTypes) {
     try { window.trustedTypes.createPolicy('ts-probe-'+Date.now(),{createHTML:s=>s}); }
-    catch(e) { if(e.message.includes('disallowed')) { alert('⛔ Tato stránka blokuje skript (CSP).\n✅ Otevři wikipedia.org a spusť tam.'); return; } }
+    catch(e) { if(e.message.includes('disallowed')) { alert('â Tato strÃ¡nka blokuje skript (CSP).\nâ OtevÅi wikipedia.org a spusÅ¥ tam.'); return; } }
   }
 }
 
-// ── STATICKÁ DATA 2026 ────────────────────────────────────────
-// Formát: [name, loc, tier, surf, io, alt_m, start, end, sgl, dbl, prize, {a:winners_ATP, w:winners_WTA}]
+// ââ STATICKÃ DATA 2026 ââââââââââââââââââââââââââââââââââââââââ
+// FormÃ¡t: [name, loc, tier, surf, io, alt_m, start, end, sgl, dbl, prize, {a:winners_ATP, w:winners_WTA}]
 // io: "O"=outdoor, "I"=indoor
-// alt_m: nadmořská výška v metrech (0 = u moře / neuvedeno)
-// prize: prize money pro singla vítěze v USD (ATP pokud combined, jinak M/W)
-// winners: poslední 3 roky [2025, 2024, 2023]
+// alt_m: nadmoÅskÃ¡ vÃ½Å¡ka v metrech (0 = u moÅe / neuvedeno)
+// prize: prize money pro singla vÃ­tÄze v USD (ATP pokud combined, jinak M/W)
+// winners: poslednÃ­ 3 roky [2025, 2024, 2023]
 
 const ATP = [
   // LEDEN
-  ["United Cup","Perth/Sydney, AUS","Tým.event","Tvrdý","O",15,"2026-01-02","2026-01-11",0,0,"—",{w:["Polsko","Polsko","USA"]}],
-  ["Brisbane International","Brisbane, AUS","ATP250","Tvrdý","O",27,"2026-01-04","2026-01-11",32,24,"$604k",{w:["Rune","Fonseca","Shelton"]}],
-  ["Bank of China Hong Kong Open","Hong Kong","ATP250","Tvrdý","O",10,"2026-01-05","2026-01-11",28,16,"$604k",{w:["Bublik","Bublik","Bublik"]}],
-  ["Adelaide International","Adelaide, AUS","ATP250","Tvrdý","O",48,"2026-01-12","2026-01-17",28,24,"$604k",{w:["Machac","Korda","Rublev"]}],
-  ["ASB Classic","Auckland, NZL","ATP250","Tvrdý","O",25,"2026-01-12","2026-01-17",28,16,"$604k",{w:["Mensik","Paul","Cressy"]}],
-  ["Australian Open","Melbourne, AUS","Grand Slam","Tvrdý","O",31,"2026-01-18","2026-02-01",128,64,"$2,9M AUD",{w:["Alcaraz","Sinner","Djokovic"]}],
-  // ÚNOR
-  ["Open Occitanie","Montpellier, FRA","ATP250","Tvrdý","I",1,"2026-02-02","2026-02-08",28,16,"$604k",{w:["Humbert","Humbert","Bublik"]}],
-  ["Nexo Dallas Open","Dallas, USA","ATP500","Tvrdý","I",139,"2026-02-09","2026-02-15",32,16,"$1,96M",{w:["Draper","Fritz","Opelka"]}],
-  ["ABN AMRO Open","Rotterdam, NED","ATP500","Tvrdý","I",1,"2026-02-09","2026-02-15",32,16,"$1,96M",{w:["Medvedev","Sinner","Rublev"]}],
+  ["United Cup","Perth/Sydney, AUS","TÃ½m.event","TvrdÃ½","O",15,"2026-01-02","2026-01-11",0,0,"â",{w:["Polsko","Polsko","USA"]}],
+  ["Brisbane International","Brisbane, AUS","ATP250","TvrdÃ½","O",27,"2026-01-04","2026-01-11",32,24,"$604k",{w:["Rune","Fonseca","Shelton"]}],
+  ["Bank of China Hong Kong Open","Hong Kong","ATP250","TvrdÃ½","O",10,"2026-01-05","2026-01-11",28,16,"$604k",{w:["Bublik","Bublik","Bublik"]}],
+  ["Adelaide International","Adelaide, AUS","ATP250","TvrdÃ½","O",48,"2026-01-12","2026-01-17",28,24,"$604k",{w:["Machac","Korda","Rublev"]}],
+  ["ASB Classic","Auckland, NZL","ATP250","TvrdÃ½","O",25,"2026-01-12","2026-01-17",28,16,"$604k",{w:["Mensik","Paul","Cressy"]}],
+  ["Australian Open","Melbourne, AUS","Grand Slam","TvrdÃ½","O",31,"2026-01-18","2026-02-01",128,64,"$2,9M AUD",{w:["Alcaraz","Sinner","Djokovic"]}],
+  // ÃNOR
+  ["Open Occitanie","Montpellier, FRA","ATP250","TvrdÃ½","I",1,"2026-02-02","2026-02-08",28,16,"$604k",{w:["Humbert","Humbert","Bublik"]}],
+  ["Nexo Dallas Open","Dallas, USA","ATP500","TvrdÃ½","I",139,"2026-02-09","2026-02-15",32,16,"$1,96M",{w:["Draper","Fritz","Opelka"]}],
+  ["ABN AMRO Open","Rotterdam, NED","ATP500","TvrdÃ½","I",1,"2026-02-09","2026-02-15",32,16,"$1,96M",{w:["Medvedev","Sinner","Rublev"]}],
   ["IEB+ Argentina Open","Buenos Aires, ARG","ATP250","Antuka","O",25,"2026-02-09","2026-02-15",28,16,"$604k",{w:["Cerundolo","Cerundolo","Djokovic"]}],
-  ["Qatar ExxonMobil Open","Doha, QAT","ATP500","Tvrdý","O",11,"2026-02-16","2026-02-22",32,16,"$1,96M",{w:["Rublev","Medvedev","Djokovic"]}],
+  ["Qatar ExxonMobil Open","Doha, QAT","ATP500","TvrdÃ½","O",11,"2026-02-16","2026-02-22",32,16,"$1,96M",{w:["Rublev","Medvedev","Djokovic"]}],
   ["Rio Open","Rio de Janeiro, BRA","ATP500","Antuka","O",10,"2026-02-16","2026-02-22",32,16,"$1,96M",{w:["Fonseca","Cerundolo","Tsitsipas"]}],
-  ["Delray Beach Open","Delray Beach, USA","ATP250","Tvrdý","O",3,"2026-02-16","2026-02-22",28,16,"$604k",{w:["Paul","Korda","Tiafoe"]}],
-  ["Mubadala Citi DC Open","Washington DC, USA","ATP500","Tvrdý","O",7,"2026-02-23","2026-03-01",48,16,"$1,96M",{w:["Fritz","Fritz","Zverev"]}],
-  ["Mexican Open","Acapulco, MEX","ATP500","Tvrdý","O",3,"2026-02-23","2026-03-01",32,16,"$1,96M",{w:["Alcaraz","Alcaraz","Alcaraz"]}],
-  ["Dubai Duty Free Championships","Dubai, UAE","ATP500","Tvrdý","O",5,"2026-02-23","2026-03-01",32,16,"$1,96M",{w:["Medvedev","Djokovic","Rublev"]}],
+  ["Delray Beach Open","Delray Beach, USA","ATP250","TvrdÃ½","O",3,"2026-02-16","2026-02-22",28,16,"$604k",{w:["Paul","Korda","Tiafoe"]}],
+  ["Mubadala Citi DC Open","Washington DC, USA","ATP500","TvrdÃ½","O",7,"2026-02-23","2026-03-01",48,16,"$1,96M",{w:["Fritz","Fritz","Zverev"]}],
+  ["Mexican Open","Acapulco, MEX","ATP500","TvrdÃ½","O",3,"2026-02-23","2026-03-01",32,16,"$1,96M",{w:["Alcaraz","Alcaraz","Alcaraz"]}],
+  ["Dubai Duty Free Championships","Dubai, UAE","ATP500","TvrdÃ½","O",5,"2026-02-23","2026-03-01",32,16,"$1,96M",{w:["Medvedev","Djokovic","Rublev"]}],
   ["Movistar Chile Open","Santiago, CHI","ATP250","Antuka","O",520,"2026-02-23","2026-03-01",28,16,"$604k",{w:["Jarry","Tabilo","Jarry"]}],
-  // BŘEZEN
-  ["BNP Paribas Open","Indian Wells, USA","Masters1000","Tvrdý","O",485,"2026-03-04","2026-03-15",96,32,"$1,15M",{w:["Draper","Alcaraz","Alcaraz"]}],
-  ["Miami Open","Miami, USA","Masters1000","Tvrdý","O",2,"2026-03-18","2026-03-29",96,32,"$1,2M",{w:["Sinner","Sinner","Alcaraz"]}],
+  // BÅEZEN
+  ["BNP Paribas Open","Indian Wells, USA","Masters1000","TvrdÃ½","O",485,"2026-03-04","2026-03-15",96,32,"$1,15M",{w:["Draper","Alcaraz","Alcaraz"]}],
+  ["Miami Open","Miami, USA","Masters1000","TvrdÃ½","O",2,"2026-03-18","2026-03-29",96,32,"$1,2M",{w:["Sinner","Sinner","Alcaraz"]}],
   ["Tiriac Open","Bucharest, ROU","ATP250","Antuka","O",85,"2026-03-30","2026-04-05",28,16,"$604k",{w:["Rune","Rune","Hanfmann"]}],
   ["U.S. Men's Clay Court Championship","Houston, USA","ATP250","Antuka","O",38,"2026-03-30","2026-04-05",28,16,"$604k",{w:["Fonseca","Paul","Fognini"]}],
   ["Grand Prix Hassan II","Marrakech, MAR","ATP250","Antuka","O",454,"2026-03-30","2026-04-05",28,16,"$604k",{w:["Mensik","Sonego","Munar"]}],
@@ -69,208 +69,208 @@ const ATP = [
   ["Barcelona Open Banc Sabadell","Barcelona, ESP","ATP500","Antuka","O",12,"2026-04-13","2026-04-19",48,16,"$1,13M",{w:["Alcaraz","Tsitsipas","Alcaraz"]}],
   ["BMW Open","Munich, GER","ATP500","Antuka","O",519,"2026-04-13","2026-04-19",32,16,"$704k",{w:["Zverev","Zverev","Zverev"]}],
   ["Mutua Madrid Open","Madrid, ESP","Masters1000","Antuka","O",667,"2026-04-22","2026-05-03",96,32,"$1,12M",{w:["Alcaraz","Zverev","Alcaraz"]}],
-  // KVĚTEN
+  // KVÄTEN
   ["Internazionali BNL d'Italia","Rome, ITA","Masters1000","Antuka","O",23,"2026-05-06","2026-05-17",96,32,"$857k",{w:["Alcaraz","Zverev","Rune"]}],
   ["Hamburg Open","Hamburg, GER","ATP500","Antuka","O",6,"2026-05-17","2026-05-23",32,16,"$1,13M",{w:["Zverev","Zverev","Zverev"]}],
   ["Gonet Geneva Open","Geneva, SUI","ATP250","Antuka","O",375,"2026-05-17","2026-05-23",28,16,"$604k",{w:["Djokovic","Dimitrov","Musetti"]}],
   ["Roland Garros","Paris, FRA","Grand Slam","Antuka","O",35,"2026-05-24","2026-06-07",128,64,"$2,4M EUR",{w:["Alcaraz","Sinner","Nole"]}],
-  // ČERVEN
-  ["Libema Open","'s-Hertogenbosch, NED","ATP250","Tráva","O",5,"2026-06-08","2026-06-14",28,16,"$604k",{w:["Rune","Griekspoor","Bublik"]}],
-  ["BOSS Open","Stuttgart, GER","ATP250","Tráva","O",226,"2026-06-08","2026-06-14",28,16,"$604k",{w:["Ruud","Rune","Auger-Aliassime"]}],
-  ["Terra Wortmann Open","Halle, GER","ATP500","Tráva","O",65,"2026-06-15","2026-06-21",32,16,"$1,96M",{w:["Sinner","Sinner","Rublev"]}],
-  ["HSBC Championships","London, GBR","ATP500","Tráva","O",11,"2026-06-15","2026-06-21",32,16,"$1,96M",{w:["Djokovic","Fritz","Paul"]}],
-  ["Mallorca Championships","Mallorca, ESP","ATP250","Tráva","O",14,"2026-06-21","2026-06-27",28,16,"$604k",{w:["Ruusuvuori","Fognini","Fognini"]}],
-  ["Rothesay International","Eastbourne, GBR","ATP250","Tráva","O",5,"2026-06-22","2026-06-28",28,16,"$604k",{w:["Norrie","Norrie","Norrie"]}],
-  ["Wimbledon","London, GBR","Grand Slam","Tráva","O",43,"2026-06-29","2026-07-12",128,64,"$2,9M GBP",{w:["Alcaraz","Alcaraz","Alcaraz"]}],
-  // ČERVENEC
-  ["Nordea Open","Båstad, SWE","ATP250","Antuka","O",12,"2026-07-13","2026-07-19",28,16,"$604k",{w:["Ruud","Rune","Rune"]}],
+  // ÄERVEN
+  ["Libema Open","'s-Hertogenbosch, NED","ATP250","TrÃ¡va","O",5,"2026-06-08","2026-06-14",28,16,"$604k",{w:["Rune","Griekspoor","Bublik"]}],
+  ["BOSS Open","Stuttgart, GER","ATP250","TrÃ¡va","O",226,"2026-06-08","2026-06-14",28,16,"$604k",{w:["Ruud","Rune","Auger-Aliassime"]}],
+  ["Terra Wortmann Open","Halle, GER","ATP500","TrÃ¡va","O",65,"2026-06-15","2026-06-21",32,16,"$1,96M",{w:["Sinner","Sinner","Rublev"]}],
+  ["HSBC Championships","London, GBR","ATP500","TrÃ¡va","O",11,"2026-06-15","2026-06-21",32,16,"$1,96M",{w:["Djokovic","Fritz","Paul"]}],
+  ["Mallorca Championships","Mallorca, ESP","ATP250","TrÃ¡va","O",14,"2026-06-21","2026-06-27",28,16,"$604k",{w:["Ruusuvuori","Fognini","Fognini"]}],
+  ["Rothesay International","Eastbourne, GBR","ATP250","TrÃ¡va","O",5,"2026-06-22","2026-06-28",28,16,"$604k",{w:["Norrie","Norrie","Norrie"]}],
+  ["Wimbledon","London, GBR","Grand Slam","TrÃ¡va","O",43,"2026-06-29","2026-07-12",128,64,"$2,9M GBP",{w:["Alcaraz","Alcaraz","Alcaraz"]}],
+  // ÄERVENEC
+  ["Nordea Open","BÃ¥stad, SWE","ATP250","Antuka","O",12,"2026-07-13","2026-07-19",28,16,"$604k",{w:["Ruud","Rune","Rune"]}],
   ["EFG Swiss Open Gstaad","Gstaad, SUI","ATP250","Antuka","O",1050,"2026-07-13","2026-07-19",28,16,"$604k",{w:["Struff","Struff","Struff"]}],
   ["Plava Laguna Croatia Open Umag","Umag, CRO","ATP250","Antuka","O",7,"2026-07-13","2026-07-19",28,16,"$604k",{w:["Rune","Musetti","Sinner"]}],
-  ["Generali Open","Kitzbühel, AUT","ATP250","Antuka","O",762,"2026-07-19","2026-07-25",28,16,"$604k",{w:["Altmaier","Struff","Struff"]}],
+  ["Generali Open","KitzbÃ¼hel, AUT","ATP250","Antuka","O",762,"2026-07-19","2026-07-25",28,16,"$604k",{w:["Altmaier","Struff","Struff"]}],
   ["Millennium Estoril Open","Estoril, POR","ATP250","Antuka","O",149,"2026-07-20","2026-07-26",28,16,"$604k",{w:["Rune","Monfils","Norrie"]}],
-  ["Mifel Tennis Open","Los Cabos, MEX","ATP250","Tvrdý","O",14,"2026-07-20","2026-07-26",28,16,"$604k",{w:["Rune","Fonseca","Zverev"]}],
-  ["Mubadala Citi DC Open","Washington DC, USA","ATP500","Tvrdý","O",7,"2026-07-27","2026-08-02",48,16,"$1,96M",{w:["Shelton","Fritz","Shelton"]}],
+  ["Mifel Tennis Open","Los Cabos, MEX","ATP250","TvrdÃ½","O",14,"2026-07-20","2026-07-26",28,16,"$604k",{w:["Rune","Fonseca","Zverev"]}],
+  ["Mubadala Citi DC Open","Washington DC, USA","ATP500","TvrdÃ½","O",7,"2026-07-27","2026-08-02",48,16,"$1,96M",{w:["Shelton","Fritz","Shelton"]}],
   // SRPEN
-  ["National Bank Open","Montreal/Toronto, CAN","Masters1000","Tvrdý","O",30,"2026-08-03","2026-08-16",96,32,"$857k",{w:["Sinner","Sinner","Alcaraz"]}],
-  ["Cincinnati Open","Cincinnati, USA","Masters1000","Tvrdý","O",226,"2026-08-17","2026-08-23",96,32,"$857k",{w:["Sinner","Djokovic","Alcaraz"]}],
-  ["Winston-Salem Open","Winston-Salem, USA","ATP250","Tvrdý","O",270,"2026-08-23","2026-08-29",48,16,"$604k",{w:["Paul","Mannarino","Cressy"]}],
-  ["US Open","New York, USA","Grand Slam","Tvrdý","O",6,"2026-08-31","2026-09-13",128,64,"$3,6M",{w:["Sinner","Sinner","Medvedev"]}],
-  // ZÁŘÍ
-  ["Chengdu Open","Chengdu, CHN","ATP250","Tvrdý","O",500,"2026-09-21","2026-09-27",28,16,"$604k",{w:["Sinner","Medvedev","Wu"]}],
-  ["Hangzhou Open","Hangzhou, CHN","ATP250","Tvrdý","O",7,"2026-09-21","2026-09-27",28,16,"$604k",{w:["Bublik","Zverev","Davidovich"]}],
-  ["Laver Cup","London, GBR","Exhibice","Tvrdý","I",43,"2026-09-25","2026-09-27",0,0,"—",{w:["Evropa","Svět","Evropa"]}],
-  ["Kinoshita Japan Open","Tokyo, JPN","ATP500","Tvrdý","O",40,"2026-09-28","2026-10-04",32,16,"$1,96M",{w:["Rune","Paul","Tsitsipas"]}],
-  ["China Open","Beijing, CHN","ATP500","Tvrdý","O",43,"2026-09-28","2026-10-04",32,16,"$1,96M",{w:["Sinner","Sinner","Alcaraz"]}],
-  // ŘÍJEN
-  ["Rolex Shanghai Masters","Shanghai, CHN","Masters1000","Tvrdý","O",4,"2026-10-05","2026-10-18",96,32,"$1,12M",{w:["Sinner","Djokovic","Medvedev"]}],
-  ["Almaty Open","Almaty, KAZ","ATP250","Tvrdý","I",775,"2026-10-19","2026-10-25",28,16,"$604k",{w:["Rune","Rublev","Bublik"]}],
-  ["European Open","Antwerp, BEL","ATP250","Tvrdý","I",12,"2026-10-19","2026-10-25",28,16,"$604k",{w:["Paul","Rublev","Sinner"]}],
-  ["Grand Prix Auvergne-Rhône-Alpes","Lyon, FRA","ATP250","Tvrdý","I",173,"2026-10-19","2026-10-25",28,16,"$604k",{w:["Tiafoe","Fils","Mannarino"]}],
-  ["Swiss Indoors Basel","Basel, SUI","ATP500","Tvrdý","I",260,"2026-10-26","2026-11-01",28,16,"$1,96M",{w:["Sinner","Sinner","Djokovic"]}],
-  ["Erste Bank Open","Vienna, AUT","ATP500","Tvrdý","I",171,"2026-10-26","2026-11-01",32,16,"$1,96M",{w:["Draper","Sinner","Rublev"]}],
+  ["National Bank Open","Montreal/Toronto, CAN","Masters1000","TvrdÃ½","O",30,"2026-08-03","2026-08-16",96,32,"$857k",{w:["Sinner","Sinner","Alcaraz"]}],
+  ["Cincinnati Open","Cincinnati, USA","Masters1000","TvrdÃ½","O",226,"2026-08-17","2026-08-23",96,32,"$857k",{w:["Sinner","Djokovic","Alcaraz"]}],
+  ["Winston-Salem Open","Winston-Salem, USA","ATP250","TvrdÃ½","O",270,"2026-08-23","2026-08-29",48,16,"$604k",{w:["Paul","Mannarino","Cressy"]}],
+  ["US Open","New York, USA","Grand Slam","TvrdÃ½","O",6,"2026-08-31","2026-09-13",128,64,"$3,6M",{w:["Sinner","Sinner","Medvedev"]}],
+  // ZÃÅÃ
+  ["Chengdu Open","Chengdu, CHN","ATP250","TvrdÃ½","O",500,"2026-09-21","2026-09-27",28,16,"$604k",{w:["Sinner","Medvedev","Wu"]}],
+  ["Hangzhou Open","Hangzhou, CHN","ATP250","TvrdÃ½","O",7,"2026-09-21","2026-09-27",28,16,"$604k",{w:["Bublik","Zverev","Davidovich"]}],
+  ["Laver Cup","London, GBR","Exhibice","TvrdÃ½","I",43,"2026-09-25","2026-09-27",0,0,"â",{w:["Evropa","SvÄt","Evropa"]}],
+  ["Kinoshita Japan Open","Tokyo, JPN","ATP500","TvrdÃ½","O",40,"2026-09-28","2026-10-04",32,16,"$1,96M",{w:["Rune","Paul","Tsitsipas"]}],
+  ["China Open","Beijing, CHN","ATP500","TvrdÃ½","O",43,"2026-09-28","2026-10-04",32,16,"$1,96M",{w:["Sinner","Sinner","Alcaraz"]}],
+  // ÅÃJEN
+  ["Rolex Shanghai Masters","Shanghai, CHN","Masters1000","TvrdÃ½","O",4,"2026-10-05","2026-10-18",96,32,"$1,12M",{w:["Sinner","Djokovic","Medvedev"]}],
+  ["Almaty Open","Almaty, KAZ","ATP250","TvrdÃ½","I",775,"2026-10-19","2026-10-25",28,16,"$604k",{w:["Rune","Rublev","Bublik"]}],
+  ["European Open","Antwerp, BEL","ATP250","TvrdÃ½","I",12,"2026-10-19","2026-10-25",28,16,"$604k",{w:["Paul","Rublev","Sinner"]}],
+  ["Grand Prix Auvergne-RhÃ´ne-Alpes","Lyon, FRA","ATP250","TvrdÃ½","I",173,"2026-10-19","2026-10-25",28,16,"$604k",{w:["Tiafoe","Fils","Mannarino"]}],
+  ["Swiss Indoors Basel","Basel, SUI","ATP500","TvrdÃ½","I",260,"2026-10-26","2026-11-01",28,16,"$1,96M",{w:["Sinner","Sinner","Djokovic"]}],
+  ["Erste Bank Open","Vienna, AUT","ATP500","TvrdÃ½","I",171,"2026-10-26","2026-11-01",32,16,"$1,96M",{w:["Draper","Sinner","Rublev"]}],
   // LISTOPAD
-  ["Rolex Paris Masters","Paris, FRA","Masters1000","Tvrdý","I",35,"2026-11-02","2026-11-08",48,24,"$857k",{w:["Zverev","Djokovic","Djokovic"]}],
-  ["BNP Paribas Nordic Open","Stockholm, SWE","ATP250","Tvrdý","I",28,"2026-11-09","2026-11-15",28,16,"$604k",{w:["Rune","Rune","Nishioka"]}],
-  ["Nitto ATP Finals","Turin, ITA","Finals","Tvrdý","I",239,"2026-11-15","2026-11-22",8,8,"$2,6M",{w:["Sinner","Sinner","Djokovic"]}],
-  ["Next Gen ATP Finals","Jeddah, KSA","NextGen","Tvrdý","I",612,"2026-12-16","2026-12-20",8,0,"$1,8M",{w:["Fonseca","Mensik","Fils"]}],
+  ["Rolex Paris Masters","Paris, FRA","Masters1000","TvrdÃ½","I",35,"2026-11-02","2026-11-08",48,24,"$857k",{w:["Zverev","Djokovic","Djokovic"]}],
+  ["BNP Paribas Nordic Open","Stockholm, SWE","ATP250","TvrdÃ½","I",28,"2026-11-09","2026-11-15",28,16,"$604k",{w:["Rune","Rune","Nishioka"]}],
+  ["Nitto ATP Finals","Turin, ITA","Finals","TvrdÃ½","I",239,"2026-11-15","2026-11-22",8,8,"$2,6M",{w:["Sinner","Sinner","Djokovic"]}],
+  ["Next Gen ATP Finals","Jeddah, KSA","NextGen","TvrdÃ½","I",612,"2026-12-16","2026-12-20",8,0,"$1,8M",{w:["Fonseca","Mensik","Fils"]}],
 ];
 
 const WTA = [
   // LEDEN
-  ["United Cup","Perth/Sydney, AUS","Tým.event","Tvrdý","O",15,"2026-01-02","2026-01-11",0,0,"—",{w:["Polsko","Polsko","USA"]}],
-  ["Brisbane International","Brisbane, AUS","WTA500","Tvrdý","O",27,"2026-01-04","2026-01-11",32,16,"$235k",{w:["Sabalenka","Gauff","Azarenka"]}],
-  ["Adelaide International","Adelaide, AUS","WTA500","Tvrdý","O",48,"2026-01-05","2026-01-11",32,16,"$235k",{w:["Svitolina","Rybakina","Barty"]}],
-  ["ASB Classic","Auckland, NZL","WTA250","Tvrdý","O",25,"2026-01-05","2026-01-11",32,16,"$235k",{w:["Svitolina","Osaka","Vandeweghe"]}],
-  ["Hobart International","Hobart, AUS","WTA250","Tvrdý","O",54,"2026-01-12","2026-01-18",32,16,"$235k",{w:["Cocciaretto","Kvitova","Stosur"]}],
-  ["Australian Open","Melbourne, AUS","Grand Slam","Tvrdý","O",31,"2026-01-18","2026-02-01",128,64,"$2,9M AUD",{w:["Rybakina","Sabalenka","Sabalenka"]}],
-  // ÚNOR
-  ["Thames International","London, GBR","WTA500","Tvrdý","I",11,"2026-02-02","2026-02-08",28,16,"$235k",{w:["Andreeva","Rybakina","—"]}],
+  ["United Cup","Perth/Sydney, AUS","TÃ½m.event","TvrdÃ½","O",15,"2026-01-02","2026-01-11",0,0,"â",{w:["Polsko","Polsko","USA"]}],
+  ["Brisbane International","Brisbane, AUS","WTA500","TvrdÃ½","O",27,"2026-01-04","2026-01-11",32,16,"$235k",{w:["Sabalenka","Gauff","Azarenka"]}],
+  ["Adelaide International","Adelaide, AUS","WTA500","TvrdÃ½","O",48,"2026-01-05","2026-01-11",32,16,"$235k",{w:["Svitolina","Rybakina","Barty"]}],
+  ["ASB Classic","Auckland, NZL","WTA250","TvrdÃ½","O",25,"2026-01-05","2026-01-11",32,16,"$235k",{w:["Svitolina","Osaka","Vandeweghe"]}],
+  ["Hobart International","Hobart, AUS","WTA250","TvrdÃ½","O",54,"2026-01-12","2026-01-18",32,16,"$235k",{w:["Cocciaretto","Kvitova","Stosur"]}],
+  ["Australian Open","Melbourne, AUS","Grand Slam","TvrdÃ½","O",31,"2026-01-18","2026-02-01",128,64,"$2,9M AUD",{w:["Rybakina","Sabalenka","Sabalenka"]}],
+  // ÃNOR
+  ["Thames International","London, GBR","WTA500","TvrdÃ½","I",11,"2026-02-02","2026-02-08",28,16,"$235k",{w:["Andreeva","Rybakina","â"]}],
   ["Cali Open","Cali, COL","WTA250","Antuka","O",995,"2026-02-02","2026-02-08",32,16,"$115k",{w:["Sorribes Tormo","Sorribes Tormo","Osorio"]}],
-  ["Abu Dhabi Open","Abu Dhabi, UAE","WTA500","Tvrdý","O",27,"2026-02-02","2026-02-08",28,16,"$235k",{w:["Muchova","Rybakina","—"]}],
-  ["Qatar TotalEnergies Open","Doha, QAT","WTA1000","Tvrdý","O",11,"2026-02-09","2026-02-15",56,28,"$665k",{w:["Muchova","Swiatek","Swiatek"]}],
-  ["Dubai Duty Free Championships","Dubai, UAE","WTA1000","Tvrdý","O",5,"2026-02-16","2026-02-22",56,28,"$665k",{w:["Pegula","Svitolina","Swiatek"]}],
+  ["Abu Dhabi Open","Abu Dhabi, UAE","WTA500","TvrdÃ½","O",27,"2026-02-02","2026-02-08",28,16,"$235k",{w:["Muchova","Rybakina","â"]}],
+  ["Qatar TotalEnergies Open","Doha, QAT","WTA1000","TvrdÃ½","O",11,"2026-02-09","2026-02-15",56,28,"$665k",{w:["Muchova","Swiatek","Swiatek"]}],
+  ["Dubai Duty Free Championships","Dubai, UAE","WTA1000","TvrdÃ½","O",5,"2026-02-16","2026-02-22",56,28,"$665k",{w:["Pegula","Svitolina","Swiatek"]}],
   ["Rio Open","Rio de Janeiro, BRA","WTA250","Antuka","O",10,"2026-02-16","2026-02-22",32,16,"$115k",{w:["Sorribes Tormo","Sorribes Tormo","Osorio"]}],
-  ["Abierto Mexicano Telcel","Acapulco, MEX","WTA250","Tvrdý","O",3,"2026-02-23","2026-03-01",32,16,"$115k",{w:["Samsonova","Osaka","Haddad Maia"]}],
-  // BŘEZEN
-  ["BNP Paribas Open","Indian Wells, USA","WTA1000","Tvrdý","O",485,"2026-03-04","2026-03-15",96,32,"$1,15M",{w:["Andreeva","Sabalenka","Swiatek"]}],
-  ["Miami Open","Miami, USA","WTA1000","Tvrdý","O",2,"2026-03-18","2026-03-29",96,32,"$1,2M",{w:["Gauff","Swiatek","Swiatek"]}],
+  ["Abierto Mexicano Telcel","Acapulco, MEX","WTA250","TvrdÃ½","O",3,"2026-02-23","2026-03-01",32,16,"$115k",{w:["Samsonova","Osaka","Haddad Maia"]}],
+  // BÅEZEN
+  ["BNP Paribas Open","Indian Wells, USA","WTA1000","TvrdÃ½","O",485,"2026-03-04","2026-03-15",96,32,"$1,15M",{w:["Andreeva","Sabalenka","Swiatek"]}],
+  ["Miami Open","Miami, USA","WTA1000","TvrdÃ½","O",2,"2026-03-18","2026-03-29",96,32,"$1,2M",{w:["Gauff","Swiatek","Swiatek"]}],
   ["Credit One Charleston Open","Charleston, USA","WTA500","Antuka","O",10,"2026-03-23","2026-03-29",48,16,"$235k",{w:["Swiatek","Swiatek","Swiatek"]}],
   // DUBEN
   ["Porsche Tennis Grand Prix","Stuttgart, GER","WTA500","Antuka","I",245,"2026-04-06","2026-04-12",28,14,"$235k",{w:["Swiatek","Swiatek","Swiatek"]}],
-  ["Upper Austria Ladies Linz","Linz, AUT","WTA500","Tvrdý","I",266,"2026-04-06","2026-04-12",28,16,"$235k",{w:["Rybakina","Rybakina","Bencic"]}],
+  ["Upper Austria Ladies Linz","Linz, AUT","WTA500","TvrdÃ½","I",266,"2026-04-06","2026-04-12",28,16,"$235k",{w:["Rybakina","Rybakina","Bencic"]}],
   ["Barcelona Open","Barcelona, ESP","WTA500","Antuka","O",12,"2026-04-13","2026-04-19",32,16,"$235k",{w:["Swiatek","Swiatek","Muguruza"]}],
   ["Mutua Madrid Open","Madrid, ESP","WTA1000","Antuka","O",667,"2026-04-27","2026-05-03",96,32,"$1,12M",{w:["Sabalenka","Swiatek","Swiatek"]}],
   ["Grand Prix Hassan II","Marrakech, MAR","WTA250","Antuka","O",454,"2026-04-27","2026-05-03",32,16,"$115k",{w:["Sorribes Tormo","Sorribes Tormo","Bogdan"]}],
-  // KVĚTEN
+  // KVÄTEN
   ["Internazionali BNL d'Italia","Rome, ITA","WTA1000","Antuka","O",23,"2026-05-04","2026-05-10",96,32,"$857k",{w:["Gauff","Swiatek","Swiatek"]}],
   ["Internationaux de Strasbourg","Strasbourg, FRA","WTA250","Antuka","O",142,"2026-05-11","2026-05-17",32,16,"$115k",{w:["Svitolina","Bouzkova","Kvitova"]}],
   ["Roland Garros","Paris, FRA","Grand Slam","Antuka","O",35,"2026-05-24","2026-06-07",128,64,"$2,4M EUR",{w:["Gauff","Swiatek","Swiatek"]}],
-  // ČERVEN
-  ["Libema Open","'s-Hertogenbosch, NED","WTA500","Tráva","O",5,"2026-06-08","2026-06-14",28,16,"$235k",{w:["Rybakina","Vondrousova","Kontaveit"]}],
-  ["Rothesay Open Nottingham","Nottingham, GBR","WTA250","Tráva","O",28,"2026-06-08","2026-06-14",32,16,"$115k",{w:["Paolini","Bouzkova","Brengle"]}],
-  ["Bad Homburg Open","Bad Homburg, GER","WTA250","Tráva","O",149,"2026-06-15","2026-06-21",32,16,"$115k",{w:["Rybakina","Vondrousova","Kerber"]}],
-  ["Berlin Ladies Open","Berlin, GER","WTA500","Tráva","O",34,"2026-06-15","2026-06-21",28,16,"$235k",{w:["Swiatek","Swiatek","Kvitova"]}],
-  ["Rothesay International Eastbourne","Eastbourne, GBR","WTA250","Tráva","O",5,"2026-06-22","2026-06-28",32,16,"$115k",{w:["Rybakina","Gauff","Jabeur"]}],
-  ["Wimbledon","London, GBR","Grand Slam","Tráva","O",43,"2026-06-29","2026-07-12",128,64,"$2,9M GBP",{w:["Rybakina","Vondrousova","Rybakina"]}],
-  // ČERVENEC
+  // ÄERVEN
+  ["Libema Open","'s-Hertogenbosch, NED","WTA500","TrÃ¡va","O",5,"2026-06-08","2026-06-14",28,16,"$235k",{w:["Rybakina","Vondrousova","Kontaveit"]}],
+  ["Rothesay Open Nottingham","Nottingham, GBR","WTA250","TrÃ¡va","O",28,"2026-06-08","2026-06-14",32,16,"$115k",{w:["Paolini","Bouzkova","Brengle"]}],
+  ["Bad Homburg Open","Bad Homburg, GER","WTA250","TrÃ¡va","O",149,"2026-06-15","2026-06-21",32,16,"$115k",{w:["Rybakina","Vondrousova","Kerber"]}],
+  ["Berlin Ladies Open","Berlin, GER","WTA500","TrÃ¡va","O",34,"2026-06-15","2026-06-21",28,16,"$235k",{w:["Swiatek","Swiatek","Kvitova"]}],
+  ["Rothesay International Eastbourne","Eastbourne, GBR","WTA250","TrÃ¡va","O",5,"2026-06-22","2026-06-28",32,16,"$115k",{w:["Rybakina","Gauff","Jabeur"]}],
+  ["Wimbledon","London, GBR","Grand Slam","TrÃ¡va","O",43,"2026-06-29","2026-07-12",128,64,"$2,9M GBP",{w:["Rybakina","Vondrousova","Rybakina"]}],
+  // ÄERVENEC
   ["Palermo International","Palermo, ITA","WTA250","Antuka","O",36,"2026-07-13","2026-07-19",32,16,"$115k",{w:["Paolini","Paolini","Bronzetti"]}],
   ["Prague Open","Prague, CZE","WTA250","Antuka","O",190,"2026-07-13","2026-07-19",32,16,"$115k",{w:["Kvitova","Bouzkova","Kvitova"]}],
   ["IWC Budapest Grand Prix","Budapest, HUN","WTA250","Antuka","O",102,"2026-07-20","2026-07-26",32,16,"$115k",{w:["Siegemund","Parrizas Diaz","Bogdan"]}],
-  ["Mubadala Citi DC Open","Washington DC, USA","WTA500","Tvrdý","O",7,"2026-07-20","2026-07-26",28,16,"$235k",{w:["Gauff","Gauff","Kontaveit"]}],
+  ["Mubadala Citi DC Open","Washington DC, USA","WTA500","TvrdÃ½","O",7,"2026-07-20","2026-07-26",28,16,"$235k",{w:["Gauff","Gauff","Kontaveit"]}],
   // SRPEN
-  ["National Bank Open","Toronto/Montreal, CAN","WTA1000","Tvrdý","O",105,"2026-08-03","2026-08-09",96,32,"$857k",{w:["Sabalenka","Swiatek","Swiatek"]}],
-  ["Western & Southern Open","Cincinnati, USA","WTA1000","Tvrdý","O",226,"2026-08-10","2026-08-17",96,32,"$857k",{w:["Swiatek","Swiatek","Swiatek"]}],
-  ["US Open","New York, USA","Grand Slam","Tvrdý","O",6,"2026-08-31","2026-09-13",128,64,"$3,6M",{w:["Sabalenka","Sabalenka","Swiatek"]}],
-  // ZÁŘÍ
-  ["Singapore Open","Singapore, SIN","WTA500","Tvrdý","I",15,"2026-09-21","2026-09-27",28,16,"$235k",{w:["—","—","—"]}],
-  ["Guangzhou Open","Guangzhou, CHN","WTA250","Tvrdý","O",11,"2026-09-21","2026-09-27",32,16,"$115k",{w:["Zhu","Zheng","Zhu"]}],
-  ["China Open","Beijing, CHN","WTA1000","Tvrdý","O",43,"2026-09-28","2026-10-04",96,32,"$857k",{w:["Sabalenka","Swiatek","Swiatek"]}],
-  ["Wuhan Open","Wuhan, CHN","WTA1000","Tvrdý","O",23,"2026-09-28","2026-10-11",96,32,"$857k",{w:["Swiatek","Rybakina","Swiatek"]}],
-  // ŘÍJEN
-  ["Korea Open","Seoul, KOR","WTA250","Tvrdý","O",38,"2026-10-19","2026-10-25",32,16,"$115k",{w:["Osaka","Osaka","Azarenka"]}],
-  ["Jiangxi Open","Nanchang, CHN","WTA250","Tvrdý","O",46,"2026-10-19","2026-10-25",32,16,"$115k",{w:["Zheng","Zheng","Kvitova"]}],
-  ["Rolex Paris Masters","Paris, FRA","WTA1000","Tvrdý","I",35,"2026-10-26","2026-11-01",56,28,"$857k",{w:["Sabalenka","Swiatek","—"]}],
+  ["National Bank Open","Toronto/Montreal, CAN","WTA1000","TvrdÃ½","O",105,"2026-08-03","2026-08-09",96,32,"$857k",{w:["Sabalenka","Swiatek","Swiatek"]}],
+  ["Western & Southern Open","Cincinnati, USA","WTA1000","TvrdÃ½","O",226,"2026-08-10","2026-08-17",96,32,"$857k",{w:["Swiatek","Swiatek","Swiatek"]}],
+  ["US Open","New York, USA","Grand Slam","TvrdÃ½","O",6,"2026-08-31","2026-09-13",128,64,"$3,6M",{w:["Sabalenka","Sabalenka","Swiatek"]}],
+  // ZÃÅÃ
+  ["Singapore Open","Singapore, SIN","WTA500","TvrdÃ½","I",15,"2026-09-21","2026-09-27",28,16,"$235k",{w:["â","â","â"]}],
+  ["Guangzhou Open","Guangzhou, CHN","WTA250","TvrdÃ½","O",11,"2026-09-21","2026-09-27",32,16,"$115k",{w:["Zhu","Zheng","Zhu"]}],
+  ["China Open","Beijing, CHN","WTA1000","TvrdÃ½","O",43,"2026-09-28","2026-10-04",96,32,"$857k",{w:["Sabalenka","Swiatek","Swiatek"]}],
+  ["Wuhan Open","Wuhan, CHN","WTA1000","TvrdÃ½","O",23,"2026-09-28","2026-10-11",96,32,"$857k",{w:["Swiatek","Rybakina","Swiatek"]}],
+  // ÅÃJEN
+  ["Korea Open","Seoul, KOR","WTA250","TvrdÃ½","O",38,"2026-10-19","2026-10-25",32,16,"$115k",{w:["Osaka","Osaka","Azarenka"]}],
+  ["Jiangxi Open","Nanchang, CHN","WTA250","TvrdÃ½","O",46,"2026-10-19","2026-10-25",32,16,"$115k",{w:["Zheng","Zheng","Kvitova"]}],
+  ["Rolex Paris Masters","Paris, FRA","WTA1000","TvrdÃ½","I",35,"2026-10-26","2026-11-01",56,28,"$857k",{w:["Sabalenka","Swiatek","â"]}],
   // LISTOPAD
-  ["Merida Open","Merida, MEX","WTA250","Tvrdý","O",9,"2026-11-02","2026-11-08",32,16,"$115k",{w:["Osorio","Osorio","—"]}],
-  ["WTA Finals","Riyadh, KSA","Finals","Tvrdý","I",612,"2026-11-06","2026-11-14",8,8,"$2,2M",{w:["Sabalenka","Swiatek","Swiatek"]}],
+  ["Merida Open","Merida, MEX","WTA250","TvrdÃ½","O",9,"2026-11-02","2026-11-08",32,16,"$115k",{w:["Osorio","Osorio","â"]}],
+  ["WTA Finals","Riyadh, KSA","Finals","TvrdÃ½","I",612,"2026-11-06","2026-11-14",8,8,"$2,2M",{w:["Sabalenka","Swiatek","Swiatek"]}],
 ];
 
 const CHALL = [
   // LEDEN
-  ["Bengaluru Open","Bengaluru, IND","CH125","Tvrdý","O",920,"2026-01-05","2026-01-10",32,16,"$175k",{w:["Martinez",""]}],
-  ["Canberra International","Canberra, AUS","CH125","Tvrdý","O",578,"2026-01-05","2026-01-10",32,16,"$175k",{w:["Blockx",""]}],
-  ["BNC Tennis Open","Noumea, NCL","CH75","Tvrdý","O",2,"2026-01-05","2026-01-10",32,16,"$100k",{w:["Gea",""]}],
-  ["Bangkok Open 1","Nonthaburi, THA","CH50","Tvrdý","O",3,"2026-01-05","2026-01-10",32,16,"$65k",{w:["—",""]}],
-  ["Lexus Nottingham Challenger","Nottingham, GBR","CH50","Tvrdý","I",28,"2026-01-05","2026-01-10",32,16,"$65k",{w:["—",""]}],
-  ["Bangkok Open 2","Nonthaburi, THA","CH75","Tvrdý","O",3,"2026-01-12","2026-01-17",32,16,"$100k",{w:["—",""]}],
-  ["Challenger AAT","Itajaí, BRA","CH50","Antuka","O",3,"2026-01-12","2026-01-17",32,16,"$65k",{w:["—",""]}],
-  ["Glasgow Challenger","Glasgow, GBR","CH50","Tvrdý","I",8,"2026-01-12","2026-01-17",32,16,"$65k",{w:["—",""]}],
-  ["Indoor Oeiras Open 1","Oeiras, POR","CH100","Tvrdý","I",36,"2026-01-19","2026-01-25",32,16,"$140k",{w:["—",""]}],
-  ["Itajaí Open","Itajaí, BRA","CH75","Antuka","O",3,"2026-01-19","2026-01-25",32,16,"$100k",{w:["—",""]}],
-  ["Indoor Oeiras Open 2","Oeiras, POR","CH100","Tvrdý","I",36,"2026-01-26","2026-02-01",32,16,"$140k",{w:["—",""]}],
-  ["Medellin Open","Medellín, COL","CH75","Antuka","O",1495,"2026-01-26","2026-02-01",32,16,"$100k",{w:["—",""]}],
-  // ÚNOR
-  ["Rosario Challenger","Rosario, ARG","CH125","Antuka","O",25,"2026-02-02","2026-02-08",32,16,"$175k",{w:["—",""]}],
-  ["Brisbane Challenger","Brisbane, AUS","CH75","Tvrdý","O",27,"2026-02-02","2026-02-08",32,16,"$100k",{w:["—",""]}],
-  ["Cleveland Challenger","Cleveland, USA","CH75","Tvrdý","I",183,"2026-02-02","2026-02-08",32,16,"$100k",{w:["—",""]}],
-  ["Pau Challenger","Pau, FRA","CH125","Tvrdý","I",210,"2026-02-09","2026-02-15",32,16,"$175k",{w:["—",""]}],
-  ["Chennai Open","Chennai, IND","CH50","Tvrdý","O",6,"2026-02-09","2026-02-15",32,16,"$65k",{w:["—",""]}],
-  ["Tenerife Challenger","Tenerife, ESP","CH75","Tvrdý","O",682,"2026-02-09","2026-02-15",32,16,"$100k",{w:["—",""]}],
-  ["Szczecin Challenger","Szczecin, POL","CH75","Tvrdý","I",1,"2026-02-09","2026-02-15",32,16,"$100k",{w:["—",""]}],
-  ["Lille Challenger","Lille, FRA","CH125","Tvrdý","I",20,"2026-02-16","2026-02-22",32,16,"$175k",{w:["—",""]}],
-  ["Delhi Open","New Delhi, IND","CH75","Tvrdý","O",216,"2026-02-16","2026-02-22",32,16,"$100k",{w:["—",""]}],
-  ["Liberec Challenger","Liberec, CZE","CH75","Tvrdý","I",399,"2026-02-16","2026-02-22",32,16,"$100k",{w:["—",""]}],
-  ["Heilbronn Challenger","Heilbronn, GER","CH75","Tvrdý","I",155,"2026-02-16","2026-02-22",32,16,"$100k",{w:["—",""]}],
-  ["Maha Open Pune","Pune, IND","CH75","Tvrdý","O",554,"2026-02-23","2026-03-01",32,16,"$100k",{w:["—",""]}],
-  ["Lugano Challenger","Lugano, SUI","CH75","Tvrdý","I",274,"2026-02-23","2026-03-01",32,16,"$100k",{w:["—",""]}],
-  // BŘEZEN
-  ["Thionville Challenger","Thionville, FRA","CH100","Tvrdý","I",175,"2026-03-02","2026-03-08",32,16,"$140k",{w:["—",""]}],
-  ["Kigali Challenger","Kigali, RWA","CH75","Antuka","O",1567,"2026-03-02","2026-03-08",32,16,"$100k",{w:["—",""]}],
-  ["Arizona Tennis Classic","Phoenix, USA","CH175","Tvrdý","O",331,"2026-03-09","2026-03-15",28,16,"$245k",{w:["—",""]}],
-  ["Copa Cap Cana","Cap Cana, DOM","CH175","Tvrdý","O",15,"2026-03-09","2026-03-15",28,16,"$245k",{w:["—",""]}],
-  ["Murcia Challenger","Murcia, ESP","CH75","Antuka","O",43,"2026-03-16","2026-03-22",32,16,"$100k",{w:["—",""]}],
-  ["Morelia Open","Morelia, MEX","CH125","Tvrdý","O",1909,"2026-03-23","2026-03-29",32,16,"$175k",{w:["—",""]}],
-  ["Naples Challenger","Naples, ITA","CH125","Antuka","O",17,"2026-03-23","2026-03-29",32,16,"$175k",{w:["—",""]}],
+  ["Bengaluru Open","Bengaluru, IND","CH125","TvrdÃ½","O",920,"2026-01-05","2026-01-10",32,16,"$175k",{w:["Martinez",""]}],
+  ["Canberra International","Canberra, AUS","CH125","TvrdÃ½","O",578,"2026-01-05","2026-01-10",32,16,"$175k",{w:["Blockx",""]}],
+  ["BNC Tennis Open","Noumea, NCL","CH75","TvrdÃ½","O",2,"2026-01-05","2026-01-10",32,16,"$100k",{w:["Gea",""]}],
+  ["Bangkok Open 1","Nonthaburi, THA","CH50","TvrdÃ½","O",3,"2026-01-05","2026-01-10",32,16,"$65k",{w:["â",""]}],
+  ["Lexus Nottingham Challenger","Nottingham, GBR","CH50","TvrdÃ½","I",28,"2026-01-05","2026-01-10",32,16,"$65k",{w:["â",""]}],
+  ["Bangkok Open 2","Nonthaburi, THA","CH75","TvrdÃ½","O",3,"2026-01-12","2026-01-17",32,16,"$100k",{w:["â",""]}],
+  ["Challenger AAT","ItajaÃ­, BRA","CH50","Antuka","O",3,"2026-01-12","2026-01-17",32,16,"$65k",{w:["â",""]}],
+  ["Glasgow Challenger","Glasgow, GBR","CH50","TvrdÃ½","I",8,"2026-01-12","2026-01-17",32,16,"$65k",{w:["â",""]}],
+  ["Indoor Oeiras Open 1","Oeiras, POR","CH100","TvrdÃ½","I",36,"2026-01-19","2026-01-25",32,16,"$140k",{w:["â",""]}],
+  ["ItajaÃ­ Open","ItajaÃ­, BRA","CH75","Antuka","O",3,"2026-01-19","2026-01-25",32,16,"$100k",{w:["â",""]}],
+  ["Indoor Oeiras Open 2","Oeiras, POR","CH100","TvrdÃ½","I",36,"2026-01-26","2026-02-01",32,16,"$140k",{w:["â",""]}],
+  ["Medellin Open","MedellÃ­n, COL","CH75","Antuka","O",1495,"2026-01-26","2026-02-01",32,16,"$100k",{w:["â",""]}],
+  // ÃNOR
+  ["Rosario Challenger","Rosario, ARG","CH125","Antuka","O",25,"2026-02-02","2026-02-08",32,16,"$175k",{w:["â",""]}],
+  ["Brisbane Challenger","Brisbane, AUS","CH75","TvrdÃ½","O",27,"2026-02-02","2026-02-08",32,16,"$100k",{w:["â",""]}],
+  ["Cleveland Challenger","Cleveland, USA","CH75","TvrdÃ½","I",183,"2026-02-02","2026-02-08",32,16,"$100k",{w:["â",""]}],
+  ["Pau Challenger","Pau, FRA","CH125","TvrdÃ½","I",210,"2026-02-09","2026-02-15",32,16,"$175k",{w:["â",""]}],
+  ["Chennai Open","Chennai, IND","CH50","TvrdÃ½","O",6,"2026-02-09","2026-02-15",32,16,"$65k",{w:["â",""]}],
+  ["Tenerife Challenger","Tenerife, ESP","CH75","TvrdÃ½","O",682,"2026-02-09","2026-02-15",32,16,"$100k",{w:["â",""]}],
+  ["Szczecin Challenger","Szczecin, POL","CH75","TvrdÃ½","I",1,"2026-02-09","2026-02-15",32,16,"$100k",{w:["â",""]}],
+  ["Lille Challenger","Lille, FRA","CH125","TvrdÃ½","I",20,"2026-02-16","2026-02-22",32,16,"$175k",{w:["â",""]}],
+  ["Delhi Open","New Delhi, IND","CH75","TvrdÃ½","O",216,"2026-02-16","2026-02-22",32,16,"$100k",{w:["â",""]}],
+  ["Liberec Challenger","Liberec, CZE","CH75","TvrdÃ½","I",399,"2026-02-16","2026-02-22",32,16,"$100k",{w:["â",""]}],
+  ["Heilbronn Challenger","Heilbronn, GER","CH75","TvrdÃ½","I",155,"2026-02-16","2026-02-22",32,16,"$100k",{w:["â",""]}],
+  ["Maha Open Pune","Pune, IND","CH75","TvrdÃ½","O",554,"2026-02-23","2026-03-01",32,16,"$100k",{w:["â",""]}],
+  ["Lugano Challenger","Lugano, SUI","CH75","TvrdÃ½","I",274,"2026-02-23","2026-03-01",32,16,"$100k",{w:["â",""]}],
+  // BÅEZEN
+  ["Thionville Challenger","Thionville, FRA","CH100","TvrdÃ½","I",175,"2026-03-02","2026-03-08",32,16,"$140k",{w:["â",""]}],
+  ["Kigali Challenger","Kigali, RWA","CH75","Antuka","O",1567,"2026-03-02","2026-03-08",32,16,"$100k",{w:["â",""]}],
+  ["Arizona Tennis Classic","Phoenix, USA","CH175","TvrdÃ½","O",331,"2026-03-09","2026-03-15",28,16,"$245k",{w:["â",""]}],
+  ["Copa Cap Cana","Cap Cana, DOM","CH175","TvrdÃ½","O",15,"2026-03-09","2026-03-15",28,16,"$245k",{w:["â",""]}],
+  ["Murcia Challenger","Murcia, ESP","CH75","Antuka","O",43,"2026-03-16","2026-03-22",32,16,"$100k",{w:["â",""]}],
+  ["Morelia Open","Morelia, MEX","CH125","TvrdÃ½","O",1909,"2026-03-23","2026-03-29",32,16,"$175k",{w:["â",""]}],
+  ["Naples Challenger","Naples, ITA","CH125","Antuka","O",17,"2026-03-23","2026-03-29",32,16,"$175k",{w:["â",""]}],
   // DUBEN
-  ["Mexico City Open","Mexico City, MEX","CH125","Antuka","O",2240,"2026-04-06","2026-04-12",32,16,"$175k",{w:["—",""]}],
-  ["Advantage Cars Prague Open","Prague, CZE","CH75","Antuka","O",190,"2026-04-06","2026-04-12",32,16,"$100k",{w:["—",""]}],
-  ["Prostějov Challenger","Prostějov, CZE","CH125","Antuka","O",225,"2026-04-13","2026-04-19",32,16,"$175k",{w:["—",""]}],
-  ["Busan Challenger","Busan, KOR","CH125","Tvrdý","O",40,"2026-04-13","2026-04-19",32,16,"$175k",{w:["—",""]}],
-  ["Oeiras Challenger","Oeiras, POR","CH125","Antuka","O",36,"2026-04-13","2026-04-19",32,16,"$175k",{w:["—",""]}],
-  ["Aix-en-Provence Challenger","Aix-en-Provence, FRA","CH175","Antuka","O",183,"2026-04-27","2026-05-03",28,16,"$245k",{w:["—",""]}],
-  ["Marrakech Challenger","Marrakech, MAR","CH75","Antuka","O",454,"2026-04-27","2026-05-03",32,16,"$100k",{w:["—",""]}],
-  // KVĚTEN
-  ["Wuxi Open","Wuxi, CHN","CH100","Tvrdý","O",7,"2026-05-04","2026-05-10",32,16,"$140k",{w:["—",""]}],
-  ["BNP Paribas Primrose Bordeaux","Bordeaux, FRA","CH175","Antuka","O",6,"2026-05-11","2026-05-17",28,16,"$245k",{w:["—",""]}],
-  ["Valencia Challenger","Valencia, ESP","CH175","Antuka","O",13,"2026-05-11","2026-05-17",28,16,"$245k",{w:["—",""]}],
-  ["Lyon Challenger","Lyon, FRA","CH125","Antuka","O",173,"2026-05-18","2026-05-24",32,16,"$175k",{w:["—",""]}],
-  ["Geneva Challenger","Geneva, SUI","CH100","Antuka","O",375,"2026-05-18","2026-05-24",32,16,"$140k",{w:["—",""]}],
-  ["Istanbul Challenger","Istanbul, TUR","CH75","Antuka","O",39,"2026-05-18","2026-05-24",32,16,"$100k",{w:["—",""]}],
-  // ČERVEN
-  ["Birmingham Challenger","Birmingham, GBR","CH125","Tráva","O",140,"2026-06-01","2026-06-07",32,16,"$175k",{w:["—",""]}],
-  ["Surbiton Trophy","London, GBR","CH75","Tráva","O",11,"2026-06-01","2026-06-07",32,16,"$100k",{w:["—",""]}],
-  ["Ilkley Trophy","Ilkley, GBR","CH125","Tráva","O",246,"2026-06-08","2026-06-14",32,16,"$175k",{w:["—",""]}],
-  ["Nottingham Challenger (Grass)","Nottingham, GBR","CH125","Tráva","O",28,"2026-06-15","2026-06-21",32,16,"$175k",{w:["—",""]}],
-  ["Mallorca Challenger","Mallorca, ESP","CH75","Tráva","O",14,"2026-06-22","2026-06-28",32,16,"$100k",{w:["—",""]}],
-  // ČERVENEC
-  ["Braunschweig Challenger","Braunschweig, GER","CH125","Antuka","O",72,"2026-07-06","2026-07-12",32,16,"$175k",{w:["—",""]}],
-  ["Newport Challenger","Newport, USA","CH125","Tráva","O",7,"2026-07-06","2026-07-12",32,16,"$175k",{w:["—",""]}],
-  ["Båstad Challenger","Båstad, SWE","CH100","Antuka","O",12,"2026-07-06","2026-07-12",32,16,"$140k",{w:["—",""]}],
-  ["Zug Challenger","Zug, SUI","CH125","Antuka","O",425,"2026-07-20","2026-07-26",32,16,"$175k",{w:["—",""]}],
-  ["Vancouver Challenger","Vancouver, CAN","CH125","Tvrdý","O",12,"2026-07-27","2026-08-02",32,16,"$175k",{w:["—",""]}],
-  ["San Marino Challenger","San Marino, SMR","CH125","Antuka","O",672,"2026-07-27","2026-08-02",32,16,"$175k",{w:["—",""]}],
+  ["Mexico City Open","Mexico City, MEX","CH125","Antuka","O",2240,"2026-04-06","2026-04-12",32,16,"$175k",{w:["â",""]}],
+  ["Advantage Cars Prague Open","Prague, CZE","CH75","Antuka","O",190,"2026-04-06","2026-04-12",32,16,"$100k",{w:["â",""]}],
+  ["ProstÄjov Challenger","ProstÄjov, CZE","CH125","Antuka","O",225,"2026-04-13","2026-04-19",32,16,"$175k",{w:["â",""]}],
+  ["Busan Challenger","Busan, KOR","CH125","TvrdÃ½","O",40,"2026-04-13","2026-04-19",32,16,"$175k",{w:["â",""]}],
+  ["Oeiras Challenger","Oeiras, POR","CH125","Antuka","O",36,"2026-04-13","2026-04-19",32,16,"$175k",{w:["â",""]}],
+  ["Aix-en-Provence Challenger","Aix-en-Provence, FRA","CH175","Antuka","O",183,"2026-04-27","2026-05-03",28,16,"$245k",{w:["â",""]}],
+  ["Marrakech Challenger","Marrakech, MAR","CH75","Antuka","O",454,"2026-04-27","2026-05-03",32,16,"$100k",{w:["â",""]}],
+  // KVÄTEN
+  ["Wuxi Open","Wuxi, CHN","CH100","TvrdÃ½","O",7,"2026-05-04","2026-05-10",32,16,"$140k",{w:["â",""]}],
+  ["BNP Paribas Primrose Bordeaux","Bordeaux, FRA","CH175","Antuka","O",6,"2026-05-11","2026-05-17",28,16,"$245k",{w:["â",""]}],
+  ["Valencia Challenger","Valencia, ESP","CH175","Antuka","O",13,"2026-05-11","2026-05-17",28,16,"$245k",{w:["â",""]}],
+  ["Lyon Challenger","Lyon, FRA","CH125","Antuka","O",173,"2026-05-18","2026-05-24",32,16,"$175k",{w:["â",""]}],
+  ["Geneva Challenger","Geneva, SUI","CH100","Antuka","O",375,"2026-05-18","2026-05-24",32,16,"$140k",{w:["â",""]}],
+  ["Istanbul Challenger","Istanbul, TUR","CH75","Antuka","O",39,"2026-05-18","2026-05-24",32,16,"$100k",{w:["â",""]}],
+  // ÄERVEN
+  ["Birmingham Challenger","Birmingham, GBR","CH125","TrÃ¡va","O",140,"2026-06-01","2026-06-07",32,16,"$175k",{w:["â",""]}],
+  ["Surbiton Trophy","London, GBR","CH75","TrÃ¡va","O",11,"2026-06-01","2026-06-07",32,16,"$100k",{w:["â",""]}],
+  ["Ilkley Trophy","Ilkley, GBR","CH125","TrÃ¡va","O",246,"2026-06-08","2026-06-14",32,16,"$175k",{w:["â",""]}],
+  ["Nottingham Challenger (Grass)","Nottingham, GBR","CH125","TrÃ¡va","O",28,"2026-06-15","2026-06-21",32,16,"$175k",{w:["â",""]}],
+  ["Mallorca Challenger","Mallorca, ESP","CH75","TrÃ¡va","O",14,"2026-06-22","2026-06-28",32,16,"$100k",{w:["â",""]}],
+  // ÄERVENEC
+  ["Braunschweig Challenger","Braunschweig, GER","CH125","Antuka","O",72,"2026-07-06","2026-07-12",32,16,"$175k",{w:["â",""]}],
+  ["Newport Challenger","Newport, USA","CH125","TrÃ¡va","O",7,"2026-07-06","2026-07-12",32,16,"$175k",{w:["â",""]}],
+  ["BÃ¥stad Challenger","BÃ¥stad, SWE","CH100","Antuka","O",12,"2026-07-06","2026-07-12",32,16,"$140k",{w:["â",""]}],
+  ["Zug Challenger","Zug, SUI","CH125","Antuka","O",425,"2026-07-20","2026-07-26",32,16,"$175k",{w:["â",""]}],
+  ["Vancouver Challenger","Vancouver, CAN","CH125","TvrdÃ½","O",12,"2026-07-27","2026-08-02",32,16,"$175k",{w:["â",""]}],
+  ["San Marino Challenger","San Marino, SMR","CH125","Antuka","O",672,"2026-07-27","2026-08-02",32,16,"$175k",{w:["â",""]}],
   // SRPEN
-  ["Granby Challenger","Granby, CAN","CH100","Tvrdý","O",180,"2026-08-03","2026-08-09",32,16,"$140k",{w:["—",""]}],
-  ["Lexington Challenger","Lexington, USA","CH75","Tvrdý","O",290,"2026-08-03","2026-08-09",32,16,"$100k",{w:["—",""]}],
-  ["Indianapolis Challenger","Indianapolis, USA","CH75","Tvrdý","O",220,"2026-08-10","2026-08-16",32,16,"$100k",{w:["—",""]}],
+  ["Granby Challenger","Granby, CAN","CH100","TvrdÃ½","O",180,"2026-08-03","2026-08-09",32,16,"$140k",{w:["â",""]}],
+  ["Lexington Challenger","Lexington, USA","CH75","TvrdÃ½","O",290,"2026-08-03","2026-08-09",32,16,"$100k",{w:["â",""]}],
+  ["Indianapolis Challenger","Indianapolis, USA","CH75","TvrdÃ½","O",220,"2026-08-10","2026-08-16",32,16,"$100k",{w:["â",""]}],
 ];
 
-// ── HELPERS ───────────────────────────────────────────────────
-const MCS=['Leden','Únor','Březen','Duben','Květen','Červen','Červenec','Srpen','Září','Říjen','Listopad','Prosinec'];
-const MSH=['Led','Úno','Bře','Dub','Kvě','Čer','Čvc','Srp','Zář','Říj','Lis','Pro'];
+// ââ HELPERS âââââââââââââââââââââââââââââââââââââââââââââââââââ
+const MCS=['Leden','Ãnor','BÅezen','Duben','KvÄten','Äerven','Äervenec','Srpen','ZÃ¡ÅÃ­','ÅÃ­jen','Listopad','Prosinec'];
+const MSH=['Led','Ãno','BÅe','Dub','KvÄ','Äer','Ävc','Srp','ZÃ¡Å','ÅÃ­j','Lis','Pro'];
 
-function surfCS(s){const l=(s||'').toLowerCase();if(l.includes('indoor')||l.includes('carpet'))return'Krytý';if(l.includes('clay'))return'Antuka';if(l.includes('grass'))return'Tráva';return'Tvrdý';}
-function fmtRange(s,e){if(!s)return'—';const a=new Date(s+'T00:00:00'),b=e?new Date(e+'T00:00:00'):a;const sd=a.getDate(),sm=a.getMonth(),ed=b.getDate(),em=b.getMonth();return sm===em?`${sd}–${ed}. ${MSH[sm]}`:`${sd}. ${MSH[sm]} – ${ed}. ${MSH[em]}`;}
+function surfCS(s){const l=(s||'').toLowerCase();if(l.includes('indoor')||l.includes('carpet'))return'KrytÃ½';if(l.includes('clay'))return'Antuka';if(l.includes('grass'))return'TrÃ¡va';return'TvrdÃ½';}
+function fmtRange(s,e){if(!s)return'â';const a=new Date(s+'T00:00:00'),b=e?new Date(e+'T00:00:00'):a;const sd=a.getDate(),sm=a.getMonth(),ed=b.getDate(),em=b.getMonth();return sm===em?`${sd}â${ed}. ${MSH[sm]}`:`${sd}. ${MSH[sm]} â ${ed}. ${MSH[em]}`;}
 function getMonth(s){return s?new Date(s+'T00:00:00').getMonth():0;}
 function isLive(s,e){const n=new Date();return!!(s&&e&&new Date(s+'T00:00:00')<=n&&new Date(e+'T00:00:00')>=n);}
 
-// Převod arrays na objekty
-function mkAtp(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'ATP',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'—',winners:wins?.w||[],src:'atptour.com'}));}
-function mkWta(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'WTA',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'—',winners:wins?.w||[],src:'wtatennis.com'}));}
-function mkChall(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'CHALL',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'—',winners:wins?.w||[],src:'atptour.com'}));}
+// PÅevod arrays na objekty
+function mkAtp(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'ATP',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'â',winners:wins?.w||[],src:'atptour.com'}));}
+function mkWta(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'WTA',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'â',winners:wins?.w||[],src:'wtatennis.com'}));}
+function mkChall(arr){return arr.map(([n,loc,tier,surf,io,alt,s,e,sgl,dbl,prize,wins])=>({name:n,loc,cat:'CHALL',tier,surf,io:io||'O',alt:alt||0,start:s,end:e,sgl,dbl,prize:prize||'â',winners:wins?.w||[],src:'atptour.com'}));}
 
-// ── ITF API ───────────────────────────────────────────────────
+// ââ ITF API âââââââââââââââââââââââââââââââââââââââââââââââââââ
 
 async function fetchPlayers(onProgress){
   try{
-    onProgress&&onProgress('Načítám hráče ATP...');
-    // Načti hráče s cache-bust
+    onProgress&&onProgress('NaÄÃ­tÃ¡m hrÃ¡Äe ATP...');
+    // NaÄti hrÃ¡Äe s cache-bust
     const pr=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json?v='+Date.now(),{cache:'no-store'});
     const pd=await pr.json();
     const players=(pd.items||pd);
 
-    // Načti Sackmann CSV pro age/hand/height
-    onProgress&&onProgress('Načítám statistiky...');
+    // NaÄti Sackmann CSV pro age/hand/height
+    onProgress&&onProgress('NaÄÃ­tÃ¡m statistiky...');
     const sr=await fetch('https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/atp_players.csv');
     const stxt=await sr.text();
     const slines=stxt.trim().split('\n');
@@ -303,13 +303,13 @@ async function fetchPlayers(onProgress){
 move:(p.move!==undefined&&p.move!==null)?p.move:null
       };
     });
-    onProgress&&onProgress('Hráči ATP načteni: '+window.ATP_PLAYERS.length);
-    // Načti WTA hráčky
+    onProgress&&onProgress('HrÃ¡Äi ATP naÄteni: '+window.ATP_PLAYERS.length);
+    // NaÄti WTA hrÃ¡Äky
     try{
       const wr=await fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/wta_players.json?v='+Date.now(),{cache:'no-store'});
       const wd=await wr.json();
       window.WTA_PLAYERS=(wd.items||wd);
-      onProgress&&onProgress('WTA hráčky načteny: '+window.WTA_PLAYERS.length);
+      onProgress&&onProgress('WTA hrÃ¡Äky naÄteny: '+window.WTA_PLAYERS.length);
     }catch(e){window.WTA_PLAYERS=[];}
     return window.ATP_PLAYERS.length;
   }catch(e){
@@ -319,10 +319,10 @@ move:(p.move!==undefined&&p.move!==null)?p.move:null
 }
 
 async function fetchITF(onProg){
-  // Data jsou každý den automaticky aktualizována GitHub Actions
-  // z itftennis.com a uložena do raw.githubusercontent.com (prochází sítí)
+  // Data jsou kaÅ¾dÃ½ den automaticky aktualizovÃ¡na GitHub Actions
+  // z itftennis.com a uloÅ¾ena do raw.githubusercontent.com (prochÃ¡zÃ­ sÃ­tÃ­)
   const GH_URL = 'https://raw.githubusercontent.com/Hacran001/tennis-scout/main/itf_data.json';
-  onProg('Načítám ITF z GitHub cache...');
+  onProg('NaÄÃ­tÃ¡m ITF z GitHub cache...');
   const resp = await fetch(GH_URL);
   if(!resp.ok) throw new Error(`GitHub ITF cache: HTTP ${resp.status}`);
   const data = await resp.json();
@@ -338,25 +338,25 @@ async function fetchITF(onProg){
     sgl:32, dbl:16,
     src:     'itftennis.com (cache '+data.updated?.slice(0,10)+')',
   }));
-  onProg(`ITF: ${items.length} turnajů (aktualizováno ${data.updated?.slice(0,10)||'?'})`);
+  onProg(`ITF: ${items.length} turnajÅ¯ (aktualizovÃ¡no ${data.updated?.slice(0,10)||'?'})`);
   return items;
 }
 
-// ── CSS ───────────────────────────────────────────────────────
+// ââ CSS âââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 const CSS=`
 :host{all:initial;}
 *{box-sizing:border-box;margin:0;padding:0;}
 
-/* ── SHELL ── */
+/* ââ SHELL ââ */
 #w{
   display:flex;flex-direction:row;
   width:100vw;height:100vh;overflow:hidden;
   background:#0d1117;
-  font-family:'Söhne','Helvetica Neue','Arial',sans-serif;
+  font-family:'SÃ¶hne','Helvetica Neue','Arial',sans-serif;
   color:#e6edf3;font-size:13px;
 }
 
-/* ── SIDEBAR ── */
+/* ââ SIDEBAR ââ */
 #sidebar{
   width:220px;flex-shrink:0;
   background:#161b22;
@@ -477,7 +477,7 @@ const CSS=`
 }
 #sb-close:hover{color:rgba(255,255,255,0.7);border-color:rgba(255,255,255,0.15);}
 
-/* ── MAIN PANEL ── */
+/* ââ MAIN PANEL ââ */
 #main{
   flex:1;display:flex;flex-direction:column;
   overflow:hidden;background:#0d1117;
@@ -596,7 +596,7 @@ const CSS=`
   position:relative;
 }
 
-/* ── HOME VIEW ── */
+/* ââ HOME VIEW ââ */
 #home-view{padding:28px 0;}
 #home-greeting{
   font-size:22px;font-weight:800;
@@ -677,7 +677,7 @@ const CSS=`
 }
 .hc-tag.soon{background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.25);}
 
-/* ── TABLES ── */
+/* ââ TABLES ââ */
 .mg{margin-top:24px;}
 .mh{
   display:flex;align-items:baseline;gap:10px;
@@ -740,13 +740,13 @@ tr.xr td{padding:0;background:rgba(0,200,83,0.02)!important;}
 .ig label{display:block;font-size:7px;letter-spacing:1px;color:rgba(255,255,255,0.2);text-transform:uppercase;margin-bottom:2px;}
 .ig span{font-size:11px;color:#e6edf3;font-weight:500;}
 
-/* ── PLAYERS VIEW ── */
+/* ââ PLAYERS VIEW ââ */
 #pw{
   display:none;
   color:#e6edf3;
 }
 
-/* ── ERR / ITF STATUS / LOAD ── */
+/* ââ ERR / ITF STATUS / LOAD ââ */
 #err{display:none;background:rgba(239,68,68,0.08);border-bottom:1px solid rgba(239,68,68,0.15);padding:6px 24px;font-size:10px;color:#f87171;flex-shrink:0;}
 #itfs{
   position:absolute;bottom:0;left:0;right:0;
@@ -767,16 +767,16 @@ tr.xr td{padding:0;background:rgba(0,200,83,0.02)!important;}
 @keyframes spin{to{transform:rotate(360deg)}}
 #prog{font-size:11px;color:#00C853;font-weight:600;max-width:360px;text-align:center;line-height:1.6;}
 
-/* ── SCROLLBARS ── */
+/* ââ SCROLLBARS ââ */
 ::-webkit-scrollbar{width:3px;height:3px;}
 ::-webkit-scrollbar-track{background:transparent;}
 ::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.07);border-radius:3px;}
 .mc-plink:hover{text-decoration:underline;text-underline-offset:2px;}
-`;function surfSp(s){return s==='Antuka'?'sA':s==='Tráva'?'sT':s==='Krytý'?'sK':'sH';}
+`;function surfSp(s){return s==='Antuka'?'sA':s==='TrÃ¡va'?'sT':s==='KrytÃ½'?'sK':'sH';}
 function tierCls(t){if(!t)return'';if(t==='Grand Slam')return'tGS';if(t==='Masters1000'||t==='WTA1000')return'tM1';if(t==='ATP500'||t==='WTA500')return't5';if(t==='CH175')return'tCH175';if(t==='CH125')return'tCH125';return'';}
 
 
-// ── HRÁČI ──────────────────────────────────────────────────────────────────
+// ââ HRÃÄI ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function buildPlayersTab(sh){
   var wrap=document.createElement("div");
   wrap.id="pw";wrap.style.cssText="display:none;padding:0;";
@@ -784,7 +784,7 @@ function buildPlayersTab(sh){
   
   function countryFlag(cc){
     if(!cc||cc.length!==3)return '';
-    // IOC 3-letter → ISO 2-letter mapa (hlavní země)
+    // IOC 3-letter â ISO 2-letter mapa (hlavnÃ­ zemÄ)
     var m={'ESP':'ES','ITA':'IT','SRB':'RS','GER':'DE','AUS':'AU','USA':'US','FRA':'FR',
       'GBR':'GB','ARG':'AR','JPN':'JP','RUS':'RU','CAN':'CA','NOR':'NO','CZE':'CZ',
       'GRE':'GR','CHI':'CL','DEN':'DK','SUI':'CH','BEL':'BE','GEO':'GE','KAZ':'KZ',
@@ -813,7 +813,7 @@ function buildPlayersTab(sh){
   }
   function rP(){
     var ATP=window.ATP_PLAYERS||[];
-    if(!ATP.length){wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,0.2);font-size:13px;">⏳ Načítám hráče...</div>';return;}
+    if(!ATP.length){wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,0.2);font-size:13px;">â³ NaÄÃ­tÃ¡m hrÃ¡Äe...</div>';return;}
     var q=(pS||"").toLowerCase().trim();
     var f=ATP.filter(function(p){
       if(!p||!p.name)return false;
@@ -835,51 +835,51 @@ function buildPlayersTab(sh){
     var h='<div style="padding:0 24px 60px;">';
     h+='<div style="padding:16px 0 12px;"><div style="position:relative;max-width:520px;">';
     var sv=pS.split("&").join("&amp;").split("<").join("&lt;").split(">").join("&gt;").split('"').join("&quot;");
-    h+='<input id="ps-i" type="text" autocomplete="off" placeholder="Hledej jméno, zemi nebo rank..." value="'+sv+'"';
+    h+='<input id="ps-i" type="text" autocomplete="off" placeholder="Hledej jmÃ©no, zemi nebo rank..." value="'+sv+'"';
     h+=' style="width:100%;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);color:#e6edf3;font-size:14px;padding:10px 40px 10px 16px;border-radius:10px;outline:none;box-sizing:border-box;"/>';
-    if(pS)h+='<button id="ps-x" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:none;color:rgba(255,255,255,0.3);font-size:18px;cursor:pointer;line-height:1;">×</button>';
+    if(pS)h+='<button id="ps-x" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:none;color:rgba(255,255,255,0.3);font-size:18px;cursor:pointer;line-height:1;">Ã</button>';
     h+='</div>';
-    if(q&&total>0)h+='<div style="margin-top:5px;font-size:11px;color:#00C853;">✓ Nalezeno '+total+' hráčů</div>';
-    if(q&&total===0)h+='<div style="margin-top:5px;font-size:11px;color:rgba(255,100,100,0.7);">✗ Nic pro "'+pS+'"</div>';
+    if(q&&total>0)h+='<div style="margin-top:5px;font-size:11px;color:#00C853;">â Nalezeno '+total+' hrÃ¡ÄÅ¯</div>';
+    if(q&&total===0)h+='<div style="margin-top:5px;font-size:11px;color:rgba(255,100,100,0.7);">â Nic pro "'+pS+'"</div>';
     h+='</div>';
     h+='<div style="display:flex;gap:8px;align-items:center;padding:0 0 10px;border-bottom:1px solid rgba(255,255,255,0.06);flex-wrap:wrap;">';
     // Rank range dropdown
     h+='<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">';
-    h+='<span style="font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1.5px;">Pořadí</span>';
+    h+='<span style="font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1.5px;">PoÅadÃ­</span>';
     h+='<select id="ps-rr" style="background:#161b22;border:1px solid rgba(255,255,255,0.12);color:#e6edf3;font-size:11px;padding:5px 10px;border-radius:8px;cursor:pointer;outline:none;">';
-    [["all","Všichni hráči"],["1-100","1 - 100"],["101-200","101 - 200"],["201-300","201 - 300"],["301-400","301 - 400"],["401-500","401 - 500"],["1-500","Top 500"],["1-1000","Top 1000"],["1-2500","Top 2500"]].forEach(function(x){h+='<option value="'+x[0]+'"'+(pR===x[0]?" selected":"")+'>'+x[1]+'</option>';});
+    [["all","VÅ¡ichni hrÃ¡Äi"],["1-100","1 - 100"],["101-200","101 - 200"],["201-300","201 - 300"],["301-400","301 - 400"],["401-500","401 - 500"],["1-500","Top 500"],["1-1000","Top 1000"],["1-2500","Top 2500"]].forEach(function(x){h+='<option value="'+x[0]+'"'+(pR===x[0]?" selected":"")+'>'+x[1]+'</option>';});
     h+='</select></div>';
-    // Country dropdown — all countries alphabetically
+    // Country dropdown â all countries alphabetically
     var allCountries=[...new Set(ATP.map(function(p){return (p.country||"").toUpperCase();}).filter(Boolean))].sort();
     h+='<div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">';
-    h+='<span style="font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1.5px;">Země</span>';
+    h+='<span style="font-size:9px;color:rgba(255,255,255,0.3);text-transform:uppercase;letter-spacing:1.5px;">ZemÄ</span>';
     h+='<select id="ps-cc" style="background:#161b22;border:1px solid rgba(255,255,255,0.12);color:#e6edf3;font-size:11px;padding:5px 10px;border-radius:8px;cursor:pointer;outline:none;">';
-    h+='<option value="ALL"'+(pC==="ALL"?" selected":"")+'>Všechny země</option>';
+    h+='<option value="ALL"'+(pC==="ALL"?" selected":"")+'>VÅ¡echny zemÄ</option>';
     allCountries.forEach(function(c){var fl=countryFlag(c);h+='<option value="'+c+'"'+(pC===c?" selected":"")+'>'+( fl?fl+" ":"")+c+'</option>';});
     h+='</select></div>';
     
     h+='<div style="margin-left:auto;display:flex;align-items:center;gap:8px;">';
     h+='<select id="ps-s" style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.5);font-size:10px;padding:4px 8px;border-radius:6px;cursor:pointer;outline:none;">';
-    [["rank","Ranking"],["pts","Body"],["age","Věk"],["height","Výška"],["name","Jméno"]].forEach(function(x){h+='<option value="'+x[0]+'"'+(pO===x[0]?" selected":"")+'>'+x[1]+'</option>';});
-    h+='</select><span style="font-size:9px;color:rgba(255,255,255,0.2);">'+(q?total+"/":"")+ATP.length+' hráčů</span></div></div>';
-    // Vlajkové filtry — top 20 zemí
+    [["rank","Ranking"],["pts","Body"],["age","VÄk"],["height","VÃ½Å¡ka"],["name","JmÃ©no"]].forEach(function(x){h+='<option value="'+x[0]+'"'+(pO===x[0]?" selected":"")+'>'+x[1]+'</option>';});
+    h+='</select><span style="font-size:9px;color:rgba(255,255,255,0.2);">'+(q?total+"/":"")+ATP.length+' hrÃ¡ÄÅ¯</span></div></div>';
+    // VlajkovÃ© filtry â top 20 zemÃ­
     h+='<div style="display:flex;gap:5px;align-items:center;padding:8px 0 10px;border-bottom:1px solid rgba(255,255,255,0.06);flex-wrap:wrap;">';
     var top20=['USA','ITA','FRA','ESP','GER','ARG','GBR','JPN','RUS','AUS','BRA','CHN','SUI','IND','CZE','NED','ROU','POL','SRB','KOR','SVK'];
-    h+='<button data-cf="ALL" style="padding:3px 10px;border-radius:12px;font-size:10px;font-weight:700;cursor:pointer;transition:all .1s;border:1px solid '+(pC==="ALL"?"#00C853":"rgba(255,255,255,0.1)")+';background:'+(pC==="ALL"?"rgba(0,200,83,0.15)":"transparent")+';color:'+(pC==="ALL"?"#00C853":"rgba(255,255,255,0.4)")+';">Vše</button>';
+    h+='<button data-cf="ALL" style="padding:3px 10px;border-radius:12px;font-size:10px;font-weight:700;cursor:pointer;transition:all .1s;border:1px solid '+(pC==="ALL"?"#00C853":"rgba(255,255,255,0.1)")+';background:'+(pC==="ALL"?"rgba(0,200,83,0.15)":"transparent")+';color:'+(pC==="ALL"?"#00C853":"rgba(255,255,255,0.4)")+';">VÅ¡e</button>';
     top20.forEach(function(c){
       var on=pC===c;
       var fl=countryFlag(c);
       h+='<button data-cf="'+c+'" title="'+c+'" style="padding:3px 8px;border-radius:12px;font-size:13px;cursor:pointer;transition:all .1s;border:1px solid '+(on?"#00C853":"rgba(255,255,255,0.08)")+';background:'+(on?"rgba(0,200,83,0.12)":"transparent")+';color:'+(on?"#00C853":"rgba(255,255,255,0.7)")+';min-width:34px;text-align:center;">'+fl+'</button>';
     });
     h+='</div>';
-    // Tabulka — nové sloupce
+    // Tabulka â novÃ© sloupce
     h+='<table style="width:100%;border-collapse:collapse;margin-top:4px;"><thead><tr style="background:rgba(255,255,255,0.02);">';
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:left;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:40px;">#</th>';
-    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:left;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);">HRÁČ</th>';
-    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:50px;">ZEMĞ</th>';
-    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:40px;">VěK</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:left;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);">HRÃÄ</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:50px;">ZEMÄ</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:40px;">VÄK</th>';
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:50px;">RUKA</th>';
-    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:60px;">VÝŠKA</th>';
+    h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:60px;">VÃÅ KA</th>';
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:right;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:80px;">BODY</th>';
     h+='<th style="padding:7px 8px;font-size:8px;color:rgba(255,255,255,0.2);text-align:center;letter-spacing:1px;border-bottom:1px solid rgba(255,255,255,0.06);width:90px;">CAREER HIGH</th>';
     h+='</tr></thead><tbody>';
@@ -888,7 +888,7 @@ function buildPlayersTab(sh){
       var url=p.id?"https://www.atptour.com/en/players/p/"+p.id+"/overview":"#";
       var bg=idx%2===0?"transparent":"rgba(255,255,255,0.012)";
       var flag=countryFlag(p.country||"");
-      var handIcon=p.hand==="L"?'🤚 L':'R';
+      var handIcon=p.hand==="L"?'ð¤ L':'R';
       var handColor=p.hand==="L"?"#60a5fa":"rgba(255,255,255,0.35)";
       h+='<tr class="pr" style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;" data-url="'+url+'" data-pid="'+p.id+'" data-pname="'+p.name+'" data-fullname="'+(p.full_name||p.name)+'" data-country="'+p.country+'" data-rank="'+p.rank+'" data-pts="'+p.pts+'" data-age="'+(p.age||'')+'" data-hand="'+(p.hand||'')+'" data-height="'+(p.height||'')+'" data-ch="'+(p.ch||'')+'" data-ch-date="'+(p.ch_date||'')+'">';
       h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.25);white-space:nowrap;">'+(function(){var mv=p.move;var r='<span>'+p.rank+'</span>';if(mv!=null&&mv!==0){var up=mv>0;var arrow=up?'&#9650;':'&#9660;';var col=up?'#3fb950':'#f85149';var abs=Math.abs(mv);r+='<div style="font-size:9px;line-height:1;color:'+col+';margin-top:1px;">'+arrow+abs+'</div>';}return r;})()+'</td>';
@@ -898,11 +898,11 @@ function buildPlayersTab(sh){
       h+='<td style="padding:7px 8px;text-align:center;font-size:11px;color:'+handColor+';font-weight:600;">'+(p.hand||"-")+'</td>';
       h+='<td style="padding:7px 8px;font-size:11px;color:rgba(255,255,255,0.5);text-align:center;">'+(p.height?p.height+" cm":"-")+'</td>';
       h+='<td style="padding:7px 8px;font-size:12px;color:#00C853;text-align:right;font-weight:700;">'+(p.pts?p.pts.toLocaleString("cs-CZ"):"-")+'</td>';
-      var chVal=p.ch?'#'+p.ch:'—';
+      var chVal=p.ch?'#'+p.ch:'â';
       var chDate=p.ch_date?p.ch_date.substring(0,7):'';
       h+='<td style="padding:7px 8px;text-align:center;font-size:11px;">'
         +(p.ch?'<span style="color:#f59e0b;font-weight:700;">'+chVal+'</span><div style="font-size:9px;color:rgba(255,255,255,0.25);margin-top:1px;">'+chDate+'</div>'
-          :'<span style="color:rgba(255,255,255,0.2);">—</span>')
+          :'<span style="color:rgba(255,255,255,0.2);">â</span>')
         +'</td>';
       
       h+='</tr>';
@@ -910,23 +910,23 @@ function buildPlayersTab(sh){
     h+='</tbody></table>';
     if(pages>1){
       h+='<div style="display:flex;gap:4px;padding:14px 0;align-items:center;justify-content:center;flex-wrap:wrap;">';
-      h+='<button data-pp="prev" style="padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:'+(pP===0?"rgba(255,255,255,0.15)":"rgba(255,255,255,0.5)")+';font-size:13px;cursor:pointer;">←</button>';
+      h+='<button data-pp="prev" style="padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:'+(pP===0?"rgba(255,255,255,0.15)":"rgba(255,255,255,0.5)")+';font-size:13px;cursor:pointer;">â</button>';
       var s2=Math.max(0,pP-4),e2=Math.min(pages-1,pP+4);
       if(s2>0)h+='<button data-pp="0" style="padding:5px 9px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:rgba(255,255,255,0.35);font-size:11px;cursor:pointer;">1</button><span style="color:rgba(255,255,255,0.2);padding:0 2px;">&hellip;</span>';
       for(var pi=s2;pi<=e2;pi++){h+='<button data-pp="'+pi+'" style="padding:5px 10px;border-radius:6px;border:1px solid '+(pi===pP?"#00C853":"rgba(255,255,255,0.08)")+';background:'+(pi===pP?"rgba(0,200,83,0.15)":"transparent")+';color:'+(pi===pP?"#00C853":"rgba(255,255,255,0.35)")+';font-size:11px;cursor:pointer;font-weight:'+(pi===pP?"700":"400")+';">'+(pi+1)+'</button>';}
       if(e2<pages-1)h+='<span style="color:rgba(255,255,255,0.2);padding:0 2px;">&hellip;</span><button data-pp="'+(pages-1)+'" style="padding:5px 9px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:rgba(255,255,255,0.35);font-size:11px;cursor:pointer;">'+pages+'</button>';
-      h+='<button data-pp="next" style="padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:'+(pP>=pages-1?"rgba(255,255,255,0.15)":"rgba(255,255,255,0.5)")+';font-size:13px;cursor:pointer;">→</button>';
+      h+='<button data-pp="next" style="padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:'+(pP>=pages-1?"rgba(255,255,255,0.15)":"rgba(255,255,255,0.5)")+';font-size:13px;cursor:pointer;">â</button>';
       h+='<span style="font-size:9px;color:rgba(255,255,255,0.15);margin-left:6px;">'+(pP*PAGE+1)+"-"+Math.min((pP+1)*PAGE,total)+" / "+total+'</span></div>';
     }
     h+='</div>';
     wrap.innerHTML=h;
-  // Player page — full screen view
+  // Player page â full screen view
   sh._openPlayerFromHistory = function(player){
-    // Simuluj klik na hráče ze seznamu
+    // Simuluj klik na hrÃ¡Äe ze seznamu
     var tr = wrap.querySelector('tr.pr[data-pid="'+player.id+'"]');
     if(tr){ tr.click(); return; }
-    // Hráč není v aktuálním zobrazení - přejdi na seznam a klikni
-    // Fallback: najdi ho přes search
+    // HrÃ¡Ä nenÃ­ v aktuÃ¡lnÃ­m zobrazenÃ­ - pÅejdi na seznam a klikni
+    // Fallback: najdi ho pÅes search
     var inp = sh.querySelector('input[placeholder*="Hledej"]');
     if(inp){
       inp.value = player.name || player.full_name || '';
@@ -943,7 +943,7 @@ function buildPlayersTab(sh){
       var rank=row.dataset.rank,pts=row.dataset.pts,age=row.dataset.age,pch=row.dataset.ch,pchDate=row.dataset.chDate;
       var hand=row.dataset.hand,height=row.dataset.height,url=row.dataset.url;
       var flag=countryFlag(country);
-      var handTxt=hand==='L'?'Levák ✋':'Pravák';
+      var handTxt=hand==='L'?'LevÃ¡k â':'PravÃ¡k';
       var handColor=hand==='L'?'#60a5fa':'rgba(255,255,255,0.5)';
       var notesKey='ts_notes_'+pid;
       var notesRaw=localStorage.getItem(notesKey);
@@ -954,7 +954,7 @@ function buildPlayersTab(sh){
         else if(typeof parsed==='string'&&parsed)notesList=[{id:Date.now(),text:parsed,date:new Date().toISOString().slice(0,10),source:''}];
         else if(notesRaw&&typeof notesRaw==='string')notesList=[{id:Date.now(),text:notesRaw,date:new Date().toISOString().slice(0,10),source:''}];
       }catch(e){if(notesRaw)notesList=[{id:Date.now(),text:notesRaw,date:new Date().toISOString().slice(0,10),source:''}];}
-      // Přidej notes ze zápasových komentářů které ještě nejsou v notesList
+      // PÅidej notes ze zÃ¡pasovÃ½ch komentÃ¡ÅÅ¯ kterÃ© jeÅ¡tÄ nejsou v notesList
       (function(){
         Object.keys(localStorage).filter(function(k){return k.startsWith('ts_mc_'+pid+'_');}).forEach(function(k){
           var src=k.replace('ts_mc_','');
@@ -977,16 +977,16 @@ function buildPlayersTab(sh){
       pg.id='player-page';
       pg.style.cssText='position:fixed;top:0;right:0;bottom:0;left:192px;background:#0d1117;z-index:9999;display:flex;flex-direction:column;overflow-y:auto;';
 
-      // ── HEADER ────────────────────────────────────────────
+      // ââ HEADER ââââââââââââââââââââââââââââââââââââââââââââ
       var photoId=pname.toLowerCase().replace(/ /g,'_');
       var headerHTML='<div style="background:linear-gradient(180deg,#161b22 0%,#0d1117 100%);border-bottom:1px solid rgba(255,255,255,0.06);padding:20px 32px 0;flex-shrink:0;">'
         // Back button
-        +'<button id="pp-back" style="background:none;border:none;color:rgba(255,255,255,0.4);font-size:13px;cursor:pointer;padding:0;margin-bottom:16px;display:flex;align-items:center;gap:6px;">&#8592; Zpět na hráče</button>'
+        +'<button id="pp-back" style="background:none;border:none;color:rgba(255,255,255,0.4);font-size:13px;cursor:pointer;padding:0;margin-bottom:16px;display:flex;align-items:center;gap:6px;">&#8592; ZpÄt na hrÃ¡Äe</button>'
         +'<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'
           // Photo
           +'<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'
             +'<img id="pp-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'
-            +'<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:40px;">'+( flag||'👤')+'</div>'
+            +'<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:40px;">'+( flag||'ð¤')+'</div>'
           +'</div>'
           // Info
           +'<div style="flex:1;padding-bottom:20px;">'
@@ -1002,11 +1002,11 @@ function buildPlayersTab(sh){
                 +'<div style="font-size:22px;font-weight:700;color:#e6edf3;">'+Number(pts).toLocaleString()+'</div>'
               +'</div>'
               +(age?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
-                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Věk</div>'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">VÄk</div>'
                 +'<div style="font-size:20px;font-weight:700;color:#e6edf3;">'+age+'</div>'
               +'</div>':'')
               +(height?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
-                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Výška</div>'
+                +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">VÃ½Å¡ka</div>'
                 +'<div style="font-size:20px;font-weight:700;color:#e6edf3;">'+height+' cm</div>'
               +'</div>':'')
               +(hand?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;">'
@@ -1023,18 +1023,18 @@ function buildPlayersTab(sh){
         +'</div>'
         // Tab bar
         +'<div style="display:flex;gap:0;margin-top:16px;">'
-          +'<div class="pp-tab pp-tab-active" data-tab="notes" style="padding:10px 20px;font-size:12px;font-weight:600;color:#00C853;border-bottom:2px solid #00C853;cursor:pointer;">&#128221; Poznámky</div>'
-          +'<div class="pp-tab" data-tab="matches" style="padding:10px 20px;font-size:12px;font-weight:500;color:rgba(255,255,255,0.4);border-bottom:2px solid transparent;cursor:pointer;">&#127934; Historie zápasů</div>'
+          +'<div class="pp-tab pp-tab-active" data-tab="notes" style="padding:10px 20px;font-size:12px;font-weight:600;color:#00C853;border-bottom:2px solid #00C853;cursor:pointer;">&#128221; PoznÃ¡mky</div>'
+          +'<div class="pp-tab" data-tab="matches" style="padding:10px 20px;font-size:12px;font-weight:500;color:rgba(255,255,255,0.4);border-bottom:2px solid transparent;cursor:pointer;">&#127934; Historie zÃ¡pasÅ¯</div>'
         +'</div>'
       +'</div>';
 
-      // ── NOTES SECTION ─────────────────────────────────────
+      // ââ NOTES SECTION âââââââââââââââââââââââââââââââââââââ
       var notesHTML='<div id="pp-notes-section" style="flex:1;padding:28px 32px;overflow-y:auto;">'
         +'<div style="max-width:720px;">'
           // Header + Add button
           +'<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">'
-            +'<div style="font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:2px;text-transform:uppercase;">Mé poznámky</div>'
-            +'<button id="pp-add-note-btn" style="background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.3);color:#00C853;border-radius:8px;padding:6px 14px;font-size:11px;font-weight:700;cursor:pointer;">+ Přidat poznámku</button>'
+            +'<div style="font-size:11px;color:rgba(255,255,255,0.25);letter-spacing:2px;text-transform:uppercase;">MÃ© poznÃ¡mky</div>'
+            +'<button id="pp-add-note-btn" style="background:rgba(0,200,83,0.12);border:1px solid rgba(0,200,83,0.3);color:#00C853;border-radius:8px;padding:6px 14px;font-size:11px;font-weight:700;cursor:pointer;">+ PÅidat poznÃ¡mku</button>'
           +'</div>'
           // New note form (hidden by default)
           +'<div id="pp-note-form" style="display:none;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:16px;margin-bottom:16px;">'
@@ -1045,27 +1045,27 @@ function buildPlayersTab(sh){
               +'</div>'
               +'<div style="flex:2;">'
                 +'<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Zdroj</div>'
-                +'<input id="pp-note-source" type="text" placeholder="např. flashscore, vlastní pozorování..." style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;outline:none;width:100%;box-sizing:border-box;"/>'
+                +'<input id="pp-note-source" type="text" placeholder="napÅ. flashscore, vlastnÃ­ pozorovÃ¡nÃ­..." style="background:#161b22;border:1px solid rgba(255,255,255,0.1);color:#e6edf3;font-size:12px;padding:6px 10px;border-radius:6px;outline:none;width:100%;box-sizing:border-box;"/>'
               +'</div>'
             +'</div>'
-            +'<textarea id="pp-note-text" placeholder="Text poznámky..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:8px;color:#e6edf3;font-size:13px;line-height:1.6;padding:10px 12px;resize:vertical;outline:none;font-family:inherit;box-sizing:border-box;"></textarea>'
+            +'<textarea id="pp-note-text" placeholder="Text poznÃ¡mky..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:8px;color:#e6edf3;font-size:13px;line-height:1.6;padding:10px 12px;resize:vertical;outline:none;font-family:inherit;box-sizing:border-box;"></textarea>'
             +'<div style="display:flex;gap:8px;margin-top:8px;">'
-              +'<button id="pp-note-save-btn" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;border-radius:8px;padding:7px 18px;font-size:12px;font-weight:700;cursor:pointer;">Uložit</button>'
-              +'<button id="pp-note-cancel-btn" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:8px;padding:7px 14px;font-size:12px;cursor:pointer;">Zrušit</button>'
+              +'<button id="pp-note-save-btn" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;border-radius:8px;padding:7px 18px;font-size:12px;font-weight:700;cursor:pointer;">UloÅ¾it</button>'
+              +'<button id="pp-note-cancel-btn" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:8px;padding:7px 14px;font-size:12px;cursor:pointer;">ZruÅ¡it</button>'
               +'<span id="pp-note-edit-id" style="display:none;"></span>'
             +'</div>'
           +'</div>'
           // Notes list
           +'<div id="pp-notes-list">'
-            +(notesList.length===0?'<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>':
+            +(notesList.length===0?'<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">ZatÃ­m Å¾Ã¡dnÃ© poznÃ¡mky</div>':
               notesList.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).map(function(n){
                 return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
                   +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
-                    +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
-                    +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+                    +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">ð '+n.date+'</span>':'')
+                    +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">ð '+n.source+'</span>':'')
                     +'<div style="margin-left:auto;display:flex;gap:6px;">'
-                      +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
-                      +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
+                      +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">âï¸ Upravit</button>'
+                      +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">ð Smazat</button>'
                     +'</div>'
                   +'</div>'
                   +'<div style="font-size:13px;color:#e6edf3;line-height:1.6;white-space:pre-wrap;">'+n.text+'</div>'
@@ -1076,20 +1076,20 @@ function buildPlayersTab(sh){
         +'</div>'
       +'</div>';
 
-      // ── MATCHES SECTION ────────────────────────────────────
+      // ââ MATCHES SECTION ââââââââââââââââââââââââââââââââââââ
       var matchesHTML='<div id="pp-matches-section" style="display:none;flex:1;padding:28px 32px;">'
         +'<div style="text-align:center;padding:60px;color:rgba(255,255,255,0.2);">'
-          +'<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; Načítám historii zápasů...</div>'
+          +'<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; NaÄÃ­tÃ¡m historii zÃ¡pasÅ¯...</div>'
 
 
       pg.innerHTML=headerHTML+notesHTML+matchesHTML;
       sh.appendChild(pg);
-// Zavři comment modal při kliknutí na overlay nebo navigaci
+// ZavÅi comment modal pÅi kliknutÃ­ na overlay nebo navigaci
 // comment modal closes via overlay mousedown and player navigation
 
-      // ── FETCH PHOTO ───────────────────────────────────────
+      // ââ FETCH PHOTO âââââââââââââââââââââââââââââââââââââââ
       (function(){
-        // ATP headshot primárně - funguje pro všechny rankované hráče
+        // ATP headshot primÃ¡rnÄ - funguje pro vÅ¡echny rankovanÃ© hrÃ¡Äe
         var atpUrl='https://www.atptour.com/-/media/alias/player-headshot/'+pid;
         var imgEl=sh.getElementById('pp-photo');
         if(imgEl){
@@ -1107,13 +1107,13 @@ function buildPlayersTab(sh){
         }
       })();
 
-      // ── BACK BUTTON ───────────────────────────────────────
+      // ââ BACK BUTTON âââââââââââââââââââââââââââââââââââââââ
       sh.getElementById('pp-back').onclick=function(){pg.remove();};
       document.addEventListener('keydown',function _esc(e){
         if(e.key==='Escape'){pg.remove();document.removeEventListener('keydown',_esc);}
       });
 
-      // ── TABS ──────────────────────────────────────────────
+      // ââ TABS ââââââââââââââââââââââââââââââââââââââââââââââ
       pg.querySelectorAll('.pp-tab').forEach(function(tab){
         tab.addEventListener('click',function(){
           pg.querySelectorAll('.pp-tab').forEach(function(t){
@@ -1135,19 +1135,19 @@ function buildPlayersTab(sh){
         });
       });
 
-      // ── MATCH HISTORY ───────────────────────────────────────────
+      // ââ MATCH HISTORY âââââââââââââââââââââââââââââââââââââââââââ
       function _loadMatchHistory(pid,pname,sh){
         var sec=sh.getElementById('pp-matches-section');
         if(!sec)return;
   var _existingModal=sh.getElementById('mh-cmt-modal');if(_existingModal)_existingModal.style.display='none';
         if(sec.dataset.loaded===pid){
-          // Data cached — znovu inicializuj komentáře (mohly přibýt nové)
+          // Data cached â znovu inicializuj komentÃ¡Åe (mohly pÅibÃ½t novÃ©)
           var _listEl=sec.querySelector('#mh-list');
           if(_listEl){
             _listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
               var emid=ex.dataset.mid;
               if(emid&&_getMcValue(emid)){ex.style.display='inline';}
-              // Odstraň staré listenery klonováním
+              // OdstraÅ starÃ© listenery klonovÃ¡nÃ­m
               var fresh=ex.cloneNode(true);
               ex.parentNode.replaceChild(fresh,ex);
               fresh.addEventListener("click",function(e){
@@ -1171,7 +1171,7 @@ function buildPlayersTab(sh){
           }
           return;
         }
-        sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; Načítám...</div>';
+        sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">&#9203; NaÄÃ­tÃ¡m...</div>';
         var RAW='https://raw.githubusercontent.com/Havran001/tennis-scout/main/';
         fetch(RAW+'player_history/'+pid+'.json?v='+Date.now())
         .then(function(r){return r.ok?r.json():null;})
@@ -1198,7 +1198,7 @@ function buildPlayersTab(sh){
           var all=(hist?hist.matches:[]).concat(liveMatches);
           all.sort(function(a,b){return b.date.localeCompare(a.date);});
           if(all.length===0){
-            sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy k dispozici</div>';
+            sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Å½Ã¡dnÃ© zÃ¡pasy k dispozici</div>';
             sec.dataset.loaded=pid;return;
           }
           // Surface colors
@@ -1209,8 +1209,8 @@ function buildPlayersTab(sh){
           var LC={G:'Grand Slam',M:'Masters 1000',A:'ATP 500',B:'ATP 250',D:'Davis Cup',F:'Finals',C:'Challenger',S:'Satellite',live:'LIVE'};
           sec.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:#0d1117;overflow-y:auto;box-sizing:border-box;';
           var h='<div style="position:sticky;top:0;z-index:10;background:#0d1117;border-bottom:1px solid rgba(255,255,255,.08);padding:16px 20px 0 20px;">'+
-          // Photo + Info — identické s kartou hráče
-'<button id="mh-f-back" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;margin-bottom:14px;display:block;">← Zpět</button>'+
+          // Photo + Info â identickÃ© s kartou hrÃ¡Äe
+'<button id="mh-f-back" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;margin-bottom:14px;display:block;">â ZpÄt</button>'+
           '<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'+
             // Photo
             '<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'+
@@ -1229,8 +1229,8 @@ function buildPlayersTab(sh){
                   '<div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Body</div>'+
                   '<div style="font-size:22px;font-weight:700;color:#e6edf3;">'+Number(pts).toLocaleString()+'</div>'+
                 '</div>'+
-                (age?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Věk</div><div style="font-size:20px;font-weight:700;color:#e6edf3;">'+age+'</div></div>':'')+
-                (height?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Výška</div><div style="font-size:20px;font-weight:700;color:#e6edf3;">'+height+' cm</div></div>':'')+
+                (age?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">VÄk</div><div style="font-size:20px;font-weight:700;color:#e6edf3;">'+age+'</div></div>':'')+
+                (height?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">VÃ½Å¡ka</div><div style="font-size:20px;font-weight:700;color:#e6edf3;">'+height+' cm</div></div>':'')+
                 (hand?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Hraje</div><div style="font-size:15px;font-weight:600;color:'+handColor+';">'+handTxt+'</div></div>':'')+
                 (pch?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Career High</div><div style="font-size:20px;font-weight:700;color:#f59e0b;">#'+pch+'</div>'+(pchDate&&pchDate.length>0?'<div style="font-size:9px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(pchDate.length>7?pchDate.substring(0,7):pchDate)+'</div>':'')+' </div>':'')+
               '</div>'+
@@ -1238,13 +1238,13 @@ function buildPlayersTab(sh){
           '</div>'+
         '</div>'+
         '<div style="padding:0 20px 40px;">';
-          // Sestav unikátní hodnoty pro filtry
+          // Sestav unikÃ¡tnÃ­ hodnoty pro filtry
           var _normT=function(t){return t.replace(/^ATP /,'').replace(/^WTA /,'');};
           var _allTournaments=[...new Set(all.map(function(m){return _normT(m.tournament||'');}).filter(Boolean))].sort();
           var _allSurfaces=[...new Set(all.map(function(m){return m.surface||'';}).filter(Boolean))].sort();
           var _allOpponents=[...new Set(all.map(function(m){return m.opponent||'';}).filter(Boolean))].sort(function(a,b){var _la=a.split(' ').pop()||a;var _lb=b.split(' ').pop()||b;return _la.localeCompare(_lb);});
 
-          // Filtrační stav
+          // FiltraÄnÃ­ stav
           var _fTournament='',_fSurface='',_fOpponent='',_fResult='';
 
           function _fDD(list,q){var ql=(q||'').toLowerCase();list.querySelectorAll('.mh-dd-item').forEach(function(i){i.style.display=(!ql||i.textContent.toLowerCase().indexOf(ql)>=0)?'':'none';});}
@@ -1390,7 +1390,7 @@ function _renderMatches(){
         '<tr class="mh-match-row" data-mid="'+pid+'_'+(m.date||'')+'_'+(m.opponent||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12)+'">', 
                 '<td class="'+wlCls+'">'+(m.result||'')+'</td>',
                 '<td style="'+lvlStyle+'">'+lvl+'</td>',
-        '<td style="white-space:nowrap">'+dd+' <button class="mh-cmt-btn" data-mid="'+mid+'" title="Koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:11px;padding:0 2px;vertical-align:middle;">💬</button><button class="mh-cmt-expand" data-mid="'+mid+'" title="Zobrazit koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:9px;padding:0 1px;vertical-align:middle;opacity:.3;transition:all .2s;display:none;">▼</button></td>',
+        '<td style="white-space:nowrap">'+dd+' <button class="mh-cmt-btn" data-mid="'+mid+'" title="Koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:11px;padding:0 2px;vertical-align:middle;">ð¬</button><button class="mh-cmt-expand" data-mid="'+mid+'" title="Zobrazit koment\u00e1\u0159" style="background:none;border:none;cursor:pointer;font-size:9px;padding:0 1px;vertical-align:middle;opacity:.3;transition:all .2s;display:none;">â¼</button></td>',
                 '<td>'+_normT(m.tournament||'')+'</td>',
                 '<td class="'+sfCls+'">'+(m.surface||'')+'</td>',
                 '<td>'+(m.round||'')+'</td>',
@@ -1413,13 +1413,13 @@ function _renderMatches(){
             });
             tbody+='</tbody>';
             var hm='<style>'+mhCss+'</style><div style="overflow-x:auto;"><table class="mh-table" id="mh-tbl">'+thead+tbody+'</table></div>';
-            if(!filtered.length)hm='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);font-size:13px;">Žádné zápasy</div>';
+            if(!filtered.length)hm='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);font-size:13px;">Å½Ã¡dnÃ© zÃ¡pasy</div>';
             var listEl=sec.querySelector('#mh-list');
             if(listEl){
               listEl.innerHTML=hm;
-        // == KOMENTÁŘE ==
+        // == KOMENTÃÅE ==
         (function initCmt(){
-          // Modal - vytvoř jednou, pak reuse
+          // Modal - vytvoÅ jednou, pak reuse
           var modal=sh.getElementById("mh-cmt-modal");
           if(!modal){
             modal=document.createElement("div");
@@ -1428,14 +1428,14 @@ function _renderMatches(){
             modal.innerHTML='<div style="background:#161b22;border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:24px;width:480px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.8);">'
               +'<div style="font-size:11px;color:rgba(255,255,255,.35);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;">Koment\u00e1\u0159 k z\u00e1pasu</div>'
               +'<div id="mh-cmt-modal-match" style="font-size:12px;color:rgba(255,255,255,.45);margin-bottom:12px;padding:7px 10px;background:rgba(255,255,255,.04);border-radius:6px;"></div>'
-              +'<input id="mh-cmt-modal-date" type="text" placeholder="Datum zápasu (např. 18.03.2026)" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:8px 12px;outline:none;box-sizing:border-box;margin-bottom:8px;" />'
+              +'<input id="mh-cmt-modal-date" type="text" placeholder="Datum zÃ¡pasu (napÅ. 18.03.2026)" style="width:100%;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:8px 12px;outline:none;box-sizing:border-box;margin-bottom:8px;" />'
               +'<textarea id="mh-cmt-modal-text" placeholder="Koment\u00e1\u0159 k z\u00e1pasu..." style="width:100%;min-height:90px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#e6edf3;font-size:13px;padding:10px 12px;outline:none;resize:vertical;line-height:1.6;box-sizing:border-box;"></textarea>'
               +'<div style="display:flex;gap:8px;margin-top:10px;justify-content:flex-end;">'
               +'<button id="mh-cmt-modal-cancel" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.6);font-size:12px;padding:12px 0;border-radius:8px;cursor:pointer;flex:1;font-size:14px;">Zru\u0161it</button>'
               +'<button id="mh-cmt-modal-save" style="background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00C853;font-size:12px;font-weight:600;padding:12px 0;border-radius:8px;cursor:pointer;flex:1;font-size:14px;">Ulo\u017eit</button>'
               +'</div></div>';
             sh.appendChild(modal);
-            // Listenery přidej JEDNOU na modal - ukazují na sh._cmtMid
+            // Listenery pÅidej JEDNOU na modal - ukazujÃ­ na sh._cmtMid
             sh._cmtMid=null;
             modal.querySelector("#mh-cmt-modal-save").addEventListener("click",function(){
               var mid=sh._cmtMid; if(!mid)return;
@@ -1443,20 +1443,20 @@ function _renderMatches(){
               if(val)localStorage.setItem("ts_mc_"+mid,val); else localStorage.removeItem("ts_mc_"+mid);
               var dateVal=modal.querySelector("#mh-cmt-modal-date").value.trim();
               if(dateVal)localStorage.setItem("ts_mc_date_"+mid,dateVal); else localStorage.removeItem("ts_mc_date_"+mid);
-              // Synchronizuj komentář do ts_notes_{pid} hlavní karty
+              // Synchronizuj komentÃ¡Å do ts_notes_{pid} hlavnÃ­ karty
               (function syncToNotes(targetPid, noteText, noteDate, noteSource){
                 if(!noteText)return;
                 var nk='ts_notes_'+targetPid;
                 var existing=[];
                 try{var p=JSON.parse(localStorage.getItem(nk));if(Array.isArray(p))existing=p;}catch(e){}
-                // Aktualizuj nebo přidej note se stejným source (mid)
+                // Aktualizuj nebo pÅidej note se stejnÃ½m source (mid)
                 var found=existing.find(function(n){return n.source===noteSource;});
                 if(found){found.text=noteText;found.date=noteDate||found.date;}
                 else existing.push({id:Date.now(),text:noteText,date:noteDate||new Date().toISOString().slice(0,10),source:noteSource});
                 localStorage.setItem(nk,JSON.stringify(existing));
               })(sh._cmtPid||pid, val, dateVal, mid);
               sh._pendingNotesReload=true;
-              // Zrcadlo pro soupeře — komentář + datum + notes
+              // Zrcadlo pro soupeÅe â komentÃ¡Å + datum + notes
               (function(){
                 var parts=mid.split('_');
                 if(parts.length<3)return;
@@ -1475,7 +1475,7 @@ function _renderMatches(){
                 var mirrorMid=opp.id+'_'+date2+'_'+meSlug;
                 if(val)localStorage.setItem("ts_mc_"+mirrorMid,val); else localStorage.removeItem("ts_mc_"+mirrorMid);
                 if(dateVal)localStorage.setItem("ts_mc_date_"+mirrorMid,dateVal); else localStorage.removeItem("ts_mc_date_"+mirrorMid);
-                // Sync do notes soupeře
+                // Sync do notes soupeÅe
                 (function syncToNotes(targetPid, noteText, noteDate, noteSource){
                   if(!noteText)return;
                   var nk='ts_notes_'+targetPid;
@@ -1500,8 +1500,8 @@ function _renderMatches(){
               if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))modal.querySelector("#mh-cmt-modal-save").click();
             });
           }
-          // Pro každý přechod na hráče — přidej listenery na nové .mh-cmt-btn
-          // Expand trojúhelníky — jednou mimo btn loop
+          // Pro kaÅ¾dÃ½ pÅechod na hrÃ¡Äe â pÅidej listenery na novÃ© .mh-cmt-btn
+          // Expand trojÃºhelnÃ­ky â jednou mimo btn loop
           listEl.querySelectorAll(".mh-cmt-expand").forEach(function(ex){
             var emid=ex.dataset.mid;
             if(emid&&_getMcValue(emid)){ex.style.display='inline';}
@@ -1546,13 +1546,13 @@ function _renderMatches(){
             });
           });
         })();
-        // Klik na soupeře → otevři jeho kartu
+        // Klik na soupeÅe â otevÅi jeho kartu
           listEl.querySelectorAll('.mh-opp-link').forEach(function(td){
             td.addEventListener('click', function(e){
               e.stopPropagation();
               var oppName = td.dataset.opponent;
               if(!oppName) return;
-              // Najdi hráče v ATP_PLAYERS podle full_name nebo části jména
+              // Najdi hrÃ¡Äe v ATP_PLAYERS podle full_name nebo ÄÃ¡sti jmÃ©na
               var players = window.ATP_PLAYERS || [];
               var normOpp = oppName.toLowerCase().replace(/[^a-z]/g,'');
               var found = players.find(function(p){
@@ -1561,14 +1561,14 @@ function _renderMatches(){
               });
               if(found){
                 if(sh._openPlayerFromHistory){
-                  // Zavři match history a otevři kartu nalezeného hráče
+                  // ZavÅi match history a otevÅi kartu nalezenÃ©ho hrÃ¡Äe
                   sec.style.cssText='display:none;flex:1;padding:28px 32px;';
                   sh._openPlayerFromHistory(found);
                 }
               }
             });
           });
-          // == KONEC KOMENTÁŘŮ ==
+          // == KONEC KOMENTÃÅÅ® ==
               listEl.querySelectorAll('th[data-sort]').forEach(function(th){
                 th.addEventListener('click',function(){
                   var k=this.getAttribute('data-sort');
@@ -1615,7 +1615,7 @@ function _renderMatches(){
               document.addEventListener('click',function(){_closeDD();});
             }
             var cntEl=sec.querySelector('#mh-count');
-            if(cntEl)cntEl.textContent=filtered.length+' zápasů';
+            if(cntEl)cntEl.textContent=filtered.length+' zÃ¡pasÅ¯';
 
 
           }
@@ -1629,9 +1629,9 @@ function _renderMatches(){
           h+='</div>';
           h+='</div>';
           sec.innerHTML=h;
-          // Zavírací tlačítko
+          // ZavÃ­racÃ­ tlaÄÃ­tko
           var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){var _cPid=sh._cmtPid||pid;sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(_cPid);if(sh._pendingNotesReload){sh._pendingNotesReload=false;var _nt=sh.getElementById('pp-notes-section');var _mt=sh.getElementById('pp-matches-section');if(_nt)_nt.style.display='block';if(_mt)_mt.style.cssText='display:none;flex:1;padding:28px 32px;';var _tabs=sh.querySelectorAll('.pp-tab');_tabs&&_tabs.forEach(function(t){t.style.color=t.dataset.tab==='notes'?'#00C853':'rgba(255,255,255,0.4)';t.style.borderBottomColor=t.dataset.tab==='notes'?'#00C853':'transparent';});}};}
-          // Sync fotky do hlavičky
+          // Sync fotky do hlaviÄky
           var _hdrPhoto=sec.querySelector('#mh-hdr-photo');
           if(_hdrPhoto){var _ppPhoto=sh.getElementById('pp-photo');if(_ppPhoto&&_ppPhoto.src)_hdrPhoto.src=_ppPhoto.src;}
 
@@ -1646,11 +1646,11 @@ function _renderMatches(){
           _renderMatches();
           sec.dataset.loaded=pid;
         }).catch(function(){
-          sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Nepodařilo se načíst historii zápasů</div>';
+          sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">NepodaÅilo se naÄÃ­st historii zÃ¡pasÅ¯</div>';
         });
       }
-      // ── SAVE NOTES ────────────────────────────────────────
-      // ── NOTES SYSTEM ────────────────────────────────────────────
+      // ââ SAVE NOTES ââââââââââââââââââââââââââââââââââââââââ
+      // ââ NOTES SYSTEM ââââââââââââââââââââââââââââââââââââââââââââ
       function _tsRefreshNotes(targetPid){
         console.log('REFRESH_CALLED pid='+targetPid+' ls='+JSON.stringify(localStorage.getItem('ts_notes_'+targetPid)||'').slice(0,50));
         var nk='ts_notes_'+targetPid;
@@ -1659,17 +1659,17 @@ function _renderMatches(){
         var list=sh.getElementById('pp-notes-list');
         console.log('REFRESH_LIST='+!!list+' fresh.length='+fresh.length);
         if(!list)return;
-        if(targetPid===pid){notesList=fresh;} // aktualizuj closure pokud sedí
+        if(targetPid===pid){notesList=fresh;} // aktualizuj closure pokud sedÃ­
         var renderList=targetPid===pid?notesList:fresh;
-        if(renderList.length===0){list.innerHTML='<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>';return;}
+        if(renderList.length===0){list.innerHTML='<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">ZatÃ­m Å¾Ã¡dnÃ© poznÃ¡mky</div>';return;}
         list.innerHTML=renderList.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).map(function(n){
           return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
             +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
-              +(n.date?'<span style="font-size:13px;color:rgba(255,255,255,0.55);background:rgba(255,255,255,0.06);padding:3px 10px;border-radius:10px;">📅 '+n.date+'</span>':'')
-              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+              +(n.date?'<span style="font-size:13px;color:rgba(255,255,255,0.55);background:rgba(255,255,255,0.06);padding:3px 10px;border-radius:10px;">ð '+n.date+'</span>':'')
+              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">ð '+n.source+'</span>':'')
               +'<div style="margin-left:auto;display:flex;gap:6px;">'
-                +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
-                +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
+                +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">âï¸ Upravit</button>'
+                +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">ð Smazat</button>'
               +'</div>'
             +'</div>'
             +'<div style="font-size:13px;color:#e6edf3;line-height:1.6;white-space:pre-wrap;">'+n.text+'</div>'
@@ -1679,7 +1679,7 @@ function _renderMatches(){
         list.querySelectorAll('.pp-del-note').forEach(function(btn){
           btn.onclick=function(e){
             e.stopPropagation();
-            if(!confirm('Smazat tuto poznámku?'))return;
+            if(!confirm('Smazat tuto poznÃ¡mku?'))return;
             var nid=parseInt(btn.dataset.nid);
             notesList=notesList.filter(function(n){return n.id!==nid;});
             _saveNotes();_renderNotes();
@@ -1690,7 +1690,7 @@ function _renderMatches(){
         });
       }
       function _getMcValue(mid){
-        // Hledej ts_mc_ klíč case-insensitively
+        // Hledej ts_mc_ klÃ­Ä case-insensitively
         var exact=localStorage.getItem("ts_mc_"+mid);
         if(exact)return exact;
         var lo=("ts_mc_"+mid).toLowerCase();
@@ -1699,7 +1699,7 @@ function _renderMatches(){
         return null;
       }
       function _saveNotes(){localStorage.setItem(notesKey,JSON.stringify(notesList));}
-      // Expose pro okamžité překreslení z match history save listeneru
+      // Expose pro okamÅ¾itÃ© pÅekreslenÃ­ z match history save listeneru
       sh._renderNotes_pid=pid;
       sh._reloadNotesFn=function(){
         var nk='ts_notes_'+pid;
@@ -1710,17 +1710,17 @@ function _renderMatches(){
       function _renderNotes(){
         var list=sh.getElementById('pp-notes-list');
         if(!list)return;
-        // Vždy načti čerstvý stav z localStorage
+        // VÅ¾dy naÄti ÄerstvÃ½ stav z localStorage
         try{var _fresh=JSON.parse(localStorage.getItem(notesKey));if(Array.isArray(_fresh))notesList=_fresh;}catch(e){}
-        if(notesList.length===0){list.innerHTML='<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">Zatím žádné poznámky</div>';return;}
+        if(notesList.length===0){list.innerHTML='<div style="text-align:center;padding:40px;color:rgba(255,255,255,0.2);font-size:13px;">ZatÃ­m Å¾Ã¡dnÃ© poznÃ¡mky</div>';return;}
         list.innerHTML=notesList.slice().reverse().map(function(n){
           return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
             +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
-              +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
-              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+              +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">ð '+n.date+'</span>':'')
+              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">ð '+n.source+'</span>':'')
               +'<div style="margin-left:auto;display:flex;gap:6px;">'
-                +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
-                +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
+                +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">âï¸ Upravit</button>'
+                +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">ð Smazat</button>'
               +'</div>'
             +'</div>'
             +'<div style="font-size:13px;color:#e6edf3;line-height:1.6;white-space:pre-wrap;">'+n.text+'</div>'
@@ -1732,7 +1732,7 @@ function _renderMatches(){
         sh.querySelectorAll('.pp-del-note').forEach(function(btn){
           btn.onclick=function(e){
             e.stopPropagation();
-            if(!confirm('Smazat tuto poznámku?'))return;
+            if(!confirm('Smazat tuto poznÃ¡mku?'))return;
             var nid=parseInt(btn.dataset.nid);
             notesList=notesList.filter(function(n){return n.id!==nid;});
             _saveNotes();_renderNotes();
@@ -1845,7 +1845,7 @@ function _openAtpPlayer(nameRaw,sh){
   if(!players.length)return;
   var clean=nameRaw.replace(/\/.*$/,'').trim();
   var parts=clean.split(/\s+/);
-  var surname=parts[0].toLowerCase().replace(/[^a-zÀ-ɏ]/gi,'');
+  var surname=parts[0].toLowerCase().replace(/[^a-zÃ-É]/gi,'');
   var initial=parts.length>1?parts[parts.length-1].replace('.','').toLowerCase():'';
   var best=null,bestScore=0;
   players.forEach(function(p){
@@ -1857,7 +1857,7 @@ function _openAtpPlayer(nameRaw,sh){
   });
   if(!best||bestScore<3){
     var t=document.createElement('div');
-    t.textContent='Hráč "'+nameRaw+'" nenalezen v ATP žebříčku';
+    t.textContent='HrÃ¡Ä "'+nameRaw+'" nenalezen v ATP Å¾ebÅÃ­Äku';
     t.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:rgba(20,20,20,0.95);color:rgba(255,255,255,.7);padding:10px 20px;border-radius:10px;font-size:12px;z-index:99999;pointer-events:none;border:1px solid rgba(255,255,255,.15);';
     document.body.appendChild(t);setTimeout(function(){t.remove();},2500);
     return;
@@ -1889,27 +1889,27 @@ function buildMatchesTab(sh){
   var activeDay=[0],activeFilter='all',activeSort='tournament',activeTier='all',activeFormat='all',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
   var isFS=location.hostname.includes('flashscore');
 
-  var FLAGS={'USA':'🇺🇸','ESP':'🇪🇸','FRA':'🇫🇷','GER':'🇩🇪','ITA':'🇮🇹','GBR':'🇬🇧','AUS':'🇦🇺','ARG':'🇦🇷','JPN':'🇯🇵','CAN':'🇨🇦','BRA':'🇧🇷','NED':'🇳🇱','SUI':'🇨🇭','ROU':'🇷🇴','POL':'🇵🇱','CZE':'🇨🇿','AUT':'🇦🇹','GRE':'🇬🇷','BEL':'🇧🇪','SWE':'🇸🇪','NOR':'🇳🇴','DEN':'🇩🇰','SRB':'🇷🇸','KAZ':'🇰🇿','RUS':'🇷🇺','UKR':'🇺🇦','POR':'🇵🇹','CHI':'🇨🇱','MEX':'🇲🇽','RSA':'🇿🇦','IND':'🇮🇳','KOR':'🇰🇷','MAR':'🇲🇦','COL':'🇨🇴','CRO':'🇭🇷','GEO':'🇬🇪','QAT':'🇶🇦','UAE':'🇦🇪','CHN':'🇨🇳','SVK':'🇸🇰','UZB':'🇺🇿','MON':'🇲🇨','TUR':'🇹🇷','BUL':'🇧🇬','HUN':'🇭🇺','FIN':'🇫🇮','SLO':'🇸🇮','SVK':'🇸🇰','EST':'🇪🇪','LAT':'🇱🇻','LTU':'🇱🇹','NZL':'🇳🇿','AZE':'🇦🇿','ARM':'🇦🇲','GBR':'🇬🇧','MDA':'🇲🇩','BLR':'🇧🇾'};
+  var FLAGS={'USA':'ðºð¸','ESP':'ðªð¸','FRA':'ð«ð·','GER':'ð©ðª','ITA':'ð®ð¹','GBR':'ð¬ð§','AUS':'ð¦ðº','ARG':'ð¦ð·','JPN':'ð¯ðµ','CAN':'ð¨ð¦','BRA':'ð§ð·','NED':'ð³ð±','SUI':'ð¨ð­','ROU':'ð·ð´','POL':'ðµð±','CZE':'ð¨ð¿','AUT':'ð¦ð¹','GRE':'ð¬ð·','BEL':'ð§ðª','SWE':'ð¸ðª','NOR':'ð³ð´','DEN':'ð©ð°','SRB':'ð·ð¸','KAZ':'ð°ð¿','RUS':'ð·ðº','UKR':'ðºð¦','POR':'ðµð¹','CHI':'ð¨ð±','MEX':'ð²ð½','RSA':'ð¿ð¦','IND':'ð®ð³','KOR':'ð°ð·','MAR':'ð²ð¦','COL':'ð¨ð´','CRO':'ð­ð·','GEO':'ð¬ðª','QAT':'ð¶ð¦','UAE':'ð¦ðª','CHN':'ð¨ð³','SVK':'ð¸ð°','UZB':'ðºð¿','MON':'ð²ð¨','TUR':'ð¹ð·','BUL':'ð§ð¬','HUN':'ð­ðº','FIN':'ð«ð®','SLO':'ð¸ð®','SVK':'ð¸ð°','EST':'ðªðª','LAT':'ð±ð»','LTU':'ð±ð¹','NZL':'ð³ð¿','AZE':'ð¦ð¿','ARM':'ð¦ð²','GBR':'ð¬ð§','MDA':'ð²ð©','BLR':'ð§ð¾'};
 
   function tInfo(t){
     var u=t.toUpperCase();
-    if(u.includes('ITF')) return{i:'🔵',l:'ITF',c:'#c084fc',bg:'rgba(192,132,252,.08)',b:'rgba(192,132,252,.2)'};
-    if(u.includes('CHALLENGER')) return{i:'⚡',l:'Challenger',c:'#facc15',bg:'rgba(250,204,21,.1)',b:'rgba(250,204,21,.2)'};
-    if(u.match(/AUSTRALIAN OPEN|ROLAND GARROS|WIMBLEDON|US OPEN/)) return{i:'🏆',l:'Grand Slam',c:'#FFD700',bg:'rgba(255,215,0,.12)',b:'rgba(255,215,0,.3)'};
-    if(u.match(/ATP.*1000|MASTERS 1000|MIAMI|INDIAN WELLS|MADRID OPEN|ROME|MONTREAL|CINCINNATI|SHANGHAI|PARIS MASTERS|CANADIAN|MONTE.CARLO/)) return{i:'🥇',l:'ATP 1000',c:'#C0C0C0',bg:'rgba(192,192,192,.1)',b:'rgba(192,192,192,.2)'};
-    if(u.match(/ATP.*500|ROTTERDAM|DUBAI|ACAPULCO|BARCELONA|HAMBURG|WASHINGTON|TOKYO|BEIJING|VIENNA|BASEL/)) return{i:'🥈',l:'ATP 500',c:'#CD7F32',bg:'rgba(205,127,50,.1)',b:'rgba(205,127,50,.2)'};
-    if(u.match(/WTA.*1000/)) return{i:'🔴',l:'WTA 1000',c:'#e879f9',bg:'rgba(232,121,249,.1)',b:'rgba(232,121,249,.2)'};
-    if(u.match(/WTA.*500/)) return{i:'🟣',l:'WTA 500',c:'#d946ef',bg:'rgba(217,70,239,.1)',b:'rgba(217,70,239,.2)'};
-    if(u.match(/WTA.*SINGLES|WTA - /)) return{i:'🟣',l:'WTA 250',c:'#c084fc',bg:'rgba(192,132,252,.08)',b:'rgba(192,132,252,.15)'};
-    return{i:'🎾',l:'ATP 250',c:'#38bdf8',bg:'rgba(56,189,248,.08)',b:'rgba(56,189,248,.2)'};
+    if(u.includes('ITF')) return{i:'ðµ',l:'ITF',c:'#c084fc',bg:'rgba(192,132,252,.08)',b:'rgba(192,132,252,.2)'};
+    if(u.includes('CHALLENGER')) return{i:'â¡',l:'Challenger',c:'#facc15',bg:'rgba(250,204,21,.1)',b:'rgba(250,204,21,.2)'};
+    if(u.match(/AUSTRALIAN OPEN|ROLAND GARROS|WIMBLEDON|US OPEN/)) return{i:'ð',l:'Grand Slam',c:'#FFD700',bg:'rgba(255,215,0,.12)',b:'rgba(255,215,0,.3)'};
+    if(u.match(/ATP.*1000|MASTERS 1000|MIAMI|INDIAN WELLS|MADRID OPEN|ROME|MONTREAL|CINCINNATI|SHANGHAI|PARIS MASTERS|CANADIAN|MONTE.CARLO/)) return{i:'ð¥',l:'ATP 1000',c:'#C0C0C0',bg:'rgba(192,192,192,.1)',b:'rgba(192,192,192,.2)'};
+    if(u.match(/ATP.*500|ROTTERDAM|DUBAI|ACAPULCO|BARCELONA|HAMBURG|WASHINGTON|TOKYO|BEIJING|VIENNA|BASEL/)) return{i:'ð¥',l:'ATP 500',c:'#CD7F32',bg:'rgba(205,127,50,.1)',b:'rgba(205,127,50,.2)'};
+    if(u.match(/WTA.*1000/)) return{i:'ð´',l:'WTA 1000',c:'#e879f9',bg:'rgba(232,121,249,.1)',b:'rgba(232,121,249,.2)'};
+    if(u.match(/WTA.*500/)) return{i:'ð£',l:'WTA 500',c:'#d946ef',bg:'rgba(217,70,239,.1)',b:'rgba(217,70,239,.2)'};
+    if(u.match(/WTA.*SINGLES|WTA - /)) return{i:'ð£',l:'WTA 250',c:'#c084fc',bg:'rgba(192,132,252,.08)',b:'rgba(192,132,252,.15)'};
+    return{i:'ð¾',l:'ATP 250',c:'#38bdf8',bg:'rgba(56,189,248,.08)',b:'rgba(56,189,248,.2)'};
   }
   function surfBg(s){if(!s)return '#555';s=s.toLowerCase();if(s.includes('hard'))return '#2563eb';if(s.includes('clay'))return '#ea580c';if(s.includes('grass'))return '#16a34a';return '#555';}
   function timeStr(ts){if(!ts)return '';return new Date(ts).toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});}
-  function pb(b){var o={};b.split('¬').forEach(function(f){var i=f.indexOf('÷');if(i>0)o[f.slice(0,i)]=f.slice(i+1);});return o;}
+  function pb(b){var o={};b.split('Â¬').forEach(function(f){var i=f.indexOf('Ã·');if(i>0)o[f.slice(0,i)]=f.slice(i+1);});return o;}
 
   function parseFeed(feedTxt){
-    // KLÍČOVÁ OPRAVA: game score (WA/WB/WC) je přímo v f_2_0_1 bloku každého zápasu
-    // NEPŘEPISUJEME r_2_1 — f_2_0_1 je aktuálnější a kompletní
+    // KLÃÄOVÃ OPRAVA: game score (WA/WB/WC) je pÅÃ­mo v f_2_0_1 bloku kaÅ¾dÃ©ho zÃ¡pasu
+    // NEPÅEPISUJEME r_2_1 â f_2_0_1 je aktuÃ¡lnÄjÅ¡Ã­ a kompletnÃ­
     var blocks=feedTxt.split('~').map(pb);
     var tournament='',tcountry='',tsurface='';
     var matches=[],seen={};
@@ -1933,7 +1933,7 @@ function buildMatchesTab(sh){
       });
       var game1='',game2='',serving=0;
       if(isLive){
-        // WA/WB/WC jsou game score přímo v f_2_0_1 — aktuální a přesné
+        // WA/WB/WC jsou game score pÅÃ­mo v f_2_0_1 â aktuÃ¡lnÃ­ a pÅesnÃ©
         game1=b.WA||'0';
         game2=b.WB||'0';
         serving=parseInt(b.WC||0);
@@ -1974,12 +1974,12 @@ function buildMatchesTab(sh){
   }
 
   function getMatches(data){
-    // Worker a flashscore vrací data pro konkrétní den přímo
+    // Worker a flashscore vracÃ­ data pro konkrÃ©tnÃ­ den pÅÃ­mo
     return data.matches||[];
   }
 
   function _ioc2flag(c){if(!c)return '';var m={'USA':'US','ESP':'ES','FRA':'FR','GER':'DE','ITA':'IT','GBR':'GB','AUS':'AU','ARG':'AR','JPN':'JP','CAN':'CA','BRA':'BR','NED':'NL','SUI':'CH','ROU':'RO','POL':'PL','CZE':'CZ','AUT':'AT','GRE':'GR','BEL':'BE','SWE':'SE','NOR':'NO','DEN':'DK','SRB':'RS','KAZ':'KZ','RUS':'RU','UKR':'UA','POR':'PT','CHI':'CL','MEX':'MX','RSA':'ZA','IND':'IN','KOR':'KR','MAR':'MA','COL':'CO','CRO':'HR','GEO':'GE','QAT':'QA','UAE':'AE','CHN':'CN','SVK':'SK','MON':'MC','TUR':'TR','BUL':'BG','HUN':'HU','FIN':'FI','SLO':'SI','EST':'EE','LAT':'LV','LTU':'LT','NZL':'NZ','AZE':'AZ','ARM':'AM','MDA':'MD','BLR':'BY','ISR':'IL','TUN':'TN','EGY':'EG','KEN':'KE','SEN':'SN','PUR':'PR','DOM':'DO','VEN':'VE','BOL':'BO','PAR':'PY','URU':'UY','PER':'PE','ECU':'EC','GUA':'GT','PAN':'PA','PHI':'PH','THA':'TH','VIE':'VN','MAS':'MY','SIN':'SG','INA':'ID','TPE':'TW','HKG':'HK','UZB':'UZ','ISL':'IS','IRL':'IE','LUX':'LU','MLT':'MT','CYP':'CY','GBR':'GB','SCO':'GB','WAL':'GB','CMR':'CM','ANG':'AO','KOS':'XK','KSA':'SA','NMI':'MP','SVK':'SK','KEN':'KE','RSA':'ZA','ZIM':'ZW','NGR':'NG','GHA':'GH','SEN':'SN','ETH':'ET','UGA':'UG','TAN':'TZ','ZAM':'ZM','MRI':'MU','SEY':'SC','BOT':'BW','NAM':'NA','MAD':'MG','CIV':'CI','TUN':'TN','EGY':'EG','MAR':'MA','ALG':'DZ','LBA':'LY','NIG':'NE','MLI':'ML','SUD':'SD','RWA':'RW','PHI':'PH','INA':'ID','MAS':'MY','THA':'TH','VIE':'VN','SIN':'SG','TPE':'TW','HKG':'HK','MGL':'MN','PAK':'PK','SRI':'LK','BAN':'BD','IRI':'IR','LIB':'LB','JOR':'JO','KUW':'KW','BAH':'BH','OMA':'OM','QAT':'QA','UAE':'AE','YEM':'YE','IRQ':'IQ','SYR':'SY','PUR':'PR','DOM':'DO','JAM':'JM','TRI':'TT','HAI':'HT','CUB':'CU','GUA':'GT','ESA':'SV','CRC':'CR','PAN':'PA','HON':'HN','NCA':'NI','GUY':'GY','SUR':'SR','BOL':'BO','PAR':'PY','URU':'UY','PER':'PE','ECU':'EC','VEN':'VE','COL':'CO','CHI':'CL','ARG':'AR','BRA':'BR','MEX':'MX','CAN':'CA','USA':'US','BIH':'BA','MKD':'MK','ESA':'SV','ALB':'AL','BDI':'BI','NMI':'MP','SVK':'SK','PLE':'PS','MDV':'MV'};var iso=m[c]||null;if(!iso||iso.length!==2)return '';return iso.split('').map(function(x){return String.fromCodePoint(x.charCodeAt(0)+127397);}).join('');}
-function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.WTA_PLAYERS||[]).length;if(!window[_key]){var _ex={'gauff':'USA','sabalenka':'BLR','swiatek':'POL','rybakina':'KAZ','pegula':'USA','keys':'USA','navarro':'USA','collins':'USA','parks':'USA','alexandrova':'RUS','kasatkina':'RUS','shnaider':'RUS','andreeva':'RUS','blinkova':'RUS','potapova':'RUS','samsonova':'RUS','pavlyuchenkova':'RUS','vesnina':'RUS','svitolina':'UKR','kostyuk':'UKR','tsurenko':'UKR','ostapenko':'LAT','kanepi':'EST','kontaveit':'EST','paolini':'ITA','bronzetti':'ITA','cocciaretto':'ITA','trevisan':'ITA','giorgi':'ITA','errani':'ITA','sakkari':'GRE','bouzkova':'CZE','vondrousova':'CZE','pliskova':'CZE','kvitova':'CZE','siniaková':'CZE','muchova':'CZE','krejcikova':'CZE','fruhvirtova':'CZE','strycova':'CZE','garcia':'FRA','burel':'FRA','ferro':'FRA','mladenovic':'FRA','cornet':'FRA','golubic':'SUI','bencic':'SUI','teichmann':'SUI','jabeur':'TUN','haddad':'BRA','sorribes':'ESP','muguruza':'ESP','badosa':'ESP','fernandez':'CAN','andreescu':'CAN','dabrowski':'CAN','watson':'GBR','raducanu':'GBR','boulter':'GBR','sherif':'EGY','azarenka':'BLR','sasnovich':'BLR','halep':'ROU','bogdan':'ROU','bara':'ROU','cristian':'ROU','cirstea':'ROU','ivanovic':'SRB','jovanovski':'SRB','danilovic':'SRB','stojanovic':'SRB','niculescu':'ROU','ruse':'ROU','hontama':'JPN','osaka':'JPN','doi':'JPN','aoyama':'JPN','lys':'GER','grabher':'AUT','viktoriya':'UKR','linette':'POL','zhu':'CHN','zheng':'CHN','wang':'CHN','zhang':'CHN','peng':'CHN','han':'CHN','lu':'CHN','liu':'CHN','shcherbakova':'RUS','kucova':'SVK','schmiedlova':'SVK','rybarkova':'SVK','lapko':'BLR','baptiste':'USA','townsend':'USA','mcnally':'USA','harrison':'USA','liu':'USA','stephens':'USA','venus':'USA','serena':'USA','vacherot':'MON','inglis':'AUS','peers':'AUS','tomljanovic':'AUS','stosur':'AUS','barty':'AUS','gavrilova':'AUS','escabias':'ESP','shelbayh':'JOR','hassan':'EGY','kirkin':'TUR','roncadelli':'ITA','gonzalez':'COL','barreto':'BRA','varillas':'PER','udvardy':'HUN','starodubtseva':'UKR','volynets':'USA','dodin':'FRA','salkova':'CZE','timofeeva':'RUS','charaeva':'RUS','shymanovich':'BLR','kasintseva':'AND','jimenez':'AND','monnet':'FRA','brengle':'USA','kalinina':'UKR','vekic':'CRO','kroitor':'UKR','siskova':'CZE','laron':'ISR','kowalczyk':'POL','pulchartova':'CZE','laboutkova':'CZE','villet':'FRA','sziedat':'GER','bayerlova':'CZE','martynov':'ROU','giovannini':'ARG','capurro':'ARG','gvozdenovic':'SRB','gudelj':'SRB','burylo':'UKR','chudejova':'CZE','nepliy':'UKR','kovacevic':'SRB','hatouka':'CZE','hatouková':'CZE','guth':'GER','tholey':'GER','mcgiffin':'AUS','nava':'USA','andrade':'COL','burruchaga':'ARG','brancaccio':'ITA','vrbensky':'CZE','strombachs':'GER','gengel':'CZE','alkaya':'TUR','marinkov':'SRB','blockx':'BEL','dzumhur':'BIH','ribecai':'ITA','neumayer':'AUT','berkieta':'POL','andaloro':'ITA','vasami':'ITA','krumich':'GER','nagal':'IND','molleker':'GER','caniato':'ITA','dhamne':'IND','brunclik':'CZE','arnaboldi':'ITA','albot':'MDA','guerrieri':'ITA','lokoli':'FRA','kasnikowski':'POL','oberleitner':'AUT','bondioli':'ITA','jevsejev':'EST','gombos':'SVK','vasa':'FIN','comesana':'ARG','jodar':'ESP','trungelliti':'ARG','merida':'ESP','dedura':'ESP','meneses':'ESP','cozar':'ESP','donski':'BUL','palosi':'ROU','stricker':'SUI','izquierdo':'ESP','manzano':'ESP','negritu':'ROU','butvilas':'LTU','gulin':'RUS','nedic':'SRB','hemery':'FRA','dellien':'BOL','geerts':'BEL','searle':'GBR','alcaraz':'ESP','alexandrova':'RUS','altmaier':'GER','andreescu':'CAN','andreeva':'RUS','anisimova':'USA','aoyama':'JPN','atmane':'FRA','azarenka':'BLR','badosa':'ESP','baez':'ARG','bara':'ROU','basilashvili':'GEO','basilašvili':'GEO','bautista':'ESP','bellucci':'ITA','bencic':'SUI','bergs':'BEL','birrell':'AUS','blinkova':'RUS','bogdan':'ROU','bondar':'POL','borges':'POR','boulter':'GBR','brady':'USA','broady':'GBR','bronzetti':'ITA','buzarnescu':'ROU','cadenasso':'ITA','carballes':'ESP','cash':'GBR','cerundolo':'ARG','chachanov':'RUS','cirstea':'ROU','cocciaretto':'ITA','dabrowski':'CAN','davidovich':'ESP','delbonis':'ARG','diallo':'CAN','dimitrov':'BUL','djokovic':'SRB','doi':'JPN','dolehide':'USA','doumbia':'FRA','draper':'GBR','duckworth':'AUS','ebden':'AUS','errani':'ITA','etcheverry':'ARG','evans':'GBR','fernandez':'CAN','fery':'GBR','flipkens':'BEL','fognini':'ITA','fokina':'ESP','fonseca':'BRA','frech':'POL','fritz':'USA','fucsovics':'HUN','garin':'CHI','gasanova':'RUS','gavrilova':'AUS','giorgi':'ITA','goffin':'BEL','golubic':'SUI','grabher':'AUT','granollers':'ESP','griekspoor':'NED','haddad':'BRA','halep':'ROU','harris':'GBR','harrison':'USA','herbert':'FRA','hibino':'JPN','hontama':'JPN','humbert':'FRA','hurkacz':'POL','inglis':'AUS','ivanovic':'SRB','ivashka':'BLR','jabeur':'TUN','jarry':'CHI','jasika':'AUS','jimenez':'AND','kalinskaya':'RUS','kanepi':'EST','karatsev':'RUS','kasatkina':'RUS','kasintseva':'AND','kecmanovic':'SRB','kenin':'USA','khachanov':'RUS','khromacheva':'RUS','koepfer':'GER','kokkinakis':'AUS','kontaveit':'EST','kostyuk':'UKR','kotov':'RUS','kozlov':'USA','krawczyk':'USA','kucova':'SVK','laaksonen':'SUI','lajovic':'SRB','lapko':'BLR','lehecka':'CZE','linette':'POL','llamas':'ESP','lys':'GER','machac':'CZE','macháč':'CZE','mahut':'FRA','majchrzak':'POL','mannarino':'FRA','marozsan':'HUN','mcnally':'USA','medvedev':'RUS','mensik':'CZE','menšík':'CZE','mertens':'BEL','minnen':'BEL','mmoh':'USA','monfils':'FRA','moutet':'FRA','mpetshi':'FRA','muguruza':'ESP','muller':'FRA','munar':'ESP','murray':'GBR','musetti':'ITA','nadal':'ESP','nakashima':'USA','navone':'ARG','niculescu':'ROU','norrie':'GBR','opelka':'USA','osaka':'JPN','osorio':'COL','ostapenko':'LAT','paolini':'ITA','parks':'USA','parrizas':'ESP','pavlyuchenkova':'RUS','peers':'AUS','podoroska':'ARG','popyrin':'AUS','pospisil':'CAN','potapova':'RUS','puig':'PUR','raducanu':'GBR','rakhimova':'RUS','reboul':'FRA','rinderknech':'FRA','rogers':'USA','rublev':'RUS','rune':'DEN','ruse':'ROU','ruud':'NOR','safiullin':'RUS','sakkari':'GRE','salisbury':'GBR','samsonova':'RUS','schmiedlova':'SVK','schoolkate':'AUS','shapovalov':'CAN','shcherbakova':'RUS','shelton':'USA','shevchenko':'RUS','siegemund':'GER','sinner':'ITA','sizikova':'RUS','sonego':'ITA','sorribes':'ESP','sousa':'POR','stojanovic':'SRB','stosur':'AUS','strakhova':'UKR','struff':'GER','svitolina':'UKR','tabilo':'CHI','tauson':'DEN','teichmann':'SUI','thompson':'AUS','tiafoe':'USA','tig':'ROU','tikhonova':'RUS','tomljanovic':'AUS','townsend':'USA','travaglia':'ITA','trevisan':'ITA','tsitsipas':'GRE','tsurenko':'UKR','vacherot':'MON','wang':'CHN','watson':'GBR','wawrinka':'SUI','wozniacki':'DEN','yastremska':'UKR','zhang':'CHN','zheng':'CHN','zhu':'CHN','zvonareva':'RUS','paul':'USA','blanch':'USA','collignon':'BEL','landaluce':'ESP','berrettini':'ITA','sonego':'ITA','musetti':'ITA','cobolli':'ITA','nardi':'ITA','arnaldi':'ITA','vavassori':'ITA','darderi':'ITA','agamenone':'ITA','eala':'PHI','mboko':'CMR','fruhvirtova':'CZE','noskova':'CZE','siniaková':'CZE','krejcikova':'CZE','townsend':'USA','mcnally':'USA','harrison':'USA','brengle':'USA','brady':'USA','liu':'USA','kenin':'USA','stephens':'USA','williams':'USA','pegula':'USA','navarro':'USA','collins':'USA','anisimova':'USA','sherif':'EGY','yastremska':'UKR','melnyk':'UKR','kalinskaya':'RUS','rakhimova':'RUS','gasanova':'RUS','sizikova':'RUS','zvonareva':'RUS','vichka':'RUS','zhuk':'RUS','niemeier':'GER','grabher':'AUT','siegemund':'GER','golubic':'SUI','teichmann':'SUI','bencic':'SUI','korpatsch':'GER','lys':'GER','friedsam':'GER','ምbas':'BLR','sherif':'EGY','hontama':'JPN','doi':'JPN','aoyama':'JPN','hibino':'JPN','minnen':'BEL','flipkens':'BEL','mertens':'BEL','linette':'POL','swiatek':'POL','rogers':'USA','pegula':'USA','tauson':'DEN','wozniacki':'DEN','ruse':'ROU','bogdan':'ROU','bara':'ROU','cristian':'ROU','cirstea':'ROU','buzarnescu':'ROU','podoroska':'ARG','osorio':'COL','haddad':'BRA','sorribes':'ESP','badosa':'ESP','muguruza':'ESP','parrizas':'ESP','fernandez':'CAN','andreescu':'CAN','dabrowski':'CAN','inglis':'AUS','peers':'AUS','tomljanovic':'AUS','stosur':'AUS','barty':'AUS','gavrilova':'AUS','birrell':'AUS','puig':'PUR','stephens':'USA','tig':'ROU','niculescu':'ROU',
+function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.WTA_PLAYERS||[]).length;if(!window[_key]){var _ex={'gauff':'USA','sabalenka':'BLR','swiatek':'POL','rybakina':'KAZ','pegula':'USA','keys':'USA','navarro':'USA','collins':'USA','parks':'USA','alexandrova':'RUS','kasatkina':'RUS','shnaider':'RUS','andreeva':'RUS','blinkova':'RUS','potapova':'RUS','samsonova':'RUS','pavlyuchenkova':'RUS','vesnina':'RUS','svitolina':'UKR','kostyuk':'UKR','tsurenko':'UKR','ostapenko':'LAT','kanepi':'EST','kontaveit':'EST','paolini':'ITA','bronzetti':'ITA','cocciaretto':'ITA','trevisan':'ITA','giorgi':'ITA','errani':'ITA','sakkari':'GRE','bouzkova':'CZE','vondrousova':'CZE','pliskova':'CZE','kvitova':'CZE','siniakovÃ¡':'CZE','muchova':'CZE','krejcikova':'CZE','fruhvirtova':'CZE','strycova':'CZE','garcia':'FRA','burel':'FRA','ferro':'FRA','mladenovic':'FRA','cornet':'FRA','golubic':'SUI','bencic':'SUI','teichmann':'SUI','jabeur':'TUN','haddad':'BRA','sorribes':'ESP','muguruza':'ESP','badosa':'ESP','fernandez':'CAN','andreescu':'CAN','dabrowski':'CAN','watson':'GBR','raducanu':'GBR','boulter':'GBR','sherif':'EGY','azarenka':'BLR','sasnovich':'BLR','halep':'ROU','bogdan':'ROU','bara':'ROU','cristian':'ROU','cirstea':'ROU','ivanovic':'SRB','jovanovski':'SRB','danilovic':'SRB','stojanovic':'SRB','niculescu':'ROU','ruse':'ROU','hontama':'JPN','osaka':'JPN','doi':'JPN','aoyama':'JPN','lys':'GER','grabher':'AUT','viktoriya':'UKR','linette':'POL','zhu':'CHN','zheng':'CHN','wang':'CHN','zhang':'CHN','peng':'CHN','han':'CHN','lu':'CHN','liu':'CHN','shcherbakova':'RUS','kucova':'SVK','schmiedlova':'SVK','rybarkova':'SVK','lapko':'BLR','baptiste':'USA','townsend':'USA','mcnally':'USA','harrison':'USA','liu':'USA','stephens':'USA','venus':'USA','serena':'USA','vacherot':'MON','inglis':'AUS','peers':'AUS','tomljanovic':'AUS','stosur':'AUS','barty':'AUS','gavrilova':'AUS','escabias':'ESP','shelbayh':'JOR','hassan':'EGY','kirkin':'TUR','roncadelli':'ITA','gonzalez':'COL','barreto':'BRA','varillas':'PER','udvardy':'HUN','starodubtseva':'UKR','volynets':'USA','dodin':'FRA','salkova':'CZE','timofeeva':'RUS','charaeva':'RUS','shymanovich':'BLR','kasintseva':'AND','jimenez':'AND','monnet':'FRA','brengle':'USA','kalinina':'UKR','vekic':'CRO','kroitor':'UKR','siskova':'CZE','laron':'ISR','kowalczyk':'POL','pulchartova':'CZE','laboutkova':'CZE','villet':'FRA','sziedat':'GER','bayerlova':'CZE','martynov':'ROU','giovannini':'ARG','capurro':'ARG','gvozdenovic':'SRB','gudelj':'SRB','burylo':'UKR','chudejova':'CZE','nepliy':'UKR','kovacevic':'SRB','hatouka':'CZE','hatoukovÃ¡':'CZE','guth':'GER','tholey':'GER','mcgiffin':'AUS','nava':'USA','andrade':'COL','burruchaga':'ARG','brancaccio':'ITA','vrbensky':'CZE','strombachs':'GER','gengel':'CZE','alkaya':'TUR','marinkov':'SRB','blockx':'BEL','dzumhur':'BIH','ribecai':'ITA','neumayer':'AUT','berkieta':'POL','andaloro':'ITA','vasami':'ITA','krumich':'GER','nagal':'IND','molleker':'GER','caniato':'ITA','dhamne':'IND','brunclik':'CZE','arnaboldi':'ITA','albot':'MDA','guerrieri':'ITA','lokoli':'FRA','kasnikowski':'POL','oberleitner':'AUT','bondioli':'ITA','jevsejev':'EST','gombos':'SVK','vasa':'FIN','comesana':'ARG','jodar':'ESP','trungelliti':'ARG','merida':'ESP','dedura':'ESP','meneses':'ESP','cozar':'ESP','donski':'BUL','palosi':'ROU','stricker':'SUI','izquierdo':'ESP','manzano':'ESP','negritu':'ROU','butvilas':'LTU','gulin':'RUS','nedic':'SRB','hemery':'FRA','dellien':'BOL','geerts':'BEL','searle':'GBR','alcaraz':'ESP','alexandrova':'RUS','altmaier':'GER','andreescu':'CAN','andreeva':'RUS','anisimova':'USA','aoyama':'JPN','atmane':'FRA','azarenka':'BLR','badosa':'ESP','baez':'ARG','bara':'ROU','basilashvili':'GEO','basilaÅ¡vili':'GEO','bautista':'ESP','bellucci':'ITA','bencic':'SUI','bergs':'BEL','birrell':'AUS','blinkova':'RUS','bogdan':'ROU','bondar':'POL','borges':'POR','boulter':'GBR','brady':'USA','broady':'GBR','bronzetti':'ITA','buzarnescu':'ROU','cadenasso':'ITA','carballes':'ESP','cash':'GBR','cerundolo':'ARG','chachanov':'RUS','cirstea':'ROU','cocciaretto':'ITA','dabrowski':'CAN','davidovich':'ESP','delbonis':'ARG','diallo':'CAN','dimitrov':'BUL','djokovic':'SRB','doi':'JPN','dolehide':'USA','doumbia':'FRA','draper':'GBR','duckworth':'AUS','ebden':'AUS','errani':'ITA','etcheverry':'ARG','evans':'GBR','fernandez':'CAN','fery':'GBR','flipkens':'BEL','fognini':'ITA','fokina':'ESP','fonseca':'BRA','frech':'POL','fritz':'USA','fucsovics':'HUN','garin':'CHI','gasanova':'RUS','gavrilova':'AUS','giorgi':'ITA','goffin':'BEL','golubic':'SUI','grabher':'AUT','granollers':'ESP','griekspoor':'NED','haddad':'BRA','halep':'ROU','harris':'GBR','harrison':'USA','herbert':'FRA','hibino':'JPN','hontama':'JPN','humbert':'FRA','hurkacz':'POL','inglis':'AUS','ivanovic':'SRB','ivashka':'BLR','jabeur':'TUN','jarry':'CHI','jasika':'AUS','jimenez':'AND','kalinskaya':'RUS','kanepi':'EST','karatsev':'RUS','kasatkina':'RUS','kasintseva':'AND','kecmanovic':'SRB','kenin':'USA','khachanov':'RUS','khromacheva':'RUS','koepfer':'GER','kokkinakis':'AUS','kontaveit':'EST','kostyuk':'UKR','kotov':'RUS','kozlov':'USA','krawczyk':'USA','kucova':'SVK','laaksonen':'SUI','lajovic':'SRB','lapko':'BLR','lehecka':'CZE','linette':'POL','llamas':'ESP','lys':'GER','machac':'CZE','machÃ¡Ä':'CZE','mahut':'FRA','majchrzak':'POL','mannarino':'FRA','marozsan':'HUN','mcnally':'USA','medvedev':'RUS','mensik':'CZE','menÅ¡Ã­k':'CZE','mertens':'BEL','minnen':'BEL','mmoh':'USA','monfils':'FRA','moutet':'FRA','mpetshi':'FRA','muguruza':'ESP','muller':'FRA','munar':'ESP','murray':'GBR','musetti':'ITA','nadal':'ESP','nakashima':'USA','navone':'ARG','niculescu':'ROU','norrie':'GBR','opelka':'USA','osaka':'JPN','osorio':'COL','ostapenko':'LAT','paolini':'ITA','parks':'USA','parrizas':'ESP','pavlyuchenkova':'RUS','peers':'AUS','podoroska':'ARG','popyrin':'AUS','pospisil':'CAN','potapova':'RUS','puig':'PUR','raducanu':'GBR','rakhimova':'RUS','reboul':'FRA','rinderknech':'FRA','rogers':'USA','rublev':'RUS','rune':'DEN','ruse':'ROU','ruud':'NOR','safiullin':'RUS','sakkari':'GRE','salisbury':'GBR','samsonova':'RUS','schmiedlova':'SVK','schoolkate':'AUS','shapovalov':'CAN','shcherbakova':'RUS','shelton':'USA','shevchenko':'RUS','siegemund':'GER','sinner':'ITA','sizikova':'RUS','sonego':'ITA','sorribes':'ESP','sousa':'POR','stojanovic':'SRB','stosur':'AUS','strakhova':'UKR','struff':'GER','svitolina':'UKR','tabilo':'CHI','tauson':'DEN','teichmann':'SUI','thompson':'AUS','tiafoe':'USA','tig':'ROU','tikhonova':'RUS','tomljanovic':'AUS','townsend':'USA','travaglia':'ITA','trevisan':'ITA','tsitsipas':'GRE','tsurenko':'UKR','vacherot':'MON','wang':'CHN','watson':'GBR','wawrinka':'SUI','wozniacki':'DEN','yastremska':'UKR','zhang':'CHN','zheng':'CHN','zhu':'CHN','zvonareva':'RUS','paul':'USA','blanch':'USA','collignon':'BEL','landaluce':'ESP','berrettini':'ITA','sonego':'ITA','musetti':'ITA','cobolli':'ITA','nardi':'ITA','arnaldi':'ITA','vavassori':'ITA','darderi':'ITA','agamenone':'ITA','eala':'PHI','mboko':'CMR','fruhvirtova':'CZE','noskova':'CZE','siniakovÃ¡':'CZE','krejcikova':'CZE','townsend':'USA','mcnally':'USA','harrison':'USA','brengle':'USA','brady':'USA','liu':'USA','kenin':'USA','stephens':'USA','williams':'USA','pegula':'USA','navarro':'USA','collins':'USA','anisimova':'USA','sherif':'EGY','yastremska':'UKR','melnyk':'UKR','kalinskaya':'RUS','rakhimova':'RUS','gasanova':'RUS','sizikova':'RUS','zvonareva':'RUS','vichka':'RUS','zhuk':'RUS','niemeier':'GER','grabher':'AUT','siegemund':'GER','golubic':'SUI','teichmann':'SUI','bencic':'SUI','korpatsch':'GER','lys':'GER','friedsam':'GER','ábas':'BLR','sherif':'EGY','hontama':'JPN','doi':'JPN','aoyama':'JPN','hibino':'JPN','minnen':'BEL','flipkens':'BEL','mertens':'BEL','linette':'POL','swiatek':'POL','rogers':'USA','pegula':'USA','tauson':'DEN','wozniacki':'DEN','ruse':'ROU','bogdan':'ROU','bara':'ROU','cristian':'ROU','cirstea':'ROU','buzarnescu':'ROU','podoroska':'ARG','osorio':'COL','haddad':'BRA','sorribes':'ESP','badosa':'ESP','muguruza':'ESP','parrizas':'ESP','fernandez':'CAN','andreescu':'CAN','dabrowski':'CAN','inglis':'AUS','peers':'AUS','tomljanovic':'AUS','stosur':'AUS','barty':'AUS','gavrilova':'AUS','birrell':'AUS','puig':'PUR','stephens':'USA','tig':'ROU','niculescu':'ROU',
 'demoliner':'BRA','matos':'BRA','faria':'BRA','melo':'BRA','soares':'BRA',
 'krajicek':'USA','sock':'USA','ram':'USA','bryan':'USA','querrey':'USA','isner':'USA',
 'nouza':'CZE','vesely':'CZE','machac':'CZE','lehecka':'CZE',
@@ -2117,7 +2117,7 @@ function renderMatches(data){
     var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
     if(mcEl)mcEl.textContent=all.length;
-    var hcm=sh.getElementById('hc-count-m');if(hcm)hcm.textContent=all.length+' zápasů';
+    var hcm=sh.getElementById('hc-count-m');if(hcm)hcm.textContent=all.length+' zÃ¡pasÅ¯';
     var live=all.filter(function(m){return m.isLive;});
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
@@ -2135,30 +2135,30 @@ function renderMatches(data){
 
             var h='<div style="padding:0 20px 60px;position:relative;">';
     h+='<div style="display:flex;align-items:center;gap:6px;padding:12px 0 10px;border-bottom:1px solid rgba(255,255,255,.06);">';
-    [{d:-1,l:'Včera'},{d:0,l:'Dnes'},{d:1,l:'Zítra'},{d:2,l:'+2 dny'},{d:3,l:'+3 dny'}].forEach(function(x){
+    [{d:-1,l:'VÄera'},{d:0,l:'Dnes'},{d:1,l:'ZÃ­tra'},{d:2,l:'+2 dny'},{d:3,l:'+3 dny'}].forEach(function(x){
       var on=activeDay.indexOf(x.d)>=0;
       h+='<button data-day="'+x.d+'" style="padding:5px 16px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.1)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.4)')+';font-size:12px;cursor:pointer;font-weight:'+(on?700:400)+';">'+x.l+'</button>';
     });
     var _fo=(activeDay.indexOf('fav')>=0);
     h+='<button data-day="fav" style="padding:5px 16px;border-radius:7px;border:1px solid '+(_fo?'#FFD700':'rgba(255,255,255,.1)')+';background:'+(_fo?'rgba(255,215,0,.12)':'transparent')+';color:'+(_fo?'#FFD700':'rgba(255,255,255,.4)')+';font-size:12px;cursor:pointer;margin-left:4px;font-weight:'+(_fo?700:400)+';">&#9733; Obl&#237;ben&#233;'+(JSON.parse(localStorage.getItem('ts_favs')||'[]').length?' <span style="font-size:10px;background:rgba(255,215,0,.25);border-radius:8px;padding:1px 6px;">'+JSON.parse(localStorage.getItem('ts_favs')||'[]').length+'</span>':'')+'</button>';
     h+='<div style="margin-left:auto;display:flex;align-items:center;gap:6px;">';
-    if(data.src==='github'){var _upd=data.updated?new Date(data.updated).getTime():NaN;var age=isNaN(_upd)?null:Math.round((Date.now()-_upd)/60);if(age!==null&&age>60)h+='<span style="font-size:9px;color:rgba(255,140,0,.7);">⚠️ data '+age+'min stará — spusť skript na flashscore.com</span>';}
-    if(_lastUpdated)h+='<span style="font-size:9px;color:rgba(255,255,255,.2);">♥ '+_lastUpdated.slice(11,16)+'</span>';
+    if(data.src==='github'){var _upd=data.updated?new Date(data.updated).getTime():NaN;var age=isNaN(_upd)?null:Math.round((Date.now()-_upd)/60);if(age!==null&&age>60)h+='<span style="font-size:9px;color:rgba(255,140,0,.7);">â ï¸ data '+age+'min starÃ¡ â spusÅ¥ skript na flashscore.com</span>';}
+    if(_lastUpdated)h+='<span style="font-size:9px;color:rgba(255,255,255,.2);">â¥ '+_lastUpdated.slice(11,16)+'</span>';
     h+='<span style="width:6px;height:6px;background:#00C853;border-radius:50%;display:inline-block;"></span>';
     h+='</div></div>';
     h+='<div style="display:flex;gap:4px;padding:8px 0 6px;">';
-    [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length],['odds','S kurzem 💰',withOdds.length]].forEach(function(f){
+    [['all','VÅ¡e',all.length],['live','LIVE ð´',live.length],['finished','Konec',fin.length],['scheduled','NÃ¡plÃ¡n.',sch.length],['odds','S kurzem ð°',withOdds.length]].forEach(function(f){
       var on=activeFilter===f[0];
       h+='<button data-filter="'+f[0]+'" style="padding:3px 9px;border-radius:10px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.35)')+';font-size:9px;cursor:pointer;font-weight:'+(on?700:400)+';">'+f[1]+' <span style="opacity:.6;">'+f[2]+'</span></button>';
     });
     h+='<div style="display:flex;gap:4px;padding:4px 0 0;flex-wrap:wrap;align-items:center;">';
-    [['all','Vše'],['GS','Grand Slam'],['M1000','ATP 1000'],['ATP500','ATP 500'],['ATP250','ATP 250'],['WTA','WTA'],['CH','Challenger'],['ITF','ITF']].forEach(function(t){var on=activeTier===t[0];h+='<button data-tier="'+t[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+t[1]+'</button>';});
+    [['all','VÅ¡e'],['GS','Grand Slam'],['M1000','ATP 1000'],['ATP500','ATP 500'],['ATP250','ATP 250'],['WTA','WTA'],['CH','Challenger'],['ITF','ITF']].forEach(function(t){var on=activeTier===t[0];h+='<button data-tier="'+t[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+t[1]+'</button>';});
     h+='<div style="width:1px;height:14px;background:rgba(255,255,255,.1);margin:0 3px;flex-shrink:0;align-self:center;"></div>';
-    [['all','Vše'],['singles','Dvouhra'],['doubles','Čtyřhra']].forEach(function(f){var on=activeFormat===f[0];h+='<button data-fmt="'+f[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+f[1]+'</button>';});
+    [['all','VÅ¡e'],['singles','Dvouhra'],['doubles','ÄtyÅhra']].forEach(function(f){var on=activeFormat===f[0];h+='<button data-fmt="'+f[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+f[1]+'</button>';});
     h+='</div>';
-    h+='<div style="margin-left:auto;"><button data-sort="1" style="padding:3px 10px;border-radius:10px;border:1px solid '+(activeSort==='time'?'#00C853':'rgba(255,255,255,.15)')+';background:'+(activeSort==='time'?'rgba(0,200,83,.15)':'transparent')+';color:'+(activeSort==='time'?'#00C853':'rgba(255,255,255,.4)')+';font-size:9px;cursor:pointer;">⏱ Čas</button> <button data-sort="0" style="padding:3px 10px;border-radius:10px;border:1px solid '+(activeSort==='tournament'?'#00C853':'rgba(255,255,255,.15)')+';background:'+(activeSort==='tournament'?'rgba(0,200,83,.15)':'transparent')+';color:'+(activeSort==='tournament'?'#00C853':'rgba(255,255,255,.4)')+';font-size:9px;cursor:pointer;">🏆 Turnaj</button></div>';
+    h+='<div style="margin-left:auto;"><button data-sort="1" style="padding:3px 10px;border-radius:10px;border:1px solid '+(activeSort==='time'?'#00C853':'rgba(255,255,255,.15)')+';background:'+(activeSort==='time'?'rgba(0,200,83,.15)':'transparent')+';color:'+(activeSort==='time'?'#00C853':'rgba(255,255,255,.4)')+';font-size:9px;cursor:pointer;">â± Äas</button> <button data-sort="0" style="padding:3px 10px;border-radius:10px;border:1px solid '+(activeSort==='tournament'?'#00C853':'rgba(255,255,255,.15)')+';background:'+(activeSort==='tournament'?'rgba(0,200,83,.15)':'transparent')+';color:'+(activeSort==='tournament'?'#00C853':'rgba(255,255,255,.4)')+';font-size:9px;cursor:pointer;">ð Turnaj</button></div>';
     h+='</div>';
-    if(!shown.length){h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy</div>';}
+    if(!shown.length){h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">Å½Ã¡dnÃ© zÃ¡pasy</div>';}
     else{
             h+='<div style="height:18px;position:relative;">'+((_betanoUrl)?"<div style=\"position:absolute;left:463px;bottom:0;width:48px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,90,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">BETANO</span></div>":"")+((_kbUrl)?"<div style=\"position:absolute;left:520px;bottom:0;width:56px;\"><img src=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 14' width='52' height='14'><rect width='52' height='14' rx='2' fill='%23006837'/><polygon points='4,11 8,4 12,11' fill='%23FFD700'/><polygon points='8,4 12,11 16,4 12,7' fill='%23FFD700'/><text x='19' y='10.5' font-family='Arial,sans-serif' font-size='7' font-weight='900' fill='%23FFD700' letter-spacing='0.5'>KINGS</text></svg>\" width=\"56\" height=\"14\" style=\"display:block;border-radius:2px 2px 0 0;\"/></div>":"")+"<div style=\"position:absolute;left:580px;bottom:0;width:56px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,200,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;color:#333;\">FORTUNA</span></div>"+"<div style=\"position:absolute;left:640px;bottom:0;width:56px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(0,100,200,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">MERKUR</span></div>"+"<div style=\"position:absolute;left:700px;bottom:0;width:60px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(220,20,60,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">SAZKABET</span></div>"+"<div style=\"position:absolute;left:765px;bottom:0;width:52px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#e6edf3;background:rgba(255,140,0,.85);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">SYNOT</span></div>"+"<div style=\"position:absolute;left:830px;bottom:0;width:52px;text-align:center;\"><span style=\"font-size:9px;font-weight:800;letter-spacing:.8px;color:#fff;background:rgba(220,0,0,.9);border-radius:3px 3px 0 0;padding:2px 5px;line-height:1.2;white-space:nowrap;display:inline-block;\">CHANCE</span></div>"+'</div>';
       if(activeSort==='time'){
@@ -2172,8 +2172,8 @@ function renderMatches(data){
           h+='<button onclick="var f=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27);var id=\x27'+m.id+'\x27;var i=f.indexOf(id);if(i>-1)f.splice(i,1);else f.push(id);localStorage.setItem(\x27ts_favs\x27,JSON.stringify(f));var on=f.indexOf(id)>-1;this.style.color=on?\x27#FFD700\x27:\x27rgba(255,255,255,0.3)\x27;var svg=this.querySelector(\x27svg\x27);if(svg){svg.style.fill=on?\x27currentColor\x27:\x27none\x27;}var _fb=document.querySelector(\x27#ts-host\x27)?document.querySelector(\x27#ts-host\x27).shadowRoot.querySelector(\x27[data-day=\\x27fav\\x27]\x27):null;if(_fb){var _fc=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27).length;var _fs=_fb.querySelector(\x27span\x27);if(_fc>0){if(!_fs){_fs=document.createElement(\x27span\x27);_fs.style.cssText=\x27font-size:10px;background:rgba(255,215,0,.25);border-radius:8px;padding:1px 6px;\x27;_fb.appendChild(_fs);}}_fs&&(_fs.textContent=_fc||\x27\x27);}event.stopPropagation()" style="background:none;border:none;cursor:pointer;padding:0 5px;flex-shrink:0;color:rgba(255,255,255,0.3);align-self:stretch;display:flex;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" style="display:block;fill:none;stroke:currentColor;stroke-width:2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></button>';
           h+='<div style="flex:1;min-width:0;">';
           h+='<div style="font-size:9px;color:'+ti.c+';margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.8;">'+m.tournament+'</div>';
-          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:700;color:'+(w1?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
-          h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:700;color:'+(w2?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:700;color:'+(w1?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">ð¾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:700;color:'+(w2?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">ð¾</span>':'')+'</div>';
           h+='</div>';
           h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
           if(m.isFin){var _sc1t=0,_sc2t=0;for(var sit=0;sit<ns;sit++){var sv1t=parseInt((m.sets1||[])[sit]||0),sv2t=parseInt((m.sets2||[])[sit]||0);if(sv1t>sv2t)_sc1t++;else if(sv2t>sv1t)_sc2t++;}if(_sc1t>0||_sc2t>0){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-right:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1t+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2t+'</span></div>';}}
@@ -2199,7 +2199,7 @@ function renderMatches(data){
       tOrd.forEach(function(t){
         var sample=byT[t][0];
         var ti=tInfo(t);
-        var flag=FLAGS[sample.tournament_country||'']||'';if(!flag){var _m=t.match(/\(([^)]+)\)/);if(_m){var _cn={'Spain':'🇪🇸','USA':'🇺🇸','Japan':'🇯🇵','France':'🇫🇷','Italy':'🇮🇹','Germany':'🇩🇪','Australia':'🇦🇺','Argentina':'🇦🇷','Canada':'🇨🇦','Brazil':'🇧🇷','Netherlands':'🇳🇱','Switzerland':'🇨🇭','Romania':'🇷🇴','Poland':'🇵🇱','Czech Republic':'🇨🇿','Austria':'🇦🇹','Greece':'🇬🇷','Belgium':'🇧🇪','Sweden':'🇸🇪','Norway':'🇳🇴','Denmark':'🇩🇰','Serbia':'🇷🇸','Croatia':'🇭🇷','Hungary':'🇭🇺','Portugal':'🇵🇹','Colombia':'🇨🇴','Chile':'🇨🇱','Mexico':'🇲🇽','Morocco':'🇲🇦','Turkey':'🇹🇷','China':'🇨🇳','India':'🇮🇳','South Korea':'🇰🇷','Ecuador':'🇪🇨','Peru':'🇵🇪','Uruguay':'🇺🇾','Paraguay':'🇵🇾','Bolivia':'🇧🇴','Guatemala':'🇬🇹','Kazakhstan':'🇰🇿','Tunisia':'🇹🇳','Egypt':'🇪🇬','South Africa':'🇿🇦','Kenya':'🇰🇪','Great Britain':'🇬🇧','United Kingdom':'🇬🇧','Ireland':'🇮🇪','Slovakia':'🇸🇰','Bulgaria':'🇧🇬','Finland':'🇫🇮','Estonia':'🇪🇪','Lithuania':'🇱🇹','Latvia':'🇱🇻','Slovenia':'🇸🇮'};var _k=_m[1].trim();flag=_cn[_k]||FLAGS[_k]||''}};
+        var flag=FLAGS[sample.tournament_country||'']||'';if(!flag){var _m=t.match(/\(([^)]+)\)/);if(_m){var _cn={'Spain':'ðªð¸','USA':'ðºð¸','Japan':'ð¯ðµ','France':'ð«ð·','Italy':'ð®ð¹','Germany':'ð©ðª','Australia':'ð¦ðº','Argentina':'ð¦ð·','Canada':'ð¨ð¦','Brazil':'ð§ð·','Netherlands':'ð³ð±','Switzerland':'ð¨ð­','Romania':'ð·ð´','Poland':'ðµð±','Czech Republic':'ð¨ð¿','Austria':'ð¦ð¹','Greece':'ð¬ð·','Belgium':'ð§ðª','Sweden':'ð¸ðª','Norway':'ð³ð´','Denmark':'ð©ð°','Serbia':'ð·ð¸','Croatia':'ð­ð·','Hungary':'ð­ðº','Portugal':'ðµð¹','Colombia':'ð¨ð´','Chile':'ð¨ð±','Mexico':'ð²ð½','Morocco':'ð²ð¦','Turkey':'ð¹ð·','China':'ð¨ð³','India':'ð®ð³','South Korea':'ð°ð·','Ecuador':'ðªð¨','Peru':'ðµðª','Uruguay':'ðºð¾','Paraguay':'ðµð¾','Bolivia':'ð§ð´','Guatemala':'ð¬ð¹','Kazakhstan':'ð°ð¿','Tunisia':'ð¹ð³','Egypt':'ðªð¬','South Africa':'ð¿ð¦','Kenya':'ð°ðª','Great Britain':'ð¬ð§','United Kingdom':'ð¬ð§','Ireland':'ð®ðª','Slovakia':'ð¸ð°','Bulgaria':'ð§ð¬','Finland':'ð«ð®','Estonia':'ðªðª','Lithuania':'ð±ð¹','Latvia':'ð±ð»','Slovenia':'ð¸ð®'};var _k=_m[1].trim();flag=_cn[_k]||FLAGS[_k]||''}};
         var surf=sample.tournament_surface||'';
         h+='<div style="display:flex;align-items:center;gap:8px;padding:7px 12px;margin-top:10px;background:rgba(255,255,255,.045);border-radius:8px;border-left:3px solid '+ti.c+';">';
         h+='<span style="font-size:15px;">'+flag+'</span>';
@@ -2217,8 +2217,8 @@ function renderMatches(data){
           h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#ff1100;">LIVE</span>':'<span style="font-size:13px;font-weight:300;color:'+('rgba(255,255,255,.35)')+';">'+(m.isFin?'Konec':timeStr(m.ts))+'</span>')+'</div>';
           h+='<button onclick="var f=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27);var id=\x27'+m.id+'\x27;var i=f.indexOf(id);if(i>-1)f.splice(i,1);else f.push(id);localStorage.setItem(\x27ts_favs\x27,JSON.stringify(f));var on=f.indexOf(id)>-1;this.style.color=on?\x27#FFD700\x27:\x27rgba(255,255,255,0.3)\x27;var svg=this.querySelector(\x27svg\x27);if(svg){svg.style.fill=on?\x27currentColor\x27:\x27none\x27;}var _fb=document.querySelector(\x27#ts-host\x27)?document.querySelector(\x27#ts-host\x27).shadowRoot.querySelector(\x27[data-day=\\x27fav\\x27]\x27):null;if(_fb){var _fc=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27).length;var _fs=_fb.querySelector(\x27span\x27);if(_fc>0){if(!_fs){_fs=document.createElement(\x27span\x27);_fs.style.cssText=\x27font-size:10px;background:rgba(255,215,0,.25);border-radius:8px;padding:1px 6px;\x27;_fb.appendChild(_fs);}}_fs&&(_fs.textContent=_fc||\x27\x27);}event.stopPropagation()" style="background:none;border:none;cursor:pointer;padding:0 5px;flex-shrink:0;color:rgba(255,255,255,0.3);align-self:stretch;display:flex;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" style="display:block;fill:none;stroke:currentColor;stroke-width:2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></button>';
           h+='<div style="flex:1;min-width:0;">';
-          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:700;color:'+(w1?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
-          h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:700;color:'+(w2?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">🎾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;margin-bottom:3px;"><span class="mc-plink" data-pname="'+m.p1+'" style="font-size:12px;font-weight:700;color:'+(w1?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p1.includes('/')?m.p1.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p1)+' '+m.p1)+'</span>'+(m.serving===1&&isLive?'<span style="font-size:10px;line-height:1;">ð¾</span>':'')+'</div>';
+          h+='<div style="display:flex;align-items:center;gap:4px;"><span class="mc-plink" data-pname="'+m.p2+'" style="font-size:12px;font-weight:700;color:'+(w2?'#FFD700':'#e6edf3')+';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px;cursor:pointer;">'+(m.p2.includes('/')?m.p2.split('/').map(function(n){return _pf(n.trim())+' '+n.trim();}).join(' / '):_pf(m.p2)+' '+m.p2)+'</span>'+(m.serving===2&&isLive?'<span style="font-size:10px;line-height:1;">ð¾</span>':'')+'</div>';
           h+='</div>';
           if(m.isFin){var _sc1t=0,_sc2t=0;for(var sit=0;sit<ns;sit++){var sv1t=parseInt((m.sets1||[])[sit]||0),sv2t=parseInt((m.sets2||[])[sit]||0);if(sv1t>sv2t)_sc1t++;else if(sv2t>sv1t)_sc2t++;}if(_sc1t>0||_sc2t>0){h+='<div style="display:flex;flex-direction:column;gap:1px;margin-right:4px;"><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc1t+'</span><span style="font-size:15px;font-weight:700;color:#fff;line-height:1.3;">'+_sc2t+'</span></div>';}}
           h+='<div style="display:flex;gap:2px;align-items:center;flex-shrink:0;">';
@@ -2228,7 +2228,7 @@ function renderMatches(data){
             var v1=(m.sets1||[])[si]||'0',v2=(m.sets2||[])[si]||'0';
             if(isLive&&!isSetDone(v1,v2))continue;
             var b1=parseInt(v1)>parseInt(v2),b2v=parseInt(v2)>parseInt(v1);
-            // Dokonceny set — maly, sedy, bez pozadi
+            // Dokonceny set â maly, sedy, bez pozadi
             h+='<div style="text-align:center;min-width:14px;padding:1px 2px;opacity:0.55;">';
             h+='<div style="font-size:15px;line-height:1.3;font-weight:'+(b1?700:400)+';color:'+(b1?'#ccc':'rgba(255,255,255,.35)')+';">'+v1+'</div>';
             h+='<div style="font-size:15px;line-height:1.3;font-weight:'+(b2v?700:400)+';color:'+(b2v?'#ccc':'rgba(255,255,255,.35)')+';">'+v2+'</div>';
@@ -2303,7 +2303,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     if(_fetching)return;
     _fetching=true;
     try{
-      // Načti zápasy a Chance data paralelně
+      // NaÄti zÃ¡pasy a Chance data paralelnÄ
       var data=await loadData();
       _lastUpdated=data.updated||new Date().toISOString();
       _lastData=data;
@@ -2312,10 +2312,10 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       renderMatches(data);
     }catch(e){
       if(_lastData){renderMatches(_lastData);}
-      else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⚠️ '+e.message+'</div>';}
+      else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">â ï¸ '+e.message+'</div>';}
     }finally{_fetching=false;}
   }
-  function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
+  function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">â³ NaÄÃ­tÃ¡m...</div>';tick();}
   wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);};
   wrap.renderOdds=function(){if(wrap._lastData){renderMatches(wrap._lastData);}else if(_lastData){renderMatches(_lastData);}};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
@@ -2333,69 +2333,69 @@ function buildUI(){
   const w=document.createElement('div');w.id='w';sh.appendChild(w);
   function el(tag,id,cls,html){const e=document.createElement(tag);if(id)e.id=id;if(cls)e.className=cls;if(html)e.innerHTML=html;return e;}
 
-  // ── SIDEBAR ──
+  // ââ SIDEBAR ââ
   const sidebar=el('div','sidebar');
   sidebar.innerHTML=`
     <div id="sb-logo">
-      <div id="sb-logo-icon">🎾</div>
+      <div id="sb-logo-icon">ð¾</div>
       <div id="sb-logo-text">Tennis<span>Scout</span></div>
       <div id="sb-badge">v${VERSION}</div>
     </div>
     <nav id="sb-nav">
-      <div class="nav-section">Přehled</div>
+      <div class="nav-section">PÅehled</div>
       <div class="nav-item active" data-view="home" id="nav-home">
-        <span class="nav-icon">⊞</span> Rozcestník
+        <span class="nav-icon">â</span> RozcestnÃ­k
       </div>
       <div class="nav-section">Moduly</div>
       <div class="nav-item" data-view="tournaments" id="nav-tournaments">
-        <span class="nav-icon">🏆</span> Turnaje
+        <span class="nav-icon">ð</span> Turnaje
         <span class="nav-badge" id="nav-count">795</span>
       </div>
-      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">🎾</span> Zápasy</div><div class="nav-item" data-view="matches_backup" id="nav-matches-backup"><span class="nav-icon">🔒</span> Záp. záloha
+      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">ð¾</span> ZÃ¡pasy</div><div class="nav-item" data-view="matches_backup" id="nav-matches-backup"><span class="nav-icon">ð</span> ZÃ¡p. zÃ¡loha
         <span class="nav-badge" id="nav-matches-count"></span>
       </div><div class="nav-item" data-view="players" id="nav-players">
-        <span class="nav-icon">👤</span> Hráči ATP
+        <span class="nav-icon">ð¤</span> HrÃ¡Äi ATP
         <span class="nav-badge" id="nav-players-count">1454</span>
       </div>
       <div class="nav-item disabled">
-        <span class="nav-icon">📊</span> Kurzy
+        <span class="nav-icon">ð</span> Kurzy
         <span class="nav-soon">brzy</span>
       </div>
       <div class="nav-item disabled">
-        <span class="nav-icon">⚡</span> Live zápasy
+        <span class="nav-icon">â¡</span> Live zÃ¡pasy
         <span class="nav-soon">brzy</span>
       </div>
       <div class="nav-item disabled">
-        <span class="nav-icon">📈</span> Statistiky
+        <span class="nav-icon">ð</span> Statistiky
         <span class="nav-soon">brzy</span>
       </div>
     </nav>
     <div id="sb-footer">
-      <button id="sb-reload">↻ Reload dat</button>
-      <button id="sb-close">✕ Zavřít</button>
+      <button id="sb-reload">â» Reload dat</button>
+      <button id="sb-close">â ZavÅÃ­t</button>
       <div id="ta-progress"></div>
-      <button id="sb-ta-import">⬇ Import Tennis Abstract</button>
+      <button id="sb-ta-import">â¬ Import Tennis Abstract</button>
       <div id="fs-progress"></div>
-      <button id="sb-fs-import">⬇ Import Flashscore (rok)</button>
+      <button id="sb-fs-import">â¬ Import Flashscore (rok)</button>
     </div>
   `;
   w.appendChild(sidebar);
 
-  // ── MAIN PANEL ──
+  // ââ MAIN PANEL ââ
   const main=el('div','main');
 
   // TOP BAR
   const topbar=el('div','topbar');
   topbar.innerHTML=`
-    <div id="topbar-title">Rozcestník</div>
+    <div id="topbar-title">RozcestnÃ­k</div>
     <div id="topbar-sub">Tennis Scout</div>
     <div id="topbar-stats">
       <div class="ts-stat">
-        <div class="ts-stat-val" id="nt">–</div>
-        <div class="ts-stat-lbl">Turnajů</div>
+        <div class="ts-stat-val" id="nt">â</div>
+        <div class="ts-stat-lbl">TurnajÅ¯</div>
       </div>
       <div class="ts-stat">
-        <div class="ts-stat-val green" id="ns">–</div>
+        <div class="ts-stat-val green" id="ns">â</div>
         <div class="ts-stat-lbl">Zobrazeno</div>
       </div>
     </div>
@@ -2407,15 +2407,15 @@ function buildUI(){
   filterbar.style.display='none';
   const fr1=el('div',null,'fr');
   fr1.innerHTML=`<span class="fl">Okruh</span>`;
-  [['ALL','Vše',true],['ATP','ATP'],['WTA','WTA'],['CHALL','Challenger'],['ITF','ITF']].forEach(([c,t,on])=>{
+  [['ALL','VÅ¡e',true],['ATP','ATP'],['WTA','WTA'],['CHALL','Challenger'],['ITF','ITF']].forEach(([c,t,on])=>{
     const b=el('button',null,'fb'+(on?' on':''));b.dataset.c=c;b.textContent=t;fr1.appendChild(b);
   });
-  const srch=el('input','srch');srch.placeholder='🔍  Hledat...';fr1.appendChild(srch);
+  const srch=el('input','srch');srch.placeholder='ð  Hledat...';fr1.appendChild(srch);
   filterbar.appendChild(fr1);
   const fr2=el('div',null,'fr');
   fr2.style.paddingBottom='10px';
   fr2.innerHTML=`<span class="fl">Povrch</span>`;
-  [['Všechny',true],['Tvrdý'],['Antuka'],['Tráva'],['Krytý']].forEach(([s,on])=>{
+  [['VÅ¡echny',true],['TvrdÃ½'],['Antuka'],['TrÃ¡va'],['KrytÃ½']].forEach(([s,on])=>{
     const b=el('button',null,'sb'+(on?' on':''));b.dataset.s=s;b.textContent=s;fr2.appendChild(b);
   });
   filterbar.appendChild(fr2);
@@ -2432,18 +2432,18 @@ function buildUI(){
   // ITF status
   const itfs=el('div','itfs');
   const itfb=el('div','itfb');itfb.style.width='0';itfs.appendChild(itfb);
-  const itft=el('div','itft');itft.textContent='Načítám ITF data...';itfs.appendChild(itft);
+  const itft=el('div','itft');itft.textContent='NaÄÃ­tÃ¡m ITF data...';itfs.appendChild(itft);
   body.appendChild(itfs);
   // Loader
   const load=el('div','load');
   load.style.display='none';
-  load.innerHTML=`<div class="spin"></div><div id="prog">ATP/WTA/Challenger: načteno ✓ – čekám na ITF API...</div>`;
+  load.innerHTML=`<div class="spin"></div><div id="prog">ATP/WTA/Challenger: naÄteno â â ÄekÃ¡m na ITF API...</div>`;
   body.appendChild(load);
   main.appendChild(body);
 
   w.appendChild(main);
 
-  // ── HOME VIEW ──
+  // ââ HOME VIEW ââ
   const homeView=el('div','home-view');
   homeView.innerHTML=`
     <div id="home-greeting">V\u00EDtej, <span>Scoute</span> \uD83D\uDC4B</div>
@@ -2511,7 +2511,7 @@ function buildUI(){
   var _mwEl=buildMatchesTab(sh);if(_mwEl){var _mainBody=sh.getElementById('body')||body;_mainBody.appendChild(_mwEl);}
   var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
 
-  // ── NAVIGACE ──
+  // ââ NAVIGACE ââ
   function goView(view){
     // Close player page if open
     var _pp=sh.getElementById('player-page');
@@ -2523,7 +2523,7 @@ function buildUI(){
     sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
     sh.getElementById('nav-'+view)?.classList.add('active');
     // Topbar title
-    const titles={home:'Rozcestník',tournaments:'Turnaje 2026',players:'Hráči ATP'};
+    const titles={home:'RozcestnÃ­k',tournaments:'Turnaje 2026',players:'HrÃ¡Äi ATP'};
     sh.getElementById('topbar-title').textContent=titles[view]||view;
     // Visibility
     homeView.style.display=view==='home'?'block':'none';
@@ -2531,7 +2531,7 @@ function buildUI(){
     filterbar.style.flexDirection='column';
     mnav.style.display=view==='tournaments'?'flex':'none';
     _pw.style.display=view==='players'?'block':'none';
-    // Turnaje - vyčisti/zobraz
+    // Turnaje - vyÄisti/zobraz
     const mgs=sh.querySelectorAll('.mg');
     mgs.forEach(m=>m.style.display=view==='tournaments'?'':'none');
     if(view==='players'&&_pw.render)_pw.render();
@@ -2617,10 +2617,10 @@ function buildUI(){
           .catch(function(){return fetch('https://corsproxy.io/?url='+encodeURIComponent(_taUrl));})
           .then(function(r){return r.ok?r.text():null;})
           .then(function(html){
-            if(!html){er++;window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): no html');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;dn++;setTimeout(function(){nx(i+1);},1000);return;}
+            if(!html){er++;window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): no html');prog.innerHTML=window._tsProgress=dn+'/'+tot+' â'+im+' â­'+sk+' â'+er+' â â '+p.full_name;dn++;setTimeout(function(){nx(i+1);},1000);return;}
             var tm=html.match(/<title>Tennis Abstract: ([^<]+)/);
             if(!tm||tm[1].indexOf('Player Search')>=0){sk++;dn++;setTimeout(function(){nx(i+1);},500);return;}
-            var _mmx=null;try{var _ms=html.indexOf('var matchmx = [[');if(_ms>=0){var _af=html.slice(_ms+14),_em=_af.match(/\n\s+\];\n/);if(_em){var _ei=_af.indexOf(_em[0])+_em[0].length,_rw=_af.slice(0,_ei).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw)();}}}catch(e){console.error('matchmx parse',e.message);}
+            var _mmx=null;try{var _ms=html.indexOf('var matchmx = [[');if(_ms>=0){var _af=html.slice(_ms+14);var _em=_af.match(/\n\s+\];\n/)||_af.match(/\];\s*\n/);if(_em){var _ei=_af.indexOf(_em[0])+_em[0].length,_rw=_af.slice(0,_ei).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw)();}else{var _ei2=_af.lastIndexOf(']];');if(_ei2>=0){var _rw2=_af.slice(0,_ei2+2).trim().replace(/^matchmx = /,'');_mmx=Function('"use strict";return '+_rw2)();}}}}catch(e){console.error('matchmx parse',e.message);}
             var ms=null;if(_mmx&&_mmx.length>=5){ms=_mmx.map(function(mx){
               var dt=mx[0]||'',ds=dt.length===8?dt.slice(0,4)+'-'+dt.slice(4,6)+'-'+dt.slice(6,8):dt;
               var pts=parseInt(mx[23])||0,firsts=parseInt(mx[24])||0,fwon=parseInt(mx[25])||0,swon=parseInt(mx[26])||0;
@@ -2647,7 +2647,7 @@ function buildUI(){
                 odds:''
               };
             });}
-            var _noVa=!_hasGoodData;if(!ms||ms.length<5||(ms.length<=cn&&!_noVa)){sk++;dn++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er;setTimeout(function(){nx(i+1);},500);return;}
+            var _noVa=!_hasGoodData;if(!ms||ms.length<1){sk++;dn++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' â'+im+' â­'+sk+' â'+er;setTimeout(function(){nx(i+1);},500);return;}
             var out={player_id:p.id,gs_id:(cd&&cd.gs_id)||'',player_name:p.full_name,source:'tennisabstract',updated:new Date().toISOString(),matches:ms};
             var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out,null,2)),bn='';
             for(var bi=0;bi<eb.length;bi++)bn+=String.fromCharCode(eb[bi]);
@@ -2655,9 +2655,9 @@ function buildUI(){
             if(cr&&cr.sha)bd.sha=cr.sha;
             return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',
               {method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(bd)})
-            .then(function(pr){if(pr.ok){im++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → '+p.full_name+' ('+ms.length+')';}else{pr.json().then(function(e){console.error('GH PUT failed: '+p.full_name+' ('+p.id+')');window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): PUT failed');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;});er++;}dn++;setTimeout(function(){nx(i+1);},2000);});
+            .then(function(pr){if(pr.ok){im++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' â'+im+' â­'+sk+' â'+er+' â '+p.full_name+' ('+ms.length+')';}else{pr.json().then(function(e){console.error('GH PUT failed: '+p.full_name+' ('+p.id+')');window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): PUT failed');prog.innerHTML=window._tsProgress=dn+'/'+tot+' â'+im+' â­'+sk+' â'+er+' â â '+p.full_name;});er++;}dn++;setTimeout(function(){nx(i+1);},2000);});
           });
-          }).catch(function(e){window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): network error');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;er++;dn++;setTimeout(function(){nx(i+1);},500);});
+          }).catch(function(e){window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): network error');prog.innerHTML=window._tsProgress=dn+'/'+tot+' â'+im+' â­'+sk+' â'+er+' â â '+p.full_name;er++;dn++;setTimeout(function(){nx(i+1);},500);});
       }
       window._importFailed=[];nx(0);
     });
@@ -2672,14 +2672,14 @@ function buildUI(){
       var GH=localStorage.getItem('ts_gh_token');
       if(!GH){GH=prompt('Zadej GitHub token:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
       self.disabled=true;prog.style.display='block';
-      prog.innerHTML='Načítám zápasy z Flashscore...';
+      prog.innerHTML='NaÄÃ­tÃ¡m zÃ¡pasy z Flashscore...';
 
       var PROXY='https://tennis-proxy.vavra-radovan.workers.dev/';
       var START=-365,END=-2;
       var pidCache={},histCache={};
       var added=0,days=0,errs=0;
 
-      // Name → ATP ID lookup
+      // Name â ATP ID lookup
       var nameToId={};
       var lastToPlayers={};
       (window.ATP_PLAYERS||[]).forEach(function(p){
@@ -2755,12 +2755,12 @@ function buildUI(){
           .catch(function(){errs++;});
       }
 
-      // Sekvenčně procházej dny
+      // SekvenÄnÄ prochÃ¡zej dny
       var currentDay=START;
       function nextDay(){
         if(currentDay>END){
-          // Ulož vše na GitHub
-          prog.innerHTML='Ukládám '+Object.keys(histCache).length+' hráčů na GitHub...';
+          // UloÅ¾ vÅ¡e na GitHub
+          prog.innerHTML='UklÃ¡dÃ¡m '+Object.keys(histCache).length+' hrÃ¡ÄÅ¯ na GitHub...';
           var pids=Object.keys(histCache);
           var saved=0,saveErr=0;
           var today=new Date().toISOString().slice(0,10);
@@ -2768,7 +2768,7 @@ function buildUI(){
           function saveNext(i){
             if(i>=pids.length){
               self.disabled=false;
-              prog.innerHTML='✅ Hotovo! '+added+' zápasů přidáno za '+days+' dní. Uloženo: '+saved+' hráčů.';
+              prog.innerHTML='â Hotovo! '+added+' zÃ¡pasÅ¯ pÅidÃ¡no za '+days+' dnÃ­. UloÅ¾eno: '+saved+' hrÃ¡ÄÅ¯.';
               return;
             }
             var pid=pids[i];
@@ -2778,7 +2778,7 @@ function buildUI(){
             hist.total=hist.matches.length;
             hist.updated=today;
             var content=btoa(unescape(encodeURIComponent(JSON.stringify(hist))));
-            // Získej SHA
+            // ZÃ­skej SHA
             fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+pid+'.json',{
               headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}
             }).then(function(r){return r.ok?r.json():null;})
@@ -2792,14 +2792,14 @@ function buildUI(){
               });
             }).then(function(r){
               if(r&&r.ok)saved++;else saveErr++;
-              prog.innerHTML='Ukládám... '+saved+'/'+(i+1)+' hráčů';
+              prog.innerHTML='UklÃ¡dÃ¡m... '+saved+'/'+(i+1)+' hrÃ¡ÄÅ¯';
               setTimeout(function(){saveNext(i+1);},300);
             }).catch(function(){saveErr++;setTimeout(function(){saveNext(i+1);},300);});
           }
           saveNext(0);
           return;
         }
-        prog.innerHTML='Den '+currentDay+'/'+END+' | přidáno: '+added;
+        prog.innerHTML='Den '+currentDay+'/'+END+' | pÅidÃ¡no: '+added;
         processDay(currentDay).then(function(){
           currentDay++;
           setTimeout(nextDay,100);
@@ -2810,21 +2810,21 @@ function buildUI(){
   })();
 
 
-  // Players toggle pro zpětnou kompatibilitu
+  // Players toggle pro zpÄtnou kompatibilitu
   var _bp=sh.getElementById('nav-players');
   if(_bp){_bp.onclick=function(){goView('players');};}
 
   return{host,sh,body,mnav,goView};
 }
 
-// ── RENDER ────────────────────────────────────────────────────
+// ââ RENDER ââââââââââââââââââââââââââââââââââââââââââââââââââââ
 function setupRender({sh,body,mnav}){
-  let aC='ALL',aS='Všechny',sq='',exId=null;
+  let aC='ALL',aS='VÅ¡echny',sq='',exId=null;
 
   function filtered(){
     return(window._tsData||[]).filter(t=>{
       if(aC!=='ALL'&&t.cat!==aC)return false;
-      if(aS!=='Všechny'&&t.surf!==aS)return false;
+      if(aS!=='VÅ¡echny'&&t.surf!==aS)return false;
       if(sq){const s=sq.toLowerCase();if(!t.name.toLowerCase().includes(s)&&!(t.loc||'').toLowerCase().includes(s)&&!(t.country||'').toLowerCase().includes(s))return false;}
       return true;
     });
@@ -2845,20 +2845,20 @@ function setupRender({sh,body,mnav}){
       mnav.appendChild(b);
     });
 
-    if(!ts.length){[...body.children].forEach(el=>{if(el.id!=='pw'&&el.id!=='home-view')el.remove()});const e=document.createElement('div');e.style.cssText='text-align:center;padding:60px;color:#5a6070;';e.textContent='Žádné turnaje.';body.appendChild(e);return;}
+    if(!ts.length){[...body.children].forEach(el=>{if(el.id!=='pw'&&el.id!=='home-view')el.remove()});const e=document.createElement('div');e.style.cssText='text-align:center;padding:60px;color:#5a6070;';e.textContent='Å½Ã¡dnÃ© turnaje.';body.appendChild(e);return;}
 
     let html='';
     Object.keys(byM).sort((a,b)=>+a-+b).forEach(m=>{
       const arr=byM[m];
-      html+=`<div class="mg" id="m${m}"><div class="mh"><div class="mn">${MCS[m]}</div><div class="mc">${arr.length} turnajů</div></div><table><thead><tr><th style="width:18px"></th><th>Turnaj</th><th>Datum</th><th>Povrch</th><th>Los</th></tr></thead><tbody>`;
+      html+=`<div class="mg" id="m${m}"><div class="mh"><div class="mn">${MCS[m]}</div><div class="mc">${arr.length} turnajÅ¯</div></div><table><thead><tr><th style="width:18px"></th><th>Turnaj</th><th>Datum</th><th>Povrch</th><th>Los</th></tr></thead><tbody>`;
       arr.forEach((t,i)=>{
         const uid=`${m}_${i}`,ex=exId===uid,live=isLive(t.start,t.end);
-        html+=`<tr class="r${ex?' ex':''}" data-uid="${uid}"><td><span class="cv">›</span></td><td><span class="ct c${t.cat}">${t.cat}</span><span class="tr ${tierCls(t.tier)}">${t.tier||'—'}</span><span class="nm">${live?'<span class="live"></span>':''}${t.name}</span><span class="lc">${t.loc}${t.country?' ('+t.country+')':''}</span></td><td class="dt">${fmtRange(t.start,t.end)}</td><td><span class="sp ${surfSp(t.surf)}">${t.surf}</span></td><td style="font-family:monospace;font-size:10px;color:#5a6070">${t.sgl>0?t.sgl:'—'}</td></tr>`;
+        html+=`<tr class="r${ex?' ex':''}" data-uid="${uid}"><td><span class="cv">âº</span></td><td><span class="ct c${t.cat}">${t.cat}</span><span class="tr ${tierCls(t.tier)}">${t.tier||'â'}</span><span class="nm">${live?'<span class="live"></span>':''}${t.name}</span><span class="lc">${t.loc}${t.country?' ('+t.country+')':''}</span></td><td class="dt">${fmtRange(t.start,t.end)}</td><td><span class="sp ${surfSp(t.surf)}">${t.surf}</span></td><td style="font-family:monospace;font-size:10px;color:#5a6070">${t.sgl>0?t.sgl:'â'}</td></tr>`;
         if(ex){
-          const altLabel=t.alt>0?`${t.alt} m n.m.${t.alt>1000?' 🔴':t.alt>500?' 🟡':''}`:t.cat==='ITF'?'—':'0 m';
-        const ioLabel=t.io==='I'?'🏠 Krytá hala':'☀️ Venkovní';
-        const winnersHtml=(t.winners&&t.winners.length>0&&t.winners[0]!=='—')?t.winners.slice(0,3).map((w,i)=>`<div style="font-size:9px;color:#5a6070;font-family:monospace">${2025-i}: <span style="color:#e8eaf0;font-weight:600">${w}</span></div>`).join(''):'<span style="color:#5a6070;font-size:10px">—</span>';
-        html+=`<tr class="xr"><td colspan="5"><div class="xc" style="grid-template-columns:1fr 1fr 1fr 1fr"><div><h4>Info</h4><div class="ig"><div><label>Okruh</label><span>${t.cat}</span></div><div><label>Tier</label><span>${t.tier||'—'}</span></div><div><label>Povrch</label><span>${t.surf}</span></div><div><label>Lokace</label><span>${ioLabel}</span></div><div><label>Los SGL</label><span>${t.sgl>0?t.sgl+' hr':'—'}</span></div><div><label>Los DBL</label><span>${t.dbl>0?t.dbl+' párů':'—'}</span></div></div></div><div><h4>Lokalita & výška</h4><div style="font-size:12px;color:#e8eaf0;font-weight:600;margin-bottom:4px">${t.name}</div><div style="font-size:10px;color:#5a6070">${t.loc}${t.country?' ('+t.country+')':''}</div><div style="font-size:10px;color:#c8f135;margin-top:6px;font-family:monospace;font-weight:600">${altLabel}</div><div style="font-size:9px;color:#5a6070;margin-top:2px;font-family:monospace">${t.start||'?'} → ${t.end||'?'}</div></div><div><h4>Prize money</h4><div style="font-size:16px;color:#c8f135;font-weight:700;font-family:monospace">${t.prize||'—'}</div><div style="font-size:9px;color:#5a6070;margin-top:2px">Vítěz singlu</div><div style="margin-top:8px;font-size:9px;color:#5a6070;text-transform:uppercase;letter-spacing:1px">Stav</div><div style="color:${live?'#f13570':'#5a6070'};font-size:${live?12:11}px;font-weight:${live?700:400};margin-top:2px">${live?'🔴 Probíhá':'Nadcházející'}</div></div><div><h4>Vítězové (2025–2023)</h4>${winnersHtml}</div></div></td></tr>`;
+          const altLabel=t.alt>0?`${t.alt} m n.m.${t.alt>1000?' ð´':t.alt>500?' ð¡':''}`:t.cat==='ITF'?'â':'0 m';
+        const ioLabel=t.io==='I'?'ð  KrytÃ¡ hala':'âï¸ VenkovnÃ­';
+        const winnersHtml=(t.winners&&t.winners.length>0&&t.winners[0]!=='â')?t.winners.slice(0,3).map((w,i)=>`<div style="font-size:9px;color:#5a6070;font-family:monospace">${2025-i}: <span style="color:#e8eaf0;font-weight:600">${w}</span></div>`).join(''):'<span style="color:#5a6070;font-size:10px">â</span>';
+        html+=`<tr class="xr"><td colspan="5"><div class="xc" style="grid-template-columns:1fr 1fr 1fr 1fr"><div><h4>Info</h4><div class="ig"><div><label>Okruh</label><span>${t.cat}</span></div><div><label>Tier</label><span>${t.tier||'â'}</span></div><div><label>Povrch</label><span>${t.surf}</span></div><div><label>Lokace</label><span>${ioLabel}</span></div><div><label>Los SGL</label><span>${t.sgl>0?t.sgl+' hr':'â'}</span></div><div><label>Los DBL</label><span>${t.dbl>0?t.dbl+' pÃ¡rÅ¯':'â'}</span></div></div></div><div><h4>Lokalita & vÃ½Å¡ka</h4><div style="font-size:12px;color:#e8eaf0;font-weight:600;margin-bottom:4px">${t.name}</div><div style="font-size:10px;color:#5a6070">${t.loc}${t.country?' ('+t.country+')':''}</div><div style="font-size:10px;color:#c8f135;margin-top:6px;font-family:monospace;font-weight:600">${altLabel}</div><div style="font-size:9px;color:#5a6070;margin-top:2px;font-family:monospace">${t.start||'?'} â ${t.end||'?'}</div></div><div><h4>Prize money</h4><div style="font-size:16px;color:#c8f135;font-weight:700;font-family:monospace">${t.prize||'â'}</div><div style="font-size:9px;color:#5a6070;margin-top:2px">VÃ­tÄz singlu</div><div style="margin-top:8px;font-size:9px;color:#5a6070;text-transform:uppercase;letter-spacing:1px">Stav</div><div style="color:${live?'#f13570':'#5a6070'};font-size:${live?12:11}px;font-weight:${live?700:400};margin-top:2px">${live?'ð´ ProbÃ­hÃ¡':'NadchÃ¡zejÃ­cÃ­'}</div></div><div><h4>VÃ­tÄzovÃ© (2025â2023)</h4>${winnersHtml}</div></div></td></tr>`;
         }
       });
       html+='</tbody></table></div>';
@@ -2878,7 +2878,7 @@ function setupRender({sh,body,mnav}){
     return render;
 }
 
-// ── MAIN ────────────────────────────────────────────────────
+// ââ MAIN ââââââââââââââââââââââââââââââââââââââââââââââââââââ
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
 
@@ -2891,7 +2891,7 @@ const{host,sh,body,mnav,goView}=buildUI();
   const _du=await new Promise(_r=>{const _fr=new FileReader();_fr.onload=()=>_r(_fr.result);_fr.readAsDataURL(_blob);});
   const _pi=sh.getElementById('player-photo');if(_pi)_pi.src=_du;
 }catch(_e){}})();
-// Přidej homeView do body
+// PÅidej homeView do body
 const _homeViewEl=sh.getElementById('home-view');
 if(_homeViewEl&&!_homeViewEl.parentElement)body.insertBefore(_homeViewEl,body.firstChild);
 const render=setupRender({sh,body,mnav});
@@ -2900,31 +2900,31 @@ const setP=t=>{const e=sh.getElementById('itft');if(e)e.textContent=t;};
 const addErr=m=>{const e=sh.getElementById('err');if(e){e.textContent=(e.textContent?e.textContent+' | ':'')+m;e.style.display='block';}};
 
 
-// 1. Statická data — okamžitě
+// 1. StatickÃ¡ data â okamÅ¾itÄ
 window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
 sh.getElementById('load')?.remove();
 sh.getElementById('itfs')?.remove();
 goView('home');
 render();
-(function _syncPl(){var _s=document.getElementById('ts-host')?.shadowRoot;if(!_s)return setTimeout(_syncPl,300);var _upd=function(){var c=(window.ATP_PLAYERS||[]).length;if(c>0){var n=_s.getElementById('nav-players-count');if(n)n.textContent=c;var d=_s.getElementById('hc-pl');if(d)d.textContent=c+' hráčů';}else setTimeout(_upd,300);};_upd();})();
-// .mg jsou nyní v DOM — skryj je, home view je aktivní
+(function _syncPl(){var _s=document.getElementById('ts-host')?.shadowRoot;if(!_s)return setTimeout(_syncPl,300);var _upd=function(){var c=(window.ATP_PLAYERS||[]).length;if(c>0){var n=_s.getElementById('nav-players-count');if(n)n.textContent=c;var d=_s.getElementById('hc-pl');if(d)d.textContent=c+' hrÃ¡ÄÅ¯';}else setTimeout(_upd,300);};_upd();})();
+// .mg jsou nynÃ­ v DOM â skryj je, home view je aktivnÃ­
 sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');
 // Update home counts
 const _hcT=sh.getElementById('hc-count-t');
-if(_hcT)_hcT.textContent=window._tsData.length+' turnájů';
+if(_hcT)_hcT.textContent=window._tsData.length+' turnÃ¡jÅ¯';
 const _ncEl=sh.getElementById('nav-count');
 if(_ncEl)_ncEl.textContent=window._tsData.length;
 const _mcEl=sh.getElementById('nav-matches-count');
 if(_mcEl){var _mc=((window._lastMatches||{}).matches||[]).length;if(_mc>0)_mcEl.textContent=_mc;}
 
-// 2. ITF + Players paralelně na pozadí
+// 2. ITF + Players paralelnÄ na pozadÃ­
 fetchPlayers(txt=>console.log('Players:',txt)).then(count=>{
-  console.log('✅ ATP hráči načteni:',count);
+  console.log('â ATP hrÃ¡Äi naÄteni:',count);
 }).catch(e=>console.warn('ATP players:',e.message));
 
 fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   window._tsData.push(...itfItems);
-  // PYidej Z�pasy panel  po settlenut� DOM
+  // PYidej Zï¿½pasy panel  po settlenutï¿½ DOM
   var _sh2=document.getElementById('ts-host')?.shadowRoot;
   setTimeout(function(){
     var _body2=_sh2?.getElementById('body');
@@ -2943,12 +2943,12 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
   }
   // Update counts
   const hcT=sh.getElementById('hc-count-t');
-  if(hcT)hcT.textContent=window._tsData.length+' turnájů';
+  if(hcT)hcT.textContent=window._tsData.length+' turnÃ¡jÅ¯';
   const ncEl=sh.getElementById('nav-count');
   if(ncEl)ncEl.textContent=window._tsData.length;
   const mcEl=sh.getElementById('nav-matches-count');
   if(mcEl){var mc=((window._lastMatches||{}).matches||[]).length;if(mc>0)mcEl.textContent=mc;}
-  console.log('🎾 Tennis Scout v'+VERSION+' — '+window._tsData.length+' turnájů');
+  console.log('ð¾ Tennis Scout v'+VERSION+' â '+window._tsData.length+' turnÃ¡jÅ¯');
 }).catch(e=>{addErr('ITF: '+e.message);});
 
 // === BETANO ODDS ===
@@ -2959,7 +2959,7 @@ var _bsUrl='https://betano-odds.vavra-radovan.workers.dev/scrape';var _runBetano
 function _normName(n){
   if(!n)return '';
   var p=n.trim().split(/[\s\-]+/);
-  // Odstraň poslední token pokud je iniciála nebo tečka
+  // OdstraÅ poslednÃ­ token pokud je iniciÃ¡la nebo teÄka
   while(p.length>1&&(p[p.length-1].length<=2||p[p.length-1].endsWith('.')))p.pop();
   var last=p[p.length-1];if(!last)return '';
   return last.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
@@ -2996,13 +2996,13 @@ function _betanoCol(p1, p2){
   if(odds&&prevOdds){
     var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
     var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
-    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    // Pokud jen jeden se změnil, druhý dostane opačnou šipku
-    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    // Pokud jen jeden se zmÄnil, druhÃ½ dostane opaÄnou Å¡ipku
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
   }
   var s1=odds&&odds.s1, s2=odds&&odds.s2;
   var c1=s1?'rgba(255,255,255,.3)':(odds?'#e6edf3':'rgba(255,255,255,.2)');
@@ -3022,18 +3022,18 @@ var _chanceOdds=null;var _chanceBaseOdds=null;var _chanceUpdated='';
 function _normChance(n){
   if(!n)return '';
   var s=n.trim();
-  // Pro čtyřhry: vezmi první hráče před lomítkem
+  // Pro ÄtyÅhry: vezmi prvnÃ­ hrÃ¡Äe pÅed lomÃ­tkem
   if(s.indexOf('/')>=0)s=s.split('/')[0].trim();
-  // Odstraň iniciálu na konci: "Krawietz A." → "Krawietz"
+  // OdstraÅ iniciÃ¡lu na konci: "Krawietz A." â "Krawietz"
   s=s.replace(/\s+[A-Z]\.?\s*$/,'').trim();
-  // Odstraň iniciálu na začátku: "R. Cash" → "Cash"
+  // OdstraÅ iniciÃ¡lu na zaÄÃ¡tku: "R. Cash" â "Cash"
   s=s.replace(/^[A-Z]\.\s*/,'').trim();
-  // Vezmi první slovo
+  // Vezmi prvnÃ­ slovo
   var first=s.split(/[\s\-]+/)[0]||'';
   return first.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
 }
 function _normChance2(n){
-  // Vezmi druhého hráče z čtyřhry (za lomítkem)
+  // Vezmi druhÃ©ho hrÃ¡Äe z ÄtyÅhry (za lomÃ­tkem)
   if(!n)return '';
   var s=n.trim();
   if(s.indexOf('/')>=0)s=s.split('/')[1]||s.split('/')[0];
@@ -3055,9 +3055,9 @@ function _getChanceOdds(p1,p2,dataset){
   function _matchS(a,b){
     var ta=_allTokens(a),tb=_allTokens(b);
     if(!ta.length||!tb.length)return false;
-    // Přesná shoda prvního tokenu (funguje i pro krátká jména jako Li, Wu)
+    // PÅesnÃ¡ shoda prvnÃ­ho tokenu (funguje i pro krÃ¡tkÃ¡ jmÃ©na jako Li, Wu)
     if(ta[0]===tb[0])return true;
-    // Shoda libovolného tokenu (delší než 3 znaky pro prevenci false positive)
+    // Shoda libovolnÃ©ho tokenu (delÅ¡Ã­ neÅ¾ 3 znaky pro prevenci false positive)
     for(var i=0;i<ta.length;i++){
       if(ta[i].length>=2&&tb.indexOf(ta[i])>=0)return true;
     }
@@ -3095,7 +3095,7 @@ function _getChanceOdds(p1,p2,dataset){
     if(_pairKey(ev.p1)===key1)return{o1:ev.odds1,o2:ev.odds2};
     return{o1:ev.odds2,o2:ev.odds1};
   }
-  // Dvouhra — token intersection matching
+  // Dvouhra â token intersection matching
   var ev=_ds.events.find(function(e){
     return (_matchS(e.p1,p1)&&_matchS(e.p2,p2))||(_matchS(e.p1,p2)&&_matchS(e.p2,p1));
   });
@@ -3123,7 +3123,7 @@ var _runChance=function(){
 };
 _runChance();setInterval(_runChance,30000);
 
-function _chanceCol(p1,p2){var odds=_getChanceOdds(p1,p2);var prevOdds=_chanceBaseOdds?_getChanceOdds(p1,p2,_chanceBaseOdds):null;var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';var a1='',a2='';if(odds&&prevOdds){var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';}var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';return'<div style="position:absolute;left:830px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;"><div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div><div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div></div>';}
+function _chanceCol(p1,p2){var odds=_getChanceOdds(p1,p2);var prevOdds=_chanceBaseOdds?_getChanceOdds(p1,p2,_chanceBaseOdds):null;var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';var a1='',a2='';if(odds&&prevOdds){var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';}var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';return'<div style="position:absolute;left:830px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;"><div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div><div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div></div>';}
 
 
 // === KINGSBET ODDS ===
@@ -3134,7 +3134,7 @@ var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
 if(!_kbUrl)_kbUrl='https://betano-odds.vavra-radovan.workers.dev/kb-odds';
 var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
 var _runKb=function(){
-  // Nejdřív vynutí scrape, pak načti čerstvá data
+  // NejdÅÃ­v vynutÃ­ scrape, pak naÄti ÄerstvÃ¡ data
   fetch(_kbScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
     fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d)return;
@@ -3154,7 +3154,7 @@ var _normKbName=function(n){
   if(n.indexOf('/')>-1)return '';
   var ascii=function(s){
     return s.toLowerCase()
-      .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .replace(/Å¡/g,'sh').replace(/Ä/g,'ch').replace(/Å¾/g,'zh').replace(/Ä/g,'dj').replace(/Ä/g,'c')
       .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   };
   if(n.indexOf(',')>-1){
@@ -3169,7 +3169,7 @@ var _getKbOdds=function(p1,p2,dataset){
   var aliases={};try{var _a=localStorage.getItem('ts_kb_aliases');if(_a)aliases=JSON.parse(_a);}catch(e){}
   var ascii=function(s){
     return (s||'').toLowerCase()
-      .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .replace(/Å¡/g,'sh').replace(/Ä/g,'ch').replace(/Å¾/g,'zh').replace(/Ä/g,'dj').replace(/Ä/g,'c')
       .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   };
   var wordVars=function(w){
@@ -3203,7 +3203,7 @@ var _getKbOdds=function(p1,p2,dataset){
     name=name.trim();
     var words;
     if(name.indexOf(',')>-1){
-      // Přidej varianty ze VŠECH tokenů (před i za čárkou) — KB nemá konzistentní pořadí
+      // PÅidej varianty ze VÅ ECH tokenÅ¯ (pÅed i za ÄÃ¡rkou) â KB nemÃ¡ konzistentnÃ­ poÅadÃ­
       words=name.replace(/,/g,' ').replace(/\//g,' ').split(/\s+/);
     }else{
       words=name.replace(/\//g,' ').split(/\s+/);
@@ -3219,7 +3219,7 @@ var _getKbOdds=function(p1,p2,dataset){
     names.forEach(function(segment){
       segment=segment.trim();
       var parts=segment.split(/\s+/);
-      // Přidej varianty všech tokenů delších než 2 znaky (kromě iniciál jako "A.")
+      // PÅidej varianty vÅ¡ech tokenÅ¯ delÅ¡Ã­ch neÅ¾ 2 znaky (kromÄ iniciÃ¡l jako "A.")
       parts.forEach(function(part){
         if(part.length>2&&!part.endsWith('.')){
           result=result.concat(wordVars(part));
@@ -3252,12 +3252,12 @@ function _kbCol(p1,p2){
   if(odds&&prevOdds){
     var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
     var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
-    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
   }
   var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
@@ -3355,12 +3355,12 @@ function _fortunaCol(p1,p2){
   if(odds&&prevOdds){
     var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
     var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
-    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
   }
   var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
@@ -3371,7 +3371,7 @@ function _fortunaCol(p1,p2){
 }
 
 var _runFortuna=function(){
-  // Volej oba scrape endpointy paralelně
+  // Volej oba scrape endpointy paralelnÄ
   var s1=fetch(_fortunaScrapeUrl+'-1?t='+Date.now()).catch(function(){});
   var s2=fetch(_fortunaScrapeUrl+'-2?t='+Date.now()).catch(function(){});
   Promise.all([s1,s2]).finally(function(){
@@ -3399,7 +3399,7 @@ function _getKbOddsFrom(p1,p2,dataset,urlBase){
 function _getMerkurOdds(p1,p2,dataset){
   var ds=dataset||_merkurOdds;
   if(!ds||!ds.events)return null;
-  // Použij _getKbOdds s Merkur datastem
+  // PouÅ¾ij _getKbOdds s Merkur datastem
   var saved=_kbOdds;_kbOdds=ds;
   var result=_getKbOdds(p1,p2,ds);
   _kbOdds=saved;
@@ -3414,12 +3414,12 @@ function _merkurCol(p1,p2){
   if(odds&&prevOdds){
     var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
     var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
-    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
   }
   var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
@@ -3460,12 +3460,12 @@ function _allwynCol(p1,p2){
   if(odds&&prevOdds){
     var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
     var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
-    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
   }
   var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
@@ -3506,12 +3506,12 @@ function _synotCol(p1,p2){
   if(odds&&prevOdds){
     var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;
     var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;
-    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';
-    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
-    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
+    if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>';
+    if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
+    if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">â¼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">â²</span>';
   }
   var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
