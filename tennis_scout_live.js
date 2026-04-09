@@ -2343,27 +2343,28 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     wrap.querySelectorAll('[data-sort]').forEach(function(btn){btn.addEventListener('click',function(){activeSort=btn.dataset.sort==='1'?'time':'tournament';if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
-    wrap.querySelectorAll('[data-filter]').forEach(function(btn){btn.addEventListener('click',function(){
-          var fkey=btn.dataset.filter;
-          if(fkey==='all'||fkey==='live'||fkey==='finished'){
-            activeFilters=new Set([fkey]);
-          }else{
-            activeFilters.delete('all');activeFilters.delete('live');activeFilters.delete('finished');
-            if(activeFilters.has(fkey)){activeFilters.delete(fkey);}else{activeFilters.add(fkey);}
-            if(activeFilters.size===0)activeFilters=new Set(['all']);
-          }
-          activeFilter=Array.from(activeFilters)[0]||'all';
-          // Pokud je odds filtr aktivní, spočítej withOdds lazy
-          if(activeFilters.has('odds')&&!_cachedWithOdds){
-            _cachedWithOdds=(_lastData&&_lastData.matches?_lastData.matches:[]).filter(function(m){
-              var p1=m.p1||'',p2=m.p2||'';
-              if(!p1||!p2)return false;
-              return !!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2));
-            });
-          }
-          _applyFilter();
-          _refreshFilterBar(wrap);
-        });});
+    wrap.addEventListener('click',function(e){
+      var btn=e.target.closest('[data-filter]');
+      if(!btn)return;
+      var fkey=btn.dataset.filter;
+      if(fkey==='all'||fkey==='live'||fkey==='finished'){
+        activeFilters=new Set([fkey]);
+      }else{
+        activeFilters.delete('all');activeFilters.delete('live');activeFilters.delete('finished');
+        if(activeFilters.has(fkey)){activeFilters.delete(fkey);}else{activeFilters.add(fkey);}
+        if(activeFilters.size===0)activeFilters=new Set(['all']);
+      }
+      activeFilter=Array.from(activeFilters)[0]||'all';
+      if(activeFilters.has('odds')&&!_cachedWithOdds){
+        _cachedWithOdds=(_lastData&&_lastData.matches?_lastData.matches:[]).filter(function(m){
+          var p1=m.p1||'',p2=m.p2||'';
+          if(!p1||!p2)return false;
+          return !!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2));
+        });
+      }
+      _applyFilter();
+      _refreshFilterBar(wrap);
+    });
     wrap.querySelectorAll('.mrow').forEach(function(row){
       row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,.04)';});
       row.addEventListener('mouseout',function(){row.style.background='transparent';});
