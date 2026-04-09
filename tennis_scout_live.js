@@ -2319,6 +2319,7 @@ function renderMatches(data){
     }
     h+='</div>';
     wrap.innerHTML=h;
+  _applyFilter();
   // Rank range handler
   var rrEl=wrap.querySelector('#ps-rr');
   if(rrEl)rrEl.addEventListener('change',function(){pR=rrEl.value;pP=0;rP();});
@@ -2347,23 +2348,31 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       var btn=e.target.closest('[data-filter]');
       if(!btn)return;
       var fkey=btn.dataset.filter;
-      if(fkey==='all'||fkey==='live'||fkey==='finished'){
-        activeFilters=new Set([fkey]);
-      }else{
-        activeFilters.delete('all');activeFilters.delete('live');activeFilters.delete('finished');
-        if(activeFilters.has(fkey)){activeFilters.delete(fkey);}else{activeFilters.add(fkey);}
-        if(activeFilters.size===0)activeFilters=new Set(['all']);
-      }
-      activeFilter=Array.from(activeFilters)[0]||'all';
-      if(activeFilters.has('odds')&&!_cachedWithOdds){
-        _cachedWithOdds=(_lastData&&_lastData.matches?_lastData.matches:[]).filter(function(m){
-          var p1=m.p1||'',p2=m.p2||'';
-          if(!p1||!p2)return false;
-          return !!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2));
-        });
-      }
-      _applyFilter();
-      _refreshFilterBar(wrap);
+      // Získej aktuální mw - wrap může být starý po re-renderu
+      var _host=document.getElementById('ts-host');
+      var _mw=(_host&&_host.shadowRoot)?_host.shadowRoot.getElementById('mw'):wrap;
+      if(!_mw)return;
+      var rows=_mw.querySelectorAll('.mrow');
+      rows.forEach(function(r){
+        var st=r.dataset.status||'';
+        var ho=r.dataset.hasodds==='1';
+        var show;
+        if(fkey==='all')show=true;
+        else if(fkey==='live')show=st==='live';
+        else if(fkey==='finished')show=st==='finished';
+        else if(fkey==='scheduled')show=st==='scheduled';
+        else if(fkey==='odds')show=ho;
+        r.style.display=show?'':'none';
+      });
+      // Zvýrazni aktivní tlačítko
+      _mw.querySelectorAll('[data-filter]').forEach(function(b){
+        var on=b.dataset.filter===fkey;
+        var c=fkey==='live'?'#f85149':fkey==='scheduled'?'#38bdf8':fkey==='odds'?'#FFD700':'rgba(255,255,255,.8)';
+        b.style.borderColor=on?c:'rgba(255,255,255,.12)';
+        b.style.color=on?c:'rgba(255,255,255,.3)';
+        b.style.fontWeight=on?'700':'400';
+        b.style.background=on?'rgba(255,255,255,.08)':'transparent';
+      });
     });
     wrap.querySelectorAll('.mrow').forEach(function(row){
       row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,.04)';});
