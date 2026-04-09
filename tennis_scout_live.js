@@ -3097,6 +3097,7 @@ var _normKbName=function(n){
   var ascii=function(s){
     return s.toLowerCase()
       .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .replace(/ae/g,'a').replace(/oe/g,'o').replace(/ue/g,'u')
       .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   };
   if(n.indexOf(',')>-1){
@@ -3112,6 +3113,7 @@ var _getKbOdds=function(p1,p2,dataset){
   var ascii=function(s){
     return (s||'').toLowerCase()
       .replace(/š/g,'sh').replace(/č/g,'ch').replace(/ž/g,'zh').replace(/đ/g,'dj').replace(/ć/g,'c')
+      .replace(/ae/g,'a').replace(/oe/g,'o').replace(/ue/g,'u')
       .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   };
   var wordVars=function(w){
