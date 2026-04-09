@@ -2904,13 +2904,13 @@ function _normName(n){
   // Odstraň poslední token pokud je iniciála nebo tečka
   while(p.length>1&&(p[p.length-1].length<=2||p[p.length-1].endsWith('.')))p.pop();
   var last=p[p.length-1];if(!last)return '';
-  return last.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+  return last.toLowerCase().replace(/ae/g,'a').replace(/oe/g,'o').replace(/ue/g,'u').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
 }
 
 function _getBetanoOdds(p1,p2,dataset){
   var _ds=dataset||_betanoOdds;if(!_ds||!_ds.events)return null;
   var n1=_normName(p1),n2=_normName(p2);
-  function normAll(n){if(!n)return [];return n.trim().split(/[\s\-]+/).filter(function(w){return w.length>2&&!w.endsWith('.');}).map(function(w){return w.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');});}
+  function normAll(n){if(!n)return [];return n.trim().split(/[\s\-]+/).filter(function(w){return w.length>2&&!w.endsWith('.');}).map(function(w){return w.toLowerCase().replace(/ae/g,'a').replace(/oe/g,'o').replace(/ue/g,'u').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');});}
   var ev=_ds.events.find(function(e){
     var ep1=normAll(e.p1),ep2=normAll(e.p2);
     return (ep1.indexOf(n1)>=0&&ep2.indexOf(n2)>=0)||(ep1.indexOf(n2)>=0&&ep2.indexOf(n1)>=0);
