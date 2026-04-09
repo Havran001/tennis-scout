@@ -1629,6 +1629,7 @@ function _renderMatches(){
           h+='</div>';
           h+='</div>';
           sec.innerHTML=h;
+          _applyBestHighlights(sec);
           // Zavírací tlačítko
           var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){var _cPid=sh._cmtPid||pid;sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(_cPid);if(sh._pendingNotesReload){sh._pendingNotesReload=false;var _nt=sh.getElementById('pp-notes-section');var _mt=sh.getElementById('pp-matches-section');if(_nt)_nt.style.display='block';if(_mt)_mt.style.cssText='display:none;flex:1;padding:28px 32px;';var _tabs=sh.querySelectorAll('.pp-tab');_tabs&&_tabs.forEach(function(t){t.style.color=t.dataset.tab==='notes'?'#00C853':'rgba(255,255,255,0.4)';t.style.borderBottomColor=t.dataset.tab==='notes'?'#00C853':'transparent';});}};}
           // Sync fotky do hlavičky
@@ -2191,6 +2192,7 @@ function renderMatches(data){
       h+=_synotCol(m.p1,m.p2);
       h+=_chanceCol(m.p1,m.p2);
       h+=_bet365Col(m.p1,m.p2);
+          h+=_renderBestHighlight(m.p1,m.p2);
           h+='</div></div>';
         });
       } else {
@@ -2261,6 +2263,7 @@ function renderMatches(data){
       h+=_synotCol(m.p1,m.p2);
       h+=_chanceCol(m.p1,m.p2);
       h+=_bet365Col(m.p1,m.p2);
+          h+=_renderBestHighlight(m.p1,m.p2);
           h+='</div></div>';
         });
       });
@@ -2973,6 +2976,42 @@ function _loadBetanoOdds(){
     }).catch(function(){});
   });
 }
+
+// === BEST ODDS HIGHLIGHTING ===
+function _getBestOdds(p1,p2){
+  var sources=[
+    _getBetanoOdds(p1,p2),
+    _getBet365Odds(p1,p2),
+    _getChanceOdds(p1,p2),
+    _getKbOdds(p1,p2),
+    _getMerkurOdds(p1,p2),
+    _getSynotOdds(p1,p2),
+    _getSazkabetOdds(p1,p2),
+    _getFortunaOdds(p1,p2)
+  ];
+  var best1=0,best2=0;
+  sources.forEach(function(o){
+    if(!o)return;
+    if(o.o1&&o.o1>best1)best1=o.o1;
+    if(o.o2&&o.o2>best2)best2=o.o2;
+  });
+  return{best1:best1,best2:best2};
+}
+function _getSazkabetOdds(p1,p2){return _getKbOdds(p1,p2,'sazkabet');}
+function _getFortunaOdds(p1,p2){
+  // Fortuna odds getter
+  if(!window._fortunaOdds||!window._fortunaOdds.events)return null;
+  return _getBetanoOdds(p1,p2,window._fortunaOdds);
+}
+
+function _renderBestHighlight(p1,p2){
+  var b=_getBestOdds(p1,p2);
+  if(!b||(!b.best1&&!b.best2))return'';
+  // Vrátí hidden div s daty pro JS highlighting
+  return'<div class="best-odds-data" data-p1="'+p1.replace(/"/g,'').replace(/'/g,'')+'" data-p2="'+p2.replace(/"/g,'').replace(/'/g,'')+'" data-b1="'+b.best1+'" data-b2="'+b.best2+'" style="display:none;"></div>';
+}
+// === KONEC BEST ODDS ===
+
 function _betanoCol(p1, p2){
   var odds=_getBetanoOdds(p1,p2),prevOdds=_betanoBaseOdds?_getBetanoOdds(p1,p2,_betanoBaseOdds):null;
   if(!_betanoUrl)return '';
@@ -3529,5 +3568,36 @@ var _runSynot=function(){
 };
 _runSynot();setInterval(_runSynot,15000);
 // === KONEC SYNOT TIP ODDS ===
+
+
+// === BEST ODDS HIGHLIGHT APLIKACE ===
+function _applyBestHighlights(container){
+  setTimeout(function(){
+    try{
+      // Najdi všechny řádky s best-odds-data
+      var dataEls=(container||document).querySelectorAll('.best-odds-data');
+      dataEls.forEach(function(el){
+        var b1=parseFloat(el.getAttribute('data-b1')||0);
+        var b2=parseFloat(el.getAttribute('data-b2')||0);
+        var row=el.closest('[style*="position:relative"]');
+        if(!row)return;
+        // Najdi všechny kurzy v řádku - hledej elementy s font-weight:700
+        var oddsEls=row.querySelectorAll('[style*="font-weight:700"]');
+        oddsEls.forEach(function(oe){
+          var txt=oe.innerText.trim().replace('▲','').replace('▼','');
+          var v=parseFloat(txt);
+          if(!v||isNaN(v))return;
+          // Zkontroluj jestli je to best1 nebo best2
+          if(Math.abs(v-b1)<0.02||Math.abs(v-b2)<0.02){
+            oe.style.color='#FFD700';
+            oe.style.textShadow='0 0 8px rgba(255,215,0,0.5)';
+            oe.style.fontWeight='900';
+          }
+        });
+      });
+    }catch(e){}
+  },50);
+}
+// === KONEC BEST ODDS HIGHLIGHT ===
 
 })();
