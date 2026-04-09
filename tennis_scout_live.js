@@ -3624,15 +3624,7 @@ function _refreshFilterBar(wrap){
   });
 }
 
-function _getWrap(){
-  var w=document.getElementById('mw');
-  if(w)return w;
-  var divs=document.querySelectorAll('div');
-  for(var i=0;i<divs.length;i++){if(divs[i].shadowRoot){var sw=divs[i].shadowRoot.getElementById('mw');if(sw)return sw;}}
-  return null;
-}
 function _applyFilter(){
-  var wrap=_getWrap();
   if(!wrap)return;
   var rows=wrap.querySelectorAll('.mrow');
   var hasAll=activeFilters.has('all');
