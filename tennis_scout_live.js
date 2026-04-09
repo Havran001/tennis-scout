@@ -1961,9 +1961,25 @@ function buildMatchesTab(sh){
 
   async function loadFromFS(day){
     var days=Array.isArray(day)?day:[day];
+    // Cache klíč podle dnů
+    var cacheKey='ts_fs_cache_'+days.join('_');
+    var cacheTTL=30000; // 30 sekund
+    try{
+      var cached=sessionStorage.getItem(cacheKey);
+      if(cached){
+        var cp=JSON.parse(cached);
+        if(cp._ts&&Date.now()-cp._ts<cacheTTL){
+          console.log('[FS] Cache hit, věk:'+(Date.now()-cp._ts)+'ms');
+          delete cp._ts;
+          return Promise.resolve(cp);
+        }
+      }
+    }catch(e){}
     var results=await Promise.all(days.map(function(d){return fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+d+'&t='+Date.now()).then(function(r){return r.json();});}));
     var allMatches=[];results.forEach(function(d){(d.matches||[]).forEach(function(m){m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;allMatches.push(m);});});
-    return {matches:allMatches,updated:results[0].updated||'',src:'worker'};
+    var result={matches:allMatches,updated:results[0].updated||'',src:'worker'};
+    try{var toCache=Object.assign({_ts:Date.now()},result);sessionStorage.setItem(cacheKey,JSON.stringify(toCache));}catch(e){}
+    return result;
   }
   async function loadFromGitHub(){return loadFromFS(activeDay);}
   async function loadData(){
@@ -2350,6 +2366,9 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     if(_fetching)return;
     _fetching=true;
     try{
+      // Zobraz loading pokud sekce existuje
+      var _secEl=document.getElementById('ts-matches-sec');
+      if(_secEl&&!_lastData){_secEl.innerHTML='<div style="padding:30px;text-align:center;color:rgba(255,255,255,.4);font-size:13px;">⏳ Načítám zápasy...</div>';}
       // Načti zápasy a Chance data paralelně
       var data=await loadData();
       _lastUpdated=data.updated||new Date().toISOString();
