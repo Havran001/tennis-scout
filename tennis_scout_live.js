@@ -3125,7 +3125,7 @@ var _getKbOdds=function(p1,p2,dataset){
     if(w.indexOf('-')>-1){
       w.toLowerCase().split('-').forEach(function(part){
         var p=ascii(part);
-        if(p.length>2&&vars.indexOf(p)<0)vars.push(p);
+        if(p.length>=2&&vars.indexOf(p)<0)vars.push(p);
       });
     }
     var noOva=a.replace(/ova$/,'');
@@ -3153,7 +3153,7 @@ var _getKbOdds=function(p1,p2,dataset){
       words=name.replace(/\//g,' ').split(/\s+/);
     }
     var vars=[];
-    words.forEach(function(w){if(w.length>2&&!w.endsWith('.'))vars=vars.concat(wordVars(w));});
+    words.forEach(function(w){if(w.length>=2&&!w.endsWith('.'))vars=vars.concat(wordVars(w));});
     return vars;
   };
   var appVars=function(n){
@@ -3165,7 +3165,7 @@ var _getKbOdds=function(p1,p2,dataset){
       var parts=segment.split(/\s+/);
       // Přidej varianty všech tokenů delších než 2 znaky (kromě iniciál jako "A.")
       parts.forEach(function(part){
-        if(part.length>2&&!part.endsWith('.')){
+        if(part.length>=2&&!part.endsWith('.')){
           result=result.concat(wordVars(part));
         }
       });
