@@ -3013,7 +3013,10 @@ function _getChanceOdds(p1,p2,dataset){
       var clean=t.replace(/[\.\-]/g,'');
       return !(clean.length<=3&&(t.indexOf('.')>=0||clean.length===1));
     });
-    return tokens.join('').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
+    // Vezmi jen první token (příjmení) — ne celý řetězec
+    // "Bassols Ribera" → "bassols", "Lazaro Garcia" → "lazaro"
+    var first=tokens[0]||'';
+    return first.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   }
   function _splitPair(n){
     var idx=n.indexOf('/');
