@@ -2172,9 +2172,14 @@ function renderMatches(data){
     [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length],['odds','S kurzem 💰',withOdds.length]].forEach(function(f){
       var key=f[0];
       var isMulti=(key==='scheduled'||key==='odds');
-      var on=activeFilters.has(key)||(key==='all'&&activeFilters.has('all'));
+      var on=activeFilters.has(key);
       var btnColor=key==='live'?'#f85149':key==='scheduled'?'#38bdf8':key==='odds'?'#FFD700':'rgba(255,255,255,.8)';
-      h+='<button data-f="'+key+'" style="padding:3px 10px;border-radius:7px;border:1px solid '+(on?btnColor:'rgba(255,255,255,.12)')+';background:'+(on?'rgba(255,255,255,.08)':'transparent')+';color:'+(on?btnColor:'rgba(255,255,255,.3)')+';font-size:10px;font-weight:'+(on?700:400)+';cursor:pointer;'+(isMulti&&!activeFilters.has('all')?'box-shadow:'+(on?'0 0 6px '+btnColor+'44':'none')+';':'')+'">'+(on&&isMulti?'✓ ':'')+f[1]+(f[2]!==undefined?' ('+f[2]+')':'')+' '+(isMulti?'<span style="font-size:8px;opacity:.5">kombinácia</span>':'')+' </button>';
+      var borderColor=on?btnColor:'rgba(255,255,255,.12)';
+      var bg=on?(isMulti?'rgba(255,255,255,.1)':'rgba(255,255,255,.08)'):'transparent';
+      var color=on?btnColor:'rgba(255,255,255,.3)';
+      var fw=on?700:400;
+      var label=(on&&isMulti?'✓ ':'')+f[1]+(f[2]!==undefined?' ('+f[2]+')':'');
+      h+='<button data-filter="'+key+'" style="padding:3px 10px;border-radius:7px;border:1px solid '+borderColor+';background:'+bg+';color:'+color+';font-size:10px;font-weight:'+fw+';cursor:pointer;">'+label+'</button>';
     });
     h+='<div style="display:flex;gap:4px;padding:4px 0 0;flex-wrap:wrap;align-items:center;">';
     [['all','Vše'],['GS','Grand Slam'],['M1000','ATP 1000'],['ATP500','ATP 500'],['ATP250','ATP 250'],['WTA','WTA'],['CH','Challenger'],['ITF','ITF']].forEach(function(t){var on=activeTier===t[0];h+='<button data-tier="'+t[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+t[1]+'</button>';});
@@ -2295,6 +2300,7 @@ function renderMatches(data){
     }
     h+='</div>';
     wrap.innerHTML=h;
+    _applyBestHighlights(wrap);
   // Rank range handler
   var rrEl=wrap.querySelector('#ps-rr');
   if(rrEl)rrEl.addEventListener('change',function(){pR=rrEl.value;pP=0;rP();});
@@ -2319,7 +2325,19 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     wrap.querySelectorAll('[data-sort]').forEach(function(btn){btn.addEventListener('click',function(){activeSort=btn.dataset.sort==='1'?'time':'tournament';if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
-    wrap.querySelectorAll('[data-filter]').forEach(function(btn){btn.addEventListener('click',function(){activeFilter=btn.dataset.filter;if(_lastData)renderMatches(_lastData);});});
+    wrap.querySelectorAll('[data-filter]').forEach(function(btn){btn.addEventListener('click',function(){var fkey=btn.dataset.filter;
+          if(fkey==='all'||fkey==='live'||fkey==='finished'){
+            activeFilters=new Set([fkey]);
+            activeFilter=fkey;
+          }else{
+            // scheduled a odds jsou kombinovatelné
+            activeFilters.delete('all');activeFilters.delete('live');activeFilters.delete('finished');
+            if(activeFilters.has(fkey)){activeFilters.delete(fkey);}
+            else{activeFilters.add(fkey);}
+            if(activeFilters.size===0){activeFilters=new Set(['all']);activeFilter='all';}
+            else{activeFilter=Array.from(activeFilters).join(',');}
+          }
+          if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('.mrow').forEach(function(row){
       row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,.04)';});
       row.addEventListener('mouseout',function(){row.style.background='transparent';});
@@ -3598,29 +3616,37 @@ _runSynot();setInterval(_runSynot,15000);
 function _applyBestHighlights(container){
   setTimeout(function(){
     try{
-      // Najdi všechny řádky s best-odds-data
-      var dataEls=(container||document).querySelectorAll('.best-odds-data');
+      var c=container||document;
+      var dataEls=c.querySelectorAll('.best-odds-data');
       dataEls.forEach(function(el){
         var b1=parseFloat(el.getAttribute('data-b1')||0);
         var b2=parseFloat(el.getAttribute('data-b2')||0);
-        var row=el.closest('[style*="position:relative"]');
-        if(!row)return;
-        // Najdi všechny kurzy v řádku - hledej elementy s font-weight:700
-        var oddsEls=row.querySelectorAll('[style*="font-weight:700"]');
-        oddsEls.forEach(function(oe){
-          var txt=oe.innerText.trim().replace('▲','').replace('▼','');
+        if(!b1&&!b2)return;
+        // Najdi parent row - jde nahoru dokud nenajde position:relative div
+        var row=el.parentElement;
+        while(row&&row!==c){
+          if(row.style&&row.style.position==='relative')break;
+          row=row.parentElement;
+        }
+        if(!row||row===c)return;
+        // Projdi všechny divy v řádku a hledej čísla kurzů
+        var allDivs=row.querySelectorAll('div');
+        allDivs.forEach(function(d){
+          if(d.children.length>0)return; // jen leaf nodes
+          var txt=(d.innerText||d.textContent||'').trim();
+          // Odstraň šipky
+          txt=txt.replace(/[▲▼]/g,'').trim();
           var v=parseFloat(txt);
-          if(!v||isNaN(v))return;
-          // Zkontroluj jestli je to best1 nebo best2
-          if(Math.abs(v-b1)<0.02||Math.abs(v-b2)<0.02){
-            oe.style.color='#FFD700';
-            oe.style.textShadow='0 0 8px rgba(255,215,0,0.5)';
-            oe.style.fontWeight='900';
+          if(!v||isNaN(v)||v<1.01||v>50)return;
+          if((b1>0&&Math.abs(v-b1)<0.02)||(b2>0&&Math.abs(v-b2)<0.02)){
+            d.style.color='#FFD700';
+            d.style.textShadow='0 0 8px rgba(255,215,0,0.6)';
+            d.style.fontWeight='900';
           }
         });
       });
-    }catch(e){}
-  },50);
+    }catch(e){console.log('[Best]',e.message);}
+  },100);
 }
 // === KONEC BEST ODDS HIGHLIGHT ===
 
