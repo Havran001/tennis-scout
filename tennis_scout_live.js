@@ -2208,7 +2208,7 @@ function renderMatches(data){
         shown.forEach(function(m){
           var isLive=m.isLive;var ns=Math.max((m.sets1||[]).length,(m.sets2||[]).length);var _s1=(m.sets1||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets2||[])[i]||0)?1:0);},0),_s2=(m.sets2||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets1||[])[i]||0)?1:0);},0);var _hasSets=_s1>0||_s2>0;var w1=m.isFin&&(_hasSets?_s1>_s2:m.winner===1),w2=m.isFin&&(_hasSets?_s2>_s1:m.winner===2);
           var ti=tInfo(m.tournament||'');
-          var _mHasOdds=_hasAnyOdds(m)?'1':'0';
+          var _mHasOdds='0';
           var _mStatus=m.isLive?'live':m.isFin?'finished':m.isSch?'scheduled':'other';
           h+='<div class="mrow" data-url="'+m.url+'" data-status="'+_mStatus+'" data-hasodds="'+_mHasOdds+'" style="border-left:3px solid '+(isLive?'#ff1100':'transparent')+';background:'+(isLive?'rgba(255,17,0,.025)':'transparent')+';position:relative;padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
           h+='<div style="display:flex;align-items:center;gap:8px;">';
@@ -2258,7 +2258,7 @@ function renderMatches(data){
           var isLive=m.isLive;
           var ns=Math.max((m.sets1||[]).length,(m.sets2||[]).length);
           var _s1=(m.sets1||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets2||[])[i]||0)?1:0);},0),_s2=(m.sets2||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets1||[])[i]||0)?1:0);},0);var _hasSets=_s1>0||_s2>0;var w1=m.isFin&&(_hasSets?_s1>_s2:m.winner===1),w2=m.isFin&&(_hasSets?_s2>_s1:m.winner===2);
-          var _mHasOdds=_hasAnyOdds(m)?'1':'0';
+          var _mHasOdds='0';
           var _mStatus=m.isLive?'live':m.isFin?'finished':m.isSch?'scheduled':'other';
           h+='<div class="mrow" data-url="'+m.url+'" data-status="'+_mStatus+'" data-hasodds="'+_mHasOdds+'" style="border-left:3px solid '+(isLive?'#ff1100':'transparent')+';background:'+(isLive?'rgba(255,17,0,.025)':'transparent')+';position:relative;padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
           h+='<div style="display:flex;align-items:center;gap:8px;">';
@@ -2341,7 +2341,8 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     wrap.querySelectorAll('[data-sort]').forEach(function(btn){btn.addEventListener('click',function(){activeSort=btn.dataset.sort==='1'?'time':'tournament';if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
-    wrap.querySelectorAll('[data-filter]').forEach(function(btn){btn.addEventListener('click',function(){var fkey=btn.dataset.filter;
+    wrap.querySelectorAll('[data-filter]').forEach(function(btn){btn.addEventListener('click',function(){
+          var fkey=btn.dataset.filter;
           if(fkey==='all'||fkey==='live'||fkey==='finished'){
             activeFilters=new Set([fkey]);
           }else{
@@ -2351,17 +2352,8 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
           }
           activeFilter=Array.from(activeFilters)[0]||'all';
           _applyFilter();
-          // Aktualizuj zobrazení tlačítek bez re-renderu
-          wrap.querySelectorAll('[data-filter]').forEach(function(b){
-            var k=b.dataset.filter;
-            var on=activeFilters.has(k);
-            var btnColor=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
-            b.style.borderColor=on?btnColor:'rgba(255,255,255,.12)';
-            b.style.color=on?btnColor:'rgba(255,255,255,.3)';
-            b.style.fontWeight=on?'700':'400';
-            b.style.background=on?'rgba(255,255,255,.08)':'transparent';
-            b.textContent=(on&&(k==='scheduled'||k==='odds')?'✓ ':'')+b.textContent.replace('✓ ','');
-          });});});
+          _refreshFilterBar(wrap);
+        });});
     wrap.querySelectorAll('.mrow').forEach(function(row){
       row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,.04)';});
       row.addEventListener('mouseout',function(){row.style.background='transparent';});
@@ -3608,6 +3600,20 @@ function _hasAnyOdds(m){
   }catch(e){return false;}
 }
 
+
+function _refreshFilterBar(wrap){
+  if(!wrap)return;
+  wrap.querySelectorAll('[data-filter]').forEach(function(b){
+    var k=b.dataset.filter;
+    var on=activeFilters.has(k);
+    var c=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
+    b.style.borderColor=on?c:'rgba(255,255,255,.12)';
+    b.style.color=on?c:'rgba(255,255,255,.3)';
+    b.style.fontWeight=on?'700':'400';
+    b.style.background=on?'rgba(255,255,255,.08)':'transparent';
+  });
+}
+
 function _applyFilter(){
   var wrap=document.getElementById('mw');
   if(!wrap)return;
@@ -3621,17 +3627,43 @@ function _applyFilter(){
     var st=row.dataset.status||'';
     var ho=row.dataset.hasodds==='1';
     var show;
-    if(hasAll){show=true;}
-    else if(hasLive){show=st==='live';}
-    else if(hasFin){show=st==='finished';}
-    else{
-      var okSch=!hasSch||(st==='scheduled');
-      var okOdds=!hasOdds||ho;
-      show=okSch&&okOdds;
+    if(hasAll){
+      show=true;
+    }else if(hasLive&&!hasSch&&!hasOdds&&!hasFin){
+      show=st==='live';
+    }else if(hasFin&&!hasSch&&!hasOdds&&!hasLive){
+      show=st==='finished';
+    }else{
+      // Kombinovatelné filtry: scheduled a odds
+      show=true;
+      if(hasSch)show=show&&(st==='scheduled');
+      if(hasOdds)show=show&&ho;
     }
     row.style.display=show?'':'none';
   });
+  // Skryj prázdné turnajové headery
+  wrap.querySelectorAll('[data-tour]').forEach(function(g){
+    var vis=[...g.querySelectorAll('.mrow')].some(function(r){return r.style.display!=='none';});
+    g.style.display=vis?'':'none';
+  });
 }
+
+function _updateOddsFlags(){
+  var wrap=document.getElementById('mw');
+  if(!wrap)return;
+  // Najdi jména hráčů z každého řádku a zkontroluj kurzy
+  wrap.querySelectorAll('.mrow').forEach(function(row){
+    // Hledej text jmen - jsou v prvních divech řádku
+    var nameEls=row.querySelectorAll('[style*="font-size:13px"],[style*="font-size: 13px"]');
+    if(nameEls.length<2)return;
+    var p1=(nameEls[0]&&nameEls[0].innerText)||'';
+    var p2=(nameEls[1]&&nameEls[1].innerText)||'';
+    if(!p1||!p2)return;
+    var hasO=_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2)||_getKbOdds(p1,p2);
+    row.dataset.hasodds=hasO?'1':'0';
+  });
+}
+
 
 
 function _synotCol(p1,p2){
