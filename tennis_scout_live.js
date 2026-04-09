@@ -1888,7 +1888,7 @@ function buildMatchesTab(sh){
   var wrap=document.createElement('div');
   wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
   wrap.addEventListener('click',function(e){var t=e.target.closest('.mc-plink');if(t){e.stopPropagation();_openAtpPlayer(t.dataset.pname,sh);}});
-  var activeDay=[0],activeFilter='all',activeFilters=new Set(['all']),activeSort='tournament',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
+  var activeDay=[0],activeFilter='all',activeFilters=new Set(['all']),_cachedWithOdds=null,activeSort='tournament',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
   var isFS=location.hostname.includes('flashscore');
 
   var FLAGS={'USA':'🇺🇸','ESP':'🇪🇸','FRA':'🇫🇷','GER':'🇩🇪','ITA':'🇮🇹','GBR':'🇬🇧','AUS':'🇦🇺','ARG':'🇦🇷','JPN':'🇯🇵','CAN':'🇨🇦','BRA':'🇧🇷','NED':'🇳🇱','SUI':'🇨🇭','ROU':'🇷🇴','POL':'🇵🇱','CZE':'🇨🇿','AUT':'🇦🇹','GRE':'🇬🇷','BEL':'🇧🇪','SWE':'🇸🇪','NOR':'🇳🇴','DEN':'🇩🇰','SRB':'🇷🇸','KAZ':'🇰🇿','RUS':'🇷🇺','UKR':'🇺🇦','POR':'🇵🇹','CHI':'🇨🇱','MEX':'🇲🇽','RSA':'🇿🇦','IND':'🇮🇳','KOR':'🇰🇷','MAR':'🇲🇦','COL':'🇨🇴','CRO':'🇭🇷','GEO':'🇬🇪','QAT':'🇶🇦','UAE':'🇦🇪','CHN':'🇨🇳','SVK':'🇸🇰','UZB':'🇺🇿','MON':'🇲🇨','TUR':'🇹🇷','BUL':'🇧🇬','HUN':'🇭🇺','FIN':'🇫🇮','SLO':'🇸🇮','SVK':'🇸🇰','EST':'🇪🇪','LAT':'🇱🇻','LTU':'🇱🇹','NZL':'🇳🇿','AZE':'🇦🇿','ARM':'🇦🇲','GBR':'🇬🇧','MDA':'🇲🇩','BLR':'🇧🇾'};
@@ -2140,17 +2140,8 @@ function renderMatches(data){
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
     // withOdds - kontrola kurzů jen pro zápasy bez existujícího záznamu
-    var withOdds=all.filter(function(m){
-      var p1=m.p1||'',p2=m.p2||'';
-      if(!p1||!p2)return false;
-      // Rychlý check - jen data-hasodds atribut z DOM pokud existuje
-      var key=p1+'|'+p2;
-      if(window._oddsCache&&window._oddsCache[key]!==undefined)return window._oddsCache[key];
-      var has=!!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2));
-      if(!window._oddsCache)window._oddsCache={};
-      window._oddsCache[key]=has;
-      return has;
-    });
+    // withOdds - počítá se lazy jen když je potřeba
+    var withOdds=_cachedWithOdds||[];
     var shown;
     if(activeFilters.has('all')){shown=all;}
     else{
@@ -2362,6 +2353,14 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
             if(activeFilters.size===0)activeFilters=new Set(['all']);
           }
           activeFilter=Array.from(activeFilters)[0]||'all';
+          // Pokud je odds filtr aktivní, spočítej withOdds lazy
+          if(activeFilters.has('odds')&&!_cachedWithOdds){
+            _cachedWithOdds=(_lastData&&_lastData.matches?_lastData.matches:[]).filter(function(m){
+              var p1=m.p1||'',p2=m.p2||'';
+              if(!p1||!p2)return false;
+              return !!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2));
+            });
+          }
           _applyFilter();
           _refreshFilterBar(wrap);
         });});
@@ -2386,7 +2385,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       _lastData=data;
       window._lastData=data;
       wrap._lastData=data;
-      renderMatches(data);
+      _cachedWithOdds=null;renderMatches(data);
     }catch(e){
       if(_lastData){renderMatches(_lastData);}
       else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⚠️ '+e.message+'</div>';}
