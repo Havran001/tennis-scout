@@ -3009,12 +3009,13 @@ function _getChanceOdds(p1,p2,dataset){
     if(!n)return '';
     n=n.trim();
     n=n.replace(/^([A-Za-z]{1,3}\.)+\s*/,'');
+    // Normalizuj pomlčku na mezeru — "Cavalle-Reimers" → "Cavalle Reimers"
+    n=n.replace(/-/g,' ');
     var tokens=n.split(/\s+/).filter(function(t){
       var clean=t.replace(/[\.\-]/g,'');
       return !(clean.length<=3&&(t.indexOf('.')>=0||clean.length===1));
     });
-    // Vezmi jen první token (příjmení) — ne celý řetězec
-    // "Bassols Ribera" → "bassols", "Lazaro Garcia" → "lazaro"
+    // Vezmi jen první token (příjmení)
     var first=tokens[0]||'';
     return first.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');
   }
