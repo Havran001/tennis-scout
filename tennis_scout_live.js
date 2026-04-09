@@ -1263,41 +1263,7 @@ function _fmtOpp(name){
   return last+', '+first;
 }
 
-function _hasAnyOdds(m){
-  var p1=m.p1||m.home_team||'',p2=m.p2||m.away_team||'';
-  if(!p1||!p2)return false;
-  return !!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2)||_getKbOdds(p1,p2)||_getMerkurOdds(p1,p2)||_getSynotOdds(p1,p2));
-}
 
-function _applyFilter(){
-  var wrap=document.getElementById('mw');
-  if(!wrap)return;
-  var rows=wrap.querySelectorAll('.mrow');
-  var hasAll=activeFilters.has('all');
-  var hasSch=activeFilters.has('scheduled');
-  var hasOdds=activeFilters.has('odds');
-  var hasLive=activeFilters.has('live');
-  var hasFin=activeFilters.has('finished');
-  rows.forEach(function(row){
-    var st=row.dataset.status||'';
-    var ho=row.dataset.hasodds==='1';
-    var show;
-    if(hasAll){show=true;}
-    else if(hasLive){show=st==='live';}
-    else if(hasFin){show=st==='finished';}
-    else{
-      var okSch=!hasSch||(st==='scheduled');
-      var okOdds=!hasOdds||ho;
-      show=okSch&&okOdds;
-    }
-    row.style.display=show?'':'none';
-  });
-  // Skryj prázdné turnajové skupiny
-  wrap.querySelectorAll('.tour-group').forEach(function(g){
-    var visible=g.querySelectorAll('.mrow:not([style*="none"])');
-    g.style.display=visible.length?'':'none';
-  });
-}
 function _renderMatches(){
             var filtered=all.filter(function(m){
               if(!m.date)return false;
@@ -3634,6 +3600,39 @@ var _synotScrapeUrl='https://betano-odds.vavra-radovan.workers.dev/synot-scrape'
 function _getSynotOdds(p1,p2,dataset){
   return _getKbOdds(p1,p2,dataset||_synotOdds);
 }
+function _hasAnyOdds(m){
+  try{
+    var p1=m.p1||m.home_team||'',p2=m.p2||m.away_team||'';
+    if(!p1||!p2)return false;
+    return !!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2)||_getKbOdds(p1,p2)||_getMerkurOdds(p1,p2)||_getSynotOdds(p1,p2));
+  }catch(e){return false;}
+}
+
+function _applyFilter(){
+  var wrap=document.getElementById('mw');
+  if(!wrap)return;
+  var rows=wrap.querySelectorAll('.mrow');
+  var hasAll=activeFilters.has('all');
+  var hasSch=activeFilters.has('scheduled');
+  var hasOdds=activeFilters.has('odds');
+  var hasLive=activeFilters.has('live');
+  var hasFin=activeFilters.has('finished');
+  rows.forEach(function(row){
+    var st=row.dataset.status||'';
+    var ho=row.dataset.hasodds==='1';
+    var show;
+    if(hasAll){show=true;}
+    else if(hasLive){show=st==='live';}
+    else if(hasFin){show=st==='finished';}
+    else{
+      var okSch=!hasSch||(st==='scheduled');
+      var okOdds=!hasOdds||ho;
+      show=okSch&&okOdds;
+    }
+    row.style.display=show?'':'none';
+  });
+}
+
 
 function _synotCol(p1,p2){
   var odds=_getSynotOdds(p1,p2);
