@@ -3245,7 +3245,9 @@ function _fortunaSurnameD(n){
     var clean=t.replace(/[.\-]/g,'');
     return !(clean.length<=3&&(t.indexOf('.')>=0||clean.length===1));
   });
-  return tokens.join('').replace(/[^a-z]/g,'');
+  // Vezmi jen první token (příjmení) — "Bassols Ribera M." → "bassols"
+  var first=tokens[0]||'';
+  return first.replace(/[^a-z\-]/g,'').replace(/-/g,'');
 }
 function _fortunaNameMatch(a,b){
   var ta=_fortunaTokens(a),tb=_fortunaTokens(b);
