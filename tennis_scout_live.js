@@ -3613,8 +3613,10 @@ function _hasAnyOdds(m){
 
 
 function _refreshFilterBar(wrap){
-  if(!wrap)return;
-  wrap.querySelectorAll('[data-filter]').forEach(function(b){
+  var _rw=wrap||document.getElementById('mw');
+  if(!_rw){var d=document.querySelector('div');if(d&&d.shadowRoot)_rw=d.shadowRoot.getElementById('mw');}
+  if(!_rw)return;
+  _rw.querySelectorAll('[data-filter]').forEach(function(b){
     var k=b.dataset.filter;
     var on=activeFilters.has(k);
     var c=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
@@ -3626,8 +3628,11 @@ function _refreshFilterBar(wrap){
 }
 
 function _applyFilter(){
-  if(!wrap)return;
-  var rows=wrap.querySelectorAll('.mrow');
+  // Vždy hledej aktuální wrap - může být přepsán při renderMatches
+  var _w=document.getElementById('mw');
+  if(!_w){var d=document.querySelector('div');if(d&&d.shadowRoot)_w=d.shadowRoot.getElementById('mw');}
+  if(!_w)return;
+  var rows=_w.querySelectorAll('.mrow');
   var hasAll=activeFilters.has('all');
   var hasSch=activeFilters.has('scheduled');
   var hasOdds=activeFilters.has('odds');
@@ -3652,7 +3657,7 @@ function _applyFilter(){
     row.style.display=show?'':'none';
   });
   // Skryj prázdné turnajové headery
-  wrap.querySelectorAll('[data-tour]').forEach(function(g){
+  _w.querySelectorAll('[data-tour]').forEach(function(g){
     var vis=[...g.querySelectorAll('.mrow')].some(function(r){return r.style.display!=='none';});
     g.style.display=vis?'':'none';
   });
