@@ -1268,6 +1268,36 @@ function _hasAnyOdds(m){
   if(!p1||!p2)return false;
   return !!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2)||_getKbOdds(p1,p2)||_getMerkurOdds(p1,p2)||_getSynotOdds(p1,p2));
 }
+
+function _applyFilter(){
+  var wrap=document.getElementById('mw');
+  if(!wrap)return;
+  var rows=wrap.querySelectorAll('.mrow');
+  var hasAll=activeFilters.has('all');
+  var hasSch=activeFilters.has('scheduled');
+  var hasOdds=activeFilters.has('odds');
+  var hasLive=activeFilters.has('live');
+  var hasFin=activeFilters.has('finished');
+  rows.forEach(function(row){
+    var st=row.dataset.status||'';
+    var ho=row.dataset.hasodds==='1';
+    var show;
+    if(hasAll){show=true;}
+    else if(hasLive){show=st==='live';}
+    else if(hasFin){show=st==='finished';}
+    else{
+      var okSch=!hasSch||(st==='scheduled');
+      var okOdds=!hasOdds||ho;
+      show=okSch&&okOdds;
+    }
+    row.style.display=show?'':'none';
+  });
+  // Skryj prázdné turnajové skupiny
+  wrap.querySelectorAll('.tour-group').forEach(function(g){
+    var visible=g.querySelectorAll('.mrow:not([style*="none"])');
+    g.style.display=visible.length?'':'none';
+  });
+}
 function _renderMatches(){
             var filtered=all.filter(function(m){
               if(!m.date)return false;
@@ -2144,7 +2174,7 @@ function renderMatches(data){
     var live=all.filter(function(m){return m.isLive;});
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
-    var withOdds=all.filter(function(m){var o=_getBetanoOdds(m.p1,m.p2);return o&&(o.o1||o.o2);});
+    var withOdds=all.filter(function(m){return _hasAnyOdds(m);});
     var shown;
     if(activeFilters.has('all')){shown=all;}
     else{
@@ -2212,7 +2242,9 @@ function renderMatches(data){
         shown.forEach(function(m){
           var isLive=m.isLive;var ns=Math.max((m.sets1||[]).length,(m.sets2||[]).length);var _s1=(m.sets1||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets2||[])[i]||0)?1:0);},0),_s2=(m.sets2||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets1||[])[i]||0)?1:0);},0);var _hasSets=_s1>0||_s2>0;var w1=m.isFin&&(_hasSets?_s1>_s2:m.winner===1),w2=m.isFin&&(_hasSets?_s2>_s1:m.winner===2);
           var ti=tInfo(m.tournament||'');
-          h+='<div class="mrow" data-url="'+m.url+'" style="border-left:3px solid '+(isLive?'#ff1100':'transparent')+';background:'+(isLive?'rgba(255,17,0,.025)':'transparent')+';position:relative;padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
+          var _mHasOdds=_hasAnyOdds(m)?'1':'0';
+          var _mStatus=m.isLive?'live':m.isFin?'finished':m.isSch?'scheduled':'other';
+          h+='<div class="mrow" data-url="'+m.url+'" data-status="'+_mStatus+'" data-hasodds="'+_mHasOdds+'" style="border-left:3px solid '+(isLive?'#ff1100':'transparent')+';background:'+(isLive?'rgba(255,17,0,.025)':'transparent')+';position:relative;padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
           h+='<div style="display:flex;align-items:center;gap:8px;">';
           h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#ff1100;">LIVE</span>':'<span style="font-size:13px;font-weight:300;color:'+('rgba(255,255,255,.35)')+';">'+(m.isFin?'Konec':timeStr(m.ts))+'</span>')+'</div>';
           h+='<button onclick="var f=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27);var id=\x27'+m.id+'\x27;var i=f.indexOf(id);if(i>-1)f.splice(i,1);else f.push(id);localStorage.setItem(\x27ts_favs\x27,JSON.stringify(f));var on=f.indexOf(id)>-1;this.style.color=on?\x27#FFD700\x27:\x27rgba(255,255,255,0.3)\x27;var svg=this.querySelector(\x27svg\x27);if(svg){svg.style.fill=on?\x27currentColor\x27:\x27none\x27;}var _fb=document.querySelector(\x27#ts-host\x27)?document.querySelector(\x27#ts-host\x27).shadowRoot.querySelector(\x27[data-day=\\x27fav\\x27]\x27):null;if(_fb){var _fc=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27).length;var _fs=_fb.querySelector(\x27span\x27);if(_fc>0){if(!_fs){_fs=document.createElement(\x27span\x27);_fs.style.cssText=\x27font-size:10px;background:rgba(255,215,0,.25);border-radius:8px;padding:1px 6px;\x27;_fb.appendChild(_fs);}}_fs&&(_fs.textContent=_fc||\x27\x27);}event.stopPropagation()" style="background:none;border:none;cursor:pointer;padding:0 5px;flex-shrink:0;color:rgba(255,255,255,0.3);align-self:stretch;display:flex;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" style="display:block;fill:none;stroke:currentColor;stroke-width:2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></button>';
@@ -2260,7 +2292,9 @@ function renderMatches(data){
           var isLive=m.isLive;
           var ns=Math.max((m.sets1||[]).length,(m.sets2||[]).length);
           var _s1=(m.sets1||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets2||[])[i]||0)?1:0);},0),_s2=(m.sets2||[]).reduce(function(a,v,i){return a+(parseInt(v)>parseInt((m.sets1||[])[i]||0)?1:0);},0);var _hasSets=_s1>0||_s2>0;var w1=m.isFin&&(_hasSets?_s1>_s2:m.winner===1),w2=m.isFin&&(_hasSets?_s2>_s1:m.winner===2);
-          h+='<div class="mrow" data-url="'+m.url+'" style="border-left:3px solid '+(isLive?'#ff1100':'transparent')+';background:'+(isLive?'rgba(255,17,0,.025)':'transparent')+';position:relative;padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
+          var _mHasOdds=_hasAnyOdds(m)?'1':'0';
+          var _mStatus=m.isLive?'live':m.isFin?'finished':m.isSch?'scheduled':'other';
+          h+='<div class="mrow" data-url="'+m.url+'" data-status="'+_mStatus+'" data-hasodds="'+_mHasOdds+'" style="border-left:3px solid '+(isLive?'#ff1100':'transparent')+';background:'+(isLive?'rgba(255,17,0,.025)':'transparent')+';position:relative;padding:7px 0 7px 10px;cursor:pointer;transition:background .1s;">';
           h+='<div style="display:flex;align-items:center;gap:8px;">';
           h+='<div style="min-width:44px;text-align:center;flex-shrink:0;">'+(isLive?'<span style="font-size:9px;font-weight:800;color:#ff1100;">LIVE</span>':'<span style="font-size:13px;font-weight:300;color:'+('rgba(255,255,255,.35)')+';">'+(m.isFin?'Konec':timeStr(m.ts))+'</span>')+'</div>';
           h+='<button onclick="var f=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27);var id=\x27'+m.id+'\x27;var i=f.indexOf(id);if(i>-1)f.splice(i,1);else f.push(id);localStorage.setItem(\x27ts_favs\x27,JSON.stringify(f));var on=f.indexOf(id)>-1;this.style.color=on?\x27#FFD700\x27:\x27rgba(255,255,255,0.3)\x27;var svg=this.querySelector(\x27svg\x27);if(svg){svg.style.fill=on?\x27currentColor\x27:\x27none\x27;}var _fb=document.querySelector(\x27#ts-host\x27)?document.querySelector(\x27#ts-host\x27).shadowRoot.querySelector(\x27[data-day=\\x27fav\\x27]\x27):null;if(_fb){var _fc=JSON.parse(localStorage.getItem(\x27ts_favs\x27)||\x27[]\x27).length;var _fs=_fb.querySelector(\x27span\x27);if(_fc>0){if(!_fs){_fs=document.createElement(\x27span\x27);_fs.style.cssText=\x27font-size:10px;background:rgba(255,215,0,.25);border-radius:8px;padding:1px 6px;\x27;_fb.appendChild(_fs);}}_fs&&(_fs.textContent=_fc||\x27\x27);}event.stopPropagation()" style="background:none;border:none;cursor:pointer;padding:0 5px;flex-shrink:0;color:rgba(255,255,255,0.3);align-self:stretch;display:flex;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" style="display:block;fill:none;stroke:currentColor;stroke-width:2"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg></button>';
@@ -2344,16 +2378,24 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     wrap.querySelectorAll('[data-filter]').forEach(function(btn){btn.addEventListener('click',function(){var fkey=btn.dataset.filter;
           if(fkey==='all'||fkey==='live'||fkey==='finished'){
             activeFilters=new Set([fkey]);
-            activeFilter=fkey;
           }else{
-            // scheduled a odds jsou kombinovatelné
             activeFilters.delete('all');activeFilters.delete('live');activeFilters.delete('finished');
-            if(activeFilters.has(fkey)){activeFilters.delete(fkey);}
-            else{activeFilters.add(fkey);}
-            if(activeFilters.size===0){activeFilters=new Set(['all']);activeFilter='all';}
-            else{activeFilter=Array.from(activeFilters).join(',');}
+            if(activeFilters.has(fkey)){activeFilters.delete(fkey);}else{activeFilters.add(fkey);}
+            if(activeFilters.size===0)activeFilters=new Set(['all']);
           }
-          if(_lastData)renderMatches(_lastData);});});
+          activeFilter=Array.from(activeFilters)[0]||'all';
+          _applyFilter();
+          // Aktualizuj zobrazení tlačítek bez re-renderu
+          wrap.querySelectorAll('[data-filter]').forEach(function(b){
+            var k=b.dataset.filter;
+            var on=activeFilters.has(k);
+            var btnColor=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
+            b.style.borderColor=on?btnColor:'rgba(255,255,255,.12)';
+            b.style.color=on?btnColor:'rgba(255,255,255,.3)';
+            b.style.fontWeight=on?'700':'400';
+            b.style.background=on?'rgba(255,255,255,.08)':'transparent';
+            b.textContent=(on&&(k==='scheduled'||k==='odds')?'✓ ':'')+b.textContent.replace('✓ ','');
+          });});});
     wrap.querySelectorAll('.mrow').forEach(function(row){
       row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,.04)';});
       row.addEventListener('mouseout',function(){row.style.background='transparent';});
