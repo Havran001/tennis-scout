@@ -3614,7 +3614,7 @@ function _hasAnyOdds(m){
 
 function _refreshFilterBar(wrap){
   var _rw=wrap||document.getElementById('mw');
-  if(!_rw){var d=document.querySelector('div');if(d&&d.shadowRoot)_rw=d.shadowRoot.getElementById('mw');}
+  if(!_rw){var _host2=document.getElementById('ts-host');if(_host2&&_host2.shadowRoot)_rw=_host2.shadowRoot.getElementById('mw');}
   if(!_rw)return;
   _rw.querySelectorAll('[data-filter]').forEach(function(b){
     var k=b.dataset.filter;
@@ -3628,9 +3628,12 @@ function _refreshFilterBar(wrap){
 }
 
 function _applyFilter(){
-  // Vždy hledej aktuální wrap - může být přepsán při renderMatches
+  // Vždy hledej aktuální wrap přes ts-host shadow root
   var _w=document.getElementById('mw');
-  if(!_w){var d=document.querySelector('div');if(d&&d.shadowRoot)_w=d.shadowRoot.getElementById('mw');}
+  if(!_w){
+    var _host=document.getElementById('ts-host');
+    if(_host&&_host.shadowRoot)_w=_host.shadowRoot.getElementById('mw');
+  }
   if(!_w)return;
   var rows=_w.querySelectorAll('.mrow');
   var hasAll=activeFilters.has('all');
