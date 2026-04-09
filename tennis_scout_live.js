@@ -2894,7 +2894,7 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
 // === BETANO ODDS ===
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'https://betano-odds.vavra-radovan.workers.dev/odds';
 var _betanoOdds=null,_betanoUpdated=null;var _betanoBaseOdds=(function(){try{var s=localStorage.getItem('ts_betano_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
-var _bsUrl='https://betano-odds.vavra-radovan.workers.dev/scrape';var _runBetano=function(){_loadBetanoOdds();};_runBetano();setInterval(_runBetano,20000);
+var _bsUrl='https://betano-odds.vavra-radovan.workers.dev/scrape';var _runBetano=function(){_loadBetanoOdds();};_runBetano();setInterval(_runBetano,15000);
 
 function _normName(n){
   if(!n)return '';
@@ -3067,7 +3067,7 @@ var _runChance=function(){
     }
   }).catch(function(){});
 };
-_runChance();setInterval(_runChance,30000);
+_runChance();setInterval(_runChance,20000);
 
 function _chanceCol(p1,p2){var odds=_getChanceOdds(p1,p2);var prevOdds=_chanceBaseOdds?_getChanceOdds(p1,p2,_chanceBaseOdds):null;var o1=odds?Math.round(odds.o1*100)/100:'?',o2=odds?Math.round(odds.o2*100)/100:'?';var a1='',a2='';if(odds&&prevOdds){var d1=Math.round((odds.o1-prevOdds.o1)*100)/100;var d2=Math.round((odds.o2-prevOdds.o2)*100)/100;if(d1>0)a1='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(d1<0)a1='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(d2>0)a2='<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';else if(d2<0)a2='<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>';if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';}var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';return'<div style="position:absolute;left:830px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;"><div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div><div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div></div>';}
 
@@ -3091,7 +3091,7 @@ var _runKb=function(){
     });
   });
 };
-_runKb();setInterval(_runKb,20000);
+_runKb();setInterval(_runKb,15000);
 
 
 var _normKbName=function(n){
@@ -3336,7 +3336,7 @@ var _runFortuna=function(){
     }).catch(function(){});
   });
 };
-_runFortuna();setInterval(_runFortuna,20000);
+_runFortuna();setInterval(_runFortuna,15000);
 // === KONEC FORTUNA ODDS ===
 
 // === MERKUR ODDS ===
@@ -3392,7 +3392,7 @@ var _runMerkur=function(){
     }).catch(function(){});
   });
 };
-_runMerkur();setInterval(_runMerkur,20000);
+_runMerkur();setInterval(_runMerkur,15000);
 // === KONEC MERKUR ODDS ===
 
 // === ALLWYN (SAZKABET) ODDS ===
@@ -3438,7 +3438,7 @@ var _runAllwyn=function(){
     }).catch(function(){});
   });
 };
-_runAllwyn();setInterval(_runAllwyn,20000);
+_runAllwyn();setInterval(_runAllwyn,15000);
 // === KONEC ALLWYN ODDS ===
 
 // === SYNOT TIP ODDS ===
@@ -3484,7 +3484,7 @@ var _runSynot=function(){
     }).catch(function(){});
   });
 };
-_runSynot();setInterval(_runSynot,20000);
+_runSynot();setInterval(_runSynot,15000);
 // === KONEC SYNOT TIP ODDS ===
 
 })();
