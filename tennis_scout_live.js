@@ -2414,6 +2414,43 @@ function buildUI(){
   host.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:2147483647;';
   document.body.appendChild(host);
   const sh=host.attachShadow({mode:'open'});
+  // Filter observer - přežije re-rendery
+  var _activeFilterKey='all';
+  function _doApplyFilter(){
+    var _mw=sh.getElementById('mw');
+    if(!_mw)return;
+    _mw.querySelectorAll('.mrow').forEach(function(r){
+      var st=r.dataset.status||'';
+      var ho=r.dataset.hasodds==='1';
+      var show=_activeFilterKey==='all'||(
+        (_activeFilterKey==='live'&&st==='live')||
+        (_activeFilterKey==='finished'&&st==='finished')||
+        (_activeFilterKey==='scheduled'&&st==='scheduled')||
+        (_activeFilterKey==='odds'&&ho)
+      );
+      r.style.display=show?'':'none';
+    });
+  }
+  function _attachFilterObs(){
+    var _mw=sh.getElementById('mw');
+    if(!_mw||_mw._fo)return;
+    _mw._fo=true;
+    _mw.addEventListener('click',function(e){
+      var btn=e.target.closest('[data-filter]');
+      if(!btn)return;
+      _activeFilterKey=btn.dataset.filter;
+      _doApplyFilter();
+      _mw.querySelectorAll('[data-filter]').forEach(function(b){
+        var on=b.dataset.filter===_activeFilterKey;
+        var c=_activeFilterKey==='live'?'#f85149':_activeFilterKey==='scheduled'?'#38bdf8':_activeFilterKey==='odds'?'#FFD700':'rgba(255,255,255,.8)';
+        b.style.borderColor=on?c:'rgba(255,255,255,.12)';
+        b.style.color=on?c:'rgba(255,255,255,.3)';
+        b.style.fontWeight=on?'700':'400';
+        b.style.background=on?'rgba(255,255,255,.08)':'transparent';
+      });
+    });
+  }
+  new MutationObserver(function(){_attachFilterObs();_doApplyFilter();}).observe(sh,{childList:true,subtree:true});
   const style=document.createElement('style');style.textContent=CSS;sh.appendChild(style);
 
   const w=document.createElement('div');w.id='w';sh.appendChild(w);
