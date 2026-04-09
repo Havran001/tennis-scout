@@ -2139,13 +2139,28 @@ function renderMatches(data){
     var live=all.filter(function(m){return m.isLive;});
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
-    var withOdds=all.filter(function(m){return _hasAnyOdds(m);});
+    // withOdds - kontrola kurzů jen pro zápasy bez existujícího záznamu
+    var withOdds=all.filter(function(m){
+      var p1=m.p1||'',p2=m.p2||'';
+      if(!p1||!p2)return false;
+      // Rychlý check - jen data-hasodds atribut z DOM pokud existuje
+      var key=p1+'|'+p2;
+      if(window._oddsCache&&window._oddsCache[key]!==undefined)return window._oddsCache[key];
+      var has=!!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2));
+      if(!window._oddsCache)window._oddsCache={};
+      window._oddsCache[key]=has;
+      return has;
+    });
     var shown;
     if(activeFilters.has('all')){shown=all;}
     else{
       var base=all;
       if(activeFilters.has('scheduled')&&activeFilters.has('odds')){
-        shown=base.filter(function(m){return m.isSch&&_hasAnyOdds(m);});
+        shown=base.filter(function(m){
+        if(!m.isSch)return false;
+        var p1=m.p1||'',p2=m.p2||'';
+        return !!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2));
+      });
       }else if(activeFilters.has('scheduled')){
         shown=sch;
       }else if(activeFilters.has('odds')){
