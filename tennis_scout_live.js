@@ -3222,6 +3222,7 @@ function _fortunaTokens(n){
     .replace(/\u00e4/gi,'ae').replace(/\u00f6/gi,'oe').replace(/\u00fc/gi,'ue')
     .replace(/\u00c4/gi,'ae').replace(/\u00d6/gi,'oe').replace(/\u00dc/gi,'ue')
     .normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  n=n.replace(/ae/g,'a').replace(/oe/g,'o').replace(/ue/g,'u');
   n=n.replace(/^([a-z]{1,3}\.)+\s*/,'');
   n=n.replace(/(\s+[a-z]{1,3}\.)+\s*$/,'');
   return n.replace(/[^a-z \-]/g,'').trim().split(/[\s\-]+/).filter(function(t){return t.length>=2;});
@@ -3232,6 +3233,7 @@ function _fortunaSurnameD(n){
     .replace(/\u00e4/gi,'ae').replace(/\u00f6/gi,'oe').replace(/\u00fc/gi,'ue')
     .replace(/\u00c4/gi,'ae').replace(/\u00d6/gi,'oe').replace(/\u00dc/gi,'ue')
     .normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  n=n.replace(/ae/g,'a').replace(/oe/g,'o').replace(/ue/g,'u');
   n=n.replace(/^([a-z]{1,3}\.)+\s*/,'');
   var tokens=n.split(/\s+/).filter(function(t){
     var clean=t.replace(/[.\-]/g,'');
