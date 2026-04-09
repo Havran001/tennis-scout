@@ -1631,7 +1631,6 @@ function _renderMatches(){
           h+='</div>';
           h+='</div>';
           sec.innerHTML=h;
-          _applyBestHighlights(sec);
           // Zavírací tlačítko
           var _backBtn=sec.querySelector('#mh-f-back');if(_backBtn){_backBtn.onclick=function(){var _cPid=sh._cmtPid||pid;sec.style.cssText='display:none;flex:1;padding:28px 32px;';_tsRefreshNotes(_cPid);if(sh._pendingNotesReload){sh._pendingNotesReload=false;var _nt=sh.getElementById('pp-notes-section');var _mt=sh.getElementById('pp-matches-section');if(_nt)_nt.style.display='block';if(_mt)_mt.style.cssText='display:none;flex:1;padding:28px 32px;';var _tabs=sh.querySelectorAll('.pp-tab');_tabs&&_tabs.forEach(function(t){t.style.color=t.dataset.tab==='notes'?'#00C853':'rgba(255,255,255,0.4)';t.style.borderBottomColor=t.dataset.tab==='notes'?'#00C853':'transparent';});}};}
           // Sync fotky do hlavičky
@@ -2235,7 +2234,6 @@ function renderMatches(data){
       h+=_synotCol(m.p1,m.p2);
       h+=_chanceCol(m.p1,m.p2);
       h+=_bet365Col(m.p1,m.p2);
-          h+=_renderBestHighlight(m.p1,m.p2);
           h+='</div></div>';
         });
       } else {
@@ -2308,7 +2306,6 @@ function renderMatches(data){
       h+=_synotCol(m.p1,m.p2);
       h+=_chanceCol(m.p1,m.p2);
       h+=_bet365Col(m.p1,m.p2);
-          h+=_renderBestHighlight(m.p1,m.p2);
           h+='</div></div>';
         });
       });
@@ -2316,7 +2313,6 @@ function renderMatches(data){
     }
     h+='</div>';
     wrap.innerHTML=h;
-    _applyBestHighlights(wrap);
   // Rank range handler
   var rrEl=wrap.querySelector('#ps-rr');
   if(rrEl)rrEl.addEventListener('change',function(){pR=rrEl.value;pP=0;rP();});
