@@ -1262,6 +1262,12 @@ function _fmtOpp(name){
   var first=parts.slice(0,parts.length-1).join(' ');
   return last+', '+first;
 }
+
+function _hasAnyOdds(m){
+  var p1=m.p1||m.home_team||'',p2=m.p2||m.away_team||'';
+  if(!p1||!p2)return false;
+  return !!(_getBetanoOdds(p1,p2)||_getBet365Odds(p1,p2)||_getChanceOdds(p1,p2)||_getKbOdds(p1,p2)||_getMerkurOdds(p1,p2)||_getSynotOdds(p1,p2));
+}
 function _renderMatches(){
             var filtered=all.filter(function(m){
               if(!m.date)return false;
@@ -1887,7 +1893,7 @@ function buildMatchesTab(sh){
   var wrap=document.createElement('div');
   wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
   wrap.addEventListener('click',function(e){var t=e.target.closest('.mc-plink');if(t){e.stopPropagation();_openAtpPlayer(t.dataset.pname,sh);}});
-  var activeDay=[0],activeFilter='all',activeSort='tournament',activeTier='all',activeFormat='all',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
+  var activeDay=[0],activeFilter='all',activeFilters=new Set(['all']),activeSort='tournament',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
   var isFS=location.hostname.includes('flashscore');
 
   var FLAGS={'USA':'🇺🇸','ESP':'🇪🇸','FRA':'🇫🇷','GER':'🇩🇪','ITA':'🇮🇹','GBR':'🇬🇧','AUS':'🇦🇺','ARG':'🇦🇷','JPN':'🇯🇵','CAN':'🇨🇦','BRA':'🇧🇷','NED':'🇳🇱','SUI':'🇨🇭','ROU':'🇷🇴','POL':'🇵🇱','CZE':'🇨🇿','AUT':'🇦🇹','GRE':'🇬🇷','BEL':'🇧🇪','SWE':'🇸🇪','NOR':'🇳🇴','DEN':'🇩🇰','SRB':'🇷🇸','KAZ':'🇰🇿','RUS':'🇷🇺','UKR':'🇺🇦','POR':'🇵🇹','CHI':'🇨🇱','MEX':'🇲🇽','RSA':'🇿🇦','IND':'🇮🇳','KOR':'🇰🇷','MAR':'🇲🇦','COL':'🇨🇴','CRO':'🇭🇷','GEO':'🇬🇪','QAT':'🇶🇦','UAE':'🇦🇪','CHN':'🇨🇳','SVK':'🇸🇰','UZB':'🇺🇿','MON':'🇲🇨','TUR':'🇹🇷','BUL':'🇧🇬','HUN':'🇭🇺','FIN':'🇫🇮','SLO':'🇸🇮','SVK':'🇸🇰','EST':'🇪🇪','LAT':'🇱🇻','LTU':'🇱🇹','NZL':'🇳🇿','AZE':'🇦🇿','ARM':'🇦🇲','GBR':'🇬🇧','MDA':'🇲🇩','BLR':'🇧🇾'};
@@ -2123,7 +2129,22 @@ function renderMatches(data){
     var fin=all.filter(function(m){return m.isFin;});
     var sch=all.filter(function(m){return m.isSch;});
     var withOdds=all.filter(function(m){var o=_getBetanoOdds(m.p1,m.p2);return o&&(o.o1||o.o2);});
-    var shown=activeFilter==='live'?live:activeFilter==='finished'?fin:activeFilter==='scheduled'?sch:activeFilter==='odds'?withOdds:all;
+    var shown;
+    if(activeFilters.has('all')){shown=all;}
+    else{
+      var base=all;
+      if(activeFilters.has('scheduled')&&activeFilters.has('odds')){
+        shown=base.filter(function(m){return m.isSch&&_hasAnyOdds(m);});
+      }else if(activeFilters.has('scheduled')){
+        shown=sch;
+      }else if(activeFilters.has('odds')){
+        shown=withOdds;
+      }else if(activeFilters.has('live')){
+        shown=live;
+      }else if(activeFilters.has('finished')){
+        shown=fin;
+      }else{shown=all;}
+    }
     // Filter by tier
     if(activeTier!=='all'){shown=shown.filter(function(m){var ti=tInfo(m.tournament||'');var l=ti.l||'';if(activeTier==='GS')return l==='Grand Slam';if(activeTier==='M1000')return l==='ATP 1000'||l==='WTA 1000';if(activeTier==='ATP500')return l==='ATP 500'||l==='WTA 500';if(activeTier==='ATP250')return l==='ATP 250'||l==='WTA 250';if(activeTier==='WTA')return l.startsWith('WTA');if(activeTier==='CH')return l==='Challenger';if(activeTier==='ITF')return l==='ITF';return true;});}
     // Filter by format (singles/doubles)
@@ -2149,8 +2170,11 @@ function renderMatches(data){
     h+='</div></div>';
     h+='<div style="display:flex;gap:4px;padding:8px 0 6px;">';
     [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length],['odds','S kurzem 💰',withOdds.length]].forEach(function(f){
-      var on=activeFilter===f[0];
-      h+='<button data-filter="'+f[0]+'" style="padding:3px 9px;border-radius:10px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.35)')+';font-size:9px;cursor:pointer;font-weight:'+(on?700:400)+';">'+f[1]+' <span style="opacity:.6;">'+f[2]+'</span></button>';
+      var key=f[0];
+      var isMulti=(key==='scheduled'||key==='odds');
+      var on=activeFilters.has(key)||(key==='all'&&activeFilters.has('all'));
+      var btnColor=key==='live'?'#f85149':key==='scheduled'?'#38bdf8':key==='odds'?'#FFD700':'rgba(255,255,255,.8)';
+      h+='<button data-f="'+key+'" style="padding:3px 10px;border-radius:7px;border:1px solid '+(on?btnColor:'rgba(255,255,255,.12)')+';background:'+(on?'rgba(255,255,255,.08)':'transparent')+';color:'+(on?btnColor:'rgba(255,255,255,.3)')+';font-size:10px;font-weight:'+(on?700:400)+';cursor:pointer;'+(isMulti&&!activeFilters.has('all')?'box-shadow:'+(on?'0 0 6px '+btnColor+'44':'none')+';':'')+'">'+(on&&isMulti?'✓ ':'')+f[1]+(f[2]!==undefined?' ('+f[2]+')':'')+' '+(isMulti?'<span style="font-size:8px;opacity:.5">kombinácia</span>':'')+' </button>';
     });
     h+='<div style="display:flex;gap:4px;padding:4px 0 0;flex-wrap:wrap;align-items:center;">';
     [['all','Vše'],['GS','Grand Slam'],['M1000','ATP 1000'],['ATP500','ATP 500'],['ATP250','ATP 250'],['WTA','WTA'],['CH','Challenger'],['ITF','ITF']].forEach(function(t){var on=activeTier===t[0];h+='<button data-tier="'+t[0]+'" style="padding:2px 9px;border-radius:7px;border:1px solid '+(on?'#00C853':'rgba(255,255,255,.08)')+';background:'+(on?'rgba(0,200,83,.15)':'transparent')+';color:'+(on?'#00C853':'rgba(255,255,255,.3)')+';font-size:9px;font-weight:'+(on?700:400)+';cursor:pointer;">'+t[1]+'</button>';});
