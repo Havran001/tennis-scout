@@ -1178,25 +1178,7 @@ function buildPlayersTab(sh){
         .then(function(r){return r.ok?r.json():null;})
         .then(function(hist){
           // Also get live matches from _lastData
-          var liveMatches=[];
-          if(window._matchesData){
-            var days=window._matchesData.days||{};
-            [-1,0,1].forEach(function(d){
-              (days[d]||[]).forEach(function(m){
-                var p1=(m.p1||'').toLowerCase(),p2=(m.p2||'').toLowerCase();
-                var pn=(pname||'').toLowerCase().split(' ').pop();
-                if(p1.includes(pn)||p2.includes(pn)){
-                  var isW=(p1.includes(pn)&&(m.sets1||0)>(m.sets2||0))||(p2.includes(pn)&&(m.sets2||0)>(m.sets1||0));
-                  var opp=p1.includes(pn)?m.p2:m.p1;
-                  var score=(p1.includes(pn)?(m.sets1+'-'+m.sets2):(m.sets2+'-'+m.sets1));
-                  var d2=new Date();d2.setDate(d2.getDate()+d);
-                  var ds=d2.toISOString().slice(0,10).replace(/-/g,'');
-                  liveMatches.push({date:ds,tournament:m.tournament||'',surface:m.surface||'',level:'live',round:m.round||'',result:(m.status==='ended'?(isW?'W':'L'):'Live'),opponent:opp,score:score,best_of:'3',rank:'',opp_rank:''});
-                }
-              });
-            });
-          }
-          var all=(hist?hist.matches:[]).concat(liveMatches);
+          var all=(hist?hist.matches:[]);
           all.sort(function(a,b){return b.date.localeCompare(a.date);});
           if(all.length===0){
             sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy k dispozici</div>';
