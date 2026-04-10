@@ -3116,25 +3116,6 @@ function setupRender({sh,body,mnav}){
 // ── MAIN ────────────────────────────────────────────────────
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
-// Init H2H tab
-(function(){
-  var _h2body=sh.getElementById('body');
-  if(_h2body&&typeof buildH2HTab==='function'){
-    var _h2wEl=buildH2HTab(sh);
-    if(_h2wEl)_h2body.appendChild(_h2wEl);
-    var _navH2h=sh.getElementById('nav-h2h');
-    if(_navH2h)_navH2h.addEventListener('click',function(){
-      ['home-view','pw','mw'].forEach(function(id){var el=sh.getElementById(id);if(el)el.style.display='none';});
-      sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
-      sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
-      _navH2h.classList.add('active');
-      var tt=sh.getElementById('topbar-title');if(tt)tt.textContent='H2H Porovnání';
-      var mw=sh.getElementById('mw');if(mw){mw.style.display='none';if(mw.destroy)mw.destroy();}
-      _h2wEl.style.display='block';
-      if(_h2wEl.render)_h2wEl.render();
-    });
-  }
-})();
 
 // Djokovic photo from Wikipedia API
 (async()=>{try{
@@ -3159,6 +3140,23 @@ window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
 sh.getElementById('load')?.remove();
 sh.getElementById('itfs')?.remove();
 goView('home');
+// Init H2H
+(function initH2H(){
+  if(typeof buildH2HTab!=='function')return;
+  var _bd=sh.getElementById('body');if(!_bd)return;
+  var _el=buildH2HTab(sh);if(!_el)return;
+  _bd.appendChild(_el);
+  var _nv=sh.getElementById('nav-h2h');if(!_nv)return;
+  _nv.addEventListener('click',function(){
+    ['home-view','pw','mw'].forEach(function(id){var e=sh.getElementById(id);if(e)e.style.display='none';});
+    sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
+    sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
+    _nv.classList.add('active');
+    var tt=sh.getElementById('topbar-title');if(tt)tt.textContent='H2H Porovnání';
+    var mw=sh.getElementById('mw');if(mw){mw.style.display='none';if(mw.destroy)mw.destroy();}
+    _el.style.display='block';if(_el.render)_el.render();
+  });
+})();
 render();
 (function _syncPl(){var _s=document.getElementById('ts-host')?.shadowRoot;if(!_s)return setTimeout(_syncPl,300);var _upd=function(){var c=(window.ATP_PLAYERS||[]).length;if(c>0){var n=_s.getElementById('nav-players-count');if(n)n.textContent=c;var d=_s.getElementById('hc-pl');if(d)d.textContent=c+' hráčů';}else setTimeout(_upd,300);};_upd();})();
 // .mg jsou nyní v DOM — skryj je, home view je aktivní
