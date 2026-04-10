@@ -1,4 +1,4 @@
-// v1775829560
+// v1775831063
 // ==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
 // ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
@@ -2395,48 +2395,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     wrap.querySelectorAll('[data-sort]').forEach(function(btn){btn.addEventListener('click',function(){activeSort=btn.dataset.sort==='1'?'time':'tournament';if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
-    wrap.addEventListener('click',function(e){
-      var btn=e.target.closest('[data-filter]');
-      if(!btn)return;
-      e.stopPropagation();
-      var fkey=btn.dataset.filter;
-      // Kombinovatelné filtry: scheduled + odds
-      if((fkey==='scheduled'||fkey==='odds')&&window._tsActiveFilter&&window._tsActiveFilter!==fkey){
-        var cur=window._tsActiveFilter;
-        if((cur==='scheduled'&&fkey==='odds')||(cur==='odds'&&fkey==='scheduled')){
-          fkey='scheduled_odds'; // kombinace
-        }
-      } else if(fkey===window._tsActiveFilter){
-        fkey='all'; // odznačení
-      }
-      _activeFilterKey=fkey;
-      window._tsActiveFilter=fkey;
-      // Získej aktuální mw - wrap může být starý po re-renderu
-      var _host=document.getElementById('ts-host');
-      var _mw=(_host&&_host.shadowRoot)?_host.shadowRoot.getElementById('mw'):wrap;
-      if(!_mw)return;
-      var rows=_mw.querySelectorAll('.mrow');
-      rows.forEach(function(r){
-        var st=r.dataset.status||'';
-        var ho=r.dataset.hasodds==='1';
-        var show;
-        if(fkey==='all')show=true;
-        else if(fkey==='live')show=st==='live';
-        else if(fkey==='finished')show=st==='finished';
-        else if(fkey==='scheduled')show=st==='scheduled';
-        else if(fkey==='odds')show=ho;
-        r.style.display=show?'':'none';
-      });
-      // Zvýrazni aktivní tlačítko
-      _mw.querySelectorAll('[data-filter]').forEach(function(b){
-        var on=b.dataset.filter===fkey;
-        var c=fkey==='live'?'#f85149':fkey==='scheduled'?'#38bdf8':fkey==='odds'?'#FFD700':'rgba(255,255,255,.8)';
-        b.style.borderColor=on?c:'rgba(255,255,255,.12)';
-        b.style.color=on?c:'rgba(255,255,255,.3)';
-        b.style.fontWeight=on?'700':'400';
-        b.style.background=on?'rgba(255,255,255,.08)':'transparent';
-      });
-    });
+
     wrap.querySelectorAll('.mrow').forEach(function(row){
       row.addEventListener('mouseover',function(){row.style.background='rgba(255,255,255,.04)';});
       row.addEventListener('mouseout',function(){row.style.background='transparent';});
@@ -3866,26 +3825,26 @@ function _applyBestHighlights(container){
     });
   }
   function _attachFilterObs(){
-    var _tsHost=document.getElementById('ts-host');var _mw=_tsHost&&_tsHost.shadowRoot?_tsHost.shadowRoot.getElementById('mw'):null;
-    if(!_mw||_mw._fo)return;
-    _mw._fo=true;
-    _mw.addEventListener('click',function(e){
-      var btn=e.target.closest('[data-filter]');
+    if(window._tsFilterListenerAdded)return;
+    window._tsFilterListenerAdded=true;
+    document.addEventListener('click',function(e){
+      // Shadow DOM retargeting - pouzij composedPath
+      var path=e.composedPath?e.composedPath():[];
+      var btn=null;
+      for(var i=0;i<path.length;i++){if(path[i].dataset&&path[i].dataset.filter){btn=path[i];break;}}
       if(!btn)return;
-      e.stopPropagation();
       var fkey=btn.dataset.filter;
       var cur=window._tsActiveFilter||'all';
-      // Kombinovatelné filtry: scheduled + odds
       if((fkey==='scheduled'||fkey==='odds')&&cur!=='all'&&cur!==fkey){
         if((cur==='scheduled'&&fkey==='odds')||(cur==='odds'&&fkey==='scheduled'))fkey='scheduled_odds';
         else if(cur==='scheduled_odds')fkey='all';
       } else if(fkey===cur){
-        fkey='all'; // odznačení
+        fkey='all';
       }
       window._tsActiveFilter=fkey;
-      var _mwNow=document.getElementById('ts-host').shadowRoot.getElementById('mw');
+      var _sh=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;
+      var _mwNow=_sh?_sh.getElementById('mw'):null;
       if(!_mwNow)return;
-      // Updatuj hasodds pro odds filtry
       if(fkey==='odds'||fkey==='scheduled_odds'){
         _mwNow.querySelectorAll('.mrow').forEach(function(r){
           var els=r.querySelectorAll('[style*="position:absolute"] div');
@@ -3894,13 +3853,11 @@ function _applyBestHighlights(container){
           r.dataset.hasodds=hasO?'1':'0';
         });
       }
-      // Filtruj
       _mwNow.querySelectorAll('.mrow').forEach(function(r){
         var st=r.dataset.status||'';var ho=r.dataset.hasodds==='1';
         var show=fkey==='all'||(fkey==='live'&&st==='live')||(fkey==='finished'&&st==='finished')||(fkey==='scheduled'&&st==='scheduled')||(fkey==='odds'&&ho)||(fkey==='scheduled_odds'&&st==='scheduled'&&ho);
         r.style.display=show?'':'none';
       });
-      // Zvýrazni tlačítka
       _mwNow.querySelectorAll('[data-filter]').forEach(function(b){
         var k=b.dataset.filter;
         var on=k===fkey||(fkey==='scheduled_odds'&&(k==='scheduled'||k==='odds'));
@@ -3910,7 +3867,7 @@ function _applyBestHighlights(container){
         b.style.fontWeight=on?'700':'400';
         b.style.background=on?'rgba(255,255,255,.08)':'transparent';
       });
-    });
+    },true);
   }
 
 
