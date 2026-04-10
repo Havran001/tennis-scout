@@ -3624,13 +3624,14 @@ function _hasAnyOdds(m){
 }
 
 
+var _activeFilterKey='all';
 function _refreshFilterBar(wrap){
   var _rw=wrap||document.getElementById('mw');
   if(!_rw){var _host2=document.getElementById('ts-host');if(_host2&&_host2.shadowRoot)_rw=_host2.shadowRoot.getElementById('mw');}
   if(!_rw)return;
   _rw.querySelectorAll('[data-filter]').forEach(function(b){
     var k=b.dataset.filter;
-    var on=activeFilters.has(k);
+    var on=k===_activeFilterKey||activeFilters.has(k);
     var c=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
     b.style.borderColor=on?c:'rgba(255,255,255,.12)';
     b.style.color=on?c:'rgba(255,255,255,.3)';
@@ -3772,8 +3773,7 @@ function _applyBestHighlights(container){
 }
 // === KONEC BEST ODDS HIGHLIGHT ===
 
-})();  var _activeFilterKey='all';
-  function _doApplyFilter(){
+})();  function _doApplyFilter(){
     var _tsHost=document.getElementById('ts-host');var _mw=_tsHost&&_tsHost.shadowRoot?_tsHost.shadowRoot.getElementById('mw'):null;
     if(!_mw)return;
     _mw.querySelectorAll('.mrow').forEach(function(r){
