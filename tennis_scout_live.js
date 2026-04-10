@@ -2320,7 +2320,7 @@ function renderMatches(data){
     h+='</div>';
     wrap.innerHTML=h;
   _attachFilterObs();
-  _activeFilterKey=(sh&&sh._activeFilter)||_activeFilterKey;
+  _activeFilterKey=(sh&&window._tsActiveFilter)||_activeFilterKey;
   if(_activeFilterKey!=='all')_doApplyFilter();
   // Rank range handler
   var rrEl=wrap.querySelector('#ps-rr');
@@ -2352,7 +2352,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       e.stopPropagation();
       var fkey=btn.dataset.filter;
       _activeFilterKey=fkey;
-      sh._activeFilter=fkey;
+      window._tsActiveFilter=fkey;
       // Získej aktuální mw - wrap může být starý po re-renderu
       var _host=document.getElementById('ts-host');
       var _mw=(_host&&_host.shadowRoot)?_host.shadowRoot.getElementById('mw'):wrap;
@@ -3779,7 +3779,7 @@ function _applyBestHighlights(container){
 
 })();  function _doApplyFilter(){
     // Čti _activeFilterKey přímo ze sh (shadow root) - jediný spolehlivý zdroj
-    if(sh&&sh._activeFilter)_activeFilterKey=sh._activeFilter;
+    if(sh&&window._tsActiveFilter)_activeFilterKey=window._tsActiveFilter;
     var _tsHost=document.getElementById('ts-host');var _mw=_tsHost&&_tsHost.shadowRoot?_tsHost.shadowRoot.getElementById('mw'):null;
     if(!_mw)return;
     _mw.querySelectorAll('.mrow').forEach(function(r){
@@ -3803,7 +3803,7 @@ function _applyBestHighlights(container){
       if(!btn)return;
       e.stopPropagation();
       _activeFilterKey=btn.dataset.filter;
-      sh._activeFilter=_activeFilterKey;
+      window._tsActiveFilter=_activeFilterKey;
       // Pro odds filtr - updatuj data-hasodds před aplikací
       if(_activeFilterKey==='odds'){
         var _tsH=document.getElementById('ts-host');
