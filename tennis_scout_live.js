@@ -1178,6 +1178,7 @@ function buildPlayersTab(sh){
         .then(function(r){return r.ok?r.json():null;})
         .then(function(hist){
 var all=(hist?hist.matches:[]);
+all=all.filter(function(m){var t=m.tournament||'';var hasFlashFormat=t.match(/^(ATP|WTA|ITF|CHALLENGER)\s+-\s+/i);var hasNoStats=!m.dr&&!m.a_pct&&!m.first_pct;if(hasFlashFormat&&hasNoStats)return false;return true;});
           all.sort(function(a,b){return b.date.localeCompare(a.date);});
           if(all.length===0){
             sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy k dispozici</div>';
