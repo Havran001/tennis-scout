@@ -1,4 +1,4 @@
-// v1775825800
+// v1775826488
 // ==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
 // ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
@@ -2224,7 +2224,18 @@ function renderMatches(data){
     h+='<span style="width:6px;height:6px;background:#00C853;border-radius:50%;display:inline-block;"></span>';
     h+='</div></div>';
     h+='<div style="display:flex;gap:4px;padding:8px 0 6px;">';
-    [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length],['odds','S kurzem 💰',wrap.querySelectorAll('.mrow[data-hasodds="1"]').length||withOdds.length]].forEach(function(f){
+    [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length],['odds','S kurzem 💰',(function(){
+  var _c=0;
+  wrap.querySelectorAll('.mrow').forEach(function(r){
+    if(r.dataset.hasodds==='1'){_c++;return;}
+    var els=r.querySelectorAll('[style*="position:absolute"] div');
+    for(var i=0;i<els.length;i++){
+      var t=(els[i].innerText||'').trim();
+      if(t&&t!=='?'&&!isNaN(parseFloat(t))){_c++;return;}
+    }
+  });
+  return _c;
+})()]].forEach(function(f){
       var key=f[0];
       var isMulti=(key==='scheduled'||key==='odds');
       var on=activeFilters.has(key);
