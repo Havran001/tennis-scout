@@ -2802,6 +2802,8 @@ function buildUI(){
   // PLAYERS TAB
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
+  // H2H tab
+  var _h2wEl=buildH2HTab(sh);if(_h2wEl)body.appendChild(_h2wEl);
   var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
   
 
@@ -2829,6 +2831,7 @@ function buildUI(){
     const mgs=sh.querySelectorAll('.mg');
     mgs.forEach(m=>m.style.display=view==='tournaments'?'':'none');
     if(view==='players'&&_pw.render)_pw.render();
+    if(view==='h2h'){var _h2=sh.getElementById('h2hw');if(_h2){_h2.style.display='block';if(_h2.render)_h2.render();}}else{var _h2x=sh.getElementById('h2hw');if(_h2x)_h2x.style.display='none';}
     var _h2wEl2=sh.getElementById('h2hw');if(_h2wEl2){_h2wEl2.style.display=view==='h2h'?'block':'none';if(view==='h2h'&&_h2wEl2.render)_h2wEl2.render();}
     // btn-p styl
     const bp=sh.getElementById('nav-players');
@@ -3140,23 +3143,6 @@ window._tsData.push(...mkAtp(ATP),...mkWta(WTA),...mkChall(CHALL));
 sh.getElementById('load')?.remove();
 sh.getElementById('itfs')?.remove();
 goView('home');
-// Init H2H
-setTimeoutsetTimeout(function initH2H(){
-  if(typeof buildH2HTab!=='function')return;
-  var _bd=sh.getElementById('body');if(!_bd)return;
-  var _el=buildH2HTab(sh);if(!_el)return;
-  _bd.appendChild(_el);
-  var _nv=sh.getElementById('nav-h2h');if(!_nv)return;
-  _nv.addEventListener('click',function(){
-    ['home-view','pw','mw'].forEach(function(id){var e=sh.getElementById(id);if(e)e.style.display='none';});
-    sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
-    sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
-    _nv.classList.add('active');
-    var tt=sh.getElementById('topbar-title');if(tt)tt.textContent='H2H Porovnání';
-    var mw=sh.getElementById('mw');if(mw){mw.style.display='none';if(mw.destroy)mw.destroy();}
-    _el.style.display='block';if(_el.render)_el.render();
-  });
-},500);
 render();
 (function _syncPl(){var _s=document.getElementById('ts-host')?.shadowRoot;if(!_s)return setTimeout(_syncPl,300);var _upd=function(){var c=(window.ATP_PLAYERS||[]).length;if(c>0){var n=_s.getElementById('nav-players-count');if(n)n.textContent=c;var d=_s.getElementById('hc-pl');if(d)d.textContent=c+' hráčů';}else setTimeout(_upd,300);};_upd();})();
 // .mg jsou nyní v DOM — skryj je, home view je aktivní
