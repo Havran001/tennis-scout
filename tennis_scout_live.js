@@ -1,4 +1,4 @@
-// v1775831063
+// v1775838683
 // ==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
 // ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
@@ -1896,29 +1896,34 @@ function buildMatchesTab(sh){
         _origInnerHTML.set.call(this,v);
         var _fk=window._tsActiveFilter||'all';
         if(_fk!=='all'){
-          // Pro odds filtr - updatuj data-hasodds z DOM
-          if(_fk==='odds'){
-            this.querySelectorAll('.mrow').forEach(function(r){
-              var oddsEls=r.querySelectorAll('[style*="position:absolute"] div');
-              var hasO=false;
-              oddsEls.forEach(function(el){var txt=(el.innerText||'').trim();if(txt&&txt!=='?'&&!isNaN(parseFloat(txt)))hasO=true;});
-              r.dataset.hasodds=hasO?'1':'0';
+          var _self=this;
+          function _applyFilter(){
+            if(_fk==='odds'||_fk==='scheduled_odds'){
+              _self.querySelectorAll('.mrow').forEach(function(r){
+                var oddsEls=r.querySelectorAll('[style*="position:absolute"] div');
+                var hasO=false;
+                oddsEls.forEach(function(el){var txt=(el.innerText||'').trim();if(txt&&txt!=='?'&&!isNaN(parseFloat(txt)))hasO=true;});
+                r.dataset.hasodds=hasO?'1':'0';
+              });
+            }
+            _self.querySelectorAll('.mrow').forEach(function(r){
+              var st=r.dataset.status||'';var ho=r.dataset.hasodds==='1';
+              var show=_fk==='all'||(_fk==='live'&&st==='live')||(_fk==='finished'&&st==='finished')||(_fk==='scheduled'&&st==='scheduled')||(_fk==='odds'&&ho)||(_fk==='scheduled_odds'&&st==='scheduled'&&ho);
+              r.style.display=show?'':'none';
+            });
+            _self.querySelectorAll('[data-filter]').forEach(function(b){
+              var k=b.dataset.filter;
+              var on=k===_fk||((_fk==='scheduled_odds')&&(k==='scheduled'||k==='odds'));
+              var c=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
+              b.style.borderColor=on?c:'rgba(255,255,255,.12)';
+              b.style.color=on?c:'rgba(255,255,255,.3)';
+              b.style.fontWeight=on?'700':'400';
+              b.style.background=on?'rgba(255,255,255,.08)':'transparent';
             });
           }
-          this.querySelectorAll('.mrow').forEach(function(r){
-            var st=r.dataset.status||'';
-            var show=_fk==='all'||(_fk==='live'&&st==='live')||(_fk==='finished'&&st==='finished')||(_fk==='scheduled'&&st==='scheduled')||(_fk==='odds'&&r.dataset.hasodds==='1')||(_fk==='scheduled_odds'&&st==='scheduled'&&r.dataset.hasodds==='1');
-            r.style.display=show?'':'none';
-          });
-          // Zvyrazni aktivni tlacitko
-          this.querySelectorAll('[data-filter]').forEach(function(b){
-            var on=b.dataset.filter===_fk;
-            var c=_fk==='live'?'#f85149':_fk==='scheduled'?'#38bdf8':_fk==='odds'?'#FFD700':'rgba(255,255,255,.8)';
-            b.style.borderColor=on?c:'rgba(255,255,255,.12)';
-            b.style.color=on?c:'rgba(255,255,255,.3)';
-            b.style.fontWeight=on?'700':'400';
-            b.style.background=on?'rgba(255,255,255,.08)':'transparent';
-          });
+          // Pro scheduled i scheduled_odds - aplikuj hned a pak znovu po 200ms (kurzy se nacitaji async)
+          _applyFilter();
+          setTimeout(_applyFilter,200);
         }
       },
       get:function(){return _origInnerHTML.get.call(this);},
@@ -3279,17 +3284,27 @@ var _kbBaseOdds=(function(){try{var s=localStorage.getItem('ts_kb_base');return 
 var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
 if(!_kbUrl)_kbUrl='https://betano-odds.vavra-radovan.workers.dev/kb-odds';
 var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
+
+// === ODDS SESSION CACHE (60s) ===
+function _oddsFromCache(key){try{var d=sessionStorage.getItem('ts_odds_'+key);if(!d)return null;var p=JSON.parse(d);if((Date.now()-p._ts)>60000){sessionStorage.removeItem('ts_odds_'+key);return null;}delete p._ts;return p;}catch(e){return null;}}
+function _oddsToCache(key,d){try{if(d&&d.events&&d.events.length>0)sessionStorage.setItem('ts_odds_'+key,JSON.stringify(Object.assign({_ts:Date.now()},d)));}catch(e){}}
+// ===========================
 var _runKb=function(){
-  // Nejdřív vynutí scrape, pak načti čerstvá data
-  fetch(_kbScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
-    fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
+  // Zkus session cache
+  var _cached=_oddsFromCache('kb');
+  if(_cached){_kbOdds=_cached;if(!_kbBaseOdds||(_cached.events&&_cached.events.length>0))_kbBaseOdds=_cached;if(typeof renderMatches==='function'&&_lastData)renderMatches(_lastData);return;}
+  // Scrape jen pokud nebyl v posledních 60s
+  if(!window._tsLS)window._tsLS={};
+  var _doS=(Date.now()-(window._tsLS.kb||0))>60000;if(_doS)window._tsLS.kb=Date.now();
+  if(_doS)fetch(_kbScrapeUrl+'?t='+Date.now()).catch(function(){});
+  fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d)return;
       _kbOdds=d;
       if(!_kbBaseOdds||(d.events&&d.events.length>0)){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
       _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
+      _oddsToCache('kb',d);
     });
-  });
 };
 _runKb();setInterval(_runKb,15000);
 
@@ -3523,9 +3538,12 @@ function _fortunaCol(p1,p2){
 }
 
 var _runFortuna=function(){
-  // Volej oba scrape endpointy paralelně
-  var s1=fetch(_fortunaScrapeUrl+'-1?t='+Date.now()).catch(function(){});
-  var s2=fetch(_fortunaScrapeUrl+'-2?t='+Date.now()).catch(function(){});
+  var _cfortuna=_oddsFromCache('fortuna');if(_cfortuna){_fortunaOdds=_cfortuna;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);return;}
+
+  if(!window._tsLS)window._tsLS={};
+  var _doS=(Date.now()-(window._tsLS.fortuna||0))>60000;if(_doS)window._tsLS.fortuna=Date.now();
+  var s1=_doS?fetch(_fortunaScrapeUrl+'-1?t='+Date.now()).catch(function(){}):Promise.resolve();
+  var s2=_doS?fetch(_fortunaScrapeUrl+'-2?t='+Date.now()).catch(function(){}):Promise.resolve();
   Promise.all([s1,s2]).finally(function(){
     fetch(_fortunaUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
@@ -3582,7 +3600,12 @@ function _merkurCol(p1,p2){
 }
 
 var _runMerkur=function(){
-  fetch(_merkurScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
+  var _cmerkur=_oddsFromCache('merkur');if(_cmerkur){_merkurOdds=_cmerkur;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);return;}
+
+  if(!window._tsLS)window._tsLS={};
+  var _doS=(Date.now()-(window._tsLS.merkur||0))>60000;if(_doS)window._tsLS.merkur=Date.now();
+  var _sp=_doS?fetch(_merkurScrapeUrl+'?t='+Date.now()).catch(function(){}):Promise.resolve();
+  
     fetch(_merkurUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
       _merkurOdds=d;
@@ -3590,7 +3613,6 @@ var _runMerkur=function(){
       _merkurUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
-  });
 };
 _runMerkur();setInterval(_runMerkur,15000);
 // === KONEC MERKUR ODDS ===
@@ -3628,7 +3650,12 @@ function _allwynCol(p1,p2){
 }
 
 var _runAllwyn=function(){
-  fetch(_allwynScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
+  var _callwyn=_oddsFromCache('allwyn');if(_callwyn){_allwynOdds=_callwyn;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);return;}
+
+  if(!window._tsLS)window._tsLS={};
+  var _doS=(Date.now()-(window._tsLS.allwyn||0))>60000;if(_doS)window._tsLS.allwyn=Date.now();
+  var _sp=_doS?fetch(_allwynScrapeUrl+'?t='+Date.now()).catch(function(){}):Promise.resolve();
+  
     fetch(_allwynUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
       _allwynOdds=d;
@@ -3636,7 +3663,6 @@ var _runAllwyn=function(){
       _allwynUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
-  });
 };
 _runAllwyn();setInterval(_runAllwyn,15000);
 // === KONEC ALLWYN ODDS ===
@@ -3754,7 +3780,12 @@ function _synotCol(p1,p2){
 }
 
 var _runSynot=function(){
-  fetch(_synotScrapeUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
+  var _csynot=_oddsFromCache('synot');if(_csynot){_synotOdds=_csynot;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);return;}
+
+  if(!window._tsLS)window._tsLS={};
+  var _doS=(Date.now()-(window._tsLS.synot||0))>60000;if(_doS)window._tsLS.synot=Date.now();
+  var _sp=_doS?fetch(_synotScrapeUrl+'?t='+Date.now()).catch(function(){}):Promise.resolve();
+  
     fetch(_synotUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
       _synotOdds=d;
@@ -3762,7 +3793,6 @@ var _runSynot=function(){
       _synotUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
-  });
 };
 _runSynot();setInterval(_runSynot,15000);
 // === KONEC SYNOT TIP ODDS ===
