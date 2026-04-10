@@ -2803,7 +2803,6 @@ function buildUI(){
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
   var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
-  var _h2wEl=buildH2HTab(sh);body.appendChild(_h2wEl);
   
 
   // ── NAVIGACE ──
@@ -3117,6 +3116,25 @@ function setupRender({sh,body,mnav}){
 // ── MAIN ────────────────────────────────────────────────────
 window._tsData=[];
 const{host,sh,body,mnav,goView}=buildUI();
+// Init H2H tab
+(function(){
+  var _h2body=sh.getElementById('body');
+  if(_h2body&&typeof buildH2HTab==='function'){
+    var _h2wEl=buildH2HTab(sh);
+    if(_h2wEl)_h2body.appendChild(_h2wEl);
+    var _navH2h=sh.getElementById('nav-h2h');
+    if(_navH2h)_navH2h.addEventListener('click',function(){
+      ['home-view','pw','mw'].forEach(function(id){var el=sh.getElementById(id);if(el)el.style.display='none';});
+      sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
+      sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
+      _navH2h.classList.add('active');
+      var tt=sh.getElementById('topbar-title');if(tt)tt.textContent='H2H Porovnání';
+      var mw=sh.getElementById('mw');if(mw){mw.style.display='none';if(mw.destroy)mw.destroy();}
+      _h2wEl.style.display='block';
+      if(_h2wEl.render)_h2wEl.render();
+    });
+  }
+})();
 
 // Djokovic photo from Wikipedia API
 (async()=>{try{
