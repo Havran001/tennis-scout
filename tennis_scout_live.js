@@ -2186,7 +2186,7 @@ function renderMatches(data){
     h+='<span style="width:6px;height:6px;background:#00C853;border-radius:50%;display:inline-block;"></span>';
     h+='</div></div>';
     h+='<div style="display:flex;gap:4px;padding:8px 0 6px;">';
-    [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length],['odds','S kurzem 💰',withOdds.length]].forEach(function(f){
+    [['all','Vše',all.length],['live','LIVE 🔴',live.length],['finished','Konec',fin.length],['scheduled','Náplán.',sch.length],['odds','S kurzem 💰',wrap.querySelectorAll('.mrow[data-hasodds="1"]').length||withOdds.length]].forEach(function(f){
       var key=f[0];
       var isMulti=(key==='scheduled'||key==='odds');
       var on=activeFilters.has(key);
@@ -3802,7 +3802,6 @@ function _applyBestHighlights(container){
         var _mw2=_tsH&&_tsH.shadowRoot?_tsH.shadowRoot.getElementById('mw'):null;
         if(_mw2){
           _mw2.querySelectorAll('.mrow').forEach(function(r){
-            // Zkontroluj zda má viditelné kurzy (ne '?') v řádku
             var oddsEls=r.querySelectorAll('[style*="position:absolute"] div');
             var hasOdds=false;
             oddsEls.forEach(function(el){
@@ -3811,6 +3810,12 @@ function _applyBestHighlights(container){
             });
             r.dataset.hasodds=hasOdds?'1':'0';
           });
+          // Aktualizuj počítadlo v hlavičce
+          var oddsBtn=_mw2.querySelector('[data-filter="odds"]');
+          if(oddsBtn){
+            var oddsCount=_mw2.querySelectorAll('.mrow[data-hasodds="1"]').length;
+            oddsBtn.textContent='S kurzem 💰 ('+oddsCount+')';
+          }
         }
       }
       _doApplyFilter();
