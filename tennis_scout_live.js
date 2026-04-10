@@ -3141,7 +3141,7 @@ sh.getElementById('load')?.remove();
 sh.getElementById('itfs')?.remove();
 goView('home');
 // Init H2H
-(function initH2H(){
+setTimeoutsetTimeout(function initH2H(){
   if(typeof buildH2HTab!=='function')return;
   var _bd=sh.getElementById('body');if(!_bd)return;
   var _el=buildH2HTab(sh);if(!_el)return;
@@ -3156,7 +3156,7 @@ goView('home');
     var mw=sh.getElementById('mw');if(mw){mw.style.display='none';if(mw.destroy)mw.destroy();}
     _el.style.display='block';if(_el.render)_el.render();
   });
-})();
+},500);
 render();
 (function _syncPl(){var _s=document.getElementById('ts-host')?.shadowRoot;if(!_s)return setTimeout(_syncPl,300);var _upd=function(){var c=(window.ATP_PLAYERS||[]).length;if(c>0){var n=_s.getElementById('nav-players-count');if(n)n.textContent=c;var d=_s.getElementById('hc-pl');if(d)d.textContent=c+' hráčů';}else setTimeout(_upd,300);};_upd();})();
 // .mg jsou nyní v DOM — skryj je, home view je aktivní
