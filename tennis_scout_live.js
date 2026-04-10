@@ -15,7 +15,7 @@
 
 (async function TENNIS_SCOUT() {
 'use strict';
-const VERSION = '5.3';
+const VERSION = '5.4';
 
 // ATP Rankings - načítáno z GitHubu (stejně jako ITF data)
 window.ATP_PLAYERS = [];
@@ -3051,8 +3051,11 @@ function _bet365Col(p1,p2){
     if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
-  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
-  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var _best=_getBestOdds(p1,p2);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
+  var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:895px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:48px;gap:3px;">'
     +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
     +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
@@ -3422,8 +3425,11 @@ function _kbCol(p1,p2){
     if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
-  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
-  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var _best=_getBestOdds(p1,p2);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
+  var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:520px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:48px;text-align:center;">'
     +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
     +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
@@ -3529,8 +3535,11 @@ function _fortunaCol(p1,p2){
     if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
-  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
-  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var _best=_getBestOdds(p1,p2);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
+  var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:580px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:48px;text-align:center;">'
     +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
     +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
@@ -3591,8 +3600,11 @@ function _merkurCol(p1,p2){
     if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
-  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
-  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var _best=_getBestOdds(p1,p2);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
+  var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:640px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:48px;text-align:center;">'
     +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
     +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
@@ -3641,8 +3653,11 @@ function _allwynCol(p1,p2){
     if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
-  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
-  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var _best=_getBestOdds(p1,p2);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
+  var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:700px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;">'
     +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
     +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
@@ -3771,8 +3786,11 @@ function _synotCol(p1,p2){
     if(a1&&!a2)a2=(d1>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
-  var c1=odds?'#e6edf3':'rgba(255,255,255,.2)';
-  var c2=odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var _best=_getBestOdds(p1,p2);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
+  var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
+  var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:765px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;">'
     +'<div style="font-size:12px;font-weight:700;color:'+c1+';line-height:1.2;">'+a1+o1+'</div>'
     +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
