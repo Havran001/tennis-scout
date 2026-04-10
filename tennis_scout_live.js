@@ -1,4 +1,4 @@
-// v1775820444
+// v1775822229
 // ==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
 // ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
@@ -1887,7 +1887,26 @@ function _openAtpPlayer(nameRaw,sh){
 }
 function buildMatchesTab(sh){
   var wrap=document.createElement('div');
-  wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
+  wrap.id='mw';
+  // Nastav innerHTML setter pro zachování filtru po re-renderech
+  (function(){
+    var _origInnerHTML=Object.getOwnPropertyDescriptor(Element.prototype,'innerHTML');
+    Object.defineProperty(wrap,'innerHTML',{
+      set:function(v){
+        _origInnerHTML.set.call(this,v);
+        var _fk=window._tsActiveFilter||'all';
+        if(_fk!=='all'){
+          this.querySelectorAll('.mrow').forEach(function(r){
+            var st=r.dataset.status||'';
+            var show=_fk==='all'||(_fk==='live'&&st==='live')||(_fk==='finished'&&st==='finished')||(_fk==='scheduled'&&st==='scheduled')||(_fk==='odds'&&r.dataset.hasodds==='1');
+            r.style.display=show?'':'none';
+          });
+        }
+      },
+      get:function(){return _origInnerHTML.get.call(this);},
+      configurable:true
+    });
+  })();wrap.style.cssText='display:none;padding:0;';
   wrap.addEventListener('click',function(e){var t=e.target.closest('.mc-plink');if(t){e.stopPropagation();_openAtpPlayer(t.dataset.pname,sh);}});
   var activeDay=[0],activeFilter='all',activeFilters=new Set(['all']),_cachedWithOdds=null,_activeFilterKey='all',activeSort='tournament',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
   var isFS=location.hostname.includes('flashscore');
@@ -2322,7 +2341,7 @@ function renderMatches(data){
     wrap.innerHTML=h;
   _attachFilterObs();
   _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
-  if(_activeFilterKey!=='all')setTimeout(function(){_doApplyFilter();},0);
+  if(_activeFilterKey!=='all')_doApplyFilter();
   // Rank range handler
   var rrEl=wrap.querySelector('#ps-rr');
   if(rrEl)rrEl.addEventListener('change',function(){pR=rrEl.value;pP=0;rP();});
@@ -2408,9 +2427,21 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     }finally{_fetching=false;}
   }
   function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
-  wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);};
+  wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);
+  // Filter keeper - udrzuje aktivni filtr po re-renderech
+
+};
   wrap.renderOdds=function(){if(wrap._lastData){renderMatches(wrap._lastData);}else if(_lastData){renderMatches(_lastData);}};
   wrap.destroy=function(){if(_interval){clearInterval(_interval);_interval=null;}};
+  // Obal sh._renderMatches aby vzdy volal _doApplyFilter po re-renderu
+  var _origRM=sh._renderMatches;
+  sh._renderMatches=function(data){
+    _origRM.call(this,data);
+    if(window._tsActiveFilter&&window._tsActiveFilter!=='all'){
+      _activeFilterKey=window._tsActiveFilter;
+      _doApplyFilter();
+    }
+  };
   return wrap;
 }
 
