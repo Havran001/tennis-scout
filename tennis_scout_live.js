@@ -3796,6 +3796,23 @@ function _applyBestHighlights(container){
       var btn=e.target.closest('[data-filter]');
       if(!btn)return;
       _activeFilterKey=btn.dataset.filter;
+      // Pro odds filtr - updatuj data-hasodds před aplikací
+      if(_activeFilterKey==='odds'){
+        var _tsH=document.getElementById('ts-host');
+        var _mw2=_tsH&&_tsH.shadowRoot?_tsH.shadowRoot.getElementById('mw'):null;
+        if(_mw2){
+          _mw2.querySelectorAll('.mrow').forEach(function(r){
+            // Zkontroluj zda má viditelné kurzy (ne '?') v řádku
+            var oddsEls=r.querySelectorAll('[style*="position:absolute"] div');
+            var hasOdds=false;
+            oddsEls.forEach(function(el){
+              var txt=(el.innerText||'').trim();
+              if(txt&&txt!=='?'&&!isNaN(parseFloat(txt)))hasOdds=true;
+            });
+            r.dataset.hasodds=hasOdds?'1':'0';
+          });
+        }
+      }
       _doApplyFilter();
       _mw.querySelectorAll('[data-filter]').forEach(function(b){
         var on=b.dataset.filter===_activeFilterKey;
