@@ -2348,7 +2348,10 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     wrap.addEventListener('click',function(e){
       var btn=e.target.closest('[data-filter]');
       if(!btn)return;
+      e.stopPropagation();
       var fkey=btn.dataset.filter;
+      _activeFilterKey=fkey;
+      sh._activeFilter=fkey;
       // Získej aktuální mw - wrap může být starý po re-renderu
       var _host=document.getElementById('ts-host');
       var _mw=(_host&&_host.shadowRoot)?_host.shadowRoot.getElementById('mw'):wrap;
@@ -3773,6 +3776,9 @@ function _applyBestHighlights(container){
 // === KONEC BEST ODDS HIGHLIGHT ===
 
 })();  function _doApplyFilter(){
+    // Sync _activeFilterKey ze sh pokud je tam novější hodnota
+    var _sh2=document.getElementById('ts-host');
+    if(_sh2&&_sh2.shadowRoot&&_sh2.shadowRoot._activeFilter)_activeFilterKey=_sh2.shadowRoot._activeFilter;
     var _tsHost=document.getElementById('ts-host');var _mw=_tsHost&&_tsHost.shadowRoot?_tsHost.shadowRoot.getElementById('mw'):null;
     if(!_mw)return;
     _mw.querySelectorAll('.mrow').forEach(function(r){
@@ -3796,6 +3802,7 @@ function _applyBestHighlights(container){
       if(!btn)return;
       e.stopPropagation();
       _activeFilterKey=btn.dataset.filter;
+      sh._activeFilter=_activeFilterKey;
       // Pro odds filtr - updatuj data-hasodds před aplikací
       if(_activeFilterKey==='odds'){
         var _tsH=document.getElementById('ts-host');
