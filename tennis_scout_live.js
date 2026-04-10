@@ -1888,7 +1888,7 @@ function buildMatchesTab(sh){
   var wrap=document.createElement('div');
   wrap.id='mw';wrap.style.cssText='display:none;padding:0;';
   wrap.addEventListener('click',function(e){var t=e.target.closest('.mc-plink');if(t){e.stopPropagation();_openAtpPlayer(t.dataset.pname,sh);}});
-  var activeDay=[0],activeFilter='all',activeFilters=new Set(['all']),_cachedWithOdds=null,activeSort='tournament',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
+  var activeDay=[0],activeFilter='all',activeFilters=new Set(['all']),_cachedWithOdds=null,_activeFilterKey='all',activeSort='tournament',activeTier='all',activeFormat='all',_interval=null,_lastData=null,_lastUpdated='';
   var isFS=location.hostname.includes('flashscore');
 
   var FLAGS={'USA':'🇺🇸','ESP':'🇪🇸','FRA':'🇫🇷','GER':'🇩🇪','ITA':'🇮🇹','GBR':'🇬🇧','AUS':'🇦🇺','ARG':'🇦🇷','JPN':'🇯🇵','CAN':'🇨🇦','BRA':'🇧🇷','NED':'🇳🇱','SUI':'🇨🇭','ROU':'🇷🇴','POL':'🇵🇱','CZE':'🇨🇿','AUT':'🇦🇹','GRE':'🇬🇷','BEL':'🇧🇪','SWE':'🇸🇪','NOR':'🇳🇴','DEN':'🇩🇰','SRB':'🇷🇸','KAZ':'🇰🇿','RUS':'🇷🇺','UKR':'🇺🇦','POR':'🇵🇹','CHI':'🇨🇱','MEX':'🇲🇽','RSA':'🇿🇦','IND':'🇮🇳','KOR':'🇰🇷','MAR':'🇲🇦','COL':'🇨🇴','CRO':'🇭🇷','GEO':'🇬🇪','QAT':'🇶🇦','UAE':'🇦🇪','CHN':'🇨🇳','SVK':'🇸🇰','UZB':'🇺🇿','MON':'🇲🇨','TUR':'🇹🇷','BUL':'🇧🇬','HUN':'🇭🇺','FIN':'🇫🇮','SLO':'🇸🇮','SVK':'🇸🇰','EST':'🇪🇪','LAT':'🇱🇻','LTU':'🇱🇹','NZL':'🇳🇿','AZE':'🇦🇿','ARM':'🇦🇲','GBR':'🇬🇧','MDA':'🇲🇩','BLR':'🇧🇾'};
@@ -3624,7 +3624,6 @@ function _hasAnyOdds(m){
 }
 
 
-var _activeFilterKey='all';
 function _refreshFilterBar(wrap){
   var _rw=wrap||document.getElementById('mw');
   if(!_rw){var _host2=document.getElementById('ts-host');if(_host2&&_host2.shadowRoot)_rw=_host2.shadowRoot.getElementById('mw');}
@@ -3795,6 +3794,7 @@ function _applyBestHighlights(container){
     _mw.addEventListener('click',function(e){
       var btn=e.target.closest('[data-filter]');
       if(!btn)return;
+      e.stopPropagation();
       _activeFilterKey=btn.dataset.filter;
       // Pro odds filtr - updatuj data-hasodds před aplikací
       if(_activeFilterKey==='odds'){
