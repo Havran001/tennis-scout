@@ -1177,8 +1177,7 @@ function buildPlayersTab(sh){
         fetch(RAW+'player_history/'+pid+'.json?v='+Date.now())
         .then(function(r){return r.ok?r.json():null;})
         .then(function(hist){
-          // Also get live matches from _lastData
-          var all=(hist?hist.matches:[]);
+var all=(hist?hist.matches:[]);
           all.sort(function(a,b){return b.date.localeCompare(a.date);});
           if(all.length===0){
             sec.innerHTML='<div style="padding:40px;text-align:center;color:rgba(255,255,255,.2);">Žádné zápasy k dispozici</div>';
