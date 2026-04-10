@@ -2959,7 +2959,7 @@ function buildUI(){
       var reNA=new RegExp('[^a-zA-Z -]','g');
       function nN(fn){return(fn||'').normalize('NFD').replace(reDiac,'').replace(reNA,'').trim().split(' ').join('');}
       function pct(a,b){return b>0?(a/b*100).toFixed(1):'';}
-      var PROXIES=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
+      var PROXIES=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
       function tryP(url,i){return Promise.all(PROXIES.slice(0,3).map(function(p){return fetch(p+encodeURIComponent(url),{signal:AbortSignal.timeout(10000)}).then(function(r){return r.ok?r.text():Promise.reject();}).then(function(t){return t&&t.includes('Tennis Abstract')?t:Promise.reject();}).catch(function(){return null;});})).then(function(res){return res.find(function(r){return r!=null;})||null;});}
       function nx(i){
         if(i>=tot){self.disabled=false;prog.innerHTML='✅ Reimport dokoncen! '+im+'/'+tot;window._skippedPlayers=[];return;}
