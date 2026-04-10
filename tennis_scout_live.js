@@ -2803,7 +2803,7 @@ function buildUI(){
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
   // H2H tab
-  var _h2wEl=buildH2HTab(sh);if(_h2wEl)body.appendChild(_h2wEl);
+  console.log("H2H_DEBUG typeof buildH2HTab="+typeof buildH2HTab+" sh="+!!sh+" body="+!!body);var _h2wEl=buildH2HTab(sh);console.log("H2H_DEBUG _h2wEl="+!!_h2wEl);if(_h2wEl)body.appendChild(_h2wEl);
   var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
   
 
