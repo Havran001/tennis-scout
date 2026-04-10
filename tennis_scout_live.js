@@ -2319,7 +2319,8 @@ function renderMatches(data){
     }
     h+='</div>';
     wrap.innerHTML=h;
-  _applyFilter();
+  _attachFilterObs();
+  if(_activeFilterKey!=='all')_doApplyFilter();
   // Rank range handler
   var rrEl=wrap.querySelector('#ps-rr');
   if(rrEl)rrEl.addEventListener('change',function(){pR=rrEl.value;pP=0;rP();});
@@ -2450,7 +2451,7 @@ function buildUI(){
       });
     });
   }
-  new MutationObserver(function(){_attachFilterObs();_doApplyFilter();}).observe(sh,{childList:true,subtree:true});
+  // Filter se přidá při prvním renderMatches volání
   const style=document.createElement('style');style.textContent=CSS;sh.appendChild(style);
 
   const w=document.createElement('div');w.id='w';sh.appendChild(w);
