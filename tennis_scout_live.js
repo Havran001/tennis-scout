@@ -3635,7 +3635,7 @@ function _refreshFilterBar(wrap){
   if(!_rw)return;
   _rw.querySelectorAll('[data-filter]').forEach(function(b){
     var k=b.dataset.filter;
-    var on=k===_activeFilterKey||k===(sh&&sh._activeFilter)||activeFilters.has(k);
+    var _shNow=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;var _afNow=_shNow?_shNow._activeFilter:null;var on=k===_activeFilterKey||k===_afNow||activeFilters.has(k);
     var c=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
     b.style.borderColor=on?c:'rgba(255,255,255,.12)';
     b.style.color=on?c:'rgba(255,255,255,.3)';
@@ -7475,7 +7475,7 @@ function _refreshFilterBar(wrap){
   if(!_rw)return;
   _rw.querySelectorAll('[data-filter]').forEach(function(b){
     var k=b.dataset.filter;
-    var on=k===_activeFilterKey||k===(sh&&sh._activeFilter)||activeFilters.has(k);
+    var _shNow=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;var _afNow=_shNow?_shNow._activeFilter:null;var on=k===_activeFilterKey||k===_afNow||activeFilters.has(k);
     var c=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
     b.style.borderColor=on?c:'rgba(255,255,255,.12)';
     b.style.color=on?c:'rgba(255,255,255,.3)';
