@@ -1,4 +1,4 @@
-// v1775827383
+// v1775827881
 // ==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
 // ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
@@ -3873,8 +3873,20 @@ function _applyBestHighlights(container){
       var btn=e.target.closest('[data-filter]');
       if(!btn)return;
       e.stopPropagation();
-      _activeFilterKey=btn.dataset.filter;
-      window._tsActiveFilter=_activeFilterKey;
+      var _fkey2=btn.dataset.filter;
+      // Kombinovatelné filtry: scheduled + odds
+      if((_fkey2==='scheduled'||_fkey2==='odds')&&window._tsActiveFilter&&window._tsActiveFilter!==_fkey2){
+        var _cur2=window._tsActiveFilter;
+        if((_cur2==='scheduled'&&_fkey2==='odds')||(_cur2==='odds'&&_fkey2==='scheduled')){
+          _fkey2='scheduled_odds';
+        } else if(_cur2==='scheduled_odds'){
+          _fkey2='all'; // odznač kombinaci
+        }
+      } else if(_fkey2===window._tsActiveFilter){
+        _fkey2='all'; // odznačení
+      }
+      _activeFilterKey=_fkey2;
+      window._tsActiveFilter=_fkey2;
       // Pro odds filtr - updatuj data-hasodds před aplikací
       if(_activeFilterKey==='odds'){
         var _tsH=document.getElementById('ts-host');
