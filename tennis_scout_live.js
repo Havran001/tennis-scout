@@ -2320,7 +2320,7 @@ function renderMatches(data){
     h+='</div>';
     wrap.innerHTML=h;
   _attachFilterObs();
-  _activeFilterKey=(sh&&window._tsActiveFilter)||_activeFilterKey;
+  _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
   if(_activeFilterKey!=='all')_doApplyFilter();
   // Rank range handler
   var rrEl=wrap.querySelector('#ps-rr');
