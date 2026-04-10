@@ -1,4 +1,4 @@
-// v1775823197
+// v1775824407
 // ==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
 // ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
@@ -1900,6 +1900,15 @@ function buildMatchesTab(sh){
             var st=r.dataset.status||'';
             var show=_fk==='all'||(_fk==='live'&&st==='live')||(_fk==='finished'&&st==='finished')||(_fk==='scheduled'&&st==='scheduled')||(_fk==='odds'&&r.dataset.hasodds==='1');
             r.style.display=show?'':'none';
+          });
+          // Zvyrazni aktivni tlacitko
+          this.querySelectorAll('[data-filter]').forEach(function(b){
+            var on=b.dataset.filter===_fk;
+            var c=_fk==='live'?'#f85149':_fk==='scheduled'?'#38bdf8':_fk==='odds'?'#FFD700':'rgba(255,255,255,.8)';
+            b.style.borderColor=on?c:'rgba(255,255,255,.12)';
+            b.style.color=on?c:'rgba(255,255,255,.3)';
+            b.style.fontWeight=on?'700':'400';
+            b.style.background=on?'rgba(255,255,255,.08)':'transparent';
           });
         }
       },
