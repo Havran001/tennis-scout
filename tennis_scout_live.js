@@ -2803,7 +2803,7 @@ function buildUI(){
   const _pw=buildPlayersTab(sh);
   body.appendChild(_pw);
   // H2H tab
-  console.log("H2H_DEBUG typeof buildH2HTab="+typeof buildH2HTab+" sh="+!!sh+" body="+!!body);var _h2wEl=buildH2HTab(sh);console.log("H2H_DEBUG _h2wEl="+!!_h2wEl);if(_h2wEl)body.appendChild(_h2wEl);
+  console.log("H2H_DEBUG typeof buildH2HTab="+typeof buildH2HTab+" sh="+!!sh+" body="+!!body);
   var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
   
 
@@ -4090,3 +4090,93 @@ function _applyBestHighlights(container){
 
 
 // ==========================================================
+
+
+// H2H init - spustí se po načtení appky
+(function waitForH2H(){
+  var tries=0;
+  var timer=setInterval(function(){
+    tries++;
+    var host=document.getElementById('ts-host');
+    var sh=host&&host.shadowRoot;
+    if(!sh){if(tries>20)clearInterval(timer);return;}
+    var body=sh.getElementById('body');
+    if(!body){if(tries>20)clearInterval(timer);return;}
+    if(sh.getElementById('h2hw')){clearInterval(timer);return;}
+    // buildH2HTab není dostupná globálně - vytvoř minimální verzi
+    var wrap=document.createElement('div');
+    wrap.id='h2hw';
+    wrap.style.cssText='display:none;padding:0;';
+    
+    function normN(n){return (n||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z ]/g,'').trim();}
+    function findP(q){q=normN(q);return (window.ATP_PLAYERS||[]).find(function(p){return normN(p.name).includes(q)||normN(p.full_name||'').includes(q);});}
+    function sColor(s){var sl=(s||'').toLowerCase();if(sl.includes('clay'))return '#fb923c';if(sl.includes('grass'))return '#4ade80';return '#60a5fa';}
+    function sLabel(s){var sl=(s||'').toLowerCase();if(sl.includes('clay'))return 'Antuka';if(sl.includes('grass'))return 'Tráva';if(sl.includes('hard'))return 'Tvrdý';return s||'?';}
+    function fDate(d){if(!d||d.length<6)return d||'';var s=d.replace(/-/g,'');return s.slice(6,8)+'.'+s.slice(4,6)+'.'+s.slice(0,4);}
+    function rColor(r){return r==='W'?'#00C853':r==='L'?'#f85149':'#888';}
+    function getFlag(c){var m={'ESP':'🇪🇸','ITA':'🇮🇹','SRB':'🇷🇸','GER':'🇩🇪','AUS':'🇦🇺','USA':'🇺🇸','FRA':'🇫🇷','GBR':'🇬🇧','ARG':'🇦🇷','JPN':'🇯🇵','RUS':'🇷🇺','CAN':'🇨🇦','NOR':'🇳🇴','CZE':'🇨🇿','GRE':'🇬🇷','DEN':'🇩🇰','SUI':'🇨🇭','BEL':'🇧🇪','POL':'🇵🇱','KAZ':'🇰🇿','ROU':'🇷🇴','SWE':'🇸🇪','AUT':'🇦🇹','UKR':'🇺🇦','BRA':'🇧🇷','COL':'🇨🇴'};return m[c]||'';}
+    var GHB='https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/';
+
+    function renderH2H(p1,p2,h1,h2){
+      var p1n=p1.full_name||p1.name,p2n=p2.full_name||p2.name;
+      var q=normN(p2n);
+      var h2hM=(h1.matches||[]).filter(function(m){var opp=normN(m.opponent||'');return q.split(' ').some(function(w){return w.length>=3&&opp.split(' ').some(function(o){return o.includes(w)||w.includes(o);});});});
+      var wins=h2hM.filter(function(m){return m.result==='W';}).length;
+      var losses=h2hM.filter(function(m){return m.result==='L';}).length;
+      var form1=(h1.matches||[]).slice(0,10).map(function(m){return m.result||'?';});
+      var form2=(h2.matches||[]).slice(0,10).map(function(m){return m.result||'?';});
+      var surf={};
+      h2hM.forEach(function(m){var s=sLabel(m.surface);if(!surf[s])surf[s]={w:0,l:0};if(m.result==='W')surf[s].w++;else if(m.result==='L')surf[s].l++;});
+      var html='<div style="padding:0 24px 40px;">';
+      html+='<div style="display:flex;align-items:center;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.06);">';
+      html+='<div style="flex:1;"><div style="font-size:10px;color:rgba(255,255,255,.3);margin-bottom:4px;">'+getFlag(p1.country)+' '+p1.country+'</div><div style="font-size:22px;font-weight:800;color:#fff;">'+p1n+'</div><div style="font-size:11px;color:rgba(255,255,255,.3);margin-top:3px;">#'+p1.rank+'</div></div>';
+      html+='<div style="flex:0 0 140px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:2px;margin-bottom:6px;">H2H</div><div style="display:flex;align-items:center;justify-content:center;gap:8px;"><span style="font-size:38px;font-weight:900;color:'+(wins>losses?'#00C853':wins<losses?'#f85149':'#e6edf3')+';">'+wins+'</span><span style="font-size:16px;color:rgba(255,255,255,.2);">–</span><span style="font-size:38px;font-weight:900;color:'+(losses>wins?'#00C853':losses<wins?'#f85149':'#e6edf3')+';">'+losses+'</span></div><div style="font-size:10px;color:rgba(255,255,255,.3);">'+h2hM.length+' zápasů</div></div>';
+      html+='<div style="flex:1;text-align:right;"><div style="font-size:10px;color:rgba(255,255,255,.3);margin-bottom:4px;">'+p2.country+' '+getFlag(p2.country)+'</div><div style="font-size:22px;font-weight:800;color:#fff;">'+p2n+'</div><div style="font-size:11px;color:rgba(255,255,255,.3);margin-top:3px;">#'+p2.rank+'</div></div>';
+      html+='</div>';
+      html+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px;">';
+      [form1,form2].forEach(function(form,i){var label=(i===0?p1n:p2n).split(' ').pop();html+='<div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:12px 14px;"><div style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;">'+label+' — forma</div><div style="display:flex;gap:3px;">'+form.map(function(r){return '<div style="width:20px;height:20px;border-radius:3px;background:'+rColor(r)+';display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:800;color:#000;">'+r+'</div>';}).join('')+'</div></div>';});
+      html+='</div>';
+      var sk=Object.keys(surf);
+      if(sk.length){html+='<div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:12px 14px;margin-top:12px;"><div style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">H2H podle povrchu</div><div style="display:flex;gap:10px;">'+sk.map(function(s){var d=surf[s];return '<div style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:11px;font-weight:700;color:'+sColor(s)+';margin-bottom:3px;">'+s+'</div><div style="font-size:18px;font-weight:800;color:#fff;">'+d.w+'–'+d.l+'</div><div style="font-size:9px;color:rgba(255,255,255,.25);">'+(d.w+d.l)+' záp.</div></div>';}).join('')+'</div></div>';}
+      if(h2hM.length){html+='<div style="margin-top:14px;"><div style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.04);">Vzájemné zápasy ('+h2hM.length+')</div><table style="width:100%;border-collapse:collapse;"><thead><tr>'+['Datum','Turnaj','Povrch','Kolo','Rank','vRank','Skóre',''].map(function(c){return '<th style="padding:4px 8px;font-size:8px;color:rgba(255,255,255,.25);letter-spacing:1px;text-align:left;border-bottom:1px solid rgba(255,255,255,.06);">'+c+'</th>';}).join('')+'</tr></thead><tbody>'+h2hM.map(function(m,i){var bg=i%2===0?'transparent':'rgba(255,255,255,.012)';return '<tr style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,.03);"><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+fDate(m.date)+'</td><td style="padding:5px 8px;font-size:11px;color:#e6edf3;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+(m.tournament||'—')+'</td><td style="padding:5px 8px;"><span style="font-size:9px;font-weight:700;color:'+sColor(m.surface)+';background:rgba(255,255,255,.05);padding:2px 6px;border-radius:3px;">'+sLabel(m.surface||'')+'</span></td><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+(m.round||'—')+'</td><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+(m.rank||'—')+'</td><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+(m.opp_rank||'—')+'</td><td style="padding:5px 8px;font-size:12px;font-weight:600;font-family:monospace;color:#e6edf3;">'+(m.score||'—')+'</td><td style="padding:5px 8px;font-size:13px;font-weight:800;color:'+rColor(m.result)+';"> '+(m.result||'?')+'</td></tr>';}).join('')+'</tbody></table></div>';}
+      else{html+='<div style="text-align:center;padding:40px;color:rgba(255,255,255,.2);">Žádné vzájemné zápasy v dostupných datech</div>';}
+      html+='</div>';
+      wrap.querySelector('#h2h-result').innerHTML=html;
+    }
+
+    wrap.render=function(){
+      wrap.innerHTML='<div style="padding:0 24px 40px;"><div style="padding:18px 0 14px;border-bottom:1px solid rgba(255,255,255,.06);margin-bottom:16px;"><div style="font-size:20px;font-weight:800;color:#fff;margin-bottom:3px;">H2H Porovnání</div><div style="font-size:11px;color:rgba(255,255,255,.3);">Zadej jména dvou hráčů</div></div><div style="display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;"><div style="flex:1;min-width:160px;"><div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:5px;">Hráč 1</div><input id="h2h-p1" type="text" placeholder="např. Alcaraz" style="width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:#e6edf3;font-size:14px;padding:9px 13px;border-radius:10px;outline:none;box-sizing:border-box;"/></div><div style="font-size:20px;color:rgba(255,255,255,.2);padding-bottom:9px;flex-shrink:0;">vs</div><div style="flex:1;min-width:160px;"><div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:5px;">Hráč 2</div><input id="h2h-p2" type="text" placeholder="např. Sinner" style="width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:#e6edf3;font-size:14px;padding:9px 13px;border-radius:10px;outline:none;box-sizing:border-box;"/></div><button id="h2h-go" style="background:rgba(0,200,83,.15);border:1px solid rgba(0,200,83,.35);color:#00C853;font-size:13px;font-weight:700;padding:9px 20px;border-radius:10px;cursor:pointer;flex-shrink:0;">Porovnat →</button></div><div id="h2h-status" style="margin-top:10px;font-size:12px;color:rgba(255,255,255,.4);min-height:18px;"></div><div id="h2h-result"></div></div>';
+      wrap.querySelector('#h2h-go').addEventListener('click',function(){
+        var v1=wrap.querySelector('#h2h-p1').value.trim(),v2=wrap.querySelector('#h2h-p2').value.trim();
+        if(!v1||!v2){wrap.querySelector('#h2h-status').textContent='Zadej jména obou hráčů';return;}
+        var p1=findP(v1),p2=findP(v2);
+        if(!p1){wrap.querySelector('#h2h-status').textContent='Hráč "'+v1+'" nenalezen';return;}
+        if(!p2){wrap.querySelector('#h2h-status').textContent='Hráč "'+v2+'" nenalezen';return;}
+        wrap.querySelector('#h2h-status').textContent='⏳ Načítám...';
+        wrap.querySelector('#h2h-result').innerHTML='';
+        Promise.all([
+          fetch(GHB+p1.id+'.json?v='+Date.now()).then(function(r){return r.json();}),
+          fetch(GHB+p2.id+'.json?v='+Date.now()).then(function(r){return r.json();})
+        ]).then(function(res){wrap.querySelector('#h2h-status').textContent='';renderH2H(p1,p2,res[0],res[1]);})
+        .catch(function(e){wrap.querySelector('#h2h-status').textContent='❌ '+e.message;});
+      });
+      [wrap.querySelector('#h2h-p1'),wrap.querySelector('#h2h-p2')].forEach(function(inp){inp&&inp.addEventListener('keydown',function(e){if(e.key==='Enter')wrap.querySelector('#h2h-go').click();});});
+    };
+
+    body.appendChild(wrap);
+    var nv=sh.getElementById('nav-h2h');
+    if(nv){
+      nv.addEventListener('click',function(){
+        ['home-view','pw','mw'].forEach(function(id){var el=sh.getElementById(id);if(el)el.style.display='none';});
+        sh.querySelectorAll('.mg').forEach(function(m){m.style.display='none';});
+        sh.querySelectorAll('.nav-item').forEach(function(n){n.classList.remove('active');});
+        nv.classList.add('active');
+        var tt=sh.getElementById('topbar-title');if(tt)tt.textContent='H2H Porovnání';
+        var mw=sh.getElementById('mw');if(mw){mw.style.display='none';if(mw.destroy)mw.destroy();}
+        wrap.style.display='block';
+        if(wrap.render)wrap.render();
+      });
+    }
+    clearInterval(timer);
+  },300);
+})();
