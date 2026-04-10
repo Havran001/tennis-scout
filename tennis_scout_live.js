@@ -1,4 +1,4 @@
-// v1775828346
+// v1775829560
 // ==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
 // ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
@@ -3873,46 +3873,38 @@ function _applyBestHighlights(container){
       var btn=e.target.closest('[data-filter]');
       if(!btn)return;
       e.stopPropagation();
-      var _fkey2=btn.dataset.filter;
+      var fkey=btn.dataset.filter;
+      var cur=window._tsActiveFilter||'all';
       // Kombinovatelné filtry: scheduled + odds
-      if((_fkey2==='scheduled'||_fkey2==='odds')&&window._tsActiveFilter&&window._tsActiveFilter!=='all'&&window._tsActiveFilter!==_fkey2){
-        var _cur2=window._tsActiveFilter;
-        if((_cur2==='scheduled'&&_fkey2==='odds')||(_cur2==='odds'&&_fkey2==='scheduled')){
-          _fkey2='scheduled_odds';
-        } else if(_cur2==='scheduled_odds'){
-          _fkey2='all'; // odznač kombinaci
-        }
-      } else if(_fkey2===window._tsActiveFilter){
-        _fkey2='all'; // odznačení
+      if((fkey==='scheduled'||fkey==='odds')&&cur!=='all'&&cur!==fkey){
+        if((cur==='scheduled'&&fkey==='odds')||(cur==='odds'&&fkey==='scheduled'))fkey='scheduled_odds';
+        else if(cur==='scheduled_odds')fkey='all';
+      } else if(fkey===cur){
+        fkey='all'; // odznačení
       }
-      _activeFilterKey=_fkey2;
-      window._tsActiveFilter=_fkey2;
-      // Pro odds filtr - updatuj data-hasodds před aplikací
-      if(_activeFilterKey==='odds'){
-        var _tsH=document.getElementById('ts-host');
-        var _mw2=_tsH&&_tsH.shadowRoot?_tsH.shadowRoot.getElementById('mw'):null;
-        if(_mw2){
-          _mw2.querySelectorAll('.mrow').forEach(function(r){
-            var oddsEls=r.querySelectorAll('[style*="position:absolute"] div');
-            var hasOdds=false;
-            oddsEls.forEach(function(el){
-              var txt=(el.innerText||'').trim();
-              if(txt&&txt!=='?'&&!isNaN(parseFloat(txt)))hasOdds=true;
-            });
-            r.dataset.hasodds=hasOdds?'1':'0';
-          });
-          // Aktualizuj počítadlo v hlavičce
-          var oddsBtn=_mw2.querySelector('[data-filter="odds"]');
-          if(oddsBtn){
-            var oddsCount=_mw2.querySelectorAll('.mrow[data-hasodds="1"]').length;
-            oddsBtn.textContent='S kurzem 💰 ('+oddsCount+')';
-          }
-        }
+      window._tsActiveFilter=fkey;
+      var _mwNow=document.getElementById('ts-host').shadowRoot.getElementById('mw');
+      if(!_mwNow)return;
+      // Updatuj hasodds pro odds filtry
+      if(fkey==='odds'||fkey==='scheduled_odds'){
+        _mwNow.querySelectorAll('.mrow').forEach(function(r){
+          var els=r.querySelectorAll('[style*="position:absolute"] div');
+          var hasO=false;
+          els.forEach(function(el){var t=(el.innerText||'').trim();if(t&&t!=='?'&&!isNaN(parseFloat(t)))hasO=true;});
+          r.dataset.hasodds=hasO?'1':'0';
+        });
       }
-      _doApplyFilter();
-      _mw.querySelectorAll('[data-filter]').forEach(function(b){
-        var on=b.dataset.filter===_activeFilterKey;
-        var c=_activeFilterKey==='live'?'#f85149':_activeFilterKey==='scheduled'?'#38bdf8':_activeFilterKey==='odds'?'#FFD700':'rgba(255,255,255,.8)';
+      // Filtruj
+      _mwNow.querySelectorAll('.mrow').forEach(function(r){
+        var st=r.dataset.status||'';var ho=r.dataset.hasodds==='1';
+        var show=fkey==='all'||(fkey==='live'&&st==='live')||(fkey==='finished'&&st==='finished')||(fkey==='scheduled'&&st==='scheduled')||(fkey==='odds'&&ho)||(fkey==='scheduled_odds'&&st==='scheduled'&&ho);
+        r.style.display=show?'':'none';
+      });
+      // Zvýrazni tlačítka
+      _mwNow.querySelectorAll('[data-filter]').forEach(function(b){
+        var k=b.dataset.filter;
+        var on=k===fkey||(fkey==='scheduled_odds'&&(k==='scheduled'||k==='odds'));
+        var c=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
         b.style.borderColor=on?c:'rgba(255,255,255,.12)';
         b.style.color=on?c:'rgba(255,255,255,.3)';
         b.style.fontWeight=on?'700':'400';
