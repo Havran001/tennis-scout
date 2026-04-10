@@ -1,4 +1,4 @@
-// v1775826488
+// v1775827383
 // ==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
 // ATP/WTA/Challenger: statická data 2026 (z atptour.com PDF + wtatennis.com)
@@ -1907,7 +1907,7 @@ function buildMatchesTab(sh){
           }
           this.querySelectorAll('.mrow').forEach(function(r){
             var st=r.dataset.status||'';
-            var show=_fk==='all'||(_fk==='live'&&st==='live')||(_fk==='finished'&&st==='finished')||(_fk==='scheduled'&&st==='scheduled')||(_fk==='odds'&&r.dataset.hasodds==='1');
+            var show=_fk==='all'||(_fk==='live'&&st==='live')||(_fk==='finished'&&st==='finished')||(_fk==='scheduled'&&st==='scheduled')||(_fk==='odds'&&r.dataset.hasodds==='1')||(_fk==='scheduled_odds'&&st==='scheduled'&&r.dataset.hasodds==='1');
             r.style.display=show?'':'none';
           });
           // Zvyrazni aktivni tlacitko
@@ -2400,6 +2400,15 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       if(!btn)return;
       e.stopPropagation();
       var fkey=btn.dataset.filter;
+      // Kombinovatelné filtry: scheduled + odds
+      if((fkey==='scheduled'||fkey==='odds')&&window._tsActiveFilter&&window._tsActiveFilter!==fkey){
+        var cur=window._tsActiveFilter;
+        if((cur==='scheduled'&&fkey==='odds')||(cur==='odds'&&fkey==='scheduled')){
+          fkey='scheduled_odds'; // kombinace
+        }
+      } else if(fkey===window._tsActiveFilter){
+        fkey='all'; // odznačení
+      }
       _activeFilterKey=fkey;
       window._tsActiveFilter=fkey;
       // Získej aktuální mw - wrap může být starý po re-renderu
@@ -3696,7 +3705,7 @@ function _refreshFilterBar(wrap){
   if(!_rw)return;
   _rw.querySelectorAll('[data-filter]').forEach(function(b){
     var k=b.dataset.filter;
-    var _afNow=window._tsActiveFilter||null;var on=k===_activeFilterKey||k===_afNow||activeFilters.has(k);
+    var _afNow=window._tsActiveFilter||null;var on=k===_activeFilterKey||k===_afNow||activeFilters.has(k)||((_afNow==='scheduled_odds')&&(k==='scheduled'||k==='odds'));
     var c=k==='live'?'#f85149':k==='scheduled'?'#38bdf8':k==='odds'?'#FFD700':'rgba(255,255,255,.8)';
     b.style.borderColor=on?c:'rgba(255,255,255,.12)';
     b.style.color=on?c:'rgba(255,255,255,.3)';
@@ -3850,7 +3859,8 @@ function _applyBestHighlights(container){
         (_activeFilterKey==='live'&&st==='live')||
         (_activeFilterKey==='finished'&&st==='finished')||
         (_activeFilterKey==='scheduled'&&st==='scheduled')||
-        (_activeFilterKey==='odds'&&ho)
+        (_activeFilterKey==='odds'&&ho)||
+        (_activeFilterKey==='scheduled_odds'&&st==='scheduled'&&ho)
       );
       r.style.display=show?'':'none';
     });
