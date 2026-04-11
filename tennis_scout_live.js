@@ -1851,7 +1851,7 @@ function _openAtpPlayer(nameRaw,sh){
   if(navP)navP.click();
   function tryOpen(n){
     var si=sh.querySelector('#ps-i');
-    if(!si){if(n<15)setTimeout(function(){tryOpen(n+1);},100);return;}
+    if(!si){if(n<15)setTimeout(function(){tryOpen(n+1);},500);return;}
     si.value=best.name||'';
     si.dispatchEvent(new Event('input',{bubbles:true}));
     setTimeout(function(){
@@ -4172,7 +4172,7 @@ function _applyBestHighlights(container){
       setTimeout(function(){
         var h2=sh.getElementById('h2hw');if(!h2)return;
         ['h2h-p1','h2h-p2'].forEach(function(id){
-          var inp=h2.querySelector('#'+id);if(!inp||inp.dataset.acSet)return;
+          var inp=h2.querySelector('#'+id);if(!inp)return;inp.dataset.acSet='0';
           var dd=document.createElement('div');
           dd.style.cssText='position:absolute;top:100%;left:0;right:0;background:#1c2128;border:1px solid rgba(255,255,255,.15);border-radius:8px;z-index:9999;max-height:220px;overflow-y:auto;margin-top:3px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;';
           inp.parentNode.style.position='relative';
