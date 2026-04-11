@@ -4144,6 +4144,30 @@ function _applyBestHighlights(container){
       else{html+='<div style="text-align:center;padding:40px;color:rgba(255,255,255,.2);">Žádné vzájemné zápasy v dostupných datech</div>';}
       html+='</div>';
       wrap.querySelector('#h2h-result').innerHTML=html;
+      [p1n,p2n].forEach(function(name){
+        Array.from(wrap.querySelectorAll('#h2h-result div')).forEach(function(d){
+          if(d.textContent.trim()===name&&d.children.length===0){
+            d.style.cursor='pointer';
+            d.style.textDecoration='underline dotted';
+            d.style.textUnderlineOffset='3px';
+            d.addEventListener('click',function(){
+              var sh=document.getElementById('ts-host').shadowRoot;
+              sh.getElementById('nav-players').click();
+              setTimeout(function(){
+                var inp=sh.querySelector('#ps-i');if(!inp)return;
+                inp.value=name.trim().split(' ').pop();
+                inp.dispatchEvent(new Event('input',{bubbles:true}));
+                setTimeout(function(){
+                  var row=Array.from(sh.querySelectorAll('tr.pr')||[]).find(function(r){
+                    return(r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();
+                  });
+                  if(row)row.click();
+                },400);
+              },300);
+            });
+          }
+        });
+      });
       // Klikatelná jména hráčů
       [p1n,p2n].forEach(function(name){
         Array.from(wrap.querySelectorAll('#h2h-result div')).forEach(function(d){
