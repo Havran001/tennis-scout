@@ -4160,32 +4160,43 @@ function _applyBestHighlights(container){
   },300);
 })();
 
+
+// AC init - spustí se po každém wrap.render()
 (function(){
+  var _origH2HNavClick = null;
   setInterval(function(){
     var sh=(document.getElementById('ts-host')||{}).shadowRoot;if(!sh)return;
-    var h2hw=sh.getElementById('h2hw');if(!h2hw)return;
-    ['h2h-p1','h2h-p2'].forEach(function(id){
-      var inp=h2hw.querySelector('#'+id);if(!inp||inp.dataset.acSet)return;
-      var dd=document.createElement('div');
-      dd.style.cssText='position:absolute;top:100%;left:0;right:0;background:#1c2128;border:1px solid rgba(255,255,255,.15);border-radius:8px;z-index:9999;max-height:220px;overflow-y:auto;margin-top:3px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;';
-      inp.parentNode.style.position='relative';inp.parentNode.appendChild(dd);inp.dataset.acSet='1';
-      inp.addEventListener('input',function(){
-        var q=inp.value.trim().toLowerCase();dd.innerHTML='';
-        if(!q){dd.style.display='none';return;}
-        var ms=(window.ATP_PLAYERS||[]).filter(function(p){return(p.name||'').toLowerCase().includes(q)||(p.full_name||'').toLowerCase().includes(q);}).slice(0,10);
-        if(!ms.length){dd.style.display='none';return;}
-        ms.forEach(function(p){
-          var it=document.createElement('div');
-          it.style.cssText='padding:8px 12px;cursor:pointer;font-size:13px;color:#e6edf3;border-bottom:1px solid rgba(255,255,255,.05);display:flex;align-items:center;justify-content:space-between;';
-          it.innerHTML='<span style="font-weight:600;">'+(p.full_name||p.name)+'</span><span style="font-size:10px;color:rgba(255,255,255,.35);">#'+p.rank+'</span>';
-          it.addEventListener('mousedown',function(e){e.preventDefault();inp.value=p.full_name||p.name;dd.style.display='none';});
-          it.addEventListener('mouseover',function(){it.style.background='rgba(0,200,83,.1)';});
-          it.addEventListener('mouseout',function(){it.style.background='';});
-          dd.appendChild(it);
+    var nv=sh.getElementById('nav-h2h');if(!nv||nv.dataset.acHooked)return;
+    nv.dataset.acHooked='1';
+    nv.addEventListener('click',function(){
+      setTimeout(function(){
+        var h2=sh.getElementById('h2hw');if(!h2)return;
+        ['h2h-p1','h2h-p2'].forEach(function(id){
+          var inp=h2.querySelector('#'+id);if(!inp||inp.dataset.acSet)return;
+          var dd=document.createElement('div');
+          dd.style.cssText='position:absolute;top:100%;left:0;right:0;background:#1c2128;border:1px solid rgba(255,255,255,.15);border-radius:8px;z-index:9999;max-height:220px;overflow-y:auto;margin-top:3px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;';
+          inp.parentNode.style.position='relative';
+          inp.parentNode.appendChild(dd);
+          inp.dataset.acSet='1';
+          inp.addEventListener('input',function(){
+            var q=inp.value.trim().toLowerCase();dd.innerHTML='';
+            if(!q){dd.style.display='none';return;}
+            var ms=(window.ATP_PLAYERS||[]).filter(function(p){return(p.name||'').toLowerCase().includes(q)||(p.full_name||'').toLowerCase().includes(q);}).slice(0,10);
+            if(!ms.length){dd.style.display='none';return;}
+            ms.forEach(function(p){
+              var it=document.createElement('div');
+              it.style.cssText='padding:8px 12px;cursor:pointer;font-size:13px;color:#e6edf3;border-bottom:1px solid rgba(255,255,255,.05);display:flex;align-items:center;justify-content:space-between;';
+              it.innerHTML='<span style="font-weight:600;">'+(p.full_name||p.name)+'</span><span style="font-size:10px;color:rgba(255,255,255,.35);">#'+p.rank+'</span>';
+              it.addEventListener('mousedown',function(e){e.preventDefault();inp.value=p.full_name||p.name;dd.style.display='none';});
+              it.addEventListener('mouseover',function(){it.style.background='rgba(0,200,83,.1)';});
+              it.addEventListener('mouseout',function(){it.style.background='';});
+              dd.appendChild(it);
+            });
+            dd.style.display='block';
+          });
+          inp.addEventListener('blur',function(){setTimeout(function(){dd.style.display='none';},150);});
         });
-        dd.style.display='block';
-      });
-      inp.addEventListener('blur',function(){setTimeout(function(){dd.style.display='none';},150);});
+      },100);
     });
   },500);
 })();
