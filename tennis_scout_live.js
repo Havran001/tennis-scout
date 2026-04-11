@@ -3170,7 +3170,7 @@ fetchITF(txt=>{setP(txt);}).then(itfItems=>{
 }).catch(e=>{addErr('ITF: '+e.message);});
 
 
-// === BET365 ODDS ===
+// ===  ODDS ===
 var _bet365Url='https://betano-odds.vavra-radovan.workers.dev/bet365-odds';
 var _bet365Odds=null,_bet365Updated=null;var _bet365BaseOdds=(function(){try{var s=localStorage.getItem('ts_bet365_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
 var _runBet365=function(){
@@ -3211,7 +3211,7 @@ function _bet365Col(p1,p2){
     +'<div style="font-size:12px;font-weight:700;color:'+c2+';line-height:1.2;">'+a2+o2+'</div>'
     +'</div>';
 }
-// === KONEC BET365 ODDS ===
+// === KONEC  ODDS ===
 
 // === BETANO ODDS ===
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'https://betano-odds.vavra-radovan.workers.dev/odds';
