@@ -4161,38 +4161,38 @@ function _applyBestHighlights(container){
 })();
 
 (function(){
-  function addAC(h2hw){
-    ['h2h-p1','h2h-p2'].forEach(function(id){
-      var inp=h2hw.querySelector('#'+id);if(!inp)return;
-      var dd=document.createElement('div');
-      dd.style.cssText='position:absolute;top:100%;left:0;right:0;background:#1c2128;border:1px solid rgba(255,255,255,.15);border-radius:8px;z-index:9999;max-height:220px;overflow-y:auto;margin-top:3px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;';
-      inp.parentNode.style.position='relative';
-      inp.parentNode.appendChild(dd);
-      inp.oninput=function(){
-        var q=inp.value.trim().toLowerCase();dd.innerHTML='';
-        if(!q){dd.style.display='none';return;}
-        var ms=(window.ATP_PLAYERS||[]).filter(function(p){return(p.name||'').toLowerCase().includes(q)||(p.full_name||'').toLowerCase().includes(q);}).slice(0,10);
-        if(!ms.length){dd.style.display='none';return;}
-        ms.forEach(function(p){
-          var it=document.createElement('div');
-          it.style.cssText='padding:8px 12px;cursor:pointer;font-size:13px;color:#e6edf3;border-bottom:1px solid rgba(255,255,255,.05);display:flex;align-items:center;justify-content:space-between;';
-          it.innerHTML='<span style="font-weight:600;">'+(p.full_name||p.name)+'</span><span style="font-size:10px;color:rgba(255,255,255,.35);">#'+p.rank+'</span>';
-          it.onmousedown=function(e){e.preventDefault();inp.value=p.full_name||p.name;dd.style.display='none';};
-          it.onmouseover=function(){it.style.background='rgba(0,200,83,.1)';};
-          it.onmouseout=function(){it.style.background='';};
-          dd.appendChild(it);
-        });
-        dd.style.display='block';
-      };
-      inp.onblur=function(){setTimeout(function(){dd.style.display='none';},150);};
-    });
-  }
   setInterval(function(){
     var sh=(document.getElementById('ts-host')||{}).shadowRoot;if(!sh)return;
-    var h2hw=sh.getElementById('h2hw');if(!h2hw||h2hw._acPatched)return;
-    if(typeof h2hw.render!=='function')return;
-    h2hw._acPatched=true;
-    var _orig=h2hw.render;
-    h2hw.render=function(){_orig.call(h2hw);addAC(h2hw);};
+    var hw=sh.getElementById('h2hw');if(!hw||hw._acp)return;
+    if(typeof hw.render!=='function')return;
+    hw._acp=true;
+    var or=hw.render;
+    hw.render=function(){
+      or.call(hw);
+      ['h2h-p1','h2h-p2'].forEach(function(id){
+        var i=hw.querySelector('#'+id);if(!i)return;
+        var dd=document.createElement('div');
+        dd.style.cssText='position:absolute;top:100%;left:0;right:0;background:#1c2128;border:1px solid rgba(255,255,255,.15);border-radius:8px;z-index:9999;max-height:220px;overflow-y:auto;margin-top:3px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;';
+        i.parentNode.style.position='relative';
+        i.parentNode.appendChild(dd);
+        i.oninput=function(){
+          var q=i.value.trim().toLowerCase();dd.innerHTML='';
+          if(!q){dd.style.display='none';return;}
+          var ms=(window.ATP_PLAYERS||[]).filter(function(p){return(p.name||'').toLowerCase().includes(q)||(p.full_name||'').toLowerCase().includes(q);}).slice(0,10);
+          if(!ms.length){dd.style.display='none';return;}
+          ms.forEach(function(p){
+            var it=document.createElement('div');
+            it.style.cssText='padding:8px 12px;cursor:pointer;font-size:13px;color:#e6edf3;border-bottom:1px solid rgba(255,255,255,.05);display:flex;align-items:center;justify-content:space-between;';
+            it.innerHTML='<span style="font-weight:600;">'+(p.full_name||p.name)+'</span><span style="font-size:10px;color:rgba(255,255,255,.35);">#'+p.rank+'</span>';
+            it.onmousedown=function(e){e.preventDefault();i.value=p.full_name||p.name;dd.style.display='none';};
+            it.onmouseover=function(){it.style.background='rgba(0,200,83,.1)';};
+            it.onmouseout=function(){it.style.background='';};
+            dd.appendChild(it);
+          });
+          dd.style.display='block';
+        };
+        i.onblur=function(){setTimeout(function(){dd.style.display='none';},150);};
+      });
+    };
   },300);
 })();
