@@ -2022,6 +2022,30 @@ function buildH2HTab(sh){
       wrap.querySelector('#h2h-result').innerHTML='';
       Promise.all([loadHistory(p1.id),loadHistory(p2.id)]).then(function(res){
         wrap.querySelector('#h2h-status').textContent='';
+    // Klik na jméno hráče v H2H -> přejdi na jeho kartu
+    wrap.querySelectorAll('.h2h-player-link').forEach(function(el){
+      el.addEventListener('click',function(){
+        var name=el.dataset.pname;
+        if(!name)return;
+        var shadow=document.getElementById('ts-host').shadowRoot;
+        shadow.getElementById('nav-players').click();
+        setTimeout(function(){
+          var inp=shadow.querySelector('#ps-i');
+          if(!inp)return;
+          // Vezmi příjmení pro hledání
+          var parts=name.trim().split(' ');
+          var q=parts[parts.length-1];
+          inp.value=q;
+          inp.dispatchEvent(new Event('input',{bubbles:true}));
+          setTimeout(function(){
+            var row=Array.from(shadow.querySelectorAll('tr.pr')||[]).find(function(r){
+              return (r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();
+            });
+            if(row)row.click();
+          },400);
+        },300);
+      });
+    });
         renderH2H(p1,p2,res[0],res[1]);
       }).catch(function(e){wrap.querySelector('#h2h-status').textContent='❌ '+e.message;});
     });
@@ -4135,7 +4159,31 @@ function _applyBestHighlights(container){
         Promise.all([
           fetch(GHB+p1.id+'.json?v='+Date.now()).then(function(r){return r.json();}),
           fetch(GHB+p2.id+'.json?v='+Date.now()).then(function(r){return r.json();})
-        ]).then(function(res){wrap.querySelector('#h2h-status').textContent='';renderH2H(p1,p2,res[0],res[1]);})
+        ]).then(function(res){wrap.querySelector('#h2h-status').textContent='';
+    // Klik na jméno hráče v H2H -> přejdi na jeho kartu
+    wrap.querySelectorAll('.h2h-player-link').forEach(function(el){
+      el.addEventListener('click',function(){
+        var name=el.dataset.pname;
+        if(!name)return;
+        var shadow=document.getElementById('ts-host').shadowRoot;
+        shadow.getElementById('nav-players').click();
+        setTimeout(function(){
+          var inp=shadow.querySelector('#ps-i');
+          if(!inp)return;
+          // Vezmi příjmení pro hledání
+          var parts=name.trim().split(' ');
+          var q=parts[parts.length-1];
+          inp.value=q;
+          inp.dispatchEvent(new Event('input',{bubbles:true}));
+          setTimeout(function(){
+            var row=Array.from(shadow.querySelectorAll('tr.pr')||[]).find(function(r){
+              return (r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();
+            });
+            if(row)row.click();
+          },400);
+        },300);
+      });
+    });renderH2H(p1,p2,res[0],res[1]);})
         .catch(function(e){wrap.querySelector('#h2h-status').textContent='❌ '+e.message;});
       });
       [wrap.querySelector('#h2h-p1'),wrap.querySelector('#h2h-p2')].forEach(function(inp){inp&&inp.addEventListener('keydown',function(e){if(e.key==='Enter')wrap.querySelector('#h2h-go').click();});});
