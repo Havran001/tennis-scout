@@ -2022,30 +2022,6 @@ function buildH2HTab(sh){
       wrap.querySelector('#h2h-result').innerHTML='';
       Promise.all([loadHistory(p1.id),loadHistory(p2.id)]).then(function(res){
         wrap.querySelector('#h2h-status').textContent='';
-    // Klik na jméno hráče v H2H -> přejdi na jeho kartu
-    wrap.querySelectorAll('.h2h-player-link').forEach(function(el){
-      el.addEventListener('click',function(){
-        var name=el.dataset.pname;
-        if(!name)return;
-        var shadow=document.getElementById('ts-host').shadowRoot;
-        shadow.getElementById('nav-players').click();
-        setTimeout(function(){
-          var inp=shadow.querySelector('#ps-i');
-          if(!inp)return;
-          // Vezmi příjmení pro hledání
-          var parts=name.trim().split(' ');
-          var q=parts[parts.length-1];
-          inp.value=q;
-          inp.dispatchEvent(new Event('input',{bubbles:true}));
-          setTimeout(function(){
-            var row=Array.from(shadow.querySelectorAll('tr.pr')||[]).find(function(r){
-              return (r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();
-            });
-            if(row)row.click();
-          },400);
-        },300);
-      });
-    });
         renderH2H(p1,p2,res[0],res[1]);
       }).catch(function(e){wrap.querySelector('#h2h-status').textContent='❌ '+e.message;});
     });
@@ -3224,8 +3200,8 @@ function _bet365Col(p1,p2){
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
   var _best=_getBestOdds(p1,p2);
-  var _isBest1=odds&&_best.best1>0&&Math.round((odds.o1||0)*100)===Math.round(_best.best1*100);
-  var _isBest2=odds&&_best.best2>0&&Math.round((odds.o2||0)*100)===Math.round(_best.best2*100);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
   var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:895px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:48px;gap:3px;">'
@@ -3598,8 +3574,8 @@ function _kbCol(p1,p2){
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
   var _best=_getBestOdds(p1,p2);
-  var _isBest1=odds&&_best.best1>0&&Math.round((odds.o1||0)*100)===Math.round(_best.best1*100);
-  var _isBest2=odds&&_best.best2>0&&Math.round((odds.o2||0)*100)===Math.round(_best.best2*100);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
   var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:520px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:48px;text-align:center;">'
@@ -3708,8 +3684,8 @@ function _fortunaCol(p1,p2){
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
   var _best=_getBestOdds(p1,p2);
-  var _isBest1=odds&&_best.best1>0&&Math.round((odds.o1||0)*100)===Math.round(_best.best1*100);
-  var _isBest2=odds&&_best.best2>0&&Math.round((odds.o2||0)*100)===Math.round(_best.best2*100);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
   var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:580px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:48px;text-align:center;">'
@@ -3773,8 +3749,8 @@ function _merkurCol(p1,p2){
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
   var _best=_getBestOdds(p1,p2);
-  var _isBest1=odds&&_best.best1>0&&Math.round((odds.o1||0)*100)===Math.round(_best.best1*100);
-  var _isBest2=odds&&_best.best2>0&&Math.round((odds.o2||0)*100)===Math.round(_best.best2*100);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
   var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:640px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:48px;text-align:center;">'
@@ -3826,8 +3802,8 @@ function _allwynCol(p1,p2){
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
   var _best=_getBestOdds(p1,p2);
-  var _isBest1=odds&&_best.best1>0&&Math.round((odds.o1||0)*100)===Math.round(_best.best1*100);
-  var _isBest2=odds&&_best.best2>0&&Math.round((odds.o2||0)*100)===Math.round(_best.best2*100);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
   var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:700px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;">'
@@ -3959,8 +3935,8 @@ function _synotCol(p1,p2){
     if(a2&&!a1)a1=(d2>0)?'<span style="color:#f85149;font-size:10px;line-height:1;">▼</span>':'<span style="color:#3fb950;font-size:10px;line-height:1;">▲</span>';
   }
   var _best=_getBestOdds(p1,p2);
-  var _isBest1=odds&&_best.best1>0&&Math.round((odds.o1||0)*100)===Math.round(_best.best1*100);
-  var _isBest2=odds&&_best.best2>0&&Math.round((odds.o2||0)*100)===Math.round(_best.best2*100);
+  var _isBest1=odds&&_best.best1>0&&Math.abs((odds.o1||0)-_best.best1)<0.02;
+  var _isBest2=odds&&_best.best2>0&&Math.abs((odds.o2||0)-_best.best2)<0.02;
   var c1=_isBest1?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   var c2=_isBest2?'#FFD700':odds?'#e6edf3':'rgba(255,255,255,.2)';
   return '<div style="position:absolute;left:765px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;min-width:52px;text-align:center;">'
@@ -4144,6 +4120,26 @@ function _applyBestHighlights(container){
       else{html+='<div style="text-align:center;padding:40px;color:rgba(255,255,255,.2);">Žádné vzájemné zápasy v dostupných datech</div>';}
       html+='</div>';
       wrap.querySelector('#h2h-result').innerHTML=html;
+      // Klik na jméno -> karta hráče
+      wrap.querySelectorAll('.h2h-plink').forEach(function(el){
+        el.addEventListener('click',function(){
+          var name=el.dataset.name;if(!name)return;
+          var sh=document.getElementById('ts-host').shadowRoot;
+          sh.getElementById('nav-players').click();
+          setTimeout(function(){
+            var inp=sh.querySelector('#ps-i');if(!inp)return;
+            var parts=name.trim().split(' ');
+            inp.value=parts[parts.length-1];
+            inp.dispatchEvent(new Event('input',{bubbles:true}));
+            setTimeout(function(){
+              var row=Array.from(sh.querySelectorAll('tr.pr')||[]).find(function(r){
+                return (r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();
+              });
+              if(row)row.click();
+            },400);
+          },300);
+        });
+      });
     }
 
     wrap.render=function(){
@@ -4159,31 +4155,7 @@ function _applyBestHighlights(container){
         Promise.all([
           fetch(GHB+p1.id+'.json?v='+Date.now()).then(function(r){return r.json();}),
           fetch(GHB+p2.id+'.json?v='+Date.now()).then(function(r){return r.json();})
-        ]).then(function(res){wrap.querySelector('#h2h-status').textContent='';
-    // Klik na jméno hráče v H2H -> přejdi na jeho kartu
-    wrap.querySelectorAll('.h2h-player-link').forEach(function(el){
-      el.addEventListener('click',function(){
-        var name=el.dataset.pname;
-        if(!name)return;
-        var shadow=document.getElementById('ts-host').shadowRoot;
-        shadow.getElementById('nav-players').click();
-        setTimeout(function(){
-          var inp=shadow.querySelector('#ps-i');
-          if(!inp)return;
-          // Vezmi příjmení pro hledání
-          var parts=name.trim().split(' ');
-          var q=parts[parts.length-1];
-          inp.value=q;
-          inp.dispatchEvent(new Event('input',{bubbles:true}));
-          setTimeout(function(){
-            var row=Array.from(shadow.querySelectorAll('tr.pr')||[]).find(function(r){
-              return (r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();
-            });
-            if(row)row.click();
-          },400);
-        },300);
-      });
-    });renderH2H(p1,p2,res[0],res[1]);})
+        ]).then(function(res){wrap.querySelector('#h2h-status').textContent='';renderH2H(p1,p2,res[0],res[1]);})
         .catch(function(e){wrap.querySelector('#h2h-status').textContent='❌ '+e.message;});
       });
       [wrap.querySelector('#h2h-p1'),wrap.querySelector('#h2h-p2')].forEach(function(inp){inp&&inp.addEventListener('keydown',function(e){if(e.key==='Enter')wrap.querySelector('#h2h-go').click();});});
@@ -4201,7 +4173,6 @@ function _applyBestHighlights(container){
         var mw=sh.getElementById('mw');if(mw){mw.style.display='none';if(mw.destroy)mw.destroy();}
         wrap.style.display='block';
         if(wrap.render)wrap.render();
-    // Autocomplete
     function setupH2HAC(inputId){
       var inp=wrap.querySelector('#'+inputId);if(!inp)return;
       var dd=document.createElement('div');dd.style.cssText='position:absolute;top:100%;left:0;right:0;background:#1c2128;border:1px solid rgba(255,255,255,.15);border-radius:8px;z-index:999;max-height:220px;overflow-y:auto;margin-top:3px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;';
@@ -4209,8 +4180,7 @@ function _applyBestHighlights(container){
       inp.addEventListener('input',function(){
         var q=inp.value.trim().toLowerCase();dd.innerHTML='';
         if(!q){dd.style.display='none';return;}
-        var pl=window.ATP_PLAYERS||[];
-        var ms=pl.filter(function(p){var n=(p.name||'').toLowerCase(),fn=(p.full_name||'').toLowerCase();return n.includes(q)||fn.includes(q);}).slice(0,10);
+        var ms=(window.ATP_PLAYERS||[]).filter(function(p){return(p.name||'').toLowerCase().includes(q)||(p.full_name||'').toLowerCase().includes(q);}).slice(0,10);
         if(!ms.length){dd.style.display='none';return;}
         ms.forEach(function(p){
           var it=document.createElement('div');
@@ -4224,7 +4194,6 @@ function _applyBestHighlights(container){
         dd.style.display='block';
       });
       inp.addEventListener('blur',function(){setTimeout(function(){dd.style.display='none';},150);});
-      inp.addEventListener('focus',function(){inp.dispatchEvent(new Event('input'));});
     }
     setupH2HAC('h2h-p1');
     setupH2HAC('h2h-p2');
