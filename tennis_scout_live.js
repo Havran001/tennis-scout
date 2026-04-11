@@ -2026,7 +2026,6 @@ function buildH2HTab(sh){
       }).catch(function(e){wrap.querySelector('#h2h-status').textContent='❌ '+e.message;});
     });
     [wrap.querySelector('#h2h-p1'),wrap.querySelector('#h2h-p2')].forEach(function(inp){inp&&inp.addEventListener('keydown',function(e){if(e.key==='Enter')wrap.querySelector('#h2h-go').click();});});
-    );
   }
   wrap.render=render;
   return wrap;
@@ -4121,56 +4120,7 @@ function _applyBestHighlights(container){
       else{html+='<div style="text-align:center;padding:40px;color:rgba(255,255,255,.2);">Žádné vzájemné zápasy v dostupných datech</div>';}
       html+='</div>';
       wrap.querySelector('#h2h-result').innerHTML=html;
-      [p1n,p2n].forEach(function(name){
-        Array.from(wrap.querySelectorAll('#h2h-result div')).forEach(function(d){
-          if(d.textContent.trim()===name&&d.children.length===0){
-            d.style.cursor='pointer';
-            d.style.textDecoration='underline dotted';
-            d.style.textUnderlineOffset='3px';
-            d.addEventListener('click',function(){
-              var sh=document.getElementById('ts-host').shadowRoot;
-              sh.getElementById('nav-players').click();
-              setTimeout(function(){
-                var inp=sh.querySelector('#ps-i');if(!inp)return;
-                inp.value=name.trim().split(' ').pop();
-                inp.dispatchEvent(new Event('input',{bubbles:true}));
-                setTimeout(function(){
-                  var row=Array.from(sh.querySelectorAll('tr.pr')||[]).find(function(r){
-                    return(r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();
-                  });
-                  if(row)row.click();
-                },400);
-              },300);
-            });
-          }
-        });
-      });
-      // Klikatelná jména hráčů
-      [p1n,p2n].forEach(function(name){
-        Array.from(wrap.querySelectorAll('#h2h-result div')).forEach(function(d){
-          if(d.textContent.trim()===name&&d.children.length===0){
-            d.style.cursor='pointer';
-            d.style.textDecoration='underline dotted';
-            d.style.textUnderlineOffset='3px';
-            d.addEventListener('click',function(){
-              var sh=document.getElementById('ts-host').shadowRoot;
-              sh.getElementById('nav-players').click();
-              setTimeout(function(){
-                var inp=sh.querySelector('#ps-i');if(!inp)return;
-                inp.value=name.trim().split(' ').pop();
-                inp.dispatchEvent(new Event('input',{bubbles:true}));
-                setTimeout(function(){
-                  var row=Array.from(sh.querySelectorAll('tr.pr')||[]).find(function(r){
-                    return(r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();
-                  });
-                  if(row)row.click();
-                },400);
-              },300);
-            });
-          }
-        });
-      });
-      wrap.querySelectorAll('.h2h-plink').forEach(function(el){el.addEventListener('click',function(){var name=el.dataset.name;if(!name)return;var sh=document.getElementById('ts-host').shadowRoot;sh.getElementById('nav-players').click();setTimeout(function(){var inp=sh.querySelector('#ps-i');if(!inp)return;inp.value=name.trim().split(' ').pop();inp.dispatchEvent(new Event('input',{bubbles:true}));setTimeout(function(){var row=Array.from(sh.querySelectorAll('tr.pr')||[]).find(function(r){return(r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();});if(row)row.click();},400);},300);});});
+      [p1n,p2n].forEach(function(name){Array.from(wrap.querySelectorAll('#h2h-result div')).forEach(function(d){if(d.textContent.trim()===name&&d.children.length===0){d.style.cursor='pointer';d.style.textDecoration='underline dotted';d.style.textUnderlineOffset='3px';d.addEventListener('click',function(){var sh=document.getElementById('ts-host').shadowRoot;sh.getElementById('nav-players').click();setTimeout(function(){var inp=sh.querySelector('#ps-i');if(!inp)return;inp.value=name.trim().split(' ').pop();inp.dispatchEvent(new Event('input',{bubbles:true}));setTimeout(function(){var row=Array.from(sh.querySelectorAll('tr.pr')||[]).find(function(r){return(r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();});if(row)row.click();},400);},300);});}});});
     }
 
     wrap.render=function(){
@@ -4190,7 +4140,6 @@ function _applyBestHighlights(container){
         .catch(function(e){wrap.querySelector('#h2h-status').textContent='❌ '+e.message;});
       });
       [wrap.querySelector('#h2h-p1'),wrap.querySelector('#h2h-p2')].forEach(function(inp){inp&&inp.addEventListener('keydown',function(e){if(e.key==='Enter')wrap.querySelector('#h2h-go').click();});});
-    );
     };
 
     body.appendChild(wrap);
@@ -4211,24 +4160,16 @@ function _applyBestHighlights(container){
   },300);
 })();
 
-// Autocomplete pro H2H - spustí se po každém render()
-(function setupH2HAutocomplete(){
-  var lastRenderTime = 0;
+(function(){
   setInterval(function(){
-    var host=document.getElementById('ts-host');
-    var sh=host&&host.shadowRoot;
-    if(!sh)return;
-    var h2hw=sh.getElementById('h2hw');
-    if(!h2hw||h2hw.style.display==='none')return;
-    // Zkontroluj jestli jsou inputs bez dropdownu
+    var sh=(document.getElementById('ts-host')||{}).shadowRoot;if(!sh)return;
+    var h2hw=sh.getElementById('h2hw');if(!h2hw||h2hw.style.display==='none')return;
     ['h2h-p1','h2h-p2'].forEach(function(id){
-      var inp=h2hw.querySelector('#'+id);
-      if(!inp||inp.dataset.acReady)return;
+      var inp=h2hw.querySelector('#'+id);if(!inp||inp.dataset.acSet)return;
+      inp.dataset.acSet='1';
       var dd=document.createElement('div');
-      dd.className='h2h-ac-dd';
       dd.style.cssText='position:absolute;top:100%;left:0;right:0;background:#1c2128;border:1px solid rgba(255,255,255,.15);border-radius:8px;z-index:9999;max-height:220px;overflow-y:auto;margin-top:3px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;';
-      inp.parentNode.style.position='relative';
-      inp.parentNode.appendChild(dd);
+      inp.parentNode.style.position='relative';inp.parentNode.appendChild(dd);
       inp.addEventListener('input',function(){
         var q=inp.value.trim().toLowerCase();dd.innerHTML='';
         if(!q){dd.style.display='none';return;}
@@ -4246,7 +4187,6 @@ function _applyBestHighlights(container){
         dd.style.display='block';
       });
       inp.addEventListener('blur',function(){setTimeout(function(){dd.style.display='none';},150);});
-      inp.dataset.acReady='1';
     });
   },500);
 })();
