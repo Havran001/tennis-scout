@@ -2439,7 +2439,6 @@ function renderMatches(data){
       h+=_allwynCol(m.p1,m.p2);
       h+=_synotCol(m.p1,m.p2);
       h+=_chanceCol(m.p1,m.p2);
-      h+=_bet365Col(m.p1,m.p2);
           h+='</div></div>';
         });
       } else {
@@ -2511,7 +2510,6 @@ function renderMatches(data){
       h+=_allwynCol(m.p1,m.p2);
       h+=_synotCol(m.p1,m.p2);
       h+=_chanceCol(m.p1,m.p2);
-      h+=_bet365Col(m.p1,m.p2);
           h+='</div></div>';
         });
       });
