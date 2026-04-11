@@ -4166,10 +4166,9 @@ function _applyBestHighlights(container){
     var h2hw=sh.getElementById('h2hw');if(!h2hw)return;
     ['h2h-p1','h2h-p2'].forEach(function(id){
       var inp=h2hw.querySelector('#'+id);if(!inp||inp.dataset.acSet)return;
-      inp.dataset.acSet='1';
-      var dd=inp.ownerDocument.createElement('div');
+      var dd=document.createElement('div');
       dd.style.cssText='position:absolute;top:100%;left:0;right:0;background:#1c2128;border:1px solid rgba(255,255,255,.15);border-radius:8px;z-index:9999;max-height:220px;overflow-y:auto;margin-top:3px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;';
-      inp.parentNode.style.position='relative';inp.parentNode.appendChild(dd);
+      inp.parentNode.style.position='relative';inp.parentNode.appendChild(dd);inp.dataset.acSet='1';
       inp.addEventListener('input',function(){
         var q=inp.value.trim().toLowerCase();dd.innerHTML='';
         if(!q){dd.style.display='none';return;}
