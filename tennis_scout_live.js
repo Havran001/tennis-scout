@@ -1382,7 +1382,7 @@ function _renderMatches(){
                 '<td class="ta-num">'+(m.rank||'')+'</td>',
                 '<td class="ta-num">'+(m.opp_rank||'')+'</td>',
                 '<td class="mh-opp-link" data-opponent="'+(m.opponent||'')+'" style="cursor:pointer;color:#60a5fa;text-decoration:underline dotted;text-underline-offset:3px;">'+_fmtOpp(m.opponent)+'</td>',
-                '<td class="ta-score">'+(m.score||'')+(m.result&&m.score?' <b style="color:#FFD700;">'+(m.result==='W'?p1n:p2n).split(' ').pop()+'</b>':'')+'</td>',
+                '<td class="ta-score">'+(m.score||'')+'</td>',
                 '<td class="ta-odds">'+(m.odds||'')+'</td>',
                 '<td class="ta-num">'+(m.dr||'')+'</td>',
                 '<td class="ta-num">'+(m.a_pct||'')+'</td>',
@@ -1962,7 +1962,7 @@ function buildH2HTab(sh){
       html+='<div style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.04);">Vzájemné zápasy ('+h2h.length+')</div>';
       html+='<table style="width:100%;border-collapse:collapse;">';
       html+='<thead><tr>';
-      ['Datum','Turnaj','Povrch','Kolo','Rk','vRk','Skóre','DR','A%','vA%','1st%','2nd%','T',''].forEach(function(c){html+='<th style="padding:5px 8px;font-size:8px;color:rgba(255,255,255,.25);letter-spacing:1px;text-align:left;border-bottom:1px solid rgba(255,255,255,.06);">'+c+'</th>';});
+      ['Datum','Turnaj','Povrch','Kolo','Skóre','DR','A%','vA%','1st%','2nd%','T'].forEach(function(c){html+='<th style="padding:5px 8px;font-size:8px;color:rgba(255,255,255,.25);letter-spacing:1px;text-align:left;border-bottom:1px solid rgba(255,255,255,.06);">'+c+'</th>';});
       html+='</tr></thead><tbody>';
       h2h.forEach(function(m,i){
         var bg=i%2===0?'transparent':'rgba(255,255,255,.012)';
@@ -4116,11 +4116,11 @@ function _applyBestHighlights(container){
       html+='</div>';
       var sk=Object.keys(surf);
       if(sk.length){html+='<div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:12px 14px;margin-top:12px;"><div style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">H2H podle povrchu</div><div style="display:flex;gap:10px;">'+sk.map(function(s){var d=surf[s];return '<div style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:11px;font-weight:700;color:'+sColor(s)+';margin-bottom:3px;">'+s+'</div><div style="font-size:18px;font-weight:800;color:#fff;">'+d.w+'–'+d.l+'</div><div style="font-size:9px;color:rgba(255,255,255,.25);">'+(d.w+d.l)+' záp.</div></div>';}).join('')+'</div></div>';}
-      if(h2hM.length){html+='<div style="margin-top:14px;"><div style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.04);">Vzájemné zápasy ('+h2hM.length+')</div><table style="width:100%;border-collapse:collapse;"><thead><tr>'+['Datum','Turnaj','Povrch','Kolo','Rk','vRk','Skóre','DR','A%','vA%','1st%','2nd%','T',''].map(function(c){return '<th style="padding:4px 8px;font-size:8px;color:rgba(255,255,255,.25);letter-spacing:1px;text-align:left;border-bottom:1px solid rgba(255,255,255,.06);">'+c+'</th>';}).join('')+'</tr></thead><tbody>'+h2hM.map(function(m,i){var bg=i%2===0?'transparent':'rgba(255,255,255,.012)';return '<tr style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,.03);"><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+fDate(m.date)+'</td><td style="padding:5px 8px;font-size:11px;color:#e6edf3;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+(m.tournament||'—')+'</td><td style="padding:5px 8px;"><span style="font-size:9px;font-weight:700;color:'+sColor(m.surface)+';background:rgba(255,255,255,.05);padding:2px 6px;border-radius:3px;">'+sLabel(m.surface||'')+'</span></td><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+(m.round||'—')+'</td><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+(m.rank||'—')+'</td><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+(m.opp_rank||'—')+'</td><td style="padding:5px 8px;font-size:12px;font-weight:600;font-family:monospace;color:#e6edf3;">'+(m.score||'—')+'</td><td style="padding:5px 8px;font-size:13px;font-weight:800;color:'+rColor(m.result)+';"> '+(m.result||'?')+'</td>'+'<td style="padding:4px 6px;font-size:10px;color:rgba(255,255,255,.4);font-family:monospace;">'+(m.dr||'—')+'</td><td style="padding:4px 6px;font-size:10px;color:rgba(255,255,255,.4);font-family:monospace;">'+(m.a_pct||'—')+'</td><td style="padding:4px 6px;font-size:10px;color:rgba(255,255,255,.4);font-family:monospace;">'+(m.va_pct||'—')+'</td><td style="padding:4px 6px;font-size:10px;color:rgba(255,255,255,.4);font-family:monospace;">'+(m.first_pct||'—')+'</td><td style="padding:4px 6px;font-size:10px;color:rgba(255,255,255,.4);font-family:monospace;">'+(m.second_pct||'—')+'</td><td style="padding:4px 6px;font-size:10px;color:rgba(255,255,255,.4);">'+(m.match_time||'—')+'</td>'+'</tr>';}).join('')+'</tbody></table></div>';}
+      if(h2hM.length){html+='<div style="margin-top:14px;"><div style="font-size:9px;color:rgba(255,255,255,.25);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.04);">Vzájemné zápasy ('+h2hM.length+')</div><table style="width:100%;border-collapse:collapse;"><thead><tr>'+['Datum','Turnaj','Povrch','Kolo','Skóre','DR','A%','vA%','1st%','2nd%','T'].map(function(c){return '<th style="padding:4px 8px;font-size:8px;color:rgba(255,255,255,.25);letter-spacing:1px;text-align:left;border-bottom:1px solid rgba(255,255,255,.06);">'+c+'</th>';}).join('')+'</tr></thead><tbody>'+h2hM.map(function(m,i){var bg=i%2===0?'transparent':'rgba(255,255,255,.012)';return '<tr style="background:'+bg+';border-bottom:1px solid rgba(255,255,255,.03);"><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+fDate(m.date)+'</td><td style="padding:5px 8px;font-size:11px;color:#e6edf3;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+(m.tournament||'—')+'</td><td style="padding:5px 8px;"><span style="font-size:9px;font-weight:700;color:'+sColor(m.surface)+';background:rgba(255,255,255,.05);padding:2px 6px;border-radius:3px;">'+sLabel(m.surface||'')+'</span></td><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+(m.round||'—')+'</td><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+(m.rank||'—')+'</td><td style="padding:5px 8px;font-size:11px;color:rgba(255,255,255,.4);">'+(m.opp_rank||'—')+'</td><td style="padding:5px 8px;font-size:12px;font-weight:600;font-family:monospace;color:#e6edf3;">'+(m.score||'—')+'</td><td style="padding:5px 8px;font-size:13px;font-weight:800;color:'+rColor(m.result)+';"> '+(m.result||'?')+'</td>'+'<td style="padding:4px 6px;font-size:11px;font-family:monospace;text-align:right;color:rgba(255,255,255,.45);">'+(m.dr||'—')+'</td>'+'<td style="padding:4px 6px;font-size:11px;font-family:monospace;text-align:right;color:rgba(255,255,255,.45);">'+(m.a_pct||'—')+'</td>'+'<td style="padding:4px 6px;font-size:11px;font-family:monospace;text-align:right;color:rgba(255,255,255,.45);">'+(m.va_pct||'—')+'</td>'+'<td style="padding:4px 6px;font-size:11px;font-family:monospace;text-align:right;color:rgba(255,255,255,.45);">'+(m.first_pct||'—')+'</td>'+'<td style="padding:4px 6px;font-size:11px;font-family:monospace;text-align:right;color:rgba(255,255,255,.45);">'+(m.second_pct||'—')+'</td>'+'<td style="padding:4px 6px;font-size:11px;color:rgba(255,255,255,.45);">'+(m.match_time||'—')+'</td>'+'</tr>';}).join('')+'</tbody></table></div>';}
       else{html+='<div style="text-align:center;padding:40px;color:rgba(255,255,255,.2);">Žádné vzájemné zápasy v dostupných datech</div>';}
       html+='</div>';
       wrap.querySelector('#h2h-result').innerHTML=html;
-      [p1n,p2n].forEach(function(name){Array.from(wrap.querySelectorAll('#h2h-result div')).forEach(function(d){if(d.textContent.trim()===name&&d.children.length===0){d.style.cursor='pointer';d.style.textDecoration='underline dotted';d.style.textUnderlineOffset='3px';d.addEventListener('click',function(){var sh=document.getElementById('ts-host').shadowRoot;sh.getElementById('nav-players').click();setTimeout(function(){var inp=sh.querySelector('#ps-i');if(!inp)return;inp.value=name.trim().split(' ').pop();inp.dispatchEvent(new Event('input',{bubbles:true}));setTimeout(function(){var row=Array.from(sh.querySelectorAll('tr.pr')||[]).find(function(r){return(r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();});if(row)row.click();},400);},300);});}});});
+      [p1n,p2n].forEach(function(name){Array.from(wrap.querySelectorAll('#h2h-result div')).forEach(function(el){if(el.textContent.trim()===name&&el.children.length===0){el.style.cursor='pointer';el.style.textDecoration='underline dotted';el.style.textUnderlineOffset='3px';el.addEventListener('click',function(){var sh=document.getElementById('ts-host').shadowRoot;sh.getElementById('nav-players').click();setTimeout(function(){var inp=sh.querySelector('#ps-i');if(!inp)return;inp.value=name.trim().split(' ').pop();inp.dispatchEvent(new Event('input',{bubbles:true}));setTimeout(function(){var row=Array.from(sh.querySelectorAll('tr.pr')||[]).find(function(r){return(r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();});if(row)row.click();},400);},300);});}});});
     }
 
     wrap.render=function(){
@@ -4189,34 +4189,29 @@ function _applyBestHighlights(container){
       });
     },0);
   }
+  function addWinner(hw){
+    setTimeout(function(){
+      var inp1=hw.querySelector('#h2h-p1'),inp2=hw.querySelector('#h2h-p2');
+      var p1n=inp1?inp1.value.trim():'',p2n=inp2?inp2.value.trim():'';
+      if(!p1n||!p2n)return;
+      Array.from(hw.querySelectorAll('#h2h-result tr')).forEach(function(row){
+        var tds=row.querySelectorAll('td');if(tds.length<8)return;
+        var scoreTd=tds[6],wlTd=tds[7];
+        var wl=wlTd?wlTd.textContent.trim():'';
+        if(wl!=='W'&&wl!=='L')return;
+        if(scoreTd.querySelector('.h2h-win'))return;
+        var winner=(wl==='W'?p1n:p2n).split(' ').pop();
+        var b=document.createElement('b');b.className='h2h-win';
+        b.textContent=' '+winner;b.style.color='#FFD700';
+        scoreTd.appendChild(b);
+      });
+    },50);
+  }
   setInterval(function(){
     var sh=(document.getElementById('ts-host')||{}).shadowRoot;if(!sh)return;
     var hw=sh.getElementById('h2hw');if(!hw||hw._acp)return;
     if(typeof hw.render!=='function')return;
     hw._acp=true;var or=hw.render;
     hw.render=function(){or.call(hw);addAC(hw);addWinner(hw);};
-  function addWinner(hw){
-    var divs = Array.from(hw.querySelectorAll('div'));
-    var p1 = divs.find(function(d){ return d.children.length===0 && /^[A-Z][a-z]+ [A-Z]/.test(d.textContent.trim()) && d.closest('.h2h-left'); });
-    var p2 = divs.find(function(d){ return d.children.length===0 && /^[A-Z][a-z]+ [A-Z]/.test(d.textContent.trim()) && d.closest('.h2h-right'); });
-    var p1n = p1 ? p1.textContent.trim() : '';
-    var p2n = p2 ? p2.textContent.trim() : '';
-    Array.from(hw.querySelectorAll('#h2h-result tr')).forEach(function(row){
-      var tds = row.querySelectorAll('td');
-      if(tds.length < 8) return;
-      var scoreTd = tds[6];
-      var wlTd = tds[7];
-      var wl = wlTd ? wlTd.textContent.trim() : '';
-      if(!wl || (wl!=='W'&&wl!=='L')) return;
-      if(scoreTd.querySelector('.h2h-winner')) return;
-      var winner = wl==='W' ? p1n : p2n;
-      if(!winner) return;
-      var span = document.createElement('b');
-      span.className = 'h2h-winner';
-      span.textContent = ' ' + winner.split(' ').pop();
-      span.style.color = '#FFD700';
-      scoreTd.appendChild(span);
-    });
-  }
   },300);
 })();
