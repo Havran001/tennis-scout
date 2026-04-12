@@ -1100,7 +1100,7 @@ function buildPlayersTab(sh){
             // Fallback: Wikipedia
             var wikiName=pfull.replace(/ /g,'_');
             fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(wikiName))
-            .then(function(r){return r.json().then(function(d){if(d&&d.matches)d.matches=d.matches.filter(function(m){return m.src!=='live';});return d;});})
+            .then(function(r){return r.json();})
             .then(function(data){var s=data.thumbnail&&data.thumbnail.source;if(s)imgEl.src=s;})
             .catch(function(){});
           };
@@ -1249,7 +1249,7 @@ function _fmtOpp(name){
 
 function _renderMatches(){
             var filtered=all.filter(function(m){
-              if(!m.date)return false;
+              if(!m.date)return false;if(m.src==='live')return false;
               if(_fTournament&&_normT(m.tournament||'')!==_fTournament)return false;
               if(_fSurface&&m.surface!==_fSurface)return false;
               if(_fOpponent&&m.opponent!==_fOpponent)return false;
@@ -1886,7 +1886,7 @@ function buildH2HTab(sh){
   function surfaceLabel(s){if(!s)return s;var sl=s.toLowerCase();if(sl.includes('clay'))return 'Antuka';if(sl.includes('grass'))return 'Tráva';if(sl.includes('hard'))return 'Tvrdý';return s;}
   function fmtDate(d){if(!d||d.length<8)return d||'';var s=d.replace(/-/g,'');return s.slice(6,8)+'.'+s.slice(4,6)+'.'+s.slice(0,4);}
   function getResultColor(r){return r==='W'?'#00C853':r==='L'?'#f85149':'#888';}
-  async function loadHistory(pid){var r=await fetch(GH_BASE+pid+'.json?v='+Date.now());if(!r.ok)throw new Error('HTTP '+r.status);return r.json().then(function(d){if(d&&d.matches)d.matches=d.matches.filter(function(m){return m.src!=='live';});return d;});}
+  async function loadHistory(pid){var r=await fetch(GH_BASE+pid+'.json?v='+Date.now());if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
   function findH2H(hist1,p2name){
     var q=normName(p2name);
     return (hist1.matches||[]).filter(function(m){
@@ -2159,7 +2159,7 @@ function buildMatchesTab(sh){
         }
       }
     }catch(e){}
-    var results=await Promise.all(days.map(function(d){return fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+d+'&t='+Date.now()).then(function(r){return r.json().then(function(d){if(d&&d.matches)d.matches=d.matches.filter(function(m){return m.src!=='live';});return d;});});}));
+    var results=await Promise.all(days.map(function(d){return fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+d+'&t='+Date.now()).then(function(r){return r.json();});}));
     var allMatches=[];results.forEach(function(d){(d.matches||[]).forEach(function(m){m.isLive=m.status===2;m.isFin=m.status===3;m.isSch=m.status===1;allMatches.push(m);});});
     var result={matches:allMatches,updated:results[0].updated||'',src:'worker'};
     try{var toCache=Object.assign({_ts:Date.now()},result);sessionStorage.setItem(cacheKey,JSON.stringify(toCache));}catch(e){}
@@ -4134,8 +4134,8 @@ function _applyBestHighlights(container){
         wrap.querySelector('#h2h-status').textContent='⏳ Načítám...';
         wrap.querySelector('#h2h-result').innerHTML='';
         Promise.all([
-          fetch(GHB+p1.id+'.json?v='+Date.now()).then(function(r){return r.json().then(function(d){if(d&&d.matches)d.matches=d.matches.filter(function(m){return m.src!=='live';});return d;});}),
-          fetch(GHB+p2.id+'.json?v='+Date.now()).then(function(r){return r.json().then(function(d){if(d&&d.matches)d.matches=d.matches.filter(function(m){return m.src!=='live';});return d;});})
+          fetch(GHB+p1.id+'.json?v='+Date.now()).then(function(r){return r.json();}),
+          fetch(GHB+p2.id+'.json?v='+Date.now()).then(function(r){return r.json();})
         ]).then(function(res){wrap.querySelector('#h2h-status').textContent='';renderH2H(p1,p2,res[0],res[1]);})
         .catch(function(e){wrap.querySelector('#h2h-status').textContent='❌ '+e.message;});
       });
