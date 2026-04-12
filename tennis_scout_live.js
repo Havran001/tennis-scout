@@ -1250,6 +1250,7 @@ function _fmtOpp(name){
 function _renderMatches(){
             var filtered=all.filter(function(m){
               if(!m.date)return false;
+              if(m.src==='live')return false;
               if(_fTournament&&_normT(m.tournament||'')!==_fTournament)return false;
               if(_fSurface&&m.surface!==_fSurface)return false;
               if(_fOpponent&&m.opponent!==_fOpponent)return false;
