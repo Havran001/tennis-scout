@@ -16,7 +16,7 @@ function addAC(hw){setTimeout(function(){
       ms.forEach(function(p){
         var it=document.createElement('div');
         it.style.cssText='padding:8px 12px;cursor:pointer;font-size:13px;color:#e6edf3;border-bottom:1px solid rgba(255,255,255,.05);display:flex;align-items:center;justify-content:space-between;';
-        it.innerHTML='<span style="font-weight:600;">'+(p.full_name||p.name)+'</span><span style="font-size:10px;color:rgba(255,255,255,.35);">#'+p.rank+'</span>';
+        it.innerHTML='<span style='font-weight:600;'>'+(p.full_name||p.name)+'</span><span style='font-size:10px;color:rgba(255,255,255,.35);'>#'+p.rank+'</span>';
         it.onmousedown=function(e){e.preventDefault();i.value=p.full_name||p.name;dd.style.display='none';};
         it.onmouseover=function(){it.style.background='rgba(0,200,83,.1)';};
         it.onmouseout=function(){it.style.background='';};
@@ -76,12 +76,12 @@ setInterval(function(){
     var sl=surf.includes('clay')?'Ant':surf.includes('grass')?'Tr':'Tv';
     var oppParts=(m.opponent||'').trim().split(' ');var opp=oppParts.length>1&&oppParts[oppParts.length-1].replace('.','').length<=2?oppParts[0]:oppParts[oppParts.length-1];
     var ds=parseDate(m.date);
-    return '<div style="display:flex;align-items:center;gap:6px;padding:4px 8px;border-radius:5px;background:rgba(255,255,255,.03);margin-bottom:3px;">'
-      +'<span style="font-size:10px;color:rgba(255,255,255,.35);width:32px;">'+ds+'</span>'
-      +'<span style="font-size:9px;font-weight:700;padding:1px 4px;border-radius:2px;background:rgba(255,255,255,.05);color:'+sc+';">'+sl+'</span>'
-      +'<span style="font-size:11px;font-weight:700;color:'+wlC+';width:14px;">'+wl+'</span>'
-      +'<span style="font-size:11px;color:rgba(255,255,255,.5);flex:1;">'+opp+'</span>'
-      +'<span style="font-size:10px;font-family:monospace;color:rgba(255,255,255,.6);">'+( m.score||'')+'</span>'
+    return '<div style='display:flex;align-items:center;gap:6px;padding:4px 8px;border-radius:5px;background:rgba(255,255,255,.03);margin-bottom:3px;'>'
+      +'<span style='font-size:10px;color:rgba(255,255,255,.35);width:32px;'>'+ds+'</span>'
+      +'<span style='font-size:9px;font-weight:700;padding:1px 4px;border-radius:2px;background:rgba(255,255,255,.05);color:'+sc+';'>'+sl+'</span>'
+      +'<span style='font-size:11px;font-weight:700;color:'+wlC+';width:14px;'>'+wl+'</span>'
+      +'<span style='font-size:11px;color:rgba(255,255,255,.5);flex:1;'>'+opp+'</span>'
+      +'<span style='font-size:10px;font-family:monospace;color:rgba(255,255,255,.6);'>'+( m.score||'')+'</span>'
       +'</div>';
   }
   Promise.all([
@@ -94,9 +94,9 @@ setInterval(function(){
     var box=document.createElement('div');box.id='h2h-last5';
     box.style.cssText='display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 16px;margin:8px 0;background:rgba(255,255,255,.03);border-radius:10px;border:1px solid rgba(255,255,255,.07);';
     var c1=document.createElement('div');
-    c1.innerHTML='<div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;">'+p1.split(' ').pop().toUpperCase()+' — POSLEDNÍCH 10</div>'+m1.map(mRow).join('');
+    c1.innerHTML='<div style='font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;'>'+p1.split(' ').pop().toUpperCase()+' — POSLEDNÍCH 10</div>'+m1.map(mRow).join('');
     var c2=document.createElement('div');
-    c2.innerHTML='<div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;">'+p2.split(' ').pop().toUpperCase()+' — POSLEDNÍCH 10</div>'+m2.map(mRow).join('');
+    c2.innerHTML='<div style='font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;'>'+p2.split(' ').pop().toUpperCase()+' — POSLEDNÍCH 10</div>'+m2.map(mRow).join('');
     box.appendChild(c1);box.appendChild(c2);
     var formaDiv=Array.from(hw.querySelectorAll('div')).find(function(el){return el.textContent.toLowerCase().includes('forma')&&el.textContent.length<200;});
     if(formaDiv&&formaDiv.parentNode)formaDiv.parentNode.insertBefore(box,formaDiv.nextSibling);
