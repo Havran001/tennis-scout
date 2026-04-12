@@ -74,7 +74,7 @@ setInterval(function(){
     var surf=(m.surface||'').toLowerCase();
     var sc=surf.includes('clay')?'#fb923c':surf.includes('grass')?'#4ade80':'#60a5fa';
     var sl=surf.includes('clay')?'Ant':surf.includes('grass')?'Tr':'Tv';
-    var opp=(m.opponent||'').split(' ').pop();
+    var oppParts=(m.opponent||'').trim().split(' ');var opp=oppParts.length>1&&oppParts[oppParts.length-1].replace('.','').length<=2?oppParts[0]:oppParts[oppParts.length-1];
     var ds=parseDate(m.date);
     return '<div style="display:flex;align-items:center;gap:6px;padding:4px 8px;border-radius:5px;background:rgba(255,255,255,.03);margin-bottom:3px;">'
       +'<span style="font-size:10px;color:rgba(255,255,255,.35);width:32px;">'+ds+'</span>'
