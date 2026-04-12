@@ -4171,18 +4171,59 @@ setInterval(function(){
   var ths=Array.from(hw.querySelectorAll('#h2h-result th'));
   [4,5,7,8,9,10,11,12,13].forEach(function(idx){if(ths[idx])ths[idx].style.display='none';});
   Array.from(hw.querySelectorAll('#h2h-result tr')).forEach(function(row){
-    var tds=Array.from(row.querySelectorAll('td'));
-    if(!tds.length)return;
+    var tds=Array.from(row.querySelectorAll('td'));if(!tds.length)return;
     [4,5,7,8,9,10,11,12,13].forEach(function(idx){if(tds[idx])tds[idx].style.display='none';});
     if(p1&&p2&&tds[6]&&tds[7]&&!tds[6].querySelector('.h2h-win')){
       var wl=tds[7].textContent.trim();
-      if(wl==='W'||wl==='L'){
-        var b=document.createElement('b');b.className='h2h-win';
-        b.textContent=' '+(wl==='W'?p1:p2).split(' ').pop();
-        b.style.cssText='color:#FFD700;font-weight:700;';
-        tds[6].appendChild(b);
-      }
+      if(wl==='W'||wl==='L'){var b=document.createElement('b');b.className='h2h-win';b.textContent=' '+(wl==='W'?p1:p2).split(' ').pop();b.style.cssText='color:#FFD700;font-weight:700;';tds[6].appendChild(b);}
     }
   });
 },500);
+setInterval(function(){
+  var sh=(document.getElementById('ts-host')||{}).shadowRoot;if(!sh)return;
+  var hw=sh.getElementById('h2hw');if(!hw)return;
+  if(hw.querySelector('#h2h-last5'))return;
+  var i1=hw.querySelector('#h2h-p1'),i2=hw.querySelector('#h2h-p2');
+  var p1=i1?i1.value.trim():'',p2=i2?i2.value.trim():'';
+  if(!p1||!p2)return;
+  var pl1=(window.ATP_PLAYERS||[]).find(function(p){return(p.full_name||p.name||'').toLowerCase()===p1.toLowerCase();});
+  var pl2=(window.ATP_PLAYERS||[]).find(function(p){return(p.full_name||p.name||'').toLowerCase()===p2.toLowerCase();});
+  if(!pl1||!pl2)return;
+  Promise.all([
+    fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/'+pl1.id+'.json').then(function(r){return r.json();}),
+    fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/'+pl2.id+'.json').then(function(r){return r.json();})
+  ]).then(function(res){
+    if(hw.querySelector('#h2h-last5'))return;
+    var h1=res[0],h2=res[1];
+    var m1=(h1.matches||[]).filter(function(m){return m.score&&m.result;}).slice(0,5);
+    var m2=(h2.matches||[]).filter(function(m){return m.score&&m.result;}).slice(0,5);
+    function mRow(m,pname){
+      var wl=m.result==='W'?'W':'L';
+      var wlClr=wl==='W'?'#4ade80':'#f87171';
+      var surf=(m.surface||'').toLowerCase();
+      var sc=surf.includes('clay')?'#fb923c':surf.includes('grass')?'#4ade80':'#60a5fa';
+      var sl=surf.includes('clay')?'Ant':surf.includes('grass')?'Tr':'Tv';
+      var opp=(m.opponent||'').split(' ').pop();
+      var ds=m.date?(m.date.slice(8,10)+'.'+m.date.slice(5,7)):'';
+      return '<div style="display:flex;align-items:center;gap:6px;padding:4px 8px;border-radius:5px;background:rgba(255,255,255,.03);margin-bottom:3px;">'
+        +'<span style="font-size:10px;color:rgba(255,255,255,.35);width:32px;">'+(ds)+'</span>'
+        +'<span style="font-size:9px;font-weight:700;padding:1px 4px;border-radius:2px;background:rgba(255,255,255,.05);color:'+sc+';">'+sl+'</span>'
+        +'<span style="font-size:11px;font-weight:700;color:'+wlClr+';width:14px;">'+wl+'</span>'
+        +'<span style="font-size:11px;color:rgba(255,255,255,.5);flex:1;">'+opp+'</span>'
+        +'<span style="font-size:10px;font-family:monospace;color:rgba(255,255,255,.6);">'+m.score+'</span>'
+        +'</div>';
+    }
+    var box=document.createElement('div');
+    box.id='h2h-last5';
+    box.style.cssText='display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 16px;margin:8px 0;background:rgba(255,255,255,.03);border-radius:10px;border:1px solid rgba(255,255,255,.07);';
+    var col1=document.createElement('div');
+    col1.innerHTML='<div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;">'+(p1.split(' ').pop().toUpperCase())+' — POSLEDNÍCH 5</div>'+m1.map(function(m){return mRow(m,p1);}).join('');
+    var col2=document.createElement('div');
+    col2.innerHTML='<div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;">'+(p2.split(' ').pop().toUpperCase())+' — POSLEDNÍCH 5</div>'+m2.map(function(m){return mRow(m,p2);}).join('');
+    box.appendChild(col1);box.appendChild(col2);
+    var allDivs=Array.from(hw.querySelectorAll('div'));
+    var formaDiv=allDivs.find(function(el){return el.textContent.toLowerCase().includes('forma')&&el.textContent.length<200;});
+    if(formaDiv&&formaDiv.parentNode){formaDiv.parentNode.insertBefore(box,formaDiv.nextSibling);}
+  });
+},600);
 })();
