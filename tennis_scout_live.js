@@ -4161,17 +4161,14 @@ function _applyBestHighlights(container){
 })();
 
 (function(){
-  setInterval(function(){
-    var sh=(document.getElementById('ts-host')||{}).shadowRoot;if(!sh)return;
-    var hw=sh.getElementById('h2hw');if(!hw||hw._acp)return;
-    if(typeof hw.render!=='function')return;
-    hw._acp=true;
-    var or=hw.render;
-    hw.render=function(){
-      or.call(hw);
+  function addAC(hw){
+    setTimeout(function(){
       ['h2h-p1','h2h-p2'].forEach(function(id){
         var i=hw.querySelector('#'+id);if(!i)return;
+        // Odstraň stary dropdown pokud existuje
+        var old=i.parentNode.querySelector('.ts-ac-dd');if(old)old.remove();
         var dd=document.createElement('div');
+        dd.className='ts-ac-dd';
         dd.style.cssText='position:absolute;top:100%;left:0;right:0;background:#1c2128;border:1px solid rgba(255,255,255,.15);border-radius:8px;z-index:9999;max-height:220px;overflow-y:auto;margin-top:3px;box-shadow:0 8px 24px rgba(0,0,0,.6);display:none;';
         i.parentNode.style.position='relative';
         i.parentNode.appendChild(dd);
@@ -4193,6 +4190,14 @@ function _applyBestHighlights(container){
         };
         i.onblur=function(){setTimeout(function(){dd.style.display='none';},150);};
       });
-    };
+    },0);
+  }
+  setInterval(function(){
+    var sh=(document.getElementById('ts-host')||{}).shadowRoot;if(!sh)return;
+    var hw=sh.getElementById('h2hw');if(!hw||hw._acp)return;
+    if(typeof hw.render!=='function')return;
+    hw._acp=true;
+    var or=hw.render;
+    hw.render=function(){or.call(hw);addAC(hw);};
   },300);
 })();
