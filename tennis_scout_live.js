@@ -4165,7 +4165,6 @@ function _applyBestHighlights(container){
     setTimeout(function(){
       ['h2h-p1','h2h-p2'].forEach(function(id){
         var i=hw.querySelector('#'+id);if(!i)return;
-        // Odstraň stary dropdown pokud existuje
         var old=i.parentNode.querySelector('.ts-ac-dd');if(old)old.remove();
         var dd=document.createElement('div');
         dd.className='ts-ac-dd';
