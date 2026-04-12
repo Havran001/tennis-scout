@@ -4186,8 +4186,8 @@ setInterval(function(){
   var i1=hw.querySelector('#h2h-p1'),i2=hw.querySelector('#h2h-p2');
   var p1=i1?i1.value.trim():'',p2=i2?i2.value.trim():'';
   if(!p1||!p2)return;
-  var pl1=(window.ATP_PLAYERS||[]).find(function(p){return(p.full_name||p.name||'').toLowerCase()===p1.toLowerCase();});
-  var pl2=(window.ATP_PLAYERS||[]).find(function(p){return(p.full_name||p.name||'').toLowerCase()===p2.toLowerCase();});
+  var pl1=(window.ATP_PLAYERS||[]).find(function(p){var fn=(p.full_name||p.name||'').toLowerCase();var q=p1.toLowerCase();return fn===q||fn.includes(q)||fn.split(' ').pop()===q.split(' ').pop();});
+  var pl2=(window.ATP_PLAYERS||[]).find(function(p){var fn=(p.full_name||p.name||'').toLowerCase();var q=p2.toLowerCase();return fn===q||fn.includes(q)||fn.split(' ').pop()===q.split(' ').pop();});
   if(!pl1||!pl2)return;
   Promise.all([
     fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/'+pl1.id+'.json').then(function(r){return r.json();}),
@@ -4204,7 +4204,7 @@ setInterval(function(){
       var sc=surf.includes('clay')?'#fb923c':surf.includes('grass')?'#4ade80':'#60a5fa';
       var sl=surf.includes('clay')?'Ant':surf.includes('grass')?'Tr':'Tv';
       var opp=(m.opponent||'').split(' ').pop();
-      var ds='';if(m.date){if(m.date.indexOf('-')>=0){ds=m.date.slice(8,10)+'.'+m.date.slice(5,7);}else{ds=m.date.slice(6,8)+'.'+m.date.slice(4,6);}};
+      var ds=m.date?(m.date.slice(8,10)+'.'+m.date.slice(5,7)):'';
       return '<div style="display:flex;align-items:center;gap:6px;padding:4px 8px;border-radius:5px;background:rgba(255,255,255,.03);margin-bottom:3px;">'
         +'<span style="font-size:10px;color:rgba(255,255,255,.35);width:32px;">'+(ds)+'</span>'
         +'<span style="font-size:9px;font-weight:700;padding:1px 4px;border-radius:2px;background:rgba(255,255,255,.05);color:'+sc+';">'+sl+'</span>'
