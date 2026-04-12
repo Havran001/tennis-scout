@@ -94,9 +94,9 @@ setInterval(function(){
     var box=document.createElement('div');box.id='h2h-last5';
     box.style.cssText='display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 16px;margin:8px 0;background:rgba(255,255,255,.03);border-radius:10px;border:1px solid rgba(255,255,255,.07);';
     var c1=document.createElement('div');
-    c1.innerHTML='<div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;">'+p1.split(' ').pop().toUpperCase()+' — POSLEDNÍCH 5</div>'+m1.map(mRow).join('');
+    c1.innerHTML='<div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;">'+p1.split(' ').pop().toUpperCase()+' — POSLEDNÍCH 10</div>'+m1.map(mRow).join('');
     var c2=document.createElement('div');
-    c2.innerHTML='<div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;">'+p2.split(' ').pop().toUpperCase()+' — POSLEDNÍCH 5</div>'+m2.map(mRow).join('');
+    c2.innerHTML='<div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-bottom:6px;">'+p2.split(' ').pop().toUpperCase()+' — POSLEDNÍCH 10</div>'+m2.map(mRow).join('');
     box.appendChild(c1);box.appendChild(c2);
     var formaDiv=Array.from(hw.querySelectorAll('div')).find(function(el){return el.textContent.toLowerCase().includes('forma')&&el.textContent.length<200;});
     if(formaDiv&&formaDiv.parentNode)formaDiv.parentNode.insertBefore(box,formaDiv.nextSibling);
