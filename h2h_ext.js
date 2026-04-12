@@ -103,3 +103,14 @@ setInterval(function(){
   });
 },600);
 })();
+setInterval(function(){
+  var sh=(document.getElementById('ts-host')||{}).shadowRoot;if(!sh)return;
+  var hw=sh.getElementById('h2hw');if(!hw)return;
+  Array.from(hw.querySelectorAll('div')).forEach(function(el){
+    if(el.textContent.includes('FORMA')&&el.textContent.length<80&&!el.dataset.hidden){
+      el.dataset.hidden='1';
+      var parent=el.parentElement;
+      if(parent)parent.style.display='none';
+    }
+  });
+},300);
