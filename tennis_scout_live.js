@@ -1906,8 +1906,8 @@ function buildH2HTab(sh){
   function renderH2H(p1,p2,hist1,hist2){
     var p1name=p1.full_name||p1.name,p2name=p2.full_name||p2.name;
     var h2h=findH2H(hist1,p2name);
-    var wins=h2h.filter(function(m){return m.result==='W';}).length;
-    var losses=h2h.filter(function(m){return m.result==='L';}).length;
+    var wins=h2h.filter(function(m){return m.result&&m.src!=='live'==='W';}).length;
+    var losses=h2h.filter(function(m){return m.result&&m.src!=='live'==='L';}).length;
     var total=h2h.length;
     var form1=getForm(hist1.matches,10);
     var form2=getForm(hist2.matches,10);
@@ -4099,8 +4099,8 @@ function _applyBestHighlights(container){
       var p1n=p1.full_name||p1.name,p2n=p2.full_name||p2.name;
       var q=normN(p2n);
       var h2hM=(h1.matches||[]).filter(function(m){var opp=normN(m.opponent||'');return q.split(' ').some(function(w){return w.length>=3&&opp.split(' ').some(function(o){return o.includes(w)||w.includes(o);});});});
-      var wins=h2hM.filter(function(m){return m.result==='W';}).length;
-      var losses=h2hM.filter(function(m){return m.result==='L';}).length;
+      var wins=h2hM.filter(function(m){return m.result&&m.src!=='live'==='W';}).length;
+      var losses=h2hM.filter(function(m){return m.result&&m.src!=='live'==='L';}).length;
       var form1=(h1.matches||[]).slice(0,10).map(function(m){return m.result||'?';});
       var form2=(h2.matches||[]).slice(0,10).map(function(m){return m.result||'?';});
       var surf={};
