@@ -4120,6 +4120,7 @@ function _applyBestHighlights(container){
       else{html+='<div style="text-align:center;padding:40px;color:rgba(255,255,255,.2);">Žádné vzájemné zápasy v dostupných datech</div>';}
       html+='</div>';
       wrap.querySelector('#h2h-result').innerHTML=html;
+      [p1n,p2n].forEach(function(name){Array.from(wrap.querySelectorAll('#h2h-result div')).forEach(function(el){if(el.textContent.trim()===name&&el.children.length===0){el.style.cursor='pointer';el.style.textDecoration='underline dotted';el.style.textUnderlineOffset='3px';el.addEventListener('click',function(){var sh=document.getElementById('ts-host').shadowRoot;sh.getElementById('nav-players').click();setTimeout(function(){var inp=sh.querySelector('#ps-i');if(!inp)return;inp.value=name.trim().split(' ').pop();inp.dispatchEvent(new Event('input',{bubbles:true}));setTimeout(function(){var row=Array.from(sh.querySelectorAll('tr.pr')||[]).find(function(r){return(r.dataset.fullname||r.dataset.pname||'').toLowerCase()===name.toLowerCase();});if(row)row.click();},400);},300);});}});});
     }
 
     wrap.render=function(){
@@ -4157,4 +4158,10 @@ function _applyBestHighlights(container){
     }
     clearInterval(timer);
   },300);
+})();
+
+(function(){
+  var s=document.createElement('script');
+  s.src='https://havran001.github.io/tennis-scout/h2h_ext.js?v='+Date.now();
+  document.head.appendChild(s);
 })();
