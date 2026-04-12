@@ -89,8 +89,8 @@ setInterval(function(){
     fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/'+pl2.id+'.json').then(function(r){return r.json();})
   ]).then(function(res){
     if(hw.querySelector('#h2h-last5'))return;
-    var m1=(res[0].matches||[]).filter(function(m){return m.score&&m.result&&m.src!=='live';}).slice(0,5);
-    var m2=(res[1].matches||[]).filter(function(m){return m.score&&m.result&&m.src!=='live';}).slice(0,5);
+    var m1=(res[0].matches||[]).filter(function(m){return m.score&&m.result&&m.src!=='live';}).slice(0,10);
+    var m2=(res[1].matches||[]).filter(function(m){return m.score&&m.result&&m.src!=='live';}).slice(0,10);
     var box=document.createElement('div');box.id='h2h-last5';
     box.style.cssText='display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 16px;margin:8px 0;background:rgba(255,255,255,.03);border-radius:10px;border:1px solid rgba(255,255,255,.07);';
     var c1=document.createElement('div');
