@@ -1382,7 +1382,7 @@ function _renderMatches(){
                 '<td class="ta-num">'+(m.rank||'')+'</td>',
                 '<td class="ta-num">'+(m.opp_rank||'')+'</td>',
                 '<td class="mh-opp-link" data-opponent="'+(m.opponent||'')+'" style="cursor:pointer;color:#60a5fa;text-decoration:underline dotted;text-underline-offset:3px;">'+_fmtOpp(m.opponent)+'</td>',
-                '<td class="ta-score">'+(m.score||'')+'</td>',
+                '<td class="ta-score">'+(m.score||'')+(m.result&&m.score?' <b style="color:#FFD700;">'+(m.result==='W'?p1n:p2n).split(' ').pop()+'</b>':'')+'</td>',
                 '<td class="ta-odds">'+(m.odds||'')+'</td>',
                 '<td class="ta-num">'+(m.dr||'')+'</td>',
                 '<td class="ta-num">'+(m.a_pct||'')+'</td>',
