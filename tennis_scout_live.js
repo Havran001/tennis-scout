@@ -4204,7 +4204,7 @@ setInterval(function(){
       var sc=surf.includes('clay')?'#fb923c':surf.includes('grass')?'#4ade80':'#60a5fa';
       var sl=surf.includes('clay')?'Ant':surf.includes('grass')?'Tr':'Tv';
       var opp=(m.opponent||'').split(' ').pop();
-      var ds=m.date?(m.date.slice(8,10)+'.'+m.date.slice(5,7)):'';
+      var ds='';if(m.date){if(m.date.indexOf('-')>=0){ds=m.date.slice(8,10)+'.'+m.date.slice(5,7);}else{ds=m.date.slice(6,8)+'.'+m.date.slice(4,6);}};
       return '<div style="display:flex;align-items:center;gap:6px;padding:4px 8px;border-radius:5px;background:rgba(255,255,255,.03);margin-bottom:3px;">'
         +'<span style="font-size:10px;color:rgba(255,255,255,.35);width:32px;">'+(ds)+'</span>'
         +'<span style="font-size:9px;font-weight:700;padding:1px 4px;border-radius:2px;background:rgba(255,255,255,.05);color:'+sc+';">'+sl+'</span>'
