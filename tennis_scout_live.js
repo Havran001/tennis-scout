@@ -4004,7 +4004,7 @@ function _applyBestHighlights(container){
 
 })();  function _doApplyFilter(){
     // Čti _activeFilterKey přímo ze sh (shadow root) - jediný spolehlivý zdroj
-    if(sh&&window._tsActiveFilter)_activeFilterKey=window._tsActiveFilter;
+    if(window._tsActiveFilter)_activeFilterKey=window._tsActiveFilter;
     var _tsHost=document.getElementById('ts-host');var _mw=_tsHost&&_tsHost.shadowRoot?_tsHost.shadowRoot.getElementById('mw'):null;
     if(!_mw)return;
     _mw.querySelectorAll('.mrow').forEach(function(r){
