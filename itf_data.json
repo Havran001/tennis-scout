@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-13T10:22:04Z",
+  "updated": "2026-04-14T09:05:50Z",
   "year": 2026,
-  "count": 400,
+  "count": 408,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -2404,6 +2404,26 @@
       "end": "2026-06-07"
     },
     {
+      "name": "Tsaghkadzor Spring Cup",
+      "loc": "Tsaghkadzor",
+      "country": "ARM",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-01",
+      "end": "2026-06-06"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-01",
+      "end": "2026-06-07"
+    },
+    {
       "name": "M15 Kayseri",
       "loc": "Kayseri",
       "country": "TUR",
@@ -2474,32 +2494,12 @@
       "end": "2026-06-07"
     },
     {
-      "name": "Tsaghkadzor Spring Cup",
-      "loc": "Tsaghkadzor",
-      "country": "ARM",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-06-01",
-      "end": "2026-06-06"
-    },
-    {
       "name": "Liljedahl Group Open",
       "loc": "Värnamo",
       "country": "SWE",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Clay",
-      "start": "2026-06-08",
-      "end": "2026-06-14"
-    },
-    {
-      "name": "M25 Wichita, KS",
-      "loc": "Wichita",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
       "start": "2026-06-08",
       "end": "2026-06-14"
     },
@@ -2534,6 +2534,36 @@
       "end": "2026-06-14"
     },
     {
+      "name": "M25 Wichita, KS",
+      "loc": "Wichita",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-06-08",
+      "end": "2026-06-14"
+    },
+    {
+      "name": "Brasilia Champions",
+      "loc": "Brasilia",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-08",
+      "end": "2026-06-14"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-08",
+      "end": "2026-06-14"
+    },
+    {
       "name": "M15 Kursumlijska Banja ",
       "loc": "KURSUMLIJSKA BANJA",
       "country": "SRB",
@@ -2550,16 +2580,6 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
-      "start": "2026-06-08",
-      "end": "2026-06-14"
-    },
-    {
-      "name": "Brasilia Champions",
-      "loc": "Brasilia",
-      "country": "BRA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
       "start": "2026-06-08",
       "end": "2026-06-14"
     },
@@ -2754,9 +2774,49 @@
       "end": "2026-06-21"
     },
     {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-15",
+      "end": "2026-06-21"
+    },
+    {
       "name": "Open de Montauban",
       "loc": "Montauban",
       "country": "FRA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "40 Open Kiroleta “Bakio Udala” Saria",
+      "loc": "BAKIO",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "LiveRamp Brussels Open",
+      "loc": "Brussels",
+      "country": "BEL",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "Medo Open",
+      "loc": "Zagreb",
+      "country": "CRO",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Clay",
@@ -2784,42 +2844,12 @@
       "end": "2026-06-28"
     },
     {
-      "name": "LiveRamp Brussels Open",
-      "loc": "Brussels",
-      "country": "BEL",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "Medo Open",
-      "loc": "Zagreb",
-      "country": "CRO",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "40 Open Kiroleta “Bakio Udala” Saria",
-      "loc": "BAKIO",
-      "country": "ESP",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "M15 Kursumlijska Banja ",
-      "loc": "KURSUMLIJSKA BANJA",
-      "country": "SRB",
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
       "cat": "ITF",
       "tier": "M15",
-      "surf": "Clay",
+      "surf": "Hard",
       "start": "2026-06-22",
       "end": "2026-06-28"
     },
@@ -2837,6 +2867,16 @@
       "name": "SLOVENSKA BISTRICA OPEN",
       "loc": "Slov. Bistrica",
       "country": "SLO",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "M15 Kursumlijska Banja ",
+      "loc": "KURSUMLIJSKA BANJA",
+      "country": "SRB",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -2934,6 +2974,16 @@
       "end": "2026-07-05"
     },
     {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
       "name": "M15 Kursumlijska Banja ",
       "loc": "KURSUMLIJSKA BANJA",
       "country": "SRB",
@@ -3024,16 +3074,6 @@
       "end": "2026-07-05"
     },
     {
-      "name": "BICT Groep ITF The Hague 2026",
-      "loc": "The Hague",
-      "country": "NED",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-07-06",
-      "end": "2026-07-12"
-    },
-    {
       "name": "M30+H Bastia-Lucciana",
       "loc": "Bastia-Lucciana",
       "country": "FRA",
@@ -3064,6 +3104,16 @@
       "end": "2026-07-12"
     },
     {
+      "name": "BICT Groep ITF The Hague 2026",
+      "loc": "The Hague",
+      "country": "NED",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-07-06",
+      "end": "2026-07-12"
+    },
+    {
       "name": "Dallas Summer Series ",
       "loc": "Dallas",
       "country": "USA",
@@ -3080,6 +3130,16 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
+      "start": "2026-07-06",
+      "end": "2026-07-12"
+    },
+    {
+      "name": "M15 Rancho Santa Fe, CA",
+      "loc": "Rancho Santa Fe",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
       "start": "2026-07-06",
       "end": "2026-07-12"
     },
@@ -3107,16 +3167,6 @@
       "name": "Curro Centre Court Series ",
       "loc": "Hillcrest ",
       "country": "RSA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-07-06",
-      "end": "2026-07-12"
-    },
-    {
-      "name": "M15 Rancho Santa Fe, CA",
-      "loc": "Rancho Santa Fe",
-      "country": "USA",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
@@ -3604,6 +3654,16 @@
       "end": "2026-08-23"
     },
     {
+      "name": "Formosa Cup",
+      "loc": "Taipei",
+      "country": "TPE",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-08-17",
+      "end": "2026-08-23"
+    },
+    {
       "name": "Pro-Ject Open 2026",
       "loc": "Mistelbach",
       "country": "AUT",
@@ -3650,6 +3710,16 @@
       "cat": "ITF",
       "tier": "M25",
       "surf": "Clay",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
+    },
+    {
+      "name": "Formosa Cup",
+      "loc": "Taipei",
+      "country": "TPE",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
       "start": "2026-08-24",
       "end": "2026-08-30"
     },
@@ -3787,6 +3857,16 @@
       "name": "PG Open",
       "loc": "Budapest",
       "country": "HUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
+      "name": "M15 Berlin",
+      "loc": "Berlin",
+      "country": "GER",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
