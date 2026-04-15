@@ -4192,11 +4192,7 @@ window.fetch=function(url,opts){
                 if(o&&o.odds_opp>0){m.odds_alc=o.odds_alc;m.odds_opp=o.odds_opp;m.odds_src=o.odds_src;merged++;}
               });
               if(merged>0){
-                var enc=new TextEncoder();
-                var b=enc.encode(JSON.stringify(newData));
-                var bin="";
-                for(var i=0;i<b.length;i++)bin+=String.fromCharCode(b[i]);
-                body.content=btoa(bin);
+                body.content=btoa(JSON.stringify(newData));
                 opts=Object.assign({},opts,{body:JSON.stringify(body)});
                 console.log("Merged "+merged+" odds for "+pid);
               }
