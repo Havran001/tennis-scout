@@ -4250,3 +4250,45 @@ window.__saveNavlist = function(pid) {
   });
   console.log("Saving", navlist.length, "entries for", pid, "...");
 };
+
+// === MERGE ODDS ON SAVE - zachová odds při každém uložení ===
+(function(){
+var _of=window.fetch;
+window.fetch=function(url,opts){
+  if(opts&&opts.method==="PUT"&&typeof url==="string"&&url.indexOf("player_history/")>=0&&url.indexOf("github.com")>=0&&opts.body){
+    try{
+      var body=JSON.parse(opts.body);
+      if(body.content&&body.sha){
+        var pid=url.split("player_history/")[1].replace(".json","");
+        var rawUrl="https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/"+pid+".json?v="+Date.now();
+        return _of.call(window,rawUrl).then(function(r){return r.ok?r.json():null;}).then(function(existing){
+          if(existing&&existing.matches){
+            try{
+              var nb=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});
+              var newData=JSON.parse(new TextDecoder().decode(nb));
+              if(newData&&newData.matches){
+                var n=0;
+                newData.matches.forEach(function(m){
+                  if(m.odds_opp>0)return;
+                  var last=(m.opponent||"").toLowerCase().split(" ").pop();
+                  var o=existing.matches.find(function(x){
+                    return x.date===m.date&&(x.opponent||"").toLowerCase().split(" ").pop()===last&&x.odds_opp>0;
+                  });
+                  if(o){m.odds_alc=o.odds_alc;m.odds_opp=o.odds_opp;m.odds_src=o.odds_src;n++;}
+                });
+                if(n>0){
+                  body.content=btoa(JSON.stringify(newData));
+                  opts=Object.assign({},opts,{body:JSON.stringify(body)});
+                  console.log("Merged "+n+" odds for "+pid);
+                }
+              }
+            }catch(e){}
+          }
+          return _of.call(window,url,opts);
+        }).catch(function(){return _of.call(window,url,opts);});
+      }
+    }catch(e){}
+  }
+  return _of.call(window,url,opts);
+};
+})();
