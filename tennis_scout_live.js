@@ -4163,7 +4163,32 @@ setInterval(function(){var sh=(document.getElementById('ts-host')||{}).shadowRoo
 setInterval(function(){var sh=(document.getElementById('ts-host')||{}).shadowRoot;if(!sh)return;var cells=Array.from(sh.querySelectorAll('td.ta-odds'));if(!cells.length)return;var cache=window.__phCache||{};var circleStyle='font-family:monospace;font-size:10px;font-weight:700;color:#FFD700;border:1.5px solid #FFD700;border-radius:50%;width:36px;height:18px;display:inline-flex;align-items:center;justify-content:center;';var plainStyle='font-family:monospace;font-size:10px;font-weight:600;color:rgba(255,255,255,0.5);';cells.forEach(function(td){if(td.dataset.oddsSet)return;var row=td.closest('[data-mid]');if(!row||!row.dataset.mid)return;var parts=row.dataset.mid.split('_');var pid=parts[0],date=parts[1],oppPrefix=parts.slice(2).join('_');if(!cache[pid]){cache[pid]='loading';fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/'+pid+'.json').then(function(r){return r.json();}).then(function(d){cache[pid]=d.matches||[];}).catch(function(){cache[pid]=[];});return;}if(cache[pid]==='loading')return;var matches=cache[pid];var m=matches.find(function(m){if(!m.odds_opp)return false;if(m.date!==date)return false;var oppKey=(m.opponent||'').replace(/\s/g,'').slice(0,oppPrefix.length);return oppKey===oppPrefix;});if(m){var isW=m.result==='W';var hasAlc=!!m.odds_alc;var alcOdds=hasAlc?m.odds_alc.toFixed(2):null;var oppOdds=m.odds_opp.toFixed(2);var alcSpan=hasAlc?(isW?'<span style="'+circleStyle+'">'+alcOdds+'</span>':'<span style="'+plainStyle+'">'+alcOdds+'</span>'):(isW?'<span style="'+circleStyle+'">—</span>':'<span style="'+plainStyle+'">—</span>');var oppSpan=isW?' / <span style="'+plainStyle+'">'+oppOdds+'</span>':' / <span style="'+circleStyle+'">'+oppOdds+'</span>';td.innerHTML=alcSpan+oppSpan;td.dataset.oddsSet='1';}});window.__phCache=cache;},800);
 
 // === ODDS BUTTONS ===
-function openOddsOnBE(pid,fullname){var slug=(fullname||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");window.open("https://www.betexplorer.com/tennis/player/"+slug+"/","_blank");}
+function openOddsOnBE(pid,fullname){
+  var btn = document.getElementById("pp-odds-btn") || (function(){var d=document.querySelectorAll("div");for(var i=0;i<d.length;i++){if(d[i].shadowRoot){var b=d[i].shadowRoot.getElementById("pp-odds-btn");if(b)return b;}}return null;})();
+  var origText = btn ? btn.innerHTML : "";
+  if(btn){btn.innerHTML="\u23F3 Importing...";btn.disabled=true;}
+  var name = encodeURIComponent(fullname);
+  fetch("http://localhost:3333/import?pid="+pid+"&name="+name)
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(btn){btn.disabled=false;}
+      if(d.error){
+        alert("Chyba importu: "+d.error+"\n\nSpust be_proxy.py v Terminalu!");
+        if(btn)btn.innerHTML=origText;
+      } else if(d.merged>0){
+        if(btn)btn.innerHTML="\u2705 "+d.merged+" odds";
+        console.log("Imported "+d.merged+" odds for "+pid+", commit: "+d.commit);
+        setTimeout(function(){if(btn)btn.innerHTML=origText;},3000);
+      } else {
+        if(btn)btn.innerHTML="\u26A0 0 odds";
+        console.log("No new odds:",d.message||d);
+        setTimeout(function(){if(btn)btn.innerHTML=origText;},3000);
+      }
+    }).catch(function(e){
+      if(btn){btn.disabled=false;btn.innerHTML=origText;}
+      alert("Proxy neni spusteny!\n\nSpust v Terminalu:\npython3 be_proxy.py");
+    });
+}
 function bulkOddsImport(){var btn=document.getElementById("bulk-odds-btn");if(btn){btn.disabled=true;btn.textContent="Loading...";}fetch("https://raw.githubusercontent.com/Havran001/tennis-scout/main/atp_players.json?v="+Date.now()).then(function(r){return r.json();}).then(function(data){var players=data.items||[];var listHtml=players.map(function(p){var slug=(p.full_name||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");var url="https://www.betexplorer.com/tennis/player/"+slug+"/";return "<div id=\"boe-"+p.id+"\" onclick=\"window.open('"+url+"','_blank');this.style.background='rgba(76,175,80,0.2)';\" style=\"padding:8px 12px;border:1px solid rgba(255,255,255,0.1);border-radius:6px;cursor:pointer;color:#fff;font-size:13px;margin-bottom:4px;\">"+"\u26a1 "+p.full_name+"</div>";}).join("");var modal=document.createElement("div");modal.id="bulk-odds-modal";modal.style.cssText="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.9);z-index:9999;overflow-y:auto;padding:20px;";modal.innerHTML="<div style='max-width:620px;margin:0 auto;background:#1a1a2e;border-radius:12px;padding:24px;'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;'><h2 style='color:#ffa500;margin:0;'>\u26a1 Bulk Odds</h2><button onclick='document.getElementById(\"bulk-odds-modal\").remove()' style='background:#333;border:none;color:#fff;padding:6px 14px;border-radius:6px;cursor:pointer;'>X</button></div><p style='color:#aaa;font-size:12px;margin:0 0 12px'>Click to open BetExplorer. Green = already clicked.</p><div>"+listHtml+"</div></div>";document.body.appendChild(modal);if(btn){btn.disabled=false;btn.textContent="\u26a1 Bulk Odds";}});}
 document.addEventListener("click",function(e){var b=e.target.closest?e.target.closest("[id=pp-odds-btn]"):null;if(!b&&e.target.id==="pp-odds-btn")b=e.target;if(b)openOddsOnBE(b.getAttribute("data-pid"),b.getAttribute("data-fullname"));if(e.target.id==="bulk-odds-btn")bulkOddsImport();});
 (function addSidebarBtn(){var try_=function(){if(document.getElementById("bulk-odds-btn"))return;var btns=document.querySelectorAll("button");var imp=null;for(var i=0;i<btns.length;i++){if(btns[i].textContent.trim().indexOf("Tennis Abstract")>=0){imp=btns[i];break;}}if(!imp)return;var b=document.createElement("button");b.id="bulk-odds-btn";b.innerHTML="\u26a1 Bulk Odds";b.style.cssText="width:100%;padding:8px 12px;border-radius:6px;cursor:pointer;background:rgba(255,165,0,0.15);border:1px solid rgba(255,165,0,0.4);color:#ffa500;font-size:13px;margin-top:6px;";imp.parentElement.insertBefore(b,imp.nextSibling);};[300,800,2000,4000].forEach(function(d){setTimeout(try_,d);});})();
