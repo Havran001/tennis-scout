@@ -4266,7 +4266,7 @@ if(!window.__oddsCache) window.__oddsCache={};
           var pid=url.split("player_history/")[1].split(".json")[0].split("?")[0];
           var map={};
           d.matches.forEach(function(m){
-            if(m.odds_opp>0){
+            if(m.odds_opp>0&&(m.score||"").trim()){
               var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();
               map[k]={alc:m.odds_alc,opp:m.odds_opp,src:m.odds_src};
             }
@@ -4292,6 +4292,7 @@ if(!window.__oddsCache) window.__oddsCache={};
                 var n=0;
                 newData.matches.forEach(function(m){
                   if(m.odds_opp>0)return;
+                  if(!(m.score||"").trim())return;
                   var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();
                   if(cached[k]){
                     m.odds_alc=cached[k].alc;
