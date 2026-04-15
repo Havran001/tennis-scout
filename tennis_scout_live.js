@@ -4170,3 +4170,36 @@ document.addEventListener("click",function(e){var b=e.target.closest?e.target.cl
 // === MERGE ODDS ON SAVE ===
 // Before saving, copy odds from existing player data
 var _origFetch=window.fetch;window.fetch=function(url,opts){if(opts&&opts.method==="PUT"&&typeof url==="string"&&url.indexOf("player_history")>=0&&opts.body){try{var body=JSON.parse(opts.body);if(body.content&&body.sha){var dec=new TextDecoder();var nb=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});var newData=JSON.parse(dec.decode(nb));var pid=url.split("player_history/")[1].replace(".json","");var cached=window.__playerCache&&window.__playerCache[pid];if(cached&&cached.matches&&newData.matches){newData.matches.forEach(function(m){if(m.odds_opp>0)return;var o=cached.matches.find(function(x){return x.date===m.date&&x.opponent===m.opponent;});if(o&&o.odds_opp>0){m.odds_alc=o.odds_alc;m.odds_opp=o.odds_opp;m.odds_src=o.odds_src;}});var enc=new TextEncoder();var bytes=enc.encode(JSON.stringify(newData));var bin="";for(var i=0;i<bytes.length;i++)bin+=String.fromCharCode(bytes[i]);body.content=btoa(bin);opts=Object.assign({},opts,{body:JSON.stringify(body)});}}}catch(e){}}return _origFetch.call(this,url,opts);};
+
+// === PLAYER ODDS BUTTON ===
+(function addPlayerOddsBtn(){
+  function getSR(){var d=document.querySelectorAll("div");for(var i=0;i<d.length;i++){if(d[i].shadowRoot)return d[i].shadowRoot;}return null;}
+  function tryAdd(){
+    var sr=getSR();if(!sr)return;
+    if(sr.getElementById("pp-odds-btn"))return;
+    var upd=sr.getElementById("pp-update-btn");if(!upd)return;
+    var pid=upd.getAttribute("data-pid");
+    var fn=upd.getAttribute("data-fullname");
+    var b=document.createElement("button");
+    b.id="pp-odds-btn";
+    b.setAttribute("data-pid",pid);
+    b.setAttribute("data-fullname",fn);
+    b.innerHTML="\u26a1 Odds";
+    b.style.cssText="background:rgba(255,165,0,0.15);border:1px solid rgba(255,165,0,0.4);color:#ffa500;border-radius:6px;padding:4px 10px;cursor:pointer;margin-left:6px;font-size:13px;";
+    b.addEventListener("click",function(){openOddsOnBE(pid,fn);});
+    upd.parentNode.insertBefore(b,upd.nextSibling);
+  }
+  // Watch shadow host
+  function watchShadow(){
+    var d=document.querySelectorAll("div");
+    for(var i=0;i<d.length;i++){
+      if(d[i].shadowRoot){
+        new MutationObserver(function(){tryAdd();}).observe(d[i].shadowRoot,{childList:true,subtree:true});
+        return;
+      }
+    }
+  }
+  [200,500,1000,2000,3000].forEach(function(t){setTimeout(tryAdd,t);});
+  setTimeout(watchShadow,200);
+  new MutationObserver(function(){watchShadow();tryAdd();}).observe(document.body,{childList:true,subtree:false});
+})();
