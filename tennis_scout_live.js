@@ -4168,8 +4168,49 @@ function bulkOddsImport(){var btn=document.getElementById("bulk-odds-btn");if(bt
 document.addEventListener("click",function(e){var b=e.target.closest?e.target.closest("[id=pp-odds-btn]"):null;if(!b&&e.target.id==="pp-odds-btn")b=e.target;if(b)openOddsOnBE(b.getAttribute("data-pid"),b.getAttribute("data-fullname"));if(e.target.id==="bulk-odds-btn")bulkOddsImport();});
 (function addSidebarBtn(){var try_=function(){if(document.getElementById("bulk-odds-btn"))return;var btns=document.querySelectorAll("button");var imp=null;for(var i=0;i<btns.length;i++){if(btns[i].textContent.trim().indexOf("Tennis Abstract")>=0){imp=btns[i];break;}}if(!imp)return;var b=document.createElement("button");b.id="bulk-odds-btn";b.innerHTML="\u26a1 Bulk Odds";b.style.cssText="width:100%;padding:8px 12px;border-radius:6px;cursor:pointer;background:rgba(255,165,0,0.15);border:1px solid rgba(255,165,0,0.4);color:#ffa500;font-size:13px;margin-top:6px;";imp.parentElement.insertBefore(b,imp.nextSibling);};[300,800,2000,4000].forEach(function(d){setTimeout(try_,d);});})();
 // === MERGE ODDS ON SAVE ===
-// Before saving, copy odds from existing player data
-var _origFetch=window.fetch;window.fetch=function(url,opts){if(opts&&opts.method==="PUT"&&typeof url==="string"&&url.indexOf("player_history")>=0&&opts.body){try{var body=JSON.parse(opts.body);if(body.content&&body.sha){var dec=new TextDecoder();var nb=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});var newData=JSON.parse(dec.decode(nb));var pid=url.split("player_history/")[1].replace(".json","");var cached=window.__playerCache&&window.__playerCache[pid];if(cached&&cached.matches&&newData.matches){newData.matches.forEach(function(m){if(m.odds_opp>0)return;var o=cached.matches.find(function(x){return x.date===m.date&&x.opponent===m.opponent;});if(o&&o.odds_opp>0){m.odds_alc=o.odds_alc;m.odds_opp=o.odds_opp;m.odds_src=o.odds_src;}});var enc=new TextEncoder();var bytes=enc.encode(JSON.stringify(newData));var bin="";for(var i=0;i<bytes.length;i++)bin+=String.fromCharCode(bytes[i]);body.content=btoa(bin);opts=Object.assign({},opts,{body:JSON.stringify(body)});}}}catch(e){}}return _origFetch.call(this,url,opts);};
+// Before saving player_history, fetch existing file and copy odds to new data
+var _origFetch=window.fetch;
+window.fetch=function(url,opts){
+  if(opts&&opts.method==="PUT"&&typeof url==="string"&&url.indexOf("player_history")>=0&&opts.body){
+    try{
+      var body=JSON.parse(opts.body);
+      var pid=url.split("player_history/")[1].split(".json")[0];
+      var rawUrl="https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/"+pid+".json?v="+Date.now();
+      return _origFetch.call(this,rawUrl).then(function(r){return r.ok?r.json():null;}).then(function(existing){
+        if(existing&&existing.matches&&body.content){
+          try{
+            var dec=new TextDecoder();
+            var nb=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});
+            var newData=JSON.parse(dec.decode(nb));
+            if(newData&&newData.matches){
+              var merged=0;
+              newData.matches.forEach(function(m){
+                if(m.odds_opp>0)return;
+                var o=existing.matches.find(function(x){
+                  return x.date===m.date&&(x.opponent===m.opponent||(x.opponent||"").split(" ").pop()===(m.opponent||"").split(" ").pop());
+                });
+                if(o&&o.odds_opp>0){m.odds_alc=o.odds_alc;m.odds_opp=o.odds_opp;m.odds_src=o.odds_src;merged++;}
+              });
+              if(merged>0){
+                var enc=new TextEncoder();
+                var b=enc.encode(JSON.stringify(newData));
+                var bin="";
+                for(var i=0;i<b.length;i++)bin+=String.fromCharCode(b[i]);
+                body.content=btoa(bin);
+                opts=Object.assign({},opts,{body:JSON.stringify(body)});
+                console.log("Merged "+merged+" odds for "+pid);
+              }
+            }
+          }catch(e){console.warn("Merge error:",e);}
+        }
+        return _origFetch.call(window,url,opts);
+      }).catch(function(){
+        return _origFetch.call(window,url,opts);
+      });
+    }catch(e){}
+  }
+  return _origFetch.call(this,url,opts);
+};
 
 // === PLAYER ODDS BUTTON ===
 (function addPlayerOddsBtn(){
