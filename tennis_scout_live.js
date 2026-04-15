@@ -4251,44 +4251,67 @@ window.__saveNavlist = function(pid) {
   console.log("Saving", navlist.length, "entries for", pid, "...");
 };
 
-// === MERGE ODDS ON SAVE - zachová odds při každém uložení ===
+// === MERGE ODDS ON SAVE v2 ===
+if(!window.__oddsCache) window.__oddsCache={};
 (function(){
-var _of=window.fetch;
-window.fetch=function(url,opts){
-  if(opts&&opts.method==="PUT"&&typeof url==="string"&&url.indexOf("player_history/")>=0&&url.indexOf("github.com")>=0&&opts.body){
-    try{
-      var body=JSON.parse(opts.body);
-      if(body.content&&body.sha){
-        var pid=url.split("player_history/")[1].replace(".json","");
-        var rawUrl="https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/"+pid+".json?v="+Date.now();
-        return _of.call(window,rawUrl).then(function(r){return r.ok?r.json():null;}).then(function(existing){
-          if(existing&&existing.matches){
+  var _of=window.fetch;
+  window.fetch=function(url,opts){
+    var p=_of.apply(window,arguments);
+    // Zachyť GET player_history - ulož odds do cache
+    if(typeof url==="string"&&url.indexOf("player_history/")>=0&&(!opts||!opts.method||opts.method==="GET")){
+      p.then(function(r){
+        if(!r||!r.ok)return;
+        return r.clone().json().then(function(d){
+          if(!d||!d.matches)return;
+          var pid=url.split("player_history/")[1].split(".json")[0].split("?")[0];
+          var map={};
+          d.matches.forEach(function(m){
+            if(m.odds_opp>0){
+              var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();
+              map[k]={alc:m.odds_alc,opp:m.odds_opp,src:m.odds_src};
+            }
+          });
+          if(Object.keys(map).length>0){
+            window.__oddsCache[pid]=map;
+          }
+        }).catch(function(){});
+      }).catch(function(){});
+    }
+    // Zachyť PUT player_history - merge odds
+    if(opts&&opts.method==="PUT"&&typeof url==="string"&&url.indexOf("player_history/")>=0&&opts.body){
+      try{
+        var body=JSON.parse(opts.body);
+        if(body.content&&body.sha){
+          var pid=url.split("player_history/")[1].replace(".json","");
+          var cached=window.__oddsCache[pid];
+          if(cached&&Object.keys(cached).length>0){
             try{
-              var nb=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});
-              var newData=JSON.parse(new TextDecoder().decode(nb));
+              var bytes=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});
+              var newData=JSON.parse(new TextDecoder().decode(bytes));
               if(newData&&newData.matches){
                 var n=0;
                 newData.matches.forEach(function(m){
                   if(m.odds_opp>0)return;
-                  var last=(m.opponent||"").toLowerCase().split(" ").pop();
-                  var o=existing.matches.find(function(x){
-                    return x.date===m.date&&(x.opponent||"").toLowerCase().split(" ").pop()===last&&x.odds_opp>0;
-                  });
-                  if(o){m.odds_alc=o.odds_alc;m.odds_opp=o.odds_opp;m.odds_src=o.odds_src;n++;}
+                  var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();
+                  if(cached[k]){
+                    m.odds_alc=cached[k].alc;
+                    m.odds_opp=cached[k].opp;
+                    m.odds_src=cached[k].src;
+                    n++;
+                  }
                 });
                 if(n>0){
-                  body.content=btoa(JSON.stringify(newData));
+                  body.content=btoa(unescape(encodeURIComponent(JSON.stringify(newData))));
                   opts=Object.assign({},opts,{body:JSON.stringify(body)});
-                  console.log("Merged "+n+" odds for "+pid);
+                  console.log("[OddsMerge] Saved "+n+" odds for "+pid);
+                  return _of.call(window,url,opts);
                 }
               }
-            }catch(e){}
+            }catch(e){console.log("[OddsMerge] ERR "+e.message);}
           }
-          return _of.call(window,url,opts);
-        }).catch(function(){return _of.call(window,url,opts);});
-      }
-    }catch(e){}
-  }
-  return _of.call(window,url,opts);
-};
+        }
+      }catch(e){}
+    }
+    return p;
+  };
 })();
