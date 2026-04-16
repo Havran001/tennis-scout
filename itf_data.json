@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-15T09:06:15Z",
+  "updated": "2026-04-16T09:06:04Z",
   "year": 2026,
-  "count": 748,
+  "count": 749,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -4394,7 +4394,7 @@
       "end": "2026-05-31"
     },
     {
-      "name": "W15 Kursumlijska Banja ",
+      "name": "W75 Kursumlijska Banja ",
       "loc": "Kursumlijska Banja ",
       "country": "SRB",
       "cat": "ITF",
@@ -4507,16 +4507,6 @@
       "name": "M25 Cuiabá",
       "loc": "Cuiaba",
       "country": "BRA",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-06-01",
-      "end": "2026-06-07"
-    },
-    {
-      "name": "TBA",
-      "loc": "Skopje",
-      "country": "MKD",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Clay",
@@ -4874,7 +4864,7 @@
       "end": "2026-06-14"
     },
     {
-      "name": "M15 Los Angeles, CA",
+      "name": "Jack Kramer Professional Tennis Tournament",
       "loc": "Rolling Hills Estates",
       "country": "USA",
       "cat": "ITF",
@@ -5030,16 +5020,6 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
-      "start": "2026-06-08",
-      "end": "2026-06-14"
-    },
-    {
-      "name": "Jack Kramer Professional Tennis Tournament",
-      "loc": "Rolling Hills Estates",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
       "start": "2026-06-08",
       "end": "2026-06-14"
     },
@@ -5284,7 +5264,7 @@
       "end": "2026-06-21"
     },
     {
-      "name": "W15 Irvine, CA",
+      "name": "SoCal Pro Series Women's 15 - Irvine",
       "loc": "Irvine, CA",
       "country": "USA",
       "cat": "ITF",
@@ -5644,6 +5624,16 @@
       "end": "2026-07-05"
     },
     {
+      "name": "TBA",
+      "loc": "Skopje",
+      "country": "MKD",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
       "name": "Magic Hotel Tours by FTT",
       "loc": "Monastir",
       "country": "TUN",
@@ -5974,6 +5964,16 @@
       "end": "2026-07-12"
     },
     {
+      "name": "W50 Columbus, OH",
+      "loc": "Columbus, OH",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-07-06",
+      "end": "2026-07-12"
+    },
+    {
       "name": "W50 Corroios-Seixal",
       "loc": "Corroios-Seixal",
       "country": "POR",
@@ -5994,11 +5994,11 @@
       "end": "2026-07-12"
     },
     {
-      "name": "W35 Columbus, OH",
-      "loc": "Columbus, OH",
-      "country": "USA",
+      "name": "ITF Women's World Tennis Tour (4)",
+      "loc": "Nakhon Pathom",
+      "country": "THA",
       "cat": "ITF",
-      "tier": "W35",
+      "tier": "W15",
       "surf": "Hard",
       "start": "2026-07-06",
       "end": "2026-07-12"
@@ -6027,16 +6027,6 @@
       "name": "W15 Rancho Santa Fe, CA",
       "loc": "Rancho Santa Fe",
       "country": "USA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-07-06",
-      "end": "2026-07-12"
-    },
-    {
-      "name": "ITF Women's World Tennis Tour (4)",
-      "loc": "Nakhon Pathom",
-      "country": "THA",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -6257,6 +6247,16 @@
       "name": "W15 Krsko",
       "loc": "Krško",
       "country": "SLO",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-07-13",
+      "end": "2026-07-19"
+    },
+    {
+      "name": "W15 Kursumlijska Banja ",
+      "loc": "KURSUMLIJSKA BANJA",
+      "country": "SRB",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
@@ -6604,6 +6604,16 @@
       "end": "2026-08-02"
     },
     {
+      "name": "W75 Lexington",
+      "loc": "Lexington",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-07-27",
+      "end": "2026-08-02"
+    },
+    {
       "name": "Knokke Zoute Ladies Open powered by Dassault",
       "loc": "Knokke-Heist",
       "country": "BEL",
@@ -6724,6 +6734,16 @@
       "end": "2026-08-09"
     },
     {
+      "name": "FLANDERS LADIES TROPHY KOKSIJDE ",
+      "loc": "Koksijde",
+      "country": "BEL",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Clay",
+      "start": "2026-08-03",
+      "end": "2026-08-09"
+    },
+    {
       "name": "W75 Ourense",
       "loc": "Ourense",
       "country": "ESP",
@@ -6744,19 +6764,9 @@
       "end": "2026-08-09"
     },
     {
-      "name": "FLANDERS LADIES TROPHY KOKSIJDE ",
-      "loc": "Koksijde",
-      "country": "BEL",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Clay",
-      "start": "2026-08-03",
-      "end": "2026-08-09"
-    },
-    {
-      "name": "Lexus British Pro Series Roehampton 2",
-      "loc": "Roehampton",
-      "country": "GBR",
+      "name": "W35 Southaven, MS",
+      "loc": "Southaven",
+      "country": "USA",
       "cat": "ITF",
       "tier": "W35",
       "surf": "Hard",
@@ -6764,9 +6774,9 @@
       "end": "2026-08-09"
     },
     {
-      "name": "W35 Southaven, MS",
-      "loc": "Southaven",
-      "country": "USA",
+      "name": "Lexus British Pro Series Roehampton 2",
+      "loc": "Roehampton",
+      "country": "GBR",
       "cat": "ITF",
       "tier": "W35",
       "surf": "Hard",
@@ -7164,6 +7174,16 @@
       "end": "2026-09-06"
     },
     {
+      "name": "Tsaghkadzor Autumn Cup",
+      "loc": "Tsaghkadzor",
+      "country": "ARM",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-08-31",
+      "end": "2026-09-05"
+    },
+    {
       "name": "W15 Fiano Romano",
       "loc": "Fiano Romano",
       "country": "ITA",
@@ -7192,16 +7212,6 @@
       "surf": "Clay",
       "start": "2026-08-31",
       "end": "2026-09-06"
-    },
-    {
-      "name": "Tsaghkadzor Autumn Cup",
-      "loc": "Tsaghkadzor",
-      "country": "ARM",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Clay",
-      "start": "2026-08-31",
-      "end": "2026-09-05"
     },
     {
       "name": "Tournoi International de Plaisir",
