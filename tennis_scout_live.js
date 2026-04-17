@@ -4294,32 +4294,16 @@ if(!window.__oddsCache) window.__oddsCache={};
                   if(m.odds_opp>0)return;
                   if(!(m.score||"").trim())return;
                   var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();
-                  if(cachedOdds[k]){
-                    m.odds_alc=cachedOdds[k].alc;
-                    m.odds_opp=cachedOdds[k].opp;
-                    m.odds_src=cachedOdds[k].src;
-                    n++;
-                  }
+                  if(cachedOdds[k]){m.odds_alc=cachedOdds[k].alc;m.odds_opp=cachedOdds[k].opp;m.odds_src=cachedOdds[k].src;n++;}
                 });
                 if(n>0){
                   var mergedB64=btoa(unescape(encodeURIComponent(JSON.stringify(newData))));
-                  var tok=window.__ghToken;
-                  if(!tok){
-                    body.content=mergedB64;
-                    opts=Object.assign({},opts,{body:JSON.stringify(body)});
-                    console.log("[OddsMerge] Saved "+n+" (no fresh SHA)");
-                    return _of.call(window,url,opts);
-                  }
+                  var tok=window.__ghToken||localStorage.getItem("ts_gh_token");
+                  if(!tok){body.content=mergedB64;opts=Object.assign({},opts,{body:JSON.stringify(body)});console.log("[OddsMerge] Saved "+n+" (no tok)");return _of.call(window,url,opts);}
                   return fetch("https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/"+pid+".json",{
                     headers:{Authorization:"token "+tok}
                   }).then(function(r2){return r2.ok?r2.json():null;}).then(function(fresh){
-                    if(!fresh||!fresh.sha){
-                      body.content=mergedB64;
-                      opts=Object.assign({},opts,{body:JSON.stringify(body)});
-                      console.log("[OddsMerge] Saved "+n+" (fallback sha)");
-                      return _of.call(window,url,opts);
-                    }
-                    var newBody=Object.assign({},body,{content:mergedB64,sha:fresh.sha});
+                    var newBody=Object.assign({},body,{content:mergedB64,sha:(fresh&&fresh.sha)||body.sha});
                     var newOpts=Object.assign({},opts,{body:JSON.stringify(newBody)});
                     console.log("[OddsMerge] Saved "+n+" odds for "+pid);
                     return _of.call(window,url,newOpts);
@@ -4338,10 +4322,7 @@ if(!window.__oddsCache) window.__oddsCache={};
                 if(existing&&existing.matches){
                   var ghCache={};
                   existing.matches.forEach(function(m){
-                    if(m.odds_opp>0){
-                      var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();
-                      ghCache[k]={alc:m.odds_alc,opp:m.odds_opp,src:m.odds_src};
-                    }
+                    if(m.odds_opp>0){var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();ghCache[k]={alc:m.odds_alc,opp:m.odds_opp,src:m.odds_src};}
                   });
                   if(Object.keys(ghCache).length>0){
                     console.log("[OddsMerge] Loaded "+Object.keys(ghCache).length+" from GitHub for "+pid);
