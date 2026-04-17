@@ -3035,6 +3035,7 @@ function buildUI(){
         status.textContent='⏳ Ukládám...';
         var out={player_id:pid,name:pfull,source:'tennisabstract',updated:new Date().toISOString().slice(0,10),total:ms.length,matches:ms};
         fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+pid+'.json',{headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}}).then(function(r){return r.ok?r.json():null;}).then(function(gd){
+          if(gd&&gd.content){try{var gdData=JSON.parse(new TextDecoder('utf-8').decode(Uint8Array.from(atob(gd.content.replace(/\n/g,'')),function(c){return c.charCodeAt(0);})));if(gdData&&gdData.matches){gdData.matches.forEach(function(m){if(m.odds_opp>0){var k=m.date+'|'+(m.opponent||'').toLowerCase().split(' ').pop();var tm=ms.find(function(x){return x.date===m.date&&(x.opponent||'').toLowerCase().split(' ').pop()===k.split('|')[1];});if(tm&&!tm.odds_opp){tm.odds_alc=m.odds_alc;tm.odds_opp=m.odds_opp;tm.odds_src=m.odds_src;}}});}}catch(e){}}
           var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out)),bn='';for(var bi=0;bi<eb.length;bi++)bn+=String.fromCharCode(eb[bi]);
           var body={message:'Update: '+pfull+' ('+ms.length+')',content:btoa(bn)};if(gd&&gd.sha)body.sha=gd.sha;
           return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+pid+'.json',{method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(body)});
