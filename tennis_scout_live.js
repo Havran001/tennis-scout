@@ -2924,13 +2924,32 @@ function buildUI(){
               };
             });}
             var _noVa=!_hasGoodData;if(!ms||ms.length<1){sk++;dn++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er;setTimeout(function(){nx(i+1);},500);return;}
-            var out={player_id:p.id,gs_id:(cd&&cd.gs_id)||'',player_name:p.full_name,source:'tennisabstract',updated:new Date().toISOString(),matches:ms};
-            var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out,null,2)),bn='';
-            for(var bi=0;bi<eb.length;bi++)bn+=String.fromCharCode(eb[bi]);
-            var bd={message:'TA: '+p.full_name+' ('+ms.length+')',content:btoa(bn)};
-            if(cr&&cr.sha)bd.sha=cr.sha;
-            return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',
-              {method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(bd)})
+            return fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/'+p.id+'.json?v='+Date.now())
+              .then(function(rx){return rx.ok?rx.json():null;}).catch(function(){return null;})
+              .then(function(existing){
+                if(existing&&existing.matches){
+                  var oddsMap={};
+                  existing.matches.forEach(function(m){
+                    if(m.odds_opp>0){var k=m.date+'|'+(m.opponent||'').toLowerCase().split(' ').pop();oddsMap[k]={alc:m.odds_alc,opp:m.odds_opp,src:m.odds_src};}
+                  });
+                  if(Object.keys(oddsMap).length>0){
+                    ms.forEach(function(m){
+                      if(m.odds_opp>0)return;
+                      if(!(m.score||'').trim())return;
+                      var k=m.date+'|'+(m.opponent||'').toLowerCase().split(' ').pop();
+                      if(oddsMap[k]){m.odds_alc=oddsMap[k].alc;m.odds_opp=oddsMap[k].opp;m.odds_src=oddsMap[k].src;}
+                    });
+                    console.log('[OddsMerge] restored odds for '+p.id);
+                  }
+                }
+                var out={player_id:p.id,gs_id:(cd&&cd.gs_id)||'',player_name:p.full_name,source:'tennisabstract',updated:new Date().toISOString(),matches:ms};
+                var enc=new TextEncoder(),eb=enc.encode(JSON.stringify(out,null,2)),bn='';
+                for(var bi=0;bi<eb.length;bi++)bn+=String.fromCharCode(eb[bi]);
+                var bd={message:'TA: '+p.full_name+' ('+ms.length+')',content:btoa(bn)};
+                if(cr&&cr.sha)bd.sha=cr.sha;
+                return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+p.id+'.json',
+                  {method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(bd)});
+              })
             .then(function(pr){if(pr.ok){im++;prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → '+p.full_name+' ('+ms.length+')';}else{pr.json().then(function(e){console.error('GH PUT failed: '+p.full_name+' ('+p.id+')');window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): PUT failed');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;});er++;}dn++;setTimeout(function(){nx(i+1);},2000);});
           });
           }).catch(function(e){window._importFailed=window._importFailed||[];window._importFailed.push(p.full_name+' ('+p.id+'): network error');prog.innerHTML=window._tsProgress=dn+'/'+tot+' ✅'+im+' ⏭'+sk+' ❌'+er+' → ❌ '+p.full_name;er++;dn++;setTimeout(function(){nx(i+1);},500);});
@@ -4283,51 +4302,8 @@ if(!window.__oddsCache) window.__oddsCache={};
         var body=JSON.parse(opts.body);
         if(body.content&&body.sha){
           var pid=url.split("player_history/")[1].replace(".json","");
-          var cached=window.__oddsCache[pid]||{};
-          var mergeOddsIntoBody=function(cachedOdds){
-            try{
-              var bytes2=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});
-              var newData=JSON.parse(new TextDecoder().decode(bytes2));
-              if(newData&&newData.matches){
-                var n=0;
-                newData.matches.forEach(function(m){
-                  if(m.odds_opp>0)return;
-                  if(!(m.score||"").trim())return;
-                  var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();
-                  if(cachedOdds[k]){m.odds_alc=cachedOdds[k].alc;m.odds_opp=cachedOdds[k].opp;m.odds_src=cachedOdds[k].src;n++;}
-                });
-                if(n>0){
-                  body.content=btoa(unescape(encodeURIComponent(JSON.stringify(newData))));
-                  opts=Object.assign({},opts,{body:JSON.stringify(body)});
-                  console.log("[OddsMerge] "+n+" odds merged for "+pid);
-                }
-              }
-            }catch(e){console.log("[OddsMerge] ERR "+e.message);}
-          };
-          if(Object.keys(cached).length>0){
-            mergeOddsIntoBody(cached);
-          } else {
-            // Cache prázdná - načti z raw GitHub synchronně přes XHR
-            try{
-              var xhr=new XMLHttpRequest();
-              xhr.open("GET","https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/"+pid+".json?v="+Date.now(),false);
-              xhr.send();
-              if(xhr.status===200){
-                var existing=JSON.parse(xhr.responseText);
-                if(existing&&existing.matches){
-                  var ghCache={};
-                  existing.matches.forEach(function(m){
-                    if(m.odds_opp>0){var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();ghCache[k]={alc:m.odds_alc,opp:m.odds_opp,src:m.odds_src};}
-                  });
-                  if(Object.keys(ghCache).length>0){
-                    console.log("[OddsMerge] XHR loaded "+Object.keys(ghCache).length+" odds for "+pid);
-                    mergeOddsIntoBody(ghCache);
-                  }
-                }
-              }
-            }catch(e){console.log("[OddsMerge] XHR ERR "+e.message);}
-          }
-          if(true){
+          var cached=window.__oddsCache[pid];
+          if(cached&&Object.keys(cached).length>0){
             try{
               var bytes=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});
               var newData=JSON.parse(new TextDecoder().decode(bytes));
