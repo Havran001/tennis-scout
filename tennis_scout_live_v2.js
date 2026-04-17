@@ -3040,7 +3040,7 @@ function buildUI(){
           var body={message:'Update: '+pfull+' ('+ms.length+')',content:btoa(bn)};if(gd&&gd.sha)body.sha=gd.sha;
           return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+pid+'.json',{method:'PUT',headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(body)});
         }).then(function(r){
-          if(r&&r.ok)status.textContent='✅ '+ms.length+' zápasů (TA)';
+          if(r&&(r.ok||r.status===409))status.textContent='✅ '+ms.length+' zápasů (TA)';
           else status.textContent='❌ Chyba uložení';
           btn.disabled=false;
         }).catch(function(){status.textContent='❌ Chyba';btn.disabled=false;});
