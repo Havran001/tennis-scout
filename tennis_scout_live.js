@@ -4284,7 +4284,7 @@ if(!window.__oddsCache) window.__oddsCache={};
         if(body.content&&body.sha){
           var pid=url.split("player_history/")[1].replace(".json","");
           var cached=window.__oddsCache[pid]||{};
-          var doMerge=function(cachedOdds){
+          var mergeOddsIntoBody=function(cachedOdds){
             try{
               var bytes2=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});
               var newData=JSON.parse(new TextDecoder().decode(bytes2));
@@ -4297,42 +4297,37 @@ if(!window.__oddsCache) window.__oddsCache={};
                   if(cachedOdds[k]){m.odds_alc=cachedOdds[k].alc;m.odds_opp=cachedOdds[k].opp;m.odds_src=cachedOdds[k].src;n++;}
                 });
                 if(n>0){
-                  var mergedB64=btoa(unescape(encodeURIComponent(JSON.stringify(newData))));
-                  var tok=window.__ghToken||localStorage.getItem("ts_gh_token");
-                  if(!tok){body.content=mergedB64;opts=Object.assign({},opts,{body:JSON.stringify(body)});console.log("[OddsMerge] Saved "+n+" (no tok)");return _of.call(window,url,opts);}
-                  return fetch("https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/"+pid+".json",{
-                    headers:{Authorization:"token "+tok}
-                  }).then(function(r2){return r2.ok?r2.json():null;}).then(function(fresh){
-                    var newBody=Object.assign({},body,{content:mergedB64,sha:(fresh&&fresh.sha)||body.sha});
-                    var newOpts=Object.assign({},opts,{body:JSON.stringify(newBody)});
-                    console.log("[OddsMerge] Saved "+n+" odds for "+pid);
-                    return _of.call(window,url,newOpts);
-                  }).catch(function(){return _of.call(window,url,opts);});
+                  body.content=btoa(unescape(encodeURIComponent(JSON.stringify(newData))));
+                  opts=Object.assign({},opts,{body:JSON.stringify(body)});
+                  console.log("[OddsMerge] "+n+" odds merged for "+pid);
                 }
               }
             }catch(e){console.log("[OddsMerge] ERR "+e.message);}
-            return _of.call(window,url,opts);
           };
           if(Object.keys(cached).length>0){
-            return doMerge(cached);
+            mergeOddsIntoBody(cached);
           } else {
-            return fetch("https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/"+pid+".json?v="+Date.now())
-              .then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
-              .then(function(existing){
+            // Cache prázdná - načti z raw GitHub synchronně přes XHR
+            try{
+              var xhr=new XMLHttpRequest();
+              xhr.open("GET","https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_history/"+pid+".json?v="+Date.now(),false);
+              xhr.send();
+              if(xhr.status===200){
+                var existing=JSON.parse(xhr.responseText);
                 if(existing&&existing.matches){
                   var ghCache={};
                   existing.matches.forEach(function(m){
                     if(m.odds_opp>0){var k=m.date+"|"+(m.opponent||"").toLowerCase().split(" ").pop();ghCache[k]={alc:m.odds_alc,opp:m.odds_opp,src:m.odds_src};}
                   });
                   if(Object.keys(ghCache).length>0){
-                    console.log("[OddsMerge] Loaded "+Object.keys(ghCache).length+" from GitHub for "+pid);
-                    return doMerge(ghCache);
+                    console.log("[OddsMerge] XHR loaded "+Object.keys(ghCache).length+" odds for "+pid);
+                    mergeOddsIntoBody(ghCache);
                   }
                 }
-                return _of.call(window,url,opts);
-              });
+              }
+            }catch(e){console.log("[OddsMerge] XHR ERR "+e.message);}
           }
-          if(false){
+          if(true){
             try{
               var bytes=Uint8Array.from(atob(body.content),function(c){return c.charCodeAt(0);});
               var newData=JSON.parse(new TextDecoder().decode(bytes));
