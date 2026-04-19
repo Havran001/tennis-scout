@@ -2847,6 +2847,7 @@ function buildUI(){
       res.sort(function(a,b){return b.absDiff-a.absDiff;});
       var threshold=window._oddsThreshold||5;
       var availBooks=BOOKS.filter(function(b){var d=window[b.wvar];return d&&d.events&&d.events.length>0;});
+      var allBooks=BOOKS;
       var h='<div style="max-width:960px;margin:0 auto;">';
       h+='<div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;flex-wrap:wrap;">';
       h+='<h2 style="margin:0;font-size:18px;font-weight:700;color:#fff;">📊 Kurzy — Chance vs ostatní</h2>';
@@ -2862,7 +2863,7 @@ function buildUI(){
       }else if(!res.length){
         h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">✅ Žádné rozdíly nad '+threshold+'%<br><span style="font-size:11px;opacity:.6;">Chance: '+chEvents.length+' | '+availBooks.map(function(b){return b.label;}).join(', ')+'</span></div>';
       }else{
-        h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+res.length+'</strong> rozdílů | '+availBooks.map(function(b){return '<span style="color:'+b.color+'">'+b.label+'</span>';}).join(' ')+'</div>';
+        h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+res.length+'</strong> rozdílů | '+allBooks.map(function(b){var ok=availBooks.indexOf(b)>=0;return '<span style="color:'+(ok?b.color:'rgba(255,255,255,.25)')+';'+(ok?'':'text-decoration:line-through;')+'">'+(ok?'':'<s>')+b.label+(ok?'':'</s>')+'</span>';}).join(' ')+'</div>';
         h+='<table style="width:100%;border-collapse:collapse;font-size:13px;"><thead><tr style="color:rgba(255,255,255,.35);font-size:11px;border-bottom:1px solid rgba(255,255,255,.08);">';
         ['Zápas','Hráč','Chance','Sázkovka','Rozdíl'].forEach(function(col,i){h+='<th style="text-align:'+(i>=2?'center':'left')+';padding:8px 6px;">'+col+'</th>';});
         h+='</tr></thead><tbody>';
