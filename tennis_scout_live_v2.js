@@ -2147,7 +2147,7 @@ function buildMatchesTab(sh){
     var days=Array.isArray(day)?day:[day];
     // Cache klíč podle dnů
     var cacheKey='ts_fs_cache_'+days.join('_');
-    var cacheTTL=30000; // 30 sekund
+    var cacheTTL=10000; // 10 sekund
     try{
       var cached=sessionStorage.getItem(cacheKey);
       if(cached){
@@ -3462,7 +3462,7 @@ if(!_kbUrl)_kbUrl='https://betano-odds.vavra-radovan.workers.dev/kb-odds';
 var _kbScrapeUrl=_kbUrl.replace('/kb-odds','/kb-scrape');
 
 // === ODDS SESSION CACHE (60s) ===
-function _oddsFromCache(key){try{var d=sessionStorage.getItem('ts_odds_'+key);if(!d)return null;var p=JSON.parse(d);if((Date.now()-p._ts)>60000){sessionStorage.removeItem('ts_odds_'+key);return null;}delete p._ts;return p;}catch(e){return null;}}
+function _oddsFromCache(key){try{var d=sessionStorage.getItem('ts_odds_'+key);if(!d)return null;var p=JSON.parse(d);if((Date.now()-p._ts)>10000){sessionStorage.removeItem('ts_odds_'+key);return null;}delete p._ts;return p;}catch(e){return null;}}
 function _oddsToCache(key,d){try{if(d&&d.events&&d.events.length>0)sessionStorage.setItem('ts_odds_'+key,JSON.stringify(Object.assign({_ts:Date.now()},d)));}catch(e){}}
 // ===========================
 var _runKb=function(){
