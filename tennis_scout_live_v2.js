@@ -2811,21 +2811,24 @@ function buildUI(){
       var threshold=_oddsThreshold/100;
       var matches=(window._lastData&&window._lastData.matches)||[];
       var chanceData=window._chanceOdds||null;
+      var events=(chanceData&&Array.isArray(chanceData.events))?chanceData.events:(Array.isArray(chanceData)?chanceData:[]);
       var results=[];
       matches.forEach(function(m){
         if(m.isFin)return;
         var co=null;
-        if(chanceData&&chanceData.length){
-          var n1=typeof _normChance==='function'?_normChance(m.p1||m.player1||''):(m.p1||'').split(' ').pop().toLowerCase();
-          var n2=typeof _normChance==='function'?_normChance(m.p2||m.player2||''):(m.p2||'').split(' ').pop().toLowerCase();
-          co=chanceData.find(function(x){
-            var xn1=typeof _normChance==='function'?_normChance(x.p1||''):(x.p1||'').split(' ').pop().toLowerCase();
-            var xn2=typeof _normChance==='function'?_normChance(x.p2||''):(x.p2||'').split(' ').pop().toLowerCase();
-            return (n1&&xn1&&n1===xn1)||(n2&&xn2&&n2===xn2);
+        if(events.length){
+          var n1=(m.p1||m.player1||'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
+          var n2=(m.p2||m.player2||'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
+          co=events.find(function(x){
+            var xn1=(x.p1||'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
+            var xn2=(x.p2||'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
+            return (n1.length>2&&(n1===xn1||n1===xn2))||(n2.length>2&&(n2===xn1||n2===xn2));
           });
         }
         if(!co)return;
-        var chO=[co.odds1,co.odds2];
+        var ps1=(m.p1||m.player1||'?').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
+        var cs1=(co.p1||'?').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
+        var chO=ps1===cs1?[co.odds1,co.odds2]:[co.odds2,co.odds1];
         BOOKS.forEach(function(book){
           [0,1].forEach(function(pi){
             var chOdd=chO[pi];
@@ -2847,7 +2850,7 @@ function buildUI(){
       h+='<label style="font-size:12px;color:rgba(255,255,255,.5);">Práh: <strong id="odds-threshold-val" style="color:#7dd3fc;">'+_oddsThreshold+'%</strong></label>';
       h+='<input type="range" id="odds-threshold-slider" min="1" max="20" value="'+_oddsThreshold+'" style="width:120px;accent-color:#7dd3fc;" oninput="window._oddsSliderChange(this.value)">';
       h+='</div></div>';
-      if(!chanceData||!chanceData.length){
+      if(!events||!events.length){
         h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">⚠️ Žádná Chance data<br><span style="font-size:12px;margin-top:8px;display:block;">Spusť bookmarklet <strong style=\'color:#7dd3fc;\'>Chance auto-push</strong> na chance.cz</span></div>';
       }else if(!results.length){
         h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">✅ Žádné rozdíly nad '+_oddsThreshold+'%<br><span style="font-size:11px;opacity:.6;">Chance zápasů: '+chanceData.length+'</span></div>';
