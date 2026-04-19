@@ -2853,7 +2853,7 @@ function buildUI(){
       if(!events||!events.length){
         h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">⚠️ Žádná Chance data<br><span style="font-size:12px;margin-top:8px;display:block;">Spusť bookmarklet <strong style=\'color:#7dd3fc;\'>Chance auto-push</strong> na chance.cz</span></div>';
       }else if(!results.length){
-        h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">✅ Žádné rozdíly nad '+_oddsThreshold+'%<br><span style="font-size:11px;opacity:.6;">Chance zápasů: '+chanceData.length+'</span></div>';
+        h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">✅ Žádné rozdíly nad '+_oddsThreshold+'%<br><span style="font-size:11px;opacity:.6;">Chance zápasů: '+events.length+'</span></div>';
       }else{
         h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+results.length+'</strong> rozdílů nad '+_oddsThreshold+'% | Chance: '+chanceData.length+' zápasů</div>';
         h+='<table style="width:100%;border-collapse:collapse;font-size:13px;">';
