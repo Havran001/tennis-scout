@@ -2807,59 +2807,47 @@ function buildUI(){
       if(Array.isArray(odds))return odds[pi]||null;
       return null;
     }
-    function normSurname(s){return(s||'').replace(/,/g,'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');}
+    function normSurname(s){return(s||'').replace(/,/g,'').split(' ')[0].toLowerCase().replace(/[^a-zčšžýáíéúůďťň]/g,'').replace(/[čc]/g,'c').replace(/[šs]/g,'s').replace(/[žz]/g,'z').replace(/[ýy]/g,'y').replace(/[áa]/g,'a').replace(/[íi]/g,'i').replace(/[éeě]/g,'e').replace(/[úůu]/g,'u').replace(/[ďd]/g,'d').replace(/[ťt]/g,'t').replace(/[ňn]/g,'n');}
     function renderOdds(){
       var thr=(window._oddsThreshold||5)/100;
       var chRaw=window._chanceOdds||null;
       var chEvents=(chRaw&&Array.isArray(chRaw.events))?chRaw.events:(Array.isArray(chRaw)?chRaw:[]);
-      // Načti všechny sázkovky ze sessionStorage
-      var BOOKS_SS=[
-        {key:'ts_odds_kb',label:'KINGS',color:'#43a047'},
-        {key:'ts_odds_bt',label:'BETANO',color:'#e91e63'},
-        {key:'ts_odds_fn',label:'FORTUNA',color:'#e65100'},
-        {key:'ts_odds_mr',label:'MERKUR',color:'#f9a825'},
-        {key:'ts_odds_sb',label:'SAZKABET',color:'#1565c0'},
-        {key:'ts_odds_sy',label:'SYNOT',color:'#6a1b9a'},
-        {key:'ts_odds_ch',label:'CHANCE',color:'#d32f2f'},
+      // Sázkovky z window proměnných
+      var BOOKS=[
+        {wvar:'_kbOdds',   label:'KINGS',   color:'#43a047'},
+        {wvar:'_bet365Odds',label:'BET365',  color:'#e91e63'},
+        {wvar:'_betanoOdds',label:'BETANO',  color:'#1976d2'},
+        {wvar:'_fortunaOdds',label:'FORTUNA',color:'#e65100'},
+        {wvar:'_merkurOdds',label:'MERKUR',  color:'#f9a825'},
+        {wvar:'_allwynOdds',label:'ALLWYN',  color:'#6a1b9a'},
+        {wvar:'_synotOdds', label:'SYNOT',   color:'#00838f'},
       ];
       var res=[];
       chEvents.forEach(function(ce){
-        var cn1=normSurname(ce.p1),cn2=normSurname(ce.p2);
-        BOOKS_SS.forEach(function(book){
-          try{
-            var cached=sessionStorage.getItem(book.key);
-            if(!cached)return;
-            var bData=JSON.parse(cached);
-            var bEvents=bData.events||[];
-            var be=bEvents.find(function(k){
-              var kn1=normSurname(k.p1),kn2=normSurname(k.p2);
-              return (cn1.length>2&&(cn1===kn1||cn1===kn2))||(cn2.length>2&&(cn2===kn1||cn2===kn2));
-            });
-            if(!be)return;
-            // Správné přiřazení hráčů
-            var swap=normSurname(ce.p1)!==normSurname(be.p1)&&normSurname(ce.p2)===normSurname(be.p1);
-            var chO=[ce.odds1,ce.odds2];
-            var bO=swap?[be.odds2,be.odds1]:[be.odds1,be.odds2];
-            [0,1].forEach(function(pi){
-              if(!chO[pi]||!bO[pi])return;
-              var diff=(chO[pi]-bO[pi])/bO[pi];
-              if(Math.abs(diff)<thr)return;
-              res.push({
-                p1:ce.p1,p2:ce.p2,
-                playerName:pi===0?ce.p1:ce.p2,
-                chanceOdd:chO[pi],bookOdd:bO[pi],
-                book:book,diff:diff,absDiff:Math.abs(diff)
-              });
-            });
-          }catch(e){}
+        var cn1=normSurname(ce.p1), cn2=normSurname(ce.p2);
+        BOOKS.forEach(function(book){
+          var bData=window[book.wvar];
+          if(!bData||!bData.events||!bData.events.length)return;
+          var be=bData.events.find(function(k){
+            var kn1=normSurname(k.p1), kn2=normSurname(k.p2);
+            return (cn1.length>2&&kn1.length>2&&cn1===kn1&&cn2===kn2)||
+                   (cn1.length>2&&kn2.length>2&&cn1===kn2&&cn2===kn1);
+          });
+          if(!be)return;
+          // Správné přiřazení: match p1 s Chance p1
+          var cn1eqBn1=(normSurname(ce.p1)===normSurname(be.p1));
+          var chO1=ce.odds1, chO2=ce.odds2;
+          var bO1=cn1eqBn1?be.odds1:be.odds2;
+          var bO2=cn1eqBn1?be.odds2:be.odds1;
+          // Hráč 1
+          if(chO1&&bO1){var d=(chO1-bO1)/bO1;if(Math.abs(d)>=thr)res.push({p1:ce.p1,p2:ce.p2,playerName:ce.p1,chanceOdd:chO1,bookOdd:bO1,book:book,diff:d,absDiff:Math.abs(d)});}
+          // Hráč 2
+          if(chO2&&bO2){var d2=(chO2-bO2)/bO2;if(Math.abs(d2)>=thr)res.push({p1:ce.p1,p2:ce.p2,playerName:ce.p2,chanceOdd:chO2,bookOdd:bO2,book:book,diff:d2,absDiff:Math.abs(d2)});}
         });
       });
       res.sort(function(a,b){return b.absDiff-a.absDiff;});
-      // Odeber duplikáty (stejný zápas+hráč+sázkovka)
-      var seen={};
-      res=res.filter(function(r){var k=r.p1+'|'+r.p2+'|'+r.playerName+'|'+r.book.key;if(seen[k])return false;seen[k]=true;return true;});
       var threshold=window._oddsThreshold||5;
-      var availBooks=BOOKS_SS.filter(function(b){return !!sessionStorage.getItem(b.key);});
+      var availBooks=BOOKS.filter(function(b){var d=window[b.wvar];return d&&d.events&&d.events.length>0;});
       var h='<div style="max-width:960px;margin:0 auto;">';
       h+='<div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;flex-wrap:wrap;">';
       h+='<h2 style="margin:0;font-size:18px;font-weight:700;color:#fff;">📊 Kurzy — Chance vs ostatní</h2>';
@@ -2875,7 +2863,7 @@ function buildUI(){
       }else if(!res.length){
         h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">✅ Žádné rozdíly nad '+threshold+'%<br><span style="font-size:11px;opacity:.6;">Chance: '+chEvents.length+' | '+availBooks.map(function(b){return b.label;}).join(', ')+'</span></div>';
       }else{
-        h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+res.length+'</strong> rozdílů | '+availBooks.map(function(b){return b.label;}).join(', ')+'</div>';
+        h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+res.length+'</strong> rozdílů | '+availBooks.map(function(b){return '<span style="color:'+b.color+'">'+b.label+'</span>';}).join(' ')+'</div>';
         h+='<table style="width:100%;border-collapse:collapse;font-size:13px;"><thead><tr style="color:rgba(255,255,255,.35);font-size:11px;border-bottom:1px solid rgba(255,255,255,.08);">';
         ['Zápas','Hráč','Chance','Sázkovka','Rozdíl'].forEach(function(col,i){h+='<th style="text-align:'+(i>=2?'center':'left')+';padding:8px 6px;">'+col+'</th>';});
         h+='</tr></thead><tbody>';
@@ -2885,7 +2873,7 @@ function buildUI(){
           h+='<tr style="border-bottom:1px solid rgba(255,255,255,.05);background:'+bg+';">';
           h+='<td style="padding:9px 6px;color:rgba(255,255,255,.65);">'+mn+'</td>';
           h+='<td style="padding:9px 6px;color:#fff;font-weight:600;">'+r.playerName+'</td>';
-          h+='<td style="padding:9px 6px;text-align:center;"><span style="background:rgba(211,47,47,.2);color:#ef9a9a;padding:2px 10px;border-radius:4px;font-weight:700;">'+r.chanceOdd.toFixed(2)+'</span></td>';
+          h+='<td style="padding:9px 6px;text-align:center;"><span style="color:#fff;font-weight:700;">'+r.chanceOdd.toFixed(2)+'</span></td>';
           h+='<td style="padding:9px 6px;text-align:center;"><span style="background:'+r.book.color+'22;color:'+r.book.color+';padding:2px 6px;border-radius:3px;font-size:10px;font-weight:700;margin-right:4px;">'+r.book.label+'</span><span style="font-weight:700;color:rgba(255,255,255,.9);">'+r.bookOdd.toFixed(2)+'</span></td>';
           h+='<td style="padding:9px 6px;text-align:center;"><span style="color:'+col+';font-weight:700;font-size:15px;">'+(up?'▲':'▼')+' '+(r.absDiff*100).toFixed(1)+'%</span></td>';
           h+='</tr>';
