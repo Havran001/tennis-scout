@@ -2819,13 +2819,13 @@ function buildUI(){
         {wvar:'_fortunaOdds',label:'FORTUNA',color:'#e65100'},
         {wvar:'_merkurOdds',label:'MERKUR',  color:'#f9a825'},
         {wvar:'_allwynOdds',label:'ALLWYN',  color:'#6a1b9a'},
-        {wvar:'_synotOdds', label:'SYNOT',   color:'#00838f'},
+        {wvar:'_synotOdds', wvar2:'_synotBaseOdds', label:'SYNOT',   color:'#00838f'},
       ];
       var res=[];
       chEvents.forEach(function(ce){
         var cn1=normSurname(ce.p1), cn2=normSurname(ce.p2);
         BOOKS.forEach(function(book){
-          var bData=window[book.wvar];
+          var bData=window[book.wvar]||(book.wvar2?window[book.wvar2]:null);
           if(!bData||!bData.events||!bData.events.length)return;
           var be=bData.events.find(function(k){
             var kn1=normSurname(k.p1), kn2=normSurname(k.p2);
@@ -2846,7 +2846,7 @@ function buildUI(){
       });
       res.sort(function(a,b){return b.absDiff-a.absDiff;});
       var threshold=window._oddsThreshold||5;
-      var availBooks=BOOKS.filter(function(b){var d=window[b.wvar];return d&&d.events&&d.events.length>0;});
+      var availBooks=BOOKS.filter(function(b){var d=window[b.wvar]||(b.wvar2?window[b.wvar2]:null);return d&&d.events&&d.events.length>0;});
       var allBooks=BOOKS;
       var h='<div style="max-width:960px;margin:0 auto;">';
       h+='<div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;flex-wrap:wrap;">';
@@ -4094,7 +4094,10 @@ var _runSynot=function(){
   var _sp=_doS?fetch(_synotScrapeUrl+'?t='+Date.now()).catch(function(){}):Promise.resolve();
   
     fetch(_synotUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
-      if(!d||!d.events||d.events.length===0)return;
+      if(!d||!d.events||d.events.length===0){
+        if(_synotBaseOdds&&_synotBaseOdds.events&&_synotBaseOdds.events.length>0){_synotOdds=_synotBaseOdds;window._synotOdds=_synotOdds;}
+        return;
+      }
       _synotOdds=d;window._synotOdds=_synotOdds;
       if(!_synotBaseOdds){_synotBaseOdds=d;try{localStorage.setItem('ts_synot_base',JSON.stringify(d));}catch(e){}}
       _synotUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
