@@ -2875,7 +2875,7 @@ function buildUI(){
       h+='<span style="font-size:12px;color:rgba(255,255,255,.4);">Aktualizace každých 10s</span>';
       h+='<div style="margin-left:auto;display:flex;align-items:center;gap:12px;">';
       h+='<label style="font-size:12px;color:rgba(255,255,255,.5);">Práh: <strong id="odds-threshold-val" style="color:#7dd3fc;">'+_oddsThreshold+'%</strong></label>';
-      h+='<input type="range" id="odds-threshold-slider" min="1" max="20" value="'+_oddsThreshold+'" style="width:120px;accent-color:#7dd3fc;" oninput="var v=parseInt(this.value);window._oddsThreshold=v;var lbl=this.parentElement.querySelector('#odds-threshold-val');if(lbl)lbl.textContent=v+'%';window._oddsRerender&&window._oddsRerender();">';
+      h+='<input type="range" id="odds-threshold-slider" min="1" max="20" value="'+_oddsThreshold+'" style="width:120px;accent-color:#7dd3fc;" oninput="window._oddsSliderChange(this.value)">';
       h+='</div></div>';
 
       if(!chanceData||!chanceData.length){
@@ -2925,7 +2925,7 @@ function buildUI(){
       _oddsWrap.innerHTML=h;
     }
 
-    window._oddsThreshold=_oddsThreshold;
+    window._oddsSliderChange=function(val){var v=parseInt(val);window._oddsThreshold=v;var sh2=document.getElementById('ts-host');var sr=sh2&&sh2.shadowRoot;var lbl=sr&&sr.getElementById('odds-threshold-val');if(lbl)lbl.textContent=v+'%';window._oddsRerender&&window._oddsRerender();};window._oddsThreshold=_oddsThreshold;
     window._oddsRerender=function(){
       _oddsThreshold=window._oddsThreshold||5;
       renderOdds();
