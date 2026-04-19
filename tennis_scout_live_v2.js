@@ -2885,7 +2885,6 @@ function buildUI(){
       var hasData=window._kbOdds&&window._kbOdds.events&&window._kbOdds.events.length;
       if(!hasData){
         if(typeof _runKb==='function')_runKb();
-        if(typeof _runBet365==='function')_runBet365();
         if(typeof _runBetano==='function')_runBetano();
         if(typeof _runFortuna==='function')_runFortuna();
         if(typeof _runMerkur==='function')_runMerkur();
@@ -3317,7 +3316,7 @@ var _bet365Odds=null,_bet365Updated=null;var _bet365BaseOdds=(function(){try{var
 var _runBet365=function(){
   fetch(_bet365Url+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
     if(!d||!d.events||d.events.length===0)return;
-    _bet365Odds=d;window._bet365Odds=_bet365Odds;
+    _bet365Odds=d;
     if(!_bet365BaseOdds){_bet365BaseOdds=d;try{localStorage.setItem('ts_bet365_base',JSON.stringify(d));}catch(e){}}
     _bet365Updated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
     if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
