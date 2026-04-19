@@ -2881,19 +2881,17 @@ function buildUI(){
       }
       _oddsWrap.innerHTML=h+'</div>';
     }
-            _oddsWrap.render=function(){
+                _oddsWrap.render=function(){
+      // Vždy spusť fetch kurzů při otevření
+      if(typeof _runKb==='function')_runKb();
+      if(typeof _runBetano==='function')_runBetano();
+      if(typeof _runFortuna==='function')_runFortuna();
+      if(typeof _runMerkur==='function')_runMerkur();
+      if(typeof _runAllwyn==='function')_runAllwyn();
+      if(typeof _runSynot==='function')_runSynot();
+      // Renderuj ihned pokud data jsou, jinak po 2s
       var hasData=window._kbOdds&&window._kbOdds.events&&window._kbOdds.events.length;
-      if(!hasData){
-        if(typeof _runKb==='function')_runKb();
-        if(typeof _runBetano==='function')_runBetano();
-        if(typeof _runFortuna==='function')_runFortuna();
-        if(typeof _runMerkur==='function')_runMerkur();
-        if(typeof _runAllwyn==='function')_runAllwyn();
-        if(typeof _runSynot==='function')_runSynot();
-        setTimeout(renderOdds,2000);
-      }else{
-        renderOdds();
-      }
+      if(hasData){renderOdds();}else{setTimeout(renderOdds,2000);}
       if(_oddsInterval)clearInterval(_oddsInterval);
       _oddsInterval=setInterval(renderOdds,10000);
     };
