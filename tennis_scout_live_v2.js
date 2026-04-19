@@ -3314,7 +3314,7 @@ var _bet365Odds=null,_bet365Updated=null;var _bet365BaseOdds=(function(){try{var
 var _runBet365=function(){
   fetch(_bet365Url+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
     if(!d||!d.events||d.events.length===0)return;
-    _bet365Odds=d;
+    _bet365Odds=d;window._bet365Odds=_bet365Odds;
     if(!_bet365BaseOdds){_bet365BaseOdds=d;try{localStorage.setItem('ts_bet365_base',JSON.stringify(d));}catch(e){}}
     _bet365Updated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
     if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -3383,7 +3383,7 @@ function _loadBetanoOdds(){
   fetch(_bsUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
     fetch('https://betano-odds.vavra-radovan.workers.dev/odds?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _betanoOdds=d;
+      _betanoOdds=d;window._betanoOdds=_betanoOdds;
       if(!_betanoBaseOdds){_betanoBaseOdds=d;try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}}
       _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -3590,7 +3590,7 @@ var _runKb=function(){
   if(_doS)fetch(_kbScrapeUrl+'?t='+Date.now()).catch(function(){});
   fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d)return;
-      _kbOdds=d;
+      _kbOdds=d;window._kbOdds=_kbOdds;
       if(!_kbBaseOdds||(d.events&&d.events.length>0)){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
       _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -3844,7 +3844,7 @@ var _runFortuna=function(){
   Promise.all([s1,s2]).finally(function(){
     fetch(_fortunaUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _fortunaOdds=d;
+      _fortunaOdds=d;window._fortunaOdds=_fortunaOdds;
       if(!_fortunaBaseOdds){_fortunaBaseOdds=d;try{localStorage.setItem('ts_fortuna_base',JSON.stringify(d));}catch(e){}}
       _fortunaUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -3908,7 +3908,7 @@ var _runMerkur=function(){
   
     fetch(_merkurUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _merkurOdds=d;
+      _merkurOdds=d;window._merkurOdds=_merkurOdds;
       if(!_merkurBaseOdds){_merkurBaseOdds=d;try{localStorage.setItem('ts_merkur_base',JSON.stringify(d));}catch(e){}}
       _merkurUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -3961,7 +3961,7 @@ var _runAllwyn=function(){
   
     fetch(_allwynUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _allwynOdds=d;
+      _allwynOdds=d;window._allwynOdds=_allwynOdds;
       if(!_allwynBaseOdds){_allwynBaseOdds=d;try{localStorage.setItem('ts_allwyn_base',JSON.stringify(d));}catch(e){}}
       _allwynUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -4094,7 +4094,7 @@ var _runSynot=function(){
   
     fetch(_synotUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _synotOdds=d;
+      _synotOdds=d;window._synotOdds=_synotOdds;
       if(!_synotBaseOdds){_synotBaseOdds=d;try{localStorage.setItem('ts_synot_base',JSON.stringify(d));}catch(e){}}
       _synotUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
