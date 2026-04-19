@@ -2789,7 +2789,7 @@ function buildUI(){
   (function(){
     var _oddsWrap=document.createElement('div');
     _oddsWrap.id='odds-wrap';
-    _oddsWrap.style.cssText='display:none;position:absolute;top:0;left:0;right:0;bottom:0;overflow-y:auto;background:#0d1117;padding:20px 24px;box-sizing:border-box;';
+    _oddsWrap.style.cssText='display:none;width:100%;min-height:100%;overflow-y:auto;background:#0d1117;padding:20px 24px;box-sizing:border-box;';
     body.appendChild(_oddsWrap);
 
     var _oddsInterval=null;
