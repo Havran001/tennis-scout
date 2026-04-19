@@ -2628,9 +2628,8 @@ function buildUI(){
         <span class="nav-icon">👤</span> Hráči ATP
         <span class="nav-badge" id="nav-players-count">1454</span>
       </div>
-      <div class="nav-item disabled">
+      <div class="nav-item" data-view="odds" id="nav-odds">
         <span class="nav-icon">📊</span> Kurzy
-        <span class="nav-soon">brzy</span>
       </div>
       <div class="nav-item disabled">
         <span class="nav-icon">⚡</span> Live zápasy
@@ -2785,6 +2784,161 @@ function buildUI(){
   var _mwEl=buildMatchesTab(sh);body.appendChild(_mwEl);
   
 
+
+  // ── MODUL KURZY ──
+  (function(){
+    var _oddsWrap=document.createElement('div');
+    _oddsWrap.id='odds-wrap';
+    _oddsWrap.style.cssText='display:none;position:absolute;top:0;left:0;right:0;bottom:0;overflow-y:auto;background:#0d1117;padding:20px 24px;box-sizing:border-box;';
+    body.appendChild(_oddsWrap);
+
+    var _oddsInterval=null;
+    var _oddsThreshold=5; // %
+
+    var BOOKS=[
+      {key:'betano',label:'BETANO',color:'#e91e63'},
+      {key:'tipsport',label:'KINGS',color:'#43a047'},
+      {key:'fortuna',label:'FORTUNA',color:'#e65100'},
+      {key:'merkur',label:'MERKUR',color:'#f9a825'},
+      {key:'sazkabet',label:'SAZKABET',color:'#1565c0'},
+      {key:'synot',label:'SYNOT',color:'#6a1b9a'},
+      {key:'chance_ext',label:'CHANCE',color:'#d32f2f'},
+    ];
+
+    function getBookOdds(m,bookKey,playerIdx){
+      // playerIdx: 0=hráč1, 1=hráč2
+      var odds=m['odds_'+bookKey];
+      if(!odds)return null;
+      if(Array.isArray(odds))return odds[playerIdx]||null;
+      if(typeof odds==='object')return odds[playerIdx===0?'o1':'o2']||null;
+      return null;
+    }
+
+    function renderOdds(){
+      if(!window._lastData)return;
+      var threshold=_oddsThreshold/100;
+      var matches=window._lastData.matches||[];
+      var chanceData=window._chanceOdds||null;
+
+      // Sestav výsledky porovnání
+      var results=[];
+
+      matches.forEach(function(m){
+        if(m.isFin)return; // přeskoč dokončené
+        // Najdi Chance kurzy pro tento zápas
+        var co=null;
+        if(chanceData&&Array.isArray(chanceData)){
+          var n1=_normChance(m.p1||m.player1||'');
+          var n2=_normChance(m.p2||m.player2||'');
+          co=chanceData.find(function(x){
+            var xn1=_normChance(x.p1||'');
+            var xn2=_normChance(x.p2||'');
+            return (xn1&&n1&&xn1===n1)||(xn2&&n2&&xn2===n2);
+          });
+        }
+        if(!co)return;
+        var chO1=co.odds1,chO2=co.odds2;
+        if(!chO1||!chO2)return;
+
+        // Porovnej s každou sázkovkou
+        BOOKS.forEach(function(book){
+          if(book.key==='chance_ext')return;
+          // Hráč 1
+          [0,1].forEach(function(pi){
+            var chOdd=pi===0?chO1:chO2;
+            var bookOdd=getBookOdds(m,book.key,pi);
+            if(!bookOdd||!chOdd)return;
+            var diff=(chOdd-bookOdd)/bookOdd;
+            if(Math.abs(diff)<threshold)return;
+            results.push({
+              match:m,
+              playerName:pi===0?(m.p1||m.player1||'Hráč 1'):(m.p2||m.player2||'Hráč 2'),
+              playerIdx:pi,
+              chanceOdd:chOdd,
+              bookOdd:bookOdd,
+              book:book,
+              diff:diff,
+              absDiff:Math.abs(diff)
+            });
+          });
+        });
+      });
+
+      // Seřaď podle největšího rozdílu
+      results.sort(function(a,b){return b.absDiff-a.absDiff;});
+
+      // Render
+      var h='<div style="max-width:960px;margin:0 auto;">';
+      // Header
+      h+='<div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;flex-wrap:wrap;">';
+      h+='<h2 style="margin:0;font-size:18px;font-weight:700;color:#fff;">📊 Kurzy — porovnání s Chance</h2>';
+      h+='<span style="font-size:12px;color:rgba(255,255,255,.4);">Aktualizace každých 10s</span>';
+      h+='<div style="margin-left:auto;display:flex;align-items:center;gap:12px;">';
+      h+='<label style="font-size:12px;color:rgba(255,255,255,.5);">Práh: <strong id="odds-threshold-val" style="color:#7dd3fc;">'+_oddsThreshold+'%</strong></label>';
+      h+='<input type="range" id="odds-threshold-slider" min="1" max="20" value="'+_oddsThreshold+'" style="width:120px;accent-color:#7dd3fc;" oninput="var v=parseInt(this.value);window._oddsThreshold=v;var lbl=this.parentElement.querySelector('#odds-threshold-val');if(lbl)lbl.textContent=v+'%';window._oddsRerender&&window._oddsRerender();">';
+      h+='</div></div>';
+
+      if(!chanceData||!chanceData.length){
+        h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">⚠️ Žádná Chance data.<br><span style="font-size:12px;">Spusť bookmarklet Chance auto-push na chance.cz</span></div>';
+      } else if(!results.length){
+        h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">✅ Žádné rozdíly nad '+_oddsThreshold+'%<br><span style="font-size:12px;">'+chanceData.length+' Chance zápasů načteno</span></div>';
+      } else {
+        h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+results.length+'</strong> rozdílů nad '+_oddsThreshold+'% &nbsp;|&nbsp; Chance zápasů: '+chanceData.length+'</div>';
+        h+='<table style="width:100%;border-collapse:collapse;font-size:13px;">';
+        h+='<thead><tr style="color:rgba(255,255,255,.4);font-size:11px;border-bottom:1px solid rgba(255,255,255,.08);">';
+        h+='<th style="text-align:left;padding:8px 6px;">Zápas</th>';
+        h+='<th style="text-align:left;padding:8px 6px;">Hráč</th>';
+        h+='<th style="text-align:center;padding:8px 6px;">Chance</th>';
+        h+='<th style="text-align:center;padding:8px 6px;">Sázkovka</th>';
+        h+='<th style="text-align:center;padding:8px 6px;">Rozdíl</th>';
+        h+='<th style="text-align:left;padding:8px 6px;">Turnaj</th>';
+        h+='</tr></thead><tbody>';
+
+        results.forEach(function(r,i){
+          var isChanceHigher=r.diff>0;
+          var diffColor=isChanceHigher?'#4ade80':'#f87171';
+          var diffArrow=isChanceHigher?'▲':'▼';
+          var diffPct=(r.absDiff*100).toFixed(1)+'%';
+          var rowBg=i%2===0?'rgba(255,255,255,.02)':'transparent';
+          h+='<tr style="border-bottom:1px solid rgba(255,255,255,.05);background:'+rowBg+';">';
+          h+='<td style="padding:9px 6px;color:rgba(255,255,255,.7);">';
+          var mn=(r.match.p1||r.match.player1||'?')+' vs '+(r.match.p2||r.match.player2||'?');
+          h+=mn.length>35?mn.slice(0,35)+'…':mn;
+          h+='</td>';
+          h+='<td style="padding:9px 6px;color:#fff;font-weight:600;">'+r.playerName+'</td>';
+          h+='<td style="padding:9px 6px;text-align:center;">';
+          h+='<span style="background:rgba(211,47,47,.15);color:#ef9a9a;padding:2px 8px;border-radius:4px;font-weight:700;">'+r.chanceOdd.toFixed(2)+'</span>';
+          h+='</td>';
+          h+='<td style="padding:9px 6px;text-align:center;">';
+          h+='<span style="background:rgba(255,255,255,.08);color:#fff;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:700;margin-right:4px;background:'+r.book.color+'22;color:'+r.book.color+';">'+r.book.label+'</span> ';
+          h+='<span style="font-weight:700;color:rgba(255,255,255,.9);">'+r.bookOdd.toFixed(2)+'</span>';
+          h+='</td>';
+          h+='<td style="padding:9px 6px;text-align:center;">';
+          h+='<span style="color:'+diffColor+';font-weight:700;font-size:14px;">'+diffArrow+' '+diffPct+'</span>';
+          h+='</td>';
+          h+='<td style="padding:9px 6px;color:rgba(255,255,255,.5);font-size:11px;">'+(r.match.tournament||'')+'</td>';
+          h+='</tr>';
+        });
+        h+='</tbody></table>';
+      }
+      h+='</div>';
+      _oddsWrap.innerHTML=h;
+    }
+
+    window._oddsThreshold=_oddsThreshold;
+    window._oddsRerender=function(){
+      _oddsThreshold=window._oddsThreshold||5;
+      renderOdds();
+    };
+
+    _oddsWrap.render=function(){
+      renderOdds();
+      if(_oddsInterval)clearInterval(_oddsInterval);
+      _oddsInterval=setInterval(renderOdds,10000);
+    };
+    _oddsWrap.destroy=function(){if(_oddsInterval){clearInterval(_oddsInterval);_oddsInterval=null;}};
+  })();
+
   // ── NAVIGACE ──
   function goView(view){
     // Close player page if open
@@ -2792,6 +2946,7 @@ function buildUI(){
     if(_pp)_pp.remove();
     if(view==='matches'){sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));sh.getElementById('nav-matches')?.classList.add('active');sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');['pw','home-view','filterbar','mnav'].forEach(id=>{var e=sh.getElementById(id);if(e)e.style.display='none';});var mwx=sh.getElementById('mw');if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}return;}
       if(view==='matches_backup'){sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));sh.getElementById('nav-matches-backup')?.classList.add('active');sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');['pw','home-view','filterbar','mnav'].forEach(id=>{var e=sh.getElementById(id);if(e)e.style.display='none';});var mwx=sh.getElementById('mw');if(mwx){mwx.style.display='block';if(mwx.render)mwx.render();}return;}
+    if(view==='odds'){sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));sh.getElementById('nav-odds')?.classList.add('active');var _tsHostO=document.getElementById('ts-host');var _mwO=_tsHostO&&_tsHostO.shadowRoot?_tsHostO.shadowRoot.getElementById('mw'):null;if(_mwO)_mwO.style.display='none';sh.querySelectorAll('.mg').forEach(m=>m.style.display='none');['pw','home-view','filterbar','mnav'].forEach(id=>{var e=sh.getElementById(id);if(e)e.style.display='none';});var owx=sh.getElementById('odds-wrap');if(owx){owx.style.display='block';if(owx.render)owx.render();}return;}
     // Update sidebar
     var _tsHost=document.getElementById('ts-host');var _mw=_tsHost&&_tsHost.shadowRoot?_tsHost.shadowRoot.getElementById('mw'):null;if(_mw)_mw.style.display='none';var _mn=sh.getElementById('main');if(_mn)_mn.style.overflow='hidden';
     sh.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
