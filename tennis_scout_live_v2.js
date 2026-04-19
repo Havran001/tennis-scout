@@ -2095,7 +2095,7 @@ function buildMatchesTab(sh){
     return{i:'🎾',l:'ATP 250',c:'#38bdf8',bg:'rgba(56,189,248,.08)',b:'rgba(56,189,248,.2)'};
   }
   function surfBg(s){if(!s)return '#555';s=s.toLowerCase();if(s.includes('hard'))return '#2563eb';if(s.includes('clay'))return '#ea580c';if(s.includes('grass'))return '#16a34a';return '#555';}
-  function timeStr(ts){if(!ts)return '';return new Date(ts).toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});}
+  function timeStr(ts){if(!ts)return '';var d=new Date(ts);var t=d.toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});var dt=d.toLocaleDateString('cs-CZ',{day:'2-digit',month:'2-digit'});return t+'<br><span style="font-size:10px;opacity:0.6;">'+dt+'</span>';}
   function pb(b){var o={};b.split('¬').forEach(function(f){var i=f.indexOf('÷');if(i>0)o[f.slice(0,i)]=f.slice(i+1);});return o;}
 
   function parseFeed(feedTxt){
