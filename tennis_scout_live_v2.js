@@ -2819,7 +2819,6 @@ function buildUI(){
         {wvar:'_fortunaOdds',label:'FORTUNA',color:'#e65100'},
         {wvar:'_merkurOdds',label:'MERKUR',  color:'#f9a825'},
         {wvar:'_allwynOdds',label:'ALLWYN',  color:'#6a1b9a'},
-        {wvar:'_synotOdds', label:'SYNOT',   color:'#00838f'},
       ];
       var res=[];
       chEvents.forEach(function(ce){
