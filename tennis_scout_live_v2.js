@@ -2786,7 +2786,7 @@ function buildUI(){
 
 
   // ── MODUL KURZY (lazy init) ──
-  function _buildOddsModule(sh){
+  window._buildOddsModule=function(sh){
     var _oddsWrap=document.createElement('div');
     _oddsWrap.id='odds-wrap';
     _oddsWrap.style.cssText='display:none;width:100%;min-height:100%;overflow-y:auto;background:#0d1117;padding:20px 24px;box-sizing:border-box;';
@@ -2895,7 +2895,7 @@ function buildUI(){
     };
     _oddsWrap.destroy=function(){if(_oddsInterval){clearInterval(_oddsInterval);_oddsInterval=null;}};
     return _oddsWrap;
-  }
+  };
 
   // ── NAVIGACE ──
   function goView(view){
