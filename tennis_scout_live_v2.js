@@ -2815,7 +2815,6 @@ function buildUI(){
       // Sázkovky z window proměnných
       var BOOKS=[
         {wvar:'_kbOdds',   label:'KINGS',   color:'#43a047'},
-        {wvar:'_bet365Odds',label:'BET365',  color:'#e91e63'},
         {wvar:'_betanoOdds',label:'BETANO',  color:'#1976d2'},
         {wvar:'_fortunaOdds',label:'FORTUNA',color:'#e65100'},
         {wvar:'_merkurOdds',label:'MERKUR',  color:'#f9a825'},
