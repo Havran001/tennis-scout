@@ -2892,18 +2892,35 @@ function buildUI(){
     };
     window._oddsThreshold=_oddsThreshold;
     function _oddsLoadData(){
-      var today=new Date();var days=[0,1].map(function(o){var d=new Date(today);d.setDate(d.getDate()+o);return d.toISOString().slice(0,10);});
-      return Promise.all(days.map(function(day){return fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+day+'&t='+Date.now()).then(function(r){return r.json();}).catch(function(){return {matches:[]};});})).then(function(results){var all=[];results.forEach(function(r){(r.matches||[]).forEach(function(m){m.isLive=m.status===2;m.isFin=m.status===3||m.status===4;all.push(m);});});return {matches:all};});
+      var days=[0,1].map(function(o){var d=new Date();d.setDate(d.getDate()+o);return d.toISOString().slice(0,10);});
+      return Promise.all(days.map(function(day){
+        return fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+day+'&t='+Date.now())
+          .then(function(r){return r.json();})
+          .catch(function(){return {matches:[]};});
+      })).then(function(results){
+        var all=[];
+        results.forEach(function(r){
+          (r.matches||[]).forEach(function(m){
+            m.isLive=m.status===2;
+            m.isFin=m.status===3||m.status===4;
+            all.push(m);
+          });
+        });
+        return {matches:all};
+      });
     }
     _oddsWrap.render=function(){
-      var doRender=function(){if(window._lastData)renderOdds();};
-      if(!window._lastData){
-        _oddsLoadData().then(function(d){window._lastData=d;renderOdds();});
-      }else{renderOdds();}
+      // Načti data pokud nejsou — bez mw.render aby nedošlo k crash loopu
+      if(!window._lastData||!window._lastData.matches||!window._lastData.matches.length){
+        _oddsLoadData().then(function(d){
+          if(d.matches.length)window._lastData=d;
+          renderOdds();
+        });
+      }else{
+        renderOdds();
+      }
       if(_oddsInterval)clearInterval(_oddsInterval);
-      _oddsInterval=setInterval(function(){
-        _oddsLoadData().then(function(d){window._lastData=d;renderOdds();});
-      },10000);
+      _oddsInterval=setInterval(renderOdds,10000);
     };
     _oddsWrap.destroy=function(){if(_oddsInterval){clearInterval(_oddsInterval);_oddsInterval=null;}};
     return _oddsWrap;
