@@ -2814,7 +2814,7 @@ function buildUI(){
       var events=(chanceData&&Array.isArray(chanceData.events))?chanceData.events:(Array.isArray(chanceData)?chanceData:[]);
       var results=[];
       matches.forEach(function(m){
-        if(m.isFin)return;
+        if(m.isFin&&!m.isLive)return;
         var co=null;
         if(events.length){
           var n1=(m.p1||m.player1||'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
@@ -2892,9 +2892,9 @@ function buildUI(){
     };
     window._oddsThreshold=_oddsThreshold;
     _oddsWrap.render=function(){
-      renderOdds();
+      if(!window._lastData&&typeof loadData==='function'){loadData().then(function(d){window._lastData=d;renderOdds();});}else{renderOdds();}
       if(_oddsInterval)clearInterval(_oddsInterval);
-      _oddsInterval=setInterval(renderOdds,10000);
+      _oddsInterval=setInterval(function(){if(window._lastData)renderOdds();},10000);
     };
     _oddsWrap.destroy=function(){if(_oddsInterval){clearInterval(_oddsInterval);_oddsInterval=null;}};
     return _oddsWrap;
