@@ -2882,13 +2882,17 @@ function buildUI(){
       }
       _oddsWrap.innerHTML=h+'</div>';
     }
-        _oddsWrap.render=function(){
-      // Načti data pokud nejsou — bez mw.render aby nedošlo k crash loopu
-      if(!window._lastData||!window._lastData.matches||!window._lastData.matches.length){
-        _oddsLoadData().then(function(d){
-          if(d.matches.length)window._lastData=d;
-          renderOdds();
-        });
+            _oddsWrap.render=function(){
+      var hasData=window._kbOdds&&window._kbOdds.events&&window._kbOdds.events.length;
+      if(!hasData){
+        if(typeof _runKb==='function')_runKb();
+        if(typeof _runBet365==='function')_runBet365();
+        if(typeof _runBetano==='function')_runBetano();
+        if(typeof _runFortuna==='function')_runFortuna();
+        if(typeof _runMerkur==='function')_runMerkur();
+        if(typeof _runAllwyn==='function')_runAllwyn();
+        if(typeof _runSynot==='function')_runSynot();
+        setTimeout(renderOdds,2000);
       }else{
         renderOdds();
       }
