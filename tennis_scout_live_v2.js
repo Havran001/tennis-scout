@@ -2807,109 +2807,94 @@ function buildUI(){
       if(Array.isArray(odds))return odds[pi]||null;
       return null;
     }
+    function normSurname(s){return(s||'').replace(/,/g,'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');}
     function renderOdds(){
-      var threshold=_oddsThreshold/100;
-      var matches=(window._lastData&&window._lastData.matches)||[];
-      var chanceData=window._chanceOdds||null;
-      var events=(chanceData&&Array.isArray(chanceData.events))?chanceData.events:(Array.isArray(chanceData)?chanceData:[]);
-      var results=[];
-      matches.forEach(function(m){
-        if(m.isFin&&!m.isLive)return;
-        var co=null;
-        if(events.length){
-          var n1=(m.p1||m.player1||'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
-          var n2=(m.p2||m.player2||'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
-          co=events.find(function(x){
-            var xn1=(x.p1||'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
-            var xn2=(x.p2||'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
-            return (n1.length>2&&(n1===xn1||n1===xn2))||(n2.length>2&&(n2===xn1||n2===xn2));
-          });
-        }
-        if(!co)return;
-        var ps1=(m.p1||m.player1||'?').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
-        var cs1=(co.p1||'?').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');
-        var chO=ps1===cs1?[co.odds1,co.odds2]:[co.odds2,co.odds1];
-        BOOKS.forEach(function(book){
-          [0,1].forEach(function(pi){
-            var chOdd=chO[pi];
-            var bOdd=getBookOdds(m,book.key,pi);
-            if(!chOdd||!bOdd)return;
-            var diff=(chOdd-bOdd)/bOdd;
-            if(Math.abs(diff)<threshold)return;
-            var pn=pi===0?(m.p1||m.player1||'Hráč 1'):(m.p2||m.player2||'Hráč 2');
-            results.push({match:m,playerName:pn,chanceOdd:chOdd,bookOdd:bOdd,book:book,diff:diff,absDiff:Math.abs(diff)});
-          });
+      var thr=(window._oddsThreshold||5)/100;
+      var chRaw=window._chanceOdds||null;
+      var chEvents=(chRaw&&Array.isArray(chRaw.events))?chRaw.events:(Array.isArray(chRaw)?chRaw:[]);
+      // Načti všechny sázkovky ze sessionStorage
+      var BOOKS_SS=[
+        {key:'ts_odds_kb',label:'KINGS',color:'#43a047'},
+        {key:'ts_odds_bt',label:'BETANO',color:'#e91e63'},
+        {key:'ts_odds_fn',label:'FORTUNA',color:'#e65100'},
+        {key:'ts_odds_mr',label:'MERKUR',color:'#f9a825'},
+        {key:'ts_odds_sb',label:'SAZKABET',color:'#1565c0'},
+        {key:'ts_odds_sy',label:'SYNOT',color:'#6a1b9a'},
+        {key:'ts_odds_ch',label:'CHANCE',color:'#d32f2f'},
+      ];
+      var res=[];
+      chEvents.forEach(function(ce){
+        var cn1=normSurname(ce.p1),cn2=normSurname(ce.p2);
+        BOOKS_SS.forEach(function(book){
+          try{
+            var cached=sessionStorage.getItem(book.key);
+            if(!cached)return;
+            var bData=JSON.parse(cached);
+            var bEvents=bData.events||[];
+            var be=bEvents.find(function(k){
+              var kn1=normSurname(k.p1),kn2=normSurname(k.p2);
+              return (cn1.length>2&&(cn1===kn1||cn1===kn2))||(cn2.length>2&&(cn2===kn1||cn2===kn2));
+            });
+            if(!be)return;
+            // Správné přiřazení hráčů
+            var swap=normSurname(ce.p1)!==normSurname(be.p1)&&normSurname(ce.p2)===normSurname(be.p1);
+            var chO=[ce.odds1,ce.odds2];
+            var bO=swap?[be.odds2,be.odds1]:[be.odds1,be.odds2];
+            [0,1].forEach(function(pi){
+              if(!chO[pi]||!bO[pi])return;
+              var diff=(chO[pi]-bO[pi])/bO[pi];
+              if(Math.abs(diff)<thr)return;
+              res.push({
+                p1:ce.p1,p2:ce.p2,
+                playerName:pi===0?ce.p1:ce.p2,
+                chanceOdd:chO[pi],bookOdd:bO[pi],
+                book:book,diff:diff,absDiff:Math.abs(diff)
+              });
+            });
+          }catch(e){}
         });
       });
-      results.sort(function(a,b){return b.absDiff-a.absDiff;});
+      res.sort(function(a,b){return b.absDiff-a.absDiff;});
+      // Odeber duplikáty (stejný zápas+hráč+sázkovka)
+      var seen={};
+      res=res.filter(function(r){var k=r.p1+'|'+r.p2+'|'+r.playerName+'|'+r.book.key;if(seen[k])return false;seen[k]=true;return true;});
+      var threshold=window._oddsThreshold||5;
+      var availBooks=BOOKS_SS.filter(function(b){return !!sessionStorage.getItem(b.key);});
       var h='<div style="max-width:960px;margin:0 auto;">';
       h+='<div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;flex-wrap:wrap;">';
       h+='<h2 style="margin:0;font-size:18px;font-weight:700;color:#fff;">📊 Kurzy — Chance vs ostatní</h2>';
       h+='<span style="font-size:12px;color:rgba(255,255,255,.4);">Auto-refresh 10s</span>';
       h+='<div style="margin-left:auto;display:flex;align-items:center;gap:10px;">';
-      h+='<label style="font-size:12px;color:rgba(255,255,255,.5);">Práh: <strong id="odds-threshold-val" style="color:#7dd3fc;">'+_oddsThreshold+'%</strong></label>';
-      h+='<input type="range" id="odds-threshold-slider" min="1" max="20" value="'+_oddsThreshold+'" style="width:120px;accent-color:#7dd3fc;" oninput="window._oddsSliderChange(this.value)">';
+      h+='<label style="font-size:12px;color:rgba(255,255,255,.5);">Práh: <strong id="odds-threshold-val" style="color:#7dd3fc;">'+threshold+'%</strong></label>';
+      h+='<input type="range" id="odds-threshold-slider" min="1" max="20" value="'+threshold+'" style="width:120px;accent-color:#7dd3fc;" oninput="window._oddsSliderChange(this.value)">';
       h+='</div></div>';
-      if(!events||!events.length){
-        h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">⚠️ Žádná Chance data<br><span style="font-size:12px;margin-top:8px;display:block;">Spusť bookmarklet <strong style=\'color:#7dd3fc;\'>Chance auto-push</strong> na chance.cz</span></div>';
-      }else if(!results.length){
-        h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">✅ Žádné rozdíly nad '+_oddsThreshold+'%<br><span style="font-size:11px;opacity:.6;">Chance zápasů: '+events.length+'</span></div>';
+      if(!chEvents.length){
+        h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">⚠️ Žádná Chance data<br><span style="font-size:12px;margin-top:8px;display:block;">Spusť bookmarklet <strong style="color:#7dd3fc;">Chance auto-push</strong> na chance.cz</span></div>';
+      }else if(!availBooks.length){
+        h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">⚠️ Žádné kurzy z ostatních sázkovek<br><span style="font-size:12px;margin-top:8px;display:block;">Otevři modul <strong style="color:#7dd3fc;">Zápasy</strong> aby se kurzy načetly</span></div>';
+      }else if(!res.length){
+        h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">✅ Žádné rozdíly nad '+threshold+'%<br><span style="font-size:11px;opacity:.6;">Chance: '+chEvents.length+' | '+availBooks.map(function(b){return b.label;}).join(', ')+'</span></div>';
       }else{
-        h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+results.length+'</strong> rozdílů nad '+_oddsThreshold+'% | Chance: '+chanceData.length+' zápasů</div>';
-        h+='<table style="width:100%;border-collapse:collapse;font-size:13px;">';
-        h+='<thead><tr style="color:rgba(255,255,255,.35);font-size:11px;border-bottom:1px solid rgba(255,255,255,.08);">';
-        ['Zápas','Hráč','Chance','Sázkovka','Rozdíl','Turnaj'].forEach(function(col,i){
-          h+='<th style="text-align:'+(i>=2&&i<=4?'center':'left')+';padding:8px 6px;">'+col+'</th>';
-        });
+        h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+res.length+'</strong> rozdílů | '+availBooks.map(function(b){return b.label;}).join(', ')+'</div>';
+        h+='<table style="width:100%;border-collapse:collapse;font-size:13px;"><thead><tr style="color:rgba(255,255,255,.35);font-size:11px;border-bottom:1px solid rgba(255,255,255,.08);">';
+        ['Zápas','Hráč','Chance','Sázkovka','Rozdíl'].forEach(function(col,i){h+='<th style="text-align:'+(i>=2?'center':'left')+';padding:8px 6px;">'+col+'</th>';});
         h+='</tr></thead><tbody>';
-        results.forEach(function(r,i){
-          var up=r.diff>0;
-          var col=up?'#4ade80':'#f87171';
-          var rowBg=i%2===0?'rgba(255,255,255,.02)':'transparent';
-          var mn=((r.match.p1||r.match.player1||'')+'  vs  '+(r.match.p2||r.match.player2||''));
-          if(mn.length>38)mn=mn.slice(0,38)+'…';
-          h+='<tr style="border-bottom:1px solid rgba(255,255,255,.05);background:'+rowBg+';">';
+        res.forEach(function(r,i){
+          var up=r.diff>0,col=up?'#4ade80':'#f87171',bg=i%2===0?'rgba(255,255,255,.02)':'transparent';
+          var mn=(r.p1+' vs '+r.p2);if(mn.length>40)mn=mn.slice(0,40)+'…';
+          h+='<tr style="border-bottom:1px solid rgba(255,255,255,.05);background:'+bg+';">';
           h+='<td style="padding:9px 6px;color:rgba(255,255,255,.65);">'+mn+'</td>';
           h+='<td style="padding:9px 6px;color:#fff;font-weight:600;">'+r.playerName+'</td>';
           h+='<td style="padding:9px 6px;text-align:center;"><span style="background:rgba(211,47,47,.2);color:#ef9a9a;padding:2px 10px;border-radius:4px;font-weight:700;">'+r.chanceOdd.toFixed(2)+'</span></td>';
           h+='<td style="padding:9px 6px;text-align:center;"><span style="background:'+r.book.color+'22;color:'+r.book.color+';padding:2px 6px;border-radius:3px;font-size:10px;font-weight:700;margin-right:4px;">'+r.book.label+'</span><span style="font-weight:700;color:rgba(255,255,255,.9);">'+r.bookOdd.toFixed(2)+'</span></td>';
           h+='<td style="padding:9px 6px;text-align:center;"><span style="color:'+col+';font-weight:700;font-size:15px;">'+(up?'▲':'▼')+' '+(r.absDiff*100).toFixed(1)+'%</span></td>';
-          h+='<td style="padding:9px 6px;color:rgba(255,255,255,.4);font-size:11px;">'+(r.match.tournament||'')+'</td>';
           h+='</tr>';
         });
         h+='</tbody></table>';
       }
-      h+='</div>';
-      _oddsWrap.innerHTML=h;
+      _oddsWrap.innerHTML=h+'</div>';
     }
-    window._oddsSliderChange=function(val){
-      _oddsThreshold=parseInt(val);
-      window._oddsThreshold=_oddsThreshold;
-      var sh2=document.getElementById('ts-host');var sr=sh2&&sh2.shadowRoot;
-      var lbl=sr&&sr.getElementById('odds-threshold-val');
-      if(lbl)lbl.textContent=_oddsThreshold+'%';
-      renderOdds();
-    };
-    window._oddsThreshold=_oddsThreshold;
-    function _oddsLoadData(){
-      var days=[0,1].map(function(o){var d=new Date();d.setDate(d.getDate()+o);return d.toISOString().slice(0,10);});
-      return Promise.all(days.map(function(day){
-        return fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+day+'&t='+Date.now())
-          .then(function(r){return r.json();})
-          .catch(function(){return {matches:[]};});
-      })).then(function(results){
-        var all=[];
-        results.forEach(function(r){
-          (r.matches||[]).forEach(function(m){
-            m.isLive=m.status===2;
-            m.isFin=m.status===3||m.status===4;
-            all.push(m);
-          });
-        });
-        return {matches:all};
-      });
-    }
-    _oddsWrap.render=function(){
+        _oddsWrap.render=function(){
       // Načti data pokud nejsou — bez mw.render aby nedošlo k crash loopu
       if(!window._lastData||!window._lastData.matches||!window._lastData.matches.length){
         _oddsLoadData().then(function(d){
