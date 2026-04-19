@@ -4343,7 +4343,7 @@ if(!window.__oddsCache) window.__oddsCache={};
 })();
 
 
-// === taToBeSur PATCH - pÃÂidÃÂ¡vÃÂ¡ chybÃÂjÃÂ­cÃÂ­ zÃÂ¡znamy ===
+// === taToBeSur PATCH - adds missing entries ===
 (function(){
   var _w=setInterval(function(){
     if(typeof window.__imp!=='function')return;
