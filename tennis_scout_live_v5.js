@@ -4168,34 +4168,42 @@ _runSynot();setInterval(_runSynot,15000);
 function _applyBestHighlights(container){
   setTimeout(function(){
     try{
-      var c=container||document;
-      var dataEls=c.querySelectorAll('.best-odds-data');
-      dataEls.forEach(function(el){
-        var b1=parseFloat(el.getAttribute('data-b1')||0);
-        var b2=parseFloat(el.getAttribute('data-b2')||0);
-        if(!b1&&!b2)return;
-        // Najdi parent row - jde nahoru dokud nenajde position:relative div
-        var row=el.parentElement;
-        while(row&&row!==c){
-          if(row.style&&row.style.position==='relative')break;
-          row=row.parentElement;
-        }
-        if(!row||row===c)return;
-        // Projdi všechny divy v řádku a hledej čísla kurzů
-        var allDivs=row.querySelectorAll('div');
-        allDivs.forEach(function(d){
-          if(d.children.length>0)return; // jen leaf nodes
-          var txt=(d.innerText||d.textContent||'').trim();
-          // Odstraň šipky
-          txt=txt.replace(/[▲▼]/g,'').trim();
+      var rows=container.querySelectorAll('.mrow');
+      rows.forEach(function(row){
+        var leafs=Array.prototype.slice.call(row.querySelectorAll('div')).filter(function(d){return d.children.length===0;});
+        var oddsCells=leafs.filter(function(d){
+          var txt=(d.textContent||'').replace(/[\u2191\u2193\u2195\u2197\u2198]/g,'').trim();
           var v=parseFloat(txt);
-          if(!v||isNaN(v)||v<1.01||v>50)return;
-          if((b1>0&&Math.abs(v-b1)<0.02)||(b2>0&&Math.abs(v-b2)<0.02)){
-            d.style.color='#FFD700';
-            d.style.textShadow='0 0 8px rgba(255,215,0,0.6)';
-            d.style.fontWeight='900';
+          return !isNaN(v)&&v>=1.01&&v<=50;
+        });
+        if(oddsCells.length<4)return;
+        oddsCells.forEach(function(c){
+          var s=c.getAttribute('style')||'';
+          if(s.indexOf('FFD700')>=0||s.indexOf('#ffd700')>=0){
+            c.setAttribute('style',s.replace(/color\s*:\s*#?FFD700/gi,'color:#e6edf3'));
           }
         });
+        var p1s=[],p2s=[];
+        for(var i=0;i<oddsCells.length;i+=2){
+          p1s.push({el:oddsCells[i],v:parseFloat(oddsCells[i].textContent.replace(/[\u2191\u2193\u2195\u2197\u2198]/g,'').trim())});
+          if(i+1<oddsCells.length){
+            p2s.push({el:oddsCells[i+1],v:parseFloat(oddsCells[i+1].textContent.replace(/[\u2191\u2193\u2195\u2197\u2198]/g,'').trim())});
+          }
+        }
+        var maxP1=-1,maxP1Idx=-1;
+        p1s.forEach(function(p,idx){if(p.v>maxP1){maxP1=p.v;maxP1Idx=idx;}});
+        var maxP2=-1,maxP2Idx=-1;
+        p2s.forEach(function(p,idx){if(p.v>maxP2){maxP2=p.v;maxP2Idx=idx;}});
+        if(maxP1Idx>=0){
+          var el1=p1s[maxP1Idx].el;
+          var s1=el1.getAttribute('style')||'';
+          el1.setAttribute('style',s1.replace(/color\s*:\s*#?[a-f0-9]+/gi,'color:#FFD700'));
+        }
+        if(maxP2Idx>=0){
+          var el2=p2s[maxP2Idx].el;
+          var s2=el2.getAttribute('style')||'';
+          el2.setAttribute('style',s2.replace(/color\s*:\s*#?[a-f0-9]+/gi,'color:#FFD700'));
+        }
       });
     }catch(e){console.log('[Best]',e.message);}
   },100);
