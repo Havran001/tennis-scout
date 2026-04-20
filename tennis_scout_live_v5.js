@@ -2516,12 +2516,17 @@ function renderMatches(data){
       } // end else tournament sort
     }
     h+='</div>';
-    // ASYNC RENDER s cancel
     (function(){
       var _s='<i class="_tsgrp"></i>';
       var _p=h.split(_s);
-      if(_p.length<3){wrap.innerHTML=h;_attachFilterObs();_activeFilterKey=window._tsActiveFilter||_activeFilterKey;if(_activeFilterKey!=='all')_doApplyFilter();return;}
-      // Cancel předchozí render
+      var _hasData=wrap.querySelectorAll('.mrow').length>0;
+      if(_p.length<3||_hasData){
+        wrap.innerHTML=h;_attachFilterObs();
+        _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
+        if(_activeFilterKey!=='all')_doApplyFilter();
+        return;
+      }
+      // Async pouze pro první render (přepnutí dne, prázdný wrap)
       var _ver=(wrap._tsRV||0)+1;wrap._tsRV=_ver;
       wrap.innerHTML=_p[0]+_s+_p[1];
       _attachFilterObs();
