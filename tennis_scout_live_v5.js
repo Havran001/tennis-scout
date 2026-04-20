@@ -2559,7 +2559,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
     wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){var _dv=btn.dataset.day,_d=(_dv==='fav'?'fav':parseInt(_dv));var _i=activeDay.indexOf(_d);if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}else{if(_dv==='fav'){activeDay=['fav'];}else{var _fi=activeDay.indexOf('fav');if(_fi>=0)activeDay.splice(_fi,1);activeDay.push(_d);}}
       _cachedWithOdds=null;
       try{sessionStorage.removeItem('ts_fs_cache_'+_d);sessionStorage.removeItem('ts_fs_cache_'+activeDay.join('_'));}catch(e){}
-      render();});});
+      if(_interval)clearInterval(_interval);_interval=setInterval(tick,10000);tick();});});
     wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-sort]').forEach(function(btn){btn.addEventListener('click',function(){activeSort=btn.dataset.sort==='1'?'time':'tournament';if(_lastData)renderMatches(_lastData);});});
