@@ -2320,7 +2320,15 @@ function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.
 ,'danilina':'KAZ','heliovaara':'FIN','patten':'GBR','ebden':'AUS'
 };window[_key]={};(window.ATP_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>1)window[_key][w.toLowerCase()]=flag;});});(window.WTA_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();if(!window[_key][sn])window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2&&!window[_key][w.toLowerCase()])window[_key][w.toLowerCase()]=flag;});});Object.keys(_ex).forEach(function(k){window[_key][k]=_ioc2flag(_ex[k]);});Object.keys(window[_key]).forEach(function(k){if(k.includes(' ')){var hk=k.replace(/ /g,'-');if(!window[_key][hk])window[_key][hk]=window[_key][k];}});}var parts=(n||'').split(' ');var s=parts[0].toLowerCase();var s2=parts.length>1?parts[1].toLowerCase():'';var s3=parts.length>2?parts[2].toLowerCase():'';return window[_key][s]||window[_key][s.replace(/-/g,' ')]||window[_key][s2]||window[_key][s2.replace(/-/g,' ')]||'';}
 function renderMatches(data){
-    sh._renderMatches=renderMatches;
+    if(!sh._rmDebouncer){
+      var _rmTimer=null,_rmLastData=null;
+      sh._rmDebouncer=function(d){
+        _rmLastData=d;
+        if(_rmTimer)clearTimeout(_rmTimer);
+        _rmTimer=setTimeout(function(){_rmTimer=null;renderMatches(_rmLastData);},150);
+      };
+      sh._renderMatches=sh._rmDebouncer;
+    }
     var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
     if(mcEl)mcEl.textContent=all.length;
