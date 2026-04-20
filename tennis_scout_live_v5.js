@@ -2445,12 +2445,11 @@ async function renderMatches(data){
       var byT={},tOrd=[];
       shown.forEach(function(m){if(!byT[m.tournament]){byT[m.tournament]=[];tOrd.push(m.tournament);}byT[m.tournament].push(m);});
       tOrd=tOrd.filter(function(v,i,a){return a.indexOf(v)===i;});
-      // ASYNC RENDER: for loop s yield kazde 4 skupiny
+      // ASYNC RENDER: for loop s yield kazde 4 skupiny turnaju
       var _tsRV=window._tsDaySw?((window._tsRV||0)+1):(window._tsRV||0);
-      window._tsRV=_tsRV; window._tsDaySw=false;
+      window._tsRV=_tsRV;window._tsDaySw=false;
       for(var _toi=0;_toi<tOrd.length;_toi++){
         if(window._tsRV!==_tsRV)return;
-        (function(){
         var t=tOrd[_toi];
 
         var sample=byT[t][0];
@@ -2519,7 +2518,6 @@ async function renderMatches(data){
       h+=_chanceCol(m.p1,m.p2);
           h+='</div></div>';
         });
-        })();
         if(_toi%4===3)await new Promise(function(r){setTimeout(r,0);});
       }
       } // end else tournament sort
