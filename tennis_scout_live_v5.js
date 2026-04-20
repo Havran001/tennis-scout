@@ -2516,14 +2516,18 @@ function renderMatches(data){
       } // end else tournament sort
     }
     h+='</div>';
+    // ASYNC RENDER s cancel
     (function(){
       var _s='<i class="_tsgrp"></i>';
       var _p=h.split(_s);
       if(_p.length<3){wrap.innerHTML=h;_attachFilterObs();_activeFilterKey=window._tsActiveFilter||_activeFilterKey;if(_activeFilterKey!=='all')_doApplyFilter();return;}
+      // Cancel předchozí render
+      var _ver=(wrap._tsRV||0)+1;wrap._tsRV=_ver;
       wrap.innerHTML=_p[0]+_s+_p[1];
       _attachFilterObs();
       var _i=2,_full=h;
       function _nx(){
+        if(wrap._tsRV!==_ver)return;
         if(_i>=_p.length){wrap.innerHTML=_full;_attachFilterObs();_activeFilterKey=window._tsActiveFilter||_activeFilterKey;if(_activeFilterKey!=='all')_doApplyFilter();return;}
         var _e=Math.min(_i+5,_p.length);
         wrap.innerHTML=_p.slice(0,_e).join(_s);
