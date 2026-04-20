@@ -2040,6 +2040,7 @@ function buildMatchesTab(sh){
     Object.defineProperty(wrap,'innerHTML',{
       set:function(v){
         _origInnerHTML.set.call(this,v);
+        try{_applyBestHighlights(this);}catch(e){}
         var _fk=window._tsActiveFilter||'all';
         if(_fk!=='all'){
           var _self=this;
