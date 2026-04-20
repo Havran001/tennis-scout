@@ -2328,7 +2328,25 @@ function renderMatches(data){
         _rmTimer=setTimeout(function(){_rmTimer=null;renderMatches(_rmLastData);},150);
       };
       sh._renderMatches=sh._rmDebouncer;
+      var _memCache={_gen:-1};
+      var _memGen=0;
+      sh._invalidateMemCache=function(){_memGen++;};
+      var _mk=function(id,fn){
+        return function(p1,p2,ds){
+          if(ds)return fn(p1,p2,ds);
+          if(_memCache._gen!==_memGen)_memCache={_gen:_memGen};
+          var k=id+":"+(p1||"")+"|"+(p2||"");
+          if(k in _memCache)return _memCache[k];
+          return _memCache[k]=fn(p1,p2);
+        };
+      };
+      if(typeof _getBetanoOdds==="function")_getBetanoOdds=_mk(1,_getBetanoOdds);
+      if(typeof _getKbOdds==="function")_getKbOdds=_mk(2,_getKbOdds);
+      if(typeof _getChanceOdds==="function")_getChanceOdds=_mk(3,_getChanceOdds);
+      if(typeof _getFortunaOdds==="function")_getFortunaOdds=_mk(4,_getFortunaOdds);
+      if(typeof _getBestOdds==="function")_getBestOdds=_mk(5,_getBestOdds);
     }
+    if(sh._invalidateMemCache)sh._invalidateMemCache();
     var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
     if(mcEl)mcEl.textContent=all.length;
