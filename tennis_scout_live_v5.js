@@ -4168,43 +4168,51 @@ _runSynot();setInterval(_runSynot,15000);
 // === BEST ODDS HIGHLIGHT APLIKACE ===
 function _applyBestHighlights(container){
   try{
-      var rows=container.querySelectorAll('.mrow');
-      rows.forEach(function(row){
-        var leafs=Array.prototype.slice.call(row.querySelectorAll('div')).filter(function(d){return d.children.length===0;});
-        var oddsCells=leafs.filter(function(d){
-          var txt=(d.textContent||'').replace(/[\u2191\u2193\u2195\u2197\u2198]/g,'').trim();
-          var v=parseFloat(txt);
-          return !isNaN(v)&&v>=1.01&&v<=50;
-        });
-        if(oddsCells.length<4)return;
-        oddsCells.forEach(function(c){
-          var s=c.getAttribute('style')||'';
-          if(s.indexOf('FFD700')>=0||s.indexOf('#ffd700')>=0){
-            c.setAttribute('style',s.replace(/color\s*:\s*#?FFD700/gi,'color:#e6edf3'));
-          }
-        });
-        var p1s=[],p2s=[];
-        for(var i=0;i<oddsCells.length;i+=2){
-          p1s.push({el:oddsCells[i],v:parseFloat(oddsCells[i].textContent.replace(/[\u2191\u2193\u2195\u2197\u2198]/g,'').trim())});
-          if(i+1<oddsCells.length){
-            p2s.push({el:oddsCells[i+1],v:parseFloat(oddsCells[i+1].textContent.replace(/[\u2191\u2193\u2195\u2197\u2198]/g,'').trim())});
-          }
-        }
-        var maxP1=-1,maxP1Idx=-1;
-        p1s.forEach(function(p,idx){if(p.v>maxP1){maxP1=p.v;maxP1Idx=idx;}});
-        var maxP2=-1,maxP2Idx=-1;
-        p2s.forEach(function(p,idx){if(p.v>maxP2){maxP2=p.v;maxP2Idx=idx;}});
-        if(maxP1Idx>=0){
-          var el1=p1s[maxP1Idx].el;
-          var s1=el1.getAttribute('style')||'';
-          el1.setAttribute('style',s1.replace(/color\s*:\s*#?[a-f0-9]+/gi,'color:#FFD700'));
-        }
-        if(maxP2Idx>=0){
-          var el2=p2s[maxP2Idx].el;
-          var s2=el2.getAttribute('style')||'';
-          el2.setAttribute('style',s2.replace(/color\s*:\s*#?[a-f0-9]+/gi,'color:#FFD700'));
+    var rows=container.querySelectorAll('.mrow');
+    rows.forEach(function(row){
+      function isOddsDiv(el){
+        if(el.tagName!=='DIV')return false;
+        var ch=Array.prototype.slice.call(el.children);
+        if(ch.length>1)return false;
+        if(ch.length===1&&ch[0].tagName!=='SPAN')return false;
+        var text=el.textContent;
+        if(ch.length===1)text=text.replace(ch[0].textContent,'');
+        text=text.replace(/[\u2191\u2193\u2195\u2197\u2198\u25B2\u25BC\s]/g,'');
+        if(!/^[0-9.]+$/.test(text))return false;
+        var v=parseFloat(text);
+        return !isNaN(v)&&v>=1.01&&v<=50;
+      }
+      function oddsValue(el){
+        var ch=Array.prototype.slice.call(el.children);
+        var text=el.textContent;
+        if(ch.length===1)text=text.replace(ch[0].textContent,'');
+        text=text.replace(/[\u2191\u2193\u2195\u2197\u2198\u25B2\u25BC\s]/g,'');
+        return parseFloat(text);
+      }
+      var oddsCells=Array.prototype.slice.call(row.querySelectorAll('div')).filter(isOddsDiv);
+      if(oddsCells.length<4)return;
+      oddsCells.forEach(function(c){
+        var s=c.getAttribute('style')||'';
+        if(s.indexOf('FFD700')>=0||s.indexOf('#ffd700')>=0){
+          c.setAttribute('style',s.replace(/#FFD700/gi,'#e6edf3'));
         }
       });
+      var p1s=[],p2s=[];
+      for(var i=0;i<oddsCells.length;i+=2){
+        p1s.push({el:oddsCells[i],v:oddsValue(oddsCells[i])});
+        if(i+1<oddsCells.length)p2s.push({el:oddsCells[i+1],v:oddsValue(oddsCells[i+1])});
+      }
+      var maxP1=-1,i1=-1;p1s.forEach(function(p,idx){if(p.v>maxP1){maxP1=p.v;i1=idx;}});
+      var maxP2=-1,i2=-1;p2s.forEach(function(p,idx){if(p.v>maxP2){maxP2=p.v;i2=idx;}});
+      if(i1>=0){
+        var el1=p1s[i1].el;
+        el1.setAttribute('style',(el1.getAttribute('style')||'').replace(/#e6edf3/gi,'#FFD700'));
+      }
+      if(i2>=0){
+        var el2=p2s[i2].el;
+        el2.setAttribute('style',(el2.getAttribute('style')||'').replace(/#e6edf3/gi,'#FFD700'));
+      }
+    });
   }catch(e){console.log('[Best]',e.message);}
 }
 // === KONEC BEST ODDS HIGHLIGHT ===
