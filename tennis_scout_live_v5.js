@@ -4202,16 +4202,20 @@ function _applyBestHighlights(container){
         p1s.push({el:oddsCells[i],v:oddsValue(oddsCells[i])});
         if(i+1<oddsCells.length)p2s.push({el:oddsCells[i+1],v:oddsValue(oddsCells[i+1])});
       }
-      var maxP1=-1,i1=-1;p1s.forEach(function(p,idx){if(p.v>maxP1){maxP1=p.v;i1=idx;}});
-      var maxP2=-1,i2=-1;p2s.forEach(function(p,idx){if(p.v>maxP2){maxP2=p.v;i2=idx;}});
-      if(i1>=0){
-        var el1=p1s[i1].el;
-        el1.setAttribute('style',(el1.getAttribute('style')||'').replace(/#e6edf3/gi,'#FFD700'));
-      }
-      if(i2>=0){
-        var el2=p2s[i2].el;
-        el2.setAttribute('style',(el2.getAttribute('style')||'').replace(/#e6edf3/gi,'#FFD700'));
-      }
+      var maxP1=-1;p1s.forEach(function(p){if(p.v>maxP1)maxP1=p.v;});
+      var maxP2=-1;p2s.forEach(function(p){if(p.v>maxP2)maxP2=p.v;});
+      p1s.forEach(function(p){
+        if(Math.abs(p.v-maxP1)<0.005){
+          var s=p.el.getAttribute('style')||'';
+          p.el.setAttribute('style',s.replace(/#e6edf3/gi,'#FFD700'));
+        }
+      });
+      p2s.forEach(function(p){
+        if(Math.abs(p.v-maxP2)<0.005){
+          var s=p.el.getAttribute('style')||'';
+          p.el.setAttribute('style',s.replace(/#e6edf3/gi,'#FFD700'));
+        }
+      });
     });
   }catch(e){console.log('[Best]',e.message);}
 }
