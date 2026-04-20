@@ -2920,7 +2920,7 @@ function buildUI(){
       var seen={};
       res=res.filter(function(r){var k=r.p1+'|'+r.p2+'|'+r.playerName+'|'+r.book.key;if(seen[k])return false;seen[k]=true;return true;});
       var threshold=window._oddsThreshold||5;
-      var availBooks=BOOKS_SS.filter(function(b){return !!sessionStorage.getItem(b.key);});
+      var availBooks=BOOKS_SS.filter(function(b){return res.some(function(r){var rb=r.book;return rb&&(rb.key===b.key||rb===b.key||rb.label===b.label);});});
       var h='<div style="max-width:960px;margin:0 auto;">';
       h+='<div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;flex-wrap:wrap;">';
       h+='<h2 style="margin:0;font-size:18px;font-weight:700;color:#fff;">📊 Kurzy — Chance vs ostatní</h2>';
@@ -2929,7 +2929,6 @@ function buildUI(){
       h+='<label style="font-size:12px;color:rgba(255,255,255,.5);">Práh: <strong id="odds-threshold-val" style="color:#7dd3fc;">'+threshold+'%</strong></label>';
       h+='<input type="range" id="odds-threshold-slider" min="1" max="20" value="'+threshold+'" style="width:120px;accent-color:#7dd3fc;" oninput="window._oddsSliderChange(this.value)">';
       h+='</div></div>';
-      try{window._oddsDbg={chEv:chEvents.length,resLen:res.length,availBooksLen:availBooks&&availBooks.length,availBooksKeys:availBooks&&availBooks.map(function(b){return b.label||b.key;}),thr:thr,sampleRes:res.slice(0,3),firstChEv:chEvents[0]};}catch(e){window._oddsDbg={err:e.message};}
       if(!chEvents.length){
         h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">⚠️ Žádná Chance data<br><span style="font-size:12px;margin-top:8px;display:block;">Spusť bookmarklet <strong style="color:#7dd3fc;">Chance auto-push</strong> na chance.cz</span></div>';
       }else if(!availBooks.length){
