@@ -2955,15 +2955,7 @@ function buildUI(){
       _oddsWrap.innerHTML=h+'</div>';
     }
         _oddsWrap.render=function(){
-      // Načti data pokud nejsou — bez mw.render aby nedošlo k crash loopu
-      if(!window._lastData||!window._lastData.matches||!window._lastData.matches.length){
-        Promise.resolve().then(function(){
-          if(d.matches.length)window._lastData=d;
-          renderOdds();
-        });
-      }else{
-        renderOdds();
-      }
+      renderOdds();
       if(_oddsInterval)clearInterval(_oddsInterval);
       _oddsInterval=setInterval(renderOdds,10000);
     };
