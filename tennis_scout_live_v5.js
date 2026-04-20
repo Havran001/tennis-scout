@@ -2450,7 +2450,7 @@ function renderMatches(data){
         var ti=tInfo(t);
         var flag=FLAGS[sample.tournament_country||'']||'';if(!flag){var _m=t.match(/\(([^)]+)\)/);if(_m){var _cn={'Spain':'🇪🇸','USA':'🇺🇸','Japan':'🇯🇵','France':'🇫🇷','Italy':'🇮🇹','Germany':'🇩🇪','Australia':'🇦🇺','Argentina':'🇦🇷','Canada':'🇨🇦','Brazil':'🇧🇷','Netherlands':'🇳🇱','Switzerland':'🇨🇭','Romania':'🇷🇴','Poland':'🇵🇱','Czech Republic':'🇨🇿','Austria':'🇦🇹','Greece':'🇬🇷','Belgium':'🇧🇪','Sweden':'🇸🇪','Norway':'🇳🇴','Denmark':'🇩🇰','Serbia':'🇷🇸','Croatia':'🇭🇷','Hungary':'🇭🇺','Portugal':'🇵🇹','Colombia':'🇨🇴','Chile':'🇨🇱','Mexico':'🇲🇽','Morocco':'🇲🇦','Turkey':'🇹🇷','China':'🇨🇳','India':'🇮🇳','South Korea':'🇰🇷','Ecuador':'🇪🇨','Peru':'🇵🇪','Uruguay':'🇺🇾','Paraguay':'🇵🇾','Bolivia':'🇧🇴','Guatemala':'🇬🇹','Kazakhstan':'🇰🇿','Tunisia':'🇹🇳','Egypt':'🇪🇬','South Africa':'🇿🇦','Kenya':'🇰🇪','Great Britain':'🇬🇧','United Kingdom':'🇬🇧','Ireland':'🇮🇪','Slovakia':'🇸🇰','Bulgaria':'🇧🇬','Finland':'🇫🇮','Estonia':'🇪🇪','Lithuania':'🇱🇹','Latvia':'🇱🇻','Slovenia':'🇸🇮'};var _k=_m[1].trim();flag=_cn[_k]||FLAGS[_k]||''}};
         var surf=sample.tournament_surface||'';
-        h+='<div data-tsgrp="1" style="display:flex;align-items:center;gap:8px;padding:7px 12px;margin-top:10px;background:rgba(255,255,255,.045);border-radius:8px;border-left:3px solid '+ti.c+';">';
+        h+='<i class="_tsgrp"></i>';h+='<div style="display:flex;align-items:center;gap:8px;padding:7px 12px;margin-top:10px;background:rgba(255,255,255,.045);border-radius:8px;border-left:3px solid '+ti.c+';">';
         h+='<span style="font-size:15px;">'+flag+'</span>';
         h+='<div style="flex:1;min-width:0;"><div style="font-size:11px;font-weight:700;color:rgba(255,255,255,.8);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+t+'</div>';
         if(surf)h+='<div style="margin-top:2px;"><span style="font-size:8px;font-weight:700;color:#fff;background:'+surfBg(surf)+';padding:1px 5px;border-radius:3px;">'+surf.toUpperCase()+'</span></div>';
@@ -2516,40 +2516,20 @@ function renderMatches(data){
       } // end else tournament sort
     }
     h+='</div>';
-    // ASYNC RENDER: zobraz první skupinu okamžitě, zbytek postupně
     (function(){
-      var _SEP='<div data-tsgrp="1"';
-      var _parts=h.split(_SEP);
-      if(_parts.length<3){
-        // Fallback — méně skupin, render normálně
-        wrap.innerHTML=h;
-        _attachFilterObs();
-        _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
-        if(_activeFilterKey!=='all')_doApplyFilter();
-        return;
-      }
-      // Zobraz header + první skupinu okamžitě
-      wrap.innerHTML=_parts[0]+_SEP+_parts[1];
+      var _s='<i class="_tsgrp"></i>';
+      var _p=h.split(_s);
+      if(_p.length<3){wrap.innerHTML=h;_attachFilterObs();_activeFilterKey=window._tsActiveFilter||_activeFilterKey;if(_activeFilterKey!=='all')_doApplyFilter();return;}
+      wrap.innerHTML=_p[0]+_s+_p[1];
       _attachFilterObs();
-      // Zbytek skupin přidávej postupně
-      var _i=2, _len=_parts.length, _fullH=h;
-      function _addNext(){
-        if(_i>=_len){
-          // Hotovo — přepni na kompletní HTML
-          wrap.innerHTML=_fullH;
-          _attachFilterObs();
-          _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
-          if(_activeFilterKey!=='all')_doApplyFilter();
-          return;
-        }
-        // Přidej dalších 5 skupin najednou
-        var _end=Math.min(_i+5,_len);
-        var _h=_parts.slice(0,_end).join(_SEP);
-        wrap.innerHTML=_h;
-        _i=_end;
-        setTimeout(_addNext,0);
+      var _i=2,_full=h;
+      function _nx(){
+        if(_i>=_p.length){wrap.innerHTML=_full;_attachFilterObs();_activeFilterKey=window._tsActiveFilter||_activeFilterKey;if(_activeFilterKey!=='all')_doApplyFilter();return;}
+        var _e=Math.min(_i+5,_p.length);
+        wrap.innerHTML=_p.slice(0,_e).join(_s);
+        _i=_e;setTimeout(_nx,0);
       }
-      setTimeout(_addNext,0);
+      setTimeout(_nx,0);
     })();
   //async
   _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
