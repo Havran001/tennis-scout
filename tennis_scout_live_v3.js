@@ -2445,7 +2445,20 @@ function renderMatches(data){
       var byT={},tOrd=[];
       shown.forEach(function(m){if(!byT[m.tournament]){byT[m.tournament]=[];tOrd.push(m.tournament);}byT[m.tournament].push(m);});
       tOrd=tOrd.filter(function(v,i,a){return a.indexOf(v)===i;});
-      tOrd.forEach(function(t){
+      // ASYNC RENDER: první skupina okamžitě, zbytek po skupinách
+      var _hBefore=h; // header část
+      var _tIdx=0;
+      (function _renderNext(){
+        if(_tIdx>=tOrd.length){
+          h+='</div>';
+          wrap.innerHTML=h;
+          _attachFilterObs();
+          _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
+          if(_activeFilterKey!=='all')_doApplyFilter();
+          return;
+        }
+        var t=tOrd[_tIdx++];
+
         var sample=byT[t][0];
         var ti=tInfo(t);
         var flag=FLAGS[sample.tournament_country||'']||'';if(!flag){var _m=t.match(/\(([^)]+)\)/);if(_m){var _cn={'Spain':'🇪🇸','USA':'🇺🇸','Japan':'🇯🇵','France':'🇫🇷','Italy':'🇮🇹','Germany':'🇩🇪','Australia':'🇦🇺','Argentina':'🇦🇷','Canada':'🇨🇦','Brazil':'🇧🇷','Netherlands':'🇳🇱','Switzerland':'🇨🇭','Romania':'🇷🇴','Poland':'🇵🇱','Czech Republic':'🇨🇿','Austria':'🇦🇹','Greece':'🇬🇷','Belgium':'🇧🇪','Sweden':'🇸🇪','Norway':'🇳🇴','Denmark':'🇩🇰','Serbia':'🇷🇸','Croatia':'🇭🇷','Hungary':'🇭🇺','Portugal':'🇵🇹','Colombia':'🇨🇴','Chile':'🇨🇱','Mexico':'🇲🇽','Morocco':'🇲🇦','Turkey':'🇹🇷','China':'🇨🇳','India':'🇮🇳','South Korea':'🇰🇷','Ecuador':'🇪🇨','Peru':'🇵🇪','Uruguay':'🇺🇾','Paraguay':'🇵🇾','Bolivia':'🇧🇴','Guatemala':'🇬🇹','Kazakhstan':'🇰🇿','Tunisia':'🇹🇳','Egypt':'🇪🇬','South Africa':'🇿🇦','Kenya':'🇰🇪','Great Britain':'🇬🇧','United Kingdom':'🇬🇧','Ireland':'🇮🇪','Slovakia':'🇸🇰','Bulgaria':'🇧🇬','Finland':'🇫🇮','Estonia':'🇪🇪','Lithuania':'🇱🇹','Latvia':'🇱🇻','Slovenia':'🇸🇮'};var _k=_m[1].trim();flag=_cn[_k]||FLAGS[_k]||''}};
@@ -2512,20 +2525,16 @@ function renderMatches(data){
       h+=_chanceCol(m.p1,m.p2);
           h+='</div></div>';
         });
-      });
+        // Po první skupině zobraz okamžitě, pak dej prohlížeči vykreslit
+        if(_tIdx===1){
+          wrap.innerHTML=h+'<div style="padding:8px;text-align:center;color:rgba(255,255,255,.2);font-size:11px;">⏳ načítám zbytek...</div>';
+        }
+        setTimeout(_renderNext, 0);
+      })();
+      return; // async pokračuje výše
       } // end else tournament sort
     }
-    h+='</div>';
-    (function(){
-      var parts=h.split('<div class="mg"');
-      var first=parts.slice(0,6).join('<div class="mg"');
-      var rest=parts.length>6;
-      wrap.innerHTML=first+(rest?'<div id="_more_loading" style="padding:20px;text-align:center;color:rgba(255,255,255,.3);font-size:13px;">⏳</div>':'');
-      if(rest){
-        requestAnimationFrame(function(){
-          requestAnimationFrame(function(){
-            wrap.innerHTML=h;
-            _attachFilterObs();
+    // wrap.innerHTML handled by async renderer above
             _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
             if(_activeFilterKey!=='all')_doApplyFilter();
           });
