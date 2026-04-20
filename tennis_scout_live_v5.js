@@ -2320,7 +2320,7 @@ function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.
 ,'danilina':'KAZ','heliovaara':'FIN','patten':'GBR','ebden':'AUS'
 };window[_key]={};(window.ATP_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>1)window[_key][w.toLowerCase()]=flag;});});(window.WTA_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();if(!window[_key][sn])window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2&&!window[_key][w.toLowerCase()])window[_key][w.toLowerCase()]=flag;});});Object.keys(_ex).forEach(function(k){window[_key][k]=_ioc2flag(_ex[k]);});Object.keys(window[_key]).forEach(function(k){if(k.includes(' ')){var hk=k.replace(/ /g,'-');if(!window[_key][hk])window[_key][hk]=window[_key][k];}});}var parts=(n||'').split(' ');var s=parts[0].toLowerCase();var s2=parts.length>1?parts[1].toLowerCase():'';var s3=parts.length>2?parts[2].toLowerCase():'';return window[_key][s]||window[_key][s.replace(/-/g,' ')]||window[_key][s2]||window[_key][s2.replace(/-/g,' ')]||'';}
 var _rmTimer=null,_rmPending=null,_rmLastCall=0,_rmOrig=null;
-function renderMatches(data){
+async function renderMatches(data){
     sh._renderMatches=renderMatches;
     if(!_rmOrig){
       _rmOrig=sh._renderMatches;
@@ -2463,7 +2463,12 @@ function renderMatches(data){
       var byT={},tOrd=[];
       shown.forEach(function(m){if(!byT[m.tournament]){byT[m.tournament]=[];tOrd.push(m.tournament);}byT[m.tournament].push(m);});
       tOrd=tOrd.filter(function(v,i,a){return a.indexOf(v)===i;});
-      tOrd.forEach(function(t){
+      // Async for loop — yield každé 4 skupiny
+      var _tsRV=(window._tsRV||0)+1;window._tsRV=_tsRV;
+      for(var _ti=0;_ti<tOrd.length;_ti++){
+        if(window._tsRV!==_tsRV)return;
+        var t=tOrd[_ti];
+
         var sample=byT[t][0];
         var ti=tInfo(t);
         var flag=FLAGS[sample.tournament_country||'']||'';if(!flag){var _m=t.match(/\(([^)]+)\)/);if(_m){var _cn={'Spain':'🇪🇸','USA':'🇺🇸','Japan':'🇯🇵','France':'🇫🇷','Italy':'🇮🇹','Germany':'🇩🇪','Australia':'🇦🇺','Argentina':'🇦🇷','Canada':'🇨🇦','Brazil':'🇧🇷','Netherlands':'🇳🇱','Switzerland':'🇨🇭','Romania':'🇷🇴','Poland':'🇵🇱','Czech Republic':'🇨🇿','Austria':'🇦🇹','Greece':'🇬🇷','Belgium':'🇧🇪','Sweden':'🇸🇪','Norway':'🇳🇴','Denmark':'🇩🇰','Serbia':'🇷🇸','Croatia':'🇭🇷','Hungary':'🇭🇺','Portugal':'🇵🇹','Colombia':'🇨🇴','Chile':'🇨🇱','Mexico':'🇲🇽','Morocco':'🇲🇦','Turkey':'🇹🇷','China':'🇨🇳','India':'🇮🇳','South Korea':'🇰🇷','Ecuador':'🇪🇨','Peru':'🇵🇪','Uruguay':'🇺🇾','Paraguay':'🇵🇾','Bolivia':'🇧🇴','Guatemala':'🇬🇹','Kazakhstan':'🇰🇿','Tunisia':'🇹🇳','Egypt':'🇪🇬','South Africa':'🇿🇦','Kenya':'🇰🇪','Great Britain':'🇬🇧','United Kingdom':'🇬🇧','Ireland':'🇮🇪','Slovakia':'🇸🇰','Bulgaria':'🇧🇬','Finland':'🇫🇮','Estonia':'🇪🇪','Lithuania':'🇱🇹','Latvia':'🇱🇻','Slovenia':'🇸🇮'};var _k=_m[1].trim();flag=_cn[_k]||FLAGS[_k]||''}};
@@ -2530,13 +2535,16 @@ function renderMatches(data){
       h+=_chanceCol(m.p1,m.p2);
           h+='</div></div>';
         });
-      });
+        if(_ti%4===3)await new Promise(function(r){setTimeout(r,0);});
+      }
       } // end else tournament sort
     }
+    if(window._tsRV!==_tsRV)return;
     h+='</div>';
     wrap.innerHTML=h;
   _attachFilterObs();
   _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
+Key;
   if(_activeFilterKey!=='all')_doApplyFilter();
   // Rank range handler
   var rrEl=wrap.querySelector('#ps-rr');
