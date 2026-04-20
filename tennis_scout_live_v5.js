@@ -4551,6 +4551,5 @@ if(!window.__oddsCache) window.__oddsCache={};
       'taToBeSur[sur]||sur',
       '({"aliassime":"auger","connell":"connell","oconnell":"connell","zandschulp":"van","jong":"de","agut":"bautista","fokina":"davidovich","minaur":"de","schwaerzler":"schwarzler","moller":"moeller","tyurnev":"tiurnev"})[sur]||sur'
     );
-    if(p!==s){try{window.__imp=new Function('return '+p)();console.log('[taToBeSur] patch OK');}catch(e){console.log('[taToBeSur] ERR:'+e);}}
-  },500);
+    if(p!==s){  },500);
 })();
