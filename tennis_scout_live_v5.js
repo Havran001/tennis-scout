@@ -4167,8 +4167,7 @@ _runSynot();setInterval(_runSynot,15000);
 
 // === BEST ODDS HIGHLIGHT APLIKACE ===
 function _applyBestHighlights(container){
-  setTimeout(function(){
-    try{
+  try{
       var rows=container.querySelectorAll('.mrow');
       rows.forEach(function(row){
         var leafs=Array.prototype.slice.call(row.querySelectorAll('div')).filter(function(d){return d.children.length===0;});
@@ -4206,8 +4205,7 @@ function _applyBestHighlights(container){
           el2.setAttribute('style',s2.replace(/color\s*:\s*#?[a-f0-9]+/gi,'color:#FFD700'));
         }
       });
-    }catch(e){console.log('[Best]',e.message);}
-  },100);
+  }catch(e){console.log('[Best]',e.message);}
 }
 // === KONEC BEST ODDS HIGHLIGHT ===
 
