@@ -2882,7 +2882,15 @@ function buildUI(){
       }
       _oddsWrap.innerHTML=h+'</div>';
     }
-                _oddsWrap.render=function(){
+                window._oddsSliderChange=function(val){
+      window._oddsThreshold=parseInt(val);
+      var sh2=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;
+      var lbl=sh2&&sh2.getElementById('odds-threshold-val');
+      if(lbl)lbl.textContent=window._oddsThreshold+'%';
+      var ow2=sh2&&sh2.getElementById('odds-wrap');
+      if(ow2&&ow2.render)ow2.render();
+    };
+    _oddsWrap.render=function(){
       // Vždy spusť fetch kurzů při otevření
       if(typeof _runKb==='function')_runKb();
       if(typeof _runBetano==='function')_runBetano();
