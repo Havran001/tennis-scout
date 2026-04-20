@@ -2147,7 +2147,7 @@ function buildMatchesTab(sh){
     var days=Array.isArray(day)?day:[day];
     // Cache klíč podle dnů
     var cacheKey='ts_fs_cache_'+days.join('_');
-    var cacheTTL=10000; // 10 sekund
+    var cacheTTL=30000; // 30 sekund
     try{
       var cached=sessionStorage.getItem(cacheKey);
       if(cached){
@@ -2572,7 +2572,30 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⚠️ '+e.message+'</div>';}
     }finally{_fetching=false;}
   }
-  function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
+  function _prefetchDays(){
+    // Prefetch dat pro ostatní dny na pozadí (nezávisle na aktivním dnu)
+    [1,2,3,-1].forEach(function(d){
+      setTimeout(function(){
+        var ck='ts_fs_cache_'+d;
+        try{
+          var ex=sessionStorage.getItem(ck);
+          if(ex){var p=JSON.parse(ex);if(p._ts&&Date.now()-p._ts<9000)return;}
+        }catch(e){}
+        fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+d+'&t='+Date.now())
+          .then(function(r){return r.json();})
+          .then(function(data){
+            var allMatches=[];
+            (data.matches||[]).forEach(function(m){
+              m.isLive=m.status===2;m.isFin=m.status===3||m.status===4;
+              allMatches.push(m);
+            });
+            var result={matches:allMatches,updated:data.updated||new Date().toISOString(),_ts:Date.now()};
+            try{sessionStorage.setItem(ck,JSON.stringify(result));}catch(e){}
+          }).catch(function(){});
+      },d===1?500:d===2?1000:d===3?1500:2000);
+    });
+  }
+  function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();_prefetchDays();}
   wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);
   // Filter keeper - udrzuje aktivni filtr po re-renderech
 
