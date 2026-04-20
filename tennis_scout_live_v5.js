@@ -2321,13 +2321,6 @@ function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.
 };window[_key]={};(window.ATP_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>1)window[_key][w.toLowerCase()]=flag;});});(window.WTA_PLAYERS||[]).forEach(function(p){var parts=p.name.split(' ');var flag=_ioc2flag(p.country);if(parts.length<2)return;var sn=parts.slice(1).join(' ').toLowerCase();if(!window[_key][sn])window[_key][sn]=flag;parts.slice(1).forEach(function(w){if(w.length>2&&!window[_key][w.toLowerCase()])window[_key][w.toLowerCase()]=flag;});});Object.keys(_ex).forEach(function(k){window[_key][k]=_ioc2flag(_ex[k]);});Object.keys(window[_key]).forEach(function(k){if(k.includes(' ')){var hk=k.replace(/ /g,'-');if(!window[_key][hk])window[_key][hk]=window[_key][k];}});}var parts=(n||'').split(' ');var s=parts[0].toLowerCase();var s2=parts.length>1?parts[1].toLowerCase():'';var s3=parts.length>2?parts[2].toLowerCase():'';return window[_key][s]||window[_key][s.replace(/-/g,' ')]||window[_key][s2]||window[_key][s2.replace(/-/g,' ')]||'';}
 function renderMatches(data){
     sh._renderMatches=renderMatches;
-    var _rmOrig=sh._renderMatches,_rmLast=0,_rmTimer=null;
-    sh._renderMatches=function(data){
-      if(window._fetching)return;
-      var _now=Date.now();
-      if(_now-_rmLast>800){_rmLast=_now;if(_rmTimer){clearTimeout(_rmTimer);_rmTimer=null;}_rmOrig.call(this,data);}
-      else{if(_rmTimer)clearTimeout(_rmTimer);_rmTimer=setTimeout(function(){_rmTimer=null;if(!window._fetching){_rmLast=Date.now();_rmOrig.call(sh,data);}},800);}
-    };
     var all=getMatches(data);
     var mcEl=sh.getElementById('nav-matches-count');
     if(mcEl)mcEl.textContent=all.length;
@@ -2545,7 +2538,17 @@ function renderMatches(data){
   });
 
 var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.querySelectorAll('button').forEach(function(_b){var _m=_b.getAttribute('onclick');if(!_m)return;var _i=_m.indexOf("id='")+4;var _j=_m.indexOf("'",_i);var _id=_m.substring(_i,_j);if(_f.indexOf(_id)>-1){_b.style.color='#FFD700';var _svg=_b.querySelector('svg');if(_svg)_svg.style.fill='currentColor';}});}
-    wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){var _dv=btn.dataset.day,_d=(_dv==='fav'?'fav':parseInt(_dv));var _i=activeDay.indexOf(_d);if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}else{if(_dv==='fav'){activeDay=['fav'];}else{var _fi=activeDay.indexOf('fav');if(_fi>=0)activeDay.splice(_fi,1);activeDay.push(_d);}}render();});});
+    wrap.querySelectorAll('[data-day]').forEach(function(btn){btn.addEventListener('click',function(){
+      var _dv=btn.dataset.day,_d=(_dv==='fav'?'fav':parseInt(_dv));
+      var _i=activeDay.indexOf(_d);
+      if(_i>=0){if(activeDay.length>1)activeDay.splice(_i,1);}
+      else{
+        if(_dv==='fav'){activeDay=['fav'];}
+        else{var _fi=activeDay.indexOf('fav');if(_fi>=0)activeDay.splice(_fi,1);activeDay.push(_d);}
+      }
+      try{sessionStorage.removeItem('ts_fs_cache_'+activeDay.join('_'));}catch(e){}
+      render();
+    });});
     wrap.querySelectorAll('[data-tier]').forEach(function(btn){btn.addEventListener('click',function(){activeTier=btn.dataset.tier;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-fmt]').forEach(function(btn){btn.addEventListener('click',function(){activeFormat=btn.dataset.fmt;if(_lastData)renderMatches(_lastData);});});
     wrap.querySelectorAll('[data-sort]').forEach(function(btn){btn.addEventListener('click',function(){activeSort=btn.dataset.sort==='1'?'time':'tournament';if(_lastData)renderMatches(_lastData);});});
@@ -2560,24 +2563,27 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
   }
 
   var _fetching=false;
+  var _tickGen=0;
   async function tick(){
-    if(_fetching)return;
+    var myGen=++_tickGen;
     _fetching=true;window._fetching=true;
     try{
-      // Zobraz loading pokud sekce existuje
       var _secEl=document.getElementById('ts-matches-sec');
       if(_secEl&&!_lastData){_secEl.innerHTML='<div style="padding:30px;text-align:center;color:rgba(255,255,255,.4);font-size:13px;">⏳ Načítám zápasy...</div>';}
-      // Načti zápasy a Chance data paralelně
       var data=await loadData();
+      if(myGen!==_tickGen)return;
       _lastUpdated=data.updated||new Date().toISOString();
       _lastData=data;
       window._lastData=data;
       wrap._lastData=data;
       _cachedWithOdds=null;renderMatches(data);
     }catch(e){
+      if(myGen!==_tickGen)return;
       if(_lastData){renderMatches(_lastData);}
       else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⚠️ '+e.message+'</div>';}
-    }finally{_fetching=false;window._fetching=false;}
+    }finally{
+      if(myGen===_tickGen){_fetching=false;window._fetching=false;}
+    }
   }
   function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
   wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);
