@@ -2516,7 +2516,27 @@ function renderMatches(data){
       } // end else tournament sort
     }
     h+='</div>';
-    wrap.innerHTML=h;
+    (function(){
+      var parts=h.split('<div class="mg"');
+      var first=parts.slice(0,6).join('<div class="mg"');
+      var rest=parts.length>6;
+      wrap.innerHTML=first+(rest?'<div id="_more_loading" style="padding:20px;text-align:center;color:rgba(255,255,255,.3);font-size:13px;">⏳</div>':'');
+      if(rest){
+        requestAnimationFrame(function(){
+          requestAnimationFrame(function(){
+            wrap.innerHTML=h;
+            _attachFilterObs();
+            _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
+            if(_activeFilterKey!=='all')_doApplyFilter();
+          });
+        });
+      } else {
+        _attachFilterObs();
+        _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
+        if(_activeFilterKey!=='all')_doApplyFilter();
+      }
+      return;
+    })();
   _attachFilterObs();
   _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
   if(_activeFilterKey!=='all')_doApplyFilter();
