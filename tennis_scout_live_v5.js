@@ -2611,7 +2611,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       _lastData=data;
       window._lastData=data;
       wrap._lastData=data;
-      _cachedWithOdds=null;renderMatches(data);
+      _cachedWithOdds=null;sh._renderMatches(data);
     }catch(e){
       if(myGen!==_tickGen)return;
       if(_lastData){renderMatches(_lastData);}
