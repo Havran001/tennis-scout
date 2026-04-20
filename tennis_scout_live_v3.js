@@ -2147,7 +2147,7 @@ function buildMatchesTab(sh){
     var days=Array.isArray(day)?day:[day];
     // Cache klíč podle dnů
     var cacheKey='ts_fs_cache_'+days.join('_');
-    var cacheTTL=30000; // 30 sekund
+    var cacheTTL=10000; // 10 sekund
     try{
       var cached=sessionStorage.getItem(cacheKey);
       if(cached){
@@ -2445,20 +2445,7 @@ function renderMatches(data){
       var byT={},tOrd=[];
       shown.forEach(function(m){if(!byT[m.tournament]){byT[m.tournament]=[];tOrd.push(m.tournament);}byT[m.tournament].push(m);});
       tOrd=tOrd.filter(function(v,i,a){return a.indexOf(v)===i;});
-      // ASYNC RENDER: první skupina okamžitě, zbytek po skupinách
-      var _hBefore=h; // header část
-      var _tIdx=0;
-      (function _renderNext(){
-        if(_tIdx>=tOrd.length){
-          h+='</div>';
-          wrap.innerHTML=h;
-          _attachFilterObs();
-          _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
-          if(_activeFilterKey!=='all')_doApplyFilter();
-          return;
-        }
-        var t=tOrd[_tIdx++];
-
+      tOrd.forEach(function(t){
         var sample=byT[t][0];
         var ti=tInfo(t);
         var flag=FLAGS[sample.tournament_country||'']||'';if(!flag){var _m=t.match(/\(([^)]+)\)/);if(_m){var _cn={'Spain':'🇪🇸','USA':'🇺🇸','Japan':'🇯🇵','France':'🇫🇷','Italy':'🇮🇹','Germany':'🇩🇪','Australia':'🇦🇺','Argentina':'🇦🇷','Canada':'🇨🇦','Brazil':'🇧🇷','Netherlands':'🇳🇱','Switzerland':'🇨🇭','Romania':'🇷🇴','Poland':'🇵🇱','Czech Republic':'🇨🇿','Austria':'🇦🇹','Greece':'🇬🇷','Belgium':'🇧🇪','Sweden':'🇸🇪','Norway':'🇳🇴','Denmark':'🇩🇰','Serbia':'🇷🇸','Croatia':'🇭🇷','Hungary':'🇭🇺','Portugal':'🇵🇹','Colombia':'🇨🇴','Chile':'🇨🇱','Mexico':'🇲🇽','Morocco':'🇲🇦','Turkey':'🇹🇷','China':'🇨🇳','India':'🇮🇳','South Korea':'🇰🇷','Ecuador':'🇪🇨','Peru':'🇵🇪','Uruguay':'🇺🇾','Paraguay':'🇵🇾','Bolivia':'🇧🇴','Guatemala':'🇬🇹','Kazakhstan':'🇰🇿','Tunisia':'🇹🇳','Egypt':'🇪🇬','South Africa':'🇿🇦','Kenya':'🇰🇪','Great Britain':'🇬🇧','United Kingdom':'🇬🇧','Ireland':'🇮🇪','Slovakia':'🇸🇰','Bulgaria':'🇧🇬','Finland':'🇫🇮','Estonia':'🇪🇪','Lithuania':'🇱🇹','Latvia':'🇱🇻','Slovenia':'🇸🇮'};var _k=_m[1].trim();flag=_cn[_k]||FLAGS[_k]||''}};
@@ -2525,27 +2512,11 @@ function renderMatches(data){
       h+=_chanceCol(m.p1,m.p2);
           h+='</div></div>';
         });
-        // Po první skupině zobraz okamžitě, pak dej prohlížeči vykreslit
-        if(_tIdx===1){
-          wrap.innerHTML=h+'<div style="padding:8px;text-align:center;color:rgba(255,255,255,.2);font-size:11px;">⏳ načítám zbytek...</div>';
-        }
-        setTimeout(_renderNext, 0);
-      })();
-      return; // async pokračuje výše
+      });
       } // end else tournament sort
     }
-    // wrap.innerHTML handled by async renderer above
-            _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
-            if(_activeFilterKey!=='all')_doApplyFilter();
-          });
-        });
-      } else {
-        _attachFilterObs();
-        _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
-        if(_activeFilterKey!=='all')_doApplyFilter();
-      }
-      return;
-    })();
+    h+='</div>';
+    wrap.innerHTML=h;
   _attachFilterObs();
   _activeFilterKey=window._tsActiveFilter||_activeFilterKey;
   if(_activeFilterKey!=='all')_doApplyFilter();
@@ -2601,30 +2572,7 @@ var _f=JSON.parse(localStorage.getItem('ts_favs')||'[]');if(_f.length){wrap.quer
       else{wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⚠️ '+e.message+'</div>';}
     }finally{_fetching=false;}
   }
-  function _prefetchDays(){
-    // Prefetch dat pro ostatní dny na pozadí (nezávisle na aktivním dnu)
-    [1,2,3,-1].forEach(function(d){
-      setTimeout(function(){
-        var ck='ts_fs_cache_'+d;
-        try{
-          var ex=sessionStorage.getItem(ck);
-          if(ex){var p=JSON.parse(ex);if(p._ts&&Date.now()-p._ts<9000)return;}
-        }catch(e){}
-        fetch('https://tennis-proxy.vavra-radovan.workers.dev/?day='+d+'&t='+Date.now())
-          .then(function(r){return r.json();})
-          .then(function(data){
-            var allMatches=[];
-            (data.matches||[]).forEach(function(m){
-              m.isLive=m.status===2;m.isFin=m.status===3||m.status===4;
-              allMatches.push(m);
-            });
-            var result={matches:allMatches,updated:data.updated||new Date().toISOString(),_ts:Date.now()};
-            try{sessionStorage.setItem(ck,JSON.stringify(result));}catch(e){}
-          }).catch(function(){});
-      },d===1?500:d===2?1000:d===3?1500:2000);
-    });
-  }
-  function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();_prefetchDays();}
+  function render(){if(!_lastData)wrap.innerHTML='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.2);">⏳ Načítám...</div>';tick();}
   wrap.render=function(){if(wrap.style.display==='none')return;if(_interval)clearInterval(_interval);render();_interval=setInterval(tick,10000);
   // Filter keeper - udrzuje aktivni filtr po re-renderech
 
@@ -2859,47 +2807,59 @@ function buildUI(){
       if(Array.isArray(odds))return odds[pi]||null;
       return null;
     }
-    function normSurname(s){return(s||'').replace(/,/g,'').split(' ')[0].toLowerCase().replace(/[^a-zčšžýáíéúůďťň]/g,'').replace(/[čc]/g,'c').replace(/[šs]/g,'s').replace(/[žz]/g,'z').replace(/[ýy]/g,'y').replace(/[áa]/g,'a').replace(/[íi]/g,'i').replace(/[éeě]/g,'e').replace(/[úůu]/g,'u').replace(/[ďd]/g,'d').replace(/[ťt]/g,'t').replace(/[ňn]/g,'n');}
+    function normSurname(s){return(s||'').replace(/,/g,'').split(' ')[0].toLowerCase().replace(/[^a-z]/g,'');}
     function renderOdds(){
       var thr=(window._oddsThreshold||5)/100;
       var chRaw=window._chanceOdds||null;
       var chEvents=(chRaw&&Array.isArray(chRaw.events))?chRaw.events:(Array.isArray(chRaw)?chRaw:[]);
-      // Sázkovky z window proměnných
-      var BOOKS=[
-        {wvar:'_kbOdds',   label:'KINGS',   color:'#43a047'},
-        {wvar:'_betanoOdds',label:'BETANO',  color:'#1976d2'},
-        {wvar:'_fortunaOdds',label:'FORTUNA',color:'#e65100'},
-        {wvar:'_merkurOdds',label:'MERKUR',  color:'#f9a825'},
-        {wvar:'_allwynOdds',label:'ALLWYN',  color:'#6a1b9a'},
-        {wvar:'_synotOdds', wvar2:'_kbOdds', label:'SYNOT',   color:'#00838f'},
+      // Načti všechny sázkovky ze sessionStorage
+      var BOOKS_SS=[
+        {key:'ts_odds_kb',label:'KINGS',color:'#43a047'},
+        {key:'ts_odds_bt',label:'BETANO',color:'#e91e63'},
+        {key:'ts_odds_fn',label:'FORTUNA',color:'#e65100'},
+        {key:'ts_odds_mr',label:'MERKUR',color:'#f9a825'},
+        {key:'ts_odds_sb',label:'SAZKABET',color:'#1565c0'},
+        {key:'ts_odds_sy',label:'SYNOT',color:'#6a1b9a'},
+        {key:'ts_odds_ch',label:'CHANCE',color:'#d32f2f'},
       ];
       var res=[];
       chEvents.forEach(function(ce){
-        var cn1=normSurname(ce.p1), cn2=normSurname(ce.p2);
-        BOOKS.forEach(function(book){
-          var bData=window[book.wvar]||(book.wvar2?window[book.wvar2]:null);
-          if(!bData||!bData.events||!bData.events.length)return;
-          var be=bData.events.find(function(k){
-            var kn1=normSurname(k.p1), kn2=normSurname(k.p2);
-            return (cn1.length>2&&kn1.length>2&&cn1===kn1&&cn2===kn2)||
-                   (cn1.length>2&&kn2.length>2&&cn1===kn2&&cn2===kn1);
-          });
-          if(!be)return;
-          // Správné přiřazení: match p1 s Chance p1
-          var cn1eqBn1=(normSurname(ce.p1)===normSurname(be.p1));
-          var chO1=ce.odds1, chO2=ce.odds2;
-          var bO1=cn1eqBn1?be.odds1:be.odds2;
-          var bO2=cn1eqBn1?be.odds2:be.odds1;
-          // Hráč 1
-          if(chO1&&bO1){var d=(chO1-bO1)/bO1;if(Math.abs(d)>=thr)res.push({p1:ce.p1,p2:ce.p2,playerName:ce.p1,chanceOdd:chO1,bookOdd:bO1,book:book,diff:d,absDiff:Math.abs(d)});}
-          // Hráč 2
-          if(chO2&&bO2){var d2=(chO2-bO2)/bO2;if(Math.abs(d2)>=thr)res.push({p1:ce.p1,p2:ce.p2,playerName:ce.p2,chanceOdd:chO2,bookOdd:bO2,book:book,diff:d2,absDiff:Math.abs(d2)});}
+        var cn1=normSurname(ce.p1),cn2=normSurname(ce.p2);
+        BOOKS_SS.forEach(function(book){
+          try{
+            var cached=sessionStorage.getItem(book.key);
+            if(!cached)return;
+            var bData=JSON.parse(cached);
+            var bEvents=bData.events||[];
+            var be=bEvents.find(function(k){
+              var kn1=normSurname(k.p1),kn2=normSurname(k.p2);
+              return (cn1.length>2&&(cn1===kn1||cn1===kn2))||(cn2.length>2&&(cn2===kn1||cn2===kn2));
+            });
+            if(!be)return;
+            // Správné přiřazení hráčů
+            var swap=normSurname(ce.p1)!==normSurname(be.p1)&&normSurname(ce.p2)===normSurname(be.p1);
+            var chO=[ce.odds1,ce.odds2];
+            var bO=swap?[be.odds2,be.odds1]:[be.odds1,be.odds2];
+            [0,1].forEach(function(pi){
+              if(!chO[pi]||!bO[pi])return;
+              var diff=(chO[pi]-bO[pi])/bO[pi];
+              if(Math.abs(diff)<thr)return;
+              res.push({
+                p1:ce.p1,p2:ce.p2,
+                playerName:pi===0?ce.p1:ce.p2,
+                chanceOdd:chO[pi],bookOdd:bO[pi],
+                book:book,diff:diff,absDiff:Math.abs(diff)
+              });
+            });
+          }catch(e){}
         });
       });
       res.sort(function(a,b){return b.absDiff-a.absDiff;});
+      // Odeber duplikáty (stejný zápas+hráč+sázkovka)
+      var seen={};
+      res=res.filter(function(r){var k=r.p1+'|'+r.p2+'|'+r.playerName+'|'+r.book.key;if(seen[k])return false;seen[k]=true;return true;});
       var threshold=window._oddsThreshold||5;
-      var availBooks=BOOKS.filter(function(b){var d=window[b.wvar]||(b.wvar2?window[b.wvar2]:null);return d&&d.events&&d.events.length>0;});
-      var allBooks=BOOKS;
+      var availBooks=BOOKS_SS.filter(function(b){return !!sessionStorage.getItem(b.key);});
       var h='<div style="max-width:960px;margin:0 auto;">';
       h+='<div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;flex-wrap:wrap;">';
       h+='<h2 style="margin:0;font-size:18px;font-weight:700;color:#fff;">📊 Kurzy — Chance vs ostatní</h2>';
@@ -2915,7 +2875,7 @@ function buildUI(){
       }else if(!res.length){
         h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">✅ Žádné rozdíly nad '+threshold+'%<br><span style="font-size:11px;opacity:.6;">Chance: '+chEvents.length+' | '+availBooks.map(function(b){return b.label;}).join(', ')+'</span></div>';
       }else{
-        h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+res.length+'</strong> rozdílů | '+allBooks.map(function(b){var ok=availBooks.indexOf(b)>=0;return '<span style="color:'+(ok?b.color:'rgba(255,255,255,.25)')+';'+(ok?'':'text-decoration:line-through;')+'">'+(ok?'':'<s>')+b.label+(ok?'':'</s>')+'</span>';}).join(' ')+'</div>';
+        h+='<div style="font-size:12px;color:rgba(255,255,255,.4);margin-bottom:12px;">Nalezeno <strong style="color:#fff;">'+res.length+'</strong> rozdílů | '+availBooks.map(function(b){return b.label;}).join(', ')+'</div>';
         h+='<table style="width:100%;border-collapse:collapse;font-size:13px;"><thead><tr style="color:rgba(255,255,255,.35);font-size:11px;border-bottom:1px solid rgba(255,255,255,.08);">';
         ['Zápas','Hráč','Chance','Sázkovka','Rozdíl'].forEach(function(col,i){h+='<th style="text-align:'+(i>=2?'center':'left')+';padding:8px 6px;">'+col+'</th>';});
         h+='</tr></thead><tbody>';
@@ -2925,7 +2885,7 @@ function buildUI(){
           h+='<tr style="border-bottom:1px solid rgba(255,255,255,.05);background:'+bg+';">';
           h+='<td style="padding:9px 6px;color:rgba(255,255,255,.65);">'+mn+'</td>';
           h+='<td style="padding:9px 6px;color:#fff;font-weight:600;">'+r.playerName+'</td>';
-          h+='<td style="padding:9px 6px;text-align:center;"><span style="color:#fff;font-weight:700;">'+r.chanceOdd.toFixed(2)+'</span></td>';
+          h+='<td style="padding:9px 6px;text-align:center;"><span style="background:rgba(211,47,47,.2);color:#ef9a9a;padding:2px 10px;border-radius:4px;font-weight:700;">'+r.chanceOdd.toFixed(2)+'</span></td>';
           h+='<td style="padding:9px 6px;text-align:center;"><span style="background:'+r.book.color+'22;color:'+r.book.color+';padding:2px 6px;border-radius:3px;font-size:10px;font-weight:700;margin-right:4px;">'+r.book.label+'</span><span style="font-weight:700;color:rgba(255,255,255,.9);">'+r.bookOdd.toFixed(2)+'</span></td>';
           h+='<td style="padding:9px 6px;text-align:center;"><span style="color:'+col+';font-weight:700;font-size:15px;">'+(up?'▲':'▼')+' '+(r.absDiff*100).toFixed(1)+'%</span></td>';
           h+='</tr>';
@@ -2934,25 +2894,16 @@ function buildUI(){
       }
       _oddsWrap.innerHTML=h+'</div>';
     }
-                window._oddsSliderChange=function(val){
-      window._oddsThreshold=parseInt(val);
-      var sh2=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;
-      var lbl=sh2&&sh2.getElementById('odds-threshold-val');
-      if(lbl)lbl.textContent=window._oddsThreshold+'%';
-      var ow2=sh2&&sh2.getElementById('odds-wrap');
-      if(ow2&&ow2.render)ow2.render();
-    };
-    _oddsWrap.render=function(){
-      // Vždy spusť fetch kurzů při otevření
-      if(typeof _runKb==='function')_runKb();
-      if(typeof _runBetano==='function')_runBetano();
-      if(typeof _runFortuna==='function')_runFortuna();
-      if(typeof _runMerkur==='function')_runMerkur();
-      if(typeof _runAllwyn==='function')_runAllwyn();
-      if(typeof _runSynot==='function')_runSynot();
-      // Renderuj ihned pokud data jsou, jinak po 2s
-      var hasData=window._kbOdds&&window._kbOdds.events&&window._kbOdds.events.length;
-      if(hasData){renderOdds();}else{setTimeout(renderOdds,2000);}
+        _oddsWrap.render=function(){
+      // Načti data pokud nejsou — bez mw.render aby nedošlo k crash loopu
+      if(!window._lastData||!window._lastData.matches||!window._lastData.matches.length){
+        _oddsLoadData().then(function(d){
+          if(d.matches.length)window._lastData=d;
+          renderOdds();
+        });
+      }else{
+        renderOdds();
+      }
       if(_oddsInterval)clearInterval(_oddsInterval);
       _oddsInterval=setInterval(renderOdds,10000);
     };
@@ -3444,7 +3395,7 @@ function _loadBetanoOdds(){
   fetch(_bsUrl+'?t='+Date.now()).catch(function(){}).finally(function(){
     fetch('https://betano-odds.vavra-radovan.workers.dev/odds?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _betanoOdds=d;window._betanoOdds=_betanoOdds;
+      _betanoOdds=d;
       if(!_betanoBaseOdds){_betanoBaseOdds=d;try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}}
       _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -3651,7 +3602,7 @@ var _runKb=function(){
   if(_doS)fetch(_kbScrapeUrl+'?t='+Date.now()).catch(function(){});
   fetch(_kbUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d)return;
-      _kbOdds=d;window._kbOdds=_kbOdds;
+      _kbOdds=d;
       if(!_kbBaseOdds||(d.events&&d.events.length>0)){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
       _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -3905,7 +3856,7 @@ var _runFortuna=function(){
   Promise.all([s1,s2]).finally(function(){
     fetch(_fortunaUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _fortunaOdds=d;window._fortunaOdds=_fortunaOdds;
+      _fortunaOdds=d;
       if(!_fortunaBaseOdds){_fortunaBaseOdds=d;try{localStorage.setItem('ts_fortuna_base',JSON.stringify(d));}catch(e){}}
       _fortunaUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -3969,7 +3920,7 @@ var _runMerkur=function(){
   
     fetch(_merkurUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _merkurOdds=d;window._merkurOdds=_merkurOdds;
+      _merkurOdds=d;
       if(!_merkurBaseOdds){_merkurBaseOdds=d;try{localStorage.setItem('ts_merkur_base',JSON.stringify(d));}catch(e){}}
       _merkurUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -4022,7 +3973,7 @@ var _runAllwyn=function(){
   
     fetch(_allwynUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
       if(!d||!d.events||d.events.length===0)return;
-      _allwynOdds=d;window._allwynOdds=_allwynOdds;
+      _allwynOdds=d;
       if(!_allwynBaseOdds){_allwynBaseOdds=d;try{localStorage.setItem('ts_allwyn_base',JSON.stringify(d));}catch(e){}}
       _allwynUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
@@ -4154,11 +4105,8 @@ var _runSynot=function(){
   var _sp=_doS?fetch(_synotScrapeUrl+'?t='+Date.now()).catch(function(){}):Promise.resolve();
   
     fetch(_synotUrl+'?t='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(d){
-      if(!d||!d.events||d.events.length===0){
-        if(_synotBaseOdds&&_synotBaseOdds.events&&_synotBaseOdds.events.length>0){_synotOdds=_synotBaseOdds;window._synotOdds=_synotOdds;}
-        return;
-      }
-      _synotOdds=d;window._synotOdds=_synotOdds;
+      if(!d||!d.events||d.events.length===0)return;
+      _synotOdds=d;
       if(!_synotBaseOdds){_synotBaseOdds=d;try{localStorage.setItem('ts_synot_base',JSON.stringify(d));}catch(e){}}
       _synotUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
