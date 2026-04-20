@@ -2873,29 +2873,33 @@ function buildUI(){
         {key:'ts_bet365_base',label:'BET365',color:'#ffd600'}
       ];
       function _isDbl(p){return /\//.test(p||'');}
-      function _nrmSur(s){if(!s)return '';return (s+'').replace(/,/g,'').split(/\s+/)[0].toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');}
-      var res=[];
+      function _tokens(s){
+        if(!s)return [];
+        return (s+'').replace(/,/g,' ').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z ]/g,' ').split(/\s+/).filter(function(t){return t.length>=3;});
+      }
+      function _anyMatch(a,b){
+        var ta=_tokens(a),tb=_tokens(b);
+        for(var i=0;i<ta.length;i++){if(tb.indexOf(ta[i])>=0)return true;}
+        return false;
+      }
+      var thr=(sh.getElementById('odds-thr')?parseFloat(sh.getElementById('odds-thr').value)/100:0.05)||0.05;
       chEvents.forEach(function(ce){
-        var ceDbl=_isDbl(ce.p1)||_isDbl(ce.p2);
-        var cP1=_nrmSur(ce.p1),cP2=_nrmSur(ce.p2);
-        if(!cP1||!cP2)return;
+        if(_isDbl(ce.p1))return;
+        if(!_tokens(ce.p1).length||!_tokens(ce.p2).length)return;
         BOOKS_SS.forEach(function(book){
           try{
             var raw=localStorage.getItem(book.key);
             if(!raw)return;
             var cached=JSON.parse(raw);
-            var bEvents=(cached&&cached.events)||[];
+            var bEvents=(cached.events||[]).filter(function(e){return e.odds1&&e.odds2;});
             var be=bEvents.find(function(k){
-              var kDbl=_isDbl(k.p1)||_isDbl(k.p2);
-              if(kDbl!==ceDbl)return false;
-              var kP1=_nrmSur(k.p1),kP2=_nrmSur(k.p2);
-              return (kP1===cP1&&kP2===cP2)||(kP1===cP2&&kP2===cP1);
+              if(_isDbl(k.p1))return false;
+              return (_anyMatch(ce.p1,k.p1)&&_anyMatch(ce.p2,k.p2))||(_anyMatch(ce.p1,k.p2)&&_anyMatch(ce.p2,k.p1));
             });
             if(!be)return;
-            // Správné přiřazení - detekuj zda p1/p2 jsou shodné nebo swap
-            var swap=_nrmSur(be.p1)!==cP1;
+            var swapped=!_anyMatch(ce.p1,be.p1);
             var chO=[ce.odds1,ce.odds2];
-            var bO=swap?[be.odds2,be.odds1]:[be.odds1,be.odds2];
+            var bO=swapped?[be.odds2,be.odds1]:[be.odds1,be.odds2];
             [0,1].forEach(function(pi){
               if(!chO[pi]||!bO[pi])return;
               var diff=(chO[pi]-bO[pi])/bO[pi];
