@@ -2883,6 +2883,7 @@ function buildUI(){
         return false;
       }
       var thr=(sh.getElementById('odds-thr')?parseFloat(sh.getElementById('odds-thr').value)/100:0.05)||0.05;
+      var res=[];
       chEvents.forEach(function(ce){
         if(_isDbl(ce.p1))return;
         if(!_tokens(ce.p1).length||!_tokens(ce.p2).length)return;
