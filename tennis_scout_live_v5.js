@@ -2929,6 +2929,7 @@ function buildUI(){
       h+='<label style="font-size:12px;color:rgba(255,255,255,.5);">Práh: <strong id="odds-threshold-val" style="color:#7dd3fc;">'+threshold+'%</strong></label>';
       h+='<input type="range" id="odds-threshold-slider" min="1" max="20" value="'+threshold+'" style="width:120px;accent-color:#7dd3fc;" oninput="window._oddsSliderChange(this.value)">';
       h+='</div></div>';
+      try{window._oddsDbg={chEv:chEvents.length,resLen:res.length,availBooksLen:availBooks&&availBooks.length,availBooksKeys:availBooks&&availBooks.map(function(b){return b.label||b.key;}),thr:thr,sampleRes:res.slice(0,3),firstChEv:chEvents[0]};}catch(e){window._oddsDbg={err:e.message};}
       if(!chEvents.length){
         h+='<div style="padding:60px;text-align:center;color:rgba(255,255,255,.3);font-size:14px;">⚠️ Žádná Chance data<br><span style="font-size:12px;margin-top:8px;display:block;">Spusť bookmarklet <strong style="color:#7dd3fc;">Chance auto-push</strong> na chance.cz</span></div>';
       }else if(!availBooks.length){
