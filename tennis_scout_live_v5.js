@@ -2861,32 +2861,39 @@ function buildUI(){
       var thr=(window._oddsThreshold||5)/100;
       var chRaw=window._chanceOdds||null;
       var chEvents=(chRaw&&Array.isArray(chRaw.events))?chRaw.events:(Array.isArray(chRaw)?chRaw:[]);
-      // Načti všechny sázkovky ze sessionStorage
+      // Načti všechny sázkovky z localStorage (ts_*_base)
       var BOOKS_SS=[
-        {key:'ts_odds_kb',label:'KINGS',color:'#43a047'},
-        {key:'ts_odds_bt',label:'BETANO',color:'#e91e63'},
-        {key:'ts_odds_fn',label:'FORTUNA',color:'#e65100'},
-        {key:'ts_odds_mr',label:'MERKUR',color:'#f9a825'},
-        {key:'ts_odds_sb',label:'SAZKABET',color:'#1565c0'},
-        {key:'ts_odds_sy',label:'SYNOT',color:'#6a1b9a'},
-        {key:'ts_odds_ch',label:'CHANCE',color:'#d32f2f'},
+        {key:'ts_kb_base',label:'KINGS',color:'#43a047'},
+        {key:'ts_betano_base',label:'BETANO',color:'#e91e63'},
+        {key:'ts_fortuna_base',label:'FORTUNA',color:'#e65100'},
+        {key:'ts_merkur_base',label:'MERKUR',color:'#f9a825'},
+        {key:'ts_allwyn_base',label:'ALLWYN',color:'#00acc1'},
+        {key:'ts_synot_base',label:'SYNOT',color:'#6a1b9a'},
+        {key:'ts_sazkabet_base',label:'SAZKABET',color:'#1565c0'},
+        {key:'ts_bet365_base',label:'BET365',color:'#ffd600'}
       ];
+      function _isDbl(p){return /\//.test(p||'');}
+      function _nrmSur(s){if(!s)return '';return (s+'').replace(/,/g,'').split(/\s+/)[0].toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z]/g,'');}
       var res=[];
       chEvents.forEach(function(ce){
-        var cn1=normSurname(ce.p1),cn2=normSurname(ce.p2);
+        var ceDbl=_isDbl(ce.p1)||_isDbl(ce.p2);
+        var cP1=_nrmSur(ce.p1),cP2=_nrmSur(ce.p2);
+        if(!cP1||!cP2)return;
         BOOKS_SS.forEach(function(book){
           try{
-            var cached=sessionStorage.getItem(book.key);
-            if(!cached)return;
-            var bData=JSON.parse(cached);
-            var bEvents=bData.events||[];
+            var raw=localStorage.getItem(book.key);
+            if(!raw)return;
+            var cached=JSON.parse(raw);
+            var bEvents=(cached&&cached.events)||[];
             var be=bEvents.find(function(k){
-              var kn1=normSurname(k.p1),kn2=normSurname(k.p2);
-              return (cn1.length>2&&(cn1===kn1||cn1===kn2))||(cn2.length>2&&(cn2===kn1||cn2===kn2));
+              var kDbl=_isDbl(k.p1)||_isDbl(k.p2);
+              if(kDbl!==ceDbl)return false;
+              var kP1=_nrmSur(k.p1),kP2=_nrmSur(k.p2);
+              return (kP1===cP1&&kP2===cP2)||(kP1===cP2&&kP2===cP1);
             });
             if(!be)return;
-            // Správné přiřazení hráčů
-            var swap=normSurname(ce.p1)!==normSurname(be.p1)&&normSurname(ce.p2)===normSurname(be.p1);
+            // Správné přiřazení - detekuj zda p1/p2 jsou shodné nebo swap
+            var swap=_nrmSur(be.p1)!==cP1;
             var chO=[ce.odds1,ce.odds2];
             var bO=swap?[be.odds2,be.odds1]:[be.odds1,be.odds2];
             [0,1].forEach(function(pi){
