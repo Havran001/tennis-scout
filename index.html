@@ -19,5 +19,5 @@ fetch('tennis_scout_live_v4.js?v='+Date.now(),{cache:'no-store'})
     document.body.appendChild(s);
   });
 </script>
-</body>
+<script>(function p(){var sh=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;if(!sh||!sh._renderMatches){setTimeout(p,200);return;}if(sh.__cachedRM)return;var orig=sh._renderMatches,fp=null,html=null;function fpr(d){if(!d||!d.matches)return '';var s=d.matches.length+':'+((d.matches[0]&&d.matches[0].ts)||0);['ts_odds_kb','ts_betano','ts_bet365','ts_chance','ts_fortuna','ts_merkur','ts_synot','ts_allwyn'].forEach(function(k){s+=':'+(sessionStorage.getItem(k)||'').length;});return s;}sh._renderMatches=function(d){var f=fpr(d);if(f===fp&&html){var mw=sh.getElementById('mw');if(mw)mw.innerHTML=html;return;}orig.call(this,d);var mw=sh.getElementById('mw');if(mw){fp=f;html=mw.innerHTML;}};sh.__cachedRM=true;console.log('[cache-patch] installed');})();</script></body>
 </html>
