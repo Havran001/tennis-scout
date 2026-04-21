@@ -2870,7 +2870,6 @@ function buildUI(){
         {key:'ts_allwyn_base',label:'ALLWYN',color:'#00acc1'},
         {key:'ts_synot_base',label:'SYNOT',color:'#6a1b9a'},
         {key:'ts_sazkabet_base',label:'SAZKABET',color:'#1565c0'},
-        {key:'ts_bet365_base',label:'BET365',color:'#ffd600'}
       ];
       function _isDbl(p){return /\//.test(p||'');}
       function _tokens(s){
@@ -4551,5 +4550,6 @@ if(!window.__oddsCache) window.__oddsCache={};
       'taToBeSur[sur]||sur',
       '({"aliassime":"auger","connell":"connell","oconnell":"connell","zandschulp":"van","jong":"de","agut":"bautista","fokina":"davidovich","minaur":"de","schwaerzler":"schwarzler","moller":"moeller","tyurnev":"tiurnev"})[sur]||sur'
     );
-    if(p!==s){  },500);
+    if(p!==s){try{window.__imp=new Function('return '+p)();console.log('[taToBeSur] patch OK');}catch(e){console.log('[taToBeSur] ERR:'+e);}}
+  },500);
 })();
