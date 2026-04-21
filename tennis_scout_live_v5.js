@@ -1,15 +1,15 @@
 // v1776422048
 // ==========================================================
-// ð🎾¾ TENNIS SCOUT â⚡
-// ATP/WTA/Challenger: statickástatická
-AčíAčí se
+// ð¾ TENNIS SCOUT â LIVE CALENDAR v5.0
+// ATP/WTA/Challenger: statickÃ¡ data 2026 (z atptour.com PDF + wtatennis.com)
+// ITF M15/M25/W15/W35+: live API itftennis.com (naÄÃ­tÃ¡ se pÅi spuÅ¡tÄnÃ­)
 //
-// Jak ppoužít
-//   1. OtevřOtevři
+// Jak pouÅ¾Ã­t:
+//   1. OtevÅi www.itftennis.com/en/tournament-calendar/mens-world-tennis-tour-calendar/
 //   2. Cmd + Option + J â konzole
-//   3. VlVlož
+//   3. VloÅ¾ skript â Enter â Äekej ~20s na ITF data
 //
-//   ATP/WTA/Challenger se zobrazÃ­ okamÅ¾itÄokamžitá
+//   ATP/WTA/Challenger se zobrazÃ­ okamÅ¾itÄ z jakÃ©koli strÃ¡nky.
 //   ITF data se naÄtou pouze ze strÃ¡nky itftennis.com.
 // ===============================================================
 
@@ -48,7 +48,7 @@ const ATP = [
   ["ASB Classic","Auckland, NZL","ATP250","TvrdÃ½","O",25,"2026-01-12","2026-01-17",28,16,"$604k",{w:["Mensik","Paul","Cressy"]}],
   ["Australian Open","Melbourne, AUS","Grand Slam","TvrdÃ½","O",31,"2026-01-18","2026-02-01",128,64,"$2,9M AUD",{w:["Alcaraz","Sinner","Djokovic"]}],
   // ÃNOR
-  ["Open Occitanie","Montpellier, FRA","ATP250","TvrdTvrdý,"I",1,"2026-02-02","2026-02-08",28,16,"$604k",{w:["Humbert","Humbert","Bublik"]}],
+  ["Open Occitanie","Montpellier, FRA","ATP250","TvrdÃ½","I",1,"2026-02-02","2026-02-08",28,16,"$604k",{w:["Humbert","Humbert","Bublik"]}],
   ["Nexo Dallas Open","Dallas, USA","ATP500","TvrdÃ½","I",139,"2026-02-09","2026-02-15",32,16,"$1,96M",{w:["Draper","Fritz","Opelka"]}],
   ["ABN AMRO Open","Rotterdam, NED","ATP500","TvrdÃ½","I",1,"2026-02-09","2026-02-15",32,16,"$1,96M",{w:["Medvedev","Sinner","Rublev"]}],
   ["IEB+ Argentina Open","Buenos Aires, ARG","ATP250","Antuka","O",25,"2026-02-09","2026-02-15",28,16,"$604k",{w:["Cerundolo","Cerundolo","Djokovic"]}],
