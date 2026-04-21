@@ -2,16 +2,22 @@
 <html lang="cs">
 <head>
 <meta charset="UTF-8">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tennis Scout</title>
 <style>body{margin:0;background:#0d1117;}</style>
 </head>
 <body>
 <script>
-fetch('tennis_scout_live_v4.js',{cache:'no-store'}).then(function(r){return r.text();}).then(function(code){var s=document.createElement('script');s.textContent=code;document.tennis_scout_clean.js;});
+fetch('tennis_scout_live_v4.js?v='+Date.now(),{cache:'no-store'})
+  .then(function(r){return r.text();})
+  .then(function(code){
+    var s=document.createElement('script');
+    s.textContent=code;
+    document.body.appendChild(s);
+  });
 </script>
 </body>
 </html>
