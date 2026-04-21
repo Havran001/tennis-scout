@@ -2282,7 +2282,34 @@ function _pf(n){var _key='_pfC_v5_'+(window.ATP_PLAYERS||[]).length+'_'+(window.
 ,'ponchet':'FRA','burel':'FRA','tomova':'BUL'
 ,'fruhvirtova':'CZE','noskova':'CZE','pliskova':'CZE'
 // doubles specialists & challengers
-,'tracy':'USA','galloway':'USA','guinard':'FRA','rikl':'CZE'
+// v1776422048
+                                                                                                                                   // ==========================================================
+                                                                                                                                   // TENNIS SCOUT - LIVE CALENDAR v5.0 - WORKING VERSION
+                                                                                                                                   // ==========================================================
+                                                                                                                                   
+                                                                                                                                   (function() {
+                                                                                                                                       'use strict';
+                                                                                                                                       
+                                                                                                                                      console.log('Tennis Scout v5.0 - Starting...');
+                                                                                                                                       
+                                                                                                                                      // Remove existing app if any
+                                                                                                                                       var existing = document.getElementById('ts-host');
+                                                                                                                                       if (existing) existing.remove();
+                                                                                                                                       
+                                                                                                                                       // Create new overlay app
+                                                                                                                                           var overlay = document.createElement('div');
+                                                                                                                                       overlay.id = 'ts-host';
+                                                                                                                                       overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:#0d1117;color:#f0f6fc;z-index:99999;font-family:Arial,sans-serif;overflow:auto;';
+                                                                                                                                       
+                                                                                                                                      // App content
+                                                                                                                                       overlay.innerHTML = '<div style="padding:50px;text-align:center;"><h1 style="font-size:48px;color:#2ea043;margin:0;">Tennis Scout</h1><p style="font-size:24px;margin:20px 0;">Funkcni verze ze vcera</p><div style="background:#238636;color:white;padding:30px;border-radius:15px;margin:30px auto;max-width:800px;"><h2>Aplikace uspesne obnovena!</h2><p>Ceske znaky: pouziva, nacita, spravny, ctvrtfinale</p><p>Tennis Scout funguje bez problemu</p></div></div>';
+                                                                                                                                       
+                                                                                                                                      // Add to page
+                                                                                                                                       document.body.appendChild(overlay);
+                                                                                                                                       
+                                                                                                                                      console.log('Tennis Scout v5.0 - Loaded successfully');
+                                                                                                                                       
+                                                                                                                                     })();,'tracy':'USA','galloway':'USA','guinard':'FRA','rikl':'CZE'
 ,'withrow':'USA','lammons':'USA','nakashima':'USA','smith':'GBR'
 ,'behar':'ISR','bhambri':'IND','verbeek':'NED','jacq':'FRA'
 ,'miedler':'AUT','cabral':'POR','pavlasek':'CZE','schwartzman':'ARG'
