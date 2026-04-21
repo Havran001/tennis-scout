@@ -3366,7 +3366,7 @@ function _bet365Col(p1,p2){
 // === BETANO ODDS ===
 var _betanoUrl=localStorage.getItem('ts_betano_url')||'https://betano-odds.vavra-radovan.workers.dev/odds';
 var _betanoOdds=null,_betanoUpdated=null;var _betanoBaseOdds=(function(){try{var s=localStorage.getItem('ts_betano_base');return s?JSON.parse(s):null;}catch(e){return null;}})();
-var _bsUrl='https://betano-odds.vavra-radovan.workers.dev/scrape';var _runBetano=function(){_loadBetanoOdds();};_runBetano();setInterval(_runBetano,15000);
+var _bsUrl='https://betano-odds.vavra-radovan.workers.dev/scrape';var _runBetano=function(){_loadBetanoOdds();};_runBetano();setInterval(_runBetano,60000);
 
 function _normName(n){
   if(!n)return '';
@@ -3609,7 +3609,7 @@ var _runKb=function(){
       _oddsToCache('kb',d);
     });
 };
-_runKb();setInterval(_runKb,15000);
+_runKb();setInterval(_runKb,60000);
 
 
 var _normKbName=function(n){
@@ -3863,7 +3863,7 @@ var _runFortuna=function(){
     }).catch(function(){});
   });
 };
-_runFortuna();setInterval(_runFortuna,15000);
+_runFortuna();setInterval(_runFortuna,60000);
 // === KONEC FORTUNA ODDS ===
 
 // === MERKUR ODDS ===
@@ -3926,7 +3926,7 @@ var _runMerkur=function(){
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
 };
-_runMerkur();setInterval(_runMerkur,15000);
+_runMerkur();setInterval(_runMerkur,60000);
 // === KONEC MERKUR ODDS ===
 
 // === ALLWYN (SAZKABET) ODDS ===
@@ -3979,7 +3979,7 @@ var _runAllwyn=function(){
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
 };
-_runAllwyn();setInterval(_runAllwyn,15000);
+_runAllwyn();setInterval(_runAllwyn,60000);
 // === KONEC ALLWYN ODDS ===
 
 // === SYNOT TIP ODDS ===
@@ -4112,7 +4112,7 @@ var _runSynot=function(){
       if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
 };
-_runSynot();setInterval(_runSynot,15000);
+_runSynot();setInterval(_runSynot,60000);
 // === KONEC SYNOT TIP ODDS ===
 
 
