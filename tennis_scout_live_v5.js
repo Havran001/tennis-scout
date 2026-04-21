@@ -1,15 +1,15 @@
 // v1776422048
 // ==========================================================
-// ð🎾¾ TENNIS SCOUT â ⚡ CALENDAR v5.0
-// ATP/WTA/Challenger: statická¡ data 2026 (z atptour.com PDF + wtatennis.com)
-// ITF M15/M25/W15/W35+: live API itftennis.com (naÄÃ­tAčí se
+// ð🎾¾ TENNIS SCOUT â⚡
+// ATP/WTA/Challenger: statickástatická
+AčíAčí se
 //
 // Jak ppoužít
-//   1. Otevřii www.itftennis.com/en/tournament-calendar/mens-world-tennis-tour-calendar/
+//   1. OtevřOtevři
 //   2. Cmd + Option + J â konzole
-//   3. Vlož skript â Enter â Äekej ~20s na ITF data
+//   3. VlVlož
 //
-//   ATP/WTA/Challenger se zobrazÃ­ okamÅ¾itÄ z jakÃ©koli strÃ¡nky.
+//   ATP/WTA/Challenger se zobrazÃ­ okamÅ¾itÄokamžitá
 //   ITF data se naÄtou pouze ze strÃ¡nky itftennis.com.
 // ===============================================================
 
