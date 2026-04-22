@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-21T06:07:55Z",
+  "updated": "2026-04-22T06:05:04Z",
   "year": 2026,
-  "count": 767,
+  "count": 772,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -4964,9 +4964,29 @@
       "end": "2026-06-14"
     },
     {
+      "name": "Egypt 5 Somabay Women's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Grass",
+      "start": "2026-06-08",
+      "end": "2026-06-14"
+    },
+    {
       "name": "Nice LTC Open",
       "loc": "Nice",
       "country": "FRA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
+      "start": "2026-06-08",
+      "end": "2026-06-14"
+    },
+    {
+      "name": "W35 CUIABÁ",
+      "loc": "Cuiabá",
+      "country": "BRA",
       "cat": "ITF",
       "tier": "W35",
       "surf": "Clay",
@@ -5004,26 +5024,6 @@
       "end": "2026-06-14"
     },
     {
-      "name": "W35 CUIABÁ",
-      "loc": "Cuiabá",
-      "country": "BRA",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-06-08",
-      "end": "2026-06-14"
-    },
-    {
-      "name": "Magic Hotel Tours by FTT\t",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-06-08",
-      "end": "2026-06-14"
-    },
-    {
       "name": "XI Torneo Internacional Femenino ITF 15,000$ Club de Tenis Chamartín",
       "loc": "Madrid",
       "country": "ESP",
@@ -5057,6 +5057,16 @@
       "name": "W15 Kayseri",
       "loc": "Kayseri",
       "country": "TUR",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-06-08",
+      "end": "2026-06-14"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -5104,6 +5114,16 @@
       "end": "2026-06-21"
     },
     {
+      "name": "Lourinhã Open",
+      "loc": "Lourinha",
+      "country": "POR",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-06-15",
+      "end": "2026-06-21"
+    },
+    {
       "name": "GALIMBERTI TENNIS ACADEMY OPEN (Cancelled)",
       "loc": "Cattolica",
       "country": "ITA",
@@ -5114,7 +5134,7 @@
       "end": "2026-06-20"
     },
     {
-      "name": "M15 Irvine, CA",
+      "name": "SoCal Pro Series Men's 15 - Irvine",
       "loc": "Irvine, CA",
       "country": "USA",
       "cat": "ITF",
@@ -5214,6 +5234,16 @@
       "end": "2026-06-21"
     },
     {
+      "name": "Tiriac Foundation Trophy",
+      "loc": "Constanta",
+      "country": "ROU",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-15",
+      "end": "2026-06-21"
+    },
+    {
       "name": "Internationaux de Tennis de Blois ",
       "loc": "Blois",
       "country": "FRA",
@@ -5229,6 +5259,16 @@
       "country": "BUL",
       "cat": "ITF",
       "tier": "W50",
+      "surf": "Clay",
+      "start": "2026-06-15",
+      "end": "2026-06-21"
+    },
+    {
+      "name": "Morocco Tennis Tour",
+      "loc": "Mohammedia",
+      "country": "MAR",
+      "cat": "ITF",
+      "tier": "W35",
       "surf": "Clay",
       "start": "2026-06-15",
       "end": "2026-06-21"
@@ -5264,12 +5304,12 @@
       "end": "2026-06-21"
     },
     {
-      "name": "Morocco Tennis Tour",
-      "loc": "Mohammedia",
-      "country": "MAR",
+      "name": "W35 Zhengzhou",
+      "loc": "Zhengzhou",
+      "country": "CHN",
       "cat": "ITF",
       "tier": "W35",
-      "surf": "Clay",
+      "surf": "Hard",
       "start": "2026-06-15",
       "end": "2026-06-21"
     },
@@ -5279,6 +5319,26 @@
       "country": "TPE",
       "cat": "ITF",
       "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-06-15",
+      "end": "2026-06-21"
+    },
+    {
+      "name": "SoCal Pro Series Women's 15 - Irvine",
+      "loc": "Irvine, CA",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-06-15",
+      "end": "2026-06-21"
+    },
+    {
+      "name": "W15 Sapporo 1 Daito Kentaku Open supported by Square Plus",
+      "loc": "Sapporo",
+      "country": "JPN",
+      "cat": "ITF",
+      "tier": "W15",
       "surf": "Hard",
       "start": "2026-06-15",
       "end": "2026-06-21"
@@ -5304,9 +5364,9 @@
       "end": "2026-06-21"
     },
     {
-      "name": "SoCal Pro Series Women's 15 - Irvine",
-      "loc": "Irvine, CA",
-      "country": "USA",
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -5314,12 +5374,12 @@
       "end": "2026-06-21"
     },
     {
-      "name": "W15 Sapporo 1 Daito Kentaku Open supported by Square Plus",
-      "loc": "Sapporo",
-      "country": "JPN",
+      "name": "W15 Luque",
+      "loc": "Luque",
+      "country": "PAR",
       "cat": "ITF",
       "tier": "W15",
-      "surf": "Hard",
+      "surf": "Clay",
       "start": "2026-06-15",
       "end": "2026-06-21"
     },
@@ -5340,26 +5400,6 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
-      "start": "2026-06-15",
-      "end": "2026-06-21"
-    },
-    {
-      "name": "Magic Hotel Tours by FTT\t",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-06-15",
-      "end": "2026-06-21"
-    },
-    {
-      "name": "W15 Luque",
-      "loc": "Luque",
-      "country": "PAR",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Clay",
       "start": "2026-06-15",
       "end": "2026-06-21"
     },
@@ -5534,16 +5574,6 @@
       "end": "2026-06-28"
     },
     {
-      "name": "Formosa Cup",
-      "loc": "Taipei",
-      "country": "TPE",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
       "name": "ENGIE OPEN PERIGORD W35",
       "loc": "Perigueux",
       "country": "FRA",
@@ -5564,11 +5594,11 @@
       "end": "2026-06-28"
     },
     {
-      "name": "W15 Kayseri",
-      "loc": "Kayseri",
-      "country": "TUR",
+      "name": "Formosa Cup",
+      "loc": "Taipei",
+      "country": "TPE",
       "cat": "ITF",
-      "tier": "W15",
+      "tier": "W35",
       "surf": "Hard",
       "start": "2026-06-22",
       "end": "2026-06-28"
@@ -5600,6 +5630,26 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "W15 Galati",
+      "loc": "Galati",
+      "country": "ROU",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "W15 Kayseri",
+      "loc": "Kayseri",
+      "country": "TUR",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
       "start": "2026-06-22",
       "end": "2026-06-28"
     },
