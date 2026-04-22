@@ -345,7 +345,7 @@ async function fetchITF(onProg){
 
 // ── CSS ───────────────────────────────────────────────────────
 const CSS=`
-.mrow{content-visibility:auto;contain-intrinsic-size:auto 60px;}:host{all:initial;}
+:host{all:initial;}
 *{box-sizing:border-box;margin:0;padding:0;}
 
 /* ── SHELL ── */
