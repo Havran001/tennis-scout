@@ -345,7 +345,7 @@ async function fetchITF(onProg){
 
 // ── CSS ───────────────────────────────────────────────────────
 const CSS=`
-.mrow{content-visibility:auto;contain-intrinsic-size:auto 60px;}.mrow{content-visibility:auto;contain-intrinsic-size:auto 60px;}:host{all:initial;}
+.mrow{content-visibility:auto;contain-intrinsic-size:auto 60px;}:host{all:initial;}
 *{box-sizing:border-box;margin:0;padding:0;}
 
 /* ── SHELL ── */
@@ -3329,7 +3329,7 @@ var _runBet365=function(){
     _bet365Odds=d;
     if(!_bet365BaseOdds){_bet365BaseOdds=d;try{localStorage.setItem('ts_bet365_base',JSON.stringify(d));}catch(e){}}
     _bet365Updated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));
+    if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
   }).catch(function(){});
 };
 _runBet365();setInterval(_runBet365,20000);
@@ -3398,7 +3398,7 @@ function _loadBetanoOdds(){
       _betanoOdds=d;
       if(!_betanoBaseOdds){_betanoBaseOdds=d;try{localStorage.setItem('ts_betano_base',JSON.stringify(d));}catch(e){}}
       _betanoUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
   });
 }
@@ -3567,7 +3567,7 @@ var _runChance=function(){
     _chanceUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
     var _doRender=function(){
       var _sh=document.getElementById('ts-host')&&document.getElementById('ts-host').shadowRoot;
-      if(_sh&&_sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData){_(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));return true;}
+      if(_sh&&_sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData){_sh._renderMatches(_lastData);return true;}
       return false;
     };
     if(!_doRender()){
@@ -3605,7 +3605,7 @@ var _runKb=function(){
       _kbOdds=d;
       if(!_kbBaseOdds||(d.events&&d.events.length>0)){_kbBaseOdds=d;try{localStorage.setItem('ts_kb_base',JSON.stringify(d));}catch(e){}}
       _kbUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
       _oddsToCache('kb',d);
     });
 };
@@ -3847,7 +3847,7 @@ function _fortunaCol(p1,p2){
 }
 
 var _runFortuna=function(){
-  var _cfortuna=_oddsFromCache('fortuna');if(_cfortuna){_fortunaOdds=_cfortuna;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));return;}
+  var _cfortuna=_oddsFromCache('fortuna');if(_cfortuna){_fortunaOdds=_cfortuna;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);return;}
 
   if(!window._tsLS)window._tsLS={};
   var _doS=(Date.now()-(window._tsLS.fortuna||0))>60000;if(_doS)window._tsLS.fortuna=Date.now();
@@ -3859,7 +3859,7 @@ var _runFortuna=function(){
       _fortunaOdds=d;
       if(!_fortunaBaseOdds){_fortunaBaseOdds=d;try{localStorage.setItem('ts_fortuna_base',JSON.stringify(d));}catch(e){}}
       _fortunaUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
   });
 };
@@ -3912,7 +3912,7 @@ function _merkurCol(p1,p2){
 }
 
 var _runMerkur=function(){
-  var _cmerkur=_oddsFromCache('merkur');if(_cmerkur){_merkurOdds=_cmerkur;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));return;}
+  var _cmerkur=_oddsFromCache('merkur');if(_cmerkur){_merkurOdds=_cmerkur;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);return;}
 
   if(!window._tsLS)window._tsLS={};
   var _doS=(Date.now()-(window._tsLS.merkur||0))>60000;if(_doS)window._tsLS.merkur=Date.now();
@@ -3923,7 +3923,7 @@ var _runMerkur=function(){
       _merkurOdds=d;
       if(!_merkurBaseOdds){_merkurBaseOdds=d;try{localStorage.setItem('ts_merkur_base',JSON.stringify(d));}catch(e){}}
       _merkurUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
 };
 _runMerkur();setInterval(_runMerkur,60000);
@@ -3965,7 +3965,7 @@ function _allwynCol(p1,p2){
 }
 
 var _runAllwyn=function(){
-  var _callwyn=_oddsFromCache('allwyn');if(_callwyn){_allwynOdds=_callwyn;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));return;}
+  var _callwyn=_oddsFromCache('allwyn');if(_callwyn){_allwynOdds=_callwyn;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);return;}
 
   if(!window._tsLS)window._tsLS={};
   var _doS=(Date.now()-(window._tsLS.allwyn||0))>60000;if(_doS)window._tsLS.allwyn=Date.now();
@@ -3976,7 +3976,7 @@ var _runAllwyn=function(){
       _allwynOdds=d;
       if(!_allwynBaseOdds){_allwynBaseOdds=d;try{localStorage.setItem('ts_allwyn_base',JSON.stringify(d));}catch(e){}}
       _allwynUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
 };
 _runAllwyn();setInterval(_runAllwyn,60000);
@@ -4098,7 +4098,7 @@ function _synotCol(p1,p2){
 }
 
 var _runSynot=function(){
-  var _csynot=_oddsFromCache('synot');if(_csynot){_synotOdds=_csynot;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));return;}
+  var _csynot=_oddsFromCache('synot');if(_csynot){_synotOdds=_csynot;if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);return;}
 
   if(!window._tsLS)window._tsLS={};
   var _doS=(Date.now()-(window._tsLS.synot||0))>60000;if(_doS)window._tsLS.synot=Date.now();
@@ -4109,7 +4109,7 @@ var _runSynot=function(){
       _synotOdds=d;
       if(!_synotBaseOdds){_synotBaseOdds=d;try{localStorage.setItem('ts_synot_base',JSON.stringify(d));}catch(e){}}
       _synotUpdated=new Date().toLocaleTimeString('cs-CZ',{hour:'2-digit',minute:'2-digit'});
-      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)(window.__rmT&&clearTimeout(window.__rmT),window.__rmT=setTimeout(function(){sh._renderMatches(_lastData);},500));
+      if(sh&&sh._renderMatches&&typeof _lastData!=='undefined'&&_lastData)sh._renderMatches(_lastData);
     }).catch(function(){});
 };
 _runSynot();setInterval(_runSynot,60000);
