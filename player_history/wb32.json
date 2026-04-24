@@ -3,8 +3,54 @@
   "gs_id": "",
   "player_name": "Yibing Wu",
   "source": "tennisabstract",
-  "updated": "2026-04-24T12:02:21.518Z",
+  "updated": "2026-04-24T17:28:56.613Z",
   "matches": [
+    {
+      "date": "2026-04-22",
+      "tournament": "ATP Madrid",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "Q2",
+      "result": "L",
+      "opponent": "Titouan Droguet",
+      "score": "6-0 7-6(5)",
+      "best_of": "",
+      "rank": "100",
+      "opp_rank": "113",
+      "dr": "0.75",
+      "a_pct": "3.4",
+      "va_pct": "16.9",
+      "df_pct": "5.2",
+      "first_in": "51.7",
+      "first_pct": "66.7",
+      "second_pct": "53.6",
+      "bp_saved": "0/3",
+      "match_time": "1:28",
+      "odds": ""
+    },
+    {
+      "date": "2026-04-22",
+      "tournament": "ATP Madrid",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "Q1",
+      "result": "W",
+      "opponent": "Manas Dhamne",
+      "score": "6-1 7-5",
+      "best_of": "",
+      "rank": "100",
+      "opp_rank": "444",
+      "dr": "1.69",
+      "a_pct": "9.1",
+      "va_pct": "0.0",
+      "df_pct": "1.8",
+      "first_in": "61.8",
+      "first_pct": "67.6",
+      "second_pct": "76.2",
+      "bp_saved": "2/3",
+      "match_time": "1:15",
+      "odds": ""
+    },
     {
       "date": "2026-04-06",
       "tournament": "Sarasota CH",
@@ -6150,533 +6196,6 @@
       "bp_saved": "0/0",
       "match_time": "",
       "odds": ""
-    }
-  ],
-  "be_navlist": [
-    {
-      "s": "stefan",
-      "url": "",
-      "mid": "t4Y4zEhT"
-    },
-    {
-      "s": "daniel",
-      "url": "",
-      "mid": "llvWdvi5"
-    },
-    {
-      "s": "kei",
-      "url": "",
-      "mid": "WzSdXK5j"
-    },
-    {
-      "s": "reda",
-      "url": "",
-      "mid": "YiOpUXlC"
-    },
-    {
-      "s": "alex",
-      "url": "",
-      "mid": "tM3QehC4"
-    },
-    {
-      "s": "gabriel",
-      "url": "",
-      "mid": "K294GOQG"
-    },
-    {
-      "s": "andres",
-      "url": "",
-      "mid": "U12VYXte"
-    },
-    {
-      "s": "sho",
-      "url": "",
-      "mid": "z3oahJ5C"
-    },
-    {
-      "s": "juan",
-      "url": "",
-      "mid": "ADcWcBw2"
-    },
-    {
-      "s": "zachary",
-      "url": "",
-      "mid": "jPUYATG8"
-    },
-    {
-      "s": "colton",
-      "url": "",
-      "mid": "WzSdXK5j"
-    },
-    {
-      "s": "luca",
-      "url": "",
-      "mid": "ANx6v1wJ"
-    },
-    {
-      "s": "tristan",
-      "url": "",
-      "mid": "t8xU0T86"
-    },
-    {
-      "s": "nicolas",
-      "url": "",
-      "mid": "YsmcYiFE"
-    },
-    {
-      "s": "mitchell",
-      "url": "",
-      "mid": "bsKreOcc"
-    },
-    {
-      "s": "andrey",
-      "url": "",
-      "mid": "YwVdxzOG"
-    },
-    {
-      "s": "alexander",
-      "url": "",
-      "mid": "AVpdntu0"
-    },
-    {
-      "s": "daniil",
-      "url": "",
-      "mid": "KM7BCIy0"
-    },
-    {
-      "s": "sebastian",
-      "url": "",
-      "mid": "ADcWcBw2"
-    },
-    {
-      "s": "adrian",
-      "url": "",
-      "mid": "dSYEJhmf"
-    },
-    {
-      "s": "yu",
-      "url": "",
-      "mid": "dfsuTRjt"
-    },
-    {
-      "s": "andre",
-      "url": "",
-      "mid": "UkxV9dXo"
-    },
-    {
-      "s": "corentin",
-      "url": "",
-      "mid": "jy1m6J8O"
-    },
-    {
-      "s": "braden",
-      "url": "",
-      "mid": "GUWzR97l"
-    },
-    {
-      "s": "liam",
-      "url": "",
-      "mid": "Wr6Yvu5F"
-    },
-    {
-      "s": "michael",
-      "url": "",
-      "mid": "jkxjg2S9"
-    },
-    {
-      "s": "ian",
-      "url": "",
-      "mid": "46V61FH7"
-    },
-    {
-      "s": "yi",
-      "url": "",
-      "mid": "SQcoK9Ls"
-    },
-    {
-      "s": "antoine",
-      "url": "",
-      "mid": "hz6JAd6C"
-    },
-    {
-      "s": "patrick",
-      "url": "",
-      "mid": "ClWdsM5D"
-    },
-    {
-      "s": "maxime",
-      "url": "",
-      "mid": "SSSObWOp"
-    },
-    {
-      "s": "keisuke",
-      "url": "",
-      "mid": "nZ0gmeMG"
-    },
-    {
-      "s": "marin",
-      "url": "",
-      "mid": "ObpojGlB"
-    },
-    {
-      "s": "carlos",
-      "url": "",
-      "mid": "n38e6PpJ"
-    },
-    {
-      "s": "matteo",
-      "url": "",
-      "mid": "jc8gCavm"
-    },
-    {
-      "s": "coleman",
-      "url": "",
-      "mid": "jZZVX2O9"
-    },
-    {
-      "s": "rio",
-      "url": "",
-      "mid": "W2CYqRnC"
-    },
-    {
-      "s": "keegan",
-      "url": "",
-      "mid": "bgd52een"
-    },
-    {
-      "s": "fajing",
-      "url": "",
-      "mid": "0Qp6mqcm"
-    },
-    {
-      "s": "tung",
-      "url": "",
-      "mid": "tSSNMAVP"
-    },
-    {
-      "s": "denis",
-      "url": "",
-      "mid": "AZChzq0l"
-    },
-    {
-      "s": "clement",
-      "url": "",
-      "mid": "U12VYXte"
-    },
-    {
-      "s": "dusan",
-      "url": "",
-      "mid": "48OKtzcC"
-    },
-    {
-      "s": "taylor",
-      "url": "",
-      "mid": "6wCdew6S"
-    },
-    {
-      "s": "frances",
-      "url": "",
-      "mid": "6LCAkeM0"
-    },
-    {
-      "s": "nick",
-      "url": "",
-      "mid": "d8YjNR6D"
-    },
-    {
-      "s": "marco",
-      "url": "",
-      "mid": "llvWdvi5"
-    },
-    {
-      "s": "marc",
-      "url": "",
-      "mid": "llvWdvi5"
-    },
-    {
-      "s": "francisco",
-      "url": "",
-      "mid": "8pkB52uB"
-    },
-    {
-      "s": "diego",
-      "url": "",
-      "mid": "0EnCCHEL"
-    },
-    {
-      "s": "alejandro",
-      "url": "",
-      "mid": "dWUFgn1D"
-    },
-    {
-      "s": "john",
-      "url": "",
-      "mid": "6eo5WVqR"
-    },
-    {
-      "s": "aidan",
-      "url": "",
-      "mid": "YsmcYiFE"
-    },
-    {
-      "s": "ugo",
-      "url": "",
-      "mid": "ADwkbKXp"
-    },
-    {
-      "s": "li",
-      "url": "",
-      "mid": "Aa0Eoi4e"
-    },
-    {
-      "s": "kamil",
-      "url": "",
-      "mid": "CMJbgsHb"
-    },
-    {
-      "s": "radu",
-      "url": "",
-      "mid": "E3RMu5xR"
-    },
-    {
-      "s": "ji",
-      "url": "",
-      "mid": "nwPhXm36"
-    },
-    {
-      "s": "san",
-      "url": "",
-      "mid": "48OKtzcC"
-    },
-    {
-      "s": "nikoloz",
-      "url": "",
-      "mid": "ClWdsM5D"
-    },
-    {
-      "s": "yasutaka",
-      "url": "",
-      "mid": "YsZL2kvf"
-    },
-    {
-      "s": "ben",
-      "url": "",
-      "mid": "0EnCCHEL"
-    },
-    {
-      "s": "j",
-      "url": "",
-      "mid": "zsQFV8Mi"
-    },
-    {
-      "s": "noah",
-      "url": "",
-      "mid": "QDRlvdg4"
-    },
-    {
-      "s": "jason",
-      "url": "",
-      "mid": "hGm3hvN9"
-    },
-    {
-      "s": "christopher",
-      "url": "",
-      "mid": "2gcv6K04"
-    },
-    {
-      "s": "christian",
-      "url": "",
-      "mid": "xUUi24VP"
-    },
-    {
-      "s": "mats",
-      "url": "",
-      "mid": "t8xU0T86"
-    },
-    {
-      "s": "riccardo",
-      "url": "",
-      "mid": "K294GOQG"
-    },
-    {
-      "s": "nico",
-      "url": "",
-      "mid": "zqikLylI"
-    },
-    {
-      "s": "kaichi",
-      "url": "",
-      "mid": "pd37dqD5"
-    },
-    {
-      "s": "oscar",
-      "url": "",
-      "mid": "O2vBoG4E"
-    },
-    {
-      "s": "pedro",
-      "url": "",
-      "mid": "K82sN0AL"
-    },
-    {
-      "s": "viktor",
-      "url": "",
-      "mid": "UqRDk3A5"
-    },
-    {
-      "s": "felix",
-      "url": "",
-      "mid": "UuaW7tWi"
-    },
-    {
-      "s": "go",
-      "url": "",
-      "mid": "0EnCCHEL"
-    },
-    {
-      "s": "duck",
-      "url": "",
-      "mid": "UFLLYe7N"
-    },
-    {
-      "s": "nikola",
-      "url": "",
-      "mid": "6DfnuWGU"
-    },
-    {
-      "s": "henri",
-      "url": "",
-      "mid": "UiTEtsnp"
-    },
-    {
-      "s": "xin",
-      "url": "",
-      "mid": "CUk5e7ke"
-    },
-    {
-      "s": "yan",
-      "url": "",
-      "mid": "vXZxGDiA"
-    },
-    {
-      "s": "jie",
-      "url": "",
-      "mid": "0jQ4XEWs"
-    },
-    {
-      "s": "evgeny",
-      "url": "",
-      "mid": "UVmWIBrg"
-    },
-    {
-      "s": "jose",
-      "url": "",
-      "mid": "QVEbFZjo"
-    },
-    {
-      "s": "david",
-      "url": "",
-      "mid": "ttOacU1l"
-    },
-    {
-      "s": "thiago",
-      "url": "",
-      "mid": "4v9nL66k"
-    },
-    {
-      "s": "gilles",
-      "url": "",
-      "mid": "EP43Ev7m"
-    },
-    {
-      "s": "yen",
-      "url": "",
-      "mid": "z5tRxsrT"
-    },
-    {
-      "s": "romain",
-      "url": "",
-      "mid": "v1RF1hyo"
-    },
-    {
-      "s": "hernan",
-      "url": "",
-      "mid": "K0ENA1u0"
-    },
-    {
-      "s": "nino",
-      "url": "",
-      "mid": "vHiccTKr"
-    },
-    {
-      "s": "hyeon",
-      "url": "",
-      "mid": "hGm3hvN9"
-    },
-    {
-      "s": "soon",
-      "url": "",
-      "mid": "j1EgHlgm"
-    },
-    {
-      "s": "zhao",
-      "url": "",
-      "mid": "GCDLLsMO"
-    },
-    {
-      "s": "enrique",
-      "url": "",
-      "mid": "tzmaS7x3"
-    },
-    {
-      "s": "sami",
-      "url": "",
-      "mid": "4nLuRrwp"
-    },
-    {
-      "s": "naoki",
-      "url": "",
-      "mid": "h2Uoe14l"
-    },
-    {
-      "s": "roberto",
-      "url": "",
-      "mid": "lCAmrIc3"
-    },
-    {
-      "s": "stefano",
-      "url": "",
-      "mid": "08wpMcH6"
-    },
-    {
-      "s": "emilio",
-      "url": "",
-      "mid": "jLKgMzyp"
-    },
-    {
-      "s": "zhizhen",
-      "url": "",
-      "mid": "dxEetdSF"
-    },
-    {
-      "s": "johannes",
-      "url": "",
-      "mid": "URDwbMWr"
-    },
-    {
-      "s": "sasi",
-      "url": "",
-      "mid": "xGuw8z2b"
-    },
-    {
-      "s": "mohamed",
-      "url": "",
-      "mid": "dQHyKGM9"
-    },
-    {
-      "s": "markus",
-      "url": "",
-      "mid": "4bLqcARP"
     }
   ]
 }
