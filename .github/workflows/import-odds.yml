@@ -1,0 +1,38 @@
+name: Import Odds
+
+on:
+  push:
+    paths:
+      - 'pending_imports/**'
+  schedule:
+    # Kazdych 15 minut zachyt pokud by push trigger selhal nebo zustaly stuck pending soubory
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}
+
+# Aby se nebezelo vic instanci najednou (race conditions na sha pri PUT/DELETE)
+concurrency:
+  group: import-odds
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --no-save jsdom@24
+
+      - name: Run import pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/import-odds.mjs
