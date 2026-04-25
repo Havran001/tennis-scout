@@ -217,7 +217,11 @@ async function processPlayer(pidFile) {
     || playerSlug.split('-').filter((p) => p.length >= 4).pop()
     || playerSlug;
 
-  console.log(`  name=${playerName} slug=${playerSlug} key=${playerKey}`);
+  // FORCE mode: pokud pending obsahuje "force": true, smaž VŠECHNY existující odds
+  // (odds_alc, odds_opp, odds_src) předtím než pipeline najde "missing odds".
+  // Tím se přepíší i validní BetInAsia kurzy — risk: BE už nemusí mít data pro staré zápasy.
+  const forceMode = pendingObj.force === true;
+  console.log(`  name=${playerName} slug=${playerSlug} key=${playerKey} force=${forceMode}`);
 
   // Načteme aktuální player_history (přes Contents API kvůli sha)
   const histMeta = await ghGet(`${HISTORY_DIR}/${pid}.json`);
@@ -226,6 +230,18 @@ async function processPlayer(pidFile) {
     return { pid, status: 'error', reason: 'history_missing' };
   }
   const history = JSON.parse(Buffer.from(histMeta.content, 'base64').toString('utf-8'));
+  if (forceMode) {
+    let cleared = 0;
+    for (const m of history.matches || []) {
+      if (m.odds_alc != null || m.odds_opp != null || m.odds_src != null) {
+        delete m.odds_alc;
+        delete m.odds_opp;
+        delete m.odds_src;
+        cleared++;
+      }
+    }
+    console.log(`  FORCE: cleared odds from ${cleared} matches`);
+  }
   const noOdds = (history.matches || []).filter((m) => !m.odds_alc && m.score);
   console.log(`  history matches: ${history.matches?.length}, missing odds: ${noOdds.length}`);
   if (noOdds.length === 0) {
@@ -331,6 +347,20 @@ async function processPlayer(pidFile) {
   const histMeta2 = await ghGet(`${HISTORY_DIR}/${pid}.json`);
   if (!histMeta2) throw new Error(`history disappeared for ${pid}`);
   const current = JSON.parse(Buffer.from(histMeta2.content, 'base64').toString('utf-8'));
+  // Pokud force mód: vyčisti VŠECHNA odds v re-fetched history (pro případ že mezi
+  // počátečním načtením a teď někdo dál updatoval odds — chceme čistou tabulku).
+  let cleared2 = 0;
+  if (forceMode) {
+    for (const m of current.matches || []) {
+      if (m.odds_alc != null || m.odds_opp != null || m.odds_src != null) {
+        delete m.odds_alc;
+        delete m.odds_opp;
+        delete m.odds_src;
+        cleared2++;
+      }
+    }
+    console.log(`  FORCE re-clean: cleared odds from ${cleared2} matches in re-fetched history`);
+  }
   let merged = 0;
   for (const res of results) {
     const hm = current.matches.find((m) =>
@@ -350,12 +380,18 @@ async function processPlayer(pidFile) {
   current.updated = new Date().toISOString();
   console.log(`  merged: ${merged}/${results.length}`);
 
-  if (merged > 0) {
+  // V force módu PUTujeme i když merged=0, protože jsme vyčistili buggy data.
+  // V normálním módu PUTujeme jen když je co přidat.
+  const shouldPut = merged > 0 || (forceMode && cleared2 > 0);
+  if (shouldPut) {
+    const msg = forceMode
+      ? `Force-refresh odds for ${pid} (${playerName}): cleared ${cleared2}, imported ${merged}`
+      : `Import odds for ${pid} (${playerName}): +${merged} matches`;
     await ghPut(
       `${HISTORY_DIR}/${pid}.json`,
       JSON.stringify(current, null, 2) + '\n',
       histMeta2.sha,
-      `Import odds for ${pid} (${playerName}): +${merged} matches`
+      msg
     );
   }
 
