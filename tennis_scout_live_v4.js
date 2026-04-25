@@ -4336,30 +4336,118 @@ async function __tsFixCol(col,playerName){if(!col||!playerName)return;function f
 setInterval(function(){var host=document.getElementById("ts-host");if(!host||!host.shadowRoot)return;var hw=host.shadowRoot.getElementById("h2hw");if(!hw)return;var l=hw.querySelector("#h2h-last5");if(!l||l.children.length<2)return;var vs=hw.querySelector("#h2h-vs-matches");if(!vs)return;var pair=vs.dataset.pair;if(!pair)return;var parts=pair.split("|");__tsFixCol(l.children[0],parts[0]);__tsFixCol(l.children[1],parts[1]);},600);
 
 // === ODDS BUTTONS ===
-function openOddsOnBE(pid,fullname){
+function openOddsOnBE(pid, fullname){
+  // Najdi tlacitko (shadow DOM nebo bezny DOM)
   var sr=null;document.querySelectorAll("div").forEach(function(d){if(d.shadowRoot)sr=d.shadowRoot;});
   var btn=sr?sr.getElementById("pp-odds-btn"):document.getElementById("pp-odds-btn");
-  var origText=btn?btn.innerHTML:"⚡ Odds";
-  if(btn){btn.innerHTML="⏳ Importing...";btn.disabled=true;}
-  fetch("http://localhost:3333/import?pid="+encodeURIComponent(pid)+"&name="+encodeURIComponent(fullname))
-    .then(function(r){return r.json();})
-    .then(function(d){
-      if(btn){btn.disabled=false;}
-      if(d.error){
-        alert("Chyba importu: "+d.error+"\n\nSpust be_proxy.py v Terminalu!");
-        if(btn)btn.innerHTML=origText;
-      } else if(d.merged>0){
-        if(btn)btn.innerHTML="✅ "+d.merged+" odds";
-        console.log("Imported "+d.merged+" odds for "+pid);
-        setTimeout(function(){if(btn)btn.innerHTML=origText;},3000);
-      } else {
-        if(btn)btn.innerHTML="⚠ "+JSON.stringify(d).slice(0,30);
-        setTimeout(function(){if(btn)btn.innerHTML=origText;},4000);
+  var origText=btn?btn.innerHTML:"\u26a1 Odds";
+  if(btn){btn.innerHTML="\u23f3 Queueing\u2026";btn.disabled=true;}
+
+  // GitHub token — bez nej nelze pokracovat
+  var token=localStorage.getItem("ts_gh_token");
+  if(!token){
+    if(btn){btn.innerHTML=origText;btn.disabled=false;}
+    alert("Chybi GitHub token v localStorage('ts_gh_token').\nNastav ho v Tennis Scout Settings.");
+    return;
+  }
+
+  var REPO="Havran001/tennis-scout";
+  var pendingPath="pending_imports/"+pid+".json";
+  var historyUrl="https://raw.githubusercontent.com/"+REPO+"/main/player_history/"+pid+".json";
+
+  // Sestav payload
+  // Slug a key: pokud uzivatel chce force, drz Shift pri kliku — ale zatim nic
+  var pending={
+    pid:pid,
+    name:fullname,
+    requested_at:new Date().toISOString(),
+    requested_by:"tennis_scout_button"
+  };
+  var bodyStr=JSON.stringify(pending,null,2)+"\n";
+  // base64 utf-8
+  var u8=new TextEncoder().encode(bodyStr);
+  var bin="";for(var i=0;i<u8.length;i++)bin+=String.fromCharCode(u8[i]);
+  var b64=btoa(bin);
+
+  // Spocti pred-import baseline pro porovnani po dokonceni
+  var baselineCount=null;
+  fetch(historyUrl+"?nc="+Date.now())
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(h){
+      if(h && h.matches){
+        baselineCount=0;
+        h.matches.forEach(function(m){if(m.odds_alc)baselineCount++;});
       }
-    }).catch(function(e){
-      if(btn){btn.disabled=false;btn.innerHTML=origText;}
-      alert("Proxy neni spusteny!\n\nSpust v Terminalu:\npython3 be_proxy.py");
+    })
+    .catch(function(){});
+
+  // Check jestli pending uz existuje (pro sha pri update)
+  fetch("https://api.github.com/repos/"+REPO+"/contents/"+pendingPath,{
+    headers:{Authorization:"Bearer "+token}
+  })
+  .then(function(r){return r.status===200?r.json():null;})
+  .then(function(existing){
+    var putBody={message:"Request odds import for "+pid,content:b64};
+    if(existing && existing.sha)putBody.sha=existing.sha;
+    return fetch("https://api.github.com/repos/"+REPO+"/contents/"+pendingPath,{
+      method:"PUT",
+      headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github.v3+json","Content-Type":"application/json"},
+      body:JSON.stringify(putBody)
     });
+  })
+  .then(function(r){
+    if(!r.ok)throw new Error("PUT failed: "+r.status);
+    if(btn){btn.innerHTML="\u23f3 Bezi\u2026 \u23f3";}
+    // Polling: kazdych 8s zkontroluj jestli pending zmizel
+    var startTs=Date.now();
+    var TIMEOUT_MS=15*60*1000; // 15 min
+    var POLL_MS=8000;
+    var pollTimer=setInterval(function(){
+      var elapsed=Math.round((Date.now()-startTs)/1000);
+      // Update text s elapsed time
+      if(btn && btn.innerHTML.indexOf("\u23f3")>=0){
+        btn.innerHTML="\u23f3 Bezi\u2026 "+elapsed+"s";
+      }
+      // Check timeout
+      if(Date.now()-startTs>TIMEOUT_MS){
+        clearInterval(pollTimer);
+        if(btn){btn.innerHTML="\u26a0 Timeout, mrkni do Actions";btn.disabled=false;}
+        setTimeout(function(){if(btn)btn.innerHTML=origText;},6000);
+        return;
+      }
+      // Check stav pendingu
+      fetch("https://api.github.com/repos/"+REPO+"/contents/"+pendingPath+"?nc="+Date.now(),{
+        headers:{Authorization:"Bearer "+token}
+      })
+      .then(function(r){
+        if(r.status===404){
+          // Pending zmizel — Action dokoncena
+          clearInterval(pollTimer);
+          // Spocti kolik se importnulo
+          fetch(historyUrl+"?nc="+Date.now())
+            .then(function(r){return r.ok?r.json():null;})
+            .then(function(h){
+              var newCount=0;
+              if(h && h.matches)h.matches.forEach(function(m){if(m.odds_alc)newCount++;});
+              var diff=baselineCount!==null?(newCount-baselineCount):newCount;
+              var text=diff>0?("\u2705 +"+diff+" odds"):(diff===0?"\u2705 Done (0 nove)":"\u2705 Done");
+              if(btn){btn.innerHTML=text;btn.disabled=false;}
+              setTimeout(function(){if(btn)btn.innerHTML=origText;},5000);
+              console.log("[openOddsOnBE] "+pid+": baseline="+baselineCount+" new="+newCount+" diff="+diff);
+              // Refresh detail panelu (pokud ma TS funkci)
+              if(window.refreshPlayerHistory)try{window.refreshPlayerHistory(pid);}catch(e){}
+            });
+        }
+        // Jinak (200) — pending stale ceka, dalsi poll
+      })
+      .catch(function(){/* network blip — zkusim za POLL_MS */});
+    },POLL_MS);
+  })
+  .catch(function(e){
+    if(btn){btn.innerHTML="\u26a0 "+(e.message||"Error");btn.disabled=false;}
+    setTimeout(function(){if(btn)btn.innerHTML=origText;},5000);
+    console.error("[openOddsOnBE]",e);
+  });
 };
 
 // === PLAYER ODDS BUTTON ===
