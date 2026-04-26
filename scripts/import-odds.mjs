@@ -64,13 +64,27 @@ function daysBetween(isoA, isoB) {
 }
 
 function partsMatch(taParts, beSlug) {
-  for (const p of taParts) {
-    if (p.length < 4) continue;
+  const beTokens = beSlug.split('-');
+  const longParts = taParts.filter(p => p.length >= 4);
+  const shortParts = taParts.filter(p => p.length >= 2 && p.length < 4);
+  // Asijska kratka jmena (Li Tu, Yu Hsu): fallback na whole-token equality
+  if (longParts.length === 0 && shortParts.length > 0) {
+    return shortParts.every(p => beTokens.includes(p));
+  }
+  // Standardni logika pro dlouhe parts
+  for (const p of longParts) {
     if (beSlug.includes(p)) return true;
     if (p.length >= 5 && beSlug.includes(p.slice(1))) return true;
-    for (const bePart of beSlug.split('-')) {
+    for (const bePart of beTokens) {
       if (bePart.length >= 4 && p.includes(bePart)) return true;
       if (bePart.length >= 5 && bePart.includes(p)) return true;
+    }
+  }
+  // Mixed: long+short — pokud long nematchla, zkus short jako whole-token fallback
+  if (longParts.length > 0 && shortParts.length > 0) {
+    if (shortParts.every(p => beTokens.includes(p))) {
+      const anyLong = longParts.some(p => beSlug.includes(p) || beTokens.some(bp => bp.length >= 4 && (p.includes(bp) || bp.includes(p))));
+      if (anyLong) return true;
     }
   }
   return false;
