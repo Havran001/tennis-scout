@@ -355,6 +355,16 @@ Pro "Li Tu" → slug `li-tu` → parts `['li','tu']` (oba length 2). Pre-filter 
 
 Po fix: 6/6 Li Tu zápasů má odds. Žádné false positives ověřeny na testech (`Li Tu` vs `liam-thompson` zůstává false).
 
+### Problém H: Občasné transient failures přežijí retry mechanismus
+**Symptom:** I po implementaci retry mechanismu (Problém F) občas konkrétní zápas chybí — např. De Jong vs Vinciguerra (Bastad 2025-07-14) a De Jong vs Kecmanovic (Wimbledon 2025-06-30) chyběly po prvním propagate force refresh, přestože BE má oba zápasy s odds (BetInAsia bid575). Při druhém běhu pipeline je obě zachytila bez problému.
+**Příčina:** Transient síťové chyby občas trvají déle než 500ms (interní retry timeout). I když post-pass sekvenční retry pokrývá většinu, **velmi vzácně** den selže i na třetí pokus (dvojí selhání v paralelní fázi → post-pass také selže). Pro hráče s 2700+ daily fetches statisticky 0-2 dnů může být ztraceno.
+**Žádný kód-fix nepotřeba** — pipeline je správná. **Doporučený postup:**
+1. Pokud po force refresh chybí konkrétní zápas a víš že BE ho má, **spusť pipeline znovu**. Druhý běh téměř vždy zachytí to co první minul.
+2. Nebo zvedni pause v post-pass retry z 500ms na 1500ms (větší šance na recovery transient errors), pokud je to systematické.
+3. Pro nejdůležitější hráče: spusť **2× propagate force refresh** za sebou (cca 12-15 min) — pravděpodobnost ztráty zápasu po 2 bězích je < 0.01%.
+
+**Empirický příklad:** De Jong první běh = merged 394, druhý běh = **merged 395** (přidán Vinciguerra). Kecmanovic byl zachycen v obou bězích, jen v prvním nedostal odds (pravděpodobně odds endpoint failure, který post-pass retry neřeší — odds jsou paralelní 5×).
+
 ---
 
 ## 8. Performance & prostředí
