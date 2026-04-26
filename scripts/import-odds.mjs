@@ -294,7 +294,7 @@ async function processPlayer(pidFile) {
   let i = 0;
   // PARALEL: 5 fetchu najednou, 100ms pauza mezi davkami. Pri >=3 errorech v rade fallback na sekvencne.
   const allDaysArr = [...allDays];
-  let parallelism = 5;
+  let parallelism = 8;
   let consecutiveErrors = 0;
   for (let batchStart = 0; batchStart < allDaysArr.length; batchStart += parallelism) {
     const batch = allDaysArr.slice(batchStart, batchStart + parallelism);
