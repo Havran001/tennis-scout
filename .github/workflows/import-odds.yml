@@ -4,9 +4,6 @@ on:
   push:
     paths:
       - 'pending_imports/**'
-  schedule:
-    # Kazdych 15 minut zachyt pokud by push trigger selhal nebo zustaly stuck pending soubory
-    - cron: '*/15 * * * *'
   workflow_dispatch: {}
 
 # Aby se nebezelo vic instanci najednou (race conditions na sha pri PUT/DELETE)
