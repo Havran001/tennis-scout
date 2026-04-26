@@ -3111,7 +3111,7 @@ function buildUI(){
       function nx(i){
         if(i>=tot){self.disabled=false;prog.innerHTML='✅ Reimport dokoncen! '+im+'/'+tot;window._skippedPlayers=[];return;}
         var s=skipped[i];
-        var ta=nN(s.name||'');
+        var ta=s.ta_slug||nN(s.name||'');
         var taUrl='https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq';
         fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/player_history/'+s.id+'.json',{headers:{'Authorization':'token '+GH,'Accept':'application/vnd.github.v3+json'}}).then(function(r){return r.ok?r.json():null;}).then(function(cr){
           return tryP(taUrl,0).then(function(html){
