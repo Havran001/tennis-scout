@@ -112,7 +112,7 @@ uniqueMatches.forEach(m => {
 });
 ```
 
-### Krok 4 — Fuzzy matching (3 pasti)
+### Krok 4 — Fuzzy matching (3 pasti + Li Tu fix)
 
 ```javascript
 const slugify = s => (s || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -333,16 +333,48 @@ Pro importovaného hráče:
 **Příčina:** Shanghai Masters trval 25.9. → 12.10.2025 (~17 dnů s qualifiers). TA history má datum = `2025-10-01` (začátek týdne). Při ±7 dnů byl fetch range `24.9. - 8.10.` Reálné SF datum bylo **10.-11.10.** → mimo range. Final (12.10.) se náhodou chytlo přes range okolního turnaje (Basel ±7 = 13.10.-27.10.).
 **Fix:** Per-tournament tolerance — Masters/Grand Slam získaly ±14 dnů (nový range `17.9. - 15.10.`). Implementováno v `getFetchTol()` helper.
 
+### Problém F: Tichý fail při paralelizaci 12× (transient network errors)
+**Symptom:** Při force refresh Schoolkate s parallelism=12 se občas některé daily fetches **tiše ztratily** (`fetch failed` v logu, ale auto-fallback se neaktivoval). 19 dnů z 1628 nikdy nebylo načteno.
+**Příčina:** `fetchDailyResults` zachytila chybu a vrátila `return [];` → `Promise.allSettled` to viděl jako `fulfilled` → batchErrors=0 → fallback nereagoval. Daily fetches mizely "neviditelně".
+**Fix:** Dvouvrstvý retry mechanismus:
+1. **Internal retry**: `fetchDailyResults` při error počká 500ms a zkusí znovu. Většina transient chyb se vyřeší.
+2. **Post-pass retry**: Pokud i druhý pokus selže, propaguje se chyba (`throw e2`). Failed dny se zaznamenají do `failedDays[]` array. Po dokončení paralelní fáze se sekvenčně opakují s 500ms pauzami.
+
+Po fix: 0× `fetch FAILED 2x`, +42 BE matches zachyceno (2293 → 2335), žádné ztráty.
+
+### Problém G: Krátká asijská jména (Li Tu, Yu Hsu) nematchují
+**Symptom:** Schoolkate, Shimabukuro, De Jong měli **0% pokrytí odds u všech zápasů s Li Tu** napříč 6 zápasy (Brisbane CH 2026, Burnie 2 CH 2024, M25 Bendigo 2022, Wimbledon Q2 2025, Kobe CH 2024, US Open Q3 2024). BE má všechny zápasy s odds, ale pipeline je nematchuje.
+**Příčina:** **Dvě úrovně length filtru** v fuzzy matchingu:
+1. Pre-filter: `oppParts = oppSlug.split('-').filter(p => p.length >= 3)`
+2. Internal filter: `if (p.length < 4) continue` v `partsMatch()`
+
+Pro "Li Tu" → slug `li-tu` → parts `['li','tu']` (oba length 2). Pre-filter je vyhodil, `partsMatch()` dostal prázdné pole, vždy vrátil `false`.
+**Fix (dvou-fázový):**
+1. **partsMatch logika**: Přidán fallback pro krátká parts — když všechna parts jsou length < 4, vyžaduje **whole-token equality** v BE slug (nikoli substring, aby `li` nematchla `liam`).
+2. **Pre-filter**: Snížen z `p.length >= 3` na `p.length >= 2`. Bez tohoto fixu se krátké parts nikdy nedostanou do `partsMatch`.
+
+Po fix: 6/6 Li Tu zápasů má odds. Žádné false positives ověřeny na testech (`Li Tu` vs `liam-thompson` zůstává false).
+
 ---
 
 ## 8. Performance & prostředí
 
-**Tempo (od 26.4.2026 paralelizováno):**
-- Daily results fetch: **5 requestů paralelně** + 100ms pauza mezi batchemi (~10-15 req/s effective)
-- Odds fetch: ~6 req/s (150ms delay, sekvenčně)
-- Auto-fallback: pokud 3+ requesty padnou v řadě → snížení na sekvenční (1×) na ochranu před BE rate limitem
-- Pro hráče s ~300 zápasy v historii: ~12-18 minut na plnou pipeline (předtím 30-50 min sekvenčně)
-- Empirická validace: Misolic (317 zápasů, 1900 daily fetchů) = **16 min**, dříve by to bylo ~50 min
+**Tempo (od 26.4.2026, V6 — finální):**
+- **Daily results fetch: 12 paralelně** + 100ms pauza mezi batchemi (~30 req/s effective)
+- **Odds fetch: 5 paralelně** s V5 fallbackem uvnitř každého branche
+- **Retry mechanismus**: `fetchDailyResults` má interní 1× retry + post-pass sekvenční retry pro failed dny
+- **Auto-fallback**: pokud 3+ requesty padnou v řadě → snížení na sekvenční (1×). V praxi se neaktivuje, retry to vyřeší.
+- Pro hráče s ~300-500 zápasy v historii: **5-8 minut** na plnou pipeline (předtím 30-50 min sekvenčně)
+
+**Empirická validace pipeline V6 (parallelism 12 daily + 5 odds + retry):**
+| Hráč | Zápasy | Unique dates | Daily fetches | Total time |
+|------|--------|--------------|---------------|------------|
+| Misolic | 317 | 136 | ~1900 | 16 min (V2) |
+| De Jong | 466 | 192 | ~2700 | 12.1 min (V3) |
+| Shimabukuro | 428 | 179 | ~2500 | 7.9 min (V4) |
+| **Schoolkate** | **388** | **170** | **~2500** | **5.4 min (V6)** ✅ |
+
+Z původních ~50 min (V1 sekvenční) na **~5-6 min** = **10× rychlejší**.
 
 **Prostředí:**
 - Běží v Chrome konzoli na `betexplorer.com` (CORS důvod — jen tam lze fetchovat BE + GitHub API)
@@ -379,17 +411,20 @@ window._progress = { completed: 0, total: 0, done: false, dateCache: {} };
 
 ---
 
-## 10. Výsledky dosud (26.4.2026)
+## 10. Výsledky dosud (26.4.2026, V6 finální)
 
 | Hráč | Rank | Zápasy | S odds | Pokrytí | BetInAsia % | Pipeline |
 |------|------|--------|--------|---------|-------------|----------|
 | Landaluce M. | 99 | 212 | 211 | **99.5%** | 70% | sekvenčně |
 | Maestrelli F. | 112 | 338 | 334 | **99%** | 66% | sekvenčně |
 | Arnaldi M. | 103 | 369 | 357 | **97%** | 63% | sekvenčně |
-| **Misolic F.** | **111** | **317** | **304** | **96%** | **72%** | **paralelně 5×** ✅ |
-| Wu Yibing | 100 | 238 | 224 | **94%** | 55% | sekvenčně |
-| Hijikata R. | 101 | 416 | 374 | **90%** | 70% | sekvenčně |
-| **Vacherot V.** | **23** | **398** | **351** | **88%** | **60%** | sekvenčně (před fixem) |
+| Misolic F. | 111 | 317 | 304 | 96% | 72% | paralelně 5× |
+| Wu Yibing | 100 | 238 | 224 | 94% | 55% | sekvenčně |
+| Hijikata R. | 101 | 416 | 374 | 90% | 70% | sekvenčně |
+| Vacherot V. | 23 | 398 | 351 | 88% | 60% | sekvenčně (před fixem) |
+| **Schoolkate T.** | **114** | **388** | **380** | **98%** | **65%** | **V6 (12+5 paralel + retry + Li Tu fix)** ✅ |
+| **Shimabukuro S.** | **108** | **428** | **342** | **80%** | **70%** | **V6** ✅ |
+| **De Jong J.** | **109** | **466** | **394** | **84%** | **65%** | **V6** ✅ |
 
 ---
 
