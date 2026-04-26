@@ -4,7 +4,7 @@
 
 Tento soubor popisuje plně funkční pipeline pro import historických kurzů (odds) z BetExplorer do `player_history/*.json` souborů v repozitáři `Havran001/tennis-scout`. Je určený pro Claude aby okamžitě věděl jak import provést **bez opakovaného hledání v historii chatů**.
 
-**Stav k 24.4.2026:** Pipeline funguje, ověřena na Hijikata, Landaluce, Wu Yibing, Arnaldi, Maestrelli — pokrytí 90-99% zápasů. Spouští se v konzoli prohlížeče na `betexplorer.com` (potřebuje CORS přístup na BE).
+**Stav k 26.4.2026:** Pipeline funguje, ověřena na Hijikata, Landaluce, Wu Yibing, Arnaldi, Maestrelli — pokrytí 90-99% zápasů. Spouští se v konzoli prohlížeče na `betexplorer.com` (potřebuje CORS přístup na BE).
 
 ---
 
@@ -59,7 +59,8 @@ const uniqDates = [...new Set(noOdds.map(m => m.date))].sort();
 
 ### Krok 2 — Fetchni daily results pro každé datum ±7 dnů
 
-**KRITICKÉ:** Tolerance musí být **±7 dnů, ne ±3**. Jinak nebudou pokryté Masters QF/SF (turnaj trvá 2 týdny, TA history má datum = začátek týdne).
+**KRITICKÉ:** Tolerance musí být **±7 dnů pro běžné turnaje, ±14 dnů pro Masters/Grand Slam**. Jinak nebudou pokryté pozdní fáze (turnaj trvá 2-3 týdny, TA history má datum = začátek týdne).
+**Per-tournament tolerance** (od 26.4.2026): pipeline má helper `getFetchTol(tournament)` který vrací 14 pro turnaje obsahující `masters|grand slam|australian open|french open|roland garros|wimbledon|us open`, jinak 7. Pro každý unique date se vezme **maximum** tolerance ze všech zápasů s tím datumem (`maxTolByDate`).
 
 ```javascript
 const allDays = new Set();
@@ -327,14 +328,21 @@ Pro importovaného hráče:
 **Příčina:** Starý `be_proxy.py` Python skript vzal `vals[0::2]` a `vals[1::2]` ze **všech** `data-odd` v HTML, včetně trhů jako handicap, over/under, sets. Nevalidní hodnoty. Navíc nekontroloval `slug.startsWith(PLAYER_SLUG)` pro určení home/away.
 **Fix:** Full refresh přes V5 pipeline — vezme jen `tr[data-bid]` rows (match winner market), respektuje orientaci ze slugu.
 
+### Problém E: Vacherot vs Djokovic (Shanghai Masters 2025 SF)
+**Symptom:** Při full refresh Vacherota se naimportovaly všechny zápasy z Shanghai Masters (Q1 → F) **kromě** SF s Djokovicem.
+**Příčina:** Shanghai Masters trval 25.9. → 12.10.2025 (~17 dnů s qualifiers). TA history má datum = `2025-10-01` (začátek týdne). Při ±7 dnů byl fetch range `24.9. - 8.10.` Reálné SF datum bylo **10.-11.10.** → mimo range. Final (12.10.) se náhodou chytlo přes range okolního turnaje (Basel ±7 = 13.10.-27.10.).
+**Fix:** Per-tournament tolerance — Masters/Grand Slam získaly ±14 dnů (nový range `17.9. - 15.10.`). Implementováno v `getFetchTol()` helper.
+
 ---
 
 ## 8. Performance & prostředí
 
-**Tempo:**
-- Daily results fetch: ~4-10 requestů/s (BE throttluje)
-- Odds fetch: ~6 req/s (150ms delay)
-- Pro hráče s ~300 zápasy v historii: 1000-1500 dnů × 4/s = **5-8 minut na plnou pipeline**
+**Tempo (od 26.4.2026 paralelizováno):**
+- Daily results fetch: **5 requestů paralelně** + 100ms pauza mezi batchemi (~10-15 req/s effective)
+- Odds fetch: ~6 req/s (150ms delay, sekvenčně)
+- Auto-fallback: pokud 3+ requesty padnou v řadě → snížení na sekvenční (1×) na ochranu před BE rate limitem
+- Pro hráče s ~300 zápasy v historii: ~12-18 minut na plnou pipeline (předtím 30-50 min sekvenčně)
+- Empirická validace: Misolic (317 zápasů, 1900 daily fetchů) = **16 min**, dříve by to bylo ~50 min
 
 **Prostředí:**
 - Běží v Chrome konzoli na `betexplorer.com` (CORS důvod — jen tam lze fetchovat BE + GitHub API)
@@ -371,17 +379,48 @@ window._progress = { completed: 0, total: 0, done: false, dateCache: {} };
 
 ---
 
-## 10. Výsledky dosud (24.4.2026)
+## 10. Výsledky dosud (26.4.2026)
 
-| Hráč | Rank | Zápasy | S odds | Pokrytí | BetInAsia % |
-|------|------|--------|--------|---------|-------------|
-| Landaluce M. | 99 | 212 | 211 | **99.5%** | 70% |
-| Maestrelli F. | 112 | 338 | 334 | **99%** | 66% |
-| Arnaldi M. | 103 | 369 | 357 | **97%** | 63% |
-| Wu Yibing | 100 | 238 | 224 | **94%** | 55% |
-| Hijikata R. | 101 | 416 | 374 | **90%** | 70% |
+| Hráč | Rank | Zápasy | S odds | Pokrytí | BetInAsia % | Pipeline |
+|------|------|--------|--------|---------|-------------|----------|
+| Landaluce M. | 99 | 212 | 211 | **99.5%** | 70% | sekvenčně |
+| Maestrelli F. | 112 | 338 | 334 | **99%** | 66% | sekvenčně |
+| Arnaldi M. | 103 | 369 | 357 | **97%** | 63% | sekvenčně |
+| **Misolic F.** | **111** | **317** | **304** | **96%** | **72%** | **paralelně 5×** ✅ |
+| Wu Yibing | 100 | 238 | 224 | **94%** | 55% | sekvenčně |
+| Hijikata R. | 101 | 416 | 374 | **90%** | 70% | sekvenčně |
+| **Vacherot V.** | **23** | **398** | **351** | **88%** | **60%** | sekvenčně (před fixem) |
 
 ---
+
+## 12. Architektura (od 26.4.2026)
+
+Pipeline má dvě varianty se stejnou logikou:
+
+### A. Action runner pipeline (`scripts/import-odds.mjs`)
+- Spouští se přes **tlačítko ⚡ Odds** v Tennis Scout UI
+- Tlačítko vytvoří `pending_imports/{pid}.json` přes GitHub API
+- Push trigger → GitHub Actions workflow → **self-hosted runner na Macu** (EU IP, kvůli BetInAsia geofiltru)
+- Quick mode (default): max 20 nejnovějších zápasů, dokud nenarazí na zápas s odds
+- Force mode (`force: true` v pendingu): smaže všechny existující odds + plný refresh všech scored zápasů
+- Logy v https://github.com/Havran001/tennis-scout/actions
+
+### B. V5-quick manuální (`import_v5_quick.js`)
+- Spouští se ručně z BE konzole na betexplorer.com
+- Načte se přes `fetch + eval`, pak `window.runImport({pid, name, force})`
+- Pro batch operace nebo když Action runner není dostupný
+
+Oba sdílejí stejné klíčové konstanty: BetInAsia (bid575) priority, Bet365 fallback, ±7/±14 tolerance, V5 fallback (zkoušej další kandidát pokud první nemá bookmakery).
+
+### Self-hosted runner setup (Mac)
+```
+cd ~/actions-runner
+./svc.sh install
+./svc.sh start
+```
+- Běží jako launchd služba — žádný terminál není nutný
+- Plist: `~/Library/LaunchAgents/actions.runner.Havran001-tennis-scout.mac-runner.plist`
+- Logs: `~/Library/Logs/actions.runner.Havran001-tennis-scout.mac-runner`
 
 ## 11. TO DO
 
