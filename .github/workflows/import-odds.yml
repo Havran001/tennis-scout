@@ -16,7 +16,8 @@ concurrency:
 
 jobs:
   import:
-    runs-on: ubuntu-latest
+    # Self-hosted runner na Macu (EU IP) — vyhne se geo-IP filtringu BetExploreru
+    runs-on: [self-hosted, mac]
     permissions:
       contents: write
     steps:
