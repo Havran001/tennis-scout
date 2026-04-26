@@ -235,16 +235,41 @@
 
     const dateCache = {};
     let dayIdx = 0;
-    for (const key of allDays) {
-      dayIdx++;
-      const [yy, mm, dd] = key.split('-').map(Number);
-      const arr = await fetchDailyResults(yy, mm, dd);
-      const filtered = arr.filter((x) => x.slug.includes(playerKey));
-      if (filtered.length) dateCache[key] = filtered;
+    // PARALEL: 5 fetchu najednou, 100ms pauza. Pri >=3 errorech v rade fallback na sekvencne.
+    const allDaysArr = [...allDays];
+    let parallelism = 5;
+    let consecutiveErrors = 0;
+    for (let batchStart = 0; batchStart < allDaysArr.length; batchStart += parallelism) {
+      const batch = allDaysArr.slice(batchStart, batchStart + parallelism);
+      const results = await Promise.allSettled(batch.map(async (key) => {
+        const [yy, mm, dd] = key.split('-').map(Number);
+        const arr = await fetchDailyResults(yy, mm, dd);
+        const filtered = arr.filter((x) => x.slug.includes(playerKey));
+        return { key, filtered };
+      }));
+      let batchErrors = 0;
+      for (const res of results) {
+        dayIdx++;
+        if (res.status === 'fulfilled') {
+          const { key, filtered } = res.value;
+          if (filtered.length) dateCache[key] = filtered;
+        } else {
+          batchErrors++;
+        }
+      }
+      if (batchErrors > 0) {
+        consecutiveErrors += batchErrors;
+        if (consecutiveErrors >= 3 && parallelism > 1) {
+          console.log(`[V5quick] ${consecutiveErrors} errors, falling back to sequential mode`);
+          parallelism = 1;
+        }
+      } else {
+        consecutiveErrors = 0;
+      }
       if (window._v5quick) {
         window._v5quick.dailyProgress = `${dayIdx}/${allDays.size}`;
       }
-      await sleep(DAILY_DELAY_MS);
+      await sleep(100);
     }
     const totalBE = Object.values(dateCache).reduce((s, a) => s + a.length, 0);
     log(`collected ${totalBE} BE matches across ${Object.keys(dateCache).length} days`);
