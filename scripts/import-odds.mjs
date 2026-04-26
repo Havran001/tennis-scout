@@ -278,7 +278,7 @@ async function processPlayer(pidFile) {
   }
   const uniqueMatches = Object.values(midMap);
   uniqueMatches.forEach((m) => {
-    m.isHome = m.slug.startsWith(playerSllayerSlug);
+    m.isHome = m.slug.startsWith(playerSlug);
     m.opponentSlug = m.isHome
       ? m.slug.slice(playerSlug.length + 1)
       : m.slug.slice(0, m.slug.length - playerSlug.length - 1);
