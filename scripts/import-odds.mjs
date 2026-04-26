@@ -134,8 +134,14 @@ async function fetchDailyResults(yyyy, mm, dd) {
   try {
     html = await fetchBeText(path);
   } catch (e) {
-    console.warn(`  daily fetch failed ${yyyy}-${mm}-${dd}: ${e.message}`);
-    return [];
+    // Retry once po 500ms (transient network errors v paralelnim rezimu)
+    await new Promise(r => setTimeout(r, 500));
+    try {
+      html = await fetchBeText(path);
+    } catch (e2) {
+      console.warn(`  daily fetch FAILED 2x ${yyyy}-${mm}-${dd}: ${e2.message}`);
+      throw e2;
+    }
   }
   const re = /href="(\/tennis\/([^/]+)\/[^"]+\/([a-z0-9-]+)\/([a-zA-Z0-9]{8}))\/?"/g;
   const out = [];
@@ -294,6 +300,7 @@ async function processPlayer(pidFile) {
   let i = 0;
   // PARALEL: 5 fetchu najednou, 100ms pauza mezi davkami. Pri >=3 errorech v rade fallback na sekvencne.
   const allDaysArr = [...allDays];
+  const failedDays = [];
   let parallelism = 12;
   let consecutiveErrors = 0;
   for (let batchStart = 0; batchStart < allDaysArr.length; batchStart += parallelism) {
@@ -305,13 +312,16 @@ async function processPlayer(pidFile) {
       return { key, filtered };
     }));
     let batchErrors = 0;
-    for (const res of results) {
+    for (let bi = 0; bi < results.length; bi++) {
+      const res = results[bi];
       i++;
       if (res.status === 'fulfilled') {
         const { key, filtered } = res.value;
         if (filtered.length > 0) dateCache[key] = filtered;
       } else {
         batchErrors++;
+        const failedKey = batch[bi];
+        if (failedKey) failedDays.push(failedKey);
       }
     }
     if (batchErrors > 0) {
@@ -325,6 +335,21 @@ async function processPlayer(pidFile) {
     }
     if (i % 20 < parallelism) console.log(`    daily ${i}/${allDays.size} (parallel=${parallelism})`);
     await sleep(100);
+  }
+  // Post-pass: sekvencni retry failed dnu (pomalu, ale spolehlive)
+  if (failedDays.length > 0) {
+    console.log(`  retry: ${failedDays.length} dnu selhalo, opakuji sekvencne`);
+    for (const key of failedDays) {
+      const [yy, mm, dd] = key.split('-').map(Number);
+      try {
+        const all = await fetchDailyResults(yy, mm, dd);
+        const filtered = all.filter((x) => x.slug.includes(playerKey));
+        if (filtered.length > 0) dateCache[key] = filtered;
+      } catch (e) {
+        console.warn(`  retry FAILED ${key}: ${e.message}`);
+      }
+      await new Promise(r => setTimeout(r, 500));
+    }
   }
   const totalDailyMatches = Object.values(dateCache).reduce((s, a) => s + a.length, 0);
   console.log(`  collected ${totalDailyMatches} BE matches across ${Object.keys(dateCache).length} days`);
