@@ -406,7 +406,7 @@ async function processPlayer(pidFile) {
   const candidates = [];
   for (const hm of noOdds) {
     const oppSlug = slugify(hm.opponent);
-    const oppParts = oppSlug.split('-').filter((p) => p.length >= 3);
+    const oppParts = oppSlug.split('-').filter((p) => p.length >= 2);  // >=2 umoznuje kratka asijska jmena (Li Tu)
     const compatible = uniqueMatches.filter((be) => {
       const minDist = Math.min(...be.foundDates.map((fd) => daysBetween(hm.date, fd)));
       if (minDist > MATCH_TOLERANCE_DAYS) return false;
