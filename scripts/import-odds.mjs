@@ -274,7 +274,7 @@ async function processPlayer(pidFile) {
   const allDays = new Set();
   // Per-date max tolerance: pokud aspon jeden zapas v ramci dne je Masters/GS, pouzij 14
   const maxTolByDate = {};
-  for (const m of toImport) {
+  for (const m of noOdds) {
     const tol = getFetchTol(m.tournament);
     if (!maxTolByDate[m.date] || tol > maxTolByDate[m.date]) maxTolByDate[m.date] = tol;
   }
