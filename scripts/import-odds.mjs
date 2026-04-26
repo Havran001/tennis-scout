@@ -174,7 +174,15 @@ async function fetchOddsForMid(mid) {
     const txt = await fetchBeText(path);
     json = JSON.parse(txt);
   } catch (e) {
-    return null;
+    // Retry once po 500ms (transient errors v paralelnim rezimu)
+    await new Promise(r => setTimeout(r, 500));
+    try {
+      const txt = await fetchBeText(path);
+      json = JSON.parse(txt);
+    } catch (e2) {
+      console.warn(`  odds fetch FAILED 2x mid=${mid}: ${e2.message}`);
+      return null;
+    }
   }
   if (!json || !json.odds) return null;
   const dom = new JSDOM(`<!doctype html><body>${json.odds}</body>`);
