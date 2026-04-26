@@ -4353,7 +4353,7 @@ function openOddsOnBE(pid, fullname){
 
   var REPO="Havran001/tennis-scout";
   var pendingPath="pending_imports/"+pid+".json";
-  var historyUrl="https://raw.githubusercontent.com/"+REPO+"/main/player_history/"+pid+".json";
+  var historyUrl="https://api.github.com/repos/"+REPO+"/contents/player_history/"+pid+".json";
 
   // Sestav payload
   // Slug a key: pokud uzivatel chce force, drz Shift pri kliku — ale zatim nic
@@ -4371,7 +4371,7 @@ function openOddsOnBE(pid, fullname){
 
   // Spocti pred-import baseline pro porovnani po dokonceni
   var baselineCount=null;
-  fetch(historyUrl+"?nc="+Date.now())
+  fetch(historyUrl+"?ts="+Date.now(),{headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github.v3+json"}}).then(function(r){if(!r.ok)return{__nullDoc:true};return r.json();}).then(function(meta){if(!meta||meta.__nullDoc||!meta.content){return new Response("null");}var bytes=Uint8Array.from(atob(meta.content.replace(/\n/g,"")),function(c){return c.charCodeAt(0);});var decoded=new TextDecoder("utf-8").decode(bytes);return new Response(decoded,{headers:{"Content-Type":"application/json"},status:200});})
     .then(function(r){return r.ok?r.json():null;})
     .then(function(h){
       if(h && h.matches){
@@ -4424,7 +4424,7 @@ function openOddsOnBE(pid, fullname){
           // Pending zmizel — Action dokoncena
           clearInterval(pollTimer);
           // Spocti kolik se importnulo
-          fetch(historyUrl+"?nc="+Date.now())
+          fetch(historyUrl+"?ts="+Date.now(),{headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github.v3+json"}}).then(function(r){if(!r.ok)return{__nullDoc:true};return r.json();}).then(function(meta){if(!meta||meta.__nullDoc||!meta.content){return new Response("null");}var bytes=Uint8Array.from(atob(meta.content.replace(/\n/g,"")),function(c){return c.charCodeAt(0);});var decoded=new TextDecoder("utf-8").decode(bytes);return new Response(decoded,{headers:{"Content-Type":"application/json"},status:200});})
             .then(function(r){return r.ok?r.json():null;})
             .then(function(h){
               var newCount=0;
