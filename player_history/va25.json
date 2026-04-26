@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Valentin Vacherot",
   "source": "tennisabstract",
-  "updated": "2026-04-26T15:37:12.675Z",
+  "updated": "2026-04-26T15:46:32.633Z",
   "matches": [
     {
       "date": "2026-04-22",
@@ -806,7 +806,10 @@
       "second_pct": "57.1",
       "bp_saved": "1/2",
       "match_time": "1:42",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.83,
+      "odds_opp": 1.13,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-10-01",
