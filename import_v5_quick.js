@@ -46,15 +46,28 @@
   }
 
   function partsMatch(taParts, beSlug) {
-    for (const p of taParts) {
-      if (p.length < 4) continue;
+    const beTokens = beSlug.split('-');
+    const longParts = taParts.filter(p => p.length >= 4);
+    const shortParts = taParts.filter(p => p.length >= 2 && p.length < 4);
+    // Asijska kratka jmena (Li Tu, Yu Hsu): fallback na whole-token equality
+    if (longParts.length === 0 && shortParts.length > 0) {
+      return shortParts.every(p => beTokens.includes(p));
+    }
+    // Standardni logika pro dlouhe parts
+    for (const p of longParts) {
       if (beSlug.includes(p)) return true;
-      // Apostrof workaround: TA "Oconnell" → BE "o-connell"
+      // Apostrof workaround: TA "Oconnell" -> BE "o-connell"
       if (p.length >= 5 && beSlug.includes(p.slice(1))) return true;
-      // Pořadí jmen (jméno-příjmení vs příjmení-jméno)
       for (const bp of beSlug.split('-')) {
         if (bp.length >= 4 && p.includes(bp)) return true;
         if (bp.length >= 4 && bp.includes(p)) return true;
+      }
+    }
+    // Mixed long+short: pokud long nematchla, zkus short jako whole-token fallback
+    if (longParts.length > 0 && shortParts.length > 0) {
+      if (shortParts.every(p => beTokens.includes(p))) {
+        const anyLong = longParts.some(p => beSlug.includes(p) || beTokens.some(bp => bp.length >= 4 && (p.includes(bp) || bp.includes(p))));
+        if (anyLong) return true;
       }
     }
     return false;
