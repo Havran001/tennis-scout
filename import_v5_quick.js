@@ -267,7 +267,7 @@
     // PARALEL: 5 fetchu najednou, 100ms pauza. Pri >=3 errorech v rade fallback na sekvencne.
     const allDaysArr = [...allDays];
     const failedDays = [];
-    let parallelism = 12;
+    let parallelism = 20;
     let consecutiveErrors = 0;
     for (let batchStart = 0; batchStart < allDaysArr.length; batchStart += parallelism) {
       const batch = allDaysArr.slice(batchStart, batchStart + parallelism);
