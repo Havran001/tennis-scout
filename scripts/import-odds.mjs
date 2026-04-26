@@ -369,32 +369,35 @@ async function processPlayer(pidFile) {
 }
 
 async function main() {
-  // DIAGNOSTIC: ověř co BE vrací pro známý MID z GitHub Actions runner IP
-  console.log('=== DIAGNOSTIC: BE odds for tYmITb13 (Vacherot vs Alcaraz Monte Carlo SF) ===');
-  try {
-    const txt = await fetchBeText('/match-odds-old/tYmITb13/1/ha/1/en/');
-    const json = JSON.parse(txt);
-    if (json.odds) {
+  // DIAGNOSTIC: ověř co BE vrací pro 4 různé MIDy z GitHub Actions runner IP
+  const TEST_MIDS = [
+    { mid: 'bLWG8dXF', name: 'Madrid Nava 23.4.2026' },
+    { mid: 'tYmITb13', name: 'MC SF Alcaraz' },
+    { mid: 'MByZudOa', name: 'Indian Wells Ruud' },
+    { mid: 'zkBdeMBM', name: 'Australian Open Shelton' },
+  ];
+  for (const t of TEST_MIDS) {
+    console.log(`\n--- ${t.name} (${t.mid}) ---`);
+    try {
+      const txt = await fetchBeText(`/match-odds-old/${t.mid}/1/ha/1/en/`);
+      const json = JSON.parse(txt);
+      if (!json.odds) { console.log('  BE: no .odds'); continue; }
       const dom = new JSDOM(`<!doctype html><body>${json.odds}</body>`);
       const rows = Array.from(dom.window.document.querySelectorAll('tr[data-bid]'));
-      console.log(`  rows: ${rows.length}`);
-      console.log(`  bids: ${rows.map(r => r.dataset.bid).join(', ')}`);
-      for (const target of ['575', '16', '549', '851']) {
+      console.log(`  rows=${rows.length} bids=${rows.map(r => r.dataset.bid).join(',')}`);
+      for (const target of ['575', '16']) {
         const row = rows.find(r => r.dataset.bid === target);
         if (row) {
           const cells = row.querySelectorAll('[data-odd]');
           console.log(`  bid=${target}: h=${cells[0]?.dataset.odd} a=${cells[1]?.dataset.odd}`);
-        } else {
-          console.log(`  bid=${target}: NOT FOUND in BE response`);
         }
       }
-    } else {
-      console.log('  BE returned no .odds field');
+    } catch (e) {
+      console.log('  ERROR:', e.message);
     }
-  } catch (e) {
-    console.log('  DIAGNOSTIC FAILED:', e.message);
+    await sleep(500);
   }
-  console.log('=== END DIAGNOSTIC ===\n');
+  console.log('\n=== END DIAGNOSTIC ===\n');
 
   const dirMeta = await ghGet(PENDING_DIR);
   if (!dirMeta) {
