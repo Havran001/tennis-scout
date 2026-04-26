@@ -139,7 +139,16 @@
     try {
       const r = await fetch(`${BE_BASE}/match-odds-old/${mid}/1/ha/1/en/`);
       json = JSON.parse(await r.text());
-    } catch (e) { return null; }
+    } catch (e) {
+      await new Promise(r => setTimeout(r, 500));
+      try {
+        const r = await fetch(`${BE_BASE}/match-odds-old/${mid}/1/ha/1/en/`);
+        json = JSON.parse(await r.text());
+      } catch (e2) {
+        console.warn('[V5quick] odds fetch FAILED 2x mid=' + mid + ': ' + e2.message);
+        return null;
+      }
+    }
     if (!json || !json.odds) return null;
     const dom = new DOMParser().parseFromString(json.odds, 'text/html');
     const rows = Array.from(dom.querySelectorAll('tr[data-bid]'));
