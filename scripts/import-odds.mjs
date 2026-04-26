@@ -200,6 +200,9 @@ async function processPlayer(pidFile) {
   const playerKey = pendingObj.player_key
     || playerSlug.split('-').filter((p) => p.length >= 4).pop()
     || playerSlug;
+  // BE může mít slug v pořadí "prijmeni-jmeno" i "jmeno-prijmeni" — připrav obě varianty
+  const slugReversed = playerSlug.split('-').reverse().join('-');
+  const slugCandidates = playerSlug === slugReversed ? [playerSlug] : [playerSlug, slugReversed];
   const force = pendingObj.force === true;
 
   console.log(`  name=${playerName} slug=${playerSlug} key=${playerKey} force=${force}`);
@@ -296,10 +299,29 @@ async function processPlayer(pidFile) {
   }
   const uniqueMatches = Object.values(midMap);
   uniqueMatches.forEach((m) => {
-    m.isHome = m.slug.startsWith(playerSlug);
-    m.opponentSlug = m.isHome
-      ? m.slug.slice(playerSlug.length + 1)
-      : m.slug.slice(0, m.slug.length - playerSlug.length - 1);
+    // Zkus obě varianty player slugu (prijmeni-jmeno i jmeno-prijmeni)
+    let matched = null;
+    for (const cand of slugCandidates) {
+      if (m.slug.startsWith(cand)) {
+        matched = { isHome: true, opponentSlug: m.slug.slice(cand.length + 1) };
+        break;
+      }
+      if (m.slug.endsWith(cand)) {
+        matched = { isHome: false, opponentSlug: m.slug.slice(0, m.slug.length - cand.length - 1) };
+        break;
+      }
+    }
+    if (matched) {
+      m.isHome = matched.isHome;
+      m.opponentSlug = matched.opponentSlug;
+    } else {
+      // Fallback — pokud se ani jedna varianta neujme, použijeme playerKey heuristiku
+      // (slug obsahuje key někde uprostřed). Nech isHome nedefinováno → match selže ale neselže celý běh.
+      m.isHome = m.slug.startsWith(playerSlug);
+      m.opponentSlug = m.isHome
+        ? m.slug.slice(playerSlug.length + 1)
+        : m.slug.slice(0, m.slug.length - playerSlug.length - 1);
+    }
   });
   console.log(`  unique BE MIDs: ${uniqueMatches.length}`);
 
