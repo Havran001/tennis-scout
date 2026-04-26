@@ -172,8 +172,12 @@ try:
         pid = p.get('id', '')
         if pid in overrides_data:
             ov = overrides_data[pid]
-            p['ch'] = ov['ch']
-            p['ch_date'] = ov['ch_date']
+            if 'ch' in ov:
+                p['ch'] = ov['ch']
+            if 'ch_date' in ov:
+                p['ch_date'] = ov['ch_date']
+            if 'ta_slug' in ov:
+                p['ta_slug'] = ov['ta_slug']
             override_count += 1
     print(f'Applied {override_count} manual overrides')
 except Exception as e:
