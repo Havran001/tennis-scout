@@ -301,6 +301,7 @@ async function fetchPlayers(onProgress){
         height:(sack&&sack.height)||null,
         ch:p.ch||null,
         ch_date:p.ch_date||null,
+ta_slug:p.ta_slug||null,
 move:(p.move!==undefined&&p.move!==null)?p.move:null
       };
     });
