@@ -3151,7 +3151,7 @@ function buildUI(){
       var PROXIES=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
       function tryP(url,i){if(i>=PROXIES.length)return Promise.resolve(null);return fetch(PROXIES[i]+encodeURIComponent(url),{signal:AbortSignal.timeout(10000)}).then(function(r){return r.ok?r.text().then(function(t){if(t&&t.includes('Tennis Abstract'))return t;return tryP(url,i+1);}):tryP(url,i+1);}).catch(function(){return tryP(url,i+1);});}
       status.textContent='⏳ TA...';
-      var ta=nN(pfull||'');
+      var _pl=(window.ATP_PLAYERS||[]).find(function(p){return p.id===pid;})||(window.WTA_PLAYERS||[]).find(function(p){return p.id===pid;});var ta=(_pl&&_pl.ta_slug)||nN(pfull||'');
       var taUrl='https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq';
       tryP(taUrl,0).then(function(html){
         var ms=null;
