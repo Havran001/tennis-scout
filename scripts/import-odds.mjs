@@ -151,6 +151,9 @@ async function fetchOddsForMid(mid) {
   const doc = dom.window.document;
   const rows = Array.from(doc.querySelectorAll('tr[data-bid]'));
   if (rows.length === 0) return null;
+  // DEBUG: log all bids returned by BE
+  const allBids = rows.map(r => r.dataset.bid).join(',');
+  console.log(`    [DEBUG ${mid}] rows=${rows.length} bids=${allBids}`);
   let chosen = null;
   for (const bp of BOOKIE_PRIORITY) {
     const row = rows.find((r) => r.dataset.bid === bp.bid);
@@ -275,7 +278,7 @@ async function processPlayer(pidFile) {
   }
   const uniqueMatches = Object.values(midMap);
   uniqueMatches.forEach((m) => {
-    m.isHome = m.slug.startsWith(playerSlug);
+    m.isHome = m.slug.startsWith(playerSllayerSlug);
     m.opponentSlug = m.isHome
       ? m.slug.slice(playerSlug.length + 1)
       : m.slug.slice(0, m.slug.length - playerSlug.length - 1);
@@ -366,6 +369,33 @@ async function processPlayer(pidFile) {
 }
 
 async function main() {
+  // DIAGNOSTIC: ověř co BE vrací pro známý MID z GitHub Actions runner IP
+  console.log('=== DIAGNOSTIC: BE odds for tYmITb13 (Vacherot vs Alcaraz Monte Carlo SF) ===');
+  try {
+    const txt = await fetchBeText('/match-odds-old/tYmITb13/1/ha/1/en/');
+    const json = JSON.parse(txt);
+    if (json.odds) {
+      const dom = new JSDOM(`<!doctype html><body>${json.odds}</body>`);
+      const rows = Array.from(dom.window.document.querySelectorAll('tr[data-bid]'));
+      console.log(`  rows: ${rows.length}`);
+      console.log(`  bids: ${rows.map(r => r.dataset.bid).join(', ')}`);
+      for (const target of ['575', '16', '549', '851']) {
+        const row = rows.find(r => r.dataset.bid === target);
+        if (row) {
+          const cells = row.querySelectorAll('[data-odd]');
+          console.log(`  bid=${target}: h=${cells[0]?.dataset.odd} a=${cells[1]?.dataset.odd}`);
+        } else {
+          console.log(`  bid=${target}: NOT FOUND in BE response`);
+        }
+      }
+    } else {
+      console.log('  BE returned no .odds field');
+    }
+  } catch (e) {
+    console.log('  DIAGNOSTIC FAILED:', e.message);
+  }
+  console.log('=== END DIAGNOSTIC ===\n');
+
   const dirMeta = await ghGet(PENDING_DIR);
   if (!dirMeta) {
     console.log('No pending_imports directory - nothing to do.');
