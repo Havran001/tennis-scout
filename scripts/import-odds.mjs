@@ -407,10 +407,20 @@ async function processPlayer(pidFile) {
   for (const hm of noOdds) {
     const oppSlug = slugify(hm.opponent);
     const oppParts = oppSlug.split('-').filter((p) => p.length >= 2);  // >=2 umoznuje kratka asijska jmena (Li Tu)
-    const compatible = uniqueMatches.filter((be) => {
+    // DEBUG: log konkretni TA matches pro analyzu nezmatchnutych zapasu
+  const debugThis = /vinciguerra|kecmanovic|polmans/i.test(hm.opponent || '');
+  if (debugThis) {
+    console.log(`[DEBUG] hm: ${hm.date} ${hm.opponent} (oppSlug=${oppSlug}, oppParts=${JSON.stringify(oppParts)})`);
+  }
+  const compatible = uniqueMatches.filter((be) => {
       const minDist = Math.min(...be.foundDates.map((fd) => daysBetween(hm.date, fd)));
       if (minDist > MATCH_TOLERANCE_DAYS) return false;
-      return partsMatch(oppParts, be.opponentSlug);
+      const matchResult = partsMatch(oppParts, be.opponentSlug);
+      if (debugThis) {
+        const minDist = Math.min(...be.foundDates.map((fd) => daysBetween(hm.date, fd)));
+        console.log(`[DEBUG]   be: ${be.slug} (oppSlug=${be.opponentSlug}, isHome=${be.isHome}, minDist=${minDist}, matchResult=${matchResult})`);
+      }
+      return matchResult;
     });
     if (compatible.length > 0) {
       compatible.sort((a, b) => {
