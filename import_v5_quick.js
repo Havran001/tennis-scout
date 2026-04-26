@@ -19,7 +19,14 @@
   const FETCH_DELAY_MS = 200;       // mezi BE odds requesty
   const DAILY_DELAY_MS = 250;       // mezi BE daily requesty
   const FETCH_TOLERANCE_DAYS = 7;
+  const FETCH_TOLERANCE_DAYS_LONG = 14; // pro Masters / Grand Slam (turnaj trva 2-3 tydny)
   const MATCH_TOLERANCE_DAYS = 14;
+  // Vrati toleranci v dnech podle typu turnaje. Masters / Grand Slam = 14, ostatni = 7.
+  function getFetchTol(tournament) {
+    const t = (tournament || '').toLowerCase();
+    if (/masters|grand slam|australian open|french open|roland garros|wimbledon|us open/.test(t)) return FETCH_TOLERANCE_DAYS_LONG;
+    return FETCH_TOLERANCE_DAYS;
+  }
   const MAX_RECENT = 20;            // quick mode: max 20 nejnovějších zápasů
 
   // ---------- helpers ----------
@@ -208,10 +215,17 @@
     // 3. Daily fetches kolem unikátních dat ±7 dnů
     const uniqDates = [...new Set(toImport.map((m) => m.date))].sort();
     const allDays = new Set();
+    // Per-date max tolerance: pokud aspon jeden zapas v ramci dne je Masters/GS, pouzij 14
+    const maxTolByDate = {};
+    for (const m of toImport) {
+      const tol = getFetchTol(m.tournament);
+      if (!maxTolByDate[m.date] || tol > maxTolByDate[m.date]) maxTolByDate[m.date] = tol;
+    }
     for (const iso of uniqDates) {
       const [y, mo, d] = iso.split('-').map(Number);
       const base = new Date(Date.UTC(y, mo - 1, d));
-      for (let delta = -FETCH_TOLERANCE_DAYS; delta <= FETCH_TOLERANCE_DAYS; delta++) {
+      const tolForThisDate = maxTolByDate[iso] || FETCH_TOLERANCE_DAYS;
+      for (let delta = -tolForThisDate; delta <= tolForThisDate; delta++) {
         const dt = new Date(base.getTime() + delta * 86400000);
         const k = `${dt.getUTCFullYear()}-${String(dt.getUTCMonth()+1).padStart(2,'0')}-${String(dt.getUTCDate()).padStart(2,'0')}`;
         allDays.add(k);
