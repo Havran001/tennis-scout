@@ -329,20 +329,41 @@
     // 6. Odds fetch s V5 fallbackem (zkus další kandidát pokud první 0 odds)
     const results = [];
     let fIdx = 0;
-    for (const c of candidates) {
-      fIdx++;
-      let used = null, usedBE = null;
-      for (const be of c.candidates) {
-        const chosen = await fetchOddsForMid(be.mid);
-        await sleep(FETCH_DELAY_MS);
-        if (chosen) { used = chosen; usedBE = be; break; }
+    // PARALEL ODDS: 5 kandidatu najednou, V5 fallback resi sekvencne uvnitr kazdeho branche.
+    // Auto-fallback: pri 3+ errorech v rade snizi parallelism na 1.
+    let oddsParallelism = 5;
+    let oddsConsecutiveErrors = 0;
+    for (let batchStart = 0; batchStart < candidates.length; batchStart += oddsParallelism) {
+      const batch = candidates.slice(batchStart, batchStart + oddsParallelism);
+      const batchRes = await Promise.allSettled(batch.map(async (c) => {
+        for (const be of c.candidates) {
+          const chosen = await fetchOddsForMid(be.mid);
+          if (chosen) return { c, be, chosen };
+        }
+        return { c, be: null, chosen: null };
+      }));
+      let batchErrors = 0;
+      for (const res of batchRes) {
+        fIdx++;
+        if (res.status !== 'fulfilled') { batchErrors++; continue; }
+        const { c, be: usedBE, chosen: used } = res.value;
+        if (used && usedBE) {
+          const odds_alc = usedBE.isHome ? used.h : used.a;
+          const odds_opp = usedBE.isHome ? used.a : used.h;
+          results.push({ hm: c.hm, ok: true, odds_alc, odds_opp, odds_src: 'bid' + used.bid });
+        }
       }
-      if (used && usedBE) {
-        const odds_alc = usedBE.isHome ? used.h : used.a;
-        const odds_opp = usedBE.isHome ? used.a : used.h;
-        results.push({ hm: c.hm, ok: true, odds_alc, odds_opp, odds_src: 'bid' + used.bid });
+      if (batchErrors > 0) {
+        oddsConsecutiveErrors += batchErrors;
+        if (oddsConsecutiveErrors >= 3 && oddsParallelism > 1) {
+          console.log(`[V5quick] odds: ${oddsConsecutiveErrors} errors, falling back to sequential`);
+          oddsParallelism = 1;
+        }
+      } else {
+        oddsConsecutiveErrors = 0;
       }
       if (window._v5quick) window._v5quick.oddsProgress = `${fIdx}/${candidates.length}`;
+      await sleep(100);
     }
     log(`odds fetched: ${results.length}/${candidates.length}`);
 
