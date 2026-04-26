@@ -72,7 +72,8 @@ function partsMatch(taParts, beSlug) {
 async function ghGet(path) {
   const url = `https://api.github.com/repos/${REPO}/contents/${path}`;
   const r = await fetch(url, {
-    headers: { Authorization: `Bearer ${TOKEN}`, Accept: 'application/vnd.github.v3+json' },
+    headers: { Authorization: `Bearer ${TOKEN}`, Accept: 'application/vnd.github.v3+json',
+      'User-Agent': 'TennisScoutBot/1.0' },
   });
   if (r.status === 404) return null;
   if (!r.ok) throw new Error(`ghGet ${path}: ${r.status} ${await r.text()}`);
@@ -89,6 +90,7 @@ async function ghPut(path, contentString, sha, message) {
     headers: {
       Authorization: `Bearer ${TOKEN}`,
       Accept: 'application/vnd.github.v3+json',
+      'User-Agent': 'TennisScoutBot/1.0',
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(body),
@@ -103,6 +105,7 @@ async function ghDelete(path, sha, message) {
     headers: {
       Authorization: `Bearer ${TOKEN}`,
       Accept: 'application/vnd.github.v3+json',
+      'User-Agent': 'TennisScoutBot/1.0',
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({ message, sha }),
