@@ -31,7 +31,14 @@ const BOOKIE_PRIORITY = [{ bid: '575', name: 'BetInAsia' }, { bid: '16', name: '
 const FETCH_DELAY_MS = 200;
 const DAILY_DELAY_MS = 300;
 const FETCH_TOLERANCE_DAYS = 7;
+const FETCH_TOLERANCE_DAYS_LONG = 14; // pro Masters / Grand Slam (turnaj trva 2-3 tydny)
 const MATCH_TOLERANCE_DAYS = 14;
+// Vrati toleranci v dnech podle typu turnaje. Masters / Grand Slam = 14, ostatni = 7.
+function getFetchTol(tournament) {
+  const t = (tournament || '').toLowerCase();
+  if (/masters|grand slam|australian open|french open|roland garros|wimbledon|us open/.test(t)) return FETCH_TOLERANCE_DAYS_LONG;
+  return FETCH_TOLERANCE_DAYS;
+}
 const UA = 'Mozilla/5.0 (compatible; TennisScoutBot/1.0; +https://github.com/Havran001/scout)';
 
 if (!TOKEN) {
@@ -265,10 +272,17 @@ async function processPlayer(pidFile) {
 
   const uniqDates = [...new Set(noOdds.map((m) => m.date))].sort();
   const allDays = new Set();
+  // Per-date max tolerance: pokud aspon jeden zapas v ramci dne je Masters/GS, pouzij 14
+  const maxTolByDate = {};
+  for (const m of toImport) {
+    const tol = getFetchTol(m.tournament);
+    if (!maxTolByDate[m.date] || tol > maxTolByDate[m.date]) maxTolByDate[m.date] = tol;
+  }
   for (const iso of uniqDates) {
     const [y, m, d] = iso.split('-').map(Number);
     const base = new Date(Date.UTC(y, m - 1, d));
-    for (let delta = -FETCH_TOLERANCE_DAYS; delta <= FETCH_TOLERANCE_DAYS; delta++) {
+    const tolForThisDate = maxTolByDate[iso] || FETCH_TOLERANCE_DAYS;
+    for (let delta = -tolForThisDate; delta <= tolForThisDate; delta++) {
       const dt = new Date(base.getTime() + delta * 86400000);
       const k = `${dt.getUTCFullYear()}-${String(dt.getUTCMonth() + 1).padStart(2, '0')}-${String(dt.getUTCDate()).padStart(2, '0')}`;
       allDays.add(k);
