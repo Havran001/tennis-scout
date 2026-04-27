@@ -1,7 +1,7 @@
 {
   "player_id": "kf17",
   "source": "tennisabstract",
-  "updated": "2026-04-27T15:16:08.545Z",
+  "updated": "2026-04-27T15:17:52.506Z",
   "matches": [
     {
       "id": "4z5fN10D",
@@ -31,7 +31,10 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "src": "live"
+      "src": "live",
+      "odds_alc": 1.16,
+      "odds_opp": 5.94,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-23",
@@ -2579,7 +2582,10 @@
       "bp_saved": "0/2",
       "match_time": "1:57",
       "match_id": "2025-M-ITF-POR-2025-001-301",
-      "ch": ""
+      "ch": "",
+      "odds_alc": 7.7,
+      "odds_opp": 1.06,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-02-10",
@@ -3251,7 +3257,10 @@
       "bp_saved": "7/10",
       "match_time": "1:26",
       "match_id": "2024-1214-275",
-      "ch": ""
+      "ch": "",
+      "odds_alc": 2.4,
+      "odds_opp": 1.63,
+      "odds_src": "bid575"
     },
     {
       "date": "2024-06-24",
@@ -3811,7 +3820,10 @@
       "bp_saved": "",
       "match_time": "",
       "match_id": "2024-M-ITF-TUN-2024-024-112",
-      "ch": ""
+      "ch": "",
+      "odds_alc": 11.94,
+      "odds_opp": 1.06,
+      "odds_src": "bid575"
     },
     {
       "date": "2024-03-18",
@@ -4903,7 +4915,10 @@
       "bp_saved": "",
       "match_time": "",
       "match_id": "2023-M-ITF-BUL-01B-2023-207",
-      "ch": ""
+      "ch": "",
+      "odds_alc": 3.48,
+      "odds_opp": 1.33,
+      "odds_src": "bid575"
     },
     {
       "date": "2023-09-25",
@@ -9355,7 +9370,10 @@
       "bp_saved": "",
       "match_time": "",
       "match_id": "2021-M-ITF-TUR-14A-2021-103",
-      "ch": ""
+      "ch": "",
+      "odds_alc": 4.26,
+      "odds_opp": 1.25,
+      "odds_src": "bid575"
     },
     {
       "date": "2020-09-07",
