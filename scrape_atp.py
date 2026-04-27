@@ -178,6 +178,8 @@ try:
                 p['ch_date'] = ov['ch_date']
             if 'ta_slug' in ov:
                 p['ta_slug'] = ov['ta_slug']
+            if 'sack_key' in ov:
+                p['sack_key'] = ov['sack_key']
             override_count += 1
     print(f'Applied {override_count} manual overrides')
 except Exception as e:
