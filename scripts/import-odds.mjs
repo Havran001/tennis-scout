@@ -63,7 +63,66 @@ function daysBetween(isoA, isoB) {
   return Math.abs(a - b) / 86400000;
 }
 
-function partsMatch(taParts, beSlug) {
+// OPPONENT_ALIASES: alternativní transliterace asijských jmen na BE
+// Klíč: TA varianta (lowercase), Hodnota: pole BE alternativ (lowercase)
+const OPPONENT_ALIASES = {
+  'sin': ['shin'],
+  'shin': ['sin'],
+  'lee': ['yi'],
+  'yi': ['lee'],
+  'park': ['pak'],
+  'pak': ['park'],
+  'choi': ['choe'],
+  'choe': ['choi'],
+  'jung': ['jeong'],
+  'jeong': ['jung'],
+};
+
+// Vrací pole variant tokenu vč. originálu a aliasů
+function tokenVariants(token) {
+  const variants = [token];
+  if (OPPONENT_ALIASES[token]) variants.push(...OPPONENT_ALIASES[token]);
+  return variants;
+}
+
+// Najde kompletní pole alternativ pro pole taParts:
+// např. ['san','hui','sin'] -> také ['san','hui','shin']
+// Plus: zkusí spojené sousední tokeny ('san hui' jako 'sanhui')
+function expandTaParts(taParts) {
+  const out = [taParts.slice()];
+  // Substituce per token
+  for (let i = 0; i < taParts.length; i++) {
+    const variants = tokenVariants(taParts[i]);
+    if (variants.length > 1) {
+      for (const v of variants.slice(1)) {
+        const copy = taParts.slice();
+        copy[i] = v;
+        out.push(copy);
+      }
+    }
+  }
+  // Sloučení 2 sousedních tokenů (san+hui = sanhui)
+  for (let i = 0; i < taParts.length - 1; i++) {
+    const merged = taParts[i] + taParts[i + 1];
+    const copy = taParts.slice();
+    copy.splice(i, 2, merged);
+    out.push(copy);
+    // Aplikuj alias i na slovo po merge
+    for (let j = 0; j < copy.length; j++) {
+      const variants = tokenVariants(copy[j]);
+      if (variants.length > 1) {
+        for (const v of variants.slice(1)) {
+          const copy2 = copy.slice();
+          copy2[j] = v;
+          out.push(copy2);
+        }
+      }
+    }
+  }
+  return out;
+}
+
+function partsMatchSingle(taParts, beSlug) {
   const beTokens = beSlug.split('-');
   const longParts = taParts.filter(p => p.length >= 4);
   const shortParts = taParts.filter(p => p.length >= 2 && p.length < 4);
@@ -86,6 +145,15 @@ function partsMatch(taParts, beSlug) {
       const anyLong = longParts.some(p => beSlug.includes(p) || beTokens.some(bp => bp.length >= 4 && (p.includes(bp) || bp.includes(p))));
       if (anyLong) return true;
     }
+  }
+  return false;
+}
+
+function partsMatch(taParts, beSlug) {
+  // Zkus originál + všechny alias varianty
+  const variants = expandTaParts(taParts);
+  for (const variant of variants) {
+    if (partsMatchSingle(variant, beSlug)) return true;
   }
   return false;
 }
