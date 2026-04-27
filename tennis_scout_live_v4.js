@@ -286,7 +286,7 @@ async function fetchPlayers(onProgress){
 
     const today=new Date();
     window.ATP_PLAYERS=players.map(function(p){
-      const sack=smap[(p.full_name||p.name||'').toLowerCase().trim()];
+      const sack=smap[p.sack_key||(p.full_name||p.name||'').toLowerCase().trim()];
       let age=null;
       if(sack&&sack.dob&&sack.dob.length===8){
         const y=parseInt(sack.dob.slice(0,4)),m=parseInt(sack.dob.slice(4,6))-1,d=parseInt(sack.dob.slice(6,8));
@@ -302,6 +302,7 @@ async function fetchPlayers(onProgress){
         ch:p.ch||null,
         ch_date:p.ch_date||null,
 ta_slug:p.ta_slug||null,
+sack_key:p.sack_key||null,
 move:(p.move!==undefined&&p.move!==null)?p.move:null
       };
     });
