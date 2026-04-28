@@ -292,8 +292,8 @@ async function fetchPlayers(onProgress){
     window.ATP_PLAYERS=players.map(function(p){
       const sack=smap[p.sack_key||(p.full_name||p.name||'').toLowerCase().trim()];
       let age=null;
-      if(sack&&sack.dob&&sack.dob.length===8){
-        const y=parseInt(sack.dob.slice(0,4)),m=parseInt(sack.dob.slice(4,6))-1,d=parseInt(sack.dob.slice(6,8));
+      const _dob=(sack&&_dob&&_dob.length===8)?_dob:(p.dob&&p.dob.length===8?p.dob:null);if(_dob){
+        const y=parseInt(_dob.slice(0,4)),m=parseInt(_dob.slice(4,6))-1,d=parseInt(_dob.slice(6,8));
         age=today.getFullYear()-y-(today<new Date(today.getFullYear(),m,d)?1:0);
       }
       return {
