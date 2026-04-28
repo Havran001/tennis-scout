@@ -318,6 +318,26 @@ async function processPlayer(pidFile) {
   let history = JSON.parse(Buffer.from(histMeta.content, 'base64').toString('utf-8'));
 
   // KROK 0: FORCE MODE — smaž všechna existující odds + commit jako audit
+  // BE GUARD: pred force clear oveř ze BE odpovida (proti Cloudflare empty-200)
+  if (force) {
+    const _today = new Date();
+    _today.setDate(_today.getDate() - 3);
+    const _y = _today.getFullYear();
+    const _m = _today.getMonth() + 1;
+    const _d = _today.getDate();
+    try {
+      const _sample = await fetchDailyResults(_y, _m, _d);
+      if (_sample.length === 0) {
+        console.error(`  ABORT: BE sample fetch ${_y}-${_m}-${_d} vratil 0 matches - pravdepodobne Cloudflare blok / empty-200. Force clear PRESKOCEN.`);
+        throw new Error('BE_GUARD_FAILED_empty_response');
+      }
+      console.log(`  BE guard OK: ${_sample.length} sample matches z ${_y}-${_m}-${_d}`);
+    } catch (guardErr) {
+      console.error(`  ABORT: BE guard fetch failed: ${guardErr.message}`);
+      throw guardErr;
+    }
+  }
+
   if (force) {
     let cleared = 0;
     for (const m of history.matches || []) {
