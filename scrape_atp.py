@@ -180,6 +180,8 @@ try:
                 p['ta_slug'] = ov['ta_slug']
             if 'sack_key' in ov:
                 p['sack_key'] = ov['sack_key']
+            if 'dob' in ov:
+                p['dob'] = ov['dob']
             override_count += 1
     print(f'Applied {override_count} manual overrides')
 except Exception as e:
