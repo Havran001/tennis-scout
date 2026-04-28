@@ -281,7 +281,11 @@ async function fetchPlayers(onProgress){
       const cols=line.split(',');
       const obj=Object.fromEntries(shdr.map((h,i)=>[h,cols[i]||'']));
       const key=(obj.name_first+' '+obj.name_last).toLowerCase().trim();
-      smap[key]={hand:obj.hand||'',dob:obj.dob||'',height:obj.height?parseInt(obj.height):null};
+      const newRec={hand:obj.hand||'',dob:obj.dob||'',height:obj.height?parseInt(obj.height):null};
+      const existing=smap[key];
+      if(!existing||(!existing.dob&&newRec.dob)||(!existing.height&&newRec.height)||(!existing.hand&&newRec.hand)){
+        smap[key]=newRec;
+      }
     }
 
     const today=new Date();
