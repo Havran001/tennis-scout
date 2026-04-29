@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Hugo Hashimoto",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:02:34.425Z",
+  "updated": "2026-04-29T23:02:39.223Z",
   "matches": [
     {
       "date": "2026-03-30",
@@ -26,7 +26,10 @@
       "second_pct": "50.0",
       "bp_saved": "4/11",
       "match_time": "1:54",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.93,
+      "odds_opp": 1.89,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-11-24",
@@ -49,7 +52,10 @@
       "second_pct": "55.1",
       "bp_saved": "6/12",
       "match_time": "3:05",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.57,
+      "odds_opp": 1.25,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-11-17",
@@ -72,7 +78,10 @@
       "second_pct": "50.0",
       "bp_saved": "1/5",
       "match_time": "1:07",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.05,
+      "odds_opp": 1.33,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-07-15",
@@ -95,7 +104,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.59,
+      "odds_opp": 1.46,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-07-15",
@@ -118,7 +130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.59,
+      "odds_opp": 2.26,
+      "odds_src": "bid417"
     }
   ]
 }
