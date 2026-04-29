@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Vladimir Holban",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:02:23.268Z",
+  "updated": "2026-04-29T23:02:31.720Z",
   "matches": [
     {
       "date": "2026-04-06",
@@ -26,7 +26,10 @@
       "second_pct": "11.8",
       "bp_saved": "2/9",
       "match_time": "1:01",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 29.66,
+      "odds_opp": 1.01,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-09",
@@ -49,7 +52,10 @@
       "second_pct": "40.9",
       "bp_saved": "0/4",
       "match_time": "1:02",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 13.14,
+      "odds_opp": 1.04,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-02",
@@ -72,7 +78,10 @@
       "second_pct": "31.8",
       "bp_saved": "1/6",
       "match_time": "1:19",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.16,
+      "odds_opp": 1.17,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-10-13",
@@ -95,7 +104,10 @@
       "second_pct": "41.2",
       "bp_saved": "7/11",
       "match_time": "1:33",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.09,
+      "odds_opp": 1.21,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-10-06",
@@ -118,7 +130,10 @@
       "second_pct": "32.3",
       "bp_saved": "3/9",
       "match_time": "1:25",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.3,
+      "odds_opp": 1.12,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-29",
@@ -164,7 +179,10 @@
       "second_pct": "41.7",
       "bp_saved": "0/6",
       "match_time": "1:00",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11,
+      "odds_opp": 1.02,
+      "odds_src": "bid24"
     },
     {
       "date": "2025-08-11",
@@ -187,7 +205,10 @@
       "second_pct": "42.9",
       "bp_saved": "8/11",
       "match_time": "2:07",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 14.52,
+      "odds_opp": 1.05,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-08-11",
@@ -210,7 +231,10 @@
       "second_pct": "29.3",
       "bp_saved": "10/18",
       "match_time": "2:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.57,
+      "odds_opp": 1.3,
+      "odds_src": "bid575"
     },
     {
       "date": "2024-11-18",
@@ -233,7 +257,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.85,
+      "odds_opp": 1.04,
+      "odds_src": "bid417"
     }
   ]
 }
