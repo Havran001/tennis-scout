@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Tomas Marin",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:25:15.872Z",
+  "updated": "2026-04-29T23:25:19.165Z",
   "matches": [
     {
       "date": "2025-08-11",
@@ -25,7 +25,10 @@
       "second_pct": "15",
       "bp_saved": "6",
       "match_time": "8",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.5,
+      "odds_opp": 1.04,
+      "odds_src": "bid24"
     },
     {
       "date": "2025-07-14",
@@ -47,7 +50,10 @@
       "second_pct": "13",
       "bp_saved": "10",
       "match_time": "7",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.89,
+      "odds_opp": 1.37,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-14",
@@ -69,7 +75,10 @@
       "second_pct": "25",
       "bp_saved": "8",
       "match_time": "8",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.01,
+      "odds_opp": 1.71,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-07",
@@ -91,7 +100,10 @@
       "second_pct": "19",
       "bp_saved": "16",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.65,
+      "odds_opp": 1.02,
+      "odds_src": "bid609"
     }
   ]
 }
