@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "William Nolan",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:27:11.604Z",
+  "updated": "2026-04-29T23:27:20.197Z",
   "matches": [
     {
       "date": "2026-04-06",
@@ -26,7 +26,10 @@
       "second_pct": "48.3",
       "bp_saved": "3/8",
       "match_time": "2:20",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.2,
+      "odds_opp": 1.36,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-09",
@@ -49,7 +52,10 @@
       "second_pct": "32.5",
       "bp_saved": "2/5",
       "match_time": "1:44",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 12.01,
+      "odds_opp": 1.04,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-09",
@@ -95,7 +101,10 @@
       "second_pct": "40.0",
       "bp_saved": "7/12",
       "match_time": "2:37",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.31,
+      "odds_opp": 1.52,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-22",
@@ -118,7 +127,10 @@
       "second_pct": "13.3",
       "bp_saved": "4/9",
       "match_time": "1:14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.75,
+      "odds_opp": 1.99,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-09-15",
@@ -141,7 +153,10 @@
       "second_pct": "35.5",
       "bp_saved": "8/12",
       "match_time": "2:38",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.4,
+      "odds_opp": 1.28,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-08-18",
@@ -164,7 +179,10 @@
       "second_pct": "30.4",
       "bp_saved": "5/9",
       "match_time": "1:29",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.65,
+      "odds_opp": 1.17,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-08-11",
@@ -187,7 +205,10 @@
       "second_pct": "12.5",
       "bp_saved": "3/8",
       "match_time": "1:43",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.5,
+      "odds_opp": 1.5,
+      "odds_src": "bid429"
     },
     {
       "date": "2025-08-11",
@@ -210,7 +231,10 @@
       "second_pct": "0.0",
       "bp_saved": "0/0",
       "match_time": "1:29",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.4,
+      "odds_opp": 2.75,
+      "odds_src": "bid429"
     }
   ]
 }
