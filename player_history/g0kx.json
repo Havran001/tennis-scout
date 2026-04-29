@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Kelly Giese",
   "source": "tennisabstract",
-  "updated": "2026-04-29T20:53:57.695Z",
+  "updated": "2026-04-29T20:54:03.859Z",
   "matches": [
     {
       "date": "2025-11-17",
@@ -25,7 +25,10 @@
       "second_pct": "26",
       "bp_saved": "7",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.6,
+      "odds_opp": 1.07,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-14",
@@ -47,7 +50,10 @@
       "second_pct": "14",
       "bp_saved": "7",
       "match_time": "7",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.42,
+      "odds_opp": 1.54,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-07-14",
@@ -69,7 +75,10 @@
       "second_pct": "28",
       "bp_saved": "27",
       "match_time": "13",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.95,
+      "odds_opp": 1.09,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-14",
@@ -91,7 +100,10 @@
       "second_pct": "28",
       "bp_saved": "14",
       "match_time": "10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.92,
+      "odds_opp": 1.78,
+      "odds_src": "bid417"
     }
   ]
 }
