@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Antonin Witz",
   "source": "tennisabstract",
-  "updated": "2026-04-29T21:53:36.176Z",
+  "updated": "2026-04-29T21:53:39.059Z",
   "matches": [
     {
       "date": "2026-03-02",
@@ -26,7 +26,10 @@
       "second_pct": "46.9",
       "bp_saved": "4/9",
       "match_time": "1:44",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.95,
+      "odds_opp": 1.87,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-02",
@@ -49,7 +52,10 @@
       "second_pct": "37.5",
       "bp_saved": "6/14",
       "match_time": "2:39",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.84,
+      "odds_opp": 1.44,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-16",
@@ -72,7 +78,10 @@
       "second_pct": "47.4",
       "bp_saved": "4/8",
       "match_time": "1:42",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.09,
+      "odds_opp": 1.24,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-16",
@@ -95,7 +104,10 @@
       "second_pct": "44.7",
       "bp_saved": "6/9",
       "match_time": "2:01",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.15,
+      "odds_opp": 1.71,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-01-12",
@@ -118,7 +130,10 @@
       "second_pct": "36.4",
       "bp_saved": "5/11",
       "match_time": "1:42",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.74,
+      "odds_opp": 1.23,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-01-12",
@@ -141,7 +156,10 @@
       "second_pct": "61.1",
       "bp_saved": "5/6",
       "match_time": "1:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.49,
+      "odds_opp": 1.26,
+      "odds_src": "bid417"
     }
   ]
 }
