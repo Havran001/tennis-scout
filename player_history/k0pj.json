@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Kaigaoge Kang",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:11:49.678Z",
+  "updated": "2026-04-29T23:11:51.997Z",
   "matches": [
     {
       "date": "2025-07-28",
@@ -25,7 +25,10 @@
       "second_pct": "19",
       "bp_saved": "14",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.7,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-28",
@@ -47,7 +50,10 @@
       "second_pct": "35",
       "bp_saved": "21",
       "match_time": "14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.53,
+      "odds_opp": 1.47,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-21",
@@ -69,7 +75,10 @@
       "second_pct": "28",
       "bp_saved": "12",
       "match_time": "11",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.36,
+      "odds_opp": 3,
+      "odds_src": "bid1015"
     }
   ]
 }
