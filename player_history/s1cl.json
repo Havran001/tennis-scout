@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Stephen Slocombe",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:54:18.448Z",
+  "updated": "2026-04-29T23:54:22.905Z",
   "matches": [
     {
       "date": "2026-03-02",
@@ -25,7 +25,10 @@
       "second_pct": "28",
       "bp_saved": "10",
       "match_time": "10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.59,
+      "odds_opp": 1.2,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-09-12",
@@ -47,7 +50,10 @@
       "second_pct": "",
       "bp_saved": "",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.9,
+      "odds_opp": 1.9,
+      "odds_src": "bid429"
     },
     {
       "date": "2025-07-14",
@@ -69,7 +75,10 @@
       "second_pct": "13",
       "bp_saved": "4",
       "match_time": "7",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.3,
+      "odds_opp": 1.04,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-14",
@@ -91,7 +100,10 @@
       "second_pct": "25",
       "bp_saved": "6",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.32,
+      "odds_opp": 1.55,
+      "odds_src": "bid417"
     }
   ]
 }
