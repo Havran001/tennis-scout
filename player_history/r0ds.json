@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Tadija Radovanovic",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:42:31.274Z",
+  "updated": "2026-04-29T23:42:40.227Z",
   "matches": [
     {
       "date": "2025-10-27",
@@ -26,7 +26,10 @@
       "second_pct": "40.0",
       "bp_saved": "4/7",
       "match_time": "1:23",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.85,
+      "odds_opp": 1.07,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-22",
@@ -49,7 +52,10 @@
       "second_pct": "42.9",
       "bp_saved": "6/10",
       "match_time": "1:08",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.7,
+      "odds_opp": 1.1,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-22",
@@ -72,7 +78,10 @@
       "second_pct": "50.0",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.6,
+      "odds_opp": 1.04,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-04-29",
@@ -95,7 +104,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.32,
+      "odds_opp": 1.19,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-09-18",
@@ -118,7 +130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.6,
+      "odds_opp": 1.04,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-05-15",
@@ -141,7 +156,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11,
+      "odds_opp": 1.03,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-09-12",
@@ -164,7 +182,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.9,
+      "odds_opp": 1.06,
+      "odds_src": "bid417"
     }
   ]
 }
