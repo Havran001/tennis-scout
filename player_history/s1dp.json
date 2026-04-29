@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Leonardo Suarez",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:54:45.207Z",
+  "updated": "2026-04-29T23:54:50.122Z",
   "matches": [
     {
       "id": "rmTewBO7",
@@ -40,7 +40,10 @@
       "second_pct": "",
       "bp_saved": "",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.87,
+      "odds_opp": 1.81,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-24",
@@ -62,7 +65,10 @@
       "second_pct": "45",
       "bp_saved": "17",
       "match_time": "15",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.5,
+      "odds_opp": 1.1,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-17",
@@ -84,7 +90,10 @@
       "second_pct": "33",
       "bp_saved": "18",
       "match_time": "15",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.5,
+      "odds_opp": 1.07,
+      "odds_src": "bid417"
     }
   ],
   "total": 4
