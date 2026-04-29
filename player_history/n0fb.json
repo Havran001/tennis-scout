@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Amirkhamza Nasridinov",
   "source": "tennisabstract",
-  "updated": "2026-04-29T15:53:04.543Z",
+  "updated": "2026-04-29T15:53:09.538Z",
   "matches": [
     {
       "date": "2025-08-11",
@@ -26,7 +26,10 @@
       "second_pct": "42.1",
       "bp_saved": "0/4",
       "match_time": "1:35",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.9,
+      "odds_opp": 1.9,
+      "odds_src": "bid429"
     },
     {
       "date": "2025-08-11",
@@ -49,7 +52,10 @@
       "second_pct": "45.6",
       "bp_saved": "9/16",
       "match_time": "4:00",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.78,
+      "odds_opp": 1.42,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-08-11",
@@ -72,7 +78,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "1:40",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.87,
+      "odds_opp": 1.38,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-08-11",
@@ -95,7 +104,10 @@
       "second_pct": "53.3",
       "bp_saved": "3/3",
       "match_time": "2:02",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.58,
+      "odds_opp": 2.27,
+      "odds_src": "bid575"
     },
     {
       "date": "2024-09-02",
@@ -118,7 +130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.33,
+      "odds_opp": 3.12,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-08-26",
@@ -141,7 +156,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.68,
+      "odds_opp": 1.43,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-08-26",
@@ -164,7 +182,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.37,
+      "odds_opp": 1.29,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-08-26",
@@ -187,7 +208,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.08,
+      "odds_opp": 6.74,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-08-26",
@@ -210,7 +234,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.61,
+      "odds_opp": 2.22,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-06-24",
@@ -233,7 +260,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.6,
+      "odds_opp": 2.24,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-11-27",
@@ -256,7 +286,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.08,
+      "odds_opp": 1.69,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-11-20",
@@ -279,7 +312,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.56,
+      "odds_opp": 1.26,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-11-20",
@@ -302,7 +338,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.67,
+      "odds_opp": 1.43,
+      "odds_src": "bid417"
     }
   ]
 }
