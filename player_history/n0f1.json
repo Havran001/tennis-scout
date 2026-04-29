@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Luis Jose Nakamine",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:28:08.724Z",
+  "updated": "2026-04-29T23:28:16.986Z",
   "matches": [
     {
       "date": "2025-12-15",
@@ -26,7 +26,10 @@
       "second_pct": "42.5",
       "bp_saved": "6/11",
       "match_time": "2:59",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.31,
+      "odds_opp": 3.44,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-12-15",
@@ -49,7 +52,10 @@
       "second_pct": "57.9",
       "bp_saved": "0/2",
       "match_time": "2:20",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.31,
+      "odds_opp": 3.44,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-12-01",
@@ -72,7 +78,10 @@
       "second_pct": "44.4",
       "bp_saved": "4/8",
       "match_time": "1:20",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.7,
+      "odds_opp": 1.03,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-06-23",
@@ -95,7 +104,10 @@
       "second_pct": "62.5",
       "bp_saved": "2/7",
       "match_time": "1:12",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 13.83,
+      "odds_opp": 1.03,
+      "odds_src": "bid575"
     },
     {
       "date": "2024-08-19",
@@ -118,7 +130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.09,
+      "odds_opp": 1.69,
+      "odds_src": "bid575"
     },
     {
       "date": "2024-08-12",
@@ -141,7 +156,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 10,
+      "odds_opp": 1.03,
+      "odds_src": "bid429"
     },
     {
       "date": "2024-06-10",
@@ -164,7 +182,10 @@
       "second_pct": "29.4",
       "bp_saved": "0/6",
       "match_time": "1:20",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 14.51,
+      "odds_opp": 1.03,
+      "odds_src": "bid575"
     },
     {
       "date": "2023-11-06",
@@ -187,7 +208,10 @@
       "second_pct": "36.4",
       "bp_saved": "2/7",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 16,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-08-14",
@@ -210,7 +234,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.83,
+      "odds_opp": 1.23,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-08-07",
@@ -233,7 +260,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.66,
+      "odds_opp": 1.1,
+      "odds_src": "bid417"
     }
   ]
 }
