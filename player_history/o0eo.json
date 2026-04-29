@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Ramazan Kaan Oktay",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:30:09.322Z",
+  "updated": "2026-04-29T23:30:14.609Z",
   "matches": [
     {
       "date": "2026-02-23",
@@ -26,7 +26,10 @@
       "second_pct": "29.2",
       "bp_saved": "4/9",
       "match_time": "1:14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.35,
+      "odds_opp": 1.28,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-01-05",
@@ -49,7 +52,10 @@
       "second_pct": "39.3",
       "bp_saved": "1/5",
       "match_time": "1:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 9.1,
+      "odds_opp": 1.02,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-12-22",
@@ -95,7 +101,10 @@
       "second_pct": "38.5",
       "bp_saved": "0/1",
       "match_time": "0:52",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.04,
+      "odds_opp": 8.3,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-24",
@@ -118,7 +127,10 @@
       "second_pct": "50.0",
       "bp_saved": "5/8",
       "match_time": "1:32",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.48,
+      "odds_opp": 1.14,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-06-30",
@@ -141,7 +153,10 @@
       "second_pct": "35.3",
       "bp_saved": "4/11",
       "match_time": "1:34",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11.5,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     }
   ]
 }
