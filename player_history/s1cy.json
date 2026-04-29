@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Kase Schinnerer",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:54:30.006Z",
+  "updated": "2026-04-29T23:54:34.875Z",
   "matches": [
     {
       "date": "2025-05-19",
@@ -26,7 +26,10 @@
       "second_pct": "30.4",
       "bp_saved": "5/10",
       "match_time": "1:01",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.79,
+      "odds_opp": 1.16,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-05-19",
@@ -49,7 +52,10 @@
       "second_pct": "57.6",
       "bp_saved": "5/7",
       "match_time": "2:18",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.29,
+      "odds_opp": 3.32,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-05-12",
@@ -72,7 +78,10 @@
       "second_pct": "48.5",
       "bp_saved": "2/7",
       "match_time": "2:14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.45,
+      "odds_opp": 2.59,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-05-05",
@@ -95,7 +104,10 @@
       "second_pct": "44.4",
       "bp_saved": "3/8",
       "match_time": "1:54",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.21,
+      "odds_opp": 1.62,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-03-10",
@@ -118,7 +130,10 @@
       "second_pct": "54.3",
       "bp_saved": "2/5",
       "match_time": "1:56",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.73,
+      "odds_opp": 1.41,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-03-10",
@@ -141,7 +156,10 @@
       "second_pct": "56.6",
       "bp_saved": "7/9",
       "match_time": "2:30",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.24,
+      "odds_opp": 1.19,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-03-10",
@@ -164,7 +182,10 @@
       "second_pct": "50.0",
       "bp_saved": "1/1",
       "match_time": "1:44",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.31,
+      "odds_opp": 3.2,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-03-03",
@@ -187,7 +208,10 @@
       "second_pct": "59.4",
       "bp_saved": "1/5",
       "match_time": "1:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.18,
+      "odds_opp": 1.62,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-03-03",
@@ -210,7 +234,10 @@
       "second_pct": "44.7",
       "bp_saved": "2/7",
       "match_time": "2:37",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.75,
+      "odds_opp": 1.25,
+      "odds_src": "bid26"
     }
   ]
 }
