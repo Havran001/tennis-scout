@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Connor Doig",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:35:55.635Z",
+  "updated": "2026-04-29T22:36:00.017Z",
   "matches": [
     {
       "date": "2025-09-13",
@@ -26,7 +26,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.25,
+      "odds_opp": 1.33,
+      "odds_src": "bid429"
     },
     {
       "date": "2025-07-14",
@@ -49,7 +52,10 @@
       "second_pct": "31.6",
       "bp_saved": "1/4",
       "match_time": "1:25",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.9,
+      "odds_opp": 1.34,
+      "odds_src": "bid2"
     },
     {
       "date": "2025-07-14",
@@ -95,7 +101,10 @@
       "second_pct": "50.0",
       "bp_saved": "0/1",
       "match_time": "1:32",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.01,
+      "odds_opp": 9,
+      "odds_src": "bid609"
     },
     {
       "date": "2024-12-09",
@@ -118,7 +127,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11.6,
+      "odds_opp": 1.02,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-12-09",
@@ -141,7 +153,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.4,
+      "odds_opp": 1.26,
+      "odds_src": "bid2"
     },
     {
       "date": "2024-12-02",
@@ -164,7 +179,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.28,
+      "odds_opp": 1.21,
+      "odds_src": "bid417"
     }
   ]
 }
