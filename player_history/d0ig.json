@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Ivan Dreycopp",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:33:44.415Z",
+  "updated": "2026-04-29T22:33:50.960Z",
   "matches": [
     {
       "date": "2026-02-23",
@@ -26,7 +26,10 @@
       "second_pct": "25.0",
       "bp_saved": "5/10",
       "match_time": "1:20",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.14,
+      "odds_opp": 1.37,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-08-11",
@@ -72,7 +75,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "1:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.44,
+      "odds_opp": 2.65,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-08-04",
@@ -95,7 +101,10 @@
       "second_pct": "27.8",
       "bp_saved": "6/10",
       "match_time": "1:37",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.25,
+      "odds_opp": 1.08,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-14",
@@ -141,7 +150,10 @@
       "second_pct": "35.0",
       "bp_saved": "7/12",
       "match_time": "2:07",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.8,
+      "odds_opp": 1.4,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-06-30",
@@ -164,7 +176,10 @@
       "second_pct": "56.3",
       "bp_saved": "2/3",
       "match_time": "1:27",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.43,
+      "odds_opp": 1.28,
+      "odds_src": "bid575"
     },
     {
       "date": "2022-04-04",
@@ -187,7 +202,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.1,
+      "odds_opp": 1.14,
+      "odds_src": "bid417"
     },
     {
       "date": "2021-12-06",
@@ -210,7 +228,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.47,
+      "odds_opp": 2.63,
+      "odds_src": "bid417"
     },
     {
       "date": "2021-11-29",
@@ -233,7 +254,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.42,
+      "odds_opp": 1.2,
+      "odds_src": "bid417"
     }
   ]
 }
