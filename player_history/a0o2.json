@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Anton Arzhankin",
   "source": "tennisabstract",
-  "updated": "2026-04-29T12:49:47.434Z",
+  "updated": "2026-04-29T12:49:54.589Z",
   "matches": [
     {
       "id": "KbqRDoBa",
@@ -18,7 +18,10 @@
       "best_of": "3",
       "rank": "",
       "opp_rank": "",
-      "src": "live"
+      "src": "live",
+      "odds_alc": 2.25,
+      "odds_opp": 1.58,
+      "odds_src": "bid417"
     },
     {
       "id": "lKYX6nCb",
@@ -56,7 +59,10 @@
       "second_pct": "60.0",
       "bp_saved": "2/5",
       "match_time": "1:50",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.81,
+      "odds_opp": 1.87,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-03-09",
@@ -79,7 +85,10 @@
       "second_pct": "68.0",
       "bp_saved": "4/4",
       "match_time": "1:46",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.25,
+      "odds_opp": 3.57,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-03-02",
@@ -102,7 +111,10 @@
       "second_pct": "50.0",
       "bp_saved": "9/12",
       "match_time": "3:10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.22,
+      "odds_opp": 1.59,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-03-02",
@@ -125,7 +137,10 @@
       "second_pct": "62.5",
       "bp_saved": "1/1",
       "match_time": "1:33",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.01,
+      "odds_opp": 10.7,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-02-23",
@@ -148,7 +163,10 @@
       "second_pct": "61.1",
       "bp_saved": "5/6",
       "match_time": "2:17",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.74,
+      "odds_opp": 1.23,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-02-23",
@@ -171,7 +189,10 @@
       "second_pct": "54.5",
       "bp_saved": "2/2",
       "match_time": "1:27",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.07,
+      "odds_opp": 6.5,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-02-23",
@@ -194,7 +215,10 @@
       "second_pct": "68.9",
       "bp_saved": "4/5",
       "match_time": "2:47",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.05,
+      "odds_opp": 7.2,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-03",
@@ -217,7 +241,10 @@
       "second_pct": "34.4",
       "bp_saved": "2/5",
       "match_time": "1:47",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.25,
+      "odds_opp": 1.58,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-03",
@@ -240,7 +267,10 @@
       "second_pct": "57.8",
       "bp_saved": "6/11",
       "match_time": "3:02",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.25,
+      "odds_opp": 1.58,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-03",
@@ -263,7 +293,10 @@
       "second_pct": "60.0",
       "bp_saved": "5/5",
       "match_time": "1:41",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.14,
+      "odds_opp": 4.9,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-03",
@@ -332,7 +365,10 @@
       "second_pct": "26.3",
       "bp_saved": "2/8",
       "match_time": "1:32",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.23,
+      "odds_opp": 1.19,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-22",
@@ -355,7 +391,10 @@
       "second_pct": "68.0",
       "bp_saved": "6/7",
       "match_time": "1:52",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.02,
+      "odds_opp": 10.2,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-15",
@@ -378,7 +417,10 @@
       "second_pct": "41.3",
       "bp_saved": "8/12",
       "match_time": "2:29",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2,
+      "odds_opp": 1.72,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-08-04",
@@ -401,7 +443,10 @@
       "second_pct": "26.1",
       "bp_saved": "0/5",
       "match_time": "1:34",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.59,
+      "odds_opp": 2.25,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-07-14",
@@ -424,7 +469,10 @@
       "second_pct": "50.0",
       "bp_saved": "4/10",
       "match_time": "2:24",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.04,
+      "odds_opp": 1.71,
+      "odds_src": "bid575"
     }
   ],
   "total": 19
