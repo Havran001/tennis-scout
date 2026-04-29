@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Diego Jarry Fillol",
   "source": "tennisabstract",
-  "updated": "2026-04-29T14:38:43.639Z",
+  "updated": "2026-04-29T14:38:53.562Z",
   "matches": [
     {
       "date": "2026-03-16",
@@ -26,7 +26,10 @@
       "second_pct": "57.1",
       "bp_saved": "4/7",
       "match_time": "2:26",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.66,
+      "odds_opp": 1.2,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-16",
@@ -72,7 +75,10 @@
       "second_pct": "53.8",
       "bp_saved": "2/6",
       "match_time": "1:44",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 13,
+      "odds_opp": 1.04,
+      "odds_src": "bid16"
     },
     {
       "date": "2025-11-24",
@@ -95,7 +101,10 @@
       "second_pct": "56.5",
       "bp_saved": "3/6",
       "match_time": "2:07",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.77,
+      "odds_opp": 1.41,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-24",
@@ -141,7 +150,10 @@
       "second_pct": "53.8",
       "bp_saved": "3/5",
       "match_time": "1:52",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.43,
+      "odds_opp": 1.18,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-06-09",
@@ -164,7 +176,10 @@
       "second_pct": "20.8",
       "bp_saved": "2/7",
       "match_time": "2:09",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.38,
+      "odds_opp": 1.18,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-05-26",
@@ -187,7 +202,10 @@
       "second_pct": "43.3",
       "bp_saved": "7/12",
       "match_time": "2:12",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.3,
+      "odds_opp": 1.3,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-05-19",
@@ -210,7 +228,10 @@
       "second_pct": "100.0",
       "bp_saved": "0/0",
       "match_time": "1:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.48,
+      "odds_opp": 1.17,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-11-25",
@@ -233,7 +254,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.43,
+      "odds_opp": 1.18,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-06-17",
@@ -256,7 +280,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.74,
+      "odds_opp": 1.08,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-12-11",
@@ -279,7 +306,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.63,
+      "odds_opp": 1.12,
+      "odds_src": "bid417"
     }
   ]
 }
