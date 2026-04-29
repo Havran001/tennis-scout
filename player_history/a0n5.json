@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Motoharu Abe",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:01:06.347Z",
+  "updated": "2026-04-29T22:01:09.371Z",
   "matches": [
     {
       "date": "2026-01-12",
@@ -25,7 +25,10 @@
       "second_pct": "16",
       "bp_saved": "14",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11,
+      "odds_opp": 1.03,
+      "odds_src": "bid27"
     },
     {
       "date": "2026-01-12",
@@ -47,7 +50,10 @@
       "second_pct": "2",
       "bp_saved": "6",
       "match_time": "2",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.3,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     }
   ]
 }
