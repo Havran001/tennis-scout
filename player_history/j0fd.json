@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Patrick Jozwicki",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:05:59.669Z",
+  "updated": "2026-04-29T23:06:06.213Z",
   "matches": [
     {
       "date": "2026-03-23",
@@ -26,7 +26,10 @@
       "second_pct": "30.0",
       "bp_saved": "5/13",
       "match_time": "1:30",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 17.92,
+      "odds_opp": 1.03,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-10-13",
@@ -49,7 +52,10 @@
       "second_pct": "42.9",
       "bp_saved": "7/13",
       "match_time": "2:40",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.17,
+      "odds_opp": 1.63,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-09-15",
@@ -72,7 +78,10 @@
       "second_pct": "25.0",
       "bp_saved": "6/13",
       "match_time": "1:14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.4,
+      "odds_opp": 1.12,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-08-25",
@@ -95,7 +104,10 @@
       "second_pct": "11.1",
       "bp_saved": "5/11",
       "match_time": "1:15",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.43,
+      "odds_opp": 1.18,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-08-25",
@@ -118,7 +130,10 @@
       "second_pct": "66.7",
       "bp_saved": "3/4",
       "match_time": "0:21",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.85,
+      "odds_opp": 1.1,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-08-26",
@@ -141,7 +156,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 9.8,
+      "odds_opp": 1.03,
+      "odds_src": "bid417"
     }
   ]
 }
