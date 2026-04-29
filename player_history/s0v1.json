@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Isac Stroemberg",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:48:22.623Z",
+  "updated": "2026-04-29T23:48:28.896Z",
   "matches": [
     {
       "date": "2025-08-18",
@@ -49,7 +49,10 @@
       "second_pct": "58.3",
       "bp_saved": "5/7",
       "match_time": "2:08",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.06,
+      "odds_opp": 1.7,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-08-18",
@@ -72,7 +75,10 @@
       "second_pct": "38.5",
       "bp_saved": "10/16",
       "match_time": "2:44",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.61,
+      "odds_opp": 2.2,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-08-11",
@@ -95,7 +101,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "1:51",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4,
+      "odds_opp": 1.2,
+      "odds_src": "bid429"
     },
     {
       "date": "2025-08-11",
@@ -118,7 +127,10 @@
       "second_pct": "48.0",
       "bp_saved": "2/5",
       "match_time": "1:58",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2,
+      "odds_opp": 1.73,
+      "odds_src": "bid429"
     },
     {
       "date": "2025-07-21",
@@ -141,7 +153,10 @@
       "second_pct": "31.6",
       "bp_saved": "5/11",
       "match_time": "1:20",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.5,
+      "odds_opp": 1.06,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-09-19",
@@ -164,7 +179,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 12.5,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-05-09",
@@ -187,7 +205,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.36,
+      "odds_opp": 1.31,
+      "odds_src": "bid417"
     }
   ]
 }
