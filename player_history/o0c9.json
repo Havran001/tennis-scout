@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Viacheslav Ovchinnikov",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:29:28.480Z",
+  "updated": "2026-04-29T23:29:35.930Z",
   "matches": [
     {
       "date": "2025-08-25",
@@ -26,7 +26,10 @@
       "second_pct": "45.0",
       "bp_saved": "0/5",
       "match_time": "2:24",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.95,
+      "odds_opp": 1.75,
+      "odds_src": "bid26"
     },
     {
       "date": "2025-08-25",
@@ -49,7 +52,10 @@
       "second_pct": "40.0",
       "bp_saved": "2/6",
       "match_time": "1:27",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.38,
+      "odds_opp": 1.53,
+      "odds_src": "bid26"
     },
     {
       "date": "2025-08-18",
@@ -72,7 +78,10 @@
       "second_pct": "27.3",
       "bp_saved": "3/10",
       "match_time": "1:46",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.3,
+      "odds_opp": 1.57,
+      "odds_src": "bid26"
     },
     {
       "date": "2023-04-24",
@@ -95,7 +104,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.3,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-08-01",
@@ -118,7 +130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.75,
+      "odds_opp": 1.9,
+      "odds_src": "bid26"
     },
     {
       "date": "2022-07-11",
@@ -141,7 +156,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.72,
+      "odds_opp": 2.09,
+      "odds_src": "bid417"
     },
     {
       "date": "2021-05-31",
@@ -164,7 +182,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.9,
+      "odds_opp": 1.07,
+      "odds_src": "bid575"
     }
   ]
 }
