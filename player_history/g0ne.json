@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Javier Guzman",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:54:36.692Z",
+  "updated": "2026-04-29T22:54:39.863Z",
   "matches": [
     {
       "date": "2026-01-12",
@@ -26,7 +26,10 @@
       "second_pct": "35.7",
       "bp_saved": "9/16",
       "match_time": "2:23",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 10.2,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-24",
@@ -49,7 +52,10 @@
       "second_pct": "46.4",
       "bp_saved": "7/11",
       "match_time": "1:51",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5,
+      "odds_opp": 1.13,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-24",
@@ -72,7 +78,10 @@
       "second_pct": "54.8",
       "bp_saved": "5/10",
       "match_time": "2:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.76,
+      "odds_opp": 1.93,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-17",
@@ -95,7 +104,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.63,
+      "odds_opp": 1.44,
+      "odds_src": "bid27"
     },
     {
       "date": "2024-11-25",
@@ -118,7 +130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.6,
+      "odds_opp": 1.06,
+      "odds_src": "bid417"
     }
   ]
 }
