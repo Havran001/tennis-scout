@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Luka Bojicic Ono",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:11:22.096Z",
+  "updated": "2026-04-29T22:11:29.318Z",
   "matches": [
     {
       "date": "2026-03-23",
@@ -26,7 +26,10 @@
       "second_pct": "7.1",
       "bp_saved": "4/10",
       "match_time": "0:57",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 45.16,
+      "odds_opp": 1.01,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-02",
@@ -49,7 +52,10 @@
       "second_pct": "11.1",
       "bp_saved": "4/10",
       "match_time": "0:53",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 10.2,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-24",
@@ -95,7 +101,10 @@
       "second_pct": "23.1",
       "bp_saved": "1/6",
       "match_time": "1:07",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 10.5,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-17",
@@ -118,7 +127,10 @@
       "second_pct": "50.0",
       "bp_saved": "2/7",
       "match_time": "2:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.7,
+      "odds_opp": 1.1,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-11-11",
@@ -141,7 +153,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11,
+      "odds_opp": 1.02,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-03-04",
@@ -164,7 +179,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.8,
+      "odds_opp": 1.15,
+      "odds_src": "bid575"
     },
     {
       "date": "2023-11-27",
@@ -187,7 +205,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.95,
+      "odds_opp": 1.08,
+      "odds_src": "bid575"
     }
   ]
 }
