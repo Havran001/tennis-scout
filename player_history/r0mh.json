@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Oswaldo Alejandro Reyes Tirado",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:43:38.963Z",
+  "updated": "2026-04-29T23:43:42.486Z",
   "matches": [
     {
       "date": "2026-03-30",
@@ -26,7 +26,10 @@
       "second_pct": "34.8",
       "bp_saved": "5/10",
       "match_time": "1:21",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.5,
+      "odds_opp": 1.1,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-02",
@@ -49,7 +52,10 @@
       "second_pct": "50.0",
       "bp_saved": "2/4",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 14.78,
+      "odds_opp": 1.03,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-01-26",
@@ -72,7 +78,10 @@
       "second_pct": "41.7",
       "bp_saved": "4/8",
       "match_time": "1:04",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 14.78,
+      "odds_opp": 1.03,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-01-26",
@@ -95,7 +104,10 @@
       "second_pct": "0.0",
       "bp_saved": "1/4",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.55,
+      "odds_opp": 2.49,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-03-10",
@@ -118,7 +130,10 @@
       "second_pct": "50.0",
       "bp_saved": "2/4",
       "match_time": "1:44",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.2,
+      "odds_opp": 1.31,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-03-03",
@@ -141,7 +156,10 @@
       "second_pct": "66.7",
       "bp_saved": "6/11",
       "match_time": "1:00",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.5,
+      "odds_opp": 1.03,
+      "odds_src": "bid2"
     }
   ]
 }
