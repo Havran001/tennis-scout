@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Eudald Gonzalez",
   "source": "tennisabstract",
-  "updated": "2026-04-29T20:55:11.918Z",
+  "updated": "2026-04-29T20:55:16.278Z",
   "matches": [
     {
       "id": "dQTEEr9s",
@@ -160,7 +160,10 @@
       "second_pct": "21",
       "bp_saved": "6",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.17,
+      "odds_opp": 1.23,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-02",
@@ -182,7 +185,10 @@
       "second_pct": "57",
       "bp_saved": "10",
       "match_time": "16",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.01,
+      "odds_opp": 1.13,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-02",
@@ -204,7 +210,10 @@
       "second_pct": "32",
       "bp_saved": "5",
       "match_time": "11",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.88,
+      "odds_opp": 1.93,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-12-01",
@@ -226,7 +235,10 @@
       "second_pct": "14",
       "bp_saved": "2",
       "match_time": "8",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.7,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     }
   ],
   "total": 13
