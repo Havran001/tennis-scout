@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Ruslan Serazhetdinov",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:49:17.034Z",
+  "updated": "2026-04-29T23:49:24.274Z",
   "matches": [
     {
       "date": "2026-03-23",
@@ -26,7 +26,10 @@
       "second_pct": "15.0",
       "bp_saved": "13/18",
       "match_time": "1:05",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 13.05,
+      "odds_opp": 1.04,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-11-17",
@@ -49,7 +52,10 @@
       "second_pct": "35.0",
       "bp_saved": "5/8",
       "match_time": "1:06",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.9,
+      "odds_opp": 1.06,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-17",
@@ -72,7 +78,10 @@
       "second_pct": "56.8",
       "bp_saved": "4/5",
       "match_time": "1:39",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.57,
+      "odds_opp": 2.25,
+      "odds_src": "bid27"
     },
     {
       "date": "2025-11-10",
@@ -95,7 +104,10 @@
       "second_pct": "48.0",
       "bp_saved": "6/9",
       "match_time": "1:27",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.7,
+      "odds_opp": 1.07,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-10",
@@ -141,7 +153,10 @@
       "second_pct": "33.3",
       "bp_saved": "5/10",
       "match_time": "1:23",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.35,
+      "odds_opp": 1.12,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-15",
@@ -164,7 +179,10 @@
       "second_pct": "34.4",
       "bp_saved": "3/8",
       "match_time": "1:05",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.9,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-08-25",
@@ -187,7 +205,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "1:16",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.24,
+      "odds_opp": 1.19,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-09-02",
@@ -233,7 +254,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 9.9,
+      "odds_opp": 1.03,
+      "odds_src": "bid417"
     }
   ]
 }
