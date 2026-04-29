@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Santiago Giamichelle",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:52:55.701Z",
+  "updated": "2026-04-29T22:53:00.814Z",
   "matches": [
     {
       "date": "2025-11-24",
@@ -26,7 +26,10 @@
       "second_pct": "39.1",
       "bp_saved": "7/13",
       "match_time": "1:50",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.8,
+      "odds_opp": 1.4,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-11-24",
@@ -49,7 +52,10 @@
       "second_pct": "61.5",
       "bp_saved": "1/3",
       "match_time": "1:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.14,
+      "odds_opp": 4.75,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-10",
@@ -72,7 +78,10 @@
       "second_pct": "28.6",
       "bp_saved": "4/8",
       "match_time": "1:33",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.93,
+      "odds_opp": 1.22,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-07-07",
@@ -95,7 +104,10 @@
       "second_pct": "37.5",
       "bp_saved": "4/10",
       "match_time": "1:44",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.33,
+      "odds_opp": 1.56,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-05-12",
@@ -118,7 +130,10 @@
       "second_pct": "48.7",
       "bp_saved": "4/8",
       "match_time": "2:04",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.81,
+      "odds_opp": 1.23,
+      "odds_src": "bid417"
     }
   ]
 }
