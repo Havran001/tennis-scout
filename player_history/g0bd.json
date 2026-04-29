@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Daniil Golubev",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:49:55.188Z",
+  "updated": "2026-04-29T22:50:07.500Z",
   "matches": [
     {
       "date": "2026-02-02",
@@ -26,7 +26,10 @@
       "second_pct": "35.3",
       "bp_saved": "2/5",
       "match_time": "0:59",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 17,
+      "odds_opp": 1.01,
+      "odds_src": "bid27"
     },
     {
       "date": "2025-11-24",
@@ -49,7 +52,10 @@
       "second_pct": "21.7",
       "bp_saved": "4/10",
       "match_time": "0:52",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.45,
+      "odds_opp": 1.07,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-24",
@@ -72,7 +78,10 @@
       "second_pct": "46.9",
       "bp_saved": "7/10",
       "match_time": "1:36",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.02,
+      "odds_opp": 1.02,
+      "odds_src": "bid44"
     },
     {
       "date": "2025-11-17",
@@ -95,7 +104,10 @@
       "second_pct": "37.0",
       "bp_saved": "8/12",
       "match_time": "1:21",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 10.5,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-09-23",
@@ -118,7 +130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8,
+      "odds_opp": 1.01,
+      "odds_src": "bid26"
     },
     {
       "date": "2024-09-16",
@@ -141,7 +156,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 18,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-09-02",
@@ -164,7 +182,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 17,
+      "odds_opp": 1.01,
+      "odds_src": "bid15"
     },
     {
       "date": "2024-08-26",
@@ -187,7 +208,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 12.8,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-02-14",
@@ -210,7 +234,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 16,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2021-07-19",
@@ -233,7 +260,10 @@
       "second_pct": "25.0",
       "bp_saved": "2/8",
       "match_time": "0:35",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 15,
+      "odds_opp": 1.02,
+      "odds_src": "bid24"
     },
     {
       "date": "2021-04-12",
@@ -279,7 +309,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 26,
+      "odds_opp": 1.01,
+      "odds_src": "bid15"
     },
     {
       "date": "2021-03-08",
@@ -302,7 +335,10 @@
       "second_pct": "25.0",
       "bp_saved": "2/8",
       "match_time": "0:36",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 15,
+      "odds_opp": 1.01,
+      "odds_src": "bid16"
     },
     {
       "date": "2021-03-01",
@@ -325,7 +361,10 @@
       "second_pct": "38.5",
       "bp_saved": "4/10",
       "match_time": "0:41",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11,
+      "odds_opp": 1.02,
+      "odds_src": "bid16"
     },
     {
       "date": "2021-02-08",
@@ -371,7 +410,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11,
+      "odds_opp": 1.01,
+      "odds_src": "bid26"
     }
   ]
 }
