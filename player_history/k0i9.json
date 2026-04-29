@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Botond Kisantal",
   "source": "tennisabstract",
-  "updated": "2026-04-29T21:04:02.793Z",
+  "updated": "2026-04-29T21:04:11.796Z",
   "matches": [
     {
       "date": "2025-10-27",
@@ -26,7 +26,10 @@
       "second_pct": "44.4",
       "bp_saved": "5/10",
       "match_time": "2:07",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.05,
+      "odds_opp": 1.13,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-10-27",
@@ -49,7 +52,10 @@
       "second_pct": "38.9",
       "bp_saved": "3/4",
       "match_time": "1:17",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.24,
+      "odds_opp": 3.7,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-05-26",
@@ -72,7 +78,10 @@
       "second_pct": "37.0",
       "bp_saved": "5/10",
       "match_time": "1:13",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.15,
+      "odds_opp": 1.32,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-05-26",
@@ -95,7 +104,10 @@
       "second_pct": "67.6",
       "bp_saved": "3/3",
       "match_time": "1:41",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.3,
+      "odds_opp": 1.29,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-05-12",
@@ -118,7 +130,10 @@
       "second_pct": "38.1",
       "bp_saved": "3/7",
       "match_time": "1:56",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.75,
+      "odds_opp": 1.25,
+      "odds_src": "bid15"
     },
     {
       "date": "2024-11-04",
@@ -141,7 +156,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.06,
+      "odds_opp": 1.68,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-11-04",
@@ -164,7 +182,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.75,
+      "odds_opp": 1.06,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-05-27",
@@ -187,7 +208,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.56,
+      "odds_opp": 1.17,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-03-11",
@@ -210,7 +234,10 @@
       "second_pct": "44.0",
       "bp_saved": "0/3",
       "match_time": "0:55",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 9.6,
+      "odds_opp": 1.04,
+      "odds_src": "bid417"
     }
   ]
 }
