@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Guillermo Tunas",
   "source": "tennisabstract",
-  "updated": "2026-04-29T14:05:52.636Z",
+  "updated": "2026-04-29T14:05:57.826Z",
   "matches": [
     {
       "date": "2026-03-30",
@@ -26,7 +26,10 @@
       "second_pct": "38.1",
       "bp_saved": "6/10",
       "match_time": "1:06",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 19,
+      "odds_opp": 1.01,
+      "odds_src": "bid26"
     },
     {
       "date": "2026-03-23",
@@ -49,7 +52,10 @@
       "second_pct": "40.0",
       "bp_saved": "4/9",
       "match_time": "1:12",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 45.05,
+      "odds_opp": 1.01,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-23",
@@ -72,7 +78,10 @@
       "second_pct": "40.0",
       "bp_saved": "2/2",
       "match_time": "0:18",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 46.51,
+      "odds_opp": 1.01,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-16",
@@ -95,7 +104,10 @@
       "second_pct": "18.8",
       "bp_saved": "3/8",
       "match_time": "0:48",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 10.5,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-05-05",
@@ -118,7 +130,10 @@
       "second_pct": "22.2",
       "bp_saved": "2/8",
       "match_time": "0:59",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 10.5,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-05-05",
@@ -164,7 +179,10 @@
       "second_pct": "45.0",
       "bp_saved": "4/8",
       "match_time": "1:25",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 17,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-04-07",
@@ -187,7 +205,10 @@
       "second_pct": "50.0",
       "bp_saved": "4/8",
       "match_time": "1:00",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 26,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-03-10",
@@ -210,7 +231,10 @@
       "second_pct": "62.5",
       "bp_saved": "3/6",
       "match_time": "1:23",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.7,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     }
   ]
 }
