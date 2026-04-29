@@ -3,7 +3,7 @@
   "gs_id": "263343",
   "player_name": "Lenny Couturier",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:27:52.100Z",
+  "updated": "2026-04-29T22:27:55.081Z",
   "matches": [
     {
       "date": "2026-03-23",
@@ -26,7 +26,10 @@
       "second_pct": "41.7",
       "bp_saved": "4/8",
       "match_time": "1:04",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 34.5,
+      "odds_opp": 1.01,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-23",
@@ -49,7 +52,10 @@
       "second_pct": "58.1",
       "bp_saved": "2/4",
       "match_time": "1:50",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.82,
+      "odds_opp": 2.01,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-16",
@@ -72,7 +78,10 @@
       "second_pct": "26.3",
       "bp_saved": "1/6",
       "match_time": "0:50",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 13.29,
+      "odds_opp": 1.04,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-02",
@@ -95,7 +104,10 @@
       "second_pct": "51.7",
       "bp_saved": "2/4",
       "match_time": "1:28",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 14.34,
+      "odds_opp": 1.04,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-02",
@@ -118,7 +130,10 @@
       "second_pct": "61.9",
       "bp_saved": "1/2",
       "match_time": "1:49",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.43,
+      "odds_opp": 1.57,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-10-13",
@@ -141,7 +156,10 @@
       "second_pct": "45.8",
       "bp_saved": "5/9",
       "match_time": "1:10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.14,
+      "odds_opp": 1.32,
+      "odds_src": "bid417"
     }
   ]
 }
