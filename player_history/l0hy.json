@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Linus Lagerbohm",
   "source": "tennisabstract",
-  "updated": "2026-04-29T21:12:42.221Z",
+  "updated": "2026-04-29T21:12:49.543Z",
   "matches": [
     {
       "date": "2026-02-23",
@@ -26,7 +26,10 @@
       "second_pct": "34.6",
       "bp_saved": "2/7",
       "match_time": "1:36",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.78,
+      "odds_opp": 1.9,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-01-05",
@@ -49,7 +52,10 @@
       "second_pct": "53.3",
       "bp_saved": "6/10",
       "match_time": "2:54",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.83,
+      "odds_opp": 1.85,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-01-05",
@@ -72,7 +78,10 @@
       "second_pct": "39.1",
       "bp_saved": "5/7",
       "match_time": "1:33",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.49,
+      "odds_opp": 1.26,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-01-05",
@@ -95,7 +104,10 @@
       "second_pct": "51.6",
       "bp_saved": "1/4",
       "match_time": "2:20",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.1,
+      "odds_opp": 1.2,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-03",
@@ -118,7 +130,10 @@
       "second_pct": "40.0",
       "bp_saved": "4/10",
       "match_time": "1:00",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7,
+      "odds_opp": 1.06,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-08-11",
@@ -141,7 +156,10 @@
       "second_pct": "33.3",
       "bp_saved": "8/14",
       "match_time": "1:32",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.72,
+      "odds_opp": 1.42,
+      "odds_src": "bid575"
     },
     {
       "date": "2023-07-17",
@@ -164,7 +182,10 @@
       "second_pct": "35.3",
       "bp_saved": "3/7",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 13.5,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-05-30",
@@ -187,7 +208,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 9,
+      "odds_opp": 1.01,
+      "odds_src": "bid27"
     }
   ]
 }
