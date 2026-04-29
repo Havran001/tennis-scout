@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Rihards Neimanis",
   "source": "tennisabstract",
-  "updated": "2026-04-29T21:27:20.382Z",
+  "updated": "2026-04-29T21:27:26.039Z",
   "matches": [
     {
       "date": "2026-02-23",
@@ -26,7 +26,10 @@
       "second_pct": "45.5",
       "bp_saved": "0/4",
       "match_time": "1:38",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.32,
+      "odds_opp": 1.16,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-23",
@@ -49,7 +52,10 @@
       "second_pct": "50.0",
       "bp_saved": "4/6",
       "match_time": "1:45",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.11,
+      "odds_opp": 1.24,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-16",
@@ -72,7 +78,10 @@
       "second_pct": "38.5",
       "bp_saved": "1/4",
       "match_time": "1:19",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.89,
+      "odds_opp": 1.07,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-16",
@@ -95,7 +104,10 @@
       "second_pct": "61.9",
       "bp_saved": "0/2",
       "match_time": "1:14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.01,
+      "odds_opp": 10.2,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-02-09",
@@ -118,7 +130,10 @@
       "second_pct": "47.1",
       "bp_saved": "7/11",
       "match_time": "2:21",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.6,
+      "odds_opp": 1.29,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-09",
@@ -141,7 +156,10 @@
       "second_pct": "40.9",
       "bp_saved": "4/9",
       "match_time": "2:28",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.15,
+      "odds_opp": 1.31,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-10-27",
@@ -164,7 +182,10 @@
       "second_pct": "47.8",
       "bp_saved": "9/16",
       "match_time": "3:09",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.64,
+      "odds_opp": 1.25,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-10-20",
@@ -187,7 +208,10 @@
       "second_pct": "44.2",
       "bp_saved": "3/9",
       "match_time": "2:09",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.47,
+      "odds_opp": 1.18,
+      "odds_src": "bid417"
     }
   ]
 }
