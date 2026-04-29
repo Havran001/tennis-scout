@@ -162,6 +162,67 @@ with ThreadPoolExecutor(max_workers=15) as executor:
         if done % 200 == 0:
             print(f'  ATP fetch: {done}/{len(all_players)}')
 
+
+# ── STEP 5b: Fetch TennisAbstract peakrank for missing/wrong CH ────
+print(f'Fetching TennisAbstract peakrank for players with missing/wrong CH...')
+
+def fetch_ta_peakrank(player):
+    """Fetch peakrank + peakfirst from TA player page via codetabs proxy."""
+    pid = player.get('id', '')
+    full_name = player.get('full_name', '') or player.get('name', '')
+    ta_slug = player.get('ta_slug') or ''
+    if not ta_slug:
+        # Default slug: remove non-alpha, keep first+last name combined
+        ta_slug = ''.join(c for c in full_name.title() if c.isalpha())
+    if not ta_slug:
+        return pid, None, None
+    url = f'https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p={ta_slug}&f=ACareerqq'
+    proxy_url = f'https://api.codetabs.com/v1/proxy?quest={url}'
+    try:
+        r = requests.get(proxy_url, timeout=15)
+        if r.status_code != 200:
+            return pid, None, None
+        html = r.text
+        m_peak = re.search(r'var\s+peakrank\s*=\s*(\d+)', html)
+        m_first = re.search(r'var\s+peakfirst\s*=\s*[\'"]?(\d{8})', html)
+        if m_peak:
+            peak = int(m_peak.group(1))
+            first = m_first.group(1) if m_first else None
+            return pid, peak, first
+    except Exception:
+        pass
+    return pid, None, None
+
+# Identify players needing TA fetch:
+#  - ch is None
+#  - OR ch == rank with ch_date >= 2025-01-01 (means scrape_atp set fallback recently)
+ta_candidates = []
+for p in all_players:
+    needs_fetch = False
+    if p.get('ch') is None:
+        needs_fetch = True
+    elif p.get('ch') == p.get('rank') and p.get('ch_date', '') >= '2025-01-01':
+        needs_fetch = True
+    if needs_fetch:
+        ta_candidates.append(p)
+
+print(f'  TA candidates: {len(ta_candidates)} players')
+
+# Fetch sequentially with 1.2s gap (codetabs rate limit)
+ta_fixes = 0
+import time
+for p in ta_candidates:
+    pid, peak, first = fetch_ta_peakrank(p)
+    if peak and (p.get('ch') is None or peak < p.get('ch', 99999)):
+        p['ch'] = peak
+        if first and len(first) == 8:
+            p['ch_date'] = f'{first[0:4]}-{first[4:6]}-{first[6:8]}'
+        p['ch_source'] = 'TennisAbstract peakrank'
+        ta_fixes += 1
+    time.sleep(1.2)  # respect codetabs rate limit
+
+print(f'  TA fixed CH for {ta_fixes} players')
+
 # ── STEP 6: Apply manual overrides ───────────────────────────────
 OVERRIDES_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/career_high_overrides.json'
 try:
