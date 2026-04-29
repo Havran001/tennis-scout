@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Tomas Dummer Macedo",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:36:25.245Z",
+  "updated": "2026-04-29T22:36:27.585Z",
   "matches": [
     {
       "date": "2026-03-23",
@@ -25,7 +25,10 @@
       "second_pct": "13",
       "bp_saved": "4",
       "match_time": "7",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.97,
+      "odds_opp": 1.14,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-11-24",
@@ -47,7 +50,10 @@
       "second_pct": "17",
       "bp_saved": "10",
       "match_time": "10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.5,
+      "odds_opp": 1.08,
+      "odds_src": "bid1015"
     },
     {
       "date": "2025-11-24",
@@ -69,7 +75,10 @@
       "second_pct": "33",
       "bp_saved": "12",
       "match_time": "12",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.5,
+      "odds_opp": 1.29,
+      "odds_src": "bid1015"
     }
   ]
 }
