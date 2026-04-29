@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Gasper Matijasic",
   "source": "tennisabstract",
-  "updated": "2026-04-29T21:18:49.938Z",
+  "updated": "2026-04-29T21:18:57.872Z",
   "matches": [
     {
       "date": "2026-03-23",
@@ -26,7 +26,10 @@
       "second_pct": "32.3",
       "bp_saved": "4/11",
       "match_time": "2:18",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.05,
+      "odds_opp": 1.79,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-09",
@@ -49,7 +52,10 @@
       "second_pct": "52.6",
       "bp_saved": "3/6",
       "match_time": "2:06",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.36,
+      "odds_opp": 2.8,
+      "odds_src": "bid26"
     },
     {
       "date": "2026-03-09",
@@ -72,7 +78,10 @@
       "second_pct": "50.0",
       "bp_saved": "11/15",
       "match_time": "1:55",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.03,
+      "odds_opp": 9,
+      "odds_src": "bid26"
     },
     {
       "date": "2025-09-22",
@@ -164,7 +173,10 @@
       "second_pct": "55.0",
       "bp_saved": "2/7",
       "match_time": "2:36",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.71,
+      "odds_opp": 1.24,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-06-02",
@@ -187,7 +199,10 @@
       "second_pct": "45.9",
       "bp_saved": "5/9",
       "match_time": "2:05",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.5,
+      "odds_opp": 1.48,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-08-12",
@@ -210,7 +225,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.08,
+      "odds_opp": 1.14,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-07-15",
@@ -233,7 +251,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.25,
+      "odds_opp": 1.13,
+      "odds_src": "bid417"
     }
   ]
 }
