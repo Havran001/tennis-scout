@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Noritaka Koizumi",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:11:11.018Z",
+  "updated": "2026-04-29T23:11:17.070Z",
   "matches": [
     {
       "date": "2026-03-30",
@@ -26,7 +26,10 @@
       "second_pct": "70.0",
       "bp_saved": "0/4",
       "match_time": "1:23",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11.5,
+      "odds_opp": 1.05,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-06-30",
@@ -49,7 +52,10 @@
       "second_pct": "39.4",
       "bp_saved": "9/14",
       "match_time": "1:49",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.91,
+      "odds_opp": 1.22,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-06-30",
@@ -72,7 +78,10 @@
       "second_pct": "48.0",
       "bp_saved": "11/12",
       "match_time": "1:46",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.72,
+      "odds_opp": 1.24,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-06-02",
@@ -95,7 +104,10 @@
       "second_pct": "30.8",
       "bp_saved": "2/8",
       "match_time": "1:06",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.9,
+      "odds_opp": 1.14,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-06-02",
@@ -141,7 +153,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.55,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-09-18",
@@ -164,7 +179,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.09,
+      "odds_opp": 1.07,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-09-18",
@@ -187,7 +205,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.34,
+      "odds_opp": 1.29,
+      "odds_src": "bid417"
     }
   ]
 }
