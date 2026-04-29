@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Maximilian Oezcelik",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:29:38.471Z",
+  "updated": "2026-04-29T23:29:43.395Z",
   "matches": [
     {
       "date": "2025-09-22",
@@ -26,7 +26,10 @@
       "second_pct": "45.2",
       "bp_saved": "5/10",
       "match_time": "1:16",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.9,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-22",
@@ -49,7 +52,10 @@
       "second_pct": "57.1",
       "bp_saved": "3/4",
       "match_time": "2:08",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.69,
+      "odds_opp": 2.08,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-07-14",
@@ -72,7 +78,10 @@
       "second_pct": "21.1",
       "bp_saved": "3/8",
       "match_time": "1:12",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.23,
+      "odds_opp": 1.13,
+      "odds_src": "bid575"
     },
     {
       "date": "2024-10-14",
@@ -95,7 +104,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.39,
+      "odds_opp": 1.09,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-10-07",
@@ -118,7 +130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.44,
+      "odds_opp": 1.5,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-08-12",
@@ -141,7 +156,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.24,
+      "odds_opp": 1.31,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-07-15",
@@ -164,7 +182,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.3,
+      "odds_opp": 1.19,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-08-15",
@@ -187,7 +208,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 9,
+      "odds_opp": 1.01,
+      "odds_src": "bid26"
     }
   ]
 }
