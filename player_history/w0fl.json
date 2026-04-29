@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Baltazar Wiger Nordas",
   "source": "tennisabstract",
-  "updated": "2026-04-29T21:53:29.798Z",
+  "updated": "2026-04-29T21:53:33.559Z",
   "matches": [
     {
       "date": "2026-01-05",
@@ -25,7 +25,10 @@
       "second_pct": "31",
       "bp_saved": "8",
       "match_time": "12",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.32,
+      "odds_opp": 1.54,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-08-11",
@@ -47,7 +50,10 @@
       "second_pct": "12",
       "bp_saved": "7",
       "match_time": "7",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.98,
+      "odds_opp": 1.37,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-08-11",
@@ -69,7 +75,10 @@
       "second_pct": "37",
       "bp_saved": "14",
       "match_time": "14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.15,
+      "odds_opp": 1.1,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-08-11",
@@ -91,7 +100,10 @@
       "second_pct": "16",
       "bp_saved": "11",
       "match_time": "6",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.1,
+      "odds_opp": 1.67,
+      "odds_src": "bid429"
     }
   ]
 }
