@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Arian Barbic",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:13:15.583Z",
+  "updated": "2026-04-29T22:13:19.462Z",
   "matches": [
     {
       "date": "2026-01-12",
@@ -25,7 +25,10 @@
       "second_pct": "32",
       "bp_saved": "9",
       "match_time": "10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.8,
+      "odds_opp": 1.09,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-10-13",
