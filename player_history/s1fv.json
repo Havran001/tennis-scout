@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Rajat Shirur",
   "source": "tennisabstract",
-  "updated": "2026-04-29T20:22:28.924Z",
+  "updated": "2026-04-29T20:22:31.327Z",
   "matches": [
     {
       "date": "2025-12-29",
@@ -25,7 +25,10 @@
       "second_pct": "49",
       "bp_saved": "11",
       "match_time": "16",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.45,
+      "odds_opp": 1.11,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-12-29",
@@ -47,7 +50,10 @@
       "second_pct": "13",
       "bp_saved": "3",
       "match_time": "3",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.62,
+      "odds_opp": 1.43,
+      "odds_src": "bid417"
     }
   ]
 }
