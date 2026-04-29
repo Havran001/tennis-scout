@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Tobia Grandinetti",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:54:27.349Z",
+  "updated": "2026-04-29T22:54:31.443Z",
   "matches": [
     {
       "date": "2025-11-17",
@@ -26,7 +26,10 @@
       "second_pct": "45.2",
       "bp_saved": "10/17",
       "match_time": "2:40",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.45,
+      "odds_opp": 1.07,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-17",
@@ -72,7 +75,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.47,
+      "odds_opp": 1.18,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-10-03",
@@ -95,7 +101,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 12,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-10-03",
@@ -118,7 +127,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.36,
+      "odds_opp": 2.98,
+      "odds_src": "bid417"
     }
   ]
 }
