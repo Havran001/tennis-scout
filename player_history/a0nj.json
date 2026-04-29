@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Gustavo Albieri",
   "source": "tennisabstract",
-  "updated": "2026-04-29T12:49:28.973Z",
+  "updated": "2026-04-29T12:49:35.594Z",
   "matches": [
     {
       "date": "2026-01-19",
@@ -26,7 +26,10 @@
       "second_pct": "20.0",
       "bp_saved": "2/8",
       "match_time": "0:59",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11,
+      "odds_opp": 1.03,
+      "odds_src": "bid27"
     },
     {
       "date": "2025-11-03",
@@ -49,7 +52,10 @@
       "second_pct": "33.3",
       "bp_saved": "3/10",
       "match_time": "1:18",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.81,
+      "odds_opp": 1.91,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-09-29",
@@ -72,7 +78,10 @@
       "second_pct": "47.5",
       "bp_saved": "8/10",
       "match_time": "2:24",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.48,
+      "odds_opp": 1.19,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-09-29",
@@ -95,7 +104,10 @@
       "second_pct": "35.5",
       "bp_saved": "6/9",
       "match_time": "2:16",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.45,
+      "odds_opp": 1.18,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-09-29",
@@ -118,7 +130,10 @@
       "second_pct": "33.3",
       "bp_saved": "13/15",
       "match_time": "2:41",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.15,
+      "odds_opp": 1.2,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-09-22",
@@ -141,7 +156,10 @@
       "second_pct": "29.4",
       "bp_saved": "4/9",
       "match_time": "1:07",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.6,
+      "odds_opp": 1.04,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-28",
@@ -164,7 +182,10 @@
       "second_pct": "48.3",
       "bp_saved": "3/7",
       "match_time": "1:37",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.2,
+      "odds_opp": 1.31,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-28",
@@ -187,7 +208,10 @@
       "second_pct": "45.2",
       "bp_saved": "5/6",
       "match_time": "2:07",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.78,
+      "odds_opp": 1.92,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-21",
@@ -210,7 +234,10 @@
       "second_pct": "44.4",
       "bp_saved": "2/5",
       "match_time": "1:25",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.62,
+      "odds_opp": 2.18,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-06-23",
@@ -233,7 +260,10 @@
       "second_pct": "50.0",
       "bp_saved": "8/12",
       "match_time": "1:53",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.7,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-03-31",
@@ -256,7 +286,10 @@
       "second_pct": "40.0",
       "bp_saved": "8/13",
       "match_time": "2:12",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 15,
+      "odds_opp": 1.03,
+      "odds_src": "bid16"
     }
   ]
 }
