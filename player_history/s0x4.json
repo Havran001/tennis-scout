@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Filip Stidell",
   "source": "tennisabstract",
-  "updated": "2026-04-29T23:48:58.998Z",
+  "updated": "2026-04-29T23:49:05.460Z",
   "matches": [
     {
       "date": "2026-03-02",
@@ -26,7 +26,10 @@
       "second_pct": "44.4",
       "bp_saved": "2/7",
       "match_time": "1:15",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 18.97,
+      "odds_opp": 1.02,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-10-13",
@@ -49,7 +52,10 @@
       "second_pct": "42.9",
       "bp_saved": "3/7",
       "match_time": "1:02",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.3,
+      "odds_opp": 1.06,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-22",
@@ -72,7 +78,10 @@
       "second_pct": "59.4",
       "bp_saved": "4/9",
       "match_time": "1:59",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.49,
+      "odds_opp": 1.11,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-09-22",
@@ -95,7 +104,10 @@
       "second_pct": "48.7",
       "bp_saved": "3/8",
       "match_time": "1:53",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.91,
+      "odds_opp": 1.22,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-09-23",
@@ -118,7 +130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 16,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-09-19",
@@ -141,7 +156,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.46,
+      "odds_opp": 1.18,
+      "odds_src": "bid417"
     }
   ]
 }
