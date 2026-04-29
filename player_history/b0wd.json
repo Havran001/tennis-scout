@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Lorenzo Berto",
   "source": "tennisabstract",
-  "updated": "2026-04-29T22:12:46.411Z",
+  "updated": "2026-04-29T22:12:50.880Z",
   "matches": [
     {
       "date": "2026-03-09",
@@ -26,7 +26,10 @@
       "second_pct": "31.3",
       "bp_saved": "4/10",
       "match_time": "1:49",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.27,
+      "odds_opp": 1.1,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-09",
@@ -49,7 +52,10 @@
       "second_pct": "33.3",
       "bp_saved": "0/1",
       "match_time": "1:29",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.87,
+      "odds_opp": 1.36,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-03-09",
@@ -72,7 +78,10 @@
       "second_pct": "42.4",
       "bp_saved": "8/12",
       "match_time": "3:10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.27,
+      "odds_opp": 1.56,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-10-20",
@@ -118,7 +127,10 @@
       "second_pct": "28.6",
       "bp_saved": "3/8",
       "match_time": "1:14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 9.5,
+      "odds_opp": 1.02,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-10-06",
@@ -141,7 +153,10 @@
       "second_pct": "38.9",
       "bp_saved": "3/8",
       "match_time": "1:09",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 10.5,
+      "odds_opp": 1.02,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-08-05",
@@ -164,7 +179,10 @@
       "second_pct": "48.8",
       "bp_saved": "1/7",
       "match_time": "2:49",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11.3,
+      "odds_opp": 1.02,
+      "odds_src": "bid417"
     }
   ]
 }
