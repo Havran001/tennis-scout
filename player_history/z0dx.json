@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Arturs Zagars",
   "source": "tennisabstract",
-  "updated": "2026-04-30T00:15:41.732Z",
+  "updated": "2026-04-30T00:15:45.892Z",
   "matches": [
     {
       "date": "2025-06-16",
@@ -25,7 +25,10 @@
       "second_pct": "",
       "bp_saved": "",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 11,
+      "odds_opp": 1.02,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-06-16",
@@ -47,7 +50,10 @@
       "second_pct": "24",
       "bp_saved": "14",
       "match_time": "10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.15,
+      "odds_opp": 4.98,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-06-02",
@@ -69,7 +75,10 @@
       "second_pct": "53",
       "bp_saved": "9",
       "match_time": "15",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 16.5,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     }
   ]
 }
