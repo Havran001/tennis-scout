@@ -473,6 +473,8 @@ const CSS=`
 
 #sb-ta-retry{display:none;width:100%;padding:8px;margin-top:6px;background:rgba(255,152,0,0.12);border:1px solid rgba(255,152,0,0.3);border-radius:8px;color:#ff9800;font-size:12px;cursor:pointer;text-align:center;}
 #sb-ta-retry:hover{background:rgba(255,152,0,0.22);}#sb-ta-retry:disabled{opacity:0.5;cursor:not-allowed;}
+#sb-elo-refresh{display:block;width:100%;padding:8px;margin-top:6px;background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.3);border-radius:8px;color:#f59e0b;font-size:12px;cursor:pointer;text-align:center;}
+#sb-elo-refresh:hover{background:rgba(245,158,11,0.22);}#sb-elo-refresh:disabled{opacity:0.5;cursor:not-allowed;}
 #fs-progress{display:none;font-size:11px;color:rgba(255,255,255,0.5);padding:4px 2px;word-break:break-word;}
 #sb-import-missing{display:block;width:100%;padding:8px;margin-top:6px;background:rgba(76,175,80,0.1);border:1px solid rgba(76,175,80,0.25);color:#4CAF50;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;transition:all .12s;letter-spacing:0.3px;}
 #sb-import-missing:hover{background:rgba(76,175,80,0.22);}
@@ -2674,11 +2676,132 @@ function buildUI(){
       <button id="sb-ta-import">⬇ Import Tennis Abstract</button>
       <div id="fs-progress"></div>
       <button id="sb-ta-retry">🔄 Reimport přeskočených TA</button>
+      <button id="sb-elo-refresh">📊 Refresh Elo (test)</button>
     </div>
       <button id="sb-import-missing">➕ Import všech chybějících odds</button>
       <div id="im-progress"></div>
   `;
   w.appendChild(sidebar);
+
+
+  // ── ELO REFRESH HANDLER ──
+  (function(){
+    var btn=sh.getElementById('sb-elo-refresh');
+    if(!btn) return;
+    btn.addEventListener('click',async function(){
+      var self=this, prog=sh.getElementById('ta-progress');
+      var GH=localStorage.getItem('ts_gh_token');
+      if(!GH){GH=prompt('Zadej GitHub token:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
+      
+      // Ověření že máme nN() dostupnou - musí být deklarována globálně nebo redefinujeme zde
+      var reDiac=new RegExp('[\\u0300-\\u036f]','g');
+      var reNA=new RegExp('[^a-zA-Z -]','g');
+      function nN(fn){return(fn||'').normalize('NFD').replace(reDiac,'').replace(reNA,'').trim().split(' ').join('');}
+      
+      self.disabled=true;
+      prog.style.display='block';
+      prog.innerHTML='⏳ Stahuji Elo z TA...';
+      
+      try {
+        var eloProxies=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
+        var eloUrl='https://tennisabstract.com/reports/atp_elo_ratings.html';
+        var eloHtml=null;
+        for(var pi=0;pi<eloProxies.length && !eloHtml;pi++){
+          try{
+            var eloR=await fetch(eloProxies[pi]+encodeURIComponent(eloUrl),{signal:AbortSignal.timeout(15000)});
+            if(eloR.ok) eloHtml=await eloR.text();
+          }catch(e){}
+        }
+        
+        if(!eloHtml){
+          prog.innerHTML='❌ Nepodarilo se stahnout Elo z TA';
+          self.disabled=false;
+          return;
+        }
+        
+        var eloDoc=new DOMParser().parseFromString(eloHtml,'text/html');
+        var eloTable=eloDoc.getElementById('reportable');
+        if(!eloTable){
+          prog.innerHTML='❌ Tabulka #reportable nenalezena';
+          self.disabled=false;
+          return;
+        }
+        
+        var eloRows=eloTable.querySelectorAll('tbody tr');
+        if(!eloRows.length) eloRows=eloTable.querySelectorAll('tr');
+        
+        var nameLookup={};
+        (window.ATP_PLAYERS||[]).forEach(function(p){
+          if(!p.full_name) return;
+          var slug=nN(p.full_name);
+          nameLookup[slug]=p;
+        });
+        
+        var eloMap={};
+        var matched=0,unmatched=0,unmatchedNames=[];
+        for(var ei=0;ei<eloRows.length;ei++){
+          var ec=eloRows[ei].querySelectorAll('td');
+          if(ec.length<11) continue;
+          var nameTxt=(ec[1].textContent||'').trim();
+          if(!nameTxt) continue;
+          var nameSlug=nN(nameTxt);
+          var matchPl=nameLookup[nameSlug];
+          if(!matchPl){
+            unmatched++;
+            if(unmatchedNames.length<10) unmatchedNames.push(nameTxt);
+            continue;
+          }
+          matched++;
+          var elo=parseFloat((ec[3].textContent||'0').replace(/[^0-9.]/g,''))||0;
+          var hElo=parseFloat((ec[6].textContent||'0').replace(/[^0-9.]/g,''))||0;
+          var cElo=parseFloat((ec[8].textContent||'0').replace(/[^0-9.]/g,''))||0;
+          var gElo=parseFloat((ec[10].textContent||'0').replace(/[^0-9.]/g,''))||0;
+          eloMap[matchPl.id]={
+            name: matchPl.full_name,
+            elo: elo,
+            h_elo: hElo,
+            c_elo: cElo,
+            g_elo: gElo
+          };
+        }
+        
+        console.log('[elo] matched',matched,'/ unmatched',unmatched,'(TA',eloRows.length,'rows)');
+        if(unmatched>0) console.log('[elo] sample unmatched:',unmatchedNames);
+        
+        prog.innerHTML='✅ Match: '+matched+' / Unmatched: '+unmatched+' (TA '+eloRows.length+' řádků). Commituju...';
+        
+        // Commit elo_ratings.json
+        var eloPayload={
+          updated:new Date().toISOString(),
+          source:'tennisabstract.com/reports/atp_elo_ratings.html',
+          count:matched,
+          items:eloMap
+        };
+        var eloBody=JSON.stringify(eloPayload,null,2)+'\n';
+        var eloUtf8=new TextEncoder().encode(eloBody);
+        var eloBin=''; for(var bi=0;bi<eloUtf8.length;bi++) eloBin+=String.fromCharCode(eloUtf8[bi]);
+        var eloB64=btoa(eloBin);
+        
+        var eloHead=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/elo_ratings.json?ts='+Date.now(),{headers:{'Authorization':'token '+GH}});
+        var eloPutBody={message:'Update elo_ratings.json: '+matched+' hracu z TA (test refresh)',content:eloB64};
+        if(eloHead.ok){var eloMeta=await eloHead.json(); eloPutBody.sha=eloMeta.sha;}
+        
+        var putR=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/elo_ratings.json',{method:'PUT',headers:{'Authorization':'Bearer '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(eloPutBody)});
+        
+        if(putR.ok){
+          window._eloMap=eloMap;
+          prog.innerHTML='✅ elo_ratings.json commitnut! Match: '+matched+' / Unmatched: '+unmatched+'<br><small>Sample neshody: '+unmatchedNames.slice(0,5).join(', ')+'</small>';
+        } else {
+          var err=await putR.json();
+          prog.innerHTML='❌ Commit selhal: '+(err.message||putR.status);
+        }
+      } catch(e) {
+        console.error('[elo refresh] error:',e);
+        prog.innerHTML='❌ Chyba: '+(e.message||e);
+      }
+      self.disabled=false;
+    });
+  })();
 
   // ── MAIN PANEL ──
   const main=el('div','main');
