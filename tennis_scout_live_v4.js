@@ -32,6 +32,33 @@ function _eloRowHTML(pid){
     box('Grass',fmt(e.g_elo),{r:34,g:197,b:94,hex:'#22c55e'},'rgba(34,197,94,0.1)','rgba(34,197,94,0.25)',0.7)+
   '</div>';
 }
+// Notes panel helper - vrací HTML pro panel s charakteristikami hráče
+function _renderNotesPanel(pid){
+  var notes = (window._notesMap||{})[pid] || '';
+  var hasNotes = notes && notes.trim().length > 0;
+  var displayHTML;
+  if(hasNotes){
+    var lines2 = notes.split('\n').filter(function(l){return l.trim().length>0;});
+    displayHTML = '<ul style="margin:0;padding-left:18px;list-style:disc;">';
+    for(var li=0;li<lines2.length;li++){
+      var safe = lines2[li].replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      displayHTML += '<li style="margin-bottom:3px;line-height:1.4;">'+safe+'</li>';
+    }
+    displayHTML += '</ul>';
+  } else {
+    displayHTML = '<div style="color:rgba(255,255,255,0.3);font-style:italic;font-size:12px;padding-top:2px;">Klikni a napiš charakteristiky...</div>';
+  }
+  var safeNotes = (notes||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  return '<div class="notes-panel" data-pid="'+pid+'" style="width:280px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:8px;padding:10px 14px;align-self:stretch;display:flex;flex-direction:column;position:relative;">'+
+    '<div style="font-size:9px;color:rgba(255,255,255,0.5);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;">'+
+      '<span>📝 Charakteristiky</span>'+
+      '<span class="notes-status" data-pid="'+pid+'" style="font-size:10px;text-transform:none;letter-spacing:0;color:rgba(255,255,255,0.3);"></span>'+
+    '</div>'+
+    '<div class="notes-display" data-pid="'+pid+'" style="flex:1;font-size:13px;color:rgba(255,255,255,0.85);cursor:text;min-height:60px;max-height:160px;overflow-y:auto;">'+displayHTML+'</div>'+
+    '<textarea class="notes-edit" data-pid="'+pid+'" placeholder="Charakteristiky hráče (každý řádek = jeden bod)..." style="display:none;flex:1;font-size:13px;color:rgba(255,255,255,0.9);background:transparent;border:none;outline:none;resize:none;font-family:inherit;line-height:1.4;min-height:60px;max-height:160px;width:100%;">'+safeNotes+'</textarea>'+
+  '</div>';
+}
+
 
 
 // Load elo_ratings.json (async, paralelně)
@@ -45,6 +72,20 @@ fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/elo_ratings
     }
   })
   .catch(function(e){console.warn('[elo] load failed:', e);});
+
+// Load player notes (async, paralelně)
+window._notesMap = window._notesMap || {};
+fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_notes/_index.json?ts=' + Date.now())
+  .then(function(r){return r.ok ? r.json() : null;})
+  .then(function(j){
+    if(j && j.items){
+      window._notesMap = j.items;
+      console.log('[notes] loaded', Object.keys(j.items).length, 'players');
+    } else {
+      console.log('[notes] no notes index yet');
+    }
+  })
+  .catch(function(e){console.warn('[notes] load failed:', e);});
 
 const VERSION = '5.5';
 
