@@ -58,6 +58,126 @@ function _renderNotesPanel(pid){
     '<textarea class="notes-edit" data-pid="'+pid+'" placeholder="Charakteristiky hráče (každý řádek = jeden bod)..." style="display:none;flex:1;font-size:13px;color:rgba(255,255,255,0.9);background:transparent;border:none;outline:none;resize:none;font-family:inherit;line-height:1.4;min-height:60px;max-height:160px;width:100%;">'+safeNotes+'</textarea>'+
   '</div>';
 }
+// Notes interactivity - delegated handlers (setup once)
+function _setupNotesHandlers(){
+  if(window._notesHandlersSetup) return;
+  window._notesHandlersSetup = true;
+  var host = document.getElementById('ts-host');
+  if(!host || !host.shadowRoot) return;
+  var root = host.shadowRoot;
+  
+  // Klik na display = přepnout na edit
+  root.addEventListener('click', function(e){
+    var disp = e.target.closest('.notes-display');
+    if(!disp) return;
+    var panel = disp.closest('.notes-panel');
+    if(!panel) return;
+    var ta = panel.querySelector('.notes-edit');
+    if(!ta) return;
+    disp.style.display = 'none';
+    ta.style.display = 'block';
+    ta.focus();
+    // Place cursor at end
+    var len = ta.value.length;
+    ta.setSelectionRange(len, len);
+  });
+  
+  // Input v textarea = save (debounced)
+  root.addEventListener('input', function(e){
+    var ta = e.target;
+    if(!ta.classList || !ta.classList.contains('notes-edit')) return;
+    var pid = ta.dataset.pid;
+    if(!pid) return;
+    var val = ta.value;
+    // Local instant save
+    try { localStorage.setItem('ts_notes_'+pid, val); } catch(e){}
+    window._notesMap = window._notesMap || {};
+    window._notesMap[pid] = val;
+    // Status indicator
+    var statusEls = root.querySelectorAll('.notes-status[data-pid="'+pid+'"]');
+    statusEls.forEach(function(s){ s.textContent = '⏳'; s.style.color = 'rgba(245,158,11,0.7)'; });
+    // Debounce GitHub save
+    if(window._notesSaveTimers) clearTimeout(window._notesSaveTimers[pid]);
+    window._notesSaveTimers = window._notesSaveTimers || {};
+    window._notesSaveTimers[pid] = setTimeout(function(){
+      _saveNotesToGithub(pid, val);
+    }, 2000);
+  });
+  
+  // Blur textarea = přepnout zpět na display
+  root.addEventListener('focusout', function(e){
+    var ta = e.target;
+    if(!ta.classList || !ta.classList.contains('notes-edit')) return;
+    var pid = ta.dataset.pid;
+    var panel = ta.closest('.notes-panel');
+    if(!panel) return;
+    var disp = panel.querySelector('.notes-display');
+    if(!disp) return;
+    // Re-render display content
+    var notes = ta.value;
+    var hasNotes = notes && notes.trim().length > 0;
+    if(hasNotes){
+      var lines2 = notes.split('\n').filter(function(l){return l.trim().length>0;});
+      var html = '<ul style="margin:0;padding-left:18px;list-style:disc;">';
+      for(var li=0;li<lines2.length;li++){
+        var safe = lines2[li].replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        html += '<li style="margin-bottom:3px;line-height:1.4;">'+safe+'</li>';
+      }
+      html += '</ul>';
+      disp.innerHTML = html;
+    } else {
+      disp.innerHTML = '<div style="color:rgba(255,255,255,0.3);font-style:italic;font-size:12px;padding-top:2px;">Klikni a napiš charakteristiky...</div>';
+    }
+    ta.style.display = 'none';
+    disp.style.display = 'block';
+  });
+}
+
+// Save notes to GitHub
+function _saveNotesToGithub(pid, val){
+  var GH = localStorage.getItem('ts_gh_token');
+  if(!GH){
+    var statusEls = document.getElementById('ts-host').shadowRoot.querySelectorAll('.notes-status[data-pid="'+pid+'"]');
+    statusEls.forEach(function(s){ s.textContent = '⚠ no token'; s.style.color = 'rgba(239,68,68,0.7)'; });
+    return;
+  }
+  var payload = {
+    pid: pid,
+    notes: val,
+    updated: new Date().toISOString()
+  };
+  var body = JSON.stringify(payload, null, 2) + '\n';
+  var utf8 = new TextEncoder().encode(body);
+  var bin = ''; for(var i=0;i<utf8.length;i++) bin += String.fromCharCode(utf8[i]);
+  var b64 = btoa(bin);
+  var path = 'player_notes/'+pid+'.json';
+  fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/'+path+'?ts='+Date.now(), {
+    headers: { 'Authorization': 'token '+GH }
+  })
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(meta){
+      var put = { message: 'Update player_notes/'+pid+'.json', content: b64 };
+      if(meta && meta.sha) put.sha = meta.sha;
+      return fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/'+path, {
+        method: 'PUT',
+        headers: { 'Authorization': 'Bearer '+GH, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+        body: JSON.stringify(put)
+      });
+    })
+    .then(function(r){
+      var statusEls = document.getElementById('ts-host').shadowRoot.querySelectorAll('.notes-status[data-pid="'+pid+'"]');
+      if(r && r.ok){
+        statusEls.forEach(function(s){ s.textContent = '💾 uloženo'; s.style.color = 'rgba(34,197,94,0.7)'; });
+        setTimeout(function(){ statusEls.forEach(function(s){ s.textContent = ''; }); }, 2500);
+      } else {
+        statusEls.forEach(function(s){ s.textContent = '❌ chyba'; s.style.color = 'rgba(239,68,68,0.7)'; });
+      }
+    })
+    .catch(function(e){
+      console.warn('[notes save] error:', e);
+    });
+}
+
 
 
 
@@ -86,6 +206,15 @@ fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/player_note
     }
   })
   .catch(function(e){console.warn('[notes] load failed:', e);});
+
+// Setup notes handlers po inicializaci shadow rootu
+setTimeout(function tryNotesSetup(){
+  if(typeof _setupNotesHandlers === 'function' && document.getElementById('ts-host') && document.getElementById('ts-host').shadowRoot){
+    _setupNotesHandlers();
+  } else {
+    setTimeout(tryNotesSetup, 500);
+  }
+}, 500);
 
 const VERSION = '5.5';
 
