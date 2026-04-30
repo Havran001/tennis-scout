@@ -5124,7 +5124,8 @@ function _formatNoteSourceSync(rawSource){
     var x = hist.matches[i];
     if(x.date !== date) continue;
     var oppNoSpace = (x.opponent||'').replace(/\s/g,'');
-    if(oppNoSpace.toLowerCase() === oppCamel.toLowerCase()){ matchedM = x; break; }
+    var oppNoSpaceTrunc = oppNoSpace.slice(0, 12);
+    if(oppNoSpaceTrunc.toLowerCase() === oppCamel.toLowerCase()){ matchedM = x; break; }
   }
   if(!matchedM) return rawSource;
   var oppParts = (matchedM.opponent||'').trim().split(/\s+/);
