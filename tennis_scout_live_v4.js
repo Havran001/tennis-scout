@@ -474,6 +474,14 @@ const CSS=`
 #sb-ta-retry{display:none;width:100%;padding:8px;margin-top:6px;background:rgba(255,152,0,0.12);border:1px solid rgba(255,152,0,0.3);border-radius:8px;color:#ff9800;font-size:12px;cursor:pointer;text-align:center;}
 #sb-ta-retry:hover{background:rgba(255,152,0,0.22);}#sb-ta-retry:disabled{opacity:0.5;cursor:not-allowed;}
 #fs-progress{display:none;font-size:11px;color:rgba(255,255,255,0.5);padding:4px 2px;word-break:break-word;}
+#sb-import-missing{display:block;width:100%;padding:8px;margin-top:6px;background:rgba(76,175,80,0.1);border:1px solid rgba(76,175,80,0.25);color:#4CAF50;border-radius:8px;font-size:11px;font-weight:700;cursor:pointer;transition:all .12s;letter-spacing:0.3px;}
+#sb-import-missing:hover{background:rgba(76,175,80,0.22);}
+#sb-import-missing:disabled{opacity:0.5;cursor:not-allowed;}
+#im-progress{display:none;font-size:11px;color:rgba(255,255,255,0.7);padding:6px 4px;line-height:1.5;word-break:break-word;background:rgba(76,175,80,0.05);border:1px solid rgba(76,175,80,0.15);border-radius:6px;margin-top:6px;}
+#im-progress .im-bar{display:block;width:100%;height:4px;background:rgba(255,255,255,0.1);border-radius:2px;overflow:hidden;margin:6px 0;}
+#im-progress .im-bar-fill{display:block;height:100%;background:#4CAF50;border-radius:2px;transition:width .3s;}
+#im-progress .im-cancel{display:inline-block;margin-top:6px;padding:3px 8px;background:rgba(244,67,54,0.15);border:1px solid rgba(244,67,54,0.3);color:#f44336;border-radius:4px;font-size:10px;cursor:pointer;}
+#im-progress .im-cancel:hover{background:rgba(244,67,54,0.3);}
 #ta-progress{margin-top:8px;font-size:11px;color:rgba(255,255,255,0.7);display:block;line-height:1.6;word-break:break-word;}
 #sb-close{
   width:100%;padding:6px;margin-top:6px;
@@ -2654,6 +2662,8 @@ function buildUI(){
       <div id="fs-progress"></div>
       <button id="sb-ta-retry">🔄 Reimport přeskočených TA</button>
     </div>
+      <button id="sb-import-missing">➕ Import všech chybějících odds</button>
+      <div id="im-progress"></div>
   `;
   w.appendChild(sidebar);
 
@@ -3136,6 +3146,349 @@ function buildUI(){
       }
       nx(0);
     });
+  })();
+
+
+  // ── IMPORT MISSING ODDS (button: sb-import-missing) ──
+  (function(){
+    var btn = sh.getElementById('sb-import-missing');
+    if(!btn) return;
+    var prog = sh.getElementById('im-progress');
+    var GH_REPO = 'Havran001/tennis-scout';
+    var STORAGE_KEY = 'ts_import_missing_state';
+    
+    // ── Recovery state from localStorage ──
+    function saveState(state){
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e){}
+    }
+    function loadState(){
+      try { var s = localStorage.getItem(STORAGE_KEY); return s ? JSON.parse(s) : null; } catch(e){ return null; }
+    }
+    function clearState(){ try { localStorage.removeItem(STORAGE_KEY); } catch(e){} }
+    
+    // ── Render progress UI ──
+    function renderProgress(state){
+      if(!prog) return;
+      prog.style.display = 'block';
+      var pct = state.total > 0 ? Math.round((state.done / state.total) * 100) : 0;
+      var etaMin = state.avgMinPerPlayer && state.remaining > 0 ? Math.round(state.avgMinPerPlayer * state.remaining) : 0;
+      var etaStr = etaMin >= 60 ? Math.floor(etaMin/60) + 'h ' + (etaMin%60) + 'min' : etaMin + ' min';
+      var statusIcon = state.pipelineIdle ? '⚠️ Pipeline IDLE — auto resume...' : '🔄 Pipeline běží';
+      var html = '<div><b>' + state.phase + '</b></div>';
+      if(state.phase === 'Hotovo'){
+        html += '<div style="color:#4CAF50;margin-top:6px">✅ Importováno ' + (state.totalNewOdds || 0) + ' nových odds u ' + state.done + ' hráčů</div>';
+        html += '<div style="margin-top:4px;font-size:10px;color:rgba(255,255,255,0.5)">Skipnutých (BE 0 záznamů): ' + (state.skipped || 0) + '</div>';
+        html += '<button class="im-cancel" data-act="dismiss">Zavřít</button>';
+      } else if(state.phase === 'Cancelled'){
+        html += '<div style="color:#ff9800;margin-top:6px">⏸ Přerušeno uživatelem</div>';
+        html += '<button class="im-cancel" data-act="dismiss">Zavřít</button>';
+      } else {
+        html += '<div>' + state.done + '/' + state.total + ' hráčů</div>';
+        html += '<span class="im-bar"><span class="im-bar-fill" style="width:' + pct + '%"></span></span>';
+        html += '<div style="font-size:10px;color:rgba(255,255,255,0.6)">';
+        if(state.remaining > 0){
+          html += 'ETA: ' + etaStr;
+          if(state.avgMinPerPlayer) html += ' · ' + state.avgMinPerPlayer.toFixed(2) + ' min/hráč';
+        }
+        html += '</div>';
+        if(state.currentPlayer) html += '<div style="font-size:10px;color:rgba(255,255,255,0.5)">Aktuální: ' + state.currentPlayer + '</div>';
+        html += '<div style="font-size:10px;margin-top:4px">' + statusIcon + '</div>';
+        html += '<button class="im-cancel" data-act="cancel">⏸ Pause/Cancel</button>';
+      }
+      prog.innerHTML = html;
+      var btnAct = prog.querySelector('.im-cancel');
+      if(btnAct) btnAct.onclick = function(){
+        if(this.getAttribute('data-act') === 'dismiss'){
+          prog.style.display = 'none';
+          clearState();
+          btn.disabled = false;
+        } else {
+          window._imCancelled = true;
+          state.phase = 'Cancelled';
+          renderProgress(state);
+        }
+      };
+    }
+    
+    // ── GitHub API helpers ──
+    function ghHeaders(token){ return { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github.v3+json' }; }
+    
+    function ghFetchJson(url, token){
+      return fetch(url + (url.indexOf('?')>-1?'&':'?') + 'ts=' + Date.now(), { headers: ghHeaders(token) }).then(function(r){ return r.json(); });
+    }
+    
+    function ghPutFile(path, content, sha, msg, token){
+      var utf8 = new TextEncoder().encode(content);
+      var bin = ''; for(var i=0; i<utf8.length; i++) bin += String.fromCharCode(utf8[i]);
+      var b64 = btoa(bin);
+      var body = { message: msg, content: b64 };
+      if(sha) body.sha = sha;
+      return fetch('https://api.github.com/repos/' + GH_REPO + '/contents/' + path, {
+        method: 'PUT',
+        headers: Object.assign({}, ghHeaders(token), { 'Content-Type': 'application/json' }),
+        body: JSON.stringify(body)
+      });
+    }
+    
+    function ghPutFileWithRetry(path, content, msg, token){
+      // 3× retry s 2s backoff pro 409 conflict
+      var attempts = 0;
+      function tryOnce(){
+        attempts++;
+        return fetch('https://api.github.com/repos/' + GH_REPO + '/contents/' + path + '?ts=' + Date.now(), { headers: ghHeaders(token) })
+          .then(function(r){ return r.ok ? r.json().then(function(m){ return m.sha; }) : null; })
+          .then(function(sha){ return ghPutFile(path, content, sha, msg, token); })
+          .then(function(r){
+            if(!r.ok && r.status === 409 && attempts < 3){
+              return new Promise(function(res){ setTimeout(res, 2000); }).then(tryOnce);
+            }
+            return r;
+          });
+      }
+      return tryOnce();
+    }
+    
+    // ── Main click handler ──
+    btn.addEventListener('click', function(){
+      var token = localStorage.getItem('ts_gh_token');
+      if(!token){
+        token = prompt('Zadej GitHub token:');
+        if(!token) return;
+        localStorage.setItem('ts_gh_token', token);
+      }
+      
+      btn.disabled = true;
+      window._imCancelled = false;
+      
+      var state = {
+        phase: 'Načítám hráče...',
+        startedAt: new Date().toISOString(),
+        total: 0,
+        done: 0,
+        remaining: 0,
+        currentPlayer: '',
+        pipelineIdle: false,
+        avgMinPerPlayer: null,
+        totalNewOdds: 0,
+        skipped: 0,
+        pidsToProcess: []
+      };
+      saveState(state);
+      renderProgress(state);
+      
+      runImportMissing(token, state).catch(function(e){
+        console.error('[ImportMissing] error:', e);
+        state.phase = 'Chyba: ' + (e.message || e);
+        renderProgress(state);
+      });
+    });
+    
+    // ── Main async function ──
+    async function runImportMissing(token, state){
+      
+      // STEP 1: Načti všechny ranked hráče
+      state.phase = 'Krok 1/4: Načítám hráče z atp_players.json...';
+      renderProgress(state);
+      var atpRes = await ghFetchJson('https://api.github.com/repos/' + GH_REPO + '/contents/atp_players.json', token);
+      var atpData = JSON.parse(new TextDecoder('utf-8').decode(Uint8Array.from(atob(atpRes.content.replace(/\n/g,'')), function(c){ return c.charCodeAt(0); })));
+      var ranked = atpData.items.filter(function(p){ return p.rank; });
+      
+      if(window._imCancelled){ state.phase = 'Cancelled'; renderProgress(state); return; }
+      
+      // STEP 2: Připrav pendings (force=false, all ranked)
+      state.phase = 'Krok 2/4: Připravuji ' + ranked.length + ' pendings...';
+      state.total = ranked.length;
+      state.pidsToProcess = ranked.map(function(p){ return p.id; });
+      renderProgress(state);
+      
+      // STEP 3: Upload pendings (batches of 30, ~3 min for 2235)
+      state.phase = 'Krok 3/4: Nahrávám pendings na GitHub...';
+      renderProgress(state);
+      
+      var startedAt = new Date().toISOString();
+      var uploadCount = 0;
+      var uploadFailed = 0;
+      
+      // Build slugify helper for player_slug fallback
+      function slugify(s){ return (s || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]+/g,'').trim().split(/\s+/).join('-'); }
+      
+      for(var i = 0; i < ranked.length; i += 1){
+        if(window._imCancelled){ state.phase = 'Cancelled'; renderProgress(state); return; }
+        var p = ranked[i];
+        
+        // Pending object - force=false (inkrementální import!)
+        var slug = slugify(p.full_name || p.name || '');
+        var pending = {
+          pid: p.id,
+          name: p.full_name || p.name || '',
+          player_slug: slug,
+          player_key: slug,
+          force: false,  // ⚠️ KLÍČOVÉ: NEnastavujeme force, pipeline doplní jen díry
+          requested_at: startedAt,
+          requested_by: 'import_missing_button'
+        };
+        
+        var path = 'pending_imports/' + p.id + '.json';
+        var body = JSON.stringify(pending, null, 2) + '\n';
+        var msg = 'ImportMissing [' + (i+1) + '/' + ranked.length + ']: ' + pending.name;
+        
+        try {
+          var r = await ghPutFileWithRetry(path, body, msg, token);
+          if(r.ok) uploadCount++; else uploadFailed++;
+        } catch(e){ uploadFailed++; }
+        
+        // Update UI každých 25 nahraných
+        if((i+1) % 25 === 0){
+          state.phase = 'Krok 3/4: Nahráno ' + uploadCount + '/' + ranked.length + ' pendings...';
+          renderProgress(state);
+        }
+      }
+      
+      state.phase = 'Krok 4/4: Pipeline pracuje...';
+      state.uploadedTotal = uploadCount;
+      state.uploadFailed = uploadFailed;
+      renderProgress(state);
+      
+      // STEP 4: Monitor progress + auto resume
+      var monitorStart = Date.now();
+      var lastProcessedCount = 0;
+      var lastProcessTime = Date.now();
+      
+      async function monitor(){
+        if(window._imCancelled){ state.phase = 'Cancelled'; renderProgress(state); return; }
+        
+        // Najdi co je v repu (pendings) + co bylo zpracováno
+        var tree = await ghFetchJson('https://api.github.com/repos/' + GH_REPO + '/git/trees/main?recursive=1', token);
+        var inRepo = new Set();
+        (tree.tree || []).forEach(function(t){
+          if(t.type === 'blob' && t.path.indexOf('pending_imports/') === 0 && t.path.indexOf('.json') > 0){
+            inRepo.add(t.path.replace('pending_imports/', '').replace('.json', ''));
+          }
+        });
+        
+        var stillPending = state.pidsToProcess.filter(function(pid){ return inRepo.has(pid); });
+        var processedFromBatch = state.total - stillPending.length;
+        
+        // Najdi odhadovaný počet nových odds (procházením commitů)
+        var commitsR = await ghFetchJson('https://api.github.com/repos/' + GH_REPO + '/commits?per_page=100', token);
+        var newOdds = 0;
+        commitsR.forEach(function(c){
+          if(new Date(c.commit.author.date) > new Date(state.startedAt)){
+            var m = c.commit.message.match(/Import odds for \w+ \(([^)]+)\): \+(\d+) matches/);
+            if(m) newOdds += parseInt(m[2]);
+          }
+        });
+        state.totalNewOdds = newOdds;
+        
+        // Update tempo
+        var elapsedMin = (Date.now() - monitorStart) / 60000;
+        if(processedFromBatch > 0){
+          state.avgMinPerPlayer = elapsedMin / processedFromBatch;
+        }
+        
+        // Update aktuální hráč (z posledního commit)
+        for(var ci = 0; ci < commitsR.length; ci++){
+          var msg = commitsR[ci].commit.message;
+          var mm = msg.match(/Import odds for \w+ \(([^)]+)\)/);
+          if(mm && new Date(commitsR[ci].commit.author.date) > new Date(state.startedAt)){
+            state.currentPlayer = mm[1];
+            break;
+          }
+        }
+        
+        state.done = processedFromBatch;
+        state.remaining = stillPending.length;
+        
+        // Detekce IDLE — pokud se done nezměnil za 8+ min
+        if(processedFromBatch === lastProcessedCount){
+          var minSinceLast = (Date.now() - lastProcessTime) / 60000;
+          if(minSinceLast > 8 && stillPending.length > 0){
+            state.pipelineIdle = true;
+            renderProgress(state);
+            
+            // Auto resume — touch first stale pending
+            var firstStalePid = stillPending[0];
+            var pendingPath = 'pending_imports/' + firstStalePid + '.json';
+            try {
+              var headR = await fetch('https://api.github.com/repos/' + GH_REPO + '/contents/' + pendingPath, { headers: ghHeaders(token) });
+              if(headR.ok){
+                var meta = await headR.json();
+                var existing = JSON.parse(new TextDecoder('utf-8').decode(Uint8Array.from(atob(meta.content.replace(/\n/g,'')), function(c){ return c.charCodeAt(0); })));
+                existing.requested_at = new Date().toISOString();
+                existing.requested_by = 'auto_resume_idle_pipeline';
+                var newBody = JSON.stringify(existing, null, 2) + '\n';
+                await ghPutFile(pendingPath, newBody, meta.sha, 'Auto resume IDLE pipeline: ' + firstStalePid, token);
+                console.log('[ImportMissing] Auto resume triggered for', firstStalePid);
+                lastProcessTime = Date.now();  // reset timer
+              }
+            } catch(e){ console.warn('[ImportMissing] auto resume failed:', e); }
+          }
+        } else {
+          state.pipelineIdle = false;
+          lastProcessedCount = processedFromBatch;
+          lastProcessTime = Date.now();
+        }
+        
+        renderProgress(state);
+        saveState(state);
+        
+        // Hotovo?
+        if(stillPending.length === 0){
+          state.phase = 'Hotovo';
+          renderProgress(state);
+          clearState();
+          return;
+        }
+        
+        // Continue monitoring (every 30s)
+        setTimeout(monitor, 30000);
+      }
+      
+      // Start monitor cycle
+      setTimeout(monitor, 5000);  // První check za 5s
+    }
+    
+    // ── Recovery on page load: pokud byla session přerušená ──
+    var savedState = loadState();
+    if(savedState && savedState.phase !== 'Hotovo' && savedState.phase !== 'Cancelled'){
+      console.log('[ImportMissing] Recovering state from localStorage');
+      btn.disabled = true;
+      window._imCancelled = false;
+      renderProgress(savedState);
+      // Pokračujeme od monitoring fáze - znovu spustit monitor s recovered state
+      var token = localStorage.getItem('ts_gh_token');
+      if(token){
+        // Restart monitor s tokenem
+        setTimeout(function(){
+          // Run direct monitor cycle
+          (async function recoveryMonitor(){
+            // Stejná monitor funkce jak výše - copy logic
+            try {
+              var tree = await ghFetchJson('https://api.github.com/repos/' + GH_REPO + '/git/trees/main?recursive=1', token);
+              var inRepo = new Set();
+              (tree.tree || []).forEach(function(t){
+                if(t.type === 'blob' && t.path.indexOf('pending_imports/') === 0 && t.path.indexOf('.json') > 0){
+                  inRepo.add(t.path.replace('pending_imports/', '').replace('.json', ''));
+                }
+              });
+              var stillPending = (savedState.pidsToProcess || []).filter(function(pid){ return inRepo.has(pid); });
+              savedState.done = savedState.total - stillPending.length;
+              savedState.remaining = stillPending.length;
+              if(stillPending.length === 0){
+                savedState.phase = 'Hotovo';
+                clearState();
+              }
+              renderProgress(savedState);
+              if(stillPending.length > 0){
+                // Re-trigger monitor cycle (musíme ho znovu zavolat - tady je jen recovery init)
+                console.log('[ImportMissing] Recovery: ' + stillPending.length + ' still pending - klikni znovu pro pokračování');
+                btn.disabled = false;  // Allow user to re-click
+              }
+            } catch(e){ console.warn('[ImportMissing] recovery failed:', e); }
+          })();
+        }, 1000);
+      }
+    }
   })();
 
   // PP UPDATE HANDLER
