@@ -364,22 +364,8 @@ async function processPlayer(pidFile) {
   //  - force mode: všech (force-refresh chce přepsat historii)
   //  - normální mode: od nejnovějšího data dolů, dokud nenarazíme na zápas s odds, max 20 zápasů
   let noOdds;
-  if (force) {
-    noOdds = (history.matches || []).filter((m) => !m.odds_alc && m.score);
-  } else {
-    const sorted = (history.matches || [])
-      .filter((m) => m.score)
-      .slice()
-      .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-    noOdds = [];
-    const MAX_RECENT = 20;
-    for (const m of sorted) {
-      if (m.odds_alc) break; // zastav na prvním s odds
-      noOdds.push(m);
-      if (noOdds.length >= MAX_RECENT) break; // tvrdy limit
-    }
-  }
-  console.log(`  history matches: ${history.matches?.length}, missing odds: ${noOdds.length}`);
+  noOdds = (history.matches || []).filter((m) => !m.odds_alc && m.score);
+    console.log(`  history matches: ${history.matches?.length}, missing odds: ${noOdds.length}`);
   if (noOdds.length === 0) {
     console.log(`  nothing to import`);
     await ghDelete(`${PENDING_DIR}/${pidFile}`, pendingMeta.sha, `Cleanup: ${pid} has no missing odds`);
