@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Finn Willman",
   "source": "tennisabstract",
-  "updated": "2026-04-30T00:10:59.797Z",
+  "updated": "2026-04-30T00:11:02.013Z",
   "matches": [
     {
       "date": "2025-12-15",
@@ -25,7 +25,10 @@
       "second_pct": "13",
       "bp_saved": "18",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.06,
+      "odds_opp": 1.77,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-12-08",
@@ -47,7 +50,10 @@
       "second_pct": "26",
       "bp_saved": "13",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 15.67,
+      "odds_opp": 1.03,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-12-08",
@@ -69,7 +75,10 @@
       "second_pct": "34",
       "bp_saved": "13",
       "match_time": "12",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.46,
+      "odds_opp": 2.53,
+      "odds_src": "bid417"
     }
   ]
 }
