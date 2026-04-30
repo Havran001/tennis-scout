@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Antoine Ghibaudo",
   "source": "tennisabstract",
-  "updated": "2026-04-30T00:49:24.403Z",
+  "updated": "2026-04-30T07:05:35.374Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -49,7 +49,10 @@
       "second_pct": "58.5",
       "bp_saved": "7/9",
       "match_time": "2:40",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.59,
+      "odds_opp": 2.49,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-27",
@@ -72,7 +75,10 @@
       "second_pct": "61.3",
       "bp_saved": "3/4",
       "match_time": "1:44",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.23,
+      "odds_opp": 1.71,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
