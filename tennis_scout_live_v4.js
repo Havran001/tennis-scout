@@ -1123,6 +1123,7 @@ function buildPlayersTab(sh){
             +'</div>'
             +_eloRowHTML(pid)
           +'</div>'
+          +_renderNotesPanel(pid)
         +'</div>'
         // Tab bar
         +'<div style="display:flex;gap:0;margin-top:16px;">'
