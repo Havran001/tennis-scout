@@ -501,6 +501,8 @@ const CSS=`
   display: inline-block !important;
   opacity: 1 !important;
   filter: none !important;
+  color: #fff !important;
+  text-shadow: none !important;
 }
 
 /* ── MAIN PANEL ── */
