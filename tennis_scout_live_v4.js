@@ -2709,7 +2709,7 @@ function buildUI(){
       <button id="sb-ta-import">⬇ Import Tennis Abstract</button>
       <div id="fs-progress"></div>
       <button id="sb-ta-retry">🔄 Reimport přeskočených TA</button>
-      <button id="sb-elo-refresh">📊 Refresh Elo (test)</button>
+      <button id="sb-elo-refresh">📊 Refresh Elo</button>
     </div>
       <button id="sb-import-missing">➕ Import všech chybějících odds</button>
       <div id="im-progress"></div>
