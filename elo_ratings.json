@@ -1,7 +1,11 @@
 {
-  "updated": "2026-04-30T09:47:19.883Z",
+  "updated": "2026-04-30T10:01:02.656Z",
   "source": "tennisabstract.com/reports/atp_elo_ratings.html",
-  "count": 498,
+  "count": 499,
+  "strategies": {
+    "exact": 498,
+    "reorder": 1
+  },
   "items": {
     "s0ag": {
       "name": "Jannik Sinner",
@@ -681,6 +685,13 @@
       "h_elo": 1605.4,
       "c_elo": 1689.4,
       "g_elo": 1528.2
+    },
+    "kf17": {
+      "name": "Soonwoo Kwon",
+      "elo": 1704.7,
+      "h_elo": 1665.5,
+      "c_elo": 1605.5,
+      "g_elo": 1576.4
     },
     "l0cx": {
       "name": "Pablo Llamas Ruiz",
