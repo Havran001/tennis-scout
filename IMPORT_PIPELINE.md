@@ -376,6 +376,76 @@ Při transient síťové chybě na BE odds endpoint (`/match-odds-old/{mid}/1/ha
 
 ---
 
+### Problém I: Daily fetch parallelism 20 (z 12)
+
+Po implementaci `Problém F` retry s 500ms backoff bylo testováno zvýšení parallelism daily fetches.
+
+**Test**: paralelně 20 (z 12) — žádné nové transient errors. BE Cloudflare zvládá 20 souběžných.
+
+**Změna v `import-odds.mjs`**:
+```javascript
+const PARALLELISM_DAILY = 20  // bylo 12
+```
+
+Empirické pozorování: při 25-30 souběžných requestech BE začíná občas vracet 5xx → 20 je sweet spot.
+
+### Problém J: OPPONENT_ALIASES (Korean transliterace)
+
+**Problém**: Pipeline neochynaly korejské hráče s alternativní transliteraci jména.
+
+**Příklady**:
+- Sackmann: `Soonwoo Kwon` (Sin spelling)
+- ATP: `Soon Woo Kwon` (Shin spelling)
+- BE: `kwon-shin-woo` nebo `kwon-sin-woo` v různé dny
+
+Pipeline matchovala Sackmann jméno proti BE slug ale **ignorovala alternative spellings**.
+
+**Řešení (commit 27.4.2026)**: `OPPONENT_ALIASES` map + `expandTaParts` funkce v `import-odds.mjs`:
+
+```javascript
+const OPPONENT_ALIASES = {
+  "sin":  ["shin"],
+  "shin": ["sin"],
+  "lee":  ["yi", "rhee", "ree"],
+  "yi":   ["lee"],
+  "park": ["pak", "bak"],
+  "pak":  ["park"],
+  "choi": ["choe", "tsoi"],
+  "choe": ["choi"],
+  "jung": ["jeong", "joung", "jong"],
+  "jeong": ["jung"]
+}
+```
+
+Empiricky dopad: ~6 dalsich odds u top 10 asijskych hracu (Kwon, Sun, Park, Choi). Marginalni (~1%) ale spravne.
+
+### Problém K: BE GUARD (zabraneni smazani odds pri Cloudflare-down)
+
+**Bug**: Pipeline ma `force: true` mode ktery pred importem **smaze vsechny existujici odds** hrace. Pokud BE prave byl Cloudflare-down (vraci 200 + prazdne HTML), pipeline:
+1. Smazala vsechny existujici odds (commit pre-clear)
+2. Fetched daily results = 0 zaznamu
+3. Nic nematchnulo - import 0 odds
+4. Hrac zustal s 0 odds (data ztracena!)
+
+**Reseni (commit 28.4.2026)**: Pre-clear sample fetch v `import-odds.mjs`:
+
+```javascript
+if (force) {
+  // BE GUARD: zkus si fetchnout dnes-3 jako sample
+  const today = new Date()
+  const guardDate = new Date(today.getTime() - 3 * 86400000)
+  const guardSample = await fetchDaily(guardDate)
+  if (guardSample.length === 0) {
+    throw new Error("BE_GUARD_FAILED_empty_response")
+  }
+}
+// Teprve pak smaz odds
+```
+
+Pokud BE vrati 0 zaznamu pro testovaci den, pipeline radeji prerusi nez aby smazala existujici data.
+
+---
+
 ## 8. Performance & prostředí
 
 **Tempo (od 26.4.2026, V6 — finální):**
@@ -475,6 +545,45 @@ cd ~/actions-runner
 - Běží jako launchd služba — žádný terminál není nutný
 - Plist: `~/Library/LaunchAgents/actions.runner.Havran001-tennis-scout.mac-runner.plist`
 - Logs: `~/Library/Logs/actions.runner.Havran001-tennis-scout.mac-runner`
+
+## 10b. Vysledky 27-30.4.2026 (V8 - aliases + BE GUARD + scale)
+
+Po V6 (sekce 10) nasledoval velky scale:
+
+| Datum | Batch | Hraci | Imported odds | Tempo | Coverage |
+|-------|-------|-------|---------------|-------|----------|
+| 27.4. | top 1-115 | 115 | ~54 000 | 3.5 min/hrac | ~85% |
+| 28.4. | rank 116-265 | 150 | ~64 000 | 2.5 min/hrac | ~80% |
+| 28.4. | rank 266-500 | 235 | ~71 000 | 2.3 min/hrac | ~78% |
+| 28.4. | rank 501-1000 | 499 | ~85 000 | 1.4 min/hrac | ~75% |
+| 29.4. | rank 1001-1500 | 457 | 37 137 | 0.9 min/hrac | 74.9% |
+| 30.4. | rank 1501-2231 | 476 | 18 525 | 0.46 min/hrac | 67.4% |
+
+**TOTAL: 1932 hracu s odds, ~330 000 odds celkem**
+
+Pozorovani:
+- Tempo rapidne roste s nizsim rankem (mene historie pro nizko-rankove)
+- Coverage klesa s rankem (BE ma slabsi pokryti pro ITF)
+- Pinnacle (bid417) dominuje pro nizko-rankove (44% > Bet365 19%)
+
+### Pipeline IDLE bug (= for-loop neuvidi nove pendings)
+
+Pozorovano opakovane po dokonceni velkeho batche: pipeline dobehne for-loop, ale **nezachyti pendings ktere prisly mid-execution**. Workflow status = `success` ale 5-50 pendings v repu.
+
+**Workaround**: manualni touch trigger (PUT na first stale pending). Workflow se znovu zachyti + dokonci.
+
+### Mac runner stale (caffeinate critical)
+
+Self-hosted runner se obcas dostane do "online ale neuvazjuci" stavu. Duvod neznamy — mozna related k Mac sleep mode i pres runner bezici.
+
+**Workaround**:
+```bash
+kill $(ps aux | grep Runner.Listener | grep -v grep | awk '{print $2}')
+cd ~/actions-runner && nohup ./run.sh > runner.log 2>&1 &
+caffeinate -d -i &  # NUTNE pro overnight behy
+```
+
+---
 
 ## 11. TO DO
 
