@@ -16,6 +16,24 @@
 (async function TENNIS_SCOUT() {
 'use strict';
 
+function _eloRowHTML(pid){
+  var e=(window._eloMap||{})[pid]||{};
+  var fmt=function(v){return(v||0).toFixed(1);};
+  function box(label,value,color,bgRgba,brRgba,labelOpacity){
+    return '<div style="background:'+bgRgba+';border:1px solid '+brRgba+';border-radius:8px;padding:8px 16px;text-align:center;">'+
+      '<div style="font-size:9px;color:rgba('+color.r+','+color.g+','+color.b+','+labelOpacity+');letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">'+label+'</div>'+
+      '<div style="font-size:22px;font-weight:800;color:'+color.hex+';">'+value+'</div>'+
+    '</div>';
+  }
+  return '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;">'+
+    box('Elo',fmt(e.elo),{r:245,g:158,b:11,hex:'#f59e0b'},'rgba(245,158,11,0.1)','rgba(245,158,11,0.25)',0.6)+
+    box('Hard',fmt(e.h_elo),{r:59,g:130,b:246,hex:'#3b82f6'},'rgba(59,130,246,0.1)','rgba(59,130,246,0.25)',0.7)+
+    box('Clay',fmt(e.c_elo),{r:234,g:88,b:12,hex:'#ea580c'},'rgba(234,88,12,0.1)','rgba(234,88,12,0.25)',0.7)+
+    box('Grass',fmt(e.g_elo),{r:34,g:197,b:94,hex:'#22c55e'},'rgba(34,197,94,0.1)','rgba(34,197,94,0.25)',0.7)+
+  '</div>';
+}
+
+
 // Load elo_ratings.json (async, paralelně)
 window._eloMap = window._eloMap || {};
 fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/elo_ratings.json?ts=' + Date.now())
@@ -1279,22 +1297,6 @@ function _posDD(dd){
   var rightCols=['first_pct','second_pct','bp_saved','match_time','odds','dr','a_pct','va_pct','df_pct','first_in'];
   if(rightCols.indexOf(col)>=0){dd.style.left='auto';dd.style.right='0';}
   else{dd.style.left='0';dd.style.right='auto';}
-}
-function _eloRowHTML(pid){
-  var e=(window._eloMap||{})[pid]||{};
-  var fmt=function(v){return(v||0).toFixed(1);};
-  function box(label,value,color,bgRgba,brRgba,labelOpacity){
-    return '<div style="background:'+bgRgba+';border:1px solid '+brRgba+';border-radius:8px;padding:8px 16px;text-align:center;">'+
-      '<div style="font-size:9px;color:rgba('+color.r+','+color.g+','+color.b+','+labelOpacity+');letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">'+label+'</div>'+
-      '<div style="font-size:22px;font-weight:800;color:'+color.hex+';">'+value+'</div>'+
-    '</div>';
-  }
-  return '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;">'+
-    box('Elo',fmt(e.elo),{r:245,g:158,b:11,hex:'#f59e0b'},'rgba(245,158,11,0.1)','rgba(245,158,11,0.25)',0.6)+
-    box('Hard',fmt(e.h_elo),{r:59,g:130,b:246,hex:'#3b82f6'},'rgba(59,130,246,0.1)','rgba(59,130,246,0.25)',0.7)+
-    box('Clay',fmt(e.c_elo),{r:234,g:88,b:12,hex:'#ea580c'},'rgba(234,88,12,0.1)','rgba(234,88,12,0.25)',0.7)+
-    box('Grass',fmt(e.g_elo),{r:34,g:197,b:94,hex:'#22c55e'},'rgba(34,197,94,0.1)','rgba(34,197,94,0.25)',0.7)+
-  '</div>';
 }
 function _fmtOpp(name){
   if(!name)return '';
