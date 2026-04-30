@@ -2693,13 +2693,19 @@ function buildUI(){
       var GH=localStorage.getItem('ts_gh_token');
       if(!GH){GH=prompt('Zadej GitHub token:');if(!GH)return;localStorage.setItem('ts_gh_token',GH);}
       
-      // Helpery pro slugify
-      var reDiac=new RegExp('[\\u0300-\\u036f]','g');
-      var reNA=new RegExp('[^a-zA-Z -]','g');
-      function nN(fn){return(fn||'').normalize('NFD').replace(reDiac,'').replace(reNA,'').trim().split(' ').join('');}
-      function tokenize(fn){return(fn||'').toLowerCase().normalize('NFD').replace(reDiac,'').replace(/[^a-z\\s-]/g,'').trim().split(/\\s+/).filter(function(t){return t.length>0;});}
+      // Helpery - regex pomocí RegExp() s explicitními unicode escape
+      var reDiac = new RegExp('[' + String.fromCharCode(0x0300) + '-' + String.fromCharCode(0x036f) + ']', 'g');
+      var reNonAlpha = /[^a-zA-Z\s-]/g;
+      var reSpace = /\s+/;
+      var reNonAlphaLow = /[^a-z\s-]/g;
       
-      // First-name aliases (Korean transliterace + zkrácení)
+      function nN(fn){
+        return (fn||'').normalize('NFD').replace(reDiac,'').replace(reNonAlpha,'').trim().split(' ').join('');
+      }
+      function tokenize(fn){
+        return (fn||'').toLowerCase().normalize('NFD').replace(reDiac,'').replace(reNonAlphaLow,'').trim().split(reSpace).filter(function(t){return t.length>0;});
+      }
+      
       var FIRST_ALIASES={
         'alexander':['aleksandr','alex','alexandr','sasha'],
         'aleksandr':['alexander','alex','alexandr'],
@@ -2721,7 +2727,6 @@ function buildUI(){
         'jeong':['jung','joung','jong'],
         'jung':['jeong']
       };
-      
       function aliasFirstName(t){
         if(FIRST_ALIASES[t]) return [t].concat(FIRST_ALIASES[t]);
         return [t];
@@ -2741,41 +2746,26 @@ function buildUI(){
             if(eloR.ok) eloHtml=await eloR.text();
           }catch(e){}
         }
-        
-        if(!eloHtml){
-          prog.innerHTML='❌ Nepodarilo se stahnout Elo z TA';
-          self.disabled=false;
-          return;
-        }
+        if(!eloHtml){prog.innerHTML='❌ Nepodarilo se stahnout';self.disabled=false;return;}
         
         var eloDoc=new DOMParser().parseFromString(eloHtml,'text/html');
         var eloTable=eloDoc.getElementById('reportable');
-        if(!eloTable){
-          prog.innerHTML='❌ Tabulka #reportable nenalezena';
-          self.disabled=false;
-          return;
-        }
+        if(!eloTable){prog.innerHTML='❌ #reportable nenalezena';self.disabled=false;return;}
         
         var eloRows=eloTable.querySelectorAll('tbody tr');
         if(!eloRows.length) eloRows=eloTable.querySelectorAll('tr');
         
-        // Build lookups for matching
         var atp=window.ATP_PLAYERS||[];
-        
-        // Lookup A: Slug exact (= existing)
         var bySlug={};
-        // Lookup B: sack_key
         var bySackKey={};
-        // Lookup C: Sorted tokens (= reorder)
         var byTokensSorted={};
-        // Lookup D: Token sets pre-built
         var atpTokenized=[];
         
         for(var ai=0;ai<atp.length;ai++){
           var p=atp[ai];
           if(!p.full_name) continue;
           bySlug[nN(p.full_name)]=p;
-          if(p.sack_key) bySackKey[p.sack_key.toLowerCase().trim().replace(/\\s+/g,' ')]=p;
+          if(p.sack_key) bySackKey[p.sack_key.toLowerCase().trim().replace(/\s+/g,' ')]=p;
           var toks=tokenize(p.full_name);
           var sorted=toks.slice().sort().join('|');
           if(!byTokensSorted[sorted]) byTokensSorted[sorted]=p;
@@ -2783,71 +2773,55 @@ function buildUI(){
         }
         
         function findMatch(taName){
-          // Strategy A: Exact slug
           var slug=nN(taName);
           if(bySlug[slug]) return {p:bySlug[slug], strategy:'exact'};
-          
-          // Strategy B: sack_key match (TA jméno = sack_key tvar v ATP)
-          var sackTry=taName.toLowerCase().trim().replace(/\\s+/g,' ');
+          var sackTry=taName.toLowerCase().trim().replace(/\s+/g,' ');
           if(bySackKey[sackTry]) return {p:bySackKey[sackTry], strategy:'sack_key'};
-          
           var taTokens=tokenize(taName);
           if(!taTokens.length) return null;
-          
-          // Strategy C: Reorder match (= sorted tokens identical)
           var taSorted=taTokens.slice().sort().join('|');
           if(byTokensSorted[taSorted]) return {p:byTokensSorted[taSorted], strategy:'reorder'};
-          
-          // Strategy D: Token-merge variant (San Hui Sin -> Sanhui Sin nebo Sanhui Shin)
-          // Spoj prvních 2 tokens do 1 a zkusíme znovu
           if(taTokens.length>=3){
             var merged=[taTokens[0]+taTokens[1]].concat(taTokens.slice(2));
             var mergedSorted=merged.slice().sort().join('|');
             if(byTokensSorted[mergedSorted]) return {p:byTokensSorted[mergedSorted], strategy:'token_merge'};
           }
-          
-          // Strategy E: Substring match (ATP all tokens v TA)
           for(var ti=0;ti<atpTokenized.length;ti++){
             var atpEntry=atpTokenized[ti];
             var atpToks=atpEntry.tokens;
-            if(atpToks.length===0) continue;
-            // ATP all tokens prítomny v TA?
+            if(atpToks.length<2) continue;
             var allIn=atpToks.every(function(t){return taTokens.indexOf(t)>=0;});
-            if(allIn && atpToks.length>=2) return {p:atpEntry.p, strategy:'substring'};
+            if(allIn) return {p:atpEntry.p, strategy:'substring'};
           }
-          
-          // Strategy F: Reverse substring (TA all tokens v ATP)
           for(var ti2=0;ti2<atpTokenized.length;ti2++){
             var atpEntry2=atpTokenized[ti2];
             var atpToks2=atpEntry2.tokens;
-            if(atpToks2.length===0) continue;
+            if(atpToks2.length<2) continue;
+            if(taTokens.length<2) continue;
             var allIn2=taTokens.every(function(t){return atpToks2.indexOf(t)>=0;});
-            if(allIn2 && taTokens.length>=2) return {p:atpEntry2.p, strategy:'rev_substring'};
+            if(allIn2) return {p:atpEntry2.p, strategy:'rev_substring'};
           }
-          
-          // Strategy G: First-name alias (Alexander -> Aleksandr atd.)
           if(taTokens.length>=2){
             var firstVariants=aliasFirstName(taTokens[0]);
             for(var fv=0;fv<firstVariants.length;fv++){
+              if(firstVariants[fv]===taTokens[0]) continue;
               var alt=[firstVariants[fv]].concat(taTokens.slice(1));
-              var altSlug=alt.join(' ').normalize('NFD').replace(reDiac,'').replace(reNA,'').replace(/\\s+/g,'');
-              if(bySlug[altSlug]) return {p:bySlug[altSlug], strategy:'first_alias'};
-              var altSorted=alt.slice().sort().join('|');
-              if(byTokensSorted[altSorted]) return {p:byTokensSorted[altSorted], strategy:'first_alias_reorder'};
+              var altSlug=alt.join('').replace(/[^a-zA-Z]/g,'');
+              for(var bs in bySlug){
+                if(bs.toLowerCase()===altSlug.toLowerCase()) return {p:bySlug[bs], strategy:'first_alias'};
+              }
+              var altSorted2=alt.slice().sort().join('|');
+              if(byTokensSorted[altSorted2]) return {p:byTokensSorted[altSorted2], strategy:'first_alias'};
             }
           }
-          
-          // Strategy H: Last-name alias (Sin -> Shin atd.)
           if(taTokens.length>=2){
             var lastTok=taTokens[taTokens.length-1];
             var lastVariants=aliasFirstName(lastTok);
             for(var lv=0;lv<lastVariants.length;lv++){
+              if(lastVariants[lv]===lastTok) continue;
               var altL=taTokens.slice(0,-1).concat([lastVariants[lv]]);
-              var altLSlug=altL.join(' ').normalize('NFD').replace(reDiac,'').replace(reNA,'').replace(/\\s+/g,'');
-              if(bySlug[altLSlug]) return {p:bySlug[altLSlug], strategy:'last_alias'};
               var altLSorted=altL.slice().sort().join('|');
-              if(byTokensSorted[altLSorted]) return {p:byTokensSorted[altLSorted], strategy:'last_alias_reorder'};
-              // Combined: token-merge prvních 2 + alias last name (San Hui Sin -> Sanhui Shin)
+              if(byTokensSorted[altLSorted]) return {p:byTokensSorted[altLSorted], strategy:'last_alias'};
               if(altL.length>=3){
                 var altLMerged=[altL[0]+altL[1]].concat(altL.slice(2));
                 var altLMergedSorted=altLMerged.slice().sort().join('|');
@@ -2855,7 +2829,6 @@ function buildUI(){
               }
             }
           }
-          
           return null;
         }
         
@@ -2868,58 +2841,38 @@ function buildUI(){
           if(ec.length<11) continue;
           var nameTxt=(ec[1].textContent||'').trim();
           if(!nameTxt) continue;
-          
           var matchResult=findMatch(nameTxt);
-          if(!matchResult){
-            unmatched++;
-            if(unmatchedNames.length<10) unmatchedNames.push(nameTxt);
-            continue;
-          }
-          
+          if(!matchResult){unmatched++; if(unmatchedNames.length<15) unmatchedNames.push(nameTxt); continue;}
           matched++;
           strategyStats[matchResult.strategy]=(strategyStats[matchResult.strategy]||0)+1;
-          
           var elo=parseFloat((ec[3].textContent||'0').replace(/[^0-9.]/g,''))||0;
           var hElo=parseFloat((ec[6].textContent||'0').replace(/[^0-9.]/g,''))||0;
           var cElo=parseFloat((ec[8].textContent||'0').replace(/[^0-9.]/g,''))||0;
           var gElo=parseFloat((ec[10].textContent||'0').replace(/[^0-9.]/g,''))||0;
-          eloMap[matchResult.p.id]={
-            name: matchResult.p.full_name,
-            elo: elo,
-            h_elo: hElo,
-            c_elo: cElo,
-            g_elo: gElo
-          };
+          eloMap[matchResult.p.id]={name:matchResult.p.full_name,elo:elo,h_elo:hElo,c_elo:cElo,g_elo:gElo};
         }
         
         console.log('[elo] matched',matched,'/ unmatched',unmatched,'(TA',eloRows.length,'rows)');
         console.log('[elo] strategy stats:',strategyStats);
         if(unmatched>0) console.log('[elo] sample unmatched:',unmatchedNames);
         
-        prog.innerHTML='✅ Match: '+matched+' / Unmatched: '+unmatched+' (TA '+eloRows.length+' řádků). Commituju...';
+        prog.innerHTML='✅ Match: '+matched+' / Unmatched: '+unmatched+'. Commituju...';
         
-        var eloPayload={
-          updated:new Date().toISOString(),
-          source:'tennisabstract.com/reports/atp_elo_ratings.html',
-          count:matched,
-          strategies:strategyStats,
-          items:eloMap
-        };
+        var eloPayload={updated:new Date().toISOString(),source:'tennisabstract.com/reports/atp_elo_ratings.html',count:matched,strategies:strategyStats,items:eloMap};
         var eloBody=JSON.stringify(eloPayload,null,2)+'\n';
         var eloUtf8=new TextEncoder().encode(eloBody);
         var eloBin=''; for(var bi=0;bi<eloUtf8.length;bi++) eloBin+=String.fromCharCode(eloUtf8[bi]);
         var eloB64=btoa(eloBin);
         
         var eloHead=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/elo_ratings.json?ts='+Date.now(),{headers:{'Authorization':'token '+GH}});
-        var eloPutBody={message:'Update elo_ratings.json: '+matched+' hracu z TA (vylepseny match)',content:eloB64};
+        var eloPutBody={message:'Update elo_ratings.json: '+matched+' hracu z TA',content:eloB64};
         if(eloHead.ok){var eloMeta=await eloHead.json(); eloPutBody.sha=eloMeta.sha;}
-        
         var putR=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/elo_ratings.json',{method:'PUT',headers:{'Authorization':'Bearer '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(eloPutBody)});
         
         if(putR.ok){
           window._eloMap=eloMap;
           var statsStr=Object.keys(strategyStats).map(function(k){return k+':'+strategyStats[k];}).join(', ');
-          prog.innerHTML='✅ elo_ratings.json commitnut! Match: '+matched+' / Unmatched: '+unmatched+'<br><small style="color:rgba(255,255,255,0.6)">Strategie: '+statsStr+'</small>'+(unmatched>0?'<br><small>Neshody: '+unmatchedNames.join(', ')+'</small>':'');
+          prog.innerHTML='✅ Match: '+matched+' / Unmatched: '+unmatched+'<br><small style="color:rgba(255,255,255,0.6)">Strategie: '+statsStr+'</small>'+(unmatched>0?'<br><small>Neshody: '+unmatchedNames.join(', ')+'</small>':'');
         } else {
           var err=await putR.json();
           prog.innerHTML='❌ Commit selhal: '+(err.message||putR.status);
