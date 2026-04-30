@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Kian Vakili",
   "source": "tennisabstract",
-  "updated": "2026-04-30T00:05:06.506Z",
+  "updated": "2026-04-30T00:05:17.393Z",
   "matches": [
     {
       "date": "2026-02-23",
@@ -26,7 +26,10 @@
       "second_pct": "25.9",
       "bp_saved": "8/12",
       "match_time": "1:11",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.5,
+      "odds_opp": 1.55,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-07-14",
@@ -49,7 +52,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "1:11",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.89,
+      "odds_opp": 1.81,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-07-14",
@@ -95,7 +101,10 @@
       "second_pct": "50.0",
       "bp_saved": "4/7",
       "match_time": "2:20",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.56,
+      "odds_opp": 1.26,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-05-12",
@@ -118,7 +127,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "2:52",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.8,
+      "odds_opp": 1.1,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-03-17",
@@ -141,7 +153,10 @@
       "second_pct": "25.0",
       "bp_saved": "3/8",
       "match_time": "1:43",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.9,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-02-17",
@@ -187,7 +202,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.09,
+      "odds_opp": 1.14,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-07-15",
@@ -210,7 +228,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.13,
+      "odds_opp": 1.21,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-06-10",
@@ -233,7 +254,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.25,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-06-10",
@@ -256,7 +280,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.18,
+      "odds_opp": 1.32,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-06-03",
@@ -279,7 +306,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.06,
+      "odds_opp": 1.08,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-11-21",
@@ -302,7 +332,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.24,
+      "odds_opp": 1.31,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-08-08",
@@ -348,7 +381,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.72,
+      "odds_opp": 1.26,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-07-11",
@@ -371,7 +407,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.58,
+      "odds_opp": 1.28,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-06-13",
@@ -394,7 +433,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 6.2,
+      "odds_opp": 1.11,
+      "odds_src": "bid417"
     }
   ]
 }
