@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Esteban Talavera Cortes",
   "source": "tennisabstract",
-  "updated": "2026-04-30T00:03:10.270Z",
+  "updated": "2026-04-30T00:03:16.468Z",
   "matches": [
     {
       "date": "2026-04-13",
@@ -26,7 +26,10 @@
       "second_pct": "48.0",
       "bp_saved": "10/13",
       "match_time": "1:39",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 14.64,
+      "odds_opp": 1.04,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-09",
@@ -49,7 +52,10 @@
       "second_pct": "26.1",
       "bp_saved": "7/12",
       "match_time": "1:24",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 19.12,
+      "odds_opp": 1.02,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-02",
@@ -72,7 +78,10 @@
       "second_pct": "45.5",
       "bp_saved": "6/11",
       "match_time": "1:09",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.66,
+      "odds_opp": 1.28,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-11-10",
@@ -95,7 +104,10 @@
       "second_pct": "47.1",
       "bp_saved": "6/10",
       "match_time": "2:02",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.5,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-10",
@@ -118,7 +130,10 @@
       "second_pct": "80.0",
       "bp_saved": "0/0",
       "match_time": "1:17",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.16,
+      "odds_opp": 1.32,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-10-06",
@@ -141,7 +156,10 @@
       "second_pct": "46.2",
       "bp_saved": "5/7",
       "match_time": "2:42",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.57,
+      "odds_opp": 1.17,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-15",
@@ -164,7 +182,10 @@
       "second_pct": "39.3",
       "bp_saved": "3/8",
       "match_time": "1:47",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.55,
+      "odds_opp": 1.11,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-10-14",
@@ -187,7 +208,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7,
+      "odds_opp": 1.07,
+      "odds_src": "bid429"
     }
   ]
 }
