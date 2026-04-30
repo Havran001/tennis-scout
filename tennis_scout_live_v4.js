@@ -1025,7 +1025,7 @@ function buildPlayersTab(sh){
       var headerHTML='<div style="background:linear-gradient(180deg,#161b22 0%,#0d1117 100%);border-bottom:1px solid rgba(255,255,255,0.06);padding:20px 32px 0;flex-shrink:0;">'
         // Back button
         +'<button id="pp-back" style="background:none;border:none;color:rgba(255,255,255,0.4);font-size:13px;cursor:pointer;padding:0;margin-bottom:16px;display:flex;align-items:center;gap:6px;">&#8592; Zpět na hráče</button>'
-        +'<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'
+        +'<div style="display:flex;align-items:flex-start;gap:24px;padding-bottom:0;">'
           // Photo
           +'<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'
             +'<img id="pp-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'
@@ -1062,7 +1062,7 @@ function buildPlayersTab(sh){
                 +'<div style="font-size:9px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-transform:uppercase;">ATP</div>'
               +'</a>':'')
             +'</div>'
-            +(function(){var e=(window._eloMap||{})[pid]||{};var fmt=function(v){return(v||0).toFixed(1);};return '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;">'+'<div style="background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+'<div style="font-size:9px;color:rgba(245,158,11,0.6);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Elo</div>'+'<div style="font-size:22px;font-weight:800;color:#f59e0b;">'+fmt(e.elo)+'</div>'+'</div>'+'<div style="background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+'<div style="font-size:9px;color:rgba(59,130,246,0.7);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Hard</div>'+'<div style="font-size:22px;font-weight:800;color:#3b82f6;">'+fmt(e.h_elo)+'</div>'+'</div>'+'<div style="background:rgba(234,88,12,0.1);border:1px solid rgba(234,88,12,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+'<div style="font-size:9px;color:rgba(234,88,12,0.7);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Clay</div>'+'<div style="font-size:22px;font-weight:800;color:#ea580c;">'+fmt(e.c_elo)+'</div>'+'</div>'+'<div style="background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+'<div style="font-size:9px;color:rgba(34,197,94,0.7);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Grass</div>'+'<div style="font-size:22px;font-weight:800;color:#22c55e;">'+fmt(e.g_elo)+'</div>'+'</div>'+'</div>';})()
+            +_eloRowHTML(pid)
           +'</div>'
         +'</div>'
         // Tab bar
@@ -1237,7 +1237,7 @@ all=all.filter(function(m){var t=m.tournament||'';var hasFlashFormat=t.match(/^(
           var h='<div style="position:sticky;top:0;z-index:10;background:#0d1117;border-bottom:1px solid rgba(255,255,255,.08);padding:16px 20px 0 20px;">'+
           // Photo + Info — identické s kartou hráče
 '<button id="mh-f-back" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;margin-bottom:14px;display:block;">← Zpět</button>'+
-          '<div style="display:flex;align-items:flex-end;gap:24px;padding-bottom:0;">'+
+          '<div style="display:flex;align-items:flex-start;gap:24px;padding-bottom:0;">'+
             // Photo
             '<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'+
               '<img id="mh-hdr-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'+
@@ -1262,7 +1262,7 @@ all=all.filter(function(m){var t=m.tournament||'';var hasFlashFormat=t.match(/^(
               '</div>'+
             '</div>'+
           '</div>'+
-        '</div>'+
+        '</div>'+_eloRowHTML(pid)+
         '<div style="padding:0 20px 40px;">';
           // Sestav unikátní hodnoty pro filtry
           var _normT=function(t){return t.replace(/^ATP /,'').replace(/^WTA /,'');};
@@ -1279,6 +1279,22 @@ function _posDD(dd){
   var rightCols=['first_pct','second_pct','bp_saved','match_time','odds','dr','a_pct','va_pct','df_pct','first_in'];
   if(rightCols.indexOf(col)>=0){dd.style.left='auto';dd.style.right='0';}
   else{dd.style.left='0';dd.style.right='auto';}
+}
+function _eloRowHTML(pid){
+  var e=(window._eloMap||{})[pid]||{};
+  var fmt=function(v){return(v||0).toFixed(1);};
+  function box(label,value,color,bgRgba,brRgba,labelOpacity){
+    return '<div style="background:'+bgRgba+';border:1px solid '+brRgba+';border-radius:8px;padding:8px 16px;text-align:center;">'+
+      '<div style="font-size:9px;color:rgba('+color.r+','+color.g+','+color.b+','+labelOpacity+');letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">'+label+'</div>'+
+      '<div style="font-size:22px;font-weight:800;color:'+color.hex+';">'+value+'</div>'+
+    '</div>';
+  }
+  return '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;">'+
+    box('Elo',fmt(e.elo),{r:245,g:158,b:11,hex:'#f59e0b'},'rgba(245,158,11,0.1)','rgba(245,158,11,0.25)',0.6)+
+    box('Hard',fmt(e.h_elo),{r:59,g:130,b:246,hex:'#3b82f6'},'rgba(59,130,246,0.1)','rgba(59,130,246,0.25)',0.7)+
+    box('Clay',fmt(e.c_elo),{r:234,g:88,b:12,hex:'#ea580c'},'rgba(234,88,12,0.1)','rgba(234,88,12,0.25)',0.7)+
+    box('Grass',fmt(e.g_elo),{r:34,g:197,b:94,hex:'#22c55e'},'rgba(34,197,94,0.1)','rgba(34,197,94,0.25)',0.7)+
+  '</div>';
 }
 function _fmtOpp(name){
   if(!name)return '';
