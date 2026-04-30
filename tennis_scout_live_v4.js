@@ -492,6 +492,17 @@ const CSS=`
 }
 #sb-close:hover{color:rgba(255,255,255,0.7);border-color:rgba(255,255,255,0.15);}
 
+
+/* ── COUNTRY FLAG (vlajky) ── */
+.cf {
+  font-size: 180% !important;
+  line-height: 1 !important;
+  vertical-align: -0.15em !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
 /* ── MAIN PANEL ── */
 #main{
   flex:1;display:flex;flex-direction:column;
@@ -4950,4 +4961,66 @@ if(!window.__oddsCache) window.__oddsCache={};
     );
     if(p!==s){try{window.__imp=new Function('return '+p)();console.log('[taToBeSur] patch OK');}catch(e){console.log('[taToBeSur] ERR:'+e);}}
   },500);
+
+  // ── COUNTRY FLAG ENLARGER (auto-wrap emoji vlajky do span.cf) ──
+  (function(){
+    if (!sh) return;
+    var FLAG_RE = /([\u{1F1E6}-\u{1F1FF}]{2})/gu;
+    var FLAG_TEST = /[\u{1F1E6}-\u{1F1FF}]{2}/u;
+    
+    function wrapFlags(root) {
+      if (!root) return 0;
+      var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+        acceptNode: function(n){
+          if (n.parentElement && n.parentElement.classList && n.parentElement.classList.contains('cf')) return NodeFilter.FILTER_REJECT;
+          if (n.parentElement && n.parentElement.tagName === 'OPTION') return NodeFilter.FILTER_REJECT;
+          return FLAG_TEST.test(n.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+        }
+      });
+      var nodes = [], n;
+      while (n = walker.nextNode()) nodes.push(n);
+      var count = 0;
+      for (var i=0; i<nodes.length; i++) {
+        var tn = nodes[i];
+        var parts = tn.nodeValue.split(FLAG_RE);
+        if (parts.length <= 1) continue;
+        var frag = document.createDocumentFragment();
+        for (var j=0; j<parts.length; j++) {
+          var p = parts[j];
+          if (/^[\u{1F1E6}-\u{1F1FF}]{2}$/u.test(p)) {
+            var span = document.createElement('span');
+            span.className = 'cf';
+            span.textContent = p;
+            frag.appendChild(span);
+            count++;
+          } else if (p) {
+            frag.appendChild(document.createTextNode(p));
+          }
+        }
+        if (tn.parentNode) tn.parentNode.replaceChild(frag, tn);
+      }
+      return count;
+    }
+    
+    // Inicialní wrap - po krátké pauze (počkej na DOM render)
+    setTimeout(function(){ wrapFlags(sh); }, 300);
+    setTimeout(function(){ wrapFlags(sh); }, 1500);
+    
+    // MutationObserver - re-wrap při změnách DOM
+    var observer = new MutationObserver(function(mutations){
+      for (var i=0; i<mutations.length; i++) {
+        var mut = mutations[i];
+        for (var j=0; j<mut.addedNodes.length; j++) {
+          var node = mut.addedNodes[j];
+          if (node.nodeType === 1 || node.nodeType === 3) {
+            if (node.parentElement && node.parentElement.classList && node.parentElement.classList.contains('cf')) continue;
+            wrapFlags(node.parentElement || node);
+          }
+        }
+      }
+    });
+    observer.observe(sh, { childList: true, subtree: true, characterData: false });
+  })();
+
+
 })();
