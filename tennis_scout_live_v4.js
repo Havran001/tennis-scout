@@ -15,6 +15,19 @@
 
 (async function TENNIS_SCOUT() {
 'use strict';
+
+// Load elo_ratings.json (async, paralelně)
+window._eloMap = window._eloMap || {};
+fetch('https://raw.githubusercontent.com/Havran001/tennis-scout/main/elo_ratings.json?ts=' + Date.now())
+  .then(function(r){return r.ok ? r.json() : null;})
+  .then(function(j){
+    if(j && j.items){
+      window._eloMap = j.items;
+      console.log('[elo] loaded', Object.keys(j.items).length, 'players');
+    }
+  })
+  .catch(function(e){console.warn('[elo] load failed:', e);});
+
 const VERSION = '5.5';
 
 // ATP Rankings - načítáno z GitHubu (stejně jako ITF data)
@@ -1049,6 +1062,7 @@ function buildPlayersTab(sh){
                 +'<div style="font-size:9px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-transform:uppercase;">ATP</div>'
               +'</a>':'')
             +'</div>'
+            +(function(){var e=(window._eloMap||{})[pid]||{};var fmt=function(v){return(v||0).toFixed(1);};return '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;">'+'<div style="background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+'<div style="font-size:9px;color:rgba(245,158,11,0.6);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Elo</div>'+'<div style="font-size:22px;font-weight:800;color:#f59e0b;">'+fmt(e.elo)+'</div>'+'</div>'+'<div style="background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+'<div style="font-size:9px;color:rgba(59,130,246,0.7);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Hard</div>'+'<div style="font-size:22px;font-weight:800;color:#3b82f6;">'+fmt(e.h_elo)+'</div>'+'</div>'+'<div style="background:rgba(234,88,12,0.1);border:1px solid rgba(234,88,12,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+'<div style="font-size:9px;color:rgba(234,88,12,0.7);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Clay</div>'+'<div style="font-size:22px;font-weight:800;color:#ea580c;">'+fmt(e.c_elo)+'</div>'+'</div>'+'<div style="background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.25);border-radius:8px;padding:8px 16px;text-align:center;">'+'<div style="font-size:9px;color:rgba(34,197,94,0.7);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Grass</div>'+'<div style="font-size:22px;font-weight:800;color:#22c55e;">'+fmt(e.g_elo)+'</div>'+'</div>'+'</div>';})()
           +'</div>'
         +'</div>'
         // Tab bar
