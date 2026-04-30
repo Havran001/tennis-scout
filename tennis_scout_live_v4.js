@@ -1808,7 +1808,7 @@ function _renderMatches(){
   if(ccEl)ccEl.addEventListener('change',function(){pC=ccEl.value;pP=0;rP();});
   // Flag button handlers
   wrap.querySelectorAll('button[data-cf]').forEach(function(btn){
-    btn.addEventListener('click',function(){
+    btn.addEventListener('click',async function(){
       pC=btn.dataset.cf;
       // Also sync the country dropdown
       var ccEl2=wrap.querySelector('#ps-cc');
@@ -3033,7 +3033,75 @@ function buildUI(){
       }
       var pl=window.ATP_PLAYERS||window.ATP||[];
       prog.innerHTML=window._tsProgress='Start: '+pl.length+' hr\u00e1\u010d\u016f...';
-      var dn=0,im=0,sk=0,er=0,tot=pl.length;
+      // ── ELO RATINGS FETCH (Tennis Abstract) ──
+      window._eloMap={};
+      try {
+        var eloProxies=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
+        var eloUrl='https://tennisabstract.com/reports/atp_elo_ratings.html';
+        var eloHtml=null;
+        for(var pi=0;pi<eloProxies.length && !eloHtml;pi++){
+          try{
+            var eloR=await fetch(eloProxies[pi]+encodeURIComponent(eloUrl),{signal:AbortSignal.timeout(15000)});
+            if(eloR.ok) eloHtml=await eloR.text();
+          }catch(e){}
+        }
+        if(eloHtml){
+          var eloDoc=new DOMParser().parseFromString(eloHtml,'text/html');
+          var eloTable=eloDoc.getElementById('reportable');
+          if(eloTable){
+            var eloRows=eloTable.querySelectorAll('tbody tr');
+            if(!eloRows.length) eloRows=eloTable.querySelectorAll('tr');
+            // Build lookup: slugified name -> player object
+            var nameLookup={};
+            (window.ATP_PLAYERS||[]).forEach(function(p){
+              if(!p.full_name) return;
+              var slug=nN(p.full_name);
+              nameLookup[slug]=p;
+            });
+            var matched=0,unmatched=0;
+            for(var ei=0;ei<eloRows.length;ei++){
+              var ec=eloRows[ei].querySelectorAll('td');
+              if(ec.length<11) continue;
+              var nameTxt=(ec[1].textContent||'').trim();
+              if(!nameTxt) continue;
+              var nameSlug=nN(nameTxt);
+              var matchPl=nameLookup[nameSlug];
+              if(!matchPl){ unmatched++; continue; }
+              matched++;
+              var elo=parseFloat((ec[3].textContent||'0').replace(/[^0-9.]/g,''))||0;
+              var hElo=parseFloat((ec[6].textContent||'0').replace(/[^0-9.]/g,''))||0;
+              var cElo=parseFloat((ec[8].textContent||'0').replace(/[^0-9.]/g,''))||0;
+              var gElo=parseFloat((ec[10].textContent||'0').replace(/[^0-9.]/g,''))||0;
+              window._eloMap[matchPl.id]={
+                name: matchPl.full_name,
+                elo: elo,
+                h_elo: hElo,
+                c_elo: cElo,
+                g_elo: gElo
+              };
+            }
+            console.log('[elo] matched '+matched+' / unmatched '+unmatched+' (TA '+eloRows.length+' rows)');
+            // Commit elo_ratings.json
+            var eloPayload={
+              updated:new Date().toISOString(),
+              source:'tennisabstract.com/reports/atp_elo_ratings.html',
+              count:matched,
+              items:window._eloMap
+            };
+            var eloBody=JSON.stringify(eloPayload,null,2)+'\n';
+            var eloUtf8=new TextEncoder().encode(eloBody);
+            var eloBin=''; for(var bi=0;bi<eloUtf8.length;bi++) eloBin+=String.fromCharCode(eloUtf8[bi]);
+            var eloB64=btoa(eloBin);
+            var eloHead=await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/elo_ratings.json?ts='+Date.now(),{headers:{'Authorization':'token '+GH}});
+            var eloPutBody={message:'Update elo_ratings.json: '+matched+' hracu z TA',content:eloB64};
+            if(eloHead.ok){var eloMeta=await eloHead.json(); eloPutBody.sha=eloMeta.sha;}
+            await fetch('https://api.github.com/repos/Havran001/tennis-scout/contents/elo_ratings.json',{method:'PUT',headers:{'Authorization':'Bearer '+GH,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(eloPutBody)});
+            console.log('[elo] commited elo_ratings.json with '+matched+' players');
+          }
+        }
+      } catch(e){ console.warn('[elo] fetch/commit failed:',e); }
+      
+            var dn=0,im=0,sk=0,er=0,tot=pl.length;
       function nx(i){
         if(i>=tot){prog.innerHTML=window._tsProgress='\u2705 Hotovo! '+im+' import. | '+sk+' p\u0159esko\u010d. | '+er+' chyb'+(window._importFailed&&window._importFailed.length?'<br><small style="color:#f87171">Chyby: '+window._importFailed.join(', ')+'</small>':'');self.disabled=false;self.textContent='\u2705 Dokon\u010deno';var rb=sh.getElementById('sb-ta-retry');if(rb&&window._skippedPlayers&&window._skippedPlayers.length){rb.style.display='block';rb.textContent='🔄 Reimport přeskočených ('+window._skippedPlayers.length+')';}return;}
         var p=pl[i];if(!p||!p.id||!p.full_name){sk++;dn++;nx(i+1);return;}
