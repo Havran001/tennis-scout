@@ -1295,7 +1295,7 @@ function buildPlayersTab(sh){
                 return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
                   +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
                     +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
-                    +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+                    +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+_formatNoteSourceSync(n.source)+'</span>':'')
                     +'<div style="margin-left:auto;display:flex;gap:6px;">'
                       +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
                       +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
@@ -1885,7 +1885,7 @@ function _renderMatches(){
           return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
             +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
               +(n.date?'<span style="font-size:13px;color:rgba(255,255,255,0.55);background:rgba(255,255,255,0.06);padding:3px 10px;border-radius:10px;">📅 '+n.date+'</span>':'')
-              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+_formatNoteSourceSync(n.source)+'</span>':'')
               +'<div style="margin-left:auto;display:flex;gap:6px;">'
                 +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
                 +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
@@ -1936,7 +1936,7 @@ function _renderMatches(){
           return '<div class="pp-note-item" data-nid="'+n.id+'" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px 16px;margin-bottom:10px;">'
             +'<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">'
               +(n.date?'<span style="font-size:10px;color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:10px;">📅 '+n.date+'</span>':'')
-              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+n.source+'</span>':'')
+              +(n.source?'<span style="font-size:10px;color:rgba(0,200,83,0.6);background:rgba(0,200,83,0.08);padding:2px 8px;border-radius:10px;">🔗 '+_formatNoteSourceSync(n.source)+'</span>':'')
               +'<div style="margin-left:auto;display:flex;gap:6px;">'
                 +'<button class="pp-edit-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.4);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">✏️ Upravit</button>'
                 +'<button class="pp-del-note" data-nid="'+n.id+'" style="background:transparent;border:1px solid rgba(239,68,68,0.2);color:rgba(239,68,68,0.5);border-radius:6px;padding:3px 10px;font-size:10px;cursor:pointer;">🗑 Smazat</button>'
