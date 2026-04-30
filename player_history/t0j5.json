@@ -2,7 +2,7 @@
   "player_id": "t0j5",
   "player_name": "C. Tufekci",
   "source": "tennisabstract",
-  "updated": "2026-04-30T00:03:01.469Z",
+  "updated": "2026-04-30T00:03:07.486Z",
   "matches": [
     {
       "date": "2026-01-05",
@@ -24,7 +24,10 @@
       "second_pct": "53.3%",
       "bp_saved": "8/14",
       "match_time": "1:38",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.6,
+      "odds_opp": 1.02,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-12-15",
@@ -46,7 +49,10 @@
       "second_pct": "26.7%",
       "bp_saved": "8/18",
       "match_time": "2:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.34,
+      "odds_opp": 1.2,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-12-01",
@@ -68,7 +74,10 @@
       "second_pct": "25.0%",
       "bp_saved": "10/16",
       "match_time": "1:42",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 8.3,
+      "odds_opp": 1.04,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-11-10",
@@ -112,7 +121,10 @@
       "second_pct": "0.0%",
       "bp_saved": "0/5",
       "match_time": "0:47",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.6,
+      "odds_opp": 1.05,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-22",
@@ -134,7 +146,10 @@
       "second_pct": "38.9%",
       "bp_saved": "11/16",
       "match_time": "1:29",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 9.3,
+      "odds_opp": 1.03,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-22",
@@ -156,7 +171,10 @@
       "second_pct": "31.6%",
       "bp_saved": "7/8",
       "match_time": "1:27",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.08,
+      "odds_opp": 1.69,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-09-15",
@@ -178,7 +196,10 @@
       "second_pct": "10.5%",
       "bp_saved": "3/9",
       "match_time": "0:58",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7,
+      "odds_opp": 1.07,
+      "odds_src": "bid417"
     }
   ]
 }
