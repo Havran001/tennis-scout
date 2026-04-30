@@ -1,10 +1,13 @@
 {
-  "updated": "2026-04-30T10:01:02.656Z",
+  "updated": "2026-04-30T10:13:12.250Z",
   "source": "tennisabstract.com/reports/atp_elo_ratings.html",
-  "count": 499,
+  "count": 517,
   "strategies": {
-    "exact": 498,
-    "reorder": 1
+    "reorder": 498,
+    "sack_key": 14,
+    "rev_substring": 1,
+    "substring": 3,
+    "last_alias_merge": 1
   },
   "items": {
     "s0ag": {
@@ -595,6 +598,13 @@
       "c_elo": 1679.4,
       "g_elo": 1627.6
     },
+    "m0n7": {
+      "name": "Daniel Merida",
+      "elo": 1731.2,
+      "h_elo": 1669.4,
+      "c_elo": 1660.2,
+      "g_elo": 1565.6
+    },
     "bm95": {
       "name": "Benjamin Bonzi",
       "elo": 1728.5,
@@ -734,6 +744,13 @@
       "h_elo": 1672.6,
       "c_elo": 1638.9,
       "g_elo": 1630.6
+    },
+    "s0h2": {
+      "name": "Aleksandr Shevchenko",
+      "elo": 1698.3,
+      "h_elo": 1657.2,
+      "c_elo": 1647.7,
+      "g_elo": 1491.9
     },
     "d0dw": {
       "name": "Titouan Droguet",
@@ -937,6 +954,13 @@
       "h_elo": 1615.1,
       "c_elo": 1518.4,
       "g_elo": 1589.6
+    },
+    "y09v": {
+      "name": "Yunchaokete Bu",
+      "elo": 1651.8,
+      "h_elo": 1612.5,
+      "c_elo": 1592.6,
+      "g_elo": 1468.1
     },
     "d994": {
       "name": "James Duckworth",
@@ -1456,6 +1480,13 @@
       "c_elo": 1502.7,
       "g_elo": 1488.6
     },
+    "r772": {
+      "name": "Albert Ramos Vinolas",
+      "elo": 1557.7,
+      "h_elo": 1520,
+      "c_elo": 1526.1,
+      "g_elo": 1424.1
+    },
     "s0ia": {
       "name": "Dane Sweeny",
       "elo": 1557.4,
@@ -1673,6 +1704,13 @@
       "c_elo": 1504.9,
       "g_elo": 1470.7
     },
+    "rd48": {
+      "name": "Igor Marcondes",
+      "elo": 1517.1,
+      "h_elo": 1429.3,
+      "c_elo": 1504.7,
+      "g_elo": 1458.5
+    },
     "h0cx": {
       "name": "Max Houkes",
       "elo": 1516.6,
@@ -1728,6 +1766,13 @@
       "h_elo": 1441.7,
       "c_elo": 1480.6,
       "g_elo": 1581.9
+    },
+    "ag08": {
+      "name": "Andy Andrade",
+      "elo": 1506.8,
+      "h_elo": 1443.9,
+      "c_elo": 1473.9,
+      "g_elo": 1453.4
     },
     "b0ou": {
       "name": "Hynek Barton",
@@ -1848,6 +1893,13 @@
       "c_elo": 1448.5,
       "g_elo": 1439.5
     },
+    "d0lj": {
+      "name": "Diego Dedura",
+      "elo": 1491.9,
+      "h_elo": 1321.4,
+      "c_elo": 1493.8,
+      "g_elo": 1446
+    },
     "k0e6": {
       "name": "Alibek Kachmazov",
       "elo": 1490.4,
@@ -1889,6 +1941,13 @@
       "h_elo": 1442.6,
       "c_elo": 1414.2,
       "g_elo": 1442.7
+    },
+    "h0jl": {
+      "name": "Jay Friend",
+      "elo": 1484.6,
+      "h_elo": 1462.9,
+      "c_elo": 1347.1,
+      "g_elo": 1442.3
     },
     "n897": {
       "name": "Sumit Nagal",
@@ -2303,6 +2362,13 @@
       "c_elo": 1356.5,
       "g_elo": 1440
     },
+    "s0nv": {
+      "name": "Abdullah Shelbayh",
+      "elo": 1440.1,
+      "h_elo": 1447.1,
+      "c_elo": 1326.5,
+      "g_elo": 1437.7
+    },
     "k0hc": {
       "name": "Maks Kasnikowski",
       "elo": 1439.5,
@@ -2695,6 +2761,13 @@
       "c_elo": 1378.4,
       "g_elo": 1440.5
     },
+    "sr81": {
+      "name": "Khumoyun Sultanov",
+      "elo": 1379.1,
+      "h_elo": 1367.1,
+      "c_elo": 1277.7,
+      "g_elo": 1400.2
+    },
     "u120": {
       "name": "Kaichi Uchida",
       "elo": 1378.6,
@@ -2708,6 +2781,13 @@
       "h_elo": 1376.1,
       "c_elo": 1281.8,
       "g_elo": 1399
+    },
+    "dc48": {
+      "name": "Murkel Dellien",
+      "elo": 1376.7,
+      "h_elo": 1356.3,
+      "c_elo": 1366.5,
+      "g_elo": 1367.2
     },
     "dc76": {
       "name": "Viktor Durasovic",
@@ -2842,6 +2922,13 @@
       "c_elo": 1322.9,
       "g_elo": 1380.4
     },
+    "b0c0": {
+      "name": "Adrian Boitan",
+      "elo": 1360,
+      "h_elo": 1340.4,
+      "c_elo": 1341.3,
+      "g_elo": 1430
+    },
     "m0np": {
       "name": "Andres Martin",
       "elo": 1359,
@@ -2953,6 +3040,13 @@
       "h_elo": 1331.4,
       "c_elo": 1329.4,
       "g_elo": 1419.2
+    },
+    "rh59": {
+      "name": "Santiago Rodriguez Taverna",
+      "elo": 1337.5,
+      "h_elo": 1289.5,
+      "c_elo": 1329.2,
+      "g_elo": 1355.5
     },
     "m0to": {
       "name": "Mae Malige",
@@ -3185,6 +3279,13 @@
       "c_elo": 1261.6,
       "g_elo": 1349.1
     },
+    "h0cd": {
+      "name": "Alex Hernandez",
+      "elo": 1297.6,
+      "h_elo": 1269,
+      "c_elo": 1257.6,
+      "g_elo": 1348.8
+    },
     "s0dq": {
       "name": "Keegan Smith",
       "elo": 1295.4,
@@ -3255,6 +3356,13 @@
       "c_elo": 1356.9,
       "g_elo": 1392.7
     },
+    "a09p": {
+      "name": "Alafia Ayeni",
+      "elo": 1285.2,
+      "h_elo": 1277.2,
+      "c_elo": 1186.4,
+      "g_elo": 1298.9
+    },
     "s0iv": {
       "name": "Paulo Andre Saraiva Dos Santos",
       "elo": 1284.5,
@@ -3282,6 +3390,13 @@
       "h_elo": 1259.1,
       "c_elo": 1236.8,
       "g_elo": 1338.6
+    },
+    "b0gi": {
+      "name": "Alexander Binda",
+      "elo": 1277,
+      "h_elo": 1252.5,
+      "c_elo": 1248.5,
+      "g_elo": 1338.5
     },
     "m0hd": {
       "name": "Alan Magadan",
@@ -3325,6 +3440,13 @@
       "c_elo": 1140.8,
       "g_elo": 1333.2
     },
+    "s09p": {
+      "name": "Sanhui Shin",
+      "elo": 1265.1,
+      "h_elo": 1242.2,
+      "c_elo": 1242.6,
+      "g_elo": 1332.6
+    },
     "d0ar": {
       "name": "Mateus Alves",
       "elo": 1256.3,
@@ -3338,6 +3460,13 @@
       "h_elo": 1220.3,
       "c_elo": 1241.9,
       "g_elo": 1298.3
+    },
+    "m0wy": {
+      "name": "Guto Miguel",
+      "elo": 1245.4,
+      "h_elo": 1228.8,
+      "c_elo": 1241.3,
+      "g_elo": 1322.7
     },
     "a0jw": {
       "name": "Joaquin Aguilar Cardozo",
