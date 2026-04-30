@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Abdulaziz Usmonjonov",
   "source": "tennisabstract",
-  "updated": "2026-04-30T00:03:40.125Z",
+  "updated": "2026-04-30T00:03:43.085Z",
   "matches": [
     {
       "date": "2026-02-07",
@@ -25,7 +25,10 @@
       "second_pct": "",
       "bp_saved": "",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.73,
+      "odds_opp": 2,
+      "odds_src": "bid16"
     },
     {
       "date": "2025-05-26",
@@ -47,7 +50,10 @@
       "second_pct": "11",
       "bp_saved": "5",
       "match_time": "7",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 15,
+      "odds_opp": 1.01,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-05-26",
@@ -69,7 +75,10 @@
       "second_pct": "28",
       "bp_saved": "15",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.55,
+      "odds_opp": 1.26,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-05-19",
