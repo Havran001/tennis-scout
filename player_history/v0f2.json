@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Alexander Vikhlyantsev",
   "source": "tennisabstract",
-  "updated": "2026-04-24T19:44:29.522Z",
+  "updated": "2026-04-30T08:32:25.316Z",
   "matches": [
     {
       "date": "2025-12-15",
@@ -26,7 +26,10 @@
       "second_pct": "16.7",
       "bp_saved": "0/6",
       "match_time": "0:48",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 10,
+      "odds_opp": 1.02,
+      "odds_src": "bid26"
     },
     {
       "date": "2025-06-02",
@@ -118,7 +121,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 26,
+      "odds_opp": 1.01,
+      "odds_src": "bid15"
     },
     {
       "date": "2021-06-21",
@@ -141,7 +147,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 12.36,
+      "odds_opp": 1.01,
+      "odds_src": "bid575"
     }
   ]
 }
