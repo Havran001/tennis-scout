@@ -3,38 +3,8 @@
   "gs_id": "",
   "player_name": "Petar Jovanovic",
   "source": "tennisabstract",
-  "updated": "2026-04-29T21:01:53.188Z",
+  "updated": "2026-04-30T02:20:48.935Z",
   "matches": [
-    {
-      "id": "hlDCwfuh",
-      "date": "20260414",
-      "tournament": "ITF MEN - SINGLES: M15 Dubrovnik (Croatia), clay",
-      "surface": "Clay",
-      "level": "A",
-      "round": "",
-      "result": "W",
-      "opponent": "Callejon H. S.",
-      "score": "0-2",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "src": "live"
-    },
-    {
-      "id": "GA2owBhf",
-      "date": "20260408",
-      "tournament": "ITF WOMEN - SINGLES: W15 Sharm ElSheikh 11 (Egypt), hard",
-      "surface": "Hard",
-      "level": "A",
-      "round": "",
-      "result": "W",
-      "opponent": "Gadient N.",
-      "score": "0-2",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "src": "live"
-    },
     {
       "date": "2026-02-07",
       "tournament": "Davis Cup WG2 PO: RSA vs MNE",
@@ -757,6 +727,5 @@
       "odds_opp": 1.14,
       "odds_src": "bid417"
     }
-  ],
-  "total": 30
+  ]
 }
