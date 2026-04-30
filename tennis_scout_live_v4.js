@@ -1278,9 +1278,10 @@ all=all.filter(function(m){var t=m.tournament||'';var hasFlashFormat=t.match(/^(
                 (hand?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Hraje</div><div style="font-size:15px;font-weight:600;color:'+handColor+';">'+handTxt+'</div></div>':'')+
                 (pch?'<div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 14px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px;">Career High</div><div style="font-size:20px;font-weight:700;color:#f59e0b;">#'+pch+'</div>'+(pchDate&&pchDate.length>0?'<div style="font-size:9px;color:rgba(255,255,255,0.3);margin-top:1px;">'+(pchDate.length>7?pchDate.substring(0,7):pchDate)+'</div>':'')+' </div>':'')+
               '</div>'+
+            _eloRowHTML(pid)+
             '</div>'+
           '</div>'+
-        '</div>'+_eloRowHTML(pid)+
+        '</div>'+
         '<div style="padding:0 20px 40px;">';
           // Sestav unikátní hodnoty pro filtry
           var _normT=function(t){return t.replace(/^ATP /,'').replace(/^WTA /,'');};
