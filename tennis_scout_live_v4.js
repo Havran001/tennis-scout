@@ -1045,7 +1045,7 @@ function buildPlayersTab(sh){
         +'<button id="pp-back" style="background:none;border:none;color:rgba(255,255,255,0.4);font-size:13px;cursor:pointer;padding:0;margin-bottom:16px;display:flex;align-items:center;gap:6px;">&#8592; Zpět na hráče</button>'
         +'<div style="display:flex;align-items:flex-start;gap:24px;padding-bottom:0;">'
           // Photo
-          +'<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'
+          +'<div style="width:110px;height:130px;margin-top:72px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'
             +'<img id="pp-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'
             +'<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:40px;">'+( flag||'👤')+'</div>'
           +'</div>'
@@ -1257,7 +1257,7 @@ all=all.filter(function(m){var t=m.tournament||'';var hasFlashFormat=t.match(/^(
 '<button id="mh-f-back" style="background:transparent;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);font-size:11px;padding:5px 12px;border-radius:8px;cursor:pointer;margin-bottom:14px;display:block;">← Zpět</button>'+
           '<div style="display:flex;align-items:flex-start;gap:24px;padding-bottom:0;">'+
             // Photo
-            '<div style="width:110px;height:130px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'+
+            '<div style="width:110px;height:130px;margin-top:72px;border-radius:12px 12px 0 0;overflow:hidden;background:rgba(255,255,255,0.05);flex-shrink:0;display:flex;align-items:center;justify-content:center;">'+
               '<img id="mh-hdr-photo" src="" style="width:100%;height:100%;object-fit:cover;object-position:top;"/>'+
             '</div>'+
             // Info
