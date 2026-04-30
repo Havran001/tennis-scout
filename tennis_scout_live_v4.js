@@ -1322,6 +1322,7 @@ all=all.filter(function(m){var t=m.tournament||'';var hasFlashFormat=t.match(/^(
               '</div>'+
             _eloRowHTML(pid)+
             '</div>'+
+          _renderNotesPanel(pid)+
           '</div>'+
         '</div>'+
         '<div style="padding:0 20px 40px;">';
