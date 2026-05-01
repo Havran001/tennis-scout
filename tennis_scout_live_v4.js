@@ -2857,11 +2857,11 @@ function buildUI(){
         <span class="nav-icon">🏆</span> Turnaje
         <span class="nav-badge" id="nav-count">795</span>
       </div>
-      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">🎾</span> Zápasy</div><div class="nav-item" data-view="h2h" id="nav-h2h"><span class="nav-icon">⚔️</span> H2H</div>
-      <div class="nav-item" data-view="players" id="nav-players">
+      <div class="nav-item" data-view="matches" id="nav-matches"><span class="nav-icon">🎾</span> Zápasy</div><div class="nav-item" data-view="players" id="nav-players">
         <span class="nav-icon">👤</span> Hráči ATP
         <span class="nav-badge" id="nav-players-count">1454</span>
       </div>
+      <div class="nav-item" data-view="h2h" id="nav-h2h"><span class="nav-icon">⚔️</span> H2H</div>
       <div class="nav-item" data-view="odds" id="nav-odds">
         <span class="nav-icon">📊</span> Kurzy
       </div>
@@ -3178,7 +3178,6 @@ function buildUI(){
           <div class="hc-meta"><span class="hc-count" id="hc-count-m"></span><span class="hc-arrow">&#8594;</span></div>
         </div>
       </div>
-      <div class="home-card green" data-goto="h2h" style="padding:0;overflow:hidden;"><div style="background:linear-gradient(135deg,rgba(0,200,83,0.12),rgba(0,200,83,0.04));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(0,200,83,0.12);"><span style="font-size:72px;line-height:1;">⚔️</span></div><div style="padding:18px 22px 20px;"><div class="hc-title">H2H</div><div class="hc-desc">Vzájemné zápasy, forma, surface breakdown a kurzy pro libovolné dva hráče.</div><div class="hc-meta"><span class="hc-count">Tennis Abstract data</span><span class="hc-arrow">→</span></div></div></div>
       <div class="home-card blue" data-goto="players" style="padding:0;overflow:hidden;">
         <div style="position:relative;height:200px;overflow:hidden;background:#050d1a;">
           <img id="player-photo" src="" style="width:100%;height:100%;object-fit:contain;object-position:center center;background:#050d1a;" />
@@ -3191,6 +3190,7 @@ function buildUI(){
           <div class="hc-meta"><span class="hc-count" id="hc-pl">998 hr\u00E1\u010D\u016F</span><span class="hc-arrow">\u2192</span></div>
         </div>
       </div>
+      <div class="home-card green" data-goto="h2h" style="padding:0;overflow:hidden;"><div style="background:linear-gradient(135deg,rgba(0,200,83,0.12),rgba(0,200,83,0.04));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(0,200,83,0.12);"><span style="font-size:72px;line-height:1;">⚔️</span></div><div style="padding:18px 22px 20px;"><div class="hc-title">H2H</div><div class="hc-desc">Vzájemné zápasy, forma, surface breakdown a kurzy pro libovolné dva hráče.</div><div class="hc-meta"><span class="hc-count">Tennis Abstract data</span><span class="hc-arrow">→</span></div></div></div>
       <div class="home-card orange disabled" style="padding:0;overflow:hidden;opacity:0.4;">
         <div style="background:linear-gradient(135deg,rgba(251,146,60,0.1),rgba(251,146,60,0.03));padding:28px 24px 20px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid rgba(251,146,60,0.1);">
           <span style="font-size:72px;line-height:1;">\uD83D\uDCCA</span>
