@@ -3392,6 +3392,24 @@ function buildUI(){
   }
 
   // Nav item clicks
+  // ROUTING (krok 2): popstate handler (back/forward button)
+  if (!window.__ts_popstateBound) {
+    window.__ts_popstateBound = true;
+    window.addEventListener('popstate', function(ev) {
+      try {
+        var st = ev.state;
+        var view = (st && st.tsView) ? st.tsView : null;
+        // Fallback: parse z URL hashe
+        if (!view && location.hash) {
+          view = location.hash.replace(/^#/, '').split('?')[0];
+        }
+        if (!view) view = 'home';
+        // Volej goView s flagem aby NEpushovala znova (= infinite loop)
+        window.__ts_inPopstate = true;
+        try { goView(view); } finally { window.__ts_inPopstate = false; }
+      } catch(e) { console.warn('[routing] popstate failed', e); }
+    });
+  }
   sh.querySelectorAll('.nav-item[data-view]').forEach(item=>{
     item.addEventListener('click',()=>{
       if(item.classList.contains('disabled'))return;
