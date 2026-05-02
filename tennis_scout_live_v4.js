@@ -3399,14 +3399,66 @@ function buildUI(){
       try {
         var st = ev.state;
         var view = (st && st.tsView) ? st.tsView : null;
+        var p1 = st && st.p1, p2 = st && st.p2, pid = st && st.pid;
         // Fallback: parse z URL hashe
         if (!view && location.hash) {
-          view = location.hash.replace(/^#/, '').split('?')[0];
+          var hashStr = location.hash.replace(/^#/, '');
+          var parts = hashStr.split('?');
+          view = parts[0];
+          if (parts[1]) {
+            var params = new URLSearchParams(parts[1]);
+            p1 = p1 || params.get('p1');
+            p2 = p2 || params.get('p2');
+            pid = pid || params.get('pid');
+          }
         }
         if (!view) view = 'home';
         // Volej goView s flagem aby NEpushovala znova (= infinite loop)
         window.__ts_inPopstate = true;
         try { goView(view); } finally { window.__ts_inPopstate = false; }
+        // Restore detail state
+        if (view === 'h2h' && p1 && p2) {
+          // Počkej na h2hw + h2h-p1/p2 inputs (= setInterval render)
+          var sh = document.getElementById('ts-host')?.shadowRoot;
+          var attempts = 0, maxAttempts = 40;
+          var waitFn = function() {
+            attempts++;
+            var inp1 = sh && sh.getElementById('h2h-p1');
+            var inp2 = sh && sh.getElementById('h2h-p2');
+            if (inp1 && inp2) {
+              // Vyplň hodnoty + spusť input event + klik Porovnat
+              inp1.value = p1;
+              inp1.dispatchEvent(new Event('input', { bubbles: true }));
+              inp2.value = p2;
+              inp2.dispatchEvent(new Event('input', { bubbles: true }));
+              // Najdi tlačítko Porovnat (#h2h-go) a klikni
+              var btn = sh.getElementById('h2h-go');
+              if (btn) {
+                window.__ts_inPopstate = true;
+                try { btn.click(); } finally { window.__ts_inPopstate = false; }
+              }
+            } else if (attempts < maxAttempts) {
+              setTimeout(waitFn, 100);
+            }
+          };
+          setTimeout(waitFn, 200);
+        } else if (view === 'players' && pid) {
+          // Otevři kartu hráče přes _openPlayerFromHistory
+          var sh2 = document.getElementById('ts-host')?.shadowRoot;
+          var attempts2 = 0, maxA2 = 40;
+          var waitFn2 = function() {
+            attempts2++;
+            if (sh2 && typeof sh2._openPlayerFromHistory === 'function') {
+              var player = (window.ATP_PLAYERS || []).find(function(p){return p.id === pid;});
+              if (player) {
+                sh2._openPlayerFromHistory(player);
+              }
+            } else if (attempts2 < maxA2) {
+              setTimeout(waitFn2, 100);
+            }
+          };
+          setTimeout(waitFn2, 200);
+        }
       } catch(e) { console.warn('[routing] popstate failed', e); }
     });
   }
