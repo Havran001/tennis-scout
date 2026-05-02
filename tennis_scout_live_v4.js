@@ -3489,8 +3489,25 @@ function buildUI(){
       if (!inp1 || !inp2 || !inp1.value || !inp2.value) return null;
       var v1 = inp1.value.trim(), v2 = inp2.value.trim();
       var arr = window.ATP_PLAYERS || [];
-      var p1 = arr.find(function(p){ var fn=(p.full_name||p.name||'').toLowerCase(); return fn===v1.toLowerCase(); });
-      var p2 = arr.find(function(p){ var fn=(p.full_name||p.name||'').toLowerCase(); return fn===v2.toLowerCase(); });
+      function __findPl(q) {
+        if (!q) return null;
+        var qLow = q.toLowerCase().trim();
+        // 1) Exact full_name / name match
+        var ex = arr.find(function(p){ var fn=(p.full_name||p.name||'').toLowerCase(); return fn===qLow; });
+        if (ex) return ex;
+        // 2) Last name exact match (= "Sinner" matches "Jannik Sinner")
+        var byLast = arr.find(function(p){
+          var fn=(p.full_name||p.name||'').toLowerCase();
+          var parts=fn.split(' ');
+          return parts[parts.length-1]===qLow;
+        });
+        if (byLast) return byLast;
+        // 3) Substring (= contains)
+        var sub = arr.find(function(p){ var fn=(p.full_name||p.name||'').toLowerCase(); return fn.indexOf(qLow)>=0; });
+        return sub || null;
+      }
+      var p1 = __findPl(v1);
+      var p2 = __findPl(v2);
       return { p1: p1, p2: p2 };
     }
     
