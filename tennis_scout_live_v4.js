@@ -5088,6 +5088,15 @@ function _applyBestHighlights(container){
       wrap.innerHTML='<div style="padding:0 24px 40px;"><div style="padding:18px 0 14px;border-bottom:1px solid rgba(255,255,255,.06);margin-bottom:16px;"><div style="font-size:20px;font-weight:800;color:#fff;margin-bottom:3px;">H2H Porovnání</div><div style="font-size:11px;color:rgba(255,255,255,.3);">Zadej jména dvou hráčů</div></div><div style="display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;"><div style="flex:1;min-width:160px;"><div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:5px;">Hráč 1</div><input id="h2h-p1" type="text" placeholder="např. Alcaraz" style="width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:#e6edf3;font-size:14px;padding:9px 13px;border-radius:10px;outline:none;box-sizing:border-box;"/></div><div style="font-size:20px;color:rgba(255,255,255,.2);padding-bottom:9px;flex-shrink:0;">vs</div><div style="flex:1;min-width:160px;"><div style="font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:5px;">Hráč 2</div><input id="h2h-p2" type="text" placeholder="např. Sinner" style="width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:#e6edf3;font-size:14px;padding:9px 13px;border-radius:10px;outline:none;box-sizing:border-box;"/></div><button id="h2h-go" style="background:rgba(0,200,83,.15);border:1px solid rgba(0,200,83,.35);color:#00C853;font-size:13px;font-weight:700;padding:9px 20px;border-radius:10px;cursor:pointer;flex-shrink:0;">Porovnat →</button></div><div id="h2h-status" style="margin-top:10px;font-size:12px;color:rgba(255,255,255,.4);min-height:18px;"></div><div id="h2h-result"></div></div>';
       wrap.querySelector('#h2h-go').addEventListener('click',function(){
         var v1=wrap.querySelector('#h2h-p1').value.trim(),v2=wrap.querySelector('#h2h-p2').value.trim();
+        // ROUTING (krok 3): pushState pri Porovnat klik
+        try {
+          if (!window.__ts_inPopstate && v1 && v2) {
+            var newH2HHash = '#h2h?p1=' + encodeURIComponent(v1) + '&p2=' + encodeURIComponent(v2);
+            if (location.hash !== newH2HHash) {
+              history.pushState({tsView:'h2h', p1:v1, p2:v2}, '', newH2HHash);
+            }
+          }
+        } catch(e) { console.warn('[routing] h2h pushState failed', e); }
         if(!v1||!v2){wrap.querySelector('#h2h-status').textContent='Zadej jména obou hráčů';return;}
         var p1=findP(v1),p2=findP(v2);
         if(!p1){wrap.querySelector('#h2h-status').textContent='Hráč "'+v1+'" nenalezen';return;}
