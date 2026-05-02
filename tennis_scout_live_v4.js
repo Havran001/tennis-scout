@@ -3352,6 +3352,15 @@ function buildUI(){
 
   // ── NAVIGACE ──
   function goView(view){
+    // ROUTING (krok 1): pushState pro back button
+    try {
+      if (!window.__ts_inPopstate) {
+        var newHash = '#' + view;
+        if (location.hash !== newHash) {
+          history.pushState({tsView: view}, '', newHash);
+        }
+      }
+    } catch(e) { console.warn('[routing] pushState failed', e); }
     // Close player page if open
     var _pp=sh.getElementById('player-page');
     if(_pp)_pp.remove();
