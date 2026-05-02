@@ -2103,7 +2103,7 @@ function _openAtpPlayer(nameRaw,sh){
 }
 
 // ── H2H MODUL ────────────────────────────────────────────────
-function buildH2HTab(sh){if(!sh.__h2hPlayerLinkBound){sh.__h2hPlayerLinkBound=true;sh.addEventListener("click",function(ev){var t=ev.target;while(t&&t!==sh){if(t.getAttribute&&t.getAttribute("data-h2h-pid")){var pid=t.getAttribute("data-h2h-pid");if(!pid){t=t.parentNode;continue;}var player=(window.ATP_PLAYERS||[]).find(function(p){return p.id===pid;});if(!player)return;ev.preventDefault();ev.stopPropagation();var navP=sh.querySelector('.nav-item[data-view="players"]');if(navP)navP.click();setTimeout(function(){if(typeof sh._openPlayerFromHistory==="function")sh._openPlayerFromHistory(player);},300);return;}t=t.parentNode;}});}
+function buildH2HTab(sh){
   var wrap=document.createElement('div');
   wrap.id='h2hw';
   wrap.style.cssText='display:none;padding:0;';
@@ -5018,6 +5018,7 @@ function _applyBestHighlights(container){
     // buildH2HTab není dostupná globálně - vytvoř minimální verzi
     var wrap=document.createElement('div');
     wrap.id='h2hw';
+    if(!sh.__h2hPlayerLinkBound){sh.__h2hPlayerLinkBound=true;sh.addEventListener("click",function(ev){var t=ev.target;while(t&&t!==sh){if(t.getAttribute&&t.getAttribute("data-h2h-pid")){var pid=t.getAttribute("data-h2h-pid");if(!pid){t=t.parentNode;continue;}var player=(window.ATP_PLAYERS||[]).find(function(p){return p.id===pid;});if(!player)return;ev.preventDefault();ev.stopPropagation();var navP=sh.querySelector('.nav-item[data-view="players"]');if(navP)navP.click();setTimeout(function(){if(typeof sh._openPlayerFromHistory==="function")sh._openPlayerFromHistory(player);},300);return;}t=t.parentNode;}});}
     wrap.style.cssText='display:none;padding:0;';
     
     function normN(n){return (n||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z ]/g,'').trim();}
