@@ -90,7 +90,7 @@ function _setupNotesHandlers(){
     if(!pid) return;
     var val = ta.value;
     // Local instant save
-    try { localStorage.setItem('ts_notes_'+pid, val); } catch(e){}
+    try { localStorage.setItem('ts_chr_'+pid, val); } catch(e){}
     window._notesMap = window._notesMap || {};
     window._notesMap[pid] = val;
     // Status indicator
