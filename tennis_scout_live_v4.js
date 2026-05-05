@@ -1832,6 +1832,51 @@ function _renderMatches(){
                     return ps===os || ps.slice(0,os.length)===os || os.slice(0,ps.length)===ps;
                   });
                 }
+                // Pokud ani slug match nezafungoval, async dohledat opp full name z player history
+                // (= řeší případ kdy 12-char slug obsahuje jen first+middle name, ne příjmení)
+                if(!opp && parts[0] && window.__tsLoadPlayerJson && window.__tsFuzzyFindPlayer){
+                  (async function(){
+                    try {
+                      var history = await window.__tsLoadPlayerJson(parts[0]);
+                      if (!Array.isArray(history)) return;
+                      var dateMatches = history.filter(function(m){ return m.date === date2; });
+                      var target = dateMatches.find(function(m){
+                        var oppNorm = (m.opponent || '').replace(/[^a-zA-Z0-9]/g, '').slice(0, 12);
+                        return oppNorm === oppSlug;
+                      });
+                      if (!target || !target.opponent) return;
+                      var found = window.__tsFuzzyFindPlayer(target.opponent, players);
+                      if (!found) return;
+                      // Provést zrcadlení (= stejná logika jako pro sync opp lookup)
+                      var meSlug = (me.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
+                      var mirrorMid = found.id + '_' + date2 + '_' + meSlug;
+                      if (val) localStorage.setItem("ts_mc_" + mirrorMid, val);
+                      else localStorage.removeItem("ts_mc_" + mirrorMid);
+                      if (dateVal) localStorage.setItem("ts_mc_date_" + mirrorMid, dateVal);
+                      else localStorage.removeItem("ts_mc_date_" + mirrorMid);
+                      var nk = 'ts_notes_' + found.id;
+                      var existing = [];
+                      try {
+                        var raw = localStorage.getItem(nk);
+                        if (raw) existing = JSON.parse(raw);
+                        if (!Array.isArray(existing)) existing = [];
+                      } catch(e){}
+                      var noteText = val || '';
+                      var noteDate = dateVal || (new Date()).toISOString().slice(0,10);
+                      var existingIdx = existing.findIndex(function(n){ return n.source === mirrorMid; });
+                      if (existingIdx >= 0) {
+                        if (noteText) { existing[existingIdx].text = noteText; existing[existingIdx].date = noteDate || existing[existingIdx].date; }
+                        else { existing.splice(existingIdx, 1); }
+                      } else if (noteText) {
+                        existing.push({ id: Date.now(), text: noteText, date: noteDate, source: mirrorMid });
+                      }
+                      localStorage.setItem(nk, JSON.stringify(existing));
+                      console.log('[per-match async sync] Mirrored to ' + found.full_name + ' (' + found.id + ') via history lookup');
+                    } catch(e) {
+                      console.warn('[per-match async sync] Failed:', e);
+                    }
+                  })();
+                }
                 if(!opp)return;
                 var me=players.find(function(p){return p.id===parts[0];});
                 if(!me)return;
