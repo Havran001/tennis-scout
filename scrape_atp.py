@@ -243,27 +243,84 @@ def fetch_wikipedia_ch(player):
         wikitext = data.get('parse', {}).get('wikitext', {}).get('*', '')
         if not wikitext:
             return None, None
-        # Hledame: 'career-high ATP singles ranking of world No. XX' nebo podobne
-        m_rank = re.search(r"[cC]areer-high\s+(?:ATP\s+)?singles?\s+rank(?:ing)?\s+of\s+(?:world\s+)?[Nn]o\.?\s*(\d+)", wikitext)
+        # Wikipedia tennis infobox format: |highestsinglesranking = No. 99 (June 23, 2025)
+        m_rank = re.search(r"\|\s*highestsinglesranking\s*=\s*(?:No\.?\s*)?(\d+)(?:\s*\(([^)]+)\))?", wikitext)
         if not m_rank:
-            # Alternativni: |careerhighsingles = 99
-            m_rank = re.search(r"\|\s*careerhighsingles\s*=\s*(\d+)", wikitext)
+            # Alternativni infobox keys
+            m_rank = re.search(r"\|\s*careerhighsingles\s*=\s*(?:No\.?\s*)?(\d+)", wikitext)
+        if not m_rank:
+            # Inline text fallback
+            m_rank = re.search(r"[cC]areer-high\s+(?:ATP\s+)?singles?\s+rank(?:ing)?\s+of\s+(?:world\s+)?[Nn]o\.?\s*(\d+)", wikitext)
         if not m_rank:
             return None, None
         peak = int(m_rank.group(1))
-        # Hledame datum
-        m_date = re.search(r"achieved\s+on\s+(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", wikitext)
+        # Datum - bud z infobox parens nebo "achieved on" inline text
         first = None
-        if m_date:
-            day, month_name, year = m_date.group(1), m_date.group(2), m_date.group(3)
+        date_str = m_rank.group(2) if m_rank.lastindex and m_rank.lastindex >= 2 else None
+        if not date_str:
+            m_date = re.search(r"achieved\s+on\s+(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", wikitext)
+            if m_date:
+                date_str = f'{m_date.group(1)} {m_date.group(2)} {m_date.group(3)}'
+        if date_str:
+            # Parse format "June 23, 2025" nebo "23 June 2025"
             months = {'January':'01','February':'02','March':'03','April':'04','May':'05','June':'06',
                       'July':'07','August':'08','September':'09','October':'10','November':'11','December':'12'}
-            mm = months.get(month_name, None)
-            if mm:
-                first = f'{year}{mm}{int(day):02d}'
+            m_us = re.search(r'([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})', date_str)  # June 23, 2025
+            m_eu = re.search(r'(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})', date_str)    # 23 June 2025
+            if m_us and m_us.group(1) in months:
+                first = f'{m_us.group(3)}{months[m_us.group(1)]}{int(m_us.group(2)):02d}'
+            elif m_eu and m_eu.group(2) in months:
+                first = f'{m_eu.group(3)}{months[m_eu.group(2)]}{int(m_eu.group(1)):02d}'
         return peak, first
     except Exception:
         return None, None
+
+# ─── CACHE: load ta_cache.json (= predchozi TA peakrank vysledky) ───
+# Cache obsahuje: { pid: { peak: 99, first: '20250623', cached_at: '2026-05-05', rank_at_cache: 154 } }
+# Skip TA fetch pokud:
+#   - cache existuje pro tento pid
+#   - rank se vyrazne nezmenil (= rank diff < 30)
+#   - cached_at < 30 dni stari
+TA_CACHE_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/ta_cache.json'
+ta_cache = {}
+try:
+    r_cache = requests.get(TA_CACHE_URL, timeout=15)
+    if r_cache.status_code == 200:
+        ta_cache = r_cache.json() or {}
+except Exception:
+    ta_cache = {}
+
+print(f'  TA cache loaded: {len(ta_cache)} entries')
+
+from datetime import datetime, timedelta
+today = datetime.now().strftime('%Y-%m-%d')
+cache_cutoff = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+
+# Filter ta_candidates: hraci s validni cache mohou byt SKIPnuti
+ta_candidates_to_fetch = []
+cache_hits = 0
+for p in ta_candidates:
+    pid = p.get('id', '')
+    cached = ta_cache.get(pid)
+    if cached:
+        cached_at = cached.get('cached_at', '')
+        rank_at_cache = cached.get('rank_at_cache', 999)
+        current_rank = p.get('rank', 999) or 999
+        rank_diff = abs(current_rank - rank_at_cache)
+        # Pouzij cache pokud: cache je cerstva (< 30 dni) a rank se vyrazne nezmenil
+        if cached_at >= cache_cutoff and rank_diff < 30:
+            # Aplikuj cache value
+            peak = cached.get('peak')
+            first = cached.get('first')
+            if peak and apply_ta_result(p, peak, first, source='TA cache'):
+                cache_hits += 1
+            continue  # SKIP TA fetch
+    ta_candidates_to_fetch.append(p)
+
+print(f'  Cache hits: {cache_hits} (skipping fetch). Remaining to fetch: {len(ta_candidates_to_fetch)}')
+
+# Update ta_candidates pro Pass 1 (= jen ti co potrebuji fetch)
+ta_candidates = ta_candidates_to_fetch
 
 # ─── Pass 1: TA fetch with 1.2s gap ───
 ta_fixes = 0
@@ -292,6 +349,34 @@ for p in ta_failures:
     time.sleep(3.0)  # delsi gap aby unikl rate limit
 
 print(f'  Pass 2 (retry 3s gap): fixed {retry_fixes} more players, {len(still_failed)} still failed')
+
+# ─── SAVE CACHE: zapis nove TA peakrank vysledky do ta_cache.json ───
+# Strategie: zachovaj stara cache entries + pridat/updatnout nove
+new_cache = dict(ta_cache)  # zachovaj stare
+cache_writes = 0
+for p in all_players:
+    if p.get('ch_source') in ('TennisAbstract peakrank', 'TA cache'):
+        pid = p.get('id', '')
+        if pid:
+            ch_date = p.get('ch_date', '')
+            first = ch_date.replace('-', '') if ch_date else None
+            new_cache[pid] = {
+                'peak': p.get('ch'),
+                'first': first,
+                'cached_at': today,
+                'rank_at_cache': p.get('rank') or 999,
+                'name': p.get('full_name', '') or p.get('name', '')
+            }
+            cache_writes += 1
+
+# Zapis cache na GitHub (pres GH API protoze github action ma write access)
+try:
+    cache_path = 'ta_cache.json'
+    with open(cache_path, 'w', encoding='utf-8') as f:
+        json.dump(new_cache, f, ensure_ascii=False, indent=2, sort_keys=True)
+    print(f'  Cache saved: {len(new_cache)} entries ({cache_writes} updates this run)')
+except Exception as e:
+    print(f'  Cache save failed: {e}')
 
 # ─── Pass 3: Wikipedia fallback for stubborn cases ───
 wiki_fixes = 0
