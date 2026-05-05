@@ -41,6 +41,34 @@ if (typeof window!=='undefined' && !window.__tsFuzzyFindPlayer) {
     var qParts = String(query).trim().split(/\s+/);
     var qLast = qParts.length > 0 ? _norm(qParts[qParts.length - 1]) : '';
     
+    // Strategy 2a: Pro 4+ slovní jména (= španělské dvojité příjmení) zkus 2. slovo zezadu
+    // např. "Juan Alejandro Hernandez Serrano" → otcovské "Hernandez" (= 2. zezadu)
+    if (qParts.length >= 4) {
+      var qSecondLast = _norm(qParts[qParts.length - 2]);
+      if (qSecondLast && qSecondLast.length >= 3) {
+        var byPaternal = playersList.filter(function(p) {
+          var fn = String(p.full_name || p.name || '').trim();
+          var parts = fn.split(/\s+/);
+          if (parts.length === 0) return false;
+          return _norm(parts[parts.length - 1]) === qSecondLast;
+        });
+        if (byPaternal.length === 1) return byPaternal[0];
+        if (byPaternal.length > 1) {
+          // Více kandidátů - zkus i first name match
+          var qFirst1 = _norm(qParts[0]);
+          if (qFirst1 && qFirst1.length >= 2) {
+            var refined = byPaternal.find(function(p) {
+              var fn = String(p.full_name || p.name || '').trim();
+              var parts = fn.split(/\s+/);
+              return parts.length > 0 && _norm(parts[0]).charAt(0) === qFirst1.charAt(0);
+            });
+            if (refined) return refined;
+          }
+          return byPaternal[0];
+        }
+      }
+    }
+    
     if (qLast && qLast.length >= 3) {
       var lastMatches = playersList.filter(function(p) {
         var fn = String(p.full_name || p.name || '').trim();
