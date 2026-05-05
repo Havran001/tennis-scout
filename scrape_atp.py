@@ -203,6 +203,9 @@ for p in all_players:
         needs_fetch = True
     elif p.get('ch') == p.get('rank') and p.get('ch_date', '') >= '2025-01-01':
         needs_fetch = True
+    elif p.get('ch_date', '') < '2025-01-01' and p.get('rank') is not None and p.get('ch') is not None and p.get('rank') < p.get('ch') + 50:
+        # Stará CH (před 2025) a aktuální rank blízko CH (nebo lepší) → CH může být zastaralá
+        needs_fetch = True
     if needs_fetch:
         ta_candidates.append(p)
 
