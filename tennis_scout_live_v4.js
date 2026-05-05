@@ -1848,7 +1848,9 @@ function _renderMatches(){
                       var found = window.__tsFuzzyFindPlayer(target.opponent, players);
                       if (!found) return;
                       // Provést zrcadlení (= stejná logika jako pro sync opp lookup)
-                      var meSlug = (me.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
+                      var meLookup = players.find(function(p){ return p.id === parts[0]; });
+                if (!meLookup) return;
+                var meSlug = (meLookup.full_name||'').replace(/[^a-zA-Z0-9]/g,'').slice(0,12);
                       var mirrorMid = found.id + '_' + date2 + '_' + meSlug;
                       if (val) localStorage.setItem("ts_mc_" + mirrorMid, val);
                       else localStorage.removeItem("ts_mc_" + mirrorMid);
