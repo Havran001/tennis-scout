@@ -1,3 +1,113 @@
+// ═══ Shared fuzzy player lookup (= top-level, dostupná všude) ═══
+if (typeof window!=='undefined' && !window.__tsFuzzyFindPlayer) {
+  window.__tsFuzzyFindPlayer = function(query, playersList) {
+    if (!query || !playersList || !playersList.length) return null;
+    
+    function _norm(s) {
+      return String(s||'')
+        .toLowerCase()
+        .normalize('NFD').replace(new RegExp('[\u0300-\u036f]','g'),'')
+        .replace(/[^a-z]/g, '');
+    }
+    
+    function _lev(a, b) {
+      if (Math.abs(a.length - b.length) > 3) return 99;
+      var m = a.length, n = b.length;
+      if (!m) return n; if (!n) return m;
+      var prev = new Array(n + 1);
+      for (var j = 0; j <= n; j++) prev[j] = j;
+      for (var i = 1; i <= m; i++) {
+        var curr = [i];
+        for (var j2 = 1; j2 <= n; j2++) {
+          curr[j2] = a[i-1] === b[j2-1] 
+            ? prev[j2-1] 
+            : 1 + Math.min(prev[j2-1], prev[j2], curr[j2-1]);
+        }
+        prev = curr;
+      }
+      return prev[n];
+    }
+    
+    var qNorm = _norm(query);
+    if (!qNorm) return null;
+    
+    // Strategy 1: Exact full match
+    var exact = playersList.find(function(p) {
+      return _norm(p.full_name || p.name || '') === qNorm;
+    });
+    if (exact) return exact;
+    
+    // Strategy 2: Last name exact match
+    var qParts = String(query).trim().split(/\s+/);
+    var qLast = qParts.length > 0 ? _norm(qParts[qParts.length - 1]) : '';
+    
+    if (qLast && qLast.length >= 3) {
+      var lastMatches = playersList.filter(function(p) {
+        var fn = String(p.full_name || p.name || '').trim();
+        var parts = fn.split(/\s+/);
+        if (parts.length === 0) return false;
+        return _norm(parts[parts.length - 1]) === qLast;
+      });
+      
+      if (lastMatches.length === 1) return lastMatches[0];
+      
+      if (lastMatches.length > 1) {
+        var qFirst = qParts.length > 1 ? _norm(qParts[0]) : '';
+        if (qFirst && qFirst.length >= 2) {
+          var byBoth = lastMatches.find(function(p) {
+            var fn = String(p.full_name || p.name || '').trim();
+            var parts = fn.split(/\s+/);
+            return parts.length > 0 && _norm(parts[0]) === qFirst;
+          });
+          if (byBoth) return byBoth;
+          
+          var byBothFuzzy = lastMatches.find(function(p) {
+            var fn = String(p.full_name || p.name || '').trim();
+            var parts = fn.split(/\s+/);
+            if (parts.length === 0) return false;
+            return _lev(qFirst, _norm(parts[0])) <= 2;
+          });
+          if (byBothFuzzy) return byBothFuzzy;
+          
+          var byInitial = lastMatches.find(function(p) {
+            var fn = String(p.full_name || p.name || '').trim();
+            var parts = fn.split(/\s+/);
+            return parts.length > 0 && _norm(parts[0]).charAt(0) === qFirst.charAt(0);
+          });
+          if (byInitial) return byInitial;
+        }
+        return lastMatches[0];
+      }
+    }
+    
+    // Strategy 3: Levenshtein <= 2 na celém jménu
+    var fuzzy = null;
+    var bestDist = 99;
+    for (var i = 0; i < playersList.length; i++) {
+      var p = playersList[i];
+      var fnNorm = _norm(p.full_name || p.name || '');
+      if (!fnNorm || Math.abs(fnNorm.length - qNorm.length) > 3) continue;
+      var d = _lev(qNorm, fnNorm);
+      if (d <= 2 && d < bestDist) {
+        bestDist = d;
+        fuzzy = p;
+      }
+    }
+    if (fuzzy) return fuzzy;
+    
+    // Strategy 4: Prefix match
+    var prefix = playersList.find(function(p) {
+      var fn = _norm(p.full_name || p.name || '');
+      if (!fn || fn.length < 5) return false;
+      var minLen = Math.min(fn.length, qNorm.length);
+      if (minLen < 5) return false;
+      return fn.slice(0, minLen) === qNorm.slice(0, minLen);
+    });
+    
+    return prefix || null;
+  };
+}
+
 // v1776422048
 // ==========================================================
 // 🎾 TENNIS SCOUT — LIVE CALENDAR v5.0
@@ -1679,116 +1789,6 @@ function _renderMatches(){
               (function(){
                 var parts=mid.split('_');
   
-  // ═══ Shared fuzzy player lookup (= zachytí varianty pravopisu jako "Alexandr" vs "Alexander") ═══
-  if (typeof window!=='undefined' && !window.__tsFuzzyFindPlayer) {
-    window.__tsFuzzyFindPlayer = function(query, playersList) {
-      if (!query || !playersList || !playersList.length) return null;
-      
-      function _norm(s) {
-        return String(s||'')
-          .toLowerCase()
-          .normalize('NFD').replace(new RegExp('[\u0300-\u036f]','g'),'')
-          .replace(/[^a-z]/g, '');
-      }
-      
-      function _lev(a, b) {
-        if (Math.abs(a.length - b.length) > 3) return 99;
-        var m = a.length, n = b.length;
-        if (!m) return n; if (!n) return m;
-        var prev = new Array(n + 1);
-        for (var j = 0; j <= n; j++) prev[j] = j;
-        for (var i = 1; i <= m; i++) {
-          var curr = [i];
-          for (var j2 = 1; j2 <= n; j2++) {
-            curr[j2] = a[i-1] === b[j2-1] 
-              ? prev[j2-1] 
-              : 1 + Math.min(prev[j2-1], prev[j2], curr[j2-1]);
-          }
-          prev = curr;
-        }
-        return prev[n];
-      }
-      
-      var qNorm = _norm(query);
-      if (!qNorm) return null;
-      
-      // Strategy 1: Exact full match
-      var exact = playersList.find(function(p) {
-        return _norm(p.full_name || p.name || '') === qNorm;
-      });
-      if (exact) return exact;
-      
-      // Strategy 2: Last name exact match (= "binda" matches "alexander binda")
-      var qParts = String(query).trim().split(/\s+/);
-      var qLast = qParts.length > 0 ? _norm(qParts[qParts.length - 1]) : '';
-      
-      if (qLast && qLast.length >= 3) {
-        var lastMatches = playersList.filter(function(p) {
-          var fn = String(p.full_name || p.name || '').trim();
-          var parts = fn.split(/\s+/);
-          if (parts.length === 0) return false;
-          return _norm(parts[parts.length - 1]) === qLast;
-        });
-        
-        if (lastMatches.length === 1) return lastMatches[0];
-        
-        if (lastMatches.length > 1) {
-          var qFirst = qParts.length > 1 ? _norm(qParts[0]) : '';
-          if (qFirst && qFirst.length >= 2) {
-            var byBoth = lastMatches.find(function(p) {
-              var fn = String(p.full_name || p.name || '').trim();
-              var parts = fn.split(/\s+/);
-              return parts.length > 0 && _norm(parts[0]) === qFirst;
-            });
-            if (byBoth) return byBoth;
-            
-            // Levenshtein <= 2 na first name (= "alexandr" matches "alexander")
-            var byBothFuzzy = lastMatches.find(function(p) {
-              var fn = String(p.full_name || p.name || '').trim();
-              var parts = fn.split(/\s+/);
-              if (parts.length === 0) return false;
-              return _lev(qFirst, _norm(parts[0])) <= 2;
-            });
-            if (byBothFuzzy) return byBothFuzzy;
-            
-            var byInitial = lastMatches.find(function(p) {
-              var fn = String(p.full_name || p.name || '').trim();
-              var parts = fn.split(/\s+/);
-              return parts.length > 0 && _norm(parts[0]).charAt(0) === qFirst.charAt(0);
-            });
-            if (byInitial) return byInitial;
-          }
-          return lastMatches[0];
-        }
-      }
-      
-      // Strategy 3: Levenshtein <= 2 na celém jménu
-      var fuzzy = null;
-      var bestDist = 99;
-      for (var i = 0; i < playersList.length; i++) {
-        var p = playersList[i];
-        var fnNorm = _norm(p.full_name || p.name || '');
-        if (!fnNorm || Math.abs(fnNorm.length - qNorm.length) > 3) continue;
-        var d = _lev(qNorm, fnNorm);
-        if (d <= 2 && d < bestDist) {
-          bestDist = d;
-          fuzzy = p;
-        }
-      }
-      if (fuzzy) return fuzzy;
-      
-      // Strategy 4: Prefix match (= zachová původní behavior)
-      var prefix = playersList.find(function(p) {
-        var fn = _norm(p.full_name || p.name || '');
-        if (!fn || fn.length < 5) return false;
-        var minLen = Math.min(fn.length, qNorm.length);
-        if (minLen < 5) return false;
-        return fn.slice(0, minLen) === qNorm.slice(0, minLen);
-      });
-      
-      return prefix || null;
-    };
-  }
 
               if(parts.length<3)return;
                 var date2=parts[1];
