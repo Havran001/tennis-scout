@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Maxim Groysman",
   "source": "tennisabstract",
-  "updated": "2026-04-30T07:57:14.355Z",
+  "updated": "2026-05-05T23:44:53.861Z",
   "matches": [
     {
       "date": "2025-05-19",
@@ -50,7 +50,10 @@
       "second_pct": "24",
       "bp_saved": "10",
       "match_time": "9",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.23,
+      "odds_opp": 3.55,
+      "odds_src": "bid45"
     }
   ]
 }
