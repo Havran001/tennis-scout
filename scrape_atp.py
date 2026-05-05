@@ -211,20 +211,99 @@ for p in all_players:
 
 print(f'  TA candidates: {len(ta_candidates)} players')
 
-# Fetch sequentially with 1.2s gap (codetabs rate limit)
-ta_fixes = 0
+# Fetch with retry strategy:
+#   Pass 1: 1.2s gap (codetabs rate limit) - majority of fetches
+#   Pass 2 (retry): 3s gap for those that failed in Pass 1
+#   Pass 3 (Wikipedia): for stubborn cases, try Wikipedia API
 import time
-for p in ta_candidates:
-    pid, peak, first = fetch_ta_peakrank(p)
+
+def apply_ta_result(p, peak, first, source='TennisAbstract peakrank'):
+    """Helper: apply CH from TA/Wiki result if it improves current value."""
     if peak and (p.get('ch') is None or peak < p.get('ch', 99999)):
         p['ch'] = peak
         if first and len(first) == 8:
             p['ch_date'] = f'{first[0:4]}-{first[4:6]}-{first[6:8]}'
-        p['ch_source'] = 'TennisAbstract peakrank'
-        ta_fixes += 1
-    time.sleep(1.2)  # respect codetabs rate limit
+        p['ch_source'] = source
+        return True
+    return False
 
-print(f'  TA fixed CH for {ta_fixes} players')
+def fetch_wikipedia_ch(player):
+    """Fallback: parse Wikipedia infobox for career-high singles ranking."""
+    full_name = player.get('full_name', '') or player.get('name', '')
+    if not full_name:
+        return None, None
+    # Try Wikipedia REST API for the page
+    page_title = full_name.replace(' ', '_')
+    url = f'https://en.wikipedia.org/w/api.php?action=parse&page={page_title}&format=json&prop=wikitext&section=0'
+    try:
+        r = requests.get(url, timeout=10, headers={'User-Agent': 'TennisScoutBot/1.0'})
+        if r.status_code != 200:
+            return None, None
+        data = r.json()
+        wikitext = data.get('parse', {}).get('wikitext', {}).get('*', '')
+        if not wikitext:
+            return None, None
+        # Hledame: 'career-high ATP singles ranking of world No. XX' nebo podobne
+        m_rank = re.search(r"[cC]areer-high\s+(?:ATP\s+)?singles?\s+rank(?:ing)?\s+of\s+(?:world\s+)?[Nn]o\.?\s*(\d+)", wikitext)
+        if not m_rank:
+            # Alternativni: |careerhighsingles = 99
+            m_rank = re.search(r"\|\s*careerhighsingles\s*=\s*(\d+)", wikitext)
+        if not m_rank:
+            return None, None
+        peak = int(m_rank.group(1))
+        # Hledame datum
+        m_date = re.search(r"achieved\s+on\s+(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", wikitext)
+        first = None
+        if m_date:
+            day, month_name, year = m_date.group(1), m_date.group(2), m_date.group(3)
+            months = {'January':'01','February':'02','March':'03','April':'04','May':'05','June':'06',
+                      'July':'07','August':'08','September':'09','October':'10','November':'11','December':'12'}
+            mm = months.get(month_name, None)
+            if mm:
+                first = f'{year}{mm}{int(day):02d}'
+        return peak, first
+    except Exception:
+        return None, None
+
+# ─── Pass 1: TA fetch with 1.2s gap ───
+ta_fixes = 0
+ta_failures = []  # list of player dicts that failed Pass 1
+for p in ta_candidates:
+    pid, peak, first = fetch_ta_peakrank(p)
+    if peak:
+        if apply_ta_result(p, peak, first):
+            ta_fixes += 1
+    else:
+        ta_failures.append(p)
+    time.sleep(1.2)
+
+print(f'  Pass 1: TA fixed CH for {ta_fixes} players, {len(ta_failures)} failures')
+
+# ─── Pass 2: Retry failed with 3s gap ───
+retry_fixes = 0
+still_failed = []
+for p in ta_failures:
+    pid, peak, first = fetch_ta_peakrank(p)
+    if peak:
+        if apply_ta_result(p, peak, first):
+            retry_fixes += 1
+    else:
+        still_failed.append(p)
+    time.sleep(3.0)  # delsi gap aby unikl rate limit
+
+print(f'  Pass 2 (retry 3s gap): fixed {retry_fixes} more players, {len(still_failed)} still failed')
+
+# ─── Pass 3: Wikipedia fallback for stubborn cases ───
+wiki_fixes = 0
+for p in still_failed[:50]:  # cap na 50 aby nebylo prilis pomale
+    peak, first = fetch_wikipedia_ch(p)
+    if peak:
+        if apply_ta_result(p, peak, first, source='Wikipedia infobox'):
+            wiki_fixes += 1
+    time.sleep(0.5)  # Wikipedia API gentle rate limit
+
+print(f'  Pass 3 (Wikipedia fallback): fixed {wiki_fixes} players (from first 50 of {len(still_failed)} stubborn)')
+print(f'  TOTAL CH fixes: TA Pass 1={ta_fixes}, Pass 2={retry_fixes}, Wiki={wiki_fixes} = {ta_fixes + retry_fixes + wiki_fixes}/{len(ta_candidates)} ({(ta_fixes + retry_fixes + wiki_fixes)*100//max(len(ta_candidates),1)}% success)')
 
 # ── STEP 6: Apply manual overrides ───────────────────────────────
 OVERRIDES_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/career_high_overrides.json'
