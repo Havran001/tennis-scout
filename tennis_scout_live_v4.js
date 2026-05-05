@@ -108,7 +108,27 @@ if (typeof window!=='undefined' && !window.__tsFuzzyFindPlayer) {
       }
     }
     
-    // Strategy 3: Levenshtein <= 2 na celém jménu
+    // Strategy 3a: Long prefix match (>= 10 chars) - vysoka specificka duvera
+    // Toto ma PREDNOST pred Levenshtein, dlouhy prefix je obvykle pravy hrac
+    // (= "FedericoArna" matche "FedericoArnaboldi", ne "FedericoCina" lev=2)
+    var longPrefix = null;
+    var longestPrefixLen = 0;
+    for (var ip = 0; ip < playersList.length; ip++) {
+      var pp = playersList[ip];
+      var fnp = _norm(pp.full_name || pp.name || '');
+      if (!fnp || fnp.length < 5) continue;
+      var minLenP = Math.min(fnp.length, qNorm.length);
+      if (minLenP < 10) continue;
+      if (fnp.slice(0, minLenP) === qNorm.slice(0, minLenP)) {
+        if (minLenP > longestPrefixLen) {
+          longestPrefixLen = minLenP;
+          longPrefix = pp;
+        }
+      }
+    }
+    if (longPrefix) return longPrefix;
+    
+    // Strategy 3b: Levenshtein <= 2 na celem jmenu (= jen pro kratke queries)
     var fuzzy = null;
     var bestDist = 99;
     for (var i = 0; i < playersList.length; i++) {
@@ -123,7 +143,7 @@ if (typeof window!=='undefined' && !window.__tsFuzzyFindPlayer) {
     }
     if (fuzzy) return fuzzy;
     
-    // Strategy 4: Prefix match
+    // Strategy 4: Prefix match (kratky prefix >= 5 chars) jako posledni fallback
     var prefix = playersList.find(function(p) {
       var fn = _norm(p.full_name || p.name || '');
       if (!fn || fn.length < 5) return false;
