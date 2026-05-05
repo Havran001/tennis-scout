@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Michael Agwi",
   "source": "tennisabstract",
-  "updated": "2026-05-04T07:09:19.156Z",
+  "updated": "2026-05-05T22:52:08.803Z",
   "matches": [
     {
       "date": "2026-03-23",
@@ -1973,7 +1973,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.01,
+      "odds_opp": 11,
+      "odds_src": "bid46"
     },
     {
       "date": "2024-08-19",
