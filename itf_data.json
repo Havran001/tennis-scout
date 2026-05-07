@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T06:24:00Z",
+  "updated": "2026-05-07T06:44:04Z",
   "year": 2026,
   "count": 793,
   "items": [
@@ -3744,7 +3744,7 @@
       "end": "2026-05-16"
     },
     {
-      "name": "KURUME ",
+      "name": "Kurume",
       "loc": "KURUME",
       "country": "JPN",
       "cat": "ITF",
@@ -4475,7 +4475,7 @@
     },
     {
       "name": "CIRCUITO INTERNACIONALES COMUNIDAD VALENCIANA ",
-      "loc": "Elche",
+      "loc": "Oliva",
       "country": "ESP",
       "cat": "ITF",
       "tier": "W15",
@@ -6934,6 +6934,16 @@
       "end": "2026-08-02"
     },
     {
+      "name": "W50 Dublin",
+      "loc": "Dublin",
+      "country": "IRL",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Carpet",
+      "start": "2026-07-27",
+      "end": "2026-08-02"
+    },
+    {
       "name": "McLeod for Health Florence Open",
       "loc": "Florence",
       "country": "USA",
@@ -6960,16 +6970,6 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
-      "start": "2026-07-27",
-      "end": "2026-08-02"
-    },
-    {
-      "name": "W15 Dublin",
-      "loc": "Dublin",
-      "country": "IRL",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Carpet",
       "start": "2026-07-27",
       "end": "2026-08-02"
     },
