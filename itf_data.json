@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T06:44:04Z",
+  "updated": "2026-05-08T06:03:37Z",
   "year": 2026,
   "count": 793,
   "items": [
@@ -3464,16 +3464,6 @@
       "end": "2026-05-10"
     },
     {
-      "name": "Magic Hotel Tours by FTT\t",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
-      "start": "2026-05-04",
-      "end": "2026-05-10"
-    },
-    {
       "name": "Tumakuru ITF Women's W35",
       "loc": "Tumkur",
       "country": "IND",
@@ -3487,6 +3477,16 @@
       "name": "2026 ITF Orion Dr.You Changwon International Woman's Tennis Championship",
       "loc": "Changwon",
       "country": "KOR",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-05-04",
+      "end": "2026-05-10"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
       "cat": "ITF",
       "tier": "W35",
       "surf": "Hard",
@@ -3734,22 +3734,22 @@
       "end": "2026-05-16"
     },
     {
-      "name": "W75 Zagreb",
-      "loc": "Zagreb",
-      "country": "CRO",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Clay",
-      "start": "2026-05-11",
-      "end": "2026-05-16"
-    },
-    {
       "name": "Kurume",
       "loc": "KURUME",
       "country": "JPN",
       "cat": "ITF",
       "tier": "W75",
       "surf": "Carpet",
+      "start": "2026-05-11",
+      "end": "2026-05-17"
+    },
+    {
+      "name": "W75 Zagreb",
+      "loc": "Zagreb",
+      "country": "CRO",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Clay",
       "start": "2026-05-11",
       "end": "2026-05-17"
     },
@@ -3814,16 +3814,6 @@
       "end": "2026-05-17"
     },
     {
-      "name": "W15 GABORONE",
-      "loc": "Gaborone",
-      "country": "BOT",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-05-11",
-      "end": "2026-05-17"
-    },
-    {
       "name": "W15 Klagenfurt",
       "loc": "Warmbad Villach",
       "country": "AUT",
@@ -3832,6 +3822,16 @@
       "surf": "Clay",
       "start": "2026-05-11",
       "end": "2026-05-16"
+    },
+    {
+      "name": "W15 GABORONE",
+      "loc": "Gaborone",
+      "country": "BOT",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-05-11",
+      "end": "2026-05-17"
     },
     {
       "name": "ITF Women's World Tennis Tour (3)",
@@ -4124,6 +4124,16 @@
       "end": "2026-05-23"
     },
     {
+      "name": "ENE CONSTRUCCION WOMENS OPEN",
+      "loc": "ESTEPONA",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-05-18",
+      "end": "2026-05-24"
+    },
+    {
       "name": "Bluesun Bol Open ",
       "loc": "Bol",
       "country": "CRO",
@@ -4147,16 +4157,6 @@
       "name": "2026  Wuning Open",
       "loc": "Wuning",
       "country": "CHN",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
-      "start": "2026-05-18",
-      "end": "2026-05-24"
-    },
-    {
-      "name": "ENE CONSTRUCCION WOMENS OPEN",
-      "loc": "ESTEPONA",
-      "country": "ESP",
       "cat": "ITF",
       "tier": "W35",
       "surf": "Hard",
@@ -4190,6 +4190,16 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
+      "start": "2026-05-18",
+      "end": "2026-05-24"
+    },
+    {
+      "name": "Tsaghkadzor Spring Cup",
+      "loc": "Tsaghkadzor",
+      "country": "ARM",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
       "start": "2026-05-18",
       "end": "2026-05-24"
     },
@@ -4230,16 +4240,6 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
-      "start": "2026-05-18",
-      "end": "2026-05-23"
-    },
-    {
-      "name": "Tsaghkadzor Spring Cup",
-      "loc": "Tsaghkadzor",
-      "country": "ARM",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Clay",
       "start": "2026-05-18",
       "end": "2026-05-23"
     },
@@ -4294,16 +4294,6 @@
       "end": "2026-05-30"
     },
     {
-      "name": "Tsaghkadzor Spring Open",
-      "loc": "Tsaghkadzor",
-      "country": "ARM",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-05-25",
-      "end": "2026-05-30"
-    },
-    {
       "name": "USTA Pro Series - A USTA Pro Circuit Event M15 ",
       "loc": "Lakewood, CA",
       "country": "USA",
@@ -4337,6 +4327,16 @@
       "name": "Brcko Open 2026",
       "loc": "Brcko",
       "country": "BIH",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-05-25",
+      "end": "2026-05-31"
+    },
+    {
+      "name": "Tsaghkadzor Spring Open",
+      "loc": "Tsaghkadzor",
+      "country": "ARM",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -4414,16 +4414,6 @@
       "end": "2026-05-31"
     },
     {
-      "name": "Wichita Tennis Open",
-      "loc": "Wichita, KS",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
-      "start": "2026-05-25",
-      "end": "2026-05-31"
-    },
-    {
       "name": "2026  Wuning Open",
       "loc": "Wuning",
       "country": "CHN",
@@ -4434,11 +4424,11 @@
       "end": "2026-05-31"
     },
     {
-      "name": "W15 Fukui  Daito Kentaku Open",
-      "loc": "Fukui",
-      "country": "JPN",
+      "name": "Wichita Tennis Open",
+      "loc": "Wichita, KS",
+      "country": "USA",
       "cat": "ITF",
-      "tier": "W15",
+      "tier": "W35",
       "surf": "Hard",
       "start": "2026-05-25",
       "end": "2026-05-31"
@@ -4464,6 +4454,26 @@
       "end": "2026-05-31"
     },
     {
+      "name": "W15 Fukui  Daito Kentaku Open",
+      "loc": "Fukui",
+      "country": "JPN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-05-25",
+      "end": "2026-05-31"
+    },
+    {
+      "name": "W15 Lakewood, CA",
+      "loc": "Lakewood, CA",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-05-25",
+      "end": "2026-05-31"
+    },
+    {
       "name": "Magic Hotel Tours by FTT\t",
       "loc": "Monastir",
       "country": "TUN",
@@ -4480,16 +4490,6 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
-      "start": "2026-05-25",
-      "end": "2026-05-31"
-    },
-    {
-      "name": "W15 Lakewood, CA",
-      "loc": "Lakewood, CA",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
       "start": "2026-05-25",
       "end": "2026-05-31"
     },
@@ -4547,6 +4547,16 @@
       "name": "Bravos Open",
       "loc": "Szentendre",
       "country": "HUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-01",
+      "end": "2026-06-07"
+    },
+    {
+      "name": "Tsaghkadzor Spring Cup",
+      "loc": "Tsaghkadzor",
+      "country": "ARM",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -4612,16 +4622,6 @@
       "surf": "Clay",
       "start": "2026-06-01",
       "end": "2026-06-07"
-    },
-    {
-      "name": "Tsaghkadzor Spring Cup",
-      "loc": "Tsaghkadzor",
-      "country": "ARM",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-06-01",
-      "end": "2026-06-06"
     },
     {
       "name": "Palmetto Pro Open",
@@ -7814,16 +7814,6 @@
       "end": "2026-10-18"
     },
     {
-      "name": "M15 Singapore ITF World Tennis Tour (III) 2026",
-      "loc": "Singapore",
-      "country": "SGP",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-10-12",
-      "end": "2026-10-18"
-    },
-    {
       "name": "Kikuxi Open II",
       "loc": "Luanda",
       "country": "ANG",
@@ -7882,6 +7872,16 @@
       "surf": "Hard",
       "start": "2026-10-26",
       "end": "2026-10-31"
+    },
+    {
+      "name": "M15 Singapore ITF World Tennis Tour (III) 2026",
+      "loc": "Singapore",
+      "country": "SGP",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
     },
     {
       "name": "M15 Las Palmas de Gran Canaria",
