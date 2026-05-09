@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T06:03:37Z",
+  "updated": "2026-05-09T06:22:34Z",
   "year": 2026,
   "count": 793,
   "items": [
@@ -3744,9 +3744,9 @@
       "end": "2026-05-17"
     },
     {
-      "name": "W75 Zagreb",
-      "loc": "Zagreb",
-      "country": "CRO",
+      "name": " ITF WTT W75 \" Empire Tennis Academy Open 2026\"",
+      "loc": "Trnava",
+      "country": "SVK",
       "cat": "ITF",
       "tier": "W75",
       "surf": "Clay",
@@ -3754,9 +3754,9 @@
       "end": "2026-05-17"
     },
     {
-      "name": " ITF WTT W75 \" Empire Tennis Academy Open 2026\"",
-      "loc": "Trnava",
-      "country": "SVK",
+      "name": "W75 Zagreb",
+      "loc": "Zagreb",
+      "country": "CRO",
       "cat": "ITF",
       "tier": "W75",
       "surf": "Clay",
@@ -4004,6 +4004,16 @@
       "end": "2026-05-24"
     },
     {
+      "name": "M15 GABORONE",
+      "loc": "Gaborone",
+      "country": "BOT",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-05-18",
+      "end": "2026-05-24"
+    },
+    {
       "name": "CIRCUITO PARANÁ USACUCAR CUP ITF M15 (1)",
       "loc": "Maringa",
       "country": "BRA",
@@ -4032,16 +4042,6 @@
       "surf": "Clay",
       "start": "2026-05-18",
       "end": "2026-05-24"
-    },
-    {
-      "name": "M15 GABORONE",
-      "loc": "Gaborone",
-      "country": "BOT",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-05-18",
-      "end": "2026-05-23"
     },
     {
       "name": "M15 Klagenfurt",
@@ -4114,16 +4114,6 @@
       "end": "2026-05-24"
     },
     {
-      "name": "W35 Klagenfurt",
-      "loc": "Klagenfurt",
-      "country": "AUT",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-05-18",
-      "end": "2026-05-23"
-    },
-    {
       "name": "ENE CONSTRUCCION WOMENS OPEN",
       "loc": "ESTEPONA",
       "country": "ESP",
@@ -4134,14 +4124,14 @@
       "end": "2026-05-24"
     },
     {
-      "name": "Bluesun Bol Open ",
-      "loc": "Bol",
-      "country": "CRO",
+      "name": "W35 Klagenfurt",
+      "loc": "Klagenfurt",
+      "country": "AUT",
       "cat": "ITF",
       "tier": "W35",
       "surf": "Clay",
       "start": "2026-05-18",
-      "end": "2026-05-24"
+      "end": "2026-05-23"
     },
     {
       "name": "2026 ITF Changwon International Women's Tennis Tour",
@@ -4160,6 +4150,16 @@
       "cat": "ITF",
       "tier": "W35",
       "surf": "Hard",
+      "start": "2026-05-18",
+      "end": "2026-05-24"
+    },
+    {
+      "name": "Bluesun Bol Open ",
+      "loc": "Bol",
+      "country": "CRO",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
       "start": "2026-05-18",
       "end": "2026-05-24"
     },
@@ -4194,16 +4194,6 @@
       "end": "2026-05-24"
     },
     {
-      "name": "Tsaghkadzor Spring Cup",
-      "loc": "Tsaghkadzor",
-      "country": "ARM",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Clay",
-      "start": "2026-05-18",
-      "end": "2026-05-24"
-    },
-    {
       "name": "W15 Grado",
       "loc": "Grado",
       "country": "ITA",
@@ -4224,6 +4214,26 @@
       "end": "2026-05-24"
     },
     {
+      "name": "W15 GABORONE",
+      "loc": "Gaborone",
+      "country": "BOT",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-05-18",
+      "end": "2026-05-24"
+    },
+    {
+      "name": "Tsaghkadzor Spring Cup",
+      "loc": "Tsaghkadzor",
+      "country": "ARM",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-05-18",
+      "end": "2026-05-24"
+    },
+    {
       "name": "W15 Kayseri",
       "loc": "Kayseri",
       "country": "TUR",
@@ -4232,16 +4242,6 @@
       "surf": "Hard",
       "start": "2026-05-18",
       "end": "2026-05-24"
-    },
-    {
-      "name": "W15 GABORONE",
-      "loc": "Gaborone",
-      "country": "BOT",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-05-18",
-      "end": "2026-05-23"
     },
     {
       "name": "XXIX edizione Torneo Internazionale Città di Grado Tennis Cup",
@@ -4414,6 +4414,16 @@
       "end": "2026-05-31"
     },
     {
+      "name": "Wichita Tennis Open",
+      "loc": "Wichita, KS",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-05-25",
+      "end": "2026-05-31"
+    },
+    {
       "name": "2026  Wuning Open",
       "loc": "Wuning",
       "country": "CHN",
@@ -4424,11 +4434,11 @@
       "end": "2026-05-31"
     },
     {
-      "name": "Wichita Tennis Open",
-      "loc": "Wichita, KS",
-      "country": "USA",
+      "name": "W15 Fukui  Daito Kentaku Open",
+      "loc": "Fukui",
+      "country": "JPN",
       "cat": "ITF",
-      "tier": "W35",
+      "tier": "W15",
       "surf": "Hard",
       "start": "2026-05-25",
       "end": "2026-05-31"
@@ -4454,26 +4464,6 @@
       "end": "2026-05-31"
     },
     {
-      "name": "W15 Fukui  Daito Kentaku Open",
-      "loc": "Fukui",
-      "country": "JPN",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-05-25",
-      "end": "2026-05-31"
-    },
-    {
-      "name": "W15 Lakewood, CA",
-      "loc": "Lakewood, CA",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-05-25",
-      "end": "2026-05-31"
-    },
-    {
       "name": "Magic Hotel Tours by FTT\t",
       "loc": "Monastir",
       "country": "TUN",
@@ -4490,6 +4480,16 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
+      "start": "2026-05-25",
+      "end": "2026-05-31"
+    },
+    {
+      "name": "W15 Lakewood, CA",
+      "loc": "Lakewood, CA",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
       "start": "2026-05-25",
       "end": "2026-05-31"
     },
@@ -4894,22 +4894,22 @@
       "end": "2026-06-14"
     },
     {
-      "name": "CITTA' DI MESSINA INTERNAZIONALI DI TENNIS",
-      "loc": "Messina",
-      "country": "ITA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-06-08",
-      "end": "2026-06-13"
-    },
-    {
       "name": "Wasa Open",
       "loc": "Vaasa",
       "country": "FIN",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
+      "start": "2026-06-08",
+      "end": "2026-06-14"
+    },
+    {
+      "name": "CITTA' DI MESSINA INTERNAZIONALI DI TENNIS",
+      "loc": "Messina",
+      "country": "ITA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
       "start": "2026-06-08",
       "end": "2026-06-14"
     },
