@@ -210,7 +210,62 @@ async function fetchBeText(path) {
   return r.text();
 }
 
+// ═══ PERSISTENT BE CACHE ═══
+const BE_CACHE_DIR = 'cache/be_daily';
+
+async function loadDailyCache(key) {
+  try {
+    const meta = await ghGet(`${BE_CACHE_DIR}/${key}.json`);
+    if (!meta) return null;
+    const utf8 = Buffer.from(meta.content, 'base64').toString('utf-8');
+    const parsed = JSON.parse(utf8);
+    
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    const [yy, mm, dd] = key.split('-').map(Number);
+    const dayDate = new Date(yy, mm-1, dd);
+    const daysAgo = Math.round((today.getTime() - dayDate.getTime()) / 86400000);
+    
+    if (daysAgo >= 2) {
+      return { matches: parsed.matches || [], sha: meta.sha };
+    }
+    
+    const cachedAt = parsed.cached_at ? new Date(parsed.cached_at) : null;
+    if (cachedAt && (Date.now() - cachedAt.getTime()) < 24 * 3600 * 1000) {
+      return { matches: parsed.matches || [], sha: meta.sha };
+    }
+    
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
+async function saveDailyCache(key, matches, existingSha) {
+  try {
+    const content = JSON.stringify({
+      key,
+      cached_at: new Date().toISOString(),
+      matches
+    });
+    await ghPut(
+      `${BE_CACHE_DIR}/${key}.json`,
+      content,
+      existingSha,
+      `cache: BE daily ${key} (${matches.length} matches)`
+    );
+  } catch (e) {
+    console.warn(`  cache save FAILED ${key}: ${e.message}`);
+  }
+}
+
 async function fetchDailyResults(yyyy, mm, dd) {
+  const cacheKey = `${yyyy}-${String(mm).padStart(2, '0')}-${String(dd).padStart(2, '0')}`;
+  const cached = await loadDailyCache(cacheKey);
+  if (cached) {
+    return cached.matches;
+  }
+  
   const path = `/tennis/results/?year=${yyyy}&month=${String(mm).padStart(2, '0')}&day=${String(dd).padStart(2, '0')}`;
   let html;
   try {
@@ -232,6 +287,7 @@ async function fetchDailyResults(yyyy, mm, dd) {
     if (/doubles/.test(category)) continue;
     out.push({ category, slug, mid });
   }
+  saveDailyCache(cacheKey, out, null).catch(()=>{});
   return out;
 }
 
