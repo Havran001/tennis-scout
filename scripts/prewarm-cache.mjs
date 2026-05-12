@@ -5,8 +5,6 @@
 //   node scripts/prewarm-cache.mjs [days]
 //   node scripts/prewarm-cache.mjs 90  // default
 
-import { JSDOM } from 'jsdom';
-
 const TOKEN = process.env.GITHUB_TOKEN;
 const REPO = process.env.GITHUB_REPOSITORY || 'Havran001/tennis-scout';
 const BE_BASE = 'https://www.betexplorer.com';
