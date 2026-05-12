@@ -3,11 +3,11 @@
   "gs_id": "",
   "player_name": "Arthur Nagel",
   "source": "tennisabstract",
-  "updated": "2026-05-04T06:53:50.562Z",
+  "updated": "2026-05-12T17:41:51.327Z",
   "matches": [
     {
       "date": "2026-04-28",
-      "tournament": "Aix-en-Provence Challenger",
+      "tournament": "Aix-en-Provence CH",
       "surface": "Clay",
       "level": "ta-import",
       "round": "Q1",
@@ -26,6 +26,29 @@
       "second_pct": "43.8",
       "bp_saved": "5/10",
       "match_time": "1:32",
+      "odds": ""
+    },
+    {
+      "date": "2026-04-20",
+      "tournament": "M25 Angers",
+      "surface": "Clay",
+      "level": "ta-import",
+      "round": "R32",
+      "result": "L",
+      "opponent": "Sergio Callejon Hernando",
+      "score": "3-6 6-1 6-2",
+      "best_of": "",
+      "rank": "462",
+      "opp_rank": "445",
+      "dr": "0.74",
+      "a_pct": "2.3",
+      "va_pct": "6.2",
+      "df_pct": "6.9",
+      "first_in": "71.3",
+      "first_pct": "67.7",
+      "second_pct": "24.0",
+      "bp_saved": "10/14",
+      "match_time": "1:56",
       "odds": ""
     },
     {
