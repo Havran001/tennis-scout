@@ -3,22 +3,30 @@
   "gs_id": "",
   "player_name": "Valentin Lapalu",
   "source": "tennisabstract",
-  "updated": "2026-04-29T15:08:49.573Z",
+  "updated": "2026-05-12T18:53:24.772Z",
   "matches": [
     {
-      "id": "UTbAvtjK",
-      "date": "20260408",
-      "tournament": "ITF MEN - SINGLES: M15 Monastir 13 (Tunisia), hard",
+      "date": "2026-04-06",
+      "tournament": "M15 Monastir",
       "surface": "Hard",
-      "level": "A",
-      "round": "",
+      "level": "ta-import",
+      "round": "R32",
       "result": "L",
-      "opponent": "Donald M.",
-      "score": "0-2",
-      "best_of": "3",
-      "rank": "",
-      "opp_rank": "",
-      "src": "live"
+      "opponent": "Matthew William Donald",
+      "score": "7-5 6-2",
+      "best_of": "",
+      "rank": "1191",
+      "opp_rank": "553",
+      "dr": "0.80",
+      "a_pct": "0.0",
+      "va_pct": "3.0",
+      "df_pct": "5.1",
+      "first_in": "64.1",
+      "first_pct": "50.0",
+      "second_pct": "46.4",
+      "bp_saved": "6/12",
+      "match_time": "1:58",
+      "odds": ""
     },
     {
       "date": "2026-03-16",
@@ -1614,6 +1622,5 @@
       "odds_opp": 1.31,
       "odds_src": "bid417"
     }
-  ],
-  "total": 63
+  ]
 }
