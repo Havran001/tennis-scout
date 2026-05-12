@@ -1,0 +1,29 @@
+name: Pre-warm BE Cache
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Pocet dnu zpetne (default 90)'
+        required: false
+        default: '90'
+
+jobs:
+  prewarm:
+    runs-on: [self-hosted, mac]
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run pre-warm
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/prewarm-cache.mjs ${{ github.event.inputs.days || '90' }}
