@@ -212,6 +212,54 @@ async function fetchBeText(path) {
 
 // ═══ PERSISTENT BE CACHE ═══
 const BE_CACHE_DIR = 'cache/be_daily';
+const BE_ODDS_CACHE_DIR = 'cache/be_odds';
+
+async function loadOddsCache(mid) {
+  try {
+    const meta = await ghGet(`${BE_ODDS_CACHE_DIR}/${mid}.json`);
+    if (!meta) return null;
+    const utf8 = Buffer.from(meta.content, 'base64').toString('utf-8');
+    const parsed = JSON.parse(utf8);
+    
+    const cachedAt = parsed.cached_at ? new Date(parsed.cached_at) : null;
+    if (!cachedAt) return null;
+    
+    const ageMs = Date.now() - cachedAt.getTime();
+    
+    if (ageMs < 24 * 3600 * 1000) {
+      return { result: parsed.result, sha: meta.sha };
+    }
+    
+    if (parsed.match_date) {
+      const matchDate = new Date(parsed.match_date);
+      const matchAgeMs = Date.now() - matchDate.getTime();
+      if (matchAgeMs >= 7 * 86400 * 1000) {
+        return { result: parsed.result, sha: meta.sha };
+      }
+    }
+    
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
+async function saveOddsCache(mid, result, matchDate) {
+  try {
+    const content = JSON.stringify({
+      mid,
+      cached_at: new Date().toISOString(),
+      match_date: matchDate || null,
+      result
+    });
+    await ghPut(
+      `${BE_ODDS_CACHE_DIR}/${mid}.json`,
+      content,
+      null,
+      `cache: BE odds ${mid}${result ? '' : ' (null)'}`
+    );
+  } catch (e) {}
+}
 
 async function loadDailyCache(key) {
   try {
@@ -291,7 +339,13 @@ async function fetchDailyResults(yyyy, mm, dd) {
   return out;
 }
 
-async function fetchOddsForMid(mid) {
+async function fetchOddsForMid(mid, matchDate) {
+  // ═══ CACHE CHECK ═══
+  const cached = await loadOddsCache(mid);
+  if (cached) {
+    return cached.result;
+  }
+  
   const path = `/match-odds-old/${mid}/1/ha/1/en/`;
   let json;
   try {
@@ -305,10 +359,14 @@ async function fetchOddsForMid(mid) {
       json = JSON.parse(txt);
     } catch (e2) {
       console.warn(`  odds fetch FAILED 2x mid=${mid}: ${e2.message}`);
+      saveOddsCache(mid, null, matchDate).catch(()=>{});
       return null;
     }
   }
-  if (!json || !json.odds) return null;
+  if (!json || !json.odds) {
+    saveOddsCache(mid, null, matchDate).catch(()=>{});
+    return null;
+  }
   const dom = new JSDOM(`<!doctype html><body>${json.odds}</body>`);
   const doc = dom.window.document;
   const rows = Array.from(doc.querySelectorAll('tr[data-bid]'));
@@ -341,6 +399,7 @@ async function fetchOddsForMid(mid) {
       }
     }
   }
+  saveOddsCache(mid, chosen, matchDate).catch(()=>{});
   return chosen;
 }
 
@@ -572,7 +631,7 @@ async function processPlayer(pidFile) {
     const batchRes = await Promise.allSettled(batch.map(async (c) => {
       // V5 fallback: zkus kandidaty v poradi dokud nejaky neda odds
       for (const be of c.candidates) {
-        const chosen = await fetchOddsForMid(be.mid);
+        const chosen = await fetchOddsForMid(be.mid, c.hm.date);
         if (chosen) return { c, be, chosen };
       }
       return { c, be: null, chosen: null };
