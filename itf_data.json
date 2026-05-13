@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T06:42:11Z",
+  "updated": "2026-05-13T06:53:01Z",
   "year": 2026,
   "count": 835,
   "items": [
@@ -6104,7 +6104,7 @@
       "end": "2026-07-12"
     },
     {
-      "name": "M15 Rancho Santa Fe, CA",
+      "name": "SoCal Pro Series at RSF",
       "loc": "Rancho Santa Fe",
       "country": "USA",
       "cat": "ITF",
@@ -6180,16 +6180,6 @@
       "cat": "ITF",
       "tier": "W35",
       "surf": "Carpet",
-      "start": "2026-07-06",
-      "end": "2026-07-12"
-    },
-    {
-      "name": "W15 Rancho Santa Fe, CA",
-      "loc": "Rancho Santa Fe",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
       "start": "2026-07-06",
       "end": "2026-07-12"
     },
@@ -6284,7 +6274,7 @@
       "end": "2026-07-19"
     },
     {
-      "name": "M25 Louisville",
+      "name": "Louisville Next Gen",
       "loc": "Louisville",
       "country": "USA",
       "cat": "ITF",
@@ -7914,6 +7904,16 @@
       "end": "2026-10-04"
     },
     {
+      "name": "W100 Templeton, CA",
+      "loc": "Templeton",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W100",
+      "surf": "Hard",
+      "start": "2026-09-28",
+      "end": "2026-10-04"
+    },
+    {
       "name": "Internationaux de Reims-Champagne",
       "loc": "Reims",
       "country": "FRA",
@@ -8154,6 +8154,16 @@
       "end": "2026-11-01"
     },
     {
+      "name": "Internationaux Féminins de la Vienne",
+      "loc": "Poitiers",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
       "name": "Tevlin Challenger",
       "loc": "Toronto",
       "country": "CAN",
@@ -8167,16 +8177,6 @@
       "name": "Lexus British Pro Series Glasgow",
       "loc": "Glasgow",
       "country": "GBR",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Hard",
-      "start": "2026-10-26",
-      "end": "2026-11-01"
-    },
-    {
-      "name": "Internationaux Féminins de la Vienne",
-      "loc": "Poitiers",
-      "country": "FRA",
       "cat": "ITF",
       "tier": "W75",
       "surf": "Hard",
