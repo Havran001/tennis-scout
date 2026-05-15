@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T06:50:10Z",
+  "updated": "2026-05-15T07:29:43Z",
   "year": 2026,
   "count": 821,
   "items": [
@@ -4664,6 +4664,16 @@
       "end": "2026-06-07"
     },
     {
+      "name": "Brasilia Champions",
+      "loc": "Brasilia",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-06-01",
+      "end": "2026-06-07"
+    },
+    {
       "name": "Magic Hotel Tours by FTT\t",
       "loc": "Monastir",
       "country": "TUN",
@@ -4672,16 +4682,6 @@
       "surf": "Hard",
       "start": "2026-06-01",
       "end": "2026-06-07"
-    },
-    {
-      "name": "Brasilia Champions",
-      "loc": "Brasilia",
-      "country": "BRA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-06-01",
-      "end": "2026-06-08"
     },
     {
       "name": "Morocco Tennis Tour",
@@ -6174,7 +6174,7 @@
       "end": "2026-07-12"
     },
     {
-      "name": "W50 Columbus, OH",
+      "name": "Columbus 50k",
       "loc": "Columbus, OH",
       "country": "USA",
       "cat": "ITF",
@@ -6287,6 +6287,16 @@
       "name": "Curro Centre Court Series ",
       "loc": "Hillcrest ",
       "country": "RSA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-07-13",
+      "end": "2026-07-19"
+    },
+    {
+      "name": "Brisbane M15 - Week 1",
+      "loc": "Brisbane",
+      "country": "AUS",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Hard",
@@ -6410,16 +6420,6 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
-      "start": "2026-07-13",
-      "end": "2026-07-19"
-    },
-    {
-      "name": "Brisbane M15 - Week 1",
-      "loc": "Brisbane",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
       "start": "2026-07-13",
       "end": "2026-07-19"
     },
@@ -6964,6 +6964,16 @@
       "end": "2026-08-02"
     },
     {
+      "name": "Brisbane M15 - Week 3",
+      "loc": "Brisbane",
+      "country": "AUS",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-07-27",
+      "end": "2026-08-02"
+    },
+    {
       "name": "AMMAN Men's World Tennis Championship",
       "loc": "Bali",
       "country": "INA",
@@ -7050,6 +7060,16 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
+      "start": "2026-07-27",
+      "end": "2026-08-02"
+    },
+    {
+      "name": "Brisbane W15 - Week 3",
+      "loc": "Brisbane",
+      "country": "AUS",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
       "start": "2026-07-27",
       "end": "2026-08-02"
     },
@@ -7144,16 +7164,6 @@
       "end": "2026-08-09"
     },
     {
-      "name": "Brisbane M15 - Week 3",
-      "loc": "Brisbane",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-08-03",
-      "end": "2026-08-09"
-    },
-    {
       "name": "POLYTEX OPEN ",
       "loc": "Eupen",
       "country": "BEL",
@@ -7234,16 +7244,6 @@
       "end": "2026-08-09"
     },
     {
-      "name": "Brisbane W15 - Week 3",
-      "loc": "Brisbane",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-08-03",
-      "end": "2026-08-09"
-    },
-    {
       "name": "Vanajanlinna Ladies Tennis Open",
       "loc": "Hämeenlinna",
       "country": "FIN",
@@ -7274,6 +7274,16 @@
       "end": "2026-08-16"
     },
     {
+      "name": "M25 Koksijde",
+      "loc": "Koksijde",
+      "country": "BEL",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-08-10",
+      "end": "2026-08-16"
+    },
+    {
       "name": "M25 East Lansing, MI",
       "loc": "East Lansing",
       "country": "USA",
@@ -7294,32 +7304,12 @@
       "end": "2026-08-16"
     },
     {
-      "name": "M25 Koksijde",
-      "loc": "Koksijde",
-      "country": "BEL",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-08-10",
-      "end": "2026-08-16"
-    },
-    {
       "name": "Etges & Dächert Open Trier",
       "loc": "Trier",
       "country": "GER",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
-      "start": "2026-08-10",
-      "end": "2026-08-16"
-    },
-    {
-      "name": "Brisbane M15 - Week 4",
-      "loc": "Brisbane",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
       "start": "2026-08-10",
       "end": "2026-08-16"
     },
@@ -7340,6 +7330,16 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
+      "start": "2026-08-10",
+      "end": "2026-08-16"
+    },
+    {
+      "name": "Brisbane M15 - Week 4",
+      "loc": "Brisbane",
+      "country": "AUS",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
       "start": "2026-08-10",
       "end": "2026-08-16"
     },
@@ -7374,9 +7374,9 @@
       "end": "2026-08-15"
     },
     {
-      "name": "Brisbane W15 - Week 4",
-      "loc": "Brisbane",
-      "country": "AUS",
+      "name": "Astana Women`s Open 5",
+      "loc": "Astana",
+      "country": "KAZ",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -7384,9 +7384,9 @@
       "end": "2026-08-16"
     },
     {
-      "name": "Astana Women`s Open 5",
-      "loc": "Astana",
-      "country": "KAZ",
+      "name": "Brisbane W15 - Week 4",
+      "loc": "Brisbane",
+      "country": "AUS",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -7544,22 +7544,22 @@
       "end": "2026-08-30"
     },
     {
-      "name": "Formosa Cup",
-      "loc": "Taipei",
-      "country": "TPE",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-08-24",
-      "end": "2026-08-30"
-    },
-    {
       "name": "WTT ZAVAROVALNICA TRIGLAV OPEN BRANIK MARIBOR",
       "loc": "Maribor",
       "country": "SLO",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Clay",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
+    },
+    {
+      "name": "Formosa Cup",
+      "loc": "Taipei",
+      "country": "TPE",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
       "start": "2026-08-24",
       "end": "2026-08-30"
     },
