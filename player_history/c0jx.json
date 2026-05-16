@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Sean Cuenin",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:32:59.448Z",
+  "updated": "2026-05-16T17:41:52.818Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -26,7 +26,10 @@
       "second_pct": "36.7",
       "bp_saved": "6/11",
       "match_time": "1:41",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.6,
+      "odds_opp": 1.55,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
