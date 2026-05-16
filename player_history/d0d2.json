@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Alec Deckers",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:49:39.322Z",
+  "updated": "2026-05-16T20:50:24.437Z",
   "matches": [
     {
       "date": "2026-04-20",
@@ -26,7 +26,10 @@
       "second_pct": "59.6",
       "bp_saved": "6/8",
       "match_time": "2:58",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.23,
+      "odds_opp": 4.23,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
@@ -49,7 +52,10 @@
       "second_pct": "45.2",
       "bp_saved": "3/3",
       "match_time": "2:12",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.13,
+      "odds_opp": 6.35,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-13",
