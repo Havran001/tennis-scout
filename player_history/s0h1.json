@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Luca Staeheli",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:54:27.718Z",
+  "updated": "2026-05-16T22:50:48.553Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -26,7 +26,10 @@
       "second_pct": "30.0",
       "bp_saved": "1/5",
       "match_time": "1:08",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.08,
+      "odds_opp": 1.39,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-27",
@@ -49,7 +52,10 @@
       "second_pct": "57.1",
       "bp_saved": "0/1",
       "match_time": "1:00",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.73,
+      "odds_opp": 2,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-04-20",
