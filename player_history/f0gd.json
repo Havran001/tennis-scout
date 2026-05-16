@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Jakub Filip",
   "source": "tennisabstract",
-  "updated": "2026-05-12T18:24:42.832Z",
+  "updated": "2026-05-16T21:49:50.823Z",
   "matches": [
     {
       "date": "2026-03-23",
@@ -2143,7 +2143,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.23,
+      "odds_opp": 3.79,
+      "odds_src": "bid575"
     },
     {
       "date": "2024-01-15",
