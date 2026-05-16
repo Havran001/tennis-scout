@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Peter Fajta",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:49:06.315Z",
+  "updated": "2026-05-16T20:08:32.196Z",
   "matches": [
     {
       "date": "2026-04-13",
@@ -3758,7 +3758,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.2,
+      "odds_opp": 1.13,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-05-01",
@@ -7256,7 +7259,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.18,
+      "odds_opp": 4.5,
+      "odds_src": "bid16"
     },
     {
       "date": "2019-10-14",
