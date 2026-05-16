@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Karan Singh",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:36:39.722Z",
+  "updated": "2026-05-16T17:33:49.096Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -49,7 +49,10 @@
       "second_pct": "58.1",
       "bp_saved": "3/3",
       "match_time": "1:26",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.01,
+      "odds_opp": 10.7,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-04-27",
@@ -72,7 +75,10 @@
       "second_pct": "50.8",
       "bp_saved": "7/10",
       "match_time": "2:24",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.71,
+      "odds_opp": 1.5,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
