@@ -4217,30 +4217,57 @@ function buildUI(){
         state.phase = 'Krok 3/4: Vytvarim blobs...';
         renderProgress(state);
         var blobs = [];
-        for (var bi = 0; bi < ranked.length; bi += 20) {
+        // RETRY-AWARE BLOB CREATION
+        // - batch 10 (= ne 20) souběžně
+        // - retry 3× per blob s exp backoff
+        // - 100ms delay mezi batches
+        async function createBlobWithRetry(p, attempt) {
+          attempt = attempt || 1;
+          var slug = slugify(p.full_name || p.name || '');
+          var pending = { pid: p.id, name: p.full_name || p.name || '', player_slug: slug, force: false, requested_at: startedAt, requested_by: 'import_missing_button' };
+          var content = JSON.stringify(pending, null, 2);
+          var utf8 = new TextEncoder().encode(content);
+          var bin2 = '';
+          for (var k = 0; k < utf8.length; k++) bin2 += String.fromCharCode(utf8[k]);
+          var b64 = btoa(bin2);
+          try {
+            var br = await fetch('https://api.github.com/repos/' + REPO + '/git/blobs', {
+              method: 'POST',
+              headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
+              body: JSON.stringify({ content: b64, encoding: 'base64' })
+            });
+            if (!br.ok) {
+              if (attempt < 3) {
+                await new Promise(function(r){ setTimeout(r, 500 * attempt); });
+                return createBlobWithRetry(p, attempt + 1);
+              }
+              console.warn('Blob FAILED ' + p.id + ' status=' + br.status + ' after ' + attempt + ' attempts');
+              return null;
+            }
+            var bj = await br.json();
+            return { path: 'pending_imports/' + p.id + '.json', sha: bj.sha };
+          } catch (e) {
+            if (attempt < 3) {
+              await new Promise(function(r){ setTimeout(r, 500 * attempt); });
+              return createBlobWithRetry(p, attempt + 1);
+            }
+            console.warn('Blob EXCEPTION ' + p.id + ': ' + e.message);
+            return null;
+          }
+        }
+        
+        for (var bi = 0; bi < ranked.length; bi += 10) {
           if (window._imCancelled) { state.phase = 'Cancelled'; renderProgress(state); return; }
-          var batch = ranked.slice(bi, bi + 20);
-          var batchBlobs = await Promise.all(batch.map(async function(p) {
-            var slug = slugify(p.full_name || p.name || '');
-            var pending = { pid: p.id, name: p.full_name || p.name || '', player_slug: slug, force: false, requested_at: startedAt, requested_by: 'import_missing_button' };
-            var content = JSON.stringify(pending, null, 2);
-            var utf8 = new TextEncoder().encode(content);
-            var bin2 = '';
-            for (var k = 0; k < utf8.length; k++) bin2 += String.fromCharCode(utf8[k]);
-            var b64 = btoa(bin2);
-            try {
-              var br = await fetch('https://api.github.com/repos/' + REPO + '/git/blobs', { method: 'POST', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' }, body: JSON.stringify({ content: b64, encoding: 'base64' }) });
-              if (!br.ok) return null;
-              var bj = await br.json();
-              return { path: 'pending_imports/' + p.id + '.json', sha: bj.sha };
-            } catch (e) { return null; }
-          }));
+          var batch = ranked.slice(bi, bi + 10);
+          var batchBlobs = await Promise.all(batch.map(function(p) { return createBlobWithRetry(p, 1); }));
           for (var bb = 0; bb < batchBlobs.length; bb++) {
             if (batchBlobs[bb]) blobs.push(batchBlobs[bb]); else uploadFailed++;
           }
           uploadCount = blobs.length;
-          state.phase = 'Krok 3/4: Pripraveno ' + uploadCount + '/' + ranked.length + ' pendings...';
+          state.phase = 'Krok 3/4: Pripraveno ' + uploadCount + '/' + ranked.length + ' pendings (failed: ' + uploadFailed + ')...';
           renderProgress(state);
+          // 100ms delay mezi batches
+          await new Promise(function(r){ setTimeout(r, 100); });
         }
         if (blobs.length === 0) throw new Error('Zadne blobs');
         state.phase = 'Krok 3/4: Tree + commit...';
