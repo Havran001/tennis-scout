@@ -4185,6 +4185,9 @@ function buildUI(){
       var atpRes = await ghFetchJson('https://api.github.com/repos/' + GH_REPO + '/contents/atp_players.json', token);
       var atpData = JSON.parse(new TextDecoder('utf-8').decode(Uint8Array.from(atob(atpRes.content.replace(/\n/g,'')), function(c){ return c.charCodeAt(0); })));
       var ranked = atpData.items.filter(function(p){ return p.rank; });
+      // BATCH LIMIT: max 1000 hracu per import button click (vyhnuti se tree size limit + rate limit)
+      ranked.sort(function(a, b){ return (a.rank || 9999) - (b.rank || 9999); });
+      ranked = ranked.slice(0, 1000);
       
       if(window._imCancelled){ state.phase = 'Cancelled'; renderProgress(state); return; }
       
