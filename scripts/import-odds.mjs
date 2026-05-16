@@ -423,9 +423,13 @@ async function processPlayer(pidFile) {
   const pendingObj = JSON.parse(Buffer.from(pendingMeta.content, 'base64').toString('utf-8'));
   const playerName = pendingObj.name;
   const playerSlug = pendingObj.player_slug || slugify(playerName);
-  const playerKey = pendingObj.player_key
-    || playerSlug.split('-').filter((p) => p.length >= 4).pop()
-    || playerSlug;
+  // playerKey heuristika - hledáme jeden konkrétní token (= obvykle příjmení)
+  // který se objeví v BE match slugu. BE má formát "prijmeni-jmeno-prijmeni-jmeno"
+  // takže celé "jmeno-prijmeni" by se NIKDY netrefit. Bereme nejdelší část slug.
+  const slugParts = playerSlug.split('-').filter((p) => p.length >= 4);
+  const playerKey = slugParts.length > 0
+    ? slugParts.reduce((a, b) => a.length >= b.length ? a : b)  // nejdelší
+    : playerSlug;
   // BE může mít slug v pořadí "prijmeni-jmeno" i "jmeno-prijmeni" — připrav obě varianty
   const slugReversed = playerSlug.split('-').reverse().join('-');
   const slugCandidates = playerSlug === slugReversed ? [playerSlug] : [playerSlug, slugReversed];
