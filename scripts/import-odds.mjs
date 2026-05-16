@@ -20,6 +20,8 @@
  *   { pid, name, player_slug?, player_key?, force?, requested_at, requested_by? }
  */
 
+import * as fs from 'node:fs/promises';
+import * as path from 'node:path';
 import { JSDOM } from 'jsdom';
 
 const REPO = process.env.GITHUB_REPOSITORY || 'Havran001/tennis-scout';
@@ -211,14 +213,26 @@ async function fetchBeText(path) {
 }
 
 // ═══ PERSISTENT BE CACHE ═══
-const BE_CACHE_DIR = 'cache/be_daily';
-const BE_ODDS_CACHE_DIR = 'cache/be_odds';
+// LOCAL FILE CACHE (= Mac runner persistent disk, NE GitHub) - eliminuje API rate limit
+const LOCAL_CACHE_BASE = process.env.RUNNER_CACHE_DIR || '/Users/Shared/tennis-scout-cache';
+const LOCAL_BE_DAILY_DIR = path.join(LOCAL_CACHE_BASE, 'be_daily');
+const LOCAL_BE_ODDS_DIR = path.join(LOCAL_CACHE_BASE, 'be_odds');
+
+try {
+  await fs.mkdir(LOCAL_BE_DAILY_DIR, { recursive: true });
+  await fs.mkdir(LOCAL_BE_ODDS_DIR, { recursive: true });
+  console.log(`Local cache: ${LOCAL_CACHE_BASE}`);
+} catch (e) {}
 
 async function loadOddsCache(mid) {
   try {
-    const meta = await ghGet(`${BE_ODDS_CACHE_DIR}/${mid}.json`);
-    if (!meta) return null;
-    const utf8 = Buffer.from(meta.content, 'base64').toString('utf-8');
+    const filePath = path.join(LOCAL_BE_ODDS_DIR, `${mid}.json`);
+    let utf8;
+    try {
+      utf8 = await fs.readFile(filePath, 'utf-8');
+    } catch (e) {
+      return null;
+    }
     const parsed = JSON.parse(utf8);
     
     const cachedAt = parsed.cached_at ? new Date(parsed.cached_at) : null;
@@ -227,14 +241,14 @@ async function loadOddsCache(mid) {
     const ageMs = Date.now() - cachedAt.getTime();
     
     if (ageMs < 24 * 3600 * 1000) {
-      return { result: parsed.result, sha: meta.sha };
+      return { result: parsed.result };
     }
     
     if (parsed.match_date) {
       const matchDate = new Date(parsed.match_date);
       const matchAgeMs = Date.now() - matchDate.getTime();
       if (matchAgeMs >= 7 * 86400 * 1000) {
-        return { result: parsed.result, sha: meta.sha };
+        return { result: parsed.result };
       }
     }
     
@@ -252,20 +266,20 @@ async function saveOddsCache(mid, result, matchDate) {
       match_date: matchDate || null,
       result
     });
-    await ghPut(
-      `${BE_ODDS_CACHE_DIR}/${mid}.json`,
-      content,
-      null,
-      `cache: BE odds ${mid}${result ? '' : ' (null)'}`
-    );
+    const filePath = path.join(LOCAL_BE_ODDS_DIR, `${mid}.json`);
+    await fs.writeFile(filePath, content, 'utf-8');
   } catch (e) {}
 }
 
 async function loadDailyCache(key) {
   try {
-    const meta = await ghGet(`${BE_CACHE_DIR}/${key}.json`);
-    if (!meta) return null;
-    const utf8 = Buffer.from(meta.content, 'base64').toString('utf-8');
+    const filePath = path.join(LOCAL_BE_DAILY_DIR, `${key}.json`);
+    let utf8;
+    try {
+      utf8 = await fs.readFile(filePath, 'utf-8');
+    } catch (e) {
+      return null;
+    }
     const parsed = JSON.parse(utf8);
     
     const today = new Date();
@@ -275,12 +289,12 @@ async function loadDailyCache(key) {
     const daysAgo = Math.round((today.getTime() - dayDate.getTime()) / 86400000);
     
     if (daysAgo >= 2) {
-      return { matches: parsed.matches || [], sha: meta.sha };
+      return { matches: parsed.matches || [] };
     }
     
     const cachedAt = parsed.cached_at ? new Date(parsed.cached_at) : null;
     if (cachedAt && (Date.now() - cachedAt.getTime()) < 24 * 3600 * 1000) {
-      return { matches: parsed.matches || [], sha: meta.sha };
+      return { matches: parsed.matches || [] };
     }
     
     return null;
@@ -296,15 +310,9 @@ async function saveDailyCache(key, matches, existingSha) {
       cached_at: new Date().toISOString(),
       matches
     });
-    await ghPut(
-      `${BE_CACHE_DIR}/${key}.json`,
-      content,
-      existingSha,
-      `cache: BE daily ${key} (${matches.length} matches)`
-    );
-  } catch (e) {
-    console.warn(`  cache save FAILED ${key}: ${e.message}`);
-  }
+    const filePath = path.join(LOCAL_BE_DAILY_DIR, `${key}.json`);
+    await fs.writeFile(filePath, content, 'utf-8');
+  } catch (e) {}
 }
 
 async function fetchDailyResults(yyyy, mm, dd) {
