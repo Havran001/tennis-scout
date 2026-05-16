@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Dusan Lajovic",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:12:15.779Z",
+  "updated": "2026-05-16T17:43:48.101Z",
   "matches": [
     {
       "date": "2026-05-06",
@@ -26,7 +26,10 @@
       "second_pct": "56.3",
       "bp_saved": "2/4",
       "match_time": "1:46",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.59,
+      "odds_opp": 2.5,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-28",
@@ -49,7 +52,10 @@
       "second_pct": "47.8",
       "bp_saved": "1/4",
       "match_time": "1:48",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.1,
+      "odds_opp": 5.8,
+      "odds_src": "bid847"
     },
     {
       "date": "2026-04-22",
