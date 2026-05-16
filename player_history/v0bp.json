@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Marlon Vankan",
   "source": "tennisabstract",
-  "updated": "2026-05-12T18:06:32.915Z",
+  "updated": "2026-05-16T20:58:37.865Z",
   "matches": [
     {
       "date": "2026-04-20",
@@ -26,7 +26,10 @@
       "second_pct": "34.8",
       "bp_saved": "2/6",
       "match_time": "1:18",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.52,
+      "odds_opp": 2.58,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
@@ -49,7 +52,10 @@
       "second_pct": "81.3",
       "bp_saved": "0/0",
       "match_time": "1:28",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.01,
+      "odds_opp": 10.5,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-04-13",
