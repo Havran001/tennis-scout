@@ -2,7 +2,7 @@
   "player_id": "b0gi",
   "name": "Alexander Binda",
   "source": "tennisabstract",
-  "updated": "2026-04-27T18:16:06.199Z",
+  "updated": "2026-05-16T18:40:22.029Z",
   "total": 255,
   "matches": [
     {
@@ -3053,7 +3053,10 @@
       "second_pct": "",
       "bp_saved": "",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.02,
+      "odds_opp": 11,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-11-04",
@@ -6540,7 +6543,10 @@
       "second_pct": "",
       "bp_saved": "",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.1,
+      "odds_opp": 8,
+      "odds_src": "bid16"
     }
   ]
 }
