@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Jacob Fearnley",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:11:25.589Z",
+  "updated": "2026-05-16T18:38:09.591Z",
   "matches": [
     {
       "date": "2026-05-06",
@@ -49,7 +49,10 @@
       "second_pct": "50.0",
       "bp_saved": "4/7",
       "match_time": "1:52",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.65,
+      "odds_opp": 2.35,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-05-06",
@@ -72,7 +75,10 @@
       "second_pct": "42.1",
       "bp_saved": "0/2",
       "match_time": "1:15",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.71,
+      "odds_opp": 2.26,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-18",
