@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Kei Nishikori",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:50:03.884Z",
+  "updated": "2026-05-16T21:51:28.985Z",
   "matches": [
     {
       "date": "2026-04-20",
@@ -312,7 +312,10 @@
       "second_pct": "50.0",
       "bp_saved": "5/7",
       "match_time": "1:10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.17,
+      "odds_opp": 5.2,
+      "odds_src": "bid575"
     },
     {
       "date": "2025-11-17",
