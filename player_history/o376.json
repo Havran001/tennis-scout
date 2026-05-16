@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Renzo Olivo",
   "source": "tennisabstract",
-  "updated": "2026-05-12T18:20:05.647Z",
+  "updated": "2026-05-16T20:56:03.897Z",
   "matches": [
     {
       "date": "2026-02-16",
@@ -9781,7 +9781,10 @@
       "second_pct": "42.9",
       "bp_saved": "1/7",
       "match_time": "2:06",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.75,
+      "odds_opp": 1.4,
+      "odds_src": "bid16"
     },
     {
       "date": "2018-10-29",
@@ -9876,7 +9879,10 @@
       "second_pct": "56.7",
       "bp_saved": "0/2",
       "match_time": "1:28",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.2,
+      "odds_opp": 1.61,
+      "odds_src": "bid16"
     },
     {
       "date": "2018-10-22",
