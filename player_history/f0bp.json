@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Pietro Fellin",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:44:15.996Z",
+  "updated": "2026-05-16T17:30:05.174Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -26,7 +26,10 @@
       "second_pct": "46.7",
       "bp_saved": "15/22",
       "match_time": "3:01",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.22,
+      "odds_opp": 1.69,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-27",
@@ -49,7 +52,10 @@
       "second_pct": "39.5",
       "bp_saved": "2/6",
       "match_time": "2:14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.61,
+      "odds_opp": 2.18,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-04-06",
