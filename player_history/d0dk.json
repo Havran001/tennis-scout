@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Santiago De La Fuente",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:55:42.815Z",
+  "updated": "2026-05-16T21:56:56.437Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -49,7 +49,10 @@
       "second_pct": "42.3",
       "bp_saved": "8/14",
       "match_time": "2:26",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.28,
+      "odds_opp": 3.71,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-13",
@@ -3475,7 +3478,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.41,
+      "odds_opp": 2.73,
+      "odds_src": "bid417"
     }
   ]
 }
