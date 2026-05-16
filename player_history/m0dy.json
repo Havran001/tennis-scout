@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Peter Makk",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:56:39.190Z",
+  "updated": "2026-05-16T20:54:05.354Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -26,7 +26,10 @@
       "second_pct": "40.0",
       "bp_saved": "15/19",
       "match_time": "2:14",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.26,
+      "odds_opp": 1.65,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-27",
@@ -49,7 +52,10 @@
       "second_pct": "57.1",
       "bp_saved": "9/12",
       "match_time": "2:07",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.41,
+      "odds_opp": 2.94,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-27",
@@ -72,7 +78,10 @@
       "second_pct": "75.0",
       "bp_saved": "2/2",
       "match_time": "1:19",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.79,
+      "odds_opp": 1.45,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-06",
@@ -1891,7 +1900,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.25,
+      "odds_opp": 1.33,
+      "odds_src": "bid16"
     },
     {
       "date": "2018-06-18",
