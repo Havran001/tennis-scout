@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Louis Larue",
   "source": "tennisabstract",
-  "updated": "2026-05-12T18:35:27.854Z",
+  "updated": "2026-05-16T21:54:01.135Z",
   "matches": [
     {
       "date": "2026-04-13",
@@ -956,7 +956,10 @@
       "second_pct": "30.8",
       "bp_saved": "1/6",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.2,
+      "odds_opp": 4.14,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-01-13",
