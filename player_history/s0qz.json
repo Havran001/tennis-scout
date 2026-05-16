@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Sebastian Sorger",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:39:15.522Z",
+  "updated": "2026-05-16T17:45:21.218Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -26,7 +26,10 @@
       "second_pct": "55.6",
       "bp_saved": "3/7",
       "match_time": "2:04",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.18,
+      "odds_opp": 1.26,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
@@ -4607,7 +4610,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.21,
+      "odds_opp": 4.23,
+      "odds_src": "bid575"
     },
     {
       "date": "2023-05-08",
