@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Alberto Barroso Campos",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:53:51.683Z",
+  "updated": "2026-05-16T20:49:53.136Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -49,7 +49,10 @@
       "second_pct": "60.9",
       "bp_saved": "3/5",
       "match_time": "1:49",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.16,
+      "odds_opp": 5.41,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
@@ -72,7 +75,10 @@
       "second_pct": "33.3",
       "bp_saved": "1/4",
       "match_time": "1:53",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.53,
+      "odds_opp": 1.31,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
