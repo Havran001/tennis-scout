@@ -4205,39 +4205,64 @@ function buildUI(){
       // Build slugify helper for player_slug fallback
       function slugify(s){ return (s || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]+/g,'').trim().split(/\s+/).join('-'); }
       
-      for(var i = 0; i < ranked.length; i += 1){
-        if(window._imCancelled){ state.phase = 'Cancelled'; renderProgress(state); return; }
-        var p = ranked[i];
-        
-        // Pending object - force=false (inkrementální import!)
-        var slug = slugify(p.full_name || p.name || '');
-        var pending = {
-          pid: p.id,
-          name: p.full_name || p.name || '',
-          player_slug: slug,
-          player_key: slug,
-          force: false,  // ⚠️ KLÍČOVÉ: NEnastavujeme force, pipeline doplní jen díry
-          requested_at: startedAt,
-          requested_by: 'import_missing_button'
-        };
-        
-        var path = 'pending_imports/' + p.id + '.json';
-        var body = JSON.stringify(pending, null, 2) + '\n';
-        var msg = 'ImportMissing [' + (i+1) + '/' + ranked.length + ']: ' + pending.name;
-        
-        try {
-          var r = await ghPutFileWithRetry(path, body, msg, token);
-          if(r.ok) uploadCount++; else uploadFailed++;
-        } catch(e){ uploadFailed++; }
-        
-        // Update UI každých 25 nahraných
-        if((i+1) % 25 === 0){
-          state.phase = 'Krok 3/4: Nahráno ' + uploadCount + '/' + ranked.length + ' pendings...';
+      // BULK UPLOAD - jeden commit pro vsechny pendings
+      var REPO = 'Havran001/tennis-scout';
+      try {
+        var refRes = await fetch('https://api.github.com/repos/' + REPO + '/git/refs/heads/main?ts=' + Date.now(), { headers: { Authorization: 'Bearer ' + token } });
+        var refData = await refRes.json();
+        var latestSha = refData.object.sha;
+        var cmtRes = await fetch('https://api.github.com/repos/' + REPO + '/git/commits/' + latestSha + '?ts=' + Date.now(), { headers: { Authorization: 'Bearer ' + token } });
+        var cmtData = await cmtRes.json();
+        var baseTreeSha = cmtData.tree.sha;
+        state.phase = 'Krok 3/4: Vytvarim blobs...';
+        renderProgress(state);
+        var blobs = [];
+        for (var bi = 0; bi < ranked.length; bi += 20) {
+          if (window._imCancelled) { state.phase = 'Cancelled'; renderProgress(state); return; }
+          var batch = ranked.slice(bi, bi + 20);
+          var batchBlobs = await Promise.all(batch.map(async function(p) {
+            var slug = slugify(p.full_name || p.name || '');
+            var pending = { pid: p.id, name: p.full_name || p.name || '', player_slug: slug, force: false, requested_at: startedAt, requested_by: 'import_missing_button' };
+            var content = JSON.stringify(pending, null, 2);
+            var utf8 = new TextEncoder().encode(content);
+            var bin2 = '';
+            for (var k = 0; k < utf8.length; k++) bin2 += String.fromCharCode(utf8[k]);
+            var b64 = btoa(bin2);
+            try {
+              var br = await fetch('https://api.github.com/repos/' + REPO + '/git/blobs', { method: 'POST', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' }, body: JSON.stringify({ content: b64, encoding: 'base64' }) });
+              if (!br.ok) return null;
+              var bj = await br.json();
+              return { path: 'pending_imports/' + p.id + '.json', sha: bj.sha };
+            } catch (e) { return null; }
+          }));
+          for (var bb = 0; bb < batchBlobs.length; bb++) {
+            if (batchBlobs[bb]) blobs.push(batchBlobs[bb]); else uploadFailed++;
+          }
+          uploadCount = blobs.length;
+          state.phase = 'Krok 3/4: Pripraveno ' + uploadCount + '/' + ranked.length + ' pendings...';
           renderProgress(state);
         }
+        if (blobs.length === 0) throw new Error('Zadne blobs');
+        state.phase = 'Krok 3/4: Tree + commit...';
+        renderProgress(state);
+        var treeEntries = blobs.map(function(b) { return { path: b.path, mode: '100644', type: 'blob', sha: b.sha }; });
+        var trRes = await fetch('https://api.github.com/repos/' + REPO + '/git/trees', { method: 'POST', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' }, body: JSON.stringify({ base_tree: baseTreeSha, tree: treeEntries }) });
+        if (!trRes.ok) throw new Error('tree: ' + trRes.status);
+        var newTree = await trRes.json();
+        var coRes = await fetch('https://api.github.com/repos/' + REPO + '/git/commits', { method: 'POST', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' }, body: JSON.stringify({ message: 'ImportMissing bulk: ' + blobs.length + ' pendings', tree: newTree.sha, parents: [latestSha] }) });
+        if (!coRes.ok) throw new Error('commit: ' + coRes.status);
+        var newCommit = await coRes.json();
+        var psRes = await fetch('https://api.github.com/repos/' + REPO + '/git/refs/heads/main', { method: 'PATCH', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' }, body: JSON.stringify({ sha: newCommit.sha }) });
+        if (!psRes.ok) throw new Error('push: ' + psRes.status);
+        uploadCount = blobs.length;
+      } catch (e) {
+        console.error('Bulk upload error:', e);
+        state.phase = 'Krok 3/4: SELHALO - ' + e.message;
+        renderProgress(state);
+        return;
       }
       
-      state.phase = 'Krok 4/4: Pipeline pracuje...';
+            state.phase = 'Krok 4/4: Pipeline pracuje...';
       state.uploadedTotal = uploadCount;
       state.uploadFailed = uploadFailed;
       renderProgress(state);
