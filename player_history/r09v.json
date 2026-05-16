@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Eduardo Ribeiro",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:36:07.334Z",
+  "updated": "2026-05-16T17:45:01.734Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -26,7 +26,10 @@
       "second_pct": "40.7",
       "bp_saved": "6/8",
       "match_time": "1:41",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.56,
+      "odds_opp": 2.54,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-06",
@@ -6271,7 +6274,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.32,
+      "odds_opp": 1.59,
+      "odds_src": "bid417"
     },
     {
       "date": "2019-12-09",
@@ -6363,7 +6369,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.42,
+      "odds_opp": 1.4,
+      "odds_src": "bid417"
     },
     {
       "date": "2019-11-18",
@@ -6576,7 +6585,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.61,
+      "odds_opp": 2.2,
+      "odds_src": "bid16"
     },
     {
       "date": "2019-06-10",
