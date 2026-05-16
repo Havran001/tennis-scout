@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Petros Tsitsipas",
   "source": "tennisabstract",
-  "updated": "2026-05-12T18:27:00.002Z",
+  "updated": "2026-05-16T22:50:14.380Z",
   "matches": [
     {
       "date": "2026-04-20",
@@ -26,7 +26,10 @@
       "second_pct": "41.9",
       "bp_saved": "2/6",
       "match_time": "1:37",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.43,
+      "odds_opp": 2.86,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-30",
@@ -4127,7 +4130,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.44,
+      "odds_opp": 2.62,
+      "odds_src": "bid16"
     },
     {
       "date": "2017-03-06",
