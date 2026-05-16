@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Mattia Bellucci",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:07:30.788Z",
+  "updated": "2026-05-16T18:42:13.474Z",
   "matches": [
     {
       "date": "2026-05-06",
@@ -49,7 +49,10 @@
       "second_pct": "34.8",
       "bp_saved": "5/10",
       "match_time": "1:31",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.68,
+      "odds_opp": 2.32,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-28",
@@ -72,7 +75,10 @@
       "second_pct": "48.5",
       "bp_saved": "5/9",
       "match_time": "2:40",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.37,
+      "odds_opp": 1.65,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-22",
