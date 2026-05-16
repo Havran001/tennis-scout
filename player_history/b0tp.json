@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Henry Bernet",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:43:01.271Z",
+  "updated": "2026-05-16T17:41:34.492Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -26,7 +26,10 @@
       "second_pct": "43.6",
       "bp_saved": "5/10",
       "match_time": "2:33",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.11,
+      "odds_opp": 1.4,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
