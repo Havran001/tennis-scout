@@ -4205,6 +4205,24 @@ function buildUI(){
       // Build slugify helper for player_slug fallback
       function slugify(s){ return (s || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]+/g,'').trim().split(/\s+/).join('-'); }
       
+      // RATE LIMIT PRE-CHECK
+      try {
+        var rlRes = await fetch('https://api.github.com/rate_limit', { headers: { Authorization: 'token ' + token } });
+        var rlData = await rlRes.json();
+        var remaining = rlData.resources.core.remaining;
+        var resetSec = rlData.resources.core.reset - Math.floor(Date.now()/1000);
+        var resetMin = Math.ceil(resetSec / 60);
+        var needed = Math.ceil(ranked.length * 1.1) + 100; // 110% blobs + overhead
+        if (remaining < needed) {
+          state.phase = 'Krok 3/4: Rate limit nizky (' + remaining + '/' + needed + ' potreba) - pockej ' + resetMin + ' min na reset';
+          renderProgress(state);
+          return;
+        }
+        console.log('Rate limit OK: ' + remaining + ' remaining, ' + needed + ' needed');
+      } catch (rle) {
+        console.warn('Rate check failed:', rle.message);
+      }
+      
       // BULK UPLOAD - jeden commit pro vsechny pendings
       var REPO = 'Havran001/tennis-scout';
       try {
