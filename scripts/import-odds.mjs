@@ -368,7 +368,6 @@ async function fetchOddsForMid(mid, matchDate) {
     try {
       const txt = await fetchBeText(path);
       json = JSON.parse(txt);
-      console.log(`    DEBUG mid=${mid}: txt_len=${txt.length}, has_odds=${!!json?.odds}, odds_html_len=${json?.odds?.length || 0}`);
     } catch (e2) {
       console.warn(`  odds fetch FAILED 2x mid=${mid}: ${e2.message}`);
       // FIX: NEUKLADAT null do cache - pri pristim runu retry
@@ -377,7 +376,6 @@ async function fetchOddsForMid(mid, matchDate) {
   }
   if (!json || !json.odds) {
     // FIX: NEUKLADAT null - retry pri pristim runu
-    console.log(`    DEBUG mid=${mid}: returning null (no json.odds)`);
     return null;
   }
   const dom = new JSDOM(`<!doctype html><body>${json.odds}</body>`);
