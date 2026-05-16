@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "James Watt",
   "source": "tennisabstract",
-  "updated": "2026-05-12T18:02:45.380Z",
+  "updated": "2026-05-16T22:50:56.616Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -26,7 +26,10 @@
       "second_pct": "50.0",
       "bp_saved": "1/5",
       "match_time": "1:06",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.13,
+      "odds_opp": 1.25,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-02-07",
