@@ -240,6 +240,9 @@ async function loadOddsCache(mid) {
     
     const ageMs = Date.now() - cachedAt.getTime();
     
+    // FIX: NIKDY necachuj null vysledky - pri novem behu zkus znova
+    if (parsed.result === null) return null;
+    
     if (ageMs < 24 * 3600 * 1000) {
       return { result: parsed.result };
     }
@@ -367,12 +370,12 @@ async function fetchOddsForMid(mid, matchDate) {
       json = JSON.parse(txt);
     } catch (e2) {
       console.warn(`  odds fetch FAILED 2x mid=${mid}: ${e2.message}`);
-      saveOddsCache(mid, null, matchDate).catch(()=>{});
+      // FIX: NEUKLADAT null do cache - pri pristim runu retry
       return null;
     }
   }
   if (!json || !json.odds) {
-    saveOddsCache(mid, null, matchDate).catch(()=>{});
+    // FIX: NEUKLADAT null - retry pri pristim runu
     return null;
   }
   const dom = new JSDOM(`<!doctype html><body>${json.odds}</body>`);
