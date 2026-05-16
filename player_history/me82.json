@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Adrian Mannarino",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:04:30.464Z",
+  "updated": "2026-05-16T17:32:33.461Z",
   "matches": [
     {
       "date": "2026-05-06",
@@ -26,7 +26,10 @@
       "second_pct": "31.3",
       "bp_saved": "7/13",
       "match_time": "1:30",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.56,
+      "odds_opp": 1.35,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-28",
@@ -49,7 +52,10 @@
       "second_pct": "47.1",
       "bp_saved": "12/16",
       "match_time": "2:22",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.6,
+      "odds_opp": 1.19,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-22",
