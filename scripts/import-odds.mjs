@@ -732,7 +732,7 @@ async function main() {
   const summary = [];
   
   // PARALLEL PROCESSING - 5 hracu paralelne (~5x rychlejsi nez sekvencni)
-  const CONCURRENCY = 5;
+  const CONCURRENCY = 15;
   console.log(`Processing with concurrency=${CONCURRENCY}`);
   
   for (let i = 0; i < pendingFiles.length; i += CONCURRENCY) {
