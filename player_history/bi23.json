@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Liam Broady",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:20:18.118Z",
+  "updated": "2026-05-16T17:28:38.434Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -26,7 +26,10 @@
       "second_pct": "40.7",
       "bp_saved": "3/7",
       "match_time": "1:35",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.65,
+      "odds_opp": 2.3,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-27",
@@ -49,7 +52,10 @@
       "second_pct": "71.4",
       "bp_saved": "2/2",
       "match_time": "1:06",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.12,
+      "odds_opp": 6.85,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
@@ -14551,7 +14557,10 @@
       "second_pct": "26.9",
       "bp_saved": "8/12",
       "match_time": "1:28",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.28,
+      "odds_opp": 3.5,
+      "odds_src": "bid16"
     },
     {
       "date": "2017-02-13",
