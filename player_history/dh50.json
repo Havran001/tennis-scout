@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Alejandro Davidovich Fokina",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:02:38.046Z",
+  "updated": "2026-05-16T17:42:24.568Z",
   "matches": [
     {
       "date": "2026-04-22",
@@ -11658,7 +11658,10 @@
       "second_pct": "42.1",
       "bp_saved": "5/6",
       "match_time": "1:08",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.33,
+      "odds_opp": 3.25,
+      "odds_src": "bid16"
     },
     {
       "date": "2018-05-14",
