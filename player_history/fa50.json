@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Thomas Fancutt",
   "source": "tennisabstract",
-  "updated": "2026-05-12T18:26:21.841Z",
+  "updated": "2026-05-16T20:51:24.173Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -26,7 +26,10 @@
       "second_pct": "33.3",
       "bp_saved": "3/7",
       "match_time": "1:00",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.15,
+      "odds_opp": 1.72,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
@@ -49,7 +52,10 @@
       "second_pct": "36.4",
       "bp_saved": "2/6",
       "match_time": "1:58",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.26,
+      "odds_opp": 1.65,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-13",
