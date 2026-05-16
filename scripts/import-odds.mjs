@@ -716,20 +716,37 @@ async function main() {
     return;
   }
 
-  console.log(`Found ${pendingFiles.length} pending import(s): ${pendingFiles.join(', ')}`);
+  console.log(`Found ${pendingFiles.length} pending import(s): ${pendingFiles.length > 50 ? pendingFiles.slice(0,50).join(', ') + '... (+' + (pendingFiles.length - 50) + ' more)' : pendingFiles.join(', ')}`);
   const summary = [];
-  for (const f of pendingFiles) {
-    try {
-      const res = await processPlayer(f);
-      summary.push(res);
-    } catch (e) {
-      console.error(`ERROR processing ${f}:`, e.message);
-      summary.push({ pid: f, status: 'error', error: e.message });
+  
+  // PARALLEL PROCESSING - 5 hracu paralelne (~5x rychlejsi nez sekvencni)
+  const CONCURRENCY = 5;
+  console.log(`Processing with concurrency=${CONCURRENCY}`);
+  
+  for (let i = 0; i < pendingFiles.length; i += CONCURRENCY) {
+    const batch = pendingFiles.slice(i, i + CONCURRENCY);
+    const batchStart = Date.now();
+    
+    const results = await Promise.allSettled(batch.map(f => processPlayer(f)));
+    
+    for (let j = 0; j < results.length; j++) {
+      const res = results[j];
+      const f = batch[j];
+      if (res.status === 'fulfilled') {
+        summary.push(res.value);
+      } else {
+        console.error(`ERROR processing ${f}:`, res.reason?.message);
+        summary.push({ pid: f, status: 'error', error: res.reason?.message });
+      }
     }
+    
+    const batchSec = Math.round((Date.now() - batchStart) / 1000);
+    const totalDone = Math.min(i + CONCURRENCY, pendingFiles.length);
+    console.log(`  Batch ${Math.floor(i/CONCURRENCY)+1}: ${totalDone}/${pendingFiles.length} done (${batchSec}s)`);
   }
-
+  
   console.log('\n=== SUMMARY ===');
-  for (const s of summary) console.log(JSON.stringify(s));
+    for (const s of summary) console.log(JSON.stringify(s));
 }
 
 main().catch((e) => {
