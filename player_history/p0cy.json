@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Stefan Palosi",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:35:56.663Z",
+  "updated": "2026-05-16T18:39:09.722Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -26,7 +26,10 @@
       "second_pct": "50.0",
       "bp_saved": "2/5",
       "match_time": "1:35",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.29,
+      "odds_opp": 3.69,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-06",
@@ -2178,7 +2181,10 @@
       "second_pct": "72.7",
       "bp_saved": "2/2",
       "match_time": "2:05",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.5,
+      "odds_opp": 1.5,
+      "odds_src": "bid15"
     },
     {
       "date": "2025-05-26",
@@ -7954,7 +7960,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.03,
+      "odds_opp": 10,
+      "odds_src": "bid16"
     },
     {
       "date": "2019-09-09",
@@ -8368,7 +8377,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2,
+      "odds_opp": 1.72,
+      "odds_src": "bid16"
     },
     {
       "date": "2018-08-06",
@@ -8391,7 +8403,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.66,
+      "odds_opp": 2.1,
+      "odds_src": "bid16"
     },
     {
       "date": "2017-08-14",
