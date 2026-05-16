@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Radu Albot",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:40:09.882Z",
+  "updated": "2026-05-16T17:27:55.008Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -26,7 +26,10 @@
       "second_pct": "42.4",
       "bp_saved": "6/14",
       "match_time": "2:30",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.67,
+      "odds_opp": 2.08,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-04-20",
