@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Cyril Vandermeersch",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:38:23.521Z",
+  "updated": "2026-05-16T17:39:20.960Z",
   "matches": [
     {
       "date": "2026-04-20",
@@ -26,7 +26,10 @@
       "second_pct": "54.5",
       "bp_saved": "4/5",
       "match_time": "1:40",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.46,
+      "odds_opp": 2.76,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
@@ -49,7 +52,10 @@
       "second_pct": "51.5",
       "bp_saved": "6/10",
       "match_time": "2:45",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.13,
+      "odds_opp": 6.08,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-13",
