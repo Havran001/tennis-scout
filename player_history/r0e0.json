@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Chris Rodesch",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:15:10.842Z",
+  "updated": "2026-05-16T18:42:52.463Z",
   "matches": [
     {
       "date": "2026-05-06",
@@ -26,7 +26,10 @@
       "second_pct": "47.6",
       "bp_saved": "3/6",
       "match_time": "1:20",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.96,
+      "odds_opp": 1.19,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-22",
@@ -2883,7 +2886,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.26,
+      "odds_opp": 3.59,
+      "odds_src": "bid417"
     },
     {
       "date": "2024-09-02",
