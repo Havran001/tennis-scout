@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Leo Borg",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:43:37.663Z",
+  "updated": "2026-05-16T17:28:15.524Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -26,7 +26,10 @@
       "second_pct": "48.8",
       "bp_saved": "2/6",
       "match_time": "2:15",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.05,
+      "odds_opp": 7.5,
+      "odds_src": "bid417"
     },
     {
       "date": "2026-04-27",
@@ -49,7 +52,10 @@
       "second_pct": "57.7",
       "bp_saved": "3/4",
       "match_time": "1:26",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.01,
+      "odds_opp": 26.17,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-27",
@@ -72,7 +78,10 @@
       "second_pct": "58.3",
       "bp_saved": "3/4",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.01,
+      "odds_opp": 26.17,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-03-30",
