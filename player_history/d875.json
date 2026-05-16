@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Grigor Dimitrov",
   "source": "tennisabstract",
-  "updated": "2026-05-12T17:15:30.092Z",
+  "updated": "2026-05-16T17:29:33.318Z",
   "matches": [
     {
       "date": "2026-04-28",
@@ -26,7 +26,10 @@
       "second_pct": "32.1",
       "bp_saved": "2/5",
       "match_time": "1:11",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.33,
+      "odds_opp": 3.59,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-22",
