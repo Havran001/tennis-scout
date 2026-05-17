@@ -4208,102 +4208,185 @@ function buildUI(){
       // Build slugify helper for player_slug fallback
       function slugify(s){ return (s || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]+/g,'').trim().split(/\s+/).join('-'); }
       
-      // RATE LIMIT PRE-CHECK
-      try {
-        var rlRes = await fetch('https://api.github.com/rate_limit', { headers: { Authorization: 'token ' + token } });
-        var rlData = await rlRes.json();
-        var remaining = rlData.resources.core.remaining;
-        var resetSec = rlData.resources.core.reset - Math.floor(Date.now()/1000);
-        var resetMin = Math.ceil(resetSec / 60);
-        var needed = Math.ceil(ranked.length * 1.1) + 100; // 110% blobs + overhead
-        if (remaining < needed) {
-          state.phase = 'Krok 3/4: Rate limit nizky (' + remaining + '/' + needed + ' potreba) - pockej ' + resetMin + ' min na reset';
-          renderProgress(state);
-          return;
-        }
-        console.log('Rate limit OK: ' + remaining + ' remaining, ' + needed + ' needed');
-      } catch (rle) {
-        console.warn('Rate check failed:', rle.message);
+      // ═══ CHUNKED BULK UPLOAD s AUTO-WAIT ═══
+      // - Davky po 500 hracich (= ~600 API calls per davka, bezpecne pro rate limit)
+      // - Pred kazdou davkou: pokud rate < 1500, pocka na reset
+      // - Po kazde davce: pocka az pipeline zpracuje vse (= pendings=0)
+      // - Workflow_dispatch po commitu jako pojistka
+      
+      var REPO = 'Havran001/tennis-scout';
+      var CHUNK_SIZE = 500;
+      var MIN_RATE_BEFORE_CHUNK = 1500;
+      var totalUploaded = 0;
+      var totalFailed = 0;
+      
+      // Helper: aktualizovat rate limit info
+      async function getRateLimit() {
+        var r = await fetch('https://api.github.com/rate_limit', { headers: { Authorization: 'token ' + token } });
+        var d = await r.json();
+        return {
+          remaining: d.resources.core.remaining,
+          reset: d.resources.core.reset,
+          reset_in_sec: d.resources.core.reset - Math.floor(Date.now()/1000)
+        };
       }
       
-      // BULK UPLOAD - jeden commit pro vsechny pendings
-      var REPO = 'Havran001/tennis-scout';
-      try {
-        var refRes = await fetch('https://api.github.com/repos/' + REPO + '/git/refs/heads/main?ts=' + Date.now(), { headers: { Authorization: 'Bearer ' + token } });
-        var refData = await refRes.json();
-        var latestSha = refData.object.sha;
-        var cmtRes = await fetch('https://api.github.com/repos/' + REPO + '/git/commits/' + latestSha + '?ts=' + Date.now(), { headers: { Authorization: 'Bearer ' + token } });
-        var cmtData = await cmtRes.json();
-        var baseTreeSha = cmtData.tree.sha;
-        state.phase = 'Krok 3/4: Vytvarim blobs...';
-        renderProgress(state);
-        var blobs = [];
-        // RETRY-AWARE BLOB CREATION
-        // - batch 10 (= ne 20) souběžně
-        // - retry 3× per blob s exp backoff
-        // - 100ms delay mezi batches
-        async function createBlobWithRetry(p, attempt) {
-          attempt = attempt || 1;
-          var slug = slugify(p.full_name || p.name || '');
-          var pending = { pid: p.id, name: p.full_name || p.name || '', player_slug: slug, force: false, requested_at: startedAt, requested_by: 'import_missing_button' };
-          var content = JSON.stringify(pending, null, 2);
-          var utf8 = new TextEncoder().encode(content);
-          var bin2 = '';
-          for (var k = 0; k < utf8.length; k++) bin2 += String.fromCharCode(utf8[k]);
-          var b64 = btoa(bin2);
-          try {
-            var br = await fetch('https://api.github.com/repos/' + REPO + '/git/blobs', {
-              method: 'POST',
-              headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
-              body: JSON.stringify({ content: b64, encoding: 'base64' })
-            });
-            if (!br.ok) {
-              if (attempt < 3) {
-                await new Promise(function(r){ setTimeout(r, 500 * attempt); });
-                return createBlobWithRetry(p, attempt + 1);
-              }
-              console.warn('Blob FAILED ' + p.id + ' status=' + br.status + ' after ' + attempt + ' attempts');
-              return null;
-            }
-            var bj = await br.json();
-            return { path: 'pending_imports/' + p.id + '.json', sha: bj.sha };
-          } catch (e) {
+      // Helper: pocet pendings v repo
+      async function getPendingCount() {
+        try {
+          var r = await fetch('https://api.github.com/repos/' + REPO + '/git/trees/main:pending_imports?ts=' + Date.now(), { headers: { Authorization: 'token ' + token } });
+          if (!r.ok) return -1;
+          var d = await r.json();
+          return (d.tree || []).filter(function(t){ return t.path && t.path.endsWith('.json'); }).length;
+        } catch (e) { return -1; }
+      }
+      
+      // Helper: vytvor blob s retry
+      async function createBlobWithRetry(p, attempt) {
+        attempt = attempt || 1;
+        var slug = slugify(p.full_name || p.name || '');
+        var pending = { pid: p.id, name: p.full_name || p.name || '', player_slug: slug, force: false, requested_at: startedAt, requested_by: 'import_missing_button' };
+        var content = JSON.stringify(pending, null, 2);
+        var utf8 = new TextEncoder().encode(content);
+        var bin2 = '';
+        for (var k = 0; k < utf8.length; k++) bin2 += String.fromCharCode(utf8[k]);
+        var b64 = btoa(bin2);
+        try {
+          var br = await fetch('https://api.github.com/repos/' + REPO + '/git/blobs', {
+            method: 'POST',
+            headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ content: b64, encoding: 'base64' })
+          });
+          if (!br.ok) {
             if (attempt < 3) {
               await new Promise(function(r){ setTimeout(r, 500 * attempt); });
               return createBlobWithRetry(p, attempt + 1);
             }
-            console.warn('Blob EXCEPTION ' + p.id + ': ' + e.message);
+            console.warn('Blob FAILED ' + p.id + ' status=' + br.status);
             return null;
           }
+          var bj = await br.json();
+          return { path: 'pending_imports/' + p.id + '.json', sha: bj.sha };
+        } catch (e) {
+          if (attempt < 3) {
+            await new Promise(function(r){ setTimeout(r, 500 * attempt); });
+            return createBlobWithRetry(p, attempt + 1);
+          }
+          return null;
+        }
+      }
+      
+      try {
+        var totalChunks = Math.ceil(ranked.length / CHUNK_SIZE);
+        
+        for (var ci = 0; ci < totalChunks; ci++) {
+          if (window._imCancelled) { state.phase = 'Cancelled'; renderProgress(state); return; }
+          
+          var chunkStart = ci * CHUNK_SIZE;
+          var chunkEnd = Math.min(chunkStart + CHUNK_SIZE, ranked.length);
+          var chunkPlayers = ranked.slice(chunkStart, chunkEnd);
+          
+          // ═══ FÁZE 1: čekat na rate limit pokud je nízký ═══
+          var rl = await getRateLimit();
+          while (rl.remaining < MIN_RATE_BEFORE_CHUNK && !window._imCancelled) {
+            var waitMin = Math.ceil(rl.reset_in_sec / 60);
+            state.phase = 'Dávka ' + (ci+1) + '/' + totalChunks + ': čekám na rate limit reset (' + rl.remaining + '/' + MIN_RATE_BEFORE_CHUNK + ', za ' + waitMin + ' min)';
+            renderProgress(state);
+            // Spi 60s, pak zkus znovu
+            await new Promise(function(r){ setTimeout(r, 60000); });
+            rl = await getRateLimit();
+          }
+          if (window._imCancelled) { state.phase = 'Cancelled'; renderProgress(state); return; }
+          
+          // ═══ FÁZE 2: vytvořit blobs pro dávku ═══
+          state.phase = 'Dávka ' + (ci+1) + '/' + totalChunks + ': vytvářím blobs (rate: ' + rl.remaining + ')';
+          renderProgress(state);
+          
+          var refRes = await fetch('https://api.github.com/repos/' + REPO + '/git/refs/heads/main?ts=' + Date.now(), { headers: { Authorization: 'Bearer ' + token } });
+          var refData = await refRes.json();
+          var latestSha = refData.object.sha;
+          var cmtRes = await fetch('https://api.github.com/repos/' + REPO + '/git/commits/' + latestSha + '?ts=' + Date.now(), { headers: { Authorization: 'Bearer ' + token } });
+          var cmtData = await cmtRes.json();
+          var baseTreeSha = cmtData.tree.sha;
+          
+          var chunkBlobs = [];
+          for (var bi = 0; bi < chunkPlayers.length; bi += 10) {
+            if (window._imCancelled) { state.phase = 'Cancelled'; renderProgress(state); return; }
+            var batch = chunkPlayers.slice(bi, bi + 10);
+            var batchBlobs = await Promise.all(batch.map(function(p) { return createBlobWithRetry(p, 1); }));
+            for (var bb = 0; bb < batchBlobs.length; bb++) {
+              if (batchBlobs[bb]) chunkBlobs.push(batchBlobs[bb]); else totalFailed++;
+            }
+            state.phase = 'Dávka ' + (ci+1) + '/' + totalChunks + ': blobs ' + chunkBlobs.length + '/' + chunkPlayers.length + ' (failed total: ' + totalFailed + ')';
+            renderProgress(state);
+            await new Promise(function(r){ setTimeout(r, 100); });
+          }
+          
+          if (chunkBlobs.length === 0) {
+            console.warn('Davka ' + (ci+1) + ' bez blobs, skipping');
+            continue;
+          }
+          
+          // ═══ FÁZE 3: tree + commit + push ═══
+          state.phase = 'Dávka ' + (ci+1) + '/' + totalChunks + ': commit ' + chunkBlobs.length + ' pendings...';
+          renderProgress(state);
+          
+          var treeEntries = chunkBlobs.map(function(b) { return { path: b.path, mode: '100644', type: 'blob', sha: b.sha }; });
+          var trRes = await fetch('https://api.github.com/repos/' + REPO + '/git/trees', {
+            method: 'POST',
+            headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ base_tree: baseTreeSha, tree: treeEntries })
+          });
+          if (!trRes.ok) throw new Error('tree davka ' + (ci+1) + ': ' + trRes.status);
+          var newTree = await trRes.json();
+          
+          var coRes = await fetch('https://api.github.com/repos/' + REPO + '/git/commits', {
+            method: 'POST',
+            headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: 'ImportMissing davka ' + (ci+1) + '/' + totalChunks + ': ' + chunkBlobs.length + ' pendings', tree: newTree.sha, parents: [latestSha] })
+          });
+          if (!coRes.ok) throw new Error('commit davka ' + (ci+1) + ': ' + coRes.status);
+          var newCommit = await coRes.json();
+          
+          var psRes = await fetch('https://api.github.com/repos/' + REPO + '/git/refs/heads/main', {
+            method: 'PATCH',
+            headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ sha: newCommit.sha })
+          });
+          if (!psRes.ok) throw new Error('push davka ' + (ci+1) + ': ' + psRes.status);
+          
+          totalUploaded += chunkBlobs.length;
+          console.log('Davka ' + (ci+1) + '/' + totalChunks + ' commitnuta: ' + chunkBlobs.length + ' pendings');
+          
+          // ═══ FÁZE 4: čekat až pipeline zpracuje dávku ═══
+          // (= pendings v repo musí jít na 0 nebo nízké číslo)
+          var waitStart = Date.now();
+          var maxWaitMin = 60; // max 60 min na davku
+          var lastPending = chunkBlobs.length;
+          while (Date.now() - waitStart < maxWaitMin * 60000 && !window._imCancelled) {
+            await new Promise(function(r){ setTimeout(r, 30000); }); // sleep 30s
+            var p = await getPendingCount();
+            if (p < 0) continue; // chyba, zkus znovu
+            
+            if (p === 0) {
+              console.log('Davka ' + (ci+1) + ' DOKONČENA');
+              break;
+            }
+            
+            var elapsed = Math.round((Date.now() - waitStart) / 60000);
+            state.phase = 'Dávka ' + (ci+1) + '/' + totalChunks + ': pipeline zpracovává... pendings=' + p + ' (' + elapsed + ' min)';
+            renderProgress(state);
+            lastPending = p;
+          }
+          if (window._imCancelled) { state.phase = 'Cancelled'; renderProgress(state); return; }
+          
+          uploadCount = totalUploaded;
         }
         
-        for (var bi = 0; bi < ranked.length; bi += 10) {
-          if (window._imCancelled) { state.phase = 'Cancelled'; renderProgress(state); return; }
-          var batch = ranked.slice(bi, bi + 10);
-          var batchBlobs = await Promise.all(batch.map(function(p) { return createBlobWithRetry(p, 1); }));
-          for (var bb = 0; bb < batchBlobs.length; bb++) {
-            if (batchBlobs[bb]) blobs.push(batchBlobs[bb]); else uploadFailed++;
-          }
-          uploadCount = blobs.length;
-          state.phase = 'Krok 3/4: Pripraveno ' + uploadCount + '/' + ranked.length + ' pendings (failed: ' + uploadFailed + ')...';
-          renderProgress(state);
-          // 100ms delay mezi batches
-          await new Promise(function(r){ setTimeout(r, 100); });
-        }
-        if (blobs.length === 0) throw new Error('Zadne blobs');
-        state.phase = 'Krok 3/4: Tree + commit...';
-        renderProgress(state);
-        var treeEntries = blobs.map(function(b) { return { path: b.path, mode: '100644', type: 'blob', sha: b.sha }; });
-        var trRes = await fetch('https://api.github.com/repos/' + REPO + '/git/trees', { method: 'POST', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' }, body: JSON.stringify({ base_tree: baseTreeSha, tree: treeEntries }) });
-        if (!trRes.ok) throw new Error('tree: ' + trRes.status);
-        var newTree = await trRes.json();
-        var coRes = await fetch('https://api.github.com/repos/' + REPO + '/git/commits', { method: 'POST', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' }, body: JSON.stringify({ message: 'ImportMissing bulk: ' + blobs.length + ' pendings', tree: newTree.sha, parents: [latestSha] }) });
-        if (!coRes.ok) throw new Error('commit: ' + coRes.status);
-        var newCommit = await coRes.json();
-        var psRes = await fetch('https://api.github.com/repos/' + REPO + '/git/refs/heads/main', { method: 'PATCH', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' }, body: JSON.stringify({ sha: newCommit.sha }) });
-        if (!psRes.ok) throw new Error('push: ' + psRes.status);
-        uploadCount = blobs.length;
-      } catch (e) {
+        uploadCount = totalUploaded;
+        uploadFailed = totalFailed;
+        console.log('CHUNKED UPLOAD HOTOV: ' + totalUploaded + ' OK, ' + totalFailed + ' FAILED');
+            } catch (e) {
         console.error('Bulk upload error:', e);
         state.phase = 'Krok 3/4: SELHALO - ' + e.message;
         renderProgress(state);
