@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Dan Added",
   "source": "tennisabstract",
-  "updated": "2026-05-17T14:39:39.054Z",
+  "updated": "2026-05-17T17:59:55.025Z",
   "matches": [
     {
       "date": "2026-05-11",
@@ -26,7 +26,10 @@
       "second_pct": "30.0",
       "bp_saved": "5/9",
       "match_time": "1:21",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 3.05,
+      "odds_opp": 1.33,
+      "odds_src": "bid657"
     },
     {
       "date": "2026-04-28",
