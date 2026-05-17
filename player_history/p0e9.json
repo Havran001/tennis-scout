@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Dominik Palan",
   "source": "tennisabstract",
-  "updated": "2026-05-17T15:13:56.410Z",
+  "updated": "2026-05-17T17:51:42.160Z",
   "matches": [
     {
       "date": "2026-05-11",
@@ -26,7 +26,10 @@
       "second_pct": "56.1",
       "bp_saved": "6/8",
       "match_time": "2:21",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 5.11,
+      "odds_opp": 1.22,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-05-11",
@@ -49,7 +52,10 @@
       "second_pct": "81.3",
       "bp_saved": "0/0",
       "match_time": "2:15",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.18,
+      "odds_opp": 5.29,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-27",
