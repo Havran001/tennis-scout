@@ -6,31 +6,39 @@ on:
       - 'pending_imports/**'
   workflow_dispatch: {}
 
-# Aby se nebezelo vic instanci najednou (race conditions na sha pri PUT/DELETE)
 concurrency:
   group: import-odds
   cancel-in-progress: false
 
 jobs:
-  import:
-    # Self-hosted runner na Macu (EU IP) — vyhne se geo-IP filtringu BetExploreru
-    runs-on: [self-hosted, mac]
+  import-odds:
+    runs-on: self-hosted
     permissions:
       contents: write
+      actions: write
     steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm install --no-save jsdom@24
+      - name: Install deps
+        run: npm install
 
-      - name: Run import pipeline
+      - name: Run import script
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/import-odds.mjs
