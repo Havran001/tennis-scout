@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Yasutaka Uchiyama",
   "source": "tennisabstract",
-  "updated": "2026-05-17T14:52:16.545Z",
+  "updated": "2026-05-17T17:53:23.046Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -26,7 +26,10 @@
       "second_pct": "30.0",
       "bp_saved": "3/8",
       "match_time": "0:59",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.3,
+      "odds_opp": 1.67,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-20",
