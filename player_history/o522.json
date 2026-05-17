@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Reilly Opelka",
   "source": "tennisabstract",
-  "updated": "2026-05-17T14:19:02.062Z",
+  "updated": "2026-05-17T19:53:51.124Z",
   "matches": [
     {
       "date": "2026-04-22",
@@ -2132,7 +2132,10 @@
       "second_pct": "46.7",
       "bp_saved": "4/5",
       "match_time": "2:26",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.67,
+      "odds_opp": 2.28,
+      "odds_src": "bid45"
     },
     {
       "date": "2024-08-26",
