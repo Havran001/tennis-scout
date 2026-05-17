@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Nick Hardt",
   "source": "tennisabstract",
-  "updated": "2026-05-17T15:15:25.689Z",
+  "updated": "2026-05-17T18:54:26.054Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -26,7 +26,10 @@
       "second_pct": "42.4",
       "bp_saved": "7/13",
       "match_time": "2:24",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.57,
+      "odds_opp": 2.63,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-05-04",
@@ -1791,7 +1794,10 @@
       "second_pct": "38.1",
       "bp_saved": "1/6",
       "match_time": "1:37",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 4.61,
+      "odds_opp": 1.19,
+      "odds_src": "bid45"
     },
     {
       "date": "2024-07-15",
@@ -7083,7 +7089,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.47,
+      "odds_opp": 2.46,
+      "odds_src": "bid45"
     },
     {
       "date": "2021-07-26",
