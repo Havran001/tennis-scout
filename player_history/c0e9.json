@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Flavio Cobolli",
   "source": "tennisabstract",
-  "updated": "2026-05-17T14:13:24.687Z",
+  "updated": "2026-05-17T18:45:36.004Z",
   "matches": [
     {
       "date": "2026-05-06",
@@ -26,7 +26,10 @@
       "second_pct": "53.6",
       "bp_saved": "3/6",
       "match_time": "1:18",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.4,
+      "odds_opp": 3,
+      "odds_src": "bid657"
     },
     {
       "date": "2026-05-06",
@@ -49,7 +52,10 @@
       "second_pct": "61.0",
       "bp_saved": "2/2",
       "match_time": "1:46",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.36,
+      "odds_opp": 3.15,
+      "odds_src": "bid657"
     },
     {
       "date": "2026-04-22",
