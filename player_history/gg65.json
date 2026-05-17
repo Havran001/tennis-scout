@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Michael Geerts",
   "source": "tennisabstract",
-  "updated": "2026-05-17T14:52:07.787Z",
+  "updated": "2026-05-17T17:46:46.858Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -26,7 +26,10 @@
       "second_pct": "64.7",
       "bp_saved": "2/3",
       "match_time": "1:09",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.15,
+      "odds_opp": 4.8,
+      "odds_src": "bid657"
     },
     {
       "date": "2026-05-04",
@@ -49,7 +52,10 @@
       "second_pct": "61.3",
       "bp_saved": "2/2",
       "match_time": "1:58",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.03,
+      "odds_opp": 17.27,
+      "odds_src": "bid575"
     },
     {
       "date": "2026-04-27",
@@ -11894,7 +11900,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.92,
+      "odds_opp": 1.75,
+      "odds_src": "bid45"
     },
     {
       "date": "2019-07-01",
