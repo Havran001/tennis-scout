@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Stefan Popovic",
   "source": "tennisabstract",
-  "updated": "2026-05-17T15:20:54.212Z",
+  "updated": "2026-05-17T18:50:29.767Z",
   "matches": [
     {
       "date": "2026-04-27",
@@ -1837,7 +1837,10 @@
       "second_pct": "41.2",
       "bp_saved": "4/8",
       "match_time": "1:23",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.4,
+      "odds_opp": 2.59,
+      "odds_src": "bid45"
     },
     {
       "date": "2025-04-14",
@@ -1886,7 +1889,10 @@
       "second_pct": "42.3",
       "bp_saved": "8/10",
       "match_time": "2:10",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.16,
+      "odds_opp": 4.28,
+      "odds_src": "bid45"
     },
     {
       "date": "2025-03-17",
@@ -6579,7 +6585,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.6,
+      "odds_opp": 2.16,
+      "odds_src": "bid45"
     },
     {
       "date": "2022-06-06",
