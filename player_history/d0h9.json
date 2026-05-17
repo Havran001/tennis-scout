@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Guy Den Ouden",
   "source": "tennisabstract",
-  "updated": "2026-05-17T14:34:50.707Z",
+  "updated": "2026-05-17T18:46:08.711Z",
   "matches": [
     {
       "date": "2026-05-11",
@@ -26,7 +26,10 @@
       "second_pct": "25.9",
       "bp_saved": "9/14",
       "match_time": "2:01",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.49,
+      "odds_opp": 2.42,
+      "odds_src": "bid45"
     },
     {
       "date": "2026-05-11",
@@ -49,7 +52,10 @@
       "second_pct": "55.6",
       "bp_saved": "0/1",
       "match_time": "1:21",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.33,
+      "odds_opp": 3.05,
+      "odds_src": "bid657"
     },
     {
       "date": "2026-05-04",
