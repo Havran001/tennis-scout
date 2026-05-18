@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Li Tu",
   "source": "tennisabstract",
-  "updated": "2026-05-18T15:23:38.120Z",
+  "updated": "2026-05-18T15:23:50.184Z",
   "matches": [
     {
       "date": "2026-04-13",
@@ -5730,7 +5730,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.04,
+      "odds_opp": 9.9,
+      "odds_src": "bid417"
     },
     {
       "date": "2022-05-09",
