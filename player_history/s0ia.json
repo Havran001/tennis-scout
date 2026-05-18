@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Dane Sweeny",
   "source": "tennisabstract",
-  "updated": "2026-05-18T06:00:08.097Z",
+  "updated": "2026-05-18T06:10:02.356Z",
   "matches": [
     {
       "date": "2026-05-04",
@@ -1118,7 +1118,10 @@
       "second_pct": "68.8",
       "bp_saved": "5/5",
       "match_time": "1:30",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.23,
+      "odds_opp": 3.8,
+      "odds_src": "bid417"
     },
     {
       "date": "2025-10-27",
