@@ -4245,7 +4245,7 @@ function buildUI(){
       async function createBlobWithRetry(p, attempt) {
         attempt = attempt || 1;
         var slug = slugify(p.full_name || p.name || '');
-        var pending = { pid: p.id, name: p.full_name || p.name || '', player_slug: slug, force: false, requested_at: startedAt, requested_by: 'import_missing_button' };
+        var pending = { pid: p.id, name: p.full_name || p.name || '', player_slug: slug, force: true, requested_at: startedAt, requested_by: 'import_missing_button_vpn_reimport' };
         var content = JSON.stringify(pending, null, 2);
         var utf8 = new TextEncoder().encode(content);
         var bin2 = '';
