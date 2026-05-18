@@ -3,7 +3,7 @@
   "gs_id": "",
   "player_name": "Tom Paris",
   "source": "tennisabstract",
-  "updated": "2026-05-18T05:57:07.511Z",
+  "updated": "2026-05-18T06:09:19.407Z",
   "matches": [
     {
       "date": "2026-04-28",
@@ -3065,7 +3065,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.05,
+      "odds_opp": 1.69,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-10-09",
@@ -3192,7 +3195,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 1.29,
+      "odds_opp": 3.34,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-10-02",
@@ -3683,7 +3689,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 2.6,
+      "odds_opp": 1.45,
+      "odds_src": "bid417"
     },
     {
       "date": "2023-03-20",
@@ -3940,7 +3949,10 @@
       "second_pct": "",
       "bp_saved": "0/0",
       "match_time": "",
-      "odds": ""
+      "odds": "",
+      "odds_alc": 7.9,
+      "odds_opp": 1.07,
+      "odds_src": "bid417"
     }
   ]
 }
