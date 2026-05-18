@@ -350,9 +350,9 @@ async function fetchDailyResults(yyyy, mm, dd) {
   return out;
 }
 
-async function fetchOddsForMid(mid, matchDate) {
-  // ═══ CACHE CHECK ═══
-  const cached = await loadOddsCache(mid);
+async function fetchOddsForMid(mid, matchDate, force) {
+  // ═══ CACHE CHECK (skip if force) ═══
+  const cached = force ? null : await loadOddsCache(mid);
   if (cached) {
     return cached.result;
   }
@@ -646,7 +646,7 @@ async function processPlayer(pidFile) {
     const batchRes = await Promise.allSettled(batch.map(async (c) => {
       // V5 fallback: zkus kandidaty v poradi dokud nejaky neda odds
       for (const be of c.candidates) {
-        const chosen = await fetchOddsForMid(be.mid, c.hm.date);
+        const chosen = await fetchOddsForMid(be.mid, c.hm.date, force);
         if (chosen) return { c, be, chosen };
       }
       return { c, be: null, chosen: null };
