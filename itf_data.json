@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-18T08:11:09Z",
+  "updated": "2026-05-19T07:53:17Z",
   "year": 2026,
-  "count": 821,
+  "count": 827,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -6704,6 +6704,16 @@
       "end": "2026-07-26"
     },
     {
+      "name": "Soltepec Tennis Tour",
+      "loc": "Huamantla",
+      "country": "MEX",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-07-20",
+      "end": "2026-07-25"
+    },
+    {
       "name": "M15 Segrate",
       "loc": "Segrate",
       "country": "ITA",
@@ -6734,16 +6744,6 @@
       "end": "2026-07-26"
     },
     {
-      "name": "W75 Vacaria",
-      "loc": "Vacaria",
-      "country": "BRA",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Clay",
-      "start": "2026-07-20",
-      "end": "2026-07-27"
-    },
-    {
       "name": "W75 Cordenons",
       "loc": "Cordenons",
       "country": "ITA",
@@ -6754,14 +6754,14 @@
       "end": "2026-07-25"
     },
     {
-      "name": "Saskatoon Challenger",
-      "loc": "Saskatoon",
-      "country": "CAN",
+      "name": "W75 Vacaria",
+      "loc": "Vacaria",
+      "country": "BRA",
       "cat": "ITF",
-      "tier": "W50",
-      "surf": "Hard",
+      "tier": "W75",
+      "surf": "Clay",
       "start": "2026-07-20",
-      "end": "2026-07-26"
+      "end": "2026-07-27"
     },
     {
       "name": "W50 Horb",
@@ -6770,6 +6770,16 @@
       "cat": "ITF",
       "tier": "W50",
       "surf": "Clay",
+      "start": "2026-07-20",
+      "end": "2026-07-26"
+    },
+    {
+      "name": "Saskatoon Challenger",
+      "loc": "Saskatoon",
+      "country": "CAN",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
       "start": "2026-07-20",
       "end": "2026-07-26"
     },
@@ -6804,16 +6814,6 @@
       "end": "2026-07-26"
     },
     {
-      "name": "Brisbane W15 - Week 2",
-      "loc": "Brisbane",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-07-20",
-      "end": "2026-07-26"
-    },
-    {
       "name": "W15 Kursumlijska Banja ",
       "loc": "KURSUMLIJSKA BANJA",
       "country": "SRB",
@@ -6834,12 +6834,12 @@
       "end": "2026-07-26"
     },
     {
-      "name": "Tournoi de l'Île aux Loups",
-      "loc": "Nogent-sur-Marne",
-      "country": "FRA",
+      "name": "Brisbane W15 - Week 2",
+      "loc": "Brisbane",
+      "country": "AUS",
       "cat": "ITF",
       "tier": "W15",
-      "surf": "Clay",
+      "surf": "Hard",
       "start": "2026-07-20",
       "end": "2026-07-26"
     },
@@ -6850,6 +6850,16 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
+      "start": "2026-07-20",
+      "end": "2026-07-26"
+    },
+    {
+      "name": "Tournoi de l'Île aux Loups",
+      "loc": "Nogent-sur-Marne",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
       "start": "2026-07-20",
       "end": "2026-07-26"
     },
@@ -6974,6 +6984,16 @@
       "end": "2026-08-02"
     },
     {
+      "name": "Soltepec Tennis Tour",
+      "loc": "Huamantla",
+      "country": "MEX",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-07-27",
+      "end": "2026-08-01"
+    },
+    {
       "name": "AMMAN Men's World Tennis Championship",
       "loc": "Bali",
       "country": "INA",
@@ -7074,6 +7094,16 @@
       "end": "2026-08-02"
     },
     {
+      "name": "OP SALPA SAVITAIPALE OPEN",
+      "loc": "Savitaipale",
+      "country": "FIN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-07-27",
+      "end": "2026-08-02"
+    },
+    {
       "name": "Astana Women`s Open 3",
       "loc": "Astana",
       "country": "KAZ",
@@ -7087,16 +7117,6 @@
       "name": "W15 Rogaska Slatina",
       "loc": "ROGAŠKA SLATINA",
       "country": "SLO",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Clay",
-      "start": "2026-07-27",
-      "end": "2026-08-02"
-    },
-    {
-      "name": "OP SALPA SAVITAIPALE OPEN",
-      "loc": "Savitaipale",
-      "country": "FIN",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
@@ -7274,16 +7294,6 @@
       "end": "2026-08-16"
     },
     {
-      "name": "M25 Koksijde",
-      "loc": "Koksijde",
-      "country": "BEL",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-08-10",
-      "end": "2026-08-16"
-    },
-    {
       "name": "M25 East Lansing, MI",
       "loc": "East Lansing",
       "country": "USA",
@@ -7300,6 +7310,16 @@
       "cat": "ITF",
       "tier": "M25",
       "surf": "Hard",
+      "start": "2026-08-10",
+      "end": "2026-08-16"
+    },
+    {
+      "name": "M25 Koksijde",
+      "loc": "Koksijde",
+      "country": "BEL",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
       "start": "2026-08-10",
       "end": "2026-08-16"
     },
@@ -7544,6 +7564,16 @@
       "end": "2026-08-30"
     },
     {
+      "name": "Formosa Cup",
+      "loc": "Taipei",
+      "country": "TPE",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
+    },
+    {
       "name": "WTT ZAVAROVALNICA TRIGLAV OPEN BRANIK MARIBOR",
       "loc": "Maribor",
       "country": "SLO",
@@ -7554,11 +7584,11 @@
       "end": "2026-08-30"
     },
     {
-      "name": "Formosa Cup",
-      "loc": "Taipei",
-      "country": "TPE",
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
       "cat": "ITF",
-      "tier": "M25",
+      "tier": "M15",
       "surf": "Hard",
       "start": "2026-08-24",
       "end": "2026-08-30"
@@ -7634,6 +7664,16 @@
       "end": "2026-08-30"
     },
     {
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
+    },
+    {
       "name": "Tsaghkadzor Autumn Cup",
       "loc": "Tsaghkadzor",
       "country": "ARM",
@@ -7655,11 +7695,21 @@
     },
     {
       "name": "Morocco Tennis Tour",
-      "loc": "Rabat",
+      "loc": "Casablanca",
       "country": "MAR",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Clay",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
       "start": "2026-08-31",
       "end": "2026-09-06"
     },
@@ -7794,6 +7844,16 @@
       "end": "2026-09-06"
     },
     {
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
       "name": "Tournoi International de Plaisir",
       "loc": "Plaisir",
       "country": "FRA",
@@ -7825,7 +7885,7 @@
     },
     {
       "name": "Morocco Tennis Tour",
-      "loc": "Casablanca",
+      "loc": "Rabat",
       "country": "MAR",
       "cat": "ITF",
       "tier": "M25",
