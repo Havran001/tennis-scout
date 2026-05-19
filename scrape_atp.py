@@ -1,8 +1,40 @@
 import requests, json, re, csv, io
-import cloudscraper
+from playwright.sync_api import sync_playwright
 
-# Cloudflare-aware scraper pro atptour.com (= jinak request blokovan)
-_cf_scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'darwin', 'mobile': False})
+# Playwright headless Chrome pro atptour.com (= obchazi novy Cloudflare Turnstile)
+_pw_browser = None
+_pw_context = None
+_pw_playwright = None
+
+def _ensure_pw():
+    global _pw_browser, _pw_context, _pw_playwright
+    if _pw_browser is None:
+        _pw_playwright = sync_playwright().start()
+        _pw_browser = _pw_playwright.chromium.launch(headless=True)
+        _pw_context = _pw_browser.new_context(
+            user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            viewport={'width': 1280, 'height': 720}
+        )
+
+def _pw_fetch(url, timeout=30):
+    """Fetch URL přes Playwright, vrací response objekt s .text atributem."""
+    _ensure_pw()
+    page = _pw_context.new_page()
+    try:
+        page.goto(url, wait_until='networkidle', timeout=timeout * 1000)
+        # Wait pro table - Cloudflare může mít challenge která se sama vyřeší
+        try:
+            page.wait_for_selector('table tr', timeout=15000)
+        except:
+            pass
+        html = page.content()
+    finally:
+        page.close()
+    
+    class _R:
+        def __init__(self, text):
+            self.text = text
+    return _R(html)
 from bs4 import BeautifulSoup
 from datetime import date
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -19,7 +51,7 @@ seen_ids = set()
 
 for rng in ranges:
     try:
-        r = _cf_scraper.get(f'https://www.atptour.com/en/rankings/singles?rankRange={rng}', headers=headers, timeout=30)
+        r = _pw_fetch(f'https://www.atptour.com/en/rankings/singles?rankRange={rng}', timeout=30)
         soup = BeautifulSoup(r.text, 'lxml')
         for row in soup.select('table tr')[1:]:
             tds = row.select('td')
