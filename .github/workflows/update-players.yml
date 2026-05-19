@@ -7,6 +7,35 @@ on:
 
 jobs:
   update-players:
+    runs-on: [self-hosted, eu-ip]
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python deps
+        run: pip3 install --break-system-packages requests beautifulsoup4 lxml
+
+      - name: Scrape ATP Rankings
+        run: python3 scrape_atp.py
+
+      - name: Commit update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add atp_players.json
+          git diff --staged --quiet || git commit -m 'players: weekly ATP ranking update'
+                    git pull --rebase origin main
+          git push
+name: Update ATP Players Weekly
+
+on:
+  schedule:
+        - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-players:
     runs-on: ubuntu-latest
     permissions:
       contents: write
