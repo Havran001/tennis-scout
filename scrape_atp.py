@@ -1,4 +1,4 @@
-import requests, json, re, csv, io, time
+import requests, json, re, csv, io
 from playwright.sync_api import sync_playwright
 
 # Playwright headless Chrome pro atptour.com (= obchazi novy Cloudflare Turnstile)
@@ -10,94 +10,38 @@ def _ensure_pw():
     global _pw_browser, _pw_context, _pw_playwright
     if _pw_browser is None:
         _pw_playwright = sync_playwright().start()
-        # Launch s args pro lepsi Cloudflare bypass
-        _pw_browser = _pw_playwright.chromium.launch(
-            headless=True,
-            args=[
-                '--disable-blink-features=AutomationControlled',
-                '--disable-features=IsolateOrigins,site-per-process',
-                '--no-sandbox',
-            ]
-        )
+        _pw_browser = _pw_playwright.chromium.launch(headless=True)
         _pw_context = _pw_browser.new_context(
             user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            viewport={'width': 1280, 'height': 720},
-            locale='en-US',
-            timezone_id='Europe/Vienna',
+            viewport={'width': 1280, 'height': 720}
         )
-        # Hide webdriver flag
-        _pw_context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-        # Visit ATP homepage first pro ziskani cookies/session
-        warmup_page = _pw_context.new_page()
-        try:
-            warmup_page.goto('https://www.atptour.com/en', wait_until='networkidle', timeout=30000)
-            time.sleep(3)  # Wait pro Cloudflare cookies
-        except Exception as e:
-            print(f'Warmup failed: {e}')
-        finally:
-            warmup_page.close()
 
-def _pw_fetch(url, timeout=30, retries=3):
-    """Fetch URL přes Playwright s retry. Vrací response objekt s .text atributem."""
+def _pw_fetch(url, timeout=30):
+    """Fetch URL přes Playwright, vrací response objekt s .text atributem."""
     _ensure_pw()
-    last_html = ''
-    for attempt in range(retries):
-        page = _pw_context.new_page()
+    page = _pw_context.new_page()
+    try:
+        page.goto(url, wait_until='networkidle', timeout=timeout * 1000)
+        # Wait pro table - Cloudflare může mít challenge která se sama vyřeší
         try:
-            # Set referer ze ATP homepage
-            page.set_extra_http_headers({'Referer': 'https://www.atptour.com/en/rankings/singles'})
-            page.goto(url, wait_until='domcontentloaded', timeout=timeout * 1000)
-            # Wait pro table rendering
-            try:
-                page.wait_for_selector('table tr td.rank', timeout=20000)
-            except:
-                pass
-            # Scroll pro lazy-load
-            try:
-                page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
-                time.sleep(1)
-                page.evaluate('window.scrollTo(0, 0)')
-            except:
-                pass
-            time.sleep(2)
-            html = page.content()
-            last_html = html
-            # Check zda Cloudflare nebo prazdny obsah
-            if 'Attention Required' in html or 'Just a moment' in html or 'cf-browser-verification' in html:
-                print(f'  Attempt {attempt+1}: Cloudflare challenge, retry...')
-                time.sleep(5)
-                continue
-            # Check zda mame data
-            if 'li class="name"' in html or '/players/' in html:
-                page.close()
-                class _R:
-                    def __init__(self, text):
-                        self.text = text
-                return _R(html)
-            else:
-                print(f'  Attempt {attempt+1}: no player data, retry...')
-                time.sleep(3)
-        except Exception as e:
-            print(f'  Attempt {attempt+1} error: {e}')
-            time.sleep(3)
-        finally:
-            try:
-                page.close()
-            except:
-                pass
-    # Vsech retries selhalo - vrat posledni HTML
+            page.wait_for_selector('table tr', timeout=15000)
+        except:
+            pass
+        html = page.content()
+    finally:
+        page.close()
+    
     class _R:
         def __init__(self, text):
             self.text = text
-    return _R(last_html)
-
+    return _R(html)
 from bs4 import BeautifulSoup
 from datetime import date
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9'
 }
 
 # ── STEP 1: Scrape ATP rankings ────────────────────────────────────
@@ -105,69 +49,47 @@ ranges = ['0-100','101-200','201-300','301-400','401-500','501-600','601-700','7
 all_players = []
 seen_ids = set()
 
-def _parse_range_html(html, seen_ids_set):
-    """Parsne HTML jedne stranky rankings, vrati list hracu."""
-    soup = BeautifulSoup(html, 'lxml')
-    players_in_page = []
-    for row in soup.select('table tr')[1:]:
-        tds = row.select('td')
-        if len(tds) < 3: continue
-        rank_raw = tds[0].get_text(strip=True).replace('T','').replace('t','').strip()
-        try:
-            rank = int(rank_raw)
-        except:
-            continue
-        name_a = tds[1].select_one('li.name a')
-        if not name_a: continue
-        name = name_a.get_text(strip=True)
-        href = name_a.get('href', '')
-        parts = [p for p in href.split('/') if p]
-        player_id = parts[3] if len(parts) > 3 else ''
-        slug = parts[2] if len(parts) > 2 else ''
-        full_name = ' '.join(w.capitalize() for w in slug.replace('-', ' ').split()) if slug else name
-        if player_id and player_id in seen_ids_set:
-            continue
-        flag = tds[1].select_one('svg.atp-flag use')
-        country = ''
-        if flag:
-            fh = flag.get('href') or flag.get('xlink:href', '')
-            country = fh.split('#')[-1].replace('flag-', '').upper()
-        try:
-            pts = int(tds[2].get_text(strip=True).replace(',','').replace('.',''))
-        except:
-            pts = 0
-        players_in_page.append({
-            'rank': rank, 'name': name, 'full_name': full_name,
-            'country': country, 'pts': pts, 'id': player_id,
-            'ch': None, 'ch_date': None
-        })
-    return players_in_page
-
 for rng in ranges:
-    # Pro range 0-100 a 101-200 (= nejvic blokovane) extra retries
-    extra_retries = 5 if rng in ('0-100', '101-200') else 3
-    success = False
-    for outer_attempt in range(2):  # Az 2 ruzne fetch sady
-        try:
-            r = _pw_fetch(f'https://www.atptour.com/en/rankings/singles?rankRange={rng}', timeout=45, retries=extra_retries)
-            page_players = _parse_range_html(r.text, seen_ids)
-            if page_players:
-                for pl in page_players:
-                    if pl['id']:
-                        seen_ids.add(pl['id'])
-                    all_players.append(pl)
-                print(f'{rng}: {len(all_players)} total (+{len(page_players)} this range)')
-                success = True
-                break
-            else:
-                print(f'{rng}: 0 players (outer attempt {outer_attempt+1}), retrying...')
-                time.sleep(8)
-        except Exception as e:
-            print(f'Error {rng} (outer {outer_attempt+1}): {e}')
-            time.sleep(5)
-    if not success:
-        print(f'{rng}: FAILED after all retries')
-    time.sleep(1)  # Pauza mezi ranges
+    try:
+        r = _pw_fetch(f'https://www.atptour.com/en/rankings/singles?rankRange={rng}', timeout=30)
+        soup = BeautifulSoup(r.text, 'lxml')
+        for row in soup.select('table tr')[1:]:
+            tds = row.select('td')
+            if len(tds) < 3: continue
+            rank_raw = tds[0].get_text(strip=True).replace('T','').replace('t','').strip()
+            try:
+                rank = int(rank_raw)
+            except:
+                continue
+            name_a = tds[1].select_one('li.name a')
+            if not name_a: continue
+            name = name_a.get_text(strip=True)
+            href = name_a.get('href', '')
+            parts = [p for p in href.split('/') if p]
+            player_id = parts[3] if len(parts) > 3 else ''
+            slug = parts[2] if len(parts) > 2 else ''
+            full_name = ' '.join(w.capitalize() for w in slug.replace('-', ' ').split()) if slug else name
+            if player_id and player_id in seen_ids:
+                continue
+            if player_id:
+                seen_ids.add(player_id)
+            flag = tds[1].select_one('svg.atp-flag use')
+            country = ''
+            if flag:
+                fh = flag.get('href') or flag.get('xlink:href', '')
+                country = fh.split('#')[-1].replace('flag-', '').upper()
+            try:
+                pts = int(tds[2].get_text(strip=True).replace(',','').replace('.',''))
+            except:
+                pts = 0
+            all_players.append({
+                'rank': rank, 'name': name, 'full_name': full_name,
+                'country': country, 'pts': pts, 'id': player_id,
+                'ch': None, 'ch_date': None
+            })
+        print(f'{rng}: {len(all_players)} total')
+    except Exception as e:
+        print(f'Error {rng}: {e}')
 
 # ── STEP 2: Career High from Sackmann historical rankings ─────────
 print('Loading Sackmann ranking files for Career High...')
