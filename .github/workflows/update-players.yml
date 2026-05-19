@@ -16,7 +16,7 @@ jobs:
       - name: Install Python deps
         run: pip3 install requests beautifulsoup4 lxml playwright
 
-      - name: Install Playwright Chromium
+      - name: Install Playwright browsers
         run: python3 -m playwright install chromium
 
       - name: Scrape ATP Rankings
