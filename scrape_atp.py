@@ -1,4 +1,8 @@
 import requests, json, re, csv, io
+import cloudscraper
+
+# Cloudflare-aware scraper pro atptour.com (= jinak request blokovan)
+_cf_scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'darwin', 'mobile': False})
 from bs4 import BeautifulSoup
 from datetime import date
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -15,7 +19,7 @@ seen_ids = set()
 
 for rng in ranges:
     try:
-        r = requests.get(f'https://www.atptour.com/en/rankings/singles?rankRange={rng}', headers=headers, timeout=20)
+        r = _cf_scraper.get(f'https://www.atptour.com/en/rankings/singles?rankRange={rng}', headers=headers, timeout=30)
         soup = BeautifulSoup(r.text, 'lxml')
         for row in soup.select('table tr')[1:]:
             tds = row.select('td')
@@ -133,7 +137,7 @@ def fetch_atp_career_high(player):
         return player
     try:
         url = f'https://www.atptour.com/en/players/{slug}/{pid}/rankings-history?year=all'
-        r = requests.get(url, headers=headers, timeout=15)
+        r = _cf_scraper.get(url, headers=headers, timeout=30)
         soup = BeautifulSoup(r.text, 'lxml')
         for stat in soup.select('div.stat'):
             label = stat.select_one('.stat-label')
