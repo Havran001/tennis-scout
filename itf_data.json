@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-20T07:52:22Z",
+  "updated": "2026-05-21T07:59:22Z",
   "year": 2026,
-  "count": 833,
+  "count": 839,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -6734,7 +6734,7 @@
       "end": "2026-07-26"
     },
     {
-      "name": "W100 Evansville, IN",
+      "name": "The Women's Hospital Classic",
       "loc": "Evansville",
       "country": "USA",
       "cat": "ITF",
@@ -7034,22 +7034,22 @@
       "end": "2026-08-02"
     },
     {
-      "name": "CTS Ladies Open Hechingen",
-      "loc": "Hechingen",
-      "country": "GER",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Clay",
-      "start": "2026-07-27",
-      "end": "2026-08-02"
-    },
-    {
       "name": "W75 Lexington",
       "loc": "Lexington",
       "country": "USA",
       "cat": "ITF",
       "tier": "W75",
       "surf": "Hard",
+      "start": "2026-07-27",
+      "end": "2026-08-02"
+    },
+    {
+      "name": "CTS Ladies Open Hechingen",
+      "loc": "Hechingen",
+      "country": "GER",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Clay",
       "start": "2026-07-27",
       "end": "2026-08-02"
     },
@@ -7134,6 +7134,16 @@
       "end": "2026-08-02"
     },
     {
+      "name": "W15 Bielsko Biala",
+      "loc": "Bielsko Biala",
+      "country": "POL",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-07-27",
+      "end": "2026-08-02"
+    },
+    {
       "name": "Città di Fano - Internazionali di Tennis",
       "loc": "FANO",
       "country": "ITA",
@@ -7197,6 +7207,16 @@
       "name": "M15 Curtea de Arges",
       "loc": "Curtea de Arges",
       "country": "ROU",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-08-03",
+      "end": "2026-08-09"
+    },
+    {
+      "name": "BKT Advantage Cup",
+      "loc": "Bielsko Biala",
+      "country": "POL",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -7364,6 +7384,16 @@
       "end": "2026-08-16"
     },
     {
+      "name": "M15 Warsaw",
+      "loc": "Warsaw",
+      "country": "POL",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-08-10",
+      "end": "2026-08-16"
+    },
+    {
       "name": "M15 Turku",
       "loc": "Turku",
       "country": "FIN",
@@ -7410,6 +7440,16 @@
       "cat": "ITF",
       "tier": "W35",
       "surf": "Hard",
+      "start": "2026-08-10",
+      "end": "2026-08-16"
+    },
+    {
+      "name": "Fale Loki Koki Cup Bydgoszcz",
+      "loc": "Bydgoszcz",
+      "country": "POL",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
       "start": "2026-08-10",
       "end": "2026-08-16"
     },
@@ -7507,6 +7547,16 @@
       "name": "M15 Arad",
       "loc": "Arad",
       "country": "ROU",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-08-17",
+      "end": "2026-08-23"
+    },
+    {
+      "name": "Krakow Open",
+      "loc": "Krakow",
+      "country": "POL",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -7714,16 +7764,6 @@
       "end": "2026-08-30"
     },
     {
-      "name": "Magic Hotel Tours by FTT\t",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-08-24",
-      "end": "2026-08-30"
-    },
-    {
       "name": "Tsaghkadzor Autumn Cup",
       "loc": "Tsaghkadzor",
       "country": "ARM",
@@ -7732,6 +7772,16 @@
       "surf": "Clay",
       "start": "2026-08-24",
       "end": "2026-08-29"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
     },
     {
       "name": "Internationaux de la Ville de Bagnères-de-Bigorre",
@@ -7907,6 +7957,16 @@
       "name": "Magic Hotel Tours by FTT\t",
       "loc": "Monastir",
       "country": "TUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
+      "name": "Kozerki Tour ITF W15",
+      "loc": "Grodzisk Mazowiecki",
+      "country": "POL",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -8294,11 +8354,11 @@
       "end": "2026-11-15"
     },
     {
-      "name": "M15 Singapore ITF World Tennis Tour (V) 2026",
+      "name": "M25 Singapore ITF World Tennis Tour (V) 2026",
       "loc": "Singapore",
       "country": "SGP",
       "cat": "ITF",
-      "tier": "M15",
+      "tier": "M25",
       "surf": "Hard",
       "start": "2026-12-07",
       "end": "2026-12-13"
