@@ -1,21 +1,20 @@
 {
-  "updated": "2026-05-17T17:40:54.390Z",
+  "updated": "2026-05-24T17:23:29.263Z",
   "source": "tennisabstract.com/reports/atp_elo_ratings.html",
-  "count": 518,
+  "count": 509,
   "strategies": {
-    "reorder": 500,
-    "sack_key": 13,
-    "rev_substring": 1,
+    "reorder": 490,
+    "sack_key": 15,
     "substring": 3,
     "last_alias_merge": 1
   },
   "items": {
     "s0ag": {
       "name": "Jannik Sinner",
-      "elo": 2331.1,
-      "h_elo": 2268.9,
-      "c_elo": 2222.5,
-      "g_elo": 2094
+      "elo": 2339.5,
+      "h_elo": 2273.1,
+      "c_elo": 2241.8,
+      "g_elo": 2098.2
     },
     "a0e2": {
       "name": "Carlos Alcaraz",
@@ -26,128 +25,114 @@
     },
     "z355": {
       "name": "Alexander Zverev",
-      "elo": 2086.8,
-      "h_elo": 2035,
-      "c_elo": 2028.4,
-      "g_elo": 1898.3
+      "elo": 2078.8,
+      "h_elo": 2031,
+      "c_elo": 2021.3,
+      "g_elo": 1894.3
     },
     "d643": {
       "name": "Novak Djokovic",
-      "elo": 2079.6,
-      "h_elo": 2031.8,
-      "c_elo": 1982.2,
-      "g_elo": 1935
+      "elo": 2068.8,
+      "h_elo": 2026.4,
+      "c_elo": 1969.4,
+      "g_elo": 1929.7
     },
     "f0f1": {
       "name": "Arthur Fils",
-      "elo": 2046.2,
-      "h_elo": 1962.6,
-      "c_elo": 1985.7,
-      "g_elo": 1809.2
+      "elo": 2020.6,
+      "h_elo": 1949.7,
+      "c_elo": 1955.1,
+      "g_elo": 1796.4
     },
     "mm58": {
       "name": "Daniil Medvedev",
-      "elo": 2000.1,
-      "h_elo": 1973.7,
-      "c_elo": 1904.4,
-      "g_elo": 1879.1
-    },
-    "ag37": {
-      "name": "Felix Auger Aliassime",
-      "elo": 1985.4,
-      "h_elo": 1945.9,
-      "c_elo": 1873.7,
-      "g_elo": 1794
-    },
-    "dh58": {
-      "name": "Alex De Minaur",
-      "elo": 1983.4,
-      "h_elo": 1946.8,
-      "c_elo": 1877.7,
-      "g_elo": 1827.6
-    },
-    "fb98": {
-      "name": "Taylor Fritz",
-      "elo": 1980.4,
-      "h_elo": 1924.2,
-      "c_elo": 1872.7,
-      "g_elo": 1914.3
+      "elo": 2007.9,
+      "h_elo": 1977.6,
+      "c_elo": 1921.9,
+      "g_elo": 1883
     },
     "j0dz": {
       "name": "Rafael Jodar",
-      "elo": 1980,
-      "h_elo": 1863.4,
-      "c_elo": 1933.9,
-      "g_elo": 1690
-    },
-    "s0s1": {
-      "name": "Ben Shelton",
-      "elo": 1976,
-      "h_elo": 1929.4,
-      "c_elo": 1890.5,
-      "g_elo": 1803.6
-    },
-    "m0ej": {
-      "name": "Lorenzo Musetti",
-      "elo": 1966.9,
-      "h_elo": 1902.6,
-      "c_elo": 1951.4,
-      "g_elo": 1849.4
-    },
-    "l0bv": {
-      "name": "Jiri Lehecka",
-      "elo": 1954.8,
-      "h_elo": 1898.7,
-      "c_elo": 1849.8,
-      "g_elo": 1809.9
+      "elo": 1983.2,
+      "h_elo": 1865,
+      "c_elo": 1935.1,
+      "g_elo": 1691.6
     },
     "rh16": {
       "name": "Casper Ruud",
-      "elo": 1937.1,
-      "h_elo": 1865.7,
-      "c_elo": 1938.6,
-      "g_elo": 1691.8
+      "elo": 1972.8,
+      "h_elo": 1883.5,
+      "c_elo": 1970.4,
+      "g_elo": 1709.6
     },
-    "m0ni": {
-      "name": "Jakub Mensik",
-      "elo": 1934.7,
-      "h_elo": 1894.6,
-      "c_elo": 1811.4,
-      "g_elo": 1728.7
+    "m0ej": {
+      "name": "Lorenzo Musetti",
+      "elo": 1968.8,
+      "h_elo": 1903.5,
+      "c_elo": 1952.6,
+      "g_elo": 1850.4
     },
-    "f0fv": {
-      "name": "Joao Fonseca",
-      "elo": 1931.8,
-      "h_elo": 1915.8,
-      "c_elo": 1828.9,
-      "g_elo": 1707.1
+    "dh58": {
+      "name": "Alex de Minaur",
+      "elo": 1967.9,
+      "h_elo": 1939,
+      "c_elo": 1859.3,
+      "g_elo": 1819.9
     },
-    "pl56": {
-      "name": "Tommy Paul",
-      "elo": 1929,
-      "h_elo": 1871.4,
-      "c_elo": 1869.4,
-      "g_elo": 1761.9
+    "s0s1": {
+      "name": "Ben Shelton",
+      "elo": 1953.1,
+      "h_elo": 1918,
+      "c_elo": 1858.8,
+      "g_elo": 1792.2
+    },
+    "l0bv": {
+      "name": "Jiri Lehecka",
+      "elo": 1946.9,
+      "h_elo": 1894.8,
+      "c_elo": 1848,
+      "g_elo": 1805.9
     },
     "bk92": {
       "name": "Alexander Bublik",
-      "elo": 1925.1,
-      "h_elo": 1854.6,
-      "c_elo": 1871.2,
-      "g_elo": 1831.5
+      "elo": 1920.1,
+      "h_elo": 1852.1,
+      "c_elo": 1857.5,
+      "g_elo": 1829.1
     },
-    "k0ah": {
-      "name": "Sebastian Korda",
-      "elo": 1923.6,
-      "h_elo": 1880,
-      "c_elo": 1784.9,
-      "g_elo": 1794
+    "pl56": {
+      "name": "Tommy Paul",
+      "elo": 1918.1,
+      "h_elo": 1866,
+      "c_elo": 1856.5,
+      "g_elo": 1756.4
+    },
+    "t0ha": {
+      "name": "Learner Tien",
+      "elo": 1913.3,
+      "h_elo": 1890.4,
+      "c_elo": 1685.1,
+      "g_elo": 1698.9
+    },
+    "m0ni": {
+      "name": "Jakub Mensik",
+      "elo": 1912.5,
+      "h_elo": 1883.4,
+      "c_elo": 1789.4,
+      "g_elo": 1717.5
+    },
+    "f0fv": {
+      "name": "Joao Fonseca",
+      "elo": 1910,
+      "h_elo": 1905,
+      "c_elo": 1808.1,
+      "g_elo": 1696.2
     },
     "c0au": {
       "name": "Francisco Cerundolo",
       "elo": 1908.9,
       "h_elo": 1869,
-      "c_elo": 1871.6,
+      "c_elo": 1872.1,
       "g_elo": 1676.7
     },
     "d0co": {
@@ -157,12 +142,12 @@
       "c_elo": 1789.4,
       "g_elo": 1741.3
     },
-    "t0ha": {
-      "name": "Learner Tien",
-      "elo": 1902.6,
-      "h_elo": 1885,
-      "c_elo": 1616.7,
-      "g_elo": 1693.6
+    "re44": {
+      "name": "Andrey Rublev",
+      "elo": 1904.6,
+      "h_elo": 1849.7,
+      "c_elo": 1868.1,
+      "g_elo": 1801.8
     },
     "va25": {
       "name": "Valentin Vacherot",
@@ -173,143 +158,122 @@
     },
     "c0jp": {
       "name": "Raphael Collignon",
-      "elo": 1893.2,
-      "h_elo": 1836.7,
-      "c_elo": 1791.6,
-      "g_elo": 1644.1
+      "elo": 1900.1,
+      "h_elo": 1840.1,
+      "c_elo": 1814.1,
+      "g_elo": 1647.5
     },
     "b0pg": {
       "name": "Alexander Blockx",
-      "elo": 1891.4,
-      "h_elo": 1786,
-      "c_elo": 1858.7,
-      "g_elo": 1690.7
+      "elo": 1899,
+      "h_elo": 1789.8,
+      "c_elo": 1863.6,
+      "g_elo": 1694.5
     },
     "c0e9": {
       "name": "Flavio Cobolli",
-      "elo": 1889.2,
-      "h_elo": 1806.1,
-      "c_elo": 1859.3,
-      "g_elo": 1756.8
-    },
-    "re44": {
-      "name": "Andrey Rublev",
-      "elo": 1888,
-      "h_elo": 1841.5,
-      "c_elo": 1848.6,
-      "g_elo": 1793.5
-    },
-    "td51": {
-      "name": "Frances Tiafoe",
-      "elo": 1886.3,
-      "h_elo": 1845.6,
-      "c_elo": 1811.9,
-      "g_elo": 1744
+      "elo": 1880,
+      "h_elo": 1801.5,
+      "c_elo": 1847.5,
+      "g_elo": 1752.2
     },
     "dh50": {
       "name": "Alejandro Davidovich Fokina",
-      "elo": 1884.8,
-      "h_elo": 1838.2,
-      "c_elo": 1814.9,
-      "g_elo": 1720.2
+      "elo": 1879.7,
+      "h_elo": 1835.6,
+      "c_elo": 1812.8,
+      "g_elo": 1717.6
     },
-    "n771": {
-      "name": "Cameron Norrie",
-      "elo": 1875.5,
-      "h_elo": 1812.4,
-      "c_elo": 1842.3,
-      "g_elo": 1758.5
+    "td51": {
+      "name": "Frances Tiafoe",
+      "elo": 1876.6,
+      "h_elo": 1840.7,
+      "c_elo": 1802.1,
+      "g_elo": 1739.1
     },
-    "ea24": {
-      "name": "Tomas Martin Etcheverry",
-      "elo": 1865.3,
-      "h_elo": 1792.4,
-      "c_elo": 1813.8,
-      "g_elo": 1612
-    },
-    "te51": {
-      "name": "Stefanos Tsitsipas",
-      "elo": 1860,
-      "h_elo": 1816,
-      "c_elo": 1883.2,
-      "g_elo": 1704
-    },
-    "hh26": {
-      "name": "Ugo Humbert",
-      "elo": 1854.3,
-      "h_elo": 1836.6,
-      "c_elo": 1713.1,
-      "g_elo": 1713.3
-    },
-    "m0fh": {
-      "name": "Tomas Machac",
-      "elo": 1850.1,
-      "h_elo": 1821.4,
-      "c_elo": 1755.4,
-      "g_elo": 1698
-    },
-    "te30": {
-      "name": "Alejandro Tabilo",
-      "elo": 1847.4,
-      "h_elo": 1764,
-      "c_elo": 1799.2,
-      "g_elo": 1722.1
-    },
-    "ke29": {
-      "name": "Karen Khachanov",
-      "elo": 1831.9,
-      "h_elo": 1784.8,
-      "c_elo": 1784.1,
-      "g_elo": 1744.1
-    },
-    "bk40": {
-      "name": "Matteo Berrettini",
-      "elo": 1829.9,
-      "h_elo": 1796.7,
-      "c_elo": 1783.6,
-      "g_elo": 1738.2
-    },
-    "gj37": {
-      "name": "Tallon Griekspoor",
-      "elo": 1822.8,
-      "h_elo": 1793.3,
-      "c_elo": 1746.4,
-      "g_elo": 1768.5
+    "fb98": {
+      "name": "Taylor Fritz",
+      "elo": 1875.4,
+      "h_elo": 1819.2,
+      "c_elo": 1767.7,
+      "g_elo": 1809.3
     },
     "p0hw": {
       "name": "Dino Prizmic",
-      "elo": 1822.6,
-      "h_elo": 1724,
-      "c_elo": 1786.8,
-      "g_elo": 1607.4
+      "elo": 1869.1,
+      "h_elo": 1747.3,
+      "c_elo": 1828.3,
+      "g_elo": 1630.7
     },
-    "m0qi": {
-      "name": "Alex Michelsen",
-      "elo": 1820.4,
-      "h_elo": 1807.8,
-      "c_elo": 1648,
-      "g_elo": 1707.8
+    "m0fh": {
+      "name": "Tomas Machac",
+      "elo": 1862.2,
+      "h_elo": 1827.4,
+      "c_elo": 1777.2,
+      "g_elo": 1704
+    },
+    "n771": {
+      "name": "Cameron Norrie",
+      "elo": 1861.5,
+      "h_elo": 1805.4,
+      "c_elo": 1823.3,
+      "g_elo": 1751.5
+    },
+    "hh26": {
+      "name": "Ugo Humbert",
+      "elo": 1851.7,
+      "h_elo": 1835.3,
+      "c_elo": 1721.5,
+      "g_elo": 1711.9
+    },
+    "te51": {
+      "name": "Stefanos Tsitsipas",
+      "elo": 1850.6,
+      "h_elo": 1811.3,
+      "c_elo": 1866.8,
+      "g_elo": 1699.3
+    },
+    "ke29": {
+      "name": "Karen Khachanov",
+      "elo": 1849.3,
+      "h_elo": 1793.5,
+      "c_elo": 1808.8,
+      "g_elo": 1752.8
+    },
+    "ea24": {
+      "name": "Tomas Martin Etcheverry",
+      "elo": 1849.2,
+      "h_elo": 1784.3,
+      "c_elo": 1795.3,
+      "g_elo": 1604
+    },
+    "te30": {
+      "name": "Alejandro Tabilo",
+      "elo": 1842.3,
+      "h_elo": 1761.4,
+      "c_elo": 1793.4,
+      "g_elo": 1719.6
     },
     "m0jf": {
       "name": "Hamad Medjedovic",
-      "elo": 1820.3,
-      "h_elo": 1734,
-      "c_elo": 1798.3,
-      "g_elo": 1642.9
+      "elo": 1840.5,
+      "h_elo": 1744.2,
+      "c_elo": 1814.1,
+      "g_elo": 1653
     },
-    "hb71": {
-      "name": "Hubert Hurkacz",
-      "elo": 1819,
-      "h_elo": 1736.9,
-      "c_elo": 1784.9,
-      "g_elo": 1726.4
+    "d0fj": {
+      "name": "Luciano Darderi",
+      "elo": 1839.1,
+      "h_elo": 1680.6,
+      "c_elo": 1846.4,
+      "g_elo": 1620.7
     },
-    "rc91": {
-      "name": "Arthur Rinderknech",
-      "elo": 1815.7,
-      "h_elo": 1765.5,
-      "c_elo": 1730.5,
-      "g_elo": 1688.1
+    "gj37": {
+      "name": "Tallon Griekspoor",
+      "elo": 1823.2,
+      "h_elo": 1793.5,
+      "c_elo": 1748.6,
+      "g_elo": 1768.7
     },
     "mc65": {
       "name": "Gael Monfils",
@@ -320,24 +284,10 @@
     },
     "c977": {
       "name": "Marin Cilic",
-      "elo": 1814.5,
-      "h_elo": 1768.5,
-      "c_elo": 1725.3,
-      "g_elo": 1778.1
-    },
-    "q02l": {
-      "name": "Ethan Quinn",
-      "elo": 1814.1,
-      "h_elo": 1772.2,
-      "c_elo": 1725.6,
-      "g_elo": 1655.1
-    },
-    "mu94": {
-      "name": "Jaume Munar",
-      "elo": 1811.3,
-      "h_elo": 1765.7,
-      "c_elo": 1732.2,
-      "g_elo": 1640.5
+      "elo": 1811,
+      "h_elo": 1766.8,
+      "c_elo": 1718.6,
+      "g_elo": 1776.3
     },
     "s0ja": {
       "name": "Eliot Spizzirri",
@@ -346,26 +296,19 @@
       "c_elo": 1596.1,
       "g_elo": 1637.2
     },
-    "n0ae": {
-      "name": "Brandon Nakashima",
-      "elo": 1809.2,
-      "h_elo": 1772.9,
-      "c_elo": 1709.6,
-      "g_elo": 1727
+    "k0ah": {
+      "name": "Sebastian Korda",
+      "elo": 1808.6,
+      "h_elo": 1765,
+      "c_elo": 1669.9,
+      "g_elo": 1679
     },
-    "mw02": {
-      "name": "Corentin Moutet",
-      "elo": 1808.8,
-      "h_elo": 1758.9,
-      "c_elo": 1743.3,
-      "g_elo": 1720.7
-    },
-    "su55": {
-      "name": "Denis Shapovalov",
-      "elo": 1806.7,
-      "h_elo": 1792.8,
-      "c_elo": 1710.3,
-      "g_elo": 1648.8
+    "hb71": {
+      "name": "Hubert Hurkacz",
+      "elo": 1808,
+      "h_elo": 1731.4,
+      "c_elo": 1769.6,
+      "g_elo": 1720.9
     },
     "wb32": {
       "name": "Yibing Wu",
@@ -374,19 +317,68 @@
       "c_elo": 1698.1,
       "g_elo": 1589.6
     },
-    "bu13": {
-      "name": "Zizou Bergs",
-      "elo": 1802.8,
-      "h_elo": 1754.3,
-      "c_elo": 1708.8,
-      "g_elo": 1664.7
+    "bk40": {
+      "name": "Matteo Berrettini",
+      "elo": 1806,
+      "h_elo": 1784.7,
+      "c_elo": 1755.9,
+      "g_elo": 1726.3
     },
-    "m0ci": {
-      "name": "Fabian Marozsan",
-      "elo": 1796,
-      "h_elo": 1752.5,
-      "c_elo": 1738.6,
-      "g_elo": 1599.2
+    "n0ae": {
+      "name": "Brandon Nakashima",
+      "elo": 1802.8,
+      "h_elo": 1769.7,
+      "c_elo": 1706.3,
+      "g_elo": 1723.8
+    },
+    "m0qi": {
+      "name": "Alex Michelsen",
+      "elo": 1801.7,
+      "h_elo": 1798.5,
+      "c_elo": 1630.9,
+      "g_elo": 1698.5
+    },
+    "rc91": {
+      "name": "Arthur Rinderknech",
+      "elo": 1800.8,
+      "h_elo": 1758,
+      "c_elo": 1707.7,
+      "g_elo": 1680.6
+    },
+    "n0bs": {
+      "name": "Mariano Navone",
+      "elo": 1796.7,
+      "h_elo": 1680.1,
+      "c_elo": 1776.5,
+      "g_elo": 1563.1
+    },
+    "mw02": {
+      "name": "Corentin Moutet",
+      "elo": 1796.3,
+      "h_elo": 1752.6,
+      "c_elo": 1730.4,
+      "g_elo": 1714.4
+    },
+    "su55": {
+      "name": "Denis Shapovalov",
+      "elo": 1795.4,
+      "h_elo": 1787.1,
+      "c_elo": 1698.1,
+      "g_elo": 1643.2
+    },
+    "q02l": {
+      "name": "Ethan Quinn",
+      "elo": 1795,
+      "h_elo": 1762.7,
+      "c_elo": 1704.7,
+      "g_elo": 1645.6
+    },
+    "mu94": {
+      "name": "Jaume Munar",
+      "elo": 1794.1,
+      "h_elo": 1757.1,
+      "c_elo": 1718.7,
+      "g_elo": 1631.9
     },
     "c0h0": {
       "name": "Arthur Cazaux",
@@ -397,17 +389,17 @@
     },
     "h997": {
       "name": "Yannick Hanfmann",
-      "elo": 1787.4,
-      "h_elo": 1724,
-      "c_elo": 1749.3,
-      "g_elo": 1645.9
+      "elo": 1787.7,
+      "h_elo": 1724.1,
+      "c_elo": 1751.6,
+      "g_elo": 1646.1
     },
-    "gc88": {
-      "name": "Marcos Giron",
-      "elo": 1782.6,
-      "h_elo": 1736.5,
-      "c_elo": 1662.5,
-      "g_elo": 1708.1
+    "bu13": {
+      "name": "Zizou Bergs",
+      "elo": 1784.9,
+      "h_elo": 1745.4,
+      "c_elo": 1692,
+      "g_elo": 1655.8
     },
     "r0dg": {
       "name": "Holger Rune",
@@ -416,33 +408,33 @@
       "c_elo": 1753.7,
       "g_elo": 1640.9
     },
-    "d0fj": {
-      "name": "Luciano Darderi",
-      "elo": 1776.9,
-      "h_elo": 1649.5,
-      "c_elo": 1789.6,
-      "g_elo": 1589.6
+    "m0ci": {
+      "name": "Fabian Marozsan",
+      "elo": 1780.2,
+      "h_elo": 1744.6,
+      "c_elo": 1721.9,
+      "g_elo": 1591.3
     },
-    "m0n7": {
-      "name": "Daniel Merida",
-      "elo": 1775.9,
-      "h_elo": 1691.7,
-      "c_elo": 1722.3,
-      "g_elo": 1588
+    "ki95": {
+      "name": "Miomir Kecmanovic",
+      "elo": 1778.7,
+      "h_elo": 1714.1,
+      "c_elo": 1739.9,
+      "g_elo": 1651.1
     },
-    "sx50": {
-      "name": "Roman Safiullin",
-      "elo": 1773.7,
-      "h_elo": 1715.5,
-      "c_elo": 1763.7,
-      "g_elo": 1622.1
+    "gc88": {
+      "name": "Marcos Giron",
+      "elo": 1773.3,
+      "h_elo": 1731.9,
+      "c_elo": 1650.1,
+      "g_elo": 1703.5
     },
-    "n0bs": {
-      "name": "Mariano Navone",
-      "elo": 1773.2,
-      "h_elo": 1668.4,
-      "c_elo": 1759.1,
-      "g_elo": 1551.4
+    "cd85": {
+      "name": "Pablo Carreno Busta",
+      "elo": 1773,
+      "h_elo": 1730.3,
+      "c_elo": 1739.2,
+      "g_elo": 1584.2
     },
     "tc61": {
       "name": "Jordan Thompson",
@@ -451,20 +443,6 @@
       "c_elo": 1604.6,
       "g_elo": 1708.7
     },
-    "f724": {
-      "name": "Marton Fucsovics",
-      "elo": 1772.4,
-      "h_elo": 1727.4,
-      "c_elo": 1704.3,
-      "g_elo": 1717.9
-    },
-    "d875": {
-      "name": "Grigor Dimitrov",
-      "elo": 1769,
-      "h_elo": 1748.4,
-      "c_elo": 1682.1,
-      "g_elo": 1658.7
-    },
     "o522": {
       "name": "Reilly Opelka",
       "elo": 1767.1,
@@ -472,12 +450,26 @@
       "c_elo": 1668.4,
       "g_elo": 1643.7
     },
-    "v812": {
-      "name": "Botic Van De Zandschulp",
-      "elo": 1765.4,
-      "h_elo": 1721.7,
-      "c_elo": 1713.2,
-      "g_elo": 1603.6
+    "sx50": {
+      "name": "Roman Safiullin",
+      "elo": 1766.2,
+      "h_elo": 1711.8,
+      "c_elo": 1755,
+      "g_elo": 1618.3
+    },
+    "f724": {
+      "name": "Marton Fucsovics",
+      "elo": 1765.1,
+      "h_elo": 1723.8,
+      "c_elo": 1696,
+      "g_elo": 1714.3
+    },
+    "a0fc": {
+      "name": "Matteo Arnaldi",
+      "elo": 1763.2,
+      "h_elo": 1699,
+      "c_elo": 1756.4,
+      "g_elo": 1582.9
     },
     "mq75": {
       "name": "Kamil Majchrzak",
@@ -486,54 +478,68 @@
       "c_elo": 1716.2,
       "g_elo": 1666.7
     },
-    "cd85": {
-      "name": "Pablo Carreno Busta",
-      "elo": 1758.1,
-      "h_elo": 1722.8,
-      "c_elo": 1726,
-      "g_elo": 1576.8
-    },
-    "u182": {
-      "name": "Camilo Ugo Carabelli",
-      "elo": 1756.1,
-      "h_elo": 1640,
-      "c_elo": 1747.9,
-      "g_elo": 1494.7
-    },
-    "b0fv": {
-      "name": "Roman Andres Burruchaga",
-      "elo": 1753.9,
-      "h_elo": 1566.1,
-      "c_elo": 1736,
-      "g_elo": 1592.6
-    },
     "v0dp": {
       "name": "Adolfo Daniel Vallejo",
-      "elo": 1751.9,
-      "h_elo": 1525.7,
-      "c_elo": 1720,
-      "g_elo": 1626
+      "elo": 1760.5,
+      "h_elo": 1530,
+      "c_elo": 1724,
+      "g_elo": 1630.2
     },
-    "su87": {
-      "name": "Lorenzo Sonego",
-      "elo": 1751.8,
-      "h_elo": 1717.7,
-      "c_elo": 1663.9,
-      "g_elo": 1666.8
+    "kf17": {
+      "name": "Soonwoo Kwon",
+      "elo": 1758.6,
+      "h_elo": 1722.7,
+      "c_elo": 1632.4,
+      "g_elo": 1603.3
     },
-    "bm95": {
-      "name": "Benjamin Bonzi",
-      "elo": 1748.7,
-      "h_elo": 1712.8,
-      "c_elo": 1634.7,
-      "g_elo": 1643.5
+    "v812": {
+      "name": "Botic van de Zandschulp",
+      "elo": 1758,
+      "h_elo": 1718,
+      "c_elo": 1702.4,
+      "g_elo": 1599.9
     },
-    "a0gc": {
-      "name": "Terence Atmane",
+    "p09z": {
+      "name": "Alexei Popyrin",
+      "elo": 1757.9,
+      "h_elo": 1688.8,
+      "c_elo": 1744.6,
+      "g_elo": 1623.1
+    },
+    "l0cx": {
+      "name": "Pablo Llamas Ruiz",
+      "elo": 1756.4,
+      "h_elo": 1630.2,
+      "c_elo": 1736.8,
+      "g_elo": 1569.4
+    },
+    "d875": {
+      "name": "Grigor Dimitrov",
+      "elo": 1756.1,
+      "h_elo": 1742,
+      "c_elo": 1660.6,
+      "g_elo": 1652.3
+    },
+    "mv14": {
+      "name": "Alex Molcan",
+      "elo": 1748.4,
+      "h_elo": 1655.6,
+      "c_elo": 1719,
+      "g_elo": 1618.9
+    },
+    "c0c8": {
+      "name": "Juan Manuel Cerundolo",
+      "elo": 1747.9,
+      "h_elo": 1636.3,
+      "c_elo": 1726.9,
+      "g_elo": 1491.3
+    },
+    "b0bi": {
+      "name": "Sebastian Baez",
       "elo": 1746.6,
-      "h_elo": 1695.1,
-      "c_elo": 1667.6,
-      "g_elo": 1563.2
+      "h_elo": 1702.5,
+      "c_elo": 1706.7,
+      "g_elo": 1539.8
     },
     "s0re": {
       "name": "Juncheng Shang",
@@ -542,61 +548,75 @@
       "c_elo": 1640.2,
       "g_elo": 1650.8
     },
-    "b0bi": {
-      "name": "Sebastian Baez",
-      "elo": 1745.3,
-      "h_elo": 1701.8,
-      "c_elo": 1706.5,
-      "g_elo": 1539.2
-    },
-    "b0cd": {
-      "name": "Jenson Brooksby",
-      "elo": 1743,
-      "h_elo": 1706.5,
-      "c_elo": 1658.5,
-      "g_elo": 1678.9
-    },
     "ki82": {
       "name": "Vit Kopriva",
-      "elo": 1740.7,
-      "h_elo": 1670.7,
-      "c_elo": 1718.7,
-      "g_elo": 1603.9
+      "elo": 1745.7,
+      "h_elo": 1673.2,
+      "c_elo": 1718.4,
+      "g_elo": 1606.4
     },
-    "b0nn": {
-      "name": "Nishesh Basavareddy",
-      "elo": 1739.6,
-      "h_elo": 1689.6,
-      "c_elo": 1635.8,
-      "g_elo": 1553.2
+    "m0n7": {
+      "name": "Daniel Merida",
+      "elo": 1745,
+      "h_elo": 1676.2,
+      "c_elo": 1683.8,
+      "g_elo": 1572.5
     },
-    "mv14": {
-      "name": "Alex Molcan",
-      "elo": 1737.5,
-      "h_elo": 1650.2,
-      "c_elo": 1714,
-      "g_elo": 1613.4
+    "u182": {
+      "name": "Camilo Ugo Carabelli",
+      "elo": 1744.3,
+      "h_elo": 1634.1,
+      "c_elo": 1731.5,
+      "g_elo": 1488.8
     },
-    "kf17": {
-      "name": "Soonwoo Kwon",
-      "elo": 1734.8,
-      "h_elo": 1697.7,
-      "c_elo": 1620.5,
-      "g_elo": 1591.4
+    "l0il": {
+      "name": "Martin Landaluce",
+      "elo": 1741.6,
+      "h_elo": 1692.3,
+      "c_elo": 1643.3,
+      "g_elo": 1669.1
     },
-    "a0fc": {
-      "name": "Matteo Arnaldi",
-      "elo": 1732.4,
-      "h_elo": 1683.5,
-      "c_elo": 1729.9,
-      "g_elo": 1567.4
+    "su87": {
+      "name": "Lorenzo Sonego",
+      "elo": 1740.9,
+      "h_elo": 1712.3,
+      "c_elo": 1653,
+      "g_elo": 1661.4
     },
-    "bd06": {
-      "name": "Roberto Bautista Agut",
-      "elo": 1731.3,
-      "h_elo": 1683.7,
-      "c_elo": 1676.2,
-      "g_elo": 1699.7
+    "t0a1": {
+      "name": "Thiago Agustin Tirante",
+      "elo": 1739.8,
+      "h_elo": 1635.6,
+      "c_elo": 1713.1,
+      "g_elo": 1558.4
+    },
+    "a0gc": {
+      "name": "Terence Atmane",
+      "elo": 1737.9,
+      "h_elo": 1690.7,
+      "c_elo": 1660.8,
+      "g_elo": 1558.8
+    },
+    "bm95": {
+      "name": "Benjamin Bonzi",
+      "elo": 1732.5,
+      "h_elo": 1704.7,
+      "c_elo": 1614.5,
+      "g_elo": 1635.4
+    },
+    "m0gz": {
+      "name": "Giovanni Mpetshi Perricard",
+      "elo": 1731.9,
+      "h_elo": 1668.9,
+      "c_elo": 1678.9,
+      "g_elo": 1648.3
+    },
+    "b0id": {
+      "name": "Ignacio Buse",
+      "elo": 1731.9,
+      "h_elo": 1616.6,
+      "c_elo": 1698.5,
+      "g_elo": 1539.4
     },
     "d0f6": {
       "name": "Gabriel Diallo",
@@ -605,68 +625,61 @@
       "c_elo": 1653.9,
       "g_elo": 1670.8
     },
-    "r0fs": {
-      "name": "Leandro Riedi",
-      "elo": 1730,
-      "h_elo": 1693.7,
-      "c_elo": 1587.5,
-      "g_elo": 1662.8
-    },
-    "p09z": {
-      "name": "Alexei Popyrin",
-      "elo": 1728.2,
-      "h_elo": 1674,
-      "c_elo": 1712.7,
-      "g_elo": 1608.3
-    },
-    "z0bz": {
-      "name": "Michael Zheng",
-      "elo": 1727.2,
-      "h_elo": 1687.5,
-      "c_elo": 1473.6,
-      "g_elo": 1544.2
-    },
-    "b0id": {
-      "name": "Ignacio Buse",
-      "elo": 1723.9,
-      "h_elo": 1612.6,
-      "c_elo": 1695.3,
-      "g_elo": 1535.4
-    },
     "bt72": {
       "name": "Nuno Borges",
-      "elo": 1723.1,
-      "h_elo": 1691.2,
-      "c_elo": 1683,
-      "g_elo": 1595.9
+      "elo": 1728.3,
+      "h_elo": 1693.8,
+      "c_elo": 1690.7,
+      "g_elo": 1598.5
     },
-    "ki95": {
-      "name": "Miomir Kecmanovic",
-      "elo": 1720.9,
-      "h_elo": 1685.2,
-      "c_elo": 1662.9,
-      "g_elo": 1622.2
+    "bd06": {
+      "name": "Roberto Bautista Agut",
+      "elo": 1728,
+      "h_elo": 1682.1,
+      "c_elo": 1669.5,
+      "g_elo": 1698
     },
-    "m0gz": {
-      "name": "Giovanni Mpetshi Perricard",
-      "elo": 1718.7,
-      "h_elo": 1662.3,
-      "c_elo": 1664.8,
-      "g_elo": 1641.7
+    "b0fv": {
+      "name": "Roman Andres Burruchaga",
+      "elo": 1724.7,
+      "h_elo": 1551.5,
+      "c_elo": 1704,
+      "g_elo": 1578
+    },
+    "db63": {
+      "name": "Laslo Djere",
+      "elo": 1723.6,
+      "h_elo": 1626.3,
+      "c_elo": 1745.9,
+      "g_elo": 1584.4
     },
     "s0k7": {
       "name": "Zachary Svajda",
-      "elo": 1718.5,
-      "h_elo": 1690.2,
-      "c_elo": 1499.9,
-      "g_elo": 1701.4
+      "elo": 1723.5,
+      "h_elo": 1692.7,
+      "c_elo": 1532.9,
+      "g_elo": 1703.9
     },
-    "s0tm": {
-      "name": "Toby Samuel",
-      "elo": 1714,
-      "h_elo": 1713,
-      "c_elo": 1558.7,
-      "g_elo": 1561
+    "o513": {
+      "name": "Sebastian Ofner",
+      "elo": 1718.6,
+      "h_elo": 1657.5,
+      "c_elo": 1683.3,
+      "g_elo": 1637.9
+    },
+    "d0dw": {
+      "name": "Titouan Droguet",
+      "elo": 1717.2,
+      "h_elo": 1650.1,
+      "c_elo": 1690,
+      "g_elo": 1601.8
+    },
+    "r0fs": {
+      "name": "Leandro Riedi",
+      "elo": 1714.3,
+      "h_elo": 1685.9,
+      "c_elo": 1598,
+      "g_elo": 1654.9
     },
     "n552": {
       "name": "Kei Nishikori",
@@ -675,117 +688,75 @@
       "c_elo": 1609.5,
       "g_elo": 1591.1
     },
-    "d0dw": {
-      "name": "Titouan Droguet",
-      "elo": 1712.5,
-      "h_elo": 1647.8,
-      "c_elo": 1691.9,
-      "g_elo": 1599.4
-    },
-    "h0bh": {
-      "name": "Rinky Hijikata",
-      "elo": 1712.4,
-      "h_elo": 1676.1,
-      "c_elo": 1543.9,
-      "g_elo": 1616.5
-    },
-    "v0am": {
-      "name": "Otto Virtanen",
-      "elo": 1711.7,
-      "h_elo": 1677.1,
-      "c_elo": 1555.7,
-      "g_elo": 1693.4
-    },
-    "mp20": {
-      "name": "Alexandre Muller",
-      "elo": 1707.6,
-      "h_elo": 1651.8,
-      "c_elo": 1681.4,
-      "g_elo": 1537.9
-    },
-    "o513": {
-      "name": "Sebastian Ofner",
-      "elo": 1705.5,
-      "h_elo": 1650.9,
-      "c_elo": 1673.8,
-      "g_elo": 1631.4
-    },
-    "v0dz": {
-      "name": "Luca Van Assche",
-      "elo": 1705.1,
-      "h_elo": 1683.4,
-      "c_elo": 1624.7,
-      "g_elo": 1557.4
+    "b0cd": {
+      "name": "Jenson Brooksby",
+      "elo": 1713.3,
+      "h_elo": 1691.7,
+      "c_elo": 1624.1,
+      "g_elo": 1664.1
     },
     "p09o": {
       "name": "Zsombor Piros",
-      "elo": 1704.8,
-      "h_elo": 1651.2,
-      "c_elo": 1663.2,
-      "g_elo": 1574.4
+      "elo": 1712.5,
+      "h_elo": 1655,
+      "c_elo": 1676.4,
+      "g_elo": 1578.2
     },
-    "z371": {
-      "name": "Zhizhen Zhang",
-      "elo": 1703.3,
-      "h_elo": 1652.8,
-      "c_elo": 1692.1,
-      "g_elo": 1602.6
+    "hb64": {
+      "name": "Quentin Halys",
+      "elo": 1706.8,
+      "h_elo": 1676.9,
+      "c_elo": 1652,
+      "g_elo": 1634.8
     },
-    "t0a1": {
-      "name": "Thiago Agustin Tirante",
-      "elo": 1702.6,
-      "h_elo": 1617,
-      "c_elo": 1675.3,
-      "g_elo": 1539.8
+    "b0nn": {
+      "name": "Nishesh Basavareddy",
+      "elo": 1706.2,
+      "h_elo": 1672.9,
+      "c_elo": 1607.9,
+      "g_elo": 1536.5
+    },
+    "b0gg": {
+      "name": "Mattia Bellucci",
+      "elo": 1699.6,
+      "h_elo": 1667.5,
+      "c_elo": 1609.1,
+      "g_elo": 1624
     },
     "n0am": {
       "name": "Emilio Nava",
-      "elo": 1699.9,
-      "h_elo": 1619,
-      "c_elo": 1664.7,
-      "g_elo": 1573.7
+      "elo": 1699.1,
+      "h_elo": 1618.6,
+      "c_elo": 1666.8,
+      "g_elo": 1573.3
     },
-    "sl28": {
-      "name": "Jan Lennard Struff",
-      "elo": 1698.1,
-      "h_elo": 1636.2,
-      "c_elo": 1674.9,
-      "g_elo": 1622.4
+    "s0h2": {
+      "name": "Aleksandr Shevchenko",
+      "elo": 1697.6,
+      "h_elo": 1656.8,
+      "c_elo": 1641.1,
+      "g_elo": 1491.6
     },
-    "l0il": {
-      "name": "Martin Landaluce",
-      "elo": 1695.9,
-      "h_elo": 1669.5,
-      "c_elo": 1568.7,
-      "g_elo": 1646.3
+    "d0dt": {
+      "name": "Martin Damm",
+      "elo": 1696.6,
+      "h_elo": 1652.3,
+      "c_elo": 1548.5,
+      "g_elo": 1656.4
     },
-    "c0c8": {
-      "name": "Juan Manuel Cerundolo",
-      "elo": 1694.4,
-      "h_elo": 1609.5,
-      "c_elo": 1680.9,
-      "g_elo": 1464.5
+    "z0bz": {
+      "name": "Michael Zheng",
+      "elo": 1695.6,
+      "h_elo": 1671.7,
+      "c_elo": 1450.9,
+      "g_elo": 1528.4
     },
-    "l0cx": {
-      "name": "Pablo Llamas Ruiz",
-      "elo": 1693.6,
-      "h_elo": 1598.7,
-      "c_elo": 1680.6,
-      "g_elo": 1538
-    },
-    "w0bh": {
-      "name": "Coleman Wong",
-      "elo": 1691.1,
-      "h_elo": 1650.5,
-      "c_elo": 1474,
-      "g_elo": 1542
-    },
-    "b0u4": {
-      "name": "Nicolai Budkov Kjaer",
-      "elo": 1690.2,
-      "h_elo": 1632.9,
-      "c_elo": 1644.3,
-      "g_elo": 1544.8
+    "bg23": {
+      "name": "Nikoloz Basilashvili",
+      "elo": 1691.4,
+      "h_elo": 1618.3,
+      "c_elo": 1655.3,
+      "g_elo": 1633.3
     },
     "n732": {
       "name": "Yoshihito Nishioka",
@@ -801,26 +772,33 @@
       "c_elo": 1642.3,
       "g_elo": 1538.1
     },
-    "hb64": {
-      "name": "Quentin Halys",
-      "elo": 1686.9,
-      "h_elo": 1666.9,
-      "c_elo": 1624.6,
-      "g_elo": 1624.9
-    },
-    "s0h2": {
-      "name": "Aleksandr Shevchenko",
-      "elo": 1686.2,
-      "h_elo": 1651.1,
-      "c_elo": 1627.6,
-      "g_elo": 1485.9
+    "w367": {
+      "name": "Stan Wawrinka",
+      "elo": 1687.2,
+      "h_elo": 1668.4,
+      "c_elo": 1623.8,
+      "g_elo": 1594.4
     },
     "ae14": {
       "name": "Daniel Altmaier",
-      "elo": 1685.6,
-      "h_elo": 1627.4,
-      "c_elo": 1665.8,
-      "g_elo": 1535.5
+      "elo": 1687.2,
+      "h_elo": 1628.2,
+      "c_elo": 1667,
+      "g_elo": 1536.3
+    },
+    "mp20": {
+      "name": "Alexandre Muller",
+      "elo": 1685.9,
+      "h_elo": 1641,
+      "c_elo": 1653,
+      "g_elo": 1527.1
+    },
+    "v0am": {
+      "name": "Otto Virtanen",
+      "elo": 1685.3,
+      "h_elo": 1663.9,
+      "c_elo": 1532.4,
+      "g_elo": 1680.2
     },
     "kb95": {
       "name": "Jason Kubler",
@@ -829,12 +807,19 @@
       "c_elo": 1615.7,
       "g_elo": 1679.3
     },
-    "d0dt": {
-      "name": "Martin Damm",
-      "elo": 1682.7,
-      "h_elo": 1645.3,
-      "c_elo": 1493.8,
-      "g_elo": 1649.5
+    "gd64": {
+      "name": "Cristian Garin",
+      "elo": 1684.4,
+      "h_elo": 1580.8,
+      "c_elo": 1681.8,
+      "g_elo": 1626
+    },
+    "h0bh": {
+      "name": "Rinky Hijikata",
+      "elo": 1683,
+      "h_elo": 1661.4,
+      "c_elo": 1517.8,
+      "g_elo": 1601.8
     },
     "gh92": {
       "name": "Borna Gojo",
@@ -843,20 +828,6 @@
       "c_elo": 1640.7,
       "g_elo": 1467.9
     },
-    "gd64": {
-      "name": "Cristian Garin",
-      "elo": 1681.9,
-      "h_elo": 1579.6,
-      "c_elo": 1683.7,
-      "g_elo": 1624.8
-    },
-    "w367": {
-      "name": "Stan Wawrinka",
-      "elo": 1681.7,
-      "h_elo": 1665.7,
-      "c_elo": 1616.1,
-      "g_elo": 1591.7
-    },
     "hg86": {
       "name": "Lloyd Harris",
       "elo": 1681.7,
@@ -864,47 +835,68 @@
       "c_elo": 1575.5,
       "g_elo": 1637.8
     },
-    "db63": {
-      "name": "Laslo Djere",
-      "elo": 1678.6,
-      "h_elo": 1603.8,
-      "c_elo": 1703.8,
-      "g_elo": 1561.9
+    "f0f2": {
+      "name": "Jaime Faria",
+      "elo": 1680.9,
+      "h_elo": 1588,
+      "c_elo": 1648.6,
+      "g_elo": 1602.4
     },
-    "b0gg": {
-      "name": "Mattia Bellucci",
-      "elo": 1677.1,
-      "h_elo": 1656.2,
-      "c_elo": 1571.7,
-      "g_elo": 1612.7
+    "s0tm": {
+      "name": "Toby Samuel",
+      "elo": 1680.2,
+      "h_elo": 1696.1,
+      "c_elo": 1525.7,
+      "g_elo": 1544
     },
-    "r0eb": {
-      "name": "Valentin Royer",
-      "elo": 1676.9,
-      "h_elo": 1603.1,
-      "c_elo": 1641.6,
-      "g_elo": 1614.2
+    "v0dz": {
+      "name": "Luca Van Assche",
+      "elo": 1676.5,
+      "h_elo": 1669.1,
+      "c_elo": 1596.9,
+      "g_elo": 1543.1
     },
     "s0gd": {
       "name": "Dalibor Svrcina",
-      "elo": 1674.6,
-      "h_elo": 1641.7,
-      "c_elo": 1600.2,
-      "g_elo": 1506.3
+      "elo": 1676.5,
+      "h_elo": 1642.7,
+      "c_elo": 1605.6,
+      "g_elo": 1507.2
     },
-    "f0f2": {
-      "name": "Jaime Faria",
-      "elo": 1673.3,
-      "h_elo": 1584.2,
-      "c_elo": 1641.8,
-      "g_elo": 1598.6
+    "b0u4": {
+      "name": "Nicolai Budkov Kjaer",
+      "elo": 1673.5,
+      "h_elo": 1624.6,
+      "c_elo": 1614.9,
+      "g_elo": 1536.5
+    },
+    "z371": {
+      "name": "Zhizhen Zhang",
+      "elo": 1672.9,
+      "h_elo": 1637.6,
+      "c_elo": 1652.9,
+      "g_elo": 1587.4
+    },
+    "f0dm": {
+      "name": "Arthur Fery",
+      "elo": 1670.8,
+      "h_elo": 1659.6,
+      "c_elo": 1535.2,
+      "g_elo": 1493.9
     },
     "w09e": {
       "name": "Adam Walton",
-      "elo": 1670.3,
-      "h_elo": 1633.4,
-      "c_elo": 1511.4,
-      "g_elo": 1504.6
+      "elo": 1670.7,
+      "h_elo": 1634,
+      "c_elo": 1511.6,
+      "g_elo": 1504.8
+    },
+    "r0eb": {
+      "name": "Valentin Royer",
+      "elo": 1667.9,
+      "h_elo": 1598.6,
+      "c_elo": 1631.8,
+      "g_elo": 1609.7
     },
     "gb88": {
       "name": "David Goffin",
@@ -913,19 +905,12 @@
       "c_elo": 1643.1,
       "g_elo": 1650.1
     },
-    "f0dm": {
-      "name": "Arthur Fery",
-      "elo": 1665.3,
-      "h_elo": 1656.8,
-      "c_elo": 1457.7,
-      "g_elo": 1491.1
-    },
-    "me82": {
-      "name": "Adrian Mannarino",
-      "elo": 1663.9,
-      "h_elo": 1642.6,
-      "c_elo": 1489.1,
-      "g_elo": 1655.9
+    "w0bh": {
+      "name": "Coleman Wong",
+      "elo": 1665.6,
+      "h_elo": 1624.5,
+      "c_elo": 1461.3,
+      "g_elo": 1529.2
     },
     "j0az": {
       "name": "Kyrian Jacquet",
@@ -934,33 +919,19 @@
       "c_elo": 1554.4,
       "g_elo": 1554.6
     },
-    "o483": {
-      "name": "Christopher O'connell",
-      "elo": 1663.4,
-      "h_elo": 1652,
-      "c_elo": 1588.4,
-      "g_elo": 1535.8
+    "me82": {
+      "name": "Adrian Mannarino",
+      "elo": 1656,
+      "h_elo": 1638.7,
+      "c_elo": 1482.6,
+      "g_elo": 1651.9
     },
-    "ta29": {
-      "name": "Marco Trungelliti",
-      "elo": 1659.3,
-      "h_elo": 1512.4,
-      "c_elo": 1659.7,
-      "g_elo": 1497.5
-    },
-    "r0e0": {
-      "name": "Chris Rodesch",
-      "elo": 1656.7,
-      "h_elo": 1640.8,
-      "c_elo": 1554.3,
-      "g_elo": 1598.1
-    },
-    "g09o": {
-      "name": "Hugo Gaston",
-      "elo": 1654.6,
-      "h_elo": 1644.3,
-      "c_elo": 1590.6,
-      "g_elo": 1551.5
+    "y09v": {
+      "name": "Yunchaokete Bu",
+      "elo": 1653.2,
+      "h_elo": 1616.2,
+      "c_elo": 1593.3,
+      "g_elo": 1468.8
     },
     "k09f": {
       "name": "Pavel Kotov",
@@ -969,12 +940,19 @@
       "c_elo": 1584.8,
       "g_elo": 1530
     },
-    "g0fw": {
-      "name": "Vilius Gaubas",
-      "elo": 1651.6,
-      "h_elo": 1594.8,
-      "c_elo": 1610.6,
-      "g_elo": 1564.5
+    "ta29": {
+      "name": "Marco Trungelliti",
+      "elo": 1651.9,
+      "h_elo": 1508.7,
+      "c_elo": 1646.8,
+      "g_elo": 1493.8
+    },
+    "r0e0": {
+      "name": "Chris Rodesch",
+      "elo": 1651.5,
+      "h_elo": 1638.2,
+      "c_elo": 1570.2,
+      "g_elo": 1595.5
     },
     "d994": {
       "name": "James Duckworth",
@@ -983,6 +961,27 @@
       "c_elo": 1585,
       "g_elo": 1572.6
     },
+    "d0c1": {
+      "name": "Jesper de Jong",
+      "elo": 1650.6,
+      "h_elo": 1576.9,
+      "c_elo": 1646.5,
+      "g_elo": 1506.3
+    },
+    "ch12": {
+      "name": "Jan Choinski",
+      "elo": 1649.5,
+      "h_elo": 1553,
+      "c_elo": 1638.1,
+      "g_elo": 1440.7
+    },
+    "d923": {
+      "name": "Damir Dzumhur",
+      "elo": 1649,
+      "h_elo": 1601.1,
+      "c_elo": 1615.1,
+      "g_elo": 1537.8
+    },
     "j551": {
       "name": "Nicolas Jarry",
       "elo": 1648.3,
@@ -990,54 +989,68 @@
       "c_elo": 1641.5,
       "g_elo": 1635.2
     },
-    "d923": {
-      "name": "Damir Dzumhur",
-      "elo": 1646.1,
-      "h_elo": 1599.6,
-      "c_elo": 1624.1,
-      "g_elo": 1536.4
-    },
     "c0df": {
       "name": "Francisco Comesana",
-      "elo": 1644.7,
-      "h_elo": 1616.8,
-      "c_elo": 1612.7,
-      "g_elo": 1535.3
+      "elo": 1647.6,
+      "h_elo": 1618.2,
+      "c_elo": 1610.2,
+      "g_elo": 1536.7
     },
-    "r0go": {
-      "name": "Henrique Rocha",
-      "elo": 1644.5,
-      "h_elo": 1558.7,
-      "c_elo": 1628.1,
-      "g_elo": 1528.1
+    "da31": {
+      "name": "Hugo Dellien",
+      "elo": 1643.2,
+      "h_elo": 1488.6,
+      "c_elo": 1632.4,
+      "g_elo": 1482.4
     },
-    "mk66": {
-      "name": "Mackenzie Mcdonald",
-      "elo": 1641.9,
-      "h_elo": 1622.3,
-      "c_elo": 1501.8,
-      "g_elo": 1577.4
+    "o483": {
+      "name": "Christopher O'connell",
+      "elo": 1641.8,
+      "h_elo": 1641.2,
+      "c_elo": 1559,
+      "g_elo": 1525
     },
-    "d0c1": {
-      "name": "Jesper De Jong",
-      "elo": 1637,
-      "h_elo": 1570.1,
-      "c_elo": 1634.3,
-      "g_elo": 1499.5
+    "s0uv": {
+      "name": "Rei Sakamoto",
+      "elo": 1641.3,
+      "h_elo": 1606.3,
+      "c_elo": 1548.2,
+      "g_elo": 1520.6
     },
     "l987": {
       "name": "Dusan Lajovic",
-      "elo": 1635.6,
-      "h_elo": 1566.3,
-      "c_elo": 1605.9,
-      "g_elo": 1495.3
+      "elo": 1640.9,
+      "h_elo": 1569,
+      "c_elo": 1611.1,
+      "g_elo": 1498
     },
-    "bg23": {
-      "name": "Nikoloz Basilashvili",
-      "elo": 1634.1,
-      "h_elo": 1589.7,
-      "c_elo": 1589.2,
-      "g_elo": 1604.7
+    "k0a3": {
+      "name": "Patrick Kypson",
+      "elo": 1640.5,
+      "h_elo": 1611.2,
+      "c_elo": 1554.7,
+      "g_elo": 1482.5
+    },
+    "ph64": {
+      "name": "Andrea Pellegrino",
+      "elo": 1639.8,
+      "h_elo": 1404.9,
+      "c_elo": 1622.2,
+      "g_elo": 1441.8
+    },
+    "h0du": {
+      "name": "Gustavo Heide",
+      "elo": 1638.6,
+      "h_elo": 1507.4,
+      "c_elo": 1629.2,
+      "g_elo": 1488.8
+    },
+    "mk66": {
+      "name": "Mackenzie McDonald",
+      "elo": 1635.6,
+      "h_elo": 1619.2,
+      "c_elo": 1495.4,
+      "g_elo": 1574.3
     },
     "k0ep": {
       "name": "Jerome Kym",
@@ -1046,33 +1059,33 @@
       "c_elo": 1576.6,
       "g_elo": 1494.6
     },
-    "s0uv": {
-      "name": "Rei Sakamoto",
-      "elo": 1632.1,
-      "h_elo": 1601.7,
-      "c_elo": 1520,
-      "g_elo": 1516.1
+    "bs86": {
+      "name": "Tomas Barrios Vera",
+      "elo": 1631.7,
+      "h_elo": 1560.7,
+      "c_elo": 1605.2,
+      "g_elo": 1584
     },
-    "y09v": {
-      "name": "Yunchaokete Bu",
-      "elo": 1629.1,
-      "h_elo": 1589.5,
-      "c_elo": 1581.2,
-      "g_elo": 1456.7
+    "g09o": {
+      "name": "Hugo Gaston",
+      "elo": 1630.5,
+      "h_elo": 1632.2,
+      "c_elo": 1564.7,
+      "g_elo": 1539.5
     },
-    "h0du": {
-      "name": "Gustavo Heide",
-      "elo": 1629.1,
-      "h_elo": 1502.7,
-      "c_elo": 1623.3,
-      "g_elo": 1484
+    "m0k4": {
+      "name": "Elmer Moller",
+      "elo": 1627.8,
+      "h_elo": 1493.3,
+      "c_elo": 1613.5,
+      "g_elo": 1543
     },
-    "da31": {
-      "name": "Hugo Dellien",
-      "elo": 1627.5,
-      "h_elo": 1480.8,
-      "c_elo": 1616,
-      "g_elo": 1474.5
+    "g0fw": {
+      "name": "Vilius Gaubas",
+      "elo": 1626.9,
+      "h_elo": 1582.4,
+      "c_elo": 1577.5,
+      "g_elo": 1552.1
     },
     "p0ct": {
       "name": "Francesco Passaro",
@@ -1083,17 +1096,17 @@
     },
     "f0by": {
       "name": "Jacob Fearnley",
-      "elo": 1625.8,
-      "h_elo": 1577.8,
-      "c_elo": 1652.4,
-      "g_elo": 1581.9
-    },
-    "k0a3": {
-      "name": "Patrick Kypson",
       "elo": 1625.3,
-      "h_elo": 1603.6,
-      "c_elo": 1534.7,
-      "g_elo": 1474.9
+      "h_elo": 1577.6,
+      "c_elo": 1623.9,
+      "g_elo": 1581.7
+    },
+    "d0cg": {
+      "name": "Facundo Diaz Acosta",
+      "elo": 1623.1,
+      "h_elo": 1504.4,
+      "c_elo": 1623.3,
+      "g_elo": 1447.5
     },
     "bi23": {
       "name": "Liam Broady",
@@ -1101,20 +1114,6 @@
       "h_elo": 1593.2,
       "c_elo": 1486.9,
       "g_elo": 1524.2
-    },
-    "n0bg": {
-      "name": "Luca Nardi",
-      "elo": 1622,
-      "h_elo": 1590.3,
-      "c_elo": 1573.5,
-      "g_elo": 1447.2
-    },
-    "cf59": {
-      "name": "Roberto Carballes Baena",
-      "elo": 1622,
-      "h_elo": 1587.4,
-      "c_elo": 1606.5,
-      "g_elo": 1500.8
     },
     "z0a1": {
       "name": "Giulio Zeppieri",
@@ -1130,26 +1129,19 @@
       "c_elo": 1538.3,
       "g_elo": 1510.7
     },
-    "m0k4": {
-      "name": "Elmer Moller",
-      "elo": 1620.3,
-      "h_elo": 1489.6,
-      "c_elo": 1609.8,
-      "g_elo": 1539.2
+    "r0go": {
+      "name": "Henrique Rocha",
+      "elo": 1621.2,
+      "h_elo": 1547.1,
+      "c_elo": 1603.4,
+      "g_elo": 1516.5
     },
-    "s0wt": {
-      "name": "Joel Schwaerzler",
-      "elo": 1619.9,
-      "h_elo": 1540.9,
-      "c_elo": 1589.3,
-      "g_elo": 1509.9
-    },
-    "k0az": {
-      "name": "Aleksandar Kovacevic",
-      "elo": 1618.2,
-      "h_elo": 1602,
-      "c_elo": 1468.1,
-      "g_elo": 1485
+    "v832": {
+      "name": "Aleksandar Vukic",
+      "elo": 1618.1,
+      "h_elo": 1591.2,
+      "c_elo": 1512.1,
+      "g_elo": 1566.9
     },
     "mp01": {
       "name": "Michael Mmoh",
@@ -1158,47 +1150,19 @@
       "c_elo": 1510.6,
       "g_elo": 1525.8
     },
-    "w0ah": {
-      "name": "Harry Wendelken",
-      "elo": 1617.1,
-      "h_elo": 1592.8,
-      "c_elo": 1418.6,
-      "g_elo": 1461.3
+    "cf59": {
+      "name": "Roberto Carballes Baena",
+      "elo": 1616.5,
+      "h_elo": 1584.7,
+      "c_elo": 1600,
+      "g_elo": 1498
     },
-    "p0ht": {
-      "name": "Jack Pinnington Jones",
-      "elo": 1616.7,
-      "h_elo": 1577.3,
-      "c_elo": 1489.9,
-      "g_elo": 1615.8
-    },
-    "sy67": {
-      "name": "Sho Shimabukuro",
-      "elo": 1616,
-      "h_elo": 1577.9,
-      "c_elo": 1499.9,
-      "g_elo": 1571.1
-    },
-    "mo44": {
-      "name": "Pedro Martinez",
-      "elo": 1614.9,
-      "h_elo": 1569.6,
-      "c_elo": 1596.5,
-      "g_elo": 1468.8
-    },
-    "m0g4": {
-      "name": "Harold Mayot",
-      "elo": 1614.7,
-      "h_elo": 1576.8,
-      "c_elo": 1591.4,
-      "g_elo": 1521.5
-    },
-    "bs86": {
-      "name": "Tomas Barrios Vera",
-      "elo": 1613,
-      "h_elo": 1551.4,
-      "c_elo": 1595.7,
-      "g_elo": 1574.7
+    "k0az": {
+      "name": "Aleksandar Kovacevic",
+      "elo": 1613.9,
+      "h_elo": 1599.9,
+      "c_elo": 1489.1,
+      "g_elo": 1482.9
     },
     "s0de": {
       "name": "Dhakshineswar Suresh",
@@ -1221,26 +1185,19 @@
       "c_elo": 1604.7,
       "g_elo": 1433.4
     },
-    "bi81": {
-      "name": "Alex Bolt",
-      "elo": 1609.4,
-      "h_elo": 1557.9,
-      "c_elo": 1431.6,
-      "g_elo": 1590.1
+    "n0bg": {
+      "name": "Luca Nardi",
+      "elo": 1607.9,
+      "h_elo": 1583.3,
+      "c_elo": 1556.8,
+      "g_elo": 1440.1
     },
-    "r09x": {
-      "name": "Jurij Rodionov",
-      "elo": 1608,
-      "h_elo": 1569.9,
-      "c_elo": 1558.4,
-      "g_elo": 1520.6
-    },
-    "s0o6": {
-      "name": "Ilia Simakin",
-      "elo": 1606.4,
-      "h_elo": 1576.4,
-      "c_elo": 1413.2,
-      "g_elo": 1503.2
+    "s0wt": {
+      "name": "Joel Schwaerzler",
+      "elo": 1606.2,
+      "h_elo": 1534.1,
+      "c_elo": 1574,
+      "g_elo": 1503.1
     },
     "rh24": {
       "name": "Emil Ruusuvuori",
@@ -1249,19 +1206,19 @@
       "c_elo": 1558.3,
       "g_elo": 1576.4
     },
+    "sy67": {
+      "name": "Sho Shimabukuro",
+      "elo": 1605,
+      "h_elo": 1572.4,
+      "c_elo": 1483.5,
+      "g_elo": 1565.6
+    },
     "t09x": {
       "name": "Clement Tabur",
       "elo": 1604.2,
       "h_elo": 1571.5,
       "c_elo": 1538,
       "g_elo": 1471.6
-    },
-    "v832": {
-      "name": "Aleksandar Vukic",
-      "elo": 1602.6,
-      "h_elo": 1583.4,
-      "c_elo": 1488,
-      "g_elo": 1559.1
     },
     "ki63": {
       "name": "Lukas Klein",
@@ -1270,6 +1227,13 @@
       "c_elo": 1623.9,
       "g_elo": 1557.2
     },
+    "mo44": {
+      "name": "Pedro Martinez",
+      "elo": 1598.7,
+      "h_elo": 1561.5,
+      "c_elo": 1578.1,
+      "g_elo": 1460.8
+    },
     "wb08": {
       "name": "Yosuke Watanuki",
       "elo": 1598.4,
@@ -1277,12 +1241,33 @@
       "c_elo": 1576.1,
       "g_elo": 1566.1
     },
-    "d0dp": {
-      "name": "Liam Draxl",
-      "elo": 1594.8,
-      "h_elo": 1563,
-      "c_elo": 1506,
-      "g_elo": 1458.1
+    "l0gh": {
+      "name": "Mark Lajal",
+      "elo": 1597.9,
+      "h_elo": 1560.8,
+      "c_elo": 1494.2,
+      "g_elo": 1586.5
+    },
+    "m0g4": {
+      "name": "Harold Mayot",
+      "elo": 1597.5,
+      "h_elo": 1568.2,
+      "c_elo": 1568.4,
+      "g_elo": 1512.9
+    },
+    "bi81": {
+      "name": "Alex Bolt",
+      "elo": 1596.4,
+      "h_elo": 1544.9,
+      "c_elo": 1425.2,
+      "g_elo": 1583.6
+    },
+    "r09x": {
+      "name": "Jurij Rodionov",
+      "elo": 1594.1,
+      "h_elo": 1562.9,
+      "c_elo": 1537.9,
+      "g_elo": 1513.6
     },
     "g0gd": {
       "name": "Matteo Gigante",
@@ -1291,20 +1276,6 @@
       "c_elo": 1598,
       "g_elo": 1457.1
     },
-    "b0no": {
-      "name": "Darwin Blanch",
-      "elo": 1591.3,
-      "h_elo": 1503.2,
-      "c_elo": 1537.6,
-      "g_elo": 1495.7
-    },
-    "h996": {
-      "name": "Pierre Hugues Herbert",
-      "elo": 1591.1,
-      "h_elo": 1568.6,
-      "c_elo": 1513,
-      "g_elo": 1545.5
-    },
     "bf23": {
       "name": "Facundo Bagnis",
       "elo": 1590.7,
@@ -1312,12 +1283,19 @@
       "c_elo": 1583.8,
       "g_elo": 1363.2
     },
-    "gk06": {
-      "name": "Alexis Galarneau",
-      "elo": 1589.2,
-      "h_elo": 1557.7,
-      "c_elo": 1459.4,
-      "g_elo": 1513.5
+    "p0ht": {
+      "name": "Jack Pinnington Jones",
+      "elo": 1590,
+      "h_elo": 1563.9,
+      "c_elo": 1463.4,
+      "g_elo": 1602.4
+    },
+    "s0kt": {
+      "name": "Stefanos Sakellaridis",
+      "elo": 1587.8,
+      "h_elo": 1544.6,
+      "c_elo": 1553.3,
+      "g_elo": 1543.9
     },
     "m0jz": {
       "name": "Filip Misolic",
@@ -1326,20 +1304,6 @@
       "c_elo": 1663.9,
       "g_elo": 1531.3
     },
-    "ta12": {
-      "name": "Stefano Travaglia",
-      "elo": 1586.3,
-      "h_elo": 1547,
-      "c_elo": 1549.6,
-      "g_elo": 1460.2
-    },
-    "d0cg": {
-      "name": "Facundo Diaz Acosta",
-      "elo": 1586.2,
-      "h_elo": 1485.9,
-      "c_elo": 1586.1,
-      "g_elo": 1429.1
-    },
     "mw18": {
       "name": "Nicolas Moreno De Alboran",
       "elo": 1583.8,
@@ -1347,19 +1311,19 @@
       "c_elo": 1537.8,
       "g_elo": 1495.2
     },
-    "ch12": {
-      "name": "Jan Choinski",
-      "elo": 1583.7,
-      "h_elo": 1520.1,
-      "c_elo": 1577.4,
-      "g_elo": 1407.8
+    "d0dp": {
+      "name": "Liam Draxl",
+      "elo": 1582.8,
+      "h_elo": 1557,
+      "c_elo": 1493.1,
+      "g_elo": 1452.1
     },
-    "c0bh": {
-      "name": "Clement Chidekh",
-      "elo": 1582.1,
-      "h_elo": 1557.8,
-      "c_elo": 1384,
-      "g_elo": 1491
+    "b0ej": {
+      "name": "Tristan Boyer",
+      "elo": 1582.2,
+      "h_elo": 1535.7,
+      "c_elo": 1553.7,
+      "g_elo": 1463.4
     },
     "k0np": {
       "name": "Jack Kennedy",
@@ -1368,6 +1332,13 @@
       "c_elo": 1555.7,
       "g_elo": 1490.3
     },
+    "ta12": {
+      "name": "Stefano Travaglia",
+      "elo": 1579.2,
+      "h_elo": 1543.4,
+      "c_elo": 1540.7,
+      "g_elo": 1456.6
+    },
     "o0a2": {
       "name": "Gauthier Onclin",
       "elo": 1578.9,
@@ -1375,33 +1346,12 @@
       "c_elo": 1528.8,
       "g_elo": 1491.1
     },
-    "s0kt": {
-      "name": "Stefanos Sakellaridis",
-      "elo": 1578,
-      "h_elo": 1539.7,
-      "c_elo": 1549.7,
-      "g_elo": 1539
-    },
-    "mj08": {
-      "name": "Thiago Monteiro",
-      "elo": 1577,
-      "h_elo": 1537.3,
-      "c_elo": 1566,
-      "g_elo": 1475.3
-    },
-    "l0gh": {
-      "name": "Mark Lajal",
-      "elo": 1575.7,
-      "h_elo": 1537.1,
-      "c_elo": 1483.1,
-      "g_elo": 1575.5
-    },
-    "m0ea": {
-      "name": "Pol Martin Tiffon",
-      "elo": 1575.5,
-      "h_elo": 1551.9,
-      "c_elo": 1513.6,
-      "g_elo": 1455
+    "s0o6": {
+      "name": "Ilia Simakin",
+      "elo": 1574.5,
+      "h_elo": 1560.5,
+      "c_elo": 1384,
+      "g_elo": 1487.2
     },
     "gf95": {
       "name": "Hugo Grenier",
@@ -1410,13 +1360,6 @@
       "c_elo": 1438.1,
       "g_elo": 1470.6
     },
-    "m0ht": {
-      "name": "Alejandro Moro Canas",
-      "elo": 1572.1,
-      "h_elo": 1541.5,
-      "c_elo": 1527.7,
-      "g_elo": 1509.4
-    },
     "y218": {
       "name": "Elias Ymer",
       "elo": 1569.5,
@@ -1424,12 +1367,26 @@
       "c_elo": 1515.1,
       "g_elo": 1518.6
     },
-    "m0if": {
-      "name": "Francesco Maestrelli",
+    "n0cs": {
+      "name": "Lukas Neumayer",
+      "elo": 1569.1,
+      "h_elo": 1454.3,
+      "c_elo": 1559.5,
+      "g_elo": 1440.1
+    },
+    "b0no": {
+      "name": "Darwin Blanch",
       "elo": 1568.7,
-      "h_elo": 1566.1,
-      "c_elo": 1493.8,
-      "g_elo": 1429.8
+      "h_elo": 1491.8,
+      "c_elo": 1502.1,
+      "g_elo": 1484.3
+    },
+    "c0bh": {
+      "name": "Clement Chidekh",
+      "elo": 1568.4,
+      "h_elo": 1550.9,
+      "c_elo": 1397.6,
+      "g_elo": 1484.2
     },
     "g0ib": {
       "name": "Tom Gentzsch",
@@ -1438,12 +1395,12 @@
       "c_elo": 1525.6,
       "g_elo": 1484.2
     },
-    "k926": {
-      "name": "Mikhail Kukushkin",
-      "elo": 1568.3,
-      "h_elo": 1537.4,
-      "c_elo": 1526.7,
-      "g_elo": 1541.4
+    "gk06": {
+      "name": "Alexis Galarneau",
+      "elo": 1568,
+      "h_elo": 1535.9,
+      "c_elo": 1448.8,
+      "g_elo": 1502.9
     },
     "n679": {
       "name": "Stefano Napolitano",
@@ -1459,12 +1416,40 @@
       "c_elo": 1545.5,
       "g_elo": 1385.1
     },
-    "n09u": {
-      "name": "Rio Noguchi",
-      "elo": 1560.6,
-      "h_elo": 1526.5,
-      "c_elo": 1327.9,
-      "g_elo": 1435.2
+    "mj08": {
+      "name": "Thiago Monteiro",
+      "elo": 1566.8,
+      "h_elo": 1532.2,
+      "c_elo": 1554.4,
+      "g_elo": 1470.2
+    },
+    "m0ht": {
+      "name": "Alejandro Moro Canas",
+      "elo": 1563.9,
+      "h_elo": 1537.4,
+      "c_elo": 1515.1,
+      "g_elo": 1505.3
+    },
+    "m0ea": {
+      "name": "Pol Martin Tiffon",
+      "elo": 1562.8,
+      "h_elo": 1545.6,
+      "c_elo": 1499.8,
+      "g_elo": 1448.6
+    },
+    "k926": {
+      "name": "Mikhail Kukushkin",
+      "elo": 1562.6,
+      "h_elo": 1531.2,
+      "c_elo": 1523.9,
+      "g_elo": 1538.6
+    },
+    "m0if": {
+      "name": "Francesco Maestrelli",
+      "elo": 1560.9,
+      "h_elo": 1562.3,
+      "c_elo": 1485.9,
+      "g_elo": 1426
     },
     "s0n0": {
       "name": "Tristan Schoolkate",
@@ -1473,96 +1458,68 @@
       "c_elo": 1448.6,
       "g_elo": 1565.8
     },
-    "c0nn": {
-      "name": "Gianluca Cadenasso",
+    "n09u": {
+      "name": "Rio Noguchi",
       "elo": 1559.6,
-      "h_elo": 1389.8,
-      "c_elo": 1539.6,
-      "g_elo": 1479.8
+      "h_elo": 1526.4,
+      "c_elo": 1327.4,
+      "g_elo": 1434.7
     },
-    "ph64": {
-      "name": "Andrea Pellegrino",
-      "elo": 1558.4,
-      "h_elo": 1364.2,
-      "c_elo": 1546.6,
-      "g_elo": 1401.1
-    },
-    "g0cv": {
-      "name": "Buvaysar Gadamauri",
-      "elo": 1557.9,
-      "h_elo": 1463.7,
-      "c_elo": 1524.6,
-      "g_elo": 1479
-    },
-    "r772": {
-      "name": "Albert Ramos Vinolas",
-      "elo": 1557.7,
-      "h_elo": 1520,
-      "c_elo": 1526.1,
-      "g_elo": 1424.1
-    },
-    "m0n1": {
-      "name": "Luka Mikrut",
-      "elo": 1556.5,
-      "h_elo": 1422.9,
-      "c_elo": 1601.7,
-      "g_elo": 1478.2
-    },
-    "sk94": {
-      "name": "Cedrik Marcel Stebe",
-      "elo": 1556.4,
-      "h_elo": 1523.2,
-      "c_elo": 1544.9,
-      "g_elo": 1463.3
-    },
-    "g0by": {
-      "name": "Daniil Glinka",
-      "elo": 1555.2,
-      "h_elo": 1529.8,
-      "c_elo": 1493.8,
-      "g_elo": 1527.6
+    "w0ah": {
+      "name": "Harry Wendelken",
+      "elo": 1555.8,
+      "h_elo": 1562.1,
+      "c_elo": 1362.9,
+      "g_elo": 1430.6
     },
     "cf01": {
       "name": "Marco Cecchinato",
-      "elo": 1555.1,
-      "h_elo": 1435.8,
-      "c_elo": 1535.1,
-      "g_elo": 1427.9
+      "elo": 1555.4,
+      "h_elo": 1436,
+      "c_elo": 1531.3,
+      "g_elo": 1428
     },
-    "d0d4": {
-      "name": "Stefan Dostanic",
-      "elo": 1553.3,
-      "h_elo": 1525.5,
-      "c_elo": 1461.8,
-      "g_elo": 1476.6
-    },
-    "n0cs": {
-      "name": "Lukas Neumayer",
-      "elo": 1553.2,
-      "h_elo": 1446.4,
-      "c_elo": 1545.8,
-      "g_elo": 1432.2
+    "m0n1": {
+      "name": "Luka Mikrut",
+      "elo": 1554.3,
+      "h_elo": 1421.8,
+      "c_elo": 1585,
+      "g_elo": 1477.2
     },
     "s0la": {
       "name": "Dominic Stricker",
-      "elo": 1550.6,
-      "h_elo": 1517.4,
-      "c_elo": 1504.7,
-      "g_elo": 1538.8
+      "elo": 1553.1,
+      "h_elo": 1518.7,
+      "c_elo": 1500.6,
+      "g_elo": 1540.1
     },
-    "g0a0": {
-      "name": "Andrea Guerrieri",
-      "elo": 1547.6,
-      "h_elo": 1394.8,
-      "c_elo": 1507.9,
-      "g_elo": 1473.8
+    "cg33": {
+      "name": "Kimmer Coppejans",
+      "elo": 1551.2,
+      "h_elo": 1472.9,
+      "c_elo": 1525.1,
+      "g_elo": 1459.1
+    },
+    "ag08": {
+      "name": "Andy Andrade",
+      "elo": 1550.5,
+      "h_elo": 1465.7,
+      "c_elo": 1517.1,
+      "g_elo": 1475.3
     },
     "h09n": {
       "name": "August Holmgren",
-      "elo": 1543.9,
-      "h_elo": 1505.6,
-      "c_elo": 1411.7,
-      "g_elo": 1612.2
+      "elo": 1549.1,
+      "h_elo": 1508.2,
+      "c_elo": 1465.3,
+      "g_elo": 1614.8
+    },
+    "c0nn": {
+      "name": "Gianluca Cadenasso",
+      "elo": 1542,
+      "h_elo": 1381,
+      "c_elo": 1521.5,
+      "g_elo": 1471
     },
     "s0vm": {
       "name": "Trevor Svajda",
@@ -1571,19 +1528,33 @@
       "c_elo": 1380.9,
       "g_elo": 1470.9
     },
-    "m0aw": {
-      "name": "Nicolas Mejia",
+    "g0by": {
+      "name": "Daniil Glinka",
       "elo": 1538.8,
-      "h_elo": 1472.8,
-      "c_elo": 1535.2,
-      "g_elo": 1469.4
+      "h_elo": 1521.6,
+      "c_elo": 1479.9,
+      "g_elo": 1519.4
     },
-    "i305": {
-      "name": "Ilya Ivashka",
-      "elo": 1538,
-      "h_elo": 1507.5,
-      "c_elo": 1556.7,
-      "g_elo": 1516.5
+    "b0qc": {
+      "name": "Gilles Arnaud Bailly",
+      "elo": 1538.4,
+      "h_elo": 1488.2,
+      "c_elo": 1507.7,
+      "g_elo": 1519.2
+    },
+    "sx90": {
+      "name": "Fajing Sun",
+      "elo": 1538.2,
+      "h_elo": 1510.4,
+      "c_elo": 1300.7,
+      "g_elo": 1448.1
+    },
+    "s0ia": {
+      "name": "Dane Sweeny",
+      "elo": 1537,
+      "h_elo": 1506.1,
+      "c_elo": 1333.7,
+      "g_elo": 1412.3
     },
     "h09p": {
       "name": "Brandon Holt",
@@ -1592,26 +1563,12 @@
       "c_elo": 1353.7,
       "g_elo": 1507
     },
-    "p0iy": {
-      "name": "Juan Carlos Prado Angelo",
-      "elo": 1536.4,
-      "h_elo": 1398.7,
-      "c_elo": 1542.2,
-      "g_elo": 1468.2
-    },
     "bv16": {
       "name": "Ugo Blanchet",
       "elo": 1535.7,
       "h_elo": 1553.3,
       "c_elo": 1443.5,
       "g_elo": 1445.4
-    },
-    "cg33": {
-      "name": "Kimmer Coppejans",
-      "elo": 1535.1,
-      "h_elo": 1464.8,
-      "c_elo": 1509.4,
-      "g_elo": 1451.1
     },
     "s0gr": {
       "name": "Timofey Skatov",
@@ -1620,33 +1577,33 @@
       "c_elo": 1524.2,
       "g_elo": 1479.5
     },
-    "s0ia": {
-      "name": "Dane Sweeny",
-      "elo": 1534.6,
-      "h_elo": 1504,
-      "c_elo": 1332.5,
-      "g_elo": 1411.1
+    "d0d4": {
+      "name": "Stefan Dostanic",
+      "elo": 1534.8,
+      "h_elo": 1516.2,
+      "c_elo": 1435.7,
+      "g_elo": 1467.4
     },
-    "sx90": {
-      "name": "Fajing Sun",
-      "elo": 1533.7,
-      "h_elo": 1507.4,
-      "c_elo": 1298.5,
-      "g_elo": 1445.8
+    "i305": {
+      "name": "Ilya Ivashka",
+      "elo": 1532.7,
+      "h_elo": 1502.4,
+      "c_elo": 1554,
+      "g_elo": 1513.8
     },
-    "ss25": {
-      "name": "Vitaliy Sachko",
-      "elo": 1531.8,
-      "h_elo": 1449.1,
-      "c_elo": 1508.3,
-      "g_elo": 1412.7
+    "c0nb": {
+      "name": "Federico Cina",
+      "elo": 1532.1,
+      "h_elo": 1534.1,
+      "c_elo": 1471.7,
+      "g_elo": 1466
     },
-    "t0ap": {
-      "name": "Chun Hsin Tseng",
-      "elo": 1528.3,
-      "h_elo": 1482.1,
-      "c_elo": 1524.2,
-      "g_elo": 1392.3
+    "s0ze": {
+      "name": "Colton Smith",
+      "elo": 1531.2,
+      "h_elo": 1517.8,
+      "c_elo": 1435.7,
+      "g_elo": 1534.5
     },
     "tc01": {
       "name": "Li Tu",
@@ -1662,12 +1619,19 @@
       "c_elo": 1557.1,
       "g_elo": 1469.4
     },
-    "k0o4": {
-      "name": "Moise Kouame",
-      "elo": 1526.6,
-      "h_elo": 1528.5,
-      "c_elo": 1337.7,
-      "g_elo": 1463.3
+    "g0cv": {
+      "name": "Buvaysar Gadamauri",
+      "elo": 1527.6,
+      "h_elo": 1448.6,
+      "c_elo": 1493.9,
+      "g_elo": 1463.8
+    },
+    "ge33": {
+      "name": "Daniel Elahi Galan",
+      "elo": 1526.7,
+      "h_elo": 1495.4,
+      "c_elo": 1490.1,
+      "g_elo": 1490.3
     },
     "p0j1": {
       "name": "Rodrigo Pacheco Mendez",
@@ -1683,26 +1647,19 @@
       "c_elo": 1513.1,
       "g_elo": 1594.6
     },
-    "ge33": {
-      "name": "Daniel Elahi Galan",
-      "elo": 1525.3,
-      "h_elo": 1494.7,
-      "c_elo": 1486.8,
-      "g_elo": 1489.6
+    "r0bt": {
+      "name": "Franco Roncadelli",
+      "elo": 1525.8,
+      "h_elo": 1391.8,
+      "c_elo": 1506.1,
+      "g_elo": 1462.9
     },
-    "ag08": {
-      "name": "Andy Andrade",
-      "elo": 1524.4,
-      "h_elo": 1452.7,
-      "c_elo": 1482.9,
-      "g_elo": 1462.2
-    },
-    "s0gz": {
-      "name": "Nikolas Sanchez Izquierdo",
-      "elo": 1523.9,
-      "h_elo": 1312.9,
-      "c_elo": 1502.6,
-      "g_elo": 1462
+    "b0ov": {
+      "name": "Petr Brunclik",
+      "elo": 1524.8,
+      "h_elo": 1458.8,
+      "c_elo": 1457.5,
+      "g_elo": 1462.4
     },
     "e865": {
       "name": "Christopher Eubanks",
@@ -1711,26 +1668,40 @@
       "c_elo": 1414.6,
       "g_elo": 1524.2
     },
-    "b0mm": {
-      "name": "Edas Butvilas",
-      "elo": 1520.5,
-      "h_elo": 1503.2,
-      "c_elo": 1438.7,
-      "g_elo": 1444.2
+    "ss25": {
+      "name": "Vitaliy Sachko",
+      "elo": 1523.4,
+      "h_elo": 1444.9,
+      "c_elo": 1491.3,
+      "g_elo": 1408.5
+    },
+    "s0gz": {
+      "name": "Nikolas Sanchez Izquierdo",
+      "elo": 1523.1,
+      "h_elo": 1312.4,
+      "c_elo": 1500,
+      "g_elo": 1461.5
     },
     "m0oh": {
       "name": "Lautaro Midon",
-      "elo": 1518.9,
-      "h_elo": 1447.8,
-      "c_elo": 1498.3,
-      "g_elo": 1459.4
+      "elo": 1522.5,
+      "h_elo": 1449.6,
+      "c_elo": 1504.3,
+      "g_elo": 1461.2
     },
-    "h09f": {
-      "name": "Yu Hsiou Hsu",
-      "elo": 1517.9,
-      "h_elo": 1488,
-      "c_elo": 1388.9,
-      "g_elo": 1360.4
+    "m0aw": {
+      "name": "Nicolas Mejia",
+      "elo": 1522,
+      "h_elo": 1464.4,
+      "c_elo": 1515.1,
+      "g_elo": 1461
+    },
+    "p0iy": {
+      "name": "Juan Carlos Prado Angelo",
+      "elo": 1518.5,
+      "h_elo": 1389.8,
+      "c_elo": 1516.2,
+      "g_elo": 1459.2
     },
     "rd48": {
       "name": "Igor Marcondes",
@@ -1739,13 +1710,6 @@
       "c_elo": 1504.7,
       "g_elo": 1458.5
     },
-    "hh06": {
-      "name": "Marc Andrea Huesler",
-      "elo": 1515.6,
-      "h_elo": 1495.3,
-      "c_elo": 1494.4,
-      "g_elo": 1472.4
-    },
     "b0gr": {
       "name": "Gonzalo Bueno",
       "elo": 1515.5,
@@ -1753,26 +1717,26 @@
       "c_elo": 1505.7,
       "g_elo": 1457.7
     },
-    "c0nb": {
-      "name": "Federico Cina",
-      "elo": 1514.9,
-      "h_elo": 1525.6,
-      "c_elo": 1453.1,
-      "g_elo": 1457.5
+    "g0a0": {
+      "name": "Andrea Guerrieri",
+      "elo": 1512.8,
+      "h_elo": 1377.4,
+      "c_elo": 1475.3,
+      "g_elo": 1456.4
     },
-    "sx91": {
-      "name": "Thiago Seyboth Wild",
-      "elo": 1513.4,
-      "h_elo": 1506.7,
-      "c_elo": 1498.9,
-      "g_elo": 1468.8
+    "hb48": {
+      "name": "Calvin Hemery",
+      "elo": 1512.4,
+      "h_elo": 1445.5,
+      "c_elo": 1513.4,
+      "g_elo": 1408.4
     },
-    "ta46": {
-      "name": "Bernard Tomic",
-      "elo": 1512.5,
-      "h_elo": 1469.9,
-      "c_elo": 1440.6,
-      "g_elo": 1530.9
+    "k0o4": {
+      "name": "Moise Kouame",
+      "elo": 1511,
+      "h_elo": 1520.6,
+      "c_elo": 1324.3,
+      "g_elo": 1455.5
     },
     "bv24": {
       "name": "Raul Brancaccio",
@@ -1781,40 +1745,26 @@
       "c_elo": 1494.6,
       "g_elo": 1424.9
     },
-    "m0hu": {
-      "name": "Shintaro Mochizuki",
-      "elo": 1508.2,
-      "h_elo": 1441.7,
-      "c_elo": 1480.6,
-      "g_elo": 1581.9
-    },
     "kh56": {
       "name": "Zdenek Kolar",
-      "elo": 1507.6,
-      "h_elo": 1432.2,
-      "c_elo": 1504.2,
-      "g_elo": 1450.4
+      "elo": 1510.2,
+      "h_elo": 1433.5,
+      "c_elo": 1503.1,
+      "g_elo": 1451.7
     },
-    "h0cx": {
-      "name": "Max Houkes",
-      "elo": 1506.8,
-      "h_elo": 1328,
-      "c_elo": 1492.7,
-      "g_elo": 1419.5
+    "h09f": {
+      "name": "Yu Hsiou Hsu",
+      "elo": 1509,
+      "h_elo": 1478.6,
+      "c_elo": 1384.5,
+      "g_elo": 1355.9
     },
-    "sn54": {
-      "name": "Frederico Ferreira Silva",
-      "elo": 1505.7,
-      "h_elo": 1497.1,
-      "c_elo": 1441.7,
-      "g_elo": 1475.2
-    },
-    "g0dh": {
-      "name": "Alvaro Guillen Meza",
-      "elo": 1505.5,
-      "h_elo": 1289.9,
-      "c_elo": 1493.8,
-      "g_elo": 1432.7
+    "m0oq": {
+      "name": "James McCabe",
+      "elo": 1508.2,
+      "h_elo": 1469.4,
+      "c_elo": 1317.5,
+      "g_elo": 1503.1
     },
     "b0er": {
       "name": "Arthur Bouquier",
@@ -1823,40 +1773,19 @@
       "c_elo": 1332.6,
       "g_elo": 1440.2
     },
-    "b0ej": {
-      "name": "Tristan Boyer",
-      "elo": 1504.7,
-      "h_elo": 1496.9,
-      "c_elo": 1462.2,
-      "g_elo": 1424.7
+    "b0jp": {
+      "name": "Dali Blanch",
+      "elo": 1503.2,
+      "h_elo": 1268.7,
+      "c_elo": 1500.7,
+      "g_elo": 1451.6
     },
-    "m0oq": {
-      "name": "James Mccabe",
-      "elo": 1504.5,
-      "h_elo": 1465.1,
-      "c_elo": 1315.7,
-      "g_elo": 1501.3
-    },
-    "b0qc": {
-      "name": "Gilles Arnaud Bailly",
-      "elo": 1504.3,
-      "h_elo": 1471.2,
-      "c_elo": 1470.3,
-      "g_elo": 1502.2
-    },
-    "p0ay": {
-      "name": "Luka Pavlovic",
-      "elo": 1504,
-      "h_elo": 1460.6,
-      "c_elo": 1463.8,
-      "g_elo": 1479.9
-    },
-    "d0lj": {
-      "name": "Diego Dedura",
-      "elo": 1503.7,
-      "h_elo": 1327.3,
-      "c_elo": 1486.8,
-      "g_elo": 1451.9
+    "b0mm": {
+      "name": "Edas Butvilas",
+      "elo": 1502.9,
+      "h_elo": 1494.4,
+      "c_elo": 1420.4,
+      "g_elo": 1435.4
     },
     "f0f4": {
       "name": "Kilian Feldbausch",
@@ -1865,12 +1794,19 @@
       "c_elo": 1484.6,
       "g_elo": 1451.4
     },
-    "da81": {
-      "name": "Taro Daniel",
-      "elo": 1501.9,
-      "h_elo": 1479.2,
-      "c_elo": 1467,
-      "g_elo": 1448.6
+    "sn54": {
+      "name": "Frederico Ferreira Silva",
+      "elo": 1502.6,
+      "h_elo": 1495.5,
+      "c_elo": 1435.8,
+      "g_elo": 1473.6
+    },
+    "sx91": {
+      "name": "Thiago Seyboth Wild",
+      "elo": 1502.1,
+      "h_elo": 1501.1,
+      "c_elo": 1486.1,
+      "g_elo": 1463.2
     },
     "d0ji": {
       "name": "Manas Dhamne",
@@ -1879,12 +1815,12 @@
       "c_elo": 1479.4,
       "g_elo": 1500.6
     },
-    "p0gq": {
-      "name": "Mili Poljicak",
-      "elo": 1500.5,
-      "h_elo": 1311.3,
-      "c_elo": 1475.3,
-      "g_elo": 1414.4
+    "da81": {
+      "name": "Taro Daniel",
+      "elo": 1499.5,
+      "h_elo": 1478,
+      "c_elo": 1463.8,
+      "g_elo": 1447.4
     },
     "t0fi": {
       "name": "Marko Topo",
@@ -1900,13 +1836,6 @@
       "c_elo": 1485.9,
       "g_elo": 1448.9
     },
-    "f840": {
-      "name": "Nerman Fatic",
-      "elo": 1497.4,
-      "h_elo": 1417.8,
-      "c_elo": 1481.7,
-      "g_elo": 1467
-    },
     "r0ed": {
       "name": "Max Hans Rehberg",
       "elo": 1497.1,
@@ -1921,19 +1850,12 @@
       "c_elo": 1358.5,
       "g_elo": 1398.7
     },
-    "hd68": {
-      "name": "Billy Harris",
-      "elo": 1493.7,
-      "h_elo": 1465.4,
-      "c_elo": 1384.7,
-      "g_elo": 1499.2
-    },
-    "d0l3": {
-      "name": "Matej Dodig",
-      "elo": 1493.5,
-      "h_elo": 1423,
-      "c_elo": 1472.7,
-      "g_elo": 1446.7
+    "h0cx": {
+      "name": "Max Houkes",
+      "elo": 1496.2,
+      "h_elo": 1322.8,
+      "c_elo": 1475.7,
+      "g_elo": 1414.2
     },
     "kc12": {
       "name": "Mitchell Krueger",
@@ -1942,40 +1864,19 @@
       "c_elo": 1451,
       "g_elo": 1439.7
     },
-    "k0e6": {
-      "name": "Alibek Kachmazov",
-      "elo": 1490.4,
-      "h_elo": 1466.5,
-      "c_elo": 1396.4,
-      "g_elo": 1449.5
+    "ta46": {
+      "name": "Bernard Tomic",
+      "elo": 1491.5,
+      "h_elo": 1451.9,
+      "c_elo": 1428.2,
+      "g_elo": 1520.4
     },
-    "s0ak": {
-      "name": "Henri Squire",
-      "elo": 1490.4,
-      "h_elo": 1449,
-      "c_elo": 1477.1,
-      "g_elo": 1358.6
-    },
-    "s0ex": {
-      "name": "Hamish Stewart",
-      "elo": 1489.6,
-      "h_elo": 1451.7,
-      "c_elo": 1354.8,
-      "g_elo": 1506
-    },
-    "ea13": {
-      "name": "Moez Echargui",
-      "elo": 1489.6,
-      "h_elo": 1444.7,
-      "c_elo": 1418.4,
-      "g_elo": 1444.8
-    },
-    "s0ze": {
-      "name": "Colton Smith",
+    "d0lj": {
+      "name": "Diego Dedura",
       "elo": 1489,
-      "h_elo": 1496.7,
-      "c_elo": 1358.3,
-      "g_elo": 1513.4
+      "h_elo": 1320,
+      "c_elo": 1472.8,
+      "g_elo": 1444.5
     },
     "ch27": {
       "name": "Hyeon Chung",
@@ -1984,6 +1885,13 @@
       "c_elo": 1525.7,
       "g_elo": 1400.1
     },
+    "m0hu": {
+      "name": "Shintaro Mochizuki",
+      "elo": 1487.9,
+      "h_elo": 1431.6,
+      "c_elo": 1455.4,
+      "g_elo": 1571.8
+    },
     "r0fp": {
       "name": "Daniel Rincon",
       "elo": 1487.4,
@@ -1991,19 +1899,19 @@
       "c_elo": 1424.2,
       "g_elo": 1354
     },
+    "f840": {
+      "name": "Nerman Fatic",
+      "elo": 1487.2,
+      "h_elo": 1412.7,
+      "c_elo": 1471.1,
+      "g_elo": 1461.9
+    },
     "bu70": {
       "name": "Remy Bertola",
       "elo": 1485.8,
       "h_elo": 1481.1,
       "c_elo": 1380.2,
       "g_elo": 1442.9
-    },
-    "u134": {
-      "name": "Yasutaka Uchiyama",
-      "elo": 1485.7,
-      "h_elo": 1454.1,
-      "c_elo": 1359,
-      "g_elo": 1428.8
     },
     "g0iw": {
       "name": "Antoine Ghibaudo",
@@ -2033,6 +1941,13 @@
       "c_elo": 1481.2,
       "g_elo": 1374.3
     },
+    "s0ak": {
+      "name": "Henri Squire",
+      "elo": 1483.1,
+      "h_elo": 1445.3,
+      "c_elo": 1468.7,
+      "g_elo": 1355
+    },
     "f0a3": {
       "name": "Sergey Fomin",
       "elo": 1482.9,
@@ -2040,26 +1955,26 @@
       "c_elo": 1493.9,
       "g_elo": 1441.4
     },
-    "z0cq": {
-      "name": "Yi Zhou",
-      "elo": 1480.6,
-      "h_elo": 1457.2,
-      "c_elo": 1332.1,
-      "g_elo": 1440.3
+    "p0gq": {
+      "name": "Mili Poljicak",
+      "elo": 1481.8,
+      "h_elo": 1302,
+      "c_elo": 1454.6,
+      "g_elo": 1405.1
     },
-    "m0se": {
-      "name": "Maxim Mrva",
-      "elo": 1479.3,
-      "h_elo": 1493,
-      "c_elo": 1390.9,
-      "g_elo": 1489.6
+    "p0ay": {
+      "name": "Luka Pavlovic",
+      "elo": 1481.2,
+      "h_elo": 1449.2,
+      "c_elo": 1442.1,
+      "g_elo": 1468.5
     },
-    "o660": {
-      "name": "Genaro Alberto Olivieri",
-      "elo": 1479.1,
-      "h_elo": 1348.7,
-      "c_elo": 1462.1,
-      "g_elo": 1364.5
+    "r0a7": {
+      "name": "Joao Lucas Reis Da Silva",
+      "elo": 1480.3,
+      "h_elo": 1356.6,
+      "c_elo": 1471.4,
+      "g_elo": 1440.2
     },
     "r0kd": {
       "name": "Mees Rottgering",
@@ -2068,6 +1983,13 @@
       "c_elo": 1444.1,
       "g_elo": 1472.7
     },
+    "d0l3": {
+      "name": "Matej Dodig",
+      "elo": 1478.2,
+      "h_elo": 1415.4,
+      "c_elo": 1452.2,
+      "g_elo": 1439.1
+    },
     "mw75": {
       "name": "Felipe Meligeni Alves",
       "elo": 1477.4,
@@ -2075,12 +1997,12 @@
       "c_elo": 1468.5,
       "g_elo": 1497.2
     },
-    "v836": {
-      "name": "Juan Pablo Varillas",
-      "elo": 1475.7,
-      "h_elo": 1374.6,
-      "c_elo": 1467.2,
-      "g_elo": 1366
+    "s0ex": {
+      "name": "Hamish Stewart",
+      "elo": 1477.1,
+      "h_elo": 1443.3,
+      "c_elo": 1348.6,
+      "g_elo": 1499.8
     },
     "m0rx": {
       "name": "Kenta Miyoshi",
@@ -2103,19 +2025,19 @@
       "c_elo": 1457.2,
       "g_elo": 1351.4
     },
-    "b0ov": {
-      "name": "Petr Brunclik",
-      "elo": 1474.5,
-      "h_elo": 1433.7,
-      "c_elo": 1389.3,
-      "g_elo": 1437.3
+    "o660": {
+      "name": "Genaro Alberto Olivieri",
+      "elo": 1473.9,
+      "h_elo": 1346.1,
+      "c_elo": 1453.9,
+      "g_elo": 1361.9
     },
-    "r0a7": {
-      "name": "Joao Lucas Reis Da Silva",
-      "elo": 1473.8,
-      "h_elo": 1353.3,
-      "c_elo": 1466.4,
-      "g_elo": 1436.9
+    "u134": {
+      "name": "Yasutaka Uchiyama",
+      "elo": 1473.5,
+      "h_elo": 1441.5,
+      "c_elo": 1352.9,
+      "g_elo": 1422.7
     },
     "r0hk": {
       "name": "Filippo Romano",
@@ -2124,13 +2046,6 @@
       "c_elo": 1355.7,
       "g_elo": 1436.6
     },
-    "hb48": {
-      "name": "Calvin Hemery",
-      "elo": 1472.8,
-      "h_elo": 1425.7,
-      "c_elo": 1471,
-      "g_elo": 1388.5
-    },
     "kc04": {
       "name": "Jozef Kovalik",
       "elo": 1472.8,
@@ -2138,12 +2053,26 @@
       "c_elo": 1465.6,
       "g_elo": 1374.3
     },
+    "hd68": {
+      "name": "Billy Harris",
+      "elo": 1471.8,
+      "h_elo": 1454.5,
+      "c_elo": 1357.8,
+      "g_elo": 1488.2
+    },
     "s0ek": {
       "name": "Matias Soto",
       "elo": 1471.5,
       "h_elo": 1347.6,
       "c_elo": 1467.4,
       "g_elo": 1435.7
+    },
+    "l0gr": {
+      "name": "Juan Manuel La Serna",
+      "elo": 1471.1,
+      "h_elo": 1376,
+      "c_elo": 1461.2,
+      "g_elo": 1435.6
     },
     "mf35": {
       "name": "Andrej Martin",
@@ -2173,33 +2102,40 @@
       "c_elo": 1376.1,
       "g_elo": 1433.5
     },
-    "g0eu": {
-      "name": "Felix Gill",
-      "elo": 1464.9,
-      "h_elo": 1486.6,
-      "c_elo": 1380.4,
-      "g_elo": 1344.5
+    "ci14": {
+      "name": "Jay Clarke",
+      "elo": 1464.6,
+      "h_elo": 1423.9,
+      "c_elo": 1437.8,
+      "g_elo": 1354
     },
-    "aa27": {
-      "name": "Franco Agamenone",
-      "elo": 1461.3,
-      "h_elo": 1350.3,
-      "c_elo": 1442.1,
-      "g_elo": 1359.6
+    "g0dh": {
+      "name": "Alvaro Guillen Meza",
+      "elo": 1464.1,
+      "h_elo": 1269.2,
+      "c_elo": 1444.7,
+      "g_elo": 1412
+    },
+    "lc12": {
+      "name": "Laurent Lokoli",
+      "elo": 1463.5,
+      "h_elo": 1411.1,
+      "c_elo": 1456,
+      "g_elo": 1465.1
+    },
+    "ea13": {
+      "name": "Moez Echargui",
+      "elo": 1462.1,
+      "h_elo": 1430.9,
+      "c_elo": 1391.7,
+      "g_elo": 1431
     },
     "d0h9": {
       "name": "Guy Den Ouden",
       "elo": 1459.7,
       "h_elo": 1320.7,
-      "c_elo": 1474.9,
+      "c_elo": 1456.3,
       "g_elo": 1390.2
-    },
-    "b0gy": {
-      "name": "Alex Barrena",
-      "elo": 1459,
-      "h_elo": 1297.6,
-      "c_elo": 1449.9,
-      "g_elo": 1429.5
     },
     "n731": {
       "name": "Christoph Negritu",
@@ -2222,6 +2158,20 @@
       "c_elo": 1441.3,
       "g_elo": 1432.7
     },
+    "m0se": {
+      "name": "Maxim Mrva",
+      "elo": 1457.1,
+      "h_elo": 1481.9,
+      "c_elo": 1368.2,
+      "g_elo": 1478.6
+    },
+    "z0cq": {
+      "name": "Yi Zhou",
+      "elo": 1455.4,
+      "h_elo": 1444.6,
+      "c_elo": 1308.3,
+      "g_elo": 1427.7
+    },
     "z09z": {
       "name": "Beibit Zhukayev",
       "elo": 1455.4,
@@ -2235,13 +2185,6 @@
       "h_elo": 1357.2,
       "c_elo": 1426.1,
       "g_elo": 1427.5
-    },
-    "m0gy": {
-      "name": "Lilian Marmousez",
-      "elo": 1454.4,
-      "h_elo": 1397.6,
-      "c_elo": 1428.3,
-      "g_elo": 1427.2
     },
     "s0mn": {
       "name": "Marat Sharipov",
@@ -2257,12 +2200,33 @@
       "c_elo": 1320.2,
       "g_elo": 1398.4
     },
+    "s0dq": {
+      "name": "Keegan Smith",
+      "elo": 1453.4,
+      "h_elo": 1426.9,
+      "c_elo": 1269.8,
+      "g_elo": 1426.7
+    },
     "dg80": {
       "name": "Enrico Dalla Valle",
       "elo": 1453.3,
       "h_elo": 1380.8,
       "c_elo": 1429.8,
       "g_elo": 1426.6
+    },
+    "hg94": {
+      "name": "Benjamin Hassan",
+      "elo": 1453.1,
+      "h_elo": 1399,
+      "c_elo": 1461.1,
+      "g_elo": 1423.3
+    },
+    "aa27": {
+      "name": "Franco Agamenone",
+      "elo": 1453.1,
+      "h_elo": 1346.2,
+      "c_elo": 1433.2,
+      "g_elo": 1355.5
     },
     "kc33": {
       "name": "Dimitar Kuzmanov",
@@ -2285,19 +2249,19 @@
       "c_elo": 1301,
       "g_elo": 1408.2
     },
+    "j0aw": {
+      "name": "Guido Ivan Justo",
+      "elo": 1450.2,
+      "h_elo": 1310.7,
+      "c_elo": 1441.3,
+      "g_elo": 1425.1
+    },
     "rb60": {
       "name": "Oriol Roca Batalla",
       "elo": 1449.3,
       "h_elo": 1379.6,
       "c_elo": 1424.1,
       "g_elo": 1385.8
-    },
-    "fa43": {
-      "name": "Juan Pablo Ficovich",
-      "elo": 1448.5,
-      "h_elo": 1435.4,
-      "c_elo": 1411.7,
-      "g_elo": 1435.5
     },
     "ga79": {
       "name": "Lorenzo Giustino",
@@ -2320,33 +2284,12 @@
       "c_elo": 1328.2,
       "g_elo": 1408.2
     },
-    "e698": {
-      "name": "Gastao Elias",
-      "elo": 1447.2,
-      "h_elo": 1419.2,
-      "c_elo": 1424.8,
-      "g_elo": 1372
-    },
-    "j0aw": {
-      "name": "Guido Ivan Justo",
-      "elo": 1447,
-      "h_elo": 1309.1,
-      "c_elo": 1438.7,
-      "g_elo": 1423.5
-    },
-    "m0nl": {
-      "name": "Inaki Montes De La Torre",
-      "elo": 1446.9,
-      "h_elo": 1452.6,
-      "c_elo": 1321.4,
-      "g_elo": 1423.4
-    },
-    "bv21": {
-      "name": "Charles Broom",
-      "elo": 1446.9,
-      "h_elo": 1415.2,
-      "c_elo": 1333.5,
-      "g_elo": 1425.9
+    "i0b0": {
+      "name": "Andre Ilagan",
+      "elo": 1446.5,
+      "h_elo": 1419.9,
+      "c_elo": 1333.2,
+      "g_elo": 1423.2
     },
     "sm88": {
       "name": "Karue Sell",
@@ -2355,12 +2298,12 @@
       "c_elo": 1411.8,
       "g_elo": 1423.1
     },
-    "gj16": {
-      "name": "Federico Agustin Gomez",
-      "elo": 1446.2,
-      "h_elo": 1403.3,
-      "c_elo": 1414.4,
-      "g_elo": 1431.1
+    "b0bu": {
+      "name": "Florent Bax",
+      "elo": 1445.5,
+      "h_elo": 1410.2,
+      "c_elo": 1414.7,
+      "g_elo": 1422.8
     },
     "n0db": {
       "name": "Andrej Nedic",
@@ -2369,19 +2312,19 @@
       "c_elo": 1443.6,
       "g_elo": 1472.8
     },
-    "e0dd": {
-      "name": "Justin Engel",
-      "elo": 1444.6,
-      "h_elo": 1427.1,
-      "c_elo": 1347.2,
-      "g_elo": 1451.3
+    "g0eu": {
+      "name": "Felix Gill",
+      "elo": 1442.8,
+      "h_elo": 1475.5,
+      "c_elo": 1362.4,
+      "g_elo": 1333.5
     },
-    "a09t": {
-      "name": "Dan Added",
-      "elo": 1442.5,
-      "h_elo": 1414.2,
-      "c_elo": 1304.9,
-      "g_elo": 1421.3
+    "gj16": {
+      "name": "Federico Agustin Gomez",
+      "elo": 1442.7,
+      "h_elo": 1401.5,
+      "c_elo": 1410.7,
+      "g_elo": 1429.3
     },
     "a829": {
       "name": "Radu Albot",
@@ -2389,13 +2332,6 @@
       "h_elo": 1423.6,
       "c_elo": 1429.8,
       "g_elo": 1489.9
-    },
-    "i0b0": {
-      "name": "Andre Ilagan",
-      "elo": 1441.9,
-      "h_elo": 1416.2,
-      "c_elo": 1331,
-      "g_elo": 1421
     },
     "c0hb": {
       "name": "Eliakim Coulibaly",
@@ -2418,6 +2354,13 @@
       "c_elo": 1326.5,
       "g_elo": 1437.7
     },
+    "v836": {
+      "name": "Juan Pablo Varillas",
+      "elo": 1440.1,
+      "h_elo": 1356.8,
+      "c_elo": 1430.9,
+      "g_elo": 1348.2
+    },
     "c0ak": {
       "name": "Oliver Crawford",
       "elo": 1438.5,
@@ -2425,26 +2368,12 @@
       "c_elo": 1373,
       "g_elo": 1457.4
     },
-    "lc12": {
-      "name": "Laurent Lokoli",
-      "elo": 1438.3,
-      "h_elo": 1398.5,
-      "c_elo": 1440.3,
-      "g_elo": 1452.5
-    },
-    "r0bt": {
-      "name": "Franco Roncadelli",
-      "elo": 1436.7,
-      "h_elo": 1347.3,
-      "c_elo": 1407.5,
-      "g_elo": 1418.4
-    },
-    "cc66": {
-      "name": "Andrea Collarini",
-      "elo": 1436.7,
-      "h_elo": 1327.4,
-      "c_elo": 1421.6,
-      "g_elo": 1338.7
+    "m0gy": {
+      "name": "Lilian Marmousez",
+      "elo": 1435.9,
+      "h_elo": 1388.4,
+      "c_elo": 1410.1,
+      "g_elo": 1418
     },
     "e768": {
       "name": "Antoine Escoffier",
@@ -2453,19 +2382,12 @@
       "c_elo": 1258.4,
       "g_elo": 1360.8
     },
-    "w857": {
-      "name": "Tung Lin Wu",
-      "elo": 1434.8,
-      "h_elo": 1405.3,
-      "c_elo": 1435.5,
-      "g_elo": 1376.8
-    },
-    "v0j1": {
-      "name": "Jacopo Vasami",
-      "elo": 1434.8,
-      "h_elo": 1291.1,
-      "c_elo": 1433.1,
-      "g_elo": 1417.4
+    "bv21": {
+      "name": "Charles Broom",
+      "elo": 1434.2,
+      "h_elo": 1408.8,
+      "c_elo": 1314.4,
+      "g_elo": 1419.5
     },
     "p0bk": {
       "name": "Stuart Parker",
@@ -2474,20 +2396,6 @@
       "c_elo": 1327,
       "g_elo": 1324.7
     },
-    "mj98": {
-      "name": "Facundo Mena",
-      "elo": 1434,
-      "h_elo": 1358,
-      "c_elo": 1412.5,
-      "g_elo": 1381.7
-    },
-    "ci14": {
-      "name": "Jay Clarke",
-      "elo": 1431.8,
-      "h_elo": 1407.5,
-      "c_elo": 1397,
-      "g_elo": 1337.6
-    },
     "pl64": {
       "name": "Oleg Prihodko",
       "elo": 1431.7,
@@ -2495,12 +2403,26 @@
       "c_elo": 1367.2,
       "g_elo": 1415.9
     },
+    "m0ur": {
+      "name": "Ognjen Milic",
+      "elo": 1431.2,
+      "h_elo": 1412.3,
+      "c_elo": 1449.8,
+      "g_elo": 1465.6
+    },
     "g0gw": {
       "name": "Sascha Gueymard Wayenburg",
       "elo": 1430.9,
       "h_elo": 1402.6,
       "c_elo": 1394.4,
       "g_elo": 1379.9
+    },
+    "fa43": {
+      "name": "Juan Pablo Ficovich",
+      "elo": 1430.5,
+      "h_elo": 1426.4,
+      "c_elo": 1395,
+      "g_elo": 1426.4
     },
     "c0b2": {
       "name": "Cezar Cretu",
@@ -2523,12 +2445,26 @@
       "c_elo": 1397.2,
       "g_elo": 1414.4
     },
+    "j380": {
+      "name": "Jason Jung",
+      "elo": 1428.5,
+      "h_elo": 1393.4,
+      "c_elo": 1371.2,
+      "g_elo": 1421.4
+    },
     "s0aq": {
       "name": "Yuta Shimizu",
       "elo": 1427.8,
       "h_elo": 1396.8,
       "c_elo": 1299.9,
       "g_elo": 1420.5
+    },
+    "cc66": {
+      "name": "Andrea Collarini",
+      "elo": 1427.8,
+      "h_elo": 1323,
+      "c_elo": 1412.6,
+      "g_elo": 1334.3
     },
     "j09x": {
       "name": "Filip Cristian Jianu",
@@ -2537,19 +2473,19 @@
       "c_elo": 1402.1,
       "g_elo": 1405.1
     },
-    "hg94": {
-      "name": "Benjamin Hassan",
-      "elo": 1427.1,
-      "h_elo": 1386,
-      "c_elo": 1434,
-      "g_elo": 1410.3
+    "mj98": {
+      "name": "Facundo Mena",
+      "elo": 1427,
+      "h_elo": 1354.5,
+      "c_elo": 1405.6,
+      "g_elo": 1378.2
     },
-    "f0bt": {
-      "name": "Jonas Forejtek",
-      "elo": 1426.9,
-      "h_elo": 1352.9,
-      "c_elo": 1414.2,
-      "g_elo": 1396.4
+    "a09t": {
+      "name": "Dan Added",
+      "elo": 1426,
+      "h_elo": 1405.9,
+      "c_elo": 1291.5,
+      "g_elo": 1413
     },
     "j0a4": {
       "name": "Paul Jubb",
@@ -2558,19 +2494,19 @@
       "c_elo": 1338,
       "g_elo": 1445.2
     },
+    "b0gy": {
+      "name": "Alex Barrena",
+      "elo": 1424.4,
+      "h_elo": 1280.3,
+      "c_elo": 1402.8,
+      "g_elo": 1412.2
+    },
     "bu54": {
       "name": "Geoffrey Blancaneaux",
-      "elo": 1424.7,
-      "h_elo": 1393.6,
-      "c_elo": 1420.6,
-      "g_elo": 1340.4
-    },
-    "r09v": {
-      "name": "Eduardo Ribeiro",
-      "elo": 1423.4,
-      "h_elo": 1290.2,
-      "c_elo": 1415.8,
-      "g_elo": 1411.7
+      "elo": 1423.2,
+      "h_elo": 1392.8,
+      "c_elo": 1417.3,
+      "g_elo": 1339.6
     },
     "k0hc": {
       "name": "Maks Kasnikowski",
@@ -2579,12 +2515,33 @@
       "c_elo": 1464.3,
       "g_elo": 1461.2
     },
+    "t0dm": {
+      "name": "Juan Bautista Torres",
+      "elo": 1422.2,
+      "h_elo": 1313.2,
+      "c_elo": 1410.9,
+      "g_elo": 1411.1
+    },
     "m0gb": {
       "name": "Alex Martinez",
       "elo": 1421.8,
       "h_elo": 1364.9,
       "c_elo": 1401.3,
       "g_elo": 1410.9
+    },
+    "f0bt": {
+      "name": "Jonas Forejtek",
+      "elo": 1421.2,
+      "h_elo": 1350.1,
+      "c_elo": 1406.9,
+      "g_elo": 1393.6
+    },
+    "cg07": {
+      "name": "Hernan Casanova",
+      "elo": 1419.1,
+      "h_elo": 1275.8,
+      "c_elo": 1404.7,
+      "g_elo": 1378.7
     },
     "mw76": {
       "name": "Matteo Martineau",
@@ -2593,12 +2550,12 @@
       "c_elo": 1355.7,
       "g_elo": 1391.3
     },
-    "z419": {
-      "name": "Bernabe Zapata Miralles",
-      "elo": 1416.1,
-      "h_elo": 1367.7,
-      "c_elo": 1411.3,
-      "g_elo": 1425
+    "v0j1": {
+      "name": "Jacopo Vasami",
+      "elo": 1417.7,
+      "h_elo": 1282.5,
+      "c_elo": 1414.2,
+      "g_elo": 1408.8
     },
     "v717": {
       "name": "Alexey Vatutin",
@@ -2606,6 +2563,20 @@
       "h_elo": 1382,
       "c_elo": 1373.8,
       "g_elo": 1371.6
+    },
+    "sq80": {
+      "name": "Akira Santillan",
+      "elo": 1415,
+      "h_elo": 1377.3,
+      "c_elo": 1369,
+      "g_elo": 1366.1
+    },
+    "e0dd": {
+      "name": "Justin Engel",
+      "elo": 1414.6,
+      "h_elo": 1412.1,
+      "c_elo": 1322.9,
+      "g_elo": 1436.3
     },
     "t0bw": {
       "name": "James Trotter",
@@ -2621,12 +2592,19 @@
       "c_elo": 1387.3,
       "g_elo": 1402.2
     },
-    "t0dm": {
-      "name": "Juan Bautista Torres",
-      "elo": 1413.2,
-      "h_elo": 1308.6,
-      "c_elo": 1401.1,
-      "g_elo": 1406.6
+    "z419": {
+      "name": "Bernabe Zapata Miralles",
+      "elo": 1413.1,
+      "h_elo": 1366.2,
+      "c_elo": 1407.4,
+      "g_elo": 1423.5
+    },
+    "k0fy": {
+      "name": "Martin Krumich",
+      "elo": 1412.8,
+      "h_elo": 1337.2,
+      "c_elo": 1370.8,
+      "g_elo": 1406.4
     },
     "hf80": {
       "name": "Hady Habib",
@@ -2649,26 +2627,12 @@
       "c_elo": 1358.3,
       "g_elo": 1405
     },
-    "b0tp": {
-      "name": "Henry Bernet",
-      "elo": 1409.9,
-      "h_elo": 1335,
-      "c_elo": 1401.9,
-      "g_elo": 1404.9
-    },
     "c0i4": {
       "name": "Tibo Colson",
       "elo": 1408.7,
       "h_elo": 1351.6,
       "c_elo": 1352.5,
       "g_elo": 1404.4
-    },
-    "gg65": {
-      "name": "Michael Geerts",
-      "elo": 1408.1,
-      "h_elo": 1387.2,
-      "c_elo": 1352,
-      "g_elo": 1347.7
     },
     "y171": {
       "name": "Denis Yevseyev",
@@ -2677,26 +2641,19 @@
       "c_elo": 1371.9,
       "g_elo": 1411.7
     },
-    "b0jp": {
-      "name": "Dali Blanch",
-      "elo": 1403.2,
-      "h_elo": 1218.7,
-      "c_elo": 1416.4,
-      "g_elo": 1401.6
-    },
-    "cg07": {
-      "name": "Hernan Casanova",
+    "r09v": {
+      "name": "Eduardo Ribeiro",
       "elo": 1402.4,
-      "h_elo": 1267.4,
-      "c_elo": 1386.2,
-      "g_elo": 1370.4
+      "h_elo": 1279.7,
+      "c_elo": 1393.9,
+      "g_elo": 1401.2
     },
-    "g0ao": {
-      "name": "Alastair Gray",
-      "elo": 1401.2,
-      "h_elo": 1365.3,
-      "c_elo": 1310.6,
-      "g_elo": 1369.2
+    "gg65": {
+      "name": "Michael Geerts",
+      "elo": 1399.5,
+      "h_elo": 1382.8,
+      "c_elo": 1347.9,
+      "g_elo": 1343.4
     },
     "m0e1": {
       "name": "Daniel Michalski",
@@ -2705,12 +2662,12 @@
       "c_elo": 1343.3,
       "g_elo": 1449.7
     },
-    "m0sc": {
-      "name": "Hayato Matsuoka",
-      "elo": 1397.6,
-      "h_elo": 1369.3,
-      "c_elo": 1308.8,
-      "g_elo": 1398.8
+    "p0df": {
+      "name": "Matheus Pucinelli De Almeida",
+      "elo": 1398,
+      "h_elo": 1263.3,
+      "c_elo": 1391.2,
+      "g_elo": 1399.8
     },
     "v0dg": {
       "name": "Quinn Vandecasteele",
@@ -2718,13 +2675,6 @@
       "h_elo": 1375.1,
       "c_elo": 1308.6,
       "g_elo": 1381.7
-    },
-    "b0bu": {
-      "name": "Florent Bax",
-      "elo": 1396.9,
-      "h_elo": 1385.9,
-      "c_elo": 1328.4,
-      "g_elo": 1398.4
     },
     "b0jj": {
       "name": "Robin Bertrand",
@@ -2740,6 +2690,20 @@
       "c_elo": 1312.4,
       "g_elo": 1411
     },
+    "s0ti": {
+      "name": "Philip Sekulic",
+      "elo": 1390,
+      "h_elo": 1363.3,
+      "c_elo": 1273.8,
+      "g_elo": 1356.8
+    },
+    "df88": {
+      "name": "Aziz Dougaz",
+      "elo": 1389.5,
+      "h_elo": 1374.4,
+      "c_elo": 1379.8,
+      "g_elo": 1365.7
+    },
     "p0d0": {
       "name": "Jakub Paul",
       "elo": 1389.2,
@@ -2753,13 +2717,6 @@
       "h_elo": 1362.3,
       "c_elo": 1444.3,
       "g_elo": 1444.3
-    },
-    "b0lq": {
-      "name": "Petr Bar Biryukov",
-      "elo": 1387.9,
-      "h_elo": 1370.3,
-      "c_elo": 1329.4,
-      "g_elo": 1393.9
     },
     "k0hg": {
       "name": "Milos Karol",
@@ -2796,6 +2753,13 @@
       "c_elo": 1334,
       "g_elo": 1322.8
     },
+    "g0ao": {
+      "name": "Alastair Gray",
+      "elo": 1384.4,
+      "h_elo": 1350,
+      "c_elo": 1302.2,
+      "g_elo": 1360.7
+    },
     "h0dc": {
       "name": "Giles Hussey",
       "elo": 1384.1,
@@ -2810,12 +2774,19 @@
       "c_elo": 1302,
       "g_elo": 1392
     },
-    "sq80": {
-      "name": "Akira Santillan",
-      "elo": 1383.1,
-      "h_elo": 1342.9,
-      "c_elo": 1353,
-      "g_elo": 1350.2
+    "c0aj": {
+      "name": "Jie Cui",
+      "elo": 1382.9,
+      "h_elo": 1353.5,
+      "c_elo": 1249.3,
+      "g_elo": 1391.5
+    },
+    "b0tp": {
+      "name": "Henry Bernet",
+      "elo": 1382.9,
+      "h_elo": 1321.5,
+      "c_elo": 1367.3,
+      "g_elo": 1391.4
     },
     "w0c4": {
       "name": "Edward Winter",
@@ -2824,12 +2795,26 @@
       "c_elo": 1300.7,
       "g_elo": 1418.2
     },
+    "s0vu": {
+      "name": "Max Schoenhaus",
+      "elo": 1381.2,
+      "h_elo": 1360,
+      "c_elo": 1330.4,
+      "g_elo": 1356.5
+    },
     "sr81": {
       "name": "Khumoyun Sultanov",
       "elo": 1379.1,
       "h_elo": 1367.1,
       "c_elo": 1277.7,
       "g_elo": 1400.2
+    },
+    "dc48": {
+      "name": "Murkel Dellien",
+      "elo": 1378.6,
+      "h_elo": 1357.2,
+      "c_elo": 1368.2,
+      "g_elo": 1368.2
     },
     "z09f": {
       "name": "Patrick Zahraj",
@@ -2838,12 +2823,12 @@
       "c_elo": 1281.8,
       "g_elo": 1399
     },
-    "dc48": {
-      "name": "Murkel Dellien",
-      "elo": 1376.7,
-      "h_elo": 1356.3,
-      "c_elo": 1366.5,
-      "g_elo": 1367.2
+    "j0d2": {
+      "name": "Maximus Jones",
+      "elo": 1374.1,
+      "h_elo": 1349.4,
+      "c_elo": 1329.5,
+      "g_elo": 1387.1
     },
     "pl39": {
       "name": "Alfredo Perez",
@@ -2851,20 +2836,6 @@
       "h_elo": 1333.4,
       "c_elo": 1379.7,
       "g_elo": 1385.8
-    },
-    "u120": {
-      "name": "Kaichi Uchida",
-      "elo": 1370.5,
-      "h_elo": 1340.8,
-      "c_elo": 1318.7,
-      "g_elo": 1397.9
-    },
-    "p0df": {
-      "name": "Matheus Pucinelli De Almeida",
-      "elo": 1370.4,
-      "h_elo": 1249.5,
-      "c_elo": 1365.6,
-      "g_elo": 1386.1
     },
     "p0cy": {
       "name": "Stefan Palosi",
@@ -2887,6 +2858,13 @@
       "c_elo": 1262.1,
       "g_elo": 1360.9
     },
+    "b0pe": {
+      "name": "Federico Bondioli",
+      "elo": 1366.8,
+      "h_elo": 1236.5,
+      "c_elo": 1368.2,
+      "g_elo": 1383.4
+    },
     "k0cj": {
       "name": "Sandro Kopp",
       "elo": 1365.4,
@@ -2901,26 +2879,12 @@
       "c_elo": 1305.4,
       "g_elo": 1388.8
     },
-    "l0gr": {
-      "name": "Juan Manuel La Serna",
-      "elo": 1364.6,
-      "h_elo": 1322.8,
-      "c_elo": 1352.4,
-      "g_elo": 1382.3
-    },
-    "a0ba": {
-      "name": "Federico Arnaboldi",
-      "elo": 1363.6,
-      "h_elo": 1317.7,
-      "c_elo": 1322.1,
-      "g_elo": 1351.3
-    },
-    "k0fy": {
-      "name": "Martin Krumich",
-      "elo": 1362.6,
-      "h_elo": 1312.2,
-      "c_elo": 1323.9,
-      "g_elo": 1381.3
+    "m0sc": {
+      "name": "Hayato Matsuoka",
+      "elo": 1362.2,
+      "h_elo": 1334.2,
+      "c_elo": 1291.1,
+      "g_elo": 1381.1
     },
     "v0d0": {
       "name": "Niels Visker",
@@ -2929,12 +2893,12 @@
       "c_elo": 1271,
       "g_elo": 1381
     },
-    "pd31": {
-      "name": "Benoit Paire",
-      "elo": 1361.8,
-      "h_elo": 1335.7,
-      "c_elo": 1385.4,
-      "g_elo": 1412
+    "u120": {
+      "name": "Kaichi Uchida",
+      "elo": 1360.2,
+      "h_elo": 1334.1,
+      "c_elo": 1308,
+      "g_elo": 1392.8
     },
     "b0c0": {
       "name": "Adrian Boitan",
@@ -2943,6 +2907,13 @@
       "c_elo": 1341.3,
       "g_elo": 1430
     },
+    "a09u": {
+      "name": "Nicolas Alvarez Varona",
+      "elo": 1358.5,
+      "h_elo": 1384.5,
+      "c_elo": 1306.4,
+      "g_elo": 1379.2
+    },
     "m0rg": {
       "name": "Daniel Milavsky",
       "elo": 1357.1,
@@ -2950,12 +2921,26 @@
       "c_elo": 1271.8,
       "g_elo": 1359.3
     },
-    "s0dq": {
-      "name": "Keegan Smith",
-      "elo": 1354,
-      "h_elo": 1325.1,
-      "c_elo": 1220.1,
-      "g_elo": 1377
+    "v993": {
+      "name": "Eero Vasa",
+      "elo": 1354.5,
+      "h_elo": 1321.3,
+      "c_elo": 1333.8,
+      "g_elo": 1427.2
+    },
+    "e0ac": {
+      "name": "Mathys Erhard",
+      "elo": 1353.3,
+      "h_elo": 1334.1,
+      "c_elo": 1330.2,
+      "g_elo": 1376.7
+    },
+    "t0i3": {
+      "name": "Miguel Tobon",
+      "elo": 1352.2,
+      "h_elo": 1312.7,
+      "c_elo": 1340.2,
+      "g_elo": 1387
     },
     "p0b2": {
       "name": "Luca Potenza",
@@ -2971,6 +2956,13 @@
       "c_elo": 1310.5,
       "g_elo": 1397
     },
+    "kc29": {
+      "name": "Nicolas Kicker",
+      "elo": 1351.2,
+      "h_elo": 1328.4,
+      "c_elo": 1341.8,
+      "g_elo": 1325.1
+    },
     "m0np": {
       "name": "Andres Martin",
       "elo": 1351.1,
@@ -2978,26 +2970,12 @@
       "c_elo": 1329,
       "g_elo": 1425.6
     },
-    "j0d2": {
-      "name": "Maximus Jones",
-      "elo": 1351.1,
-      "h_elo": 1325.8,
-      "c_elo": 1318,
-      "g_elo": 1375.5
-    },
-    "kc29": {
-      "name": "Nicolas Kicker",
-      "elo": 1350,
-      "h_elo": 1327.8,
-      "c_elo": 1340.7,
-      "g_elo": 1324.5
-    },
-    "fc49": {
-      "name": "Giovanni Fonio",
-      "elo": 1349,
-      "h_elo": 1349.5,
-      "c_elo": 1319.4,
-      "g_elo": 1374.5
+    "b0lq": {
+      "name": "Petr Bar Biryukov",
+      "elo": 1350.6,
+      "h_elo": 1330.2,
+      "c_elo": 1310.8,
+      "g_elo": 1375.3
     },
     "w0ed": {
       "name": "James Watt",
@@ -3006,6 +2984,13 @@
       "c_elo": 1248.9,
       "g_elo": 1406.7
     },
+    "a0ba": {
+      "name": "Federico Arnaboldi",
+      "elo": 1347.9,
+      "h_elo": 1309.8,
+      "c_elo": 1306.1,
+      "g_elo": 1343.5
+    },
     "b0gi": {
       "name": "Alexander Binda",
       "elo": 1346,
@@ -3013,26 +2998,12 @@
       "c_elo": 1331.8,
       "g_elo": 1373
     },
-    "s0ti": {
-      "name": "Philip Sekulic",
-      "elo": 1345.5,
-      "h_elo": 1315.3,
-      "c_elo": 1251.5,
-      "g_elo": 1334.6
-    },
     "s0u5": {
       "name": "Tai Sach",
       "elo": 1343.4,
       "h_elo": 1321.9,
       "c_elo": 1281.7,
       "g_elo": 1371.7
-    },
-    "j476": {
-      "name": "David Jorda Sanchis",
-      "elo": 1343.4,
-      "h_elo": 1233.4,
-      "c_elo": 1371.1,
-      "g_elo": 1332.8
     },
     "dc76": {
       "name": "Viktor Durasovic",
@@ -3055,13 +3026,6 @@
       "c_elo": 1359.9,
       "g_elo": 1370.6
     },
-    "sg56": {
-      "name": "Daniel Dutra Da Silva",
-      "elo": 1340.5,
-      "h_elo": 1248.9,
-      "c_elo": 1324.2,
-      "g_elo": 1356.4
-    },
     "s0tx": {
       "name": "Henry Searle",
       "elo": 1339.6,
@@ -3082,13 +3046,6 @@
       "h_elo": 1331.4,
       "c_elo": 1329.4,
       "g_elo": 1419.2
-    },
-    "e0ac": {
-      "name": "Mathys Erhard",
-      "elo": 1338.1,
-      "h_elo": 1326.5,
-      "c_elo": 1315.5,
-      "g_elo": 1369.1
     },
     "rh59": {
       "name": "Santiago Rodriguez Taverna",
@@ -3111,19 +3068,26 @@
       "c_elo": 1291.1,
       "g_elo": 1368.1
     },
+    "a0g7": {
+      "name": "Valerio Aboian",
+      "elo": 1334.3,
+      "h_elo": 1227,
+      "c_elo": 1325.7,
+      "g_elo": 1367.1
+    },
+    "s0xe": {
+      "name": "Alejo Sanchez Quilez",
+      "elo": 1333.6,
+      "h_elo": 1282.5,
+      "c_elo": 1306.5,
+      "g_elo": 1366.8
+    },
     "f0a4": {
       "name": "Francesco Forti",
       "elo": 1333.4,
       "h_elo": 1291.1,
       "c_elo": 1301.6,
       "g_elo": 1366.7
-    },
-    "v993": {
-      "name": "Eero Vasa",
-      "elo": 1331.4,
-      "h_elo": 1309.8,
-      "c_elo": 1303,
-      "g_elo": 1415.7
     },
     "df92": {
       "name": "Corentin Denolly",
@@ -3132,19 +3096,12 @@
       "c_elo": 1292.5,
       "g_elo": 1352.3
     },
-    "a09u": {
-      "name": "Nicolas Alvarez Varona",
-      "elo": 1330.9,
-      "h_elo": 1370.7,
-      "c_elo": 1274.4,
-      "g_elo": 1365.5
-    },
-    "hg90": {
-      "name": "Conner Huertas Del Pino",
-      "elo": 1329.1,
-      "h_elo": 1307,
-      "c_elo": 1306.4,
-      "g_elo": 1364.5
+    "sg56": {
+      "name": "Daniel Dutra da Silva",
+      "elo": 1330.3,
+      "h_elo": 1243.8,
+      "c_elo": 1313.4,
+      "g_elo": 1351.3
     },
     "bu10": {
       "name": "Jacopo Berrettini",
@@ -3167,12 +3124,33 @@
       "c_elo": 1258.7,
       "g_elo": 1361.5
     },
-    "j553": {
-      "name": "Omar Jasika",
-      "elo": 1321.2,
-      "h_elo": 1298.1,
-      "c_elo": 1257.5,
-      "g_elo": 1255.1
+    "m0wy": {
+      "name": "Guto Miguel",
+      "elo": 1322,
+      "h_elo": 1267.1,
+      "c_elo": 1317.1,
+      "g_elo": 1361
+    },
+    "j476": {
+      "name": "David Jorda Sanchis",
+      "elo": 1322,
+      "h_elo": 1222.8,
+      "c_elo": 1344.7,
+      "g_elo": 1322.1
+    },
+    "hg90": {
+      "name": "Conner Huertas del Pino",
+      "elo": 1321.8,
+      "h_elo": 1303.4,
+      "c_elo": 1299.1,
+      "g_elo": 1360.9
+    },
+    "b0i5": {
+      "name": "Blaise Bicknell",
+      "elo": 1320.9,
+      "h_elo": 1296.1,
+      "c_elo": 1291.2,
+      "g_elo": 1410.5
     },
     "m0re": {
       "name": "Patrick Maloney",
@@ -3202,13 +3180,6 @@
       "c_elo": 1311.9,
       "g_elo": 1359.7
     },
-    "a0g7": {
-      "name": "Valerio Aboian",
-      "elo": 1319.3,
-      "h_elo": 1219.6,
-      "c_elo": 1311.9,
-      "g_elo": 1359.6
-    },
     "n830": {
       "name": "Johan Nikles",
       "elo": 1318.7,
@@ -3230,19 +3201,19 @@
       "c_elo": 1283.1,
       "g_elo": 1356.8
     },
-    "b0pe": {
-      "name": "Federico Bondioli",
-      "elo": 1317,
-      "h_elo": 1211.5,
-      "c_elo": 1319.7,
-      "g_elo": 1358.5
-    },
     "so20": {
       "name": "Jelle Sels",
       "elo": 1316.1,
       "h_elo": 1334.8,
       "c_elo": 1288.4,
       "g_elo": 1254.4
+    },
+    "a09p": {
+      "name": "Alafia Ayeni",
+      "elo": 1315.6,
+      "h_elo": 1305.9,
+      "c_elo": 1201.6,
+      "g_elo": 1314.1
     },
     "s0cg": {
       "name": "Carlos Sanchez Jover",
@@ -3251,8 +3222,15 @@
       "c_elo": 1295.2,
       "g_elo": 1356.8
     },
+    "j553": {
+      "name": "Omar Jasika",
+      "elo": 1313.4,
+      "h_elo": 1289.7,
+      "c_elo": 1253.6,
+      "g_elo": 1251.2
+    },
     "m0c2": {
-      "name": "Dan Martin",
+      "name": "Dan  Martin",
       "elo": 1313.2,
       "h_elo": 1276.1,
       "c_elo": 1274.7,
@@ -3265,19 +3243,12 @@
       "c_elo": 1265.3,
       "g_elo": 1355.3
     },
-    "h0b5": {
-      "name": "Tsung Hao Huang",
-      "elo": 1308.8,
-      "h_elo": 1279.6,
-      "c_elo": 1264.4,
-      "g_elo": 1354.4
-    },
-    "sl94": {
-      "name": "Pedro Sakamoto",
-      "elo": 1308.4,
-      "h_elo": 1268,
-      "c_elo": 1297.4,
-      "g_elo": 1354.2
+    "mp13": {
+      "name": "Mukund Sasikumar",
+      "elo": 1309.5,
+      "h_elo": 1284.9,
+      "c_elo": 1242.9,
+      "g_elo": 1318.1
     },
     "i426": {
       "name": "Masamichi Imamura",
@@ -3286,26 +3257,12 @@
       "c_elo": 1264,
       "g_elo": 1354
     },
-    "b0i5": {
-      "name": "Blaise Bicknell",
-      "elo": 1303.2,
-      "h_elo": 1287.2,
-      "c_elo": 1252.8,
-      "g_elo": 1401.6
-    },
-    "p0i6": {
-      "name": "Gabriele Piraino",
-      "elo": 1303.2,
-      "h_elo": 1226.6,
-      "c_elo": 1298.3,
-      "g_elo": 1351.6
-    },
-    "t0i3": {
-      "name": "Miguel Tobon",
-      "elo": 1302.4,
-      "h_elo": 1287.8,
-      "c_elo": 1285,
-      "g_elo": 1362.1
+    "m09m": {
+      "name": "Ivan Marrero Curbelo",
+      "elo": 1302.5,
+      "h_elo": 1237.3,
+      "c_elo": 1327.8,
+      "g_elo": 1351.3
     },
     "b0pw": {
       "name": "Kaylan Bigun",
@@ -3321,33 +3278,12 @@
       "c_elo": 1261.6,
       "g_elo": 1349.1
     },
-    "h0cd": {
-      "name": "Alex Hernandez",
-      "elo": 1297.6,
-      "h_elo": 1269,
-      "c_elo": 1257.6,
+    "a0ik": {
+      "name": "Luciano Emanuel Ambrogi",
+      "elo": 1297.7,
+      "h_elo": 1200,
+      "c_elo": 1289.6,
       "g_elo": 1348.8
-    },
-    "c0aj": {
-      "name": "Jie Cui",
-      "elo": 1295.5,
-      "h_elo": 1266.2,
-      "c_elo": 1205.6,
-      "g_elo": 1347.7
-    },
-    "cd00": {
-      "name": "Maxime Chazal",
-      "elo": 1294,
-      "h_elo": 1240.7,
-      "c_elo": 1262.1,
-      "g_elo": 1347
-    },
-    "v821": {
-      "name": "Gonzalo Villanueva",
-      "elo": 1293.3,
-      "h_elo": 1210,
-      "c_elo": 1279.6,
-      "g_elo": 1346.7
     },
     "o0bi": {
       "name": "Carl Emil Overbeck",
@@ -3356,6 +3292,13 @@
       "c_elo": 1256.5,
       "g_elo": 1346.5
     },
+    "v821": {
+      "name": "Gonzalo Villanueva",
+      "elo": 1291.1,
+      "h_elo": 1208.9,
+      "c_elo": 1277.8,
+      "g_elo": 1345.5
+    },
     "n707": {
       "name": "Naoki Nakagawa",
       "elo": 1289.2,
@@ -3363,12 +3306,12 @@
       "c_elo": 1148.8,
       "g_elo": 1344.6
     },
-    "a0ik": {
-      "name": "Luciano Emanuel Ambrogi",
-      "elo": 1289.1,
-      "h_elo": 1195.7,
-      "c_elo": 1282.3,
-      "g_elo": 1344.6
+    "sl94": {
+      "name": "Pedro Sakamoto",
+      "elo": 1287.4,
+      "h_elo": 1257.5,
+      "c_elo": 1275.7,
+      "g_elo": 1343.7
     },
     "s0hr": {
       "name": "Kasidit Samrej",
@@ -3377,26 +3320,19 @@
       "c_elo": 1356.9,
       "g_elo": 1392.7
     },
-    "a09p": {
-      "name": "Alafia Ayeni",
-      "elo": 1285.2,
-      "h_elo": 1277.2,
-      "c_elo": 1186.4,
-      "g_elo": 1298.9
-    },
-    "s0iv": {
-      "name": "Paulo Andre Saraiva Dos Santos",
-      "elo": 1284.5,
-      "h_elo": 1231.4,
-      "c_elo": 1282,
-      "g_elo": 1342.2
-    },
     "b0d6": {
       "name": "Taha Baadi",
       "elo": 1282.1,
       "h_elo": 1249.6,
       "c_elo": 1279.8,
       "g_elo": 1305.3
+    },
+    "p0i6": {
+      "name": "Gabriele Piraino",
+      "elo": 1279.9,
+      "h_elo": 1214.9,
+      "c_elo": 1271.2,
+      "g_elo": 1340
     },
     "s0bt": {
       "name": "Adria Soriano Barrera",
@@ -3419,20 +3355,6 @@
       "c_elo": 1267.8,
       "g_elo": 1309.8
     },
-    "tf58": {
-      "name": "Yusuke Takahashi",
-      "elo": 1272.8,
-      "h_elo": 1248,
-      "c_elo": 1265,
-      "g_elo": 1336.4
-    },
-    "ch80": {
-      "name": "Luca Castelnuovo",
-      "elo": 1269.8,
-      "h_elo": 1251.9,
-      "c_elo": 1218.7,
-      "g_elo": 1334.9
-    },
     "t0ei": {
       "name": "Aristotelis Thanos",
       "elo": 1267.4,
@@ -3454,6 +3376,13 @@
       "c_elo": 1242.6,
       "g_elo": 1332.6
     },
+    "h0cd": {
+      "name": "Alex Hernandez",
+      "elo": 1264.9,
+      "h_elo": 1234.7,
+      "c_elo": 1241.3,
+      "g_elo": 1332.4
+    },
     "s0gv": {
       "name": "Robert Strombachs",
       "elo": 1261,
@@ -3461,12 +3390,33 @@
       "c_elo": 1239.1,
       "g_elo": 1330.5
     },
+    "a0i1": {
+      "name": "Bor Artnak",
+      "elo": 1253.3,
+      "h_elo": 1241,
+      "c_elo": 1290.2,
+      "g_elo": 1376.7
+    },
+    "ch80": {
+      "name": "Luca Castelnuovo",
+      "elo": 1252.4,
+      "h_elo": 1234.4,
+      "c_elo": 1210,
+      "g_elo": 1326.2
+    },
+    "s0iv": {
+      "name": "Paulo Andre Saraiva Dos Santos",
+      "elo": 1251.1,
+      "h_elo": 1214.7,
+      "c_elo": 1244.1,
+      "g_elo": 1325.5
+    },
     "d0ar": {
       "name": "Mateus Alves",
-      "elo": 1256.3,
-      "h_elo": 1152.1,
-      "c_elo": 1260.1,
-      "g_elo": 1328.2
+      "elo": 1244.5,
+      "h_elo": 1146.2,
+      "c_elo": 1246.9,
+      "g_elo": 1322.3
     },
     "a0jw": {
       "name": "Joaquin Aguilar Cardozo",
@@ -3482,19 +3432,19 @@
       "c_elo": 1229.6,
       "g_elo": 1319.6
     },
-    "gb41": {
-      "name": "Juan Sebastian Gomez",
-      "elo": 1237.6,
-      "h_elo": 1209.7,
-      "c_elo": 1228.2,
-      "g_elo": 1318.8
-    },
     "s0w8": {
       "name": "Aryan Shah",
       "elo": 1235.2,
       "h_elo": 1227.9,
       "c_elo": 1226.1,
       "g_elo": 1317.6
+    },
+    "i0ax": {
+      "name": "Kokoro Isomura",
+      "elo": 1234.1,
+      "h_elo": 1203.1,
+      "c_elo": 1227,
+      "g_elo": 1317
     },
     "f0ck": {
       "name": "Andrew Fenty",
@@ -3503,19 +3453,26 @@
       "c_elo": 1214,
       "g_elo": 1315.8
     },
-    "td55": {
-      "name": "Renta Tokuda",
-      "elo": 1229,
-      "h_elo": 1202.3,
-      "c_elo": 1175.7,
-      "g_elo": 1314.5
-    },
     "p0ea": {
       "name": "Saba Purtseladze",
       "elo": 1226.1,
       "h_elo": 1254.7,
       "c_elo": 1115.8,
       "g_elo": 1291.2
+    },
+    "r0bc": {
+      "name": "Lorenzo Joaquin Rodriguez",
+      "elo": 1226.1,
+      "h_elo": 1189.2,
+      "c_elo": 1216.6,
+      "g_elo": 1313.1
+    },
+    "td55": {
+      "name": "Renta Tokuda",
+      "elo": 1223.7,
+      "h_elo": 1196.6,
+      "c_elo": 1173.1,
+      "g_elo": 1311.8
     },
     "u176": {
       "name": "Vadym Ursu",
@@ -3531,26 +3488,33 @@
       "c_elo": 1215.3,
       "g_elo": 1305.3
     },
-    "i0ax": {
-      "name": "Kokoro Isomura",
-      "elo": 1209.7,
-      "h_elo": 1180.5,
-      "c_elo": 1214.9,
-      "g_elo": 1304.9
+    "s0t1": {
+      "name": "Joao Eduardo Schiessl",
+      "elo": 1201.5,
+      "h_elo": 1173.9,
+      "c_elo": 1203,
+      "g_elo": 1300.7
     },
     "b0vx": {
       "name": "Pierluigi Basile",
-      "elo": 1205.3,
-      "h_elo": 1155.2,
-      "c_elo": 1240.4,
-      "g_elo": 1302.7
+      "elo": 1201.4,
+      "h_elo": 1153.3,
+      "c_elo": 1223.6,
+      "g_elo": 1300.7
+    },
+    "f0fl": {
+      "name": "Bruno Fernandez",
+      "elo": 1200.8,
+      "h_elo": 1210.4,
+      "c_elo": 1193,
+      "g_elo": 1300.4
     },
     "s0ri": {
       "name": "Karan Singh",
-      "elo": 1200.8,
-      "h_elo": 1167.3,
-      "c_elo": 1247.3,
-      "g_elo": 1300.4
+      "elo": 1199.5,
+      "h_elo": 1151.7,
+      "c_elo": 1260.5,
+      "g_elo": 1299.7
     },
     "ke69": {
       "name": "Mariano Kestelboim",
@@ -3559,26 +3523,12 @@
       "c_elo": 1189,
       "g_elo": 1299.2
     },
-    "k0hn": {
-      "name": "Bruno Kuzuhara",
-      "elo": 1190.9,
-      "h_elo": 1182.7,
-      "c_elo": 1156.6,
-      "g_elo": 1295.4
-    },
-    "r0bc": {
-      "name": "Lorenzo Joaquin Rodriguez",
-      "elo": 1186.4,
-      "h_elo": 1169.4,
-      "c_elo": 1176,
-      "g_elo": 1293.2
-    },
-    "z0da": {
-      "name": "Carlos Maria Zarate",
-      "elo": 1186,
-      "h_elo": 1205.3,
-      "c_elo": 1171.6,
-      "g_elo": 1293
+    "p0k4": {
+      "name": "Tiago Pereira",
+      "elo": 1192.5,
+      "h_elo": 1149.2,
+      "c_elo": 1215,
+      "g_elo": 1296.3
     },
     "p0c1": {
       "name": "Karl Poling",
@@ -3587,33 +3537,26 @@
       "c_elo": 1151.7,
       "g_elo": 1250.5
     },
+    "z0da": {
+      "name": "Carlos Maria Zarate",
+      "elo": 1163.1,
+      "h_elo": 1193.8,
+      "c_elo": 1149,
+      "g_elo": 1281.6
+    },
     "e0di": {
       "name": "Juan Estevez",
-      "elo": 1170.5,
-      "h_elo": 1195.2,
-      "c_elo": 1162.6,
-      "g_elo": 1285.2
+      "elo": 1156.8,
+      "h_elo": 1188.4,
+      "c_elo": 1148.5,
+      "g_elo": 1278.4
     },
     "c0ow": {
       "name": "Lorenzo Carboni",
-      "elo": 1155.9,
-      "h_elo": 1121.1,
-      "c_elo": 1171.8,
-      "g_elo": 1278
-    },
-    "p0k4": {
-      "name": "Tiago Pereira",
-      "elo": 1150.1,
-      "h_elo": 1128,
-      "c_elo": 1172.6,
-      "g_elo": 1275.1
-    },
-    "s0t1": {
-      "name": "Joao Eduardo Schiessl",
-      "elo": 1135.6,
-      "h_elo": 1141,
-      "c_elo": 1138.9,
-      "g_elo": 1267.8
+      "elo": 1151.9,
+      "h_elo": 1119.1,
+      "c_elo": 1158.4,
+      "g_elo": 1275.9
     },
     "g0eq": {
       "name": "Sebastian Gima",
@@ -3628,13 +3571,6 @@
       "h_elo": 1088.3,
       "c_elo": 1131.7,
       "g_elo": 1251.5
-    },
-    "m0eg": {
-      "name": "Tristan Mccormick",
-      "elo": 1085.7,
-      "h_elo": 1098.7,
-      "c_elo": 1084.3,
-      "g_elo": 1212.3
     }
   }
 }
