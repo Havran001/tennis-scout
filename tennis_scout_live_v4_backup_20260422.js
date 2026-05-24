@@ -322,7 +322,7 @@ move:(p.move!==undefined&&p.move!==null)?p.move:null
 async function fetchITF(onProg){
   // Data jsou každý den automaticky aktualizována GitHub Actions
   // z itftennis.com a uložena do raw.githubusercontent.com (prochází sítí)
-  const GH_URL = 'https://raw.githubusercontent.com/Hacran001/tennis-scout/main/itf_data.json';
+  const GH_URL = 'https://raw.githubusercontent.com/Havran001/tennis-scout/main/itf_data.json';
   onProg('Načítám ITF z GitHub cache...');
   const resp = await fetch(GH_URL);
   if(!resp.ok) throw new Error(`GitHub ITF cache: HTTP ${resp.status}`);
