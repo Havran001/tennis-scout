@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-03T09:00:09Z",
+  "updated": "2026-06-04T08:25:05Z",
   "year": 2026,
-  "count": 905,
+  "count": 912,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -7984,6 +7984,16 @@
       "end": "2026-09-06"
     },
     {
+      "name": "M15 Porto Velho",
+      "loc": "Porto Velho",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
       "name": "Magic Hotel Tours by FTT",
       "loc": "Monastir",
       "country": "TUN",
@@ -8174,6 +8184,26 @@
       "end": "2026-09-06"
     },
     {
+      "name": "Tournoi International de Plaisir",
+      "loc": "Plaisir",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
+      "name": "4° TORNEO ITF \" CITTA' DI POZZUOLI \"",
+      "loc": "POZZUOLI",
+      "country": "ITA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
       "name": "62ª Torneo Dionisio Nespral",
       "loc": "Gijon",
       "country": "ESP",
@@ -8194,22 +8224,12 @@
       "end": "2026-09-13"
     },
     {
-      "name": "Tournoi International de Plaisir",
-      "loc": "Plaisir",
-      "country": "FRA",
+      "name": "M15 São Luis do Maranhão",
+      "loc": "Sao Luis ",
+      "country": "BRA",
       "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-09-07",
-      "end": "2026-09-13"
-    },
-    {
-      "name": "4° TORNEO ITF \" CITTA' DI POZZUOLI \"",
-      "loc": "POZZUOLI",
-      "country": "ITA",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
+      "tier": "M15",
+      "surf": "Clay",
       "start": "2026-09-07",
       "end": "2026-09-13"
     },
@@ -8320,6 +8340,16 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
+      "name": "M15 Belem",
+      "loc": "Belem",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
       "start": "2026-09-14",
       "end": "2026-09-20"
     },
@@ -8634,6 +8664,16 @@
       "end": "2026-10-18"
     },
     {
+      "name": "M15 Maringa",
+      "loc": "Paranavaí",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-10-12",
+      "end": "2026-10-18"
+    },
+    {
       "name": "Bluesun Bol Open",
       "loc": "Bol",
       "country": "CRO",
@@ -8714,6 +8754,16 @@
       "end": "2026-10-25"
     },
     {
+      "name": "Maceió Tennis Experience",
+      "loc": "Maceio",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
       "name": "Bluesun Bol Open",
       "loc": "Bol",
       "country": "CRO",
@@ -8784,16 +8834,6 @@
       "end": "2026-10-25"
     },
     {
-      "name": "LAGOS OPEN",
-      "loc": "Lagos",
-      "country": "NGR",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-10-26",
-      "end": "2026-10-31"
-    },
-    {
       "name": "Lexus British Pro Series Sheffield",
       "loc": "Sheffield",
       "country": "GBR",
@@ -8804,11 +8844,11 @@
       "end": "2026-10-31"
     },
     {
-      "name": "M15 Selva Gardena",
-      "loc": "Selva Gardena",
-      "country": "ITA",
+      "name": "LAGOS OPEN",
+      "loc": "Lagos",
+      "country": "NGR",
       "cat": "ITF",
-      "tier": "M15",
+      "tier": "M25",
       "surf": "Hard",
       "start": "2026-10-26",
       "end": "2026-10-31"
@@ -8832,6 +8872,16 @@
       "surf": "Hard",
       "start": "2026-10-26",
       "end": "2026-11-01"
+    },
+    {
+      "name": "M15 Selva Gardena",
+      "loc": "Selva Gardena",
+      "country": "ITA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-10-31"
     },
     {
       "name": "Tevlin Challenger",
@@ -9024,11 +9074,31 @@
       "end": "2026-12-13"
     },
     {
+      "name": "W35 Singapore ITF World Tennis Tour (V) 2026",
+      "loc": "Singapore",
+      "country": "SGP",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-12-07",
+      "end": "2026-12-13"
+    },
+    {
       "name": "M15 Singapore ITF World Tennis Tour (VI) 2026",
       "loc": "Singapore",
       "country": "SGP",
       "cat": "ITF",
       "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-12-14",
+      "end": "2026-12-20"
+    },
+    {
+      "name": "W15 Singapore",
+      "loc": "Singapore",
+      "country": "SGP",
+      "cat": "ITF",
+      "tier": "W15",
       "surf": "Hard",
       "start": "2026-12-14",
       "end": "2026-12-20"
