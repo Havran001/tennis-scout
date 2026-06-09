@@ -3159,7 +3159,7 @@ function buildUI(){
       prog.innerHTML='⏳ Stahuji Elo z TA...';
       
       try {
-        var eloProxies=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
+        var eloProxies=['https://corsproxy.io/?url=','https://corsproxy.io/?url='];
         var eloUrl='https://tennisabstract.com/reports/atp_elo_ratings.html';
         var eloHtml=null;
         for(var pi=0;pi<eloProxies.length && !eloHtml;pi++){
@@ -3925,7 +3925,7 @@ function buildUI(){
           var cn=cd&&cd.matches?cd.matches.length:0;
             var _hasGoodData=cd&&cd.matches&&cd.matches.length>0&&!!cd.matches[0].va_pct&&!!cd.matches[0].dr&&cd.source==='tennisabstract';
           var _taUrl='https://www.tennisabstract.com/cgi-bin/player-classic.cgi?p='+ta+'&f=ACareerqq';
-          return fetch('https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(_taUrl),{signal:AbortSignal.timeout(8000)})
+          return fetch('https://corsproxy.io/?url='+encodeURIComponent(_taUrl),{signal:AbortSignal.timeout(8000)})
           .catch(function(){return fetch('https://corsproxy.io/?url='+encodeURIComponent(_taUrl));})
           .then(function(r){return r.ok?r.text():null;})
           .then(function(html){
@@ -4015,7 +4015,7 @@ function buildUI(){
       var reNA=new RegExp('[^a-zA-Z -]','g');
       function nN(fn){return(fn||'').normalize('NFD').replace(reDiac,'').replace(reNA,'').trim().split(' ').join('');}
       function pct(a,b){return b>0?(a/b*100).toFixed(1):'';}
-      var PROXIES=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
+      var PROXIES=['https://corsproxy.io/?url=','https://corsproxy.io/?url='];
       function tryP(url,i){return Promise.all(PROXIES.slice(0,3).map(function(p){return fetch(p+encodeURIComponent(url),{signal:AbortSignal.timeout(10000)}).then(function(r){return r.ok?r.text():Promise.reject();}).then(function(t){return t&&t.includes('Tennis Abstract')?t:Promise.reject();}).catch(function(){return null;});})).then(function(res){return res.find(function(r){return r!=null;})||null;});}
       function nx(i){
         if(i>=tot){self.disabled=false;prog.innerHTML='✅ Reimport dokoncen! '+im+'/'+tot;window._skippedPlayers=[];return;}
@@ -4556,7 +4556,7 @@ function buildUI(){
       var reNA=new RegExp('[^a-zA-Z -]','g');
       function nN(fn){return(fn||'').normalize('NFD').replace(reDiac,'').replace(reNA,'').trim().split(' ').join('');}
       function pct(a,b){return b>0?(a/b*100).toFixed(1):'';}
-      var PROXIES=['https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url=','https://api.codetabs.com/v1/proxy?quest=','https://corsproxy.io/?url='];
+      var PROXIES=['https://corsproxy.io/?url=','https://corsproxy.io/?url=','https://corsproxy.io/?url=','https://corsproxy.io/?url=','https://corsproxy.io/?url=','https://corsproxy.io/?url='];
       function tryP(url,i){if(i>=PROXIES.length)return Promise.resolve(null);return fetch(PROXIES[i]+encodeURIComponent(url),{signal:AbortSignal.timeout(10000)}).then(function(r){return r.ok?r.text().then(function(t){if(t&&t.includes('Tennis Abstract'))return t;return tryP(url,i+1);}):tryP(url,i+1);}).catch(function(){return tryP(url,i+1);});}
       status.textContent='⏳ TA...';
       var _pl=(window.ATP_PLAYERS||[]).find(function(p){return p.id===pid;})||(window.WTA_PLAYERS||[]).find(function(p){return p.id===pid;});var ta=(_pl&&_pl.ta_slug)||nN(pfull||'');
