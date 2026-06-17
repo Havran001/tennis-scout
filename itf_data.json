@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-16T09:31:25Z",
+  "updated": "2026-06-17T09:06:20Z",
   "year": 2026,
-  "count": 894,
+  "count": 896,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -7194,7 +7194,7 @@
       "end": "2026-08-09"
     },
     {
-      "name": "M25 Southaven, MS",
+      "name": "2026 USTA Southaven Open",
       "loc": "Southaven",
       "country": "USA",
       "cat": "ITF",
@@ -7320,16 +7320,6 @@
       "cat": "ITF",
       "tier": "W75",
       "surf": "Clay",
-      "start": "2026-08-03",
-      "end": "2026-08-09"
-    },
-    {
-      "name": "2026 USTA Southaven Open",
-      "loc": "Southaven",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
       "start": "2026-08-03",
       "end": "2026-08-09"
     },
@@ -8204,6 +8194,16 @@
       "end": "2026-09-06"
     },
     {
+      "name": "ITF Yeongwol Int'l Women's Tennis Tour _ Week1",
+      "loc": "Yeongwol",
+      "country": "KOR",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
       "name": "W15 Fiano Romano",
       "loc": "Fiano Romano",
       "country": "ITA",
@@ -8664,6 +8664,16 @@
       "end": "2026-10-18"
     },
     {
+      "name": "M15 HERAKLION",
+      "loc": "Heraklion",
+      "country": "GRE",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-10-12",
+      "end": "2026-10-18"
+    },
+    {
       "name": "Bluesun Bol Open",
       "loc": "Bol",
       "country": "CRO",
@@ -8709,6 +8719,16 @@
       "country": "AUS",
       "cat": "ITF",
       "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
+      "name": "M15 HERAKLION",
+      "loc": "Heraklion",
+      "country": "GRE",
+      "cat": "ITF",
+      "tier": "M15",
       "surf": "Hard",
       "start": "2026-10-19",
       "end": "2026-10-25"
