@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-18T08:50:55Z",
+  "updated": "2026-06-19T09:08:21Z",
   "year": 2026,
-  "count": 896,
+  "count": 900,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -6024,7 +6024,7 @@
       "end": "2026-07-12"
     },
     {
-      "name": "Wilhelmshöhe Open",
+      "name": "Glinicke Open",
       "loc": "Kassel",
       "country": "GER",
       "cat": "ITF",
@@ -7084,6 +7084,16 @@
       "end": "2026-08-02"
     },
     {
+      "name": "W35 Pergamino ",
+      "loc": "Pergamino",
+      "country": "ARG",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
+      "start": "2026-07-27",
+      "end": "2026-08-02"
+    },
+    {
       "name": "McLeod for Health Florence Open",
       "loc": "Florence",
       "country": "USA",
@@ -7294,16 +7304,6 @@
       "end": "2026-08-09"
     },
     {
-      "name": "FLANDERS LADIES TROPHY KOKSIJDE ",
-      "loc": "Koksijde",
-      "country": "BEL",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Clay",
-      "start": "2026-08-03",
-      "end": "2026-08-09"
-    },
-    {
       "name": "W75 Ourense",
       "loc": "Ourense",
       "country": "ESP",
@@ -7324,6 +7324,16 @@
       "end": "2026-08-09"
     },
     {
+      "name": "FLANDERS LADIES TROPHY KOKSIJDE ",
+      "loc": "Koksijde",
+      "country": "BEL",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Clay",
+      "start": "2026-08-03",
+      "end": "2026-08-09"
+    },
+    {
       "name": "Lexus British Pro Series Roehampton 2",
       "loc": "Roehampton",
       "country": "GBR",
@@ -7334,11 +7344,11 @@
       "end": "2026-08-09"
     },
     {
-      "name": "Vanajanlinna Ladies Tennis Open",
-      "loc": "Hämeenlinna",
-      "country": "FIN",
+      "name": "W35 Chacabuco",
+      "loc": "Chacabuco",
+      "country": "ARG",
       "cat": "ITF",
-      "tier": "W15",
+      "tier": "W35",
       "surf": "Clay",
       "start": "2026-08-03",
       "end": "2026-08-09"
@@ -7357,6 +7367,16 @@
       "name": "W15 Kursumlijska Banja ",
       "loc": "KURSUMLIJSKA BANJA",
       "country": "SRB",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-08-03",
+      "end": "2026-08-09"
+    },
+    {
+      "name": "Vanajanlinna Ladies Tennis Open",
+      "loc": "Hämeenlinna",
+      "country": "FIN",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
@@ -7524,16 +7544,6 @@
       "end": "2026-08-16"
     },
     {
-      "name": "Fale Loki Koki Cup Bydgoszcz",
-      "loc": "Bydgoszcz",
-      "country": "POL",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-08-10",
-      "end": "2026-08-16"
-    },
-    {
       "name": "Lexus British Pro Series Aldershot",
       "loc": "Aldershot",
       "country": "GBR",
@@ -7544,12 +7554,12 @@
       "end": "2026-08-15"
     },
     {
-      "name": "Astana Women`s Open 5",
-      "loc": "Astana",
-      "country": "KAZ",
+      "name": "Fale Loki Koki Cup Bydgoszcz",
+      "loc": "Bydgoszcz",
+      "country": "POL",
       "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
+      "tier": "W35",
+      "surf": "Clay",
       "start": "2026-08-10",
       "end": "2026-08-16"
     },
@@ -7570,6 +7580,16 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
+      "start": "2026-08-10",
+      "end": "2026-08-16"
+    },
+    {
+      "name": "Astana Women`s Open 5",
+      "loc": "Astana",
+      "country": "KAZ",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
       "start": "2026-08-10",
       "end": "2026-08-16"
     },
@@ -7734,6 +7754,16 @@
       "end": "2026-08-23"
     },
     {
+      "name": "W35 Bistrita",
+      "loc": "Bistrita",
+      "country": "ROU",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
+      "start": "2026-08-17",
+      "end": "2026-08-23"
+    },
+    {
       "name": "Verbier Open",
       "loc": "Verbier",
       "country": "SUI",
@@ -7754,16 +7784,6 @@
       "end": "2026-08-23"
     },
     {
-      "name": "W35 Bistrita",
-      "loc": "Bistrita",
-      "country": "ROU",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-08-17",
-      "end": "2026-08-23"
-    },
-    {
       "name": "BNP Paribas Fortis Ladies Open",
       "loc": "Wanfercée-Baulet",
       "country": "BEL",
@@ -7774,9 +7794,9 @@
       "end": "2026-08-23"
     },
     {
-      "name": "W15 DE CAMPOS DO JORDÃO 2",
-      "loc": "Campos do Jordão",
-      "country": "BRA",
+      "name": "TORNEO INTERNACIONAL ITF WOMENS CIUDAD DE LOGROÑO",
+      "loc": "LOGROÑO",
+      "country": "ESP",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -7784,9 +7804,9 @@
       "end": "2026-08-23"
     },
     {
-      "name": "TORNEO INTERNACIONAL ITF WOMENS CIUDAD DE LOGROÑO",
-      "loc": "LOGROÑO",
-      "country": "ESP",
+      "name": "W15 DE CAMPOS DO JORDÃO 2",
+      "loc": "Campos do Jordão",
+      "country": "BRA",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -7877,6 +7897,16 @@
       "name": "M15 Kursumlijska Banja ",
       "loc": "KURSUMLIJSKA BANJA",
       "country": "SRB",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
+    },
+    {
+      "name": "M15 Mar Del Plata",
+      "loc": "Mar Del Plata",
+      "country": "ARG",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -8034,6 +8064,16 @@
       "end": "2026-09-06"
     },
     {
+      "name": "Morocco Tennis Tour",
+      "loc": "Casablanca",
+      "country": "MAR",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
       "name": "M25 Meerbusch",
       "loc": "Meerbusch",
       "country": "GER",
@@ -8044,12 +8084,32 @@
       "end": "2026-09-06"
     },
     {
-      "name": "Morocco Tennis Tour",
-      "loc": "Casablanca",
-      "country": "MAR",
+      "name": "M15 Kursumlijska Banja ",
+      "loc": "KURSUMLIJSKA BANJA",
+      "country": "SRB",
       "cat": "ITF",
-      "tier": "M25",
+      "tier": "M15",
       "surf": "Clay",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
+      "name": "M15 Porto Velho",
+      "loc": "Porto Velho",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
+      "name": "M25 Trelew",
+      "loc": "Trelew",
+      "country": "ARG",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
       "start": "2026-08-31",
       "end": "2026-09-06"
     },
@@ -8080,26 +8140,6 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
-      "start": "2026-08-31",
-      "end": "2026-09-06"
-    },
-    {
-      "name": "M15 Kursumlijska Banja ",
-      "loc": "KURSUMLIJSKA BANJA",
-      "country": "SRB",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-08-31",
-      "end": "2026-09-06"
-    },
-    {
-      "name": "M15 Porto Velho",
-      "loc": "Porto Velho",
-      "country": "BRA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
       "start": "2026-08-31",
       "end": "2026-09-06"
     },
@@ -8204,6 +8244,26 @@
       "end": "2026-09-06"
     },
     {
+      "name": "Tsaghkadzor Autumn Cup",
+      "loc": "Tsaghkadzor",
+      "country": "ARM",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-08-31",
+      "end": "2026-09-05"
+    },
+    {
+      "name": "ITF Women's World Tennis Tour (7)",
+      "loc": "Nakhon Pathom",
+      "country": "THA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
       "name": "W15 Fiano Romano",
       "loc": "Fiano Romano",
       "country": "ITA",
@@ -8267,26 +8327,6 @@
       "name": "Kozerki Tour ITF W15",
       "loc": "Grodzisk Mazowiecki",
       "country": "POL",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-08-31",
-      "end": "2026-09-06"
-    },
-    {
-      "name": "Tsaghkadzor Autumn Cup",
-      "loc": "Tsaghkadzor",
-      "country": "ARM",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Clay",
-      "start": "2026-08-31",
-      "end": "2026-09-05"
-    },
-    {
-      "name": "ITF Women's World Tennis Tour (7)",
-      "loc": "Nakhon Pathom",
-      "country": "THA",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
