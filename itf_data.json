@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-25T07:51:00Z",
+  "updated": "2026-06-26T07:58:04Z",
   "year": 2026,
-  "count": 919,
+  "count": 916,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -6324,7 +6324,7 @@
       "end": "2026-07-19"
     },
     {
-      "name": "Brisbane M25 ",
+      "name": "Brisbane QTC International #1",
       "loc": "Brisbane",
       "country": "AUS",
       "cat": "ITF",
@@ -6564,16 +6564,6 @@
       "end": "2026-07-19"
     },
     {
-      "name": "Brisbane W15 - Week 1",
-      "loc": "Brisbane",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-07-13",
-      "end": "2026-07-19"
-    },
-    {
       "name": "W15 Krsko",
       "loc": "Krško",
       "country": "SLO",
@@ -6684,7 +6674,7 @@
       "end": "2026-07-26"
     },
     {
-      "name": "Brisbane M15 - Week 2",
+      "name": "Brisbane QTC International #2",
       "loc": "Brisbane",
       "country": "AUS",
       "cat": "ITF",
@@ -6810,16 +6800,6 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
-      "start": "2026-07-20",
-      "end": "2026-07-26"
-    },
-    {
-      "name": "Brisbane W15 - Week 2",
-      "loc": "Brisbane",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
       "start": "2026-07-20",
       "end": "2026-07-26"
     },
@@ -7024,7 +7004,7 @@
       "end": "2026-08-02"
     },
     {
-      "name": "Brisbane M15 - Week 3",
+      "name": "Brisbane QTC International #3",
       "loc": "Brisbane",
       "country": "AUS",
       "cat": "ITF",
@@ -7140,16 +7120,6 @@
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
-      "start": "2026-07-27",
-      "end": "2026-08-02"
-    },
-    {
-      "name": "Brisbane W15 - Week 3",
-      "loc": "Brisbane",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
       "start": "2026-07-27",
       "end": "2026-08-02"
     },
@@ -7514,8 +7484,8 @@
       "end": "2026-08-16"
     },
     {
-      "name": "Brisbane M15 - Week 4",
-      "loc": "Brisbane",
+      "name": "Brisbane M15 - Week 4 (Cancelled)",
+      "loc": "Brisbane (Cancelled)",
       "country": "AUS",
       "cat": "ITF",
       "tier": "M15",
@@ -7614,8 +7584,8 @@
       "end": "2026-08-16"
     },
     {
-      "name": "Brisbane W15 - Week 4",
-      "loc": "Brisbane",
+      "name": "Brisbane W15 - Week 4 (Cancelled)",
+      "loc": "Brisbane (Cancelled)",
       "country": "AUS",
       "cat": "ITF",
       "tier": "W15",
