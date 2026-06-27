@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T07:58:04Z",
+  "updated": "2026-06-27T07:22:04Z",
   "year": 2026,
   "count": 916,
   "items": [
@@ -5414,16 +5414,6 @@
       "end": "2026-06-21"
     },
     {
-      "name": "Open de Montauban",
-      "loc": "Montauban",
-      "country": "FRA",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
       "name": "NextGen Cup",
       "loc": "Porto",
       "country": "POR",
@@ -5474,61 +5464,11 @@
       "end": "2026-06-28"
     },
     {
-      "name": "M15 Kursumlijska Banja ",
-      "loc": "KURSUMLIJSKA BANJA",
-      "country": "SRB",
+      "name": "Open de Montauban",
+      "loc": "Montauban",
+      "country": "FRA",
       "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "M15 Claremont, CA",
-      "loc": "Claremont, CA",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "SLOVENSKA BISTRICA OPEN",
-      "loc": "Slov. Bistrica",
-      "country": "SLO",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "Magic Hotel Tours by FTT",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "Wuning Open 2026",
-      "loc": "Wuning",
-      "country": "CHN",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "M15 Rzeszow",
-      "loc": "Rzeszow",
-      "country": "POL",
-      "cat": "ITF",
-      "tier": "M15",
+      "tier": "M25",
       "surf": "Clay",
       "start": "2026-06-22",
       "end": "2026-06-28"
@@ -5567,6 +5507,66 @@
       "name": "ITF Alkmaar",
       "loc": "Alkmaar",
       "country": "NED",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "Wuning Open 2026",
+      "loc": "Wuning",
+      "country": "CHN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "M15 Rzeszow",
+      "loc": "Rzeszow",
+      "country": "POL",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "M15 Kursumlijska Banja ",
+      "loc": "KURSUMLIJSKA BANJA",
+      "country": "SRB",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "M15 Claremont, CA",
+      "loc": "Claremont, CA",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "SLOVENSKA BISTRICA OPEN",
+      "loc": "Slov. Bistrica",
+      "country": "SLO",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -5714,26 +5714,6 @@
       "end": "2026-06-28"
     },
     {
-      "name": "Open d'Ajaccio",
-      "loc": "Ajaccio",
-      "country": "FRA",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-06-29",
-      "end": "2026-07-05"
-    },
-    {
-      "name": "Marburg Open",
-      "loc": "Marburg",
-      "country": "GER",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-06-29",
-      "end": "2026-07-05"
-    },
-    {
       "name": "Figueira da Foz Internacional Mens ",
       "loc": "Figueira da Foz",
       "country": "POR",
@@ -5774,42 +5754,22 @@
       "end": "2026-07-05"
     },
     {
-      "name": "Magic Hotel Tours by FTT",
-      "loc": "Monastir",
-      "country": "TUN",
+      "name": "Open d'Ajaccio",
+      "loc": "Ajaccio",
+      "country": "FRA",
       "cat": "ITF",
-      "tier": "M15",
+      "tier": "M25",
       "surf": "Hard",
       "start": "2026-06-29",
       "end": "2026-07-05"
     },
     {
-      "name": "Wuning Open 2026",
-      "loc": "Wuning",
-      "country": "CHN",
+      "name": "Marburg Open",
+      "loc": "Marburg",
+      "country": "GER",
       "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-06-29",
-      "end": "2026-07-05"
-    },
-    {
-      "name": "M15 Kursumlijska Banja ",
-      "loc": "KURSUMLIJSKA BANJA",
-      "country": "SRB",
-      "cat": "ITF",
-      "tier": "M15",
+      "tier": "M25",
       "surf": "Clay",
-      "start": "2026-06-29",
-      "end": "2026-07-05"
-    },
-    {
-      "name": "Curro Centre Court Series ",
-      "loc": "Hillcrest ",
-      "country": "RSA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
       "start": "2026-06-29",
       "end": "2026-07-05"
     },
@@ -5880,6 +5840,46 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
+      "name": "Wuning Open 2026",
+      "loc": "Wuning",
+      "country": "CHN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
+      "name": "M15 Kursumlijska Banja ",
+      "loc": "KURSUMLIJSKA BANJA",
+      "country": "SRB",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
+      "name": "Curro Centre Court Series ",
+      "loc": "Hillcrest ",
+      "country": "RSA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
       "start": "2026-06-29",
       "end": "2026-07-05"
     },
