@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-29T09:03:12Z",
+  "updated": "2026-06-30T07:57:38Z",
   "year": 2026,
-  "count": 916,
+  "count": 1003,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -5414,6 +5414,16 @@
       "end": "2026-06-21"
     },
     {
+      "name": "Open de Montauban",
+      "loc": "Montauban",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
       "name": "NextGen Cup",
       "loc": "Porto",
       "country": "POR",
@@ -5464,11 +5474,61 @@
       "end": "2026-06-28"
     },
     {
-      "name": "Open de Montauban",
-      "loc": "Montauban",
-      "country": "FRA",
+      "name": "M15 Kursumlijska Banja ",
+      "loc": "KURSUMLIJSKA BANJA",
+      "country": "SRB",
       "cat": "ITF",
-      "tier": "M25",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "M15 Claremont, CA",
+      "loc": "Claremont, CA",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "SLOVENSKA BISTRICA OPEN",
+      "loc": "Slov. Bistrica",
+      "country": "SLO",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "Wuning Open 2026",
+      "loc": "Wuning",
+      "country": "CHN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-22",
+      "end": "2026-06-28"
+    },
+    {
+      "name": "M15 Rzeszow",
+      "loc": "Rzeszow",
+      "country": "POL",
+      "cat": "ITF",
+      "tier": "M15",
       "surf": "Clay",
       "start": "2026-06-22",
       "end": "2026-06-28"
@@ -5507,66 +5567,6 @@
       "name": "ITF Alkmaar",
       "loc": "Alkmaar",
       "country": "NED",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "Magic Hotel Tours by FTT",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "Wuning Open 2026",
-      "loc": "Wuning",
-      "country": "CHN",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "M15 Rzeszow",
-      "loc": "Rzeszow",
-      "country": "POL",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "M15 Kursumlijska Banja ",
-      "loc": "KURSUMLIJSKA BANJA",
-      "country": "SRB",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "M15 Claremont, CA",
-      "loc": "Claremont, CA",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-06-22",
-      "end": "2026-06-28"
-    },
-    {
-      "name": "SLOVENSKA BISTRICA OPEN",
-      "loc": "Slov. Bistrica",
-      "country": "SLO",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -5714,6 +5714,26 @@
       "end": "2026-06-28"
     },
     {
+      "name": "Open d'Ajaccio",
+      "loc": "Ajaccio",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
+      "name": "Marburg Open",
+      "loc": "Marburg",
+      "country": "GER",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
       "name": "Figueira da Foz Internacional Mens ",
       "loc": "Figueira da Foz",
       "country": "POR",
@@ -5754,22 +5774,42 @@
       "end": "2026-07-05"
     },
     {
-      "name": "Open d'Ajaccio",
-      "loc": "Ajaccio",
-      "country": "FRA",
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
       "cat": "ITF",
-      "tier": "M25",
+      "tier": "M15",
       "surf": "Hard",
       "start": "2026-06-29",
       "end": "2026-07-05"
     },
     {
-      "name": "Marburg Open",
-      "loc": "Marburg",
-      "country": "GER",
+      "name": "Wuning Open 2026",
+      "loc": "Wuning",
+      "country": "CHN",
       "cat": "ITF",
-      "tier": "M25",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
+      "name": "M15 Kursumlijska Banja ",
+      "loc": "KURSUMLIJSKA BANJA",
+      "country": "SRB",
+      "cat": "ITF",
+      "tier": "M15",
       "surf": "Clay",
+      "start": "2026-06-29",
+      "end": "2026-07-05"
+    },
+    {
+      "name": "Curro Centre Court Series ",
+      "loc": "Hillcrest ",
+      "country": "RSA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
       "start": "2026-06-29",
       "end": "2026-07-05"
     },
@@ -5840,46 +5880,6 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
-      "start": "2026-06-29",
-      "end": "2026-07-05"
-    },
-    {
-      "name": "Magic Hotel Tours by FTT",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-06-29",
-      "end": "2026-07-05"
-    },
-    {
-      "name": "Wuning Open 2026",
-      "loc": "Wuning",
-      "country": "CHN",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-06-29",
-      "end": "2026-07-05"
-    },
-    {
-      "name": "M15 Kursumlijska Banja ",
-      "loc": "KURSUMLIJSKA BANJA",
-      "country": "SRB",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-06-29",
-      "end": "2026-07-05"
-    },
-    {
-      "name": "Curro Centre Court Series ",
-      "loc": "Hillcrest ",
-      "country": "RSA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
       "start": "2026-06-29",
       "end": "2026-07-05"
     },
@@ -6654,6 +6654,16 @@
       "end": "2026-07-26"
     },
     {
+      "name": "Soltepec Tennis Tour",
+      "loc": "Huamantla",
+      "country": "MEX",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-07-20",
+      "end": "2026-07-26"
+    },
+    {
       "name": "Future Pro Rognac",
       "loc": "Rognac",
       "country": "FRA",
@@ -6682,16 +6692,6 @@
       "surf": "Hard",
       "start": "2026-07-20",
       "end": "2026-07-26"
-    },
-    {
-      "name": "Soltepec Tennis Tour",
-      "loc": "Huamantla",
-      "country": "MEX",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-07-20",
-      "end": "2026-07-25"
     },
     {
       "name": "M15 Segrate",
@@ -6734,16 +6734,6 @@
       "end": "2026-07-26"
     },
     {
-      "name": "W75 Cordenons",
-      "loc": "Cordenons",
-      "country": "ITA",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Clay",
-      "start": "2026-07-20",
-      "end": "2026-07-25"
-    },
-    {
       "name": "W75 Vacaria",
       "loc": "Vacaria",
       "country": "BRA",
@@ -6752,6 +6742,16 @@
       "surf": "Clay",
       "start": "2026-07-20",
       "end": "2026-07-27"
+    },
+    {
+      "name": "W75 Cordenons",
+      "loc": "Cordenons",
+      "country": "ITA",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Clay",
+      "start": "2026-07-20",
+      "end": "2026-07-25"
     },
     {
       "name": "W50 Horb",
@@ -6804,6 +6804,16 @@
       "end": "2026-07-26"
     },
     {
+      "name": "Tournoi de l'Île aux Loups",
+      "loc": "Nogent-sur-Marne",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-07-20",
+      "end": "2026-07-26"
+    },
+    {
       "name": "W15 Kursumlijska Banja ",
       "loc": "KURSUMLIJSKA BANJA",
       "country": "SRB",
@@ -6824,16 +6834,6 @@
       "end": "2026-07-26"
     },
     {
-      "name": "Tournoi de l'Île aux Loups",
-      "loc": "Nogent-sur-Marne",
-      "country": "FRA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Clay",
-      "start": "2026-07-20",
-      "end": "2026-07-26"
-    },
-    {
       "name": "ITF Women's World Tennis Tour (6)",
       "loc": "Nakhon Pathom",
       "country": "THA",
@@ -6842,6 +6842,16 @@
       "surf": "Hard",
       "start": "2026-07-20",
       "end": "2026-07-26"
+    },
+    {
+      "name": "SPARKASSE ALPERIA TROPHY",
+      "loc": "BOLZANO",
+      "country": "ITA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-07-27",
+      "end": "2026-08-01"
     },
     {
       "name": "M25 Wetzlar",
@@ -6862,16 +6872,6 @@
       "surf": "Hard",
       "start": "2026-07-27",
       "end": "2026-08-02"
-    },
-    {
-      "name": "SPARKASSE ALPERIA TROPHY",
-      "loc": "BOLZANO",
-      "country": "ITA",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-07-27",
-      "end": "2026-08-01"
     },
     {
       "name": "M25 Edwardsville, IL",
@@ -6944,6 +6944,16 @@
       "end": "2026-08-02"
     },
     {
+      "name": "Soltepec Tennis Tour",
+      "loc": "Huamantla",
+      "country": "MEX",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-07-27",
+      "end": "2026-08-02"
+    },
+    {
       "name": "M15 TC Meinau Strasbourg",
       "loc": "Strasbourg",
       "country": "FRA",
@@ -6974,14 +6984,14 @@
       "end": "2026-08-02"
     },
     {
-      "name": "Soltepec Tennis Tour",
-      "loc": "Huamantla",
-      "country": "MEX",
+      "name": "Brisbane QTC International #3",
+      "loc": "Brisbane",
+      "country": "AUS",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
       "start": "2026-07-27",
-      "end": "2026-08-01"
+      "end": "2026-08-02"
     },
     {
       "name": "AMMAN Men's World Tennis Championship",
@@ -7000,16 +7010,6 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Carpet",
-      "start": "2026-07-27",
-      "end": "2026-08-02"
-    },
-    {
-      "name": "Brisbane QTC International #3",
-      "loc": "Brisbane",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
       "start": "2026-07-27",
       "end": "2026-08-02"
     },
@@ -7164,16 +7164,6 @@
       "end": "2026-08-09"
     },
     {
-      "name": "M25 Kursumlijska Banja ",
-      "loc": "KURSUMLIJSKA BANJA",
-      "country": "SRB",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-08-03",
-      "end": "2026-08-09"
-    },
-    {
       "name": "2026 USTA Southaven Open",
       "loc": "Southaven",
       "country": "USA",
@@ -7189,6 +7179,26 @@
       "country": "GBR",
       "cat": "ITF",
       "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-08-03",
+      "end": "2026-08-09"
+    },
+    {
+      "name": "M25 Kursumlijska Banja ",
+      "loc": "KURSUMLIJSKA BANJA",
+      "country": "SRB",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-08-03",
+      "end": "2026-08-09"
+    },
+    {
+      "name": "M15 Tianjin",
+      "loc": "Tianjin",
+      "country": "CHN",
+      "cat": "ITF",
+      "tier": "M15",
       "surf": "Hard",
       "start": "2026-08-03",
       "end": "2026-08-09"
@@ -7230,16 +7240,6 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
-      "start": "2026-08-03",
-      "end": "2026-08-09"
-    },
-    {
-      "name": "M15 Tianjin",
-      "loc": "Tianjin",
-      "country": "CHN",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
       "start": "2026-08-03",
       "end": "2026-08-09"
     },
@@ -7374,16 +7374,6 @@
       "end": "2026-08-16"
     },
     {
-      "name": "M25 Koksijde",
-      "loc": "Koksijde",
-      "country": "BEL",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-08-10",
-      "end": "2026-08-16"
-    },
-    {
       "name": "Capital City Tennis Classic",
       "loc": "East Lansing",
       "country": "USA",
@@ -7400,6 +7390,16 @@
       "cat": "ITF",
       "tier": "M25",
       "surf": "Hard",
+      "start": "2026-08-10",
+      "end": "2026-08-16"
+    },
+    {
+      "name": "M25 Koksijde",
+      "loc": "Koksijde",
+      "country": "BEL",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
       "start": "2026-08-10",
       "end": "2026-08-16"
     },
@@ -7424,6 +7424,16 @@
       "end": "2026-08-16"
     },
     {
+      "name": "Etges & Dächert Open Trier",
+      "loc": "Trier",
+      "country": "GER",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-08-10",
+      "end": "2026-08-16"
+    },
+    {
       "name": "M15 Targu Jiu",
       "loc": "Targu Jiu",
       "country": "ROU",
@@ -7440,16 +7450,6 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
-      "start": "2026-08-10",
-      "end": "2026-08-16"
-    },
-    {
-      "name": "Etges & Dächert Open Trier",
-      "loc": "Trier",
-      "country": "GER",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
       "start": "2026-08-10",
       "end": "2026-08-16"
     },
@@ -7524,16 +7524,6 @@
       "end": "2026-08-16"
     },
     {
-      "name": "Fale Loki Koki Cup Bydgoszcz",
-      "loc": "Bydgoszcz",
-      "country": "POL",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-08-10",
-      "end": "2026-08-16"
-    },
-    {
       "name": "Lexus British Pro Series Aldershot",
       "loc": "Aldershot",
       "country": "GBR",
@@ -7542,6 +7532,16 @@
       "surf": "Hard",
       "start": "2026-08-10",
       "end": "2026-08-15"
+    },
+    {
+      "name": "Fale Loki Koki Cup Bydgoszcz",
+      "loc": "Bydgoszcz",
+      "country": "POL",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
+      "start": "2026-08-10",
+      "end": "2026-08-16"
     },
     {
       "name": "Astana Women`s Open 5",
@@ -7744,6 +7744,16 @@
       "end": "2026-08-23"
     },
     {
+      "name": "W35 Bistrita",
+      "loc": "Bistrita",
+      "country": "ROU",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
+      "start": "2026-08-17",
+      "end": "2026-08-23"
+    },
+    {
       "name": "Verbier Open",
       "loc": "Verbier",
       "country": "SUI",
@@ -7764,12 +7774,22 @@
       "end": "2026-08-23"
     },
     {
-      "name": "W35 Bistrita",
-      "loc": "Bistrita",
-      "country": "ROU",
+      "name": "BNP Paribas Fortis Ladies Open",
+      "loc": "Wanfercée-Baulet",
+      "country": "BEL",
       "cat": "ITF",
-      "tier": "W35",
+      "tier": "W15",
       "surf": "Clay",
+      "start": "2026-08-17",
+      "end": "2026-08-23"
+    },
+    {
+      "name": "TORNEO INTERNACIONAL ITF WOMENS CIUDAD DE LOGROÑO",
+      "loc": "LOGROÑO",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
       "start": "2026-08-17",
       "end": "2026-08-23"
     },
@@ -7787,26 +7807,6 @@
       "name": "W15 DE CAMPOS DO JORDÃO 2",
       "loc": "Campos do Jordão",
       "country": "BRA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-08-17",
-      "end": "2026-08-23"
-    },
-    {
-      "name": "BNP Paribas Fortis Ladies Open",
-      "loc": "Wanfercée-Baulet",
-      "country": "BEL",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Clay",
-      "start": "2026-08-17",
-      "end": "2026-08-23"
-    },
-    {
-      "name": "TORNEO INTERNACIONAL ITF WOMENS CIUDAD DE LOGROÑO",
-      "loc": "LOGROÑO",
-      "country": "ESP",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -7844,6 +7844,16 @@
       "end": "2026-08-30"
     },
     {
+      "name": "WTT ZAVAROVALNICA TRIGLAV OPEN BRANIK MARIBOR",
+      "loc": "Maribor",
+      "country": "SLO",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
+    },
+    {
       "name": "ASTRA COFFEE & MORE OPEN",
       "loc": "Poznan",
       "country": "POL",
@@ -7864,12 +7874,32 @@
       "end": "2026-08-30"
     },
     {
-      "name": "WTT ZAVAROVALNICA TRIGLAV OPEN BRANIK MARIBOR",
-      "loc": "Maribor",
-      "country": "SLO",
+      "name": "M15 Kursumlijska Banja ",
+      "loc": "KURSUMLIJSKA BANJA",
+      "country": "SRB",
       "cat": "ITF",
-      "tier": "M25",
+      "tier": "M15",
       "surf": "Clay",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
+    },
+    {
+      "name": "M15 Mar Del Plata",
+      "loc": "Mar Del Plata",
+      "country": "ARG",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
+    },
+    {
+      "name": "Egypt 7 Somabay Men's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
       "start": "2026-08-24",
       "end": "2026-08-30"
     },
@@ -7887,26 +7917,6 @@
       "name": "M15 Bucharest",
       "loc": "Bucharest",
       "country": "ROU",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-08-24",
-      "end": "2026-08-30"
-    },
-    {
-      "name": "M15 Kursumlijska Banja ",
-      "loc": "KURSUMLIJSKA BANJA",
-      "country": "SRB",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-08-24",
-      "end": "2026-08-30"
-    },
-    {
-      "name": "M15 Mar Del Plata",
-      "loc": "Mar Del Plata",
-      "country": "ARG",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -7984,6 +7994,16 @@
       "end": "2026-08-30"
     },
     {
+      "name": "W35 ALPHAVILLE TÊNIS CLUBE",
+      "loc": "Barueri",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-08-24",
+      "end": "2026-08-30"
+    },
+    {
       "name": "Verbier Open",
       "loc": "Verbier",
       "country": "SUI",
@@ -8000,16 +8020,6 @@
       "cat": "ITF",
       "tier": "W35",
       "surf": "Clay",
-      "start": "2026-08-24",
-      "end": "2026-08-30"
-    },
-    {
-      "name": "W35 ALPHAVILLE TÊNIS CLUBE",
-      "loc": "Barueri",
-      "country": "BRA",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
       "start": "2026-08-24",
       "end": "2026-08-30"
     },
@@ -8044,14 +8054,14 @@
       "end": "2026-08-30"
     },
     {
-      "name": "Tsaghkadzor Autumn Cup",
-      "loc": "Tsaghkadzor",
-      "country": "ARM",
+      "name": "Egypt 7 Somabay Women's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
       "cat": "ITF",
       "tier": "W15",
-      "surf": "Clay",
+      "surf": "Hard",
       "start": "2026-08-24",
-      "end": "2026-08-29"
+      "end": "2026-08-30"
     },
     {
       "name": "Magic Hotel Tours by FTT\t",
@@ -8062,6 +8072,16 @@
       "surf": "Hard",
       "start": "2026-08-24",
       "end": "2026-08-30"
+    },
+    {
+      "name": "Tsaghkadzor Autumn Cup (Cancelled)",
+      "loc": "Tsaghkadzor (Cancelled)",
+      "country": "ARM",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-08-24",
+      "end": "2026-08-29"
     },
     {
       "name": "Internationaux de la Ville de Bagnères-de-Bigorre",
@@ -8117,6 +8137,16 @@
       "name": "M25 Trelew",
       "loc": "Trelew",
       "country": "ARG",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
+      "name": "Egypt 8 Somabay Men's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
@@ -8214,6 +8244,16 @@
       "end": "2026-09-06"
     },
     {
+      "name": "Leiria W50 Ladies Open ",
+      "loc": "Leiria",
+      "country": "POR",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
       "name": "W35 Kursumlijska Banja ",
       "loc": "KURSUMLIJSKA BANJA",
       "country": "SRB",
@@ -8247,6 +8287,16 @@
       "name": "ITF Yeongwol Int'l Women's Tennis Tour _ Week1",
       "loc": "Yeongwol",
       "country": "KOR",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
+      "name": "ITF Women's World Tennis Tour (7)",
+      "loc": "Nakhon Pathom",
+      "country": "THA",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -8324,24 +8374,24 @@
       "end": "2026-09-06"
     },
     {
-      "name": "Tsaghkadzor Autumn Cup",
-      "loc": "Tsaghkadzor",
+      "name": "Egypt 8 Somabay Women's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
+    },
+    {
+      "name": "Tsaghkadzor Autumn Cup (Cancelled)",
+      "loc": "Tsaghkadzor (Cancelled)",
       "country": "ARM",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
       "start": "2026-08-31",
       "end": "2026-09-05"
-    },
-    {
-      "name": "ITF Women's World Tennis Tour (7)",
-      "loc": "Nakhon Pathom",
-      "country": "THA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-08-31",
-      "end": "2026-09-06"
     },
     {
       "name": "Tournoi International de Plaisir",
@@ -8414,6 +8464,16 @@
       "end": "2026-09-13"
     },
     {
+      "name": "Egypt 9 Somabay Men's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
       "name": "ITF Men's World Tennis Tour (8)",
       "loc": "Nakhon Pathom",
       "country": "THA",
@@ -8464,6 +8524,86 @@
       "end": "2026-09-13"
     },
     {
+      "name": "Cartuxa Évora Ladies Open",
+      "loc": "Évora",
+      "country": "POR",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
+      "name": "ITF Women's World Tennis Tour (8)",
+      "loc": "Nakhon Pathom",
+      "country": "THA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
+      "name": "W15 VISERBA DI RIMINI",
+      "loc": "VISERBA DI RIMINI",
+      "country": "ITA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
+      "name": "ITF Yeongwol Int'l Women's Tennis Tour _ Week2",
+      "loc": "Yeongwol",
+      "country": "KOR",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
+      "name": "W15 Campulung",
+      "loc": "Campulung",
+      "country": "ROU",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
+      "name": "Egypt 9 Somabay Women's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-09-07",
+      "end": "2026-09-13"
+    },
+    {
+      "name": "ITF Féminin de la ville de Dijon",
+      "loc": "Dijon",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-09-07",
+      "end": "2026-09-12"
+    },
+    {
       "name": "ITF NEVERS-NIEVRE - 28e Tournoi International de Tennis",
       "loc": "Nevers",
       "country": "FRA",
@@ -8487,6 +8627,16 @@
       "name": "Magic Hotel Tours by FTT",
       "loc": "Monastir",
       "country": "TUN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
+      "name": "Egypt 10 Somabay Men's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
@@ -8532,6 +8682,86 @@
       "surf": "Clay",
       "start": "2026-09-14",
       "end": "2026-09-19"
+    },
+    {
+      "name": "Open International Le Neubourg ",
+      "loc": "Le Neubourg",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
+      "name": "W50 ",
+      "loc": "Pazardzhik",
+      "country": "BUL",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Clay",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
+      "name": "Therme Erding Open (Cancelled)",
+      "loc": "Ismaning (Cancelled)",
+      "country": "GER",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Clay",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
+      "name": "W35 Kyoto",
+      "loc": "Kyoto",
+      "country": "JPN",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
+      "name": "ITF Women's World Tennis Tour (9)",
+      "loc": "Nakhon Pathom",
+      "country": "THA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
+      "name": "Santos Brasil Tennis Classic",
+      "loc": "Sao Luis",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
+      "name": "Egypt 10 Somabay Women's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
     },
     {
       "name": "SETÚBAL OPEN 2026",
@@ -8624,6 +8854,76 @@
       "end": "2026-09-27"
     },
     {
+      "name": "IV OPEN INTERNACIONAL CIUDAD DE YECLA",
+      "loc": "Yecla",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    },
+    {
+      "name": "W50 Berkeley, CA",
+      "loc": "Berkeley",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    },
+    {
+      "name": "Notowakura International Women's Open Tennis ",
+      "loc": "Nanao",
+      "country": "JPN",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Carpet",
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    },
+    {
+      "name": "W50 Burgas",
+      "loc": "Burgas",
+      "country": "BUL",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Clay",
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    },
+    {
+      "name": "W15 BELÉM",
+      "loc": "Belem",
+      "country": "BRA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    },
+    {
+      "name": "W15 Constanta",
+      "loc": "Constanta",
+      "country": "ROU",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    },
+    {
       "name": "RWANDA OPEN M25",
       "loc": "Kigali",
       "country": "RWA",
@@ -8704,6 +9004,66 @@
       "end": "2026-10-04"
     },
     {
+      "name": "W100 Templeton, CA",
+      "loc": "Templeton",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W100",
+      "surf": "Hard",
+      "start": "2026-09-28",
+      "end": "2026-10-04"
+    },
+    {
+      "name": "Wagga Wagga Tennis International #1",
+      "loc": "Wagga Wagga",
+      "country": "AUS",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-09-28",
+      "end": "2026-10-04"
+    },
+    {
+      "name": "OPEN JCASTILLO-OCCIDENT",
+      "loc": "Baza",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-09-28",
+      "end": "2026-10-04"
+    },
+    {
+      "name": "Internationaux de Reims-Champagne",
+      "loc": "Reims",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-09-28",
+      "end": "2026-10-04"
+    },
+    {
+      "name": "W35 San Rafael, CA",
+      "loc": "San Rafael",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-09-28",
+      "end": "2026-10-04"
+    },
+    {
+      "name": "Magic Hotel Tours by FTT\t",
+      "loc": "Monastir",
+      "country": "TUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-09-28",
+      "end": "2026-10-04"
+    },
+    {
       "name": "RWANDA OPEN M25",
       "loc": "Kigali",
       "country": "RWA",
@@ -8750,6 +9110,76 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
+      "start": "2026-10-05",
+      "end": "2026-10-11"
+    },
+    {
+      "name": "W50 Plovdiv",
+      "loc": "Plovdiv",
+      "country": "BUL",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Clay",
+      "start": "2026-10-05",
+      "end": "2026-10-11"
+    },
+    {
+      "name": "W50 Heraklion",
+      "loc": "Heraklion",
+      "country": "GRE",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Clay",
+      "start": "2026-10-05",
+      "end": "2026-10-11"
+    },
+    {
+      "name": "W50 Columbia, SC",
+      "loc": "Columbia, SC",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-10-05",
+      "end": "2026-10-11"
+    },
+    {
+      "name": "Wagga Wagga Tennis International #2",
+      "loc": "Wagga Wagga",
+      "country": "AUS",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-10-05",
+      "end": "2026-10-11"
+    },
+    {
+      "name": "W35 Las Vegas, NV",
+      "loc": "Las Vegas, NV",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-10-05",
+      "end": "2026-10-11"
+    },
+    {
+      "name": "ITF W35 Femmes en Nord Villeneuve d'Ascq",
+      "loc": "Villeneuve d'Ascq",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-10-05",
+      "end": "2026-10-11"
+    },
+    {
+      "name": "Viszlo Open",
+      "loc": "Székesfehérvár",
+      "country": "HUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
       "start": "2026-10-05",
       "end": "2026-10-11"
     },
@@ -8822,6 +9252,66 @@
       "surf": "Hard",
       "start": "2026-10-12",
       "end": "2026-10-18"
+    },
+    {
+      "name": "W100 Edmond, OK",
+      "loc": "Edmond",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W100",
+      "surf": "Hard",
+      "start": "2026-10-12",
+      "end": "2026-10-18"
+    },
+    {
+      "name": "W50 Quebec City",
+      "loc": "Quebec City",
+      "country": "CAN",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-10-12",
+      "end": "2026-10-18"
+    },
+    {
+      "name": "W50 Stara Zagora",
+      "loc": "Stara Zagora",
+      "country": "BUL",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Clay",
+      "start": "2026-10-12",
+      "end": "2026-10-18"
+    },
+    {
+      "name": "W35 Heraklion",
+      "loc": "Heraklion",
+      "country": "GRE",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
+      "start": "2026-10-12",
+      "end": "2026-10-18"
+    },
+    {
+      "name": "W35 Redding, CA",
+      "loc": "Redding",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-10-12",
+      "end": "2026-10-18"
+    },
+    {
+      "name": "Lexus British Pro Series Birmingham",
+      "loc": "Birmingham",
+      "country": "GBR",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-10-12",
+      "end": "2026-10-17"
     },
     {
       "name": "Kikuxi Open II",
@@ -8909,6 +9399,66 @@
       "country": "SGP",
       "cat": "ITF",
       "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
+      "name": "Lexus Wrexham Open",
+      "loc": "Wrexham",
+      "country": "GBR",
+      "cat": "ITF",
+      "tier": "W100",
+      "surf": "Hard",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
+      "name": "Challenger Banque Nationale de Saguenay",
+      "loc": "Saguenay",
+      "country": "CAN",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
+      "name": "Open Féminin",
+      "loc": "Cherbourg-en-Cotentin",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
+      "name": "W50 Austin, TX",
+      "loc": "Austin",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
+      "name": "ITF W15 JUAN CARLOS FERRERO",
+      "loc": "villena",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
+      "name": "W15 Singapore ITF World Tennis Tour (IV) 2026",
+      "loc": "Singapore",
+      "country": "SGP",
+      "cat": "ITF",
+      "tier": "W15",
       "surf": "Hard",
       "start": "2026-10-19",
       "end": "2026-10-25"
@@ -9004,6 +9554,86 @@
       "end": "2026-10-31"
     },
     {
+      "name": "W100 New Braunfels, TX",
+      "loc": "New Braunfels, TX",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W100",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
+      "name": "Tevlin Challenger",
+      "loc": "Toronto",
+      "country": "CAN",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
+      "name": "Lexus British Pro Series Glasgow",
+      "loc": "Glasgow",
+      "country": "GBR",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
+      "name": "Internationaux Féminins de la Vienne",
+      "loc": "Poitiers",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
+      "name": "W35 Norman, OK",
+      "loc": "Norman",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
+      "name": "Audi Danderyd Stockholm Ladies",
+      "loc": "Täby",
+      "country": "SWE",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
+      "name": "W15 Singapore ITF World Tennis Tour (III) 2026",
+      "loc": "Singapore",
+      "country": "SGP",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
+      "name": "W15 Sumter, SC",
+      "loc": "Sumter",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
       "name": "II ITF FUTURES CIUTAT DE VALENCIA",
       "loc": "VALENCIA",
       "country": "ESP",
@@ -9044,6 +9674,56 @@
       "end": "2026-11-08"
     },
     {
+      "name": "W100 Incheon",
+      "loc": "Incheon",
+      "country": "KOR",
+      "cat": "ITF",
+      "tier": "W100",
+      "surf": "Hard",
+      "start": "2026-11-02",
+      "end": "2026-11-08"
+    },
+    {
+      "name": "W50 HERAKLION",
+      "loc": "Heraklion",
+      "country": "GRE",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Clay",
+      "start": "2026-11-02",
+      "end": "2026-11-08"
+    },
+    {
+      "name": "KYOTEC OPEN",
+      "loc": "Petange",
+      "country": "LUX",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-11-02",
+      "end": "2026-11-08"
+    },
+    {
+      "name": "Hamamatsu womens open 2025",
+      "loc": "Hamamatsu",
+      "country": "JPN",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Carpet",
+      "start": "2026-11-02",
+      "end": "2026-11-08"
+    },
+    {
+      "name": "HNTA Open",
+      "loc": "Szabolcsveresmart",
+      "country": "HUN",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-11-02",
+      "end": "2026-11-08"
+    },
+    {
       "name": "M25 Montreal ",
       "loc": "Montreal",
       "country": "CAN",
@@ -9074,11 +9754,101 @@
       "end": "2026-11-15"
     },
     {
+      "name": "Brisbane QTC Tennis International",
+      "loc": "Brisbane",
+      "country": "AUS",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "Yokohama Keio Challenger 2026 supported by MITA KOSAN",
+      "loc": "Yokohama",
+      "country": "JPN",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "W35 HERAKLION",
+      "loc": "Heraklion",
+      "country": "GRE",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "XI OPEN INTERNACIONAL DE TENIS FEMENINO WTA NULES ",
+      "loc": "Nules",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "W15 Paris",
+      "loc": "Paris",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
       "name": "M15 HERAKLION",
       "loc": "Heraklion",
       "country": "GRE",
       "cat": "ITF",
       "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-11-16",
+      "end": "2026-11-22"
+    },
+    {
+      "name": "Perpetual NSW Open",
+      "loc": "Sydney",
+      "country": "AUS",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-11-16",
+      "end": "2026-11-22"
+    },
+    {
+      "name": "W50 HERAKLION",
+      "loc": "Heraklion",
+      "country": "GRE",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Clay",
+      "start": "2026-11-16",
+      "end": "2026-11-22"
+    },
+    {
+      "name": "W50 Funchal",
+      "loc": "Funchal",
+      "country": "POR",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-11-16",
+      "end": "2026-11-22"
+    },
+    {
+      "name": "TBC",
+      "loc": "Paris",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W15",
       "surf": "Hard",
       "start": "2026-11-16",
       "end": "2026-11-22"
@@ -9094,11 +9864,71 @@
       "end": "2026-11-29"
     },
     {
+      "name": "City of Playford Tennis International",
+      "loc": "Adelaide",
+      "country": "AUS",
+      "cat": "ITF",
+      "tier": "W75",
+      "surf": "Hard",
+      "start": "2026-11-23",
+      "end": "2026-11-29"
+    },
+    {
+      "name": "W50 Ortisei",
+      "loc": "Ortisei",
+      "country": "ITA",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-11-23",
+      "end": "2026-11-28"
+    },
+    {
+      "name": "W15 HERAKLION",
+      "loc": "Heraklion",
+      "country": "GRE",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-11-23",
+      "end": "2026-11-29"
+    },
+    {
       "name": "M15 Lima",
       "loc": "Lima",
       "country": "PER",
       "cat": "ITF",
       "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-11-30",
+      "end": "2026-12-06"
+    },
+    {
+      "name": "ITF WOMEN VAL GARDENA SÜDTIROL RAIFFEISEN",
+      "loc": "Selva Gardena",
+      "country": "ITA",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Hard",
+      "start": "2026-11-30",
+      "end": "2026-12-05"
+    },
+    {
+      "name": "XXIII INTERNACIONAL FEMENINO DE TENIS MELILLA CIUDAD DEL DEPORTE",
+      "loc": "MELILLA",
+      "country": "ESP",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-11-30",
+      "end": "2026-12-06"
+    },
+    {
+      "name": "W15 Lima ",
+      "loc": "Lima",
+      "country": "PER",
+      "cat": "ITF",
+      "tier": "W15",
       "surf": "Clay",
       "start": "2026-11-30",
       "end": "2026-12-06"
@@ -9124,6 +9954,26 @@
       "end": "2026-12-13"
     },
     {
+      "name": "W35 Singapore ITF World Tennis Tour (V) 2026",
+      "loc": "Singapore",
+      "country": "SGP",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Hard",
+      "start": "2026-12-07",
+      "end": "2026-12-13"
+    },
+    {
+      "name": "W15 Lima ",
+      "loc": "Lima",
+      "country": "PER",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Clay",
+      "start": "2026-12-07",
+      "end": "2026-12-13"
+    },
+    {
       "name": "M15 Lima",
       "loc": "Lima",
       "country": "PER",
@@ -9139,6 +9989,26 @@
       "country": "SGP",
       "cat": "ITF",
       "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-12-14",
+      "end": "2026-12-20"
+    },
+    {
+      "name": "W15 Lima ",
+      "loc": "Lima",
+      "country": "PER",
+      "cat": "ITF",
+      "tier": "W35",
+      "surf": "Clay",
+      "start": "2026-12-14",
+      "end": "2026-12-20"
+    },
+    {
+      "name": "W15 Singapore",
+      "loc": "Singapore",
+      "country": "SGP",
+      "cat": "ITF",
+      "tier": "W15",
       "surf": "Hard",
       "start": "2026-12-14",
       "end": "2026-12-20"
