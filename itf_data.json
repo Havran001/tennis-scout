@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-01T08:17:42Z",
+  "updated": "2026-07-02T07:37:38Z",
   "year": 2026,
-  "count": 928,
+  "count": 929,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -8334,9 +8334,9 @@
       "end": "2026-09-06"
     },
     {
-      "name": "ITF Women's World Tennis Tour (7)",
-      "loc": "Nakhon Pathom",
-      "country": "THA",
+      "name": "Egypt 8 Somabay Women's Future",
+      "loc": "Hurghada",
+      "country": "EGY",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Hard",
@@ -8414,16 +8414,6 @@
       "end": "2026-09-06"
     },
     {
-      "name": "Egypt 8 Somabay Women's Future",
-      "loc": "Hurghada",
-      "country": "EGY",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-08-31",
-      "end": "2026-09-06"
-    },
-    {
       "name": "Tsaghkadzor Autumn Cup (Cancelled)",
       "loc": "Tsaghkadzor (Cancelled)",
       "country": "ARM",
@@ -8432,6 +8422,16 @@
       "surf": "Clay",
       "start": "2026-08-31",
       "end": "2026-09-05"
+    },
+    {
+      "name": "ITF Women's World Tennis Tour (7)",
+      "loc": "Nakhon Pathom",
+      "country": "THA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
+      "start": "2026-08-31",
+      "end": "2026-09-06"
     },
     {
       "name": "Tournoi International de Plaisir",
@@ -8584,6 +8584,16 @@
       "end": "2026-09-20"
     },
     {
+      "name": "M25 Guiyang",
+      "loc": "Guiyang",
+      "country": "CHN",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    {
       "name": "M25 Zlatibor",
       "loc": "Zlatibor",
       "country": "SRB",
@@ -8607,16 +8617,6 @@
       "name": "Egypt 10 Somabay Men's Future",
       "loc": "Hurghada",
       "country": "EGY",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-09-14",
-      "end": "2026-09-20"
-    },
-    {
-      "name": "ITF Men's World Tennis Tour (9)",
-      "loc": "Nakhon Pathom",
-      "country": "THA",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
@@ -8652,6 +8652,16 @@
       "surf": "Clay",
       "start": "2026-09-14",
       "end": "2026-09-19"
+    },
+    {
+      "name": "ITF Men's World Tennis Tour (9)",
+      "loc": "Nakhon Pathom",
+      "country": "THA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-09-14",
+      "end": "2026-09-20"
     },
     {
       "name": "Falun Future Tennis 2026",
