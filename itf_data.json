@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-03T07:29:35Z",
+  "updated": "2026-07-04T06:52:56Z",
   "year": 2026,
-  "count": 930,
+  "count": 933,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -6751,7 +6751,7 @@
       "tier": "W75",
       "surf": "Clay",
       "start": "2026-07-20",
-      "end": "2026-07-27"
+      "end": "2026-07-26"
     },
     {
       "name": "W75 Cordenons",
@@ -6814,9 +6814,9 @@
       "end": "2026-07-26"
     },
     {
-      "name": "Tournoi de l'Île aux Loups",
-      "loc": "Nogent-sur-Marne",
-      "country": "FRA",
+      "name": "W15 Las Palmas de Gran Canaria",
+      "loc": "Las Palmas de Gran Canaria",
+      "country": "ESP",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
@@ -6834,9 +6834,9 @@
       "end": "2026-07-26"
     },
     {
-      "name": "W15 Las Palmas de Gran Canaria",
-      "loc": "Las Palmas de Gran Canaria",
-      "country": "ESP",
+      "name": "Tournoi de l'Île aux Loups",
+      "loc": "Nogent-sur-Marne",
+      "country": "FRA",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
@@ -8714,6 +8714,16 @@
       "end": "2026-09-27"
     },
     {
+      "name": "M25 Yinchuan",
+      "loc": "Yinchuan",
+      "country": "CHN",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    },
+    {
       "name": "M15 Baku",
       "loc": "Baku",
       "country": "AZE",
@@ -8824,6 +8834,16 @@
       "end": "2026-10-04"
     },
     {
+      "name": "Jin An Open 2026",
+      "loc": "Luan",
+      "country": "CHN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-09-28",
+      "end": "2026-10-04"
+    },
+    {
       "name": "M15 Fayetteville, AR ",
       "loc": "Fayetteville",
       "country": "USA",
@@ -8857,6 +8877,16 @@
       "name": "NT International",
       "loc": "Darwin",
       "country": "AUS",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-10-05",
+      "end": "2026-10-11"
+    },
+    {
+      "name": "Jin An Open 2026",
+      "loc": "Luan",
+      "country": "CHN",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Hard",
