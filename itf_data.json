@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-17T06:22:29Z",
+  "updated": "2026-07-18T06:10:25Z",
   "year": 2026,
-  "count": 950,
+  "count": 951,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -7541,7 +7541,7 @@
       "tier": "W35",
       "surf": "Hard",
       "start": "2026-08-10",
-      "end": "2026-08-15"
+      "end": "2026-08-16"
     },
     {
       "name": "Fale Loki Koki Cup Bydgoszcz",
@@ -9144,16 +9144,6 @@
       "end": "2026-10-24"
     },
     {
-      "name": "Capital of Country International #1",
-      "loc": "Tamworth",
-      "country": "AUS",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-10-19",
-      "end": "2026-10-25"
-    },
-    {
       "name": "Kikuxi Open II",
       "loc": "Luanda",
       "country": "ANG",
@@ -9174,11 +9164,21 @@
       "end": "2026-10-25"
     },
     {
-      "name": "M25 Stillwater, OK",
-      "loc": "Stillwater, OK",
-      "country": "USA",
+      "name": "Capital of Country International #1",
+      "loc": "Tamworth",
+      "country": "AUS",
       "cat": "ITF",
       "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-10-19",
+      "end": "2026-10-25"
+    },
+    {
+      "name": "M15 HERAKLION",
+      "loc": "Heraklion",
+      "country": "GRE",
+      "cat": "ITF",
+      "tier": "M15",
       "surf": "Hard",
       "start": "2026-10-19",
       "end": "2026-10-25"
@@ -9210,16 +9210,6 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
-      "start": "2026-10-19",
-      "end": "2026-10-25"
-    },
-    {
-      "name": "M15 HERAKLION",
-      "loc": "Heraklion",
-      "country": "GRE",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
       "start": "2026-10-19",
       "end": "2026-10-25"
     },
@@ -9422,6 +9412,26 @@
       "surf": "Hard",
       "start": "2026-11-16",
       "end": "2026-11-22"
+    },
+    {
+      "name": "M25 Stillwater, OK",
+      "loc": "Stillwater, OK",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-11-16",
+      "end": "2026-11-22"
+    },
+    {
+      "name": "HIT Open Hradec Kralove 2026",
+      "loc": "Hradec Kralove",
+      "country": "CZE",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-11-23",
+      "end": "2026-11-29"
     },
     {
       "name": "M25 HERAKLION",
