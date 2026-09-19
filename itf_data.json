@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T08:56:10Z",
+  "updated": "2026-09-19T08:43:02Z",
   "year": 2026,
-  "count": 1031,
+  "count": 1035,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -9404,6 +9404,16 @@
       "end": "2026-10-25"
     },
     {
+      "name": "Lexus British Pro Series Sheffield",
+      "loc": "Sheffield",
+      "country": "GBR",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    {
       "name": "Capital of Country International #2",
       "loc": "Tamworth",
       "country": "AUS",
@@ -9414,7 +9424,7 @@
       "end": "2026-11-01"
     },
     {
-      "name": "M25 Norman, OK",
+      "name": "Norman Open",
       "loc": "Norman",
       "country": "USA",
       "cat": "ITF",
@@ -9437,16 +9447,6 @@
       "name": "M25 Malta",
       "loc": "Marsa",
       "country": "MLT",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-10-26",
-      "end": "2026-11-01"
-    },
-    {
-      "name": "Lexus British Pro Series Sheffield",
-      "loc": "Sheffield",
-      "country": "GBR",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Hard",
@@ -9487,26 +9487,6 @@
       "name": "M15 Selva Gardena",
       "loc": "Selva Gardena",
       "country": "ITA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-10-26",
-      "end": "2026-10-31"
-    },
-    {
-      "name": "Magic Hotel Tours by FTT",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-10-26",
-      "end": "2026-11-01"
-    },
-    {
-      "name": "Egypt 22 Sharm ElSheikh Men's Future",
-      "loc": "Sharm ElSheikh",
-      "country": "EGY",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
@@ -9564,24 +9544,24 @@
       "end": "2026-11-01"
     },
     {
-      "name": "Aspiria Open 2026",
-      "loc": "Guadalajara",
-      "country": "MEX",
+      "name": "Magic Hotel Tours by FTT",
+      "loc": "Monastir",
+      "country": "TUN",
       "cat": "ITF",
-      "tier": "M25",
-      "surf": "Clay",
-      "start": "2026-11-02",
-      "end": "2026-11-07"
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-10-26",
+      "end": "2026-11-01"
     },
     {
-      "name": "M25 HERAKLION",
-      "loc": "Heraklion",
-      "country": "GRE",
+      "name": "Egypt 22 Sharm ElSheikh Men's Future",
+      "loc": "Sharm ElSheikh",
+      "country": "EGY",
       "cat": "ITF",
-      "tier": "M25",
+      "tier": "M15",
       "surf": "Hard",
-      "start": "2026-11-02",
-      "end": "2026-11-08"
+      "start": "2026-10-26",
+      "end": "2026-11-01"
     },
     {
       "name": "III ITF FUTURES CIUTAT DE VALENCIA",
@@ -9597,6 +9577,26 @@
       "name": "Harlingen Country Club $30,000 Pro Circuit",
       "loc": "Harlingen",
       "country": "USA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-11-02",
+      "end": "2026-11-08"
+    },
+    {
+      "name": "Aspiria Open 2026",
+      "loc": "Guadalajara",
+      "country": "MEX",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Clay",
+      "start": "2026-11-02",
+      "end": "2026-11-07"
+    },
+    {
+      "name": "M25 HERAKLION",
+      "loc": "Heraklion",
+      "country": "GRE",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Hard",
@@ -9704,6 +9704,16 @@
       "end": "2026-11-08"
     },
     {
+      "name": "2026 Ma'anshan Open",
+      "loc": "Maanshan",
+      "country": "CHN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-11-02",
+      "end": "2026-11-08"
+    },
+    {
       "name": "M25 Montreal ",
       "loc": "Montreal",
       "country": "CAN",
@@ -9720,6 +9730,16 @@
       "cat": "ITF",
       "tier": "M25",
       "surf": "Clay",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "Columbus M25",
+      "loc": "Columbus, ",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
       "start": "2026-11-09",
       "end": "2026-11-15"
     },
@@ -9742,26 +9762,6 @@
       "surf": "Clay",
       "start": "2026-11-09",
       "end": "2026-11-16"
-    },
-    {
-      "name": "Columbus M25",
-      "loc": "Columbus, ",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-11-09",
-      "end": "2026-11-15"
-    },
-    {
-      "name": "M15 Naples, FL",
-      "loc": "Naples",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "M15",
-      "surf": "Clay",
-      "start": "2026-11-09",
-      "end": "2026-11-15"
     },
     {
       "name": "CAL-COMP & CCAU INDUSTRY 4.0 ITF World Tennis Tour 2026 (1)",
@@ -9790,6 +9790,36 @@
       "cat": "ITF",
       "tier": "M15",
       "surf": "Hard",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "2026 Ma'anshan Open",
+      "loc": "Maanshan",
+      "country": "CHN",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "M15 Roldan ",
+      "loc": "Roldan",
+      "country": "ARG",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "M15 Naples, FL",
+      "loc": "Naples",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
       "start": "2026-11-09",
       "end": "2026-11-15"
     },
@@ -9844,12 +9874,32 @@
       "end": "2026-11-15"
     },
     {
-      "name": "TORNEO M2 AKARI",
-      "loc": "Chihuahua",
-      "country": "MEX",
+      "name": "M15 HERAKLION",
+      "loc": "Heraklion",
+      "country": "GRE",
       "cat": "ITF",
       "tier": "M25",
-      "surf": "Clay",
+      "surf": "Hard",
+      "start": "2026-11-16",
+      "end": "2026-11-22"
+    },
+    {
+      "name": "M25 VALE DO LOBO",
+      "loc": "Vale do Lobo",
+      "country": "POR",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-11-16",
+      "end": "2026-11-22"
+    },
+    {
+      "name": "M25 Bradenton, FL",
+      "loc": "Bradenton, FL",
+      "country": "USA",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
       "start": "2026-11-16",
       "end": "2026-11-22"
     },
@@ -9881,35 +9931,15 @@
       "tier": "M25",
       "surf": "Clay",
       "start": "2026-11-16",
-      "end": "2026-11-23"
-    },
-    {
-      "name": "M15 HERAKLION",
-      "loc": "Heraklion",
-      "country": "GRE",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-11-16",
       "end": "2026-11-22"
     },
     {
-      "name": "M25 VALE DO LOBO",
-      "loc": "Vale do Lobo",
-      "country": "POR",
+      "name": "TORNEO M2 AKARI",
+      "loc": "Chihuahua",
+      "country": "MEX",
       "cat": "ITF",
       "tier": "M25",
-      "surf": "Hard",
-      "start": "2026-11-16",
-      "end": "2026-11-22"
-    },
-    {
-      "name": "M25 Bradenton, FL",
-      "loc": "Bradenton, FL",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "M25",
-      "surf": "Hard",
+      "surf": "Clay",
       "start": "2026-11-16",
       "end": "2026-11-22"
     },
@@ -9957,6 +9987,16 @@
       "name": "M15 Orlando, FL",
       "loc": "Orlando",
       "country": "USA",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Clay",
+      "start": "2026-11-16",
+      "end": "2026-11-22"
+    },
+    {
+      "name": "M15 Olavarria",
+      "loc": "Olavarria ",
+      "country": "ARG",
       "cat": "ITF",
       "tier": "M15",
       "surf": "Clay",
@@ -10064,9 +10104,9 @@
       "end": "2026-11-29"
     },
     {
-      "name": "M25 Punta Cana",
-      "loc": "Punta Cana",
-      "country": "DOM",
+      "name": "M25 Port St. Lucie, FL",
+      "loc": "Port St. Lucie, FL",
+      "country": "USA",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Clay",
@@ -10074,9 +10114,9 @@
       "end": "2026-12-06"
     },
     {
-      "name": "M25 Port St. Lucie, FL",
-      "loc": "Port St. Lucie, FL",
-      "country": "USA",
+      "name": "M25 Punta Cana",
+      "loc": "Punta Cana",
+      "country": "DOM",
       "cat": "ITF",
       "tier": "M25",
       "surf": "Clay",
