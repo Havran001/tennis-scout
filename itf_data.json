@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-14T09:24:52Z",
+  "updated": "2026-10-15T09:03:40Z",
   "year": 2026,
-  "count": 1216,
+  "count": 1218,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -11034,22 +11034,22 @@
       "end": "2026-11-15"
     },
     {
-      "name": "Torneo Akari W50 PATROCINADO POR HOTEL HIGHLAND",
-      "loc": "Chihuahua",
-      "country": "MEX",
-      "cat": "ITF",
-      "tier": "W50",
-      "surf": "Clay",
-      "start": "2026-11-09",
-      "end": "2026-11-14"
-    },
-    {
       "name": "Yokohama Keio Challenger 2026 supported by MITA KOSAN",
       "loc": "Yokohama",
       "country": "JPN",
       "cat": "ITF",
       "tier": "W50",
       "surf": "Hard",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "Torneo Akari W50 PATROCINADO POR HOTEL HIGHLAND",
+      "loc": "Chihuahua",
+      "country": "MEX",
+      "cat": "ITF",
+      "tier": "W50",
+      "surf": "Clay",
       "start": "2026-11-09",
       "end": "2026-11-15"
     },
@@ -11114,22 +11114,22 @@
       "end": "2026-11-15"
     },
     {
-      "name": "W15 Paris",
-      "loc": "Paris",
-      "country": "FRA",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-11-09",
-      "end": "2026-11-15"
-    },
-    {
       "name": "XI OPEN INTERNACIONAL DE TENIS FEMENINO WTA NULES ",
       "loc": "Nules",
       "country": "ESP",
       "cat": "ITF",
       "tier": "W15",
       "surf": "Clay",
+      "start": "2026-11-09",
+      "end": "2026-11-15"
+    },
+    {
+      "name": "W15 Paris",
+      "loc": "Paris",
+      "country": "FRA",
+      "cat": "ITF",
+      "tier": "W15",
+      "surf": "Hard",
       "start": "2026-11-09",
       "end": "2026-11-15"
     },
@@ -11624,6 +11624,16 @@
       "end": "2026-12-06"
     },
     {
+      "name": "M15 Islamabad ",
+      "loc": "Islamabad",
+      "country": "PAK",
+      "cat": "ITF",
+      "tier": "M15",
+      "surf": "Hard",
+      "start": "2026-11-30",
+      "end": "2026-12-06"
+    },
+    {
       "name": "M15 Santa Cruz Urbarí 2 2026",
       "loc": "Santa Cruz",
       "country": "BOL",
@@ -11634,7 +11644,7 @@
       "end": "2026-12-06"
     },
     {
-      "name": "M15 Lima",
+      "name": "Grand Prix - M15 Lima",
       "loc": "Lima",
       "country": "PER",
       "cat": "ITF",
@@ -11704,9 +11714,9 @@
       "end": "2026-12-05"
     },
     {
-      "name": "W50 Punta Cana",
-      "loc": "Punta Cana",
-      "country": "DOM",
+      "name": "W50 Heraklion",
+      "loc": "Heraklion",
+      "country": "GRE",
       "cat": "ITF",
       "tier": "W50",
       "surf": "Clay",
@@ -11714,9 +11724,9 @@
       "end": "2026-12-06"
     },
     {
-      "name": "W50 Heraklion",
-      "loc": "Heraklion",
-      "country": "GRE",
+      "name": "W50 Punta Cana",
+      "loc": "Punta Cana",
+      "country": "DOM",
       "cat": "ITF",
       "tier": "W50",
       "surf": "Clay",
@@ -11764,7 +11774,7 @@
       "end": "2026-12-06"
     },
     {
-      "name": "W15 Lima ",
+      "name": "Grand Prix - W15 Lima ",
       "loc": "Lima",
       "country": "PER",
       "cat": "ITF",
@@ -11814,6 +11824,16 @@
       "end": "2026-12-13"
     },
     {
+      "name": "M25 Islamabad ",
+      "loc": "Islamabad",
+      "country": "PAK",
+      "cat": "ITF",
+      "tier": "M25",
+      "surf": "Hard",
+      "start": "2026-12-07",
+      "end": "2026-12-13"
+    },
+    {
       "name": "Magic Hotel Tours by FTT",
       "loc": "Monastir",
       "country": "TUN",
@@ -11834,7 +11854,7 @@
       "end": "2026-12-13"
     },
     {
-      "name": "M15 Lima",
+      "name": "Grand Prix - M15 Lima",
       "loc": "Lima",
       "country": "PER",
       "cat": "ITF",
@@ -11924,7 +11944,7 @@
       "end": "2026-12-13"
     },
     {
-      "name": "W15 Lima ",
+      "name": "Grand Prix - W15 Lima ",
       "loc": "Lima",
       "country": "PER",
       "cat": "ITF",
@@ -11964,7 +11984,7 @@
       "end": "2026-12-13"
     },
     {
-      "name": "M15 Lima",
+      "name": "Grand Prix - M25 Lima",
       "loc": "Lima",
       "country": "PER",
       "cat": "ITF",
@@ -12034,7 +12054,7 @@
       "end": "2026-12-20"
     },
     {
-      "name": "W15 Lima ",
+      "name": "Grand Prix - W35 Lima ",
       "loc": "Lima",
       "country": "PER",
       "cat": "ITF",
