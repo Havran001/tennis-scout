@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-08T11:10:38Z",
+  "updated": "2026-11-09T12:43:11Z",
   "year": 2026,
-  "count": 1222,
+  "count": 1202,
   "items": [
     {
       "name": "Haz Master Tour 2026",
@@ -79,56 +79,6 @@
       "country": "EGY",
       "cat": "ITF",
       "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-01-05",
-      "end": "2026-01-11"
-    },
-    {
-      "name": "ITF World Tennis Tour Presented by SAT (1)",
-      "loc": "Nonthaburi",
-      "country": "THA",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Hard",
-      "start": "2026-01-05",
-      "end": "2026-01-11"
-    },
-    {
-      "name": "W35 Nairobi",
-      "loc": "Nairobi",
-      "country": "KEN",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-01-05",
-      "end": "2026-01-11"
-    },
-    {
-      "name": "Magic Hotel Tours by FTT\t",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-01-05",
-      "end": "2026-01-11"
-    },
-    {
-      "name": "Egypt 1 Somabay Women's Future",
-      "loc": "Hurghada",
-      "country": "EGY",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-01-05",
-      "end": "2026-01-11"
-    },
-    {
-      "name": "Open Cayenne 2026 W15",
-      "loc": "Cayenne",
-      "country": "FRA",
-      "cat": "ITF",
-      "tier": "W15",
       "surf": "Hard",
       "start": "2026-01-05",
       "end": "2026-01-11"
@@ -224,76 +174,6 @@
       "end": "2026-01-18"
     },
     {
-      "name": "ITF World Tennis Tour Presented by SAT (2)",
-      "loc": "Nonthaburi",
-      "country": "THA",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Hard",
-      "start": "2026-01-12",
-      "end": "2026-01-18"
-    },
-    {
-      "name": "Lexus British Pro Series Manchester",
-      "loc": "Manchester",
-      "country": "GBR",
-      "cat": "ITF",
-      "tier": "W50",
-      "surf": "Hard",
-      "start": "2026-01-12",
-      "end": "2026-01-18"
-    },
-    {
-      "name": "W50 - Buenos Aires",
-      "loc": "Buenos Aires",
-      "country": "ARG",
-      "cat": "ITF",
-      "tier": "W50",
-      "surf": "Clay",
-      "start": "2026-01-12",
-      "end": "2026-01-18"
-    },
-    {
-      "name": "ITF W35 Le  Lamentin - Martinique",
-      "loc": "Le Lamentin",
-      "country": "FRA",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
-      "start": "2026-01-12",
-      "end": "2026-01-18"
-    },
-    {
-      "name": "Solid Rock Construction presented by Reel Coastal Properties ",
-      "loc": "Bradenton, FL",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
-      "start": "2026-01-12",
-      "end": "2026-01-18"
-    },
-    {
-      "name": "Magic Hotel Tours by FTT\t",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-01-12",
-      "end": "2026-01-18"
-    },
-    {
-      "name": "Egypt 2 Somabay Women's Future",
-      "loc": "Hurghada",
-      "country": "EGY",
-      "cat": "ITF",
-      "tier": "W15",
-      "surf": "Hard",
-      "start": "2026-01-12",
-      "end": "2026-01-18"
-    },
-    {
       "name": "ANTALYA SERIES",
       "loc": "Antalya",
       "country": "TUR",
@@ -359,76 +239,6 @@
       "country": "EGY",
       "cat": "ITF",
       "tier": "M15",
-      "surf": "Hard",
-      "start": "2026-01-19",
-      "end": "2026-01-25"
-    },
-    {
-      "name": "W75 Leszno",
-      "loc": "Leszno",
-      "country": "POL",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Hard",
-      "start": "2026-01-19",
-      "end": "2026-01-25"
-    },
-    {
-      "name": "Bahrain Open",
-      "loc": "Manama",
-      "country": "BRN",
-      "cat": "ITF",
-      "tier": "W75",
-      "surf": "Hard",
-      "start": "2026-01-19",
-      "end": "2026-01-25"
-    },
-    {
-      "name": "Magic Hotel Tours by FTT\t",
-      "loc": "Monastir",
-      "country": "TUN",
-      "cat": "ITF",
-      "tier": "W50",
-      "surf": "Hard",
-      "start": "2026-01-19",
-      "end": "2026-01-25"
-    },
-    {
-      "name": "W35 Buenos Aires",
-      "loc": "Buenos Aires",
-      "country": "ARG",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-01-19",
-      "end": "2026-01-25"
-    },
-    {
-      "name": "W35 Weston, FL",
-      "loc": "Weston, FL",
-      "country": "USA",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Clay",
-      "start": "2026-01-19",
-      "end": "2026-01-25"
-    },
-    {
-      "name": "Tournoi International de tennis féminin de Petit-Bourg",
-      "loc": "Petit-Bourg",
-      "country": "FRA",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
-      "start": "2026-01-19",
-      "end": "2026-01-25"
-    },
-    {
-      "name": "Egypt 3 Somabay Women's Future",
-      "loc": "Hurghada",
-      "country": "EGY",
-      "cat": "ITF",
-      "tier": "W15",
       "surf": "Hard",
       "start": "2026-01-19",
       "end": "2026-01-25"
@@ -572,16 +382,6 @@
       "surf": "Hard",
       "start": "2026-01-26",
       "end": "2026-02-01"
-    },
-    {
-      "name": "Lexus British Pro Series Birmingham",
-      "loc": "Birmingham",
-      "country": "GBR",
-      "cat": "ITF",
-      "tier": "W35",
-      "surf": "Hard",
-      "start": "2026-01-26",
-      "end": "2026-01-31"
     },
     {
       "name": "Egypt 4 Sharm ElSheikh Women's Future",
